@@ -11,7 +11,7 @@ $manifest = array(
     'type' => 'langpack',
     'is_uninstallable' => 'Yes',
     'author' => 'SuiteCRM Community',
-    'version' => '7.14-1',
+    'version' => '7.15-1',
     'published_date' => '2026-01-16',
 );
 $installdefs = array(
