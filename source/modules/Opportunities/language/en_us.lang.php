@@ -61,7 +61,6 @@ $mod_strings = array(
     'LBL_ACCOUNT_ID' => 'Account ID',
     'LBL_CURRENCY_NAME' => 'Currency Name',
     'LBL_CURRENCY_SYMBOL' => 'Currency Symbol',
-    'LBL_DAYS_OPEN_FOR' => 'This Opportunity Was Open For',
 
     'UPDATE' => 'Opportunity - Currency Update',
     'LBL_ACCOUNT_NAME' => 'Account Name:',
@@ -104,15 +103,10 @@ $mod_strings = array(
     'LBL_CAMPAIGN_OPPORTUNITY' => 'Campaigns',
     'LBL_PROJECT_SUBPANEL_TITLE' => 'Projects',
     'LNK_IMPORT_OPPORTUNITIES' => 'Import Opportunities',
-    'LBL_EDITLAYOUT' => 'Edit Layout'
-    /*for 508 compliance fix*/,
+    'LBL_EDITLAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
 
     // SNIP
 
     'LBL_AOS_CONTRACTS' => 'Contracts',
     'LBL_AOS_QUOTES' => 'Quotes',
-
-    'LBL_SIZE_ANALYSIS' => 'Size Analysis',
-    'LBL_POSITION' => 'Position',
-    'LBL_OUT_OF' => 'Out of',
 );

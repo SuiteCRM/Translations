@@ -93,7 +93,6 @@ $mod_strings = array(
     'LBL_SURVEYS_SURVEYRESPONSES_FROM_SURVEYRESPONSES_TITLE' => 'Survey Responses',
     'LBL_SHOW_RESPONSES' => 'Show responses',
     'LBL_HIDE_RESPONSES' => 'Hide responses',
-    'LNK_LIST_SURVEY_RESPONSES' => 'Show Survey Responses',
     'LBL_SURVEY_QUESTION' => 'Question',
     'LBL_SURVEY_TEXT' => 'Text',
     'LBL_SURVEY_TYPE' => 'Type',
@@ -106,4 +105,5 @@ $mod_strings = array(
     'LBL_SUBMIT' => 'Submit',
     'LBL_STARS' => 'Stars',
     'LBL_SURVEY_CLOSE_RESPONSE' => 'Thanks for your interest but this survey is now closed.',
+    'LBL_SURVEY_THANKS' => 'Thanks for completing this survey.',
 );

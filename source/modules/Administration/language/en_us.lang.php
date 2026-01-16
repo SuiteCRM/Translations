@@ -271,8 +271,6 @@ $mod_strings = array(
     'LBL_LICENSE' => 'License',
 
     'LBL_LDAP_TITLE' => 'LDAP Support',
-    'LBL_LDAP_LEGACY_WARNING' => 'LDAP Warning',
-    'LBL_LDAP_LEGACY_WARNING_MORE' => 'This LDAP configuration will only be used for v4 API authentication. To configure SuiteCRM login to use LDAP, add the needed configurations to the .env.local file. See LDAP configuration docs for more information.',
     'LBL_LDAP_ENABLE' => 'Enable LDAP Authentication',
     'LBL_LDAP_HELP_TXT' => 'When LDAP authentication is enabled, passwords can only be handled through LDAP. None of the SuiteCRM Password Management feature settings will apply.',
     'LBL_LDAP_SERVER_HOSTNAME' => 'Server:',
@@ -895,6 +893,7 @@ $mod_strings = array(
     'LBL_AOS_SETTINGS' => 'Sales Module Settings',
     'LBL_AOS_DAYS' => 'days',
     'LBL_CHANGE_SETTINGS' => 'Change settings for Quotes, Contracts and Invoices',
+    'LBL_CHANGE_SETTINGS_AOD' => 'Change settings for Advanced OpenDiscovery',
     'LBL_CHANGE_SETTINGS_AOP' => 'Change settings for Cases and the Cases Portal',
 
     'LBL_MANAGE_SECURITYGROUPS_TITLE' => 'Security Suite Group Management',
@@ -948,7 +947,7 @@ $mod_strings = array(
     'LBL_ELASTIC_SEARCH_SETTINGS_DESC' => 'Configure Elasticsearch preferences',
     'LBL_ELASTIC_SEARCH_SETTINGS_HELP' => 'Elasticsearch requires an external server set up to work. Read the <a href="https://docs.suitecrm.com/admin/administration-panel/search/elasticsearch/">documentation</a> to learn how.',
     'LBL_ELASTIC_SEARCH_GENERAL' => 'General',
-    'LBL_ELASTIC_SEARCH_ENABLE' => 'Enable Elasticsearch:',
+    'LBL_ELASTIC_SEARCH_ENABLE' => 'Enable Elasticsearch.',
     'LBL_ELASTIC_SEARCH_TEST_CONNECTION' => 'Test connection',
     'LBL_ELASTIC_SEARCH_TEST_CONNECTION_SUCCESS' => 'Connection successful.',
     'LBL_ELASTIC_SEARCH_TEST_CONNECTION_FAIL' => 'Connection failed.',
@@ -988,6 +987,7 @@ $mod_strings = array(
     // Search Engines Translations
     'LBL_SEARCH_WRAPPER_ENGINES' => 'Search Engines',
     'LBL_BASIC_SEARCH_ENGINE' => 'Basic Search',
+    'LBL_BASIC_AND_AOD_ENGINE' => 'Basic + Advanced Search',
     'LBL_ELASTIC_SEARCH_ENGINE' => 'Elasticsearch Engine',
     'LBL_SIMPLE_SQL_SEARCH_ENGINE' => 'Simple SQL Search Engine',
 
@@ -1007,7 +1007,7 @@ $mod_strings = array(
     'LBL_AJAX_SUBMIT_FAIL' => 'An error has occurred while saving the settings.',
 
     'LBL_ADMIN_TOOLS_TITLE' => 'Admin Tools',
-    'LBL_ADMIN_TOOLS_HEADER_DESC' => 'Repair, backup and run diagnosis on your SuiteCRM instance',
+    'LBL_ADMIN_TOOLS_HEADER_DESC' => 'Repair, upgrade and run diagnosis on your SuiteCRM instance',
     'LBL_WORKFLOW_MANAGER' => 'Workflow Manager',
     'LBL_WORKFLOW_MANAGER_DESC' => 'Manage, Add, delete or change Workflow processes',
 

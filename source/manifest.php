@@ -15,7 +15,7 @@ $manifest = array(
     'published_date' => '2026-01-16',
 );
 $installdefs = array(
-    'id' => 'en_us',
+    'id' => 'en_US',
     'image_dir' => '<basepath>/images',
     'copy' => array(
         array('from' => '<basepath>/include', 'to' => 'include'),
