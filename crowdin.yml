@@ -1,0 +1,3 @@
+files:
+  - source: /source/**/*.*
+    translation: /translations/%locale%/**/%original_file_name%
