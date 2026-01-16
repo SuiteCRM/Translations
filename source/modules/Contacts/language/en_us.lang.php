@@ -168,7 +168,6 @@ $mod_strings = array(
     'LNK_NEW_TASK' => 'Create Task',
     'LNK_SELECT_ACCOUNT' => "Select Account",
     'NTC_DELETE_CONFIRMATION' => 'Are you sure you want to delete this record?',
-    'NTC_SNOOZE_CONFIRMATION' => 'Are you sure you want to snooze?',
     'NTC_OPPORTUNITY_REQUIRES_ACCOUNT' => 'Creating an opportunity requires an account.\n Please either create a new account or select an existing one.',
     'NTC_REMOVE_CONFIRMATION' => 'Are you sure you want to remove this contact from the case?',
 
@@ -217,10 +216,6 @@ $mod_strings = array(
     'LBL_AOS_INVOICES' => 'Invoices',
     'LBL_AOS_QUOTES' => 'Quotes',
     'LBL_PROJECT_CONTACTS_1_FROM_PROJECT_TITLE' => 'Project Contacts from Project Title',
-    'LBL_LAST_MEETING' => 'Your last interaction was a meeting on :',
-    'LBL_LAST_CALL' => 'Your last interaction was a call on :',
-    'LBL_LAST_EMAIL' => 'Your last interaction was an email on :',
-    'LBL_NO_INTERACTION' => 'You have yet to interact with this contact.',
 
     'LBL_LIST_INVITE_STATUS' => 'Invite Status',
 );
