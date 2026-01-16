@@ -1,5 +1,13 @@
-files:
-  - source: /source/**/*.*
-    translation: /translations/%locale%/**/%original_file_name%#
-    translation_replace:
-      "en_us": %locale_with_underscore% 
+"files": [
+  {
+    "source":"/source/**/*en_us.*",
+    "translation":"/translations/%locale_with_underscore%/**/%locale_with_underscore%%original_file_name%",
+    "translation_replace":{
+      "en_us":""
+    }
+  },
+  {
+    "source": "/source/manifest.php",
+    "translation": "/translations/%locale_with_underscore%/**/manifest.php",
+  }
+]
