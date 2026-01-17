@@ -1,0 +1,93 @@
+<?php
+/**
+ *
+ * SugarCRM Community Edition is a customer relationship management program developed by
+ * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
+ *
+ * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
+ * Copyright (C) 2011 - 2019 SalesAgility Ltd.
+ *
+ * This program is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU Affero General Public License version 3 as published by the
+ * Free Software Foundation with the addition of the following permission added
+ * to Section 15 as permitted in Section 7(a): FOR ANY PART OF THE COVERED WORK
+ * IN WHICH THE COPYRIGHT IS OWNED BY SUGARCRM, SUGARCRM DISCLAIMS THE WARRANTY
+ * OF NON INFRINGEMENT OF THIRD PARTY RIGHTS.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with
+ * this program; if not, see http://www.gnu.org/licenses or write to the Free
+ * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301 USA.
+ *
+ * You can contact SugarCRM, Inc. headquarters at 10050 North Wolfe Road,
+ * SW2-130, Cupertino, CA 95014, USA. or at email address contact@sugarcrm.com.
+ *
+ * The interactive user interfaces in modified source and object code versions
+ * of this program must display Appropriate Legal Notices, as required under
+ * Section 5 of the GNU Affero General Public License version 3.
+ *
+ * In accordance with Section 7(b) of the GNU Affero General Public License version 3,
+ * these Appropriate Legal Notices must retain the display of the "Powered by
+ * SugarCRM" logo and "Supercharged by SuiteCRM" logo. If the display of the logos is not
+ * reasonably feasible for technical reasons, the Appropriate Legal Notices must
+ * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
+ */
+
+if (!defined('sugarEntry') || !sugarEntry) {
+    die('Not A Valid Entry Point');
+}
+
+$mod_strings = array(
+    'LBL_ID' => 'Kod',
+    'LBL_DATE_ENTERED' => 'Eklenme tarihi',
+    'LBL_DATE_MODIFIED' => 'Değiştirilme tarihi',
+    'LBL_MODIFIED' => 'Değiştiren',
+    'LBL_MODIFIED_ID' => 'Değiştiren kodu',
+    'LBL_MODIFIED_NAME' => 'Değiştiren adı',
+    'LBL_CREATED_USER' => 'Ekleyen kullanıcı',
+    'LBL_MODIFIED_USER' => 'Değiştiren kullanıcı',
+    'LBL_CREATED' => 'Ekleyen',
+    'LBL_DESCRIPTION' => 'Açıklama',
+    'LBL_CREATED_ID' => 'Ekleyen kodu',
+    'LBL_DELETED' => 'Silindi',
+    'LBL_NAME' => 'Ad',
+    'LBL_MODULE_NAME' => 'İş akışı işlemleri',
+    'LBL_MODULE_TITLE' => 'İş akışı işlemleri',
+    'LBL_AOW_WORKFLOW_ID' => 'AOW_iş akışı kodu',
+    'LBL_ACTION' => 'İşlem',
+    'LBL_PARAMETERS' => 'Parametreler',
+    'LBL_SELECT_ACTION' => 'İşlem seçin',
+    'LBL_CREATE_EMAIL_TEMPLATE' => 'Ekle',
+    'LBL_RECORD_TYPE' => 'Kayıt türü',
+    'LBL_SENDEMAIL' => 'E-posta gönder',
+    'LBL_CREATERECORD' => 'Kayıt ekle',
+    'LBL_MODIFYRECORD' => 'Kaydı düzenle',
+    'LBL_ADD_FIELD' => 'Alan ekle',
+    'LBL_ADD_RELATIONSHIP' => 'İlişki ekle',
+    'LBL_EDIT_EMAIL_TEMPLATE' => 'Düzenle',
+    'LBL_EMAIL' => 'E-posta',
+    'LBL_EMAIL_TEMPLATE' => 'E-Posta kalıbı',
+    'LBL_SETAPPROVAL' => 'Onayı ayarla',
+    'LBL_RELATE_WORKFLOW' => 'İş akışı modülü ile ilişkilendir',
+    'LBL_INDIVIDUAL_EMAILS' => 'Kişisel e-postalar gönder',
+    'LBL_COMPUTEFIELD' => 'Alanları hesapla',
+    'LBL_COMPUTEFIELD_PARAMETERS' => 'Parametreler',
+    'LBL_COMPUTEFIELD_FIELD_NAME' => 'Alan adı',
+    'LBL_COMPUTEFIELD_IDENTIFIER' => 'Belirteç',
+    'LBL_COMPUTEFIELD_ADD_PARAMETER' => 'Parametre ekle',
+    'LBL_COMPUTEFIELD_RELATION_PARAMETERS' => 'İlişki parametreleri',
+    'LBL_COMPUTEFIELD_RELATION' => 'İlişki',
+    'LBL_COMPUTEFIELD_ADD_RELATION_PARAMETER' => 'İlişki parametresi ekle',
+    'LBL_COMPUTEFIELD_FORMULA' => 'Formül',
+    'LBL_COMPUTEFIELD_FORMULAS' => 'Formüller',
+    'LBL_COMPUTEFIELD_ADD_FORMULA' => 'Formül ekle',
+    'LBL_COMPUTEFIELD_VALUE_TYPE' => 'Değer türü',
+    'LBL_COMPUTEFIELD_RAW_VALUE' => 'Ham değer',
+    'LBL_COMPUTEFIELD_FORMATTED_VALUE' => 'Biçimlendirilmiş değer',
+    'LBL_COPY_EMAIL_ADDRESSES_WORKFLOW' => 'E-postaları iş akışı modülünden kopyala'
+);
