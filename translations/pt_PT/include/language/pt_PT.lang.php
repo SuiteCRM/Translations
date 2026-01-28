@@ -1926,7 +1926,7 @@ $app_strings = array(
     'LBL_REMOVE_ALL_LEAD_FIELDS' => 'Remover todos os campos',
     'LBL_NEXT_BTN' => 'Seguinte',
     'LBL_ONLY_IMAGE_ATTACHMENT' => 'Apenas podem ser embebidos os anexos dos seguintes tipos de imagem suportados: JPG, PNG.',
-    'LBL_TRAINING' => 'Support Forum',
+    'LBL_TRAINING' => 'Fórum de ajuda',
     'ERR_MSSQL_DB_CONTEXT' => 'Altere o contexto da base de dados para',
     'ERR_MSSQL_WARNING' => 'Alerta:',
 
@@ -1950,8 +1950,8 @@ $app_strings = array(
     'LBL_REMOVE_DASHLET_CONFIRM' => 'Tem a certeza de que pretende remover a miniaplicação?',
     'LBL_REMOVING_DASHLET' => 'A remover miniaplicação...',
     'LBL_REMOVED_DASHLET' => 'Miniaplicação removida',
-    'LBL_MAX_DASHLET_COLUMNS' => "Maximum of %s columns can be displayed.",
-    'LBL_RETRIEVING_XML_DATA' => "There was a problem retrieving the XML data:\n",
+    'LBL_MAX_DASHLET_COLUMNS' => "Máximo de %s colunas que podem ser exibidas.",
+    'LBL_RETRIEVING_XML_DATA' => "Ocorreu um problema ao obter os dados do XML:\n",
 
     // MySugar Menu Options
 
@@ -2136,7 +2136,7 @@ $app_strings = array(
     'LBL_DELETE_BUTTON_KEY' => 'D',
     'LBL_DELETE_BUTTON_LABEL' => 'Eliminar',
     'LBL_DELETE_BUTTON_TITLE' => 'Eliminar',
-    'LBL_BULK_ACTION_BUTTON_LABEL' => 'BULK ACTION',
+    'LBL_BULK_ACTION_BUTTON_LABEL' => 'Ação em lote',
     'LBL_BULK_ACTION_BUTTON_LABEL_MOBILE' => 'Ação',
     'LBL_SAVE_BUTTON_KEY' => 'S',
     'LBL_SAVE_BUTTON_LABEL' => 'Guardar',
@@ -2975,7 +2975,7 @@ $app_strings['LBL_LISTVIEW_OPTION_ENTIRE'] = 'Selecionar tudo';
 $app_strings['LBL_LISTVIEW_NONE'] = 'Desmarcar tudo';
 
 //aod
-$app_list_strings['moduleList']['AOD_IndexEvent'] = 'Index Event';
+$app_list_strings['moduleList']['AOD_IndexEvent'] = 'Indexar evento';
 $app_list_strings['moduleList']['AOD_Index'] = 'Indexar';
 
 $app_list_strings['moduleList']['AOP_Case_Events'] = 'Eventos de ocorrências';
