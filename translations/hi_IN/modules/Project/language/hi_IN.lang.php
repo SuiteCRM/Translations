@@ -175,7 +175,7 @@ $mod_strings = array(
     'LBL_PROJECT_CONTACTS_1_FROM_CONTACTS_TITLE' => 'संपर्क शीर्षक से परियोजना संपर्क',
     'LBL_AM_PROJECTTEMPLATES_PROJECT_1_FROM_PROJECT_TITLE' => 'प्रोजेक्ट टेम्प्लेट: प्रोजेक्ट शीर्षक से प्रोजेक्ट',
     'LBL_AOS_QUOTES_PROJECT' => 'उद्धरण: परियोजना',
-    'LBL_TASKS_NOT_FOUND' => 'There are no Tasks to build the Gantt Table',
+    'LBL_TASKS_NOT_FOUND' => 'गैंट टेबल बनाने के लिए कोई कार्य नहीं हैं',
 
 
     'LBL_ASCENDING' => 'आरोही',
