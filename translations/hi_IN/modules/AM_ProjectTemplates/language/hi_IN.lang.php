@@ -139,7 +139,7 @@ $मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_�
     'LBL_NO_ACCESS' => 'आपके पास $module बनाने की कोई पहुंच नहीं है',
     'LBL_SCHEDULING_FORM_TITLE' => 'संसाधन सूची',
     'LBL_NONE' => 'कोई नहीं',
-    'LBL_TASKS_NOT_FOUND' => 'There are no Tasks to build the Gantt Table',
+    'LBL_TASKS_NOT_FOUND' => 'गैंट टेबल बनाने के लिए कोई कार्य नहीं हैं',
 
     'LBL_AM_PROJECTTEMPLATES_PROJECT_1_FROM_PROJECT_TITLE' => 'प्रोजेक्ट टेम्प्लेट: प्रोजेक्ट शीर्षक से प्रोजेक्ट',
 
