@@ -44,9 +44,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     // DON'T CONVERT THESE THEY ARE MAPPINGS
-    'db_name' => 'LBL_LIST_ACCOUNT_NAME',
-    'db_website' => 'LBL_LIST_WEBSITE',
-    'db_billing_address_city' => 'LBL_LIST_CITY',
+    'db_name' => 'एलबीएल_लिस्ट_अकाउंट_नाम',
+    'db_website' => 'एलबीएल_लिस्ट_वेबसाइट',
+    'db_billing_address_city' => 'एलबीएल_लिस्ट_सिटी',
     // END DON'T CONVERT
     'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'दस्तावेज',
     // Dashlet Categories
