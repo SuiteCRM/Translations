@@ -107,12 +107,12 @@ $mod_strings = array(
     'LBL_AN_SALES_AMOUNT' => 'Tutar',
     'LBL_AN_SALES_STAGE' => 'Satış aşaması',
     'LBL_AN_SALES_PROBABILITY' => 'Olasılık',
-    'LBL_AN_SALES_DATE' => 'Satış Tarihi',
-    'LBL_AN_SALES_QUARTER' => 'Satış Çeyreği',
-    'LBL_AN_SALES_MONTH' => 'Satış Ayı',
-    'LBL_AN_SALES_WEEK' => 'Satış Haftası',
-    'LBL_AN_SALES_DAY' => 'Satış Günü',
-    'LBL_AN_SALES_YEAR' => 'Satış Yılı',
+    'LBL_AN_SALES_DATE' => 'Satış tarihi',
+    'LBL_AN_SALES_QUARTER' => 'Satış çeyreği',
+    'LBL_AN_SALES_MONTH' => 'Satış ayı',
+    'LBL_AN_SALES_WEEK' => 'Satış haftası',
+    'LBL_AN_SALES_DAY' => 'Satış günü',
+    'LBL_AN_SALES_YEAR' => 'Satış yılı',
     'LBL_AN_SALES_CAMPAIGN' => 'Kampanya',
 
     //Analytics labels for service pivot
