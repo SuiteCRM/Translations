@@ -1532,7 +1532,7 @@ $app_strings = array(
     'LBL_CLOSE_AND_CREATE_BUTTON_LABEL' => 'Kapatıp yeni ekle',
     'LBL_CLOSE_AND_CREATE_BUTTON_TITLE' => 'Kapatıp yeni ekle',
     'LBL_CLOSE_AND_CREATE_BUTTON_KEY' => 'C',
-    'LBL_OPEN_ITEMS' => 'Açık Ögeler:',
+    'LBL_OPEN_ITEMS' => 'Açık ögeler:',
     'LBL_COMPOSE_EMAIL_BUTTON_KEY' => 'L',
     'LBL_COMPOSE_EMAIL_BUTTON_LABEL' => 'Yeni e-posta',
     'LBL_COMPOSE_EMAIL_BUTTON_TITLE' => 'Yeni e-posta',
@@ -1577,7 +1577,7 @@ $app_strings = array(
     'LBL_EMPLOYEES' => 'Çalışanlar',
     'LBL_ENTER_DATE' => 'Tarihi yazın',
     'LBL_EXPORT' => 'Dışa aktar',
-    'LBL_FAVORITES_FILTER' => 'Sık Kullanılandıklarım:',
+    'LBL_FAVORITES_FILTER' => 'Sık kullandıklarım:',
     'LBL_GO_BUTTON_LABEL' => 'Git',
     'LBL_HIDE' => 'Gizle',
     'LBL_ID' => 'Kod',
@@ -2977,7 +2977,7 @@ $app_strings['LBL_LISTVIEW_OPTION_ENTIRE'] = 'Tümünü seç';
 $app_strings['LBL_LISTVIEW_NONE'] = 'Tümünü bırak';
 
 //aod
-$app_list_strings['moduleList']['AOD_IndexEvent'] = 'İndeks İşlemi';
+$app_list_strings['moduleList']['AOD_IndexEvent'] = 'Dizin işlemi';
 $app_list_strings['moduleList']['AOD_Index'] = 'Dizin';
 
 $app_list_strings['moduleList']['AOP_Case_Events'] = 'Destek kaydı işlemleri';
@@ -3615,12 +3615,12 @@ $app_list_strings['spots_areas'] = array(
     'getLeadsSpotsData' => 'Potansiyeller',
     'getServiceSpotsData' => 'Hizmet',
     'getMarketingSpotsData' => 'Pazarlama',
-    'getMarketingActivitySpotsData' => 'Pazarlama İşlemleri',
+    'getMarketingActivitySpotsData' => 'Pazarlama işlemi',
     'getActivitiesSpotsData' => 'İşlemler',
     'getQuotesSpotsData' => 'Teklifler'
 );
 
-$app_list_strings['moduleList']['Spots'] = 'Spotlar';
+$app_list_strings['moduleList']['Spots'] = 'Noktalar';
 
 $app_list_strings['moduleList']['AOBH_BusinessHours'] = 'Çalışma saatleri';
 $app_list_strings['business_hours_list']['0'] = '12 öö';
