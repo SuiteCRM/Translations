@@ -299,7 +299,7 @@ $app_list_strings = array(
 
     'redirect_uri_type_dom' => [
         'pretty_url' => 'Pretty URL (/ep/)',
-        'query_string' => 'Query String (index.php?entryPoint=)'
+        'query_string' => 'क्वेरी स्ट्रिंग (index.php?entryPoint=)'
     ],
 
     //time is in seconds; the greater the time the longer it takes;
@@ -718,7 +718,7 @@ $app_list_strings = array(
     ],
 
     'dom_outbound_email_auth_types' => [
-        'no_auth' => 'No Auth',
+        'no_auth' => 'कोई प्राधिकरण नहीं',
         'basic' => 'मूल प्रमाणीकरण',
         'oauth' => 'ओआथ',
     ],
@@ -1404,7 +1404,7 @@ $app_strings = array(
     'LBL_EMAIL_SETTINGS_CHECK_INTERVAL' => 'नये मेल की जांच करें',
     'LBL_EMAIL_SETTINGS_FROM_ADDR' => 'इस पते से',
     'LBL_EMAIL_SETTINGS_FROM_TO_EMAIL_ADDR' => 'परीक्षण अधिसूचना के लिए ईमेल पता:',
-    'LBL_EMAIL_SETTINGS_FROM_ADDR_NOT_SET' => 'From address and/or From name not set',
+    'LBL_EMAIL_SETTINGS_FROM_ADDR_NOT_SET' => 'प्रेषक का पता और/या नाम दर्ज नहीं किया गया है',
     'LBL_EMAIL_SETTINGS_FROM_NAME' => 'नाम से',
     'LBL_EMAIL_SETTINGS_REPLY_TO_ADDR' => 'पते पर उत्तर दें',
     'LBL_EMAIL_SETTINGS_FULL_SYNC' => 'सभी मेल खातों को सिंक्रनाइज़ करें',
@@ -1532,7 +1532,7 @@ $app_strings = array(
     'LBL_CLOSE_AND_CREATE_BUTTON_LABEL' => 'बंद करें और नया बनाएं',
     'LBL_CLOSE_AND_CREATE_BUTTON_TITLE' => 'बंद करें और नया बनाएं',
     'LBL_CLOSE_AND_CREATE_BUTTON_KEY' => 'C',
-    'LBL_OPEN_ITEMS' => 'Open Items:',
+    'LBL_OPEN_ITEMS' => 'खुले आइटम:',
     'LBL_COMPOSE_EMAIL_BUTTON_KEY' => 'L',
     'LBL_COMPOSE_EMAIL_BUTTON_LABEL' => 'ईमेल लिखें',
     'LBL_COMPOSE_EMAIL_BUTTON_TITLE' => 'ईमेल लिखें',
@@ -1548,7 +1548,7 @@ $app_strings = array(
     'LBL_CREATED_BY_USER' => 'उपयोगकर्ता द्वारा बनाया गया',
     'LBL_CREATED_USER' => 'उपयोगकर्ता द्वारा बनाया गया',
     'LBL_CREATED' => 'के द्वारा बनाया गया',
-    'LBL_CURRENT_USER_FILTER' => 'My Items:',
+    'LBL_CURRENT_USER_FILTER' => 'मेरे आइटम:',
     'LBL_CURRENCY' => 'मुद्रा:',
     'LBL_DOCUMENTS' => 'दस्तावेज',
     'LBL_DATE_ENTERED' => 'बनाया गया दिनांक:',
@@ -1577,7 +1577,7 @@ $app_strings = array(
     'LBL_EMPLOYEES' => 'कर्मचारियों ',
     'LBL_ENTER_DATE' => 'दिनांक दर्ज करें',
     'LBL_EXPORT' => 'निर्यात',
-    'LBL_FAVORITES_FILTER' => 'My Favorites:',
+    'LBL_FAVORITES_FILTER' => 'मेरे पसंदीदा:',
     'LBL_GO_BUTTON_LABEL' => 'जाना',
     'LBL_HIDE' => 'छुपाएं',
     'LBL_ID' => 'आईडी',
@@ -1879,7 +1879,7 @@ $app_strings = array(
     'ERROR_JS_ALERT_TIMEOUT_TITLE' => 'सेशन खत्म',
     'ERROR_JS_ALERT_TIMEOUT_MSG_1' => 'आपका सत्र 2 मिनट में समाप्त होने वाला है। कृपया अपना कार्य सुरक्षित करें।',
     'ERROR_JS_ALERT_TIMEOUT_MSG_2' => 'आपका सत्र समाप्त हो गया है।',
-    'MSG_JS_ALERT_MTG_REMINDER_AGENDA' => "\nAgenda: ",
+    'MSG_JS_ALERT_MTG_REMINDER_AGENDA' => "\nकार्यसूची: ",
     'MSG_JS_ALERT_MTG_REMINDER_MEETING' => 'मुलाकात',
     'MSG_JS_ALERT_MTG_REMINDER_CALL' => 'कॉल',
     'MSG_JS_ALERT_MTG_REMINDER_TIME' => 'समय: ',
@@ -1887,8 +1887,8 @@ $app_strings = array(
     'MSG_JS_ALERT_MTG_REMINDER_DESC' => 'विवरण: ',
     'MSG_JS_ALERT_MTG_REMINDER_STATUS' => 'स्थिति: ',
     'MSG_JS_ALERT_MTG_REMINDER_RELATED_TO' => 'संदर्भ के: ',
-    'MSG_JS_ALERT_MTG_REMINDER_CALL_MSG' => "\nClick OK to view this call or click Cancel to dismiss this message.",
-    'MSG_JS_ALERT_MTG_REMINDER_MEETING_MSG' => "\nClick OK to view this meeting or click Cancel to dismiss this message.",
+    'MSG_JS_ALERT_MTG_REMINDER_CALL_MSG' => "\nइस कॉल को देखने के लिए ओके पर क्लिक करें या इस संदेश को हटाने के लिए कैंसिल पर क्लिक करें।",
+    'MSG_JS_ALERT_MTG_REMINDER_MEETING_MSG' => "\nइस मीटिंग को देखने के लिए ओके पर क्लिक करें या इस संदेश को हटाने के लिए कैंसिल पर क्लिक करें।",
     'MSG_JS_ALERT_MTG_REMINDER_NO_EVENT_NAME' => 'घटना',
     'MSG_JS_ALERT_MTG_REMINDER_NO_DESCRIPTION' => 'इवेंट सेट नहीं है.',
     'MSG_JS_ALERT_MTG_REMINDER_NO_LOCATION' => 'स्थान निर्धारित नहीं है.',
@@ -1925,7 +1925,7 @@ $app_strings = array(
     'LBL_REMOVE_ALL_LEAD_FIELDS' => 'सभी फ़ील्ड हटाएं',
     'LBL_NEXT_BTN' => 'अगले',
     'LBL_ONLY_IMAGE_ATTACHMENT' => 'केवल निम्नलिखित समर्थित छवि प्रकार अनुलग्नक एम्बेड किए जा सकते हैं: JPG, PNG.',
-    'LBL_TRAINING' => 'Support Forum',
+    'LBL_TRAINING' => 'सहयता मंच',
     'ERR_MSSQL_DB_CONTEXT' => 'डेटाबेस संदर्भ को परिवर्तित किया गया',
     'ERR_MSSQL_WARNING' => 'चेतावनी:',
 
@@ -1949,8 +1949,8 @@ $app_strings = array(
     'LBL_REMOVE_DASHLET_CONFIRM' => 'क्या आप वाकई इस सुइटसीआरएम डैशलेट को हटाना चाहते हैं?',
     'LBL_REMOVING_DASHLET' => 'सुइटसीआरएम डैशलेट हटाया जा रहा है...',
     'LBL_REMOVED_DASHLET' => 'सुइटसीआरएम डैशलेट हटाया गया',
-    'LBL_MAX_DASHLET_COLUMNS' => "Maximum of %s columns can be displayed.",
-    'LBL_RETRIEVING_XML_DATA' => "There was a problem retrieving the XML data:\n",
+    'LBL_MAX_DASHLET_COLUMNS' => "अधिकतम % कॉलम प्रदर्शित किए जा सकते हैं।",
+    'LBL_RETRIEVING_XML_DATA' => "XML डेटा प्राप्त करने में समस्या आ रही थी:\n",
 
     // MySugar Menu Options
 
@@ -2123,7 +2123,7 @@ $app_strings = array(
     'LBL_DELETE_BUTTON_KEY' => 'd',
     'LBL_DELETE_BUTTON_LABEL' => 'हटाएं',
     'LBL_DELETE_BUTTON_TITLE' => 'हटाएं',
-    'LBL_BULK_ACTION_BUTTON_LABEL' => 'BULK ACTION',
+    'LBL_BULK_ACTION_BUTTON_LABEL' => 'थोक कार्रवाई',
     'LBL_BULK_ACTION_BUTTON_LABEL_MOBILE' => 'कार्यवाही',
     'LBL_SAVE_BUTTON_KEY' => 'a',
     'LBL_SAVE_BUTTON_LABEL' => 'रखना',
@@ -2962,7 +2962,7 @@ $app_strings['LBL_LISTVIEW_OPTION_ENTIRE'] = 'सभी की जाँच क�
 $app_strings['LBL_LISTVIEW_NONE'] = 'अचयनित करें';
 
 //aod
-$app_list_strings['moduleList']['AOD_IndexEvent'] = 'Index Event';
+$app_list_strings['moduleList']['AOD_IndexEvent'] = 'सूचकांक घटना';
 $app_list_strings['moduleList']['AOD_Index'] = 'सूचि';
 
 $app_list_strings['moduleList']['AOP_Case_Events'] = 'केस घटनाक्रम';
@@ -3600,12 +3600,12 @@ $app_list_strings['spots_areas'] = array(
     'getLeadsSpotsData' => 'नेतृत्व',
     'getServiceSpotsData' => 'सेवा',
     'getMarketingSpotsData' => 'विपणन',
-    'getMarketingActivitySpotsData' => 'Marketing Activity',
+    'getMarketingActivitySpotsData' => 'विपणन गतिविधि',
     'getActivitiesSpotsData' => 'गतिविधियाँ',
     'getQuotesSpotsData' => 'उद्धरण'
 );
 
-$app_list_strings['moduleList']['Spots'] = 'Spots';
+$app_list_strings['moduleList']['Spots'] = 'स्पॉट';
 
 $app_list_strings['moduleList']['AOBH_BusinessHours'] = 'काम करने के घंटे';
 $app_list_strings['business_hours_list']['0'] = '12am';
@@ -3757,7 +3757,7 @@ $app_strings['LBL_SEARCH_TEXT_FIELD_TITLE_ATTR']   = 'इनपुट खोज 
 $app_strings['LBL_SEARCH_SUBMIT_FIELD_TITLE_ATTR'] = 'खोजें';
 $app_strings['LBL_SEARCH_SUBMIT_FIELD_VALUE']      = 'खोजें';
 $app_strings['LBL_SEARCH_QUERY']                   = 'प्रश्न खोजना: ';
-$app_strings['LBL_SEARCH_RESULTS_PER_PAGE']        = 'Results per module: ';
+$app_strings['LBL_SEARCH_RESULTS_PER_PAGE']        = 'प्रत्येक मॉड्यूल के परिणाम: ';
 $app_strings['LBL_SEARCH_ENGINE']                  = 'इंजन: ';
 $app_strings['LBL_SEARCH_TOTAL'] = 'कुल परिणाम: ';
 $app_strings['LBL_SEARCH_PREV'] = 'पिछला';
@@ -3782,7 +3782,7 @@ $app_strings['LBL_VALUE_SET_PLACEHOLDER'] = 'मान सेट करें।
 $app_strings['ERR_IMAP_OAUTH_CONNECTION_ERROR'] = 'इनबाउंड ईमेल सर्वर के साथ OAuth लॉगिन का उपयोग करके कनेक्ट करने में असमर्थ। कनेक्शन के लिए: ';
 $app_strings['WARN_OAUTH_TOKEN_SESSION_EXPIRED'] = 'आपका IMAP OAuth सत्र समाप्त हो गया है, कृपया कनेक्शन में पुनः लॉगिन करें ';
 
-$app_strings['ERR_OAUTH_CONNECTION_ERROR'] = 'Not able to connect using OAuth login. For connection: ';
+$app_strings['ERR_OAUTH_CONNECTION_ERROR'] = 'OAuth लॉगिन का उपयोग करके कनेक्ट करने में असमर्थ। कनेक्शन के लिए: ';
 
 $app_strings['LBL_KEY'] = 'कुँजी';
 $app_strings['LBL_VALUE'] = 'मूल्य';
