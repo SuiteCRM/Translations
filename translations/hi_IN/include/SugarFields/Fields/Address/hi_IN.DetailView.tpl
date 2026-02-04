@@ -65,9 +65,9 @@
         {{/if}}
         <td class='dataField' width='1%'>
             {{*
-            This is custom code that you may set to show on the second column of the address
-            table.  An example would be the "Copy" button present from the Accounts detailview.
-            See modules/Accounts/views/view.detail.php to see the value being set
+            यह कस्टम कोड है जिसे आप एड्रेस के दूसरे कॉलम में दिखाने के लिए सेट कर सकते हैं
+            मेज़।  इसका एक उदाहरण अकाउंट्स डिटेलव्यू में मौजूद "कॉपी" बटन होगा।
+            सेट की जा रही वैल्यू देखने के लिए modules/Accounts/views/view.detail.php देखें
             *}}
             {$custom_code_{{$displayParams.key}}}
         </td>
