@@ -67,8 +67,8 @@ $मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_�
     'LBL_HOMEPAGE_TITLE' => 'मेरे आउटबाउंड ईमेल खाते',
     'LNK_NEW_RECORD' => 'आउटबाउंड ईमेल खाते बनाएं',
 
-    'LNK_LIST_CREATE_NEW_PERSONAL' => 'New Personal Outbound Email Account',
-    'LNK_LIST_CREATE_NEW_GROUP' => 'New Group Outbound Email Account',
+    'LNK_LIST_CREATE_NEW_PERSONAL' => 'नया व्यक्तिगत आउटबाउंड ईमेल खाता',
+    'LNK_LIST_CREATE_NEW_GROUP' => 'नया समूह आउटबाउंड ईमेल खाता',
     'LNK_LIST_CREATE_SYSTEM_OVERRIDE_GROUP' => 'नया सिस्टम आउटबाउंड ईमेल अकाउंट ओवरराइड करता है',
 
     'LNK_LIST' => 'आउटबाउंड ईमेल खाते',
@@ -127,7 +127,7 @@ $मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_�
     'LBL_EXTERNAL_OAUTH_CONNECTION_NAME' => 'बाहरी OAuth कनेक्शन',
     'LNK_EXTERNAL_OAUTH_CONNECTIONS' => 'बाहरी OAuth कनेक्शन',
 
-    'LBL_ERROR_OUTBOUND_EMAIL_SYSTEM_EXISTS' => 'System Outbound Email Account already exists. Please remove it before creating a new one.',
-    'LBL_ERROR_OUTBOUND_EMAIL_SYSTEM_IS_NOT_GROUP' => 'When configuring the System Outbound account using OAuth, you must select a Group-Type External Oauth Connection',
-    'LBL_ERROR_OUTBOUND_EMAIL_CONNECTION_TYPE_MISMATCH' => 'When configuring the Outbound account using OAuth, you must select a External Oauth Connection the same type as the Outbound Email Account (Group or Personal)',
+    'LBL_ERROR_OUTBOUND_EMAIL_SYSTEM_EXISTS' => 'सिस्टम आउटबाउंड ईमेल खाता पहले से मौजूद है। नया खाता बनाने से पहले कृपया इसे हटा दें।',
+    'LBL_ERROR_OUTBOUND_EMAIL_SYSTEM_IS_NOT_GROUP' => 'OAuth का उपयोग करके सिस्टम आउटबाउंड खाते को कॉन्फ़िगर करते समय, आपको ग्रुप-टाइप एक्सटर्नल OAuth कनेक्शन का चयन करना होगा',
+    'LBL_ERROR_OUTBOUND_EMAIL_CONNECTION_TYPE_MISMATCH' => 'OAuth का उपयोग करके आउटबाउंड खाते को कॉन्फ़िगर करते समय, आपको आउटबाउंड ईमेल खाते (समूह या व्यक्तिगत) के समान प्रकार का एक बाहरी OAuth कनेक्शन चुनना होगा',
 );
