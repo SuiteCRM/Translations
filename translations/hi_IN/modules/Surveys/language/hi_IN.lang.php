@@ -107,5 +107,5 @@ $मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_�
     'LBL_SUBMIT' => 'जमा करें',
     'LBL_STARS' => 'तारा',
     'LBL_SURVEY_CLOSE_RESPONSE' => 'आपकी रुचि के लिए धन्यवाद लेकिन यह सर्वेक्षण अब बंद हो गया है।',
-    'LBL_SURVEY_THANKS' => 'Thanks for completing this survey.',
+    'LBL_SURVEY_THANKS' => 'इस सर्वेक्षण को पूरा करने के लिए धन्यवाद।',
 );
