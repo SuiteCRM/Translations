@@ -1,0 +1,37 @@
+name: Build Translation Plugins for SourceForge
+
+on:
+  pull_request:
+    types:
+      - closed
+    branches:
+      - 'release/**'
+  workflow_dispatch:
+
+jobs:
+  deployment:
+    if: (github.event_name == 'pull_request' && github.event.pull_request.merged == true) || (github.event_name != 'pull_request')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Build Plugins
+        run: |
+          mkdir -p ${GITHUB_REF##*/}
+          for dir in translations/*/
+          do
+            package=${dir%*/};
+            cd $dir
+            sed -i -e "/^    'version'/s|.*|    'version' => '${GITHUB_REF##*/}-$(date '+%y.%m')',|" manifest.php
+            sed -i -e "/^    'published_date'/s|.*|    'published_date' => '$(date '+%Y-%m-%d')',|" manifest.php
+            zip -r ../../${GITHUB_REF##*/}/${package##*/}_SuiteCRM_lang_${GITHUB_REF##*/}.zip *
+            cd ../../
+          done
+      - name: Deploy Plugins  
+        env:
+          destination: ${{secrets.DEPLOY_DESTINATION}}
+        run: |
+          echo "${{secrets.DEPLOY_KEY}}" > deploy_key
+          chmod 600 ./deploy_key
+          rsync -chrlvzi \
+          -e 'ssh -i ./deploy_key -p 22 -o StrictHostKeyChecking=no' \
+          ${GITHUB_REF##*/} ${{env.destination}}
