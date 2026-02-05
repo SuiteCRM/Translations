@@ -92,8 +92,8 @@ $मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_�
     'LBL_EXTERNAL_OAUTH_PROVIDER_NAME' => 'प्रदाता',
     'LBL_EXTERNAL_OAUTH_PROVIDER_ID' => 'प्रदाता आईडी',
 
-    'LNK_LIST_CREATE_NEW_PERSONAL' => 'New Personal OAuth Connection',
-    'LNK_LIST_CREATE_NEW_GROUP' => 'New Group OAuth Connection',
+    'LNK_LIST_CREATE_NEW_PERSONAL' => 'नया व्यक्तिगत OAuth कनेक्शन',
+    'LNK_LIST_CREATE_NEW_GROUP' => 'नया समूह OAuth कनेक्शन',
     'LNK_LIST_INBOUND_EMAILS' => 'इनबाउंड ईमेल खाते',
     'LNK_LIST_OUTBOUND_EMAILS' => 'आउटबाउंड ईमेल खाते',
     'LNK_LIST_EXTERNAL_OAUTH_PROVIDERS' => 'बाहरी OAuth प्रदाता',
