@@ -55,7 +55,7 @@ $mod_strings = array(
     'LBL_LIST_SALE_STAGE' => 'बिक्री चरण',
     'LBL_ACCOUNT_ID' => 'खाता आईडी',
     //DON'T CONVERT THESE THEY ARE MAPPINGS
-    'db_name' => 'LBL_NAME',
+    'db_name' => 'एलबीएल_नाम',
     //END DON'T CONVERT
     'LBL_ACCOUNT_NAME' => 'खाते का नाम:',
     'LBL_AMOUNT' => 'रकम:',
