@@ -57,7 +57,7 @@ $mod_strings = array(
     'LBL_NEXT_STEP_BUTTON_LABEL' => 'अगला कदम >',
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'मर्ज करें',
-    'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
+    'LBL_PERFORM_MERGE_BUTTON_KEY' => 'पी',
     'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'मर्ज करें',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'मर्ज सहेजें',
