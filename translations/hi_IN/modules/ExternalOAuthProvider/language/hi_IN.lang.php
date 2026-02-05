@@ -78,7 +78,7 @@ $मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_�
     'LBL_TYPE' => 'प्रकार',
     'LBL_CONNECTOR' => 'संबंधक',
     'LBL_REDIRECT_URI' => 'अनुप्रेषित URI',
-    'LBL_REDIRECT_URI_TYPE' => 'Redirect URI Type',
+    'LBL_REDIRECT_URI_TYPE' => 'रीडायरेक्ट यूआरआई प्रकार',
 
     'LBL_CLIENT_ID' => 'ग्राहक आईडी',
     'LBL_CLIENT_SECRET' => 'ग्राहक रहस्य',
@@ -102,8 +102,8 @@ $मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_�
     'LBL_OTHER' => 'अन्य',
 
 
-    'LNK_LIST_CREATE_NEW_PERSONAL' => 'New Personal OAuth Provider',
-    'LNK_LIST_CREATE_NEW_GROUP' => 'New Group OAuth Provider',
+    'LNK_LIST_CREATE_NEW_PERSONAL' => 'नया व्यक्तिगत OAuth प्रदाता',
+    'LNK_LIST_CREATE_NEW_GROUP' => 'नया समूह OAuth प्रदाता',
     'LNK_LIST_INBOUND_EMAILS' => 'इनबाउंड ईमेल खाते',
     'LNK_LIST_OUTBOUND_EMAILS' => 'आउटबाउंड ईमेल खाते',
     'LNK_LIST_EXTERNAL_OAUTH_CONNECTION' => 'बाहरी OAuth कनेक्शन',
