@@ -168,6 +168,7 @@ $mod_strings = array(
     'LNK_NEW_TASK' => 'Create Task',
     'LNK_SELECT_ACCOUNT' => "Select Account",
     'NTC_DELETE_CONFIRMATION' => 'Are you sure you want to delete this record?',
+    'NTC_SNOOZE_CONFIRMATION' => 'Are you sure you want to snooze?',
     'NTC_OPPORTUNITY_REQUIRES_ACCOUNT' => 'Creating an opportunity requires an account.\n Please either create a new account or select an existing one.',
     'NTC_REMOVE_CONFIRMATION' => 'Are you sure you want to remove this contact from the case?',
 
@@ -207,15 +208,22 @@ $mod_strings = array(
     'LBL_CREATE_PORTAL_USER_SUCCESS' => 'Created portal user',
     'LBL_ENABLE_PORTAL_USER_SUCCESS' => 'Enabled portal user',
     'LBL_DISABLE_PORTAL_USER_SUCCESS' => 'Disabled portal user',
+    'LBL_FAILED_TO_CONNECT_JOOMLA' => 'Failed to create portal user, not able to connect to Joomla',
+    'LBL_ERROR_CONTACT_ID_OR_EMAIL_EMPTY' => 'Contact ID or Email is empty',
     'LBL_NO_JOOMLA_URL' => 'No portal URL specified',
     'LBL_PORTAL_USER_TYPE' => 'Portal User Type',
     'LBL_PORTAL_ACCOUNT_DISABLED' => 'Account Disabled',
     'LBL_JOOMLA_ACCOUNT_ID' => 'Joomla Account ID',
+    'LBL_AOP_DISABLED' => 'AOP is disabled, please enable via settings',
 
     'LBL_AOS_CONTRACTS' => 'Contracts',
     'LBL_AOS_INVOICES' => 'Invoices',
     'LBL_AOS_QUOTES' => 'Quotes',
     'LBL_PROJECT_CONTACTS_1_FROM_PROJECT_TITLE' => 'Project Contacts from Project Title',
+    'LBL_LAST_MEETING' => 'Your last interaction was a meeting on :',
+    'LBL_LAST_CALL' => 'Your last interaction was a call on :',
+    'LBL_LAST_EMAIL' => 'Your last interaction was an email on :',
+    'LBL_NO_INTERACTION' => 'You have yet to interact with this contact.',
 
     'LBL_LIST_INVITE_STATUS' => 'Invite Status',
 );

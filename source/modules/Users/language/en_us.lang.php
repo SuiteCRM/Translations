@@ -43,6 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
+    'LBL_RECOVER_PASSWORD_SUCCESS' => 'If the provided user name and email are correct, you should receive an email with information to recover your password',
     'ERR_NO_2FACTOR_EMAIL_TMPL' => 'Two-factor email template is not set, please change settings on password management page.',
     'ERR_NO_2FACTOR_EMAIL_TMPL_CODE' => 'Two-factor email template should contain a $code at least.',
     'LBL_DELETE_USER_CONFIRM' => 'When the User record is deleted, the corresponding Employee record will also be deleted. After the user is deleted, any workflow definitions and reports involving the user might need to be updated.<br/><br/> Personal / Group Inbound Accounts that contain / are assigned to this user will also need updated. <br/><br/> Deleting a User record cannot be undone.',
@@ -268,6 +269,7 @@ $mod_strings = array(
     'LBL_REMINDERS_REMOVE_REMINDER' => 'Remove reminder',
     'LBL_REMINDERS_ADD_ALL_INVITEES' => 'Add All Invitees',
     'LBL_REMINDERS_ADD_REMINDER' => 'Add reminder',
+    'LBL_SNOOZE_TIMER' => 'Set Snooze For Notifications',
     'LBL_REPORTS_TO_NAME' => 'Reports to',
     'LBL_REPORTS_TO' => 'Reports to',
     'LBL_REPORTS_TO_ID' => 'Reports to ID:',
@@ -292,6 +294,9 @@ $mod_strings = array(
     'LBL_STATE' => 'State',
     'LBL_STATUS' => 'Status',
     'LBL_SUBPANEL_TABS' => 'Subpanel Tabs',
+    'LBL_SET_SUBPANEL_PAGINATION_TYPE' => 'Subpanel Pagination Type',
+    'LBL_SET_LISTVIEW_PAGINATION_TYPE' => 'Listview Pagination Type',
+    'LBL_SET_RECORD_MODAL_PAGINATION_TYPE' => 'Pop up Record List Pagination Type',
     'LBL_SUBPANEL_TABS_DESCRIPTION' => 'In Detail Views, group Subpanels into tabs and display one tab at a time.',
     'LBL_SORT_MODULES' => 'Sort modules alphabetically',
     'LBL_SORT_MODULES_DESCRIPTION' => 'Order modules by name in the navigation drop down.',
@@ -432,9 +437,10 @@ $mod_strings = array(
     'LBL_QUICK_CALL' => 'Log Call',
     'LBL_QUICK_TASK' => 'Create Task',
     'LBL_ENABLE_NOTIFICATIONS' => 'Enable Desktop Notifications',
+    'LBL_DESKTOP_NOTIFICATIONS' => 'Desktop Notifications',
     'LBL_LIST_NONINHERITABLE' => "Not Inheritable",
     'LBL_PRIMARY_GROUP' => "Primary Group",
-    'LBL_PASSWORD_MIS_MATCH' => 'mis-match',
+    'LBL_PASSWORD_MIS_MATCH' => 'Confirm Password does not match New Password',
     'LBL_EMAIL_INFORMATION' => 'EMAIL',
     'LBL_FW' => 'FW:',
     'LBL_RE' => 'RE:',
@@ -680,7 +686,6 @@ $mod_strings = array(
     'LBL_PROJECT_USERS_1_FROM_PROJECT_TITLE' => 'Project Users from Project Title',
     'LBL_ROLES' => 'Roles',
     'LBL_SECURITYGROUPS' => 'Security Groups',
-    'LBL_FACTOR_AUTH' => 'Two Factor Authentication:',
     'LBL_FACTOR_AUTH_INTERFACE' => 'Two Factor Authentication Interface:',
     'ERR_USER_FACTOR_SMTP_REQUIRED' => 'SMTP server settings required first.',
     'ERR_USER_FACTOR_CHANGE_DISABLED' => 'Current user is not able to change two factor authentication settings.',
@@ -696,5 +701,14 @@ $mod_strings = array(
     'LNK_LIST_OUTBOUND_EMAIL_ACCOUNTS' => 'Outbound Email Accounts',
     'LNK_LIST_INBOUND_EMAIL_ACCOUNTS' => 'Inbound Email Accounts',
     'LNK_EXTERNAL_OAUTH_CONNECTIONS' => 'External OAuth Connections',
+
+    // 2FA
+    'LBL_FACTOR_AUTH' => 'Two Factor Authentication',
+    'LBL_FACTOR_AUTH_DISABLE' => 'Two Factor Authentication was Disabled for this User',
+    'LBL_DISABLED' => 'Disabled',
+    'LBL_ENABLED' => 'Enabled',
+    'LBL_ENABLE_2FA' => 'Enable 2FA',
+    'LBL_2FA_CONFIG' => 'Two Factor Configuration',
+    'LBL_DISABLE_2FA' => 'Disable 2FA',
 
 ); // END STRINGS DEFS

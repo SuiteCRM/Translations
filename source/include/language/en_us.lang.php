@@ -88,7 +88,7 @@ $app_list_strings = array(
         'Employees' => 'Employees',
         'Administration' => 'Administration',
         'ACLRoles' => 'Roles',
-        'InboundEmail' => 'Inbound Email',
+        'InboundEmail' => 'Inbound Email Accounts',
         'Releases' => 'Releases',
         'Prospects' => 'Targets',
         'Queues' => 'Queues',
@@ -127,6 +127,7 @@ $app_list_strings = array(
         'Calendar' => 'Calendar',
         'Leads' => 'Lead',
         'Activities' => 'Activity',
+        'History' => 'History',
         'Bugs' => 'Bug',
         'KBDocuments' => 'KBDocument',
         'Feeds' => 'RSS',
@@ -227,6 +228,18 @@ $app_list_strings = array(
         'Budget' => 'Budget',
 
     ),
+    'subpanel_pagination_type' => [
+        'pagination' => 'Pagination',
+        'load-more' => 'Load More'
+    ],
+    'listview_pagination_type' => [
+        'pagination' => 'Pagination',
+        'load-more' => 'Load More'
+    ],
+    'record_modal_pagination_type' => [
+        'pagination' => 'Pagination',
+        'load-more' => 'Load More'
+    ],
     //Note:  do not translate opportunity_relationship_type_default_key
 //       it is the key for the default opportunity_relationship_type_dom value
     'opportunity_relationship_type_default_key' => 'Primary Decision Maker',
@@ -315,6 +328,33 @@ $app_list_strings = array(
         10800 => '3 hours prior',
         18000 => '5 hours prior',
         86400 => '1 day prior',
+    ),
+
+    // snooze for alerts
+    'snooze_alert_timer' => array(
+        60 => 'Snooze for 1 minute',
+        300 => 'Snooze for 5 minutes',
+        600 => 'Snooze for 10 minutes',
+        900 => 'Snooze for 15 minutes',
+        1800 => 'Snooze for 30 minutes',
+        3600 => 'Snooze for 1 hour',
+        7200 => 'Snooze for 2 hours',
+        10800 => 'Snooze for 3 hours',
+        18000 => 'Snooze for 5 hours',
+        86400 => 'Snooze for 1 day',
+    ),
+
+    'snooze_alert_timer_simple' => array(
+        60 => '1 min',
+        300 => '5 mins',
+        600 => '10 mins',
+        900 => '15 mins',
+        1800 => '30 mins',
+        3600 => '1 hour',
+        7200 => '2 hours',
+        10800 => '3 hours',
+        18000 => '5 hours',
+        86400 => '1 day',
     ),
 
     'task_priority_default' => 'Medium',
@@ -615,7 +655,6 @@ $app_list_strings = array(
     ),
     /*Added entries 'Queued' and 'Sending' for 4.0 release..*/
     'campaign_status_dom' => array(
-        '' => '',
         'Planning' => 'Planning',
         'Active' => 'Active',
         'Inactive' => 'Inactive',
@@ -798,6 +837,10 @@ $app_list_strings = array(
         1 => 'Yes',
         0 => 'No',
     ),
+    'dom_int_bool_string' => array(
+        '1' => 'Yes',
+        '0' => 'No',
+    ),
     'dom_switch_bool' => array(
         'on' => 'Yes',
         'off' => 'No',
@@ -812,7 +855,6 @@ $app_list_strings = array(
     'dom_editor_type' => array(
         'none' => 'Direct HTML',
         'tinymce' => 'TinyMCE',
-        'mozaik' => 'Mozaik',
     ),
 
     'dom_email_editor_option' => array(
@@ -942,12 +984,32 @@ $app_list_strings = array(
     'email_marketing_status_dom' => array(
         '' => '',
         'active' => 'Active',
-        'inactive' => 'Inactive',
+        'draft' => 'Draft',
+        'scheduled' => 'Scheduled',
+        'pending_send' => 'Pending Send',
+        'aborted' => 'Aborted',
+        'sending' => 'Sending',
+        'sent' => 'Sent'
+    ),
+    'email_marketing_duplicate_dom' => [
+        'email' => 'Prevent sending to duplicate records and email addresses',
+        'record' => 'Prevent sending to duplicate records',
+    ],
+    'email_marketing_queueing_status_dom' => array(
+        'not_started' => 'Not Started',
+        'in_progress' => 'In Progress',
+        'finished' => 'Finished',
+    ),
+    'email_marketing_type_dom' => array(
+        'legacy' => 'Legacy',
+        'marketing' => 'Marketing',
+        'survey' => 'Survey',
+        'transactional' => 'Transactional',
     ),
 
     'campainglog_activity_type_dom' => array(
         '' => '',
-        'targeted' => 'Message Sent/Attempted',
+        'targeted' => 'Sent/Attempted',
         'send error' => 'Bounced Messages,Other',
         'invalid email' => 'Bounced Messages,Invalid Email',
         'link' => 'Click-thru Link',
@@ -1091,34 +1153,38 @@ $app_list_strings = array(
 );
 
 $app_strings = array(
-    'LBL_SEARCH_REAULTS_TITLE' => 'Results',
+    'LBL_SEARCH_RESULTS_TITLE' => 'Results',
     'ERR_SEARCH_INVALID_QUERY' => 'An error has occurred while performing the search. Your query syntax might not be valid.',
     'ERR_SEARCH_NO_RESULTS' => 'No results matching your search criteria. Try broadening your search.',
     'LBL_SEARCH_PERFORMED_IN' => 'Search performed in',
     'LBL_EMAIL_CODE' => 'Email Code:',
     'LBL_SEND' => 'Send',
+    'LBL_SEND_BUTTON_TITLE' => 'Send',
     'LBL_LOGOUT' => 'Logout',
+    'LBL_LOGOUT_SUCCESS' => 'Logout Success',
+    'LBL_LOGGED_OUT_MESSAGE' => 'You have been logged out',
+    'LBL_LOGIN_AGAIN' => 'To login again ',
     'LBL_TOUR_NEXT' => 'Next',
     'LBL_TOUR_SKIP' => 'Skip',
     'LBL_TOUR_BACK' => 'Back',
     'LBL_TOUR_TAKE_TOUR' => 'Take the tour',
-    'LBL_MOREDETAIL' => 'More Detail' /*for 508 compliance fix*/,
-    'LBL_EDIT_INLINE' => 'Edit Inline' /*for 508 compliance fix*/,
-    'LBL_VIEW_INLINE' => 'View' /*for 508 compliance fix*/,
-    'LBL_BASIC_SEARCH' => 'Filter' /*for 508 compliance fix*/,
-    'LBL_Blank' => ' ' /*for 508 compliance fix*/,
-    'LBL_ID_FF_ADD' => 'Add' /*for 508 compliance fix*/,
-    'LBL_ID_FF_ADD_EMAIL' => 'Add Email Address' /*for 508 compliance fix*/,
-    'LBL_HIDE_SHOW' => 'Hide/Show' /*for 508 compliance fix*/,
-    'LBL_DELETE_INLINE' => 'Delete' /*for 508 compliance fix*/,
-    'LBL_ID_FF_CLEAR' => 'Clear' /*for 508 compliance fix*/,
-    'LBL_ID_FF_VCARD' => 'vCard' /*for 508 compliance fix*/,
-    'LBL_ID_FF_REMOVE' => 'Remove' /*for 508 compliance fix*/,
-    'LBL_ID_FF_REMOVE_EMAIL' => 'Remove Email Address' /*for 508 compliance fix*/,
+    'LBL_MOREDETAIL' => 'More Detail', /*for 508 compliance fix*/
+    'LBL_EDIT_INLINE' => 'Edit Inline', /*for 508 compliance fix*/
+    'LBL_VIEW_INLINE' => 'View', /*for 508 compliance fix*/
+    'LBL_BASIC_SEARCH' => 'Filter', /*for 508 compliance fix*/
+    'LBL_Blank' => ' ', /*for 508 compliance fix*/
+    'LBL_ID_FF_ADD' => 'Add', /*for 508 compliance fix*/
+    'LBL_ID_FF_ADD_EMAIL' => 'Add Email Address', /*for 508 compliance fix*/
+    'LBL_HIDE_SHOW' => 'Hide/Show', /*for 508 compliance fix*/
+    'LBL_DELETE_INLINE' => 'Delete', /*for 508 compliance fix*/
+    'LBL_ID_FF_CLEAR' => 'Clear', /*for 508 compliance fix*/
+    'LBL_ID_FF_VCARD' => 'vCard', /*for 508 compliance fix*/
+    'LBL_ID_FF_REMOVE' => 'Remove', /*for 508 compliance fix*/
+    'LBL_ID_FF_REMOVE_EMAIL' => 'Remove Email Address', /*for 508 compliance fix*/
     'LBL_ID_FF_OPT_OUT' => 'Opt Out',
     'LBL_ID_FF_INVALID' => 'Make Invalid',
-    'LBL_ADD' => 'Add' /*for 508 compliance fix*/,
-    'LBL_COMPANY_LOGO' => 'Company logo' /*for 508 compliance fix*/,
+    'LBL_ADD' => 'Add', /*for 508 compliance fix*/
+    'LBL_COMPANY_LOGO' => 'Company logo', /*for 508 compliance fix*/
     'LBL_CONNECTORS_POPUPS' => 'Connectors Popups',
     'LBL_CLOSEINLINE' => 'Close',
     'LBL_VIEWINLINE' => 'View',
@@ -1154,7 +1220,7 @@ $app_strings = array(
     'LBL_EMAIL_WARNING_MISSING_CREDS' => 'Warning: Missing credentials',
     'LBL_EMAIL_ACCOUNTS_SUBTITLE' => 'Set up Mail Accounts to view incoming emails from your email accounts.',
     'LBL_EMAIL_ACCOUNTS_OUTBOUND_SUBTITLE' => 'Provide SMTP mail server information to use for outgoing email in Mail Accounts.',
-
+    'ERR_TIMEOUT' => "Forced failure on timeout",
     'LBL_EMAIL_ADDRESS_BOOK_ADD' => 'Done',
     'LBL_EMAIL_ADDRESS_BOOK_CLEAR' => 'Clear',
     'LBL_EMAIL_ADDRESS_BOOK_ADD_TO' => 'To:',
@@ -1169,7 +1235,8 @@ $app_strings = array(
     'LBL_EMAIL_ADDRESS_BOOK_SELECT_TITLE' => 'Select Email Recipients',
     'LBL_EMAIL_ADDRESS_BOOK_TITLE' => 'Address Book',
     'LBL_EMAIL_REMOVE_SMTP_WARNING' => 'Warning! The outbound account you are trying to delete is associated to an existing inbound account. Are you sure you want to continue?',
-    'LBL_EMAIL_ADDRESSES' => 'Email',
+    'LBL_EMAIL_ADDRESSES' => 'Email Addresses',
+    'LBL_EMAIL' => 'Email',
     'LBL_EMAIL_ADDRESS_PRIMARY' => 'Email Address',
     'LBL_EMAIL_ADDRESS_OPT_IN' => 'You have confirmed that your email address has been opted in: ',
     'LBL_EMAIL_ADDRESS_OPT_IN_ERR' => 'Unable to confirm email address',
@@ -1251,22 +1318,8 @@ $app_strings = array(
     'LBL_EMAIL_ERROR_VIEW_RAW_SOURCE' => 'This information is not available',
     'LBL_EMAIL_ERROR_NO_OUTBOUND' => 'No outgoing mail server specified.',
     'LBL_EMAIL_ERROR_SENDING' => 'Error Sending Email. Please contact your administrator for assistance.',
-    'LBL_EMAIL_FOLDERS' => SugarThemeRegistry::current()->getImage(
-        'icon_email_folder',
-        'align=absmiddle border=0',
-        null,
-        null,
-        '.gif',
-        ''
-        ) . 'Folders',
-    'LBL_EMAIL_FOLDERS_SHORT' => SugarThemeRegistry::current()->getImage(
-        'icon_email_folder',
-        'align=absmiddle border=0',
-        null,
-        null,
-        '.gif',
-        ''
-    ),
+    'LBL_EMAIL_FOLDERS' => SugarThemeRegistry::current()->getImage('icon_email_folder', 'align=absmiddle border=0', null, null, '.gif', '') . 'Folders',
+    'LBL_EMAIL_FOLDERS_SHORT' => SugarThemeRegistry::current()->getImage('icon_email_folder', 'align=absmiddle border=0', null, null, '.gif', ''),
     'LBL_EMAIL_FOLDERS_ADD' => 'Add',
     'LBL_EMAIL_FOLDERS_ADD_DIALOG_TITLE' => 'Add New Folder',
     'LBL_EMAIL_FOLDERS_RENAME_DIALOG_TITLE' => 'Rename Folder',
@@ -1372,22 +1425,8 @@ $app_strings = array(
     'LBL_EMAIL_SAVE_DRAFT' => 'Save Draft',
     'LBL_EMAIL_DRAFT_SAVED' => 'Draft has been saved',
 
-    'LBL_EMAIL_SEARCH' => SugarThemeRegistry::current()->getImage(
-        'Search',
-        'align=absmiddle border=0',
-        null,
-        null,
-        '.gif',
-        ''
-    ),
-    'LBL_EMAIL_SEARCH_SHORT' => SugarThemeRegistry::current()->getImage(
-        'Search',
-        'align=absmiddle border=0',
-        null,
-        null,
-        '.gif',
-        ''
-    ),
+    'LBL_EMAIL_SEARCH' => SugarThemeRegistry::current()->getImage('Search', 'align=absmiddle border=0', null, null,    '.gif', ''),
+    'LBL_EMAIL_SEARCH_SHORT' => SugarThemeRegistry::current()->getImage('Search', 'align=absmiddle border=0', null,        null, '.gif', ''),
     'LBL_EMAIL_SEARCH_DATE_FROM' => 'Date From',
     'LBL_EMAIL_SEARCH_DATE_UNTIL' => 'Date Until',
     'LBL_EMAIL_SEARCH_NO_RESULTS' => 'No results match your search criteria.',
@@ -1475,6 +1514,8 @@ $app_strings = array(
     'ERR_INVALID_FILE_REFERENCE' => 'Invalid File Reference',
     'ERR_NO_HEADER_ID' => 'This feature is unavailable in this theme.',
     'ERR_NOT_ADMIN' => 'Unauthorized access to administration.',
+    'ERR_UNAUTHORIZED_PAGE_ACCESS' => 'You are not authorized to view this page. Please contact your system administrator.',
+    'ERR_UNAUTHORIZED_PAGE_ACCESS_TO_HOME_PAGE' => 'You are not authorized to view this page. Redirecting to Home Page...',
     'ERR_MISSING_REQUIRED_FIELDS' => 'Missing required field:',
     'ERR_INVALID_REQUIRED_FIELDS' => 'Invalid required field:',
     'ERR_INVALID_VALUE' => 'Invalid Value:',
@@ -1518,11 +1559,16 @@ $app_strings = array(
     'LBL_BY' => 'by',
     'LBL_CALLS' => 'Calls',
     'LBL_CAMPAIGNS_SEND_QUEUED' => 'Send Queued Campaign Emails',
+    'LBL_CAMPAIGNS_SEND_NEXT_BATCH' => 'Send Next Batch of Queued Emails',
+    'LBL_SENT_NEXT_BATCH' => 'Batch sent successfully',
     'LBL_SUBMIT_BUTTON_LABEL' => 'Submit',
     'LBL_CASE' => 'Case',
     'LBL_CASES' => 'Cases',
     'LBL_CHANGE_PASSWORD' => 'Change password',
     'LBL_CHARSET' => 'UTF-8',
+    'LBL_CHARTS' => 'Charts',
+    'LBL_QUICK_CHARTS' => 'Quick Charts',
+    'LBL_QUICK_HISTORY' => 'Timeline',
     'LBL_CHECKALL' => 'Check All',
     'LBL_CITY' => 'City',
     'LBL_CLEAR_BUTTON_LABEL' => 'Clear',
@@ -1532,7 +1578,7 @@ $app_strings = array(
     'LBL_CLOSE_AND_CREATE_BUTTON_LABEL' => 'Close and Create New',
     'LBL_CLOSE_AND_CREATE_BUTTON_TITLE' => 'Close and Create New',
     'LBL_CLOSE_AND_CREATE_BUTTON_KEY' => 'C',
-    'LBL_OPEN_ITEMS' => 'Open Items:',
+    'LBL_OPEN_ITEMS' => 'Open Items',
     'LBL_COMPOSE_EMAIL_BUTTON_KEY' => 'L',
     'LBL_COMPOSE_EMAIL_BUTTON_LABEL' => 'Compose Email',
     'LBL_COMPOSE_EMAIL_BUTTON_TITLE' => 'Compose Email',
@@ -1546,9 +1592,10 @@ $app_strings = array(
     'LBL_COUNTRY' => 'Country:',
     'LBL_CREATE_BUTTON_LABEL' => 'CREATE',
     'LBL_CREATED_BY_USER' => 'Created by User',
+    'LBL_CREATED_BY' => 'Created By',
     'LBL_CREATED_USER' => 'Created by User',
     'LBL_CREATED' => 'Created by',
-    'LBL_CURRENT_USER_FILTER' => 'My Items:',
+    'LBL_CURRENT_USER_FILTER' => 'My Items',
     'LBL_CURRENCY' => 'Currency:',
     'LBL_DOCUMENTS' => 'Documents',
     'LBL_DATE_ENTERED' => 'Date Created:',
@@ -1558,6 +1605,7 @@ $app_strings = array(
     'LBL_DELETE_BUTTON' => 'Delete',
     'LBL_DELETE' => 'Delete',
     'LBL_DELETED' => 'Deleted',
+    'LBL_LIMIT' => 'Limit: ',
     'LBL_DIRECT_REPORTS' => 'Direct Reports',
     'LBL_DONE_BUTTON_LABEL' => 'Done',
     'LBL_DONE_BUTTON_TITLE' => 'Done',
@@ -1577,13 +1625,16 @@ $app_strings = array(
     'LBL_EMPLOYEES' => 'Employees',
     'LBL_ENTER_DATE' => 'Enter Date',
     'LBL_EXPORT' => 'Export',
-    'LBL_FAVORITES_FILTER' => 'My Favorites:',
+    'LBL_FAVORITES_FILTER' => 'My Favorites',
     'LBL_GO_BUTTON_LABEL' => 'Go',
     'LBL_HIDE' => 'Hide',
+    'LBL_HISTORY' => 'History',
+    'LBL_NEW' => 'New',
     'LBL_ID' => 'ID',
     'LBL_IMPORT' => 'Import',
     'LBL_IMPORT_STARTED' => 'Import Started: ',
     'LBL_LAST_VIEWED' => 'Recently Viewed',
+    'LBL_LAST_VIEWED_NO_RESULT' => 'No Recently Viewed Items',
     'LBL_LEADS' => 'Leads',
     'LBL_LESS' => 'less',
     'LBL_CAMPAIGN' => 'Campaign:',
@@ -1592,9 +1643,29 @@ $app_strings = array(
     'LBL_CAMPAIGN_CONTACT' => 'Campaigns',
     'LBL_CAMPAIGN_ID' => 'campaign_id',
     'LBL_CAMPAIGN_NONE' => 'None',
+    'LBL_CAMPAIGN_CHARTS' => 'Campaign Charts',
+    'LBL_EMAIL_MARKETING_CHARTS' => 'Email Marketing Charts',
+    'LBL_MESSAGE_QUEUE_TITLE' => 'Message Queue',
+    'LBL_CAMPAIGN_SEND_STATUS' => 'Campaign Send Status',
+    'LBL_EMAIL_MARKETING_SEND_STATUS' => 'Email Marketing Send Status',
+    'LBL_CAMPAIGN_RESPONSE_BY_RECIPIENT_ACTIVITY' => 'Campaign Response By Recipient Activity',
+    'LBL_EMAIL_MARKETING_RESPONSE_BY_RECIPIENT_ACTIVITY' => 'Email Marketing Response By Recipient Activity',
+    'LBL_LOG_ENTRIES_TARGETED_TITLE' => 'Sent/Attempted',
+    'LBL_LOG_ENTRIES_SEND_ERROR_TITLE' => 'Bounced Messages, Other',
+    'LBL_LOG_ENTRIES_BOUNCED_TITLE' => 'Bounced Messages',
+    'LBL_LOG_ENTRIES_INVALID_EMAIL_TITLE' => 'Bounced Messages, Invalid Email',
+    'LBL_LOG_ENTRIES_LINK_TITLE' => 'Click-thru Link',
+    'LBL_LOG_ENTRIES_VIEWED_TITLE' => 'Viewed Message',
+    'LBL_LOG_ENTRIES_REMOVED_TITLE' => 'Opted Out',
+    'LBL_LOG_ENTRIES_LEAD_TITLE' => 'Leads Created',
+    'LBL_CAMPAIGN_LEAD_SUBPANEL_TITLE' => 'Leads',
+    'LBL_OPPORTUNITY_SUBPANEL_TITLE' => 'Opportunities',
+    'LBL_LOG_ENTRIES_CONTACT_TITLE' => 'Contacts Created',
+    'LBL_LOG_ENTRIES_BLOCKED_TITLE' => 'Suppressed/Blocked',
     'LBL_THEME' => 'Theme:',
     'LBL_FOUND_IN_RELEASE' => 'Found In Release',
     'LBL_FIXED_IN_RELEASE' => 'Fixed In Release',
+    'LBL_IN_EVERYWHERE' => 'In Everywhere',
     'LBL_LIST_ACCOUNT_NAME' => 'Account Name',
     'LBL_LIST_ASSIGNED_USER' => 'User',
     'LBL_LIST_CONTACT_NAME' => 'Contact Name',
@@ -1615,10 +1686,24 @@ $app_strings = array(
     'LBL_LOCALE_NAME_EXAMPLE_LAST' => 'Livingstone',
     'LBL_LOCALE_NAME_EXAMPLE_SALUTATION' => 'Dr.',
     'LBL_LOCALE_NAME_EXAMPLE_TITLE' => 'Code Monkey Extraordinaire',
+    'LBL_COPY' => 'Copy',
     'LBL_CANCEL' => 'Cancel',
+    'LBL_SNOOZE' => 'Snooze',
+    'LBL_SNOOZE_INLINE_CONFIRM' => 'Snooze? ({{preferences.snooze_alert_timer|enum:snooze_alert_timer_simple}})',
+    'LBL_DISMISS' => 'Dismiss',
+    'LBL_DISMISS_INLINE_CONFIRM' => 'Dismiss?',
+    'LBL_DISMISS_ALL_INLINE_CONFIRM' => 'Dismiss All?',
+    'NTC_DISMISS_CONFIRMATION' => 'Are you sure you want to dismiss this alert?',
+    'NTC_DISMISS_ALL_CONFIRMATION' => 'Are you sure you want to dismiss all alerts?',
+    'LBL_ALERT_DISMISS_SUCCESS' => 'Alert dismissed successfully',
+    'LBL_ALERT_DISMISS_ERROR' => 'Error while trying to dismiss alert',
+    'LBL_ALERT_DISMISS_ALL_SUCCESS' => 'Alerts dismissed successfully',
+    'LBL_DISMISS_ALL' => 'Dismiss All',
     'LBL_VERIFY' => 'Verify',
     'LBL_RESEND' => 'Resend',
+    'LBL_RECORD_DOES_NOT_EXIST' => 'Error retrieving record. This record may be deleted or you may not be authorized to view it.',
     'LBL_PROFILE' => 'Profile',
+    'LBL_PROFILE_EDIT' => 'Edit Profile',
     'LBL_MAILMERGE' => 'Mail Merge',
     'LBL_MASS_UPDATE' => 'Mass Update',
     'LBL_NO_MASS_UPDATE_FIELDS_AVAILABLE' => 'There are no fields available for the Mass Update operation',
@@ -1638,6 +1723,7 @@ $app_strings = array(
     'LBL_NEW_BUTTON_KEY' => 'N',
     'LBL_NEW_BUTTON_LABEL' => 'Create',
     'LBL_NEW_BUTTON_TITLE' => 'Create',
+    'LBL_EDIT' => 'Edit',
     'LBL_NEXT_BUTTON_LABEL' => 'Next',
     'LBL_NONE' => '--None--',
     'LBL_NOTES' => 'Notes',
@@ -1683,6 +1769,8 @@ $app_strings = array(
     'LBL_SEARCH_BUTTON_LABEL' => 'Search',
     'LBL_SEARCH_BUTTON_TITLE' => 'Search',
     'LBL_FILTER' => 'Filter',
+    'LBL_CLEAR_FILTER' => 'Clear Filter',
+    'LBL_FILTER_MODULES' => 'Filter Modules',
     'LBL_SEARCH' => 'Search',
     'LBL_SEARCH_ALT' => '',
     'LBL_SEARCH_MORE' => 'more',
@@ -1761,6 +1849,16 @@ $app_strings = array(
 
     'LBL_INBOUNDEMAIL_ID' => 'Inbound Email ID',
 
+    'LBL_ALL_SCHEDULERS' => 'All Schedulers',
+    'LBL_LEGACY_SCHEDULERS' => 'Legacy Schedulers',
+    'LBL_SCHEDULERS' => 'Schedulers',
+    'LBL_RUN_LEGACY_SCHEDULERS' => 'Running Legacy Schedulers',
+    'LBL_LEGACY_SCHEDULERS_RUN_SUCCESSFULLY' => 'Legacy Schedulers run successfully!',
+    'LBL_RUN_SCHEDULERS' => 'Running Schedulers',
+    'LBL_LEGACY_SCHEDULER_FAILED' => 'Not all Schedulers were successful. See Logs.',
+    'LBL_PASSED' => 'Passed',
+    'LBL_FAILED' => 'Failed',
+
     'LBL_SCENARIO_SALES' => 'Sales',
     'LBL_SCENARIO_MARKETING' => 'Marketing',
     'LBL_SCENARIO_FINANCE' => 'Finance',
@@ -1785,6 +1883,11 @@ $app_strings = array(
     'LBL_THOUSANDS_SYMBOL' => 'K',
     'LBL_TRACK_EMAIL_BUTTON_LABEL' => 'Archive Email',
     'LBL_TRACK_EMAIL_BUTTON_TITLE' => 'Archive Email',
+    'LBL_TOO_MANY_ADDRESSES' => 'You have selected too many email addresses.',
+    'LBL_NO_ADDRESSES_SELECTED' => 'Please select an address to send to.',
+    'LBL_NOT_ALL_SENT' => 'Not all Emails sent. See logs for more info.',
+    'LBL_NOT_VALID_TARGETS' => 'No targets validated to send to.',
+    'LBL_ALL_EMAILS_SENT' => 'All test Emails sent successfully',
     'LBL_UNDELETE_BUTTON_LABEL' => 'Undelete',
     'LBL_UNDELETE_BUTTON_TITLE' => 'Undelete',
     'LBL_UNDELETE_BUTTON' => 'Undelete',
@@ -1796,12 +1899,16 @@ $app_strings = array(
     'LBL_VERIFY_EMAIL_ADDRESS' => 'Checking for existing email entry...',
     'LBL_VERIFY_PORTAL_NAME' => 'Checking for existing portal name...',
     'LBL_VIEW_IMAGE' => 'view',
+    'LBL_CREATE_PORTAL_USER_FAILED' => 'Failed to create portal user',
+    'LBL_CREATE_PORTAL_USER_SUCCESS' => 'Created portal user',
 
     'LNK_ABOUT' => 'About',
     'LNK_ADVANCED_FILTER' => 'Advanced Filter',
     'LNK_BASIC_FILTER' => 'Quick Filter',
     'LBL_ADVANCED_SEARCH' => 'Advanced Filter',
     'LBL_QUICK_FILTER' => 'Quick Filter',
+    'LBL_BASIC_FILTER' => 'Basic Filter',
+    'LBL_QUICK' => 'Quick',
     'LNK_SEARCH_NONFTS_VIEW_ALL' => 'Show All',
     'LNK_CLOSE' => 'Close',
     'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
@@ -1824,13 +1931,23 @@ $app_strings = array(
     'LNK_REMOVE' => 'Remove',
     'LNK_RESUME' => 'Resume',
     'LNK_VIEW_CHANGE_LOG' => 'View Change Log',
+    'LBL_CHANGE_LOG' => 'Change Log',
 
     'NTC_CLICK_BACK' => 'Please click the browser back button and fix the error.',
     'NTC_DATE_FORMAT' => '(yyyy-mm-dd)',
     'NTC_DELETE_CONFIRMATION_MULTIPLE' => 'Are you sure you want to delete selected record(s)?',
+    'NTC_SEND_QUEUED_CAMPAIGN_EMAILS' => 'Send Next Batch of Queued Campaign Emails?',
+    'NTC_SNOOZE_CONFIRMATION' => 'Are you sure you want to snooze?',
     'NTC_TEMPLATE_IS_USED' => 'The template is used in at least one email marketing record. Are you sure you want to delete it?',
     'NTC_TEMPLATES_IS_USED' => 'The following templates are used in email marketing records. Are you sure you want to delete them?' . PHP_EOL,
     'NTC_DELETE_CONFIRMATION' => 'Are you sure you want to delete this record?',
+    'NTC_ABORT_CONFIRMATION' => 'Are you sure you want to abort?',
+    'NTC_SCHEDULE_CONFIRMATION' => "When Scheduled, The Sending Process will begin once the Scheduled Run Date has been reached.",
+    'NTC_DELETE_TEST_ENTRIES' => 'Scheduling will Delete Test Entries.',
+    'NTC_DELETE_TEST_ENTRIES_CONFIRMATION' => 'Are you sure you want to delete test entries?',
+    'NTC_PROCEED' => 'Would you like to proceed?',
+    'NTC_UNSCHEDULE_CONFIRMATION' => 'Unscheduling will set the Status to "Draft".',
+    'NTC_UNSCHEDULE_CONFIRMATION_OTHER' => 'The Sending Process will no longer begin, unless Re-Scheduled.',
     'NTC_DELETE_CONFIRMATION_NUM' => 'Are you sure you want to delete the ',
     'NTC_UPDATE_CONFIRMATION_NUM' => 'Are you sure you want to update the ',
     'NTC_DELETE_SELECTED_RECORDS' => ' selected record(s)?',
@@ -1843,6 +1960,7 @@ $app_strings = array(
     'NTC_YEAR_FORMAT' => '(yyyy)',
     'WARN_UNSAVED_CHANGES' => 'You are about to leave this record without saving any changes you may have made to the record. Are you sure you want to navigate away from this record?',
     'ERROR_NO_RECORD' => 'Error retrieving record. This record may be deleted or you may not be authorized to view it.',
+    'LBL_TEMPLATE_CONFIRMATION' => 'Apply new Email Template? (This will override your current email body and subject field)',
     'WARN_BROWSER_VERSION_WARNING' => '<b>Warning:</b> Your browser version is no longer supported or you are using an unsupported browser.<p></p>The following browser versions are recommended:<p></p><ul><li>Internet Explorer 10 (compatibility view not supported)<li>Firefox 32.0<li>Safari 5.1<li>Chrome 37</ul>',
     'WARN_BROWSER_IE_COMPATIBILITY_MODE_WARNING' => '<b>Warning:</b> Your browser is in IE compatibility view which is not supported.',
     'ERROR_TYPE_NOT_VALID' => 'Error. This type is not valid.',
@@ -1859,6 +1977,7 @@ $app_strings = array(
     'LBL_SAVING' => 'Saving',
     'LBL_DISPLAY_COLUMNS' => 'Display Columns',
     'LBL_HIDE_COLUMNS' => 'Hide Columns',
+    'LBL_COLUMNS' => 'Columns',
     'LBL_SEARCH_CRITERIA' => 'Search Criteria',
     'LBL_SAVED_VIEWS' => 'Saved Views',
     'LBL_PROCESSING_REQUEST' => 'Processing...',
@@ -1925,7 +2044,7 @@ $app_strings = array(
     'LBL_REMOVE_ALL_LEAD_FIELDS' => 'Remove All Fields',
     'LBL_NEXT_BTN' => 'Next',
     'LBL_ONLY_IMAGE_ATTACHMENT' => 'Only the following supported image type attachments can be embedded: JPG, PNG.',
-    'LBL_TRAINING' => 'Support Forum',
+    'LBL_TRAINING' => 'Community Forum',
     'ERR_MSSQL_DB_CONTEXT' => 'Changed database context to',
     'ERR_MSSQL_WARNING' => 'Warning:',
 
@@ -2103,6 +2222,8 @@ $app_strings = array(
     //define labels to be used for overriding local values during import/export
 
     'LBL_NOTIFICATIONS_NONE' => 'No Current Notifications',
+    'ERR_NOTIFICATIONS_MARK_AS_READ' => 'Error while trying to mark notifications as read',
+    'ERR_FIELD_LOGIC_BACKEND_CALCULATION' => 'Error while trying to get the value',
     'LBL_ALT_SORT_DESC' => 'Sorted Descending',
     'LBL_ALT_SORT_ASC' => 'Sorted Ascending',
     'LBL_ALT_SORT' => 'Sort',
@@ -2136,20 +2257,58 @@ $app_strings = array(
     'LBL_DUPLICATE_BUTTON_KEY' => 'u',
     'LBL_DUPLICATE_BUTTON_LABEL' => 'Duplicate',
     'LBL_DUPLICATE_BUTTON_TITLE' => 'Duplicate',
+    'LBL_DISABLE_USER_2FA' => 'Disable 2FA',
     'LBL_DELETE_BUTTON_KEY' => 'd',
     'LBL_DELETE_BUTTON_LABEL' => 'Delete',
     'LBL_DELETE_BUTTON_TITLE' => 'Delete',
-    'LBL_BULK_ACTION_BUTTON_LABEL' => 'BULK ACTION',
+    'LBL_BULK_ACTION_BUTTON_LABEL' => 'Bulk Action',
     'LBL_BULK_ACTION_BUTTON_LABEL_MOBILE' => 'ACTION',
+    'LBL_TOO_FEW_SELECTED' => 'Invalid number of records selected. You must select a minimum of {min} records.',
+    'LBL_TOO_MANY_SELECTED' => 'Invalid number of records selected. You must select a maximum of {max} records.',
+    'LBL_SELECT_ALL_NOT_ALLOWED' => 'Selecting all records is not available for this action. Please select individual records.',
+    'LBL_MISSING_HANDLER_DATA' => 'Unexpected error. Missing bulk action handler data from response',
+    'LBL_MISSING_HANDLER' => 'Unexpected error. No handler defined for the select bulk action',
+    'LBL_MISSING_HANDLER_DATA_ROUTE' => 'Unexpected error. Missing bulk action route',
+    'LBL_ACTION_ERROR' => 'Unexpected error when calling action',
+    'LBL_BULK_ACTION_ERROR' => 'Unexpected error when calling Bulk Action',
+    'LBL_BULK_ACTION_DELETE_SUCCESS' => 'Record(s) deleted successfully',
+    'LBL_BULK_ACTION_MASS_UPDATE_CONFIRMATION' => 'Are you sure you want to update the selected record(s)?',
+    'LBL_BULK_ACTION_MASS_UPDATE_SUCCESS' => 'All Record(s) updated successfully',
+    'LBL_BULK_ACTION_MASS_UPDATE_PARTIAL_SUCCESS' => 'Partial success. Some records were not updated. please check log',
+    'LBL_BULK_ACTION_MASS_UPDATE_NO_FIELDS' => 'No fields to update',
+    'LBL_BULK_ACTION_MASS_UPDATE_NO_RECORDS' => 'No records to update',
+    'LBL_BULK_ACTION_MASS_UPDATE_NO_ACLS' => 'Insufficient Privilege, Save action not allowed',
+    'LBL_UNEXPECTED_ERROR' => 'Unexpected error. No able to perform action.',
+    'LBL_RECORD_DELETE_SUCCESS' => 'Record deleted successfully',
+    'LBL_RECORD_DELETE_ALL_SUCCESS' => 'Records deleted successfully',
+    'LBL_RECORD_SNOOZE_SUCCESS' => 'Notification Snoozed',
+    'LBL_ERROR_SAVING' => 'Error occurred while saving record',
     'LBL_SAVE_BUTTON_KEY' => 'a',
     'LBL_SAVE_BUTTON_LABEL' => 'Save',
+    'LBL_NEW_EM_SURVEY' => 'New Survey Email',
+    'LBL_NEW_EM_TRANSACTIONAL' => 'New Transactional Email',
+    'LBL_NEW_EM_MARKETING' => 'New Marketing Email',
+    'LBL_NEW_SURVEY' => 'New Survey',
+    'LBL_WEB_TO_LEAD' => 'New Web to Person Form',
+    'LBL_TYPE' => 'Type',
+    'LBL_DATE_START' => 'Date Start',
+    'LBL_SEND_DATE' => 'Send Date',
+    'LBL_SCHEDULE_BUTTON_LABEL' => 'Schedule',
+    'LBL_UNABLE_TO_UNSCHEDULE' => 'Unable to unschedule as not scheduled',
     'LBL_SAVE_BUTTON_TITLE' => 'Save',
+    'LBL_SAVE_CONTINUE_LABEL' => 'Save And Continue',
     'LBL_CANCEL_BUTTON_KEY' => 'l',
     'LBL_CANCEL_BUTTON_LABEL' => 'Cancel',
     'LBL_CANCEL_BUTTON_TITLE' => 'Cancel',
     'LBL_FIRST_INPUT_EDIT_VIEW_KEY' => '7',
     'LBL_ADV_SEARCH_LNK_KEY' => '8',
     'LBL_FIRST_INPUT_SEARCH_KEY' => '9',
+
+    'ANNUAL_REVENUE_BY_ACCOUNTS' => 'Annual Revenue By Accounts',
+    'PIPELINE_BY_SALES_STAGE' => 'Pipeline By Sales Stage',
+    'LEADS_BY_SOURCE' => 'Leads By Source',
+    'LEADS_BY_STATUS' => 'Leads By Status',
+    'ACCOUNT_TYPES_PER_MONTH' => 'New Accounts by Month',
 
     'ERR_CONNECTOR_NOT_ARRAY' => 'connector array in {0} been defined incorrectly or is empty and could not be used.',
     'ERR_SUHOSIN' => 'Upload stream is blocked by Suhosin, please add &quot;upload&quot; to suhosin.executor.include.whitelist (See suitecrm.log for more information)',
@@ -2170,6 +2329,7 @@ $app_strings = array(
     'LBL_DELETE_REMINDER_CONFIRM' => 'Reminder doesn\'t include any invitees, do you want to remove the reminder?',
     'LBL_DELETE_REMINDER' => 'Delete Reminder',
     'LBL_OK' => 'Ok',
+    'LBL_PROCEED' => 'Proceed',
 
     'LBL_COLUMNS_FILTER_HEADER_TITLE' => 'Choose columns',
     'LBL_COLUMN_CHOOSER' => 'Column Chooser',
@@ -2223,6 +2383,49 @@ $app_strings = array(
     'LBL_CONTACT_HAS_NO_PRIMARY_EMAIL' => 'Confirm Opt In Email sending is not possible because the Contact has not Primary Email Address',
     'LBL_CONFIRM_EMAIL_SENDING_FAILED' => 'Confirm Opt In Email sending failed',
     'LBL_CONFIRM_EMAIL_SENT' => 'Confirm Opt In Email sent successfully',
+
+    'LBL_SEND_TEST_EMAIL' => 'Send Test Email',
+    'LBL_SEND_TEST_EMAIL_DESC' => 'Please select the Email Addresses / User(s) and/or Target List(s) to send to.',
+    'LBL_EMAIL_SENT_SUCCESSFULLY' => 'Email sent successfully',
+    'LBL_PROSPECT_LIST_NAME' => 'Target Lists',
+
+    //List View Column Selector Modal
+    'LBL_COLUMN_SELECTOR_DISPLAYED_COLS' => 'DISPLAYED',
+    'LBL_COLUMN_SELECTOR_HIDDEN_COLS' => 'HIDDEN',
+    'LBL_COLUMN_SELECTOR_CLOSE_BUTTON' => 'Close',
+    'LBL_COLUMN_SELECTOR_SAVE_BUTTON' => 'Save Changes',
+    'LBL_COLUMN_SELECTOR_MODAL_TITLE' => 'Choose Columns',
+
+    // Two-Factor Authentication
+    'LBL_ENTER_AUTH_APP_2FA_CODE' => 'Please enter the verification code from your authenticator app',
+    'LBL_ENABLE_2FA_LABEL' => 'Enable Two-Factor Authentication',
+    'LBL_BACKUP_CODES' => 'Recovery/Backup Codes',
+    'LBL_BACKUP_CODES_INFO' => 'Backup codes are one time passcodes to use when you are unable to verify via your Authenticator app.',
+    'LBL_BACKUP_CODES_WARN' => ' WARNING: These codes are only generated once. Please copy BEFORE verifying as these will not be displayed again.',
+    'LBL_PROBLEMS_GENERATING_CODE' => 'Problems generating the code?',
+    'LBL_BACKUP_CODES_FALLBACK_INSTRUCTIONS' => 'Use one of the backup codes (it expires after being used)',
+    'LBL_OTP_SETUP' => 'Use a OTP (one time password) authenticator on your mobile or computer to enable 2FA (Two-Factor Authentication)',
+    'LBL_QR_CODE_HELP' => "If you haven't already, please download an Authenticator Application (such as FreeOTP or Google Authenticator). Use that app to scan the QR code.",
+    'LBL_USE_SECRET' => "Unable to scan the QR Code?",
+    'LBL_USE_SECRET_DESC' => "If you are unable to scan the QR code, please enter the secret below manually into your authenticator app.",
+    'LBL_HIDE_SECRET' => "Hide TOTP Secret",
+    'LBL_2FA_LOGIN_CANCEL' => 'Two Factor Authentication cancelled',
+
+    'LBL_FACTOR_AUTH_DISABLE' => 'Two Factor Authentication was Disabled',
+    'LBL_FACTOR_AUTH_SUCCESS' => 'Two Factor Authentication was Successful',
+    'LBL_FACTOR_AUTH_FAIL' => "Two Factor Authentication failed. Try again.",
+
+    'LBL_VERIFY_2FA' => 'Verify Code',
+    'LBL_TWO_FACTOR_AUTH' => 'Two Factor Authentication',
+    'LBL_TWO_FACTOR_AUTH_APP_METHOD' => 'Authenticator app',
+    'LBL_TWO_FACTOR_AUTH_APP_METHOD_DESCRIPTION' => 'Use an authentication app to generate 2-factor authentication codes when prompted',
+    'LBL_ENABLE' => 'Enable',
+    'LBL_ENABLED' => 'Enabled',
+    'LBL_DISABLE' => 'Disable',
+    'LBL_GENERATED' => 'Generated',
+    'LBL_REGENERATE_CODES' => 'Regenerate',
+    'LBL_REGENERATED_BACKUP_CODES' => 'Backup Codes Regenerated'
+
 );
 
 $app_list_strings['moduleList']['Library'] = 'Library';
@@ -2977,14 +3180,9 @@ $app_strings['LBL_LISTVIEW_OPTION_CURRENT'] = 'Select This Page';
 $app_strings['LBL_LISTVIEW_OPTION_ENTIRE'] = 'Select All';
 $app_strings['LBL_LISTVIEW_NONE'] = 'Deselect All';
 
-//aod
-$app_list_strings['moduleList']['AOD_IndexEvent'] = 'Index Event';
-$app_list_strings['moduleList']['AOD_Index'] = 'Index';
-
 $app_list_strings['moduleList']['AOP_Case_Events'] = 'Case Events';
 $app_list_strings['moduleList']['AOP_Case_Updates'] = 'Case Updates';
 $app_strings['LBL_AOP_EMAIL_REPLY_DELIMITER'] = '========== Please reply above this line ==========';
-
 
 //aop
 $app_list_strings['case_state_default_key'] = 'Open';
@@ -3609,20 +3807,6 @@ $app_list_strings['moduleList']['TemplateEditor'] = 'Template Part Editor';
 $app_strings['LBL_CONFIRM_CANCEL_INLINE_EDITING'] = "You have clicked away from the field you were editing without saving it. Click ok if you're happy to lose your change, or cancel if you would like to continue editing";
 $app_strings['LBL_LOADING_ERROR_INLINE_EDITING'] = "There was an error loading the field. Your session may have timed out. Please log in again to fix this";
 
-//SuiteSpots
-$app_list_strings['spots_areas'] = array(
-    'getSalesSpotsData' => 'Sales',
-    'getAccountsSpotsData' => 'Accounts',
-    'getLeadsSpotsData' => 'Leads',
-    'getServiceSpotsData' => 'Service',
-    'getMarketingSpotsData' => 'Marketing',
-    'getMarketingActivitySpotsData' => 'Marketing Activity',
-    'getActivitiesSpotsData' => 'Activities',
-    'getQuotesSpotsData' => 'Quotes'
-);
-
-$app_list_strings['moduleList']['Spots'] = 'Spots';
-
 $app_list_strings['moduleList']['AOBH_BusinessHours'] = 'Business Hours';
 $app_list_strings['business_hours_list']['0'] = '12am';
 $app_list_strings['business_hours_list']['1'] = '1am';
@@ -3759,6 +3943,10 @@ $app_strings['LBL_GOOGLE_SYNC_ERR'] = 'SuiteCRM Google Sync - ERROR';
 $app_strings['LBL_THERE_WAS_AN_ERR'] = 'There was an error: ';
 $app_strings['LBL_CLICK_HERE'] = 'Click here';
 $app_strings['LBL_TO_CONTINUE'] = ' to continue.';
+$app_strings['LBL_OPT_OUT'] = 'Opt Out';
+$app_strings['LBL_INVALID_EMAIL'] = 'Invalid';
+$app_strings['LBL_PRIMARY'] = 'Primary';
+$app_strings['LBL_EMAIL_ADDRESS'] = 'Email Address';
 
 $app_strings['IMAP_HANDLER_ERROR'] = 'ERROR: {error}; key was: "{key}".';
 $app_strings['IMAP_HANDLER_SUCCESS'] = 'OK: test settings changed to "{key}"';
@@ -3780,8 +3968,150 @@ $app_strings['LBL_SEARCH_PREV'] = 'Previous';
 $app_strings['LBL_SEARCH_NEXT'] = 'Next';
 $app_strings['LBL_SEARCH_PAGE'] = 'Page ';
 $app_strings['LBL_SEARCH_OF'] = ' of ';
+$app_strings['LBL_INSIGHTS'] = 'Insights';
+$app_strings['LBL_CHARTS'] = 'Charts';
+$app_strings['LBL_CHART_NOT_FOUND'] = 'Chart not found';
+$app_strings['LBL_NO_DATA'] = 'No Data';
+$app_strings['LBL_ERROR_FETCHING_METADATA'] = 'Error occurred while fetching metadata';
+$app_strings['LBL_TOTAL'] = 'Total';
+$app_strings['LBL_ACTIONS'] = 'Actions';
+$app_strings['LBL_SELECT_SUBPANEL_BANNER'] = 'Select which subpanels to view';
+$app_strings['LBL_SELECT_ITEM'] = 'Select an item';
+$app_strings['LBL_ITEMS_SELECTED'] = 'items selected';
+$app_strings['LBL_WIDGET_NOT_FOUND'] = 'Widget not found';
+$app_strings['LBL_BAD_CONFIG'] = 'Incorrect configuration';
+$app_strings['LBL_CONFIG_BAD_CONTEXT'] = 'Incorrect configuration: context not properly configured';
+$app_strings['LBL_CONFIG_NO_CONFIG'] = 'Incorrect configuration: missing config';
+$app_strings['LBL_CONFIG_NO_STATISTICS_KEY'] = 'Incorrect configuration: missing statistics key';
+$app_strings['LBL_STATISTIC_ERROR'] = 'Error loading statistic';
+$app_strings['LBL_STATISTIC_ERROR_DESC'] = 'Error loading statistic';
+$app_strings['LBL_STATISTIC_ERROR_DESC_TOOLTIP'] = 'Error loading statistic. Please contact your administrator';
+$app_strings['LBL_AVERAGE_CLOSED_WON_PER_YEAR'] = 'Average Won Opportunity Per Year';
+$app_strings['LBL_OPPORTUNITIES_TOTAL'] = 'Total Opportunity Value';
+$app_strings['LBL_CASE_TOTAL_DAYS_OPEN'] = 'Total Days Open';
+$app_strings['LBL_DAYS_OPEN'] = 'Days Open';
+$app_strings['LBL_DAYS_IN_SALE_STAGE'] = 'DAY(S) THIS OPPORTUNITY HAS BEEN AT THIS SALES STAGE';
+$app_strings['LBL_STAT_DAYS'] = 'Day(s)';
+$app_strings['LBL_CLOSED_PER_YEAR'] = 'Closed Per Year';
+$app_strings['LBL_WAS_OPEN'] = 'This Case was Open For';
+$app_strings['LBL_HAS_BEEN_OPEN'] = 'This Case has been Open For';
+$app_strings['LBL_NUMBER_OF_CASES_PER_ACCOUNT'] = 'Number of Cases Per Account';
+$app_strings['LBL_TOTAL_CASES_FOR_THIS_ACCOUNT'] = 'Total Cases For This Account';
+$app_strings['LBL_NONE_OUTSTANDING'] = 'None';
+$app_strings['LBL_VALIDATION_ERROR_REQUIRED'] = 'Missing required field: {{fields.field.label}}';
+$app_strings['LBL_VALIDATION_ERROR_CURRENCY_FORMAT'] = "Invalid currency format. Expected: '{{context.expected}}'";
+$app_strings['LBL_VALIDATION_ERROR_INT_FORMAT'] = "Invalid int format. Expected: '{{context.expected}}'";
+$app_strings['LBL_VALIDATION_ERROR_FLOAT_FORMAT'] = "Invalid float format. Expected: '{{context.expected}}'";
+$app_strings['LBL_VALIDATION_ERROR_DATE_FORMAT'] = "Invalid date format. Expected: '{{context.expected}}'";
+$app_strings['LBL_VALIDATION_ERROR_DATETIME_FORMAT'] = "Invalid datetime format. Expected: '{{context.expected}}'";
+$app_strings['LBL_VALIDATION_ERROR_UNSUBSCRIBE_LINK'] = "Non-Transactional Emails must contain an unsubscribe link. Please add an opt out tracker, '{{ unsubscribe_link }}' or select the icon: ";
+$app_strings['LBL_VALIDATION_ERROR_REMOVE_UNSUBSCRIBE_LINK'] = "Transactional Emails must NOT contain an unsubscribe link. Please remove '{{ unsubscribe_link }}'";
+$app_strings['LBL_VALIDATION_ERROR_EMAIL_FORMAT'] = "Invalid email format. Expected: '{{context.expected}}'";
+$app_strings['LBL_VALIDATION_ERROR_PHONE_FORMAT'] = "Invalid phone format.";
+$app_strings['LBL_VALIDATION_ERROR_MIN'] = "Invalid value. Value must greater or equal to '{{context.min}}'";
+$app_strings['LBL_VALIDATION_ERROR_MAX'] = "Invalid value. Value must smaller or equal to '{{context.max}}'";
+$app_strings['LBL_MULTIPLE_PRIMARY_EMAIL_VALIDATION_ERROR'] = "Only one Valid Email Address should be marked as primary";
+$app_strings['LBL_DUPLICATE_EMAIL_VALIDATION_ERROR'] = "Duplicate email addresses are not allowed";
+$app_strings['LBL_NO_PRIMARY_EMAIL_VALIDATION_ERROR'] = "One Valid Email Address should be marked as primary";
+$app_strings['LBL_NO_EM_ID'] = 'Unable to get Email Marketing ID';
+$app_strings['LBL_VALIDATION_ERRORS'] = 'There are validation errors, unable to perform action.';
+$app_strings['LBL_LOADING_IN_PROGRESS'] = 'The calculation is currently in progress, please wait a few moments before trying again.';
+$app_strings['LBL_SELECT_EMAIL_FOR_TEST'] = 'Please Select Targets/ Users or Enter an Email';
+$app_strings['LBL_TYPE_TO_SEARCH'] = 'Type to search...';
+$app_strings['LBL_SEARCHING'] = 'searching...';
+$app_strings['LBL_NOT_FOUND'] = 'Not found.';
+$app_strings['LBL_SEARCH_ERROR'] = 'Search error.';
+$app_strings['LBL_FOUND'] = 'Found';
+$app_strings['LBL_GET_RECORD_LIST_ERROR'] = 'Error occurred while retrieving records';
+$app_strings['LBL_NUMBER_OF_RECORDS'] = 'The Number of Records';
+$app_strings['LBL_FORWARD_SLASH'] = '/';
+$app_strings['LBL_CASES_INSIGHT'] = ' {{fields.cases.value}} ( {{fields.default.value}} )';
+$app_strings['LBL_INVOICES_INSIGHT'] = ' {{fields.invoices.value}} ( {{fields.default.value}} )';
+$app_strings['LBL_CONTRACT_RENEWAL_TOOLTIP'] = 'Date of the next Contract Renewal';
+$app_strings['LBL_INVOICES_OVERDUE_TOOLTIP'] = 'Total number of Overdue Invoices';
+$app_strings['LBL_ACTIVITIES_NEXT_DATE_TOOLTIP'] = 'Date of the next interaction';
+$app_strings['LBL_CAMPAIGN_LAST_RECEIVED_TOOLTIP'] = 'Date of the most recent Campaign received';
+$app_strings['LBL_OPEN_CASES_COUNT_TOOLTIP'] = 'Total number of Open Cases';
+$app_strings['LBL_EVENTS_LAST_DATE_TOOLTIP'] = 'Date of the most recent Event';
+$app_strings['LBL_HISTORY_LAST_DATE_TOOLTIP'] = 'Date of the most recent interaction';
+$app_strings['LBL_OPPORTUNITIES_TOTAL_SUM_TOOLTIP'] = 'Total Sum of Opportunities';
+$app_strings['LBL_QUOTES_EXPIRY_TOOLTIP'] = 'Date of the next Quote Expiration';
+$app_strings['LBL_DEFAULT_TOTAL_TOOLTIP'] = 'Total number of records';
+$app_strings['LBL_CONTRACT_RENEWAL'] = 'Renewal Date';
+$app_strings['LBL_INVOICES_OVERDUE'] = 'Total Overdue';
+$app_strings['LBL_ACTIVITIES_NEXT_DATE'] = 'Next Activity Date';
+$app_strings['LBL_CAMPAIGN_LAST_RECEIVED'] = 'Last Participated';
+$app_strings['LBL_OPEN_CASES_COUNT'] = 'Open Cases';
+$app_strings['LBL_EVENTS_LAST_DATE'] = 'Last Event Attended';
+$app_strings['LBL_HISTORY_LAST_DATE'] = 'Last Touchpoint';
+$app_strings['LBL_OPPORTUNITIES_TOTAL_SUM'] = 'Total Value';
+$app_strings['LBL_QUOTES_EXPIRY'] = 'Next Expiration Date';
+$app_strings['LBL_DEFAULT_TOTAL'] = 'Total';
+$app_strings['AOS_Contracts'] = 'Contracts';
+$app_strings['AOS_Quotes'] = 'Quotes';
+$app_strings['AOS_Invoices'] = 'Invoices';
+$app_strings['LBL_PHOTO'] = 'Photo';
+$app_strings['LBL_CASE_UPDATES'] = 'Case Updates';
+$app_strings['LBL_CASE_UPDATE_SUBMITTED'] = 'Case Update Submitted';
+$app_strings['LBL_SUMMARY_DEFAULT'] = "{{fields.name.value}}";
+$app_strings['LBL_SUMMARY_PERSON'] = "{{fields.salutation.value}} {{fields.first_name.value}} {{fields.last_name.value}}";
+$app_strings['LBL_SUMMARY_DOCUMENT'] = "{{fields.document_name.value}}";
+$app_strings['LBL_CREATE'] = 'Create';
+$app_strings['LBL_CLEAR_FILTER'] = 'Clear Filter';
+$app_strings['LBL_QUICK_FILTERS'] = 'Quick Filters';
+$app_strings['LBL_SAVED_FILTER_SAVED'] = 'Filter successfully saved';
+$app_strings['LBL_FILTER_ID_NOT_DEFINED'] = 'Filter id not defined';
+$app_strings['LBL_GENERIC_CONFIRMATION'] = 'Do you want to proceed with action?';
+$app_strings['LBL_SHOW_MORE'] = 'Show more';
+$app_strings['LBL_SHOW_LESS'] = 'Show less';
+$app_strings['LBL_LOAD_MORE'] = 'Load more';
+$app_strings['LBL_EMPTY'] = '-- Empty --';
+$app_strings['LBL_OPERATOR'] = 'Operator';
+$app_strings['LBL_START'] = 'Start';
+$app_strings['LBL_END'] = 'End';
+$app_strings['LBL_LINE_ITEMS_FIELD_CONFIG'] = 'Bad config';
+
+
+$app_strings['LBL_ACTION_SUCCESS'] = 'Action successful';
+
+$app_strings['LBL_YES'] = 'Yes';
+$app_strings['LBL_NO'] = 'No';
+
+$app_list_strings['sort_order'] = [];
+$app_list_strings['sort_order']['asc'] = 'Ascending';
+$app_list_strings['sort_order']['desc'] = 'Descending';
+
+// Labels used by subpanel unlink relationship process
+$app_strings['LBL_LINK'] = 'Link';
+$app_strings['LBL_LINK_UNLINK'] = 'Link / Unlink';
+$app_strings['LBL_SAVE'] = 'Save';
+$app_strings['LBL_UNLINK_RECORD'] = 'Unlink Record';
+$app_strings['LBL_EDIT_RECORD'] = 'Edit Record';
+$app_strings['LBL_UNLINK_RELATIONSHIP_CONFIRM'] = 'Are you sure you want to unlink this record? Only the relationship will be unlinked. The record will not be deleted.';
+$app_strings['LBL_UNLINK_RELATIONSHIP_SUCCESS'] = 'Record unlinked successfully.';
+$app_strings['LBL_UNLINK_RELATIONSHIP_FAILED'] = 'There was an error unlinking this record.';
+$app_strings['LBL_ALL_RECORDS_UNLINKED'] = 'All records unlinked successfully';
+$app_strings['LBL_SOME_RECORDS_UNLINKED_FAILED'] = 'There was an issue unlinking some records. See the logs for more.';
+$app_strings['LBL_LINK_RELATIONSHIP_SUCCESS'] = 'Relationship linked successfully.';
+$app_strings['LBL_LINK_RELATIONSHIP_FAILED'] = 'There was an error linking this Relationship.';
+$app_strings['LBL_MODULE_NOT_FOUND'] = 'Module not found.';
+$app_strings['LBL_RECORD_NOT_FOUND'] = 'Unable to load record';
+$app_strings['LBL_RELATIONSHIP_LOAD_ERROR'] = 'Unable to load relationship';
+$app_strings['LBL_NOT_LINKED'] = 'Unable to unlink. Records are not linked';
+$app_strings['LBL_ACCESS_DENIED'] = 'Access Denied';
+$app_strings['LBL_ADD_RECORDS_TO_TARGET_LIST_SUCCESS'] = 'Records added to target list successfully.';
+$app_strings['LBL_ADD_RECORDS_TO_TARGET_LIST_FAILED'] = 'There was an error adding records to target list.';
+$app_strings['LBL_ADD_CONTACTS_TO_TARGET_LIST_SUCCESS'] = 'Contacts added to target list successfully.';
+$app_strings['LBL_ADD_CONTACTS_TO_TARGET_LIST_FAILED'] = 'There was an error adding contacts to target list.';
+$app_strings['LBL_CHANGED_TO_TEXT'] = 'changed to';
+$app_strings['LBL_RECORD_CHANGED'] = 'Record Updated';
+$app_strings['LBL_CREATE'] = "Create";
 $app_strings['LBL_USE_ADVANCED_SEARCH'] = 'Use Advanced Search';
 $app_strings['LBL_USE_BASIC_SEARCH'] = 'Use Basic Search';
+$app_strings['LBL_NO_MODULE_SELECTED'] = 'No module selected';
+$app_strings['LBL_CLOSE_MENU'] = 'Close Menu';
+$app_strings['LOGIN_INCORRECT'] = 'Login credentials incorrect, please try again.';
+$app_strings['LOGIN_TOO_MANY_FAILED'] = 'Too many failed login attempts, please try again later.';
 
 // PDF Engines
 $app_strings['LBL_LEGACY_MPDF_ENGINE'] = 'Legacy MPDF Engine';
@@ -3809,3 +4139,188 @@ $app_strings['LBL_INBOUND_ACCOUNT'] = 'Inbound Account';
 $app_strings['LBL_SYSTEM_ACCOUNT'] = 'System Account';
 $app_strings['LBL_FROM_SYSTEM'] = 'Send From System';
 $app_strings['LBL_SIGNATURE'] = 'Signature';
+$app_strings['LBL_NEW_NOTIFICATION'] = "You have {{context.unread}} new notifications";
+$app_strings['LBL_NOTIFICATION_ITEM_DATE'] = 'Due: {{fields.date_start.value}}';
+$app_strings['LBL_NOTIFICATION_ITEM_DATE_ENTERED'] = 'Notified: {{fields.snooze.value}}';
+$app_strings['LBL_QUICK_ACTIONS'] = 'Quick Actions';
+$app_strings['LBL_RELATIONSHIPS'] = 'Relationships';
+$app_strings['LBL_SHOW_CC'] = 'Show Cc';
+$app_strings['LBL_SHOW_BCC'] = 'Show Bcc';
+$app_strings['LBL_CC'] = 'Cc';
+$app_strings['LBL_BCC'] = 'Bcc';
+$app_strings['LNK_NEW_EMAIL'] = 'New Email';
+$app_strings['LBL_INSERT_TEMPLATE'] = 'Insert Template';
+$app_strings['LBL_MISSING_RECORD_DATA'] = 'Missing Record Data';
+$app_strings['LBL_MISSING_FIELDS_DATA'] = 'Missing Fields Data';
+$app_strings['LBL_WRONG_MODULE_PROVIDED'] = 'Wrong module provided';
+$app_strings['LBL_NO_TEMPLATE_ID_PROVIDED'] = 'No template id provided';
+$app_strings['LBL_TEMPLATE_NOT_FOUND'] = 'Template not found';
+$app_strings['LBL_EMAIL_MODAL_DYNAMIC_TITLE'] = 'New Email{{fields.name.value|prefix:\' - \'}}';
+$app_strings['LBL_CLOSE_EMAIL_MODAL'] = 'Are you sure you wish to discard this Email? (Changes will be lost)';
+$app_strings['LBL_RELATED_TO_DYNAMIC'] = '{{fields.parent_type.value|uppercase}}';
+$app_strings['LBL_RELATED_TO'] = 'Related To';
+$app_strings['LBL_OUTBOUND_EMAIL_NAME_COMPOSE_LABEL'] = '{{fields.smtp_from_name}}';
+$app_strings['LBL_OUTBOUND_EMAIL_NAME_COMPOSE_SUB_LABEL'] = '{{fields.smtp_from_addr}}';
+$app_strings['LBL_SMALL'] = 'Small';
+$app_strings['LBL_MEDIUM'] = 'Medium';
+$app_strings['LBL_NORMAL'] = 'Normal';
+$app_strings['LBL_LARGE'] = 'Large';
+$app_strings['LBL_HUGE'] = 'Huge';
+$app_strings['LBL_DEFAULT'] = 'Default';
+$app_strings['LBL_APPLY'] = 'Apply';
+$app_strings['LBL_INSERT_LINK_URL_DESCRIPTION'] = 'Insert URL or email:';
+$app_strings['LBL_INSERT_LINK_PLACEHOLDER'] = 'e.g.: https://www.example.com';
+
+$app_strings['LBL_COLOR_BLACK'] = 'Black';
+$app_strings['LBL_COLOR_FIREBRICK'] = 'Firebrick';
+$app_strings['LBL_COLOR_RED'] = 'Red';
+$app_strings['LBL_COLOR_SALMON'] = 'Salmon';
+$app_strings['LBL_COLOR_BLUSH'] = 'Blush';
+$app_strings['LBL_COLOR_DARK_RED'] = 'Dark Red';
+$app_strings['LBL_COLOR_BROWN'] = 'Brown';
+$app_strings['LBL_COLOR_DARK_ORANGE'] = 'Dark Orange';
+$app_strings['LBL_COLOR_ORANGE'] = 'Orange';
+$app_strings['LBL_COLOR_ANTIQUE_WHITE'] = 'Antique White';
+$app_strings['LBL_COLOR_SADDLE_BROWN'] = 'Saddle Brown';
+$app_strings['LBL_COLOR_GOLDENROD'] = 'Golden Rod';
+$app_strings['LBL_COLOR_GOLD'] = 'Gold';
+$app_strings['LBL_COLOR_YELLOW'] = 'Yellow';
+$app_strings['LBL_COLOR_LIGHT_YELLOW'] = 'Light Yellow';
+$app_strings['LBL_COLOR_DARK_SLATE_GRAY'] = 'Dark Slate Grey';
+$app_strings['LBL_COLOR_DARK_GREEN'] = 'Dark Green';
+$app_strings['LBL_COLOR_GREEN'] = 'Green';
+$app_strings['LBL_COLOR_LIME'] = 'Lime';
+$app_strings['LBL_COLOR_HONEYDEW'] = 'Honeydew';
+$app_strings['LBL_COLOR_TEAL'] = 'Teal';
+$app_strings['LBL_COLOR_TURQUOISE'] = 'Turquoise';
+$app_strings['LBL_COLOR_AQUA'] = 'Aqua';
+$app_strings['LBL_COLOR_PALE_TURQUOISE'] = 'Pale Turquoise';
+$app_strings['LBL_COLOR_AZURE'] = 'Azure';
+$app_strings['LBL_COLOR_NAVY_BLUE'] = 'Navy Blue';
+$app_strings['LBL_COLOR_MEDIUM_BLUE'] = 'Medium Blue';
+$app_strings['LBL_COLOR_BLUE'] = 'Blue';
+$app_strings['LBL_COLOR_LIGHT_BLUE'] = 'Light Blue';
+$app_strings['LBL_COLOR_ALICE_BLUE'] = 'Alice Blue';
+$app_strings['LBL_COLOR_INDIGO'] = 'Indigo';
+$app_strings['LBL_COLOR_PATRIARCH_PURPLE'] = 'Patriarch Purple';
+$app_strings['LBL_COLOR_VIOLET_PURPLE'] = 'Violet Purple';
+$app_strings['LBL_COLOR_PLUM'] = 'Plum';
+$app_strings['LBL_COLOR_LAVENDER'] = 'Lavender';
+$app_strings['LBL_COLOR_DIM_GRAY'] = 'Dim Gray';
+$app_strings['LBL_COLOR_GRAY'] = 'Gray';
+$app_strings['LBL_COLOR_DARK_GRAY'] = 'Dark Gray';
+$app_strings['LBL_COLOR_LIGHT_GRAY'] = 'Light Gray';
+$app_strings['LBL_COLOR_WHITE'] = 'White';
+
+$app_strings['LBL_BOLD'] = 'Bold';
+$app_strings['LBL_ITALIC'] = 'Italic';
+$app_strings['LBL_UNDERLINE'] = 'Underline';
+$app_strings['LBL_STRIKETHROUGH'] = 'Strikethrough';
+$app_strings['LBL_FONT_FACE'] = 'Font Face';
+$app_strings['LBL_TEXT_SIZE'] = 'Text Size';
+$app_strings['LBL_TEXT_COLOR'] = 'Text Color';
+$app_strings['LBL_TEXT_HIGHLIGHT'] = 'Text Highlight';
+$app_strings['LBL_LINK'] = 'Link';
+$app_strings['LBL_UNORDERED_LIST'] = 'Unordered List';
+$app_strings['LBL_ORDERED_LIST'] = 'Ordered List';
+$app_strings['LBL_QUOTE'] = 'Quote';
+$app_strings['LBL_UNQUOTE'] = 'Unquote';
+$app_strings['LBL_ALIGN_LEFT'] = 'Left';
+$app_strings['LBL_ALIGN_CENTER'] = 'Center';
+$app_strings['LBL_ALIGN_RIGHT'] = 'Right';
+$app_strings['LBL_JUSTIFY'] = 'Justify';
+$app_strings['LBL_TEXT_LEFT_TO_RIGHT'] = 'Text Direction: Left to Right';
+$app_strings['LBL_TEXT_RIGHT_TO_LEFT'] = 'Text Direction: Right to Left';
+$app_strings['LBL_CLEAR_FORMATTING'] = 'Clear Formatting';
+$app_strings['LBL_INJECT_UNSUBSCRIBE'] = 'Unsubscribe Link';
+$app_strings['LBL_TEXT_INDENT_LEFT'] = 'Indent Text Left';
+$app_strings['LBL_TEXT_INDENT_RIGHT'] = 'Indent Text Right';
+
+// Day and Time labels
+$app_strings['LBL_SUN'] = 'Sunday';
+$app_strings['LBL_MON'] = 'Monday';
+$app_strings['LBL_TUE'] = 'Tuesday';
+$app_strings['LBL_WED'] = 'Wednesday';
+$app_strings['LBL_THU'] = 'Thursday';
+$app_strings['LBL_FRI'] = 'Friday';
+$app_strings['LBL_SAT'] = 'Saturday';
+$app_strings['LBL_ALL'] = 'Every Day';
+$app_strings['LBL_EVERY'] = 'Every';
+$app_strings['LBL_ON_THE'] = 'On the';
+$app_strings['LBL_RANGE'] = 'to';
+$app_strings['LBL_FROM'] = 'From';
+$app_strings['LBL_AND'] = 'and';
+$app_strings['LBL_MINS'] = 'Min';
+$app_strings['LBL_MINUTES'] = 'minutes';
+$app_strings['LBL_HOUR'] = 'hours';
+$app_strings['LBL_HOUR_SING'] = 'hour';
+$app_strings['LBL_OFTEN'] = 'As often as possible.';
+$app_strings['LBL_MIN_MARK'] = 'minute mark';
+$app_strings['LBL_INBOUND_EMAIL'] = 'Inbound Email';
+
+$app_strings['LBL_LEGEND'] = 'Legend';
+
+$app_strings['LBL_EMAIL_MARKETING_NOT_UNSCHEDULED'] = 'Email Marketing is not Un Scheduled cannot schedule';
+$app_strings['LBL_INCORRECT_RECORD_ID'] = 'Incorrect record id';
+
+$app_strings['LBL_TEST_ENTRIES_DELETED'] = 'Test Entries Deleted.';
+$app_strings['LBL_UNABLE_TO_GET_ID'] = 'Unable to retrieve Email Marketing ID';
+$app_strings['LBL_UNABLE_TO_DELETE_TEST_ENTRIES'] = 'Error Deleting Test Entries. See logs for more info';
+$app_strings['LBL_SECTION_KEY_NOT_DEFINED'] = 'Section key not defined';
+$app_strings['LBL_DOES_BOUNCE_EXIST'] = 'Does a Bounce Email exist?';
+$app_strings['LBL_CAMPAIGN_SETTINGS'] = 'Settings';
+
+$app_strings['LBL_SEND_FROM_QUEUE_DYNAMIC_LABEL'] = '{{ fields.send-from-queue.value }}';
+$app_strings['LBL_EMAIL_TO_QUEUE_DYNAMIC_LABEL'] = '{{ fields.email-to-queue.value }}';
+$app_strings['LBL_POLL_BOUNCED_CAMPAIGN_DYNAMIC_LABEL'] = '{{ fields.pollMonitoredInboxesForBouncedCampaignEmails.value }}';
+
+$app_strings['LBL_CRON_LINUX_DESC1_DYNAMIC'] = '{{ fields.desc1.value }}';
+$app_strings['LBL_CRON_LINUX_DESC2_DYNAMIC'] = '{{ fields.desc2.value }}';
+$app_strings['LBL_CRON_LINUX_DESC3_DYNAMIC'] = '{{ fields.desc3.value }}';
+$app_strings['LBL_CRON_LINUX_DESC4_DYNAMIC'] = '{{ fields.desc4.value }}';
+$app_strings['LBL_CRON_LINUX_DESC5_DYNAMIC'] = '{{ fields.desc5.value }}';
+$app_strings['LBL_CRON_LINUX_DESC6_DYNAMIC'] = '{{ fields.desc6.value }}';
+$app_strings['LBL_CRON_LINUX_DESC7_DYNAMIC'] = '{{ fields.desc7.value }}';
+$app_strings['LBL_CRON_LINUX_DESC8_DYNAMIC'] = '{{ fields.desc8.value }}';
+
+$app_strings['LBL_CRON_WIN_DESC1_DYNAMIC'] = '{{ fields.desc1.value }}';
+$app_strings['LBL_CRON_WIN_DESC2_DYNAMIC'] = '{{ fields.desc2.value }}';
+$app_strings['LBL_CRON_WIN_DESC3_DYNAMIC'] = '{{ fields.desc3.value }}';
+$app_strings['LBL_CRON_WIN_DESC4_DYNAMIC'] = '{{ fields.desc4.value }}';
+$app_strings['LBL_CRON_WIN_DESC5_DYNAMIC'] = '{{ fields.desc5.value }}';
+
+$app_strings['LBL_CRON_LAST_RUN'] = 'Last successful run';
+$app_strings['LBL_CRON_LAST_USER_TO_RUN'] = 'Last user to run schedulers';
+$app_strings['LBL_LAST_RUN_VALUE'] = '{{ fields.lastRun.value }}';
+$app_strings['LBL_LAST_USER_RUN_VALUE'] = '{{ fields.user.value }}';
+$app_strings['LBL_RUN_USER_INVALID'] = 'This user is not part of `allowed_cron_users` config setting. Therefore the last run was not successful';
+$app_strings['LBL_SCHEDULERS_NEVER_RUN'] = 'Schedulers have never been run.';
+$app_strings['LBL_MARKETING_ITEMS_PER_RUN'] = 'Campaign Marketing Items Per Run';
+$app_strings['LBL_EMAILS_PER_RUN'] = 'Campaign Emails Per Run';
+$app_strings['LBL_TRACKERS_ENABLED'] = 'Trackers Enabled';
+$app_strings['LBL_TRACKER_LINKS_ENABLED'] = 'Tracker Links Enabled';
+
+$app_strings['LBL_MARKETING_ITEMS_PER_RUN_DYNAMIC_LABEL'] = '{{ fields.campaign_marketing_items_per_run.value }}';
+$app_strings['LBL_EMAILS_PER_RUN_DYNAMIC_LABEL'] = '{{ fields.campaign_emails_per_run.value }}';
+$app_strings['LBL_TRACKERS_ENABLED_DYNAMIC_LABEL'] = '{{ fields.trackers_enabled.value }}';
+$app_strings['LBL_UNSUBSCRIBE'] = 'Unsubscribe';
+$app_strings['LBL_INACTIVE'] = 'Inactive';
+$app_strings['LBL_DISPLAYING_TEST_EMAIL_MARKETING_DATA'] = 'Charts and Subpanels currently displaying data generated from Test Emails.';
+$app_strings['LBL_DASH_SYMBOL'] = '-';
+$app_strings['LBL_FIELD_STORAGE_NOT_SET'] = 'File storage type not set for field. Unable to upload file.';
+$app_strings['LBL_FIELD_STORAGE_INVALID_TYPE'] = 'File storage type is not valid for field. Unable to upload file.';
+$app_strings['LBL_UPLOAD'] = 'Upload';
+$app_strings['LBL_UPLOAD_FAILED'] = 'Upload failed, please try again later';
+$app_strings['LBL_UPLOADING'] = 'Uploading';
+$app_strings['LBL_FILE_FIELD_UPLOAD_BUTTON_DESCRIPTION'] = 'Click or drag a file here to upload';
+$app_strings['LBL_ATTACHMENTS_FIELD_UPLOAD_BUTTON_DESCRIPTION'] = 'Drag and drop a file here to upload';
+$app_strings['LBL_TEMPORARY'] = 'Temporary';
+$app_strings['LBL_MAX_FILE_SIZE_EXCEEDED'] = 'The file exceeds the maximum allowed size.';
+$app_strings['LBL_UNSUPPORTED_IMAGE_TYPE'] = 'The image type is not supported.';
+$app_strings['LBL_UNSUPPORTED_FILE_TYPE'] = 'The file type is not supported.';
+
+$app_strings['LBL_DEFAULT_OUTBOUND_NOT_SET'] = 'Unable to retrieve Default Outbound Email';
+$app_strings['LBL_DEFAULT_OUTBOUND_NOT_CONFIGURED'] = 'Outbound Email Account not correctly configured.';
+
+$app_strings['LBL_CRON_UNRECOMMENDED_USER'] = 'You are currently running as root, this is NOT recommended, would you like to continue (y,n)? ';
+$app_strings['LBL_UNKNOWN_USER'] = 'Unknown User';

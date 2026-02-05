@@ -44,6 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_SEND_DATE_TIME' => 'Send Date',
+    'LBL_SEND_ON' => 'Send On',
     'LBL_IN_QUEUE' => 'In Process',
     'LBL_IN_QUEUE_DATE' => 'Queued Date',
 
@@ -61,7 +62,10 @@ $mod_strings = array(
     'LBL_EMAIL_CONFIRM_OPT_IN_TEMPLATE_ID' => 'Confirm Opt In Email Template',
     'LBL_LEGACY_EMAIL_COMPOSE_BEHAVIOR' => 'Enable Legacy Email Compose Behaviour',
     'LBL_EMAIL_OUTBOUND_CONFIGURATION' => 'Outgoing Mail Configuration',
-    'LBL_EMAILS_PER_RUN' => 'Number of emails sent per batch:',
+    'LBL_EMAILS_PER_RUN' => 'Number of emails processed/sent per batch:',
+    'LBL_CAMPAIGN_MARKETING_RECORDS_PER_RUN' => 'Number of emails marketing records to process per run:',
+    'LBL_TRACKERS_ENABLED' => 'Trackers enabled:',
+    'LBL_TRACKER_LINKS_ENABLED' => 'Tracker Links Enabled',
     'LBL_ID' => 'Id',
     'LBL_LIST_CAMPAIGN' => 'Campaign',
     'LBL_LIST_FORM_TITLE' => 'Queue',
@@ -94,6 +98,7 @@ $mod_strings = array(
     'LBL_EXCHANGE_SMTPSERVER' => 'Exchange Server',
     'LBL_EMAIL_LINK_TYPE' => 'Email Client',
     'LBL_MARKETING_ID' => 'Marketing Id',
+    'LBL_LIST_MARKETING_NAME' => 'Marketing Name',
     'LBL_MODULE_ID' => 'EmailMan',
     'LBL_MODULE_NAME' => 'Email Settings',
     'LBL_MODULE_TITLE' => 'Outbound Email Queue Management',
