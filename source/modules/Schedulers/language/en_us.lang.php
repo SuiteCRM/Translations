@@ -4,8 +4,8 @@
  * SugarCRM Community Edition is a customer relationship management program developed by
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
- * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
- * Copyright (C) 2011 - 2019 SalesAgility Ltd.
+ * SuiteCRM is an extension to SugarCRM Community Edition developed by SuiteCRM Ltd.
+ * Copyright (C) 2011 - 2025 SuiteCRM Ltd.
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -59,6 +59,7 @@ $mod_strings = array(
     'LBL_OOTB_REMOVE_DOCUMENTS_FROM_FS' => 'Removal of documents from filesystem',
     'LBL_OOTB_GOOGLE_CAL_SYNC' => 'Google Calendar Sync',
     'LBL_OOTB_ELASTIC_INDEX' => 'Perform Elasticsearch Index',
+    'LBL_OOTB_CAL_ACC_SYNC' => 'Calendar Accounts Sync',
 
 // List Labels
     'LBL_LIST_JOB_INTERVAL' => 'Interval:',
@@ -160,6 +161,7 @@ $mod_strings = array(
     'LBL_PROCESSAOW_WORKFLOW' => 'Process AOW Workflow',
 
     'LBL_RUNELASTICSEARCHINDEXERSCHEDULER' => 'Elasticsearch indexer',
+    'LBL_CALENDARSYNCJOB' => 'Sync Calendar Accounts',
 
     'LBL_SCHEDULER_TIMES' => 'Scheduler Times',
     'LBL_SYNCGOOGLECALENDAR' => 'Sync Google Calendars',

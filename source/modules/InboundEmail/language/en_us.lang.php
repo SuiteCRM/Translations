@@ -4,8 +4,8 @@
  * SugarCRM Community Edition is a customer relationship management program developed by
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
- * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
- * Copyright (C) 2011 - 2019 SalesAgility Ltd.
+ * SuiteCRM is an extension to SugarCRM Community Edition developed by SuiteCRM Ltd.
+ * Copyright (C) 2011 - 2025 SuiteCRM Ltd.
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -221,4 +221,9 @@ $mod_strings = array(
     'LBL_SET_AS_DEFAULT_BUTTON' => 'Set as default',
 
     'LBL_MOVE_MESSAGES_TO_TRASH_AFTER_IMPORT' => 'Move Messages To Trash After Import?',
+    'LBL_LAST_IMPORT_RUN_DATETIME' => 'Last Import Run Date/Time',
+    'LBL_MAILBOX_LAST_IMPORTED_DAYS' => 'Last Imported Date Per Mailbox',
+    'LBL_EMAIL_IMPORT_PER_RUN_THRESHOLD' => 'Emails to Import Per Run',
+    'LBL_EMAIL_IMPORT_TIMEFRAME_START' => 'Import Timeframe Start',
+    'LBL_EMAIL_IMPORT_UNREAD_ONLY' => 'Import Unread Emails Only'
 );

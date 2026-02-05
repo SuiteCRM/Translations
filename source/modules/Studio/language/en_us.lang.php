@@ -4,8 +4,8 @@
  * SugarCRM Community Edition is a customer relationship management program developed by
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
- * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
- * Copyright (C) 2011 - 2019 SalesAgility Ltd.
+ * SuiteCRM is an extension to SugarCRM Community Edition developed by SuiteCRM Ltd.
+ * Copyright (C) 2011 - 2025 SuiteCRM Ltd.
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
@@ -80,6 +80,11 @@ $mod_strings = array(
     'LBL_SW_EDIT_PORTAL' => 'Edit Portal',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => 'Repair Custom Fields',
     'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrate Custom Fields',
+
+// JS LABELS
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuilds javascript versions of language files',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Removing javascript versions of language files, will rebuild when needed.',
+
 
 //Manager Backups History
     'LBL_MB_DELETE' => 'Delete',
