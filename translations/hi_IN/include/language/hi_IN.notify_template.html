@@ -1,0 +1,280 @@
+<!--
+/**
+ *
+ * SugarCRM Community Edition is a customer relationship management program developed by
+ * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
+ *
+ * SuiteCRM is an extension to SugarCRM Community Edition developed by SuiteCRM Ltd.
+ * Copyright (C) 2011 - 2025 SuiteCRM Ltd.
+ *
+ * This program is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU Affero General Public License version 3 as published by the
+ * Free Software Foundation with the addition of the following permission added
+ * to Section 15 as permitted in Section 7(a): FOR ANY PART OF THE COVERED WORK
+ * IN WHICH THE COPYRIGHT IS OWNED BY SUGARCRM, SUGARCRM DISCLAIMS THE WARRANTY
+ * OF NON INFRINGEMENT OF THIRD PARTY RIGHTS.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with
+ * this program; if not, see http://www.gnu.org/licenses or write to the Free
+ * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301 USA.
+ *
+ * You can contact SugarCRM, Inc. headquarters at 10050 North Wolfe Road,
+ * SW2-130, Cupertino, CA 95014, USA. or at email address contact@sugarcrm.com.
+ *
+ * The interactive user interfaces in modified source and object code versions
+ * of this program must display Appropriate Legal Notices, as required under
+ * Section 5 of the GNU Affero General Public License version 3.
+ *
+ * In accordance with Section 7(b) of the GNU Affero General Public License version 3,
+ * these Appropriate Legal Notices must retain the display of the "Powered by
+ * SugarCRM" logo and "Supercharged by SuiteCRM" logo. If the display of the logos is not
+ * reasonably feasible for technical reasons, the Appropriate Legal Notices must
+ * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
+ */
+-->
+<!-- BEGIN: Quote_Subject -->
+<p>सूइटसीआरएम उद्धरण - {QUOTE_SUBJECT}</p>
+<!-- END: Quote_Subject -->
+<!-- BEGIN: Quote -->
+<p><b>{ASSIGNER}</b> ने <b>{ASSIGNED_USER}</b> को एक कोटेशन असाइन किया है।</p>
+<p>
+विषय: {QUOTE_SUBJECT}<br/>
+स्थिति: {QUOTE_STATUS}<br/>
+अपेक्षित समाप्ति दिनांक: {QUOTE_CLOSEDATE}<br/>
+वर्णन: {QUOTE_DESCRIPTION}
+</p>
+<p>आप इस उद्धरण की <a href={URL}>समीक्षा कर सकते हैं।</a>।</p>
+<!-- END: Quote -->
+
+<!-- BEGIN: Account_Subject -->
+<p>सूइटसीआरएम खाता - {ACCOUNT_NAME}</p>
+<!-- END: Account_Subject -->
+<!-- BEGIN: Account -->
+<p><b>{ASSIGNER}</b> ने <b>{ASSIGNED_USER}</b> को एक खाता सौंपा है।</p>
+<p>
+नाम: {ACCOUNT_NAME}<br/> प्रकार: {ACCOUNT_TYPE}<br/> विवरण: {ACCOUNT_DESCRIPTION}
+</p>
+<p>आप इस खाते की <a href={URL}>समीक्षा कर सकते हैं</a>।</p>
+<!-- END: Account -->
+
+<!-- BEGIN: Case_Subject -->
+<p>सूइटसीआरएम मामला - {CASE_SUBJECT}</p>
+<!-- END: Case_Subject -->
+<!-- BEGIN: Case -->
+<p><b>{ASSIGNER}</b> ने <b>{ASSIGNED_USER}</b> को एक केस सौंपा है।</p>
+<p>
+विषय: {CASE_SUBJECT}<br/> प्राथमिकता: {CASE_PRIORITY}<br/> स्थिति: {CASE_STATUS}<br/> विवरण: {CASE_DESCRIPTION}
+</p>
+<p>आप इस मामले की <a href={URL}>समीक्षा कर सकते हैं</a>।</p>
+<!-- END: Case -->
+
+<!-- BEGIN: Task_Subject -->
+<p>सूइटसीआरएम कार्य - {TASK_SUBJECT}</p>
+<!-- END: Task_Subject -->
+<!-- BEGIN: Task -->
+<p><b>{ASSIGNER}</b> ने <b>{ASSIGNED_USER}</b> को एक कार्य सौंपा है।</p>
+<p>
+विषय: {TASK_SUBJECT}<br/> प्राथमिकता: {TASK_PRIORITY}<br/> देय तिथि: {TASK_DUEDATE}<br/> स्थिति: {TASK_STATUS}<br/> विवरण: {TASK_DESCRIPTION}
+</p>
+<p>आप <a href={URL}>इस कार्य की समीक्षा कर सकते हैं</a>।</p>
+<!-- END: Task -->
+
+<!-- BEGIN: Meeting_Subject -->
+<p>सूइटसीआरएम बैठक - {MEETING_SUBJECT}</p>
+<!-- END: Meeting_Subject -->
+<!-- BEGIN: Meeting -->
+<p>को: {MEETING_TO}</p>
+<p><b>{ASSIGNER}</b> ने आपको मीटिंग में आमंत्रित किया है</p>
+<p>
+विषय: {MEETING_SUBJECT}<br/> स्थान: {MEETING_LOCATION}<br/> आरंभ तिथि: {MEETING_STARTDATE}<br/> समाप्ति तिथि: {MEETING_ENDDATE}
+</p>
+<p>
+<!-- BEGIN: Meeting_External_API -->
+मीटिंग यूआरएल: {MEETING_URL}
+</p>
+<!-- END: Meeting_External_API -->
+<p>विवरण: {MEETING_DESCRIPTION}<br/>
+</p>
+<!-- BEGIN: Meeting_Links -->
+<p>---</p>
+<p><a href={ACCEPT_URL}&accept_status=accept>इस बैठक को स्वीकार करें</a>।</p>
+<p><a href={ACCEPT_URL}&accept_status=tentative>इस बैठक को अस्थायी रूप से स्वीकार करें</a>।</p>
+<p><a href={ACCEPT_URL}&accept_status=decline>इस बैठक में शामिल होने से इनकार करें</a>।</p>
+<!-- END: Meeting_Links -->
+<!-- END: Meeting -->
+
+<!-- BEGIN: MeetingSpecial_Subject -->
+<p>सूइटसीआरएम बैठक - {MEETING_SUBJECT}</p>
+<!-- END: MeetingSpecial_Subject -->
+<!-- BEGIN: MeetingSpecial -->
+<p><b>{ASSIGNER}</b> ने <b>{ASSIGNED_USER}</b> को एक मीटिंग असाइन की है।</p>
+<p>
+विषय: {MEETING_SUBJECT}<br/> स्थान: {MEETING_LOCATION}<br/> स्थिति: {MEETING_STATUS}<br/> आरंभ तिथि: {MEETING_STARTDATE}<br/> समाप्ति तिथि: {MEETING_ENDDATE}<br/> विवरण: {MEETING_DESCRIPTION}
+</p>
+<p>आप <a href={URL}>इस मीटिंग की समीक्षा कर सकते हैं</a>।</p>
+<!-- END: MeetingSpecial -->
+
+<!-- BEGIN: MeetingReminder_Subject -->
+<p>मीटिंग रिमाइंडर - {MEETING_SUBJECT}</p>
+<!-- END: MeetingSpecial_Subject -->
+<!-- BEGIN: MeetingReminder -->
+<p>
+शीर्षक: {MEETING_SUBJECT}<br/> कब: {MEETING_STARTDATE}<br/> स्थान: {MEETING_LOCATION}<br/> निर्माता: {MEETING_CREATED_BY}
+</p>
+<!-- END: MeetingReminder -->
+
+<!-- BEGIN: Email_Subject -->
+<p>सूइटसीआरएम ईमेल - {EMAIL_SUBJECT}</p>
+<!-- END: Email_Subject -->
+<!-- BEGIN: Email -->
+<p><b>{ASSIGNER}</b> ने <b>{ASSIGNED_USER}</b> को एक ईमेल असाइन किया है।</p>
+<p>
+विषय: {EMAIL_SUBJECT}<br/> भेजने की तिथि: {EMAIL_DATESENT}
+</p>
+<p>आप <a href={URL}>इस ईमेल की समीक्षा कर सकते हैं</a>।</p>
+<!-- END: Email -->
+
+<!-- BEGIN: Contact_Subject -->
+<p>सूइटसीआरएम संपर्क - {CONTACT_NAME}</p>
+<!-- END: Contact_Subject -->
+<!-- BEGIN: Contact -->
+<p><b>{ASSIGNER}</b> ने <b>{ASSIGNED_USER}</b> को एक संपर्क असाइन किया है।</p>
+<p>
+नाम: {CONTACT_NAME}<br/> विवरण: {CONTACT_DESCRIPTION}
+</p>
+<p>आप <a href={URL}>इस संपर्क की समीक्षा कर सकते हैं</a>।</p>
+<!-- END: Contact -->
+
+<!-- BEGIN: Lead_Subject -->
+<p>सूइटसीआरएम लीड - {LEAD_NAME}</p>
+<!-- END: Lead_Subject -->
+<!-- BEGIN: Lead -->
+<p><b>{ASSIGNER}</b> ने <b>{ASSIGNED_USER}</b> को एक लीड असाइन किया है।</p>
+<p>
+नाम: {LEAD_NAME}<br/> लीड स्रोत: {LEAD_SOURCE}<br/> स्थिति: {LEAD_STATUS}<br/> विवरण: {LEAD_DESCRIPTION}
+</p>
+<p>आप <a href={URL}>इस लीड की समीक्षा कर सकते हैं</a>।</p>
+<!-- END: Lead -->
+
+<!-- BEGIN: Opportunity_Subject -->
+<p>सूइटसीआरएम अवसर - {OPPORTUNITY_NAME}</p>
+<!-- END: Opportunity_Subject -->
+<!-- BEGIN: Opportunity -->
+<p><b>{ASSIGNER}</b> ने <b>{ASSIGNED_USER}</b> को एक अवसर सौंपा है।</p>
+<p>
+नाम: {OPPORTUNITY_NAME}<br/> राशि: {OPPORTUNITY_AMOUNT}<br/> अपेक्षित समापन तिथि: {OPPORTUNITY_CLOSEDATE}<br/> बिक्री चरण: {OPPORTUNITY_STAGE}<br/> विवरण: {OPPORTUNITY_DESCRIPTION}
+</p>
+<p>आप <a href={URL}>इस अवसर की समीक्षा कर सकते हैं</a>।</p>
+<!-- END: Opportunity -->
+
+<!-- BEGIN: Bug_Subject -->
+<p>सूइटसीआरएम बग - {BUG_SUBJECT}</p>
+<!-- END: Bug_Subject -->
+<!-- BEGIN: Bug -->
+<p><b>{ASSIGNER}</b> ने <b>{ASSIGNED_USER}</b> को एक बग असाइन किया है।</p>
+<p>
+बग संख्या: {BUG_BUG_NUMBER}<br/> विषय: {BUG_SUBJECT}<br/> प्रकार: {BUG_TYPE}<br/> प्राथमिकता: {BUG_PRIORITY}<br/> स्थिति: {BUG_STATUS}<br/> समाधान: {BUG_RESOLUTION}<br/> रिलीज़: {BUG_RELEASE}<br/> विवरण: {BUG_DESCRIPTION}<br/> कार्य लॉग: {BUG_WORK_LOG}
+</p>
+<p>आप <a href={URL}>इस बग की समीक्षा कर सकते हैं</a>।</p>
+<!-- END: Bug -->
+
+<!-- BEGIN: Default_Subject -->
+<p>सूइटसीआरएम - असाइन किया गया {OBJECT}</p>
+<!-- END: Default_Subject -->
+<!-- BEGIN: Default -->
+<p><b>{ASSIGNER}</b> ने <b>{ASSIGNED_USER}</b> को एक {OBJECT} असाइन किया है।</p>
+<p>आप इस {OBJECT} की समीक्षा कर सकते हैं।</p>
+<!-- END: Default -->
+
+<!-- BEGIN: Call_Subject -->
+<p>सूइटसीआरएम कॉल - {CALL_SUBJECT}</p>
+<!-- END: Call_Subject -->
+<!-- BEGIN: Call -->
+<p>प्रति: {CALL_TO}</p>
+<p><b>{ASSIGNER}</b> ने आपको कॉल के लिए आमंत्रित किया है</p>
+<p>
+विषय: {CALL_SUBJECT}<br/> स्थिति: {CALL_STATUS}<br/> आरंभ तिथि: {CALL_STARTDATE}<br/> अवधि: {CALL_HOURS}h, {CALL_MINUTES}m<br/> विवरण: {CALL_DESCRIPTION}<br/>
+</p>
+<!-- BEGIN: Call_Links -->
+<p>---</p>
+<p><a href={ACCEPT_URL}&accept_status=accept>इस कॉल को स्वीकार करें</a>।</p>
+<p><a href={ACCEPT_URL}&accept_status=tentative>इस कॉल को अस्थायी रूप से स्वीकार करें</a>।</p>
+<p><a href={ACCEPT_URL}&accept_status=decline>इस कॉल को अस्वीकार करें</a>।</p>
+<!-- END: Call_Links -->
+<!-- END: Call -->
+
+<!-- BEGIN: CallSpecial_Subject -->
+<p>सूइटसीआरएम कॉल - {CALL_SUBJECT}</p>
+<!-- END: CallSpecial_Subject -->
+<!-- BEGIN: CallSpecial -->
+<p><b>{ASSIGNER}</b> ने <b>{ASSIGNED_USER}</b> को एक कॉल असाइन किया है।</p>
+<p>
+विषय: {CALL_SUBJECT}<br/> स्थिति: {CALL_STATUS}<br/> आरंभ तिथि: {CALL_STARTDATE}<br/> अवधि: {CALL_HOURS}h, {CALL_MINUTES}m<br/> विवरण: {CALL_DESCRIPTION}
+</p>
+<p>आप इस कॉल की <a href={URL}>समीक्षा कर सकते हैं</a>।</p>
+<!-- END: CallSpecial -->
+
+<!-- BEGIN: CallReminder_Subject -->
+<p>कॉल रिमाइंडर - {CALL_SUBJECT}</p>
+<!-- END: CallReminder_Subject -->
+<!-- BEGIN: CallReminder -->
+<p>
+शीर्षक: {CALL_SUBJECT}<br/> कब: {CALL_STARTDATE}<br/> निर्माता: {CALL_CREATED_BY}
+</p>
+<!-- END: CallReminder -->
+
+<!-- BEGIN: Campaign_Subject -->
+<p>सूइटसीआरएम अभियान - {CAMPAIGN_NAME}</p>
+<!-- END: Campaign_Subject -->
+<!-- BEGIN: Campaign -->
+<p><b>{ASSIGNER}</b> ने <b>{ASSIGNED_USER}</b> को एक कैंपेन असाइन किया है।</p>
+<p>
+विषय: {CAMPAIGN_NAME}<br/> राशि: {CAMPAIGN_AMOUNT}<br/> समापन तिथि: {CAMPAIGN_CLOSEDATE}<br/> स्थिति: {CAMPAIGN_STATUS}<br/> विवरण: {CAMPAIGN_DESCRIPTION}
+</p>
+<p>आप <a href={URL}>इस अभियान की समीक्षा कर सकते हैं</a>।</p>
+<!-- END: Campaign -->
+
+<!-- BEGIN: Quota_Subject -->
+<p>सूइटसीआरएम कोटा - {QUOTA_TIMEPERIOD} के लिए आपका कोटा</p>
+<!-- END: Quota_Subject -->
+<!-- BEGIN: Quota -->
+<p><b>{ASSIGNER}</b> ने <b>{ASSIGNED_USER}</b> को कोटा आवंटित किया है।</p>
+<p>
+    राशि: {QUOTA_AMOUNT}<br/> समयावधि: {QUOTA_TIMEPERIOD}
+</p>
+<p>आप इस कोटा असाइनमेंट की <a href={QUOTA_URL}>समीक्षा कर सकते हैं</a>।</p>
+<!-- END: Quota -->
+
+<!-- BEGIN: KBDocument_Subject -->
+<p>सूइटसीआरएम दस्तावेज़ - {KBDOCUMENT_NAME}</p>
+<!-- END: KBDocument_Subject -->
+<!-- BEGIN: KBDocument -->
+{NOTIFICATION_MESSAGE}
+
+<p>
+नाम: {KBDOCUMENT_NAME}<br/> निर्माण तिथि: {KBDOCUMENT_DATE_CREATED}<br/> निर्माता: {KBDOCUMENT_CREATED_BY}<br/> स्थिति: {KBDOCUMENT_STATUS}<br/> विवरण: {KBDOCUMENT_DESCRIPTION}
+</p>
+<p>आप <a href={URL}>इस दस्तावेज़ की समीक्षा कर सकते हैं</a>।</p>
+<!-- END: KBDocument -->
+
+<!-- BEGIN: Contract_Subject -->
+<p>सूइटसीआरएम अनुबंध - {CONTRACT_NAME}</p>
+<!-- END: Contract_Subject -->
+<!-- BEGIN: Contract-->
+<p><b>{ASSIGNER}</b> ने <b>{ASSIGNED_USER}</b> को एक अनुबंध सौंपा है।</p>
+<p>आप <a href={URL}>इस संपर्क की समीक्षा कर सकते हैं</a>।</p>
+<!-- END:Contract-->
+
+<!-- BEGIN: ContractSpecial_Subject -->
+<p>सूइटसीआरएम अनुबंध - {CONTRACT_NAME}</p>
+<!-- END: ContractSpecial_Subject -->
+<!-- BEGIN: ContractSpecial -->
+<p>आपका अनुबंध: {CONTRACT_NAME} {CONTRACT_END_DATE} को समाप्त हो जाएगा।</p>
+<p>आप <a href={URL}>इस संपर्क की समीक्षा कर सकते हैं</a>।</p>
+<!-- END:ContractSpecial-->
