@@ -53,7 +53,7 @@ $mod_strings = array(
     'LBL_LIST_AMOUNT' => 'Tutar',
     'LBL_LIST_DATE_CLOSED' => 'Kapat',
     'LBL_LIST_SALE_STAGE' => 'Satış aşaması',
-    'LBL_ACCOUNT_ID' => 'Hesap kodu',
+    'LBL_ACCOUNT_ID' => 'Hesap kimliği',
     //DON'T CONVERT THESE THEY ARE MAPPINGS
     'db_name' => 'LBL_NAME',
     //END DON'T CONVERT
@@ -82,7 +82,7 @@ $mod_strings = array(
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Kişiler',
     'LBL_ASSIGNED_TO_NAME' => 'Kullanıcı:',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Atanmış kullanıcı',
-    'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kodu',
+    'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kimliği',
     'LBL_MODIFIED_NAME' => 'Değiştiren kullanıcı adı',
     'LBL_SALE_INFORMATION' => 'Satış bilgileri',
     'LBL_CURRENCY_NAME' => 'Para birimi adı',
