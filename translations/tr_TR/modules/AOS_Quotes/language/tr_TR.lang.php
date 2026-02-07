@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kodu',
+    'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kimliği',
     'LBL_ASSIGNED_TO_NAME' => 'Atanmış kişi',
-    'LBL_ID' => 'Kod',
+    'LBL_ID' => 'Kimlik',
     'LBL_DATE_ENTERED' => 'Eklenme tarihi',
     'LBL_DATE_MODIFIED' => 'Değiştirilme tarihi',
     'LBL_MODIFIED' => 'Değiştiren',
@@ -96,7 +96,7 @@ $mod_strings = array(
     'LBL_OTHER_EMAIL_ADDRESS' => 'Diğer e-posta:',
     'LBL_OTHER_PHONE' => 'Diğer telefon:',
     'LBL_OWNERSHIP' => 'Sahibi:',
-    'LBL_PARENT_ACCOUNT_ID' => 'Üst hesap kodu',
+    'LBL_PARENT_ACCOUNT_ID' => 'Üst hesap kimliği',
     'LBL_PHONE_ALT' => 'Diğer telefon:',
     'LBL_PHONE_FAX' => 'İş faksı:',
     'LBL_PHONE_OFFICE' => 'İş telefonu:',
