@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kodu',
+    'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kimliği',
     'LBL_ASSIGNED_TO_NAME' => 'Atanmış kişi',
-    'LBL_ID' => 'Kod',
+    'LBL_ID' => 'Kimlik',
     'LBL_DATE_ENTERED' => 'Eklenme tarihi',
     'LBL_DATE_MODIFIED' => 'Değiştirilme tarihi',
     'LBL_MODIFIED' => 'Değiştiren',
@@ -72,9 +72,9 @@ $mod_strings = array(
     'LBL_NEW_FORM_TITLE' => 'Yeni bilgi bankası',
     'LBL_STATUS' => 'Durum',
     'LBL_REVISION' => 'Sürüm',
-    'LBL_AUTHOR_USER_ID' => 'Sorumlu (ilişkili kullanıcı kodu)',
+    'LBL_AUTHOR_USER_ID' => 'Sorumlu (ilişkili kullanıcı kimliği)',
     'LBL_AUTHOR' => 'Sorumlu',
-    'LBL_APPROVER_USER_ID' => 'Onaylayan (ilişkili kullanıcı kodu)',
+    'LBL_APPROVER_USER_ID' => 'Onaylayan (ilişkili kullanıcı kimliği)',
     'LBL_APPROVER' => 'Onaylayan',
 );
 
