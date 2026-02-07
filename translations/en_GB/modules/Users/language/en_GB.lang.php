@@ -46,7 +46,9 @@ $mod_strings = array(
     'LBL_RECOVER_PASSWORD_SUCCESS' => 'If the provided user name and email are correct, you should receive an email with information to recover your password',
     'ERR_NO_2FACTOR_EMAIL_TMPL' => 'Two-factor email template is not set, please change settings on password management page.',
     'ERR_NO_2FACTOR_EMAIL_TMPL_CODE' => 'Two-factor email template should contain a $code at least.',
-    'LBL_DELETE_USER_CONFIRM' => 'When the User record is deleted, the corresponding Employee record will also be deleted. After the user is deleted, any workflow definitions and reports involving the user might need to be updated.<br/><br/> Personal / Group Inbound Accounts that contain / are assigned to this user will also need updated. <br/><br/> Deleting a User record cannot be undone.',
+    'LBL_DELETE_USER_CONFIRM' => 'When the user record is deleted, the corresponding employee record will also be deleted. After the user has been deleted, any workflow definitions and reports involving the user may need to be updated.<br/><br/>
+Personal or group inbound accounts that contain or are assigned to this user will also need to be updated.<br/><br/>
+Deleting a user record cannot be undone.',
     'LBL_DELETE_GROUP_CONFIRM' => 'Are you sure you want to delete this Group User? Click OK to delete the User record.<br/>After clicking OK, you will be given the ability to reassign records assigned to the Group User to another user.',
     'LNK_IMPORT_USERS' => 'Import Users',
     'ERR_DELETE_RECORD' => 'A record number must be specified to delete the account.',
