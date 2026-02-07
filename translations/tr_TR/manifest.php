@@ -7,8 +7,8 @@
 
 $manifest = array(
     'name' => 'Turkish (Turkey)',
-    'description' => 'Translation: crowdin.com/project/suitecrmtranslations',
-    'type' => 'langpack',
+    'description' => 'Çeviri: crowdin.com/project/suitecrmtranslations',
+    'type' => 'dil paketi',
     'is_uninstallable' => 'Evet',
     'author' => 'SuiteCRM Topluluğu',
     'version' => '8.9-1',
@@ -18,8 +18,8 @@ $installdefs = array(
     'id' => 'tr_TR',
     'image_dir' => '<basepath>/images',
     'copy' => array(
-        array('from' => '<basepath>/include', 'to' => 'include'),
-        array('from' => '<basepath>/modules', 'to' => 'modules'),
-        array('from' => '<basepath>/install', 'to' => 'install'),
+        array('from' => '<basepath>/include', 'to' => 'içindekiler'),
+        array('from' => '<basepath>/modules', 'to' => 'modüller'),
+        array('from' => '<basepath>/install', 'to' => 'kur'),
     )
 );
