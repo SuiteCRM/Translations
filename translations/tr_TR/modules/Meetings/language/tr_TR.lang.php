@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ACCEPT_THIS' => 'Onaylıyor musunuz?',
+    'LBL_ACCEPT_THIS' => 'Kabul ediyor musunuz?',
     'LBL_ADD_BUTTON' => 'Ekle',
     'LBL_ADD_INVITEE' => 'Katılımcı ekle',
     'LBL_CONTACT_NAME' => 'İlgili kişi:',
@@ -86,7 +86,7 @@ $mod_strings = array(
     'LBL_MODULE_TITLE' => 'Toplantılar: Giriş',
     'LBL_NAME' => 'Ad',
     'LBL_NEW_FORM_TITLE' => 'Görüşme ekle',
-    'LBL_OUTLOOK_ID' => 'Outlook kodu',
+    'LBL_OUTLOOK_ID' => 'Outlook kimliği',
     'LBL_SEQUENCE' => 'Toplantı güncelleme sırası',
     'LBL_PHONE' => 'İş telefonu:',
     'LBL_REMINDER_TIME' => 'Anımsatıcı saati',
@@ -109,7 +109,7 @@ $mod_strings = array(
     'LBL_HOST_URL' => 'Sunucu adresi',
     'LBL_DISPLAYED_URL' => 'Görüntülenen adres',
     'LBL_CREATOR' => 'Toplantıyı ekleyen',
-    'LBL_EXTERNALID' => 'Dış uygulama kodu',
+    'LBL_EXTERNALID' => 'Dış uygulama kimliği',
     'LBL_SUBJECT' => 'Konu:',
     'LBL_TIME' => 'Başlangıç saati:',
     'LBL_USERS_SUBPANEL_TITLE' => 'Kullanıcılar',
@@ -148,7 +148,7 @@ $mod_strings = array(
     'LBL_REPEAT_DOW' => 'Haftanın günleri',
     'LBL_REPEAT_UNTIL' => 'Son yinelenme tarihi',
     'LBL_REPEAT_COUNT' => 'Yinelenme sayısı',
-    'LBL_REPEAT_PARENT_ID' => 'Yinelenme üst öge kodu',
+    'LBL_REPEAT_PARENT_ID' => 'Yinelenme üst öge kimliği',
     'LBL_RECURRING_SOURCE' => 'Yinelenme kaynağı',
 
     'LBL_SYNCED_RECURRING_MSG' => 'Bu toplantının kaynağı başka bir sistem ve SuiteCRM veri tabanı ile eşitlenmiş. Değişiklik yapmak için, diğer sistem üzerindeki özgün toplantı kaydına bakın. Diğer sistemde yapılan değişiklikler eşitlendiğinde bu kayıt güncellenir.',
@@ -165,6 +165,6 @@ $mod_strings = array(
     'LBL_REMINDERS_ADD_REMINDER' => 'Anımsatıcı ekle',
 
     // for google sync
-    'LBL_GSYNC_ID' => 'Google etkinlik kodu',
+    'LBL_GSYNC_ID' => 'Google etkinlik kimliği',
     'LBL_GSYNC_LASTSYNC' => 'Son Google eşitlemesinin zaman damgası',
 );
