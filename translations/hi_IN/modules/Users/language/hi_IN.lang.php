@@ -435,7 +435,7 @@ $mod_strings = array(
     'LBL_DESKTOP_NOTIFICATIONS' => 'डेस्कटॉप सूचनाएं',
     'LBL_LIST_NONINHERITABLE' => "वंशानुगत नहीं",
     'LBL_PRIMARY_GROUP' => "प्राथमिक समूह",
-    'LBL_PASSWORD_MIS_MATCH' => 'Confirm Password does not match New Password',
+    'LBL_PASSWORD_MIS_MATCH' => 'पासवर्ड की पुष्टि करने पर नया पासवर्ड मेल नहीं खाता',
     'LBL_EMAIL_INFORMATION' => 'ई-मेल',
     'LBL_FW' => 'FW:',
     'LBL_RE' => 'RE:',
@@ -698,12 +698,12 @@ $mod_strings = array(
     'LNK_EXTERNAL_OAUTH_CONNECTIONS' => 'बाहरी OAuth कनेक्शन',
 
     // 2FA
-    'LBL_FACTOR_AUTH' => 'Two Factor Authentication',
-    'LBL_FACTOR_AUTH_DISABLE' => 'Two Factor Authentication was Disabled for this User',
+    'LBL_FACTOR_AUTH' => 'दो-कारक प्रमाणीकरण',
+    'LBL_FACTOR_AUTH_DISABLE' => 'इस उपयोगकर्ता के लिए दो-कारक प्रमाणीकरण अक्षम कर दिया गया था',
     'LBL_DISABLED' => 'विकलांग',
     'LBL_ENABLED' => 'सक्षम है',
-    'LBL_ENABLE_2FA' => 'Enable 2FA',
-    'LBL_2FA_CONFIG' => 'Two Factor Configuration',
-    'LBL_DISABLE_2FA' => 'Disable 2FA',
+    'LBL_ENABLE_2FA' => '2FA सक्षम करें',
+    'LBL_2FA_CONFIG' => 'दो कारक विन्यास',
+    'LBL_DISABLE_2FA' => '2FA को अक्षम करें',
 
 ); // END STRINGS DEFS
