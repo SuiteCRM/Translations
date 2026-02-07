@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
                 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kodu',
+    'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kimliği',
     'LBL_ASSIGNED_TO_NAME' => 'Atanmış kişi',
-    'LBL_ID' => 'Kod',
+    'LBL_ID' => 'Kimlik',
     'LBL_DATE_ENTERED' => 'Eklenme tarihi',
     'LBL_DATE_MODIFIED' => 'Değiştirilme tarihi',
     'LBL_MODIFIED' => 'Değiştiren',
@@ -80,7 +80,7 @@ $mod_strings = array(
     'LBL_INVITE_PDF' => 'Çağrıları gönder',
     'LBL_EDITVIEW_PANEL1' => 'Etkinlik ayrıntıları',
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Temsilciler',
-    'LBL_ACCEPT_REDIRECT' => 'Yönlendirme adresini kabul et',
+    'LBL_ACCEPT_REDIRECT' => 'Kabul etme yönlendirme adresi',
     'LBL_DECLINE_REDIRECT' => 'Yönlendirme adresini reddet',
     'LBL_SELECT_DELEGATES' => 'Temsilcileri seçin',
     'LBL_SELECT_DELEGATES_TITLE' => 'Temsilcileri seçin:-',
@@ -127,7 +127,7 @@ $mod_strings = array(
     'LBL_ACTIVITY_STATUS' => 'İşlem durumu',
     'LBL_FP_EVENT_LOCATIONS_FP_EVENTS_1_FROM_FP_EVENTS_TITLE' => 'Etkinlikler başlığından etkinlik konumları',
     // Email links
-    'LBL_ACCEPT_LINK' => 'Onayla',
+    'LBL_ACCEPT_LINK' => 'Kabul et',
     'LBL_DECLINE_LINK' => 'Reddet',
     
 );
