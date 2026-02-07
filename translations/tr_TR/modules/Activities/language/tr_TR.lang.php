@@ -110,9 +110,9 @@ $mod_strings = array(
     'LNK_IMPORT_MEETINGS' => 'Toplantıları içe aktar',
     'LNK_IMPORT_TASKS' => 'Görevleri içe aktar',
     'LNK_IMPORT_NOTES' => 'Notları içe aktar',
-    'LBL_ACCEPT_THIS' => 'Onaylıyor musunuz?',
+    'LBL_ACCEPT_THIS' => 'Kabul ediyor musunuz?',
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'İşlemleri aç',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Atanmış kullanıcı',
 
-    'LBL_ACCEPT' => 'Onayla' /*for 508 compliance fix*/,
+    'LBL_ACCEPT' => 'Kabul et' /*for 508 compliance fix*/,
 );
