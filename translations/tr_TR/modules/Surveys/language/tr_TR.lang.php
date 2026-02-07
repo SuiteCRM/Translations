@@ -95,7 +95,7 @@ $mod_strings = array(
     'LBL_HIDE_RESPONSES' => 'Yanıtları gizle',
     'LNK_LIST_SURVEY_RESPONSES' => 'Anket yanıtlarını görüntüle',
     'LBL_SURVEY_QUESTION' => 'Soru',
-    'LBL_SURVEY_TEXT' => 'Metin',
+    'LBL_SURVEY_TEXT' => 'Yazı',
     'LBL_SURVEY_TYPE' => 'Tür',
     'LBL_SURVEY_ACTIONS' => 'İşlemler',
     'LBL_SURVEY_NEW_QUESTION' => 'Yeni soru',
@@ -106,5 +106,5 @@ $mod_strings = array(
     'LBL_SUBMIT' => 'Gönder',
     'LBL_STARS' => 'Yıldız',
     'LBL_SURVEY_CLOSE_RESPONSE' => 'İlgilendiğiniz için teşekkür ederiz ancak bu anket tamamlanmış.',
-    'LBL_SURVEY_THANKS' => 'Thanks for completing this survey.',
+    'LBL_SURVEY_THANKS' => 'Anketi tamamladığınız için teşekkürler.',
 );
