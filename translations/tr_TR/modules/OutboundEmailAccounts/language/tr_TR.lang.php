@@ -65,8 +65,8 @@ $mod_strings = array(
     'LBL_HOMEPAGE_TITLE' => 'Giden e-posta hesaplarım',
     'LNK_NEW_RECORD' => 'Giden e-posta hesabı ekle',
 
-    'LNK_LIST_CREATE_NEW_PERSONAL' => 'Yeni kişisel hesap',
-    'LNK_LIST_CREATE_NEW_GROUP' => 'Yeni grup hesabı',
+    'LNK_LIST_CREATE_NEW_PERSONAL' => 'Kişisel hesap ekle',
+    'LNK_LIST_CREATE_NEW_GROUP' => 'Grup hesabı ekle',
     'LNK_LIST_CREATE_SYSTEM_OVERRIDE_GROUP' => 'Yeni sistem değişikliği giden e-posta hesabı',
 
     'LNK_LIST' => 'Giden e-posta hesapları',
@@ -118,17 +118,17 @@ $mod_strings = array(
     'LBL_OWNER' => 'Sahibi',
     'LBL_OWNER_NAME' => 'Sahibi',
     'LBL_IS_DEFAULT' => 'Varsayılan',
-    'LBL_IS_PERSONAL' => 'Is Personal',
+    'LBL_IS_PERSONAL' => 'Kişisel',
     'LBL_SET_AS_DEFAULT_BUTTON' => 'Varsayılan olarak ayarla',
 
     'LBL_AUTH_TYPE' => 'Kimlik doğrulama türü',
 
     'LBL_EXTERNAL_OAUTH_CONNECTION' => 'Dış OAuth bağlantısı',
-    'LBL_EXTERNAL_OAUTH_CONNECTION_ID' => 'Dış OAuth bağlantısı kodu',
+    'LBL_EXTERNAL_OAUTH_CONNECTION_ID' => 'Dış OAuth bağlantısı kimliği',
     'LBL_EXTERNAL_OAUTH_CONNECTION_NAME' => 'Dış OAuth bağlantısı',
     'LNK_EXTERNAL_OAUTH_CONNECTIONS' => 'Dış OAuth bağlantıları',
 
-    'LBL_ERROR_OUTBOUND_EMAIL_SYSTEM_EXISTS' => 'System Outbound Email Account already exists. Please remove it before creating a new one.',
-    'LBL_ERROR_OUTBOUND_EMAIL_SYSTEM_IS_NOT_GROUP' => 'When configuring the System Outbound account using OAuth, you must select a Group-Type External Oauth Connection',
-    'LBL_ERROR_OUTBOUND_EMAIL_CONNECTION_TYPE_MISMATCH' => 'When configuring the Outbound account using OAuth, you must select a External Oauth Connection the same type as the Outbound Email Account (Group or Personal)',
+    'LBL_ERROR_OUTBOUND_EMAIL_SYSTEM_EXISTS' => 'Sistem giden e-posta hesabı zaten var. Lütfen yeni bir hesap oluşturmadan önce bunu kaldırın.',
+    'LBL_ERROR_OUTBOUND_EMAIL_SYSTEM_IS_NOT_GROUP' => 'OAuth kullanarak sistem giden hesabını yapılandırırken, grup türünde bir dış OAuth bağlantısı seçmeniz gerekir',
+    'LBL_ERROR_OUTBOUND_EMAIL_CONNECTION_TYPE_MISMATCH' => 'OAuth kullanarak giden hesabı yapılandırırken, giden e-posta hesabı (grup veya kişisel) ile aynı türde bir dış OAuth bağlantısı seçmelisiniz',
 );
