@@ -43,14 +43,14 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ID' => 'Kod',
+    'LBL_ID' => 'Kimlik',
     'LBL_TRACKER_KEY' => 'İzleyici anahtarı',
     'LBL_TRACKER_URL' => 'İzleyici adresi',
     'LBL_TRACKER_NAME' => 'İzleyici adı',
-    'LBL_CAMPAIGN_ID' => 'Kampanya kodu',
+    'LBL_CAMPAIGN_ID' => 'Kampanya kimliği',
     'LBL_DATE_ENTERED' => 'Yazılma tarihi',
     'LBL_DATE_MODIFIED' => 'Değiştirilme tarihi',
-    'LBL_MODIFIED_USER_ID' => 'Değiştiren kullanıcı kodu',
+    'LBL_MODIFIED_USER_ID' => 'Değiştiren kullanıcı kimliği',
     'LBL_CREATED_BY' => 'Ekleyen',
     'LBL_DELETED' => 'Silindi',
     'LBL_CAMPAIGN' => 'Kampanya',
