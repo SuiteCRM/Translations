@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kodu',
+    'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kimliği',
     'LBL_ASSIGNED_TO_NAME' => 'Proje yöneticisi',
-    'LBL_ID' => 'Kod',
+    'LBL_ID' => 'Kimlik',
     'LBL_DATE_ENTERED' => 'Eklenme tarihi',
     'LBL_DATE_MODIFIED' => 'Değiştirilme tarihi',
     'LBL_MODIFIED' => 'Değiştiren',
@@ -106,7 +106,7 @@ $mod_strings = array(
     'LBL_ADD_NEW_TASK' => 'Yeni görev ekle',
     'LBL_ASSIGNED_USER_NAME' => 'Proje yöneticisi:',
 
-    'LBL_TASK_ID' => 'Kod',
+    'LBL_TASK_ID' => 'Kimlik',
     'LBL_TASK_NAME' => 'Görev adı',
     'LBL_DURATION' => 'Süre',
     'LBL_ACTUAL_DURATION' => 'Gerçek süre',
@@ -137,7 +137,7 @@ $mod_strings = array(
     'LBL_NO_ACCESS' => '$module modülünü ekleme izniniz yok',
     'LBL_SCHEDULING_FORM_TITLE' => 'Kaynak listesi',
     'LBL_NONE' => 'Yok',
-    'LBL_TASKS_NOT_FOUND' => 'There are no Tasks to build the Gantt Table',
+    'LBL_TASKS_NOT_FOUND' => 'Gantt tablosu oluşturmakta kullanılabilecek bir görev yok',
 
     'LBL_AM_PROJECTTEMPLATES_PROJECT_1_FROM_PROJECT_TITLE' => 'Proje kalıpları: Proje başlığından proje',
 
