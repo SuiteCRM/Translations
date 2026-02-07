@@ -92,7 +92,7 @@ $mod_strings = array(
     'LBL_LIST_DUE_DATE' => 'Tamamlanma tarihi',
     'LBL_LIST_LAST_MODIFIED' => 'Son değiştirilme',
     'LNK_IMPORT_NOTES' => 'Notları içe aktar',
-    'LBL_ACCEPT_THIS' => 'Onaylıyor musunuz?',
+    'LBL_ACCEPT_THIS' => 'Kabul ediyor musunuz?',
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Tarihçe',
 
     'LBL_CATEGORY' => 'Kategori',
