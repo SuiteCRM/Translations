@@ -43,19 +43,19 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_LIST_ID' => 'Aday listesi kodu',
-    'LBL_ID' => 'Kod',
+    'LBL_LIST_ID' => 'Aday listesi kimliği',
+    'LBL_ID' => 'Kimlik',
     'LBL_TARGET_TRACKER_KEY' => 'Hedef izleyici anahtarı',
-    'LBL_TARGET_ID' => 'Hedef kodu',
+    'LBL_TARGET_ID' => 'Hedef kimliği',
     'LBL_TARGET_TYPE' => 'Hedef türü',
     'LBL_ACTIVITY_TYPE' => 'İşlem türü',
     'LBL_ACTIVITY_DATE' => 'İşlem tarihi',
-    'LBL_RELATED_ID' => 'İlişkili öge kodu',
+    'LBL_RELATED_ID' => 'İlişkili öge kimliği',
     'LBL_RELATED_TYPE' => 'İlişkili öge türü',
     'LBL_DELETED' => 'Silindi',
     'LBL_MODULE_NAME' => 'Kampanya günlüğü',
     'LBL_LIST_RECIPIENT_EMAIL' => 'Alıcı e-postası',
-    'LBL_LIST_TRACKER_URL' => 'Tracker Url',
+    'LBL_LIST_TRACKER_URL' => 'İzleyici adresi',
     'LBL_LIST_RECIPIENT_NAME' => 'Alıcı adı',
     'LBL_ARCHIVED' => 'Arşivlendi',
     'LBL_HITS' => 'Tıklanma',
@@ -97,6 +97,6 @@ $mod_strings = array(
     'LBL_CAMPAIGNS' => 'Kampanyalar',
     'LBL_LIST_MARKETING_NAME' => 'Pazarlama adı',
 
-    'LBL_MARKETING_ID' => 'Pazarlama kodu',
+    'LBL_MARKETING_ID' => 'Pazarlama kimliği',
     'LBL_RELATED_NAME' => 'İlişkili öge adı',
 );
