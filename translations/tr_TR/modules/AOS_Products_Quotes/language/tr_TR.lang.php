@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kodu',
+    'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kimliği',
     'LBL_ASSIGNED_TO_NAME' => 'Atanmış kişi',
-    'LBL_ID' => 'Kod',
+    'LBL_ID' => 'Kimlik',
     'LBL_DATE_ENTERED' => 'Eklenme tarihi',
     'LBL_DATE_MODIFIED' => 'Değiştirilme tarihi',
     'LBL_MODIFIED' => 'Değiştiren',
@@ -86,7 +86,7 @@ $mod_strings = array(
 
     'LBL_SERVICE_MODULE_NAME' => 'Hizmetler',
     'LBL_LIST_NUM' => 'Sayı',
-    'LBL_PARENT_ID' => 'Üst öge kodu',
+    'LBL_PARENT_ID' => 'Üst öge kimliği',
     'LBL_GROUP_NAME' => 'Grup',
     'LBL_PRODUCT_COST_PRICE_USDOLLAR' => 'Maliyet fiyatı (varsayılan para birimi)',
     'LBL_PRODUCT_LIST_PRICE_USDOLLAR' => 'Liste fiyatı (varsayılan para birimi)',
@@ -96,7 +96,7 @@ $mod_strings = array(
     'LBL_PRODUCT_DISCOUNT_AMOUNT_USDOLLAR' => 'İndirim tutarı (varsayılan para birimi)',
     'LBL_VAT_AMT_USDOLLAR' => 'Vergi tutarı (varsayılan para birimi)',
     'LBL_PRODUCTS_SERVICES' => 'Ürün / Hizmet',
-    'LBL_PRODUCT_ID' => 'Ürün kodu',
+    'LBL_PRODUCT_ID' => 'Ürün kimliği',
 
     'LBL_AOS_CONTRACTS' => 'Sözleşmeler',
     'LBL_AOS_INVOICES' => 'Faturalar',
