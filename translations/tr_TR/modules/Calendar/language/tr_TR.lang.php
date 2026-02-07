@@ -165,7 +165,7 @@ $mod_strings = array(
     'LBL_MODULE' => 'Modül',
     'LBL_BODY' => 'İçerik metni',
     'LBL_BORDER' => 'Kenarlık',
-    'LBL_TEXT' => 'Metin',
+    'LBL_TEXT' => 'Yazı',
 );
 
 
