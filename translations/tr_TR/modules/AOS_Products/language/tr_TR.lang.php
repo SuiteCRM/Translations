@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kodu',
+    'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kimliği',
     'LBL_ASSIGNED_TO_NAME' => 'Atanmış kişi',
-    'LBL_ID' => 'Kod',
+    'LBL_ID' => 'Kimlik',
     'LBL_DATE_ENTERED' => 'Eklenme tarihi',
     'LBL_DATE_MODIFIED' => 'Değiştirilme tarihi',
     'LBL_MODIFIED' => 'Değiştiren',
@@ -78,7 +78,7 @@ $mod_strings = array(
     'LBL_PRODUCT_IMAGE' => 'Ürün görseli',
     'LBL_IMAGE_UPLOAD_FAIL' => 'HATA: Yüklenen dosya izin verilen en büyük dosya boyutunu aşıyor: ',
     'LBL_AOS_PRODUCT_CATEGORYS_NAME' => 'Ürün kategorisi',
-    'LBL_AOS_PRODUCT_CATEGORY' => 'Ürün kategori kodu',
+    'LBL_AOS_PRODUCT_CATEGORY' => 'Ürün kategorisi kimliği',
     'LBL_AOS_PRODUCT_CATEGORIES' => 'Ürün kategorileri',
     'LBL_COST_USDOLLAR' => 'Maliyet (varsayılan para birimi)',
     'LBL_PRICE_USDOLLAR' => 'Fiyat (varsayılan para birimi)',
