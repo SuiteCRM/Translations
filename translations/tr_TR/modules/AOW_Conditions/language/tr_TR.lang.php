@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 
 $mod_strings = array(
-    'LBL_ID' => 'Kod',
+    'LBL_ID' => 'Kimlik',
     'LBL_DATE_ENTERED' => 'Eklenme tarihi',
     'LBL_DATE_MODIFIED' => 'Değiştirilme tarihi',
     'LBL_MODIFIED' => 'Değiştiren',
@@ -63,5 +63,5 @@ $mod_strings = array(
     'LBL_VALUE_TYPE' => 'Tür',
     'LBL_VALUE' => 'Değer',
     'LBL_ORDER' => 'Sıra',
-    'LBL_AOW_WORKFLOW_ID' => 'İş akışı kodu',
+    'LBL_AOW_WORKFLOW_ID' => 'İş akışı kimliği',
 );
