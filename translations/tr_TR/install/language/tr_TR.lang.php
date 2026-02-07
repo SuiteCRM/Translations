@@ -139,7 +139,7 @@ $mod_strings = array(
     'ERR_SESSION_DIRECTORY' => 'Belirtilen oturum klasörü yazılabilir değil.',
     'ERR_SESSION_PATH' => 'Özel bir oturum klasörü kullanmak istiyorsanız belirtmelisiniz.',
     'ERR_SI_NO_CONFIG' => 'Belge kök klasöründe bulunan config_si.php dosyasını katmamışsınız ya da config.php dosyasında $sugar_config_si seçeneğini belirtmemişsiniz',
-    'ERR_SITE_GUID' => 'Özel bir uygulama kodu kullanmak istiyorsanız belirtmelisiniz.',
+    'ERR_SITE_GUID' => 'Özel bir uygulama kimliği kullanmak istiyorsanız belirtmelisiniz.',
     'ERROR_SPRITE_SUPPORT' => "GD kitaplığının yeri saptanamadı. Bu nedenle CSS Sprite işlevi kullanılamayacak.",
     'ERR_UPLOAD_MAX_FILESIZE' => 'Uyarı: PHP yapılandırması en az 6MB boyutunda olan dosyaların yüklenmesine izin verecek şekilde değiştirilmelidir.',
     'LBL_UPLOAD_MAX_FILESIZE_TITLE' => 'Yüklenebilecek dosya büyüklüğü',
@@ -158,7 +158,7 @@ $mod_strings = array(
     'LBL_CHECKSYS_SECRETS' => 'Writable Config/Secrets Directory',
     'LBL_CHECKSYS_LOGS' => 'Writable Log Directory',
     'LBL_CHECKSYS_ROOT' => 'Writable Root Directory',
-    'LBL_DROP_DB_CONFIRM' => 'Belirtilen adı taşıyan bir veri tabanı zaten var.<br>Şunlardan birini yapabilirsiniz:<br>1. İptal üzerine tıklayın ve yeni bir veri tabanı adı seçin ya da<br>2. Onayla üzerine tıklayarak ilerleyin. Bu durumda var olan veri tabanındaki tüm tablolar silinir. <strong>Tablolar silindiğinde önceden var olan veriler de silinir.</strong>',
+    'LBL_DROP_DB_CONFIRM' => 'Belirtilen adı taşıyan bir veri tabanı zaten var.<br>Şunlardan birini yapabilirsiniz:<br>1. İptal üzerine tıklayın ve yeni bir veri tabanı adı seçin ya da<br>2. Kabul et üzerine tıklayarak ilerleyin. Bu durumda var olan veri tabanındaki tüm tablolar silinir. <strong>Tablolar silindiğinde önceden var olan veriler de silinir.</strong>',
     'LBL_CHECKSYS_COMPONENT' => 'Bileşen',
     'LBL_CHECKSYS_CONFIG' => 'Yazılabilir SuiteCRM yapılandırma dosyası (config.php)',
     'LBL_CHECKSYS_CURL' => 'cURL modülü',
@@ -180,7 +180,7 @@ $mod_strings = array(
     'LBL_CHECKSYS_JSON' => 'JSON işleme',
     'LBL_CHECKSYS_RECHECK' => 'Yeniden denetle',
     'LBL_CHECKSYS_STATUS' => 'Durum',
-    'LBL_CHECKSYS_TITLE' => 'Sistem denetimi onayı',
+    'LBL_CHECKSYS_TITLE' => 'Sistem denetimi kabulu',
     'LBL_CHECKSYS_XML' => 'XML işleme',
     'LBL_CHECKSYS_ZLIB' => 'ZLIB sıkıştırma modülü',
     'LBL_CHECKSYS_ZIP' => 'Zip işleme modülü',
@@ -297,7 +297,7 @@ $mod_strings = array(
     'LBL_SILENT_INSTALL_SUCCESS' => 'SuiteCRM kuruldu.',
     'LBL_SILENT_INSTALL_FAILED' => 'SuiteCRM kurulamadı.',
     'LBL_LANG_UPLOAD' => 'Dil paketi yükle',
-    'LBL_LICENSE_ACCEPTANCE' => 'Lisans onayı',
+    'LBL_LICENSE_ACCEPTANCE' => 'Lisans kabulu',
     'LBL_LICENSE_CHECKING' => 'Sistem uyumluluğu denetleniyor.',
     'LBL_LICENSE_CHKENV_HEADER' => 'Ortam denetleniyor',
     'LBL_LICENSE_CHKDB_HEADER' => 'Veri tabanı kimlik doğrulama bilgileri denetleniyor.',
@@ -359,9 +359,9 @@ $mod_strings = array(
     'LBL_SITECFG_ADMIN_Name' => 'SuiteCRM yönetici kullanıcı adı',
     'LBL_SITECFG_ADMIN_PASS_2' => 'SuiteCRM yönetici parolası onayı',
     'LBL_SITECFG_ADMIN_PASS' => 'SuiteCRM yönetici parolası',
-    'LBL_SITECFG_APP_ID' => 'Uygulama kodu',
-    'LBL_SITECFG_CUSTOM_ID_DIRECTIONS' => 'Bu seçenek etkinleştirildiğinde, otomatik olarak üretilen kod değerinin yerine yazdığınız uygulama kodu kullanılır. Bu kod, açtığınız oturumların başka SuiteCRM kopyalarında kullanılamamasını sağlar. SuiteCRM kopyalarından oluşan bir kümeniz varsa, kümedeki tüm kopyaların aynı uygulama kodunu kullanması gerekir.',
-    'LBL_SITECFG_CUSTOM_ID' => 'Kendi uygulama kodunuzu yazın',
+    'LBL_SITECFG_APP_ID' => 'Uygulama kimliği',
+    'LBL_SITECFG_CUSTOM_ID_DIRECTIONS' => 'Bu seçenek etkinleştirildiğinde, otomatik olarak üretilen kimlik değerinin yerine yazdığınız uygulama kimliği kullanılır. Bu kimlik, açtığınız oturumların başka SuiteCRM kopyalarında kullanılamamasını sağlar. SuiteCRM kopyalarından oluşan bir kümeniz varsa, kümedeki tüm kopyaların aynı uygulama kimliğini kullanması gerekir.',
+    'LBL_SITECFG_CUSTOM_ID' => 'Kendi uygulama kimliğinizi yazın',
     'LBL_SITECFG_CUSTOM_LOG_DIRECTIONS' => 'Bu seçenek etkinleştirildiğinde, SuiteCRM günlüklerinin kaydedileceği varsayılan klasör yerine kullanılacak bir klasör belirtmeniz gerekir. Günlük dosyası nerede olursa olsun, dosyaya bir tarayıcı üzerinden erişim .htaccess yönlendirme yöntemiyle engellenir.',
     'LBL_SITECFG_CUSTOM_LOG' => 'Özel günlük klasörü kullanılsın',
     'LBL_SITECFG_CUSTOM_SESSION_DIRECTIONS' => 'Bu seçenek etkinleştirildiğinde, SuiteCRM oturum bilgilerinin kaydedileceği güvenli bir klasör belirtmeniz gerekir. Böylece paylaşılan sunuculara saldırılarak oturum bilgilerinin ele geçirilmesi engellenir.',
@@ -468,8 +468,8 @@ Bu adres site sunucusunun adı, bilgisayar adı ya da IP adresini içermelidir.<
 paylaşılan sunucularda oturum bilgilerinin ele geçirilmesini engellemek için 
 özel bir oturum klasörü kullanmak istiyorsanız.<br><br></li>
 <li> [İsteğe bağlı] <b>Günlük klasörünün yolu</b> varsayılan SuiteCRM günlük klasörünü değiştirmek istiyorsanız.<br><br></li>
-<li> [İsteğe bağlı] Otomatik olarak üretilen kod değerinin yerine kullanılacak <b>Uygulama kodu</b>.
-Bu kod, açtığınız oturumların başka SuiteCRM kopyalarında kullanılamamasını sağlar.<br><br></li>
+<li> [İsteğe bağlı] Otomatik olarak üretilen kimlik değerinin yerine kullanılacak <b>Uygulama kimliği</b>.
+Bu kimlik, açtığınız oturumların başka SuiteCRM kopyalarında kullanılamamasını sağlar.<br><br></li>
 <li> <b>Karakter kümesi</b> diliniz için kullanılan karakter kümesi.<br><br></li></ul>
 Ayrıntılı bilgi almak için kurulum rehberine bakabilirsiniz.                                ',
     'LBL_WELCOME_PLEASE_READ_BELOW' => 'Lütfen kuruluma başlamadan önce aşağıdaki önemli bilgileri okuyun. Bu bilgiler uygulamayı kurmaya hazır olup olmadığınızı belirlemenize yardımcı olur.',
@@ -532,13 +532,13 @@ $contact_user_link_guid',
 
 
     'two_factor_auth_email' => array(
-        'subject' => 'İki aşamalı kimlik doğrulama kodu',
+        'subject' => 'İki adımlı doğrulama kodu',
         'type' => 'sistem',
-        'description' => "Bu kalıp bir kullanıcıya iki aşamalı kimlik doğrulama kodunu göndermek için kullanılır.",
-        'body' => '<div><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width="550" align=\"\&quot;\&quot;center\&quot;\&quot;\"><tbody><tr><td colspan=\"2\"><p>İki aşamalı kimlik doğrulama kodu <b>$code</b>.</p> </td> </tr><tr><td colspan=\"2\"></td> </tr> </tbody></table> </div>',
+        'description' => "Bu kalıp bir kullanıcıya iki adımlı doğrulama kodunu göndermek için kullanılır.",
+        'body' => '<div><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width="550" align=\"\&quot;\&quot;center\&quot;\&quot;\"><tbody><tr><td colspan=\"2\"><p>İki adımlı doğrulama kodu <b>$code</b>.</p> </td> </tr><tr><td colspan=\"2\"></td> </tr> </tbody></table> </div>',
         'txt_body' =>
-            'İki aşamalı kimlik doğrulama kodu $code.',
-        'name' => 'İki aşamalı kimlik doğrulama e-postası',
+            'İki adımlı doğrulama kodu $code.',
+        'name' => 'İki adımlı doğrulama e-postası',
     ),
 
     // SMTP settings
@@ -632,7 +632,7 @@ $contact_user_link_guid',
     'STAT_CREATE_DEFAULT_SETTINGS' => 'Varsayılan ayarlar ekleniyor...',
     'STAT_INSTALL_FINISH' => 'Kurulum tamamlanıyor...',
     'STAT_INSTALL_FINISH_LOGIN' => 'Kurulum tamamlandı, <a href="%s"> Lütfen oturum açın...</a>',
-    'LBL_LICENCE_TOOLTIP' => 'Lütfen önce lisansı kabul edin',
+    'LBL_LICENCE_TOOLTIP' => 'Lütfen önce lisans koşullarını kabul edin',
 
     'LBL_MORE_OPTIONS_TITLE' => 'Diğer ayarlar',
     'LBL_START' => '',
