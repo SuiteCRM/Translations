@@ -626,7 +626,7 @@ $mod_strings = array(
     'LBL_HISTORY_TITLE' => ' geçmiş',
 
     'fieldTypes' => array(
-        'varchar' => 'Metin alanı',
+        'varchar' => 'Yazı alanı',
         'int' => 'Tamsayı',
         'float' => 'Ondalık',
         'bool' => 'İşaret kutusu',
@@ -640,7 +640,7 @@ $mod_strings = array(
         'radioenum' => 'Radyo düğmesi',
         'relate' => 'İlişkilendir',
         'address' => 'Adres',
-        'text' => 'Metin alanı',
+        'text' => 'Yazı bölgesi',
         'url' => 'Adres',
         'iframe' => 'IFrame',
         'datetimecombo' => 'Tarih saat',
