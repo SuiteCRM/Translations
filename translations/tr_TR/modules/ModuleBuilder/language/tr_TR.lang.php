@@ -626,7 +626,7 @@ $mod_strings = array(
     'LBL_HISTORY_TITLE' => ' geçmiş',
 
     'fieldTypes' => array(
-        'varchar' => 'Metin alanı',
+        'varchar' => 'Yazı alanı',
         'int' => 'Tamsayı',
         'float' => 'Ondalık',
         'bool' => 'İşaret kutusu',
@@ -636,12 +636,12 @@ $mod_strings = array(
         'date' => 'Tarih',
         'phone' => 'Telefon',
         'currency' => 'Para birimi',
-        'html' => 'Salt okunur HTML (kullanımdan kaldırıldı, TextBlock kullanın)',
+        'html' => 'Salt okunur HTML (kullanımdan kaldırıldı. Yazı bloğu kullanın)',
         'radioenum' => 'Radyo düğmesi',
         'relate' => 'İlişkilendir',
         'address' => 'Adres',
-        'text' => 'Metin alanı',
-        'textblock' => 'MetinBloğu',
+        'text' => 'Yazı bölgesi',
+        'textblock' => 'Yazı bloğu',
         'url' => 'Adres',
         'iframe' => 'IFrame',
         'datetimecombo' => 'Tarih saat',
@@ -659,5 +659,5 @@ $mod_strings = array(
     'LBL_CONFIRM_SAVE_DROPDOWN' => "Bu ögeyi açılan listeden kaldırılmak üzere seçiyorsunuz. Bu değer artık bulunduğu açılan liste alanlarında görüntülenmeyecek ve değer açılan listelerden seçilemeyecek. İlerlemek istediğinize emin misiniz?",
 
     'LBL_ALL_MODULES' => 'Tüm modüller',
-    'LBL_RELATED_FIELD_ID_NAME_LABEL' => '{0} (ilişkili {1} kod)',
+    'LBL_RELATED_FIELD_ID_NAME_LABEL' => '{0} (ilişkili {1} kimlik)',
 );
