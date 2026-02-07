@@ -152,7 +152,7 @@ $mod_strings = array(
     'LBL_TOUR_MODULES_DESCRIPTION' => 'Önemli tüm modülleriniz burada bulunur.',
     'LBL_TOUR_MORE' => 'Diğer modüller',
     'LBL_TOUR_MORE_DESCRIPTION' => 'Modüllerin geri kalanı burada bulunur.',
-    'LBL_TOUR_SEARCH' => 'Tam metin arama',
+    'LBL_TOUR_SEARCH' => 'Tam yazı arama',
     'LBL_TOUR_SEARCH_DESCRIPTION' => 'Arama çok daha iyi hale geldi.',
     'LBL_TOUR_NOTIFICATIONS' => 'Bildirimler',
     'LBL_TOUR_NOTIFICATIONS_DESCRIPTION' => 'SuiteCRM uygulama bildirimleri burada bulunur.',
@@ -190,7 +190,7 @@ $mod_strings = array(
     'LBL_CONTRIBUTOR_SECURITY_SUITE' => 'Jason Eggers tarafından SecuritySuite geliştirildi',
     'LBL_CONTRIBUTOR_JJW_GMAPS' => 'Jeffrey J. Walters tarafından JJWDesign Google Haritaları geliştirildi',
     'LBL_CONTRIBUTOR_CONSCIOUS' => 'SuiteCRM Logosu. Tasarıma Conscious Solutions katkıda bulunmuştur',
-    'LBL_CONTRIBUTOR_RESPONSETAP' => 'SuiteCRM geliştirmesine ResponseTap tarafından yapılan katkılar',
+    'LBL_CONTRIBUTOR_RESPONSETAP' => 'ResponseTap tarafından SuiteCRM geliştirmesine katkılar yapıldı',
     'LBL_CONTRIBUTOR_GMBH' => 'İş akışına göre hesaplanan alanlar diligent technology & business consulting GmbH tarafından sağlanmıştır',
 
     'LBL_LANGUAGE_ABOUT' => 'SuiteCRM çevirileri hakkında',
