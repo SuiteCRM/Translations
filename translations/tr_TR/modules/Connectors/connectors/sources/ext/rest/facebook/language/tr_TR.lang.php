@@ -48,6 +48,6 @@ $connector_strings = array(
 <tr><td width="35%" class="dataLabel">Bir Facebook uygulaması eklemeniz gerekiyor. <a href=https://developers.facebook.com/?ref=pf">Buradan yapabilirsiniz.</a> </td></tr></table>',
 
     //Configuration labels
-    'appid' => 'Facebook uygulama kodu ',
+    'appid' => 'Facebook uygulaması kimliği ',
     'secret' => 'Facebook uygulama parolası ',
 );
