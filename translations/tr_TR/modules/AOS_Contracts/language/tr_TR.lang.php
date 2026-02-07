@@ -46,7 +46,7 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Sözleşme yönetimi',
     'LBL_CONTRACT_ACCOUNT' => 'Hesap',
     'LBL_OPPORTUNITY' => 'Fırsat',
-    'LBL_ID' => 'Kod',
+    'LBL_ID' => 'Kimlik',
     'LBL_DATE_ENTERED' => 'Eklenme tarihi',
     'LBL_DATE_MODIFIED' => 'Değiştirilme tarihi',
     'LBL_MODIFIED' => 'Değiştiren',
@@ -124,7 +124,7 @@ $mod_strings = array(
     'LBL_SHIPPING_TAX_AMT_USDOLLAR' => 'Gönderi vergisi (varsayılan para birimi)',
     'LBL_GRAND_TOTAL_USDOLLAR' => 'Genel toplam (varsayılan para birimi)',
 
-    'LBL_CALL_ID' => 'Telefon araması kodu',
+    'LBL_CALL_ID' => 'Telefon araması kimliği',
     'LBL_AOS_LINE_ITEM_GROUPS' => 'Satır ögesi grupları',
     'LBL_AOS_PRODUCT_QUOTES' => 'Ürün teklifleri',
     'LBL_AOS_QUOTES_AOS_CONTRACTS' => 'Teklifler: Sözleşmeler',
