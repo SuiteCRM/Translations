@@ -81,7 +81,7 @@ $mod_strings = array(
     'ERR_DELETE_CONFIRM' => 'Bu belge sürümünü silmek istediğinize emin misiniz?',
     'ERR_DELETE_LATEST_VERSION' => 'Bir belgenin son sürümünü silme izniniz yok.',
     'LNK_NEW_MAIL_MERGE' => 'Mektup birleştirme',
-    'LBL_DOC_ID' => 'Belge kaynağı kodu',
+    'LBL_DOC_ID' => 'Belge kaynağı kimliği',
     'LBL_DOC_TYPE' => 'Kaynak',
     'LBL_DOC_URL' => 'Belge kaynağı adresi',
 
