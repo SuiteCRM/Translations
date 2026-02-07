@@ -44,9 +44,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
 
-    'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kodu',
+    'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kimliği',
     'LBL_ASSIGNED_TO_NAME' => 'Atanmış kişi',
-    'LBL_ID' => 'Kod',
+    'LBL_ID' => 'Kimlik',
     'LBL_DATE_ENTERED' => 'Eklenme tarihi',
     'LBL_DATE_MODIFIED' => 'Değiştirilme tarihi',
     'LBL_MODIFIED' => 'Değiştiren',
@@ -76,9 +76,9 @@ $mod_strings = [
     'LBL_TYPE' => 'Tür',
     'LBL_CONNECTOR' => 'Bağlayıcı',
     'LBL_REDIRECT_URI' => 'Yönlendirme adresi',
-    'LBL_REDIRECT_URI_TYPE' => 'Redirect URI Type',
+    'LBL_REDIRECT_URI_TYPE' => 'Yönlendirme adresi türü',
 
-    'LBL_CLIENT_ID' => 'İstemci kodu',
+    'LBL_CLIENT_ID' => 'İstemci kimliği',
     'LBL_CLIENT_SECRET' => 'İstemci parolası',
     'LBL_SCOPE' => 'Kapsam',
     'LBL_URL_AUTHORIZE' => 'Kimlik doğrulama adresi',
@@ -100,8 +100,8 @@ $mod_strings = [
     'LBL_OTHER' => 'Diğer',
 
 
-    'LNK_LIST_CREATE_NEW_PERSONAL' => 'Yeni kişisel hizmet sağlayıcısı',
-    'LNK_LIST_CREATE_NEW_GROUP' => 'Yeni grup hizmet sağlayıcısı',
+    'LNK_LIST_CREATE_NEW_PERSONAL' => 'Kişisel hizmet sağlayıcısı ekle',
+    'LNK_LIST_CREATE_NEW_GROUP' => 'Grup hizmet sağlayıcısı ekle',
     'LNK_LIST_INBOUND_EMAILS' => 'Gelen e-posta hesapları',
     'LNK_LIST_OUTBOUND_EMAILS' => 'Giden e-posta hesapları',
     'LNK_LIST_EXTERNAL_OAUTH_CONNECTION' => 'Dış OAuth bağlantıları',
