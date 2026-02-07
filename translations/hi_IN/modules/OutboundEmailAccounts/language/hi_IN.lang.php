@@ -43,9 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'पहचानकर्ता कुंजी:
-$मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_आईडी\']
-$मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_आईडी\']',
+    'LBL_ASSIGNED_TO_ID' => 'असाइन किया गया उपयोगकर्ता आईडी',
     'LBL_ASSIGNED_TO_NAME' => 'को सौंपना',
     'LBL_ID' => 'आईडी',
     'LBL_DATE_ENTERED' => 'बनाया गया दिनांक',
@@ -120,7 +118,7 @@ $मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_�
     'LBL_OWNER' => 'मालिक',
     'LBL_OWNER_NAME' => 'मालिक',
     'LBL_IS_DEFAULT' => 'डिफॉल्ट',
-    'LBL_IS_PERSONAL' => 'Is Personal',
+    'LBL_IS_PERSONAL' => 'यह व्यक्तिगत है',
     'LBL_SET_AS_DEFAULT_BUTTON' => 'डिफ़ॉल्ट के रूप में सेट करें',
 
     'LBL_AUTH_TYPE' => 'प्रमाणीकरण प्रकार',
