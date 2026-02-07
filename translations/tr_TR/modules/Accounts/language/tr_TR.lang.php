@@ -76,7 +76,7 @@ $mod_strings = array(
     'LBL_BILLING_ADDRESS_STREET' => '1. fatura adresi satırı:',
     'LBL_BILLING_ADDRESS' => 'Fatura adresi:',
     'LBL_BUGS_SUBPANEL_TITLE' => 'Hatalar',
-    'LBL_CAMPAIGN_ID' => 'Kampanya kodu',
+    'LBL_CAMPAIGN_ID' => 'Kampanya kimliği',
     'LBL_CASES_SUBPANEL_TITLE' => 'Destek kayıtları',
     'LBL_CITY' => 'İlçe:',
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Kişiler',
@@ -116,7 +116,7 @@ $mod_strings = array(
     'LBL_OTHER_EMAIL_ADDRESS' => 'Diğer e-posta:',
     'LBL_OTHER_PHONE' => 'Diğer telefon:',
     'LBL_OWNERSHIP' => 'Sahibi:',
-    'LBL_PARENT_ACCOUNT_ID' => 'Üst hesap kodu',
+    'LBL_PARENT_ACCOUNT_ID' => 'Üst hesap kimliği',
     'LBL_PHONE_ALT' => 'Diğer telefon:',
     'LBL_PHONE_FAX' => 'İş faksı:',
     'LBL_PHONE_OFFICE' => 'İş telefonu:',
@@ -154,7 +154,7 @@ $mod_strings = array(
     'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Hesaplar',
     'LBL_PROJECT_SUBPANEL_TITLE' => 'Projeler',
     //For export labels
-    'LBL_PARENT_ID' => 'Üst öge kodu',
+    'LBL_PARENT_ID' => 'Üst öge kimliği',
     // SNIP
     'LBL_PRODUCTS_SERVICES_PURCHASED_SUBPANEL_TITLE' => 'Alınan ürün ve hizmetler',
 
