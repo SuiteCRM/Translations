@@ -143,7 +143,7 @@ $mod_strings = array(
 //jobstrings
     'LBL_REFRESHJOBS' => 'Görevleri yenile',
     'LBL_POLLMONITOREDINBOXES' => 'Gelen e-posta hesaplarını denetle',
-    'LBL_PERFORMFULLFTSINDEX' => 'Tam metin arama dizin sistemi',
+    'LBL_PERFORMFULLFTSINDEX' => 'Tam yazı arama dizin sistemi',
 
     'LBL_RUNMASSEMAILCAMPAIGN' => 'Gecelik toplu e-posta kampanyaları görevini çalıştır',
     'LBL_POLLMONITOREDINBOXESFORBOUNCEDCAMPAIGNEMAILS' => 'Gecelik geri dönen kampanya e-postası işleme görevini çalıştır',
