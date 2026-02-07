@@ -152,7 +152,7 @@ $mod_strings = array(
     'LBL_TOUR_MODULES_DESCRIPTION' => 'Önemli tüm modülleriniz burada bulunur.',
     'LBL_TOUR_MORE' => 'Diğer modüller',
     'LBL_TOUR_MORE_DESCRIPTION' => 'Modüllerin geri kalanı burada bulunur.',
-    'LBL_TOUR_SEARCH' => 'Tam metin arama',
+    'LBL_TOUR_SEARCH' => 'Tam yazı arama',
     'LBL_TOUR_SEARCH_DESCRIPTION' => 'Arama çok daha iyi hale geldi.',
     'LBL_TOUR_NOTIFICATIONS' => 'Bildirimler',
     'LBL_TOUR_NOTIFICATIONS_DESCRIPTION' => 'SuiteCRM uygulama bildirimleri burada bulunur.',
@@ -190,7 +190,7 @@ $mod_strings = array(
     'LBL_CONTRIBUTOR_SECURITY_SUITE' => 'Jason Eggers tarafından SecuritySuite geliştirildi',
     'LBL_CONTRIBUTOR_JJW_GMAPS' => 'Jeffrey J. Walters tarafından JJWDesign Google Haritaları geliştirildi',
     'LBL_CONTRIBUTOR_CONSCIOUS' => 'Conscious Solutions tarafından SuiteCRM Logosu tasarlandı',
-    'LBL_CONTRIBUTOR_RESPONSETAP' => 'ResponseTap tarafından SuiteCRM 7.3 sürümüne yapılan katkılar',
+    'LBL_CONTRIBUTOR_RESPONSETAP' => 'ResponseTap tarafından SuiteCRM 7.3 sürümüne katkılar yapıldı',
     'LBL_CONTRIBUTOR_GMBH' => 'İş akışına göre hesaplanan alanlar diligent technology & business consulting GmbH tarafından sağlanmıştır',
 
     'LBL_LANGUAGE_ABOUT' => 'SuiteCRM çevirileri hakkında',
@@ -254,7 +254,7 @@ $mod_strings = array(
     'LBL_ELASTIC_SEARCH_DEFAULT' => 'Arama ölçütlerinize uyan bir sonuç yok. Arama ölçütlerinizi genişletmeyi deneyin.',
 
     // Portal Labels
-    'LBL_AOP_DISABLED' => 'AOP is disabled, please enable via settings',
+    'LBL_AOP_DISABLED' => 'AOP kapalı. Lütfen ayarlar bölümünden açın',
     'LBL_CREATE_PORTAL_USER_FAILED' => 'Portal kullanıcısı eklenemedi',
     'LBL_ENABLE_PORTAL_USER_FAILED' => 'Portal kullanıcısı etkinleştirilemedi',
     'LBL_DISABLE_PORTAL_USER_FAILED' => 'Portal kullanıcısı devre dışı bırakılamadı',
