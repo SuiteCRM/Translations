@@ -46,8 +46,8 @@ $mod_strings = array(
     'LBL_YOURS' => 'Benimkiler',
     'LBL_IN_DATABASE' => 'Veri tabanında',
     'LBL_CONFLICT_EXISTS' => 'Şunun için bir çakışma var - ',
-    'LBL_ACCEPT_DATABASE' => 'Veri tabanını onayla',
-    'LBL_ACCEPT_YOURS' => 'Benimkileri onayla',
+    'LBL_ACCEPT_DATABASE' => 'Veri tabanını kabul et',
+    'LBL_ACCEPT_YOURS' => 'Benimkileri kabul et',
     'LBL_RECORDS_MATCH' => 'Eşleşen kayıtlar',
     'LBL_NO_LOCKED_OBJECTS' => 'Kilitlenmiş bir nesne yok',
 
