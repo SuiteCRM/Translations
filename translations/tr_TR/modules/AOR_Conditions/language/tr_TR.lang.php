@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ID' => 'Kod',
+    'LBL_ID' => 'Kimlik',
     'LBL_DATE_ENTERED' => 'Eklenme tarihi',
     'LBL_DATE_MODIFIED' => 'Değiştirilme tarihi',
     'LBL_MODIFIED' => 'Değiştiren',
@@ -57,7 +57,7 @@ $mod_strings = array(
     'LBL_LIST_NAME' => 'Ad',
     'LBL_EDIT_BUTTON' => 'Düzenle',
     'LBL_REMOVE' => 'Sil',
-    'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kodu',
+    'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kimliği',
     'LBL_ASSIGNED_TO_NAME' => 'Atanmış kişi',
     'LBL_LIST_FORM_TITLE' => 'Koşullar listesi',
     'LBL_MODULE_NAME' => 'Koşullar',
@@ -77,7 +77,7 @@ $mod_strings = array(
     'LBL_VALUE' => 'Değer',
     'LBL_ORDER' => 'Sıra',
     'LBL_CONDITION_OPERATOR' => 'Koşul işlemi',
-    'LBL_AOR_REPORT_ID' => 'Rapor kodu',
+    'LBL_AOR_REPORT_ID' => 'Rapor kimliği',
     'LBL_PARAMETER' => 'Parametre',
     'LBL_CONDITION_AND' => 've',
     'LBL_CONDITION_OR' => 'veya',
