@@ -140,15 +140,15 @@ $mod_strings = array(
     'LBL_WARN_IMAP' => 'Uyarılar:',
     'LBL_WARN_NO_IMAP' => 'IMAP c-client kitaplıkları PHP modülü ile etkinleştirilmemiş ya da derlenmemiş ise gelen e-posta düzgün <b>çalışamaz</b>. Lütfen bu sorunu çözmek için sistem yöneticiniz ile görüşün.',
 
-    'LNK_LIST_CREATE_NEW_PERSONAL' => 'Yeni kişisel hesap',
-    'LNK_LIST_CREATE_NEW_GROUP' => 'Yeni grup hesabı',
-    'LNK_LIST_CREATE_NEW_CASES_TYPE' => 'Yeni destek kaydı hesabı',
-    'LNK_LIST_CREATE_NEW_BOUNCE' => 'Yeni geri dönüş işleme hesabı',
+    'LNK_LIST_CREATE_NEW_PERSONAL' => 'Kişisel hesap ekle',
+    'LNK_LIST_CREATE_NEW_GROUP' => 'Grup hesabı ekle',
+    'LNK_LIST_CREATE_NEW_CASES_TYPE' => 'Destek kaydı hesabı ekle',
+    'LNK_LIST_CREATE_NEW_BOUNCE' => 'Geri dönüş işleme hesabı ekle',
     'LNK_LIST_MAILBOXES' => 'Gelen e-posta hesapları',
     'LNK_LIST_OUTBOUND_EMAILS' => 'Giden e-posta hesapları',
     'LNK_LIST_SCHEDULER' => 'Zamanlanmış görevler',
     'LNK_SEED_QUEUES' => 'Kuyruklar takımlardan beslensin',
-    'LBL_GROUPFOLDER_ID' => 'Grup klasörü kodu',
+    'LBL_GROUPFOLDER_ID' => 'Grup klasörü kimliği',
 
     'LBL_ALLOW_OUTBOUND_GROUP_USAGE' => 'Kullanıcılar, yanıt adresi olarak "Kimden" adı ve adresini kullanabilsin',
     'LBL_ALLOW_OUTBOUND_GROUP_USAGE_DESC' => 'Bu seçenek etkinleştirildiğinde, grup e-posta hesabına erişebilen kullanıcılar tarafından yeni bir e-posta iletisi oluşturulurken, bu grup e-posta hesabının kimden adı ve adresi, kime alanında bir seçenek olarak görüntülenir.',
@@ -169,12 +169,12 @@ $mod_strings = array(
     'LNK_QUICK_REPLY' => 'Yanıtla',
     'LNK_SENT_EMAIL_LIST' => 'Gönderilmiş e-postalar',
     'LBL_EDIT_LAYOUT' => 'Görünümü düzenle' /*for 508 compliance fix*/,
-    'LBL_TYPE_DIFFERENT' => 'External OAuth Connection type must be the SAME as the Inbound Email Account type',
+    'LBL_TYPE_DIFFERENT' => 'Dış OAuth bağlantısı türü, gelen e-posta hesabı türü ile AYNI olmalıdır',
 
     'LBL_MODIFIED_BY' => 'Değiştiren',
     'LBL_SERVICE' => 'Hizmet',
     'LBL_STORED_OPTIONS' => 'Kaydedilmiş ayarlar',
-    'LBL_GROUP_ID' => 'Grup kodu',
+    'LBL_GROUP_ID' => 'Grup kimliği',
 
     'LBL_OUTBOUND_CONFIGURATION' => 'Giden yapılandırması',
     'LBL_CONNECTION_CONFIGURATION' => 'Sunucu yapılandırması',
@@ -186,15 +186,15 @@ $mod_strings = array(
 
 
     'LBL_OUTBOUND_EMAIL_ACCOUNT' => 'Giden e-posta hesabı',
-    'LBL_OUTBOUND_EMAIL_ACCOUNT_ID' => 'Giden e-posta hesabı kodu',
+    'LBL_OUTBOUND_EMAIL_ACCOUNT_ID' => 'Giden e-posta hesabı kimliği',
     'LBL_OUTBOUND_EMAIL_ACCOUNT_NAME' => 'Giden e-posta hesabı',
 
     'LBL_AUTOREPLY_EMAIL_TEMPLATE' => 'Otomatik yanıt e-postası kalıbı',
-    'LBL_AUTOREPLY_EMAIL_TEMPLATE_ID' => 'Otomatik yanıt e-postası kalıbı kodu',
+    'LBL_AUTOREPLY_EMAIL_TEMPLATE_ID' => 'Otomatik yanıt e-postası kalıbı kimliği',
     'LBL_AUTOREPLY_EMAIL_TEMPLATE_NAME' => 'Otomatik yanıt e-postası kalıbı',
 
     'LBL_CASE_EMAIL_TEMPLATE' => 'Destek kaydı e-postası kalıbı',
-    'LBL_CASE_EMAIL_TEMPLATE_ID' => 'Destek kaydı e-postası kalıbı kodu',
+    'LBL_CASE_EMAIL_TEMPLATE_ID' => 'Destek kaydı e-postası kalıbı kimliği',
     'LBL_CASE_EMAIL_TEMPLATE_NAME' => 'Destek kaydı e-postası kalıbı',
 
     'LBL_PROTOCOL' => 'İletişim kuralı',
@@ -203,11 +203,11 @@ $mod_strings = array(
     'LBL_DISTRIB_OPTIONS' => 'Dağıtım seçenekleri',
 
     'LBL_DISTRIBUTION_USER' => 'Dağıtım kullanıcısı',
-    'LBL_DISTRIBUTION_USER_ID' => 'Dağıtım kullanıcısı kodu',
+    'LBL_DISTRIBUTION_USER_ID' => 'Dağıtım kullanıcısı kimliği',
     'LBL_DISTRIBUTION_USER_NAME' => 'Dağıtım kullanıcısı',
 
     'LBL_EXTERNAL_OAUTH_CONNECTION' => 'Dış OAuth bağlantısı',
-    'LBL_EXTERNAL_OAUTH_CONNECTION_ID' => 'Dış OAuth bağlantısı kodu',
+    'LBL_EXTERNAL_OAUTH_CONNECTION_ID' => 'Dış OAuth bağlantısı kimliği',
     'LBL_EXTERNAL_OAUTH_CONNECTION_NAME' => 'Dış OAuth bağlantısı',
     'LNK_EXTERNAL_OAUTH_CONNECTIONS' => 'Dış OAuth bağlantıları',
 
