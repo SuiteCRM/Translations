@@ -252,7 +252,7 @@ $mod_strings = array(
     'LBL_ELASTIC_SEARCH_DEFAULT' => 'आपके खोज मापदंड से मेल खाने वाला कोई परिणाम नहीं। अपनी खोज को विस्तृत करने का प्रयास करें.',
 
     // Portal Labels
-    'LBL_AOP_DISABLED' => 'AOP is disabled, please enable via settings',
+    'LBL_AOP_DISABLED' => 'AOP निष्क्रिय है, कृपया सेटिंग्स के माध्यम से इसे सक्रिय करें',
     'LBL_CREATE_PORTAL_USER_FAILED' => 'पोर्टल उपयोगकर्ता बनाने में विफल',
     'LBL_ENABLE_PORTAL_USER_FAILED' => 'पोर्टल उपयोगकर्ता को सक्षम करने में विफल',
     'LBL_DISABLE_PORTAL_USER_FAILED' => 'पोर्टल उपयोगकर्ता को अक्षम करने में विफल',
