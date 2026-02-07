@@ -101,7 +101,7 @@ $app_list_strings = array(
         'TrackerSessions' => 'İzleyici oturumları',
         'TrackerQueries' => 'İzleyici sorguları',
         'FAQ' => 'SSS',
-        'Newsletters' => 'Haber bültenleri',
+        'Newsletters' => 'Duyurular',
         'SugarFeed' => 'SuiteCRM akışı',
         'SugarFavorites' => 'SuiteCRM sık kullanılanları',
 
@@ -311,8 +311,8 @@ $app_list_strings = array(
     ),
 
     'redirect_uri_type_dom' => [
-        'pretty_url' => 'Pretty URL (/ep/)',
-        'query_string' => 'Query String (index.php?entryPoint=)'
+        'pretty_url' => 'Kısa adres (/ep/)',
+        'query_string' => 'Sorgu dizgesi (index.php?entryPoint=)'
     ],
 
     //time is in seconds; the greater the time the longer it takes;
@@ -671,7 +671,7 @@ $app_list_strings = array(
         'Web' => 'Site',
         'Radio' => 'Radyo düğmesi',
         'Television' => 'Televizyon',
-        'NewsLetter' => 'Bülten',
+        'NewsLetter' => 'Duyuru',
         'Survey' => 'Anket',
     ),
 
@@ -757,7 +757,7 @@ $app_list_strings = array(
     ],
 
     'dom_outbound_email_auth_types' => [
-        'no_auth' => 'No Auth',
+        'no_auth' => 'Kimlik doğrulaması yok',
         'basic' => 'Temel kimlik doğrulama',
         'oauth' => 'OAuth',
     ],
@@ -860,7 +860,7 @@ $app_list_strings = array(
     'dom_email_editor_option' => array(
         '' => 'Varsayılan e-posta biçimi',
         'html' => 'HTML e-posta',
-        'plain' => 'Düz metin e-posta',
+        'plain' => 'Düz yazı e-posta',
     ),
 
     'schedulers_times_dom' => array(
@@ -917,14 +917,14 @@ $app_list_strings = array(
         'license' => 'Lisans sözleşmesi',
     ),
     'dom_meeting_accept_options' => array(
-        'accept' => 'Onayla',
+        'accept' => 'Kabul et',
         'decline' => 'Reddet',
-        'tentative' => 'Kesin değil',
+        'tentative' => 'Belki',
     ),
     'dom_meeting_accept_status' => array(
         'accept' => 'Kabul edilmiş',
         'decline' => 'Reddedilmiş',
-        'tentative' => 'Kesin değil',
+        'tentative' => 'Belki',
         'none' => 'Yok',
     ),
     'duration_intervals' => array(
@@ -972,7 +972,7 @@ $app_list_strings = array(
         'seed' => 'Tohum',
         'exempt_domain' => 'Engelleme listesi - Etki alanına göre',
         'exempt_address' => 'Engelleme listesi - E-posta adresine göre',
-        'exempt' => 'Engelleme listesi - Koda göre',
+        'exempt' => 'Engelleme listesi - Kimliğe göre',
         'test' => 'Deneme',
     ),
 
@@ -1443,7 +1443,7 @@ $app_strings = array(
     'LBL_EMAIL_SETTINGS_CHECK_INTERVAL' => 'Yeni e-postaları denetle',
     'LBL_EMAIL_SETTINGS_FROM_ADDR' => 'Kimden adresi',
     'LBL_EMAIL_SETTINGS_FROM_TO_EMAIL_ADDR' => 'Test bildirimi için e-posta adresi:',
-    'LBL_EMAIL_SETTINGS_FROM_ADDR_NOT_SET' => 'From address and/or From name not set',
+    'LBL_EMAIL_SETTINGS_FROM_ADDR_NOT_SET' => 'Kimden adresi ve/veya Kimden adı ayarlanmamış',
     'LBL_EMAIL_SETTINGS_FROM_NAME' => 'Kimden adı',
     'LBL_EMAIL_SETTINGS_REPLY_TO_ADDR' => 'Yanıt adresi',
     'LBL_EMAIL_SETTINGS_FULL_SYNC' => 'Tüm e-posta hesaplarını eşitle',
@@ -1460,7 +1460,7 @@ $app_strings = array(
     'LBL_EMAIL_SETTINGS_REQUIRE_REFRESH' => 'Gelen kutusunda bir sayfada görüntülenecek ileti sayısını seçin. Bu ayarın etkin olması için sayfanın yeniden yüklenmesi gerekebilir.',
     'LBL_EMAIL_SETTINGS_RETRIEVING_ACCOUNT' => 'E-posta hesabı alınıyor',
     'LBL_EMAIL_SETTINGS_SAVED' => 'Ayarlar kaydedildi.',
-    'LBL_EMAIL_SETTINGS_SEND_EMAIL_AS' => 'E-postalar yalnızca düz metin olarak gönderilsin',
+    'LBL_EMAIL_SETTINGS_SEND_EMAIL_AS' => 'E-postalar yalnızca düz yazı olarak gönderilsin',
     'LBL_EMAIL_SETTINGS_SHOW_NUM_IN_LIST' => 'Bir sayfadaki e-posta sayısı',
     'LBL_EMAIL_SETTINGS_TITLE_LAYOUT' => 'Görünüm ayarları',
     'LBL_EMAIL_SETTINGS_TITLE_PREFERENCES' => 'Ayarlar',
@@ -1577,7 +1577,7 @@ $app_strings = array(
     'LBL_CLOSE_BUTTON_TITLE' => 'Kapat',
     'LBL_CLOSE_AND_CREATE_BUTTON_LABEL' => 'Kapatıp yeni ekle',
     'LBL_CLOSE_AND_CREATE_BUTTON_TITLE' => 'Kapatıp yeni ekle',
-    'LBL_CLOSE_AND_CREATE_BUTTON_KEY' => 'C',
+    'LBL_CLOSE_AND_CREATE_BUTTON_KEY' => 'O',
     'LBL_OPEN_ITEMS' => 'Açık ögeler',
     'LBL_COMPOSE_EMAIL_BUTTON_KEY' => 'L',
     'LBL_COMPOSE_EMAIL_BUTTON_LABEL' => 'Yeni e-posta',
@@ -1630,7 +1630,7 @@ $app_strings = array(
     'LBL_HIDE' => 'Gizle',
     'LBL_HISTORY' => 'Tarihçe',
     'LBL_NEW' => 'Yeni',
-    'LBL_ID' => 'Kod',
+    'LBL_ID' => 'Kimlik',
     'LBL_IMPORT' => 'İçe aktar',
     'LBL_IMPORT_STARTED' => 'İçe aktarma başlatıldı: ',
     'LBL_LAST_VIEWED' => 'Son görüntülenenler',
@@ -1785,7 +1785,7 @@ $app_strings = array(
     'LBL_SELECT_CONTACT_BUTTON_TITLE' => 'İlgili kişiyi seçin',
     'LBL_SELECT_REPORTS_BUTTON_LABEL' => 'SELECT FROM Reports',
     'LBL_SELECT_REPORTS_BUTTON_TITLE' => 'Raporları seçin',
-    'LBL_SELECT_USER_BUTTON_KEY' => 'U',
+    'LBL_SELECT_USER_BUTTON_KEY' => 'K',
     'LBL_SELECT_USER_BUTTON_LABEL' => 'Kullanıcıyı seç',
     'LBL_SELECT_USER_BUTTON_TITLE' => 'Kullanıcıyı seç',
     // Clear buttons take up too many keys, lets default the relate and collection ones to be empty
@@ -1795,20 +1795,20 @@ $app_strings = array(
     'LBL_ACCESSKEY_CLEAR_COLLECTION_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_COLLECTION_TITLE' => 'Seçilmişleri bırak',
     'LBL_ACCESSKEY_CLEAR_COLLECTION_LABEL' => 'Seçilmişleri bırak',
-    'LBL_ACCESSKEY_SELECT_FILE_KEY' => 'F',
+    'LBL_ACCESSKEY_SELECT_FILE_KEY' => 'D',
     'LBL_ACCESSKEY_SELECT_FILE_TITLE' => 'Dosyayı seç',
     'LBL_ACCESSKEY_SELECT_FILE_LABEL' => 'Dosyayı seç',
     'LBL_ACCESSKEY_CLEAR_FILE_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_FILE_TITLE' => 'Dosyayı bırak',
     'LBL_ACCESSKEY_CLEAR_FILE_LABEL' => 'Dosyayı bırak',
 
-    'LBL_ACCESSKEY_SELECT_USERS_KEY' => 'U',
+    'LBL_ACCESSKEY_SELECT_USERS_KEY' => 'K',
     'LBL_ACCESSKEY_SELECT_USERS_TITLE' => 'Kullanıcıyı seç',
     'LBL_ACCESSKEY_SELECT_USERS_LABEL' => 'Kullanıcıyı seç',
     'LBL_ACCESSKEY_CLEAR_USERS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_USERS_TITLE' => 'Kullanıcıyı bırak',
     'LBL_ACCESSKEY_CLEAR_USERS_LABEL' => 'Kullanıcıyı bırak',
-    'LBL_ACCESSKEY_SELECT_ACCOUNTS_KEY' => 'A',
+    'LBL_ACCESSKEY_SELECT_ACCOUNTS_KEY' => 'H',
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_TITLE' => 'Hesabı seç',
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_LABEL' => 'Hesabı seç',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_KEY' => ' ',
@@ -1820,13 +1820,13 @@ $app_strings = array(
     'LBL_ACCESSKEY_CLEAR_CAMPAIGNS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_CAMPAIGNS_TITLE' => 'Kampanyayı bırak',
     'LBL_ACCESSKEY_CLEAR_CAMPAIGNS_LABEL' => 'Kampanyayı bırak',
-    'LBL_ACCESSKEY_SELECT_CONTACTS_KEY' => 'C',
+    'LBL_ACCESSKEY_SELECT_CONTACTS_KEY' => 'O',
     'LBL_ACCESSKEY_SELECT_CONTACTS_TITLE' => 'İlgili kişiyi seçin',
     'LBL_ACCESSKEY_SELECT_CONTACTS_LABEL' => 'İlgili kişiyi seçin',
     'LBL_ACCESSKEY_CLEAR_CONTACTS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_CONTACTS_TITLE' => 'İlgili kişiyi bırak',
     'LBL_ACCESSKEY_CLEAR_CONTACTS_LABEL' => 'İlgili kişiyi bırak',
-    'LBL_ACCESSKEY_SELECT_TEAMSET_KEY' => 'Z',
+    'LBL_ACCESSKEY_SELECT_TEAMSET_KEY' => 'T',
     'LBL_ACCESSKEY_SELECT_TEAMSET_TITLE' => 'Takımı seç',
     'LBL_ACCESSKEY_SELECT_TEAMSET_LABEL' => 'Takımı seç',
     'LBL_ACCESSKEY_CLEAR_TEAMS_KEY' => ' ',
@@ -1847,7 +1847,7 @@ $app_strings = array(
     'LBL_STREET' => 'Sokak',
     'LBL_SUBJECT' => 'Konu',
 
-    'LBL_INBOUNDEMAIL_ID' => 'Gelen e-posta kodu',
+    'LBL_INBOUNDEMAIL_ID' => 'Gelen e-posta kimliği',
 
     'LBL_ALL_SCHEDULERS' => 'All Schedulers',
     'LBL_LEGACY_SCHEDULERS' => 'Legacy Schedulers',
@@ -1998,7 +1998,7 @@ $app_strings = array(
     'ERROR_JS_ALERT_TIMEOUT_TITLE' => 'Oturum zaman aşımı',
     'ERROR_JS_ALERT_TIMEOUT_MSG_1' => 'Oturumunuz yaklaşık 2 dakika sonra zaman aşımına uğrayacak. Lütfen çalışmalarınızı kaydedin.',
     'ERROR_JS_ALERT_TIMEOUT_MSG_2' => 'Oturumunuz zaman aşımına uğradı.',
-    'MSG_JS_ALERT_MTG_REMINDER_AGENDA' => "\nAgenda: ",
+    'MSG_JS_ALERT_MTG_REMINDER_AGENDA' => "\nProgram: ",
     'MSG_JS_ALERT_MTG_REMINDER_MEETING' => 'Toplantı',
     'MSG_JS_ALERT_MTG_REMINDER_CALL' => 'Telefon araması',
     'MSG_JS_ALERT_MTG_REMINDER_TIME' => 'Zaman: ',
@@ -2006,8 +2006,8 @@ $app_strings = array(
     'MSG_JS_ALERT_MTG_REMINDER_DESC' => 'Açıklama: ',
     'MSG_JS_ALERT_MTG_REMINDER_STATUS' => 'Durum: ',
     'MSG_JS_ALERT_MTG_REMINDER_RELATED_TO' => 'İlişkili öge: ',
-    'MSG_JS_ALERT_MTG_REMINDER_CALL_MSG' => "\nClick OK to view this call or click Cancel to dismiss this message.",
-    'MSG_JS_ALERT_MTG_REMINDER_MEETING_MSG' => "\nClick OK to view this meeting or click Cancel to dismiss this message.",
+    'MSG_JS_ALERT_MTG_REMINDER_CALL_MSG' => "\nBu telefon aramasını görüntülemek için Tamam, bu iletiyi kapatmak için İptal üzerine tıklayın.",
+    'MSG_JS_ALERT_MTG_REMINDER_MEETING_MSG' => "\nToplantıyı görüntülemek için Tamam, bu iletiyi kapatmak için İptal üzerine tıklayın.",
     'MSG_JS_ALERT_MTG_REMINDER_NO_EVENT_NAME' => 'Etkinlik',
     'MSG_JS_ALERT_MTG_REMINDER_NO_DESCRIPTION' => 'Etkinlik ayarlanmamış.',
     'MSG_JS_ALERT_MTG_REMINDER_NO_LOCATION' => 'Konum ayarlanmamış.',
@@ -2068,8 +2068,8 @@ $app_strings = array(
     'LBL_REMOVE_DASHLET_CONFIRM' => 'Bu SuiteCRM pano bileşenini kaldırmak istediğinize emin misiniz?',
     'LBL_REMOVING_DASHLET' => 'SuiteCRM pano bileşeni kaldırılıyor...',
     'LBL_REMOVED_DASHLET' => 'SuiteCRM pano bileşeni kaldırıldı',
-    'LBL_MAX_DASHLET_COLUMNS' => "Maximum of %s columns can be displayed.",
-    'LBL_RETRIEVING_XML_DATA' => "There was a problem retrieving the XML data:\n",
+    'LBL_MAX_DASHLET_COLUMNS' => "En fazla %s sütun görüntülenebilir.",
+    'LBL_RETRIEVING_XML_DATA' => "XML verileri alınırken bir sorun çıktı:\n",
 
     // MySugar Menu Options
 
@@ -2110,14 +2110,14 @@ $app_strings = array(
     'ERR_UNDEFINED_METRIC' => 'Hata: Tanımlanmamış ölçüt için değer ayarlanamadı',
     'ERR_STORE_FILE_MISSING' => 'Hata: Store uyarlama dosyası bulunamadı',
 
-    'LBL_MONITOR_ID' => 'İzleyici kodu',
-    'LBL_USER_ID' => 'Kullanıcı kodu',
+    'LBL_MONITOR_ID' => 'İzleyici kimliği',
+    'LBL_USER_ID' => 'Kullanıcı kimliği',
     'LBL_MODULE_NAME' => 'Modül adı',
-    'LBL_ITEM_ID' => 'Öge kodu',
+    'LBL_ITEM_ID' => 'Öge kimliği',
     'LBL_ITEM_SUMMARY' => 'Öge özeti',
     'LBL_ACTION' => 'İşlem',
-    'LBL_SESSION_ID' => 'Oturum kodu',
-    'LBL_BREADCRUMBSTACK_CREATED' => '{0} kodlu kullanıcı için BreadCrumbStack eklendi',
+    'LBL_SESSION_ID' => 'Oturum kimliği',
+    'LBL_BREADCRUMBSTACK_CREATED' => '{0} kimlikli kullanıcı için BreadCrumbStack eklendi',
     'LBL_VISIBLE' => 'Kayıt görülebilir',
     'LBL_DATE_LAST_ACTION' => 'Son işlem tarihi',
 
@@ -2341,7 +2341,7 @@ $app_strings = array(
 
     'LBL_CATEGORY' => 'Kategori',
     'LBL_LIST_CATEGORY' => 'Kategori',
-    'ERR_FACTOR_TPL_INVALID' => 'Aşamalı kimlik doğrulama iletisi geçersiz. Lütfen yöneticiniz ile görüşün.',
+    'ERR_FACTOR_TPL_INVALID' => 'İki adımlı doğrulama iletisi geçersiz. Lütfen yöneticiniz ile görüşün.',
     'LBL_SUBTHEMES' => 'Biçem',
     'LBL_SUBTHEME_OPTIONS_DAWN' => 'Gün doğumu',
     'LBL_SUBTHEME_OPTIONS_DAY' => 'Gün',
@@ -2390,7 +2390,7 @@ $app_strings = array(
 
     //List View Column Selector Modal
     'LBL_COLUMN_SELECTOR_DISPLAYED_COLS' => 'Görüntülenen',
-    'LBL_COLUMN_SELECTOR_HIDDEN_COLS' => 'Gizli',
+    'LBL_COLUMN_SELECTOR_HIDDEN_COLS' => 'GİZLİ',
     'LBL_COLUMN_SELECTOR_CLOSE_BUTTON' => 'Kapat',
     'LBL_COLUMN_SELECTOR_SAVE_BUTTON' => 'Değişiklikleri kaydet',
     'LBL_COLUMN_SELECTOR_MODAL_TITLE' => 'Sütunları seçin',
@@ -3340,7 +3340,7 @@ $app_list_strings['quote_stage_dom']['Negotiation'] = 'Pazarlık';
 $app_list_strings['quote_stage_dom']['Delivered'] = 'Teslim edildi';
 $app_list_strings['quote_stage_dom']['On Hold'] = 'Askıda';
 $app_list_strings['quote_stage_dom']['Confirmed'] = 'Onaylandı';
-$app_list_strings['quote_stage_dom']['Closed Accepted'] = 'Kapandı onaylandı';
+$app_list_strings['quote_stage_dom']['Closed Accepted'] = 'Kapandı kabul edildi';
 $app_list_strings['quote_stage_dom']['Closed Lost'] = 'Kapandı kaybedildi';
 $app_list_strings['quote_stage_dom']['Closed Dead'] = 'Kapandı öldü';
 $app_list_strings['quote_term_dom']['Net 15'] = 'Net 15';
@@ -3710,7 +3710,7 @@ $app_list_strings['marker_image_list']['teahouse'] = 'Çay evi';
 $app_list_strings['marker_image_list']['telephone'] = 'Telefon';
 $app_list_strings['marker_image_list']['temple_hindu'] = 'Hindu tapınağı';
 $app_list_strings['marker_image_list']['terrace'] = 'Teras';
-$app_list_strings['marker_image_list']['text'] = 'Metin';
+$app_list_strings['marker_image_list']['text'] = 'Yazı';
 $app_list_strings['marker_image_list']['theater'] = 'Tiyatro';
 $app_list_strings['marker_image_list']['theme_park'] = 'Tema parkı';
 $app_list_strings['marker_image_list']['thursday'] = 'Perşembe';
@@ -3853,8 +3853,8 @@ $app_list_strings['moduleList']['SurveyQuestionOptions'] = 'Anket soru seçenekl
 $app_list_strings['survey_status_list']['Draft'] = 'Taslak';
 $app_list_strings['survey_status_list']['Public'] = 'Herkese açık';
 $app_list_strings['survey_status_list']['Closed'] = 'Kapalı';
-$app_list_strings['surveys_question_type']['Text'] = 'Metin';
-$app_list_strings['surveys_question_type']['Textbox'] = 'Metin kutusu';
+$app_list_strings['surveys_question_type']['Text'] = 'Yazı';
+$app_list_strings['surveys_question_type']['Textbox'] = 'Yazı kutusu';
 $app_list_strings['surveys_question_type']['Checkbox'] = 'İşaret kutusu';
 $app_list_strings['surveys_question_type']['Radio'] = 'Radyo düğmesi';
 $app_list_strings['surveys_question_type']['Dropdown'] = 'Açılan liste';
@@ -3891,11 +3891,11 @@ $app_list_strings['email_confirmed_opt_in_dom'] = array(
 
 $app_strings['RESPONSE_SEND_CONFIRM_OPT_IN_EMAIL'] = '%s e-posta adresi için abone olma onayı e-postası kuyruğa eklendi. ';
 $app_strings['RESPONSE_SEND_CONFIRM_OPT_IN_EMAIL_NOT_OPT_IN'] = '%s e-posta adresine abone olmadıkları için e-posta gönderilemedi. ';
-$app_strings['RESPONSE_SEND_CONFIRM_OPT_IN_EMAIL_MISSING_EMAIL_ADDRESS_ID'] = '%s e-posta adresinin geçerli bir kodu yok. ';
+$app_strings['RESPONSE_SEND_CONFIRM_OPT_IN_EMAIL_MISSING_EMAIL_ADDRESS_ID'] = '%s e-posta adresinin geçerli bir kimliği yok. ';
 
-$app_strings['ERR_TWO_FACTOR_FAILED'] = 'İki aşamalı kimlik doğrulaması yapılamadı';
-$app_strings['ERR_TWO_FACTOR_CODE_SENT'] = 'İki aşamalı kimlik doğrulama kodu gönderildi.';
-$app_strings['ERR_TWO_FACTOR_CODE_FAILED'] = 'İki aşamalı kimlik doğrulama kodu gönderilemedi.';
+$app_strings['ERR_TWO_FACTOR_FAILED'] = 'İki adımlı doğrulama yapılamadı';
+$app_strings['ERR_TWO_FACTOR_CODE_SENT'] = 'İki adımlı doğrulama kodu gönderildi.';
+$app_strings['ERR_TWO_FACTOR_CODE_FAILED'] = 'İki adımlı doğrulama kodu gönderilemedi.';
 $app_strings['LBL_THANKS_FOR_SUBMITTING'] = 'İlginizi belirttiğiniz için teşekkürler.';
 
 $app_strings['ERR_IP_CHANGE'] = 'Oturumunuz IP adresinizdeki önemli bir değişiklik nedeniyle sonlandırıldı';
@@ -3960,7 +3960,7 @@ $app_strings['LBL_SEARCH_TEXT_FIELD_TITLE_ATTR']   = 'Arama ölçütünü yazın
 $app_strings['LBL_SEARCH_SUBMIT_FIELD_TITLE_ATTR'] = 'Arama';
 $app_strings['LBL_SEARCH_SUBMIT_FIELD_VALUE']      = 'Arama';
 $app_strings['LBL_SEARCH_QUERY']                   = 'Arama ifadesi: ';
-$app_strings['LBL_SEARCH_RESULTS_PER_PAGE']        = 'Results per module: ';
+$app_strings['LBL_SEARCH_RESULTS_PER_PAGE']        = 'Her modülün sonuçları: ';
 $app_strings['LBL_SEARCH_ENGINE']                  = 'Yöntem: ';
 $app_strings['LBL_SEARCH_TOTAL'] = 'Sonuç sayısı: ';
 $app_strings['LBL_SEARCH_PREV'] = 'Önceki';
@@ -4012,7 +4012,7 @@ $app_strings['LBL_VALIDATION_ERROR_MAX'] = "Değer geçersiz. '{{context.max}}' 
 $app_strings['LBL_MULTIPLE_PRIMARY_EMAIL_VALIDATION_ERROR'] = "Only one Valid Email Address should be marked as primary";
 $app_strings['LBL_DUPLICATE_EMAIL_VALIDATION_ERROR'] = "Çift e-posta adreslerine izin verilmiyor";
 $app_strings['LBL_NO_PRIMARY_EMAIL_VALIDATION_ERROR'] = "One Valid Email Address should be marked as primary";
-$app_strings['LBL_NO_EM_ID'] = 'Unable to get Email Marketing ID';
+$app_strings['LBL_NO_EM_ID'] = 'E-posta pazarlama kimliği alınamadı';
 $app_strings['LBL_VALIDATION_ERRORS'] = 'Doğrulama sorunları olduğundan işlem yapılamaz.';
 $app_strings['LBL_LOADING_IN_PROGRESS'] = 'Hesaplama sürüyor. Lütfen yeniden denemeden önce biraz bekleyin.';
 $app_strings['LBL_SELECT_EMAIL_FOR_TEST'] = 'Please Select Targets/ Users or Enter an Email';
@@ -4059,7 +4059,7 @@ $app_strings['LBL_CREATE'] = 'Ekle';
 $app_strings['LBL_CLEAR_FILTER'] = 'Süzgeci temizle';
 $app_strings['LBL_QUICK_FILTERS'] = 'Hızlı süzgeçler';
 $app_strings['LBL_SAVED_FILTER_SAVED'] = 'Süzgeç kaydedildi';
-$app_strings['LBL_FILTER_ID_NOT_DEFINED'] = 'Süzgeç kodu belirtilmemiş';
+$app_strings['LBL_FILTER_ID_NOT_DEFINED'] = 'Süzgeç kimliği belirtilmemiş';
 $app_strings['LBL_GENERIC_CONFIRMATION'] = 'İşlemi sürdürmek istiyor musunuz?';
 $app_strings['LBL_SHOW_MORE'] = 'Daha fazla göster';
 $app_strings['LBL_SHOW_LESS'] = 'Daha az göster';
@@ -4127,7 +4127,7 @@ $app_strings['LBL_VALUE_SET_PLACEHOLDER'] = 'Değer ayarlandı. Geçerli değeri
 $app_strings['ERR_IMAP_OAUTH_CONNECTION_ERROR'] = 'Gelen e-posta sunucusu ile OAuth oturum açma ile bağlantı kurulamadı. Bağlantı kurmak için: ';
 $app_strings['WARN_OAUTH_TOKEN_SESSION_EXPIRED'] = 'IMAP OAuth oturumunuzun süresi dolmuş. Lütfen bağlantı kurmak için yeniden oturum açın: ';
 
-$app_strings['ERR_OAUTH_CONNECTION_ERROR'] = 'Not able to connect using OAuth login. For connection: ';
+$app_strings['ERR_OAUTH_CONNECTION_ERROR'] = 'OAuth oturum açma ile bağlantı kurulamadı. Bağlantı için: ';
 
 $app_strings['LBL_KEY'] = 'Anahtar';
 $app_strings['LBL_VALUE'] = 'Değer';
@@ -4168,7 +4168,7 @@ $app_strings['LBL_HUGE'] = 'Huge';
 $app_strings['LBL_DEFAULT'] = 'Varsayılan';
 $app_strings['LBL_APPLY'] = 'Uygula';
 $app_strings['LBL_INSERT_LINK_URL_DESCRIPTION'] = 'Insert URL or email:';
-$app_strings['LBL_INSERT_LINK_PLACEHOLDER'] = 'e.g.: https://www.example.com';
+$app_strings['LBL_INSERT_LINK_PLACEHOLDER'] = 'Örnek: https://www.ornek.com';
 
 $app_strings['LBL_COLOR_BLACK'] = 'Black';
 $app_strings['LBL_COLOR_FIREBRICK'] = 'Firebrick';
@@ -4263,7 +4263,7 @@ $app_strings['LBL_EMAIL_MARKETING_NOT_UNSCHEDULED'] = 'Email Marketing is not Un
 $app_strings['LBL_INCORRECT_RECORD_ID'] = 'Incorrect record id';
 
 $app_strings['LBL_TEST_ENTRIES_DELETED'] = 'Test Entries Deleted.';
-$app_strings['LBL_UNABLE_TO_GET_ID'] = 'Unable to retrieve Email Marketing ID';
+$app_strings['LBL_UNABLE_TO_GET_ID'] = 'E-posta pazarlama kimliği alınamadı';
 $app_strings['LBL_UNABLE_TO_DELETE_TEST_ENTRIES'] = 'Error Deleting Test Entries. See logs for more info';
 $app_strings['LBL_SECTION_KEY_NOT_DEFINED'] = 'Section key not defined';
 $app_strings['LBL_DOES_BOUNCE_EXIST'] = 'Does a Bounce Email exist?';
@@ -4296,7 +4296,7 @@ $app_strings['LBL_RUN_USER_INVALID'] = 'This user is not part of `allowed_cron_u
 $app_strings['LBL_SCHEDULERS_NEVER_RUN'] = 'Schedulers have never been run.';
 $app_strings['LBL_MARKETING_ITEMS_PER_RUN'] = 'Campaign Marketing Items Per Run';
 $app_strings['LBL_EMAILS_PER_RUN'] = 'Campaign Emails Per Run';
-$app_strings['LBL_TRACKERS_ENABLED'] = 'Trackers Enabled';
+$app_strings['LBL_TRACKERS_ENABLED'] = 'İzleyiciler etkin';
 $app_strings['LBL_TRACKER_LINKS_ENABLED'] = 'Tracker Links Enabled';
 
 $app_strings['LBL_MARKETING_ITEMS_PER_RUN_DYNAMIC_LABEL'] = '{{ fields.campaign_marketing_items_per_run.value }}';
