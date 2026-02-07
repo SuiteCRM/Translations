@@ -108,7 +108,7 @@ $mod_strings = array(
     'LBL_CASE_INFORMATION' => 'Özet', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
     // SNIP
-    'LBL_UPDATE_TEXT' => 'Güncellemeler - Metin', //Field for Case updates with text only
+    'LBL_UPDATE_TEXT' => 'Güncellemeler - Yazı', //Field for Case updates with text only
     'LBL_INTERNAL' => 'İç güncelleme',
     'LBL_AOP_CASE_UPDATES' => 'Destek kaydı güncellemeleri',
     'LBL_AOP_CASE_UPDATES_THREADED' => 'Gruplanmış destek kaydı güncellemeleri',
