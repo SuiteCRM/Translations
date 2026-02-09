@@ -2277,7 +2277,7 @@ $app_strings = array(
     'LBL_BULK_ACTION_MASS_UPDATE_NO_FIELDS' => 'Güncellenecek bir alan yok',
     'LBL_BULK_ACTION_MASS_UPDATE_NO_RECORDS' => 'Güncellenecek bir kayıt yok',
     'LBL_BULK_ACTION_MASS_UPDATE_NO_ACLS' => 'İzinler yetersiz. Kaydetme işlemine izin verilmiyor',
-    'LBL_UNEXPECTED_ERROR' => 'Beklenmeyen sorun. İşlem yapılamıyor.',
+    'LBL_UNEXPECTED_ERROR' => 'Beklenmeyen bir sorun çıktı. İşlem yapılamadı.',
     'LBL_RECORD_DELETE_SUCCESS' => 'Kayıt silindi',
     'LBL_RECORD_DELETE_ALL_SUCCESS' => 'Kayıtlar silindi',
     'LBL_RECORD_SNOOZE_SUCCESS' => 'Bildirim ertelendi',
@@ -2389,7 +2389,7 @@ $app_strings = array(
     'LBL_PROSPECT_LIST_NAME' => 'Hedef listeleri',
 
     //List View Column Selector Modal
-    'LBL_COLUMN_SELECTOR_DISPLAYED_COLS' => 'Görüntülenen',
+    'LBL_COLUMN_SELECTOR_DISPLAYED_COLS' => 'GÖRÜNTÜLENEN',
     'LBL_COLUMN_SELECTOR_HIDDEN_COLS' => 'GİZLİ',
     'LBL_COLUMN_SELECTOR_CLOSE_BUTTON' => 'Kapat',
     'LBL_COLUMN_SELECTOR_SAVE_BUTTON' => 'Değişiklikleri kaydet',
