@@ -49,41 +49,41 @@ Stato: {QUOTE_STATUS}<br/>
 Data di chiusura prevista: {QUOTE_CLOSEDATE}<br/>
 Descrizione: {QUOTE_DESCRIPTION}
 </p>
-<p>You may <a href={URL}>review this Quote</a>.</p>
+<p>Puoi <a href={URL}>esaminare questa offerta</a>.</p>
 <!-- END: Quote -->
 
 <!-- BEGIN: Account_Subject -->
 <p>SuiteCRM Azienda - {ACCOUNT_NAME}</p>
 <!-- END: Account_Subject -->
 <!-- BEGIN: Account -->
-<p><b>{ASSIGNER}</b> has assigned an Account to <b>{ASSIGNED_USER}</b>.</p>
+<p><b>{ASSIGNER}</b> ha assegnato un'azienda a <b>{ASSIGNED_USER}</b>.</p>
 <p>
 Nome: {ACCOUNT_NAME}<br/>
 Tipo: {ACCOUNT_TYPE}<br/>
 Descrizione: {ACCOUNT_DESCRIPTION}
 </p>
-<p>You may <a href={URL}>review this Account</a>.</p>
+<p>Puoi <a href={URL}>esaminare questa Azienda</a>.</p>
 <!-- END: Account -->
 
 <!-- BEGIN: Case_Subject -->
-<p>Reclamo SuiteCRM - {CASE_SUBJECT}</p>
+<p>Ticket SuiteCRM - {CASE_SUBJECT}</p>
 <!-- END: Case_Subject -->
 <!-- BEGIN: Case -->
-<p><b>{ASSIGNER}</b> has assigned a Case to <b>{ASSIGNED_USER}</b>.</p>
+<p><b>{ASSIGNER}</b> ha assegnato un ticket a <b>{ASSIGNED_USER}</b>.</p>
 <p>
 Oggetto: {CASE_SUBJECT}<br/>
 Priorità: {CASE_PRIORITY}<br/>
 Stato: {CASE_STATUS}<br/>
 Descrizione: {CASE_DESCRIPTION}
 </p>
-<p>You may <a href={URL}>review this Case</a>.</p>
+<p>Puoi <a href={URL}>esaminare questo Ticket</a>.</p>
 <!-- END: Case -->
 
 <!-- BEGIN: Task_Subject -->
-<p>SuiteCRM Attivita - {TASK_SUBJECT}</p>
+<p>SuiteCRM Compito - {TASK_SUBJECT}</p>
 <!-- END: Task_Subject -->
 <!-- BEGIN: Task -->
-<p><b>{ASSIGNER}</b> has assigned a Task to <b>{ASSIGNED_USER}</b>.</p>
+<p><b>{ASSIGNER}</b> ha assegnato un compito a <b>{ASSIGNED_USER}</b>.</p>
 <p>
 Oggetto: {TASK_SUBJECT}<br/>
 Priorità: {TASK_PRIORITY}<br/>
@@ -91,7 +91,7 @@ Data Scadenza: {TASK_DUEDATE}<br/>
 Stato Attivita: {TASK_STATUS}<br/>
 Descrizione: {TASK_DESCRIPTION}
 </p>
-<p>You may <a href={URL}>review this Task</a>.</p>
+<p>Puoi <a href={URL}>esaminare questo compito</a>.</p>
 <!-- END: Task -->
 
 <!-- BEGIN: Meeting_Subject -->
@@ -114,16 +114,16 @@ Indirizzo appuntamento: {MEETING_URL}
 <p>Descrizione: {MEETING_DESCRIPTION}<br/>
 </p>
 <p>---</p>
-<p><a href={ACCEPT_URL}&accept_status=accept>Accept this meeting</a>.</p>
-<p><a href={ACCEPT_URL}&accept_status=tentative>Tentatively Accept this meeting</a>.</p>
-<p><a href={ACCEPT_URL}&accept_status=decline>Decline this meeting</a>.</p>
+<p><a href={ACCEPT_URL}&accept_status=accept>Accetta questo appuntamento</a>.</p>
+<p><a href={ACCEPT_URL}&accept_status=tentative>Accetta provvisoriamente questo appuntamento</a>.</p>
+<p><a href={ACCEPT_URL}&accept_status=decline>Rifiuta questo appuntamento</a>.</p>
 <!-- END: Meeting -->
 
 <!-- BEGIN: MeetingSpecial_Subject -->
 <p>SuiteCRM Appuntamento - {MEETING_SUBJECT}</p>
 <!-- END: MeetingSpecial_Subject -->
 <!-- BEGIN: MeetingSpecial -->
-<p><b>{ASSIGNER}</b> has assigned a Meeting to <b>{ASSIGNED_USER}</b>.</p>
+<p><b>{ASSIGNER}</b> ha assegnato un appuntamento a <b>{ASSIGNED_USER}</b>.</p>
 <p>
 Oggetto: {MEETING_SUBJECT}<br/>
 Posizione: {MEETING_LOCATION}<br/>
@@ -132,7 +132,7 @@ Data di Inizio: {MEETING_STARTDATE}<br/>
 Data di Fine: {MEETING_ENDDATE}<br/>
 Descrizione: {MEETING_DESCRIPTION}
 </p>
-<p>You may <a href={URL}>review this Meeting</a>.</p>
+<p>Puoi <a href={URL}>esaminare questo appuntamento</a>.</p>
 <!-- END: MeetingSpecial -->
 
 <!-- BEGIN: MeetingReminder_Subject -->
@@ -151,45 +151,45 @@ Creata da: {MEETING_CREATED_BY}
 <p>SuiteCRM Email - {EMAIL_SUBJECT}</p>
 <!-- END: Email_Subject -->
 <!-- BEGIN: Email -->
-<p><b>{ASSIGNER}</b> has assigned an Email to <b>{ASSIGNED_USER}</b>.</p>
+<p><b>{ASSIGNER}</b> ha assegnato una email a <b>{ASSIGNED_USER}</b>.</p>
 <p>
 Oggetto: {EMAIL_SUBJECT}<br/>
 Data di invio: {EMAIL_DATESENT}
 </p>
-<p>You may <a href={URL}>review this Email</a>.</p>
+<p>Puoi <a href={URL}>esaminare questa email</a>.</p>
 <!-- END: Email -->
 
 <!-- BEGIN: Contact_Subject -->
 <p>SuiteCRM Contatto - {CONTACT_NAME}</p>
 <!-- END: Contact_Subject -->
 <!-- BEGIN: Contact -->
-<p><b>{ASSIGNER}</b> has assigned a Contact to <b>{ASSIGNED_USER}</b>.</p>
+<p><b>{ASSIGNER}</b> ha assegnato un contatto a <b>{ASSIGNED_USER}</b>.</p>
 <p>
 Nome: {CONTACT_NAME}<br/>
 Descrizione: {CONTACT_DESCRIPTION}
 </p>
-<p>You may <a href={URL}>review this Contact</a>.</p>
+<p>Puoi <a href={URL}>esaminare questo contatto</a>.</p>
 <!-- END: Contact -->
 
 <!-- BEGIN: Lead_Subject -->
 <p>SuiteCRM Cliente Potenziale - {LEAD_NAME}</p>
 <!-- END: Lead_Subject -->
 <!-- BEGIN: Lead -->
-<p><b>{ASSIGNER}</b> has assigned a Lead to <b>{ASSIGNED_USER}</b>.</p>
+<p><b>{ASSIGNER}</b> ha assegnato un lead a <b>{ASSIGNED_USER}</b>.</p>
 <p>
 Nome: {LEAD_NAME}<br/>
 Fonte del Lead: {LEAD_SOURCE}<br/>
 Stato: {LEAD_STATUS}<br/>
 Descrizione: {LEAD_DESCRIPTION}
 </p>
-<p>You may <a href={URL}>review this Lead</a>.</p>
+<p>Puoi <a href={URL}>esaminare questo Lead</a>.</p>
 <!-- END: Lead -->
 
 <!-- BEGIN: Opportunity_Subject -->
 <p>SuiteCRM Opportunità - {OPPORTUNITY_NAME}</p>
 <!-- END: Opportunity_Subject -->
 <!-- BEGIN: Opportunity -->
-<p><b>{ASSIGNER}</b> has assigned an Opportunity to <b>{ASSIGNED_USER}</b>.</p>
+<p><b>{ASSIGNER}</b> ha assegnato un'Opportunità a <b>{ASSIGNED_USER}</b>.</p>
 <p>
 Oggetto: {OPPORTUNITY_NAME}<br/>
 Importo: {OPPORTUNITY_AMOUNT}<br/>
@@ -197,14 +197,14 @@ Data di chiusura prevista: {OPPORTUNITY_CLOSEDATE}<br/>
 Fase di Vendita: {OPPORTUNITY_STAGE}<br/>
 Descrizione: {OPPORTUNITY_DESCRIPTION}
 </p>
-<p>You may <a href={URL}>review this Opportunity</a>.</p>
+<p>Puoi <a href={URL}>esaminare questa Opportunità</a>.</p>
 <!-- END: Opportunity -->
 
 <!-- BEGIN: Bug_Subject -->
 <p>SuiteCRM Bug - {BUG_SUBJECT}</p>
 <!-- END: Bug_Subject -->
 <!-- BEGIN: Bug -->
-<p><b>{ASSIGNER}</b> has assigned a Bug to <b>{ASSIGNED_USER}</b>.</p>
+<p><b>{ASSIGNER}</b> ha assegnato un Bug a <b>{ASSIGNED_USER}</b>.</p>
 <p>
 Numero Errore: {BUG_BUG_NUMBER}<br/>
 Oggetto: {BUG_SUBJECT}<br/>
@@ -216,7 +216,7 @@ Release: {BUG_RELEASE}<br/>
 Descrizione: {BUG_DESCRIPTION}<br/>
 Registro di lavoro: {BUG_WORK_LOG}
 </p>
-<p>You may <a href={URL}>review this Bug</a>.</p>
+<p>Puoi <a href={URL}>esaminare questo Bug</a>.</p>
 <!-- END: Bug -->
 
 <!-- BEGIN: Default_Subject -->
