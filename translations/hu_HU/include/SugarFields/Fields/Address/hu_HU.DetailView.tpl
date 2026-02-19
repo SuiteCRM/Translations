@@ -1,41 +1,41 @@
-{*
+
 /**
  *
- * SugarCRM Community Edition is a customer relationship management program developed by
- * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
+ A SugarCRM Community Edition ügyfélkapcsolat-kezelő szoftver fejlesztője a(z)
+ SugarCRM, Inc. Szerzői jog © 2004-2013 SugarCRM Inc.
  *
- * SuiteCRM is an extension to SugarCRM Community Edition developed by SuiteCRM Ltd.
- * Copyright (C) 2011 - 2025 SuiteCRM Ltd.
+ SuiteCRM: a SugarCRM Community Edition SuiteCRM Ltd. által fejlesztett kiterjesztése.
+ Copyright © 2011–2025 SuiteCRM Ltd.
  *
- * This program is free software; you can redistribute it and/or modify it under
- * the terms of the GNU Affero General Public License version 3 as published by the
- * Free Software Foundation with the addition of the following permission added
- * to Section 15 as permitted in Section 7(a): FOR ANY PART OF THE COVERED WORK
- * IN WHICH THE COPYRIGHT IS OWNED BY SUGARCRM, SUGARCRM DISCLAIMS THE WARRANTY
- * OF NON INFRINGEMENT OF THIRD PARTY RIGHTS.
+ Ez a program szabad szoftver, amely a következő licenc alapján terjeszthető és/vagy módosítható:
+ a Free Software Foundation által közzétett GNU Affero General Public License 3-as verziójának feltételei szerint.
+ a Free Software Foundation által, az alábbi kiegészítő engedéllyel kibővítve
+ a 15. szakaszhoz a 7(a). szakaszban engedélyezett módon hozzáadva: A LICENC HATÁLYA ALÁ TARTOZÓ MŰ BÁRMELY RÉSZÉRE VONATKOZÓAN
+ AMELYBEN A SZERZŐI JOGOK TULAJDONOSA A SUGARCRM, A SUGARCRM KIZÁRJA A GARANCIAVÁLLALÁST
+ A HARMADIK FELEK JOGAINAK SÉRTETLENSÉGÉRE VONATKOZÓ GARANCIA KIZÁRÁSÁT IS BELEÉRTVE.
  *
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more
- * details.
+ Ezt a programot abban a reményben terjesztjük, hogy hasznos lesz, de minden
+ MINDENNEMŰ GARANCIAVÁLLALÁS NÉLKÜL; még a FORGALOMKÉPESSÉGRE vagy az ADOTT CÉLRA VALÓ ALKALMASSÁGRA vonatkozó vélelmezett garancia nélkül is.
+ EGY ADOTT CÉLRA VALÓ ALKALMASSÁGRA. További részletekért tekintse meg a GNU Affero General Public License feltételeit.
+ további részletekért
  *
- * You should have received a copy of the GNU Affero General Public License along with
- * this program; if not, see http://www.gnu.org/licenses or write to the Free
- * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
- * 02110-1301 USA.
+ A programmal együtt Önnek meg kellene kapnia a GNU Affero General Public License egy példányát is;
+ „ezzel a programmal; ha nem kapta meg, keresse fel a http://www.gnu.org/licenses oldalt, vagy írjon a Free Software Foundation, Inc. részére.
+ 51 Franklin Street, Fifth Floor, Boston,
+ MA 02110-1301 USA
  *
- * You can contact SugarCRM, Inc. headquarters at 10050 North Wolfe Road,
- * SW2-130, Cupertino, CA 95014, USA. or at email address contact@sugarcrm.com.
+ A SugarCRM, Inc. vállalattal az alábbi elérhetőségen veheti fel a kapcsolatot: székhelye: 10050 North Wolfe Road,
+ SW2-130, Cupertino, CA 95014, USA. vagy a contact@sugarcrm.com e-mail-címen.
  *
- * The interactive user interfaces in modified source and object code versions
- * of this program must display Appropriate Legal Notices, as required under
- * Section 5 of the GNU Affero General Public License version 3.
+ A módosított forráskódú és tárgykódú verziók interaktív felhasználói felületeinek
+ ennek a programnak meg kell jeleníteniük a Megfelelő Jogi Nyilatkozatokat, ahogyan azt előírja a.
+ a GNU Affero General Public License 3. verziójának 5. szakasza.
  *
- * In accordance with Section 7(b) of the GNU Affero General Public License version 3,
- * these Appropriate Legal Notices must retain the display of the "Powered by
- * SugarCRM" logo and "Supercharged by SuiteCRM" logo. If the display of the logos is not
- * reasonably feasible for technical reasons, the Appropriate Legal Notices must
- * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
+ A GNU Affero General Public License 3. verziójának 7(b). szakaszával összhangban,
+ ezeknek a Megfelelő Jogi Nyilatkozatoknak meg kell őrizniük a „Powered by” felirat megjelenítését a
+ SugarCRM” logót és a „Supercharged by SuiteCRM” logót. Amennyiben a logók megjelenítése nem
+ észszerűen megvalósítható technikai okokból, a Megfelelő Jogi Nyilatkozatoknak
+ meg kell jeleníteniük a „Powered by SugarCRM” és a „Supercharged by SuiteCRM” kifejezéseket.
  */
 *}
 <table border='0' cellpadding='0' cellspacing='0' width='100%'>
@@ -51,7 +51,7 @@
                    value="{$fields.{{$displayParams.key}}_address_country.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}">
             <input type="hidden" class="sugar_field" id="{{$displayParams.key}}_address_postalcode"
                    value="{$fields.{{$displayParams.key}}_address_postalcode.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}">
-            {$fields.{{$displayParams.key}}_address_street.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}
+            
             <br>
             {$fields.{{$displayParams.key}}_address_city.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br} {$fields.{{$displayParams.key}}_address_state.value|escape:'html_entity_decode'|strip_tags|url2html|nl2br}
             &nbsp;&nbsp;{$fields.{{$displayParams.key}}_address_postalcode.value|escape:'html_entity_decode'|strip_tags|url2html|nl2br}
