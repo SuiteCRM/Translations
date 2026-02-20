@@ -113,7 +113,7 @@ $mod_strings = array(
     'LBL_ERROR_LOADING' => 'लोड करते समय त्रुटि',
     'LBL_GOTO_DATE' => 'दिनांक पर जाएँ',
     'NOTICE_DURATION_TIME' => 'अवधि का समय 0 से अधिक होना चाहिए',
-    'LBL_STYLE_BASIC' => 'वुनियादी', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_STYLE_BASIC' => 'वुनियादी ', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_STYLE_ADVANCED' => 'विकसित', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
     'LBL_NO_USER' => 'फ़ील्ड के लिए कोई मेल नहीं: को सौंपा गया',
