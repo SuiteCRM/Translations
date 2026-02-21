@@ -42,9 +42,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_ASSIGNED_TO_ID'] = 'पहचानकर्ता कुंजी:
-$मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_आईडी\']
-$मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_आईडी\']';
+$mod_strings['LBL_ASSIGNED_TO_ID'] = 'असाइन किया गया उपयोगकर्ता आईडी';
 $mod_strings['LBL_ASSIGNED_TO_NAME'] = 'को सौंपना';
 $mod_strings['LBL_ID'] = 'आईडी';
 $mod_strings['LBL_DATE_ENTERED'] = 'बनाया गया दिनांक';
