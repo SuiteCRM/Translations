@@ -39,9 +39,7 @@
  */
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID'                                                               => 'पहचानकर्ता कुंजी:
-$मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_आईडी\']
-$मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_आईडी\']',
+    'LBL_ASSIGNED_TO_ID'                                                               => 'असाइन किया गया उपयोगकर्ता आईडी',
     'LBL_ASSIGNED_TO_NAME'                                                             => 'को सौंपना',
     'LBL_SECURITYGROUPS'                                                               => 'सुरक्षा समूह',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE'                                                => 'सुरक्षा समूह',
