@@ -3847,5 +3847,5 @@ $app_list_strings['email_import_timeframe_start_dom'] = [
     '-15 days' => '15 Days',
     '-5 days' => '5 Days',
     '-1 days' => '1 Day',
-    '0 days' => '0 Days',
+    '0 days' => '0 dias',
 ];
