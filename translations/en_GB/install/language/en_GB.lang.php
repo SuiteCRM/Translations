@@ -580,7 +580,7 @@ $contact_user_link_guid',
     // Branding
 
     'LBL_WIZARD_SYSTEM_TITLE' => 'Branding',
-    'LBL_WIZARD_SYSTEM_DESC' => 'Provide your organization\'s name and logo in order to brand your SuiteCRM.',
+    'LBL_WIZARD_SYSTEM_DESC' => 'Provide your organisation\'s name and logo in order to brand your SuiteCRM.',
     'SYSTEM_NAME_WIZARD' => 'Name:',
     'SYSTEM_NAME_HELP' => 'This is the name that displays in the title bar of your browser.',
     'NEW_LOGO' => 'Select Logo:',
