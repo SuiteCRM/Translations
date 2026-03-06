@@ -67,7 +67,7 @@ $mod_strings = array(
     'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'New Password Client',
     'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'New Client Credentials Client',
     'LNK_NEW_OAUTH2_IMPLICIT_CLIENT' => 'New Implicit Client',
-    'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'New Authorization Client',
+    'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'New Authorisation Client',
 
     'LBL_ACCESS_TOKEN' => 'Access token',
     'LBL_REFRESH_TOKEN' => 'Refresh token',
