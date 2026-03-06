@@ -126,7 +126,7 @@ $mod_strings = array(
     'LBL_TOGGLE_BASIC' => 'Mostrar opções básicas',
 // Links
     'LNK_LIST_SCHEDULER' => 'Agendadores',
-    'LNK_NEW_SCHEDULER' => 'Agendar tarefa',
+    'LNK_NEW_SCHEDULER' => 'Criar agendador',
 // Cron
     'ERR_CRON_SYNTAX' => 'Sintaxe Cron inválida',
     'LBL_CRON_SETUP' => 'Setup Schedulers',
