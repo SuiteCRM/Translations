@@ -114,16 +114,16 @@ URL van de vergadering: {MEETING_URL}
 <p>Beschrijving: {MEETING_DESCRIPTION}<br/>
 </p>
 <p>---</p>
-<p><a href={ACCEPT_URL}&accept_status=accept>Accept this meeting</a>.</p>
-<p><a href={ACCEPT_URL}&accept_status=tentative>Tentatively Accept this meeting</a>.</p>
-<p><a href={ACCEPT_URL}&accept_status=decline>Decline this meeting</a>.</p>
+<p><a href={ACCEPT_URL}&accept_status=accept>Accepteer deze vergadering</a>.</p>
+<p><a href={ACCEPT_URL}&accept_status=accept>Accepteer deze vergadering voorlopig</a>.</p>
+<p><a href={ACCEPT_URL}&accept_status=decline>Weiger deze vergadering</a>.</p>
 <!-- END: Meeting -->
 
 <!-- BEGIN: MeetingSpecial_Subject -->
 <p>SuiteCRM vergadering - {MEETING_SUBJECT}</p>
 <!-- END: MeetingSpecial_Subject -->
 <!-- BEGIN: MeetingSpecial -->
-<p><b>{ASSIGNER}</b> has assigned a Meeting to <b>{ASSIGNED_USER}</b>.</p>
+<p><b>{ASSIGNER}</b> heeft een vergadering toegewezen aan <b>{ASSIGNED_USER}</b>.</p>
 <p>
 Onderwerp: {MEETING_SUBJECT}<br />
 Locatie: {MEETING_LOCATION}<br />
@@ -132,7 +132,7 @@ Startdatum: {MEETING_STARTDATE}<br />
 Einddatum: {MEETING_ENDDATE}<br />
 Beschrijving: {MEETING_DESCRIPTION}
 </p>
-<p>You may <a href={URL}>review this Meeting</a>.</p>
+<p>U kunt <a href={URL}>deze vergadering bekijken</a>.</p>
 <!-- END: MeetingSpecial -->
 
 <!-- BEGIN: MeetingReminder_Subject -->
@@ -151,45 +151,45 @@ gemaakt door: {MEETING_CREATED_BY}
 <p>SuiteCRM e-mail- {EMAIL_SUBJECT}</p>
 <!-- END: Email_Subject -->
 <!-- BEGIN: Email -->
-<p><b>{ASSIGNER}</b> has assigned an Email to <b>{ASSIGNED_USER}</b>.</p>
+<p><b>{ASSIGNER}</b> heeft een e-mail toegewezen aan <b>{ASSIGNED_USER}</b>.</p>
 <p>
 Onderwerp: {EMAIL_SUBJECT}<br/>
 Datum verzonden: {EMAIL_DATESENT}
 </p>
-<p>You may <a href={URL}>review this Email</a>.</p>
+<p>U kunt <a href={URL}>deze e-mail bekijken</a>.</p>
 <!-- END: Email -->
 
 <!-- BEGIN: Contact_Subject -->
 <p>SuiteCRM-contactpersoon - {CONTACT_NAME}</p>
 <!-- END: Contact_Subject -->
 <!-- BEGIN: Contact -->
-<p><b>{ASSIGNER}</b> has assigned a Contact to <b>{ASSIGNED_USER}</b>.</p>
+<p><b>{ASSIGNER}</b> heeft een contactpersoon toegewezen aan <b>{ASSIGNED_USER}</b>.</p>
 <p>
 Naam: {CONTACT_NAME}<br/>
 omschrijving: {CONTACT_DESCRIPTION}
 </p>
-<p>You may <a href={URL}>review this Contact</a>.</p>
+<p>U kunt <a href={URL}>deze contactpersoon bekijken</a>.</p>
 <!-- END: Contact -->
 
 <!-- BEGIN: Lead_Subject -->
 <p>SuiteCRM lead- {LEAD_NAME}</p>
 <!-- END: Lead_Subject -->
 <!-- BEGIN: Lead -->
-<p><b>{ASSIGNER}</b> has assigned a Lead to <b>{ASSIGNED_USER}</b>.</p>
+<p><b>{ASSIGNER}</b> heeft een lead toegewezen aan <b>{ASSIGNED_USER}</b>.</p>
 <p>
 Naam: {LEAD_NAME}<br/>
 Lead Bron: {LEAD_SOURCE}<br/>
 Status: {LEAD_STATUS}<br/>
 Beschrijving: {LEAD_DESCRIPTION}
 </p>
-<p>You may <a href={URL}>review this Lead</a>.</p>
+<p>U kunt <a href={URL}>deze Lead beoordelen</a>.</p>
 <!-- END: Lead -->
 
 <!-- BEGIN: Opportunity_Subject -->
 <p>SuiteCRM kans - {OPPORTUNITY_NAME}</p>
 <!-- END: Opportunity_Subject -->
 <!-- BEGIN: Opportunity -->
-<p><b>{ASSIGNER}</b> has assigned an Opportunity to <b>{ASSIGNED_USER}</b>.</p>
+<p><b>{ASSIGNER}</b> heeft een kans toegewezen aan <b>{ASSIGNED_USER}</b>.</p>
 <p>
 Naam: {OPPORTUNITY_NAME}<br />
 Bedrag: {OPPORTUNITY_AMOUNT}<br />
@@ -197,14 +197,14 @@ Verwachte afsluitdatum: {OPPORTUNITY_CLOSEDATE}<br />
 Verkoopstadium: {OPPORTUNITY_STAGE}<br />
 Beschrijving: {OPPORTUNITY_DESCRIPTION}
 </p>
-<p>You may <a href={URL}>review this Opportunity</a>.</p>
+<p>U kunt <a href={URL}> deze kans beoordelen</a>.</p>
 <!-- END: Opportunity -->
 
 <!-- BEGIN: Bug_Subject -->
 <p>SuiteCRM bug - {BUG_SUBJECT}</p>
 <!-- END: Bug_Subject -->
 <!-- BEGIN: Bug -->
-<p><b>{ASSIGNER}</b> has assigned a Bug to <b>{ASSIGNED_USER}</b>.</p>
+<p><b>{ASSIGNER}</b> heeft een bug toegewezen aan <b>{ASSIGNED_USER}</b>.</p>
 <p>
 Bug Number: {BUG_BUG_NUMBER}<br/>
 Onderwerp: {BUG_SUBJECT}<br/>
@@ -216,15 +216,15 @@ Release: {BUG_RELEASE}<br/>
 Beschrijving: {BUG_DESCRIPTION}<br/>
 Werklog: {BUG_WORK_LOG}
 </p>
-<p>You may <a href={URL}>review this Bug</a>.</p>
+<p>U kunt <a href={URL}> deze bug beoordelen </a>.</p>
 <!-- END: Bug -->
 
 <!-- BEGIN: Default_Subject -->
 <p>SuiteCRM - toegewezen {OBJECT}</p>
 <!-- END: Default_Subject -->
 <!-- BEGIN: Default -->
-<p><b>{ASSIGNER}</b> has assigned a(n) {OBJECT} to <b>{ASSIGNED_USER}</b>.</p>
-<p>You may <a href={URL}>review this {OBJECT}</a>.</p>
+<p><b>{ASSIGNER}</b> heeft een {OBJECT} aan <b>{ASSIGNED_USER} toegewezen</b>.</p>
+<p>U kunt <a href={URL}>{OBJECT} beoordelen</a>.</p>
 <!-- END: Default -->
 
 <!-- BEGIN: Call_Subject -->
@@ -241,16 +241,16 @@ Duur: {CALL_HOURS}h, {CALL_MINUTES}m<br/>
 Beschrijving: {CALL_DESCRIPTION}<br/>
 </p>
 <p>---</p>
-<p><a href={ACCEPT_URL}&accept_status=accept>Accept this call</a>.</p>
-<p><a href={ACCEPT_URL}&accept_status=tentative>Tentatively Accept this call</a>.</p>
-<p><a href={ACCEPT_URL}&accept_status=decline>Decline this call</a>.</p>
+<p><a href={ACCEPT_URL}&accept_status=accept>Accepteer deze vergadering</a>.</p>
+<p><a href={ACCEPT_URL}&accept_status=accept>Accepteer deze vergadering voorlopig</a>.</p>
+<p><a href={ACCEPT_URL}&accept_status=decline>Weiger deze vergadering</a>.</p>
 <!-- END: Call -->
 
 <!-- BEGIN: CallSpecial_Subject -->
 <p>SuiteCRM oproep - {CALL_SUBJECT}</p>
 <!-- END: CallSpecial_Subject -->
 <!-- BEGIN: CallSpecial -->
-<p><b>{ASSIGNER}</b> has assigned a Call to <b>{ASSIGNED_USER}</b>.</p>
+<p><b>{ASSIGNER}</b> heeft een gesprek toegewezen aan <b>{ASSIGNED_USER}</b>.</p>
 <p>
 Betreft: {CALL_SUBJECT}<br/>
 Status: {CALL_STATUS}<br/>
@@ -258,7 +258,7 @@ Startdatum: {CALL_STARTDATE}<br/>
 Duur: {CALL_HOURS}h, {CALL_MINUTES}m<br/>
 Beschrijving: {CALL_DESCRIPTION}
 </p>
-<p>You may <a href={URL}>review this Call</a>.</p>
+<p>U kunt <a href={URL}> dit gesprek beoordelen </a>.</p>
 <!-- END: CallSpecial -->
 
 <!-- BEGIN: CallReminder_Subject -->
@@ -276,7 +276,7 @@ gemaakt door: {CALL_CREATED_BY}
 <p>SuiteCRM campagne - {CAMPAIGN_NAME}</p>
 <!-- END: Campaign_Subject -->
 <!-- BEGIN: Campaign -->
-<p><b>{ASSIGNER}</b> has assigned a Campaign to <b>{ASSIGNED_USER}</b>.</p>
+<p><b>{ASSIGNER}</b> heeft een campagne toegewezen aan <b>{ASSIGNED_USER}</b>.</p>
 <p>
 Onderwerp: {CAMPAIGN_NAME}<br/>
 Bedrag: {CAMPAIGN_AMOUNT}<br/>
@@ -284,19 +284,19 @@ Sluitdatum: {CAMPAIGN_CLOSEDATE}<br/>
 Status: {CAMPAIGN_STATUS}<br/>
 Beschrijving: {CAMPAIGN_DESCRIPTION}
 </p>
-<p>You may <a href={URL}>review this Campaign</a>.</p>
+<p>U kunt <a href={URL}> deze campagne beoordelen </a>.</p>
 <!-- END: Campaign -->
 
 <!-- BEGIN: Quota_Subject -->
 <p>SuiteCRM quota - uw quotum voor {QUOTA_TIMEPERIOD}</p>
 <!-- END: Quota_Subject -->
 <!-- BEGIN: Quota -->
-<p><b>{ASSIGNER}</b> has assigned a Quota to <b>{ASSIGNED_USER}</b>.</p>
+<p><b>{ASSIGNER}</b> heeft een quotum toegewezen aan <b>{ASSIGNED_USER}</b>.</p>
 <p>
     Bedrag: {QUOTA_AMOUNT}<br/>
     Tijdsperiode: {QUOTA_TIMEPERIOD}
 </p>
-<p>You may <a href={QUOTA_URL}>review this Quota assignment</a>.</p>
+<p>U kunt <a href={QUOTA_URL}> de toewijzing van het quotum beoordelen</a>.</p>
 <!-- END: Quota -->
 
 <!-- BEGIN: KBDocument_Subject -->
