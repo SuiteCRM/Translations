@@ -100,7 +100,7 @@ $mod_strings = [
     'LBL_OTHER' => 'Anders',
 
 
-    'LNK_LIST_CREATE_NEW_PERSONAL' => 'Nieuwe persoonlijke provider',
+    'LNK_LIST_CREATE_NEW_PERSONAL' => 'Nieuwe Persoonlijke provider',
     'LNK_LIST_CREATE_NEW_GROUP' => 'Nieuwe Groep Provider',
     'LNK_LIST_INBOUND_EMAILS' => 'Inkomende Email Accounts',
     'LNK_LIST_OUTBOUND_EMAILS' => 'Uitgaande e-mailaccounts',
