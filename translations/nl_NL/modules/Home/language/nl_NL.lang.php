@@ -252,7 +252,7 @@ $mod_strings = array(
     'LBL_ELASTIC_SEARCH_DEFAULT' => 'Er zijn geen resultaten die aan uw zoekcriteria voldoen. Probeer de zoekopdracht te verbreden.',
 
     // Portal Labels
-    'LBL_AOP_DISABLED' => 'AOP is disabled, please enable via settings',
+    'LBL_AOP_DISABLED' => 'AOP is uitgeschakeld, schakel dit in via instellingen',
     'LBL_CREATE_PORTAL_USER_FAILED' => 'Mislukt om een Portal gebruiker aan te maken',
     'LBL_ENABLE_PORTAL_USER_FAILED' => 'Mislukt om een Portal gebruiker in te schakelen',
     'LBL_DISABLE_PORTAL_USER_FAILED' => 'Mislukt om een Portal gebruiker uit te schakelen',
