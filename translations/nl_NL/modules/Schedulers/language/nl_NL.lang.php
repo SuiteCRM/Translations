@@ -52,14 +52,14 @@ $mod_strings = array(
     'LBL_OOTB_PRUNE' => 'Schoon database elke 1e van de maand op',
     'LBL_OOTB_TRACKER' => 'Schoon gebruikers geschiedenis tabel elke 1e van de maand op',
     'LBL_OOTB_SUITEFEEDS' => 'Schoon SuiteCRM Feed Tables op',
-    'LBL_OOTB_LUCENE_INDEX' => 'Perform Lucene Index',
-    'LBL_OOTB_OPTIMISE_INDEX' => 'Optimise AOD Index',
+    'LBL_OOTB_LUCENE_INDEX' => 'Lucene Index uitvoeren',
+    'LBL_OOTB_OPTIMISE_INDEX' => 'Optimaliseer AOD Index',
     'LBL_OOTB_SEND_EMAIL_REMINDERS' => 'Draai e-mail herinnering notificaties',
     'LBL_OOTB_CLEANUP_QUEUE' => 'Schoon taken rij op',
     'LBL_OOTB_REMOVE_DOCUMENTS_FROM_FS' => 'Verwijderen van documenten van het bestandssysteem',
     'LBL_OOTB_GOOGLE_CAL_SYNC' => 'Google Agenda Sync',
     'LBL_OOTB_ELASTIC_INDEX' => 'Elasticsearch index uitvoeren',
-    'LBL_OOTB_CAL_ACC_SYNC' => 'Calendar Accounts Sync',
+    'LBL_OOTB_CAL_ACC_SYNC' => 'Kalender Accounts Synchronisatie',
 
 // List Labels
     'LBL_LIST_JOB_INTERVAL' => 'Interval:',
@@ -161,7 +161,7 @@ $mod_strings = array(
     'LBL_PROCESSAOW_WORKFLOW' => 'AOW workflow uitvoeren',
 
     'LBL_RUNELASTICSEARCHINDEXERSCHEDULER' => 'Elasticsearch indexer',
-    'LBL_CALENDARSYNCJOB' => 'Sync Calendar Accounts',
+    'LBL_CALENDARSYNCJOB' => 'Synchroniseer Kalender Accounts',
 
     'LBL_SCHEDULER_TIMES' => 'Planner tijden',
     'LBL_SYNCGOOGLECALENDAR' => 'Sync Google Agenda',
