@@ -109,7 +109,7 @@ $app_list_strings = array(
         'OAuthTokens' => 'OAuth Tokens',
         'OAuth2Clients' => 'OAuth Clients',
         'OAuth2Tokens' => 'OAuth Tokens',
-        'OAuth2AuthCodes' => 'OAuth Authorization Codes',
+        'OAuth2AuthCodes' => 'OAuth Autorisatie code',
     ),
 
     'moduleListSingular' => array(
@@ -198,12 +198,12 @@ $app_list_strings = array(
         'Utilities' => 'Nutsbedrijven',
         'Other' => 'Anders',
     ),
-    'lead_source_default_key' => 'Self Generated',
+    'lead_source_default_key' => 'Zelf gegenereerd',
     'lead_source_dom' => array(
         '' => '',
         'Cold Call' => 'Koude acquisitie',
         'Existing Customer' => 'Bestaande klant',
-        'Self Generated' => 'Self Generated',
+        'Self Generated' => 'Zelf gegenereerd',
         'Employee' => 'Werknemer',
         'Partner' => 'Partner',
         'Public Relations' => 'PR',
@@ -230,10 +230,10 @@ $app_list_strings = array(
     ),
     //Note:  do not translate opportunity_relationship_type_default_key
 //       it is the key for the default opportunity_relationship_type_dom value
-    'opportunity_relationship_type_default_key' => 'Primary Decision Maker',
+    'opportunity_relationship_type_default_key' => 'Primaire besluitvormer',
     'opportunity_relationship_type_dom' => array(
         '' => '',
-        'Primary Decision Maker' => 'Primary Decision Maker',
+        'Primary Decision Maker' => 'Primaire besluitvormer',
         'Business Decision Maker' => 'Zakelijke besluitvormer',
         'Business Evaluator' => 'Zakelijke evaluatie',
         'Technical Decision Maker' => 'Technisch besluitvormer',
@@ -244,10 +244,10 @@ $app_list_strings = array(
     ),
     //Note:  do not translate case_relationship_type_default_key
 //       it is the key for the default case_relationship_type_dom value
-    'case_relationship_type_default_key' => 'Primary Contact',
+    'case_relationship_type_default_key' => 'Primaire contactpersoon',
     'case_relationship_type_dom' => array(
         '' => '',
-        'Primary Contact' => 'Primary Contact',
+        'Primary Contact' => 'Primaire contactpersoon',
         'Alternate Contact' => 'Alternatief Contactpersoon',
     ),
     'payment_terms' => array(
@@ -255,9 +255,9 @@ $app_list_strings = array(
         'Net 15' => '15 dagen',
         'Net 30' => '30 dagen',
     ),
-    'sales_stage_default_key' => 'Prospecting',
+    'sales_stage_default_key' => 'Klantwerving',
     'sales_stage_dom' => array(
-        'Prospecting' => 'Prospecting',
+        'Prospecting' => 'Klantwerving',
         'Qualification' => 'Kwalificatie',
         'Needs Analysis' => 'Behoefte analyse',
         'Value Proposition' => 'Maken van propositie',
@@ -299,7 +299,7 @@ $app_list_strings = array(
     ),
 
     'redirect_uri_type_dom' => [
-        'pretty_url' => 'Pretty URL (/ep/)',
+        'pretty_url' => 'Best URL (/ep/)',
         'query_string' => 'Query String (index.php?entryPoint=)'
     ],
 
@@ -1405,7 +1405,7 @@ $app_strings = array(
     'LBL_EMAIL_SETTINGS_CHECK_INTERVAL' => 'Checken op nieuwe e-mail',
     'LBL_EMAIL_SETTINGS_FROM_ADDR' => 'Van adres',
     'LBL_EMAIL_SETTINGS_FROM_TO_EMAIL_ADDR' => 'E-mail adres voor test bericht:',
-    'LBL_EMAIL_SETTINGS_FROM_ADDR_NOT_SET' => 'From address and/or From name not set',
+    'LBL_EMAIL_SETTINGS_FROM_ADDR_NOT_SET' => 'Van adres en/of van naam niet ingesteld',
     'LBL_EMAIL_SETTINGS_FROM_NAME' => 'From name',
     'LBL_EMAIL_SETTINGS_REPLY_TO_ADDR' => 'Antwoord aan adres',
     'LBL_EMAIL_SETTINGS_FULL_SYNC' => 'Synchroniseer alle e-mail accounts',
@@ -1533,7 +1533,7 @@ $app_strings = array(
     'LBL_CLOSE_AND_CREATE_BUTTON_LABEL' => 'Sluiten en nieuwe maken',
     'LBL_CLOSE_AND_CREATE_BUTTON_TITLE' => 'Sluiten en nieuwe maken',
     'LBL_CLOSE_AND_CREATE_BUTTON_KEY' => 'C',
-    'LBL_OPEN_ITEMS' => 'Open Items:',
+    'LBL_OPEN_ITEMS' => 'Open items:',
     'LBL_COMPOSE_EMAIL_BUTTON_KEY' => 'Lijst',
     'LBL_COMPOSE_EMAIL_BUTTON_LABEL' => 'E-mail opstellen',
     'LBL_COMPOSE_EMAIL_BUTTON_TITLE' => 'E-mail opstellen',
@@ -1578,7 +1578,7 @@ $app_strings = array(
     'LBL_EMPLOYEES' => 'Personeel',
     'LBL_ENTER_DATE' => 'Geef datum',
     'LBL_EXPORT' => 'Exporteren',
-    'LBL_FAVORITES_FILTER' => 'My Favorites:',
+    'LBL_FAVORITES_FILTER' => 'Mijn favorieten:',
     'LBL_GO_BUTTON_LABEL' => 'Ga',
     'LBL_HIDE' => 'Verberg',
     'LBL_ID' => 'Id',
@@ -1591,7 +1591,7 @@ $app_strings = array(
     'LBL_CAMPAIGNS' => 'Campagnes',
     'LBL_CAMPAIGNLOG' => 'Campagnes Log',
     'LBL_CAMPAIGN_CONTACT' => 'Campagnes',
-    'LBL_CAMPAIGN_ID' => 'campaign_id',
+    'LBL_CAMPAIGN_ID' => 'campagne_id',
     'LBL_CAMPAIGN_NONE' => 'Geen',
     'LBL_THEME' => 'Thema:',
     'LBL_FOUND_IN_RELEASE' => 'Gevonden in release',
@@ -1888,8 +1888,8 @@ $app_strings = array(
     'MSG_JS_ALERT_MTG_REMINDER_DESC' => 'Omschrijving: ',
     'MSG_JS_ALERT_MTG_REMINDER_STATUS' => 'Status: ',
     'MSG_JS_ALERT_MTG_REMINDER_RELATED_TO' => 'Gerelateerd aan: ',
-    'MSG_JS_ALERT_MTG_REMINDER_CALL_MSG' => "\nClick OK to view this call or click Cancel to dismiss this message.",
-    'MSG_JS_ALERT_MTG_REMINDER_MEETING_MSG' => "\nClick OK to view this meeting or click Cancel to dismiss this message.",
+    'MSG_JS_ALERT_MTG_REMINDER_CALL_MSG' => "\nKlik OK om deze oproep te bekijken of klik op Annuleren om dit bericht te negeren.",
+    'MSG_JS_ALERT_MTG_REMINDER_MEETING_MSG' => "\nKlik op OK om deze vergadering te bekijken of klik op Annuleren om dit bericht te negeren.",
     'MSG_JS_ALERT_MTG_REMINDER_NO_EVENT_NAME' => 'Evenement',
     'MSG_JS_ALERT_MTG_REMINDER_NO_DESCRIPTION' => 'Gebeurtenis is niet ingesteld.',
     'MSG_JS_ALERT_MTG_REMINDER_NO_LOCATION' => 'Locatie niet ingesteld.',
@@ -1950,8 +1950,8 @@ $app_strings = array(
     'LBL_REMOVE_DASHLET_CONFIRM' => 'Weet u zeker dat u deze SuiteCRM Dashlet wilt verwijderen?',
     'LBL_REMOVING_DASHLET' => 'Bezig met het verwijderen van een SuiteCRM Dashlet ...',
     'LBL_REMOVED_DASHLET' => 'SuiteCRM Dashlet verwijderd',
-    'LBL_MAX_DASHLET_COLUMNS' => "Maximum of %s columns can be displayed.",
-    'LBL_RETRIEVING_XML_DATA' => "There was a problem retrieving the XML data:\n",
+    'LBL_MAX_DASHLET_COLUMNS' => "Maximaal aantal %s kolommen kunnen worden weergegeven.",
+    'LBL_RETRIEVING_XML_DATA' => "Er was een probleem bij het ophalen van de XML-gegevens:\n",
 
     // MySugar Menu Options
 
@@ -2137,7 +2137,7 @@ $app_strings = array(
     'LBL_DELETE_BUTTON_KEY' => 'D',
     'LBL_DELETE_BUTTON_LABEL' => 'Verwijderen',
     'LBL_DELETE_BUTTON_TITLE' => 'Verwijderen',
-    'LBL_BULK_ACTION_BUTTON_LABEL' => 'BULK ACTION',
+    'LBL_BULK_ACTION_BUTTON_LABEL' => 'BULK ACTIE',
     'LBL_BULK_ACTION_BUTTON_LABEL_MOBILE' => 'Actie',
     'LBL_SAVE_BUTTON_KEY' => 'S',
     'LBL_SAVE_BUTTON_LABEL' => 'Opslaan',
@@ -2211,9 +2211,9 @@ $app_strings = array(
     'LBL_SUITE_TOP' => 'Terug naar boven',
     'LBL_SUITE_SUPERCHARGED' => 'Supercharged door SuiteCRM',
     'LBL_SUITE_POWERED_BY' => 'Powered door SugarCRM',
-    'LBL_SUITE_DESC1' => 'SuiteCRM has been written and assembled by <a href="https://suitecrm.com/">SuiteCRM Ltd</a>. The Program is provided AS IS, without warranty. Licensed under AGPLv3.',
+    'LBL_SUITE_DESC1' => 'SuiteCRM is geschreven en samengesteld door <a href="https://suitecrm.com/">SuiteCRM Ltd</a>. Het programma wordt geleverd AS IS, zonder garantie. Licentie verkregen onder AGPLv3.',
     'LBL_SUITE_DESC2' => 'Dit programma is vrije software; u kunt het herdistribueren en/of aanpassen onder de voorwaarden van de GNU Affero General Public License, versie 3, zoals gepubliceerd door de Free Software Foundation, met inbegrip van de aanvullende machtiging uiteengezet in de koptekst van de bron-code.',
-    'LBL_SUITE_DESC3' => 'SuiteCRM is a trademark of SuiteCRM Ltd<. All other company and product names may be trademarks of the respective companies with which they are associated.',
+    'LBL_SUITE_DESC3' => 'SuiteCRM is een handelsmerk van SuiteCRM Ltd<. Alle andere bedrijfs- en productnamen kunnen handelsmerken zijn van de betreffende bedrijven waarmee ze verbonden zijn.',
     'LBL_GENERATE_PASSWORD_BUTTON_TITLE' => 'Reset wachtwoord',
     'LBL_SEND_CONFIRM_OPT_IN_EMAIL' => 'Verzenden opt-in email bevestigen',
     'LBL_CONFIRM_OPT_IN_ONLY_FOR_PERSON' => 'Opt-In E-mail verzenden alleen voor Accounts/contactpersonen/Leads/vooruitzichten bevestigen',
@@ -2976,7 +2976,7 @@ $app_strings['LBL_LISTVIEW_OPTION_ENTIRE'] = 'Complete lijst';
 $app_strings['LBL_LISTVIEW_NONE'] = 'geen';
 
 //aod
-$app_list_strings['moduleList']['AOD_IndexEvent'] = 'Index Event';
+$app_list_strings['moduleList']['AOD_IndexEvent'] = 'Indexeer evenement';
 $app_list_strings['moduleList']['AOD_Index'] = 'Indexeer';
 
 $app_list_strings['moduleList']['AOP_Case_Events'] = 'Verzoeken gebeurtenissen';
@@ -3614,12 +3614,12 @@ $app_list_strings['spots_areas'] = array(
     'getLeadsSpotsData' => 'Leads',
     'getServiceSpotsData' => 'Dienst',
     'getMarketingSpotsData' => 'verzendinstelling',
-    'getMarketingActivitySpotsData' => 'Marketing Activity',
+    'getMarketingActivitySpotsData' => 'Marketing activiteit',
     'getActivitiesSpotsData' => 'Activiteiten',
     'getQuotesSpotsData' => 'Offertes'
 );
 
-$app_list_strings['moduleList']['Spots'] = 'Spots';
+$app_list_strings['moduleList']['Spots'] = 'Grafieken';
 
 $app_list_strings['moduleList']['AOBH_BusinessHours'] = 'Kantoor uren';
 $app_list_strings['business_hours_list']['0'] = '0:00  uur';
@@ -3683,7 +3683,7 @@ $app_list_strings['surveys_matrix_options'][0] = 'Tevreden';
 $app_list_strings['surveys_matrix_options'][1] = 'Tevreden noch ontevreden';
 $app_list_strings['surveys_matrix_options'][2] = 'Ontevreden';
 
-$app_list_strings['moduleList']['CalendarAccount'] = 'Calendar Accounts';
+$app_list_strings['moduleList']['CalendarAccount'] = 'Kalender Accounts';
 
 $app_strings['LBL_OPT_IN_PENDING_EMAIL_NOT_SENT'] = 'Nog in afwachting van bevestigde opt-in, bevestigde opt-in niet verzonden';
 $app_strings['LBL_OPT_IN_PENDING_EMAIL_FAILED'] = 'Verzenden van bevestigs Opt-In E-mail is mislukt';
@@ -3748,7 +3748,7 @@ $app_list_strings['calendar_account_types'] = [
 
 // Calendar Connection Status dropdown
 $app_list_strings['calendar_connection_status_list'] = [
-    'never_tested' => 'Never Tested',
+    'never_tested' => 'Nooit getest',
     'success' => 'Verbonden',
     'failed' => 'Mislukt',
 ];
@@ -3764,11 +3764,11 @@ $app_list_strings['sync_attempt_status_list'] = [
 
 $app_list_strings['sync_attempt_message_list'] = [
     '' => '',
-    'sync_complete' => 'All meetings synced.',
-    'up_to_date' => 'No new meetings to sync.',
-    'meetings_failed' => 'Some meetings failed to sync. Check logs.',
-    'sync_partial' => 'Some meetings synced. More pending due to limits.',
-    'sync_failed' => 'No meetings synced. Check logs.',
+    'sync_complete' => 'Alle vergaderingen gesynchroniseerd.',
+    'up_to_date' => 'Geen nieuwe vergaderingen om te synchroniseren.',
+    'meetings_failed' => 'Sommige vergaderingen konden niet worden gesynchroniseerd. Controleer logs.',
+    'sync_partial' => 'Sommige vergaderingen gesynchroniseerd. Meer in behandeling vanwege beperkingen.',
+    'sync_failed' => 'Geen vergaderingen gesynchroniseerd. Controleer logs.',
 ];
 
 $app_strings['LBL_DEFAULT_API_ERROR_TITLE'] = 'JSON API fout';
@@ -3803,7 +3803,7 @@ $app_strings['LBL_SEARCH_TEXT_FIELD_TITLE_ATTR']   = 'Voer zoekcriteria in';
 $app_strings['LBL_SEARCH_SUBMIT_FIELD_TITLE_ATTR'] = 'Zoeken';
 $app_strings['LBL_SEARCH_SUBMIT_FIELD_VALUE']      = 'Zoeken';
 $app_strings['LBL_SEARCH_QUERY']                   = 'Zoekopdracht: ';
-$app_strings['LBL_SEARCH_RESULTS_PER_PAGE']        = 'Results per module: ';
+$app_strings['LBL_SEARCH_RESULTS_PER_PAGE']        = 'Resultaten per module: ';
 $app_strings['LBL_SEARCH_ENGINE']                  = 'Zoekmachine: ';
 $app_strings['LBL_SEARCH_TOTAL'] = 'Aantal resultaten: ';
 $app_strings['LBL_SEARCH_PREV'] = 'Vorige';
@@ -3828,7 +3828,7 @@ $app_strings['LBL_VALUE_SET_PLACEHOLDER'] = 'Waarde ingesteld. Voer nieuwe waard
 $app_strings['ERR_IMAP_OAUTH_CONNECTION_ERROR'] = 'Niet in staat om verbinding te maken met OAuth login met inkomende e-mail server. Voor verbinding: ';
 $app_strings['WARN_OAUTH_TOKEN_SESSION_EXPIRED'] = 'Uw IMAP OAuth sessie is verlopen, gelieve opnieuw in te loggen in de verbinding: ';
 
-$app_strings['ERR_OAUTH_CONNECTION_ERROR'] = 'Not able to connect using OAuth login. For connection: ';
+$app_strings['ERR_OAUTH_CONNECTION_ERROR'] = 'Niet in staat om verbinding te maken met OAuth inlog. Voor verbinding: ';
 
 $app_strings['LBL_KEY'] = 'Id';
 $app_strings['LBL_VALUE'] = 'Waarde';
@@ -3841,12 +3841,12 @@ $app_strings['LBL_FROM_SYSTEM'] = 'Verzenden vanaf systeem';
 $app_strings['LBL_SIGNATURE'] = 'Handtekening';
 
 $app_list_strings['email_import_timeframe_start_dom'] = [
-    '-1 year' => '1 Year',
-    '-6 months' => '6 Months',
-    '-3 months' => '3 Months',
-    '-30 days' => '30 Days',
-    '-15 days' => '15 Days',
-    '-5 days' => '5 Days',
-    '-1 days' => '1 Day',
-    '0 days' => '0 Days',
+    '-1 year' => '1 jaar',
+    '-6 months' => '6 maanden',
+    '-3 months' => '3 maanden',
+    '-30 days' => '30 dagen',
+    '-15 days' => '15 dagen',
+    '-5 days' => '5 dagen',
+    '-1 days' => '1 dag',
+    '0 days' => '0 Dagen',
 ];
