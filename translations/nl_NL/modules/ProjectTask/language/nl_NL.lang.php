@@ -83,7 +83,7 @@ $mod_strings = array(
 
     'LBL_LIST_NAME' => 'Naam',
     'LBL_LIST_PARENT_NAME' => 'Project',
-    'LBL_SEARCH_FORM_TITLE' => 'Project Task Search',
+    'LBL_SEARCH_FORM_TITLE' => 'Project taak zoeken',
     'LBL_LIST_PERCENT_COMPLETE' => 'Vooruitgang (%)',
     'LBL_LIST_STATUS' => 'Status',
     'LBL_LIST_ASSIGNED_USER_ID' => 'Toegewezen aan',
@@ -91,7 +91,7 @@ $mod_strings = array(
     'LBL_LIST_PRIORITY' => 'Prioriteit',
     'LBL_LIST_CLOSE' => 'Sluiten',
     'LBL_PROJECT_NAME' => 'Project naam',
-    'LBL_LIST_FORM_TITLE' => 'Project Task List',
+    'LBL_LIST_FORM_TITLE' => 'Project taak Lijst',
 
     'LNK_NEW_PROJECT' => 'Nieuw project',
     'LNK_PROJECT_LIST' => 'Projecten lijst',
