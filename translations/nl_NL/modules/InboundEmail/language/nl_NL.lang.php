@@ -140,10 +140,10 @@ $mod_strings = array(
     'LBL_WARN_IMAP' => 'Waarschuwingen:',
     'LBL_WARN_NO_IMAP' => 'Inkomende e-mail kan <b>niet</b> funtioneren zonder PHP IMAP ondersteuning.',
 
-    'LNK_LIST_CREATE_NEW_PERSONAL' => 'Nieuw persoonlijk account',
-    'LNK_LIST_CREATE_NEW_GROUP' => 'Nieuwe Groep-account',
-    'LNK_LIST_CREATE_NEW_CASES_TYPE' => 'Nieuw verzoek account',
-    'LNK_LIST_CREATE_NEW_BOUNCE' => 'Nieuwe bounceverwerking account',
+    'LNK_LIST_CREATE_NEW_PERSONAL' => 'Nieuw Persoonlijk account',
+    'LNK_LIST_CREATE_NEW_GROUP' => 'Nieuwe Groeps Account',
+    'LNK_LIST_CREATE_NEW_CASES_TYPE' => 'Nieuw Zaak Account',
+    'LNK_LIST_CREATE_NEW_BOUNCE' => 'Nieuwe Bounce Verwerking Account',
     'LNK_LIST_MAILBOXES' => 'Inkomende Email Accounts',
     'LNK_LIST_OUTBOUND_EMAILS' => 'Uitgaande e-mailaccounts',
     'LNK_LIST_SCHEDULER' => 'Taakplanners',
@@ -169,7 +169,7 @@ $mod_strings = array(
     'LNK_QUICK_REPLY' => 'Beantwoord',
     'LNK_SENT_EMAIL_LIST' => 'Verzonden e-mails',
     'LBL_EDIT_LAYOUT' => 'Bewerk lay-out' /*for 508 compliance fix*/,
-    'LBL_TYPE_DIFFERENT' => 'External OAuth Connection type must be the SAME as the Inbound Email Account type',
+    'LBL_TYPE_DIFFERENT' => 'Externe OAuth Connectie type moet het zelfde zijn als inkomende e-mail account type',
 
     'LBL_MODIFIED_BY' => 'Gewijzigd door',
     'LBL_SERVICE' => 'Dienst',
