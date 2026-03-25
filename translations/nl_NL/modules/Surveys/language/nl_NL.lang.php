@@ -105,5 +105,5 @@ $mod_strings = array(
     'LBL_SUBMIT' => 'Verstuur',
     'LBL_STARS' => 'Sterren',
     'LBL_SURVEY_CLOSE_RESPONSE' => 'Bedankt voor uw belangstelling, maar dit onderzoek is nu gesloten.',
-    'LBL_SURVEY_THANKS' => 'Thanks for completing this survey.',
+    'LBL_SURVEY_THANKS' => 'Bedankt voor het invullen van deze enquête.',
 );
