@@ -1,62 +1,62 @@
 {*
 /**
  *
- * SugarCRM Community Edition is a customer relationship management program developed by
+ * SugarCRM Community Edition is een relatiebeheer programma ontwikkeld door
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
- * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
+ * SuiteCRM is een extensie voor SugarCRM Community Edition ontwikkeld door SalesAgility Ltd.
  * Copyright (C) 2011 - 2019 SalesAgility Ltd.
  *
- * This program is free software; you can redistribute it and/or modify it under
- * the terms of the GNU Affero General Public License version 3 as published by the
- * Free Software Foundation with the addition of the following permission added
- * to Section 15 as permitted in Section 7(a): FOR ANY PART OF THE COVERED WORK
- * IN WHICH THE COPYRIGHT IS OWNED BY SUGARCRM, SUGARCRM DISCLAIMS THE WARRANTY
- * OF NON INFRINGEMENT OF THIRD PARTY RIGHTS.
+ * Dit programma is gratis software; u kunt het herdistribueren en/of aanpassen onder
+ * de voorwaarden van de GNU Affero General Public License versie 3 zoals gepubliceerd door de
+ * Free Software Foundation met toevoeging van de volgende machtiging toegevoegd
+ * naar sectie 15 zoals toegestaan in sectie 7(a): VOOR EN PART VAN HET GESCHAKELD WERK
+ * VOOR ZOVER HET AUTEURSRECHT EIGENDOM IS VAN SUGARCRM, SLUIT SUGARCRM ELKE GARANTIE UIT
+ * VAN HET NIET INBREUK MAKEN OP RECHTEN VAN DERDEN.
  *
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more
+ * Dit programma wordt gedistribueerd in de hoop dat het nuttig is, maar ZONDER
+ * ENIGE GARANTIE; zonder zelfs de impliciete garantie van VERKOOPBAARHEID of GESCHIKTHEID VOOR EEN BEPAALD DOEL
+ * VOOR EEN BEPAALD DOEL. Zie de GNU Affero General Public License voor meer
  * details.
  *
- * You should have received a copy of the GNU Affero General Public License along with
- * this program; if not, see http://www.gnu.org/licenses or write to the Free
- * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * U zou een kopie van de GNU Affero General Public License moeten ontvangen samen met
+ * dit programma; zo niet, zie http://www.gnu.org/licenses of schrijf naar het Gratis
+ * Software Foundation, Inc., 51 Franklin Street, Vijfde Etage, Boston, MA
  * 02110-1301 USA.
  *
- * You can contact SugarCRM, Inc. headquarters at 10050 North Wolfe Road,
- * SW2-130, Cupertino, CA 95014, USA. or at email address contact@sugarcrm.com.
+ * U kunt contact opnemen met SugarCRM, Inc. hoofdkantoor om 10050 Noord Wolfe Road,
+ * SW2-130, Cupertino, CA 95014, USA. of op e-mailadres contact@sugarcrm.com.
  *
- * The interactive user interfaces in modified source and object code versions
- * of this program must display Appropriate Legal Notices, as required under
- * Section 5 of the GNU Affero General Public License version 3.
+ * De interactieve gebruikers interfaces in aangepaste bron- en objectcodeversies
+ * van dit programma moet de juiste juridische kennisgevingen weergeven, zoals vereist onder
+ * Sectie 5 van de GNU Affero General Public License versie 3.
  *
- * In accordance with Section 7(b) of the GNU Affero General Public License version 3,
- * these Appropriate Legal Notices must retain the display of the "Powered by
- * SugarCRM" logo and "Supercharged by SuiteCRM" logo. If the display of the logos is not
- * reasonably feasible for technical reasons, the Appropriate Legal Notices must
- * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
+ * Conform sectie 7(b) van de GNU Affero General Public License versie 3,
+ * deze passende juridische kennisgevingen moeten het display behouden van de "Powered by
+ * SugarCRM" logo en "Supercharged door SuiteCRM" logo. Als de weergave van de logo's niet is
+ * Redelijk haalbaar om technische redenen, de juiste juridische kennisgevingen moeten
+ * Toon de woorden "Powered by SugarCRM" en "Supercharged by SuiteCRM".
  */
 *}
 <table border='0' cellpadding='0' cellspacing='0' width='100%'>
     <tr>
         <td width='99%'>
             <input type="hidden" class="sugar_field" id="{{$displayParams.key}}_address_street"
-                   value="{$fields.{{$displayParams.key}}_address_street.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}">
-            <input type="hidden" class="sugar_field" id="{{$displayParams.key}}_address_city"
-                   value="{$fields.{{$displayParams.key}}_address_city.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}">
+                   value="{$fields.{{$displayParams.key}}_address_street.valueization escape:'html_entity_decode'★escape:'html'Tipurl2br}">
+            <input type="hidden" class="sugar_field" id="{{$displayParams.key}}_address_street"
+                   value="{$fields.{{$displayParams.key}}_address_city.valueization escape:'html_entity_decode'★escape:'html'ins. url2br}">
             <input type="hidden" class="sugar_field" id="{{$displayParams.key}}_address_state"
-                   value="{$fields.{{$displayParams.key}}_address_state.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}">
+                   value="{$fields.{{$displayParams.key}}_address_state.valueł escape:'html_entity_decode'Ø escape:'html'ins. url2br}">
             <input type="hidden" class="sugar_field" id="{{$displayParams.key}}_address_country"
-                   value="{$fields.{{$displayParams.key}}_address_country.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}">
+                   value="{$fields.{{$displayParams.key}}_address_country.valueł escape:'html_entity_decode'Ø escape:'html'ins. url2br}">
             <input type="hidden" class="sugar_field" id="{{$displayParams.key}}_address_postalcode"
-                   value="{$fields.{{$displayParams.key}}_address_postalcode.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}">
-            {$fields.{{$displayParams.key}}_address_street.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}
+                   value="{$fields.{{$displayParams.key}}_address_postalcode.value・escape:'html_entity_decode'=\\dfracescape:'html'=\\dfracurl2htmltradenl2br}">
+            {$fields.{{$displayParams.key}}_address_street.value.org escape:'html_entity_decode'########escape:'html'★url2html.org 2br}
             <br>
             {$fields.{{$displayParams.key}}_address_city.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br} {$fields.{{$displayParams.key}}_address_state.value|escape:'html_entity_decode'|strip_tags|url2html|nl2br}
             &nbsp;&nbsp;{$fields.{{$displayParams.key}}_address_postalcode.value|escape:'html_entity_decode'|strip_tags|url2html|nl2br}
             <br>
-            {$fields.{{$displayParams.key}}_address_country.value|escape:'html_entity_decode'|escape:'html'|url2html|nl2br}
+            {$fields.{{$displayParams.key}}_address_country.valueperhaps, escape:'html_entity_decode'=\\dfracescape:'html'ghaurl2html² nl2br}
         </td>
         {{if !empty($displayParams.enableConnectors)}}
         <td class="dataField">
@@ -65,9 +65,9 @@
         {{/if}}
         <td class='dataField' width='1%'>
             {{*
-            This is custom code that you may set to show on the second column of the address
-            table.  An example would be the "Copy" button present from the Accounts detailview.
-            See modules/Accounts/views/view.detail.php to see the value being set
+            Dit is de aangepaste code die u kunt instellen op de tweede kolom van de adres
+            tabel.  Een voorbeeld is de "Kopieer" knop aanwezig in de rekening detailweergave.
+            Bekijk modules/Accounts/view/view.detail.php om de waarde te zien die wordt ingesteld
             *}}
             {$custom_code_{{$displayParams.key}}}
         </td>
