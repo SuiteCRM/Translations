@@ -65,8 +65,8 @@ $mod_strings = array(
     'LBL_HOMEPAGE_TITLE' => 'Mijn uitgaande e-mailaccounts',
     'LNK_NEW_RECORD' => 'Uitgaande e-mailaccounts aanmaken',
 
-    'LNK_LIST_CREATE_NEW_PERSONAL' => 'New Personal Outbound Email Account',
-    'LNK_LIST_CREATE_NEW_GROUP' => 'New Group Outbound Email Account',
+    'LNK_LIST_CREATE_NEW_PERSONAL' => 'Nieuw persoonlijke uitgaande e-mailaccount',
+    'LNK_LIST_CREATE_NEW_GROUP' => 'Nieuwe groep uitgaande e-mailaccount',
     'LNK_LIST_CREATE_SYSTEM_OVERRIDE_GROUP' => 'Nieuw systeem overschrijven uitgaande e-mailaccount',
 
     'LNK_LIST' => 'Uitgaande e-mailaccounts',
@@ -125,7 +125,7 @@ $mod_strings = array(
     'LBL_EXTERNAL_OAUTH_CONNECTION_NAME' => 'Externe OAuth verbinding',
     'LNK_EXTERNAL_OAUTH_CONNECTIONS' => 'Externe OAuth verbindingen',
 
-    'LBL_ERROR_OUTBOUND_EMAIL_SYSTEM_EXISTS' => 'System Outbound Email Account already exists. Please remove it before creating a new one.',
-    'LBL_ERROR_OUTBOUND_EMAIL_SYSTEM_IS_NOT_GROUP' => 'When configuring the System Outbound account using OAuth, you must select a Group-Type External Oauth Connection',
-    'LBL_ERROR_OUTBOUND_EMAIL_CONNECTION_TYPE_MISMATCH' => 'When configuring the Outbound account using OAuth, you must select a External Oauth Connection the same type as the Outbound Email Account (Group or Personal)',
+    'LBL_ERROR_OUTBOUND_EMAIL_SYSTEM_EXISTS' => 'Systeem uitgaande e-mailaccount bestaat al. Verwijder het account voordat u een nieuw account aanmaakt.',
+    'LBL_ERROR_OUTBOUND_EMAIL_SYSTEM_IS_NOT_GROUP' => 'Bij het configureren van het systeem uitgaande account met behulp van OAuth, moet u een Group-Type Externe Oauth Connection selecteren',
+    'LBL_ERROR_OUTBOUND_EMAIL_CONNECTION_TYPE_MISMATCH' => 'Bij het configureren van de uitgaande account met OAuth, moet u een externe Oauth verbinding net zo selecteren als de Outbound Email Account (Groep of Persoonlijk)',
 );
