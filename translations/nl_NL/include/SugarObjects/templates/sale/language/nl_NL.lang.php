@@ -55,7 +55,7 @@ $mod_strings = array(
     'LBL_LIST_SALE_STAGE' => 'Verkoopstadium',
     'LBL_ACCOUNT_ID' => 'Relatie ID',
     //DON'T CONVERT THESE THEY ARE MAPPINGS
-    'db_name' => 'LBL_NAME',
+    'db_name' => 'LBL_NAAM',
     //END DON'T CONVERT
     'LBL_ACCOUNT_NAME' => 'Relatie naam:',
     'LBL_AMOUNT' => 'Bedrag:',
