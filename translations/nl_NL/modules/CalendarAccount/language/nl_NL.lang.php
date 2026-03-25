@@ -64,47 +64,47 @@ $mod_strings = [
     // Subpanel titles
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Bekijk geschiedenis',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activiteiten',
-    'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
-    'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
+    'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Kalender Accounts',
+    'LBL_MEETINGS_SUBPANEL_TITLE' => 'Gesynchroniseerde vergaderingen',
 
     // Import links
-    'LNK_IMPORT_CALENDARACCOUNT' => 'Import Calendar Accounts',
+    'LNK_IMPORT_CALENDARACCOUNT' => 'Importeer Kalender Accounts',
 
     // Additional menu links
-    'LNK_LIST_CREATE_NEW_GROUP' => 'Create New Group',
-    'LNK_LIST_CREATE_NEW_PERSONAL' => 'Create Personal Calendar Account',
-    'LNK_LIST_INBOUND_EMAILS' => 'Inbound Emails',
-    'LNK_LIST_OUTBOUND_EMAILS' => 'Outbound Emails',
+    'LNK_LIST_CREATE_NEW_GROUP' => 'Nieuwe groep aanmaken',
+    'LNK_LIST_CREATE_NEW_PERSONAL' => 'Persoonlijke kalender account aanmaken',
+    'LNK_LIST_INBOUND_EMAILS' => 'Inkomende e-mails',
+    'LNK_LIST_OUTBOUND_EMAILS' => 'Uitgaande e-mails',
     'LNK_LIST_EXTERNAL_OAUTH_PROVIDERS' => 'Externe OAuth Providers',
     'LNK_LIST_EXTERNAL_OAUTH_CONNECTIONS' => 'Externe OAuth verbindingen',
 
     // Basic module labels
-    'LBL_MODULE_NAME' => 'Calendar Accounts',
-    'LBL_MODULE_TITLE' => 'Calendar Accounts',
-    'LBL_LIST_FORM_TITLE' => 'Calendar Accounts List',
-    'LBL_SEARCH_FORM_TITLE' => 'Search Calendar Accounts',
-    'LBL_NEW_FORM_TITLE' => 'New Calendar Account',
-    'LBL_HOMEPAGE_TITLE' => 'My Calendar Accounts',
+    'LBL_MODULE_NAME' => 'Kalender Accounts',
+    'LBL_MODULE_TITLE' => 'Kalender Accounts',
+    'LBL_LIST_FORM_TITLE' => 'Kalender Accounts Lijst',
+    'LBL_SEARCH_FORM_TITLE' => 'Kalender accounts zoeken',
+    'LBL_NEW_FORM_TITLE' => 'Nieuwe Kalender Account',
+    'LBL_HOMEPAGE_TITLE' => 'Mijn Kalender Accounts',
 
     // Navigation links
-    'LNK_NEW_RECORD' => 'Create Calendar Account',
-    'LNK_LIST' => 'View Calendar Accounts',
+    'LNK_NEW_RECORD' => 'Nieuwe Kalender Account',
+    'LNK_LIST' => 'Bekijk Kalender Accounts',
 
     // Standard fields
     'LBL_NAME' => 'Naam',
     'LBL_ID' => 'Id',
     'LBL_TYPE' => 'Type',
-    'LBL_SOURCE' => 'Calendar Source',
+    'LBL_SOURCE' => 'Kalender bron',
 
     // OAuth2 Fields
-    'LBL_OAUTH_CONNECTION' => 'OAuth Connection',
-    'LBL_CONNECT_OAUTH' => 'Connect OAuth',
+    'LBL_OAUTH_CONNECTION' => 'OAuth verbinding',
+    'LBL_CONNECT_OAUTH' => 'Verbind OAuth',
 
     // Basic Auth Fields
     'LBL_USERNAME' => 'Gebruikersnaam',
     'LBL_PASSWORD' => 'Wachtwoord',
     'LBL_SERVER_URL' => 'Server URL',
-    'LBL_TEST_CONNECTION' => 'Test Connection',
+    'LBL_TEST_CONNECTION' => 'Test verbinding',
 
     // API Key Fields
     'LBL_API_KEY' => 'API Key',
@@ -112,78 +112,78 @@ $mod_strings = [
     'LBL_VALIDATE_API' => 'Validate API',
 
     // Calendar User Fields
-    'LBL_CALENDAR_USER_ID' => 'Calendar User ID',
-    'LBL_CALENDAR_USER_NAME' => 'Calendar User',
-    'LBL_CALENDAR_USER' => 'Calendar User',
+    'LBL_CALENDAR_USER_ID' => 'Kalender Gebruikers ID',
+    'LBL_CALENDAR_USER_NAME' => 'Kalender gebruiker',
+    'LBL_CALENDAR_USER' => 'Kalender gebruiker',
 
     // Auth Actions
-    'LBL_AUTH_ACTIONS' => 'Authentication Actions',
+    'LBL_AUTH_ACTIONS' => 'Authenticatie acties',
 
     // Panel Labels
-    'LBL_SYNC_STATUS' => 'Sync Status',
+    'LBL_SYNC_STATUS' => 'Synchronisatie status',
 
     // Connection Status Fields
-    'LBL_LAST_CONNECTION_STATUS' => 'Test successful',
-    'LBL_LAST_CONNECTION_TEST' => 'Last Connection Test',
-    'LBL_LAST_SYNC_ATTEMPT_DATE' => 'Last Sync Attempt',
-    'LBL_LAST_SYNC_ATTEMPT_STATUS' => 'Sync Status',
-    'LBL_LAST_SYNC_ATTEMPT_MESSAGE' => 'Sync Message',
-    'LBL_LAST_SYNC_DATE' => 'Last Sync Date',
-    'LBL_EXTERNAL_CALENDAR_ID' => 'External Calendar ID',
-    'LBL_DUPLICATE_EXTERNAL_CALENDAR' => 'This external calendar is already connected to account',
+    'LBL_LAST_CONNECTION_STATUS' => 'Test succesvol',
+    'LBL_LAST_CONNECTION_TEST' => 'Laatste Connectie Test',
+    'LBL_LAST_SYNC_ATTEMPT_DATE' => 'Laatste synchronisatie poging',
+    'LBL_LAST_SYNC_ATTEMPT_STATUS' => 'Synchronisatie status',
+    'LBL_LAST_SYNC_ATTEMPT_MESSAGE' => 'Synchroniseer bericht',
+    'LBL_LAST_SYNC_DATE' => 'Laatste synchronisatiedatum',
+    'LBL_EXTERNAL_CALENDAR_ID' => 'Externe kalender ID',
+    'LBL_DUPLICATE_EXTERNAL_CALENDAR' => 'Deze externe kalender is al gekoppeld aan het account',
 
     // Sync Actions
-    'LBL_SYNC_NOW' => 'Sync Now',
-    'LBL_SYNC_NOW_TITLE' => 'Synchronize this calendar account now',
-    'LBL_SYNC_NOW_CONFIRM' => 'Are you sure you want to sync this calendar account now?',
-    'LBL_NO_ACCOUNT_ID' => 'No calendar account ID provided',
-    'LBL_SYNCING' => 'Syncing...',
-    'LBL_NETWORK_ERROR' => 'Network error occurred while syncing the calendar account. Please try again.',
+    'LBL_SYNC_NOW' => 'Nu synchroniseren',
+    'LBL_SYNC_NOW_TITLE' => 'Synchroniseer deze kalenderaccount nu',
+    'LBL_SYNC_NOW_CONFIRM' => 'Weet je zeker dat je dit kalenderaccount nu wilt synchroniseren?',
+    'LBL_NO_ACCOUNT_ID' => 'Geen kalenderaccount ID opgegeven',
+    'LBL_SYNCING' => 'Synchroniseren...',
+    'LBL_NETWORK_ERROR' => 'Netwerkfout opgetreden tijdens het synchroniseren van het kalenderaccount. Probeer het opnieuw.',
     'LBL_UNKNOWN' => 'Onbekend',
-    'LBL_NOW' => 'now',
-    'LBL_SYNC_SUCCESS' => 'Calendar synchronization completed successfully',
-    'LBL_SYNC_FAILED' => 'Sync failed',
-    'LBL_SYNC_FAILED_DEFAULT' => 'Calendar synchronization failed. Please check the logs for details.',
-    'LBL_SYNC_RESPONSE_ERROR' => 'An error occurred while processing the sync response. Please check the logs for details.',
-    'LBL_SYNC_IN_PROGRESS' => 'Sync already in progress. Please wait...',
-    'LBL_SYNC_IN_PROGRESS_MESSAGE' => 'Synchronizing calendar events. This may take a while...',
-    'LBL_PLEASE_WAIT' => 'Please Wait',
+    'LBL_NOW' => 'nu',
+    'LBL_SYNC_SUCCESS' => 'Agendasynchronisatie met succes voltooid',
+    'LBL_SYNC_FAILED' => 'Synchroniseren mislukt',
+    'LBL_SYNC_FAILED_DEFAULT' => 'Agendasynchronisatie mislukt. Controleer de logs voor meer informatie.',
+    'LBL_SYNC_RESPONSE_ERROR' => 'Er is een fout opgetreden tijdens het verwerken van de synchronisatie. Controleer de logboeken voor details.',
+    'LBL_SYNC_IN_PROGRESS' => 'Synchronisatie is al bezig. Een ogenblik geduld...',
+    'LBL_SYNC_IN_PROGRESS_MESSAGE' => 'Synchroniseren van agenda-afspraken. Dit kan even duren...',
+    'LBL_PLEASE_WAIT' => 'Een ogenblik geduld',
     // Permission and validation messages
-    'LBL_NO_ACCESS' => 'You do not have permission to perform this action.',
-    'LBL_ALREADY_HAS_PERSONAL_ACCOUNT' => 'This user already has a personal calendar account.',
-    'LBL_ADMIN_ONLY_GROUP_ACCOUNT' => 'Only administrators can create group calendar accounts.',
+    'LBL_NO_ACCESS' => 'U bent niet gemachtigd om deze actie uit te voeren.',
+    'LBL_ALREADY_HAS_PERSONAL_ACCOUNT' => 'Deze gebruiker heeft al een persoonlijk kalenderaccount.',
+    'LBL_ADMIN_ONLY_GROUP_ACCOUNT' => 'Alleen beheerders kunnen accounts voor groepskalenderaccounts aanmaken.',
 
     // Authentication validation messages
-    'LBL_OAUTH_CONNECTION_REQUIRED' => 'Please select an OAuth connection first.',
-    'LBL_BASIC_AUTH_FIELDS_REQUIRED' => 'Please fill in all basic authentication fields (username, password, server URL).',
-    'LBL_API_KEY_REQUIRED' => 'Please enter an API key.',
-    'LBL_USING_SAVED_API_KEY' => 'Using previously saved API key.',
-    'LBL_UNKNOWN_AUTH_METHOD' => 'Unknown authentication method',
-    'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Please select a calendar source first.',
+    'LBL_OAUTH_CONNECTION_REQUIRED' => 'Selecteer eerst een OAuth verbinding.',
+    'LBL_BASIC_AUTH_FIELDS_REQUIRED' => 'Vul alle basis authenticatie velden in (gebruikersnaam, wachtwoord, server URL).',
+    'LBL_API_KEY_REQUIRED' => 'Voer een API-key in.',
+    'LBL_USING_SAVED_API_KEY' => 'Gebruik eerder opgeslagen API-key.',
+    'LBL_UNKNOWN_AUTH_METHOD' => 'Onbekende verificatiemethode',
+    'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Selecteer eerst de bron van de kalender.',
 
     // Connection test messages
     'LBL_CALENDAR' => 'Agenda',
     'LBL_SUCCESSFUL' => 'Succesvolle',
     'LBL_FAILED' => 'Mislukt',
-    'LBL_CONNECTION_TEST' => 'Connection Test',
+    'LBL_CONNECTION_TEST' => 'Verbinding Test',
     'LBL_YES' => 'Ja',
     'LBL_NO' => 'Nee',
-    'LBL_FOUND_CALENDARS' => 'Found {count} calendars.',
-    'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'An error occurred while processing the connection test response. Please check the logs for details.',
-    'LBL_CONNECTION_TEST_HTTP_ERROR' => 'Connection test failed with HTTP status',
-    'LBL_CONNECTION_NETWORK_ERROR' => 'Network error occurred while testing the calendar connection. Please try again.',
-    'LBL_CONNECTION_TEST_SUCCESS_MESSAGE' => 'Connection test completed successfully.<br>Your credentials are valid and the calendar is accessible.',
-    'LBL_DUPLICATE_CALENDAR_ERROR' => 'This calendar is already connected to account',
+    'LBL_FOUND_CALENDARS' => 'Gevonden {count} kalenders.',
+    'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'Er is een fout opgetreden tijdens het verwerken van de verbinding test reactie. Controleer de logs voor meer informatie.',
+    'LBL_CONNECTION_TEST_HTTP_ERROR' => 'Verbindingstest mislukt met HTTP-status',
+    'LBL_CONNECTION_NETWORK_ERROR' => 'Netwerkfout opgetreden tijdens het testen van de kalender verbinding. Probeer het opnieuw.',
+    'LBL_CONNECTION_TEST_SUCCESS_MESSAGE' => 'Verbindingstest met succes voltooid.<br>Uw gegevens zijn geldig en de kalender is toegankelijk.',
+    'LBL_DUPLICATE_CALENDAR_ERROR' => 'Deze kalender is al gekoppeld aan het account',
 
     // Authentication method error messages
-    'LBL_AUTH_METHOD_ERROR' => 'Error determining authentication method',
-    'LBL_AUTH_METHOD_PARSE_ERROR' => 'Error parsing authentication method response',
-    'LBL_AUTH_METHOD_GET_ERROR' => 'Error getting authentication method for source',
+    'LBL_AUTH_METHOD_ERROR' => 'Fout bij bepalen verificatiemethode',
+    'LBL_AUTH_METHOD_PARSE_ERROR' => 'Fout bij parsen van verificatiemethode antwoord',
+    'LBL_AUTH_METHOD_GET_ERROR' => 'Fout bij verkrijgen verificatiemethode voor bron',
 
     // Dialog labels
-    'LBL_NOTIFICATION' => 'Notification',
+    'LBL_NOTIFICATION' => 'Notificatie',
     'LBL_CONFIRM' => 'Bevestig',
-    'LBL_ARE_YOU_SURE' => 'Are you sure?',
+    'LBL_ARE_YOU_SURE' => 'Weet u het zeker?',
 
     // Sync status enum translations
     'LBL_SYNC_STATUS_IN_PROGRESS' => 'In Bewerking',
@@ -192,14 +192,14 @@ $mod_strings = [
     'LBL_SYNC_STATUS_ERROR' => 'Foutmelding',
 
     // Sync message enum translations
-    'LBL_SYNC_MSG_SYNC_COMPLETE' => 'All meetings synced.',
-    'LBL_SYNC_MSG_UP_TO_DATE' => 'No new meetings to sync.',
-    'LBL_SYNC_MSG_MEETINGS_FAILED' => 'Some meetings failed to sync. Check logs.',
-    'LBL_SYNC_MSG_SYNC_PARTIAL' => 'Some meetings synced. More pending due to limits.',
-    'LBL_SYNC_MSG_SYNC_ERROR' => 'Sync error. Check logs.',
-    'LBL_SYNC_MSG_TOKEN_EXPIRED' => 'Authentication token expired.',
-    'LBL_SYNC_MSG_CONNECTION_ERROR' => 'Connection error.',
-    'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Calendar not found.',
+    'LBL_SYNC_MSG_SYNC_COMPLETE' => 'Alle vergaderingen gesynchroniseerd.',
+    'LBL_SYNC_MSG_UP_TO_DATE' => 'Geen nieuwe vergaderingen om te synchroniseren.',
+    'LBL_SYNC_MSG_MEETINGS_FAILED' => 'Sommige vergaderingen konden niet worden gesynchroniseerd. Controleer logs.',
+    'LBL_SYNC_MSG_SYNC_PARTIAL' => 'Sommige vergaderingen gesynchroniseerd. Meer in behandeling vanwege beperkingen.',
+    'LBL_SYNC_MSG_SYNC_ERROR' => 'Synchronisatiefout. Controleer logs.',
+    'LBL_SYNC_MSG_TOKEN_EXPIRED' => 'Authenticatietoken is verlopen.',
+    'LBL_SYNC_MSG_CONNECTION_ERROR' => 'Verbindingsfout.',
+    'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Kalender niet gevonden.',
 
     // Relationship labels
     'LBL_MEETINGS' => 'Afspraken',
