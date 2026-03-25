@@ -46,7 +46,7 @@ $mod_strings = array(
     'LBL_RECOVER_PASSWORD_SUCCESS' => 'Als de opgegeven gebruikersnaam en e-mail correct zijn, moet u een e-mail ontvangen met informatie om uw wachtwoord te herstellen',
     'ERR_NO_2FACTOR_EMAIL_TMPL' => 'Twee-factor email template is niet ingesteld, wijzig de instellingen op wachtwoord beheerpagina.',
     'ERR_NO_2FACTOR_EMAIL_TMPL_CODE' => 'Twee-factor email template moet ten minste een $code bevatten.',
-    'LBL_DELETE_USER_CONFIRM' => 'When the User record is deleted, the corresponding Employee record will also be deleted. After the user is deleted, any workflow definitions and reports involving the user might need to be updated.<br/><br/> Personal / Group Inbound Accounts that contain / are assigned to this user will also need updated. <br/><br/> Deleting a User record cannot be undone.',
+    'LBL_DELETE_USER_CONFIRM' => 'Wanneer het gebruikers record wordt verwijderd, wordt het corresponderende werknemers record ook verwijderd. Nadat de gebruiker is verwijderd, moeten alle workflow definities en rapporten waarbij de gebruiker betrokken is misschien worden bijgewerkt.<br/><br/> Inkomende Accounts die deze gebruiker bevatten / zijn toegewezen moeten ook bijgewerkt worden. <br/><br/> Verwijderen van een gebruikers record kan niet ongedaan worden gemaakt.',
     'LBL_DELETE_GROUP_CONFIRM' => 'Weet u zeker dat u deze groepsgebruiker wilt verwijderen? Klik op OK om de gebruiker te verwijderen. <br> Na het klikken op OK krijgt u de mogelijkheid om records toegewezen aan de groepsgebruiker aan een andere gebruiker toe te wijzen.',
     'LNK_IMPORT_USERS' => 'Gebruikers importeren',
     'ERR_DELETE_RECORD' => 'Een recordnummer moet worden opgegeven om de organisatie te verwijderen.',
@@ -57,7 +57,7 @@ $mod_strings = array(
     'ERR_ENTER_OLD_PASSWORD' => 'Geef aub uw oude wachtwoord.',
     'ERR_IE_FAILURE1' => '[Klik hier om door te gaan]',
     'ERR_IE_FAILURE2' => 'Er is een probleem met de verbinding met uw e-mail account. Controleer de instellingen en probeer openieuw.',
-    'ERR_IE_MISSING_REQUIRED' => "Inbound Email settings are missing required information.\n  Please check your settings and try again.\n\nIf you are not setting up Inbound Email, please clear all fields in that section.",
+    'ERR_IE_MISSING_REQUIRED' => "De inkomende e-mailinstellingen missen verplichte informatie.\n  Controleer uw instellingen en probeer het opnieuw.\n\nAls u de inkomende e-mail niet aan het instellen bent, wis dan alle velden in die sectie.",
     'ERR_INVALID_PASSWORD' => 'U moet een geldige gebruikersnaam en wachtwoord opgeven.',
     'ERR_LAST_ADMIN_1' => 'De gebruikersnaam "',
     'ERR_LAST_ADMIN_2' => '" is de laatste gebruiker met beheerdersrechten. Minstens een gebruiker moet admin rechten hebben.',
@@ -123,7 +123,7 @@ $mod_strings = array(
     'LBL_NUMBER_GROUPING_SEP_TEXT' => 'Teken dat 1000-tallen scheidt.',
     'LBL_DECIMAL_SEP' => 'Decimaal symbool',
     'LBL_DECIMAL_SEP_TEXT' => 'Karakter dat gebruikt wordt om decimalen te scheiden',
-    'LBL_USER_LANGUAGE' => 'User Language',
+    'LBL_USER_LANGUAGE' => 'Gebruikers taal',
     'LBL_FDOW' => 'Eerste dag van de week',
     'LBL_FDOW_TEXT' => 'Eerste dag getoond in week-, maand- en jaaroverzicht',
     'LBL_DATE_FORMAT_TEXT' => 'Stelt het formaat van datumnotaties in',
@@ -702,12 +702,13 @@ $mod_strings = array(
     'LNK_EXTERNAL_OAUTH_CONNECTIONS' => 'Externe OAuth verbindingen',
 
     // 2FA
-    'LBL_FACTOR_AUTH' => 'Two Factor Authentication',
-    'LBL_FACTOR_AUTH_DISABLE' => 'Two Factor Authentication was Disabled for this User',
+    'LBL_FACTOR_AUTH' => 'Authenticatie in twee stappen',
+    'LBL_FACTOR_AUTH_DISABLE' => 'Authenticatie in twee stappen is uitgeschakeld voor deze gebruiker',
     'LBL_DISABLED' => 'Gedeactiveerd',
     'LBL_ENABLED' => 'Geactiveerd',
-    'LBL_ENABLE_2FA' => 'Enable 2FA',
-    'LBL_2FA_CONFIG' => 'Two Factor Configuration',
-    'LBL_DISABLE_2FA' => 'Disable 2FA',
+    'LBL_ENABLE_2FA' => '2FA inschakelen',
+    'LBL_2FA_CONFIG' => '
+Twee stappen Configuratie',
+    'LBL_DISABLE_2FA' => '2FA uitschakelen',
 
 ); // END STRINGS DEFS
