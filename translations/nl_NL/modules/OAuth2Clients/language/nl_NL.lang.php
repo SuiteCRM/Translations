@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = [
-    'LBL_MODULE_NAME' => 'OAuth2-clients',
-    'LBL_MODULE_TITLE' => 'OAuth2-clients',
-    'LBL_MODULE_ID' => 'OAuth2-clients',
+    'LBL_MODULE_NAME' => 'OAuth2 clients',
+    'LBL_MODULE_TITLE' => 'OAuth2 clients',
+    'LBL_MODULE_ID' => 'OAuth2 clients',
     'LBL_IS_CONFIDENTIAL' => 'Is vertrouwelijk',
     'LBL_SECRET' => 'Geheim',
     'LBL_SECRET_HASHED' => 'Verandering geheim',
@@ -66,7 +66,7 @@ $mod_strings = [
 
     'LNK_OAUTH2_TOKEN_LIST'=> 'Maak een lijst van OAuth2-tokens',
     'LNK_OAUTH2_CLIENT_LIST' => 'Lijst van OAuth2 Clients',
-    'LNK_OAUTH2_AUTHCODE_LIST' => 'List OAuth2 Authorization Codes',
+    'LNK_OAUTH2_AUTHCODE_LIST' => 'Lijst OAuth2 autorisatie codes',
 
     'LNK_NEW_OAUTH2_CLIENT' => 'Maak een OAuth2 Client',
     'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'Nieuwe wachtwoord voor client',
