@@ -183,12 +183,12 @@ $mod_strings = array(
     'LBL_REMOVE_ALL_RECURRENCES' => 'Verwijder alles',
     'LBL_CONFIRM_REMOVE' => 'Weet u zeker dat u dit record wilt verwijderen?',
     
-    'LBL_MAINTAINER_SUITECRM' => 'SuiteCRM is written and maintained by SuiteCRM Ltd',
+    'LBL_MAINTAINER_SUITECRM' => 'SuiteCRM is geschreven en onderhouden door SuiteCRM Ltd',
     'LBL_CONTRIBUTOR_SUITECRM' => 'SuiteCRM - Open source CRM voor de wereld',
     'LBL_CONTRIBUTOR_SECURITY_SUITE' => 'SecuritySuite door Jason Eggers',
     'LBL_CONTRIBUTOR_JJW_GMAPS' => 'JJWDesign Google Maps door Jeffrey J. Walters',
-    'LBL_CONTRIBUTOR_CONSCIOUS' => 'SuiteCRM Logo Design contributed by Conscious Solutions',
-    'LBL_CONTRIBUTOR_RESPONSETAP' => 'Contribution to SuiteCRM by ResponseTap',
+    'LBL_CONTRIBUTOR_CONSCIOUS' => 'SuiteCRM Logo Ontwerp bijgedragen door Conscious Solutions',
+    'LBL_CONTRIBUTOR_RESPONSETAP' => 'Bijdragen aan SuiteCRM door ResponseTap',
     'LBL_CONTRIBUTOR_GMBH' => 'Workflow berekende velden zijn bijgedragen door diligent technology & business consulting GmbH',
 
     'LBL_LANGUAGE_ABOUT' => 'Over SuiteCRM vertalingen',
