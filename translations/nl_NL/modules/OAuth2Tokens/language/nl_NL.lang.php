@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'OAuth2-tokens',
-    'LBL_MODULE_TITLE' => 'OAuth2-tokens',
-    'LBL_MODULE_ID'=> 'OAuth2-tokens',
+    'LBL_MODULE_NAME' => 'OAuth2 Tokens',
+    'LBL_MODULE_TITLE' => 'OAuth2 Tokens',
+    'LBL_MODULE_ID'=> 'OAuth2 Tokens',
     'LBL_TOKEN_ID'=> 'Token-ID',
     'LBL_CLIENT'=> 'Client',
     'LBL_TOKEN_IS_REVOKED'=> 'Ingetrokken',
@@ -55,14 +55,14 @@ $mod_strings = array(
     'LBL_GRANT_TYPE'=> 'Toekennen type',
     'LBL_SCOPES'=> 'Reikwijdte',
     'LBL_REVOKE_TOKEN'=> 'Intrekken van token',
-    'LBL_REVOKE_TOKENS'=> 'Revoke Tokens',
+    'LBL_REVOKE_TOKENS'=> 'Tokens intrekken',
     'LBL_CLIENT_NAME'=> 'Klantnaam',
     'LBL_USER' => 'Bijbehorende gebruiker',
     'LBL_IS_ACTIVE' => 'Enkel actieve tokens',
 
     'LNK_OAUTH2_TOKEN_LIST'=> 'Maak een lijst van OAuth2-tokens',
     'LNK_OAUTH2_CLIENT_LIST' => 'Lijst van OAuth2 Clients',
-    'LNK_OAUTH2_AUTHCODE_LIST' => 'List OAuth2 Authorization Codes',
+    'LNK_OAUTH2_AUTHCODE_LIST' => 'Lijst OAuth2 autorisatie codes',
     
     'LNK_NEW_OAUTH2_CLIENT' => 'Maak een OAuth2 Client',
     'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'Nieuwe wachtwoord voor client',
@@ -72,6 +72,6 @@ $mod_strings = array(
 
     'LBL_ACCESS_TOKEN' => 'Toegangstoken',
     'LBL_REFRESH_TOKEN' => 'Vernieuwen token',
-    'LBL_DELETE_CONFIRMATION' => 'Are you sure you want to delete this record? The client will not be granted an authorization code any more.',
-    'LBL_REVOKE_AND_DELETE_BUTTON_LABEL' => 'Revoke and Delete',
+    'LBL_DELETE_CONFIRMATION' => 'Weet u zeker dat u dit record wilt verwijderen? De klant krijgt geen autorisatie code meer.',
+    'LBL_REVOKE_AND_DELETE_BUTTON_LABEL' => 'Intrekken en verwijderen',
 );
