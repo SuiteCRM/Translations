@@ -102,7 +102,7 @@ $mod_strings = array(
     'LBL_PERSONAL_MODULE_NAME' => 'Persoonlijke e-mailaccount',
     'LBL_CREATE_CASE' => 'Maak een verzoek van e-mail',
     'LBL_CREATE_CASE_HELP' => 'Selecteer deze optie om automatisch records aan te maken in SuiteCRM van inkomende e-mails.',
-    'LBL_MODULE_NAME' => 'Group Mail Account',
+    'LBL_MODULE_NAME' => 'Groep e-mail account',
     'LBL_BOUNCE_MODULE_NAME' => 'Bounceverwerking Mailbox',
     'LBL_MODULE_TITLE' => 'Inkomende E-mail',
     'LBL_NAME' => 'Naam',
@@ -140,10 +140,10 @@ $mod_strings = array(
     'LBL_WARN_IMAP' => 'Waarschuwingen:',
     'LBL_WARN_NO_IMAP' => 'Inkomende e-mail kan <b>niet</b> funtioneren zonder PHP IMAP ondersteuning.',
 
-    'LNK_LIST_CREATE_NEW_PERSONAL' => 'New Personal Inbound Email Account',
-    'LNK_LIST_CREATE_NEW_GROUP' => 'New Group Inbound Email Account',
-    'LNK_LIST_CREATE_NEW_CASES_TYPE' => 'New Case Handling Email Account',
-    'LNK_LIST_CREATE_NEW_BOUNCE' => 'New Bounce Handling Email Account',
+    'LNK_LIST_CREATE_NEW_PERSONAL' => 'Nieuw persoonlijk inkomende e-mailaccount',
+    'LNK_LIST_CREATE_NEW_GROUP' => 'Nieuwe groep inkomende e-mailaccount',
+    'LNK_LIST_CREATE_NEW_CASES_TYPE' => 'Nieuw Case Handling E-Mail Account',
+    'LNK_LIST_CREATE_NEW_BOUNCE' => 'Nieuwe bounce verwerking e-mailaccount',
     'LNK_LIST_MAILBOXES' => 'Inkomende Email Accounts',
     'LNK_LIST_OUTBOUND_EMAILS' => 'Uitgaande e-mailaccounts',
     'LNK_LIST_SCHEDULER' => 'Taakplanners',
@@ -169,7 +169,7 @@ $mod_strings = array(
     'LNK_QUICK_REPLY' => 'Beantwoord',
     'LNK_SENT_EMAIL_LIST' => 'Verzonden e-mails',
     'LBL_EDIT_LAYOUT' => 'Bewerk lay-out' /*for 508 compliance fix*/,
-    'LBL_TYPE_DIFFERENT' => 'External OAuth Connection type must be the SAME as the Inbound Email Account type',
+    'LBL_TYPE_DIFFERENT' => 'Externe OAuth Connectie type moet het zelfde zijn als inkomende e-mail account type',
 
     'LBL_MODIFIED_BY' => 'Gewijzigd door',
     'LBL_SERVICE' => 'Dienst',
@@ -221,9 +221,9 @@ $mod_strings = array(
     'LBL_SET_AS_DEFAULT_BUTTON' => 'Instellen als standaard',
 
     'LBL_MOVE_MESSAGES_TO_TRASH_AFTER_IMPORT' => 'Berichten naar prullenbak verplaatsen na importeren?',
-    'LBL_LAST_IMPORT_RUN_DATETIME' => 'Last Import Run Date/Time',
-    'LBL_MAILBOX_LAST_IMPORTED_DAYS' => 'Last Imported Date Per Mailbox',
-    'LBL_EMAIL_IMPORT_PER_RUN_THRESHOLD' => 'Emails to Import Per Run',
-    'LBL_EMAIL_IMPORT_TIMEFRAME_START' => 'Import Timeframe Start',
-    'LBL_EMAIL_IMPORT_UNREAD_ONLY' => 'Import Unread Emails Only'
+    'LBL_LAST_IMPORT_RUN_DATETIME' => 'Laatste Import Run Datum/Tijd',
+    'LBL_MAILBOX_LAST_IMPORTED_DAYS' => 'Laatst Geïmporteerde Datum Per Mailbox',
+    'LBL_EMAIL_IMPORT_PER_RUN_THRESHOLD' => 'E-mails om per Run te importeren',
+    'LBL_EMAIL_IMPORT_TIMEFRAME_START' => 'Importeer Tijdframe Start',
+    'LBL_EMAIL_IMPORT_UNREAD_ONLY' => 'Alleen ongelezen e-mails importeren'
 );
