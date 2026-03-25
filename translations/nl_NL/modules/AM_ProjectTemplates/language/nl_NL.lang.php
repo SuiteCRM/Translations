@@ -137,7 +137,7 @@ $mod_strings = array(
     'LBL_NO_ACCESS' => 'U heeft geen toegang om deze $module aan temaken',
     'LBL_SCHEDULING_FORM_TITLE' => 'Bronnenlijst',
     'LBL_NONE' => 'Geen',
-    'LBL_TASKS_NOT_FOUND' => 'There are no Tasks to build the Gantt Table',
+    'LBL_TASKS_NOT_FOUND' => 'Er zijn geen Taken om de Gantt Table te bouwen',
 
     'LBL_AM_PROJECTTEMPLATES_PROJECT_1_FROM_PROJECT_TITLE' => 'Project-sjablonen: Project uit de titel van het Project',
 
