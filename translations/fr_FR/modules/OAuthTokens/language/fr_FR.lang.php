@@ -46,9 +46,9 @@ $mod_strings = array(
     'LBL_OAUTH_REQUEST' => "Demande de jeton",
     'LBL_OAUTH_AUTHORIZE' => "Jeton autorisé",
     'LBL_OAUTH_CONSUMERREQ' => "Autoriser le jeton du consommateur <b>%s</b> ?",
-    'LBL_ASSIGNED_TO_NAME' => 'Utilisateur',
+    'LBL_ASSIGNED_TO_NAME' => 'User',
     'LBL_ID' => 'ID',
-    'LBL_STATUS' => 'Statut',
+    'LBL_STATUS' => 'Status',
     'LBL_TS' => 'Horodatage',
     'LBL_LIST_DELETE' => 'Supprimer le jeton',
     'LBL_CONSUMER' => 'Nom de la fourniture',
@@ -56,7 +56,7 @@ $mod_strings = array(
 
     'LBL_TOKEN_TS' => 'Jeton TS',
     'LBL_CALLBACK_URL' => 'URL de callback',
-    'LBL_SECRET' => 'Confidentiel',
+    'LBL_SECRET' => 'Secret',
     'LBL_TSTATE' => 'TState',
-    'LBL_VERIFY' => 'Vérification',
+    'LBL_VERIFY' => 'Verify',
 );
