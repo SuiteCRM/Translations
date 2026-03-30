@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Списък със записи за сливане',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Стъпка 1: Търсене на записи за сливане с',
-    'LBL_AVAIL_FIELDS' => 'Налични полета',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'Условия за филтриране',
     'LBL_MERGE_VALUE_OVER' => 'Записване със стойност',
 
@@ -58,15 +58,15 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Изпълни',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Изпълни',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Съхрани',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Съхрани',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => 'Намерени записи за сливане с:',
     'LBL_SELECT_ERROR' => 'Необходимо е да изберете записи, преди да продължите.',
     'LBL_CHANGE_PARENT' => 'Маркирай като основен',
-    'LBL_REMOVE_FROM_MERGE' => 'Изтрий',
+    'LBL_REMOVE_FROM_MERGE' => 'Remove',
     'LBL_DIFF_COL_VALUES' => 'Колони със стойности различни в основния и допълнителните записи:',
     'LBL_SAME_COL_VALUES' => 'Колони със стойности еднакви в маркираните записи:',
     'LBL_DELETE_MESSAGE' => 'Ще бъдат изтрити следните записи:',
