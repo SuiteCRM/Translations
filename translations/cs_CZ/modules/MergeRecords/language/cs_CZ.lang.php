@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Slučování Seznam',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Najít záznamy pro sloučení s',
-    'LBL_AVAIL_FIELDS' => 'Dostupná pole',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'Podmínka filtru',
     'LBL_MERGE_VALUE_OVER' => 'Sloučit hodnotu přes',
 
@@ -58,15 +58,15 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Sloučit',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Sloučit',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Uložit sloučení',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Uložit sloučení',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => 'Nalezené záznamy pro sloučení:',
     'LBL_SELECT_ERROR' => 'Před dalším pokračováním musíte zvolit.',
     'LBL_CHANGE_PARENT' => 'Nastavit jako primární.',
-    'LBL_REMOVE_FROM_MERGE' => 'Odebrat',
+    'LBL_REMOVE_FROM_MERGE' => 'Remove',
     'LBL_DIFF_COL_VALUES' => 'Sloupce, jejichž hodnota se v primárním řádku liší od hodnoty ve sloučených řádcích:',
     'LBL_SAME_COL_VALUES' => 'Sloupce, jejichž hodnota je podobná ve všech řádcích:',
     'LBL_DELETE_MESSAGE' => 'Tato akce smaže následující záznamy:',
