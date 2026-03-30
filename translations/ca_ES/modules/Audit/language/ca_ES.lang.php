@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_FIELD_NAME' => 'Camp',
+    'LBL_FIELD_NAME' => 'Field',
     'LBL_OLD_NAME' => 'Valor Anterior',
     'LBL_NEW_VALUE' => 'Valor Nou',
     'LBL_CREATED_BY' => 'Canviat Per',
     'LBL_LIST_DATE' => 'Data de Canvi',
     'LBL_AUDITED_FIELDS' => 'Camps auditats en aquest mòdul: ',
-    'LBL_CHANGE_LOG' => 'Històrial de Canvis:',
+    'LBL_CHANGE_LOG' => 'Change Log',
 );
