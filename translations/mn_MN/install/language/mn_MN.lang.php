@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_BASIC' => 'Үндсэн',
+    'LBL_BASIC' => 'BASIC',
     'LBL_BASIC_SEARCH' => 'Түргэн филтерр',
     'LBL_ADVANCED_SEARCH' => 'Дэвшмэл филтер',
     'LBL_BASIC_TYPE' => 'Үндсэн төрөл',
