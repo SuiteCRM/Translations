@@ -43,30 +43,30 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EDIT_LAYOUT' => 'Rediger layout',
+    'LBL_EDIT_LAYOUT' => 'Edit Layout',
     'LBL_EDIT_FIELDS' => 'Rediger brugerdefinerede felter',
-    'LBL_SELECT_FILE' => 'Vælg fil',
+    'LBL_SELECT_FILE' => 'Select File',
     'LBL_MODULE_TITLE' => 'Studio',
-    'LBL_TOOLBOX' => 'Værktøjskasse',
+    'LBL_TOOLBOX' => 'Toolbox',
     'LBL_SUITE_FIELDS_STAGE' => 'SuiteCRM Fields (click items to add to staging area)',
     'LBL_VIEW_SUITE_FIELDS' => 'View SuiteCRM Fields',
-    'LBL_FAILED_TO_SAVE' => 'Det lykkedes ikke at gemme',
+    'LBL_FAILED_TO_SAVE' => 'Failed To Save',
     'LBL_CONFIRM_UNSAVE' => 'Eventuelle ændringer gemmes ikke. Er du sikker på, at du vil fortsætte?',
-    'LBL_PUBLISHING' => 'Udgiver ...',
-    'LBL_PUBLISHED' => 'Udgivet',
-    'LBL_FAILED_PUBLISHED' => 'Det lykkedes ikke at udgive',
-    'LBL_DROP_HERE' => '[Slip her]',
+    'LBL_PUBLISHING' => 'Publishing...',
+    'LBL_PUBLISHED' => 'Published',
+    'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
+    'LBL_DROP_HERE' => '[Drop Here]',
 
 //CUSTOM FIELDS
-    'LBL_NAME' => 'Navn',
+    'LBL_NAME' => 'Name',
     'LBL_LABEL' => 'Label',
-    'LBL_MASS_UPDATE' => 'Masse opdatering',
-    'LBL_DEFAULT_VALUE' => 'Standardværdi',
-    'LBL_REQUIRED' => 'Obligatorisk',
+    'LBL_MASS_UPDATE' => 'Mass Update',
+    'LBL_DEFAULT_VALUE' => 'Default Value',
+    'LBL_REQUIRED' => 'Required',
     'LBL_DATA_TYPE' => 'Type',
 
 
-    'LBL_HISTORY' => 'Historik',
+    'LBL_HISTORY' => 'History',
 
 //WIZARDS
 
@@ -79,42 +79,42 @@ $mod_strings = array(
     'LBL_SW_EDIT_GROUPTABS' => 'Konfigurer gruppefaner',
     'LBL_SW_EDIT_PORTAL' => 'Rediger portal',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => 'Reparer brugerdefinerede felter',
-    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Overflyt brugerdefinerede felter',
+    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrate Custom Fields',
 
 // JS LABELS
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Gendanner javascript-versioner af sprogfiler',
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Fjerner javascript-versioner af sprogfiler og gendanner efter behov.',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuilds javascript versions of language files',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Removing javascript versions of language files, will rebuild when needed.',
 
 
 //Manager Backups History
-    'LBL_MB_DELETE' => 'Slet',
+    'LBL_MB_DELETE' => 'Delete',
 
 //EDIT DROP DOWNS
     'LBL_ED_CREATE_DROPDOWN' => 'Opret en rulleliste',
     'LBL_DROPDOWN_NAME' => 'Rullelistenavn:',
     'LBL_DROPDOWN_LANGUAGE' => 'Rullelistesprog:',
-    'LBL_TABGROUP_LANGUAGE' => 'Fanegruppesprog:',
+    'LBL_TABGROUP_LANGUAGE' => 'Language:',
 
 //END WIZARDS
 
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => 'Vis værdi',
     'LBL_DD_DATABASEVALUE' => 'Databaseværdi',
-    'LBL_DD_ALL' => 'Alle',
+    'LBL_DD_ALL' => 'All',
 
 //BUTTONS
-    'LBL_BTN_SAVE' => 'Gem',
-    'LBL_BTN_CANCEL' => 'Annuller',
-    'LBL_BTN_SAVEPUBLISH' => 'Gem og installer',
-    'LBL_BTN_HISTORY' => 'Historik',
-    'LBL_BTN_ADDROWS' => 'Tilføj rækker',
-    'LBL_BTN_UNDO' => 'Fortryd',
-    'LBL_BTN_REDO' => 'Annuller fortryd',
-    'LBL_BTN_ADDCUSTOMFIELD' => 'Tilføj brugerdefineret felt',
+    'LBL_BTN_SAVE' => 'Save',
+    'LBL_BTN_CANCEL' => 'Cancel',
+    'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
+    'LBL_BTN_HISTORY' => 'History',
+    'LBL_BTN_ADDROWS' => 'Add Rows',
+    'LBL_BTN_UNDO' => 'Undo',
+    'LBL_BTN_REDO' => 'Redo',
+    'LBL_BTN_ADDCUSTOMFIELD' => 'Add Custom Field',
     'LBL_BTN_TABINDEX' => 'Rediger fanerækkefølge',
 
 //TABS
-    'LBL_MODULES' => 'Moduler',
+    'LBL_MODULES' => 'Modules',
     'LBL_MODULE_NAME' => 'Administration',
     'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
     'LBL_GROUP_TAB_WELCOME' => 'Fanerne og de grupperede faner nedenfor vises for de brugere, der vælger at få vist grupperede moduler på navigationslinjen. Træk og slip moduler til og fra fanefelterne for at konfigurere, hvilke underfaner der skal vises under hvilke faner. Tomme fanegrupper vises ikke på navigationslinjen.',
@@ -123,24 +123,24 @@ $mod_strings = array(
     'LBL_TAB_GROUP_LANGUAGE_HELP' => 'Hvis du vil angive fanegruppeetiketterne på andre tilgængelige sprog, skal du vælge et sprog, redigere etiketterne og klikke på Gem og installer for at foretage ændringerne på det pågældende sprog.',
     'LBL_ADD_GROUP' => 'Tilføj filter',
     'LBL_NEW_GROUP' => 'Ny gruppe',
-    'LBL_RENAME_TABS' => 'Rename Tabs',
+    'LBL_RENAME_TABS' => 'Rename Modules',
 
 //ERRORS
-    'ERROR_INVALID_KEY_VALUE' => "Fejl: Ugyldig nøgleværdi: [&#39;]",
+    'ERROR_INVALID_KEY_VALUE' => "Error: Invalid Key Value: [']",
 
 //SUGAR PORTAL
-    'LBL_SAVE' => 'Gem' /*for 508 compliance fix*/,
-    'LBL_UNDO' => 'Fortryd' /*for 508 compliance fix*/,
-    'LBL_REDO' => 'Annuller fortryd' /*for 508 compliance fix*/,
+    'LBL_SAVE' => 'Save' /*for 508 compliance fix*/,
+    'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
+    'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Inline' /*for 508 compliance fix*/,
-    'LBL_DELETE' => 'Slet' /*for 508 compliance fix*/,
-    'LBL_ADD_FIELD' => 'Tilføj felt' /*for 508 compliance fix*/,
+    'LBL_DELETE' => 'Delete' /*for 508 compliance fix*/,
+    'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Maximize' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Minimize' /*for 508 compliance fix*/,
-    'LBL_PUBLISH' => 'Udgiv' /*for 508 compliance fix*/,
-    'LBL_ADDROWS' => 'Tilføj rækker' /*for 508 compliance fix*/,
-    'LBL_ADDFIELD' => 'Tilføj felt' /*for 508 compliance fix*/,
-    'LBL_EDIT' => 'Rediger' /*for 508 compliance fix*/,
+    'LBL_PUBLISH' => 'Publish' /*for 508 compliance fix*/,
+    'LBL_ADDROWS' => 'Add Rows' /*for 508 compliance fix*/,
+    'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
+    'LBL_EDIT' => 'Edit' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Select the language to edit.',
     'LBL_SINGULAR' => 'Singular Label',
