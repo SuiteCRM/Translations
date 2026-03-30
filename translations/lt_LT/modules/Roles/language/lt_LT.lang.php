@@ -43,22 +43,22 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Rolė',
-    'LBL_LANGUAGE' => 'Kalba:',
-    'LBL_MODULE_NAME' => 'Funkcijos',
-    'LBL_MODULE_TITLE' => 'Rolės: Pradžia',
+    'LBL_ROLE' => 'Role:',
+    'LBL_LANGUAGE' => 'Language:',
+    'LBL_MODULE_NAME' => 'Rolė',
+    'LBL_MODULE_TITLE' => 'Roles: Home',
     'LBL_SEARCH_FORM_TITLE' => 'Funkcijų paieškos',
     'LBL_LIST_FORM_TITLE' => 'Funkcijų sąrašas',
-    'LNK_NEW_ROLE' => 'Sukurti rolę',
-    'LNK_ROLES' => 'Funkcijos',
+    'LNK_NEW_ROLE' => 'Create Role',
+    'LNK_ROLES' => 'Rolė',
     'LBL_NAME' => 'Vardas:',
-    'LBL_DESCRIPTION' => 'Aprašymas:',
+    'LBL_DESCRIPTION' => 'Description:',
     'LBL_ALLOWED_MODULES' => 'Leidžiami naudoti moduliai:',
     'LBL_DISALLOWED_MODULES' => 'Neleidžiami naudoti moduliai:',
     'LBL_ASSIGN_MODULES' => 'Edit Modules:',
-    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Funkcijos',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Rolė',
     'LBL_USERS' => 'Vartotojas',
 
     'LBL_USERS_SUBPANEL_TITLE' => 'Vartotojas',
-    'LBL_MODULES' => 'Moduliai:',
+    'LBL_MODULES' => 'Moduliai',
 );
