@@ -42,10 +42,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_MAP'] = '지도';
-$mod_strings['LBL_MODULE_NAME'] = '지도';
+$mod_strings['LBL_MAP'] = 'Map';
+$mod_strings['LBL_MODULE_NAME'] = 'Maps';
 $mod_strings['LBL_MODULE_TITLE'] = '지도: 홈';
-$mod_strings['LBL_MODULE_ID'] = '지도';
+$mod_strings['LBL_MODULE_ID'] = 'Maps';
 $mod_strings['LBL_LIST_FORM_TITLE'] = '지도 목록';
 $mod_strings['LBL_MAP_CUSTOM_MARKER'] = '사용자 지정 표식';
 $mod_strings['LBL_MAP_CUSTOM_AREA'] = '사용자 지정 영역';
@@ -59,8 +59,8 @@ $mod_strings['LBL_UNIT_TYPE'] = '단위 유형:';
 $mod_strings['LBL_MAP_DISPLAY'] = '지도 표시';
 $mod_strings['LBL_MAP_LEGEND'] = 'Legend:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = '그룹:';
-$mod_strings['LBL_MAP_GROUP'] = '그룹:';
-$mod_strings['LBL_MAP_TYPE'] = '종류';
+$mod_strings['LBL_MAP_GROUP'] = 'Group';
+$mod_strings['LBL_MAP_TYPE'] = '유형';
 $mod_strings['LBL_MAP_ASSIGNED_TO'] = '담당자:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'Get Directions';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = '구글 지도 보기';
@@ -71,7 +71,7 @@ $mod_strings['LNK_MAP_LIST'] = 'List Maps';
 
 $mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Geocoding Test';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'Quick Radius Map';
-$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = '미사용';
+$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = '없음';
 $mod_strings['LBL_MAP_ADDRESS'] = '주소';
 $mod_strings['LBL_MAP_PROCESS'] = 'Process It!';
 
@@ -82,13 +82,13 @@ $mod_strings['LBL_MODULE_HEADING'] = '모듈';
 
 $mod_strings['LBL_N/A'] = 'N/A';
 $mod_strings['LBL_ZERO_RESULTS'] = 'Zero Results';
-$mod_strings['LBL_OK'] = '확인';
+$mod_strings['LBL_OK'] = 'Ok';
 $mod_strings['LBL_INVALID_REQUEST'] = 'Invalid Request';
 $mod_strings['LBL_APPROXIMATE'] = 'Approximate';
-$mod_strings['LBL_EMPTY'] = '비어 있음';
+$mod_strings['LBL_EMPTY'] = 'Empty';
 
-$mod_strings['LBL_MODULE_TOTAL_HEADING'] = '합계';
-$mod_strings['LBL_MODULE_RESET_HEADING'] = '재설정';
+$mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Total';
+$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Reset';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = 'The table shown belown shows the number of module objects geocoded, grouped by geocoding response. Keep in mind that the standard Google Maps usage limit is 2500 requests per day . This module will cache the addresses geocoding information during processing to reduce the overall number of requests needed.';
 
 $mod_strings['LBL_CRON_INSTRUCTIONS'] = 'To process the geocoding requests it is recommended to setup a nightly Cron-Job. A custom entry point has been created for this purpose and can be accessed without authentication. The URL shown below is meant to be used with an Administrative Scheduled Task. Please see the documentation for more information.';
@@ -101,11 +101,11 @@ $mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = '처리 중…';
 
 $mod_strings['LBL_CONFIG_TITLE'] = 'Configuration Settings';
 $mod_strings['LBL_CONFIG_SAVED'] = '설정이 성공적으로 저장되었습니다!';
-$mod_strings['LBL_BILLING_ADDRESS'] = '청구 주소';
-$mod_strings['LBL_SHIPPING_ADDRESS'] = '배송 주소';
+$mod_strings['LBL_BILLING_ADDRESS'] = 'Billing Address';
+$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Shipping Address';
 $mod_strings['LBL_PRIMARY_ADDRESS'] = '기본 주소';
 $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'Alternative Address';
-$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex 관련';
+$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex Relate';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Address (Simple, Users)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'Custom (Custom Controller Logic)';
 $mod_strings['LBL_ENABLED'] = '사용함';
@@ -184,7 +184,7 @@ $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_DESC'] = "'map_clusterer
 $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = "Important Note: All saved settings can be found in the 'config' table under category 'jjwg'. Note, a custom controller.php file should no longer be used to override settings.";
 $mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Areas';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'Markers';
-$mod_strings['LBL_PARENT_ID'] = '패런트ID:';
+$mod_strings['LBL_PARENT_ID'] = '상위 ID:';
 $mod_strings['LBL_JJWP_PARTNERS'] = 'JJWP 파트너';
 $mod_strings['LBL_GET_GOOGLE_API_KEY'] = 'Get A Key';
 $mod_strings['LBL_GOOGLE_API_KEY'] = 'Google Api Key';
