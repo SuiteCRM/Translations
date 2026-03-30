@@ -67,7 +67,7 @@ $app_list_strings = array(
         '' => '',
         'Accepted' => 'Έγινε αποδεκτό',
         'Duplicate' => 'Αντίγραφο',
-        'Closed' => 'Έκλεισε',
+        'Closed' => 'Κλειστό',
         'Out of Date' => 'Ληγμένο Χρονικά',
         'Invalid' => 'Άκυρο',
     ),
