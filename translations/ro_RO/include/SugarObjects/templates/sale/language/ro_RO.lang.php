@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Listă vânzări',
     'LBL_NAME' => 'Nume',
     'LBL_LIST_SALE_NAME' => 'Nume',
-    'LBL_LIST_ACCOUNT_NAME' => 'Nume Cont',
+    'LBL_LIST_ACCOUNT_NAME' => 'Nume cont',
     'LBL_LIST_AMOUNT' => 'Suma, valoare',
     'LBL_LIST_DATE_CLOSED' => 'Inchide',
     'LBL_LIST_SALE_STAGE' => 'Stadiul',
@@ -76,7 +76,7 @@ $mod_strings = array(
     'LBL_NEW_FORM_TITLE' => 'Creează vânzare',
     'ERR_DELETE_RECORD' => 'Un număr de înregistrare trebuie specificat pentru a șterge această vânzare.',
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Vânzare',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activități',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activitati',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Istorie',
 
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacte',
@@ -87,7 +87,7 @@ $mod_strings = array(
     'LBL_SALE_INFORMATION' => 'Informații vânzare',
     'LBL_CURRENCY_NAME' => 'Nume Monedă',
     'LBL_CURRENCY_SYMBOL' => 'Simbol valută',
-    'LBL_EDIT_BUTTON' => 'Editează',
-    'LBL_REMOVE' => 'Elimină',
+    'LBL_EDIT_BUTTON' => 'Editați',
+    'LBL_REMOVE' => 'Înlătură',
 
 );
