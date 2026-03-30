@@ -43,15 +43,15 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Rol',
-    'LBL_NAME' => 'Nume',
-    'LBL_DESCRIPTION' => 'Descriere',
+    'LBL_ROLE' => 'Role',
+    'LBL_NAME' => 'Name',
+    'LBL_DESCRIPTION' => 'Description',
     'LIST_ROLES' => 'Roluri',
-    'LBL_USERS_SUBPANEL_TITLE' => 'Utilizatori',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
     'LIST_ROLES_BY_USER' => 'Roluri după utilizator',
     'LBL_ROLES_SUBPANEL_TITLE' => 'Roluri',
-    'LBL_SEARCH_FORM_TITLE' => 'Caută',
-    'LBL_NO_ACCESS' => 'Nu aveți acces la această zonă. Contactați administratorul site-ului dacă sunteți de părere că ar trebui să aveți acces.',
+    'LBL_SEARCH_FORM_TITLE' => 'Search',
+    'LBL_NO_ACCESS' => 'You do not have access to this area. Contact your site administrator to obtain access.',
     'LBL_REDIRECT_TO_HOME' => 'Redirecționez către Acasă în',
     'LBL_SECONDS' => 'secunde',
     'LBL_ADDING' => 'Adăugare pentru ',
