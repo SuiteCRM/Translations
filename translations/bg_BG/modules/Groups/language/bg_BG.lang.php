@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Групи',
-    'LBL_GROUP_NAME' => 'Име на групата:',
-    'LBL_DESCRIPTION' => 'Описание:',
-    'LBL_TEAM' => 'Екип:',
+    'LBL_MODULE_NAME' => 'Groups',
+    'LBL_GROUP_NAME' => 'Group Name:',
+    'LBL_DESCRIPTION' => 'Description:',
+    'LBL_TEAM' => 'Team:',
     // ListView
-    'LBL_LIST_TITLE' => 'Групи',
+    'LBL_LIST_TITLE' => 'Groups',
     // Links
     'LNK_ALL_GROUPS' => 'Всички групи',
     'LNK_NEW_GROUP' => 'Създаване на група',
