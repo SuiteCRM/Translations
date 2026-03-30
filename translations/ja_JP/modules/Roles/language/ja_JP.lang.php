@@ -43,22 +43,22 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => '役割:',
-    'LBL_LANGUAGE' => 'タブグループ言語:',
-    'LBL_MODULE_NAME' => '役割',
-    'LBL_MODULE_TITLE' => '役割: ホーム',
+    'LBL_ROLE' => 'Role:',
+    'LBL_LANGUAGE' => 'Language:',
+    'LBL_MODULE_NAME' => 'Roles',
+    'LBL_MODULE_TITLE' => 'Roles: Home',
     'LBL_SEARCH_FORM_TITLE' => '役割検索',
     'LBL_LIST_FORM_TITLE' => '役割一覧',
-    'LNK_NEW_ROLE' => '役割作成',
-    'LNK_ROLES' => '役割',
-    'LBL_NAME' => '名前:',
-    'LBL_DESCRIPTION' => '詳細:',
+    'LNK_NEW_ROLE' => 'Create Role',
+    'LNK_ROLES' => 'Roles',
+    'LBL_NAME' => 'Name:',
+    'LBL_DESCRIPTION' => 'Description:',
     'LBL_ALLOWED_MODULES' => '許可するモジュール: ',
     'LBL_DISALLOWED_MODULES' => '許可しないモジュール: ',
     'LBL_ASSIGN_MODULES' => 'モジュール編集: ',
-    'LBL_DEFAULT_SUBPANEL_TITLE' => '役割',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Roles',
     'LBL_USERS' => 'ユーザー',
 
-    'LBL_USERS_SUBPANEL_TITLE' => 'ユーザー',
-    'LBL_MODULES' => 'モジュール',
+    'LBL_USERS_SUBPANEL_TITLE' => 'ユーザ',
+    'LBL_MODULES' => 'Modules',
 );
