@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_FIELD_NAME' => 'Laukas',
+    'LBL_FIELD_NAME' => 'Field',
     'LBL_OLD_NAME' => 'Sena reikšmė',
     'LBL_NEW_VALUE' => 'Nauja reikšmė',
     'LBL_CREATED_BY' => 'Pakeitė',
     'LBL_LIST_DATE' => 'Pakeitimo data',
     'LBL_AUDITED_FIELDS' => 'Šiame modulyje sekami laukai:',
-    'LBL_CHANGE_LOG' => 'Pakeitimų istorija',
+    'LBL_CHANGE_LOG' => 'Change Log',
 );
