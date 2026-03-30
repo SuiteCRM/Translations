@@ -56,7 +56,7 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => '사용자:',
     'LBL_RATING' => '별점',
     'LBL_ASSIGNED_TO' => '담당자:',
-    'LBL_ASSIGNED_USER' => '담당자:',
+    'LBL_ASSIGNED_USER' => '담당유저:',
     'LBL_ASSIGNED_TO_ID' => '담당자:',
     'LBL_BILLING_ADDRESS_CITY' => '청구지 시/도:',
     'LBL_BILLING_ADDRESS_COUNTRY' => '청구지 국가:',
@@ -97,7 +97,7 @@ $mod_strings = array(
     'LBL_PHONE_FAX' => '팩스:',
     'LBL_PHONE_OFFICE' => '사무실 전화:',
     'LBL_PHONE' => '전화:',
-    'LBL_EMAIL_ADDRESS' => '이메일 주소',
+    'LBL_EMAIL_ADDRESS' => 'Email Address',
     'LBL_EMAIL_ADDRESSES' => '메일주소',
     'LBL_POSTAL_CODE' => '우편번호:',
     'LBL_SAVE_ACCOUNT' => '거래처저장',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => '해당 레코드를 정말 삭제하시겠습니까?',
 
     'LBL_EDIT_BUTTON' => '편집  ',
-    'LBL_REMOVE' => '삭제',
+    'LBL_REMOVE' => '제거',
 
 );
