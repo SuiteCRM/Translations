@@ -43,30 +43,30 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EDIT_LAYOUT' => 'Muuta layoutia',
+    'LBL_EDIT_LAYOUT' => 'Edit Layout',
     'LBL_EDIT_FIELDS' => 'Muokkaa custom kenttiä',
-    'LBL_SELECT_FILE' => 'Valitse tiedosto',
+    'LBL_SELECT_FILE' => 'Select File',
     'LBL_MODULE_TITLE' => 'Studio',
-    'LBL_TOOLBOX' => 'Työkalulaatikko',
+    'LBL_TOOLBOX' => 'Toolbox',
     'LBL_SUITE_FIELDS_STAGE' => 'SuiteCRM kentät (Valitse valmistelualueelle lisättävät kohteet)',
     'LBL_VIEW_SUITE_FIELDS' => 'View SuiteCRM Fields',
-    'LBL_FAILED_TO_SAVE' => 'Tallentaminen epäonnistui',
+    'LBL_FAILED_TO_SAVE' => 'Failed To Save',
     'LBL_CONFIRM_UNSAVE' => 'Any changes will go unsaved. Are you sure you would like to continue?',
     'LBL_PUBLISHING' => 'Publishing...',
-    'LBL_PUBLISHED' => 'Julkaistu',
+    'LBL_PUBLISHED' => 'Published',
     'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
-    'LBL_DROP_HERE' => '[Pudota tähän]',
+    'LBL_DROP_HERE' => '[Drop Here]',
 
 //CUSTOM FIELDS
-    'LBL_NAME' => 'Nimi',
-    'LBL_LABEL' => 'Nimike',
-    'LBL_MASS_UPDATE' => 'Massapäivitys',
-    'LBL_DEFAULT_VALUE' => 'Oletusarvo',
-    'LBL_REQUIRED' => 'Vaadittu',
-    'LBL_DATA_TYPE' => 'Tyyppi',
+    'LBL_NAME' => 'Name',
+    'LBL_LABEL' => 'Label',
+    'LBL_MASS_UPDATE' => 'Mass Update',
+    'LBL_DEFAULT_VALUE' => 'Default Value',
+    'LBL_REQUIRED' => 'Required',
+    'LBL_DATA_TYPE' => 'Type',
 
 
-    'LBL_HISTORY' => 'Historia',
+    'LBL_HISTORY' => 'History',
 
 //WIZARDS
 
@@ -79,7 +79,7 @@ $mod_strings = array(
     'LBL_SW_EDIT_GROUPTABS' => 'Configure Group Tabs',
     'LBL_SW_EDIT_PORTAL' => 'Edit Portal',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => 'Repair Custom Fields',
-    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Siirrä mukautetut kentät',
+    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrate Custom Fields',
 
 // JS LABELS
     'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuilds javascript versions of language files',
@@ -87,26 +87,26 @@ $mod_strings = array(
 
 
 //Manager Backups History
-    'LBL_MB_DELETE' => 'Poista',
+    'LBL_MB_DELETE' => 'Delete',
 
 //EDIT DROP DOWNS
     'LBL_ED_CREATE_DROPDOWN' => 'Create a Drop Down',
     'LBL_DROPDOWN_NAME' => 'Dropdown Name:',
     'LBL_DROPDOWN_LANGUAGE' => 'Dropdown Language:',
-    'LBL_TABGROUP_LANGUAGE' => 'Kieli:',
+    'LBL_TABGROUP_LANGUAGE' => 'Language:',
 
 //END WIZARDS
 
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => 'Display Value',
     'LBL_DD_DATABASEVALUE' => 'Database Value',
-    'LBL_DD_ALL' => 'Kaikki',
+    'LBL_DD_ALL' => 'All',
 
 //BUTTONS
-    'LBL_BTN_SAVE' => 'Tallenna',
-    'LBL_BTN_CANCEL' => 'Peruuta',
+    'LBL_BTN_SAVE' => 'Save',
+    'LBL_BTN_CANCEL' => 'Cancel',
     'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
-    'LBL_BTN_HISTORY' => 'Historia',
+    'LBL_BTN_HISTORY' => 'History',
     'LBL_BTN_ADDROWS' => 'Add Rows',
     'LBL_BTN_UNDO' => 'Undo',
     'LBL_BTN_REDO' => 'Redo',
@@ -114,33 +114,33 @@ $mod_strings = array(
     'LBL_BTN_TABINDEX' => 'Edit Tabbing Order',
 
 //TABS
-    'LBL_MODULES' => 'Moduulit',
-    'LBL_MODULE_NAME' => 'Ylläpito',
-    'LBL_CONFIGURE_GROUP_TABS' => 'Määritä koduulivalikkosuodattimia',
+    'LBL_MODULES' => 'Modules',
+    'LBL_MODULE_NAME' => 'Administration',
+    'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
     'LBL_GROUP_TAB_WELCOME' => 'The filters below will be displayed in the More list in the module menu for users to use to view groups of modules within the menu. Drag and drop modules to and from the filters. Note: Empty filters will not be displayed in the menu.',
     'LBL_RENAME_TAB_WELCOME' => 'Click on any tab\'s Display Value in the table below to rename the tab.',
     'LBL_DELETE_MODULE' => 'Remove&nbsp;module<br />from&nbsp;filter',
     'LBL_TAB_GROUP_LANGUAGE_HELP' => 'Select an available language, edit the Group labels and click Save & Deploy to apply the labels in the selected language.',
     'LBL_ADD_GROUP' => 'Add Filter',
     'LBL_NEW_GROUP' => 'New Group',
-    'LBL_RENAME_TABS' => 'Rename Tabs',
+    'LBL_RENAME_TABS' => 'Rename Modules',
 
 //ERRORS
     'ERROR_INVALID_KEY_VALUE' => "Error: Invalid Key Value: [']",
 
 //SUGAR PORTAL
-    'LBL_SAVE' => 'Tallenna' /*for 508 compliance fix*/,
+    'LBL_SAVE' => 'Save' /*for 508 compliance fix*/,
     'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
     'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Inline' /*for 508 compliance fix*/,
-    'LBL_DELETE' => 'Poista' /*for 508 compliance fix*/,
-    'LBL_ADD_FIELD' => 'Lisää kenttä' /*for 508 compliance fix*/,
+    'LBL_DELETE' => 'Delete' /*for 508 compliance fix*/,
+    'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Maximize' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Minimize' /*for 508 compliance fix*/,
     'LBL_PUBLISH' => 'Publish' /*for 508 compliance fix*/,
     'LBL_ADDROWS' => 'Add Rows' /*for 508 compliance fix*/,
-    'LBL_ADDFIELD' => 'Lisää kenttä' /*for 508 compliance fix*/,
-    'LBL_EDIT' => 'Muokkaa' /*for 508 compliance fix*/,
+    'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
+    'LBL_EDIT' => 'Edit' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Select the language to edit.',
     'LBL_SINGULAR' => 'Singular Label',
