@@ -46,9 +46,9 @@ $mod_strings = array(
     'LBL_OAUTH_REQUEST' => "Vyžádat Token",
     'LBL_OAUTH_AUTHORIZE' => "Autorizovat token",
     'LBL_OAUTH_CONSUMERREQ' => "Autorizovat token od zákazníka <b>%s</b>?",
-    'LBL_ASSIGNED_TO_NAME' => 'Uživatel',
+    'LBL_ASSIGNED_TO_NAME' => 'User',
     'LBL_ID' => 'ID',
-    'LBL_STATUS' => 'Stav',
+    'LBL_STATUS' => 'Status',
     'LBL_TS' => 'Časové razítko',
     'LBL_LIST_DELETE' => 'Smazat Token',
     'LBL_CONSUMER' => 'Jméno zákazníka',
@@ -56,7 +56,7 @@ $mod_strings = array(
 
     'LBL_TOKEN_TS' => 'TS Token',
     'LBL_CALLBACK_URL' => 'Callback URL',
-    'LBL_SECRET' => 'Tajný klíč',
+    'LBL_SECRET' => 'Secret',
     'LBL_TSTATE' => 'TState',
-    'LBL_VERIFY' => 'Ověřit',
+    'LBL_VERIFY' => 'Verify',
 );
