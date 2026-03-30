@@ -46,37 +46,37 @@ $mod_strings = array(
     //module
     'LBL_MODULE_NAME' => 'Wersje dokumentu',
 
-    'LNK_NEW_DOCUMENT' => 'Utwórz dokument',
+    'LNK_NEW_DOCUMENT' => 'Utwórz Dokument',
     'LNK_DOCUMENT_LIST' => 'Przeglądaj dokumenty',
 
     //vardef labels
-    'LBL_REVISION_NAME' => 'Numer wersji dokumentu',
-    'LBL_FILENAME' => 'Plik:',
-    'LBL_MIME' => 'Typ [Mime]',
-    'LBL_REVISION' => 'Wersja',
-    'LBL_DOCUMENT' => 'Powiązany dokument',
-    'LBL_LATEST_REVISION' => 'Ostatnia wersja',
+    'LBL_REVISION_NAME' => 'Numer rewizji',
+    'LBL_FILENAME' => 'File:',
+    'LBL_MIME' => 'Mime Type',
+    'LBL_REVISION' => 'Rewizja',
+    'LBL_DOCUMENT' => 'Dokument powiązany',
+    'LBL_LATEST_REVISION' => 'Ostatnia rewizja',
     'LBL_CHANGE_LOG' => 'Historia zmian',
-    'LBL_ACTIVE_DATE' => 'Data Rozpoczęcia',
-    'LBL_EXPIRATION_DATE' => 'Data wygaśnięcia',
-    'LBL_FILE_EXTENSION' => 'Rozszerzenie pliku',
+    'LBL_ACTIVE_DATE' => 'Publish Date',
+    'LBL_EXPIRATION_DATE' => 'Expiration Date',
+    'LBL_FILE_EXTENSION' => 'File Extension',
 
     'LBL_DOC_NAME' => 'Nazwa dokumentu:',
-    'LBL_DOC_VERSION' => 'Wersja:',
+    'LBL_DOC_VERSION' => 'Korekta:',
 
     //document revisions.
-    'LBL_REV_LIST_REVISION' => 'Wersja',
+    'LBL_REV_LIST_REVISION' => 'Rewizja',
     'LBL_REV_LIST_ENTERED' => 'Data utworzenia',
-    'LBL_REV_LIST_CREATED' => 'Utworzone przez',
+    'LBL_REV_LIST_CREATED' => 'Created by',
     'LBL_REV_LIST_LOG' => 'Historia zmian',
-    'LBL_REV_LIST_FILENAME' => 'Plik',
+    'LBL_REV_LIST_FILENAME' => 'File',
 
     'LBL_CURRENT_DOC_VERSION' => 'Ostatnia wersja:',
-    'LBL_SEARCH_FORM_TITLE' => 'Szukaj dokumentu',
+    'LBL_SEARCH_FORM_TITLE' => 'Wyszukiwanie dokumentów',
     'LBL_REVISIONS' => 'Wersje',
 
     //error messages
-    'ERR_FILENAME' => 'Nazwa pliku',
+    'ERR_FILENAME' => 'Nazwa Pliku',
     'ERR_DOC_VERSION' => 'Wersja dokumentu',
     'ERR_DELETE_CONFIRM' => 'Czy chcesz usunąć tę wersję dokumentu?',
     'ERR_DELETE_LATEST_VERSION' => 'Nie masz uprawnień do usunięcia ostatniej wersji dokumentu.',
