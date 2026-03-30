@@ -43,18 +43,18 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_CONSKEY' => 'Потрошувачки клуч',
-    'LBL_CONSSECRET' => 'Потрошувачка тајна',
+    'LBL_CONSKEY' => 'Consumer Key',
+    'LBL_CONSSECRET' => 'Consumer Secret',
     'LBL_ASSIGNED_TO_ID' => 'Доделено на Корисник ID',
     'LBL_ASSIGNED_TO_NAME' => 'Корисник ',
-    'LBL_ID' => 'ID',
+    'LBL_ID' => 'Број',
     'LBL_DATE_ENTERED' => 'Дата на креирање',
     'LBL_DATE_MODIFIED' => 'Дата на промена',
     'LBL_MODIFIED' => 'Променето од',
-    'LBL_MODIFIED_ID' => 'Променето од - ID',
+    'LBL_MODIFIED_ID' => 'Modified By Id',
     'LBL_MODIFIED_NAME' => 'Променето од - Име',
     'LBL_CREATED' => 'Креирано од',
-    'LBL_CREATED_ID' => 'Креирано од - ID',
+    'LBL_CREATED_ID' => 'Created By Id',
     'LBL_DESCRIPTION' => 'Опис',
     'LBL_DELETED' => 'Избришан',
     'LBL_NAME' => 'Consumer Key Name',
