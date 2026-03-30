@@ -44,14 +44,14 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
     'LBL_MODULE_NAME' => 'OAuth2 clients',
-    'LBL_MODULE_TITLE' => 'OAuth2 clients',
-    'LBL_MODULE_ID' => 'OAuth2 clients',
+    'LBL_MODULE_TITLE' => 'OAuth2 Clients',
+    'LBL_MODULE_ID' => 'OAuth2 Clients',
     'LBL_IS_CONFIDENTIAL' => 'Is vertrouwelijk',
     'LBL_SECRET' => 'Geheim',
     'LBL_SECRET_HASHED' => 'Verandering geheim',
     'LBL_LEAVE_BLANK' => 'Laat leeg, tenzij u wilt wijzigen',
     'LBL_REMEMBER_SECRET' => 'Neem notie van het geheim, omdat het niet beschikbaar zal zijn nadat u hebt opgeslagen.',
-    'LBL_REDIRECT_URL' => 'Omleidings URL',
+    'LBL_REDIRECT_URL' => 'Redirect URL',
     'LBL_ALLOWED_GRANT_TYPE' => 'Toegestane Grant Type',
     'LBL_DURATION_AMOUNT' => 'Tijdsduur',
     'LBL_DURATION_UNIT' => 'Duureenheid',
@@ -64,14 +64,14 @@ $mod_strings = [
     'LBL_ACCESS_TOKEN_EXPIRES' => 'Toegangstoken verloopt',
     'LBL_REFRESH_TOKEN_EXPIRES' => 'Vernieuwen tokens verloopt',
 
-    'LNK_OAUTH2_TOKEN_LIST'=> 'Maak een lijst van OAuth2-tokens',
-    'LNK_OAUTH2_CLIENT_LIST' => 'Lijst van OAuth2 Clients',
-    'LNK_OAUTH2_AUTHCODE_LIST' => 'Lijst OAuth2 autorisatie codes',
+    'LNK_OAUTH2_TOKEN_LIST'=> 'List OAuth2 Tokens',
+    'LNK_OAUTH2_CLIENT_LIST' => 'List OAuth2 Clients',
+    'LNK_OAUTH2_AUTHCODE_LIST' => 'List OAuth2 Authorization Codes',
 
-    'LNK_NEW_OAUTH2_CLIENT' => 'Maak een OAuth2 Client',
-    'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'Nieuwe wachtwoord voor client',
-    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'Nieuwe cliënt gegevens',
-    'LNK_NEW_OAUTH2_IMPLICIT_CLIENT' => 'Nieuwe impliciete Cliënt',
-    'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'Nieuwe autorisatie cliënt',
+    'LNK_NEW_OAUTH2_CLIENT' => 'Create OAuth2 Client',
+    'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'New Password Client',
+    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'New Client Credentials Client',
+    'LNK_NEW_OAUTH2_IMPLICIT_CLIENT' => 'New Implicit Client',
+    'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'New Authorization Client',
 
 ];
