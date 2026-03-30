@@ -117,7 +117,7 @@ $mod_strings = array(
     'LBL_TYPE' => 'Тип:',
     'LBL_WEBSITE' => 'Веб страница:',
 
-    'LNK_ACCOUNT_LIST' => 'Кориснички сметки',
+    'LNK_ACCOUNT_LIST' => 'Корисници',
     'LNK_NEW_ACCOUNT' => 'Креирај сметка',
 
     'MSG_DUPLICATE' => 'The account record you are about to create might be a duplicate of an account record that already exists. Account records containing similar names are listed below.<br>Click Create Account to continue creating this new account, or select an existing account listed below.',
@@ -126,6 +126,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'Дали сте сигурни дека сакате да го избришете овој запис?',
 
     'LBL_EDIT_BUTTON' => 'Промени  ',
-    'LBL_REMOVE' => 'Отстрани',
+    'LBL_REMOVE' => 'Избриши',
 
 );
