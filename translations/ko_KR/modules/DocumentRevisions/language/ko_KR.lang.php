@@ -46,33 +46,33 @@ $mod_strings = array(
     //module
     'LBL_MODULE_NAME' => '문서 버전',
 
-    'LNK_NEW_DOCUMENT' => '자료 작성',
+    'LNK_NEW_DOCUMENT' => '문서 생성',
     'LNK_DOCUMENT_LIST' => '자료 리스트',
 
     //vardef labels
-    'LBL_REVISION_NAME' => '개정번호',
-    'LBL_FILENAME' => '파일:',
-    'LBL_MIME' => 'Mime 형식',
-    'LBL_REVISION' => '개정판',
+    'LBL_REVISION_NAME' => 'Revision Number',
+    'LBL_FILENAME' => 'File:',
+    'LBL_MIME' => 'Mime종류',
+    'LBL_REVISION' => 'Revision',
     'LBL_DOCUMENT' => '관련 자료',
-    'LBL_LATEST_REVISION' => '최종개정판',
-    'LBL_CHANGE_LOG' => '변경로그',
-    'LBL_ACTIVE_DATE' => '개정일',
-    'LBL_EXPIRATION_DATE' => '만료일',
-    'LBL_FILE_EXTENSION' => '파일확장자',
+    'LBL_LATEST_REVISION' => 'Latest Revision',
+    'LBL_CHANGE_LOG' => 'Change Log',
+    'LBL_ACTIVE_DATE' => 'Publish Date',
+    'LBL_EXPIRATION_DATE' => 'Expiration Date',
+    'LBL_FILE_EXTENSION' => 'File Extension',
 
-    'LBL_DOC_NAME' => '문서명:',
-    'LBL_DOC_VERSION' => '개정번호:',
+    'LBL_DOC_NAME' => '자료명:',
+    'LBL_DOC_VERSION' => '개정:',
 
     //document revisions.
-    'LBL_REV_LIST_REVISION' => '개정판',
-    'LBL_REV_LIST_ENTERED' => '입력일',
-    'LBL_REV_LIST_CREATED' => '등록자',
-    'LBL_REV_LIST_LOG' => '변경로그',
-    'LBL_REV_LIST_FILENAME' => '파일',
+    'LBL_REV_LIST_REVISION' => 'Revision',
+    'LBL_REV_LIST_ENTERED' => '작성일',
+    'LBL_REV_LIST_CREATED' => 'Created by',
+    'LBL_REV_LIST_LOG' => 'Change Log',
+    'LBL_REV_LIST_FILENAME' => 'File',
 
     'LBL_CURRENT_DOC_VERSION' => 'Latest Revision:',
-    'LBL_SEARCH_FORM_TITLE' => '자료 검색',
+    'LBL_SEARCH_FORM_TITLE' => 'Document Search',
     'LBL_REVISIONS' => '수정 사항',
 
     //error messages
@@ -80,7 +80,7 @@ $mod_strings = array(
     'ERR_DOC_VERSION' => '자료버젼',
     'ERR_DELETE_CONFIRM' => '이 문서 수정본을 삭제하시겠습니까?',
     'ERR_DELETE_LATEST_VERSION' => '문서의 최신 수정본을 삭제할 수 없습니다.',
-    'LNK_NEW_MAIL_MERGE' => '메일 병합',
+    'LNK_NEW_MAIL_MERGE' => 'Mail Merge',
     'LBL_DOC_ID' => '문서 소스 ID',
     'LBL_DOC_TYPE' => '소스',
     'LBL_DOC_URL' => '문서 소스 URL',
