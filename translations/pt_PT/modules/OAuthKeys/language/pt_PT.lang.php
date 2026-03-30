@@ -43,8 +43,8 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_CONSKEY' => 'Chave do cliente',
-    'LBL_CONSSECRET' => 'Chave secreta do cliente',
+    'LBL_CONSKEY' => 'Chave do consumidor',
+    'LBL_CONSSECRET' => 'Chave secreta do consumidor',
     'LBL_ASSIGNED_TO_ID' => 'ID do utilizador atribuído',
     'LBL_ASSIGNED_TO_NAME' => 'Utilizador',
     'LBL_ID' => 'ID',
@@ -54,11 +54,11 @@ $mod_strings = array(
     'LBL_MODIFIED_ID' => 'Alterado por (ID)',
     'LBL_MODIFIED_NAME' => 'Alterado por (nome)',
     'LBL_CREATED' => 'Criado por',
-    'LBL_CREATED_ID' => 'ID do autor',
-    'LBL_DESCRIPTION' => 'Descrição',
+    'LBL_CREATED_ID' => 'Created By Id',
+    'LBL_DESCRIPTION' => 'Descrição:',
     'LBL_DELETED' => 'Eliminado',
     'LBL_NAME' => 'Nome da chave do consumidor',
-    'LBL_CREATED_USER' => 'Criado pelo utilizador',
+    'LBL_CREATED_USER' => 'Created By User',
     'LBL_MODIFIED_USER' => 'Alterado pelo utilizador',
     'LBL_LIST_NAME' => 'Nome da chave',
     'LBL_LIST_FORM_TITLE' => 'Chaves OAuth',
@@ -66,5 +66,5 @@ $mod_strings = array(
     'LBL_MODULE_TITLE' => 'Chaves OAuth',
     'LNK_NEW_RECORD' => 'Criar chave OAuth',
     'LNK_LIST' => 'Ver chaves OAuth',
-    'LBL_TOKENS' => 'Certificados',
+    'LBL_TOKENS' => 'Chaves',
 );
