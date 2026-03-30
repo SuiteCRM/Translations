@@ -43,22 +43,22 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => '역할:',
-    'LBL_LANGUAGE' => '언어:',
-    'LBL_MODULE_NAME' => '역할',
-    'LBL_MODULE_TITLE' => '역할: 홈',
+    'LBL_ROLE' => 'Role:',
+    'LBL_LANGUAGE' => '언어',
+    'LBL_MODULE_NAME' => 'Roles',
+    'LBL_MODULE_TITLE' => 'Roles: Home',
     'LBL_SEARCH_FORM_TITLE' => '역할 검색',
     'LBL_LIST_FORM_TITLE' => '역할 목록',
-    'LNK_NEW_ROLE' => '역할 생성',
-    'LNK_ROLES' => '역할',
+    'LNK_NEW_ROLE' => 'Create Role',
+    'LNK_ROLES' => 'Roles',
     'LBL_NAME' => '이름:',
     'LBL_DESCRIPTION' => '상세설명:',
     'LBL_ALLOWED_MODULES' => '허용된 모듈: ',
     'LBL_DISALLOWED_MODULES' => 'Disallowed Modules:',
     'LBL_ASSIGN_MODULES' => 'Edit Modules:',
-    'LBL_DEFAULT_SUBPANEL_TITLE' => '역할',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Roles',
     'LBL_USERS' => '사용자',
 
     'LBL_USERS_SUBPANEL_TITLE' => '사용자',
-    'LBL_MODULES' => '모듈목록',
+    'LBL_MODULES' => '모듈',
 );
