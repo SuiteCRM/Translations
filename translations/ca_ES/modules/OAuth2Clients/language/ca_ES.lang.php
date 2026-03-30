@@ -51,7 +51,7 @@ $mod_strings = [
     'LBL_SECRET_HASHED' => 'Canvi secret',
     'LBL_LEAVE_BLANK' => 'Deixeu en blanc, llevat que canvii',
     'LBL_REMEMBER_SECRET' => 'Si us plau prengui nota del secret ja que no estarà disponible després de desar.',
-    'LBL_REDIRECT_URL' => 'Adreça URL de redireccionament',
+    'LBL_REDIRECT_URL' => 'Redirect URL',
     'LBL_ALLOWED_GRANT_TYPE' => 'Tipus de concessió permeses',
     'LBL_DURATION_AMOUNT' => 'Duració',
     'LBL_DURATION_UNIT' => 'Unitat de durada',
@@ -64,14 +64,14 @@ $mod_strings = [
     'LBL_ACCESS_TOKEN_EXPIRES' => 'Caducitat del token d\'accés',
     'LBL_REFRESH_TOKEN_EXPIRES' => 'Caducitat del refresc del token',
 
-    'LNK_OAUTH2_TOKEN_LIST'=> 'Llista OAuth2 Tokens',
-    'LNK_OAUTH2_CLIENT_LIST' => 'Llista de clients OAuth2',
+    'LNK_OAUTH2_TOKEN_LIST'=> 'List OAuth2 Tokens',
+    'LNK_OAUTH2_CLIENT_LIST' => 'List OAuth2 Clients',
     'LNK_OAUTH2_AUTHCODE_LIST' => 'List OAuth2 Authorization Codes',
 
-    'LNK_NEW_OAUTH2_CLIENT' => 'Crear Client OAuth2',
-    'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'Nova contrasenya Client',
-    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'Nou Client de credencials de Client',
-    'LNK_NEW_OAUTH2_IMPLICIT_CLIENT' => 'Nou Client implícit',
-    'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'Nova autorització Client',
+    'LNK_NEW_OAUTH2_CLIENT' => 'Create OAuth2 Client',
+    'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'New Password Client',
+    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'New Client Credentials Client',
+    'LNK_NEW_OAUTH2_IMPLICIT_CLIENT' => 'New Implicit Client',
+    'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'New Authorization Client',
 
 ];
