@@ -82,7 +82,7 @@ $mod_strings = array(
     'LBL_IMPORT_PROJECT_TASKS' => 'استيراد مهام المشروع',
 
     'LBL_LIST_NAME' => 'الاسم',
-    'LBL_LIST_PARENT_NAME' => 'المشروع',
+    'LBL_LIST_PARENT_NAME' => 'مشروع',
     'LBL_SEARCH_FORM_TITLE' => 'Project Task Search',
     'LBL_LIST_PERCENT_COMPLETE' => '٪ الإنجاز',
     'LBL_LIST_STATUS' => 'الحالة',
