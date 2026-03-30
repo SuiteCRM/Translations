@@ -43,19 +43,19 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Versijos',
+    'LBL_MODULE_NAME' => 'Leidimai',
     'LBL_MODULE_TITLE' => 'Versijos: Pradžia',
     'LBL_SEARCH_FORM_TITLE' => 'Versijos paieška',
     'LBL_LIST_FORM_TITLE' => 'Versijų sąrašas',
     'LBL_NEW_FORM_TITLE' => 'Nauja versija',
-    'LBL_RELEASE' => 'Versija:',
-    'LBL_LIST_NAME' => 'Versija',
+    'LBL_RELEASE' => 'Release:',
+    'LBL_LIST_NAME' => 'Release',
     'LBL_NAME' => 'Versijos Nr:',
-    'LBL_LIST_LIST_ORDER' => 'Pozicija sąraše',
-    'LBL_LIST_ORDER' => 'Pozicija sąraše:',
-    'LBL_LIST_STATUS' => 'Statusas',
+    'LBL_LIST_LIST_ORDER' => 'Seka',
+    'LBL_LIST_ORDER' => 'Seka:',
+    'LBL_LIST_STATUS' => 'Statusas:',
     'LBL_STATUS' => 'Būsena:',
-    'LNK_NEW_RELEASE' => 'Versijų sąrašas',
+    'LNK_NEW_RELEASE' => 'Release List',
     'NTC_DELETE_CONFIRMATION' => 'Ar tikrai norite ištrinti šį įrašą ?',
     'NTC_SNOOZE_CONFIRMATION' => 'Are you sure you want to snooze?',
     'ERR_DELETE_RECORD' => 'Jūs turite nurodyti įrašo numerį, kad galėtumėte ištrinti versiją.',
@@ -63,7 +63,7 @@ $mod_strings = array(
     'NTC_LIST_ORDER' => 'Nustatykite kurioje iššokančio sąrašo pozicijoje matysis ši versija',
     'release_status_dom' =>
         array(
-            'Active' => 'Aktyvus',
+            'Active' => 'Aktyvūs pašto klientai',
             'Inactive' => 'Neaktyvu',
         ),
     'LBL_EDITLAYOUT' => 'Redaguoti išdėstymą' /*for 508 compliance fix*/,
