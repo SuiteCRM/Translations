@@ -70,9 +70,9 @@ $mod_strings = array(
     'LBL_TEMPLATE_TYPE' => 'نوع الوثيقة',
     'LBL_ASSIGNED_TO_NAME' => 'أُسند إلى:',
     'LBL_REVISION_NAME' => 'رقم المراجعة',
-    'LBL_MIME' => 'صيغة الملف (Mime)',
+    'LBL_MIME' => 'نوع mime',
     'LBL_REVISION' => 'مراجعة',
-    'LBL_DOCUMENT' => 'وثيقة ذات صلة',
+    'LBL_DOCUMENT' => 'الوثيقة ذات الصلة',
     'LBL_LATEST_REVISION' => 'أحدث مُراجعة',
     'LBL_CHANGE_LOG' => 'سجل التغييرات',
     'LBL_ACTIVE_DATE' => 'تاريخ النشر',
@@ -87,7 +87,7 @@ $mod_strings = array(
     'LBL_DOC_NAME' => 'اسم الوثيقة:',
     'LBL_FILENAME' => 'اسم الملف:',
     'LBL_LIST_FILENAME' => 'الملف:',
-    'LBL_DOC_VERSION' => 'المراجعة:',
+    'LBL_DOC_VERSION' => 'مراجعة:',
     'LBL_FILE_UPLOAD' => 'الملف:',
 
     'LBL_CATEGORY_VALUE' => 'الفئة:',
@@ -103,7 +103,7 @@ $mod_strings = array(
     'LBL_DET_RELATED_DOCUMENT_VERSION' => "مراجعة الوثيقة ذات الصلة:",
     'LBL_DET_IS_TEMPLATE' => 'قالب؟ :',
     'LBL_DET_TEMPLATE_TYPE' => 'نوع الوثيقة:',
-    'LBL_DOC_DESCRIPTION' => 'الوصف:',
+    'LBL_DOC_DESCRIPTION' => 'وصف:',
     'LBL_DOC_ACTIVE_DATE' => 'تاريخ النشر:',
     'LBL_DOC_EXP_DATE' => 'تاريخ الإنتهاء:',
 
@@ -111,7 +111,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'قائمة الوثائق',
     'LBL_LIST_DOCUMENT' => 'الوثيقة',
     'LBL_LIST_SUBCATEGORY' => 'الفئة الفرعية',
-    'LBL_LIST_REVISION' => 'مراجعة',
+    'LBL_LIST_REVISION' => 'المراجعة',
     'LBL_LIST_LAST_REV_CREATOR' => 'نُشر بواسطة',
     'LBL_LIST_LAST_REV_DATE' => 'تاريخ المراجعة',
     'LBL_LIST_VIEW_DOCUMENT' => 'عرض',
@@ -146,7 +146,7 @@ $mod_strings = array(
     'LBL_LIST_TEMPLATE_TYPE' => 'نوع الوثيقة',
     'LBL_LAST_REV_CREATE_DATE' => 'تاريخ إنشاء آخر مراجعة',
     'LBL_CONTRACTS' => 'العقود',
-    'LBL_CREATED_USER' => 'تم إنشاء مستخدم',
+    'LBL_CREATED_USER' => 'المستخدم الذي تم إنشاؤه',
     'LBL_DOCUMENT_INFORMATION' => 'نظرة شاملة', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_DOC_ID' => 'معرف مصدر الوثيقة',
     'LBL_DOC_TYPE' => 'المصدر',
@@ -160,10 +160,10 @@ $mod_strings = array(
 
     // Links around the world
     'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'الحسابات',
-    'LBL_CONTACTS_SUBPANEL_TITLE' => 'جهات الإتصال',
-    'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'فرص بيع',
-    'LBL_CASES_SUBPANEL_TITLE' => 'قضايا',
-    'LBL_BUGS_SUBPANEL_TITLE' => 'أخطاء برمجية',
+    'LBL_CONTACTS_SUBPANEL_TITLE' => 'جهات الاتصال',
+    'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'الفرص',
+    'LBL_CASES_SUBPANEL_TITLE' => 'القضايا',
+    'LBL_BUGS_SUBPANEL_TITLE' => 'أخطاء',
 
     'LBL_AOS_CONTRACTS' => 'العقود',
 );
