@@ -42,10 +42,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_MAP'] = '地図';
-$mod_strings['LBL_MODULE_NAME'] = '地図';
+$mod_strings['LBL_MAP'] = 'Map';
+$mod_strings['LBL_MODULE_NAME'] = 'Maps';
 $mod_strings['LBL_MODULE_TITLE'] = 'マップ: ホーム';
-$mod_strings['LBL_MODULE_ID'] = '地図';
+$mod_strings['LBL_MODULE_ID'] = 'Maps';
 $mod_strings['LBL_LIST_FORM_TITLE'] = '地図リスト';
 $mod_strings['LBL_MAP_CUSTOM_MARKER'] = 'カスタムマーカー';
 $mod_strings['LBL_MAP_CUSTOM_AREA'] = 'カスタムエリア';
@@ -60,57 +60,57 @@ $mod_strings['LBL_MAP_DISPLAY'] = 'マップの表示';
 $mod_strings['LBL_MAP_LEGEND'] = '順序:
 ';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'グループ一覧:';
-$mod_strings['LBL_MAP_GROUP'] = 'グループ';
-$mod_strings['LBL_MAP_TYPE'] = 'タイプ';
-$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'アサイン先:';
+$mod_strings['LBL_MAP_GROUP'] = 'Group';
+$mod_strings['LBL_MAP_TYPE'] = 'Type';
+$mod_strings['LBL_MAP_ASSIGNED_TO'] = '担当ユーザー名:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = '方向を取得する';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'Googleマップを表示';
 
 $mod_strings['LNK_NEW_MAP'] = '新しい地図を追加';
-$mod_strings['LNK_NEW_RECORD'] = '新しい地図を追加';
+$mod_strings['LNK_NEW_RECORD'] = 'Add New Map';
 $mod_strings['LNK_MAP_LIST'] = 'マップ一覧';
 
-$mod_strings['LBL_MAP_ADDRESS_TEST'] = 'ジオコーディングテスト';
+$mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Geocoding Test';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'クイック半径マップ';
-$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'なし';
-$mod_strings['LBL_MAP_ADDRESS'] = '住所';
+$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'None';
+$mod_strings['LBL_MAP_ADDRESS'] = 'Address';
 $mod_strings['LBL_MAP_PROCESS'] = '処理する!';
 
 $mod_strings['LBL_MAP_LAST_STATUS'] = '最後のジオコード ステータス';
 $mod_strings['LBL_GEOCODED_COUNTS'] = 'ジオコード化されたモジュールをカウント';
 $mod_strings['LBL_CRON_URL'] = 'Cron の URL:';
-$mod_strings['LBL_MODULE_HEADING'] = 'モジュール';
+$mod_strings['LBL_MODULE_HEADING'] = 'Module';
 
 $mod_strings['LBL_N/A'] = 'N/A';
 $mod_strings['LBL_ZERO_RESULTS'] = '結果なし';
 $mod_strings['LBL_OK'] = 'Ok';
 $mod_strings['LBL_INVALID_REQUEST'] = '無効な要求';
 $mod_strings['LBL_APPROXIMATE'] = 'おおよその';
-$mod_strings['LBL_EMPTY'] = '空';
+$mod_strings['LBL_EMPTY'] = 'Empty';
 
-$mod_strings['LBL_MODULE_TOTAL_HEADING'] = '合計';
-$mod_strings['LBL_MODULE_RESET_HEADING'] = 'リセット';
+$mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Total';
+$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Reset';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = '下の表は、ジオコーディングされたモジュールオブジェクトの数をジオコーディング応答別にまとめたものです。 Googleマップの標準的な使用制限は1日あたり2500リクエストです。 このモジュールは、処理中に住所ジオコーディング情報をキャッシュして、必要な要求の総数を減らします。';
 
 $mod_strings['LBL_CRON_INSTRUCTIONS'] = 'ジオコーディングリクエストを処理するには、毎晩Cron-Jobを設定することをお勧めします。 この目的のためにカスタムエントリポイントが作成されており、認証なしでアクセスできます。 以下に示すURLは、管理予定タスクで使用するためのものです。 詳しくはドキュメントを参照してください。';
 $mod_strings['LBL_EXPORT_ADDRESS_URL'] = 'URLをエクスポート';
 $mod_strings['LBL_EXPORT_INSTRUCTIONS'] = 'ジオ コーディング情報を必要とする完全な住所をエクスポートするには、以下のリンクを使用してください。 次に、オンラインまたはオフラインのバッチ ジオコーディング ツールを使用して住所をジオ コーディングします。 ジオ コーディングが完了したら、地図で使用する住所をアドレス キャッシュ モジュールにインポートします。 アドレス キャッシュ モジュールはオプションです。 すべてのジオ コーディング情報は、代表モジュールに格納されています。';
-$mod_strings['LBL_ADDRESS_CACHE'] = 'アドレスキャッシュ';
+$mod_strings['LBL_ADDRESS_CACHE'] = 'Address Cache';
 $mod_strings['LBL_ADD_TO_TARGET_LIST'] = 'ターゲットリストに追加';
 $mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = '処理中...';
 
 
 $mod_strings['LBL_CONFIG_TITLE'] = '設定の構成';
 $mod_strings['LBL_CONFIG_SAVED'] = '設定が正しく保存されました!';
-$mod_strings['LBL_BILLING_ADDRESS'] = '請求先住所';
-$mod_strings['LBL_SHIPPING_ADDRESS'] = '出荷先住所';
-$mod_strings['LBL_PRIMARY_ADDRESS'] = '主となる住所';
+$mod_strings['LBL_BILLING_ADDRESS'] = 'Billing Address';
+$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Shipping Address';
+$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Primary Address';
 $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = '代替アドレス';
-$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = '動的関連';
+$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex Relate';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'アドレス(単純な, ユーザー)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'カスタム(カスタム コントローラー ロジック)';
-$mod_strings['LBL_ENABLED'] = '可';
-$mod_strings['LBL_DISABLED'] = '不可';
+$mod_strings['LBL_ENABLED'] = 'Enabled';
+$mod_strings['LBL_DISABLED'] = '無効';
 $mod_strings['LBL_DEFAULT'] = 'デフォルト:';
 $mod_strings['LBL_CONFIG_DEFAULT'] = 'デフォルト:';
 
@@ -183,9 +183,9 @@ $mod_strings['LBL_CONFIG_MAP_CLUSTER_GRID_SIZE_DESC'] = "'map_clusterer_grid_siz
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_TITLE'] = "地図のマーカー クラスタ 最大ズーム:";
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_DESC'] = "'map_clusterer_max_zoom' は、クラスタが適応されていない最大ズーム レベルを設定するために使用されます。";
 $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = "重要な注意: すべての保存された設定は、カテゴリ 'jjwg' の下に 'config' テーブルで見つけることができます。カスタムされた controller.php ファイルは設定をオーバーライドするために使用されることがないことに注意してください。";
-$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'エリア';
+$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Areas';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'マーカー';
-$mod_strings['LBL_PARENT_ID'] = '親会社ID';
+$mod_strings['LBL_PARENT_ID'] = 'Parent ID';
 $mod_strings['LBL_JJWP_PARTNERS'] = 'JJWP パートナー';
 $mod_strings['LBL_GET_GOOGLE_API_KEY'] = 'キーを入手';
 $mod_strings['LBL_GOOGLE_API_KEY'] = 'Google Api キー';
