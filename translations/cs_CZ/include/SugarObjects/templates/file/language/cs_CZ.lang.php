@@ -51,8 +51,8 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Vyhledat dokument',
     //vardef labels
     'LBL_NAME' => 'Jméno dokumentu',
-    'LBL_DESCRIPTION' => 'Popis',
-    'LBL_ASSIGNED_TO' => 'Přiřazeno k:',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_ASSIGNED_TO' => 'Assigned to:',
     'LBL_CATEGORY' => 'Kategorie',
     'LBL_SUBCATEGORY' => 'Podkategorie',
     'LBL_STATUS' => 'Stav',
@@ -80,38 +80,38 @@ $mod_strings = array(
     'LBL_SUBCATEGORY_VALUE' => 'Podkategorie:',
     'LBL_DOC_STATUS' => 'Stav:',
     'LBL_DET_TEMPLATE_TYPE' => 'Typ dokumentu:',
-    'LBL_DOC_DESCRIPTION' => 'Popis:',
+    'LBL_DOC_DESCRIPTION' => 'Description:',
     'LBL_DOC_ACTIVE_DATE' => 'Datum zveřejnění:',
     'LBL_DOC_EXP_DATE' => 'Datum vypršení:',
 
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'Seznam dokumentů',
     'LBL_LIST_DOCUMENT' => 'Dokument',
-    'LBL_LIST_CATEGORY' => 'Kategorie',
-    'LBL_LIST_SUBCATEGORY' => 'Podkategorie',
-    'LBL_LIST_REVISION' => 'Revize',
+    'LBL_LIST_CATEGORY' => 'Category',
+    'LBL_LIST_SUBCATEGORY' => 'Sub Category',
+    'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => 'Zveřejnil',
     'LBL_LIST_LAST_REV_DATE' => 'Datum revize',
     'LBL_LIST_VIEW_DOCUMENT' => 'Zobrazit',
-    'LBL_LIST_ACTIVE_DATE' => 'Datum zveřejnění',
-    'LBL_LIST_EXP_DATE' => 'Datum vypršení',
-    'LBL_LIST_STATUS' => 'Stav',
+    'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
+    'LBL_LIST_EXP_DATE' => 'Expiration Date',
+    'LBL_LIST_STATUS' => 'Status',
 
     //document search form.
-    'LBL_SF_CATEGORY' => 'Kategorie:',
-    'LBL_SF_SUBCATEGORY' => 'Podkategorie:',
+    'LBL_SF_CATEGORY' => 'Category:',
+    'LBL_SF_SUBCATEGORY' => 'Sub Category:',
 
     'DEF_CREATE_LOG' => 'Dokument vytvořen',
 
     //error messages
-    'ERR_DOC_NAME' => 'Jméno dokumentu',
-    'ERR_DOC_ACTIVE_DATE' => 'Datum zveřejnění',
+    'ERR_DOC_NAME' => 'Document Name',
+    'ERR_DOC_ACTIVE_DATE' => 'Publish Date',
     'ERR_FILENAME' => 'Název souboru',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'Jméno dokumentu',
+    'LBL_LIST_DOCUMENT_NAME' => 'Document Name',
 
     'LBL_EDIT_BUTTON' => 'Upravit ',
-    'LBL_REMOVE' => 'Odebrat',
+    'LBL_REMOVE' => 'Remove',
 
 );
