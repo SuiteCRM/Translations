@@ -67,9 +67,9 @@ $mod_strings = [
     'LNK_OAUTH2_TOKEN_LIST'=> 'Liste des jetons OAuth2',
     'LNK_OAUTH2_CLIENT_LIST' => 'Liste des clients OAuth2',
 
-    'LNK_NEW_OAUTH2_CLIENT' => 'Créer client OAuth2 ',
+    'LNK_NEW_OAUTH2_CLIENT' => 'Créer client OAuth2',
     'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'Nouveau mot de passe client',
-    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'Nouveau certificat du client',
+    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'Nouvelles informations clientèle',
     'LNK_NEW_OAUTH2_IMPLICIT_CLIENT' => 'Nouveau client tacite',
     'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'Nouvelle autorisation du client',
 
