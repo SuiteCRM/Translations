@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_NAME' => 'Όνομα Εργασίας',
-    'LBL_EXECUTE_TIME' => 'Χρόνος Εκτέλεσης',
-    'LBL_SCHEDULER_ID' => 'Χρονοδιάγραμμα',
+    'LBL_NAME' => 'Job Name',
+    'LBL_EXECUTE_TIME' => 'Execute Time',
+    'LBL_SCHEDULER_ID' => 'Scheduler',
     'LBL_STATUS' => 'Κατάσταση Εργασίας',
-    'LBL_RESOLUTION' => 'Αποτέλεσμα',
+    'LBL_RESOLUTION' => 'Result',
     'LBL_MESSAGE' => 'Μηνύματα',
     'LBL_DATA' => 'Δεδομένα Εργασίας',
     'LBL_REQUEUE' => 'Αποτυχία επανάληψης',
