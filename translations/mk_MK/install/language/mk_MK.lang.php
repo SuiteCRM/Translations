@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_BASIC' => 'Основни',
+    'LBL_BASIC' => 'BASIC',
     'LBL_BASIC_SEARCH' => 'Брз Филтер',
     'LBL_ADVANCED_SEARCH' => 'Напреден Филтер',
     'LBL_BASIC_TYPE' => 'Basic Type',
@@ -253,7 +253,7 @@ $mod_strings = array(
     'LBL_DBCONF_DB_ADMIN_USER' => 'Database Administrator Username',
     'LBL_DBCONF_DB_ADMIN_PASSWORD' => 'Database Admin Password',
     'LBL_DBCONF_COLLATION' => 'Collation',
-    'LBL_DBCONF_CHARSET' => 'Сет на карактери',
+    'LBL_DBCONF_CHARSET' => 'Character Set',
     'LBL_DBCONF_ADV_DB_CFG_TITLE' => 'Advanced Database Configuration',
     'LBL_DBCONF_DEMO_DATA' => 'Populate Database with Demo Data?',
     'LBL_DBCONF_DEMO_DATA_TITLE' => 'Choose Demo Data',
