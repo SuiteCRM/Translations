@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_FIELD_NAME' => '필드',
+    'LBL_FIELD_NAME' => 'Field',
     'LBL_OLD_NAME' => '이전 값',
     'LBL_NEW_VALUE' => '새 값',
     'LBL_CREATED_BY' => '편집자',
     'LBL_LIST_DATE' => '변경 일자',
     'LBL_AUDITED_FIELDS' => '이 모듈의 감사 필드: ',
-    'LBL_CHANGE_LOG' => '변경로그',
+    'LBL_CHANGE_LOG' => 'Change Log',
 );
