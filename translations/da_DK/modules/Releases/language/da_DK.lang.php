@@ -43,27 +43,27 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Versioner',
+    'LBL_MODULE_NAME' => 'Releases',
     'LBL_MODULE_TITLE' => 'Udgivelser: Startside',
     'LBL_SEARCH_FORM_TITLE' => 'Søg efter udgivelse',
     'LBL_LIST_FORM_TITLE' => 'Udgivelsesliste',
     'LBL_NEW_FORM_TITLE' => 'Ny udgivelse',
-    'LBL_RELEASE' => 'Udgivelse:',
-    'LBL_LIST_NAME' => 'Udgivelse',
+    'LBL_RELEASE' => 'Release:',
+    'LBL_LIST_NAME' => 'Release',
     'LBL_NAME' => 'Udgivelsesversion:',
-    'LBL_LIST_LIST_ORDER' => 'Rækkefølge',
-    'LBL_LIST_ORDER' => 'Rækkefølge:',
+    'LBL_LIST_LIST_ORDER' => 'Order',
+    'LBL_LIST_ORDER' => 'Order:',
     'LBL_LIST_STATUS' => 'Status',
-    'LBL_STATUS' => 'Status',
-    'LNK_NEW_RELEASE' => 'Udgivelsesliste',
-    'NTC_DELETE_CONFIRMATION' => 'Er du sikker på, at du vil slette denne post?',
+    'LBL_STATUS' => 'Status:',
+    'LNK_NEW_RELEASE' => 'Release List',
+    'NTC_DELETE_CONFIRMATION' => 'Are you sure you want to delete this record?',
     'ERR_DELETE_RECORD' => 'Du skal angive et postnummer for at slette udgivelsen.',
     'NTC_STATUS' => 'Angiv status til Inaktiv at fjerne denne udgivelse fra rullelisterne med udgivelser',
     'NTC_LIST_ORDER' => 'Angiv den rækkefølge, som denne udgivelse vil blive vist i på rullelisterne med udgivelser',
     'release_status_dom' =>
         array(
-            'Active' => 'Aktive konto',
-            'Inactive' => 'Inaktiv',
+            'Active' => 'Active',
+            'Inactive' => 'Inactive',
         ),
-    'LBL_EDITLAYOUT' => 'Rediger layout' /*for 508 compliance fix*/,
+    'LBL_EDITLAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
 );
