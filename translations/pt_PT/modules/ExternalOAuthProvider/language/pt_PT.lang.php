@@ -52,7 +52,7 @@ $mod_strings = [
     'LBL_MODIFIED' => 'Alterado por',
     'LBL_MODIFIED_NAME' => 'Alterado por (nome)',
     'LBL_CREATED' => 'Criado por',
-    'LBL_DESCRIPTION' => 'Descrição',
+    'LBL_DESCRIPTION' => 'Descrição:',
     'LBL_DELETED' => 'Eliminado',
     'LBL_NAME' => 'Nome',
     'LBL_CREATED_USER' => 'Criado pelo utilizador',
@@ -68,11 +68,11 @@ $mod_strings = [
 
     'LNK_LIST' => 'Fornecedores externos OAuth',
     'LBL_SEARCH_FORM_TITLE' => 'Pesquisar fornecedores externos OAuth',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Ver histórico',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Atividades',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_NEW_FORM_TITLE' => 'Novo fornecedor externo OAuth',
 
-    'LBL_LIST_DELETE' => 'Eliminar',
+    'LBL_LIST_DELETE' => 'Delete',
     'LBL_TYPE' => 'Tipo',
     'LBL_CONNECTOR' => 'Conector',
     'LBL_REDIRECT_URI' => 'URI de redirecionamento',
@@ -97,14 +97,14 @@ $mod_strings = [
 
     'LBL_EXTRA' => 'Configurações adicionais',
     'LBL_MAPPING' => 'Configurações do mapeamento',
-    'LBL_OTHER' => 'Outros',
+    'LBL_OTHER' => 'Other',
 
 
     'LNK_LIST_CREATE_NEW_PERSONAL' => 'Novo fornecedor pessoal',
     'LNK_LIST_CREATE_NEW_GROUP' => 'Novo fornecedor de grupo',
     'LNK_LIST_INBOUND_EMAILS' => 'Contas de entrada de correio',
-    'LNK_LIST_OUTBOUND_EMAILS' => 'Contas de saída de correio',
+    'LNK_LIST_OUTBOUND_EMAILS' => 'Outbound Email Accounts',
     'LNK_LIST_EXTERNAL_OAUTH_CONNECTION' => 'Ligações OAuth externas',
 
-    'LBL_OWNER' => 'Proprietário',
+    'LBL_OWNER' => 'Owner',
 ];
