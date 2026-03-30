@@ -43,13 +43,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EMAIL_ADDRESS_ID' => 'ID-ul',
-    'LBL_EMAIL_ADDRESS' => 'Email',
+    'LBL_EMAIL_ADDRESS_ID' => 'ID',
+    'LBL_EMAIL_ADDRESS' => 'Adresă Email',
     'LBL_EMAIL_ADDRESS_CAPS' => 'Adresă Mail Majuscule',
     'LBL_INVALID_EMAIL' => 'Email Invalid',
-    'LBL_OPT_OUT' => 'Dezabonat',
+    'LBL_OPT_OUT' => 'Renunțat',
     'LBL_CONFIRM_OPT_IN' => 'Confirmare Înscriere',
     'LBL_DATE_CREATE' => 'Dată Creat',
-    'LBL_DATE_MODIFIED' => 'Data modificării',
+    'LBL_DATE_MODIFIED' => 'Data modificare',
     'LBL_DELETED' => 'Ștergere',
 );
