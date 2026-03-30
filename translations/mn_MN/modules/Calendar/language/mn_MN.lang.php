@@ -113,7 +113,7 @@ $mod_strings = array(
     'LBL_ERROR_LOADING' => 'Ачааллахад алдаа гарлаа',
     'LBL_GOTO_DATE' => 'Огноо руу очих',
     'NOTICE_DURATION_TIME' => 'Үргэлжлэх хугацаа 0-с их байх ёстой',
-    'LBL_STYLE_BASIC' => 'Үндсэн', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_STYLE_BASIC' => 'BASIC', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_STYLE_ADVANCED' => 'Ахисан', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
     'LBL_NO_USER' => 'Хуваарилагдсан талбарт тохирох илэрц олдохгүй байна',
