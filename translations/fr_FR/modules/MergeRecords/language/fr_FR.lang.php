@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Liste Fusion',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Recherche d&#39;enregistrements à fusionner avec',
-    'LBL_AVAIL_FIELDS' => 'Champs disponibles',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'Critère(s) définissants un doublon',
     'LBL_MERGE_VALUE_OVER' => 'Valeur de fusion',
 
@@ -58,15 +58,15 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Lancer la fusion',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Lancer la fusion',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Sauvegarder la fusion',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Sauvegarder la fusion',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => 'Enregistrements à fusionner avec',
     'LBL_SELECT_ERROR' => 'Vous devez sélectionner au moins un enregistrement.',
     'LBL_CHANGE_PARENT' => 'Mettre comme principal',
-    'LBL_REMOVE_FROM_MERGE' => 'Supprimer',
+    'LBL_REMOVE_FROM_MERGE' => 'Remove',
     'LBL_DIFF_COL_VALUES' => 'Colonnes dont la valeur initiale diffère des colonnes à fusionner :',
     'LBL_SAME_COL_VALUES' => 'Colonnes dont la valeur est identique pour tous les enregistrements sélectionnés :',
     'LBL_DELETE_MESSAGE' => 'Cette action supprimera le(s) enregistrement(s) suivant(s) :',
