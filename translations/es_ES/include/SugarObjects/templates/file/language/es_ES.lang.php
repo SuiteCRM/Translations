@@ -87,29 +87,29 @@ $mod_strings = array(
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'Lista de Documentos',
     'LBL_LIST_DOCUMENT' => 'Documento',
-    'LBL_LIST_CATEGORY' => 'Categoría',
-    'LBL_LIST_SUBCATEGORY' => 'Subcategoría',
-    'LBL_LIST_REVISION' => 'Versión',
+    'LBL_LIST_CATEGORY' => 'Category',
+    'LBL_LIST_SUBCATEGORY' => 'Sub Category',
+    'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => 'Publicado Por',
     'LBL_LIST_LAST_REV_DATE' => 'Fecha de Versión',
     'LBL_LIST_VIEW_DOCUMENT' => 'Ver',
-    'LBL_LIST_ACTIVE_DATE' => 'Fecha de Publicación',
-    'LBL_LIST_EXP_DATE' => 'Fecha de Caducidad',
+    'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
+    'LBL_LIST_EXP_DATE' => 'Expiration Date',
     'LBL_LIST_STATUS' => 'Estado',
 
     //document search form.
-    'LBL_SF_CATEGORY' => 'Categoría:',
-    'LBL_SF_SUBCATEGORY' => 'Subcategoría:',
+    'LBL_SF_CATEGORY' => 'Category:',
+    'LBL_SF_SUBCATEGORY' => 'Sub Category:',
 
     'DEF_CREATE_LOG' => 'Documento Creado',
 
     //error messages
-    'ERR_DOC_NAME' => 'Nombre de Documento',
-    'ERR_DOC_ACTIVE_DATE' => 'Fecha de Publicación',
+    'ERR_DOC_NAME' => 'Document Name',
+    'ERR_DOC_ACTIVE_DATE' => 'Publish Date',
     'ERR_FILENAME' => 'Nombre de Archivo',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'Nombre de Documento',
+    'LBL_LIST_DOCUMENT_NAME' => 'Document Name',
 
     'LBL_EDIT_BUTTON' => 'Editar',
     'LBL_REMOVE' => 'Quitar',
