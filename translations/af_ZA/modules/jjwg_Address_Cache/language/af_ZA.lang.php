@@ -43,18 +43,18 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings['LBL_ASSIGNED_TO_ID'] = 'Assigned User Id';
-$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Toegewys aan';
+$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Assigned to';
 $mod_strings['LBL_ID'] = 'ID';
-$mod_strings['LBL_DATE_ENTERED'] = 'Datum geskep';
+$mod_strings['LBL_DATE_ENTERED'] = 'Date Created';
 $mod_strings['LBL_DATE_MODIFIED'] = 'Date Modified';
 $mod_strings['LBL_MODIFIED'] = 'Modified By';
-$mod_strings['LBL_MODIFIED_NAME'] = 'Gewysig deur Naam';
+$mod_strings['LBL_MODIFIED_NAME'] = 'Modified By Name';
 $mod_strings['LBL_CREATED'] = 'Created By';
-$mod_strings['LBL_DESCRIPTION'] = 'Beskrywing';
-$mod_strings['LBL_DELETED'] = 'Geskrap';
+$mod_strings['LBL_DESCRIPTION'] = 'Description';
+$mod_strings['LBL_DELETED'] = 'Deleted';
 $mod_strings['LBL_NAME'] = 'Address';
-$mod_strings['LBL_CREATED_USER'] = 'Geskep deur Gebruiker';
-$mod_strings['LBL_MODIFIED_USER'] = 'Verander deur gebruiker';
+$mod_strings['LBL_CREATED_USER'] = 'Created by User';
+$mod_strings['LBL_MODIFIED_USER'] = 'Modified by User';
 $mod_strings['LBL_LIST_NAME'] = 'Address';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'Address Cache List';
 $mod_strings['LBL_MODULE_NAME'] = 'Address Cache';
@@ -64,7 +64,7 @@ $mod_strings['LNK_NEW_RECORD'] = 'Create Address Cache';
 $mod_strings['LNK_LIST'] = 'View Address Cache';
 $mod_strings['LBL_SEARCH_FORM_TITLE'] = 'Search Address Cache';
 $mod_strings['LBL_HISTORY_SUBPANEL_TITLE'] = 'View History';
-$mod_strings['LBL_ACTIVITIES_SUBPANEL_TITLE'] = 'Aktiwiteite';
+$mod_strings['LBL_ACTIVITIES_SUBPANEL_TITLE'] = 'Activities';
 $mod_strings['LBL_NEW_FORM_TITLE'] = 'New Address Cache';
 $mod_strings['LBL_LAT'] = 'Latitude';
 $mod_strings['LBL_LNG'] = 'Longitude';
