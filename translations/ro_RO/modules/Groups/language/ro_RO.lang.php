@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Grupuri',
-    'LBL_GROUP_NAME' => 'Nume grup:',
-    'LBL_DESCRIPTION' => 'Descriere:',
-    'LBL_TEAM' => 'Echipa:',
+    'LBL_MODULE_NAME' => 'Groups',
+    'LBL_GROUP_NAME' => 'Group Name:',
+    'LBL_DESCRIPTION' => 'Description:',
+    'LBL_TEAM' => 'Team:',
     // ListView
-    'LBL_LIST_TITLE' => 'Grupuri',
+    'LBL_LIST_TITLE' => 'Groups',
     // Links
     'LNK_ALL_GROUPS' => 'Toate grupurile',
     'LNK_NEW_GROUP' => 'Nou grup',
