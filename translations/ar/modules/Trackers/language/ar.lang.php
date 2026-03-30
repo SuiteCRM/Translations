@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     //Column header mapping
-    'action' => 'إجراء',
+    'action' => 'الإجراء',
     'date_modified' => 'تاريخ آخر إجراء',
     'item_id' => 'المُعرف',
     'item_summary' => 'الاسم',
@@ -52,5 +52,5 @@ $mod_strings = array(
     'users' => 'المستخدمون',
 
     //Administration related labels
-    'LBL_MODULE_NAME' => 'متتبعات',
+    'LBL_MODULE_NAME' => 'المتعقبات',
 );
