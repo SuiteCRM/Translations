@@ -51,8 +51,8 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Dokument Søgning',
     //vardef labels
     'LBL_NAME' => 'Dokumentnavn',
-    'LBL_DESCRIPTION' => 'Beskrivelse',
-    'LBL_ASSIGNED_TO' => 'Tildelt til:',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_ASSIGNED_TO' => 'Assigned to:',
     'LBL_CATEGORY' => 'Kategori',
     'LBL_SUBCATEGORY' => 'Sub-kategori',
     'LBL_STATUS' => 'Status',
@@ -87,31 +87,31 @@ $mod_strings = array(
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'Dokumentliste',
     'LBL_LIST_DOCUMENT' => 'Dokument',
-    'LBL_LIST_CATEGORY' => 'Kategori',
-    'LBL_LIST_SUBCATEGORY' => 'Sub-kategori',
-    'LBL_LIST_REVISION' => 'Version',
+    'LBL_LIST_CATEGORY' => 'Category',
+    'LBL_LIST_SUBCATEGORY' => 'Sub Category',
+    'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => 'Udgivet af',
     'LBL_LIST_LAST_REV_DATE' => 'Revisionsdato',
     'LBL_LIST_VIEW_DOCUMENT' => 'Se',
-    'LBL_LIST_ACTIVE_DATE' => 'Udgivelsesdato',
-    'LBL_LIST_EXP_DATE' => 'Udløbsdato',
+    'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
+    'LBL_LIST_EXP_DATE' => 'Expiration Date',
     'LBL_LIST_STATUS' => 'Status',
 
     //document search form.
-    'LBL_SF_CATEGORY' => 'Kategori:',
-    'LBL_SF_SUBCATEGORY' => 'Sub-kategori:',
+    'LBL_SF_CATEGORY' => 'Category:',
+    'LBL_SF_SUBCATEGORY' => 'Sub Category:',
 
     'DEF_CREATE_LOG' => 'Dokument Oprettet',
 
     //error messages
-    'ERR_DOC_NAME' => 'Dokumentnavn',
-    'ERR_DOC_ACTIVE_DATE' => 'Udgivelsesdato',
+    'ERR_DOC_NAME' => 'Document Name',
+    'ERR_DOC_ACTIVE_DATE' => 'Publish Date',
     'ERR_FILENAME' => 'Filnavn',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'Dokumentnavn',
+    'LBL_LIST_DOCUMENT_NAME' => 'Document Name',
 
     'LBL_EDIT_BUTTON' => 'Rediger ',
-    'LBL_REMOVE' => 'Fjern',
+    'LBL_REMOVE' => 'Remove',
 
 );
