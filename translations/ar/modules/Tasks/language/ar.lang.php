@@ -43,14 +43,14 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'مهام',
+    'LBL_MODULE_NAME' => 'المهام',
     'LBL_MODULE_TITLE' => ' المهام: الرئيسية',
     'LBL_SEARCH_FORM_TITLE' => ' بحث المهام',
     'LBL_LIST_FORM_TITLE' => ' قائمة المهام',
     'LBL_NEW_FORM_TITLE' => ' إنشاء مهمة',
     'LBL_LIST_CLOSE' => 'إغلاق',
     'LBL_LIST_SUBJECT' => 'الموضوع',
-    'LBL_LIST_CONTACT' => 'جهة الإتصال',
+    'LBL_LIST_CONTACT' => 'جهة الاتصال',
     'LBL_LIST_PRIORITY' => 'الأولوية',
     'LBL_LIST_RELATED_TO' => 'متعلق بـ',
     'LBL_LIST_DUE_DATE' => 'تاريخ الاستحقاق',
@@ -72,7 +72,7 @@ $mod_strings = array(
     'LBL_NONE' => 'لاشئ',
     'LBL_CONTACT' => 'جهة الإتصال:',
     'LBL_EMAIL_ADDRESS' => 'عنوان البريد الإلكتروني:',
-    'LBL_PHONE' => 'الهاتف:',
+    'LBL_PHONE' => 'هاتف:',
     'LBL_EMAIL' => 'عنوان البريد الإلكتروني:',
     'LBL_DESCRIPTION' => 'الوصف:',
     'LBL_NAME' => 'الاسم:',
