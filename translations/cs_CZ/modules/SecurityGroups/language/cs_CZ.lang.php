@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ALL_MODULES' => 'Všechno',//rost fix
+    'LBL_ALL_MODULES' => 'All',//rost fix
     'LBL_ASSIGNED_TO_ID' => 'ID přiřazeného uživatele',
     'LBL_ASSIGNED_TO_NAME' => 'Přiřazeno k',
     'LBL_ID' => 'ID',
@@ -55,15 +55,15 @@ $mod_strings = array(
     'LBL_DESCRIPTION' => 'Popis',
     'LBL_DELETED' => 'Vymazáno',
     'LBL_NONINHERITABLE' => 'Nezděditelné',
-    'LBL_LIST_NONINHERITABLE' => 'Nezděditelné',
-    'LBL_NAME' => 'Jméno',
-    'LBL_CREATED_USER' => 'Vytvořeno uživatelem',
+    'LBL_LIST_NONINHERITABLE' => 'Not Inheritable',
+    'LBL_NAME' => 'Název',
+    'LBL_CREATED_USER' => 'Vytvořeno dle Uživatele',
     'LBL_MODIFIED_USER' => 'Změněno Uživatelem',
-    'LBL_LIST_FORM_TITLE' => 'Skupiny zabezpečení',
+    'LBL_LIST_FORM_TITLE' => 'Security Groups',
     'LBL_MODULE_NAME' => 'Správa zabezpečení',
     'LBL_MODULE_TITLE' => 'Správa zabezpečení',
     'LNK_NEW_RECORD' => 'Vytvořit skupinu zabezpečení',
-    'LNK_LIST' => 'Zobrazení seznamu',
+    'LNK_LIST' => 'List View',
     'LBL_SEARCH_FORM_TITLE' => 'Vyhledat správu bezpečnostních skupin',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Historie',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktivity',
@@ -102,16 +102,16 @@ $mod_strings = array(
 
     'LBL_MASS_ASSIGN' => 'Skupiny zabezpečení: Hromadného přiřazení',
     'LBL_ASSIGN' => 'Přiřadit',
-    'LBL_REMOVE' => 'Odebrat',
+    'LBL_REMOVE' => 'Odstranit',
     'LBL_ASSIGN_CONFIRM' => 'Opravdu chcete přidat tuto skupinu do ',
     'LBL_REMOVE_CONFIRM' => 'Opravdu chcete odebrat tuto skupinu z ',
     'LBL_CONFIRM_END' => ' vybrané záznamy?',
 
     'LBL_SECURITYGROUP_USER_FORM_TITLE' => 'Bezpečnostní skupina/uživatel',
-    'LBL_USER_NAME' => 'Uživatelské jméno',
+    'LBL_USER_NAME' => 'User Name',
     'LBL_SECURITYGROUP_NAME' => 'Název bezpečnostní skupiny',
     'LBL_HOMEPAGE_TITLE' => 'Zprávy skupiny',
-    'LBL_TITLE' => 'Titul',
+    'LBL_TITLE' => 'Nadpis',
     'LBL_ROWS' => 'Řádky',
     'LBL_POST' => 'Zveřejni',
     'LBL_SELECT_GROUP_ERROR' => 'Prosím vyberte skupinu a opakujte akci.',
@@ -122,7 +122,7 @@ $mod_strings = array(
 
     'LBL_INBOUND_EMAIL' => 'Příchozí emailový účet',
     'LBL_INBOUND_EMAIL_DESC' => 'Umožní přístup k e-mailovému účtu, pokud uživatel patří do skupiny přiřazené k tomu e-mailovému účtu.',
-    'LBL_PRIMARY_GROUP' => 'Primární skupina',
+    'LBL_PRIMARY_GROUP' => 'Primary Group',
     'LBL_CHECKMARK' => 'Zaškrtnutí',
 
 );
