@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_DESCRIPTION' => 'Kuvaus',
+    'LBL_DESCRIPTION' => 'Description',
     'LBL_NAME' => 'Nimi',
     'LBL_LIST_NAME' => 'Nimi',
-    'LBL_EDIT_BUTTON' => 'Muokkaa',
-    'LBL_REMOVE' => 'Poista',
-    'LBL_GRP' => 'Ryhmä',
-    'LBL_ORD' => 'Järjestys',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
+    'LBL_GRP' => 'Group',
+    'LBL_ORD' => 'Order',
     'LBL_THUMBNAIL' => 'Thumbnail',
 );
