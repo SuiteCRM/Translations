@@ -55,14 +55,14 @@ $mod_strings = array(
     'LBL_PUBLISHING' => 'Publishing...',
     'LBL_PUBLISHED' => 'Published',
     'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
-    'LBL_DROP_HERE' => 'Sleep hierheen',
+    'LBL_DROP_HERE' => '[Drop Here]',
 
 //CUSTOM FIELDS
-    'LBL_NAME' => 'Naam',
+    'LBL_NAME' => 'Name',
     'LBL_LABEL' => 'Label',
-    'LBL_MASS_UPDATE' => 'Massa bywerking',
+    'LBL_MASS_UPDATE' => 'Mass Update',
     'LBL_DEFAULT_VALUE' => 'Default Value',
-    'LBL_REQUIRED' => 'Vereis',
+    'LBL_REQUIRED' => 'Required',
     'LBL_DATA_TYPE' => 'Type',
 
 
@@ -87,7 +87,7 @@ $mod_strings = array(
 
 
 //Manager Backups History
-    'LBL_MB_DELETE' => 'Verwyder',
+    'LBL_MB_DELETE' => 'Delete',
 
 //EDIT DROP DOWNS
     'LBL_ED_CREATE_DROPDOWN' => 'Create a Drop Down',
@@ -100,11 +100,11 @@ $mod_strings = array(
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => 'Display Value',
     'LBL_DD_DATABASEVALUE' => 'Database Value',
-    'LBL_DD_ALL' => 'Alle',
+    'LBL_DD_ALL' => 'All',
 
 //BUTTONS
-    'LBL_BTN_SAVE' => 'Stoor',
-    'LBL_BTN_CANCEL' => 'Kanselleer',
+    'LBL_BTN_SAVE' => 'Save',
+    'LBL_BTN_CANCEL' => 'Cancel',
     'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
     'LBL_BTN_HISTORY' => 'History',
     'LBL_BTN_ADDROWS' => 'Add Rows',
@@ -115,7 +115,7 @@ $mod_strings = array(
 
 //TABS
     'LBL_MODULES' => 'Modules',
-    'LBL_MODULE_NAME' => 'Administrasie',
+    'LBL_MODULE_NAME' => 'Administration',
     'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
     'LBL_GROUP_TAB_WELCOME' => 'The filters below will be displayed in the More list in the module menu for users to use to view groups of modules within the menu. Drag and drop modules to and from the filters. Note: Empty filters will not be displayed in the menu.',
     'LBL_RENAME_TAB_WELCOME' => 'Click on any tab\'s Display Value in the table below to rename the tab.',
@@ -129,18 +129,18 @@ $mod_strings = array(
     'ERROR_INVALID_KEY_VALUE' => "Error: Invalid Key Value: [']",
 
 //SUGAR PORTAL
-    'LBL_SAVE' => 'Stoor' /*for 508 compliance fix*/,
+    'LBL_SAVE' => 'Save' /*for 508 compliance fix*/,
     'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
     'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Inline' /*for 508 compliance fix*/,
-    'LBL_DELETE' => 'Verwyder' /*for 508 compliance fix*/,
+    'LBL_DELETE' => 'Delete' /*for 508 compliance fix*/,
     'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Maximize' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Minimize' /*for 508 compliance fix*/,
     'LBL_PUBLISH' => 'Publish' /*for 508 compliance fix*/,
     'LBL_ADDROWS' => 'Add Rows' /*for 508 compliance fix*/,
     'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
-    'LBL_EDIT' => 'Wysig' /*for 508 compliance fix*/,
+    'LBL_EDIT' => 'Edit' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Select the language to edit.',
     'LBL_SINGULAR' => 'Singular Label',
