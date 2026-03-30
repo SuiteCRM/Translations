@@ -42,10 +42,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_MAP'] = 'Žemėlapis';
-$mod_strings['LBL_MODULE_NAME'] = 'Žemėlapiai';
+$mod_strings['LBL_MAP'] = 'Map';
+$mod_strings['LBL_MODULE_NAME'] = 'Maps';
 $mod_strings['LBL_MODULE_TITLE'] = 'Žemėlapiai: Pradžia';
-$mod_strings['LBL_MODULE_ID'] = 'Žemėlapiai';
+$mod_strings['LBL_MODULE_ID'] = 'Maps';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'Žemėlapių sąrašas';
 $mod_strings['LBL_MAP_CUSTOM_MARKER'] = 'Individualizuotos Žymeklis';
 $mod_strings['LBL_MAP_CUSTOM_AREA'] = 'Individualus Laukas';
@@ -66,52 +66,52 @@ $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'Gauti Maršrutą:';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'Google Maps View';
 
 $mod_strings['LNK_NEW_MAP'] = 'Pridėti naują žemėlapį';
-$mod_strings['LNK_NEW_RECORD'] = 'Pridėti naują žemėlapį';
+$mod_strings['LNK_NEW_RECORD'] = 'Add New Map';
 $mod_strings['LNK_MAP_LIST'] = 'Sąrašas žemėlapių';
 
-$mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Geokodavimo Testas';
+$mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Geocoding Test';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'Greitai spindulys žemėlapyje';
 $mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'Nėra';
-$mod_strings['LBL_MAP_ADDRESS'] = 'Adresas';
+$mod_strings['LBL_MAP_ADDRESS'] = 'Address';
 $mod_strings['LBL_MAP_PROCESS'] = 'Vykdyti Procesą!';
 
 $mod_strings['LBL_MAP_LAST_STATUS'] = 'Paskutinis Geocode statusas';
 $mod_strings['LBL_GEOCODED_COUNTS'] = 'Modulis Geocoded skaičiuoja';
 $mod_strings['LBL_CRON_URL'] = 'Cron URL:';
-$mod_strings['LBL_MODULE_HEADING'] = 'Modulis';
+$mod_strings['LBL_MODULE_HEADING'] = 'Module';
 
 $mod_strings['LBL_N/A'] = 'N/A';
 $mod_strings['LBL_ZERO_RESULTS'] = 'Zero Results';
-$mod_strings['LBL_OK'] = 'Gerai';
+$mod_strings['LBL_OK'] = 'Ok';
 $mod_strings['LBL_INVALID_REQUEST'] = 'Invalid Request';
 $mod_strings['LBL_APPROXIMATE'] = 'Approximate';
-$mod_strings['LBL_EMPTY'] = 'Tuščias';
+$mod_strings['LBL_EMPTY'] = 'Empty';
 
-$mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Iš viso';
-$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Atstatyti';
+$mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Total';
+$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Reset';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = 'The table shown belown shows the number of module objects geocoded, grouped by geocoding response. Keep in mind that the standard Google Maps usage limit is 2500 requests per day . This module will cache the addresses geocoding information during processing to reduce the overall number of requests needed.';
 
 $mod_strings['LBL_CRON_INSTRUCTIONS'] = 'To process the geocoding requests it is recommended to setup a nightly Cron-Job. A custom entry point has been created for this purpose and can be accessed without authentication. The URL shown below is meant to be used with an Administrative Scheduled Task. Please see the documentation for more information.';
 $mod_strings['LBL_EXPORT_ADDRESS_URL'] = 'Eksporto URL';
 $mod_strings['LBL_EXPORT_INSTRUCTIONS'] = 'Use the links below to export full addresses in need of geocodeing information. Then use an online or offline batch geocoding tool to geocode the addresses. When you are finished geocoding, import the addresses into the Address Cache module to be used with your maps. Note, the Address Cache module is optional. All geocoding information is stored in the representative module.';
-$mod_strings['LBL_ADDRESS_CACHE'] = 'Adresas Talpyklos';
+$mod_strings['LBL_ADDRESS_CACHE'] = 'Address Cache';
 $mod_strings['LBL_ADD_TO_TARGET_LIST'] = 'Pridėti prie Naudojamo Sąrašo';
-$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Vykdoma...';
+$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Processing...';
 
 
 $mod_strings['LBL_CONFIG_TITLE'] = 'Konfigūracijos Parametrai';
 $mod_strings['LBL_CONFIG_SAVED'] = 'Parametrai sėkmingai įrašyti!';
-$mod_strings['LBL_BILLING_ADDRESS'] = 'Sąskaita adresui';
+$mod_strings['LBL_BILLING_ADDRESS'] = 'Billing Address';
 $mod_strings['LBL_SHIPPING_ADDRESS'] = 'Pristatymo adresas';
 $mod_strings['LBL_PRIMARY_ADDRESS'] = 'Pagrindinio adresas';
 $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'Papildomas adresas';
-$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Susietas Lanksčiai';
+$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex Relate';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Adresas (paprastas, vartotojai)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'Pasirinktinis (Pasirinktinis logic Controller)';
 $mod_strings['LBL_ENABLED'] = 'Įjungtas';
 $mod_strings['LBL_DISABLED'] = 'Išjungtas';
 $mod_strings['LBL_DEFAULT'] = 'Numatytasis:';
-$mod_strings['LBL_CONFIG_DEFAULT'] = 'Numatytasis:';
+$mod_strings['LBL_CONFIG_DEFAULT'] = 'Default:';
 
 $mod_strings['LBL_CONFIG_VALID_GEOCODE_MODULES'] = 'Galioja Geocode Moduliai:';
 $mod_strings['LBL_CONFIG_VALID_GEOCODE_TABLES'] = 'Galioja Geocode Lenteles:';
@@ -182,9 +182,9 @@ $mod_strings['LBL_CONFIG_MAP_CLUSTER_GRID_SIZE_DESC'] = "'map_clusterer_grid_siz
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_TITLE'] = "Map Markers Clusterer Max Zoom:";
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_DESC'] = "'map_clusterer_max_zoom' is used to set the maximum zoom level at which clustering will not be applied.";
 $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = "Important Note: All saved settings can be found in the 'config' table under category 'jjwg'. Note, a custom controller.php file should no longer be used to override settings.";
-$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Srityse';
+$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Areas';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'Žymekliai';
-$mod_strings['LBL_PARENT_ID'] = 'Šakninio ID';
+$mod_strings['LBL_PARENT_ID'] = 'Parent ID';
 $mod_strings['LBL_JJWP_PARTNERS'] = 'JJWP partneriai';
 $mod_strings['LBL_GET_GOOGLE_API_KEY'] = 'Get A Key';
 $mod_strings['LBL_GOOGLE_API_KEY'] = 'Google Api Key';
