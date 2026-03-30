@@ -43,22 +43,22 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Rol',
-    'LBL_LANGUAGE' => 'Hizkuntza',
-    'LBL_MODULE_NAME' => 'Rol',
-    'LBL_MODULE_TITLE' => 'Rolak: hasiera',
+    'LBL_ROLE' => 'Role:',
+    'LBL_LANGUAGE' => 'Language:',
+    'LBL_MODULE_NAME' => 'Roles',
+    'LBL_MODULE_TITLE' => 'Roles: Home',
     'LBL_SEARCH_FORM_TITLE' => 'Rol-bilaketa',
     'LBL_LIST_FORM_TITLE' => 'Rol-zerrenda',
-    'LNK_NEW_ROLE' => 'Rol berria',
-    'LNK_ROLES' => 'Rol',
-    'LBL_NAME' => 'Izena',
-    'LBL_DESCRIPTION' => 'Deskribapena',
+    'LNK_NEW_ROLE' => 'Create Role',
+    'LNK_ROLES' => 'Roles',
+    'LBL_NAME' => 'Name:',
+    'LBL_DESCRIPTION' => 'Description:',
     'LBL_ALLOWED_MODULES' => 'Baimendutako moduluak:',
     'LBL_DISALLOWED_MODULES' => 'Baimendu gabeko moduluak:',
     'LBL_ASSIGN_MODULES' => 'Moduluak editatu:',
-    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Rol',
-    'LBL_USERS' => 'Erabiltzaileak',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Roles',
+    'LBL_USERS' => 'Users',
 
-    'LBL_USERS_SUBPANEL_TITLE' => 'Erabiltzaileak',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
     'LBL_MODULES' => 'Modules',
 );
