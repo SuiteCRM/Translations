@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_NAME' => 'Nume activitate',
-    'LBL_EXECUTE_TIME' => 'Timp de execuție',
-    'LBL_SCHEDULER_ID' => 'Planificator de acțiuni',
+    'LBL_NAME' => 'Job Name',
+    'LBL_EXECUTE_TIME' => 'Execute Time',
+    'LBL_SCHEDULER_ID' => 'Scheduler',
     'LBL_STATUS' => 'Stare activitate',
-    'LBL_RESOLUTION' => 'Rezultat',
+    'LBL_RESOLUTION' => 'Result',
     'LBL_MESSAGE' => 'Mesaje',
     'LBL_DATA' => 'Date activitate',
     'LBL_REQUEUE' => 'Reîncercați în caz de eșec',
