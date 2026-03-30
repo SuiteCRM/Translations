@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_DESCRIPTION' => '詳細',
-    'LBL_NAME' => '名前',
-    'LBL_LIST_NAME' => '名前',
-    'LBL_EDIT_BUTTON' => '編集',
-    'LBL_REMOVE' => '削除',
-    'LBL_GRP' => 'グループ',
-    'LBL_ORD' => '注文',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_NAME' => '名称',
+    'LBL_LIST_NAME' => '名称',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
+    'LBL_GRP' => 'Group',
+    'LBL_ORD' => 'Order',
     'LBL_THUMBNAIL' => 'サムネイル',
 );
