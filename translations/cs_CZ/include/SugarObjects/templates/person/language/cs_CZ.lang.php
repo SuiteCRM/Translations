@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_SALUTATION' => 'Oslovení',
-    'LBL_NAME' => 'Jméno',
+    'LBL_NAME' => 'Název',
     'LBL_FIRST_NAME' => 'Jméno',
     'LBL_LAST_NAME' => 'Příjmení',
     'LBL_TITLE' => 'Titul',
@@ -76,13 +76,13 @@ $mod_strings = array(
     'LBL_ALT_STREET' => 'Jiná adresa',
     'LBL_STREET' => 'Jiná adresa',
     'LBL_CITY' => 'Město',
-    'LBL_STATE' => 'Ve stavu',
+    'LBL_STATE' => 'Kraj',
     'LBL_POSTAL_CODE' => 'PSČ',
     'LBL_COUNTRY' => 'Země:',
     'LBL_CONTACT_INFORMATION' => 'Informace o kontaktu',
     'LBL_ADDRESS_INFORMATION' => 'Adresy',
     'LBL_ASSIGNED_TO_NAME' => 'Uživatel',
-    'LBL_OTHER_EMAIL_ADDRESS' => 'Další email:',
+    'LBL_OTHER_EMAIL_ADDRESS' => 'Jiný Email:',
     'LBL_ASSISTANT' => 'Asistent',
     'LBL_ASSISTANT_PHONE' => 'Telefon asistenta',
     'LBL_WORK_PHONE' => 'Telefon do práce',
@@ -91,7 +91,7 @@ $mod_strings = array(
     'LBL_EMAIL_NON_PRIMARY' => 'Ne primární e-maily',
     'LBL_PHOTO' => 'Fotka',
     'LBL_EDIT_BUTTON' => 'Upravit',
-    'LBL_REMOVE' => 'Odebrat',
+    'LBL_REMOVE' => 'Odstranit',
 
     //Lawful Basis labels
     'LBL_LAWFUL_BASIS' => 'Zákonný podklad',
