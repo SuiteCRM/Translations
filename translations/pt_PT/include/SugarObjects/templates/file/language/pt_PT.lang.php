@@ -93,7 +93,7 @@ $mod_strings = array(
     'LBL_LIST_LAST_REV_CREATOR' => 'Publicado por',
     'LBL_LIST_LAST_REV_DATE' => 'Data da revisão',
     'LBL_LIST_VIEW_DOCUMENT' => 'Exibir',
-    'LBL_LIST_ACTIVE_DATE' => 'Data da Publicação',
+    'LBL_LIST_ACTIVE_DATE' => 'Data de publicação',
     'LBL_LIST_EXP_DATE' => 'Data de validade',
     'LBL_LIST_STATUS' => 'Situação',
 
@@ -105,7 +105,7 @@ $mod_strings = array(
 
     //error messages
     'ERR_DOC_NAME' => 'Nome do documento',
-    'ERR_DOC_ACTIVE_DATE' => 'Data da Publicação',
+    'ERR_DOC_ACTIVE_DATE' => 'Data de publicação',
     'ERR_FILENAME' => 'Nome do ficheiro',
 
     //sub-panel vardefs.
