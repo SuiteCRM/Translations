@@ -43,13 +43,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Улога:',
+    'LBL_ROLE' => 'Role:',
     'LBL_LANGUAGE' => 'Јазик:',
     'LBL_MODULE_NAME' => 'Улоги',
-    'LBL_MODULE_TITLE' => 'Улоги: Почетна страна',
+    'LBL_MODULE_TITLE' => 'Roles: Home',
     'LBL_SEARCH_FORM_TITLE' => 'Role Search',
     'LBL_LIST_FORM_TITLE' => 'Role List',
-    'LNK_NEW_ROLE' => 'Креирај улоги',
+    'LNK_NEW_ROLE' => 'Create Role',
     'LNK_ROLES' => 'Улоги',
     'LBL_NAME' => 'Име:',
     'LBL_DESCRIPTION' => 'Опис:',
@@ -57,8 +57,8 @@ $mod_strings = array(
     'LBL_DISALLOWED_MODULES' => 'Disallowed Modules:',
     'LBL_ASSIGN_MODULES' => 'Edit Modules:',
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Улоги',
-    'LBL_USERS' => 'Корисници',
+    'LBL_USERS' => 'Users',
 
-    'LBL_USERS_SUBPANEL_TITLE' => 'Корисници',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
     'LBL_MODULES' => 'Модули',
 );
