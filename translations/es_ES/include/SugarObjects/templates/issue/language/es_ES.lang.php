@@ -44,25 +44,25 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
 
-    'LBL_NAME' => 'Nombre',
+    'LBL_NAME' => 'Name',
     'LBL_NUMBER' => 'Número:',
-    'LBL_STATUS' => 'Estado:',
+    'LBL_STATUS' => 'Status:',
     'LBL_PRIORITY' => 'Prioridad:',
-    'LBL_DESCRIPTION' => 'Descripción:',
+    'LBL_DESCRIPTION' => 'Description:',
     'LBL_RESOLUTION' => 'Resolución',
     'LBL_LAST_MODIFIED' => 'Última Modificación',
     'LBL_ASSIGNED_TO_ID' => 'Asignado A:',
-    'LBL_ASSIGNED_TO_NAME' => 'Usuario:',
+    'LBL_ASSIGNED_TO_NAME' => 'User:',
     'LBL_WORK_LOG' => 'Registro de Actividad:',
     'LBL_CREATED_BY' => 'Creado por:',
-    'LBL_DATE_ENTERED' => 'Fecha de Creación:',
-    'LBL_DATE_MODIFIED' => 'Fecha de Modificación:',
+    'LBL_DATE_ENTERED' => 'Date Created:',
+    'LBL_DATE_MODIFIED' => 'Date Modified:',
     'LBL_MODIFIED_BY' => 'Modificado por:',
     'LBL_ASSIGNED_USER' => 'Usuario Asignado:',
-    'LBL_TYPE' => 'Tipo:',
+    'LBL_TYPE' => 'Type:',
     'LBL_SUBJECT' => 'Asunto:',
 
-    'LBL_EDIT_BUTTON' => 'Editar',
-    'LBL_REMOVE' => 'Quitar',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
 
 );
