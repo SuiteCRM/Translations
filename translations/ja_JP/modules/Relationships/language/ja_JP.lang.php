@@ -54,9 +54,9 @@ $mod_strings = array(
     'LBL_JOIN_TABLE' => 'ジョインテーブル名',
     'LBL_JOIN_KEY_LHS' => 'ジョインキーLHS',
     'LBL_JOIN_KEY_RHS' => 'ジョインキーRHS',
-    'LBL_RELATIONSHIP_TYPE' => 'リレーションシップタイプ',
+    'LBL_RELATIONSHIP_TYPE' => 'Relationship Type',
     'LBL_RELATIONSHIP_ROLE_COLUMN' => 'リレーションシップロールカラム名',
     'LBL_RELATIONSHIP_ROLE_COLUMN_VALUE' => 'リレーションシップロールカラム値',
     'LBL_REVERSE' => '反転',
-    'LBL_DELETED' => '削除済み',
+    'LBL_DELETED' => 'Deleted',
 );
