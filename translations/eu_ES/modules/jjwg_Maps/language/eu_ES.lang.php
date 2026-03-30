@@ -60,8 +60,8 @@ $mod_strings['LBL_MAP_DISPLAY'] = 'Map Display';
 $mod_strings['LBL_MAP_LEGEND'] = 'Legend:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'Groups:';
 $mod_strings['LBL_MAP_GROUP'] = 'Group';
-$mod_strings['LBL_MAP_TYPE'] = 'Mota';
-$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Esleitua izan da';
+$mod_strings['LBL_MAP_TYPE'] = 'Type';
+$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Assigned to:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'Get Directions';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'Google Maps View';
 
@@ -71,8 +71,8 @@ $mod_strings['LNK_MAP_LIST'] = 'List Maps';
 
 $mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Geocoding Test';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'Quick Radius Map';
-$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'Ezer ez';
-$mod_strings['LBL_MAP_ADDRESS'] = 'Helbidea';
+$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'None';
+$mod_strings['LBL_MAP_ADDRESS'] = 'Address';
 $mod_strings['LBL_MAP_PROCESS'] = 'Process It!';
 
 $mod_strings['LBL_MAP_LAST_STATUS'] = 'Last Geocode Status';
@@ -103,13 +103,13 @@ $mod_strings['LBL_CONFIG_TITLE'] = 'Configuration Settings';
 $mod_strings['LBL_CONFIG_SAVED'] = 'Settings Saved Successfully!';
 $mod_strings['LBL_BILLING_ADDRESS'] = 'Billing Address';
 $mod_strings['LBL_SHIPPING_ADDRESS'] = 'Shipping Address';
-$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Helbide nagusia';
+$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Primary Address';
 $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'Alternative Address';
 $mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex Relate';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Address (Simple, Users)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'Custom (Custom Controller Logic)';
-$mod_strings['LBL_ENABLED'] = 'Gaitua';
-$mod_strings['LBL_DISABLED'] = 'Ezgaitua';
+$mod_strings['LBL_ENABLED'] = 'Enabled';
+$mod_strings['LBL_DISABLED'] = 'Disabled';
 $mod_strings['LBL_DEFAULT'] = 'Default:';
 $mod_strings['LBL_CONFIG_DEFAULT'] = 'Default:';
 
