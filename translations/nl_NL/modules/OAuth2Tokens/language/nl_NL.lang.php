@@ -44,14 +44,14 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_MODULE_NAME' => 'OAuth2 Tokens',
-    'LBL_MODULE_TITLE' => 'OAuth2 Tokens',
-    'LBL_MODULE_ID'=> 'OAuth2 Tokens',
+    'LBL_MODULE_TITLE' => 'OAuth2-tokens',
+    'LBL_MODULE_ID'=> 'OAuth2-tokens',
     'LBL_TOKEN_ID'=> 'Token-ID',
     'LBL_CLIENT'=> 'Client',
     'LBL_TOKEN_IS_REVOKED'=> 'Ingetrokken',
     'LBL_ACCESS_TOKEN_TYPE'=> 'Tokens type',
     'LBL_ACCESS_TOKEN_EXPIRES'=> 'Toegangstoken verloopt',
-    'LBL_REFRESH_TOKEN_EXPIRES'=> 'Vernieuwen tokens verloopt',
+    'LBL_REFRESH_TOKEN_EXPIRES'=> 'Vernieuwen token verloopt',
     'LBL_GRANT_TYPE'=> 'Toekennen type',
     'LBL_SCOPES'=> 'Reikwijdte',
     'LBL_REVOKE_TOKEN'=> 'Intrekken van token',
@@ -60,7 +60,7 @@ $mod_strings = array(
     'LBL_USER' => 'Bijbehorende gebruiker',
     'LBL_IS_ACTIVE' => 'Enkel actieve tokens',
 
-    'LNK_OAUTH2_TOKEN_LIST'=> 'Maak een lijst van OAuth2-tokens',
+    'LNK_OAUTH2_TOKEN_LIST'=> 'Lijst van OAuth2-tokens',
     'LNK_OAUTH2_CLIENT_LIST' => 'Lijst van OAuth2 Clients',
 
     'LNK_NEW_OAUTH2_CLIENT' => 'Maak een OAuth2 Client',
