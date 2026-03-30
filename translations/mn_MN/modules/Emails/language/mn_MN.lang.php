@@ -123,7 +123,7 @@ $mod_strings = array(
     'LBL_NEW_FORM_TITLE' => 'Мэйл Архивлах',
     'LBL_NONE' => 'Байхгүй',
     'LBL_NOT_SENT' => 'Алдааг Илгээх',
-    'LBL_NOTES_SUBPANEL_TITLE' => 'Хавсралт',
+    'LBL_NOTES_SUBPANEL_TITLE' => 'Хавсралтууд',
     'LBL_OPPORTUNITY_SUBPANEL_TITLE' => 'Боломжууд /Opp/',
     'LBL_PROJECT_SUBPANEL_TITLE' => 'Төслүүд',
     'LBL_PROJECT_TASK_SUBPANEL_TITLE' => 'Төслийн Ажлууд',
@@ -199,7 +199,7 @@ $mod_strings = array(
 
     'LBL_LIST_BUG' => 'Прог-ын Алдаа',
     'LBL_LIST_CASE' => 'Кейсүүд',
-    'LBL_LIST_CONTACT' => 'Харилцагч',
+    'LBL_LIST_CONTACT' => 'Харилцагчид',
     'LBL_LIST_LEAD' => 'Сонирхогчид',
     'LBL_LIST_TASK' => 'Ажлууд',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Хариуцагч',
@@ -215,7 +215,7 @@ $mod_strings = array(
     'LBL_CREATE_BUG' => 'Прог.-н алдаа бүртгэх',
     'LBL_CREATE_CASE' => 'Кейс Нээх',
     'LBL_CREATE_CONTACT' => 'Харилцагч үүсгэх',
-    'LBL_CREATE_LEAD' => 'Сонирхогч үүсгэх',
+    'LBL_CREATE_LEAD' => 'Сонирхоц үүсгэх',
     'LBL_CREATE_TASK' => 'Ажил үүсгэх',
     'LBL_DIST_TITLE' => 'Хуваарилсан',
     'LBL_LOCK_FAIL_DESC' => 'Сонгосон зүйлд одоогоор хандах боломжгүй байна.',
@@ -314,8 +314,8 @@ $mod_strings = array(
     'LBL_MISSING_DEFAULT_OUTBOUND_SMTP_SETTINGS' => 'The administrator has not yet configured the default outbound account. Unable to send test email.',
     'LBL_MAIL_SMTPAUTH_REQ' => 'Use SMTP Authentication?',
     'LBL_MAIL_SMTPPASS' => 'SMTP нууц үг:',
-    'LBL_MAIL_SMTPPORT' => 'SMTP порт:',
-    'LBL_MAIL_SMTPSERVER' => 'SMTP сервер:',
+    'LBL_MAIL_SMTPPORT' => 'SMTP Port:',
+    'LBL_MAIL_SMTPSERVER' => 'SMTP Server:',
     'LBL_MAIL_SMTPUSER' => 'SMTP нэр:',
     'LBL_MAIL_SMTP_SETTINGS' => 'SMTP серверийн төрөл',
     'LBL_CHOOSE_EMAIL_PROVIDER' => 'Таны мэйл юу вэ:',
@@ -323,8 +323,8 @@ $mod_strings = array(
     'LBL_YAHOOMAIL_SMTPUSER' => 'Yahoo! мэйл:',
     'LBL_GMAIL_SMTPPASS' => 'Gmail - нууц үг:',
     'LBL_GMAIL_SMTPUSER' => 'Gmail - хаяг:',
-    'LBL_EXCHANGE_SMTPPASS' => 'Exchange нууц үг:',
-    'LBL_EXCHANGE_SMTPUSER' => 'Exchange нэр:',
+    'LBL_EXCHANGE_SMTPPASS' => 'Exchange - нууц үг:',
+    'LBL_EXCHANGE_SMTPUSER' => 'Exchange - нэр:',
     'LBL_EXCHANGE_SMTPPORT' => 'Exchange сервер порт:',
     'LBL_EXCHANGE_SMTPSERVER' => 'Exchange сервер:',
 
@@ -383,7 +383,7 @@ $mod_strings = array(
 
     'ERR_NO_RETURN_ID' => 'Хавсралт олдсогүй.',
 
-    'LBL_LIST_DATE_MODIFIED' => 'Сүүлд Өөрчилсөн',
+    'LBL_LIST_DATE_MODIFIED' => 'Сүүлд өөрчилсөн',
     'LNK_IMPORT_CAMPAIGNS' => 'Import Campaign',
 
     // Email Validation Error messages. Typicaly for Email Validation:
