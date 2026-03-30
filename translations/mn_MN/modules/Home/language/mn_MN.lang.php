@@ -113,7 +113,7 @@ $mod_strings = array(
     'LBL_DASHLET_CONFIGURE_GENERAL' => 'Ерөнхий',
     'LBL_DASHLET_CONFIGURE_FILTERS' => 'Шүүлт',
     'LBL_DASHLET_CONFIGURE_MY_ITEMS_ONLY' => 'Зөвхөн миний зүйлс',
-    'LBL_DASHLET_CONFIGURE_TITLE' => 'Нэр',
+    'LBL_DASHLET_CONFIGURE_TITLE' => 'Самбарын гарчиг',
     'LBL_DASHLET_CONFIGURE_DISPLAY_ROWS' => 'Үзэгдэх мөр',
 
     'LBL_DASHLET_DELETE' => 'Delete SuiteCRM Dashlet',
@@ -138,7 +138,7 @@ $mod_strings = array(
     'LBL_SOURCE_SUGAR' => 'SugarCRM Inc - providers of CE framework',
 
     'LBL_DASHLET_TITLE' => 'Миний ВЭБ-үүд',
-    'LBL_DASHLET_OPT_TITLE' => 'Нэр',
+    'LBL_DASHLET_OPT_TITLE' => 'Самбарын гарчиг',
     'LBL_DASHLET_INCORRECT_URL' => 'Incorrect website location is specified',
     'LBL_DASHLET_OPT_URL' => 'Website Location',
     'LBL_DASHLET_OPT_HEIGHT' => 'Dashlet Height (in pixels)',
