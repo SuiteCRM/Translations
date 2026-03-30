@@ -67,7 +67,7 @@ $mod_strings = array(
     //document revisions.
     'LBL_REV_LIST_REVISION' => 'Хувилбар',
     'LBL_REV_LIST_ENTERED' => 'Үүссэн Огноо',
-    'LBL_REV_LIST_CREATED' => 'Үүсгэсэн',
+    'LBL_REV_LIST_CREATED' => 'Created by',
     'LBL_REV_LIST_LOG' => 'Өөрчлөлтийн Лог',
     'LBL_REV_LIST_FILENAME' => 'Файл',
 
@@ -76,7 +76,7 @@ $mod_strings = array(
     'LBL_REVISIONS' => 'Хувилбар',
 
     //error messages
-    'ERR_FILENAME' => 'Файлын Нэр',
+    'ERR_FILENAME' => 'Файлын нэр',
     'ERR_DOC_VERSION' => 'Баримтын хувилбар',
     'ERR_DELETE_CONFIRM' => 'Do you want to delete this document revision?',
     'ERR_DELETE_LATEST_VERSION' => 'You are not allowed to delete the latest revision of a document.',
