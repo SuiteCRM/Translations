@@ -43,19 +43,19 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Wisselkoerse',
-    'LBL_LIST_FORM_TITLE' => 'Wisselkoerse',
+    'LBL_MODULE_NAME' => 'Currencies',
+    'LBL_LIST_FORM_TITLE' => 'Currencies',
     'LBL_CURRENCY' => 'Currency',
-    'LBL_ADD' => 'Voeg by',
-    'LBL_MERGE' => 'Smelt saam',
+    'LBL_ADD' => 'Add',
+    'LBL_MERGE' => 'Merge',
     'LBL_MERGE_TXT' => 'Please select the currencies you would like to map to the selected currency. This will delete all the currencies with a checkmark and reassign any value associated with them to the selected currency.',
     'LBL_US_DOLLAR' => 'U.S. Dollar',
-    'LBL_DELETE' => 'Verwyder',
+    'LBL_DELETE' => 'Delete',
     'LBL_LIST_SYMBOL' => 'Currency Symbol',
     'LBL_LIST_NAME' => 'Currency Name',
     'LBL_LIST_ISO4217' => 'ISO 4217 Code',
     'LBL_LIST_ISO4217_HELP' => 'Enter a three-letter ISO 4217 code that defines the currency name and currency symbol.',
-    'LBL_UPDATE' => 'Opdateer',
+    'LBL_UPDATE' => 'Update',
     'LBL_LIST_RATE' => 'Conversion Rate',
     'LBL_LIST_RATE_HELP' => 'A Conversion Rate of 0.5 for Euro means that 10 USD = 5 Euro.',
     'LBL_LIST_STATUS' => 'Status',
@@ -72,8 +72,8 @@ $mod_strings = array(
     'LBL_BELOW_MIN' => 'Conversion rate has to be above 0',
     'currency_status_dom' =>
         array(
-            'Active' => 'Aktief',
-            'Inactive' => 'Onaktief',
+            'Active' => 'Active',
+            'Inactive' => 'Inactive',
         ),
     'LBL_CREATED_BY' => 'Created By',
     'LBL_EDIT_LAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
