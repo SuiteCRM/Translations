@@ -44,14 +44,14 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
     'LBL_MODULE_NAME' => 'OAuth klienti',
-    'LBL_MODULE_TITLE' => 'OAuth klienti',
-    'LBL_MODULE_ID' => 'OAuth klienti',
+    'LBL_MODULE_TITLE' => 'OAuth2 Clients',
+    'LBL_MODULE_ID' => 'OAuth2 Clients',
     'LBL_IS_CONFIDENTIAL' => 'Je důvěrné',
     'LBL_SECRET' => 'Tajný klíč',
     'LBL_SECRET_HASHED' => 'Změnit tajný klíč',
     'LBL_LEAVE_BLANK' => 'Ponechte prázdné, pokud neměníte',
     'LBL_REMEMBER_SECRET' => 'Prosím poznamenejte si svůj tajný klíč, po uložení ho už není možné zjistit.',
-    'LBL_REDIRECT_URL' => 'Přesměrování URL',
+    'LBL_REDIRECT_URL' => 'Redirect URL',
     'LBL_ALLOWED_GRANT_TYPE' => 'Povolený typ oprávnění',
     'LBL_DURATION_AMOUNT' => 'Hodnota trvání',
     'LBL_DURATION_UNIT' => 'Jednotka trvání',
@@ -64,14 +64,14 @@ $mod_strings = [
     'LBL_ACCESS_TOKEN_EXPIRES' => 'Přístupový token vyprší',
     'LBL_REFRESH_TOKEN_EXPIRES' => 'Obnovovací token vyprší',
 
-    'LNK_OAUTH2_TOKEN_LIST'=> 'Seznam tokenů OAuth2',
-    'LNK_OAUTH2_CLIENT_LIST' => 'Seznam klientů OAuth2',
+    'LNK_OAUTH2_TOKEN_LIST'=> 'List OAuth2 Tokens',
+    'LNK_OAUTH2_CLIENT_LIST' => 'List OAuth2 Clients',
     'LNK_OAUTH2_AUTHCODE_LIST' => 'List OAuth2 Authorization Codes',
 
-    'LNK_NEW_OAUTH2_CLIENT' => 'Vytvořit klienta OAuth2',
-    'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'Nový klient hesla',
-    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'Nový klient pověření klienta',
-    'LNK_NEW_OAUTH2_IMPLICIT_CLIENT' => 'Nový implicitní klient',
-    'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'Nový autorizační klient',
+    'LNK_NEW_OAUTH2_CLIENT' => 'Create OAuth2 Client',
+    'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'New Password Client',
+    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'New Client Credentials Client',
+    'LNK_NEW_OAUTH2_IMPLICIT_CLIENT' => 'New Implicit Client',
+    'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'New Authorization Client',
 
 ];
