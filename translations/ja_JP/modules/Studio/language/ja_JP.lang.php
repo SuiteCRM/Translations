@@ -43,30 +43,30 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EDIT_LAYOUT' => 'レイアウト編集',
+    'LBL_EDIT_LAYOUT' => 'Edit Layout',
     'LBL_EDIT_FIELDS' => 'フィールドの編集',
-    'LBL_SELECT_FILE' => 'ファイル選択',
-    'LBL_MODULE_TITLE' => 'Studio',
-    'LBL_TOOLBOX' => 'ツールボックス',
+    'LBL_SELECT_FILE' => 'Select File',
+    'LBL_MODULE_TITLE' => 'スタジオ',
+    'LBL_TOOLBOX' => 'Toolbox',
     'LBL_SUITE_FIELDS_STAGE' => 'SuiteCRMフィールド（ステージエリアに追加したいアイテムをクリック）',
     'LBL_VIEW_SUITE_FIELDS' => 'SuiteCRMフィールドを見る',
     'LBL_FAILED_TO_SAVE' => '保存に失敗しました',
     'LBL_CONFIRM_UNSAVE' => 'すべての変更は保存されません。継続しても良いですか？',
     'LBL_PUBLISHING' => '公開中...',
-    'LBL_PUBLISHED' => '公開済み',
+    'LBL_PUBLISHED' => 'Published',
     'LBL_FAILED_PUBLISHED' => '公開に失敗しました',
-    'LBL_DROP_HERE' => '[ここにドロップ]',
+    'LBL_DROP_HERE' => '[Drop Here]',
 
 //CUSTOM FIELDS
-    'LBL_NAME' => '名前',
-    'LBL_LABEL' => 'ラベル',
-    'LBL_MASS_UPDATE' => '更新',
-    'LBL_DEFAULT_VALUE' => 'デフォルト値',
-    'LBL_REQUIRED' => '必須',
-    'LBL_DATA_TYPE' => 'タイプ',
+    'LBL_NAME' => '名称',
+    'LBL_LABEL' => 'Label',
+    'LBL_MASS_UPDATE' => 'Mass Update',
+    'LBL_DEFAULT_VALUE' => 'Default Value',
+    'LBL_REQUIRED' => 'Required',
+    'LBL_DATA_TYPE' => 'Type',
 
 
-    'LBL_HISTORY' => '履歴',
+    'LBL_HISTORY' => 'History',
 
 //WIZARDS
 
@@ -79,43 +79,43 @@ $mod_strings = array(
     'LBL_SW_EDIT_GROUPTABS' => 'グループタブの設定',
     'LBL_SW_EDIT_PORTAL' => 'ポータルの編集',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => 'カスタムフィールド修復',
-    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'カスタムフィールドのマイグレート',
+    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrate Custom Fields',
 
 // JS LABELS
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'JavaScript版の言語ファイルの再構築します。',
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'JavaScript版の言語ファイルを削除しました。必要になった時点で自動的に再構築します。',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuilds javascript versions of language files',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Removing javascript versions of language files, will rebuild when needed.',
 
 
 //Manager Backups History
-    'LBL_MB_DELETE' => '削除',
+    'LBL_MB_DELETE' => 'Delete',
 
 //EDIT DROP DOWNS
     'LBL_ED_CREATE_DROPDOWN' => 'ドロップダウンの作成',
     'LBL_DROPDOWN_NAME' => 'ドロップダウン名:',
     'LBL_DROPDOWN_LANGUAGE' => 'ドロップダウン言語:',
-    'LBL_TABGROUP_LANGUAGE' => 'タブグループ言語:',
+    'LBL_TABGROUP_LANGUAGE' => 'Language:',
 
 //END WIZARDS
 
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => '表示する値',
     'LBL_DD_DATABASEVALUE' => 'データベースの値',
-    'LBL_DD_ALL' => 'すべて',
+    'LBL_DD_ALL' => 'All',
 
 //BUTTONS
-    'LBL_BTN_SAVE' => 'セーブする',
-    'LBL_BTN_CANCEL' => 'キャンセル',
-    'LBL_BTN_SAVEPUBLISH' => '保存して配置',
-    'LBL_BTN_HISTORY' => '履歴',
-    'LBL_BTN_ADDROWS' => '行の追加',
-    'LBL_BTN_UNDO' => '元に戻す',
-    'LBL_BTN_REDO' => '再実行する',
-    'LBL_BTN_ADDCUSTOMFIELD' => 'カスタムフィールド追加',
+    'LBL_BTN_SAVE' => '新しいグループフォルダを追加',
+    'LBL_BTN_CANCEL' => 'Cancel',
+    'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
+    'LBL_BTN_HISTORY' => 'History',
+    'LBL_BTN_ADDROWS' => 'Add Rows',
+    'LBL_BTN_UNDO' => 'Undo',
+    'LBL_BTN_REDO' => 'Redo',
+    'LBL_BTN_ADDCUSTOMFIELD' => 'Add Custom Field',
     'LBL_BTN_TABINDEX' => 'タブインデックスの編集',
 
 //TABS
-    'LBL_MODULES' => 'モジュール',
-    'LBL_MODULE_NAME' => '管理',
+    'LBL_MODULES' => 'Modules',
+    'LBL_MODULE_NAME' => 'Administration',
     'LBL_CONFIGURE_GROUP_TABS' => 'モジュール メニュー フィルタの設定',
     'LBL_GROUP_TAB_WELCOME' => '以下のグループタブのレイアウトはユーザーがグループタブの利用を選択した場合に、マイアカウント>レイアウトオプションで通常のモジュールタブの代わりに利用されます。',
     'LBL_RENAME_TAB_WELCOME' => '下記テーブル内の任意のタブの表示名をクリックし、タブの名前を変更してください。',
@@ -123,24 +123,24 @@ $mod_strings = array(
     'LBL_TAB_GROUP_LANGUAGE_HELP' => 'その他の利用可能な言語によるタブグループのラベルを設定するには、言語を選択し、ラベルを編集し、その言語を変更するために保存して配置をクリックしてください。',
     'LBL_ADD_GROUP' => 'フィルタの追加',
     'LBL_NEW_GROUP' => '新規グループ',
-    'LBL_RENAME_TABS' => 'タブの名前を変更',
+    'LBL_RENAME_TABS' => 'Rename Modules',
 
 //ERRORS
     'ERROR_INVALID_KEY_VALUE' => "エラー: 無効なキーの値: [']",
 
 //SUGAR PORTAL
-    'LBL_SAVE' => 'セーブする' /*for 508 compliance fix*/,
-    'LBL_UNDO' => '元に戻す' /*for 508 compliance fix*/,
-    'LBL_REDO' => '再実行する' /*for 508 compliance fix*/,
+    'LBL_SAVE' => '新しいグループフォルダを追加' /*for 508 compliance fix*/,
+    'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
+    'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'インライン' /*for 508 compliance fix*/,
-    'LBL_DELETE' => '削除' /*for 508 compliance fix*/,
-    'LBL_ADD_FIELD' => 'フィールドの追加' /*for 508 compliance fix*/,
+    'LBL_DELETE' => 'Delete' /*for 508 compliance fix*/,
+    'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => '最大化' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => '最小化' /*for 508 compliance fix*/,
-    'LBL_PUBLISH' => '公開' /*for 508 compliance fix*/,
-    'LBL_ADDROWS' => '行の追加' /*for 508 compliance fix*/,
-    'LBL_ADDFIELD' => 'フィールドの追加' /*for 508 compliance fix*/,
-    'LBL_EDIT' => '編集' /*for 508 compliance fix*/,
+    'LBL_PUBLISH' => 'Publish' /*for 508 compliance fix*/,
+    'LBL_ADDROWS' => 'Add Rows' /*for 508 compliance fix*/,
+    'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
+    'LBL_EDIT' => 'Edit' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => '言語を選択してください。',
     'LBL_SINGULAR' => '単数形ラベル',
