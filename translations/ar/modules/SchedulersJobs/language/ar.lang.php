@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_NAME' => 'اسم العملية',
-    'LBL_EXECUTE_TIME' => 'وقت التشغيل',
-    'LBL_SCHEDULER_ID' => 'المجدول',
+    'LBL_NAME' => 'Job Name',
+    'LBL_EXECUTE_TIME' => 'Execute Time',
+    'LBL_SCHEDULER_ID' => 'Scheduler',
     'LBL_STATUS' => 'حالة العملية',
-    'LBL_RESOLUTION' => 'النتيجة',
+    'LBL_RESOLUTION' => 'Result',
     'LBL_MESSAGE' => 'الرسائل',
     'LBL_DATA' => 'بيانات العملية',
     'LBL_REQUEUE' => 'إعادة المحاولة عند الفشل',
