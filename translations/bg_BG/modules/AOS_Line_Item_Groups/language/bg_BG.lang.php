@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ID' => 'Идентификационен номер',
+    'LBL_ID' => 'ID',
     'LBL_MODULE_NAME' => 'Групи',
-    'LBL_DATE_ENTERED' => 'Създадено на:',
-    'LBL_DATE_MODIFIED' => 'Модифицирано на',
-    'LBL_DESCRIPTION' => 'Описание',
-    'LBL_DELETED' => 'Изтрити',
+    'LBL_DATE_ENTERED' => 'Date Created',
+    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_DELETED' => 'Deleted',
     'LBL_NAME' => 'Group Name',
     'LBL_TOTAL_AMT' => 'Total',
     'LBL_DISCOUNT_AMOUNT' => 'Discount',
