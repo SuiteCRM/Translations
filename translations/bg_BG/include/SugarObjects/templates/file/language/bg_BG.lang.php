@@ -51,8 +51,8 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Търсене в модул "Документи"',
     //vardef labels
     'LBL_NAME' => 'Име на документа',
-    'LBL_DESCRIPTION' => 'Описание',
-    'LBL_ASSIGNED_TO' => 'Отговорник:',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_ASSIGNED_TO' => 'Assigned to:',
     'LBL_CATEGORY' => 'Категория',
     'LBL_SUBCATEGORY' => 'Подкатегория',
     'LBL_STATUS' => 'Статус',
@@ -80,38 +80,38 @@ $mod_strings = array(
     'LBL_SUBCATEGORY_VALUE' => 'Подкатегория:',
     'LBL_DOC_STATUS' => 'Статус:',
     'LBL_DET_TEMPLATE_TYPE' => 'Тип на документа:',
-    'LBL_DOC_DESCRIPTION' => 'Описание:',
+    'LBL_DOC_DESCRIPTION' => 'Description:',
     'LBL_DOC_ACTIVE_DATE' => 'Публикуван на:',
     'LBL_DOC_EXP_DATE' => 'Валиден до:',
 
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'Списък с документи',
     'LBL_LIST_DOCUMENT' => 'Документ',
-    'LBL_LIST_CATEGORY' => 'Категория',
-    'LBL_LIST_SUBCATEGORY' => 'Подкатегория',
-    'LBL_LIST_REVISION' => 'Ревизия',
+    'LBL_LIST_CATEGORY' => 'Category',
+    'LBL_LIST_SUBCATEGORY' => 'Sub Category',
+    'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => 'Публикувана от',
     'LBL_LIST_LAST_REV_DATE' => 'Дата на ревизията',
     'LBL_LIST_VIEW_DOCUMENT' => 'Разглеждане',
-    'LBL_LIST_ACTIVE_DATE' => 'Публикувано на',
-    'LBL_LIST_EXP_DATE' => 'Валидно до',
-    'LBL_LIST_STATUS' => 'Статус',
+    'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
+    'LBL_LIST_EXP_DATE' => 'Expiration Date',
+    'LBL_LIST_STATUS' => 'Status',
 
     //document search form.
-    'LBL_SF_CATEGORY' => 'Категория:',
-    'LBL_SF_SUBCATEGORY' => 'Подкатегория:',
+    'LBL_SF_CATEGORY' => 'Category:',
+    'LBL_SF_SUBCATEGORY' => 'Sub Category:',
 
     'DEF_CREATE_LOG' => 'Създаден документ',
 
     //error messages
-    'ERR_DOC_NAME' => 'Име на документа',
-    'ERR_DOC_ACTIVE_DATE' => 'Публикувано на',
+    'ERR_DOC_NAME' => 'Document Name',
+    'ERR_DOC_ACTIVE_DATE' => 'Publish Date',
     'ERR_FILENAME' => 'Име на файла',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'Име на документа',
+    'LBL_LIST_DOCUMENT_NAME' => 'Document Name',
 
     'LBL_EDIT_BUTTON' => 'Редактирай ',
-    'LBL_REMOVE' => 'Изтрий',
+    'LBL_REMOVE' => 'Remove',
 
 );
