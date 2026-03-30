@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings['LBL_ASSIGNED_TO_ID'] = 'Assigned User Id';
-$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Gebruiker';
+$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'User';
 $mod_strings['LBL_ID'] = 'ID';
 $mod_strings['LBL_DATE_ENTERED'] = 'Datum geskep';
 $mod_strings['LBL_DATE_MODIFIED'] = 'Date Modified';
@@ -52,10 +52,10 @@ $mod_strings['LBL_MODIFIED_NAME'] = 'Gewysig deur Naam';
 $mod_strings['LBL_CREATED'] = 'Created By';
 $mod_strings['LBL_DESCRIPTION'] = 'Beskrywing';
 $mod_strings['LBL_DELETED'] = 'Geskrap';
-$mod_strings['LBL_NAME'] = 'Naam';
+$mod_strings['LBL_NAME'] = 'Name';
 $mod_strings['LBL_CREATED_USER'] = 'Geskep deur Gebruiker';
 $mod_strings['LBL_MODIFIED_USER'] = 'Verander deur gebruiker';
-$mod_strings['LBL_LIST_NAME'] = 'Naam';
+$mod_strings['LBL_LIST_NAME'] = 'Name';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'Areas List';
 $mod_strings['LBL_MODULE_NAME'] = 'Areas';
 $mod_strings['LBL_MODULE_TITLE'] = 'Areas';
@@ -64,13 +64,13 @@ $mod_strings['LNK_NEW_RECORD'] = 'Create Areas';
 $mod_strings['LNK_LIST'] = 'View Areas';
 $mod_strings['LBL_SEARCH_FORM_TITLE'] = 'Search Areas';
 $mod_strings['LBL_HISTORY_SUBPANEL_TITLE'] = 'View History';
-$mod_strings['LBL_ACTIVITIES_SUBPANEL_TITLE'] = 'Aktiwiteite';
+$mod_strings['LBL_ACTIVITIES_SUBPANEL_TITLE'] = 'Activities';
 $mod_strings['LBL_NEW_FORM_TITLE'] = 'New Areas';
 $mod_strings['LBL_CITY'] = 'City';
 $mod_strings['LBL_STATE'] = 'State';
 $mod_strings['LBL_COUNTRY'] = 'Country';
 $mod_strings['LBL_COORDINATES'] = 'Coordinates';
-$mod_strings['LBL_LIST_ASSIGNED_USER'] = 'Gebruiker';
+$mod_strings['LBL_LIST_ASSIGNED_USER'] = 'User';
 $mod_strings['LBL_AREA_MAP'] = 'Area Map';
 
 $mod_strings['LBL_AREA_EDIT_TITLE'] = 'Area Creation Instructions:';
