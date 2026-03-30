@@ -48,7 +48,7 @@ $mod_strings = array(
     'LBL_NUMBER' => 'Numeris:',
     'LBL_STATUS' => 'Būsena:',
     'LBL_PRIORITY' => 'Svarba:',
-    'LBL_DESCRIPTION' => 'Aprašymas:',
+    'LBL_DESCRIPTION' => 'Description:',
     'LBL_RESOLUTION' => 'Sprendimas',
     'LBL_LAST_MODIFIED' => 'Redagavimo data',
     'LBL_ASSIGNED_TO_ID' => 'Priskirtas:',
@@ -59,7 +59,7 @@ $mod_strings = array(
     'LBL_DATE_MODIFIED' => 'Redaguota:',
     'LBL_MODIFIED_BY' => 'Redagavo:',
     'LBL_ASSIGNED_USER' => 'Atsakingas vartotojas:',
-    'LBL_TYPE' => 'Tipas:',
+    'LBL_TYPE' => 'Type:',
     'LBL_SUBJECT' => 'Užrašo tema:',
 
     'LBL_EDIT_BUTTON' => 'Redaguoti',
