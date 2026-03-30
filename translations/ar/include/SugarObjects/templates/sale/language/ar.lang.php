@@ -79,7 +79,7 @@ $mod_strings = array(
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'الأنشطة',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'التاريخ',
 
-    'LBL_CONTACTS_SUBPANEL_TITLE' => 'جهات الإتصال',
+    'LBL_CONTACTS_SUBPANEL_TITLE' => 'جهات الاتصال',
     'LBL_ASSIGNED_TO_NAME' => 'المستخدم:',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'المستخدم المكلف',
     'LBL_ASSIGNED_TO_ID' => 'أُسندت لهذا المُعرف',
