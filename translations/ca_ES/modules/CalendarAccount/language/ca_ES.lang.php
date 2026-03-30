@@ -31,39 +31,39 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
     // System fields
-    'LBL_ASSIGNED_TO_ID' => 'ID Usuari Assignat',
-    'LBL_ASSIGNED_TO_NAME' => 'Assignat a',
-    'LBL_DATE_ENTERED' => 'Data de Creació',
-    'LBL_DATE_MODIFIED' => 'Última Modificació',
-    'LBL_MODIFIED' => 'Modificat Per',
-    'LBL_MODIFIED_NAME' => 'Modificat per Nom',
-    'LBL_CREATED' => 'Creat Per',
-    'LBL_CREATED_USER' => 'Creat per Usuari',
-    'LBL_MODIFIED_USER' => 'Modificat per Usuari',
-    'LBL_DESCRIPTION' => 'Descripció',
-    'LBL_DELETED' => 'Esborrat',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
+    'LBL_DATE_ENTERED' => 'Date Created',
+    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_MODIFIED' => 'Modified By',
+    'LBL_MODIFIED_NAME' => 'Modified By Name',
+    'LBL_CREATED' => 'Created By',
+    'LBL_CREATED_USER' => 'Created by User',
+    'LBL_MODIFIED_USER' => 'Modified by User',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_DELETED' => 'Deleted',
 
     // Security groups
-    'LBL_SECURITYGROUPS' => 'Grups de Seguretat',
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Grups de Seguretat',
+    'LBL_SECURITYGROUPS' => 'Security Groups',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
 
     // List view labels
-    'LBL_LIST_NAME' => 'Nom',
-    'LBL_LIST_DELETE' => 'Esborrar',
-    'LBL_EDIT_BUTTON' => 'Editar',
-    'LBL_REMOVE' => 'Eliminar',
-    'LBL_ASCENDING' => 'Ascendent',
-    'LBL_DESCENDING' => 'Descendent',
+    'LBL_LIST_NAME' => 'Name',
+    'LBL_LIST_DELETE' => 'Delete',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
 
     // Email opt-in labels
-    'LBL_OPT_IN' => 'Autoritzat a enviar',
-    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Pendent de confirmar Autoritzat a enviar, confirmar Autoritzat a enviar no enviat',
-    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Pendent de confirmar Autoritzat a enviar, confirmar Autoritzat a enviar per enviaments',
-    'LBL_OPT_IN_CONFIRMED' => 'Autoritzat a enviar',
+    'LBL_OPT_IN' => 'Opt In',
+    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Pending Confirm opt in, Confirm opt in not sent',
+    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Pending Confirm opt in, Confirm opt in sent',
+    'LBL_OPT_IN_CONFIRMED' => 'Opted in',
 
     // Subpanel titles
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Veure Històrial',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activitats',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
 
@@ -91,9 +91,9 @@ $mod_strings = [
     'LNK_LIST' => 'View Calendar Accounts',
 
     // Standard fields
-    'LBL_NAME' => 'Nom',
+    'LBL_NAME' => 'Name',
     'LBL_ID' => 'ID',
-    'LBL_TYPE' => 'Tipus',
+    'LBL_TYPE' => 'Type',
     'LBL_SOURCE' => 'Calendar Source',
 
     // OAuth2 Fields
@@ -101,8 +101,8 @@ $mod_strings = [
     'LBL_CONNECT_OAUTH' => 'Connect OAuth',
 
     // Basic Auth Fields
-    'LBL_USERNAME' => 'Nom d\'usuari',
-    'LBL_PASSWORD' => 'Clau de pas',
+    'LBL_USERNAME' => 'Username',
+    'LBL_PASSWORD' => 'Password',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test Connection',
 
@@ -162,11 +162,11 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Please select a calendar source first.',
 
     // Connection test messages
-    'LBL_CALENDAR' => 'Calendari',
-    'LBL_SUCCESSFUL' => 'Reeixit',
-    'LBL_FAILED' => 'Fallat',
+    'LBL_CALENDAR' => 'Calendar',
+    'LBL_SUCCESSFUL' => 'Successful',
+    'LBL_FAILED' => 'Failed',
     'LBL_CONNECTION_TEST' => 'Connection Test',
-    'LBL_YES' => 'Si',
+    'LBL_YES' => 'Yes',
     'LBL_NO' => 'No',
     'LBL_FOUND_CALENDARS' => 'Found {count} calendars.',
     'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'An error occurred while processing the connection test response. Please check the logs for details.',
@@ -182,13 +182,13 @@ $mod_strings = [
 
     // Dialog labels
     'LBL_NOTIFICATION' => 'Notification',
-    'LBL_CONFIRM' => 'Confirmar',
+    'LBL_CONFIRM' => 'Confirm',
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => 'En Progrés',
-    'LBL_SYNC_STATUS_SUCCESS' => 'Fet',
-    'LBL_SYNC_STATUS_WARNING' => 'Avís',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => 'In Progress',
+    'LBL_SYNC_STATUS_SUCCESS' => 'Success',
+    'LBL_SYNC_STATUS_WARNING' => 'Warning',
     'LBL_SYNC_STATUS_ERROR' => 'Error',
 
     // Sync message enum translations
@@ -202,5 +202,5 @@ $mod_strings = [
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Calendar not found.',
 
     // Relationship labels
-    'LBL_MEETINGS' => 'Reunions',
+    'LBL_MEETINGS' => 'Meetings',
 ];
