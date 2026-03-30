@@ -52,7 +52,7 @@ $mod_strings = array(
     //vardef labels
     'LBL_NAME' => 'Dokumentname',
     'LBL_DESCRIPTION' => 'Beschreibung',
-    'LBL_ASSIGNED_TO' => 'Zugewiesen:',
+    'LBL_ASSIGNED_TO' => 'Zugewiesen an:',
     'LBL_CATEGORY' => 'Kategorie',
     'LBL_SUBCATEGORY' => 'Unterkategorie',
     'LBL_STATUS' => 'Status',
@@ -88,28 +88,28 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Dokumentliste',
     'LBL_LIST_DOCUMENT' => 'Dokument',
     'LBL_LIST_CATEGORY' => 'Kategorie',
-    'LBL_LIST_SUBCATEGORY' => 'Unterkategorie',
-    'LBL_LIST_REVISION' => 'Version',
+    'LBL_LIST_SUBCATEGORY' => 'Sub Category',
+    'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => 'Veröffentlicht von',
     'LBL_LIST_LAST_REV_DATE' => 'Versionsdatum',
     'LBL_LIST_VIEW_DOCUMENT' => 'Ansicht',
-    'LBL_LIST_ACTIVE_DATE' => 'Veröffentlichungsdatum',
-    'LBL_LIST_EXP_DATE' => 'Ablaufdatum',
+    'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
+    'LBL_LIST_EXP_DATE' => 'Expiration Date',
     'LBL_LIST_STATUS' => 'Status',
 
     //document search form.
-    'LBL_SF_CATEGORY' => 'Kategorie:',
-    'LBL_SF_SUBCATEGORY' => 'Unterkategorie:',
+    'LBL_SF_CATEGORY' => 'Category:',
+    'LBL_SF_SUBCATEGORY' => 'Sub Category:',
 
     'DEF_CREATE_LOG' => 'Dokument erstellt',
 
     //error messages
-    'ERR_DOC_NAME' => 'Dokumentname',
-    'ERR_DOC_ACTIVE_DATE' => 'Veröffentlichungsdatum',
+    'ERR_DOC_NAME' => 'Document Name',
+    'ERR_DOC_ACTIVE_DATE' => 'Publish Date',
     'ERR_FILENAME' => 'Dateiname',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'Dokumentname',
+    'LBL_LIST_DOCUMENT_NAME' => 'Document Name',
 
     'LBL_EDIT_BUTTON' => 'Bearbeiten',
     'LBL_REMOVE' => 'Entfernen',
