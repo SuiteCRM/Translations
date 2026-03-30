@@ -88,28 +88,28 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Список документов',
     'LBL_LIST_DOCUMENT' => 'Документ',
     'LBL_LIST_CATEGORY' => 'Категория',
-    'LBL_LIST_SUBCATEGORY' => 'Подкатегория',
-    'LBL_LIST_REVISION' => 'Версия статьи',
+    'LBL_LIST_SUBCATEGORY' => 'Sub Category',
+    'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => 'Опубликовано',
     'LBL_LIST_LAST_REV_DATE' => 'Дата изменения',
     'LBL_LIST_VIEW_DOCUMENT' => 'Просмотр',
-    'LBL_LIST_ACTIVE_DATE' => 'Дата публикации',
-    'LBL_LIST_EXP_DATE' => 'Дата окончания',
+    'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
+    'LBL_LIST_EXP_DATE' => 'Expiration Date',
     'LBL_LIST_STATUS' => 'Статус',
 
     //document search form.
-    'LBL_SF_CATEGORY' => 'Категория:',
-    'LBL_SF_SUBCATEGORY' => 'Подкатегория:',
+    'LBL_SF_CATEGORY' => 'Category:',
+    'LBL_SF_SUBCATEGORY' => 'Sub Category:',
 
     'DEF_CREATE_LOG' => 'Документ создан',
 
     //error messages
-    'ERR_DOC_NAME' => 'Название документа',
-    'ERR_DOC_ACTIVE_DATE' => 'Дата публикации',
+    'ERR_DOC_NAME' => 'Document Name',
+    'ERR_DOC_ACTIVE_DATE' => 'Publish Date',
     'ERR_FILENAME' => 'Имя файла',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'Название документа',
+    'LBL_LIST_DOCUMENT_NAME' => 'Document Name',
 
     'LBL_EDIT_BUTTON' => 'Править',
     'LBL_REMOVE' => 'Удалить',
