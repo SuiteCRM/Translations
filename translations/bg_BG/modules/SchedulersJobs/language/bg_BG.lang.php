@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_NAME' => 'Име на задачата',
-    'LBL_EXECUTE_TIME' => 'Изпълнена на',
-    'LBL_SCHEDULER_ID' => 'Автоматизирани задачи',
+    'LBL_NAME' => 'Job Name',
+    'LBL_EXECUTE_TIME' => 'Execute Time',
+    'LBL_SCHEDULER_ID' => 'Scheduler',
     'LBL_STATUS' => 'Job Status',
-    'LBL_RESOLUTION' => 'Резултат',
+    'LBL_RESOLUTION' => 'Result',
     'LBL_MESSAGE' => 'Messages',
     'LBL_DATA' => 'Job Data',
     'LBL_REQUEUE' => 'Опитай отново при грешка',
