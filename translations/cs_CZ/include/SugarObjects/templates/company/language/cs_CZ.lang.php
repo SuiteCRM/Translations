@@ -57,7 +57,7 @@ $mod_strings = array(
     'LBL_RATING' => 'Hodnocení',
     'LBL_ASSIGNED_TO' => 'Přiřazeno k:',
     'LBL_ASSIGNED_USER' => 'Přiřazeno k:',
-    'LBL_ASSIGNED_TO_ID' => 'Přiřazeno k:',
+    'LBL_ASSIGNED_TO_ID' => 'Přiřazeno (komu):',
     'LBL_BILLING_ADDRESS_CITY' => 'Fakturační město:',
     'LBL_BILLING_ADDRESS_COUNTRY' => 'Fakturační země:',
     'LBL_BILLING_ADDRESS_POSTALCODE' => 'Fakturační PSČ:',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'Opravdu chcete smazat tento záznam?',
 
     'LBL_EDIT_BUTTON' => 'Upravit  ',
-    'LBL_REMOVE' => 'Odebrat',
+    'LBL_REMOVE' => 'Odstranit',
 
 );
