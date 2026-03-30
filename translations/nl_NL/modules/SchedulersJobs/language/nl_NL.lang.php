@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_NAME' => 'Taaknaam',
-    'LBL_EXECUTE_TIME' => 'Uitvoertijd',
-    'LBL_SCHEDULER_ID' => 'Taakplanner',
+    'LBL_NAME' => 'Job Name',
+    'LBL_EXECUTE_TIME' => 'Execute Time',
+    'LBL_SCHEDULER_ID' => 'Scheduler',
     'LBL_STATUS' => 'Taak status',
-    'LBL_RESOLUTION' => 'Resultaat',
+    'LBL_RESOLUTION' => 'Result',
     'LBL_MESSAGE' => 'Berichten',
     'LBL_DATA' => 'Taak Data',
     'LBL_REQUEUE' => 'Opnieuw proberen wanneer mislukt',
