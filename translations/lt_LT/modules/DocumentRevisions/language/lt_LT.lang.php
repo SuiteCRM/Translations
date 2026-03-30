@@ -46,33 +46,33 @@ $mod_strings = array(
     //module
     'LBL_MODULE_NAME' => 'Dokumento versijos',
 
-    'LNK_NEW_DOCUMENT' => 'Sukurti dokumentą',
+    'LNK_NEW_DOCUMENT' => 'Create Document',
     'LNK_DOCUMENT_LIST' => 'Dokumentų sąrašas',
 
     //vardef labels
-    'LBL_REVISION_NAME' => 'Versijos Nr.',
+    'LBL_REVISION_NAME' => 'Versijos numeris',
     'LBL_FILENAME' => 'Filo:',
-    'LBL_MIME' => 'Mime tipas',
-    'LBL_REVISION' => 'Versija',
+    'LBL_MIME' => 'Mime Type',
+    'LBL_REVISION' => 'Revision',
     'LBL_DOCUMENT' => 'Susijęs dokumentas',
-    'LBL_LATEST_REVISION' => 'Naujausia versija',
-    'LBL_CHANGE_LOG' => 'Pakeitimų istorija',
+    'LBL_LATEST_REVISION' => 'Latest Revision',
+    'LBL_CHANGE_LOG' => 'Change Log',
     'LBL_ACTIVE_DATE' => 'Publikavimo data',
-    'LBL_EXPIRATION_DATE' => 'Pasibaigimo data',
+    'LBL_EXPIRATION_DATE' => 'Pasibaigimo datą',
     'LBL_FILE_EXTENSION' => 'Failo išplėtimas',
 
-    'LBL_DOC_NAME' => 'Dokumento pavadinimas:',
-    'LBL_DOC_VERSION' => 'Versija:',
+    'LBL_DOC_NAME' => 'Document Name:',
+    'LBL_DOC_VERSION' => 'Revision:',
 
     //document revisions.
-    'LBL_REV_LIST_REVISION' => 'Versija',
+    'LBL_REV_LIST_REVISION' => 'Revision',
     'LBL_REV_LIST_ENTERED' => 'Sukurta',
-    'LBL_REV_LIST_CREATED' => 'Sukūrė:',
-    'LBL_REV_LIST_LOG' => 'Pakeitimų istorija',
-    'LBL_REV_LIST_FILENAME' => 'Failo pavadinimas',
+    'LBL_REV_LIST_CREATED' => 'Created by',
+    'LBL_REV_LIST_LOG' => 'Change Log',
+    'LBL_REV_LIST_FILENAME' => 'Failas',
 
     'LBL_CURRENT_DOC_VERSION' => 'Naujausia versija:',
-    'LBL_SEARCH_FORM_TITLE' => 'Dokumentų paieška',
+    'LBL_SEARCH_FORM_TITLE' => 'Document Search',
     'LBL_REVISIONS' => 'Versijos',
 
     //error messages
@@ -80,7 +80,7 @@ $mod_strings = array(
     'ERR_DOC_VERSION' => 'Dokumento versija',
     'ERR_DELETE_CONFIRM' => 'Ar Jūs norite ištrinti šią dokumento versiją?',
     'ERR_DELETE_LATEST_VERSION' => 'Jums neleidžiama trinti naujausios dokumento versijos.',
-    'LNK_NEW_MAIL_MERGE' => 'Laiškų apjungimas',
+    'LNK_NEW_MAIL_MERGE' => 'El. paštas apjungiamas',
     'LBL_DOC_ID' => 'Dokumento šaltinio ID',
     'LBL_DOC_TYPE' => 'Šaltinis',
     'LBL_DOC_URL' => 'Dokumento šaltinio nuoroda',
