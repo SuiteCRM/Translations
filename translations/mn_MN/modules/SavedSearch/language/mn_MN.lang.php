@@ -56,7 +56,7 @@ $mod_strings = array(
     'LBL_SAVE_SEARCH_AS' => 'Шүүлтийг хадгалах нэр:',
     'LBL_ASCENDING' => 'Өсөх',
     'LBL_DESCENDING' => 'Буурах',
-    'LBL_MODIFY_CURRENT_FILTER' => 'Одоох шүүлтийг өөрчлөх',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
     'LBL_CREATED_BY' => 'Үүсгэсэн',
     'LBL_QUICK_FILTER' => 'Түргэн филтерр',
