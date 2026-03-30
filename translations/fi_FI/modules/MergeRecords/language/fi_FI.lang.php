@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Yhdistä lista',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Etsi yhdistettäviä tietueita',
-    'LBL_AVAIL_FIELDS' => 'Käytettävissä olevat kentät',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'Suodatin',
     'LBL_MERGE_VALUE_OVER' => 'Yhdistä arvot',
 
@@ -58,15 +58,15 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Suorita yhdistäminen',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Suorita yhdistäminen',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Tallenna',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Tallenna',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => 'Löytyneet tietueet',
     'LBL_SELECT_ERROR' => 'Suorita valinta ennen kuin jatkat.',
     'LBL_CHANGE_PARENT' => 'Aseta ensisijaiseksi',
-    'LBL_REMOVE_FROM_MERGE' => 'Poista',
+    'LBL_REMOVE_FROM_MERGE' => 'Remove',
     'LBL_DIFF_COL_VALUES' => 'Eriävät arvot:',
     'LBL_SAME_COL_VALUES' => 'Samat arvot:',
     'LBL_DELETE_MESSAGE' => 'Toiminto poistaa seuraavat tietueet:',
