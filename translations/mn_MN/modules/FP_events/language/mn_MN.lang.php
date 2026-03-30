@@ -86,7 +86,7 @@ $mod_strings = array(
     'LBL_SELECT_DELEGATES_TITLE' => 'Төлөөлөгчдийг сонго:-',
     'LBL_SELECT_DELEGATES_TARGET_LIST' => 'Target List',
     'LBL_SELECT_DELEGATES_TARGETS' => 'Зорилт',
-    'LBL_SELECT_DELEGATES_CONTACTS' => 'Харилцагч',
+    'LBL_SELECT_DELEGATES_CONTACTS' => 'Харилцагчид',
     'LBL_SELECT_DELEGATES_LEADS' => 'Сонирхогчид',
     'LBL_MANAGE_DELEGATES' => 'Төлөөлөгчдийг удирдах',
     'LBL_MANAGE_DELEGATES_TITLE' => 'Төлөөлөгчдийг удирдах:-',
@@ -107,7 +107,7 @@ $mod_strings = array(
     'LBL_ERROR_MSG_5' => 'Мэйл загвар (темплэйт) алдаатай',
     'LBL_EMAIL_INVITE' => 'Урилга мэйлдэх',
 
-    'LBL_FP_EVENTS_CONTACTS_FROM_CONTACTS_TITLE' => 'Харилцагч',
+    'LBL_FP_EVENTS_CONTACTS_FROM_CONTACTS_TITLE' => 'Харилцагчид',
     'LBL_FP_EVENT_LOCATIONS_FP_EVENTS_1_FROM_FP_EVENT_LOCATIONS_TITLE' => 'Байршил',
     'LBL_FP_EVENTS_LEADS_1_FROM_LEADS_TITLE' => 'Сонирхогчид',
     'LBL_FP_EVENTS_PROSPECTS_1_FROM_PROSPECTS_TITLE' => 'Зорилт',
