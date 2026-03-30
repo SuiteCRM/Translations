@@ -44,13 +44,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     //Column header mapping
-    'action' => 'Veiksmas',
-    'date_modified' => 'Paskutinių veiksmų data',
+    'action' => 'Action',
+    'date_modified' => 'Date of Last Action',
     'item_id' => 'ID',
     'item_summary' => 'Vardas',
-    'module_name' => 'Modulio pavadinimas',
+    'module_name' => 'Module Name',
     'users' => 'Vartotojas',
 
     //Administration related labels
-    'LBL_MODULE_NAME' => 'Auditas',
+    'LBL_MODULE_NAME' => 'Sekamos nuorodos',
 );
