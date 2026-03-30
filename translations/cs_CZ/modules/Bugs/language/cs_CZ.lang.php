@@ -57,11 +57,11 @@ $mod_strings = array(
     'LBL_CONTACT_NAME' => 'Jméno kontaktu:',
     'LBL_CONTACT_ROLE' => 'Role:',
     'LBL_LIST_NUMBER' => 'Číslo',
-    'LBL_LIST_SUBJECT' => 'Předmět',
+    'LBL_LIST_SUBJECT' => 'Subject',
     'LBL_LIST_STATUS' => 'Stav',
-    'LBL_LIST_PRIORITY' => 'Priorita',
-    'LBL_LIST_RESOLUTION' => 'Výsledek',
-    'LBL_LIST_LAST_MODIFIED' => 'Poslední úprava',
+    'LBL_LIST_PRIORITY' => 'Priority',
+    'LBL_LIST_RESOLUTION' => 'Rozlišení',
+    'LBL_LIST_LAST_MODIFIED' => 'Poslední změna',
     'LBL_INVITEE' => 'Kontakty',
     'LBL_TYPE' => 'Typ:',
     'LBL_LIST_TYPE' => 'Typ',
@@ -83,8 +83,8 @@ $mod_strings = array(
     'LBL_MODIFIED_BY' => 'Naposledy změnil:',
 
     'LBL_LIST_EMAIL_ADDRESS' => 'Emailová adresa',
-    'LBL_LIST_CONTACT_NAME' => 'Název kontaktu',
-    'LBL_LIST_ACCOUNT_NAME' => 'Jméno klienta',
+    'LBL_LIST_CONTACT_NAME' => 'Jméno kontaktu',
+    'LBL_LIST_ACCOUNT_NAME' => 'Název Firmy',
     'LBL_LIST_PHONE' => 'Telefon',
     'NTC_DELETE_CONFIRMATION' => 'Opravdu chcete odebrat tento kontakt z chyb?',
     'NTC_SNOOZE_CONFIRMATION' => 'Are you sure you want to snooze?',
@@ -100,6 +100,6 @@ $mod_strings = array(
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Přiřazený uživatel',
     'LBL_ASSIGNED_TO_NAME' => 'Přiřazeno k',
 
-    'LBL_BUG_INFORMATION' => 'Informace o klientovi', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_BUG_INFORMATION' => 'PŘEHLED', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
 );
