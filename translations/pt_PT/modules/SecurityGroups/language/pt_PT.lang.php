@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ALL_MODULES' => 'Tudo',//rost fix
+    'LBL_ALL_MODULES' => 'All',//rost fix
     'LBL_ASSIGNED_TO_ID' => 'ID do utilizador atribuído',
     'LBL_ASSIGNED_TO_NAME' => 'Atribuído a',
     'LBL_ID' => 'ID',
@@ -52,21 +52,21 @@ $mod_strings = array(
     'LBL_MODIFIED' => 'Alterado por',
     'LBL_MODIFIED_NAME' => 'Alterado por (nome)',
     'LBL_CREATED' => 'Criado por',
-    'LBL_DESCRIPTION' => 'Descrição',
+    'LBL_DESCRIPTION' => 'Descrição:',
     'LBL_DELETED' => 'Eliminado',
     'LBL_NONINHERITABLE' => 'Não herdável',
-    'LBL_LIST_NONINHERITABLE' => 'Não herdável',
+    'LBL_LIST_NONINHERITABLE' => 'Not Inheritable',
     'LBL_NAME' => 'Nome',
     'LBL_CREATED_USER' => 'Criado pelo utilizador',
     'LBL_MODIFIED_USER' => 'Alterado pelo utilizador',
-    'LBL_LIST_FORM_TITLE' => 'Grupos de segurança',
+    'LBL_LIST_FORM_TITLE' => 'Security Groups',
     'LBL_MODULE_NAME' => 'SecuritySuite — Gestão',
     'LBL_MODULE_TITLE' => 'SecuritySuite — Gestão',
     'LNK_NEW_RECORD' => 'Novo grupo de segurança',
-    'LNK_LIST' => 'Vista de lista',
+    'LNK_LIST' => 'Vista em lista',
     'LBL_SEARCH_FORM_TITLE' => 'Gestão de grupos de segurança — Pesquisa',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Histórico',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Atividades',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'History',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Grupos de segurança — Gestão',
     'LBL_USERS' => 'Utilizadores',
     'LBL_USERS_SUBPANEL_TITLE' => 'Utilizadores',
@@ -95,24 +95,24 @@ $mod_strings = array(
     'LBL_FILTER_USER_LIST_DESC' => "Os utilizadores não administradores apenas podem fazer atribuições a utilizadores nos mesmos grupos",
 
     'LBL_DEFAULT_GROUP_TITLE' => 'Grupo predefinido para novos registos',
-    'LBL_ADD_BUTTON_LABEL' => 'Adicionar',
+    'LBL_ADD_BUTTON_LABEL' => 'Add',
     'LBL_REMOVE_BUTTON_LABEL' => 'Remover',
     'LBL_GROUP' => 'Grupo:',
     'LBL_MODULE' => 'Módulo:',
 
     'LBL_MASS_ASSIGN' => 'Grupos de segurança: atribuição em lote',
-    'LBL_ASSIGN' => 'Atribuir',
+    'LBL_ASSIGN' => 'Assign',
     'LBL_REMOVE' => 'Remover',
     'LBL_ASSIGN_CONFIRM' => 'Tem a certeza de que pretende adicionar este grupo a(o) ',
     'LBL_REMOVE_CONFIRM' => 'Tem a certeza de que pretende remover este grupo da(o) ',
-    'LBL_CONFIRM_END' => ' o(s) registo(s) selecionado(s)?',
+    'LBL_CONFIRM_END' => ' selected record(s)?',
 
     'LBL_SECURITYGROUP_USER_FORM_TITLE' => 'Grupo de Segurança/Utilizador',
     'LBL_USER_NAME' => 'Nome de utilizador',
     'LBL_SECURITYGROUP_NAME' => 'Nome do grupo de segurança',
     'LBL_HOMEPAGE_TITLE' => 'Mensagens do grupo',
-    'LBL_TITLE' => 'Título',
-    'LBL_ROWS' => 'Linhas',
+    'LBL_TITLE' => 'Title',
+    'LBL_ROWS' => 'Rows',
     'LBL_POST' => 'Publicar',
     'LBL_SELECT_GROUP_ERROR' => 'Por favor, selecione um grupo e tente novamente.',
 
@@ -122,7 +122,7 @@ $mod_strings = array(
 
     'LBL_INBOUND_EMAIL' => 'Conta de entrada de correio',
     'LBL_INBOUND_EMAIL_DESC' => 'Só permitir o acesso a uma conta de correio se o utilizador pertencer a um grupo que esteja atribuído à conta de correio.',
-    'LBL_PRIMARY_GROUP' => 'Grupo principal',
+    'LBL_PRIMARY_GROUP' => 'Primary Group',
     'LBL_CHECKMARK' => 'Marca de verificação',
 
 );
