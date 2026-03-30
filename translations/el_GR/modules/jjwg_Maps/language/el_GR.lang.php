@@ -42,10 +42,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_MAP'] = 'Χάρτης';
-$mod_strings['LBL_MODULE_NAME'] = 'Χάρτες';
+$mod_strings['LBL_MAP'] = 'Map';
+$mod_strings['LBL_MODULE_NAME'] = 'Maps';
 $mod_strings['LBL_MODULE_TITLE'] = 'Χάρτες: Αρχική';
-$mod_strings['LBL_MODULE_ID'] = 'Χάρτες';
+$mod_strings['LBL_MODULE_ID'] = 'Maps';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'Χάρτες';
 $mod_strings['LBL_MAP_CUSTOM_MARKER'] = 'Προσαρμοσμένος Δείκτης';
 $mod_strings['LBL_MAP_CUSTOM_AREA'] = 'Προσαρμοσμένη περιοχή';
@@ -59,59 +59,59 @@ $mod_strings['LBL_UNIT_TYPE'] = 'Τύπος Μονάδας :';
 $mod_strings['LBL_MAP_DISPLAY'] = 'Προβολή Χάρτη';
 $mod_strings['LBL_MAP_LEGEND'] = 'Υπόμνημα :';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'Ομάδες:';
-$mod_strings['LBL_MAP_GROUP'] = 'Ομάδα χρήστη';
-$mod_strings['LBL_MAP_TYPE'] = 'Τύπος';
-$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Υπεύθυνος:';
+$mod_strings['LBL_MAP_GROUP'] = 'Group';
+$mod_strings['LBL_MAP_TYPE'] = 'Type';
+$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Assigned to:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'Λήψη Οδηγιών';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'Google Maps View';
 
 $mod_strings['LNK_NEW_MAP'] = 'Προσθήκη Νέου Χάρτη';
-$mod_strings['LNK_NEW_RECORD'] = 'Προσθήκη Νέου Χάρτη';
+$mod_strings['LNK_NEW_RECORD'] = 'Add New Map';
 $mod_strings['LNK_MAP_LIST'] = 'Προβολή Χαρτών';
 
-$mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Δοκιμή Χαρτογράφησης';
+$mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Geocoding Test';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'Quick Radius Map';
-$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'Κανένα';
-$mod_strings['LBL_MAP_ADDRESS'] = 'Διεύθυνση';
+$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'None';
+$mod_strings['LBL_MAP_ADDRESS'] = 'Address';
 $mod_strings['LBL_MAP_PROCESS'] = 'Process It!';
 
 $mod_strings['LBL_MAP_LAST_STATUS'] = 'Last Geocode Status';
 $mod_strings['LBL_GEOCODED_COUNTS'] = 'Module Geocoded Counts';
 $mod_strings['LBL_CRON_URL'] = 'Cron URL:';
-$mod_strings['LBL_MODULE_HEADING'] = 'Στοιχείο';
+$mod_strings['LBL_MODULE_HEADING'] = 'Module';
 
 $mod_strings['LBL_N/A'] = 'N/A';
 $mod_strings['LBL_ZERO_RESULTS'] = 'Zero Results';
 $mod_strings['LBL_OK'] = 'Ok';
 $mod_strings['LBL_INVALID_REQUEST'] = 'Invalid Request';
 $mod_strings['LBL_APPROXIMATE'] = 'Approximate';
-$mod_strings['LBL_EMPTY'] = 'Άδειο';
+$mod_strings['LBL_EMPTY'] = 'Empty';
 
-$mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Σύνολο';
-$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Επαναφορά';
+$mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Total';
+$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Reset';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = 'The table shown belown shows the number of module objects geocoded, grouped by geocoding response. Keep in mind that the standard Google Maps usage limit is 2500 requests per day . This module will cache the addresses geocoding information during processing to reduce the overall number of requests needed.';
 
 $mod_strings['LBL_CRON_INSTRUCTIONS'] = 'To process the geocoding requests it is recommended to setup a nightly Cron-Job. A custom entry point has been created for this purpose and can be accessed without authentication. The URL shown below is meant to be used with an Administrative Scheduled Task. Please see the documentation for more information.';
 $mod_strings['LBL_EXPORT_ADDRESS_URL'] = 'Εξαγωγή URLs';
 $mod_strings['LBL_EXPORT_INSTRUCTIONS'] = 'Use the links below to export full addresses in need of geocodeing information. Then use an online or offline batch geocoding tool to geocode the addresses. When you are finished geocoding, import the addresses into the Address Cache module to be used with your maps. Note, the Address Cache module is optional. All geocoding information is stored in the representative module.';
-$mod_strings['LBL_ADDRESS_CACHE'] = 'Προσωρινή Μνήμη Διευθύνσεων';
+$mod_strings['LBL_ADDRESS_CACHE'] = 'Address Cache';
 $mod_strings['LBL_ADD_TO_TARGET_LIST'] = 'Προσθήκη στη Λίστα Στόχων';
-$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Επεξεργασία...';
+$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Processing...';
 
 
 $mod_strings['LBL_CONFIG_TITLE'] = 'Διαμόρφωση Ρυθμίσεων';
 $mod_strings['LBL_CONFIG_SAVED'] = 'Οι Ρυθμίσεις Αποθηκεύτηκαν Επιτυχώς!';
-$mod_strings['LBL_BILLING_ADDRESS'] = 'Διεύθυνση Χρέωσης';
-$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Διεύθυνση Αποστολής';
-$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Κύρια Διεύθυνση';
+$mod_strings['LBL_BILLING_ADDRESS'] = 'Billing Address';
+$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Shipping Address';
+$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Primary Address';
 $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'Εναλλακτική Διεύθυνση ';
-$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Εύκαμπτος Συσχετισμός';
+$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex Relate';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Address (Simple, Users)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'Custom (Custom Controller Logic)';
-$mod_strings['LBL_ENABLED'] = 'Ενεργό';
-$mod_strings['LBL_DISABLED'] = 'Ανενεργό';
+$mod_strings['LBL_ENABLED'] = 'Enabled';
+$mod_strings['LBL_DISABLED'] = 'Disabled';
 $mod_strings['LBL_DEFAULT'] = 'Προεπιλογή:';
-$mod_strings['LBL_CONFIG_DEFAULT'] = 'Προεπιλογή:';
+$mod_strings['LBL_CONFIG_DEFAULT'] = 'Default:';
 
 $mod_strings['LBL_CONFIG_VALID_GEOCODE_MODULES'] = 'Valid Geocode Modules:';
 $mod_strings['LBL_CONFIG_VALID_GEOCODE_TABLES'] = 'Valid Geocode Tables:';
@@ -182,10 +182,10 @@ $mod_strings['LBL_CONFIG_MAP_CLUSTER_GRID_SIZE_DESC'] = "'map_clusterer_grid_siz
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_TITLE'] = "Map Markers Clusterer Max Zoom:";
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_DESC'] = "'map_clusterer_max_zoom' is used to set the maximum zoom level at which clustering will not be applied.";
 $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = "Important Note: All saved settings can be found in the 'config' table under category 'jjwg'. Note, a custom controller.php file should no longer be used to override settings.";
-$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Περιοχές';
+$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Areas';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'Δείκτες';
-$mod_strings['LBL_PARENT_ID'] = 'Γονικός Κωδικός';
-$mod_strings['LBL_JJWP_PARTNERS'] = 'Συνεργάτες JJWP';
+$mod_strings['LBL_PARENT_ID'] = 'Parent ID';
+$mod_strings['LBL_JJWP_PARTNERS'] = 'JJWP Partners';
 $mod_strings['LBL_GET_GOOGLE_API_KEY'] = 'Get A Key';
 $mod_strings['LBL_GOOGLE_API_KEY'] = 'Google Api Key';
 $mod_strings['LBL_ERROR_NO_GOOGLE_API_KEY'] = 'Please set the Google Api Key in the Google Maps Administrative Panel.';
