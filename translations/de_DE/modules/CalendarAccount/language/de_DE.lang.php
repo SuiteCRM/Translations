@@ -31,39 +31,39 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
     // System fields
-    'LBL_ASSIGNED_TO_ID' => 'Zugewiesene Benutzer-ID',
-    'LBL_ASSIGNED_TO_NAME' => 'Zugewiesen',
-    'LBL_DATE_ENTERED' => 'Erstellungsdatum',
-    'LBL_DATE_MODIFIED' => 'Änderungsdatum',
-    'LBL_MODIFIED' => 'Geändert von',
-    'LBL_MODIFIED_NAME' => 'Name geändert',
-    'LBL_CREATED' => 'Erstellt von',
-    'LBL_CREATED_USER' => 'Erstellt von Benutzer',
-    'LBL_MODIFIED_USER' => 'Geändert von Benutzer',
-    'LBL_DESCRIPTION' => 'Beschreibung',
-    'LBL_DELETED' => 'Gelöscht',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
+    'LBL_DATE_ENTERED' => 'Date Created',
+    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_MODIFIED' => 'Modified By',
+    'LBL_MODIFIED_NAME' => 'Modified By Name',
+    'LBL_CREATED' => 'Created By',
+    'LBL_CREATED_USER' => 'Created by User',
+    'LBL_MODIFIED_USER' => 'Modified by User',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_DELETED' => 'Deleted',
 
     // Security groups
-    'LBL_SECURITYGROUPS' => 'Sicherheitsgruppen',
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Sicherheitsgruppen',
+    'LBL_SECURITYGROUPS' => 'Security Groups',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
 
     // List view labels
     'LBL_LIST_NAME' => 'Name',
-    'LBL_LIST_DELETE' => 'Löschen',
-    'LBL_EDIT_BUTTON' => 'Bearbeiten',
-    'LBL_REMOVE' => 'Entfernen',
-    'LBL_ASCENDING' => 'Aufsteigend',
-    'LBL_DESCENDING' => 'Absteigend',
+    'LBL_LIST_DELETE' => 'Delete',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
 
     // Email opt-in labels
-    'LBL_OPT_IN' => 'Opt-in',
-    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Einwilligung ausstehend, Bestätigung (Opt-in) nicht gesendet',
-    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Einwilligung ausstehend, Bestätigung (Opt-in) gesendet',
-    'LBL_OPT_IN_CONFIRMED' => 'Einwilligung bestätigt',
+    'LBL_OPT_IN' => 'Opt In',
+    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Pending Confirm opt in, Confirm opt in not sent',
+    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Pending Confirm opt in, Confirm opt in sent',
+    'LBL_OPT_IN_CONFIRMED' => 'Opted in',
 
     // Subpanel titles
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Historie anzeigen',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktivitäten',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
 
@@ -75,8 +75,8 @@ $mod_strings = [
     'LNK_LIST_CREATE_NEW_PERSONAL' => 'Create Personal Calendar Account',
     'LNK_LIST_INBOUND_EMAILS' => 'Inbound Emails',
     'LNK_LIST_OUTBOUND_EMAILS' => 'Outbound Emails',
-    'LNK_LIST_EXTERNAL_OAUTH_PROVIDERS' => 'Externe OAuth-Anbieter',
-    'LNK_LIST_EXTERNAL_OAUTH_CONNECTIONS' => 'Externe OAuth-Verbindungen',
+    'LNK_LIST_EXTERNAL_OAUTH_PROVIDERS' => 'External OAuth Providers',
+    'LNK_LIST_EXTERNAL_OAUTH_CONNECTIONS' => 'External OAuth Connections',
 
     // Basic module labels
     'LBL_MODULE_NAME' => 'Calendar Accounts',
@@ -92,8 +92,8 @@ $mod_strings = [
 
     // Standard fields
     'LBL_NAME' => 'Name',
-    'LBL_ID' => 'Id',
-    'LBL_TYPE' => 'Typ',
+    'LBL_ID' => 'ID',
+    'LBL_TYPE' => 'Type',
     'LBL_SOURCE' => 'Calendar Source',
 
     // OAuth2 Fields
@@ -101,8 +101,8 @@ $mod_strings = [
     'LBL_CONNECT_OAUTH' => 'Connect OAuth',
 
     // Basic Auth Fields
-    'LBL_USERNAME' => 'Benutzername',
-    'LBL_PASSWORD' => 'Kennwort',
+    'LBL_USERNAME' => 'Username',
+    'LBL_PASSWORD' => 'Password',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test Connection',
 
@@ -162,12 +162,12 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Please select a calendar source first.',
 
     // Connection test messages
-    'LBL_CALENDAR' => 'Kalender',
-    'LBL_SUCCESSFUL' => 'Erfolgreich',
-    'LBL_FAILED' => 'Fehler bei',
+    'LBL_CALENDAR' => 'Calendar',
+    'LBL_SUCCESSFUL' => 'Successful',
+    'LBL_FAILED' => 'Failed',
     'LBL_CONNECTION_TEST' => 'Connection Test',
-    'LBL_YES' => 'Ja',
-    'LBL_NO' => 'Nein',
+    'LBL_YES' => 'Yes',
+    'LBL_NO' => 'No',
     'LBL_FOUND_CALENDARS' => 'Found {count} calendars.',
     'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'An error occurred while processing the connection test response. Please check the logs for details.',
     'LBL_CONNECTION_TEST_HTTP_ERROR' => 'Connection test failed with HTTP status',
@@ -182,14 +182,14 @@ $mod_strings = [
 
     // Dialog labels
     'LBL_NOTIFICATION' => 'Notification',
-    'LBL_CONFIRM' => 'Bestätigen',
+    'LBL_CONFIRM' => 'Confirm',
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => 'In Bearbeitung',
-    'LBL_SYNC_STATUS_SUCCESS' => 'Erfolg',
-    'LBL_SYNC_STATUS_WARNING' => 'Warnung',
-    'LBL_SYNC_STATUS_ERROR' => 'Fehler',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => 'In Progress',
+    'LBL_SYNC_STATUS_SUCCESS' => 'Success',
+    'LBL_SYNC_STATUS_WARNING' => 'Warning',
+    'LBL_SYNC_STATUS_ERROR' => 'Error',
 
     // Sync message enum translations
     'LBL_SYNC_MSG_SYNC_COMPLETE' => 'All meetings synced.',
@@ -202,5 +202,5 @@ $mod_strings = [
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Calendar not found.',
 
     // Relationship labels
-    'LBL_MEETINGS' => 'Besprechungen',
+    'LBL_MEETINGS' => 'Meetings',
 ];
