@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_FIELD_NAME' => 'Pole',
+    'LBL_FIELD_NAME' => 'Field',
     'LBL_OLD_NAME' => 'Stará hodnota',
     'LBL_NEW_VALUE' => 'Nová hodnota',
     'LBL_CREATED_BY' => 'Změnil',
     'LBL_LIST_DATE' => 'Datum změny',
     'LBL_AUDITED_FIELDS' => 'Položky sledované v tomto modulu: ',
-    'LBL_CHANGE_LOG' => 'Protokol změn:',
+    'LBL_CHANGE_LOG' => 'Change Log',
 );
