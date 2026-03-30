@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_FIELD_NAME' => 'Feld',
+    'LBL_FIELD_NAME' => 'Field',
     'LBL_OLD_NAME' => 'Alter Wert',
     'LBL_NEW_VALUE' => 'Neuer Wert',
     'LBL_CREATED_BY' => 'Geändert von',
     'LBL_LIST_DATE' => 'Änderungsdatum',
     'LBL_AUDITED_FIELDS' => 'Auditierte Felder in diesem Modul ',
-    'LBL_CHANGE_LOG' => 'Änderungs-Log:',
+    'LBL_CHANGE_LOG' => 'Change Log',
 );
