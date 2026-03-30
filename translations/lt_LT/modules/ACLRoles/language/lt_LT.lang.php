@@ -43,23 +43,23 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Funkcijos',
+    'LBL_MODULE_NAME' => 'Rolė',
     'LBL_MODULE_TITLE' => 'Rolės: Pradžia',
-    'LBL_ROLE' => 'Rolė',
+    'LBL_ROLE' => 'Role',
     'LBL_NAME' => 'Vardas',
-    'LBL_DESCRIPTION' => 'Aprašymas',
-    'LIST_ROLES' => 'Rolių sąrašas',
+    'LBL_DESCRIPTION' => 'Aprašymas:',
+    'LIST_ROLES' => 'List Roles',
     'LBL_USERS_SUBPANEL_TITLE' => 'Vartotojas',
-    'LIST_ROLES_BY_USER' => 'Rolių sąrašas pagal vartotoją',
+    'LIST_ROLES_BY_USER' => 'Vartotojo rolių sąrašas',
     'LBL_LIST_FORM_TITLE' => 'Funkcijos',
-    'LBL_ROLES_SUBPANEL_TITLE' => 'Vartotojų rolės',
+    'LBL_ROLES_SUBPANEL_TITLE' => 'Vartotojo rolė',
     'LBL_SEARCH_FORM_TITLE' => 'Paieška',
     'LBL_CREATE_ROLE' => 'Sukurti rolę',
     'LBL_EDIT_VIEW_DIRECTIONS' => 'Du kartus paspauskite ant langelio, kad pakeisti jo reikšmę.',
-    'LBL_ACCESS_DEFAULT' => 'Nenustatyta',
-    'LBL_ACTION_ADMIN' => 'Priėjimo tipas',
+    'LBL_ACCESS_DEFAULT' => 'Not Set',
+    'LBL_ACTION_ADMIN' => 'Access Type',
     'LBL_ALL' => 'Visi susiję',
     'LBL_DUPLICATE_OF' => 'Yra kopija',
 
-    'LBL_SECURITYGROUPS' => 'Apsaugotos grupės',
+    'LBL_SECURITYGROUPS' => 'Security Groups',
 );
