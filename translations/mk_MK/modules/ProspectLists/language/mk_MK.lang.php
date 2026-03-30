@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Листи на целни групи',
-    'LBL_MODULE_ID' => 'Листи на целни групи',
+    'LBL_MODULE_NAME' => 'Target Lists',
+    'LBL_MODULE_ID' => 'Target Lists',
     'LBL_MODULE_TITLE' => 'Target Lists: Home',
     'LBL_SEARCH_FORM_TITLE' => 'Target Lists Search',
-    'LBL_LIST_FORM_TITLE' => 'Листи на целни групи',
+    'LBL_LIST_FORM_TITLE' => 'Target Lists',
     'LBL_PROSPECT_LIST_NAME' => 'Target List:',
     'LBL_NAME' => 'Име',
     'LBL_ENTRIES' => 'Total Entries',
@@ -70,14 +70,14 @@ $mod_strings = array(
     'LBL_MODIFIED_BY' => 'Променето од',
     'LBL_CREATED_BY' => 'Направено од',
     'LNK_NEW_PROSPECT' => 'Create Target',
-    'LNK_PROSPECT_LIST' => 'Целни групи',
+    'LNK_PROSPECT_LIST' => 'Targets',
 
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Контакти',
     'LBL_LEADS_SUBPANEL_TITLE' => 'Потенцијални купувачи',
-    'LBL_PROSPECTS_SUBPANEL_TITLE' => 'Целни групи',
+    'LBL_PROSPECTS_SUBPANEL_TITLE' => 'Targets',
     'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Кориснички сметки',
     'LBL_COPY_PREFIX' => 'Copy of',
-    'LBL_USERS_SUBPANEL_TITLE' => 'Корисници',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
     'LBL_TYPE' => 'Тип',
     'LBL_LIST_TYPE' => 'Тип',
     'LBL_LIST_TYPE_LIST_NAME' => 'Тип',
@@ -87,8 +87,8 @@ $mod_strings = array(
     'LBL_DOMAIN' => 'No emails to Domain',
     'LBL_LIST_PROSPECTLIST_NAME' => 'Име',
 
-    'LBL_EMAIL_MARKETING' => 'Еmail маркетинг',
+    'LBL_EMAIL_MARKETING' => 'Email Marketing',
 
-    'LBL_ASCENDING' => 'Растечки',
-    'LBL_DESCENDING' => 'Опаѓачки',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
 );
