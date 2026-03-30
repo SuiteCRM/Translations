@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Profil uprawnień',
+    'LBL_ROLE' => 'Rola',
     'LBL_NAME' => 'Nazwa',
     'LBL_DESCRIPTION' => 'Opis',
     'LIST_ROLES' => 'Lista Profili uprawnień',
@@ -51,7 +51,7 @@ $mod_strings = array(
     'LIST_ROLES_BY_USER' => 'Lista Profili według Użytkowników',
     'LBL_ROLES_SUBPANEL_TITLE' => 'Profil uprawnień Użytkownika',
     'LBL_SEARCH_FORM_TITLE' => 'Szukaj',
-    'LBL_NO_ACCESS' => 'Nie masz uprawnień do tego obszaru. Powiadom o tym administratora systemu CRM.',
+    'LBL_NO_ACCESS' => 'You do not have access to this area. Contact your site administrator to obtain access.',
     'LBL_REDIRECT_TO_HOME' => 'Przekierowanie na pulpit za',
     'LBL_SECONDS' => 'sekund',
     'LBL_ADDING' => 'Dodawanie do ',
