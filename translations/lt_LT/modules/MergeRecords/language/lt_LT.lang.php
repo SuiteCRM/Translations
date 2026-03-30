@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Apjungti sąrašą',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Ieškoti įrašo su kuo apjungti',
-    'LBL_AVAIL_FIELDS' => 'Galimi laukai',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'Filtro sąlygos',
     'LBL_MERGE_VALUE_OVER' => 'Apjungti reikšmę',
 
@@ -58,10 +58,10 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Atlikti apjungimą',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Atlikti apjungimą',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Saugoti apjungimą',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Saugoti apjungimą',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => 'Rasti įrašai su kuriais galima apjungti',
     'LBL_SELECT_ERROR' => 'Jūs privalote pasirinkti prieš tęsiant toliau.',
