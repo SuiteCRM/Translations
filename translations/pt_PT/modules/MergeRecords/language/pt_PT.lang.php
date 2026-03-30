@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Lista de fusões',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Passo 1: Encontrar registos de pesquisa para fundir',
-    'LBL_AVAIL_FIELDS' => 'Campos disponíveis',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'Condição do Filtro',
     'LBL_MERGE_VALUE_OVER' => 'Fundir valor sobre',
 
