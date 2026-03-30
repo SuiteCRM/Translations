@@ -87,25 +87,25 @@ $mod_strings = array(
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'Liste des documents',
     'LBL_LIST_DOCUMENT' => 'Document',
-    'LBL_LIST_CATEGORY' => 'Catégorie',
-    'LBL_LIST_SUBCATEGORY' => 'Sous Catégorie',
-    'LBL_LIST_REVISION' => 'Version',
+    'LBL_LIST_CATEGORY' => 'Category',
+    'LBL_LIST_SUBCATEGORY' => 'Sub Category',
+    'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => 'Publié par',
     'LBL_LIST_LAST_REV_DATE' => 'Date version',
     'LBL_LIST_VIEW_DOCUMENT' => 'Voir',
-    'LBL_LIST_ACTIVE_DATE' => 'Date de mise à disposition',
-    'LBL_LIST_EXP_DATE' => 'Date expiration',
-    'LBL_LIST_STATUS' => 'Statut',
+    'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
+    'LBL_LIST_EXP_DATE' => 'Expiration Date',
+    'LBL_LIST_STATUS' => 'Status',
 
     //document search form.
-    'LBL_SF_CATEGORY' => 'Catégorie :',
-    'LBL_SF_SUBCATEGORY' => 'Sous Catégorie :',
+    'LBL_SF_CATEGORY' => 'Category:',
+    'LBL_SF_SUBCATEGORY' => 'Sub Category:',
 
     'DEF_CREATE_LOG' => 'Document créé',
 
     //error messages
     'ERR_DOC_NAME' => 'Nom du document',
-    'ERR_DOC_ACTIVE_DATE' => 'Date de mise à disposition',
+    'ERR_DOC_ACTIVE_DATE' => 'Publish Date',
     'ERR_FILENAME' => 'Nom Fichier',
 
     //sub-panel vardefs.
