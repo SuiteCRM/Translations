@@ -88,7 +88,7 @@ $mod_strings['LBL_APPROXIMATE'] = 'Przybliżone';
 $mod_strings['LBL_EMPTY'] = 'Pusty';
 
 $mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Razem';
-$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Resetuj';
+$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Reset';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = 'W poniższej tabeli przedstawiono liczbę obiektów, które zostały zgeokodowane, pogrupowane według odpowiedzi geokodowania. Należy pamiętać, że standardowy limit wykorzystania Google Maps to 2500 żądań dziennie. Moduł ten będzie zapisywać w pamięci podręcznej informacje geokodowanie adresów podczas ich przetwarzania, aby zmniejszyć ogólną liczbę żądań.';
 
 $mod_strings['LBL_CRON_INSTRUCTIONS'] = 'Do przetwarzania żądań geokodowania zaleca się skonfigurować nocne zadanie Cron. Punkt wejścia został utworzony w tym celu i można uzyskać do niego dostęp bez uwierzytelniania. Adres URL wyświetlany poniżej jest przeznaczony do użycia z poziomu zaplanowanych zadań administracyjnych. Prosimy o zapoznanie się z dokumentacją, aby uzyskać więcej informacji.';
@@ -101,15 +101,15 @@ $mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Przetwarzanie...';
 
 $mod_strings['LBL_CONFIG_TITLE'] = 'Ustawienia konfiguracji';
 $mod_strings['LBL_CONFIG_SAVED'] = 'Ustawienia zapisane pomyślnie!';
-$mod_strings['LBL_BILLING_ADDRESS'] = 'Adres do fakturowania';
-$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Adres dostawy';
-$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Główny Adres';
+$mod_strings['LBL_BILLING_ADDRESS'] = 'Billing Address';
+$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Shipping Address';
+$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Primary Address';
 $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'Adres alternatywny';
-$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Wybór zależności';
+$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex Relate';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Adres (prosty, użytkownicy)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'Niestandardowe (Custom Controller Logic)';
-$mod_strings['LBL_ENABLED'] = 'Włączony';
-$mod_strings['LBL_DISABLED'] = 'Wyłączony';
+$mod_strings['LBL_ENABLED'] = 'Enabled';
+$mod_strings['LBL_DISABLED'] = 'Wyłączone';
 $mod_strings['LBL_DEFAULT'] = 'Domyślna:';
 $mod_strings['LBL_CONFIG_DEFAULT'] = 'Domyślna:';
 
