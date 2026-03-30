@@ -88,6 +88,6 @@ $mod_strings = array(
     'LBL_CURRENCY_NAME' => 'Currency Name',
     'LBL_CURRENCY_SYMBOL' => 'Симбол на валута',
     'LBL_EDIT_BUTTON' => 'Промени',
-    'LBL_REMOVE' => 'Отстрани',
+    'LBL_REMOVE' => 'Избриши',
 
 );
