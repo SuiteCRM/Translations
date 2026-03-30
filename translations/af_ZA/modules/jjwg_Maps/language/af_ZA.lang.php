@@ -59,7 +59,7 @@ $mod_strings['LBL_UNIT_TYPE'] = 'Unit Type:';
 $mod_strings['LBL_MAP_DISPLAY'] = 'Map Display';
 $mod_strings['LBL_MAP_LEGEND'] = 'Legend:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'Groups:';
-$mod_strings['LBL_MAP_GROUP'] = 'Groep';
+$mod_strings['LBL_MAP_GROUP'] = 'Group';
 $mod_strings['LBL_MAP_TYPE'] = 'Type';
 $mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Toegewys aan:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'Get Directions';
@@ -71,7 +71,7 @@ $mod_strings['LNK_MAP_LIST'] = 'List Maps';
 
 $mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Geocoding Test';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'Quick Radius Map';
-$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'Geen';
+$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'None';
 $mod_strings['LBL_MAP_ADDRESS'] = 'Address';
 $mod_strings['LBL_MAP_PROCESS'] = 'Process It!';
 
@@ -108,8 +108,8 @@ $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'Alternative Address';
 $mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex Relate';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Address (Simple, Users)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'Custom (Custom Controller Logic)';
-$mod_strings['LBL_ENABLED'] = 'Geaktiveer';
-$mod_strings['LBL_DISABLED'] = 'Onbeskikbaar';
+$mod_strings['LBL_ENABLED'] = 'Enabled';
+$mod_strings['LBL_DISABLED'] = 'Disabled';
 $mod_strings['LBL_DEFAULT'] = 'Default:';
 $mod_strings['LBL_CONFIG_DEFAULT'] = 'Default:';
 
