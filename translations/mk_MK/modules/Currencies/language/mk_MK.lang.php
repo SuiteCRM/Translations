@@ -43,8 +43,8 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Валути',
-    'LBL_LIST_FORM_TITLE' => 'Валути',
+    'LBL_MODULE_NAME' => 'Currencies',
+    'LBL_LIST_FORM_TITLE' => 'Currencies',
     'LBL_CURRENCY' => 'Валута',
     'LBL_ADD' => 'Додади',
     'LBL_MERGE' => 'Merge',
@@ -59,7 +59,7 @@ $mod_strings = array(
     'LBL_LIST_RATE' => 'Conversion Rate',
     'LBL_LIST_RATE_HELP' => 'A Conversion Rate of 0.5 for Euro means that 10 USD = 5 Euro.',
     'LBL_LIST_STATUS' => 'Статус',
-    'LNK_NEW_CONTACT' => 'Нов контакт',
+    'LNK_NEW_CONTACT' => 'New Contact',
     'LNK_NEW_ACCOUNT' => 'Нов Корисник',
     'LNK_NEW_OPPORTUNITY' => 'New Opportunity',
     'LNK_NEW_CASE' => 'New Case',
@@ -73,7 +73,7 @@ $mod_strings = array(
     'currency_status_dom' =>
         array(
             'Active' => 'Активен',
-            'Inactive' => 'Неактивен',
+            'Inactive' => 'Inactive',
         ),
     'LBL_CREATED_BY' => 'Креирано од',
     'LBL_EDIT_LAYOUT' => 'Промени Изглед' /*for 508 compliance fix*/,
