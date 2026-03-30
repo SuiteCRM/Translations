@@ -44,14 +44,14 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
     'LBL_MODULE_NAME' => 'Clienți OAuth',
-    'LBL_MODULE_TITLE' => 'Clienți OAuth',
-    'LBL_MODULE_ID' => 'Clienți OAuth',
+    'LBL_MODULE_TITLE' => 'OAuth2 Clients',
+    'LBL_MODULE_ID' => 'OAuth2 Clients',
     'LBL_IS_CONFIDENTIAL' => 'Este confidențial',
     'LBL_SECRET' => 'Secret',
     'LBL_SECRET_HASHED' => 'Schimbare secret',
     'LBL_LEAVE_BLANK' => 'Lasă necompletat dacă nu se schimbă',
     'LBL_REMEMBER_SECRET' => 'Vă rugăm să rețineți secretul deoarece acesta nu va fi disponibil după ce salvați.',
-    'LBL_REDIRECT_URL' => 'URL de redirecționare',
+    'LBL_REDIRECT_URL' => 'Redirect URL',
     'LBL_ALLOWED_GRANT_TYPE' => 'Tip de acordare permisiune',
     'LBL_DURATION_AMOUNT' => 'Valoare durată',
     'LBL_DURATION_UNIT' => 'Unitate de durată',
@@ -64,13 +64,13 @@ $mod_strings = [
     'LBL_ACCESS_TOKEN_EXPIRES' => 'Token-ul de acces expiră',
     'LBL_REFRESH_TOKEN_EXPIRES' => 'Token-ul de reîmprospătare expiră',
 
-    'LNK_OAUTH2_TOKEN_LIST'=> 'Listă Token-uri OAuth2',
-    'LNK_OAUTH2_CLIENT_LIST' => 'Lista de clienți OAuth2',
+    'LNK_OAUTH2_TOKEN_LIST'=> 'List OAuth2 Tokens',
+    'LNK_OAUTH2_CLIENT_LIST' => 'List OAuth2 Clients',
 
-    'LNK_NEW_OAUTH2_CLIENT' => 'Creare client OAuth2',
-    'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'Client parolă nouă',
-    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'Client nou cu autentificare proprie',
-    'LNK_NEW_OAUTH2_IMPLICIT_CLIENT' => 'Client implicit nou',
-    'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'Client de autorizare nou',
+    'LNK_NEW_OAUTH2_CLIENT' => 'Create OAuth2 Client',
+    'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'New Password Client',
+    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'New Client Credentials Client',
+    'LNK_NEW_OAUTH2_IMPLICIT_CLIENT' => 'New Implicit Client',
+    'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'New Authorization Client',
 
 ];
