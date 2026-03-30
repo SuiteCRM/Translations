@@ -45,9 +45,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_DESCRIPTION' => 'Opis',
     'LBL_NAME' => 'Nazwa',
-    'LBL_LIST_NAME' => 'Nazwa',
+    'LBL_LIST_NAME' => 'Nazwa dokument',
     'LBL_EDIT_BUTTON' => 'Edytuj',
-    'LBL_REMOVE' => 'Usuń',
+    'LBL_REMOVE' => 'Remove',
     'LBL_GRP' => 'Grupa',
     'LBL_ORD' => 'Kolejność',
     'LBL_THUMBNAIL' => 'Miniatura',
