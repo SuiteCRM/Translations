@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
 
-    'LBL_NAME' => 'Имя',
+    'LBL_NAME' => 'Название',
     'LBL_NUMBER' => 'Номер:',
     'LBL_STATUS' => 'Статус:',
     'LBL_PRIORITY' => 'Приоритет:',
@@ -55,14 +55,14 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Пользователь:',
     'LBL_WORK_LOG' => 'Журнал:',
     'LBL_CREATED_BY' => 'Кем создано:',
-    'LBL_DATE_ENTERED' => 'Дата создания:',
-    'LBL_DATE_MODIFIED' => 'Дата изменения:',
+    'LBL_DATE_ENTERED' => 'Date Created:',
+    'LBL_DATE_MODIFIED' => 'Date Modified:',
     'LBL_MODIFIED_BY' => 'Последнее изменение:',
     'LBL_ASSIGNED_USER' => 'Ответственный(ая):',
     'LBL_TYPE' => 'Тип:',
     'LBL_SUBJECT' => 'Тема:',
 
-    'LBL_EDIT_BUTTON' => 'Правка',
+    'LBL_EDIT_BUTTON' => 'Править',
     'LBL_REMOVE' => 'Удалить',
 
 );
