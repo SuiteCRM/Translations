@@ -50,8 +50,8 @@ $mod_strings = [
     'LBL_DATE_ENTERED' => 'Fecha de Creación',
     'LBL_DATE_MODIFIED' => 'Fecha de Modificación',
     'LBL_MODIFIED' => 'Modificado Por',
-    'LBL_MODIFIED_NAME' => 'Modificado por Nombre',
-    'LBL_CREATED' => 'Creado por',
+    'LBL_MODIFIED_NAME' => 'Modified By Name',
+    'LBL_CREATED' => 'Creado Por',
     'LBL_DESCRIPTION' => 'Descripción',
     'LBL_DELETED' => 'Eliminado',
     'LBL_NAME' => 'Nombre',
@@ -68,12 +68,12 @@ $mod_strings = [
 
     'LNK_LIST' => 'Conexiones externas mediante OAuth',
     'LBL_SEARCH_FORM_TITLE' => 'Buscar conexiones externas OAuth',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Ver Historial',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Actividades',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_NEW_FORM_TITLE' => 'Nueva conexión externa OAuth',
 
-    'LBL_LIST_DELETE' => 'Eliminar',
-    'LBL_TYPE' => 'Tipo',
+    'LBL_LIST_DELETE' => 'Delete',
+    'LBL_TYPE' => 'Type',
 
     'LBL_CLIENT_ID' => 'ID de Cliente',
     'LBL_CLIENT_SECRET' => 'Secreto del cliente',
@@ -93,8 +93,8 @@ $mod_strings = [
     'LNK_LIST_CREATE_NEW_PERSONAL' => 'Nueva conexión personal',
     'LNK_LIST_CREATE_NEW_GROUP' => 'Nueva conexión de grupo',
     'LNK_LIST_INBOUND_EMAILS' => 'Cuentas de Email Entrante',
-    'LNK_LIST_OUTBOUND_EMAILS' => 'Cuentas de correo electrónico saliente',
+    'LNK_LIST_OUTBOUND_EMAILS' => 'Outbound Email Accounts',
     'LNK_LIST_EXTERNAL_OAUTH_PROVIDERS' => 'Proveedores de OAuth externos',
 
-    'LBL_OWNER' => 'Propietario',
+    'LBL_OWNER' => 'Owner',
 ];
