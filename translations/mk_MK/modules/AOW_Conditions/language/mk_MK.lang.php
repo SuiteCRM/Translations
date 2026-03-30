@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 
 $mod_strings = array(
-    'LBL_ID' => 'ID',
+    'LBL_ID' => 'Број',
     'LBL_DATE_ENTERED' => 'Дата на креирање',
     'LBL_DATE_MODIFIED' => 'Дата на промена',
     'LBL_MODIFIED' => 'Променето од',
@@ -55,13 +55,13 @@ $mod_strings = array(
     'LBL_DESCRIPTION' => 'Опис',
     'LBL_DELETED' => 'Избришан',
     'LBL_NAME' => 'Име',
-    'LBL_MODULE_NAME' => 'Услови за работниот процес',
-    'LBL_MODULE_TITLE' => 'Услови за работниот процес',
+    'LBL_MODULE_NAME' => 'WorkFlow Conditions',
+    'LBL_MODULE_TITLE' => 'WorkFlow Conditions',
     'LBL_MODULE_PATH' => 'Модул',
-    'LBL_FIELD' => 'Поле',
+    'LBL_FIELD' => 'Field',
     'LBL_OPERATOR' => 'Operator',
     'LBL_VALUE_TYPE' => 'Тип',
-    'LBL_VALUE' => 'Вредост',
+    'LBL_VALUE' => 'Value',
     'LBL_ORDER' => 'Подредување',
     'LBL_AOW_WORKFLOW_ID' => 'WorkFlow Id',
 );
