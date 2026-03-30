@@ -54,8 +54,8 @@ $mod_strings = array(
     'LBL_ORDER_BY_COLUMNS' => 'Order by column',
     'LBL_DIRECTION' => 'Правец',
     'LBL_SAVE_SEARCH_AS' => 'Save filter as:',
-    'LBL_ASCENDING' => 'Растечки',
-    'LBL_DESCENDING' => 'Опаѓачки',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
     'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
     'LBL_CREATED_BY' => 'Креирано од',
