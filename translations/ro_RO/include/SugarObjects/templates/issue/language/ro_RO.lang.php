@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
 
-    'LBL_NAME' => 'Nume',
+    'LBL_NAME' => 'Nume: ',
     'LBL_NUMBER' => 'Număr:',
     'LBL_STATUS' => 'Status:',
     'LBL_PRIORITY' => 'Prioritate:',
@@ -55,14 +55,14 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Utilizator:',
     'LBL_WORK_LOG' => 'Jurnal de activitate:',
     'LBL_CREATED_BY' => 'Creat de:',
-    'LBL_DATE_ENTERED' => 'Data înregistrării:',
-    'LBL_DATE_MODIFIED' => 'Dată Modificare:',
+    'LBL_DATE_ENTERED' => 'Data creării:',
+    'LBL_DATE_MODIFIED' => 'Data modificării:',
     'LBL_MODIFIED_BY' => 'Modificat de:',
     'LBL_ASSIGNED_USER' => 'Atribuit utilizatorului:',
     'LBL_TYPE' => 'Tip:',
     'LBL_SUBJECT' => 'Subiect:',
 
-    'LBL_EDIT_BUTTON' => 'Editează',
-    'LBL_REMOVE' => 'Elimină',
+    'LBL_EDIT_BUTTON' => 'Editați',
+    'LBL_REMOVE' => 'Înlătură',
 
 );
