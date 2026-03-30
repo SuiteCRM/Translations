@@ -62,7 +62,7 @@ $mod_strings = array(
     'LBL_AMOUNT_USDOLLAR' => 'Betrag Standardwährung:',
     'LBL_CURRENCY' => 'Währung:',
     'LBL_DATE_CLOSED' => 'Erwartetes Abschlussdatum:',
-    'LBL_TYPE' => 'Typ:',
+    'LBL_TYPE' => 'Type:',
     'LBL_CAMPAIGN' => 'Kampagne:',
     'LBL_LEADS_SUBPANEL_TITLE' => 'Interessenten',
     'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projekte',
@@ -75,7 +75,7 @@ $mod_strings = array(
     'MSG_DUPLICATE' => 'Der neu erstellte Verkauf könnte das Duplikat eines bereits bestehenden Verkaufs sein. Ähnliche Verkäufe sind unten aufgeführt.<br>Klicken Sie Speichern, um fortzufahren, oder Abbrechen, um zum Modul zurückzukehren, ohne den Verkauf zu speichern.',
     'LBL_NEW_FORM_TITLE' => 'Sonderaktion erstellen',
     'ERR_DELETE_RECORD' => 'Um diesen Verkauf zu löschen, muss eine Datensatznummer angegeben werden.',
-    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Verkauf',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Sale',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktivitäten',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Verlauf',
 
