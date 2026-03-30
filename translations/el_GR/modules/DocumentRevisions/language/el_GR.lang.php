@@ -46,37 +46,37 @@ $mod_strings = array(
     //module
     'LBL_MODULE_NAME' => 'Έκδοση εγγράφου',
 
-    'LNK_NEW_DOCUMENT' => 'Δημιουργία εγράφου',
+    'LNK_NEW_DOCUMENT' => 'Create Document',
     'LNK_DOCUMENT_LIST' => 'Κατάλογος εγγράφων',
 
     //vardef labels
-    'LBL_REVISION_NAME' => 'Αριθμός έκδοσης',
-    'LBL_FILENAME' => 'Όνομα αρχείου',
-    'LBL_MIME' => 'Τύπος  Mime',
-    'LBL_REVISION' => 'Έκδοση',
-    'LBL_DOCUMENT' => 'Σχετικά έγγραφα',
-    'LBL_LATEST_REVISION' => 'Νεότερη έκδοση',
-    'LBL_CHANGE_LOG' => 'Ημερολόγιο αλλαγών',
-    'LBL_ACTIVE_DATE' => 'Ημ/νία δημοσίευσης',
-    'LBL_EXPIRATION_DATE' => 'Ημ/νία λήξης',
-    'LBL_FILE_EXTENSION' => 'Κατάληξη',
+    'LBL_REVISION_NAME' => 'Αριθμός Αναθεώρησης',
+    'LBL_FILENAME' => 'Αρχείο:',
+    'LBL_MIME' => 'Mime Type',
+    'LBL_REVISION' => 'Αναθεώρηση',
+    'LBL_DOCUMENT' => 'Σχετικό Έγγραφο',
+    'LBL_LATEST_REVISION' => 'Τελευταία Αναθεώρηση',
+    'LBL_CHANGE_LOG' => 'Αλλαγή Σύνδεσης:',
+    'LBL_ACTIVE_DATE' => 'Ημερομηνία Ενεργοποίησης',
+    'LBL_EXPIRATION_DATE' => 'Ημερομηνία Λήξης',
+    'LBL_FILE_EXTENSION' => 'Επέκταση Αρχείου',
 
-    'LBL_DOC_NAME' => 'Όνομα εγγράφου:',
-    'LBL_DOC_VERSION' => 'Έκδοση:',
+    'LBL_DOC_NAME' => 'Document Name:',
+    'LBL_DOC_VERSION' => 'Αναθεώρηση:',
 
     //document revisions.
-    'LBL_REV_LIST_REVISION' => 'Έκδοση',
-    'LBL_REV_LIST_ENTERED' => 'Date Entered',
-    'LBL_REV_LIST_CREATED' => 'Δημιουργήθηκε από',
-    'LBL_REV_LIST_LOG' => 'Ημερολόγιο αλλαγών',
+    'LBL_REV_LIST_REVISION' => 'Αναθεώρηση',
+    'LBL_REV_LIST_ENTERED' => 'Ημ/νία καταχώρησης',
+    'LBL_REV_LIST_CREATED' => 'Created by',
+    'LBL_REV_LIST_LOG' => 'Αλλαγή Σύνδεσης:',
     'LBL_REV_LIST_FILENAME' => 'Αρχείο',
 
     'LBL_CURRENT_DOC_VERSION' => 'Τελευταία έκδοση:',
-    'LBL_SEARCH_FORM_TITLE' => 'Αναζητηση εγγραφου',
+    'LBL_SEARCH_FORM_TITLE' => 'Αναζήτηση Εγγράφου',
     'LBL_REVISIONS' => 'Αναθεωρήσεις',
 
     //error messages
-    'ERR_FILENAME' => 'Όνομα',
+    'ERR_FILENAME' => 'Όνομα Αρχείου',
     'ERR_DOC_VERSION' => 'Έκδσοση εγγράφου',
     'ERR_DELETE_CONFIRM' => 'Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτήν την έκδοση;',
     'ERR_DELETE_LATEST_VERSION' => 'Δεν επιτρέπεται η διαγραφή της τελευταίας έκδοσης ενος εγγράφου.',
