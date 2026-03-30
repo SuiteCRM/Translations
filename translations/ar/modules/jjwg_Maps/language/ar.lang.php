@@ -42,10 +42,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_MAP'] = 'خريطة';
-$mod_strings['LBL_MODULE_NAME'] = 'خرائط';
+$mod_strings['LBL_MAP'] = 'Map';
+$mod_strings['LBL_MODULE_NAME'] = 'Maps';
 $mod_strings['LBL_MODULE_TITLE'] = 'الخرائط: الصفحة الرئيسية';
-$mod_strings['LBL_MODULE_ID'] = 'خرائط';
+$mod_strings['LBL_MODULE_ID'] = 'Maps';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'قائمة الخرائط';
 $mod_strings['LBL_MAP_CUSTOM_MARKER'] = 'علامة مخصصة';
 $mod_strings['LBL_MAP_CUSTOM_AREA'] = 'منطقة مخصصة';
@@ -59,59 +59,59 @@ $mod_strings['LBL_UNIT_TYPE'] = 'نوع الوحدة:';
 $mod_strings['LBL_MAP_DISPLAY'] = 'عرض الخريطة';
 $mod_strings['LBL_MAP_LEGEND'] = 'التوضيح:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'المجموعات:';
-$mod_strings['LBL_MAP_GROUP'] = 'المجموعة';
-$mod_strings['LBL_MAP_TYPE'] = 'النوع';
-$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'أُسند إلى:';
+$mod_strings['LBL_MAP_GROUP'] = 'Group';
+$mod_strings['LBL_MAP_TYPE'] = 'Type';
+$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Assigned to:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'الحصول على إرشادات';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'عرض خرائط جوجل';
 
 $mod_strings['LNK_NEW_MAP'] = 'إضافة خريطة جديدة';
-$mod_strings['LNK_NEW_RECORD'] = 'إضافة خريطة جديدة';
+$mod_strings['LNK_NEW_RECORD'] = 'Add New Map';
 $mod_strings['LNK_MAP_LIST'] = 'عرض قائمة الخرائط';
 
-$mod_strings['LBL_MAP_ADDRESS_TEST'] = 'اختبار الترميز الجغرافي';
+$mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Geocoding Test';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'خريطة نصف قطر سريعة';
-$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'لاشئ';
-$mod_strings['LBL_MAP_ADDRESS'] = 'عنوان';
+$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'None';
+$mod_strings['LBL_MAP_ADDRESS'] = 'Address';
 $mod_strings['LBL_MAP_PROCESS'] = 'عالجه!';
 
 $mod_strings['LBL_MAP_LAST_STATUS'] = 'آخر حالة للترميز الجغرافي';
 $mod_strings['LBL_GEOCODED_COUNTS'] = 'عدد الترميزات الجغرافية للوحدة';
 $mod_strings['LBL_CRON_URL'] = 'عنوان URL للأوامر المجدولة (Cron):';
-$mod_strings['LBL_MODULE_HEADING'] = 'الوحدة';
+$mod_strings['LBL_MODULE_HEADING'] = 'Module';
 
 $mod_strings['LBL_N/A'] = 'غير متاح';
 $mod_strings['LBL_ZERO_RESULTS'] = 'لا توجد نتائج';
-$mod_strings['LBL_OK'] = 'موافق';
+$mod_strings['LBL_OK'] = 'Ok';
 $mod_strings['LBL_INVALID_REQUEST'] = 'طلب غير صالح';
 $mod_strings['LBL_APPROXIMATE'] = 'تقريبي';
-$mod_strings['LBL_EMPTY'] = 'فارغ';
+$mod_strings['LBL_EMPTY'] = 'Empty';
 
-$mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'المجموع';
-$mod_strings['LBL_MODULE_RESET_HEADING'] = 'إعادة ضبط';
+$mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Total';
+$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Reset';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = 'يوضح الجدول المعروض أدناه عدد كائنات الوحدة المرمّزة جغرافيًا ، مجمعة حسب استجابة الترميز الجغرافي. ضع في اعتبارك أن حد استخدام خرائط Google القياسي هو 2500 طلب في اليوم. ستقوم هذه الوحدة بتخزين معلومات الترميز الجغرافي للعناوين مؤقتًا أثناء المعالجة لتقليل العدد الإجمالي للطلبات اللازمة.';
 
 $mod_strings['LBL_CRON_INSTRUCTIONS'] = 'لمعالجة طلبات الترميز الجغرافي ، يوصى بإعداد أمر مجدول (Cron-Job) ليليًا. تم إنشاء نقطة دخول مخصصة لهذا الغرض ويمكن الوصول إليها بدون مصادقة. من المفترض أن يتم استخدام عنوان URL الموضح أدناه من خلال مهمة إدارية مجدولة. يرجى الاطلاع على التوثيق لمزيد من المعلومات.';
 $mod_strings['LBL_EXPORT_ADDRESS_URL'] = 'تصدير عناوين URL';
 $mod_strings['LBL_EXPORT_INSTRUCTIONS'] = 'استخدم الروابط أدناه لتصدير العناوين الكاملة التي تحتاج إلى معلومات الترميز الجغرافي. ثم استخدم أداة الترميز الجغرافي على الانترنت أو دون اتصال لترجمة العناوين إلى رموز جغرافية. عند الانتهاء من الترميز الجغرافي، قم باستيراد العناوين إلى وحدة ذاكرة التخزين المؤقت للعناوين لاستخدامها مع الخرائط الخاصة بك. ملاحظة: وحدة ذاكرة التخزين المؤقت للعناوين اختيارية. يتم تخزين جميع معلومات الترميز الجغرافي في الوحدة الممثلة.';
-$mod_strings['LBL_ADDRESS_CACHE'] = 'عنوان الكاش';
+$mod_strings['LBL_ADDRESS_CACHE'] = 'Address Cache';
 $mod_strings['LBL_ADD_TO_TARGET_LIST'] = 'إضافة إلى قائمة المستهدفين';
-$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'جاري المعالجة...';
+$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Processing...';
 
 
 $mod_strings['LBL_CONFIG_TITLE'] = 'إعدادات التهيئة';
 $mod_strings['LBL_CONFIG_SAVED'] = 'تم حفظ الإعدادات بنجاح!';
-$mod_strings['LBL_BILLING_ADDRESS'] = 'ترسل الفاتوة لعنوان';
-$mod_strings['LBL_SHIPPING_ADDRESS'] = 'عنوان الشحن';
-$mod_strings['LBL_PRIMARY_ADDRESS'] = 'العنوان الرئيسي';
+$mod_strings['LBL_BILLING_ADDRESS'] = 'Billing Address';
+$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Shipping Address';
+$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Primary Address';
 $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'العنوان البديل';
-$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'علاقة مرنة (Flex Relate)';
+$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex Relate';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'العنوان (بسيط، مستخدمون)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'مخصص (منطق التحكم المخصص)';
-$mod_strings['LBL_ENABLED'] = 'تمكين';
-$mod_strings['LBL_DISABLED'] = 'غير مُتاح';
+$mod_strings['LBL_ENABLED'] = 'Enabled';
+$mod_strings['LBL_DISABLED'] = 'Disabled';
 $mod_strings['LBL_DEFAULT'] = 'الإفتراضي:';
-$mod_strings['LBL_CONFIG_DEFAULT'] = 'الإفتراضي:';
+$mod_strings['LBL_CONFIG_DEFAULT'] = 'Default:';
 
 $mod_strings['LBL_CONFIG_VALID_GEOCODE_MODULES'] = 'وحدات ترميز جغرافي صالحة:';
 $mod_strings['LBL_CONFIG_VALID_GEOCODE_TABLES'] = 'جداول ترميز جغرافي صالحة:';
@@ -182,10 +182,10 @@ $mod_strings['LBL_CONFIG_MAP_CLUSTER_GRID_SIZE_DESC'] = "يستخدم 'map_clust
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_TITLE'] = "أقصى تكبير لتكتلات علامات الخريطة:";
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_DESC'] = "يستخدم 'map_clusterer_max_zoom' لتعيين الحد الأقصى لمستوى التكبير الذي لن يتم فيه تطبيق التكتلات (clustering).";
 $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = "ملاحظة هامة: يمكن العثور على جميع الإعدادات المحفوظة في جدول الإعداد 'config' تحت الفئة 'jjwg'. ملاحظة، يجب عدم استخدام ملف controlller.php المخصص لتجاوز الإعدادات.";
-$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'المناطق';
+$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Areas';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'العلامات';
-$mod_strings['LBL_PARENT_ID'] = 'مُعرف الأساس';
-$mod_strings['LBL_JJWP_PARTNERS'] = 'شركاء JJWP';
+$mod_strings['LBL_PARENT_ID'] = 'Parent ID';
+$mod_strings['LBL_JJWP_PARTNERS'] = 'JJWP Partners';
 $mod_strings['LBL_GET_GOOGLE_API_KEY'] = 'احصل على مفتاح';
 $mod_strings['LBL_GOOGLE_API_KEY'] = 'مفتاح Google Api';
 $mod_strings['LBL_ERROR_NO_GOOGLE_API_KEY'] = 'الرجاء ضبط مفتاح Google Api في لوحة التحكم لخرائط جوجل.';
