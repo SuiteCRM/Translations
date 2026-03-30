@@ -46,7 +46,7 @@ $mod_strings = [
 
     'LBL_ASSIGNED_TO_ID' => 'Доделено на Корисник ID',
     'LBL_ASSIGNED_TO_NAME' => 'Доделено на',
-    'LBL_ID' => 'ID',
+    'LBL_ID' => 'Број',
     'LBL_DATE_ENTERED' => 'Дата на креирање',
     'LBL_DATE_MODIFIED' => 'Дата на промена',
     'LBL_MODIFIED' => 'Променето од',
@@ -59,7 +59,7 @@ $mod_strings = [
     'LBL_MODIFIED_USER' => 'Променето од корисник',
     'LBL_LIST_NAME' => 'Име',
     'LBL_EDIT_BUTTON' => 'Промени',
-    'LBL_REMOVE' => 'Отстрани',
+    'LBL_REMOVE' => 'Избриши',
     'LBL_LIST_FORM_TITLE' => 'External OAuth Connection List',
     'LBL_MODULE_NAME' => 'External OAuth Connections',
     'LBL_MODULE_TITLE' => 'External OAuth Connections',
@@ -68,7 +68,7 @@ $mod_strings = [
 
     'LNK_LIST' => 'External OAuth Connections',
     'LBL_SEARCH_FORM_TITLE' => 'Search External OAuth Connections',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Види историја',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Активности',
     'LBL_NEW_FORM_TITLE' => 'New External OAuth Connection',
 
@@ -96,5 +96,5 @@ $mod_strings = [
     'LNK_LIST_OUTBOUND_EMAILS' => 'Outbound Email Accounts',
     'LNK_LIST_EXTERNAL_OAUTH_PROVIDERS' => 'External OAuth Providers',
 
-    'LBL_OWNER' => 'Сопственик',
+    'LBL_OWNER' => 'Owner',
 ];
