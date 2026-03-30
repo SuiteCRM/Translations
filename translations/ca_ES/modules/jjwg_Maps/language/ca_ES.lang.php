@@ -42,10 +42,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_MAP'] = 'Mapa';
-$mod_strings['LBL_MODULE_NAME'] = 'Mapes';
+$mod_strings['LBL_MAP'] = 'Map';
+$mod_strings['LBL_MODULE_NAME'] = 'Maps';
 $mod_strings['LBL_MODULE_TITLE'] = 'Mapes: Inici';
-$mod_strings['LBL_MODULE_ID'] = 'Mapes';
+$mod_strings['LBL_MODULE_ID'] = 'Maps';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'Llistat de mapes';
 $mod_strings['LBL_MAP_CUSTOM_MARKER'] = 'Marcador personalitzat';
 $mod_strings['LBL_MAP_CUSTOM_AREA'] = 'Espai personalitzat';
@@ -59,59 +59,59 @@ $mod_strings['LBL_UNIT_TYPE'] = 'Tipus d\'unitat:';
 $mod_strings['LBL_MAP_DISPLAY'] = 'Visualització del mapa';
 $mod_strings['LBL_MAP_LEGEND'] = 'Llegenda:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'Grups:';
-$mod_strings['LBL_MAP_GROUP'] = 'Grup';
-$mod_strings['LBL_MAP_TYPE'] = 'Tipus';
-$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Assignat a:';
+$mod_strings['LBL_MAP_GROUP'] = 'Group';
+$mod_strings['LBL_MAP_TYPE'] = 'Type';
+$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Assigned to:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'Obtenir direccions';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'Visualització de mapes de Google';
 
 $mod_strings['LNK_NEW_MAP'] = 'Afegir un nou mapa';
-$mod_strings['LNK_NEW_RECORD'] = 'Afegir un nou mapa';
+$mod_strings['LNK_NEW_RECORD'] = 'Add New Map';
 $mod_strings['LNK_MAP_LIST'] = 'Llista de mapes';
 
-$mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Prova de geocodificació';
+$mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Geocoding Test';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'Quick Radius Map';
-$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'Rés';
-$mod_strings['LBL_MAP_ADDRESS'] = 'Direcció';
+$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'None';
+$mod_strings['LBL_MAP_ADDRESS'] = 'Address';
 $mod_strings['LBL_MAP_PROCESS'] = 'Processar!';
 
 $mod_strings['LBL_MAP_LAST_STATUS'] = 'Darrera estat de codificació geogràfica';
 $mod_strings['LBL_GEOCODED_COUNTS'] = 'Módul de contes geocodificades';
 $mod_strings['LBL_CRON_URL'] = 'URL de cron:';
-$mod_strings['LBL_MODULE_HEADING'] = 'Mòdul';
+$mod_strings['LBL_MODULE_HEADING'] = 'Module';
 
 $mod_strings['LBL_N/A'] = 'No disponible';
 $mod_strings['LBL_ZERO_RESULTS'] = 'No hi ha resultats';
 $mod_strings['LBL_OK'] = 'Ok';
 $mod_strings['LBL_INVALID_REQUEST'] = 'Petició invàlida';
 $mod_strings['LBL_APPROXIMATE'] = 'Aproximat';
-$mod_strings['LBL_EMPTY'] = 'Vuit';
+$mod_strings['LBL_EMPTY'] = 'Empty';
 
 $mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Total';
-$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Restablir';
+$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Reset';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = 'La taula de belown mostren el nombre d\'objectes mòdul geolocalitzada, agrupats per resposta Geocodificació. Tingueu en compte que el límit de l\'ús de Google Maps estàndard és de 2500 sol·licituds per dia. Aquest mòdul amagatall de voluntat la informació Geocodificació de les adreces durant el processat per reduir el nombre total de sol·licituds necessàries.';
 
 $mod_strings['LBL_CRON_INSTRUCTIONS'] = 'Per tramitar les sol. licituds Geocodificació es recomana configurar una feina de Cron cada nit. Un punt d\'entrada costum s\'ha creat a aquest efecte i es pot accedir sense autenticació. L\'URL següent està destinat a ser utilitzat amb un planificat tasca administrativa. Si us plau, vegeu la documentació per a més informació.';
 $mod_strings['LBL_EXPORT_ADDRESS_URL'] = 'Exportar URLs';
 $mod_strings['LBL_EXPORT_INSTRUCTIONS'] = 'Utilitzeu els següents enllaços per exportar adreces complets que necessiten informació geocodeing. Llavors utilitzar una eina en línia o offline lot Geocodificació Geocodifica les adreces. Quan hàgiu acabat Geocodificació, importar les adreces al mòdul d\'adreça memòria cau per utilitzar amb els seus mapes. Tingueu en compte que el mòdul d\'adreça memòria cau és opcional. Tota la informació Geocodificació s\'emmagatzema en el mòdul representatiu.';
-$mod_strings['LBL_ADDRESS_CACHE'] = 'Caché de direccions';
+$mod_strings['LBL_ADDRESS_CACHE'] = 'Address Cache';
 $mod_strings['LBL_ADD_TO_TARGET_LIST'] = 'afegir a la llista de destinacions';
-$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Processant...';
+$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Processing...';
 
 
 $mod_strings['LBL_CONFIG_TITLE'] = 'Configuració';
 $mod_strings['LBL_CONFIG_SAVED'] = 'Configuracions desades amb èxit!';
-$mod_strings['LBL_BILLING_ADDRESS'] = 'Direcció facturació';
-$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Direcció d\'Enviament';
-$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Direcció principal';
+$mod_strings['LBL_BILLING_ADDRESS'] = 'Billing Address';
+$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Shipping Address';
+$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Primary Address';
 $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'Direcció alternativa';
-$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Possiblement relacionat amb ';
+$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex Relate';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'adreces (simple, usuari)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'Modificació (Modificar la lògica del controlador)';
-$mod_strings['LBL_ENABLED'] = 'Habilitat';
-$mod_strings['LBL_DISABLED'] = 'Deshabilitat';
+$mod_strings['LBL_ENABLED'] = 'Enabled';
+$mod_strings['LBL_DISABLED'] = 'Disabled';
 $mod_strings['LBL_DEFAULT'] = 'Per defecte:';
-$mod_strings['LBL_CONFIG_DEFAULT'] = 'Per defecte:';
+$mod_strings['LBL_CONFIG_DEFAULT'] = 'Default:';
 
 $mod_strings['LBL_CONFIG_VALID_GEOCODE_MODULES'] = 'Mòduls vàlids geocodificats:';
 $mod_strings['LBL_CONFIG_VALID_GEOCODE_TABLES'] = 'Taules vàlides geocodificades:';
@@ -182,10 +182,10 @@ $mod_strings['LBL_CONFIG_MAP_CLUSTER_GRID_SIZE_DESC'] = "'map_clusterer_grid_siz
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_TITLE'] = "Zoom màxim del clúster de marcadors: ";
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_DESC'] = "'map_clusterer_max_zoom' s'utilitza per modificar el nivell màxim de zoom al que el clúster no aplica.";
 $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = "Nota important: totes les configuracions guardades poden ser trobades a la taula 'config' sota la categoria 'jjwg'. Nota, un controller.php configurat no pot ser utilitzar per sobrescriu-re previes configuracions.";
-$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Àrees';
+$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Areas';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'Marcadors';
-$mod_strings['LBL_PARENT_ID'] = 'Id pare';
-$mod_strings['LBL_JJWP_PARTNERS'] = 'JJWP socis';
+$mod_strings['LBL_PARENT_ID'] = 'Parent ID';
+$mod_strings['LBL_JJWP_PARTNERS'] = 'JJWP Partners';
 $mod_strings['LBL_GET_GOOGLE_API_KEY'] = 'Aconseguir una clau';
 $mod_strings['LBL_GOOGLE_API_KEY'] = 'Clau d\'Api de Google';
 $mod_strings['LBL_ERROR_NO_GOOGLE_API_KEY'] = 'Establiu la clau de Google Api al Panell Administratiu de Google Maps.
