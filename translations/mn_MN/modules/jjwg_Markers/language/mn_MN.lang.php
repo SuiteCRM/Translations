@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings['LBL_ASSIGNED_TO_ID'] = 'Хариуцагчийн ID';
-$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Хэрэглэгч';
+$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Хариуцагч';
 $mod_strings['LBL_ID'] = 'ID';
 $mod_strings['LBL_DATE_ENTERED'] = 'Үүссэн Огноо';
 $mod_strings['LBL_DATE_MODIFIED'] = 'Өөрчилсөн';
