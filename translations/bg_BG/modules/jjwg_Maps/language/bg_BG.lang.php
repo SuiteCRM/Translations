@@ -42,10 +42,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_MAP'] = 'Карта';
-$mod_strings['LBL_MODULE_NAME'] = 'Карти';
+$mod_strings['LBL_MAP'] = 'Map';
+$mod_strings['LBL_MODULE_NAME'] = 'Maps';
 $mod_strings['LBL_MODULE_TITLE'] = 'Maps: Home';
-$mod_strings['LBL_MODULE_ID'] = 'Карти';
+$mod_strings['LBL_MODULE_ID'] = 'Maps';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'Maps Listing';
 $mod_strings['LBL_MAP_CUSTOM_MARKER'] = 'Потребителски маркер';
 $mod_strings['LBL_MAP_CUSTOM_AREA'] = 'Потребителска зона';
@@ -59,9 +59,9 @@ $mod_strings['LBL_UNIT_TYPE'] = 'Unit Type:';
 $mod_strings['LBL_MAP_DISPLAY'] = 'Map Display';
 $mod_strings['LBL_MAP_LEGEND'] = 'Legend:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'Groups:';
-$mod_strings['LBL_MAP_GROUP'] = 'Група';
-$mod_strings['LBL_MAP_TYPE'] = 'Тип';
-$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Отговорник:';
+$mod_strings['LBL_MAP_GROUP'] = 'Group';
+$mod_strings['LBL_MAP_TYPE'] = 'Type';
+$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Assigned to:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'Get Directions';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'Google Maps View';
 
@@ -71,24 +71,24 @@ $mod_strings['LNK_MAP_LIST'] = 'List Maps';
 
 $mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Geocoding Test';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'Quick Radius Map';
-$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'Без отговор';
-$mod_strings['LBL_MAP_ADDRESS'] = 'Адрес';
+$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'None';
+$mod_strings['LBL_MAP_ADDRESS'] = 'Address';
 $mod_strings['LBL_MAP_PROCESS'] = 'Process It!';
 
 $mod_strings['LBL_MAP_LAST_STATUS'] = 'Last Geocode Status';
 $mod_strings['LBL_GEOCODED_COUNTS'] = 'Module Geocoded Counts';
 $mod_strings['LBL_CRON_URL'] = 'Cron URL:';
-$mod_strings['LBL_MODULE_HEADING'] = 'Модул';
+$mod_strings['LBL_MODULE_HEADING'] = 'Module';
 
 $mod_strings['LBL_N/A'] = 'N/A';
 $mod_strings['LBL_ZERO_RESULTS'] = 'Zero Results';
-$mod_strings['LBL_OK'] = 'Ок';
+$mod_strings['LBL_OK'] = 'Ok';
 $mod_strings['LBL_INVALID_REQUEST'] = 'Invalid Request';
 $mod_strings['LBL_APPROXIMATE'] = 'Approximate';
-$mod_strings['LBL_EMPTY'] = 'Празно';
+$mod_strings['LBL_EMPTY'] = 'Empty';
 
 $mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Total';
-$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Рeдактиране';
+$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Reset';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = 'The table shown belown shows the number of module objects geocoded, grouped by geocoding response. Keep in mind that the standard Google Maps usage limit is 2500 requests per day . This module will cache the addresses geocoding information during processing to reduce the overall number of requests needed.';
 
 $mod_strings['LBL_CRON_INSTRUCTIONS'] = 'To process the geocoding requests it is recommended to setup a nightly Cron-Job. A custom entry point has been created for this purpose and can be accessed without authentication. The URL shown below is meant to be used with an Administrative Scheduled Task. Please see the documentation for more information.';
@@ -96,20 +96,20 @@ $mod_strings['LBL_EXPORT_ADDRESS_URL'] = 'Export URLs';
 $mod_strings['LBL_EXPORT_INSTRUCTIONS'] = 'Use the links below to export full addresses in need of geocodeing information. Then use an online or offline batch geocoding tool to geocode the addresses. When you are finished geocoding, import the addresses into the Address Cache module to be used with your maps. Note, the Address Cache module is optional. All geocoding information is stored in the representative module.';
 $mod_strings['LBL_ADDRESS_CACHE'] = 'Address Cache';
 $mod_strings['LBL_ADD_TO_TARGET_LIST'] = 'Add to Target List';
-$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Обработва се...';
+$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Processing...';
 
 
 $mod_strings['LBL_CONFIG_TITLE'] = 'Configuration Settings';
 $mod_strings['LBL_CONFIG_SAVED'] = 'Settings Saved Successfully!';
-$mod_strings['LBL_BILLING_ADDRESS'] = 'Данъчен адрес';
-$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Адрес за кореспонденция';
-$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Основен адрес';
+$mod_strings['LBL_BILLING_ADDRESS'] = 'Billing Address';
+$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Shipping Address';
+$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Primary Address';
 $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'Alternative Address';
-$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Свободно свъраване';
+$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex Relate';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Address (Simple, Users)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'Custom (Custom Controller Logic)';
-$mod_strings['LBL_ENABLED'] = 'Разрешен';
-$mod_strings['LBL_DISABLED'] = 'Забранен';
+$mod_strings['LBL_ENABLED'] = 'Enabled';
+$mod_strings['LBL_DISABLED'] = 'Disabled';
 $mod_strings['LBL_DEFAULT'] = 'Default:';
 $mod_strings['LBL_CONFIG_DEFAULT'] = 'Default:';
 
