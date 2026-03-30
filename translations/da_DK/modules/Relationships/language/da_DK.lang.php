@@ -54,9 +54,9 @@ $mod_strings = array(
     'LBL_JOIN_TABLE' => 'Join Tabel Navn',
     'LBL_JOIN_KEY_LHS' => 'Join Nøgle LHS',
     'LBL_JOIN_KEY_RHS' => 'Join Nøgle RHS',
-    'LBL_RELATIONSHIP_TYPE' => 'Relation Type',
+    'LBL_RELATIONSHIP_TYPE' => 'Relationship Type',
     'LBL_RELATIONSHIP_ROLE_COLUMN' => 'Relation Rolle Kolonne Navn',
     'LBL_RELATIONSHIP_ROLE_COLUMN_VALUE' => 'Relation Rolle Kolonne Værdi',
     'LBL_REVERSE' => 'Modsat',
-    'LBL_DELETED' => 'Slet',
+    'LBL_DELETED' => 'Deleted',
 );
