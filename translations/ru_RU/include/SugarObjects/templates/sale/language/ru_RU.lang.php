@@ -48,8 +48,8 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Поиск сделки',
     'LBL_LIST_FORM_TITLE' => 'Сделки',
     'LBL_NAME' => 'Название сделки',
-    'LBL_LIST_SALE_NAME' => 'Имя',
-    'LBL_LIST_ACCOUNT_NAME' => 'Контрагент',
+    'LBL_LIST_SALE_NAME' => 'Название',
+    'LBL_LIST_ACCOUNT_NAME' => 'Account Name',
     'LBL_LIST_AMOUNT' => 'Сумма',
     'LBL_LIST_DATE_CLOSED' => 'Закрыть',
     'LBL_LIST_SALE_STAGE' => 'Стадия продаж',
@@ -75,7 +75,7 @@ $mod_strings = array(
     'MSG_DUPLICATE' => 'Создаваемая вами сделка возможно дублирует уже имеющуюся сделку. Сделки, имеющие схожие названия показаны ниже. Нажмите кнопку "Сохранить" для продолжения создания новой сделки или кнопку "Отказаться" для возврата в модуль.',
     'LBL_NEW_FORM_TITLE' => 'Создать сделку',
     'ERR_DELETE_RECORD' => 'Перед удалением сделки должен быть определен номер записи.',
-    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Сделки',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Sale',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
 
@@ -87,7 +87,7 @@ $mod_strings = array(
     'LBL_SALE_INFORMATION' => 'Информация о сделке',
     'LBL_CURRENCY_NAME' => 'Название валюты',
     'LBL_CURRENCY_SYMBOL' => 'Символ валюты',
-    'LBL_EDIT_BUTTON' => 'Правка',
+    'LBL_EDIT_BUTTON' => 'Править',
     'LBL_REMOVE' => 'Удалить',
 
 );
