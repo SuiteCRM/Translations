@@ -44,14 +44,14 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
 
-    'LBL_ASSIGNED_TO_ID' => 'Υπεύθυνος Χρήστης Α/Α ',
-    'LBL_ASSIGNED_TO_NAME' => 'Υπεύθυνος',
-    'LBL_ID' => 'Α/Α',
-    'LBL_DATE_ENTERED' => 'Date Entered',
+    'LBL_ASSIGNED_TO_ID' => 'Ταυτότητα Ανατεθειμένου Χειριστή',
+    'LBL_ASSIGNED_TO_NAME' => 'Ανατέθηκε σε',
+    'LBL_ID' => 'Ταυτότητα',
+    'LBL_DATE_ENTERED' => 'Ημ/νία καταχώρησης',
     'LBL_DATE_MODIFIED' => 'Ημ/νία Τροποποίησης',
-    'LBL_MODIFIED' => 'Τροποποιήθηκε από',
-    'LBL_MODIFIED_NAME' => 'Τροποποίηση ανά Όνομα',
-    'LBL_CREATED' => 'Δημιουργήθηκε από',
+    'LBL_MODIFIED' => 'Τροποποιήθηκε Από',
+    'LBL_MODIFIED_NAME' => 'Τροποποιήθηκε Από Όνομα',
+    'LBL_CREATED' => 'Δημιουργήθηκε Από',
     'LBL_DESCRIPTION' => 'Περιγραφή',
     'LBL_DELETED' => 'Διαγράφηκε',
     'LBL_NAME' => 'Όνομα',
@@ -59,7 +59,7 @@ $mod_strings = [
     'LBL_MODIFIED_USER' => 'τροποποίηση από',
     'LBL_LIST_NAME' => 'Όνομα',
     'LBL_EDIT_BUTTON' => 'Επεξεργασία',
-    'LBL_REMOVE' => 'Αφαίρεση',
+    'LBL_REMOVE' => 'Remove',
     'LBL_LIST_FORM_TITLE' => 'External OAuth Provider List',
     'LBL_MODULE_NAME' => 'External OAuth Providers',
     'LBL_MODULE_TITLE' => 'External OAuth Providers',
@@ -68,12 +68,12 @@ $mod_strings = [
 
     'LNK_LIST' => 'External OAuth Providers',
     'LBL_SEARCH_FORM_TITLE' => 'Search External OAuth Providers',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Προβολή Ιστορικού',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Δραστηριότητες',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_NEW_FORM_TITLE' => 'New External OAuth Provider',
 
     'LBL_LIST_DELETE' => 'Διαγραφή',
-    'LBL_TYPE' => 'Τύπος',
+    'LBL_TYPE' => 'Type',
     'LBL_CONNECTOR' => 'Connector',
     'LBL_REDIRECT_URI' => 'Redirect URI',
     'LBL_REDIRECT_URI_TYPE' => 'Redirect URI Type',
@@ -97,7 +97,7 @@ $mod_strings = [
 
     'LBL_EXTRA' => 'Extra configurations',
     'LBL_MAPPING' => 'Mapping configurations',
-    'LBL_OTHER' => 'Άλλο',
+    'LBL_OTHER' => 'Άλλο:',
 
 
     'LNK_LIST_CREATE_NEW_PERSONAL' => 'New Personal Provider',
@@ -106,5 +106,5 @@ $mod_strings = [
     'LNK_LIST_OUTBOUND_EMAILS' => 'Λογαριασμοί Εξερχομένων Email',
     'LNK_LIST_EXTERNAL_OAUTH_CONNECTION' => 'External OAuth Connections',
 
-    'LBL_OWNER' => 'Ιδιοκτήτης',
+    'LBL_OWNER' => 'Owner',
 ];
