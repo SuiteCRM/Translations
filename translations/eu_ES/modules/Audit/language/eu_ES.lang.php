@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_FIELD_NAME' => 'Eremua',
+    'LBL_FIELD_NAME' => 'Field',
     'LBL_OLD_NAME' => 'Aurreko balioa',
     'LBL_NEW_VALUE' => 'Balio berria',
     'LBL_CREATED_BY' => 'Nork aldatua',
     'LBL_LIST_DATE' => 'Altzatze-data',
     'LBL_AUDITED_FIELDS' => 'Modulu honetan ikuskatutako eremuak',
-    'LBL_CHANGE_LOG' => 'Aldaketen historikoa',
+    'LBL_CHANGE_LOG' => 'Change Log',
 );
