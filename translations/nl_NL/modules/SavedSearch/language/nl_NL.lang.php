@@ -49,15 +49,15 @@ $mod_strings = array(
     'LBL_DELETE_CONFIRM' => 'Weet u zeker dat u het geselecteerde filter wilt verwijderen?',
     'LBL_DELETE_BUTTON_TITLE' => 'Dit opgeslagen filter verwijderen',
     'LBL_SAVE_BUTTON_TITLE' => 'Het huidige filter opslaan',
-    'LBL_LIST_NAME' => 'Naam',
+    'LBL_LIST_NAME' => 'Name',
     'LBL_LIST_MODULE' => 'Module',
     'LBL_ORDER_BY_COLUMNS' => 'Sorteren op kolom:',
-    'LBL_DIRECTION' => 'Richting:',
+    'LBL_DIRECTION' => 'Direction:',
     'LBL_SAVE_SEARCH_AS' => 'Filter opslaan als:',
-    'LBL_ASCENDING' => 'Oplopend',
-    'LBL_DESCENDING' => 'Aflopend',
-    'LBL_MODIFY_CURRENT_FILTER' => 'Huidig filter wijzigen',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
-    'LBL_CREATED_BY' => 'Aangemaakt door',
+    'LBL_CREATED_BY' => 'Created By',
 
 );
