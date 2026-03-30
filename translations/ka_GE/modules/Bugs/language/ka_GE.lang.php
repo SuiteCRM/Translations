@@ -96,7 +96,7 @@ $mod_strings = array(
     'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'ანგარიშები',
     'LBL_CASES_SUBPANEL_TITLE' => 'შემთხვევები',
     'LBL_PROJECTS_SUBPANEL_TITLE' => 'პროექტები',
-    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'დოკუმენტი',
+    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'დოკუმენტები',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigned User',
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
 
