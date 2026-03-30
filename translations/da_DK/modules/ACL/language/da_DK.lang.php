@@ -43,15 +43,15 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Rolle',
-    'LBL_NAME' => 'Navn',
-    'LBL_DESCRIPTION' => 'Beskrivelse',
+    'LBL_ROLE' => 'Role',
+    'LBL_NAME' => 'Name',
+    'LBL_DESCRIPTION' => 'Description',
     'LIST_ROLES' => 'Vis roller',
-    'LBL_USERS_SUBPANEL_TITLE' => 'Brugere',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
     'LIST_ROLES_BY_USER' => 'Vis roller efter bruger',
     'LBL_ROLES_SUBPANEL_TITLE' => 'Bruger rolle',
-    'LBL_SEARCH_FORM_TITLE' => 'Søg',
-    'LBL_NO_ACCESS' => 'Du har ikke adgang til dette område. Kontakt din administartor for at få adgang.',
+    'LBL_SEARCH_FORM_TITLE' => 'Search',
+    'LBL_NO_ACCESS' => 'You do not have access to this area. Contact your site administrator to obtain access.',
     'LBL_REDIRECT_TO_HOME' => 'Omdiriger til hjem',
     'LBL_SECONDS' => 'sekunder',
     'LBL_ADDING' => 'Tilføjer for ',
