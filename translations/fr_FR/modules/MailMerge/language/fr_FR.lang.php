@@ -56,8 +56,8 @@ $mod_strings = array(
     'LNK_NEW_MAILMERGE' => 'Démarrer publipostage',
     'LNK_UPLOAD_TEMPLATE' => 'Envoyer un Modèle',
     'LBL_DOC_NAME' => 'Nom du document :',
-    'LBL_FILENAME' => 'Nom du Fichier :',
-    'LBL_DOC_VERSION' => 'Version :',
+    'LBL_FILENAME' => 'File Name:',
+    'LBL_DOC_VERSION' => 'Revision:',
     'LBL_DOC_DESCRIPTION' => 'Description :',
     'LBL_LIST_NAME' => 'Nom',
     'LBL_FINISH' => 'Démarrer publipostage',
@@ -71,8 +71,8 @@ $mod_strings = array(
     'LBL_BROWSER_REQUIREMENT' => 'Ceci requière IE 6.0 ou suivant pour Windows.',
     'LBL_FORM_SELECT_TEMPLATE' => 'Veuillez sélectionner un modèle.',
     'LBL_SELECT_ONE' => 'Veuillez sélectionner au moins un élément.',
-    'LBL_AVAILABLE' => 'Disponible',
-    'LBL_SELECTED' => 'Sélectionné',
+    'LBL_AVAILABLE' => 'Available',
+    'LBL_SELECTED' => 'Selected',
     'LBL_RELATED_INFO_SELECTION' => 'Utilisez les sélections ci-dessous pour identifier les informations correspondantes que vous souhaitez voir afficher dans votre document fusionné. Passez cette étape si votre modèle de document ne contient pas d\'information correspondante.',
 
 );
