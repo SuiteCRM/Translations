@@ -49,16 +49,16 @@ $mod_strings = array(
     'LBL_DELETE_CONFIRM' => 'Are you sure you want to delete the selected Saved Filter?',
     'LBL_DELETE_BUTTON_TITLE' => 'Delete this Saved Filter',
     'LBL_SAVE_BUTTON_TITLE' => 'Save the current filter',
-    'LBL_LIST_NAME' => '이름',
+    'LBL_LIST_NAME' => 'Name',
     'LBL_LIST_MODULE' => '모듈',
     'LBL_ORDER_BY_COLUMNS' => 'Order by column',
-    'LBL_DIRECTION' => '방향',
+    'LBL_DIRECTION' => 'Direction',
     'LBL_SAVE_SEARCH_AS' => 'Save filter as:',
-    'LBL_ASCENDING' => '오름차순',
-    'LBL_DESCENDING' => '내림차순',
-    'LBL_MODIFY_CURRENT_FILTER' => '현재 필터 수정',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
-    'LBL_CREATED_BY' => '생성됨',
+    'LBL_CREATED_BY' => '작성자',
     'LBL_QUICK_FILTER' => '빠른 필터',
 
 
