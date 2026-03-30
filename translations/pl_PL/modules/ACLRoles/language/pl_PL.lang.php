@@ -43,21 +43,21 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Profile uprawnień',
+    'LBL_MODULE_NAME' => 'Role',
     'LBL_MODULE_TITLE' => 'Profile uprawnień: Strona główna',
-    'LBL_ROLE' => 'Profil uprawnień',
+    'LBL_ROLE' => 'Rola',
     'LBL_NAME' => 'Nazwa',
     'LBL_DESCRIPTION' => 'Opis',
     'LIST_ROLES' => 'Lista Profili uprawnień',
     'LBL_USERS_SUBPANEL_TITLE' => 'Użytkownicy',
-    'LIST_ROLES_BY_USER' => 'Lista Profili według Użytkowników',
-    'LBL_LIST_FORM_TITLE' => 'Profile uprawnień',
-    'LBL_ROLES_SUBPANEL_TITLE' => 'Profil uprawnień Użytkownika',
+    'LIST_ROLES_BY_USER' => 'Lista Profili uprawnień według użytkowników',
+    'LBL_LIST_FORM_TITLE' => 'Role',
+    'LBL_ROLES_SUBPANEL_TITLE' => 'Profile uprawnień użytkownika',
     'LBL_SEARCH_FORM_TITLE' => 'Szukaj',
     'LBL_CREATE_ROLE' => 'Utwórz Profil uprawnień',
     'LBL_EDIT_VIEW_DIRECTIONS' => 'Dwukrotnie kliknij na polu, aby zmienić wartość.',
-    'LBL_ACCESS_DEFAULT' => 'Domyślny dostęp',
-    'LBL_ACTION_ADMIN' => 'Rodzaj dostępu',
+    'LBL_ACCESS_DEFAULT' => 'Not Set',
+    'LBL_ACTION_ADMIN' => 'Access Type',
     'LBL_ALL' => 'Wszystkie',
     'LBL_DUPLICATE_OF' => 'Duplikat ',
 
