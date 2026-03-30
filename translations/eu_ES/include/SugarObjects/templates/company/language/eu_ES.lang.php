@@ -56,8 +56,8 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Esleitua izan da',
     'LBL_RATING' => 'Rating',
     'LBL_ASSIGNED_TO' => 'Esleitua izan da',
-    'LBL_ASSIGNED_USER' => 'Esleitua izan da',
-    'LBL_ASSIGNED_TO_ID' => 'Esleitua izan da',
+    'LBL_ASSIGNED_USER' => 'Assigned to:',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned to:',
     'LBL_BILLING_ADDRESS_CITY' => 'Kobrantza-hiria',
     'LBL_BILLING_ADDRESS_COUNTRY' => 'Kobrantza-herrialdea',
     'LBL_BILLING_ADDRESS_POSTALCODE' => 'Kobrantzarako posta-kodea',
@@ -97,7 +97,7 @@ $mod_strings = array(
     'LBL_PHONE_FAX' => 'Bulegoko faxa',
     'LBL_PHONE_OFFICE' => 'Bulegoko telefonoa',
     'LBL_PHONE' => 'Telefonoa',
-    'LBL_EMAIL_ADDRESS' => 'Posta elektronikoa',
+    'LBL_EMAIL_ADDRESS' => 'Email Address',
     'LBL_EMAIL_ADDRESSES' => 'Email Address(es)',
     'LBL_POSTAL_CODE' => 'PK',
     'LBL_SAVE_ACCOUNT' => 'Kontua Gorde',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'Ziur zaude erregistroa hau ezabatu nahi duzula?',
 
     'LBL_EDIT_BUTTON' => 'Edit  ',
-    'LBL_REMOVE' => 'Kendu',
+    'LBL_REMOVE' => 'Remove',
 
 );
