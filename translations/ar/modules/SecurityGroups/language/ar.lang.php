@@ -44,20 +44,20 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ALL_MODULES' => 'الكل',//rost fix
-    'LBL_ASSIGNED_TO_ID' => 'معرف المستخدم المكلف',
+    'LBL_ASSIGNED_TO_ID' => 'معرف المستخدم المُكلف',
     'LBL_ASSIGNED_TO_NAME' => 'أُسند إلى',
     'LBL_ID' => 'المُعرف',
     'LBL_DATE_ENTERED' => 'تاريخ الإنشاء',
     'LBL_DATE_MODIFIED' => 'تاريخ التعديل',
     'LBL_MODIFIED' => 'عُدل بواسطة',
-    'LBL_MODIFIED_NAME' => 'اسم من قام بالتعديل',
+    'LBL_MODIFIED_NAME' => 'قام بالتعديل',
     'LBL_CREATED' => 'أنشئ بواسطة',
     'LBL_DESCRIPTION' => 'الوصف',
     'LBL_DELETED' => 'محذوف',
     'LBL_NONINHERITABLE' => 'غير قابل للاقتباس',
-    'LBL_LIST_NONINHERITABLE' => 'غير قابل للاقتباس',
+    'LBL_LIST_NONINHERITABLE' => 'غير قابل للتوريث',
     'LBL_NAME' => 'الاسم',
-    'LBL_CREATED_USER' => 'أنشئ بواسطة المستخدم',
+    'LBL_CREATED_USER' => 'تم الإنشاء بواسطة المستخدم',
     'LBL_MODIFIED_USER' => 'عُدل بواسطة المستخدم',
     'LBL_LIST_FORM_TITLE' => 'المجموعات الأمنية',
     'LBL_MODULE_NAME' => 'إدارة مجموعة الأمان',
@@ -68,8 +68,8 @@ $mod_strings = array(
     'LBL_HISTORY_SUBPANEL_TITLE' => 'التاريخ',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'الأنشطة',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'إدارة المجموعات الأمنية',
-    'LBL_USERS' => 'المستخدمون',
-    'LBL_USERS_SUBPANEL_TITLE' => 'المستخدمون',
+    'LBL_USERS' => 'المُستخدمون',
+    'LBL_USERS_SUBPANEL_TITLE' => 'المُستخدمون',
     'LBL_ROLES_SUBPANEL_TITLE' => 'الأدوار الوظيفية',
     'LBL_ROLES' => 'الأدوار الوظيفية',
 
@@ -96,7 +96,7 @@ $mod_strings = array(
 
     'LBL_DEFAULT_GROUP_TITLE' => 'المجموعات الافتراضية للسجلات الجديدة',
     'LBL_ADD_BUTTON_LABEL' => 'إضافة',
-    'LBL_REMOVE_BUTTON_LABEL' => 'إزالة',
+    'LBL_REMOVE_BUTTON_LABEL' => 'حذف',
     'LBL_GROUP' => 'المجموعة:',
     'LBL_MODULE' => 'الوحدة:',
 
