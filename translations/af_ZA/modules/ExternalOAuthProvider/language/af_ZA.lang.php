@@ -54,12 +54,12 @@ $mod_strings = [
     'LBL_CREATED' => 'Created By',
     'LBL_DESCRIPTION' => 'Beskrywing',
     'LBL_DELETED' => 'Geskrap',
-    'LBL_NAME' => 'Naam',
+    'LBL_NAME' => 'Name',
     'LBL_CREATED_USER' => 'Geskep deur Gebruiker',
     'LBL_MODIFIED_USER' => 'Verander deur gebruiker',
-    'LBL_LIST_NAME' => 'Naam',
-    'LBL_EDIT_BUTTON' => 'Wysig',
-    'LBL_REMOVE' => 'Verwyder',
+    'LBL_LIST_NAME' => 'Name',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
     'LBL_LIST_FORM_TITLE' => 'External OAuth Provider List',
     'LBL_MODULE_NAME' => 'External OAuth Providers',
     'LBL_MODULE_TITLE' => 'External OAuth Providers',
@@ -69,10 +69,10 @@ $mod_strings = [
     'LNK_LIST' => 'External OAuth Providers',
     'LBL_SEARCH_FORM_TITLE' => 'Search External OAuth Providers',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktiwiteite',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_NEW_FORM_TITLE' => 'New External OAuth Provider',
 
-    'LBL_LIST_DELETE' => 'Verwyder',
+    'LBL_LIST_DELETE' => 'Delete',
     'LBL_TYPE' => 'Type',
     'LBL_CONNECTOR' => 'Connector',
     'LBL_REDIRECT_URI' => 'Redirect URI',
@@ -97,7 +97,7 @@ $mod_strings = [
 
     'LBL_EXTRA' => 'Extra configurations',
     'LBL_MAPPING' => 'Mapping configurations',
-    'LBL_OTHER' => 'Ander',
+    'LBL_OTHER' => 'Other',
 
 
     'LNK_LIST_CREATE_NEW_PERSONAL' => 'New Personal Provider',
