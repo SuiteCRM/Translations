@@ -44,11 +44,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_DESCRIPTION' => 'Popis',
-    'LBL_NAME' => 'Jméno',
-    'LBL_LIST_NAME' => 'Jméno',
+    'LBL_NAME' => 'Název',
+    'LBL_LIST_NAME' => 'Název',
     'LBL_EDIT_BUTTON' => 'Upravit',
-    'LBL_REMOVE' => 'Odebrat',
+    'LBL_REMOVE' => 'Remove',
     'LBL_GRP' => 'Skupina',
-    'LBL_ORD' => 'Jiné',
+    'LBL_ORD' => 'Order',
     'LBL_THUMBNAIL' => 'Miniatura',
 );
