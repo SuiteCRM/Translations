@@ -43,13 +43,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EMAIL_ADDRESS_ID' => 'Α/Α',
-    'LBL_EMAIL_ADDRESS' => 'Email',
+    'LBL_EMAIL_ADDRESS_ID' => 'ID',
+    'LBL_EMAIL_ADDRESS' => 'Email Address',
     'LBL_EMAIL_ADDRESS_CAPS' => 'Διεύθυνση Email κεφαλαία',
-    'LBL_INVALID_EMAIL' => 'Άκυρο Email:',
-    'LBL_OPT_OUT' => 'Αποχωρημένο',
+    'LBL_INVALID_EMAIL' => 'Invalid Email',
+    'LBL_OPT_OUT' => 'Opted Out',
     'LBL_CONFIRM_OPT_IN' => 'Confirm Opt In',
     'LBL_DATE_CREATE' => 'Ημερομηνία Δημιουργίας',
-    'LBL_DATE_MODIFIED' => 'Ημ/νία Τροποποίησης',
-    'LBL_DELETED' => 'Διαγραφή',
+    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_DELETED' => 'Delete',
 );
