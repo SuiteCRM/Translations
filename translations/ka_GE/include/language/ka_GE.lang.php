@@ -78,7 +78,7 @@ $app_list_strings = array(
         'ProjectTask' => 'პროექტის ამოცანები',
         'Campaigns' => 'კამპანიები',
         'CampaignLog' => 'კამპანიის ჟურნალი',
-        'Documents' => 'დოკუმენტი',
+        'Documents' => 'დოკუმენტები',
         'DocumentRevisions' => 'დუკუმენტის ვერსიები',
         'Connectors' => 'მაკავშირებლები',
         'Roles' => 'როლები',
@@ -435,7 +435,7 @@ $app_list_strings = array(
     'project_task_priority_options' => array(
         'High' => 'მაღალი',
         'Medium' => 'საშუალო',
-        'Low' => 'დაბალი',
+        'Low' => 'Low',
     ),
     'project_task_priority_default' => 'საშუალო',
 
@@ -634,7 +634,7 @@ $app_list_strings = array(
         'Contacts' => 'კონტაქტები',
         'Currencies' => 'ვალუტა',
         'Dashboard' => 'მართვის პანელი',
-        'Documents' => 'დოკუმენტი',
+        'Documents' => 'დოკუმენტები',
         'Emails' => 'მეილები',
         'Feeds' => 'არხები',
         'Forecasts' => 'პროგნოზი',
@@ -830,19 +830,19 @@ $app_list_strings = array(
         2 => 'You must assign Only Checked Items when Direct Assigning items.',
     ),
     'dom_email_bool' => array(
-        'bool_true' => 'დიახ',
+        'bool_true' => 'Yes',
         'bool_false' => 'არა',
     ),
     'dom_int_bool' => array(
-        1 => 'დიახ',
+        1 => 'Yes',
         0 => 'არა',
     ),
     'dom_int_bool_string' => array(
-        '1' => 'დიახ',
+        '1' => 'Yes',
         '0' => 'არა',
     ),
     'dom_switch_bool' => array(
-        'on' => 'დიახ',
+        'on' => 'Yes',
         'off' => 'არა',
         '' => 'არა',
     ),
@@ -1035,7 +1035,7 @@ $app_list_strings = array(
     ),
 
     'custom_fields_importable_dom' => array(
-        'true' => 'დიახ',
+        'true' => 'Yes',
         'false' => 'არა',
         'required' => 'სავალდებულოა',
     ),
@@ -1487,7 +1487,7 @@ $app_strings = array(
     'LBL_EMAIL_VIEW_RAW' => 'Display Raw Email',
     'LBL_EMAIL_VIEW_UNSUPPORTED' => 'This feature is unsupported when used with POP3.',
     'LBL_DEFAULT_LINK_TEXT' => 'Default link text.',
-    'LBL_EMAIL_YES' => 'დიახ',
+    'LBL_EMAIL_YES' => 'Yes',
     'LBL_EMAIL_TEST_OUTBOUND_SETTINGS' => 'Send Test Email',
     'LBL_EMAIL_TEST_OUTBOUND_SETTINGS_SENT' => 'Test Email Sent',
     'LBL_EMAIL_MESSAGE_NO' => 'Message No',
@@ -1582,7 +1582,7 @@ $app_strings = array(
     'LBL_COMPOSE_EMAIL_BUTTON_KEY' => 'L',
     'LBL_COMPOSE_EMAIL_BUTTON_LABEL' => 'Compose Email',
     'LBL_COMPOSE_EMAIL_BUTTON_TITLE' => 'Compose Email',
-    'LBL_SEARCH_DROPDOWN_YES' => 'დიახ',
+    'LBL_SEARCH_DROPDOWN_YES' => 'Yes',
     'LBL_SEARCH_DROPDOWN_NO' => 'არა',
     'LBL_CONTACT_LIST' => 'Contact List',
     'LBL_CONTACT' => 'კონტაქტი',
@@ -1597,7 +1597,7 @@ $app_strings = array(
     'LBL_CREATED' => 'ავტორი',
     'LBL_CURRENT_USER_FILTER' => 'My Items',
     'LBL_CURRENCY' => 'ვალუტა:',
-    'LBL_DOCUMENTS' => 'დოკუმენტი',
+    'LBL_DOCUMENTS' => 'დოკუმენტები',
     'LBL_DATE_ENTERED' => 'Date Created:',
     'LBL_DATE_MODIFIED' => 'Date Modified:',
     'LBL_EDIT_BUTTON' => 'რედაქტირება',
@@ -2625,7 +2625,7 @@ $app_list_strings['countries_dom'] = array(
     'NORFOLK ISLAND' => 'NORFOLK ISLAND',
     'NORWAY' => 'NORWAY',
     'OMAN' => 'OMAN',
-    'OTHER' => 'სხვა',
+    'OTHER' => 'OTHER',
     'PACIFIC ISLAND' => 'PACIFIC ISLAND',
     'PAKISTAN' => 'PAKISTAN',
     'PANAMA' => 'PANAMA',
@@ -4074,7 +4074,7 @@ $app_strings['LBL_LINE_ITEMS_FIELD_CONFIG'] = 'Bad config';
 
 $app_strings['LBL_ACTION_SUCCESS'] = 'Action successful';
 
-$app_strings['LBL_YES'] = 'დიახ';
+$app_strings['LBL_YES'] = 'Yes';
 $app_strings['LBL_NO'] = 'არა';
 
 $app_list_strings['sort_order'] = [];
