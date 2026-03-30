@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
 
-    'LBL_NAME' => 'Jméno',
+    'LBL_NAME' => 'Název',
     'LBL_NUMBER' => 'Číslo:',
     'LBL_STATUS' => 'Stav:',
     'LBL_PRIORITY' => 'Priorita:',
@@ -55,7 +55,7 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Uživatel:',
     'LBL_WORK_LOG' => 'Pracovní protokol:',
     'LBL_CREATED_BY' => 'Vytvořil:',
-    'LBL_DATE_ENTERED' => 'Datum zadání:',
+    'LBL_DATE_ENTERED' => 'Datum vytvoření:',
     'LBL_DATE_MODIFIED' => 'Datum změny:',
     'LBL_MODIFIED_BY' => 'Naposledy změnil:',
     'LBL_ASSIGNED_USER' => 'Přiřazený uživatel:',
@@ -63,6 +63,6 @@ $mod_strings = array(
     'LBL_SUBJECT' => 'Předmět:',
 
     'LBL_EDIT_BUTTON' => 'Upravit',
-    'LBL_REMOVE' => 'Odebrat',
+    'LBL_REMOVE' => 'Odstranit',
 
 );
