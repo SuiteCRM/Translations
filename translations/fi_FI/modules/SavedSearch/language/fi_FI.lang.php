@@ -50,15 +50,15 @@ $mod_strings = array(
     'LBL_DELETE_BUTTON_TITLE' => 'Poista tämä tallennettu suodatin',
     'LBL_SAVE_BUTTON_TITLE' => 'Tallenna nykyinen suodatin',
     'LBL_LIST_NAME' => 'Nimi',
-    'LBL_LIST_MODULE' => 'Moduuli',
+    'LBL_LIST_MODULE' => 'Module',
     'LBL_ORDER_BY_COLUMNS' => 'Order by column',
-    'LBL_DIRECTION' => 'Suunta',
+    'LBL_DIRECTION' => 'Direction',
     'LBL_SAVE_SEARCH_AS' => 'Tallenna suodatin nimellä:',
-    'LBL_ASCENDING' => 'Nouseva',
-    'LBL_DESCENDING' => 'Laskeva',
-    'LBL_MODIFY_CURRENT_FILTER' => 'Muokkaa nykyistä suodinta',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
-    'LBL_CREATED_BY' => 'Tekijä',
+    'LBL_CREATED_BY' => 'Created By',
     'LBL_QUICK_FILTER' => 'Pikasuodin',
 
 
