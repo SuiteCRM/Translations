@@ -56,8 +56,8 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'User:',
     'LBL_RATING' => 'Rating',
     'LBL_ASSIGNED_TO' => 'Toegewys aan:',
-    'LBL_ASSIGNED_USER' => 'Toegewys aan:',
-    'LBL_ASSIGNED_TO_ID' => 'Toegewys aan:',
+    'LBL_ASSIGNED_USER' => 'Assigned to:',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned to:',
     'LBL_BILLING_ADDRESS_CITY' => 'Billing City:',
     'LBL_BILLING_ADDRESS_COUNTRY' => 'Billing Country:',
     'LBL_BILLING_ADDRESS_POSTALCODE' => 'Billing Postal Code:',
@@ -97,7 +97,7 @@ $mod_strings = array(
     'LBL_PHONE_FAX' => 'Phone Fax:',
     'LBL_PHONE_OFFICE' => 'Office Phone:',
     'LBL_PHONE' => 'Phone:',
-    'LBL_EMAIL_ADDRESS' => 'E-pos adres',
+    'LBL_EMAIL_ADDRESS' => 'Email Address',
     'LBL_EMAIL_ADDRESSES' => 'Email Address(es)',
     'LBL_POSTAL_CODE' => 'Poskode:',
     'LBL_SAVE_ACCOUNT' => 'Save Account',
@@ -116,7 +116,7 @@ $mod_strings = array(
     'LBL_TYPE' => 'Type:',
     'LBL_WEBSITE' => 'Website:',
 
-    'LNK_ACCOUNT_LIST' => 'Rekeninge',
+    'LNK_ACCOUNT_LIST' => 'Accounts',
     'LNK_NEW_ACCOUNT' => 'Create Account',
 
     'MSG_DUPLICATE' => 'The account record you are about to create might be a duplicate of an account record that already exists. Account records containing similar names are listed below.<br>Click Create Account to continue creating this new account, or select an existing account listed below.',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'Is jy seker jy wil die rekord skrap?',
 
     'LBL_EDIT_BUTTON' => 'Edit  ',
-    'LBL_REMOVE' => 'Verwyder',
+    'LBL_REMOVE' => 'Remove',
 
 );
