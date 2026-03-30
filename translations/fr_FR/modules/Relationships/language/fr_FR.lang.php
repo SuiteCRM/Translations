@@ -54,9 +54,9 @@ $mod_strings = array(
     'LBL_JOIN_TABLE' => 'Nom table Jointe',
     'LBL_JOIN_KEY_LHS' => 'Clé LHS Jointe',
     'LBL_JOIN_KEY_RHS' => 'Clé RHS Jointe',
-    'LBL_RELATIONSHIP_TYPE' => 'Type de relation',
+    'LBL_RELATIONSHIP_TYPE' => 'Relationship Type',
     'LBL_RELATIONSHIP_ROLE_COLUMN' => 'Nom Colonne Rôle de la Relation',
     'LBL_RELATIONSHIP_ROLE_COLUMN_VALUE' => 'Valeur Colonne Rôle de la Relation',
     'LBL_REVERSE' => 'Inverser',
-    'LBL_DELETED' => 'Supprimé',
+    'LBL_DELETED' => 'Deleted',
 );
