@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => '통합 목록',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => '통합할 검색기록 찾기',
-    'LBL_AVAIL_FIELDS' => '사용 가능한 필드',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => '필터 조건',
     'LBL_MERGE_VALUE_OVER' => '가치 통합',
 
@@ -58,7 +58,7 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => '통합 실행',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => '통합 실행',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => '통합 저장',
     'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => '통합 저장',
@@ -66,7 +66,7 @@ $mod_strings = array(
     'LBL_STEP2_FORM_TITLE' => '다음과 통합할 기록을 발견했습니다.',
     'LBL_SELECT_ERROR' => '진행전 선택을 해야합니다.',
     'LBL_CHANGE_PARENT' => '기본으로 설정',
-    'LBL_REMOVE_FROM_MERGE' => '삭제',
+    'LBL_REMOVE_FROM_MERGE' => '제거',
     'LBL_DIFF_COL_VALUES' => '가치를 가지는 기본줄의 열은 통합된 열의 가치와 다릅니다.',
     'LBL_SAME_COL_VALUES' => '전체 줄에서 비슷한 가치를 가진 열',
     'LBL_DELETE_MESSAGE' => '이 실행은 다음의 기록을 삭제합니다.',
