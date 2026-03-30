@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Llista de Combinacions',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Cerca registres a fusionar amb',
-    'LBL_AVAIL_FIELDS' => 'Camps Disponibles',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'Condició de Filtrat',
     'LBL_MERGE_VALUE_OVER' => 'Combinar valors sobre',
 
@@ -58,15 +58,15 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Realitzar Combinació',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Realitzar Combinació',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Desar Combinació',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Desar Combinació',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => 'Registres Trobats amb els que Combinar:',
     'LBL_SELECT_ERROR' => 'Ha de realitzar una selecció abans de continuar.',
     'LBL_CHANGE_PARENT' => 'Establir com principal',
-    'LBL_REMOVE_FROM_MERGE' => 'Eliminar',
+    'LBL_REMOVE_FROM_MERGE' => 'Remove',
     'LBL_DIFF_COL_VALUES' => 'Columnes el valor del qual a la fila principal difereix del valor a les files de combinació:',
     'LBL_SAME_COL_VALUES' => 'Columnes el valor del qual és similar a totes les files:',
     'LBL_DELETE_MESSAGE' => 'Aquesta acció eliminarà els següents registres:',
