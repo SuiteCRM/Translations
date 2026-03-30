@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Изданија',
+    'LBL_MODULE_NAME' => 'Releases',
     'LBL_MODULE_TITLE' => 'Releases: Home',
     'LBL_SEARCH_FORM_TITLE' => 'Release Search',
     'LBL_LIST_FORM_TITLE' => 'Release List',
@@ -54,9 +54,9 @@ $mod_strings = array(
     'LBL_LIST_LIST_ORDER' => 'Подредување',
     'LBL_LIST_ORDER' => 'Order:',
     'LBL_LIST_STATUS' => 'Статус',
-    'LBL_STATUS' => 'Состојба:',
+    'LBL_STATUS' => 'Status:',
     'LNK_NEW_RELEASE' => 'Release List',
-    'NTC_DELETE_CONFIRMATION' => 'Дали сте сигурни дека сакате да го избришете овој запис?',
+    'NTC_DELETE_CONFIRMATION' => 'Are you sure you want to delete this record?',
     'NTC_SNOOZE_CONFIRMATION' => 'Are you sure you want to snooze?',
     'ERR_DELETE_RECORD' => 'You must specify a record number to delete the release.',
     'NTC_STATUS' => 'Set status to Inactive to remove this release from the Release dropdown lists',
@@ -64,7 +64,7 @@ $mod_strings = array(
     'release_status_dom' =>
         array(
             'Active' => 'Активен',
-            'Inactive' => 'Неактивен',
+            'Inactive' => 'Inactive',
         ),
     'LBL_EDITLAYOUT' => 'Промени Изглед' /*for 508 compliance fix*/,
 );
