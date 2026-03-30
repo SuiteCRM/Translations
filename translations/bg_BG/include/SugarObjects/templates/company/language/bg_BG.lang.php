@@ -56,8 +56,8 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Отговорник:',
     'LBL_RATING' => 'Оценка',
     'LBL_ASSIGNED_TO' => 'Отговорник:',
-    'LBL_ASSIGNED_USER' => 'Отговорник:',
-    'LBL_ASSIGNED_TO_ID' => 'Отговорник:',
+    'LBL_ASSIGNED_USER' => 'Assigned to:',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned to:',
     'LBL_BILLING_ADDRESS_CITY' => 'Данъчен адрес град',
     'LBL_BILLING_ADDRESS_COUNTRY' => 'Данъчен адрес държава',
     'LBL_BILLING_ADDRESS_POSTALCODE' => 'Данъчен адрес пощенски код',
@@ -97,7 +97,7 @@ $mod_strings = array(
     'LBL_PHONE_FAX' => 'Телефон / Факс:',
     'LBL_PHONE_OFFICE' => 'Служебен телефон:',
     'LBL_PHONE' => 'Телефон:',
-    'LBL_EMAIL_ADDRESS' => 'Адрес на ел. поща',
+    'LBL_EMAIL_ADDRESS' => 'Email Address',
     'LBL_EMAIL_ADDRESSES' => 'Електронна поща',
     'LBL_POSTAL_CODE' => 'Пощенски код:',
     'LBL_SAVE_ACCOUNT' => 'Запазване на организация',
@@ -116,7 +116,7 @@ $mod_strings = array(
     'LBL_TYPE' => 'Тип:',
     'LBL_WEBSITE' => 'Сайт:',
 
-    'LNK_ACCOUNT_LIST' => 'Организации',
+    'LNK_ACCOUNT_LIST' => 'Accounts',
     'LNK_NEW_ACCOUNT' => 'Въвеждане на организация',
 
     'MSG_DUPLICATE' => 'Създаването на тази организация може да доведе до създаване на дублираща организация. Можете или да изберете организация от списъка долу, или да съхраните записа с вече въведените данни чрез натискане на бутон "Въвеждане на организация".',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'Сигурни ли сте, че желаете да изтриете този запис?',
 
     'LBL_EDIT_BUTTON' => 'Редактирай  ',
-    'LBL_REMOVE' => 'Изтрий',
+    'LBL_REMOVE' => 'Remove',
 
 );
