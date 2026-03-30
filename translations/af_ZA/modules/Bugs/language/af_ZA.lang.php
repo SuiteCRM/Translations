@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Goggas',
+    'LBL_MODULE_NAME' => 'Bugs',
     'LBL_MODULE_TITLE' => 'Bug Tracker: Home',
-    'LBL_MODULE_ID' => 'Goggas',
+    'LBL_MODULE_ID' => 'Bugs',
     'LBL_SEARCH_FORM_TITLE' => 'Bug Search',
     'LBL_LIST_FORM_TITLE' => 'Bug List',
     'LBL_NEW_FORM_TITLE' => 'New Bug',
@@ -57,12 +57,12 @@ $mod_strings = array(
     'LBL_CONTACT_NAME' => 'Contact Name:',
     'LBL_CONTACT_ROLE' => 'Role:',
     'LBL_LIST_NUMBER' => 'Num.',
-    'LBL_LIST_SUBJECT' => 'Onderwerp',
+    'LBL_LIST_SUBJECT' => 'Subject',
     'LBL_LIST_STATUS' => 'Status',
     'LBL_LIST_PRIORITY' => 'Priority',
     'LBL_LIST_RESOLUTION' => 'Resolution',
     'LBL_LIST_LAST_MODIFIED' => 'Last Modified',
-    'LBL_INVITEE' => 'Kontakte',
+    'LBL_INVITEE' => 'Contacts',
     'LBL_TYPE' => 'Type:',
     'LBL_LIST_TYPE' => 'Type',
     'LBL_RESOLUTION' => 'Resolution:',
@@ -82,23 +82,23 @@ $mod_strings = array(
     'LBL_CREATED_BY' => 'Created by:',
     'LBL_MODIFIED_BY' => 'Last Modified by:',
 
-    'LBL_LIST_EMAIL_ADDRESS' => 'E-pos adres',
-    'LBL_LIST_CONTACT_NAME' => 'Kontak naam',
+    'LBL_LIST_EMAIL_ADDRESS' => 'Email Address',
+    'LBL_LIST_CONTACT_NAME' => 'Contact Name',
     'LBL_LIST_ACCOUNT_NAME' => 'Account Name',
-    'LBL_LIST_PHONE' => 'Telefoon',
+    'LBL_LIST_PHONE' => 'Phone',
     'NTC_DELETE_CONFIRMATION' => 'Are you sure you want to remove this contact from this bug?',
 
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Bug Tracker',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktiwiteite',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'History',
-    'LBL_CONTACTS_SUBPANEL_TITLE' => 'Kontakte',
-    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Rekeninge',
-    'LBL_CASES_SUBPANEL_TITLE' => 'Gebeure',
-    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projekte',
-    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Dokumente',
+    'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
+    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Accounts',
+    'LBL_CASES_SUBPANEL_TITLE' => 'Cases',
+    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projects',
+    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documents',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigned User',
-    'LBL_ASSIGNED_TO_NAME' => 'Toegewys aan',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
 
-    'LBL_BUG_INFORMATION' => 'Oorsig', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_BUG_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
 );
