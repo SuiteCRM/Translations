@@ -52,7 +52,7 @@ $mod_strings = array(
     'LBL_SUBJECT' => 'Гарчиг:',
     'LBL_NUMBER' => 'Дугаар:',
     'LBL_STATUS' => 'Төлөв:',
-    'LBL_PRIORITY' => 'Урьтамж:',
+    'LBL_PRIORITY' => 'Эрэмбэ:',
     'LBL_DESCRIPTION' => 'Тайлбар:',
     'LBL_CONTACT_NAME' => 'Харилцагчийн Нэр:',
     'LBL_CONTACT_ROLE' => 'Үүрэг:',
@@ -61,8 +61,8 @@ $mod_strings = array(
     'LBL_LIST_STATUS' => 'Төлөв',
     'LBL_LIST_PRIORITY' => 'Эрэмбэ',
     'LBL_LIST_RESOLUTION' => 'Шийдвэр',
-    'LBL_LIST_LAST_MODIFIED' => 'Сүүлд Өөрчилсөн',
-    'LBL_INVITEE' => 'Харилцагч',
+    'LBL_LIST_LAST_MODIFIED' => 'Сүүлд өөрчилсөн',
+    'LBL_INVITEE' => 'Харилцагчид',
     'LBL_TYPE' => 'Tөрөл:',
     'LBL_LIST_TYPE' => 'Төрөл',
     'LBL_RESOLUTION' => 'Шийдвэр:',
@@ -100,6 +100,6 @@ $mod_strings = array(
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Хариуцагч',
     'LBL_ASSIGNED_TO_NAME' => 'Хариуцагч',
 
-    'LBL_BUG_INFORMATION' => 'Тойм', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_BUG_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
 );
