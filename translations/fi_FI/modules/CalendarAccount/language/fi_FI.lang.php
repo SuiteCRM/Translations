@@ -31,39 +31,39 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
     // System fields
-    'LBL_ASSIGNED_TO_ID' => 'Vastuuhenkilön tunnus',
-    'LBL_ASSIGNED_TO_NAME' => 'Kohdennettu hlölle',
-    'LBL_DATE_ENTERED' => 'Luontipvm',
-    'LBL_DATE_MODIFIED' => 'Muokkaus pvm',
-    'LBL_MODIFIED' => 'Muokkaaja',
-    'LBL_MODIFIED_NAME' => 'Muokkaaja',
-    'LBL_CREATED' => 'Tekijä',
-    'LBL_CREATED_USER' => 'Tekijä',
-    'LBL_MODIFIED_USER' => 'Muokkaaja',
-    'LBL_DESCRIPTION' => 'Kuvaus',
-    'LBL_DELETED' => 'Poistettu',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
+    'LBL_DATE_ENTERED' => 'Date Created',
+    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_MODIFIED' => 'Modified By',
+    'LBL_MODIFIED_NAME' => 'Modified By Name',
+    'LBL_CREATED' => 'Created By',
+    'LBL_CREATED_USER' => 'Created by User',
+    'LBL_MODIFIED_USER' => 'Modified by User',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_DELETED' => 'Deleted',
 
     // Security groups
-    'LBL_SECURITYGROUPS' => 'Turvaryhmät',
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Turvaryhmät',
+    'LBL_SECURITYGROUPS' => 'Security Groups',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
 
     // List view labels
-    'LBL_LIST_NAME' => 'Nimi',
-    'LBL_LIST_DELETE' => 'Poista',
-    'LBL_EDIT_BUTTON' => 'Muokkaa',
-    'LBL_REMOVE' => 'Poista',
-    'LBL_ASCENDING' => 'Nouseva',
-    'LBL_DESCENDING' => 'Laskeva',
+    'LBL_LIST_NAME' => 'Name',
+    'LBL_LIST_DELETE' => 'Delete',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
 
     // Email opt-in labels
-    'LBL_OPT_IN' => 'Hyväksyntä',
-    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Odottaa hyväksynnän vahvistusta; vahvistussähköpostia ei ole lähetetty',
-    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Odottaa hyväksynnän vahvistusta; vahvistussähköposti on lähetetty',
-    'LBL_OPT_IN_CONFIRMED' => 'Hyväksyntä annettu',
+    'LBL_OPT_IN' => 'Opt In',
+    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Pending Confirm opt in, Confirm opt in not sent',
+    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Pending Confirm opt in, Confirm opt in sent',
+    'LBL_OPT_IN_CONFIRMED' => 'Opted in',
 
     // Subpanel titles
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Historia',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktiviteetit',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
 
@@ -91,9 +91,9 @@ $mod_strings = [
     'LNK_LIST' => 'View Calendar Accounts',
 
     // Standard fields
-    'LBL_NAME' => 'Nimi',
-    'LBL_ID' => 'Tunnus',
-    'LBL_TYPE' => 'Tyyppi',
+    'LBL_NAME' => 'Name',
+    'LBL_ID' => 'ID',
+    'LBL_TYPE' => 'Type',
     'LBL_SOURCE' => 'Calendar Source',
 
     // OAuth2 Fields
@@ -101,8 +101,8 @@ $mod_strings = [
     'LBL_CONNECT_OAUTH' => 'Connect OAuth',
 
     // Basic Auth Fields
-    'LBL_USERNAME' => 'Käyttäjätunnus',
-    'LBL_PASSWORD' => 'Salasana',
+    'LBL_USERNAME' => 'Username',
+    'LBL_PASSWORD' => 'Password',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test Connection',
 
@@ -162,12 +162,12 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Please select a calendar source first.',
 
     // Connection test messages
-    'LBL_CALENDAR' => 'Kalenteri',
+    'LBL_CALENDAR' => 'Calendar',
     'LBL_SUCCESSFUL' => 'Successful',
-    'LBL_FAILED' => 'Epäonnistunut',
+    'LBL_FAILED' => 'Failed',
     'LBL_CONNECTION_TEST' => 'Connection Test',
-    'LBL_YES' => 'Kyllä',
-    'LBL_NO' => 'Ei',
+    'LBL_YES' => 'Yes',
+    'LBL_NO' => 'No',
     'LBL_FOUND_CALENDARS' => 'Found {count} calendars.',
     'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'An error occurred while processing the connection test response. Please check the logs for details.',
     'LBL_CONNECTION_TEST_HTTP_ERROR' => 'Connection test failed with HTTP status',
@@ -182,17 +182,17 @@ $mod_strings = [
 
     // Dialog labels
     'LBL_NOTIFICATION' => 'Notification',
-    'LBL_CONFIRM' => 'Vahvista',
+    'LBL_CONFIRM' => 'Confirm',
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => 'Käynnissä',
-    'LBL_SYNC_STATUS_SUCCESS' => 'Onnistui',
-    'LBL_SYNC_STATUS_WARNING' => 'Varoitus',
-    'LBL_SYNC_STATUS_ERROR' => 'Virhe',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => 'In Progress',
+    'LBL_SYNC_STATUS_SUCCESS' => 'Success',
+    'LBL_SYNC_STATUS_WARNING' => 'Warning',
+    'LBL_SYNC_STATUS_ERROR' => 'Error',
 
     // Sync message enum translations
-    'LBL_SYNC_MSG_SYNC_COMPLETE' => 'Kaikki kokoukset synkronoitu.',
+    'LBL_SYNC_MSG_SYNC_COMPLETE' => 'All meetings synced.',
     'LBL_SYNC_MSG_UP_TO_DATE' => 'No new meetings to sync.',
     'LBL_SYNC_MSG_MEETINGS_FAILED' => 'Some meetings failed to sync. Check logs.',
     'LBL_SYNC_MSG_SYNC_PARTIAL' => 'Some meetings synced. More pending due to limits.',
@@ -202,5 +202,5 @@ $mod_strings = [
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Calendar not found.',
 
     // Relationship labels
-    'LBL_MEETINGS' => 'Katso kokouksia',
+    'LBL_MEETINGS' => 'Meetings',
 ];
