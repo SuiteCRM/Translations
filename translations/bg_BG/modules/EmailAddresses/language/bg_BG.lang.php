@@ -43,13 +43,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EMAIL_ADDRESS_ID' => 'Идентификационен номер',
-    'LBL_EMAIL_ADDRESS' => 'Адрес на ел. поща',
+    'LBL_EMAIL_ADDRESS_ID' => 'ID',
+    'LBL_EMAIL_ADDRESS' => 'Email Address',
     'LBL_EMAIL_ADDRESS_CAPS' => 'Email Address caps',
-    'LBL_INVALID_EMAIL' => 'Невалиден електронен адрес',
-    'LBL_OPT_OUT' => 'Да не се изпраща електронна поща',
+    'LBL_INVALID_EMAIL' => 'Invalid Email',
+    'LBL_OPT_OUT' => 'Opted Out',
     'LBL_CONFIRM_OPT_IN' => 'Confirm Opt In',
     'LBL_DATE_CREATE' => 'Създадено на',
-    'LBL_DATE_MODIFIED' => 'Модифицирано на',
-    'LBL_DELETED' => 'Изтриване',
+    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_DELETED' => 'Delete',
 );
