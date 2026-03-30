@@ -43,15 +43,15 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'الدور الوظيفي',
-    'LBL_NAME' => 'الاسم',
-    'LBL_DESCRIPTION' => 'الوصف',
+    'LBL_ROLE' => 'Role',
+    'LBL_NAME' => 'Name',
+    'LBL_DESCRIPTION' => 'Description',
     'LIST_ROLES' => 'قائمة الأدوار الوظيفية',
-    'LBL_USERS_SUBPANEL_TITLE' => 'المستخدمون',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
     'LIST_ROLES_BY_USER' => 'الأدوار الوظيفية حسب المُستخدم',
     'LBL_ROLES_SUBPANEL_TITLE' => 'الأدوار الوظيفية للمُستخدم',
-    'LBL_SEARCH_FORM_TITLE' => 'بحث',
-    'LBL_NO_ACCESS' => 'ليس لديك صلاحية الوصول لهذه المنطقة. من فضلك أتصل بمدير موقعك لو أن تعتقد أنه من المفترض حصولك على هذه الصلاحية',
+    'LBL_SEARCH_FORM_TITLE' => 'Search',
+    'LBL_NO_ACCESS' => 'You do not have access to this area. Contact your site administrator to obtain access.',
     'LBL_REDIRECT_TO_HOME' => 'إعادة التوجيه للصفحة الرئيسية في',
     'LBL_SECONDS' => 'ثواني',
     'LBL_ADDING' => 'إضافة ',
