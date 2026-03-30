@@ -43,14 +43,14 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'ID ответственного',
+    'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)',
     'LBL_ASSIGNED_TO_NAME' => 'Ответственное лицо',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Дата создания',
     'LBL_DATE_MODIFIED' => 'Дата изменения',
     'LBL_MODIFIED' => 'Изменено',
-    'LBL_MODIFIED_NAME' => 'Изменено (Имя)',
-    'LBL_CREATED' => 'Создано',
+    'LBL_MODIFIED_NAME' => 'Изменено',
+    'LBL_CREATED' => 'Кем создано',
     'LBL_DESCRIPTION' => 'Описание',
     'LBL_DELETED' => 'Удалено',
     'LBL_NAME' => 'Название товара',
@@ -67,8 +67,8 @@ $mod_strings = array(
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
     'LBL_NEW_FORM_TITLE' => 'Новые товары',
     'LBL_MAINCODE' => 'Код товара',
-    'VALUE' => 'Название товара',
-    'LBL_PART_NUMBER' => 'Артикул',
+    'VALUE' => 'Product Name',
+    'LBL_PART_NUMBER' => 'Part Number',
     'LBL_CATEGORY' => 'Категория',
     'LBL_TYPE' => 'Тип Продукта',
     'LBL_COST' => 'Себестоимость',
