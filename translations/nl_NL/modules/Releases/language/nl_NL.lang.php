@@ -43,28 +43,28 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Uitgave',
+    'LBL_MODULE_NAME' => 'Releases',
     'LBL_MODULE_TITLE' => 'Releases: Start',
     'LBL_SEARCH_FORM_TITLE' => 'Release zoeken',
     'LBL_LIST_FORM_TITLE' => 'Releases',
     'LBL_NEW_FORM_TITLE' => 'Nieuwe release',
-    'LBL_RELEASE' => 'Versie:',
-    'LBL_LIST_NAME' => 'Versies',
+    'LBL_RELEASE' => 'Release:',
+    'LBL_LIST_NAME' => 'Release',
     'LBL_NAME' => 'Release versie',
-    'LBL_LIST_LIST_ORDER' => 'Volgorde',
-    'LBL_LIST_ORDER' => 'Volgorde',
+    'LBL_LIST_LIST_ORDER' => 'Order',
+    'LBL_LIST_ORDER' => 'Order:',
     'LBL_LIST_STATUS' => 'Status',
     'LBL_STATUS' => 'Status:',
-    'LNK_NEW_RELEASE' => 'Releases',
-    'NTC_DELETE_CONFIRMATION' => 'Weet u zeker dat u dit record wilt verwijderen?',
+    'LNK_NEW_RELEASE' => 'Release List',
+    'NTC_DELETE_CONFIRMATION' => 'Are you sure you want to delete this record?',
     'NTC_SNOOZE_CONFIRMATION' => 'Weet u zeker dat u wilt uitstellen?',
     'ERR_DELETE_RECORD' => 'Er moet een record nummer zijn gespecificeerd om deze release te verwijderen.',
     'NTC_STATUS' => 'Zet de status op Inactief om deze release te verwijderen uit de Releases dropdown lijsten.',
     'NTC_LIST_ORDER' => 'Kies de volgorde waarin deze release in de Releases dropdown lijsten moet voorkomen',
     'release_status_dom' =>
         array(
-            'Active' => 'Actief',
-            'Inactive' => 'Inactief',
+            'Active' => 'Active',
+            'Inactive' => 'Inactive',
         ),
-    'LBL_EDITLAYOUT' => 'Bewerk lay-out' /*for 508 compliance fix*/,
+    'LBL_EDITLAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
 );
