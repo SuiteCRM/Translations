@@ -54,9 +54,9 @@ $mod_strings = array(
     'LBL_JOIN_TABLE' => 'Uneşte nume tabel',
     'LBL_JOIN_KEY_LHS' => 'Unește cheie LHS',
     'LBL_JOIN_KEY_RHS' => 'Unește cheie RHS',
-    'LBL_RELATIONSHIP_TYPE' => 'Tip relație',
+    'LBL_RELATIONSHIP_TYPE' => 'Relationship Type',
     'LBL_RELATIONSHIP_ROLE_COLUMN' => 'Numele coloanei rol de relație',
     'LBL_RELATIONSHIP_ROLE_COLUMN_VALUE' => 'Valoarea coloanei rol de relație',
     'LBL_REVERSE' => 'Inversează',
-    'LBL_DELETED' => 'Șters',
+    'LBL_DELETED' => 'Deleted',
 );
