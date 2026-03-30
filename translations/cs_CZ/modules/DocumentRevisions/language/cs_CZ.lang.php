@@ -46,29 +46,29 @@ $mod_strings = array(
     //module
     'LBL_MODULE_NAME' => 'Revize dokumentu',
 
-    'LNK_NEW_DOCUMENT' => 'Přidat dokument',
+    'LNK_NEW_DOCUMENT' => 'Vytvořit dokument',
     'LNK_DOCUMENT_LIST' => 'Seznam dokumentů',
 
     //vardef labels
-    'LBL_REVISION_NAME' => 'Číslo revize',
-    'LBL_FILENAME' => 'Soubor',
+    'LBL_REVISION_NAME' => 'Číslo revize ',
+    'LBL_FILENAME' => 'Soubor:',
     'LBL_MIME' => 'MIME typ',
     'LBL_REVISION' => 'Revize',
     'LBL_DOCUMENT' => 'Související dokument',
     'LBL_LATEST_REVISION' => 'Poslední revize',
-    'LBL_CHANGE_LOG' => 'Protokol změn:',
+    'LBL_CHANGE_LOG' => 'Protokol změn',
     'LBL_ACTIVE_DATE' => 'Datum zveřejnění',
     'LBL_EXPIRATION_DATE' => 'Datum vypršení',
     'LBL_FILE_EXTENSION' => 'Přípona souboru',
 
-    'LBL_DOC_NAME' => 'Jméno dokumentu:',
+    'LBL_DOC_NAME' => 'Název dokumentu:',
     'LBL_DOC_VERSION' => 'Revize:',
 
     //document revisions.
     'LBL_REV_LIST_REVISION' => 'Revize',
     'LBL_REV_LIST_ENTERED' => 'Datum vytvoření',
-    'LBL_REV_LIST_CREATED' => 'Vytvořil',
-    'LBL_REV_LIST_LOG' => 'Protokol změn:',
+    'LBL_REV_LIST_CREATED' => 'Created by',
+    'LBL_REV_LIST_LOG' => 'Protokol změn',
     'LBL_REV_LIST_FILENAME' => 'Soubor',
 
     'LBL_CURRENT_DOC_VERSION' => 'Poslední revize:',
