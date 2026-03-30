@@ -43,30 +43,30 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EDIT_LAYOUT' => 'Editar diseño',
+    'LBL_EDIT_LAYOUT' => 'Edit Layout',
     'LBL_EDIT_FIELDS' => 'Editar Campos Personalizados',
-    'LBL_SELECT_FILE' => 'Seleccionar Archivo',
-    'LBL_MODULE_TITLE' => 'Estudio',
-    'LBL_TOOLBOX' => 'Caja de Herramientas',
+    'LBL_SELECT_FILE' => 'Select File',
+    'LBL_MODULE_TITLE' => 'Studio',
+    'LBL_TOOLBOX' => 'Toolbox',
     'LBL_SUITE_FIELDS_STAGE' => 'Campos SuiteCRM (haga clic en los elementos para agregarlos al área de diseño)',
     'LBL_VIEW_SUITE_FIELDS' => 'Ver Campos SuiteCRM',
-    'LBL_FAILED_TO_SAVE' => 'Fallo al Guardar',
+    'LBL_FAILED_TO_SAVE' => 'Failed To Save',
     'LBL_CONFIRM_UNSAVE' => 'Los cambios no se han guardado y se perderán. ¿Está seguro de que desea continuar?',
-    'LBL_PUBLISHING' => 'Publicando...',
-    'LBL_PUBLISHED' => 'Publicado',
-    'LBL_FAILED_PUBLISHED' => 'Fallo Al Publicar',
-    'LBL_DROP_HERE' => '[Soltar Aquí]',
+    'LBL_PUBLISHING' => 'Publishing...',
+    'LBL_PUBLISHED' => 'Published',
+    'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
+    'LBL_DROP_HERE' => '[Drop Here]',
 
 //CUSTOM FIELDS
-    'LBL_NAME' => 'Nombre',
-    'LBL_LABEL' => 'Etiqueta',
-    'LBL_MASS_UPDATE' => 'Actualización masiva',
-    'LBL_DEFAULT_VALUE' => 'Valor Por Defecto',
-    'LBL_REQUIRED' => 'Requerido',
-    'LBL_DATA_TYPE' => 'Tipo',
+    'LBL_NAME' => 'Name',
+    'LBL_LABEL' => 'Label',
+    'LBL_MASS_UPDATE' => 'Mass Update',
+    'LBL_DEFAULT_VALUE' => 'Default Value',
+    'LBL_REQUIRED' => 'Required',
+    'LBL_DATA_TYPE' => 'Type',
 
 
-    'LBL_HISTORY' => 'Historial',
+    'LBL_HISTORY' => 'History',
 
 //WIZARDS
 
@@ -79,68 +79,68 @@ $mod_strings = array(
     'LBL_SW_EDIT_GROUPTABS' => 'Configurar Grupos de Pestañas',
     'LBL_SW_EDIT_PORTAL' => 'Editar Portal',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => 'Reparar Campos Personalizados',
-    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migración de Campos Personalizados',
+    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrate Custom Fields',
 
 // JS LABELS
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Reconstruye versiones JavaScript de los archivos de idioma',
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Quitando versiones JavaScript de archivos de idioma, se reconstruirán cuando sea necesario.',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuilds javascript versions of language files',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Removing javascript versions of language files, will rebuild when needed.',
 
 
 //Manager Backups History
-    'LBL_MB_DELETE' => 'Eliminar',
+    'LBL_MB_DELETE' => 'Delete',
 
 //EDIT DROP DOWNS
     'LBL_ED_CREATE_DROPDOWN' => 'Crea una Lista Desplegable',
     'LBL_DROPDOWN_NAME' => 'Nombre de Lista Desplegable:',
     'LBL_DROPDOWN_LANGUAGE' => 'Idioma de Lista Desplegable:',
-    'LBL_TABGROUP_LANGUAGE' => 'Idioma:',
+    'LBL_TABGROUP_LANGUAGE' => 'Language:',
 
 //END WIZARDS
 
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => 'Valor de Visualización',
     'LBL_DD_DATABASEVALUE' => 'Valor de Base de datos',
-    'LBL_DD_ALL' => 'Todo',
+    'LBL_DD_ALL' => 'All',
 
 //BUTTONS
-    'LBL_BTN_SAVE' => 'Guardar',
-    'LBL_BTN_CANCEL' => 'Cancelar',
-    'LBL_BTN_SAVEPUBLISH' => 'Guardar y Desplegar',
-    'LBL_BTN_HISTORY' => 'Historial',
-    'LBL_BTN_ADDROWS' => 'Agregar Filas',
-    'LBL_BTN_UNDO' => 'Deshacer',
-    'LBL_BTN_REDO' => 'Rehacer',
-    'LBL_BTN_ADDCUSTOMFIELD' => 'Agregar Campo Personalizado',
+    'LBL_BTN_SAVE' => 'Save',
+    'LBL_BTN_CANCEL' => 'Cancel',
+    'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
+    'LBL_BTN_HISTORY' => 'History',
+    'LBL_BTN_ADDROWS' => 'Add Rows',
+    'LBL_BTN_UNDO' => 'Undo',
+    'LBL_BTN_REDO' => 'Redo',
+    'LBL_BTN_ADDCUSTOMFIELD' => 'Add Custom Field',
     'LBL_BTN_TABINDEX' => 'Editar Orden de Pestañas',
 
 //TABS
-    'LBL_MODULES' => 'Módulos',
-    'LBL_MODULE_NAME' => 'Administración',
-    'LBL_CONFIGURE_GROUP_TABS' => 'Configurar filtros de menú de módulos',
+    'LBL_MODULES' => 'Modules',
+    'LBL_MODULE_NAME' => 'Administration',
+    'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
     'LBL_GROUP_TAB_WELCOME' => 'Los siguientes grupos se mostrarán en la barra de navegación a los usuarios que elijan ver Módulos Agrupados. Arrastre y suele módulos a y desde los Grupos para configurar qué módulos aparecen bajo los grupos. Nota: Los grupos vacíos no serán mostrados en la barra de navegación.',
     'LBL_RENAME_TAB_WELCOME' => 'Haga clic en el Valor de Visualización de cualquier pestaña de la siguiente tabla para renombrar la pestaña.',
     'LBL_DELETE_MODULE' => 'Quitar&nbsp;módulo<br />del&nbsp;filtro',
     'LBL_TAB_GROUP_LANGUAGE_HELP' => 'Seleccione uno de los idiomas disponibles, edite las etiquetas del Grupo y haga clic en Guardar y Desplegar para aplicar las etiquetas en el idioma deseado.',
     'LBL_ADD_GROUP' => 'Agregar filtro',
     'LBL_NEW_GROUP' => 'Nuevo Grupo',
-    'LBL_RENAME_TABS' => 'Renombrar Pestañas',
+    'LBL_RENAME_TABS' => 'Rename Modules',
 
 //ERRORS
-    'ERROR_INVALID_KEY_VALUE' => "Error: Valor de Clave No Válido: [&#39;]",
+    'ERROR_INVALID_KEY_VALUE' => "Error: Invalid Key Value: [']",
 
 //SUGAR PORTAL
-    'LBL_SAVE' => 'Guardar' /*for 508 compliance fix*/,
-    'LBL_UNDO' => 'Deshacer' /*for 508 compliance fix*/,
-    'LBL_REDO' => 'Rehacer' /*for 508 compliance fix*/,
+    'LBL_SAVE' => 'Save' /*for 508 compliance fix*/,
+    'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
+    'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'En línea' /*for 508 compliance fix*/,
-    'LBL_DELETE' => 'Eliminar' /*for 508 compliance fix*/,
-    'LBL_ADD_FIELD' => 'Agregar Campo' /*for 508 compliance fix*/,
+    'LBL_DELETE' => 'Delete' /*for 508 compliance fix*/,
+    'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Maximizar' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Minimizar' /*for 508 compliance fix*/,
-    'LBL_PUBLISH' => 'Publicar' /*for 508 compliance fix*/,
-    'LBL_ADDROWS' => 'Agregar Filas' /*for 508 compliance fix*/,
-    'LBL_ADDFIELD' => 'Agregar Campo' /*for 508 compliance fix*/,
-    'LBL_EDIT' => 'Editar' /*for 508 compliance fix*/,
+    'LBL_PUBLISH' => 'Publish' /*for 508 compliance fix*/,
+    'LBL_ADDROWS' => 'Add Rows' /*for 508 compliance fix*/,
+    'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
+    'LBL_EDIT' => 'Edit' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Seleccione el idioma que desea editar.',
     'LBL_SINGULAR' => 'Etiqueta en Singular',
