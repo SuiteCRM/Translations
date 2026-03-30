@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_FIELD_NAME' => 'Champ',
+    'LBL_FIELD_NAME' => 'Field',
     'LBL_OLD_NAME' => 'Ancienne valeur',
     'LBL_NEW_VALUE' => 'Nouvelle valeur',
     'LBL_CREATED_BY' => 'Modifié par',
     'LBL_LIST_DATE' => 'Date de modification',
     'LBL_AUDITED_FIELDS' => 'Champ(s) audité(s) : ',
-    'LBL_CHANGE_LOG' => 'Journal des modifications',
+    'LBL_CHANGE_LOG' => 'Change Log',
 );
