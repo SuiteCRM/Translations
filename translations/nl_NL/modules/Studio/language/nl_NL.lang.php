@@ -43,30 +43,30 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EDIT_LAYOUT' => 'Bewerk lay-out',
+    'LBL_EDIT_LAYOUT' => 'Edit Layout',
     'LBL_EDIT_FIELDS' => 'Bewerkt Customized velden',
-    'LBL_SELECT_FILE' => 'Selecteer bestand',
+    'LBL_SELECT_FILE' => 'Select File',
     'LBL_MODULE_TITLE' => 'Studio',
-    'LBL_TOOLBOX' => 'Gereedschapskist',
+    'LBL_TOOLBOX' => 'Toolbox',
     'LBL_SUITE_FIELDS_STAGE' => 'SuiteCRM Fields (klik items om aan te maken op staging area)',
     'LBL_VIEW_SUITE_FIELDS' => 'Overzicht SuiteCRM veldem',
-    'LBL_FAILED_TO_SAVE' => 'Opslaan is mislukt',
+    'LBL_FAILED_TO_SAVE' => 'Failed To Save',
     'LBL_CONFIRM_UNSAVE' => 'Alle veranderingen worden niet opgeslagen Weet u zeter dat u door wilt gaan?',
-    'LBL_PUBLISHING' => 'Bezig met publiceren ...',
-    'LBL_PUBLISHED' => 'Gepubliceerd',
-    'LBL_FAILED_PUBLISHED' => 'Publiceren is mislukt',
-    'LBL_DROP_HERE' => '[Sleep hier naartoe]',
+    'LBL_PUBLISHING' => 'Bezig met publiceren...',
+    'LBL_PUBLISHED' => 'Published',
+    'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
+    'LBL_DROP_HERE' => '[Drop Here]',
 
 //CUSTOM FIELDS
     'LBL_NAME' => 'Naam',
-    'LBL_LABEL' => 'Omschrijving',
-    'LBL_MASS_UPDATE' => 'Massa update',
-    'LBL_DEFAULT_VALUE' => 'Standaardwaarde',
-    'LBL_REQUIRED' => 'Verplicht',
+    'LBL_LABEL' => 'Label',
+    'LBL_MASS_UPDATE' => 'Mass Update',
+    'LBL_DEFAULT_VALUE' => 'Default Value',
+    'LBL_REQUIRED' => 'Required',
     'LBL_DATA_TYPE' => 'Type',
 
 
-    'LBL_HISTORY' => 'Geschiedenis',
+    'LBL_HISTORY' => 'History',
 
 //WIZARDS
 
@@ -79,15 +79,15 @@ $mod_strings = array(
     'LBL_SW_EDIT_GROUPTABS' => 'Instellingen Ggroep Tabs',
     'LBL_SW_EDIT_PORTAL' => 'Bewerk portaal',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => 'Repareer customized velden',
-    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migreer Zelfgemaakte Velden',
+    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrate Custom Fields',
 
 // JS LABELS
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Herbouwen javascript versies van de taal bestanden',
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Verwijderen van javascript versies van taalbestanden. Deze zullen herbouwd worden indien nodig.',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuilds javascript versions of language files',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Removing javascript versions of language files, will rebuild when needed.',
 
 
 //Manager Backups History
-    'LBL_MB_DELETE' => 'Verwijderen',
+    'LBL_MB_DELETE' => 'Delete',
 
 //EDIT DROP DOWNS
     'LBL_ED_CREATE_DROPDOWN' => 'Aanmaken drop-down',
@@ -100,47 +100,47 @@ $mod_strings = array(
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => 'Laat waarde zien',
     'LBL_DD_DATABASEVALUE' => 'Database waarde',
-    'LBL_DD_ALL' => 'Alles',
+    'LBL_DD_ALL' => 'All',
 
 //BUTTONS
-    'LBL_BTN_SAVE' => 'Opslaan',
+    'LBL_BTN_SAVE' => 'Save',
     'LBL_BTN_CANCEL' => 'Annuleren',
-    'LBL_BTN_SAVEPUBLISH' => 'Opslaan & Implementeren (Deploy)',
-    'LBL_BTN_HISTORY' => 'Geschiedenis',
-    'LBL_BTN_ADDROWS' => 'Rijen Toevoegen',
-    'LBL_BTN_UNDO' => 'Ongedaan maken',
-    'LBL_BTN_REDO' => 'Opnieuw doen',
-    'LBL_BTN_ADDCUSTOMFIELD' => 'Eigen veld Toevoegen',
+    'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
+    'LBL_BTN_HISTORY' => 'History',
+    'LBL_BTN_ADDROWS' => 'Add Rows',
+    'LBL_BTN_UNDO' => 'Undo',
+    'LBL_BTN_REDO' => 'Redo',
+    'LBL_BTN_ADDCUSTOMFIELD' => 'Add Custom Field',
     'LBL_BTN_TABINDEX' => 'Bewerken tab volgorde',
 
 //TABS
-    'LBL_MODULES' => 'Modulen',
-    'LBL_MODULE_NAME' => 'Beheer',
-    'LBL_CONFIGURE_GROUP_TABS' => 'Instellen module menu filters',
+    'LBL_MODULES' => 'Modules',
+    'LBL_MODULE_NAME' => 'Administration',
+    'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
     'LBL_GROUP_TAB_WELCOME' => 'De filters hieronder zullen te zien zijn in de Meer lijst in het module menu voor gebruikers, tevens voor een overzicht voor groepen modulen in de menu structuur. Sleep en zet neer de modulen van de filters. Opmerking: Lege filters zullen niet getoont worden in het menu',
     'LBL_RENAME_TAB_WELCOME' => 'Klik op een tab\'s Toon de waarde in de tabel hier beneden om de tab te hernoemen.',
     'LBL_DELETE_MODULE' => 'Verwijder&nbsp;module<br />van&nbsp;filter',
     'LBL_TAB_GROUP_LANGUAGE_HELP' => 'Selecteer een beschikbare taal, bewerk de groep labels en klik Opslaan & Toepassen om de veranderingen door te voeren in de geselecteerde taal.',
     'LBL_ADD_GROUP' => 'Aanmaken filter',
     'LBL_NEW_GROUP' => 'Nieuw Groep',
-    'LBL_RENAME_TABS' => 'Hernoem Tabs',
+    'LBL_RENAME_TABS' => 'Rename Modules',
 
 //ERRORS
-    'ERROR_INVALID_KEY_VALUE' => "Fout: Ongeldige sleutel Waarde: [&#39;]",
+    'ERROR_INVALID_KEY_VALUE' => "Error: Invalid Key Value: [']",
 
 //SUGAR PORTAL
-    'LBL_SAVE' => 'Opslaan' /*for 508 compliance fix*/,
-    'LBL_UNDO' => 'Ongedaan maken' /*for 508 compliance fix*/,
-    'LBL_REDO' => 'Opnieuw doen' /*for 508 compliance fix*/,
+    'LBL_SAVE' => 'Save' /*for 508 compliance fix*/,
+    'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
+    'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Inlijn' /*for 508 compliance fix*/,
-    'LBL_DELETE' => 'Verwijderen' /*for 508 compliance fix*/,
-    'LBL_ADD_FIELD' => 'Veld toevoegen' /*for 508 compliance fix*/,
+    'LBL_DELETE' => 'Delete' /*for 508 compliance fix*/,
+    'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Maximaliseren' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Minimaliseren' /*for 508 compliance fix*/,
-    'LBL_PUBLISH' => 'publiceer' /*for 508 compliance fix*/,
-    'LBL_ADDROWS' => 'Rijen Toevoegen' /*for 508 compliance fix*/,
-    'LBL_ADDFIELD' => 'Veld toevoegen' /*for 508 compliance fix*/,
-    'LBL_EDIT' => 'Wijzigen' /*for 508 compliance fix*/,
+    'LBL_PUBLISH' => 'Publish' /*for 508 compliance fix*/,
+    'LBL_ADDROWS' => 'Add Rows' /*for 508 compliance fix*/,
+    'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
+    'LBL_EDIT' => 'Edit' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Selecteer de taal om te bewerken.',
     'LBL_SINGULAR' => 'Enkelvoud label',
