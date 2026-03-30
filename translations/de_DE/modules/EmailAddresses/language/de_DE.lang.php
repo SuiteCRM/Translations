@@ -43,13 +43,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EMAIL_ADDRESS_ID' => 'Id',
-    'LBL_EMAIL_ADDRESS' => 'E-Mail Adresse',
+    'LBL_EMAIL_ADDRESS_ID' => 'ID',
+    'LBL_EMAIL_ADDRESS' => 'Email Address',
     'LBL_EMAIL_ADDRESS_CAPS' => 'E-Mail Adresse Großbuchstaben',
-    'LBL_INVALID_EMAIL' => 'Ungültige E-Mail',
-    'LBL_OPT_OUT' => 'Abgemeldet',
+    'LBL_INVALID_EMAIL' => 'Invalid Email',
+    'LBL_OPT_OUT' => 'Opted Out',
     'LBL_CONFIRM_OPT_IN' => 'Einwilligung bestätigen',
     'LBL_DATE_CREATE' => 'Erstellungsdatum',
-    'LBL_DATE_MODIFIED' => 'Änderungsdatum',
-    'LBL_DELETED' => 'Löschen',
+    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_DELETED' => 'Delete',
 );
