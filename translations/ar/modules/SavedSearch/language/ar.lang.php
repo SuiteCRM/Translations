@@ -56,7 +56,7 @@ $mod_strings = array(
     'LBL_SAVE_SEARCH_AS' => 'حفظ الفرز كـ:',
     'LBL_ASCENDING' => 'تصاعدي',
     'LBL_DESCENDING' => 'تنازلي',
-    'LBL_MODIFY_CURRENT_FILTER' => 'تعديل الفلتر الحالي',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
     'LBL_CREATED_BY' => 'أنشئ بواسطة',
     'LBL_QUICK_FILTER' => 'فرز سريع',
