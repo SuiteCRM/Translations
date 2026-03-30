@@ -174,7 +174,7 @@ $mod_strings = array(
 
     'LBL_LEADS_SUBPANEL_TITLE' => 'მოსამზადებელი პროცესი',
     'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'შესაძლებლობები',
-    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'დოკუმენტი',
+    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'დოკუმენტები',
     'LBL_COPY_ADDRESS_CHECKED_PRIMARY' => 'Copy to Primary Address',
     'LBL_COPY_ADDRESS_CHECKED_ALT' => 'Copy to Other Address',
 
