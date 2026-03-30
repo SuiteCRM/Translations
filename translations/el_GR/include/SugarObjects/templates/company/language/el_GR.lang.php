@@ -56,8 +56,8 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Υπεύθυνος:',
     'LBL_RATING' => 'Βαθμολογία',
     'LBL_ASSIGNED_TO' => 'Υπεύθυνος:',
-    'LBL_ASSIGNED_USER' => 'Υπεύθυνος:',
-    'LBL_ASSIGNED_TO_ID' => 'Υπεύθυνος:',
+    'LBL_ASSIGNED_USER' => 'Ανατέθηκε σε:',
+    'LBL_ASSIGNED_TO_ID' => 'Ανατέθηκε σε:',
     'LBL_BILLING_ADDRESS_CITY' => 'Πόλη:',
     'LBL_BILLING_ADDRESS_COUNTRY' => 'Χώρα:',
     'LBL_BILLING_ADDRESS_POSTALCODE' => 'ΤΚ:',
@@ -97,7 +97,7 @@ $mod_strings = array(
     'LBL_PHONE_FAX' => 'Fax:',
     'LBL_PHONE_OFFICE' => 'Τηλέφωνο Γραφείου:',
     'LBL_PHONE' => 'Τηλέφωνο:',
-    'LBL_EMAIL_ADDRESS' => 'Email',
+    'LBL_EMAIL_ADDRESS' => 'Διεύθυνση Email',
     'LBL_EMAIL_ADDRESSES' => 'Email Διεύθυνση(εις)',
     'LBL_POSTAL_CODE' => 'ΤΚ:',
     'LBL_SAVE_ACCOUNT' => 'Αποθήκευση λογαριασμού',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'Είστε βέαιοι ότι θέλετε να διαγράψετε αυτήν την εγγραφή;',
 
     'LBL_EDIT_BUTTON' => 'Επεξεργασία',
-    'LBL_REMOVE' => 'Αφαίρεση',
+    'LBL_REMOVE' => 'Remove',
 
 );
