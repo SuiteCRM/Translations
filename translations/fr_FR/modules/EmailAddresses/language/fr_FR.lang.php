@@ -44,10 +44,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_EMAIL_ADDRESS_ID' => 'ID',
-    'LBL_EMAIL_ADDRESS' => 'Adresse électronique',
+    'LBL_EMAIL_ADDRESS' => 'Adresse de courrier électronique',
     'LBL_EMAIL_ADDRESS_CAPS' => 'Adresse de courrier électronique Caps',
-    'LBL_INVALID_EMAIL' => 'E-mails invalides',
-    'LBL_OPT_OUT' => 'Désinscription',
+    'LBL_INVALID_EMAIL' => 'Invalid Email',
+    'LBL_OPT_OUT' => 'Désinscrit',
     'LBL_CONFIRM_OPT_IN' => 'Confirmer l\'abonnement',
     'LBL_DATE_CREATE' => 'Date de création',
     'LBL_DATE_MODIFIED' => 'Date de modification',
