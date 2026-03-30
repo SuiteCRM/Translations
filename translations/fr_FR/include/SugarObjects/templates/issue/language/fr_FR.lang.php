@@ -44,25 +44,25 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
 
-    'LBL_NAME' => 'Nom',
+    'LBL_NAME' => 'Name',
     'LBL_NUMBER' => 'Numéro :',
-    'LBL_STATUS' => 'Statut :',
+    'LBL_STATUS' => 'Status:',
     'LBL_PRIORITY' => 'Priorité :',
-    'LBL_DESCRIPTION' => 'Description :',
+    'LBL_DESCRIPTION' => 'Description:',
     'LBL_RESOLUTION' => 'Résolution',
     'LBL_LAST_MODIFIED' => 'Date de modification',
     'LBL_ASSIGNED_TO_ID' => 'Assigné à :',
-    'LBL_ASSIGNED_TO_NAME' => 'Utilisateur :',
+    'LBL_ASSIGNED_TO_NAME' => 'User:',
     'LBL_WORK_LOG' => 'Historique de travail :',
     'LBL_CREATED_BY' => 'Créé par :',
-    'LBL_DATE_ENTERED' => 'Date de création :',
-    'LBL_DATE_MODIFIED' => 'Date de modification :',
+    'LBL_DATE_ENTERED' => 'Date Created:',
+    'LBL_DATE_MODIFIED' => 'Date Modified:',
     'LBL_MODIFIED_BY' => 'Modifié par :',
     'LBL_ASSIGNED_USER' => 'Utilisateur attribué :',
-    'LBL_TYPE' => 'Type :',
+    'LBL_TYPE' => 'Type:',
     'LBL_SUBJECT' => 'Sujet :',
 
-    'LBL_EDIT_BUTTON' => 'Modifier',
-    'LBL_REMOVE' => 'Supprimer',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
 
 );
