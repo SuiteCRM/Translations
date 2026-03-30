@@ -43,13 +43,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EMAIL_ADDRESS_ID' => 'Id',
-    'LBL_EMAIL_ADDRESS' => 'E-mail',
+    'LBL_EMAIL_ADDRESS_ID' => 'ID',
+    'LBL_EMAIL_ADDRESS' => 'Email Address',
     'LBL_EMAIL_ADDRESS_CAPS' => 'E-mail adres hoofdletters',
-    'LBL_INVALID_EMAIL' => 'Ongeldig e-mail',
+    'LBL_INVALID_EMAIL' => 'Invalid Email',
     'LBL_OPT_OUT' => 'Afgemeld',
     'LBL_CONFIRM_OPT_IN' => 'Bevestig Opt-In',
     'LBL_DATE_CREATE' => 'Datum aanmaak',
     'LBL_DATE_MODIFIED' => 'Datum gewijzigd',
-    'LBL_DELETED' => 'Verwijderen',
+    'LBL_DELETED' => 'Delete',
 );
