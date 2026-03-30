@@ -43,27 +43,27 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Versionen',
+    'LBL_MODULE_NAME' => 'Releases',
     'LBL_MODULE_TITLE' => 'Freigaben: Startseite',
     'LBL_SEARCH_FORM_TITLE' => 'Freigabe suchen',
     'LBL_LIST_FORM_TITLE' => 'Freigabeliste',
     'LBL_NEW_FORM_TITLE' => 'Neue Freigabe',
-    'LBL_RELEASE' => 'Version:',
-    'LBL_LIST_NAME' => 'Version',
+    'LBL_RELEASE' => 'Release:',
+    'LBL_LIST_NAME' => 'Release',
     'LBL_NAME' => 'Freigabeversion',
-    'LBL_LIST_LIST_ORDER' => 'Reihenfolge',
-    'LBL_LIST_ORDER' => 'Bestellung:',
+    'LBL_LIST_LIST_ORDER' => 'Order',
+    'LBL_LIST_ORDER' => 'Order:',
     'LBL_LIST_STATUS' => 'Status',
-    'LBL_STATUS' => 'Status',
-    'LNK_NEW_RELEASE' => 'Freigabeliste',
-    'NTC_DELETE_CONFIRMATION' => 'Sind Sie sicher, dass Sie diesen Eintrag löschen wollen?',
+    'LBL_STATUS' => 'Status:',
+    'LNK_NEW_RELEASE' => 'Release List',
+    'NTC_DELETE_CONFIRMATION' => 'Are you sure you want to delete this record?',
     'ERR_DELETE_RECORD' => 'Die Datensatznummer muss angegeben werden, um diesen Eintrag löschen zu können.',
     'NTC_STATUS' => 'Setzen Sie den Status auf inaktiv, um diese Freigabe aus der Auswahlliste zu löschen.',
     'NTC_LIST_ORDER' => 'Legen Sie den Rang fest, auf dem diese Version in der Auswahlliste eingetragen werden soll',
     'release_status_dom' =>
         array(
-            'Active' => 'Aktiv',
-            'Inactive' => 'Inaktiv',
+            'Active' => 'Active',
+            'Inactive' => 'Inactive',
         ),
-    'LBL_EDITLAYOUT' => 'Layout bearbeiten' /*for 508 compliance fix*/,
+    'LBL_EDITLAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
 );
