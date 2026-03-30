@@ -44,12 +44,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_EMAIL_ADDRESS_ID' => 'ID',
-    'LBL_EMAIL_ADDRESS' => 'Direcció correu electrònic',
+    'LBL_EMAIL_ADDRESS' => 'Email Address',
     'LBL_EMAIL_ADDRESS_CAPS' => 'Majúscules en correu electrònic',
-    'LBL_INVALID_EMAIL' => 'Correu electrònic no vàlid',
-    'LBL_OPT_OUT' => 'Descartats',
+    'LBL_INVALID_EMAIL' => 'Invalid Email',
+    'LBL_OPT_OUT' => 'Opted Out',
     'LBL_CONFIRM_OPT_IN' => 'Confirmar Autoritzat a enviar',
     'LBL_DATE_CREATE' => 'Data de Creació',
-    'LBL_DATE_MODIFIED' => 'Última Modificació',
-    'LBL_DELETED' => 'Esborrar',
+    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_DELETED' => 'Delete',
 );
