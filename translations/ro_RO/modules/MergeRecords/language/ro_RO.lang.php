@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Lista de combinări',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Caută înregistrări căutate pentru îmbinări',
-    'LBL_AVAIL_FIELDS' => 'Câmpuri disponibile',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'Stare filtru',
     'LBL_MERGE_VALUE_OVER' => 'Suprascriere valoarea',
 
@@ -58,15 +58,15 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Efectua combinarea',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Efectua combinarea',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Salvează combinarea',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Salvează combinarea',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => 'Înregistrări găsite pentru combinare',
     'LBL_SELECT_ERROR' => 'Trebuie să faceți o selecție înainte de a putea continua.',
     'LBL_CHANGE_PARENT' => 'Alege ca primară',
-    'LBL_REMOVE_FROM_MERGE' => 'Elimină',
+    'LBL_REMOVE_FROM_MERGE' => 'Remove',
     'LBL_DIFF_COL_VALUES' => 'Valorile din rândurile primare diferă de valorile din rândurile de combinat:',
     'LBL_SAME_COL_VALUES' => 'Valorile din rândurile primare sunt similare cu cele din rândurile de combinat:',
     'LBL_DELETE_MESSAGE' => 'Această acțiune va șterge următoarele înregistrarea (înregistrările):',
