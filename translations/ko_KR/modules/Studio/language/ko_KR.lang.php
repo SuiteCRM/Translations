@@ -43,30 +43,30 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EDIT_LAYOUT' => '레이아웃 편집',
+    'LBL_EDIT_LAYOUT' => '지면 배치 편집하기',
     'LBL_EDIT_FIELDS' => '사용자 정의 필드 편집',
-    'LBL_SELECT_FILE' => '파일 선택하기',
+    'LBL_SELECT_FILE' => 'Select File',
     'LBL_MODULE_TITLE' => '작업실',
-    'LBL_TOOLBOX' => '도구 상자',
+    'LBL_TOOLBOX' => 'Toolbox',
     'LBL_SUITE_FIELDS_STAGE' => 'SuiteCRM 필드 (준비 영역에 추가할 항목을 클릭)',
     'LBL_VIEW_SUITE_FIELDS' => 'SuiteCRM 필드 보기',
-    'LBL_FAILED_TO_SAVE' => '저장 실패',
+    'LBL_FAILED_TO_SAVE' => 'Failed To Save',
     'LBL_CONFIRM_UNSAVE' => '변경 내용이 저장되지 않아습니다. 계속하시겠습니까?',
-    'LBL_PUBLISHING' => '발표중',
-    'LBL_PUBLISHED' => '게시됨',
-    'LBL_FAILED_PUBLISHED' => '발표 실패',
-    'LBL_DROP_HERE' => '여기에 내리기',
+    'LBL_PUBLISHING' => '게시중...',
+    'LBL_PUBLISHED' => 'Published',
+    'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
+    'LBL_DROP_HERE' => '[Drop Here]',
 
 //CUSTOM FIELDS
-    'LBL_NAME' => '이름',
+    'LBL_NAME' => 'Name',
     'LBL_LABEL' => '라벨',
-    'LBL_MASS_UPDATE' => '일괄 변경',
+    'LBL_MASS_UPDATE' => '대용량 업데이트',
     'LBL_DEFAULT_VALUE' => '기본값',
-    'LBL_REQUIRED' => '필수항목',
-    'LBL_DATA_TYPE' => '종류',
+    'LBL_REQUIRED' => 'Required',
+    'LBL_DATA_TYPE' => '유형',
 
 
-    'LBL_HISTORY' => '이력',
+    'LBL_HISTORY' => '연혁',
 
 //WIZARDS
 
@@ -79,11 +79,11 @@ $mod_strings = array(
     'LBL_SW_EDIT_GROUPTABS' => '그룹 탭 설정',
     'LBL_SW_EDIT_PORTAL' => '포탈 편집',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => '사용자 정의 필드 복구',
-    'LBL_SW_MIGRATE_CUSTOMFIELDS' => '사용자 정의 필드 마이그레이션',
+    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrate Custom Fields',
 
 // JS LABELS
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => '언어파일의 javascript 버전 다시 만들기',
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => '언어파일의  javascript 버전 제거중이며 필요시 다시 만듭니다.',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuilds javascript versions of language files',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Removing javascript versions of language files, will rebuild when needed.',
 
 
 //Manager Backups History
@@ -93,53 +93,53 @@ $mod_strings = array(
     'LBL_ED_CREATE_DROPDOWN' => '드롭 다운 작성',
     'LBL_DROPDOWN_NAME' => '드롭 다운 이름:',
     'LBL_DROPDOWN_LANGUAGE' => '드롭 다운 언어:',
-    'LBL_TABGROUP_LANGUAGE' => '언어:',
+    'LBL_TABGROUP_LANGUAGE' => '언어',
 
 //END WIZARDS
 
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => '가치 전시',
     'LBL_DD_DATABASEVALUE' => '데이타베이스 가치',
-    'LBL_DD_ALL' => '전부',
+    'LBL_DD_ALL' => '전체',
 
 //BUTTONS
     'LBL_BTN_SAVE' => '저장',
-    'LBL_BTN_CANCEL' => '취소',
-    'LBL_BTN_SAVEPUBLISH' => '저장후 배치',
-    'LBL_BTN_HISTORY' => '이력',
-    'LBL_BTN_ADDROWS' => '줄 추가하기',
-    'LBL_BTN_UNDO' => '원상태로',
-    'LBL_BTN_REDO' => '다시하기',
-    'LBL_BTN_ADDCUSTOMFIELD' => '고객 필드 추가하기',
+    'LBL_BTN_CANCEL' => 'Cancel',
+    'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
+    'LBL_BTN_HISTORY' => '연혁',
+    'LBL_BTN_ADDROWS' => 'Add Rows',
+    'LBL_BTN_UNDO' => 'Undo',
+    'LBL_BTN_REDO' => 'Redo',
+    'LBL_BTN_ADDCUSTOMFIELD' => 'Add Custom Field',
     'LBL_BTN_TABINDEX' => '표달기 순서 편집하기',
 
 //TABS
-    'LBL_MODULES' => '모듈목록',
-    'LBL_MODULE_NAME' => '관리자',
-    'LBL_CONFIGURE_GROUP_TABS' => '모듈 메뉴 필터 구성하기',
+    'LBL_MODULES' => '모듈',
+    'LBL_MODULE_NAME' => 'Administration',
+    'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
     'LBL_GROUP_TAB_WELCOME' => '아래의 필터는 메뉴내의 그룹 모듈 보기의 사용자를 위해, 모듈 메뉴의 더보기 목록에 표시됩니다. 모듈을 드래그앤드롭하여 필터 적용을 하십시오. 노트: 빈 필터는 메뉴에 표시되지 않습니다.',
     'LBL_RENAME_TAB_WELCOME' => '탭 이름을 바꾸려면 아래 테이블의 전시 가치 탭을 클릭하십시오,',
     'LBL_DELETE_MODULE' => '필터에서 모듈 제거하기',
     'LBL_TAB_GROUP_LANGUAGE_HELP' => '사용 가능한 언어을 선택하여 그룹 라벨을 편집하고 선택한 언어에 적용할 라벨 저장후 배치를 클릭하십시오.',
     'LBL_ADD_GROUP' => '필터 추가하기',
     'LBL_NEW_GROUP' => '신규 그룹',
-    'LBL_RENAME_TABS' => '모듈 이름 바꾸기',
+    'LBL_RENAME_TABS' => 'Rename Modules',
 
 //ERRORS
-    'ERROR_INVALID_KEY_VALUE' => "오류:유효하지 않은 키 가치",
+    'ERROR_INVALID_KEY_VALUE' => "Error: Invalid Key Value: [']",
 
 //SUGAR PORTAL
     'LBL_SAVE' => '저장' /*for 508 compliance fix*/,
-    'LBL_UNDO' => '원상태로' /*for 508 compliance fix*/,
-    'LBL_REDO' => '다시하기' /*for 508 compliance fix*/,
+    'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
+    'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
     'LBL_INLINE' => '직렬' /*for 508 compliance fix*/,
     'LBL_DELETE' => '삭제' /*for 508 compliance fix*/,
-    'LBL_ADD_FIELD' => '필드 추가' /*for 508 compliance fix*/,
+    'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => '최대화' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => '최소화' /*for 508 compliance fix*/,
-    'LBL_PUBLISH' => '게시' /*for 508 compliance fix*/,
-    'LBL_ADDROWS' => '줄 추가하기' /*for 508 compliance fix*/,
-    'LBL_ADDFIELD' => '필드 추가' /*for 508 compliance fix*/,
+    'LBL_PUBLISH' => 'Publish' /*for 508 compliance fix*/,
+    'LBL_ADDROWS' => 'Add Rows' /*for 508 compliance fix*/,
+    'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_EDIT' => '편집' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => '편집할 언어를 선택하십시오.',
