@@ -64,10 +64,10 @@ $mod_strings = array(
     'LBL_CAMPAIGN' => 'حملة التسويق:',
     'LBL_NAME' => 'الاسم: ',
     'LBL_INVITEE' => 'جهات الإتصال',
-    'LBL_LIST_CAMPAIGN_NAME' => 'حملات',
+    'LBL_LIST_CAMPAIGN_NAME' => 'حملة',
     'LBL_LIST_STATUS' => 'الحالة',
-    'LBL_LIST_TYPE' => 'النوع',
-    'LBL_LIST_END_DATE' => 'تاريخ الانتهاء',
+    'LBL_LIST_TYPE' => 'نوع',
+    'LBL_LIST_END_DATE' => 'End Date',
     'LBL_DATE_ENTERED' => 'تاريخ الإدخال',
     'LBL_DATE_MODIFIED' => 'تاريخ التعديل',
     'LBL_MODIFIED' => 'عدل بواسطة: ',
@@ -94,7 +94,7 @@ $mod_strings = array(
     'LBL_RELATED' => 'متعلقات',
     'LBL_MORE_INFO' => 'مزيد من المعلومات',
 
-    'LBL_CAMPAIGNS' => 'حملات',
+    'LBL_CAMPAIGNS' => 'الحملات',
     'LBL_LIST_MARKETING_NAME' => 'اسم التسويق',
 
     'LBL_MARKETING_ID' => 'معرف التسويق',
