@@ -50,15 +50,15 @@ $mod_strings = array(
     'LBL_DELETE_BUTTON_TITLE' => 'Delete this Saved Filter',
     'LBL_SAVE_BUTTON_TITLE' => 'Save the current filter',
     'LBL_LIST_NAME' => 'Όνομα',
-    'LBL_LIST_MODULE' => 'Στοιχείο',
+    'LBL_LIST_MODULE' => 'Ενότητα',
     'LBL_ORDER_BY_COLUMNS' => 'Order by column',
-    'LBL_DIRECTION' => 'Κατεύθυνση',
+    'LBL_DIRECTION' => 'Direction',
     'LBL_SAVE_SEARCH_AS' => 'Αποθήκευση φίλτρου ως:',
     'LBL_ASCENDING' => 'Αύξουσα',
     'LBL_DESCENDING' => 'Φθίνουσα',
-    'LBL_MODIFY_CURRENT_FILTER' => 'Επεξεργασία Τρέχον Αναζήτησης',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
-    'LBL_CREATED_BY' => 'Δημιουργήθηκε από',
+    'LBL_CREATED_BY' => 'Δημιουργήθηκε Από',
     'LBL_QUICK_FILTER' => 'Γρήγορη Αναζήτηση',
 
 
