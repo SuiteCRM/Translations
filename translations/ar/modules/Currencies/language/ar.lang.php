@@ -43,14 +43,14 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'عملات',
-    'LBL_LIST_FORM_TITLE' => 'عملات',
+    'LBL_MODULE_NAME' => 'العملات',
+    'LBL_LIST_FORM_TITLE' => 'العملات',
     'LBL_CURRENCY' => 'العملة',
     'LBL_ADD' => 'إضافة',
     'LBL_MERGE' => 'دمج',
     'LBL_MERGE_TXT' => 'الرجاء تحديد العملات التي ترغب في عمل اقتران بينها وبين العملة المختارة. سيؤدي هذا إلى حذف جميع العملات التي تحمل علامة اختبار وإعادة تعيين أي قيمة مرتبطة بها إلى العملة المحددة.',
     'LBL_US_DOLLAR' => 'دولار أمريكي',
-    'LBL_DELETE' => 'احذف',
+    'LBL_DELETE' => 'حذف',
     'LBL_LIST_SYMBOL' => 'رمز العملة',
     'LBL_LIST_NAME' => 'اسم العملة',
     'LBL_LIST_ISO4217' => 'رمز ISO 4217',
