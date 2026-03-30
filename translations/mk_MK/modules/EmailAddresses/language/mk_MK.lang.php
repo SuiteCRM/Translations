@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EMAIL_ADDRESS_ID' => 'ID',
+    'LBL_EMAIL_ADDRESS_ID' => 'Број',
     'LBL_EMAIL_ADDRESS' => 'Е-Мејл Адреса',
     'LBL_EMAIL_ADDRESS_CAPS' => 'Email Address caps',
     'LBL_INVALID_EMAIL' => 'Invalid Email',
-    'LBL_OPT_OUT' => 'Да не се испраќа електронска пошта',
+    'LBL_OPT_OUT' => 'Opted Out',
     'LBL_CONFIRM_OPT_IN' => 'Confirm Opt In',
     'LBL_DATE_CREATE' => 'Date Create',
     'LBL_DATE_MODIFIED' => 'Дата на промена',
