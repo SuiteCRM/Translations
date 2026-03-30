@@ -54,9 +54,9 @@ $mod_strings = array(
     'LBL_JOIN_TABLE' => 'اسم جدول الصلة (join)',
     'LBL_JOIN_KEY_LHS' => 'مفتاح صلة (join) الجانب الأيسر',
     'LBL_JOIN_KEY_RHS' => 'مفتاح صلة (join) الجانب الأيمن',
-    'LBL_RELATIONSHIP_TYPE' => 'نوع العلاقة',
+    'LBL_RELATIONSHIP_TYPE' => 'Relationship Type',
     'LBL_RELATIONSHIP_ROLE_COLUMN' => 'اسم عمود دور العلاقة',
     'LBL_RELATIONSHIP_ROLE_COLUMN_VALUE' => 'قيمة عمود دور العلاقة',
     'LBL_REVERSE' => 'عكس',
-    'LBL_DELETED' => 'محذوف',
+    'LBL_DELETED' => 'Deleted',
 );
