@@ -44,11 +44,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_DESCRIPTION' => 'Beskrywing',
-    'LBL_NAME' => 'Naam',
-    'LBL_LIST_NAME' => 'Naam',
-    'LBL_EDIT_BUTTON' => 'Wysig',
-    'LBL_REMOVE' => 'Verwyder',
-    'LBL_GRP' => 'Groep',
+    'LBL_NAME' => 'Name',
+    'LBL_LIST_NAME' => 'Name',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
+    'LBL_GRP' => 'Group',
     'LBL_ORD' => 'Order',
     'LBL_THUMBNAIL' => 'Thumbnail',
 );
