@@ -43,25 +43,25 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Почетна',
-    'LBL_NEW_FORM_TITLE' => 'Нов контакт',
-    'LBL_FIRST_NAME' => 'Име:',
-    'LBL_LAST_NAME' => 'Презиме:',
-    'LBL_LIST_LAST_NAME' => 'Презиме',
+    'LBL_MODULE_NAME' => 'Home',
+    'LBL_NEW_FORM_TITLE' => 'New Contact',
+    'LBL_FIRST_NAME' => 'First Name:',
+    'LBL_LAST_NAME' => 'Last Name:',
+    'LBL_LIST_LAST_NAME' => 'Last Name',
     'LBL_PHONE' => 'Телефон:',
     'LBL_EMAIL_ADDRESS' => 'E-Мејл адреса:',
     'LBL_MY_PIPELINE_FORM_TITLE' => 'Моја историја на продажба',
-    'LBL_PIPELINE_FORM_TITLE' => 'Продажни канали по продажни фази',
-    'LBL_RGraph_PIPELINE_FORM_TITLE' => 'Продажни канали по продажни фази',
+    'LBL_PIPELINE_FORM_TITLE' => 'Pipeline By Sales Stage',
+    'LBL_RGraph_PIPELINE_FORM_TITLE' => 'Pipeline By Sales Stage',
     'LNK_NEW_CONTACT' => 'Креирај контакт',
-    'LNK_NEW_ACCOUNT' => 'Креирај сметка',
+    'LNK_NEW_ACCOUNT' => 'Креирај Корисник',
     'LNK_NEW_OPPORTUNITY' => 'Креирај можност',
     'LNK_NEW_LEAD' => 'Внеси можност',
-    'LNK_NEW_CASE' => 'Креирај случај',
+    'LNK_NEW_CASE' => 'Create Case',
     'LNK_NEW_NOTE' => 'Креирај Забелешка или Додај Прилог',
     'LNK_NEW_CALL' => 'Евидентирај повик',
-    'LNK_NEW_EMAIL' => 'Архивирај Еmail порака',
-    'LNK_NEW_MEETING' => 'Закажи состанок',
+    'LNK_NEW_EMAIL' => 'Archive Email',
+    'LNK_NEW_MEETING' => 'Schedule Meeting',
     'LNK_NEW_TASK' => 'Креирај задача',
     'LNK_NEW_BUG' => 'Report Bug',
     'LNK_NEW_SEND_EMAIL' => 'Состави Е-Мејл',
@@ -109,7 +109,7 @@ $mod_strings = array(
     'LBL_ADDED_DASHLET' => 'SuiteCRM Dashlet Added',
     'LBL_REMOVE_DASHLET_CONFIRM' => 'Are you sure you want to remove this SuiteCRM Dashlet?',
     'LBL_REMOVING_DASHLET' => 'Removing SuiteCRM Dashlet...',
-    'LBL_REMOVED_DASHLET' => 'SuiteCRM Dashlet removed',
+    'LBL_REMOVED_DASHLET' => 'SuiteCRM Dashlet Removed',
     'LBL_DASHLET_CONFIGURE_GENERAL' => 'Генерално',
     'LBL_DASHLET_CONFIGURE_FILTERS' => 'Филтри',
     'LBL_DASHLET_CONFIGURE_MY_ITEMS_ONLY' => 'Само моите записи',
@@ -124,7 +124,7 @@ $mod_strings = array(
     'LBL_HOME_PAGE_1_NAME' => 'My CRM',
     'LBL_CLOSE_SITEMAP' => 'Затвори',
 
-    'LBL_SEARCH' => 'Пребарувај',
+    'LBL_SEARCH' => 'Search',
     'LBL_CLEAR' => 'Избриши',
 
     'LBL_BASIC_CHARTS' => 'Basic Charts',
@@ -137,7 +137,7 @@ $mod_strings = array(
 
     'LBL_SOURCE_SUGAR' => 'SugarCRM Inc - providers of CE framework',
 
-    'LBL_DASHLET_TITLE' => 'Мои страници',
+    'LBL_DASHLET_TITLE' => 'My Sites',
     'LBL_DASHLET_OPT_TITLE' => 'Наслов',
     'LBL_DASHLET_INCORRECT_URL' => 'Incorrect website location is specified',
     'LBL_DASHLET_OPT_URL' => 'Website Location',
@@ -154,7 +154,7 @@ $mod_strings = array(
     'LBL_TOUR_MORE_DESCRIPTION' => 'The rest of your modules are here.',
     'LBL_TOUR_SEARCH' => 'Full Text Search',
     'LBL_TOUR_SEARCH_DESCRIPTION' => 'Search just got a whole lot better.',
-    'LBL_TOUR_NOTIFICATIONS' => 'Известувања',
+    'LBL_TOUR_NOTIFICATIONS' => 'Notifications',
     'LBL_TOUR_NOTIFICATIONS_DESCRIPTION' => 'SuiteCRM application notifications would go here.',
     'LBL_TOUR_PROFILE' => 'Profile',
     'LBL_TOUR_PROFILE_DESCRIPTION' => 'Access profile, settings and logout.',
@@ -201,7 +201,7 @@ $mod_strings = array(
 
     'LBL_SUITE_PARTNERS' => 'We have loyal SuiteCRM partners who are passionate about open source. To view our full partner list, see our website.',
 
-    'LBL_SAVE_BUTTON' => 'Зачувај',
+    'LBL_SAVE_BUTTON' => 'Save',
     'LBL_DELETE_BUTTON' => 'Избриши',
     'LBL_APPLY_BUTTON' => 'Apply',
     'LBL_SEND_INVITES' => 'Save & Send Invites',
@@ -210,7 +210,7 @@ $mod_strings = array(
 
     'LBL_CREATE_NEW_RECORD' => 'Create Activity',
     'LBL_CREATE_CALL' => 'Евидентирај повик',
-    'LBL_CREATE_MEETING' => 'Закажи состанок',
+    'LBL_CREATE_MEETING' => 'Schedule Meeting',
 
     'LBL_GENERAL_TAB' => 'Детали',
     'LBL_PARTICIPANTS_TAB' => 'Поканети',
@@ -219,7 +219,7 @@ $mod_strings = array(
     'LBL_REPEAT_TYPE' => 'Repeat',
     'LBL_REPEAT_INTERVAL' => 'Every',
     'LBL_REPEAT_END' => 'Крај',
-    'LBL_REPEAT_END_AFTER' => 'После',
+    'LBL_REPEAT_END_AFTER' => 'After',
     'LBL_REPEAT_OCCURRENCES' => 'recurrences',
     'LBL_REPEAT_END_BY' => 'By',
     'LBL_REPEAT_DOW' => 'On',
@@ -237,7 +237,7 @@ $mod_strings = array(
     'LBL_HOURS_ABBREV' => 'hours',
     'LBL_MINSS_ABBREV' => 'минути',
     'LBL_LOCATION' => 'Локација:',
-    'LBL_STATUS' => 'Состојба:',
+    'LBL_STATUS' => 'Status:',
     'LBL_DESCRIPTION' => 'Опис: ',
     //End Events
 
@@ -253,12 +253,12 @@ $mod_strings = array(
 
     // Portal Labels
     'LBL_AOP_DISABLED' => 'AOP is disabled, please enable via settings',
-    'LBL_CREATE_PORTAL_USER_FAILED' => 'Неуспешно креирање на корисник на портал',
-    'LBL_ENABLE_PORTAL_USER_FAILED' => 'Неуспешно вклучување на корисник на портал',
-    'LBL_DISABLE_PORTAL_USER_FAILED' => 'Неуспешно исклувуање на корисник на портал',
-    'LBL_CREATE_PORTAL_USER_SUCCESS' => 'Корисникот на портал е креиран',
-    'LBL_ENABLE_PORTAL_USER_SUCCESS' => 'Корисникот на портал е вклучен',
-    'LBL_DISABLE_PORTAL_USER_SUCCESS' => 'Корисникот на портал е исклучен',
+    'LBL_CREATE_PORTAL_USER_FAILED' => 'Failed to create portal user',
+    'LBL_ENABLE_PORTAL_USER_FAILED' => 'Failed to enable portal user',
+    'LBL_DISABLE_PORTAL_USER_FAILED' => 'Failed to disable portal user',
+    'LBL_CREATE_PORTAL_USER_SUCCESS' => 'Created portal user',
+    'LBL_ENABLE_PORTAL_USER_SUCCESS' => 'Enabled portal user',
+    'LBL_DISABLE_PORTAL_USER_SUCCESS' => 'Disabled portal user',
 
     'LNK_TASK_VIEW' => 'View Task',
 );
