@@ -49,16 +49,16 @@ $mod_strings = array(
     'LBL_DELETE_CONFIRM' => '選択された保存されたフィルタを削除してもよろしいですか?',
     'LBL_DELETE_BUTTON_TITLE' => 'この保存されたフィルタを削除する',
     'LBL_SAVE_BUTTON_TITLE' => '現在のフィルタを保存する',
-    'LBL_LIST_NAME' => '名前',
-    'LBL_LIST_MODULE' => 'モジュール',
+    'LBL_LIST_NAME' => '名称',
+    'LBL_LIST_MODULE' => 'Module',
     'LBL_ORDER_BY_COLUMNS' => '列で並び替え',
     'LBL_DIRECTION' => '方向',
     'LBL_SAVE_SEARCH_AS' => '保存フィルタ:',
     'LBL_ASCENDING' => '昇順',
     'LBL_DESCENDING' => '降順',
-    'LBL_MODIFY_CURRENT_FILTER' => '現在のフィルタを変更する',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
-    'LBL_CREATED_BY' => '作成者',
+    'LBL_CREATED_BY' => 'Created By',
     'LBL_QUICK_FILTER' => 'クイック フィルタ',
 
 
