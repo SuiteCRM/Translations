@@ -44,25 +44,25 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
 
-    'LBL_NAME' => 'Nom',
+    'LBL_NAME' => 'Name',
     'LBL_NUMBER' => 'Número:',
-    'LBL_STATUS' => 'Estat:',
+    'LBL_STATUS' => 'Status:',
     'LBL_PRIORITY' => 'Prioritat:',
-    'LBL_DESCRIPTION' => 'Descripció:',
+    'LBL_DESCRIPTION' => 'Description:',
     'LBL_RESOLUTION' => 'Resolució',
     'LBL_LAST_MODIFIED' => 'Modificat',
     'LBL_ASSIGNED_TO_ID' => 'Assignat A:',
-    'LBL_ASSIGNED_TO_NAME' => 'Usuari:',
+    'LBL_ASSIGNED_TO_NAME' => 'User:',
     'LBL_WORK_LOG' => 'Registre d\'Activitat:',
     'LBL_CREATED_BY' => 'Creat per:',
-    'LBL_DATE_ENTERED' => 'Creat:',
-    'LBL_DATE_MODIFIED' => 'Modificat:',
+    'LBL_DATE_ENTERED' => 'Date Created:',
+    'LBL_DATE_MODIFIED' => 'Date Modified:',
     'LBL_MODIFIED_BY' => 'Modificat per:',
     'LBL_ASSIGNED_USER' => 'Usuari Assignat:',
-    'LBL_TYPE' => 'Tipus:',
+    'LBL_TYPE' => 'Type:',
     'LBL_SUBJECT' => 'Assumpte:',
 
-    'LBL_EDIT_BUTTON' => 'Editar',
-    'LBL_REMOVE' => 'Eliminar',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
 
 );
