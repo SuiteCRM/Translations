@@ -43,15 +43,15 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Rooli',
+    'LBL_ROLE' => 'Role',
     'LBL_NAME' => 'Nimi',
-    'LBL_DESCRIPTION' => 'Kuvaus',
+    'LBL_DESCRIPTION' => 'Description',
     'LIST_ROLES' => 'Listaa roolit',
-    'LBL_USERS_SUBPANEL_TITLE' => 'Käyttäjät',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
     'LIST_ROLES_BY_USER' => 'Listaa käyttäjän roolit',
     'LBL_ROLES_SUBPANEL_TITLE' => 'Käyttäjän roolit',
-    'LBL_SEARCH_FORM_TITLE' => 'Etsi',
-    'LBL_NO_ACCESS' => 'Sinulla ei ole riittäviä oikeuksia tähän alueeseen. Saadaksesi pääsyn alueelle ota yhteys ylläpitäjään.',
+    'LBL_SEARCH_FORM_TITLE' => 'Search',
+    'LBL_NO_ACCESS' => 'You do not have access to this area. Contact your site administrator to obtain access.',
     'LBL_REDIRECT_TO_HOME' => 'Uudelleenohjaa etusivulle',
     'LBL_SECONDS' => 'sekunnissa',
     'LBL_ADDING' => 'Lisätään ',
