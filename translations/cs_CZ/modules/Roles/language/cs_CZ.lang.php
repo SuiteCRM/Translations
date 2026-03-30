@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_MODULE_TITLE' => 'Role: Domů',
     'LBL_SEARCH_FORM_TITLE' => 'Vyhledat role',
     'LBL_LIST_FORM_TITLE' => 'Seznam rolí',
-    'LNK_NEW_ROLE' => 'Přidat roli',
+    'LNK_NEW_ROLE' => 'Create Role',
     'LNK_ROLES' => 'Role',
     'LBL_NAME' => 'Jméno:',
     'LBL_DESCRIPTION' => 'Popis:',
@@ -60,5 +60,5 @@ $mod_strings = array(
     'LBL_USERS' => 'Uživatelé',
 
     'LBL_USERS_SUBPANEL_TITLE' => 'Uživatelé',
-    'LBL_MODULES' => 'Moduly',
+    'LBL_MODULES' => 'Modules',
 );
