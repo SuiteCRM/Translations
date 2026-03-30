@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Flet liste',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Find søgeposter til at flette med',
-    'LBL_AVAIL_FIELDS' => 'Mulige felter',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'Filterbetingelse',
     'LBL_MERGE_VALUE_OVER' => 'Flet værdi over',
 
@@ -58,15 +58,15 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Udfør fletning',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Udfør fletning',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Gem fletning',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Gem fletning',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => 'Rækker fundet til at flette med:',
     'LBL_SELECT_ERROR' => 'Du skal vælge før du kan fortsætte.',
     'LBL_CHANGE_PARENT' => 'Sæt som primær',
-    'LBL_REMOVE_FROM_MERGE' => 'Fjern',
+    'LBL_REMOVE_FROM_MERGE' => 'Remove',
     'LBL_DIFF_COL_VALUES' => 'Kolonner som har forskellige værdier:',
     'LBL_SAME_COL_VALUES' => 'Kolonner som har samme værdi i alle rækker:',
     'LBL_DELETE_MESSAGE' => 'Denne handling vil slette følgende rækker:',
