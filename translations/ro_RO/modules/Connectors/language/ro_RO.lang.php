@@ -47,13 +47,13 @@ $mod_strings = array(
 
     'LBL_ADMINISTRATION_MAIN' => 'Setări conector',
     'LBL_AVAILABLE' => 'Disponibil',
-    'LBL_BACK' => '< Înapoi',
+    'LBL_BACK' => '<Înapoi',
     'LBL_CONFIRM_CONTINUE_SAVE' => 'Câteva câmpuri necesare au fost lăsate goale. Continuăm să salvăm schimbările?',
     'LBL_CONNECTOR_FIELDS' => 'Câmpurile conectorului',
     'LBL_DATA' => 'Date',
     'LBL_DEFAULT' => 'Implicit',
-    'LBL_DISABLED' => 'Inaccesibil',
-    'LBL_ENABLED' => 'Accesibil',
+    'LBL_DISABLED' => 'Dezactivat',
+    'LBL_ENABLED' => 'Activat',
     'LBL_EXTERNAL' => 'Permite utilizatorilor să creeze înregistrări de cont extern la acest conector.',
     'LBL_EXTERNAL_SET_PROPERTIES' => ' Pentru a utiliza acest conector, proprietățile ar trebui să fie, de asemenea, setate în pagina de setări a proprietăților de conector.',
     'LBL_MERGE' => 'Fuziune',
@@ -65,7 +65,7 @@ $mod_strings = array(
     'LBL_MODIFY_PROPERTIES_TITLE' => 'Setează proprietățile conectorului',
     'LBL_MODIFY_PROPERTIES_DESC' => 'Configurați proprietățile pentru fiecare conector, inclusiv cheile URL și API.',
     'LBL_MODIFY_SEARCH_TITLE' => 'Gestionare căutare conector',
-    'LBL_MODIFY_SEARCH' => 'Caută',
+    'LBL_MODIFY_SEARCH' => 'Cauta',
     'LBL_MODIFY_SEARCH_DESC' => 'Selectați câmpurile de conector pentru a utiliza pentru a căuta date pentru fiecare modul.',
     'LBL_MODULE_NAME' => 'Conectori',
     'LBL_NO_PROPERTIES' => 'Nu există proprietăți configurabile pentru acest conector.',
@@ -84,6 +84,6 @@ $mod_strings = array(
     'ERROR_NO_SEARCHDEFS_MAPPING' => 'Eroare: Nu sunt câmpuri de căutare definite pentru modul si conector. Va rugam contactați administratorul de sistem.',
     'ERROR_NO_DISPLAYABLE_MAPPED_FIELDS' => 'Eroare: Nu exista câmpuri de module care sa fie asociate pentru afișarea rezultatelor. Vă rugăm contactați administratorul de sistem.',
     'LBL_INFO_INLINE' => 'Informații' /*for 508 compliance fix*/,
-    'LBL_CLOSE' => 'Inchide' /*for 508 compliance fix*/,
+    'LBL_CLOSE' => 'Închideți' /*for 508 compliance fix*/,
 
 );
