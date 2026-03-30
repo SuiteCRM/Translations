@@ -31,39 +31,39 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
     // System fields
-    'LBL_ASSIGNED_TO_ID' => 'معرف المستخدم المكلف',
-    'LBL_ASSIGNED_TO_NAME' => 'أُسند إلى',
-    'LBL_DATE_ENTERED' => 'تاريخ الإنشاء',
-    'LBL_DATE_MODIFIED' => 'تاريخ التعديل',
-    'LBL_MODIFIED' => 'عُدل بواسطة',
-    'LBL_MODIFIED_NAME' => 'اسم من قام بالتعديل',
-    'LBL_CREATED' => 'أنشئ بواسطة',
-    'LBL_CREATED_USER' => 'أنشئ بواسطة المستخدم',
-    'LBL_MODIFIED_USER' => 'عُدل بواسطة المستخدم',
-    'LBL_DESCRIPTION' => 'الوصف',
-    'LBL_DELETED' => 'محذوف',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
+    'LBL_DATE_ENTERED' => 'Date Created',
+    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_MODIFIED' => 'Modified By',
+    'LBL_MODIFIED_NAME' => 'Modified By Name',
+    'LBL_CREATED' => 'Created By',
+    'LBL_CREATED_USER' => 'Created by User',
+    'LBL_MODIFIED_USER' => 'Modified by User',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_DELETED' => 'Deleted',
 
     // Security groups
-    'LBL_SECURITYGROUPS' => 'المجموعات الأمنية',
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'المجموعات الأمنية',
+    'LBL_SECURITYGROUPS' => 'Security Groups',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
 
     // List view labels
-    'LBL_LIST_NAME' => 'الاسم',
-    'LBL_LIST_DELETE' => 'احذف',
-    'LBL_EDIT_BUTTON' => 'حرر',
-    'LBL_REMOVE' => 'إزالة',
-    'LBL_ASCENDING' => 'تصاعدي',
-    'LBL_DESCENDING' => 'تنازلي',
+    'LBL_LIST_NAME' => 'Name',
+    'LBL_LIST_DELETE' => 'Delete',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
 
     // Email opt-in labels
-    'LBL_OPT_IN' => 'مشترك',
-    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'قيد انتظار إرسال تأكيد اشتراك البريد الالكتروني، لم يتم إرسال تأكيد اشتراك البريد الالكتروني',
-    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'قيد انتظار إرسال تأكيد اشتراك البريد الإلكتروني، تم إرسال تأكيد اشتراك البريد الالكتروني',
-    'LBL_OPT_IN_CONFIRMED' => 'مفعل',
+    'LBL_OPT_IN' => 'Opt In',
+    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Pending Confirm opt in, Confirm opt in not sent',
+    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Pending Confirm opt in, Confirm opt in sent',
+    'LBL_OPT_IN_CONFIRMED' => 'Opted in',
 
     // Subpanel titles
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'عرض التاريخ',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'الأنشطة',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
 
@@ -75,8 +75,8 @@ $mod_strings = [
     'LNK_LIST_CREATE_NEW_PERSONAL' => 'Create Personal Calendar Account',
     'LNK_LIST_INBOUND_EMAILS' => 'Inbound Emails',
     'LNK_LIST_OUTBOUND_EMAILS' => 'Outbound Emails',
-    'LNK_LIST_EXTERNAL_OAUTH_PROVIDERS' => 'مزودو OAuth الخارجيين',
-    'LNK_LIST_EXTERNAL_OAUTH_CONNECTIONS' => 'اتصالات OAuth الخارجية',
+    'LNK_LIST_EXTERNAL_OAUTH_PROVIDERS' => 'External OAuth Providers',
+    'LNK_LIST_EXTERNAL_OAUTH_CONNECTIONS' => 'External OAuth Connections',
 
     // Basic module labels
     'LBL_MODULE_NAME' => 'Calendar Accounts',
@@ -91,9 +91,9 @@ $mod_strings = [
     'LNK_LIST' => 'View Calendar Accounts',
 
     // Standard fields
-    'LBL_NAME' => 'الاسم',
-    'LBL_ID' => 'المُعرف',
-    'LBL_TYPE' => 'النوع',
+    'LBL_NAME' => 'Name',
+    'LBL_ID' => 'ID',
+    'LBL_TYPE' => 'Type',
     'LBL_SOURCE' => 'Calendar Source',
 
     // OAuth2 Fields
@@ -101,8 +101,8 @@ $mod_strings = [
     'LBL_CONNECT_OAUTH' => 'Connect OAuth',
 
     // Basic Auth Fields
-    'LBL_USERNAME' => 'اسم المستخدم',
-    'LBL_PASSWORD' => 'كلمة المرور',
+    'LBL_USERNAME' => 'Username',
+    'LBL_PASSWORD' => 'Password',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test Connection',
 
@@ -162,12 +162,12 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Please select a calendar source first.',
 
     // Connection test messages
-    'LBL_CALENDAR' => 'التقويم',
-    'LBL_SUCCESSFUL' => 'ناجح',
-    'LBL_FAILED' => 'فشل',
+    'LBL_CALENDAR' => 'Calendar',
+    'LBL_SUCCESSFUL' => 'Successful',
+    'LBL_FAILED' => 'Failed',
     'LBL_CONNECTION_TEST' => 'Connection Test',
-    'LBL_YES' => 'نعم',
-    'LBL_NO' => 'لا',
+    'LBL_YES' => 'Yes',
+    'LBL_NO' => 'No',
     'LBL_FOUND_CALENDARS' => 'Found {count} calendars.',
     'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'An error occurred while processing the connection test response. Please check the logs for details.',
     'LBL_CONNECTION_TEST_HTTP_ERROR' => 'Connection test failed with HTTP status',
@@ -182,14 +182,14 @@ $mod_strings = [
 
     // Dialog labels
     'LBL_NOTIFICATION' => 'Notification',
-    'LBL_CONFIRM' => 'تأكيدذ',
+    'LBL_CONFIRM' => 'Confirm',
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => 'جاري التنفيذ',
-    'LBL_SYNC_STATUS_SUCCESS' => 'ناجح',
-    'LBL_SYNC_STATUS_WARNING' => 'تحذير',
-    'LBL_SYNC_STATUS_ERROR' => 'خطأ',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => 'In Progress',
+    'LBL_SYNC_STATUS_SUCCESS' => 'Success',
+    'LBL_SYNC_STATUS_WARNING' => 'Warning',
+    'LBL_SYNC_STATUS_ERROR' => 'Error',
 
     // Sync message enum translations
     'LBL_SYNC_MSG_SYNC_COMPLETE' => 'All meetings synced.',
@@ -202,5 +202,5 @@ $mod_strings = [
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Calendar not found.',
 
     // Relationship labels
-    'LBL_MEETINGS' => 'اجتماعات',
+    'LBL_MEETINGS' => 'Meetings',
 ];
