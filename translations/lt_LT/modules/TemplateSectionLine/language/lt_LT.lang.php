@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_DESCRIPTION' => 'Aprašymas',
+    'LBL_DESCRIPTION' => 'Aprašymas:',
     'LBL_NAME' => 'Vardas',
     'LBL_LIST_NAME' => 'Vardas',
     'LBL_EDIT_BUTTON' => 'Redaguoti',
-    'LBL_REMOVE' => 'Išmesti',
+    'LBL_REMOVE' => 'Remove',
     'LBL_GRP' => 'Grupės',
     'LBL_ORD' => 'Pozicija sąraše',
     'LBL_THUMBNAIL' => 'Thumbnail',
