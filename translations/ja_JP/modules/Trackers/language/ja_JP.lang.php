@@ -44,13 +44,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     //Column header mapping
-    'action' => 'アクション',
+    'action' => 'Action',
     'date_modified' => '更新日',
     'item_id' => 'ID',
-    'item_summary' => '名前',
-    'module_name' => 'モジュール名',
+    'item_summary' => '名称',
+    'module_name' => 'Module Name',
     'users' => 'ユーザー',
 
     //Administration related labels
-    'LBL_MODULE_NAME' => 'トラッカー',
+    'LBL_MODULE_NAME' => 'Trackers',
 );
