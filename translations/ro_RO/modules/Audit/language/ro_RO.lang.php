@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_FIELD_NAME' => 'Câmp',
+    'LBL_FIELD_NAME' => 'Field',
     'LBL_OLD_NAME' => 'Valoare veche',
     'LBL_NEW_VALUE' => 'Valoare nouă',
     'LBL_CREATED_BY' => 'Modificat de',
     'LBL_LIST_DATE' => 'Data modificării',
     'LBL_AUDITED_FIELDS' => 'Câmpuri auditate în acest modul: ',
-    'LBL_CHANGE_LOG' => 'Jurnalul de modificări',
+    'LBL_CHANGE_LOG' => 'Change Log',
 );
