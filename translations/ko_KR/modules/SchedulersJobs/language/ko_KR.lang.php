@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_NAME' => '작업 이름',
-    'LBL_EXECUTE_TIME' => '실행 시간',
-    'LBL_SCHEDULER_ID' => '일정 관리',
+    'LBL_NAME' => 'Job Name',
+    'LBL_EXECUTE_TIME' => 'Execute Time',
+    'LBL_SCHEDULER_ID' => '스케줄러',
     'LBL_STATUS' => '작업 상태',
     'LBL_RESOLUTION' => 'Result',
     'LBL_MESSAGE' => '메시지',
