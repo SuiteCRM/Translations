@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Grupuri',
+    'LBL_MODULE_NAME' => 'Groupuri',
     'LBL_GROUP_NAME' => 'Nume grup:',
     'LBL_DESCRIPTION' => 'Descriere:',
     'LBL_TEAM' => 'Echipa:',
