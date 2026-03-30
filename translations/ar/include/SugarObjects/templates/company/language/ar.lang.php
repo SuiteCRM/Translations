@@ -56,8 +56,8 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'المستخدم:',
     'LBL_RATING' => 'التقييم',
     'LBL_ASSIGNED_TO' => 'أُسند إلى:',
-    'LBL_ASSIGNED_USER' => 'أُسند إلى:',
-    'LBL_ASSIGNED_TO_ID' => 'أُسند إلى:',
+    'LBL_ASSIGNED_USER' => 'Assigned to:',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned to:',
     'LBL_BILLING_ADDRESS_CITY' => 'الفواتير ترسل لمدينة:',
     'LBL_BILLING_ADDRESS_COUNTRY' => 'الفواتير ترسل لدولة:',
     'LBL_BILLING_ADDRESS_POSTALCODE' => 'الفواتير ترسل للرمز البريدي:',
@@ -97,7 +97,7 @@ $mod_strings = array(
     'LBL_PHONE_FAX' => 'هاتف فاكس:',
     'LBL_PHONE_OFFICE' => 'هاتف المكتب:',
     'LBL_PHONE' => 'الهاتف:',
-    'LBL_EMAIL_ADDRESS' => 'عنوان البريد الإلكتروني',
+    'LBL_EMAIL_ADDRESS' => 'Email Address',
     'LBL_EMAIL_ADDRESSES' => 'عناوين البريد الإلكتروني',
     'LBL_POSTAL_CODE' => 'الرمز البريدي:',
     'LBL_SAVE_ACCOUNT' => 'حفظ الحساب',
@@ -116,7 +116,7 @@ $mod_strings = array(
     'LBL_TYPE' => 'النوع:',
     'LBL_WEBSITE' => 'موقع الإنترنت:',
 
-    'LNK_ACCOUNT_LIST' => 'الحسابات',
+    'LNK_ACCOUNT_LIST' => 'Accounts',
     'LNK_NEW_ACCOUNT' => 'إنشاء حساب',
 
     'MSG_DUPLICATE' => 'إن سجل الحساب الذي أنشأته قد يكون تكرار لحساب موجود مُسبقاً. سجلات الحساب الذي يحتوي أسماء مُتشابهة مُدرجة بالأسفل.<br>أُنقر إنشاء الحساب للاستمرار في إنشاء هذا الحساب الجديد، أو حدد الحساب الموجود مسبقاً والمُدرح بالأسفل.',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'هل أنت متأكد من أنك تريد حذف هذا السجل؟',
 
     'LBL_EDIT_BUTTON' => 'تحرير  ',
-    'LBL_REMOVE' => 'إزالة',
+    'LBL_REMOVE' => 'Remove',
 
 );
