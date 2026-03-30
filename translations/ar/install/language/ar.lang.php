@@ -44,8 +44,8 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_BASIC' => 'أساسي',
-    'LBL_BASIC_SEARCH' => 'فرز سريع',
-    'LBL_ADVANCED_SEARCH' => 'فرز متقدم',
+    'LBL_BASIC_SEARCH' => 'فلتر سريع',
+    'LBL_ADVANCED_SEARCH' => 'فلتر متقدم',
     'LBL_BASIC_TYPE' => 'النوع الأساسي',
     'LBL_ADVANCED_TYPE' => 'نوع متقدم',
     'LBL_SYSOPTS_2' => 'ماهو نوع قاعدة البيانات التي سوف تستخدمها مع نظام SuiteCRM في تركيبه على الخادم؟',
@@ -56,7 +56,7 @@ $mod_strings = array(
     'DEFAULT_CHARSET' => 'UTF-8',
     'ERR_ADMIN_USER_NAME_BLANK' => 'زودني باسم المستخدم الذي سيكون مدير نظام SuiteCRM لإدارة علاقات العملاء. ',
     'ERR_ADMIN_PASS_BLANK' => 'أدخل كلمة المرور الخاصة بإسم مُدير Admin لنظام SuiteCRM لإدارة علاقات العملاء. ',
-    'LBL_EMPTY' => 'فارغ',
+    'LBL_EMPTY' => 'فارغة',
 
     'ERR_CHECKSYS' => 'تم الكشف عن أخطاء أثناء عملية فحص التوافق.  من أجل تثبيت SuiteCRM وعمله بشكل صحيح، يرجى اتبع الخطوات المناسبة لمعالجة المشاكل المذكورة أدناه أو اضغط على زر إعادة إجراء الفحص، أو قم بعملية التثبيت مرة أخرى.',
     'ERR_CHECKSYS_CALL_TIME' => 'السماح بمرجع مرور وقت الطلب مفعل (ينبغي تعطيل هذه الخاصية في ملف php.ini)',
@@ -112,7 +112,7 @@ $mod_strings = array(
     'ERR_DB_PRIV_USER' => 'زودنا بإسم مُستخدم خاص بالمدير أو المُشرف على قاعدة البيانات. هذا المُستخدم ظروري ومطلوب لبدء الاتصال بقاعدة البيانات.',
     'ERR_DB_USER_EXISTS' => 'اسم المُستخدم الخاص بقاعدة بيانات نظام SuiteCRM هو موجود مُسبقاً. لايُمكنك إنشاء اسم مُستخدم آخر بنفس الإسم. من فضلك أدخل اسم مُستخدم جديد.',
     'ERR_DB_USER' => 'أدخل اسم مستخدم خاص بمدير قاعدة بيانات نظام SuiteCRM.',
-    'ERR_DBCONF_VALIDATION' => 'من فضلك أصلح الأخطاء التالية قبل متابعة:',
+    'ERR_DBCONF_VALIDATION' => 'يرجى إصلاح الأخطاء التالية قبل متابعة:',
     'ERR_DBCONF_PASSWORD_MISMATCH' => 'كلمات المرور التي أدخلتها والخاصة بقاعدة بيانات نظام SuiteCRM هي كلمات غير مُتطابقة. من فضلك أعد كتابتها لتكون كلمات المرور في هذه الحقول مُتطابقة.',
     'ERR_ERROR_GENERAL' => 'لقد وجدت الأخطاء التالية:',
     'ERR_LANG_CANNOT_DELETE_FILE' => 'لا يمكنك حذف الملف: ',
@@ -314,7 +314,7 @@ $mod_strings = array(
     'LBL_LOCALE_NAME_LAST' => 'الهداني',
     'LBL_LOCALE_NAME_SALUTATION' => 'د.',
 
-    'LBL_ML_ACTION' => 'إجراء',
+    'LBL_ML_ACTION' => 'الإجراء',
     'LBL_ML_DESCRIPTION' => 'الوصف',
     'LBL_ML_INSTALLED' => 'تاريخ التثبيت',
     'LBL_ML_NAME' => 'الاسم',
@@ -349,7 +349,7 @@ $mod_strings = array(
     'LBL_PERFORM_SUCCESS' => 'ناجح!',
     'LBL_PERFORM_TABLES' => 'إنشاء تطبيق جداول النظام وجداول المراجعة والتدقيق والعلاقات',
     'LBL_PERFORM_TITLE' => 'تنفيذ الإعداد',
-    'LBL_PRINT' => 'اطبع',
+    'LBL_PRINT' => 'طباعة',
     'LBL_REG_CONF_1' => 'يرجى تعبئة النموذج أدناه لتتسقبل إعلانات المنتج وأخبار التدريب والعروض الخاصة ودعوات عن مناسبات خاصة من الشركة. نحن لا نبيع ولانؤجر ولانشارك أو نوزع المعلومات التي نقوم بجمعها.',
     'LBL_REG_CONF_3' => 'شكراً لتسجيلك، أنقر على زر إنهتء حتى تدخل على SuiteCRM. ستحتاج إلى الدخول في المرة الأولى باستخدام اسم المُستخدم "admin" وكلمة المرور حتى تُكمل الخطوة الثانية.',
     'LBL_REG_TITLE' => 'التسجيل',
@@ -585,7 +585,7 @@ $config_site_url
     'SYSTEM_NAME_HELP' => 'هذا هو الاسم الذي سيظهر في شريط العنوان الخاص بالمُتصفح.',
     'NEW_LOGO' => 'حدد الشعار:',
     'NEW_LOGO_HELP' => 'نوع ملف الصورة ممكن أن يكون .png أو .jpg. أعلى ارتفاع للصورة هو 170px و أقصى عرض للصورة هو 450px. أي صورة يتم رفعها وتكون أكبر فسوف يتم التحكم بأبعاده لتناسب المثاسات المذكورة سابقاً.',
-    'COMPANY_LOGO_UPLOAD_BTN' => 'تحميل',
+    'COMPANY_LOGO_UPLOAD_BTN' => 'رفع',
     'CURRENT_LOGO' => 'الشعار الحالي:',
     'CURRENT_LOGO_HELP' => 'يتم عرض هذا الشعار في مركز شاشة تسجيل الدخول لتطبيق SuiteCRM.',
 
@@ -659,6 +659,6 @@ $config_site_url
     'LBL_VIEW_FULL_ERROR' => 'View Full Error',
     'LBL_CLOSE_DESCRIPTION' => 'Close Description',
     'LBL_CONFIG' => 'الإعدادات',
-    'LBL_VALIDATION_ERRORS' => 'هناك أخطاء عند التحقق من صحة البيانات، لم يتم تنفيذ الإجراء.',
+    'LBL_VALIDATION_ERRORS' => 'هناك أخطاء في التحقق من الصحة البيانات، لم نتمكن من تنفيذ الإجراء.',
     'LBL_CRON_UNRECOMMENDED_USER' => 'You are currently running as root, this is NOT recommended, would you like to continue (y,n)? '
 );
