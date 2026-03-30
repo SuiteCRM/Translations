@@ -50,14 +50,14 @@ $mod_strings = array(
     'LBL_DELETE_BUTTON_TITLE' => 'Gespeicherten Filter löschen',
     'LBL_SAVE_BUTTON_TITLE' => 'Aktuellen Filter speichern',
     'LBL_LIST_NAME' => 'Name',
-    'LBL_LIST_MODULE' => 'Modul',
+    'LBL_LIST_MODULE' => 'Module',
     'LBL_ORDER_BY_COLUMNS' => 'Order by column:',
-    'LBL_DIRECTION' => 'Richtung:',
+    'LBL_DIRECTION' => 'Direction:',
     'LBL_SAVE_SEARCH_AS' => 'Filter speichern als:',
-    'LBL_ASCENDING' => 'Aufsteigend',
-    'LBL_DESCENDING' => 'Absteigend',
-    'LBL_MODIFY_CURRENT_FILTER' => 'Aktuellen Filter ändern',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
-    'LBL_CREATED_BY' => 'Erstellt von',
+    'LBL_CREATED_BY' => 'Created By',
 
 );
