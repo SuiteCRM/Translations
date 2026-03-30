@@ -48,8 +48,8 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Vyhledat Prodej',
     'LBL_LIST_FORM_TITLE' => 'Seznam Prodejů',
     'LBL_NAME' => 'Název prodeje',
-    'LBL_LIST_SALE_NAME' => 'Jméno',
-    'LBL_LIST_ACCOUNT_NAME' => 'Jméno klienta',
+    'LBL_LIST_SALE_NAME' => 'Název',
+    'LBL_LIST_ACCOUNT_NAME' => 'Název Firmy',
     'LBL_LIST_AMOUNT' => 'Objem',
     'LBL_LIST_DATE_CLOSED' => 'Zavřít',
     'LBL_LIST_SALE_STAGE' => 'Stádium prodeje',
@@ -88,6 +88,6 @@ $mod_strings = array(
     'LBL_CURRENCY_NAME' => 'Název měny',
     'LBL_CURRENCY_SYMBOL' => 'Symbol měny',
     'LBL_EDIT_BUTTON' => 'Upravit',
-    'LBL_REMOVE' => 'Odebrat',
+    'LBL_REMOVE' => 'Odstranit',
 
 );
