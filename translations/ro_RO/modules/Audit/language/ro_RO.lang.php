@@ -49,5 +49,5 @@ $mod_strings = array(
     'LBL_CREATED_BY' => 'Modificat de',
     'LBL_LIST_DATE' => 'Data modificării',
     'LBL_AUDITED_FIELDS' => 'Câmpuri auditate în acest modul: ',
-    'LBL_CHANGE_LOG' => 'Jurnalul de modificări',
+    'LBL_CHANGE_LOG' => 'Schimba Log',
 );
