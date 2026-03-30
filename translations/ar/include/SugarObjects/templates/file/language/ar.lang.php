@@ -80,7 +80,7 @@ $mod_strings = array(
     'LBL_SUBCATEGORY_VALUE' => 'الفئة الفرعية:',
     'LBL_DOC_STATUS' => 'الحالة:',
     'LBL_DET_TEMPLATE_TYPE' => 'نوع الوثيقة:',
-    'LBL_DOC_DESCRIPTION' => 'الوصف:',
+    'LBL_DOC_DESCRIPTION' => 'وصف:',
     'LBL_DOC_ACTIVE_DATE' => 'تاريخ النشر:',
     'LBL_DOC_EXP_DATE' => 'تاريخ الإنتهاء:',
 
@@ -89,7 +89,7 @@ $mod_strings = array(
     'LBL_LIST_DOCUMENT' => 'الوثيقة',
     'LBL_LIST_CATEGORY' => 'الفئة',
     'LBL_LIST_SUBCATEGORY' => 'الفئة الفرعية',
-    'LBL_LIST_REVISION' => 'مراجعة',
+    'LBL_LIST_REVISION' => 'المراجعة',
     'LBL_LIST_LAST_REV_CREATOR' => 'نُشر بواسطة',
     'LBL_LIST_LAST_REV_DATE' => 'تاريخ المراجعة',
     'LBL_LIST_VIEW_DOCUMENT' => 'عرض',
