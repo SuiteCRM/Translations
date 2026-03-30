@@ -56,8 +56,8 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Uživatel:',
     'LBL_RATING' => 'Hodnocení',
     'LBL_ASSIGNED_TO' => 'Přiřazeno k:',
-    'LBL_ASSIGNED_USER' => 'Přiřazeno k:',
-    'LBL_ASSIGNED_TO_ID' => 'Přiřazeno k:',
+    'LBL_ASSIGNED_USER' => 'Assigned to:',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned to:',
     'LBL_BILLING_ADDRESS_CITY' => 'Fakturační město:',
     'LBL_BILLING_ADDRESS_COUNTRY' => 'Fakturační země:',
     'LBL_BILLING_ADDRESS_POSTALCODE' => 'Fakturační PSČ:',
@@ -97,7 +97,7 @@ $mod_strings = array(
     'LBL_PHONE_FAX' => 'Fax práce:',
     'LBL_PHONE_OFFICE' => 'Telefon práce:',
     'LBL_PHONE' => 'Telefon',
-    'LBL_EMAIL_ADDRESS' => 'Emailová adresa',
+    'LBL_EMAIL_ADDRESS' => 'Email Address',
     'LBL_EMAIL_ADDRESSES' => 'Emailové adresy',
     'LBL_POSTAL_CODE' => 'PSČ:',
     'LBL_SAVE_ACCOUNT' => 'Uložit účet',
@@ -116,7 +116,7 @@ $mod_strings = array(
     'LBL_TYPE' => 'Typ:',
     'LBL_WEBSITE' => 'WWW stránky:',
 
-    'LNK_ACCOUNT_LIST' => 'Firmy',
+    'LNK_ACCOUNT_LIST' => 'Accounts',
     'LNK_NEW_ACCOUNT' => 'Přidat klienta',
 
     'MSG_DUPLICATE' => 'Přidáním tohoto klienta můžete vytvořit duplicitního klienta. Můžete vybrat klienta ze seznamu níže nebo kliknout na Přidat klienta pro přidání nového klienta se zadanými údaji.',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'Opravdu chcete smazat tento záznam?',
 
     'LBL_EDIT_BUTTON' => 'Upravit  ',
-    'LBL_REMOVE' => 'Odebrat',
+    'LBL_REMOVE' => 'Remove',
 
 );
