@@ -54,9 +54,9 @@ $mod_strings = array(
     'LBL_JOIN_TABLE' => 'Join Tabellenname',
     'LBL_JOIN_KEY_LHS' => 'Join Schlüssel LHS',
     'LBL_JOIN_KEY_RHS' => 'Join Schlüssel RHS',
-    'LBL_RELATIONSHIP_TYPE' => 'Typ der Geschäftsbeziehung',
+    'LBL_RELATIONSHIP_TYPE' => 'Relationship Type',
     'LBL_RELATIONSHIP_ROLE_COLUMN' => 'Beziehung Rolle Spaltenname',
     'LBL_RELATIONSHIP_ROLE_COLUMN_VALUE' => 'Beziehung Rolle Spaltenwert',
     'LBL_REVERSE' => 'Rückwärts',
-    'LBL_DELETED' => 'Gelöscht',
+    'LBL_DELETED' => 'Deleted',
 );
