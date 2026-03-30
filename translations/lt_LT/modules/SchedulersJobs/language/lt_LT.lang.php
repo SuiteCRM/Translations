@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_NAME' => 'Darbo pavadinimas',
-    'LBL_EXECUTE_TIME' => 'Vykdymo laikas',
-    'LBL_SCHEDULER_ID' => 'Planuotojas',
+    'LBL_NAME' => 'Job Name',
+    'LBL_EXECUTE_TIME' => 'Execute Time',
+    'LBL_SCHEDULER_ID' => 'Scheduler',
     'LBL_STATUS' => 'Užduoties būsena',
-    'LBL_RESOLUTION' => 'Rezultatas',
+    'LBL_RESOLUTION' => 'Result',
     'LBL_MESSAGE' => 'Pranešimai',
     'LBL_DATA' => 'Uždoties duomenys',
     'LBL_REQUEUE' => 'Bandykite dar kartą nesėkmės atveju',
