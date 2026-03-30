@@ -43,22 +43,22 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Ρόλος:',
-    'LBL_LANGUAGE' => 'Γλώσσα:',
-    'LBL_MODULE_NAME' => 'Ρόλοι',
-    'LBL_MODULE_TITLE' => 'Ρολοι: Αρχικη',
+    'LBL_ROLE' => 'Role:',
+    'LBL_LANGUAGE' => 'Language:',
+    'LBL_MODULE_NAME' => 'Roles',
+    'LBL_MODULE_TITLE' => 'Roles: Home',
     'LBL_SEARCH_FORM_TITLE' => 'Αναζήτηση ρόλων',
     'LBL_LIST_FORM_TITLE' => 'Κατάλογος ρόλων',
-    'LNK_NEW_ROLE' => 'Δημιουργία ρόλου',
-    'LNK_ROLES' => 'Ρόλοι',
-    'LBL_NAME' => 'Όνομα:',
-    'LBL_DESCRIPTION' => 'Περιγραφή:',
+    'LNK_NEW_ROLE' => 'Create Role',
+    'LNK_ROLES' => 'Roles',
+    'LBL_NAME' => 'Όνομα Εκστρατείας:',
+    'LBL_DESCRIPTION' => 'Description:',
     'LBL_ALLOWED_MODULES' => 'Επιτρεπόμενες Ενότητες: ',
     'LBL_DISALLOWED_MODULES' => 'Μη Επιτρεπόμενες Ενότητες: ',
     'LBL_ASSIGN_MODULES' => 'Επεξεργασία Ενοτήτων: ',
-    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Ρόλοι',
-    'LBL_USERS' => 'Χρήστες',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Roles',
+    'LBL_USERS' => 'Χειριστές',
 
-    'LBL_USERS_SUBPANEL_TITLE' => 'Χρήστες',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Χειριστές',
     'LBL_MODULES' => 'Ενότητες',
 );
