@@ -44,13 +44,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     //Column header mapping
-    'action' => '액션',
-    'date_modified' => '마지막 작업의 날짜',
+    'action' => 'Action',
+    'date_modified' => 'Date of Last Action',
     'item_id' => 'ID',
-    'item_summary' => '이름',
-    'module_name' => '모듈 이름',
+    'item_summary' => 'Name',
+    'module_name' => 'Module Name',
     'users' => '사용자',
 
     //Administration related labels
-    'LBL_MODULE_NAME' => '트래커',
+    'LBL_MODULE_NAME' => 'Trackers',
 );
