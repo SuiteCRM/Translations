@@ -43,28 +43,28 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'การเผยแพร่',
+    'LBL_MODULE_NAME' => 'Releases',
     'LBL_MODULE_TITLE' => 'รุ่น: หน้าแรก',
     'LBL_SEARCH_FORM_TITLE' => 'ค้นหารุ่น',
     'LBL_LIST_FORM_TITLE' => 'รายการรุ่น',
     'LBL_NEW_FORM_TITLE' => 'รุ่นใหม่',
-    'LBL_RELEASE' => 'การเผยแพร่:',
-    'LBL_LIST_NAME' => 'การเผยแพร่',
+    'LBL_RELEASE' => 'Release:',
+    'LBL_LIST_NAME' => 'Release',
     'LBL_NAME' => 'รุ่น:',
-    'LBL_LIST_LIST_ORDER' => 'ลำดับ',
+    'LBL_LIST_LIST_ORDER' => 'Order',
     'LBL_LIST_ORDER' => 'รายการสั่งซื้อ:',
-    'LBL_LIST_STATUS' => 'สถานะ',
-    'LBL_STATUS' => 'สถานะ',
+    'LBL_LIST_STATUS' => 'Status',
+    'LBL_STATUS' => 'Status:',
     'LNK_NEW_RELEASE' => 'รายการรุ่น',
-    'NTC_DELETE_CONFIRMATION' => 'คุณแน่ใจไหมที่ต้องการจะลบบันทึกนี้?',
+    'NTC_DELETE_CONFIRMATION' => 'Are you sure you want to delete this record?',
     'NTC_SNOOZE_CONFIRMATION' => 'คุณแน่ใจหรือว่าต้องการปิดเสียงเตือนชั่วคราว',
     'ERR_DELETE_RECORD' => 'คุณต้องระบุหมายเลขบันทึกเพื่อลบการรุ่น',
     'NTC_STATUS' => 'ตั้งสถานะเป็นไม่ใช้งานเพื่อนำออกจากรายการรุ่นแบบ dropdown',
     'NTC_LIST_ORDER' => 'ตั้งค่าใบสั่งซื้อรุ่นนี้จะปรากฏในรายการรุ่นแบบ dropdown',
     'release_status_dom' =>
         array(
-            'Active' => 'เปิดใช้งาน',
-            'Inactive' => 'ปิดใช้งาน',
+            'Active' => 'Active',
+            'Inactive' => 'Inactive',
         ),
-    'LBL_EDITLAYOUT' => 'แก้ไขรูปแบบ' /*for 508 compliance fix*/,
+    'LBL_EDITLAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
 );
