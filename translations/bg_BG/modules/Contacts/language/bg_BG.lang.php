@@ -107,7 +107,7 @@ $mod_strings = array(
     'LBL_LIST_ACCOUNT_NAME' => 'Account Name',
     'LBL_LIST_CONTACT_NAME' => 'Contact Name',
     'LBL_LIST_CONTACT_ROLE' => 'Role',
-    'LBL_LIST_EMAIL_ADDRESS' => 'Email',
+    'LBL_LIST_EMAIL_ADDRESS' => 'Електронна поща',
     'LBL_LIST_FIRST_NAME' => 'First Name',
     'LBL_LIST_FORM_TITLE' => 'Contact List',
     'LBL_LIST_LAST_NAME' => 'Last Name',
@@ -195,7 +195,7 @@ $mod_strings = array(
     // SNIP
     'LBL_USER_SYNC' => 'User Sync',
 
-    'LBL_FP_EVENTS_CONTACTS_FROM_FP_EVENTS_TITLE' => 'Events',
+    'LBL_FP_EVENTS_CONTACTS_FROM_FP_EVENTS_TITLE' => 'Събития',
 
     'LBL_AOP_CASE_UPDATES' => 'Case Updates',
     'LBL_CREATE_PORTAL_USER' => 'Create Portal User',
@@ -213,7 +213,7 @@ $mod_strings = array(
     'LBL_JOOMLA_ACCOUNT_ID' => 'Joomla Account ID',
 
     'LBL_AOS_CONTRACTS' => 'Contracts',
-    'LBL_AOS_INVOICES' => 'Invoices',
+    'LBL_AOS_INVOICES' => 'Фактури',
     'LBL_AOS_QUOTES' => 'Quotes',
     'LBL_PROJECT_CONTACTS_1_FROM_PROJECT_TITLE' => 'Project Contacts from Project Title',
 
