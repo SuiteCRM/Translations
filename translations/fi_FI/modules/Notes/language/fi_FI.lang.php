@@ -44,13 +44,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'ERR_DELETE_RECORD' => 'You must specify a record number to delete the account.',
-    'LBL_ACCOUNT_ID' => 'Account ID:',
+    'LBL_ACCOUNT_ID' => 'Asiakastunnus:',
     'LBL_CASE_ID' => 'Palvelupyynnön ID:',
     'LBL_CLOSE' => 'Close:',
     'LBL_CONTACT_ID' => 'Kontaktin ID:',
     'LBL_CONTACT_NAME' => 'Contact:',
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Notes',
-    'LBL_DESCRIPTION' => 'Note',
+    'LBL_DESCRIPTION' => 'Muistio',
     'LBL_EMAIL_ADDRESS' => 'Email Address:',
     'LBL_EMAIL_ATTACHMENT' => 'Email Attachment',
     'LBL_FILE_MIME_TYPE' => 'Mime Type',
@@ -68,7 +68,7 @@ $mod_strings = array(
     'LBL_MODULE_NAME' => 'Notes',
     'LBL_MODULE_TITLE' => 'Muistiot: Etusivu',
     'LBL_NEW_FORM_TITLE' => 'Create Note or Add Attachment',
-    'LBL_NOTE_STATUS' => 'Note',
+    'LBL_NOTE_STATUS' => 'Muistio',
     'LBL_NOTE_SUBJECT' => 'Subject:',
     'LBL_NOTES_SUBPANEL_TITLE' => 'Attachments',
     'LBL_NOTE' => 'Muistio:',
@@ -101,7 +101,7 @@ $mod_strings = array(
     'LBL_FIRST_NAME' => 'First Name',
     'LBL_LAST_NAME' => 'Last Name',
     'LBL_DATE_ENTERED' => 'Date Created',
-    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_DATE_MODIFIED' => 'Muokkauspvm',
     'LBL_DELETED' => 'Deleted',
     'LBL_FILE_CONTENTS' => 'File Contents',
 
