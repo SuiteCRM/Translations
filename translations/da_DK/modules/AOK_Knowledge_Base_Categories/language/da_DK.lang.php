@@ -75,4 +75,4 @@ $mod_strings = array(
     'LBL_NEW_FORM_TITLE' => 'New KB Categories',
 );
 
-$mod_strings['LBL_AOK_KB_TITLE'] = 'Knowledge Base';
+$mod_strings['LBL_AOK_KB_TITLE'] = 'Vidensbase';
