@@ -53,7 +53,7 @@ $mod_strings = array(
     'LBL_MODIFIED_USER_ID' => 'Модифицирано от',
     'LBL_CREATED_BY' => 'Created By',
     'LBL_DELETED' => 'Deleted',
-    'LBL_CAMPAIGN' => 'Campaign',
+    'LBL_CAMPAIGN' => 'Кампания',
     'LBL_OPTOUT' => 'Не получава съобщение',
 
     'LBL_MODULE_NAME' => 'Маркери',
