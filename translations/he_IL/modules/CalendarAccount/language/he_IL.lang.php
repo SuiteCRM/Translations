@@ -31,33 +31,33 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
     // System fields
-    'LBL_ASSIGNED_TO_ID' => 'מזהה המשתמש המוקצה',
-    'LBL_ASSIGNED_TO_NAME' => 'מנה שם משתמש:',
+    'LBL_ASSIGNED_TO_ID' => 'מזהה המשתמש רשום',
+    'LBL_ASSIGNED_TO_NAME' => 'מוקצה למשתמש',
     'LBL_DATE_ENTERED' => 'תאריך יצירה:',
-    'LBL_DATE_MODIFIED' => 'תאריך שינוי',
-    'LBL_MODIFIED' => 'שונה ע"י:',
-    'LBL_MODIFIED_NAME' => 'שונה על ידי ששמו',
+    'LBL_DATE_MODIFIED' => 'התאריך שונה',
+    'LBL_MODIFIED' => 'עודכן ע"י',
+    'LBL_MODIFIED_NAME' => 'השתנה על-ידי שם',
     'LBL_CREATED' => 'נוצר ע"י',
     'LBL_CREATED_USER' => 'נוצר על ידי המשתמש',
-    'LBL_MODIFIED_USER' => 'שונה על ידי המשתמש',
-    'LBL_DESCRIPTION' => 'תאור',
+    'LBL_MODIFIED_USER' => 'עודכן על ידי המשתמש',
+    'LBL_DESCRIPTION' => 'תיאור',
     'LBL_DELETED' => 'נמחק',
 
     // Security groups
-    'LBL_SECURITYGROUPS' => 'קבוצות אבטחה',
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'קבוצות אבטחה',
+    'LBL_SECURITYGROUPS' => 'קבוצות הרשאות',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'קבוצות הרשאות',
 
     // List view labels
     'LBL_LIST_NAME' => 'שם',
-    'LBL_LIST_DELETE' => 'למחוק',
-    'LBL_EDIT_BUTTON' => 'לערוך',
+    'LBL_LIST_DELETE' => 'Delete',
+    'LBL_EDIT_BUTTON' => 'ערוך',
     'LBL_REMOVE' => 'הסר',
-    'LBL_ASCENDING' => 'בסדר עולה',
-    'LBL_DESCENDING' => 'סדר יורד',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
 
     // Email opt-in labels
     'LBL_OPT_IN' => 'להצטרפות',
-    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'ממתינים אישור להצטרפות, אישור להצטרפות לא נשלח',
+    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'בהמתנה לאישור ההצטרפות, אישור להצטרפות לא נשלח',
     'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'ממתינים אישור להצטרפות, אישור להצטרפות שלח',
     'LBL_OPT_IN_CONFIRMED' => 'להצטרפות',
 
@@ -92,8 +92,8 @@ $mod_strings = [
 
     // Standard fields
     'LBL_NAME' => 'שם',
-    'LBL_ID' => 'זיהוי',
-    'LBL_TYPE' => 'סוג',
+    'LBL_ID' => 'מזהה',
+    'LBL_TYPE' => 'Type',
     'LBL_SOURCE' => 'Calendar Source',
 
     // OAuth2 Fields
@@ -102,7 +102,7 @@ $mod_strings = [
 
     // Basic Auth Fields
     'LBL_USERNAME' => 'שם משתמש',
-    'LBL_PASSWORD' => 'סיסמא',
+    'LBL_PASSWORD' => 'Password',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test Connection',
 
@@ -163,11 +163,11 @@ $mod_strings = [
 
     // Connection test messages
     'LBL_CALENDAR' => 'לוח שנה',
-    'LBL_SUCCESSFUL' => 'בהצלחה',
-    'LBL_FAILED' => 'נכשל',
+    'LBL_SUCCESSFUL' => 'Successful',
+    'LBL_FAILED' => 'Failed',
     'LBL_CONNECTION_TEST' => 'Connection Test',
-    'LBL_YES' => 'כן',
-    'LBL_NO' => 'לא',
+    'LBL_YES' => 'Yes',
+    'LBL_NO' => 'No',
     'LBL_FOUND_CALENDARS' => 'Found {count} calendars.',
     'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'An error occurred while processing the connection test response. Please check the logs for details.',
     'LBL_CONNECTION_TEST_HTTP_ERROR' => 'Connection test failed with HTTP status',
@@ -182,14 +182,14 @@ $mod_strings = [
 
     // Dialog labels
     'LBL_NOTIFICATION' => 'Notification',
-    'LBL_CONFIRM' => 'אשר',
+    'LBL_CONFIRM' => 'Confirm',
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => 'בתהליך',
-    'LBL_SYNC_STATUS_SUCCESS' => 'הצליח',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => 'In Progress',
+    'LBL_SYNC_STATUS_SUCCESS' => 'הצלחה',
     'LBL_SYNC_STATUS_WARNING' => 'Warning',
-    'LBL_SYNC_STATUS_ERROR' => 'הערה:',
+    'LBL_SYNC_STATUS_ERROR' => 'Error',
 
     // Sync message enum translations
     'LBL_SYNC_MSG_SYNC_COMPLETE' => 'All meetings synced.',
@@ -202,5 +202,5 @@ $mod_strings = [
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Calendar not found.',
 
     // Relationship labels
-    'LBL_MEETINGS' => 'פגישות',
+    'LBL_MEETINGS' => 'Meetings',
 ];
