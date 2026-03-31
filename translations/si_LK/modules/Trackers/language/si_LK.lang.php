@@ -44,13 +44,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     //Column header mapping
-    'action' => 'කටයුතු',
-    'date_modified' => 'පසුගිය ක්රියාකාරී දිනය',
-    'item_id' => ' හැඳුනුම්',
-    'item_summary' => 'නම',
+    'action' => 'ක්‍රියාමාර්ගය',
+    'date_modified' => 'Date of Last Action',
+    'item_id' => 'හැඳු.',
+    'item_summary' => ' නම',
     'module_name' => 'මොඩියුලය නම',
-    'users' => 'පරිශීලකයන්',
+    'users' => 'පරිශිලකයින්',
 
     //Administration related labels
-    'LBL_MODULE_NAME' => 'ට්රැකර්ස්',
+    'LBL_MODULE_NAME' => 'ලුහුබැඳීම්',
 );
