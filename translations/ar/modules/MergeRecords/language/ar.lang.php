@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'قائمة الدمج',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'العثور على سجلات البحث للدمج معها',
-    'LBL_AVAIL_FIELDS' => 'Available Fields',
+    'LBL_AVAIL_FIELDS' => 'الحقول المتاحة',
     'LBL_FILTER_COND' => 'شرط الفرز',
     'LBL_MERGE_VALUE_OVER' => 'دمج القيمة فوق',
 
@@ -58,15 +58,15 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'إجراء الدمج',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'إجراء الدمج',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'حفظ الدمج',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'حفظ الدمج',
 
     'LBL_STEP2_FORM_TITLE' => 'تم العثور على السجلات للدمج معها',
     'LBL_SELECT_ERROR' => 'يجب عليك القيام باختيار قبل أن تتمكن من المتابعة.',
     'LBL_CHANGE_PARENT' => 'تعيين كرئيسي',
-    'LBL_REMOVE_FROM_MERGE' => 'Remove',
+    'LBL_REMOVE_FROM_MERGE' => 'حذف',
     'LBL_DIFF_COL_VALUES' => 'الأعمدة التي تختلف قيمتها في الصف الرئيسي عن القيمة في الصفوف المدمجة:',
     'LBL_SAME_COL_VALUES' => 'الأعمدة التي تتشابه قيمتها في جميع الصفوف:',
     'LBL_DELETE_MESSAGE' => 'سيؤدي هذا الإجراء إلى حذف السجلات التالية:',
