@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_NAME' => 'Job Name',
     'LBL_EXECUTE_TIME' => 'Execute Time',
-    'LBL_SCHEDULER_ID' => 'Scheduler',
+    'LBL_SCHEDULER_ID' => 'Χρονοδιάγραμμα',
     'LBL_STATUS' => 'Κατάσταση Εργασίας',
     'LBL_RESOLUTION' => 'Result',
     'LBL_MESSAGE' => 'Μηνύματα',
