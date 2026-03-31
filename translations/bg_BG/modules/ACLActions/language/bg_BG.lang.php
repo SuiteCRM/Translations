@@ -43,13 +43,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ACCESS_ALL' => 'All',
+    'LBL_ACCESS_ALL' => 'Всички',
     'LBL_ACCESS_NONE' => 'None',
     'LBL_ACCESS_OWNER' => 'Собствени записи',
     'LBL_ACCESS_GROUP' => 'Group',
     'LBL_ACCESS_NORMAL' => 'Обикновен',
     'LBL_ACCESS_ADMIN' => 'Admin',
-    'LBL_ACCESS_ENABLED' => 'Enabled',
+    'LBL_ACCESS_ENABLED' => 'Активирано',
     'LBL_ACCESS_DISABLED' => 'Disabled',
     'LBL_ACCESS_DEV' => 'Разработчик',
     'LBL_ACCESS_ADMIN_DEV' => 'Администратор / разработчик',
@@ -62,8 +62,8 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Search',
     'LBL_ACTION_VIEW' => 'View',
     'LBL_ACTION_EDIT' => 'Edit',
-    'LBL_ACTION_DELETE' => 'Delete',
-    'LBL_ACTION_IMPORT' => 'Import',
+    'LBL_ACTION_DELETE' => 'Изтрий',
+    'LBL_ACTION_IMPORT' => 'Импортирай',
     'LBL_ACTION_EXPORT' => 'Export',
     'LBL_ACTION_LIST' => 'List',
     'LBL_ACTION_MASSUPDATE' => 'Mass Update',
