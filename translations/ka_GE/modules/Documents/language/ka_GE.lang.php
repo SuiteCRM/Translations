@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     //module
-    'LBL_MODULE_NAME' => 'დოკუმენტი',
+    'LBL_MODULE_NAME' => 'დოკუმენტები',
     'LBL_MODULE_TITLE' => 'Documents: Home',
     'LNK_NEW_DOCUMENT' => 'Create Document',
     'LNK_DOCUMENT_LIST' => 'დოკუმენტების ნახვა',
