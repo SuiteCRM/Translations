@@ -52,13 +52,13 @@ $mod_strings = array(
     'LBL_VIEW_SUITE_FIELDS' => 'Ver Campos SuiteCRM',
     'LBL_FAILED_TO_SAVE' => 'Failed To Save',
     'LBL_CONFIRM_UNSAVE' => 'Los cambios no se han guardado y se perderán. ¿Está seguro de que desea continuar?',
-    'LBL_PUBLISHING' => 'Publishing...',
-    'LBL_PUBLISHED' => 'Published',
+    'LBL_PUBLISHING' => 'Publicando...',
+    'LBL_PUBLISHED' => 'Publicado',
     'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
     'LBL_DROP_HERE' => '[Drop Here]',
 
 //CUSTOM FIELDS
-    'LBL_NAME' => 'Name',
+    'LBL_NAME' => 'Nombre',
     'LBL_LABEL' => 'Label',
     'LBL_MASS_UPDATE' => 'Mass Update',
     'LBL_DEFAULT_VALUE' => 'Default Value',
@@ -66,7 +66,7 @@ $mod_strings = array(
     'LBL_DATA_TYPE' => 'Type',
 
 
-    'LBL_HISTORY' => 'History',
+    'LBL_HISTORY' => 'Historial',
 
 //WIZARDS
 
@@ -93,7 +93,7 @@ $mod_strings = array(
     'LBL_ED_CREATE_DROPDOWN' => 'Crea una Lista Desplegable',
     'LBL_DROPDOWN_NAME' => 'Nombre de Lista Desplegable:',
     'LBL_DROPDOWN_LANGUAGE' => 'Idioma de Lista Desplegable:',
-    'LBL_TABGROUP_LANGUAGE' => 'Language:',
+    'LBL_TABGROUP_LANGUAGE' => 'Idioma:',
 
 //END WIZARDS
 
@@ -106,7 +106,7 @@ $mod_strings = array(
     'LBL_BTN_SAVE' => 'Save',
     'LBL_BTN_CANCEL' => 'Cancel',
     'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
-    'LBL_BTN_HISTORY' => 'History',
+    'LBL_BTN_HISTORY' => 'Historial',
     'LBL_BTN_ADDROWS' => 'Add Rows',
     'LBL_BTN_UNDO' => 'Undo',
     'LBL_BTN_REDO' => 'Redo',
@@ -116,7 +116,7 @@ $mod_strings = array(
 //TABS
     'LBL_MODULES' => 'Modules',
     'LBL_MODULE_NAME' => 'Administration',
-    'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
+    'LBL_CONFIGURE_GROUP_TABS' => 'Configurar filtros de menú de módulos',
     'LBL_GROUP_TAB_WELCOME' => 'Los siguientes grupos se mostrarán en la barra de navegación a los usuarios que elijan ver Módulos Agrupados. Arrastre y suele módulos a y desde los Grupos para configurar qué módulos aparecen bajo los grupos. Nota: Los grupos vacíos no serán mostrados en la barra de navegación.',
     'LBL_RENAME_TAB_WELCOME' => 'Haga clic en el Valor de Visualización de cualquier pestaña de la siguiente tabla para renombrar la pestaña.',
     'LBL_DELETE_MODULE' => 'Quitar&nbsp;módulo<br />del&nbsp;filtro',
@@ -140,7 +140,7 @@ $mod_strings = array(
     'LBL_PUBLISH' => 'Publish' /*for 508 compliance fix*/,
     'LBL_ADDROWS' => 'Add Rows' /*for 508 compliance fix*/,
     'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
-    'LBL_EDIT' => 'Edit' /*for 508 compliance fix*/,
+    'LBL_EDIT' => 'Editar' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Seleccione el idioma que desea editar.',
     'LBL_SINGULAR' => 'Etiqueta en Singular',
