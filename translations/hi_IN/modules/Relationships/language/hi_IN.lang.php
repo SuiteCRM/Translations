@@ -58,5 +58,5 @@ $mod_strings = array(
     'LBL_RELATIONSHIP_ROLE_COLUMN' => 'संबंध भूमिका स्तंभ नाम',
     'LBL_RELATIONSHIP_ROLE_COLUMN_VALUE' => 'संबंध भूमिका स्तंभ मान',
     'LBL_REVERSE' => 'उल्टा',
-    'LBL_DELETED' => 'हटाई गई',
+    'LBL_DELETED' => 'हटाए गए',
 );
