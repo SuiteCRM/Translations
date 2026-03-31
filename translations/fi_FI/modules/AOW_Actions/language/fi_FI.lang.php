@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ID' => 'ID',
+    'LBL_ID' => 'Tunnus',
     'LBL_DATE_ENTERED' => 'Date Created',
-    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_DATE_MODIFIED' => 'Muokkauspvm',
     'LBL_MODIFIED' => 'Modified By',
     'LBL_MODIFIED_ID' => 'Modified By Id',
     'LBL_MODIFIED_NAME' => 'Modified By Name',
@@ -55,7 +55,7 @@ $mod_strings = array(
     'LBL_DESCRIPTION' => 'Description',
     'LBL_CREATED_ID' => 'Created By Id',
     'LBL_DELETED' => 'Deleted',
-    'LBL_NAME' => 'Name',
+    'LBL_NAME' => 'Nimi',
     'LBL_MODULE_NAME' => 'WorkFlow Actions',
     'LBL_MODULE_TITLE' => 'WorkFlow Actions',
     'LBL_AOW_WORKFLOW_ID' => 'AOW_WorkFlow tunnus',
@@ -70,7 +70,7 @@ $mod_strings = array(
     'LBL_ADD_FIELD' => 'Add Field',
     'LBL_ADD_RELATIONSHIP' => 'Lisää relaatio',
     'LBL_EDIT_EMAIL_TEMPLATE' => 'Edit',
-    'LBL_EMAIL' => 'Email',
+    'LBL_EMAIL' => 'Sähköposti',
     'LBL_EMAIL_TEMPLATE' => 'Email Template',
     'LBL_SETAPPROVAL' => 'Aseta Hyväksyntä',
     'LBL_RELATE_WORKFLOW' => 'Relate to WorkFlow Module',
