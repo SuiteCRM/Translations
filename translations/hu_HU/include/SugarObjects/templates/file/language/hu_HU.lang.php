@@ -51,7 +51,7 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Dokumentum keresése',
     //vardef labels
     'LBL_NAME' => 'Dokumentum neve',
-    'LBL_DESCRIPTION' => 'Leírás',
+    'LBL_DESCRIPTION' => 'Üzenet tartalma',
     'LBL_ASSIGNED_TO' => 'Felelős:',
     'LBL_CATEGORY' => 'Kategória',
     'LBL_SUBCATEGORY' => 'Alkategória',
@@ -80,38 +80,38 @@ $mod_strings = array(
     'LBL_SUBCATEGORY_VALUE' => 'Alkategória:',
     'LBL_DOC_STATUS' => 'Állapot:',
     'LBL_DET_TEMPLATE_TYPE' => 'Dokumentum típusa:',
-    'LBL_DOC_DESCRIPTION' => 'Megjegyzés:',
+    'LBL_DOC_DESCRIPTION' => 'Üzenet szövege:',
     'LBL_DOC_ACTIVE_DATE' => 'Közzététel dátuma:',
     'LBL_DOC_EXP_DATE' => 'Lejárat dátuma:',
 
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'Dokumentumlista',
     'LBL_LIST_DOCUMENT' => 'Dokumentum',
-    'LBL_LIST_CATEGORY' => 'Kategória',
-    'LBL_LIST_SUBCATEGORY' => 'Alkategória',
-    'LBL_LIST_REVISION' => 'Módosítás',
+    'LBL_LIST_CATEGORY' => 'Category',
+    'LBL_LIST_SUBCATEGORY' => 'Sub Category',
+    'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => 'Közzétette',
     'LBL_LIST_LAST_REV_DATE' => 'Verzió dátuma',
     'LBL_LIST_VIEW_DOCUMENT' => 'Megtekintés',
-    'LBL_LIST_ACTIVE_DATE' => 'Publikálás Dátuma',
-    'LBL_LIST_EXP_DATE' => 'Érvényesség dátuma',
-    'LBL_LIST_STATUS' => 'Állapot',
+    'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
+    'LBL_LIST_EXP_DATE' => 'Expiration Date',
+    'LBL_LIST_STATUS' => 'Status',
 
     //document search form.
-    'LBL_SF_CATEGORY' => 'Kategória:',
-    'LBL_SF_SUBCATEGORY' => 'Alkategória:',
+    'LBL_SF_CATEGORY' => 'Category:',
+    'LBL_SF_SUBCATEGORY' => 'Sub Category:',
 
     'DEF_CREATE_LOG' => 'Dokumentum létrehozva',
 
     //error messages
-    'ERR_DOC_NAME' => 'Dokumentum neve',
-    'ERR_DOC_ACTIVE_DATE' => 'Publikálás Dátuma',
+    'ERR_DOC_NAME' => 'Document Name',
+    'ERR_DOC_ACTIVE_DATE' => 'Publish Date',
     'ERR_FILENAME' => 'File neve',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'Dokumentum neve',
+    'LBL_LIST_DOCUMENT_NAME' => 'Document Name',
 
     'LBL_EDIT_BUTTON' => 'Módosítás',
-    'LBL_REMOVE' => 'Sil',
+    'LBL_REMOVE' => 'Eltávolítás',
 
 );
