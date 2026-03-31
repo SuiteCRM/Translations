@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_ROLE' => 'भूमिका',
     'LBL_NAME' => 'नाम',
-    'LBL_DESCRIPTION' => 'विवरण',
+    'LBL_DESCRIPTION' => 'विवरण ',
     'LIST_ROLES' => 'भूमिकाएँ सूचीबद्ध करें',
     'LBL_USERS_SUBPANEL_TITLE' => 'उपयोगकर्ताओं',
     'LIST_ROLES_BY_USER' => 'उपयोगकर्ता द्वारा भूमिकाएँ सूचीबद्ध करें',
