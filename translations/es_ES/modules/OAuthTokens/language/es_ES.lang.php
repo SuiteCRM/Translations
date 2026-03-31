@@ -46,9 +46,9 @@ $mod_strings = array(
     'LBL_OAUTH_REQUEST' => "Solicitar token",
     'LBL_OAUTH_AUTHORIZE' => "Autorizar Token",
     'LBL_OAUTH_CONSUMERREQ' => "¿Autorizar token del consumidor <b>%s</b>?",
-    'LBL_ASSIGNED_TO_NAME' => 'User',
+    'LBL_ASSIGNED_TO_NAME' => 'Usuario',
     'LBL_ID' => 'ID',
-    'LBL_STATUS' => 'Status',
+    'LBL_STATUS' => 'Estado',
     'LBL_TS' => 'Marca de tiempo',
     'LBL_LIST_DELETE' => 'Eliminar token',
     'LBL_CONSUMER' => 'Nombre de consumidor',
@@ -56,7 +56,7 @@ $mod_strings = array(
 
     'LBL_TOKEN_TS' => 'Token TS',
     'LBL_CALLBACK_URL' => 'URL de devolución de llamada',
-    'LBL_SECRET' => 'Secret',
+    'LBL_SECRET' => 'Clave',
     'LBL_TSTATE' => 'TState',
-    'LBL_VERIFY' => 'Verify',
+    'LBL_VERIFY' => 'Verificar',
 );
