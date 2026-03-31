@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_BASIC' => 'Ipile',
+    'LBL_BASIC' => 'BASIC',
     'LBL_BASIC_SEARCH' => 'Kiakia àlẹmọ',
     'LBL_ADVANCED_SEARCH' => 'Ilọsiwaju àlẹmọ',
     'LBL_BASIC_TYPE' => 'Ipilẹ Iru',
