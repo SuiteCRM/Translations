@@ -55,7 +55,7 @@ $mod_strings = array(
     // END Dashlet Categories
 
     'ERR_DELETE_RECORD' => 'Du ska angive en række for at slette kunden.',
-    'LBL_ACCOUNT_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_ACCOUNT_INFORMATION' => 'Oversigt', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_ACCOUNT_NAME' => 'Account Name:',
     'LBL_ACCOUNT' => 'Kunde:',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
@@ -85,7 +85,7 @@ $mod_strings = array(
     'LBL_DATE_MODIFIED' => 'Date Modified:',
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Accounts',
     'LBL_DESCRIPTION_INFORMATION' => 'Description Information',
-    'LBL_DESCRIPTION' => 'Description:',
+    'LBL_DESCRIPTION' => 'Beskrivelse:',
     'LBL_DUPLICATE' => 'Possible Duplicate Account',
     'LBL_EMAIL' => 'Email Address:',
     'LBL_EMAIL_OPT_OUT' => 'E-mail Opt-Out:',
@@ -110,7 +110,7 @@ $mod_strings = array(
     'LBL_MODULE_NAME' => 'Accounts',
     'LBL_MODULE_TITLE' => 'Kunder: Hjem',
     'LBL_MODULE_ID' => 'Accounts',
-    'LBL_NAME' => 'Name:',
+    'LBL_NAME' => 'Navn:',
     'LBL_NEW_FORM_TITLE' => 'Ny kunde',
     'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Opportunities',
     'LBL_OTHER_EMAIL_ADDRESS' => 'Other Email:',
@@ -154,12 +154,12 @@ $mod_strings = array(
     'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Accounts',
     'LBL_PROJECT_SUBPANEL_TITLE' => 'Projects',
     //For export labels
-    'LBL_PARENT_ID' => 'Parent ID',
+    'LBL_PARENT_ID' => 'Overordnet ID',
     // SNIP
     'LBL_PRODUCTS_SERVICES_PURCHASED_SUBPANEL_TITLE' => 'Købte Produkter og Services',
 
     'LBL_AOS_CONTRACTS' => 'Contracts',
     'LBL_AOS_INVOICES' => 'Invoices',
-    'LBL_AOS_QUOTES' => 'Quotes',
+    'LBL_AOS_QUOTES' => 'Tilbud',
     'LBL_LIST_WEBSITE' => 'website',
 );
