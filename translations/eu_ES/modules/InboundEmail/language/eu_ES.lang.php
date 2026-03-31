@@ -77,7 +77,7 @@ $mod_strings = array(
     'LBL_GROUP_QUEUE' => 'Taldeari esleitu',
     'LBL_HOME' => 'Home',
     'LBL_LIST_MAILBOX_TYPE' => 'Postontziaren erabilera',
-    'LBL_LIST_NAME' => 'Name:',
+    'LBL_LIST_NAME' => 'Izena:',
     'LBL_LIST_GLOBAL_PERSONAL' => 'Type',
     'LBL_LIST_SERVER_URL' => 'Posta zerbitzaria',
     'LBL_SERVER_ADDRESS' => 'Server Address',
@@ -182,7 +182,7 @@ $mod_strings = array(
     'LBL_CASE_CONFIGURATION' => 'Case Configuration',
     'LBL_GROUP_CONFIGURATION' => 'Group Configuration',
 
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Segurtasun-taldeak',
 
 
     'LBL_OUTBOUND_EMAIL_ACCOUNT' => 'Outbound Email Account',
