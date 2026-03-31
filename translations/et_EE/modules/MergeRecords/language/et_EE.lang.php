@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Mestimise loend',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Leia otsingu kirjed mestimiseks koos',
-    'LBL_AVAIL_FIELDS' => 'Saadaolevad väljad',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'Filtri olek',
     'LBL_MERGE_VALUE_OVER' => 'Mesti väärtus üle',
 
@@ -58,15 +58,15 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Teosta mesti',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Teosta mesti',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Salvesta mesti',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Salvesta mesti',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => 'Kirjed mestimiseks leitud koos',
     'LBL_SELECT_ERROR' => 'Enne jätkamist tee valik.',
     'LBL_CHANGE_PARENT' => 'Seadista esmaseks',
-    'LBL_REMOVE_FROM_MERGE' => 'Eemalda',
+    'LBL_REMOVE_FROM_MERGE' => 'Remove',
     'LBL_DIFF_COL_VALUES' => 'Veerud, mille esmase rea väärtus erineb mestitud ridedest:',
     'LBL_SAME_COL_VALUES' => 'Veerud, mille väärtus on sarnane kõigi ridadega:',
     'LBL_DELETE_MESSAGE' => 'See tegevus kustutab järgnevad kirjed:',
