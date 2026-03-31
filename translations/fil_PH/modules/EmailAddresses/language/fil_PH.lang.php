@@ -50,6 +50,6 @@ $mod_strings = array(
     'LBL_OPT_OUT' => 'Sumali sa labas',
     'LBL_CONFIRM_OPT_IN' => 'Kompirmahin ang Opt In',
     'LBL_DATE_CREATE' => 'Petsa ng pagkalikha',
-    'LBL_DATE_MODIFIED' => 'Ang petsa ng pagkabago',
+    'LBL_DATE_MODIFIED' => 'Ang petsa ng pagbago',
     'LBL_DELETED' => 'Tanggalin',
 );
