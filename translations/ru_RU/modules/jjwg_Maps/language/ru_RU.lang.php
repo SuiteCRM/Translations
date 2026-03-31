@@ -59,19 +59,19 @@ $mod_strings['LBL_UNIT_TYPE'] = 'Единицы измерения рассто�
 $mod_strings['LBL_MAP_DISPLAY'] = 'Отобразить карту';
 $mod_strings['LBL_MAP_LEGEND'] = 'Условные обозначения:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'Другие обозначения:';
-$mod_strings['LBL_MAP_GROUP'] = 'Группировка';
+$mod_strings['LBL_MAP_GROUP'] = 'Групповая';
 $mod_strings['LBL_MAP_TYPE'] = 'Тип';
 $mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Ответственное лицо:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'Проложить маршрут';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'Карты Google';
 
 $mod_strings['LNK_NEW_MAP'] = 'Добавить новую карту';
-$mod_strings['LNK_NEW_RECORD'] = 'Добавить новую карту';
+$mod_strings['LNK_NEW_RECORD'] = 'Add New Map';
 $mod_strings['LNK_MAP_LIST'] = 'Карты';
 
 $mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Тест геокодирования';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'Отобразить объекты';
-$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'Нет';
+$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = '--не выбрано--';
 $mod_strings['LBL_MAP_ADDRESS'] = 'Адрес';
 $mod_strings['LBL_MAP_PROCESS'] = 'Запустить';
 
@@ -85,10 +85,10 @@ $mod_strings['LBL_ZERO_RESULTS'] = 'Нет результатов';
 $mod_strings['LBL_OK'] = 'Готово';
 $mod_strings['LBL_INVALID_REQUEST'] = 'Некорректный запрос';
 $mod_strings['LBL_APPROXIMATE'] = 'Приблизительно';
-$mod_strings['LBL_EMPTY'] = 'Пусто';
+$mod_strings['LBL_EMPTY'] = 'Empty';
 
 $mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Итоговая строка';
-$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Сбросить';
+$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Reset';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = 'В приведённой таблице показано количество геокодированных записей по модулям, сгруппированных в зависимости от полученных результатов. Помните, что Карты Google накладывают ограничение на определение количества координат, равное 2500 запросам в сутки для одного ip-адреса. Данный модуль кэширует результаты геокодирования для уменьшения количества необходимых запросов.';
 
 $mod_strings['LBL_CRON_INSTRUCTIONS'] = 'Для автоматического регулярного геокодирования рекомендуется прописать соответствующее задание для CRON и выполнять его ежедневно во время наименьшей загрузки сервера. Указанный URL предназначен для использования в соответствующем задании планировщика. За более подобной информацией обратитесь к документации системы.';
@@ -96,22 +96,22 @@ $mod_strings['LBL_EXPORT_ADDRESS_URL'] = 'Экспорт адресов';
 $mod_strings['LBL_EXPORT_INSTRUCTIONS'] = 'При необходимости геокодирования адресов сторонними утилитами, вы можете воспользоваться следующими ссылками для экспорта адресов из соответствующих модулей. По окончании геокодирования импортируйте обновлённые адреса через модуль Кэш адресов. Помните, что модуль Кэш адресов используется как необязательное дополнение к основному функционалу карт. Вся информация, полученная в результате геокодирования, хранится в соответствующем модуле.';
 $mod_strings['LBL_ADDRESS_CACHE'] = 'Кэш адресов';
 $mod_strings['LBL_ADD_TO_TARGET_LIST'] = 'Добавить в список адресатов';
-$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Добавление...';
+$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Выполняется...';
 
 
 $mod_strings['LBL_CONFIG_TITLE'] = 'Параметры конфигурации';
 $mod_strings['LBL_CONFIG_SAVED'] = 'Настройки успешно сохранены!';
-$mod_strings['LBL_BILLING_ADDRESS'] = 'Расчётный адрес';
-$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Отгрузочный адрес';
-$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Основной адрес';
+$mod_strings['LBL_BILLING_ADDRESS'] = 'Billing Address';
+$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Shipping Address';
+$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Primary Address';
 $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'Другой адрес';
-$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Гибкие отношения';
+$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex Relate';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Адрес (Простой, Пользователи)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'Пользовательский (Пользовательская логика контроллера)';
-$mod_strings['LBL_ENABLED'] = 'Доступен';
-$mod_strings['LBL_DISABLED'] = 'Заблокирован';
+$mod_strings['LBL_ENABLED'] = 'Enabled';
+$mod_strings['LBL_DISABLED'] = 'Выкл.';
 $mod_strings['LBL_DEFAULT'] = 'По умолчанию:';
-$mod_strings['LBL_CONFIG_DEFAULT'] = 'По умолчанию:';
+$mod_strings['LBL_CONFIG_DEFAULT'] = 'Default:';
 
 $mod_strings['LBL_CONFIG_VALID_GEOCODE_MODULES'] = 'Обрабатываемые при геокодировании модули:';
 $mod_strings['LBL_CONFIG_VALID_GEOCODE_TABLES'] = 'Обрабатываемые при геокодировании таблицы:';
@@ -182,7 +182,7 @@ $mod_strings['LBL_CONFIG_MAP_CLUSTER_GRID_SIZE_DESC'] = "Установка ра
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_TITLE'] = "Максимальный масштаб для кластеризации:";
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_DESC'] = "Установка максимального масштаба карты, при котором метки будут отображаться единым кластером.";
 $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = "Примечание: все сохранённые параметры находятся в таблице <b>config</b>, категория <b>jjwg</b>. Файл controller.php для перезаписи параметров больше не используется.";
-$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Участки карт';
+$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Areas';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'Метки';
 $mod_strings['LBL_PARENT_ID'] = 'ID родителя';
 $mod_strings['LBL_JJWP_PARTNERS'] = 'Партнёры JJWP';
