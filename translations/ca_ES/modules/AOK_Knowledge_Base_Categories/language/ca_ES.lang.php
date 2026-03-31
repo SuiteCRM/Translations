@@ -60,7 +60,7 @@ $mod_strings = array(
     'LBL_MODIFIED_USER' => 'Modified by User',
     'LBL_LIST_NAME' => 'Name',
     'LBL_EDIT_BUTTON' => 'Edit',
-    'LBL_REMOVE' => 'Remove',
+    'LBL_REMOVE' => 'Eliminar',
     'LBL_LIST_FORM_TITLE' => 'Llista de categories KB',
     'LBL_MODULE_NAME' => 'Categories KB',
     'LBL_MODULE_TITLE' => 'KB Categories',
@@ -75,4 +75,4 @@ $mod_strings = array(
     'LBL_NEW_FORM_TITLE' => 'noves categories KB',
 );
 
-$mod_strings['LBL_AOK_KB_TITLE'] = 'Knowledge Base';
+$mod_strings['LBL_AOK_KB_TITLE'] = 'Base de coneixements';
