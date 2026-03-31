@@ -97,7 +97,7 @@ $mod_strings = [
 
     'LBL_EXTRA' => 'Extra configurations',
     'LBL_MAPPING' => 'Mapping configurations',
-    'LBL_OTHER' => 'Other',
+    'LBL_OTHER' => 'Andre',
 
 
     'LNK_LIST_CREATE_NEW_PERSONAL' => 'New Personal OAuth Provider',
