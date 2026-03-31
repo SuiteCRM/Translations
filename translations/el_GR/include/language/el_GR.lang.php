@@ -52,7 +52,7 @@ $app_list_strings = array(
         'Home' => 'Αρχική Σελίδα',
         'ResourceCalendar' => 'Ημερολόγιο Πόρων',
         'Contacts' => 'Contacts',
-        'Accounts' => 'Accounts',
+        'Accounts' => 'Λογαριασμοί',
         'Alerts' => 'Ειδοποιήσεις',
         'Opportunities' => 'Ευκαιρίες',
         'Cases' => 'Αιτήσεις Υποστήριξης',
@@ -65,7 +65,7 @@ $app_list_strings = array(
         'Meetings' => 'Συναντήσεις',
         'Tasks' => 'Υποχρεώσεις',
         'Calendar' => 'Ημερολόγιο',
-        'Leads' => 'Leads',
+        'Leads' => 'Δυνητικοί Πελάτες',
         'Currencies' => 'Νομίσματα',
         'Activities' => 'Activities',
         'Bugs' => 'Σφάλματα',
@@ -86,7 +86,7 @@ $app_list_strings = array(
         'Sync' => 'Συγχρονισμό',
         'Users' => 'Χρήστες',
         'Employees' => 'Υπαλληλοι',
-        'Administration' => 'Administration',
+        'Administration' => 'Διαχείριση',
         'ACLRoles' => 'Roles',
         'InboundEmail' => 'Εισερχόμενα Email',
         'Releases' => 'Αναβαθμίσεις',
@@ -113,7 +113,7 @@ $app_list_strings = array(
     ),
 
     'moduleListSingular' => array(
-        'Home' => 'Home',
+        'Home' => 'Αρχή',
         'Dashboard' => 'Πίνακας Εργαλείων',
         'Contacts' => 'Επαφή',
         'Accounts' => 'Λογαριασμός',
@@ -125,22 +125,22 @@ $app_list_strings = array(
         'EmailTemplates' => 'Πρότυπο email',
         'Meetings' => 'Συνάντηση',
         'Tasks' => 'Εργασία',
-        'Calendar' => 'Calendar',
+        'Calendar' => 'Ημερολόγιο',
         'Leads' => 'Δυνητικού Πελάτη',
         'Activities' => 'Δραστηριότητα',
         'Bugs' => 'Σφάλμα',
         'KBDocuments' => 'Έγγραφο Βάσης Γνώσεων',
         'Feeds' => 'RSS',
-        'iFrames' => 'My Sites',
+        'iFrames' => 'Ιστοσελίδες Μου',
         'TimePeriods' => 'Χρονική Περίοδος',
         'Project' => 'Έργα',
         'ProjectTask' => 'Εργασία Έργου',
         'Prospects' => 'Στόχο',
         'Campaigns' => 'Καμπάνια',
-        'Documents' => 'Document',
-        'Sync' => 'Sync',
-        'Users' => 'User',
-        'SugarFavorites' => 'SuiteCRM Favorites',
+        'Documents' => 'Έγγραφο',
+        'Sync' => 'Συγχρονισμό',
+        'Users' => 'Χειριστή',
+        'SugarFavorites' => 'SuiteCRM Αγαπημένα',
 
     ),
 
@@ -158,11 +158,11 @@ $app_list_strings = array(
         'Customer' => 'Customer',
         'Integrator' => 'Integrator',
         'Investor' => 'Investor',
-        'Partner' => 'Partner',
+        'Partner' => 'Συνεργάτη',
         'Press' => 'Press',
-        'Prospect' => 'Prospect',
+        'Prospect' => 'Προοπτική',
         'Reseller' => 'Reseller',
-        'Other' => 'Other',
+        'Other' => 'Άλλο:',
     ),
     //e.g. en español 'Apparel'=>'Ropa',
     'industry_dom' => array(
@@ -196,7 +196,7 @@ $app_list_strings = array(
         'Telecommunications' => 'Τηλεπικοινωνίες',
         'Transportation' => 'Μεταφορές',
         'Utilities' => 'Κοινωφελής Επιχείρηση',
-        'Other' => 'Other',
+        'Other' => 'Άλλο:',
     ),
     'lead_source_default_key' => 'Αυτοδημιούργητος',
     'lead_source_dom' => array(
@@ -205,7 +205,7 @@ $app_list_strings = array(
         'Existing Customer' => 'Δυνητικό Πελάτη',
         'Self Generated' => 'Αυτοδημιούργητος',
         'Employee' => 'Εργαζόμενος',
-        'Partner' => 'Partner',
+        'Partner' => 'Συνεργάτη',
         'Public Relations' => 'Δημόσιες Σχέσεις',
         'Direct Mail' => 'Άμεση Αλληλογραφία',
         'Conference' => 'Συνέδριο',
@@ -213,13 +213,13 @@ $app_list_strings = array(
         'Web Site' => 'Ιστοσελίδα',
         'Word of mouth' => 'Από στόμα σε στόμα',
         'Email' => 'Email',
-        'Campaign' => 'Campaign',
-        'Other' => 'Other',
+        'Campaign' => 'Εκστρατεία',
+        'Other' => 'Άλλο:',
     ),
     'opportunity_type_dom' => array(
         '' => '',
-        'Existing Business' => 'Existing Business',
-        'New Business' => 'New Business',
+        'Existing Business' => 'Υφιστάμενο Πελατολόγιο',
+        'New Business' => 'Νέο Πελατολόγιο',
     ),
     'roi_type_dom' => array(
         'Revenue' => 'Έσοδα',
@@ -240,7 +240,7 @@ $app_list_strings = array(
         'Technical Evaluator' => 'Τεχνικός Αξιολογητής',
         'Executive Sponsor' => 'Άμεσα Ενδιαφερόμενος',
         'Influencer' => 'Επηρεάζων',
-        'Other' => 'Other',
+        'Other' => 'Άλλο:',
     ),
     //Note:  do not translate case_relationship_type_default_key
 //       it is the key for the default case_relationship_type_dom value
@@ -282,11 +282,11 @@ $app_list_strings = array(
             'Closed Lost' => '0',
         ),
     'activity_dom' => array(
-        'Call' => 'Call',
-        'Meeting' => 'Meeting',
+        'Call' => 'Τηλεφωνική Κλήση',
+        'Meeting' => 'Συνάντηση',
         'Task' => 'Task',
         'Email' => 'Email',
-        'Note' => 'Note',
+        'Note' => 'Σημείωση',
     ),
     'salutation_dom' => array(
         '' => '',
@@ -318,18 +318,18 @@ $app_list_strings = array(
         86400 => '1 ημέρα πριν',
     ),
 
-    'task_priority_default' => 'Medium',
+    'task_priority_default' => 'Μεσαία',
     'task_priority_dom' => array(
         'High' => 'High',
-        'Medium' => 'Medium',
+        'Medium' => 'Μεσαία',
         'Low' => 'Low',
     ),
     'task_status_default' => 'Δεν έχει ξεκινήσει',
     'task_status_dom' => array(
-        'Not Started' => 'Not Started',
+        'Not Started' => 'Δεν έχει Αρχίσει',
         'In Progress' => 'Σε εξέλιξη',
         'Completed' => 'Ολοκληρωμένη',
-        'Pending Input' => 'Pending Input',
+        'Pending Input' => 'Εκκρεμής',
         'Deferred' => 'Αναβαλλόμενη',
     ),
     'meeting_status_default' => 'Προγραμματισμένη',
@@ -342,14 +342,14 @@ $app_list_strings = array(
         'WebEx' => 'WebEx',
     ),
     'meeting_type_dom' => array(
-        'Other' => 'Other',
+        'Other' => 'Άλλο:',
         'Sugar' => 'SuiteCRM',
     ),
     'call_status_default' => 'Προγραμματισμένη',
     'call_status_dom' => array(
         'Planned' => 'Προγραμματισμένη',
-        'Held' => 'Held',
-        'Not Held' => 'Not Held',
+        'Held' => 'Πραγματοποιήθηκε',
+        'Not Held' => 'Δεν Πραγματοποιήθηκε',
     ),
     'call_direction_default' => 'Outbound',
     'call_direction_dom' => array(
@@ -358,7 +358,7 @@ $app_list_strings = array(
     ),
     'lead_status_dom' => array(
         '' => '',
-        'New' => 'New',
+        'New' => 'Νέος',
         'Assigned' => 'Assigned',
         'In Process' => 'Σε Εξέλιξη',
         'Converted' => 'Μετατράπηκε',
@@ -368,7 +368,7 @@ $app_list_strings = array(
     'case_priority_default_key' => 'P2',
     'case_priority_dom' => array(
         'P1' => 'High',
-        'P2' => 'Medium',
+        'P2' => 'Μεσαία',
         'P3' => 'Low',
     ),
     'user_type_dom' => array(
@@ -376,14 +376,14 @@ $app_list_strings = array(
         'Administrator' => 'Διαχειριστής',
     ),
     'user_status_dom' => array(
-        'Active' => 'Active',
+        'Active' => 'Ενεργή',
         'Inactive' => 'Ανενεργή',
     ),
     'user_factor_auth_interface_dom' => array(
         'FactorAuthEmailCode' => 'Κωδικός email',
     ),
     'employee_status_dom' => array(
-        'Active' => 'Active',
+        'Active' => 'Ενεργή',
         'Terminated' => 'Απολυμένος',
         'Leave of Absence' => 'Αδειούχος',
     ),
@@ -395,17 +395,17 @@ $app_list_strings = array(
     ),
     'project_task_priority_options' => array(
         'High' => 'High',
-        'Medium' => 'Medium',
+        'Medium' => 'Μεσαία',
         'Low' => 'Low',
     ),
-    'project_task_priority_default' => 'Medium',
+    'project_task_priority_default' => 'Μεσαία',
 
     'project_task_status_options' => array(
-        'Not Started' => 'Not Started',
-        'In Progress' => 'In Progress',
-        'Completed' => 'Completed',
-        'Pending Input' => 'Pending Input',
-        'Deferred' => 'Deferred',
+        'Not Started' => 'Δεν έχει Αρχίσει',
+        'In Progress' => 'Σε εξέλιξη',
+        'Completed' => 'Ολοκληρωμένη',
+        'Pending Input' => 'Εκκρεμής',
+        'Deferred' => 'Αναβαλλόμενη',
     ),
     'project_task_utilization_options' => array(
         '0' => 'κανένα',
@@ -420,7 +420,7 @@ $app_list_strings = array(
         'In Review' => 'Σε Αναθεώρηση',
         'Underway' => 'Σε Εξέλιξη',
         'On_Hold' => 'Εν αναμονή',
-        'Completed' => 'Completed',
+        'Completed' => 'Ολοκληρωμένη',
     ),
     'project_status_default' => 'Draft',
 
@@ -431,25 +431,25 @@ $app_list_strings = array(
 
     'activity_status_type_dom' => array(
         '' => '--Κανένα--',
-        'active' => 'Active',
-        'inactive' => 'Inactive',
+        'active' => 'Ενεργή',
+        'inactive' => 'Ανενεργή',
     ),
 
     // Note:  do not translate record_type_default_key
     //        it is the key for the default record_type_module value
-    'record_type_default_key' => 'Accounts',
+    'record_type_default_key' => 'Λογαριασμοί',
     'record_type_display' => array(
         '' => '',
-        'Accounts' => 'Account',
-        'Opportunities' => 'Opportunity',
-        'Cases' => 'Case',
-        'Leads' => 'Lead',
-        'Contacts' => 'Contact', // cn (11/22/2005) added to support Emails
+        'Accounts' => 'Λογαριασμό',
+        'Opportunities' => 'Ευκαιρία',
+        'Cases' => 'Υπόθεση',
+        'Leads' => 'Δυνητικό Πελάτη',
+        'Contacts' => 'Επαφή', // cn (11/22/2005) added to support Emails
 
-        'Bugs' => 'Bug',
-        'Project' => 'Project',
+        'Bugs' => 'Σφάλμα Σημ. Εντοπισμού',
+        'Project' => 'Έργο',
 
-        'Prospects' => 'Target',
+        'Prospects' => 'Στόχο',
         'ProjectTask' => 'Project Task',
 
         'Tasks' => 'Task',
@@ -457,53 +457,53 @@ $app_list_strings = array(
         'AOS_Contracts' => 'Συμβόλαιο',
         'AOS_Invoices' => 'Τιμολόγιο',
         'AOS_Quotes' => 'Προσφορά',
-        'AOS_Products' => 'Product',
+        'AOS_Products' => 'Προϊόν',
 
     ),
 
     'record_type_display_notes' => array(
-        'Accounts' => 'Account',
-        'Contacts' => 'Contact',
-        'Opportunities' => 'Opportunity',
-        'Campaigns' => 'Campaign',
+        'Accounts' => 'Λογαριασμό',
+        'Contacts' => 'Επαφή',
+        'Opportunities' => 'Ευκαιρία',
+        'Campaigns' => 'Εκστρατεία',
         'Tasks' => 'Task',
         'Emails' => 'Email',
 
-        'Bugs' => 'Bug',
-        'Project' => 'Project',
+        'Bugs' => 'Σφάλμα Σημ. Εντοπισμού',
+        'Project' => 'Έργο',
         'ProjectTask' => 'Project Task',
-        'Prospects' => 'Target',
-        'Cases' => 'Case',
-        'Leads' => 'Lead',
+        'Prospects' => 'Στόχο',
+        'Cases' => 'Υπόθεση',
+        'Leads' => 'Δυνητικό Πελάτη',
 
-        'Meetings' => 'Meeting',
-        'Calls' => 'Call',
+        'Meetings' => 'Συνάντηση',
+        'Calls' => 'Τηλεφωνική Κλήση',
 
         'AOS_Contracts' => 'Contract',
         'AOS_Invoices' => 'Invoice',
         'AOS_Quotes' => 'Quote',
-        'AOS_Products' => 'Product',
+        'AOS_Products' => 'Προϊόν',
     ),
 
     'parent_type_display' => array(
-        'Accounts' => 'Account',
-        'Contacts' => 'Contact',
+        'Accounts' => 'Λογαριασμό',
+        'Contacts' => 'Επαφή',
         'Tasks' => 'Task',
-        'Opportunities' => 'Opportunity',
+        'Opportunities' => 'Ευκαιρία',
 
-        'Bugs' => 'Bug',
-        'Cases' => 'Case',
-        'Leads' => 'Lead',
+        'Bugs' => 'Σφάλμα Σημ. Εντοπισμού',
+        'Cases' => 'Υπόθεση',
+        'Leads' => 'Δυνητικό Πελάτη',
 
-        'Project' => 'Project',
+        'Project' => 'Έργο',
         'ProjectTask' => 'Project Task',
 
-        'Prospects' => 'Target',
+        'Prospects' => 'Στόχο',
 
         'AOS_Contracts' => 'Contract',
         'AOS_Invoices' => 'Invoice',
         'AOS_Quotes' => 'Quote',
-        'AOS_Products' => 'Product',
+        'AOS_Products' => 'Προϊόν',
 
     ),
     'parent_line_items' => array(
@@ -511,66 +511,66 @@ $app_list_strings = array(
         'AOS_Invoices' => 'Τιμολόγια ',
         'AOS_Contracts' => 'Συμβόλαια',
     ),
-    'issue_priority_default_key' => 'Medium',
+    'issue_priority_default_key' => 'Μεσαία',
     'issue_priority_dom' => array(
         'Urgent' => 'Επείγων',
         'High' => 'High',
-        'Medium' => 'Medium',
+        'Medium' => 'Μεσαία',
         'Low' => 'Low',
     ),
     'issue_resolution_default_key' => '',
     'issue_resolution_dom' => array(
         '' => '',
-        'Accepted' => 'Accepted',
-        'Duplicate' => 'Duplicate',
-        'Closed' => 'Closed',
-        'Out of Date' => 'Out of Date',
-        'Invalid' => 'Invalid',
+        'Accepted' => 'Αποδεκτό',
+        'Duplicate' => 'Αντίγραφο',
+        'Closed' => 'Κλειστό',
+        'Out of Date' => 'Ληγμένο Χρονικά',
+        'Invalid' => 'Διαθέσιμη',
     ),
 
-    'issue_status_default_key' => 'New',
+    'issue_status_default_key' => 'Νέος',
     'issue_status_dom' => array(
-        'New' => 'New',
+        'New' => 'Νέος',
         'Assigned' => 'Assigned',
-        'Closed' => 'Closed',
-        'Pending' => 'Pending',
+        'Closed' => 'Κλειστό',
+        'Pending' => 'Σε Εκκρεμότητα',
         'Rejected' => 'Rejected',
     ),
 
-    'bug_priority_default_key' => 'Medium',
+    'bug_priority_default_key' => 'Μεσαία',
     'bug_priority_dom' => array(
-        'Urgent' => 'Urgent',
+        'Urgent' => 'Επείγων',
         'High' => 'High',
-        'Medium' => 'Medium',
+        'Medium' => 'Μεσαία',
         'Low' => 'Low',
     ),
     'bug_resolution_default_key' => '',
     'bug_resolution_dom' => array(
         '' => '',
-        'Accepted' => 'Accepted',
-        'Duplicate' => 'Duplicate',
+        'Accepted' => 'Αποδεκτό',
+        'Duplicate' => 'Αντίγραφο',
         'Fixed' => 'Διορθωμένο',
-        'Out of Date' => 'Out of Date',
-        'Invalid' => 'Invalid',
+        'Out of Date' => 'Ληγμένο Χρονικά',
+        'Invalid' => 'Διαθέσιμη',
         'Later' => 'Αργότερα',
     ),
-    'bug_status_default_key' => 'New',
+    'bug_status_default_key' => 'Νέος',
     'bug_status_dom' => array(
-        'New' => 'New',
+        'New' => 'Νέος',
         'Assigned' => 'Assigned',
-        'Closed' => 'Closed',
-        'Pending' => 'Pending',
+        'Closed' => 'Κλειστό',
+        'Pending' => 'Σε Εκκρεμότητα',
         'Rejected' => 'Rejected',
     ),
-    'bug_type_default_key' => 'Bug',
+    'bug_type_default_key' => 'Σφάλμα Σημ. Εντοπισμού',
     'bug_type_dom' => array(
         'Defect' => 'Ελαττωματικό',
         'Feature' => 'Ιδιόμορφο',
     ),
     'case_type_dom' => array(
-        'Administration' => 'Administration',
-        'Product' => 'Product',
-        'User' => 'User',
+        'Administration' => 'Διαχείριση',
+        'Product' => 'Προϊόν',
+        'User' => 'Χειριστή',
     ),
 
     'source_default_key' => '',
@@ -585,41 +585,41 @@ $app_list_strings = array(
     'product_category_default_key' => '',
     'product_category_dom' => array(
         '' => '',
-        'Accounts' => 'Accounts',
+        'Accounts' => 'Λογαριασμοί',
         'Activities' => 'Activities',
-        'Bugs' => 'Bugs',
-        'Calendar' => 'Calendar',
-        'Calls' => 'Calls',
-        'Campaigns' => 'Campaigns',
-        'Cases' => 'Cases',
+        'Bugs' => 'Σφάλμα Σημείου Εντοπισμού',
+        'Calendar' => 'Ημερολόγιο',
+        'Calls' => 'Τηλεφωνικές Κλήσεις',
+        'Campaigns' => 'Εκστρατείες',
+        'Cases' => 'Υποθέσεις',
         'Contacts' => 'Contacts',
         'Currencies' => 'Currencies',
-        'Dashboard' => 'Dashboard',
+        'Dashboard' => 'Πίνακα Εργαλείων',
         'Documents' => 'Documents',
         'Emails' => 'Emails',
         'Feeds' => 'Feeds',
         'Forecasts' => 'Προβλέψεις',
         'Help' => 'Βοήθεια',
-        'Home' => 'Home',
-        'Leads' => 'Leads',
+        'Home' => 'Αρχή',
+        'Leads' => 'Δυνητικοί Πελάτες',
         'Meetings' => 'Meetings',
-        'Notes' => 'Notes',
-        'Opportunities' => 'Opportunities',
+        'Notes' => 'Σημειώσεις:',
+        'Opportunities' => 'Ευκαιρίες',
         'Outlook Plugin' => 'Σύνδεση με Outlook',
         'Projects' => 'Projects',
-        'Quotes' => 'Quotes',
-        'Releases' => 'Releases',
+        'Quotes' => 'Προσφορές',
+        'Releases' => 'Αναβαθμίσεις',
         'RSS' => 'RSS',
         'Studio' => 'Στούντιο',
         'Upgrade' => 'Αναβάθμιση',
-        'Users' => 'Users',
+        'Users' => 'Χειριστές',
     ),
     /*Added entries 'Queued' and 'Sending' for 4.0 release..*/
     'campaign_status_dom' => array(
         '' => '',
         'Planning' => 'Προγραμματισμένη',
-        'Active' => 'Active',
-        'Inactive' => 'Inactive',
+        'Active' => 'Ενεργή',
+        'Inactive' => 'Ανενεργή',
         'Complete' => 'Ολοκληρωμένο',
         //'In Queue' => 'In Queue',
         //'Sending' => 'Sending',
@@ -630,7 +630,7 @@ $app_list_strings = array(
         'Mail' => 'Αλληλογραφία',
         'Email' => 'Email',
         'Print' => 'Εκτύπωση',
-        'Web' => 'Web',
+        'Web' => 'Διαδίκτυο',
         'Radio' => 'Ραδιόφωνο',
         'Television' => 'Τηλεόραση',
         'NewsLetter' => 'Ενημερωτικά Δελτία',
@@ -669,7 +669,7 @@ $app_list_strings = array(
         '2' => 'Φεβ',
         '3' => 'Μαρ',
         '4' => 'Απρ',
-        '5' => 'May',
+        '5' => 'Μάιος',
         '6' => 'Ιουν',
         '7' => 'Ιούλ',
         '8' => 'Αυγ',
@@ -720,30 +720,30 @@ $app_list_strings = array(
 
     'dom_outbound_email_auth_types' => [
         'no_auth' => 'No Auth',
-        'basic' => 'Basic Auth',
-        'oauth' => 'OAuth',
+        'basic' => 'Βασική Πιστοποίηση',
+        'oauth' => 'Oauth',
     ],
 
     'dom_external_oauth_connection_types' => [
         'personal' => 'Personal',
-        'group' => 'Group',
+        'group' => 'Γκρουπ',
     ],
 
     'dom_external_oauth_provider_types' => [
         'personal' => 'Personal',
-        'group' => 'Group',
+        'group' => 'Γκρουπ',
     ],
 
     'dom_outbound_email_account_types' => [
         'user' => 'Personal',
-        'group' => 'Group',
+        'group' => 'Γκρουπ',
         'system' => 'Σύστημα',
         'system-override' => 'Παράκαμψη Συστήματος',
     ],
 
     'dom_inbound_email_account_status' => [
-        'Active' => 'Active',
-        'Inactive' => 'Inactive',
+        'Active' => 'Ενεργή',
+        'Inactive' => 'Ανενεργή',
     ],
 
     'dom_email_body_filtering_option' => [
@@ -756,33 +756,33 @@ $app_list_strings = array(
         'archived' => 'Αρχειθετημένα',
         'draft' => 'Draft',
         'inbound' => 'Inbound',
-        'campaign' => 'Campaign',
+        'campaign' => 'Εκστρατεία',
     ),
     'dom_email_status' => array(
-        'archived' => 'Archived',
-        'closed' => 'Closed',
+        'archived' => 'Αρχειοθετημένο',
+        'closed' => 'Κλειστό',
         'draft' => 'Σε Πρόχειρο',
         'read' => 'Αναγνωσμένο',
         'replied' => 'Απαντήθηκε',
-        'sent' => 'Sent',
+        'sent' => 'Απεσταλμένο',
         'send_error' => 'Λάθος Αποστολής',
         'unread' => 'Μη Αναγνωσμένο',
     ),
     'dom_email_archived_status' => array(
-        'archived' => 'Archived',
+        'archived' => 'Αρχειοθετημένο',
     ),
 
     'dom_email_server_type' => array(
-        '' => '--None--',
+        '' => '-κανένα-',
         'imap' => 'IMAP',
     ),
     'dom_mailbox_type' => array(/*''           => '--None Specified--',*/
-        'pick' => '--None--',
+        'pick' => '-κανένα-',
         'createcase' => 'Δημιουργία Υπόθεσης',
         'bounce' => 'Μετάθεση',
     ),
     'dom_email_distribution' => array(
-        '' => '--None--',
+        '' => '-κανένα-',
         'direct' => 'Απευθείας Ανάθεση',
         'roundRobin' => 'Κατόπιν Ψηφοφορίας',
         'leastBusy' => 'Λιγότερο-Απασχολημένο',
@@ -792,17 +792,17 @@ $app_list_strings = array(
         2 => 'Πρέπει να αντιστοιχίσετε μόνο στοιχεία που ελέγχονται κατά την απευθείας ανάθεση στοιχείων.',
     ),
     'dom_email_bool' => array(
-        'bool_true' => 'Yes',
-        'bool_false' => 'No',
+        'bool_true' => 'Ναί',
+        'bool_false' => 'κανένα',
     ),
     'dom_int_bool' => array(
-        1 => 'Yes',
-        0 => 'No',
+        1 => 'Ναί',
+        0 => 'κανένα',
     ),
     'dom_switch_bool' => array(
-        'on' => 'Yes',
-        'off' => 'No',
-        '' => 'No',
+        'on' => 'Ναί',
+        'off' => 'κανένα',
+        '' => 'κανένα',
     ),
 
     'dom_email_link_type' => array(
@@ -825,15 +825,15 @@ $app_list_strings = array(
     'schedulers_times_dom' => array(
         'not run' => 'Δεν Εκτελέστηκε',
         'ready' => 'Έτοιμο',
-        'in progress' => 'In Progress',
+        'in progress' => 'Σε εξέλιξη',
         'failed' => 'Απέτυχε',
-        'completed' => 'Completed',
+        'completed' => 'Ολοκληρωμένη',
         'no curl' => 'Καμία Εκτέλεση: Δεν υπάρχει διαθέσιμο cURL',
     ),
 
     'scheduler_status_dom' => array(
-        'Active' => 'Active',
-        'Inactive' => 'Inactive',
+        'Active' => 'Ενεργή',
+        'Inactive' => 'Ανενεργή',
     ),
 
     'scheduler_period_dom' => array(
@@ -842,31 +842,31 @@ $app_list_strings = array(
     ),
     'document_category_dom' => array(
         '' => '',
-        'Marketing' => 'Marketing',
-        'Knowledege Base' => 'Knowledge Base',
+        'Marketing' => 'Μάρκετινγκ',
+        'Knowledege Base' => 'Βάση Γνώσεων',
         'Sales' => 'Sales',
     ),
 
     'email_category_dom' => array(
         '' => '',
-        'Archived' => 'Archived',
+        'Archived' => 'Αρχειοθετημένο',
         // TODO: add more categories here...
     ),
 
     'document_subcategory_dom' => array(
         '' => '',
-        'Marketing Collateral' => 'Marketing Collateral',
-        'Product Brochures' => 'Product Brochures',
+        'Marketing Collateral' => 'Υλικό Μάρκετινγκ',
+        'Product Brochures' => 'Φυλλάδια Προϊόντων',
         'FAQ' => 'FAQ',
     ),
 
     'document_status_dom' => array(
-        'Active' => 'Active',
+        'Active' => 'Ενεργή',
         'Draft' => 'Draft',
         'FAQ' => 'FAQ',
-        'Expired' => 'Expired',
-        'Under Review' => 'Under Review',
-        'Pending' => 'Pending',
+        'Expired' => 'Ληγμένο',
+        'Under Review' => 'Σε Ανασκόπηση',
+        'Pending' => 'Σε Εκκρεμότητα',
     ),
     'document_template_type_dom' => array(
         '' => '',
@@ -881,9 +881,9 @@ $app_list_strings = array(
         'tentative' => 'Διερευνητική',
     ),
     'dom_meeting_accept_status' => array(
-        'accept' => 'Accepted',
+        'accept' => 'Αποδεκτό',
         'decline' => 'Απορρίφθηκε',
-        'tentative' => 'Tentative',
+        'tentative' => 'Διερευνητική',
         'none' => 'Κανένα',
     ),
     'duration_intervals' => array(
@@ -893,7 +893,7 @@ $app_list_strings = array(
         '45' => '45',
     ),
     'repeat_type_dom' => array(
-        '' => 'None',
+        '' => 'Κανένας',
         'Daily' => 'Καθημερινά',
         'Weekly' => 'Weekly',
         'Monthly' => 'Monthly',
@@ -909,7 +909,7 @@ $app_list_strings = array(
     ),
 
     'duration_dom' => array(
-        '' => 'None',
+        '' => 'Κανένας',
         '900' => '15 λεπτά',
         '1800' => '30 λεπτά',
         '2700' => '45 λεπτά',
@@ -942,8 +942,8 @@ $app_list_strings = array(
     ),
     'email_marketing_status_dom' => array(
         '' => '',
-        'active' => 'Active',
-        'inactive' => 'Inactive',
+        'active' => 'Ενεργή',
+        'inactive' => 'Ανενεργή',
     ),
 
     'campainglog_activity_type_dom' => array(
@@ -962,10 +962,10 @@ $app_list_strings = array(
 
     'campainglog_target_type_dom' => array(
         'Contacts' => 'Contacts',
-        'Users' => 'Users',
+        'Users' => 'Χειριστές',
         'Prospects' => 'Targets',
-        'Leads' => 'Leads',
-        'Accounts' => 'Accounts',
+        'Leads' => 'Δυνητικοί Πελάτες',
+        'Accounts' => 'Λογαριασμοί',
     ),
     'merge_operators_dom' => array(
         'like' => 'Περιέχει',
@@ -974,8 +974,8 @@ $app_list_strings = array(
     ),
 
     'custom_fields_importable_dom' => array(
-        'true' => 'Yes',
-        'false' => 'No',
+        'true' => 'Ναί',
+        'false' => 'κανένα',
         'required' => 'Απαιτείται',
     ),
 
@@ -989,14 +989,14 @@ $app_list_strings = array(
 
     'projects_priority_options' => array(
         'high' => 'High',
-        'medium' => 'Medium',
+        'medium' => 'Μεσαία',
         'low' => 'Low',
     ),
 
     'projects_status_options' => array(
-        'notstarted' => 'Not Started',
-        'inprogress' => 'In Progress',
-        'completed' => 'Completed',
+        'notstarted' => 'Δεν έχει Αρχίσει',
+        'inprogress' => 'Σε εξέλιξη',
+        'completed' => 'Ολοκληρωμένη',
     ),
     // strings to pass to Flash charts
     'chart_strings' => array(
@@ -1011,12 +1011,12 @@ $app_list_strings = array(
         'horizontalbarchart' => 'Οριζόντια Μπάρα Γραφήματος',
         'linechart' => 'Γραμμή Γραφήματος',
         'noData' => 'Δεν υπάρχουν διαθέσιμα Δεδομένα',
-        'print' => 'Print',
+        'print' => 'Εκτύπωση',
         'pieWedgeName' => 'τμήματα',
     ),
     'release_status_dom' => array(
-        'Active' => 'Active',
-        'Inactive' => 'Inactive',
+        'Active' => 'Ενεργή',
+        'Inactive' => 'Ανενεργή',
     ),
     'email_settings_for_ssl' => array(
         '0' => '',
@@ -1026,7 +1026,7 @@ $app_list_strings = array(
     'import_enclosure_options' => array(
         '\'' => 'Μονά Εισαγωγικά (&#39;)',
         '"' => 'Διπλά Εισαγωγικά (&#34;)',
-        '' => 'None',
+        '' => 'Κανένας',
         'other' => 'Άλλο:',
     ),
     'import_delimeter_options' => array(
@@ -1052,11 +1052,11 @@ $app_list_strings = array(
     ),
     'dashlet_auto_refresh_options_admin' => array(
         '-1' => 'Ποτέ',
-        '30' => 'Every 30 seconds',
-        '60' => 'Every 1 minute',
+        '30' => 'Κάθε 30 δευτερόλεπτα',
+        '60' => 'Κάθε 1 λεπτό',
         '180' => 'Every 3 minutes',
-        '300' => 'Every 5 minutes',
-        '600' => 'Every 10 minutes',
+        '300' => 'Κάθε 5 λεπτά',
+        '600' => 'Κάθε 10 λεπτά',
     ),
     'date_range_search_dom' => array(
         '=' => 'Ισούται',
@@ -1082,7 +1082,7 @@ $app_list_strings = array(
         'greater_than_equals' => 'Μεγαλύτερο ή Ίσο με',
         'less_than' => 'Λιγότερο Από',
         'less_than_equals' => 'Μικρότερο ή Ίσο με',
-        'between' => 'Is Between',
+        'between' => 'είναι Μεταξύ',
     ),
     'lead_conv_activity_opt' => array(
         'copy' => 'Αντιγραφή',
@@ -1124,7 +1124,7 @@ $app_strings = array(
     'LBL_CLOSEINLINE' => 'Close',
     'LBL_VIEWINLINE' => 'View',
     'LBL_INFOINLINE' => 'Πληροφορίες',
-    'LBL_PRINT' => 'Print',
+    'LBL_PRINT' => 'Εκτύπωση',
     'LBL_HELP' => 'Help',
     'LBL_ID_FF_SELECT' => 'Επιλογή',
     'DEFAULT' => 'Βασική',
@@ -1142,7 +1142,7 @@ $app_strings = array(
     'NTC_OVERWRITE_ADDRESS_PHONE_CONFIRM' => 'Αυτή η εγγραφή περιέχει τρέχουσες αξίες στα πεδία Διευθύνσεων και στο πεδίο Τηλέφωνο Γραφείου. Για να επανεγγράψετε αυτές τις αξίες με το ακόλουθο Τηλέφωνο Γραφείου και την Διεύθυνση του Λογαριασμού που επιλέξατε, πατήστε το κουμπί "Εντάξει". Για να διατηρήσετε τις τρέχουσες αξίες, πατήστε το κουμπί "Ακύρωση".',
     'LBL_DROP_HERE' => '[Πτώση Εδώ]',
     'LBL_EMAIL_ACCOUNTS_GMAIL_DEFAULTS' => 'Προπληρωμή Προεπιλογών Gmail™',
-    'LBL_EMAIL_ACCOUNTS_NAME' => 'Name',
+    'LBL_EMAIL_ACCOUNTS_NAME' => 'Όνομα',
     'LBL_EMAIL_ACCOUNTS_OUTBOUND' => 'Ιδιότητες Διακομιστή Εξερχόμενου Ταχυδρομείου',
     'LBL_EMAIL_ACCOUNTS_SMTPPASS' => 'Κωδικός SMTP',
     'LBL_EMAIL_ACCOUNTS_SMTPPORT' => 'Θύρα SMTP',
@@ -1157,32 +1157,32 @@ $app_strings = array(
     'LBL_EMAIL_ACCOUNTS_OUTBOUND_SUBTITLE' => 'Παροχή πληροφοριών SMTP διακομιστή ταχυδρομείου για να χρησιμοποιήσετε τα εξερχόμενα email σε Λογαριασμούς Ταχυδρομείου.',
 
     'LBL_EMAIL_ADDRESS_BOOK_ADD' => 'Ολοκληρώθηκε',
-    'LBL_EMAIL_ADDRESS_BOOK_CLEAR' => 'Clear',
+    'LBL_EMAIL_ADDRESS_BOOK_CLEAR' => 'Εκκαθάριση',
     'LBL_EMAIL_ADDRESS_BOOK_ADD_TO' => 'Προς:',
     'LBL_EMAIL_ADDRESS_BOOK_ADD_CC' => 'Κοιν:',
     'LBL_EMAIL_ADDRESS_BOOK_ADD_BCC' => 'Κρυφή Κοιν:',
     'LBL_EMAIL_ADDRESS_BOOK_ADRRESS_TYPE' => 'Σε/ Κοινοποίηση/Κρυφή Κοινοποίηση',
-    'LBL_EMAIL_ADDRESS_BOOK_EMAIL_ADDR' => 'Email Address',
+    'LBL_EMAIL_ADDRESS_BOOK_EMAIL_ADDR' => 'Διευθύνσεις Email',
     'LBL_EMAIL_ADDRESS_BOOK_FILTER' => 'Filter',
-    'LBL_EMAIL_ADDRESS_BOOK_NAME' => 'Name',
+    'LBL_EMAIL_ADDRESS_BOOK_NAME' => 'Όνομα',
     'LBL_EMAIL_ADDRESS_BOOK_NOT_FOUND' => 'Δεν Βρέθηκε Διεύθυνση',
     'LBL_EMAIL_ADDRESS_BOOK_SAVE_AND_ADD' => 'Αποθήκευση και Προσθήκη στο Βιβλίο Διευθύνσεων',
     'LBL_EMAIL_ADDRESS_BOOK_SELECT_TITLE' => 'Επιλογή Email Παραληπτών',
     'LBL_EMAIL_ADDRESS_BOOK_TITLE' => 'Βιβλίο Διεύθυνσης',
     'LBL_EMAIL_REMOVE_SMTP_WARNING' => 'Προειδοποίηση! Ο εξερχόμενος λογαριασμός που προσπαθείτε να διαγράψετε συνδέεται σε έναν υφιστάμενο εισερχόμενο λογαριασμό. Είστε βέβαιοι ότι θέλετε να συνεχίσετε;',
     'LBL_EMAIL_ADDRESSES' => 'Email',
-    'LBL_EMAIL_ADDRESS_PRIMARY' => 'Email Address',
+    'LBL_EMAIL_ADDRESS_PRIMARY' => 'Διευθύνσεις Email',
     'LBL_EMAIL_ADDRESS_OPT_IN' => 'Έχετε επιβεβαιώσει ότι η διεύθυνση e-mail σας έχει εγγραφεί σε: ',
     'LBL_EMAIL_ADDRESS_OPT_IN_ERR' => 'Αδυναμία επιβεβαίωσης διεύθυνσης e-mail',
     'LBL_EMAIL_ARCHIVE_TO_SUITE' => 'Εισαγωγή Email στο SuiteCRM',
     'LBL_EMAIL_ASSIGNMENT' => 'Ανατεθεισα εργασια',
     'LBL_EMAIL_ATTACH_FILE_TO_EMAIL' => 'Επισύναψη',
-    'LBL_EMAIL_ATTACHMENT' => 'Attach',
+    'LBL_EMAIL_ATTACHMENT' => 'Επισύναψη',
     'LBL_EMAIL_ATTACHMENTS' => 'Από Τοπικό Σύστημα',
     'LBL_EMAIL_ATTACHMENTS2' => 'Από SuiteCRM Έγγραφα',
     'LBL_EMAIL_ATTACHMENTS3' => 'Επισυνάψεις Πρότυπων',
     'LBL_EMAIL_ATTACHMENTS_FILE' => 'Αρχείο',
-    'LBL_EMAIL_ATTACHMENTS_DOCUMENT' => 'Document',
+    'LBL_EMAIL_ATTACHMENTS_DOCUMENT' => 'Έγγραφο',
     'LBL_EMAIL_BCC' => 'Κρυφή Κοινοποίηση:',
     'LBL_EMAIL_CANCEL' => 'Άκυρο',
     'LBL_EMAIL_CC' => 'Κοινοποίηση',
@@ -1210,7 +1210,7 @@ $app_strings = array(
     'LBL_EMAIL_MULT_GROUP_FOLDER_ACCOUNTS_EMPTY' => 'Άδειο',
     'LBL_EMAIL_DATE_SENT_BY_SENDER' => 'Ημερομηνία Αποστολής από Αποστολέα',
     'LBL_EMAIL_DATE_TODAY' => 'Σήμερα',
-    'LBL_EMAIL_DELETE' => 'Delete',
+    'LBL_EMAIL_DELETE' => 'Διαγραφή',
     'LBL_EMAIL_DELETE_CONFIRM' => 'Διαγραφή επιλεγμένων μηνυμάτων;',
     'LBL_EMAIL_DELETE_SUCCESS' => 'Επιτυχής διαγραφή Email.',
     'LBL_EMAIL_DELETING_MESSAGE' => 'Διαγραφή Μηνύματος',
@@ -1284,8 +1284,8 @@ $app_strings = array(
     'LBL_EMAIL_DOWNLOAD_STATUS' => 'Έγινε λήψη [[count]] από [[total]] emails',
     'LBL_EMAIL_FROM' => 'Από',
     'LBL_EMAIL_GROUP' => 'γκρουπ',
-    'LBL_EMAIL_UPPER_CASE_GROUP' => 'Group',
-    'LBL_EMAIL_HOME_FOLDER' => 'Home',
+    'LBL_EMAIL_UPPER_CASE_GROUP' => 'Γκρουπ',
+    'LBL_EMAIL_HOME_FOLDER' => 'Αρχή',
     'LBL_EMAIL_IE_DELETE' => 'Διαγραφή Λογαριασμού Ταχυδρομείου',
     'LBL_EMAIL_IE_DELETE_SIGNATURE' => 'Διαγραφή υπογραφής',
     'LBL_EMAIL_IE_DELETE_CONFIRM' => 'Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτόν τον λογαριασμό ταχυδρομείου;',
@@ -1294,7 +1294,7 @@ $app_strings = array(
     'LBL_EMAIL_IMPORTING_EMAIL' => 'Εισαγωγή Email',
     'LBL_EMAIL_IMPORT_EMAIL' => 'Εισαγωγή στο SuiteCRM',
     'LBL_EMAIL_IMPORT_SETTINGS' => 'Ρυθμίσεις Εισαγωγής',
-    'LBL_EMAIL_INVALID' => 'Invalid',
+    'LBL_EMAIL_INVALID' => 'Διαθέσιμη',
     'LBL_EMAIL_LOADING' => 'Φόρτωση ......',
     'LBL_EMAIL_MARK' => 'Σημειωμένο',
     'LBL_EMAIL_MARK_FLAGGED' => 'Με Σημαία',
@@ -1329,7 +1329,7 @@ $app_strings = array(
 
     'LBL_EMAIL_MULTISELECT' => '<b>Ctrl-Click</b> για να επιλέξετε πολλαπλές<br />(οι χρήστες Mac χρησιμοποιούν <b>CMD-Click</b>)',
 
-    'LBL_EMAIL_NO' => 'No',
+    'LBL_EMAIL_NO' => 'κανένα',
     'LBL_EMAIL_NOT_SENT' => 'Το σύστημα δεν είναι ικανό να επεξεργαστεί το αίτημα σας. Παρακαλώ επικοινωνήστε με τον Διαχειριστή του συστήματος.',
 
     'LBL_EMAIL_OK' => 'Εντάξει',
@@ -1337,18 +1337,18 @@ $app_strings = array(
     'LBL_EMAIL_OPEN_ALL' => 'Άνοιγμα Πολλαπλών Μηνυμάτων',
     'LBL_EMAIL_OPTIONS' => 'Επιλογές',
     'LBL_EMAIL_QUICK_COMPOSE' => 'Γρήγορη Σύνταξη Email',
-    'LBL_EMAIL_OPT_OUT' => 'Opted Out',
+    'LBL_EMAIL_OPT_OUT' => 'Αποχωρημένο Email',
     'LBL_EMAIL_OPT_OUT_AND_INVALID' => 'Αποχωρημένο και Άκυρο Email',
     'LBL_EMAIL_PERFORMING_TASK' => 'Εκτέλεση Εργασίας',
     'LBL_EMAIL_PRIMARY' => 'Βασική Διεύθυνση Email',
-    'LBL_EMAIL_PRINT' => 'Print',
+    'LBL_EMAIL_PRINT' => 'Εκτύπωση',
 
-    'LBL_EMAIL_QC_BUGS' => 'Bug',
-    'LBL_EMAIL_QC_CASES' => 'Case',
-    'LBL_EMAIL_QC_LEADS' => 'Lead',
-    'LBL_EMAIL_QC_CONTACTS' => 'Contact',
+    'LBL_EMAIL_QC_BUGS' => 'Σφάλμα Σημ. Εντοπισμού',
+    'LBL_EMAIL_QC_CASES' => 'Υπόθεση',
+    'LBL_EMAIL_QC_LEADS' => 'Δυνητικός Πελάτης',
+    'LBL_EMAIL_QC_CONTACTS' => 'Επαφή',
     'LBL_EMAIL_QC_TASKS' => 'Task',
-    'LBL_EMAIL_QC_OPPORTUNITIES' => 'Opportunity',
+    'LBL_EMAIL_QC_OPPORTUNITIES' => 'Ευκαιρία',
     'LBL_EMAIL_QUICK_CREATE' => 'Γρήγορη δημιουργία',
 
     'LBL_EMAIL_REBUILDING_FOLDERS' => 'Επαναδόμηση Φακέλων',
@@ -1435,7 +1435,7 @@ $app_strings = array(
     'LBL_SMTPTYPE_GMAIL' => 'Gmail',
     'LBL_SMTPTYPE_YAHOO' => 'Yahoo! Mail',
     'LBL_SMTPTYPE_EXCHANGE' => 'Microsoft Exchange',
-    'LBL_SMTPTYPE_OTHER' => 'Other',
+    'LBL_SMTPTYPE_OTHER' => 'Άλλο:',
     'LBL_EMAIL_SPACER_MAIL_SERVER' => '[ Απομακρυσμένοι Φάκελοι ]',
     'LBL_EMAIL_SPACER_LOCAL_FOLDER' => '[ SuiteCRM Φάκελοι ]',
     'LBL_EMAIL_SUBJECT' => 'Θέμα',
@@ -1449,14 +1449,14 @@ $app_strings = array(
     'LBL_EMAIL_VIEW_RAW' => 'Εμφάνιση Ακατέργαστου Email',
     'LBL_EMAIL_VIEW_UNSUPPORTED' => 'Αυτό το χαρακτηριστικό δεν υποστηρίζεται όταν χρησιμοποιείται με POP3.',
     'LBL_DEFAULT_LINK_TEXT' => 'Προεπιλογή κείμενο συνδέσμου.',
-    'LBL_EMAIL_YES' => 'Yes',
+    'LBL_EMAIL_YES' => 'Ναί',
     'LBL_EMAIL_TEST_OUTBOUND_SETTINGS' => 'Αποστολή Δοκιμαστικού Email',
     'LBL_EMAIL_TEST_OUTBOUND_SETTINGS_SENT' => 'Απεστάλη Δοκιμαστικό Email',
     'LBL_EMAIL_MESSAGE_NO' => 'Όχι Μήνυμα',
     'LBL_EMAIL_IMPORT_SUCCESS' => 'Επιτυχής Εισαγωγή',
     'LBL_EMAIL_IMPORT_FAIL' => 'Η εισαγωγή απέτυχε, επειδή είτε το μήνυμα έχει ήδη εισαχθεί ή διαγραφεί από το διακομιστή',
 
-    'LBL_LINK_NONE' => 'None',
+    'LBL_LINK_NONE' => 'Κανένα',
     'LBL_LINK_ALL' => 'Όλα',
     'LBL_LINK_RECORDS' => 'Εγγραφές',
     'LBL_LINK_SELECT' => 'Select',
@@ -1493,12 +1493,12 @@ $app_strings = array(
     'ERR_DB_FAIL' => 'Αποτυχία Βάσης Δεδομένων. Παρακαλώ ανατρέξτε για λεπτομέρειες στο suitecrm.log.',
     'ERR_DB_VERSION' => 'SuiteCRM {0} Τα Αρχεία Μπορούν να Χρησιμοποιηθούν Μόνο με SuiteCRM {1}Βάση Δεδομένων.',
 
-    'LBL_ACCOUNT' => 'Account',
-    'LBL_ACCOUNTS' => 'Accounts',
+    'LBL_ACCOUNT' => 'Λογαριασμό',
+    'LBL_ACCOUNTS' => 'Λογαριασμοί',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_ACCUMULATED_HISTORY_BUTTON_KEY' => 'H',
     'LBL_ACCUMULATED_HISTORY_BUTTON_LABEL' => 'Προβολή Περίληψης',
-    'LBL_ACCUMULATED_HISTORY_BUTTON_TITLE' => 'View Summary',
+    'LBL_ACCUMULATED_HISTORY_BUTTON_TITLE' => 'Προβολή Περίληψης',
     'LBL_ADD_BUTTON' => 'Add',
     'LBL_ADD_DOCUMENT' => 'Προσθήκη Εγγράφου',
     'LBL_ADD_TO_PROSPECT_LIST_BUTTON_KEY' => 'L',
@@ -1510,58 +1510,58 @@ $app_strings = array(
     'LBL_ALT_HOT_KEY' => '',
     'LBL_ARCHIVE' => 'Αρχειοθέτηση',
     'LBL_ASSIGNED_TO_USER' => 'Ανατέθηκε σε Χειριστή',
-    'LBL_ASSIGNED_TO' => 'Assigned to:',
-    'LBL_BACK' => 'Back',
+    'LBL_ASSIGNED_TO' => 'Ανατέθηκε σε:',
+    'LBL_BACK' => 'Πίσω',
     'LBL_BILLING_ADDRESS' => 'Διεύθυνση Χρέωσης',
     'LBL_QUICK_CREATE' => 'Δημιουργία ',
     'LBL_BROWSER_TITLE' => 'SuiteCRM - Ανοιχτού Κώδικα CRM',
-    'LBL_BUGS' => 'Bugs',
+    'LBL_BUGS' => 'Σφάλμα Σημείου Εντοπισμού',
     'LBL_BY' => 'από',
-    'LBL_CALLS' => 'Calls',
+    'LBL_CALLS' => 'Τηλεφωνικές Κλήσεις',
     'LBL_CAMPAIGNS_SEND_QUEUED' => 'Αποστολή Emails Εκστρατείας από Ουρά Αναμονής',
     'LBL_SUBMIT_BUTTON_LABEL' => 'Υποβολή',
-    'LBL_CASE' => 'Case',
-    'LBL_CASES' => 'Cases',
+    'LBL_CASE' => 'Υπόθεση',
+    'LBL_CASES' => 'Υποθέσεις',
     'LBL_CHANGE_PASSWORD' => 'Αλλαγή Κωδικού Πρόσβασης',
     'LBL_CHARSET' => 'Windows-1253',
     'LBL_CHECKALL' => 'Επιλογή Όλων',
     'LBL_CITY' => 'City',
-    'LBL_CLEAR_BUTTON_LABEL' => 'Clear',
-    'LBL_CLEAR_BUTTON_TITLE' => 'Clear',
+    'LBL_CLEAR_BUTTON_LABEL' => 'Εκκαθάριση',
+    'LBL_CLEAR_BUTTON_TITLE' => 'Εκκαθάριση',
     'LBL_CLEARALL' => 'Εκκαθάριση Όλων',
     'LBL_CLOSE_BUTTON_TITLE' => 'Close',
     'LBL_CLOSE_AND_CREATE_BUTTON_LABEL' => 'Κλείσιμο και Δημιουργία Νέου',
-    'LBL_CLOSE_AND_CREATE_BUTTON_TITLE' => 'Close and Create New',
+    'LBL_CLOSE_AND_CREATE_BUTTON_TITLE' => 'Κλείσιμο και Δημιουργία Νέου',
     'LBL_CLOSE_AND_CREATE_BUTTON_KEY' => 'C',
     'LBL_OPEN_ITEMS' => 'Άνοιγμα στοιχείων:',
     'LBL_COMPOSE_EMAIL_BUTTON_KEY' => 'L',
     'LBL_COMPOSE_EMAIL_BUTTON_LABEL' => 'Σύνταξη email',
-    'LBL_COMPOSE_EMAIL_BUTTON_TITLE' => 'Compose Email',
-    'LBL_SEARCH_DROPDOWN_YES' => 'Yes',
-    'LBL_SEARCH_DROPDOWN_NO' => 'No',
+    'LBL_COMPOSE_EMAIL_BUTTON_TITLE' => 'Σύνταξη Email',
+    'LBL_SEARCH_DROPDOWN_YES' => 'Ναί',
+    'LBL_SEARCH_DROPDOWN_NO' => 'κανένα',
     'LBL_CONTACT_LIST' => 'Λϊστα Επαφών',
-    'LBL_CONTACT' => 'Contact',
+    'LBL_CONTACT' => 'Επαφή',
     'LBL_CONTACTS' => 'Contacts',
     'LBL_CONTRACT' => 'Contract',
-    'LBL_CONTRACTS' => 'Contracts',
-    'LBL_COUNTRY' => 'Country:',
+    'LBL_CONTRACTS' => 'Συμβάσεις',
+    'LBL_COUNTRY' => 'Χώρα',
     'LBL_CREATE_BUTTON_LABEL' => 'Δημιουργία',
-    'LBL_CREATED_BY_USER' => 'Created by User',
-    'LBL_CREATED_USER' => 'Created by User',
+    'LBL_CREATED_BY_USER' => 'Δημιουργήθηκε από Χειριστή',
+    'LBL_CREATED_USER' => 'Δημιουργήθηκε από Χειριστή',
     'LBL_CREATED' => 'Δημιουργήθηκε από',
     'LBL_CURRENT_USER_FILTER' => 'Μόνο τα δικά μου στοιχεία:',
-    'LBL_CURRENCY' => 'Currency:',
+    'LBL_CURRENCY' => 'Νόμισμα',
     'LBL_DOCUMENTS' => 'Documents',
-    'LBL_DATE_ENTERED' => 'Date Created:',
-    'LBL_DATE_MODIFIED' => 'Date Modified:',
-    'LBL_EDIT_BUTTON' => 'Edit',
-    'LBL_DUPLICATE_BUTTON' => 'Duplicate',
-    'LBL_DELETE_BUTTON' => 'Delete',
-    'LBL_DELETE' => 'Delete',
-    'LBL_DELETED' => 'Deleted',
+    'LBL_DATE_ENTERED' => 'Ημερομηνία Δημιουργίας:',
+    'LBL_DATE_MODIFIED' => 'Ημερομηνία Τροποποίησης:',
+    'LBL_EDIT_BUTTON' => 'Επεξεργασία',
+    'LBL_DUPLICATE_BUTTON' => 'Αντίγραφο',
+    'LBL_DELETE_BUTTON' => 'Διαγραφή',
+    'LBL_DELETE' => 'Διαγραφή',
+    'LBL_DELETED' => 'Διαγράφηκε',
     'LBL_DIRECT_REPORTS' => 'Απευθείας αναφορές',
-    'LBL_DONE_BUTTON_LABEL' => 'Done',
-    'LBL_DONE_BUTTON_TITLE' => 'Done',
+    'LBL_DONE_BUTTON_LABEL' => 'Ολοκληρώθηκε',
+    'LBL_DONE_BUTTON_TITLE' => 'Ολοκληρώθηκε',
     'LBL_FAVORITES' => 'Αγαπημένα',
     'LBL_VCARD' => 'vCard',
     'LBL_EMPTY_VCARD' => 'Παρακαλώ επιλέξτε ένα αρχείο vCard',
@@ -1573,38 +1573,38 @@ $app_strings = array(
     'LBL_IMPORT_VCARD_BUTTON_TITLE' => 'Import vCard',
     'LBL_VIEW_BUTTON' => 'View',
     'LBL_EMAIL_PDF_BUTTON_LABEL' => 'Email σε PDF',
-    'LBL_EMAIL_PDF_BUTTON_TITLE' => 'Email as PDF',
+    'LBL_EMAIL_PDF_BUTTON_TITLE' => 'Email σε PDF',
     'LBL_EMAILS' => 'Emails',
-    'LBL_EMPLOYEES' => 'Employees',
+    'LBL_EMPLOYEES' => 'Eργαζόμενοι',
     'LBL_ENTER_DATE' => 'Εισάγετε ημ/νία',
     'LBL_EXPORT' => 'Εξαγωγή',
     'LBL_FAVORITES_FILTER' => 'Αγαπημένα Μου:',
     'LBL_GO_BUTTON_LABEL' => 'Πηγαίνετε',
     'LBL_HIDE' => 'Απόκρυψη',
-    'LBL_ID' => 'ID',
+    'LBL_ID' => 'Ταυτότητα',
     'LBL_IMPORT' => 'Εισαγωγή',
     'LBL_IMPORT_STARTED' => 'Έναρξη Εισαγωγής:',
     'LBL_LAST_VIEWED' => 'Τελευταία Προβολή',
-    'LBL_LEADS' => 'Leads',
+    'LBL_LEADS' => 'Δυνητικοί Πελάτες',
     'LBL_LESS' => 'λιγότερο',
-    'LBL_CAMPAIGN' => 'Campaign:',
-    'LBL_CAMPAIGNS' => 'Campaigns',
+    'LBL_CAMPAIGN' => 'Εκστρατεία:',
+    'LBL_CAMPAIGNS' => 'Εκστρατείες',
     'LBL_CAMPAIGNLOG' => 'Σύνδεση Εκστρατείας',
-    'LBL_CAMPAIGN_CONTACT' => 'Campaigns',
+    'LBL_CAMPAIGN_CONTACT' => 'Εκστρατείες',
     'LBL_CAMPAIGN_ID' => 'campaign_id',
-    'LBL_CAMPAIGN_NONE' => 'None',
+    'LBL_CAMPAIGN_NONE' => 'Κανένας',
     'LBL_THEME' => 'Θέμα:',
     'LBL_FOUND_IN_RELEASE' => 'Βρέθηκε στην Αναβάθμιση',
     'LBL_FIXED_IN_RELEASE' => 'Επιδιόρθωση στην Αναβάθμιση',
-    'LBL_LIST_ACCOUNT_NAME' => 'Account Name',
-    'LBL_LIST_ASSIGNED_USER' => 'User',
+    'LBL_LIST_ACCOUNT_NAME' => 'Όνομα Λογαριασμού',
+    'LBL_LIST_ASSIGNED_USER' => 'Χειριστής',
     'LBL_LIST_CONTACT_NAME' => 'Όνομα Επαφής',
     'LBL_LIST_CONTACT_ROLE' => 'Ρόλος Επαφής',
-    'LBL_LIST_DATE_ENTERED' => 'Date Created',
+    'LBL_LIST_DATE_ENTERED' => 'Ημ/νία καταχώρησης',
     'LBL_LIST_EMAIL' => 'Email',
-    'LBL_LIST_NAME' => 'Name',
+    'LBL_LIST_NAME' => 'Όνομα',
     'LBL_LIST_OF' => 'από',
-    'LBL_LIST_PHONE' => 'Phone',
+    'LBL_LIST_PHONE' => 'Τηλέφωνο',
     'LBL_LIST_RELATED_TO' => 'Σχετικά με',
     'LBL_LIST_USER_NAME' => 'Όνομα Χειριστή',
     'LBL_LISTVIEW_NO_SELECTED' => 'Παρακαλώ επιλέξτε τουλάχιστον 1 εγγραφή για να προχωρήσετε.',
@@ -1614,13 +1614,13 @@ $app_strings = array(
 
     'LBL_LOCALE_NAME_EXAMPLE_FIRST' => 'John',
     'LBL_LOCALE_NAME_EXAMPLE_LAST' => 'Doe',
-    'LBL_LOCALE_NAME_EXAMPLE_SALUTATION' => 'Dr.',
+    'LBL_LOCALE_NAME_EXAMPLE_SALUTATION' => 'Δρ.',
     'LBL_LOCALE_NAME_EXAMPLE_TITLE' => 'Συνθηματικός Κώδικας',
-    'LBL_CANCEL' => 'Cancel',
+    'LBL_CANCEL' => 'Ακύρωση',
     'LBL_VERIFY' => 'Επαλήθευση',
     'LBL_RESEND' => 'Αποστολή ξανά',
     'LBL_PROFILE' => 'Προφίλ',
-    'LBL_MAILMERGE' => 'Mail Merge',
+    'LBL_MAILMERGE' => 'Συγχώνευση Ταχυδρομείου',
     'LBL_MASS_UPDATE' => 'Μαζική ενημέρωση',
     'LBL_NO_MASS_UPDATE_FIELDS_AVAILABLE' => 'Δεν υπάρχουν διαθέσιμα πεδία για τη λειτουργία Μαζικής Ενημέρωσης',
     'LBL_OPT_OUT_FLAG_PRIMARY' => 'Αποχωρημένο Βασικό Email',
@@ -1629,43 +1629,43 @@ $app_strings = array(
     'LBL_MEETING_GO_BACK' => 'Επιστροφή στην συνάντηση',
     'LBL_MEMBERS' => 'Μέλη',
     'LBL_MEMBER_OF' => 'Μέλως των',
-    'LBL_MODIFIED_BY_USER' => 'Modified by User',
-    'LBL_MODIFIED_USER' => 'Modified by User',
+    'LBL_MODIFIED_BY_USER' => 'Τροποποιήθηκε από Χειριστή',
+    'LBL_MODIFIED_USER' => 'Τροποποιήθηκε από Χειριστή',
     'LBL_MODIFIED' => 'Τροποποιήθηκε από',
-    'LBL_MODIFIED_NAME' => 'Modified By Name',
+    'LBL_MODIFIED_NAME' => 'Τροποποιήθηκε Από',
     'LBL_MORE' => 'Περισσότερα',
     'LBL_MY_ACCOUNT' => 'Ρυθμίσεις Μου',
-    'LBL_NAME' => 'Name',
+    'LBL_NAME' => 'Όνομα',
     'LBL_NEW_BUTTON_KEY' => 'N',
     'LBL_NEW_BUTTON_LABEL' => 'Δημιουργία',
-    'LBL_NEW_BUTTON_TITLE' => 'Create',
-    'LBL_NEXT_BUTTON_LABEL' => 'Next',
-    'LBL_NONE' => '--None--',
-    'LBL_NOTES' => 'Notes',
-    'LBL_OPPORTUNITIES' => 'Opportunities',
+    'LBL_NEW_BUTTON_TITLE' => 'Δημιουργία Στόχου',
+    'LBL_NEXT_BUTTON_LABEL' => 'Επόμενη',
+    'LBL_NONE' => '-κανένα-',
+    'LBL_NOTES' => 'Σημειώσεις:',
+    'LBL_OPPORTUNITIES' => 'Ευκαιρίες',
     'LBL_OPPORTUNITY_NAME' => 'Όνομα ευκαιρίας πώλησης',
-    'LBL_OPPORTUNITY' => 'Opportunity',
+    'LBL_OPPORTUNITY' => 'Ευκαιρία',
     'LBL_OR' => 'Ή',
     'LBL_PANEL_OVERVIEW' => 'Επισκόπηση',
     'LBL_PANEL_ASSIGNMENT' => 'ΑΛΛΟ',
     'LBL_PANEL_ADVANCED' => 'ΠΕΡΙΣΣΟΤΕΡΕΣ ΠΛΗΡΟΦΟΡΙΕΣ',
     'LBL_PARENT_TYPE' => 'Τύπος αρχικού',
     'LBL_PERCENTAGE_SYMBOL' => '%',
-    'LBL_POSTAL_CODE' => 'Postal Code:',
+    'LBL_POSTAL_CODE' => 'Τ.Κ:',
     'LBL_PRIMARY_ADDRESS_CITY' => 'Πόλη Κύριας Διεύθυνσης:',
-    'LBL_PRIMARY_ADDRESS_COUNTRY' => 'Primary Address Country:',
+    'LBL_PRIMARY_ADDRESS_COUNTRY' => 'Κύρια Διεύθυνση, Χώρα:',
     'LBL_PRIMARY_ADDRESS_POSTALCODE' => 'ΤΚ Κύριας Διεύθυνσης:',
     'LBL_PRIMARY_ADDRESS_STATE' => 'Περιοχή Κύριας Διεύθυνσης:',
-    'LBL_PRIMARY_ADDRESS_STREET_2' => 'Primary Address Street 2:',
-    'LBL_PRIMARY_ADDRESS_STREET_3' => 'Primary Address Street 3:',
+    'LBL_PRIMARY_ADDRESS_STREET_2' => 'Κύρια Διεύθυνση, Οδός 2:',
+    'LBL_PRIMARY_ADDRESS_STREET_3' => 'Κύρια Διεύθυνση, Οδός 3:',
     'LBL_PRIMARY_ADDRESS_STREET' => 'Οδός Κύριας Διεύθυνσης:',
     'LBL_PRIMARY_ADDRESS' => 'Διεύθυνση Κύριας Διεύθυνσης:',
 
     'LBL_PROSPECTS' => 'Προοπτικές',
     'LBL_PRODUCTS' => 'Προϊόντα',
-    'LBL_PROJECT_TASKS' => 'Project Tasks',
+    'LBL_PROJECT_TASKS' => 'Εργασίες Έργων',
     'LBL_PROJECTS' => 'Projects',
-    'LBL_QUOTES' => 'Quotes',
+    'LBL_QUOTES' => 'Προσφορές',
 
     'LBL_RELATED' => 'Συσχετισμός',
     'LBL_RELATED_RECORDS' => 'Σχετικές Εγγραφές',
@@ -1673,12 +1673,12 @@ $app_strings = array(
     'LBL_REPORTS_TO' => 'Αναφέρεται σε',
     'LBL_REQUIRED_SYMBOL' => '*',
     'LBL_REQUIRED_TITLE' => 'Υποδεικνύει υποχρεωτικό πεδίο',
-    'LBL_EMAIL_DONE_BUTTON_LABEL' => 'Done',
+    'LBL_EMAIL_DONE_BUTTON_LABEL' => 'Ολοκληρώθηκε',
     'LBL_FULL_FORM_BUTTON_KEY' => 'L',
     'LBL_FULL_FORM_BUTTON_LABEL' => 'Πλήρης Φόρμα',
-    'LBL_FULL_FORM_BUTTON_TITLE' => 'Full Form',
+    'LBL_FULL_FORM_BUTTON_TITLE' => 'Πλήρης Φόρμα',
     'LBL_SAVE_NEW_BUTTON_LABEL' => 'Αποθήκευση και Δημιουργία Νέας',
-    'LBL_SAVE_NEW_BUTTON_TITLE' => 'Save & Create New',
+    'LBL_SAVE_NEW_BUTTON_TITLE' => 'Αποθήκευση και Δημιουργία Νέας',
     'LBL_SAVE_OBJECT' => 'Αποθήκευση {0}',
     'LBL_SEARCH_BUTTON_KEY' => 'Q',
     'LBL_SEARCH_BUTTON_LABEL' => 'Αναζήτηση',
@@ -1692,59 +1692,59 @@ $app_strings = array(
     'LBL_SELECT_BUTTON_LABEL' => 'Select',
     'LBL_SELECT_BUTTON_TITLE' => 'Select',
     'LBL_BROWSE_DOCUMENTS_BUTTON_LABEL' => 'Ξεφύλλισμα Εγγράφων',
-    'LBL_BROWSE_DOCUMENTS_BUTTON_TITLE' => 'Browse Documents',
+    'LBL_BROWSE_DOCUMENTS_BUTTON_TITLE' => 'Ξεφύλλισμα Εγγράφων',
     'LBL_SELECT_CONTACT_BUTTON_KEY' => 'T',
     'LBL_SELECT_CONTACT_BUTTON_LABEL' => 'Επιλογή Επαφής',
-    'LBL_SELECT_CONTACT_BUTTON_TITLE' => 'Select Contact',
+    'LBL_SELECT_CONTACT_BUTTON_TITLE' => 'Επιλογή Επαφής',
     'LBL_SELECT_REPORTS_BUTTON_LABEL' => 'Επιλογή από Αναφορές',
     'LBL_SELECT_REPORTS_BUTTON_TITLE' => 'Επιλογή Αναφορών',
     'LBL_SELECT_USER_BUTTON_KEY' => 'U',
     'LBL_SELECT_USER_BUTTON_LABEL' => 'Επιλογή Χειριστή',
-    'LBL_SELECT_USER_BUTTON_TITLE' => 'Select User',
+    'LBL_SELECT_USER_BUTTON_TITLE' => 'Επιλογή Χειριστή',
     // Clear buttons take up too many keys, lets default the relate and collection ones to be empty
     'LBL_ACCESSKEY_CLEAR_RELATE_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_RELATE_TITLE' => 'Καθαρισμός επιλογής',
-    'LBL_ACCESSKEY_CLEAR_RELATE_LABEL' => 'Clear Selection',
+    'LBL_ACCESSKEY_CLEAR_RELATE_LABEL' => 'Καθαρισμός επιλογής',
     'LBL_ACCESSKEY_CLEAR_COLLECTION_KEY' => ' ',
-    'LBL_ACCESSKEY_CLEAR_COLLECTION_TITLE' => 'Clear Selection',
-    'LBL_ACCESSKEY_CLEAR_COLLECTION_LABEL' => 'Clear Selection',
+    'LBL_ACCESSKEY_CLEAR_COLLECTION_TITLE' => 'Καθαρισμός επιλογής',
+    'LBL_ACCESSKEY_CLEAR_COLLECTION_LABEL' => 'Καθαρισμός επιλογής',
     'LBL_ACCESSKEY_SELECT_FILE_KEY' => 'F',
     'LBL_ACCESSKEY_SELECT_FILE_TITLE' => 'Επιλογή Αρχείου',
-    'LBL_ACCESSKEY_SELECT_FILE_LABEL' => 'Select File',
+    'LBL_ACCESSKEY_SELECT_FILE_LABEL' => 'Επιλογή Αρχείου',
     'LBL_ACCESSKEY_CLEAR_FILE_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_FILE_TITLE' => 'Καθαρισμός Αρχείου',
-    'LBL_ACCESSKEY_CLEAR_FILE_LABEL' => 'Clear File',
+    'LBL_ACCESSKEY_CLEAR_FILE_LABEL' => 'Καθαρισμός Αρχείου',
 
     'LBL_ACCESSKEY_SELECT_USERS_KEY' => 'U',
-    'LBL_ACCESSKEY_SELECT_USERS_TITLE' => 'Select User',
-    'LBL_ACCESSKEY_SELECT_USERS_LABEL' => 'Select User',
+    'LBL_ACCESSKEY_SELECT_USERS_TITLE' => 'Επιλογή Χειριστή',
+    'LBL_ACCESSKEY_SELECT_USERS_LABEL' => 'Επιλογή Χειριστή',
     'LBL_ACCESSKEY_CLEAR_USERS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_USERS_TITLE' => 'Εκκαθάριση Χειριστή',
-    'LBL_ACCESSKEY_CLEAR_USERS_LABEL' => 'Clear User',
+    'LBL_ACCESSKEY_CLEAR_USERS_LABEL' => 'Εκκαθάριση Χειριστή',
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_KEY' => 'A',
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_TITLE' => 'Επιλέξτε λογαριασμό',
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_LABEL' => 'Select Account',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_TITLE' => 'Καθαρισμός Λογαριασμού',
-    'LBL_ACCESSKEY_CLEAR_ACCOUNTS_LABEL' => 'Clear Account',
+    'LBL_ACCESSKEY_CLEAR_ACCOUNTS_LABEL' => 'Καθαρισμός Λογαριασμού',
     'LBL_ACCESSKEY_SELECT_CAMPAIGNS_KEY' => 'M',
     'LBL_ACCESSKEY_SELECT_CAMPAIGNS_TITLE' => 'Επιλογή Καμπάνιας',
-    'LBL_ACCESSKEY_SELECT_CAMPAIGNS_LABEL' => 'Select Campaign',
+    'LBL_ACCESSKEY_SELECT_CAMPAIGNS_LABEL' => 'Επιλογή Καμπάνιας',
     'LBL_ACCESSKEY_CLEAR_CAMPAIGNS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_CAMPAIGNS_TITLE' => 'Καθαρισμός Καμπάνιας',
-    'LBL_ACCESSKEY_CLEAR_CAMPAIGNS_LABEL' => 'Clear Campaign',
+    'LBL_ACCESSKEY_CLEAR_CAMPAIGNS_LABEL' => 'Καθαρισμός Καμπάνιας',
     'LBL_ACCESSKEY_SELECT_CONTACTS_KEY' => 'C',
-    'LBL_ACCESSKEY_SELECT_CONTACTS_TITLE' => 'Select Contact',
-    'LBL_ACCESSKEY_SELECT_CONTACTS_LABEL' => 'Select Contact',
+    'LBL_ACCESSKEY_SELECT_CONTACTS_TITLE' => 'Επιλογή Επαφής',
+    'LBL_ACCESSKEY_SELECT_CONTACTS_LABEL' => 'Επιλογή Επαφής',
     'LBL_ACCESSKEY_CLEAR_CONTACTS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_CONTACTS_TITLE' => 'Καθαρισμός Επαφής',
-    'LBL_ACCESSKEY_CLEAR_CONTACTS_LABEL' => 'Clear Contact',
+    'LBL_ACCESSKEY_CLEAR_CONTACTS_LABEL' => 'Καθαρισμός Επαφής',
     'LBL_ACCESSKEY_SELECT_TEAMSET_KEY' => 'Z',
     'LBL_ACCESSKEY_SELECT_TEAMSET_TITLE' => 'Επιλογή Ομάδας',
-    'LBL_ACCESSKEY_SELECT_TEAMSET_LABEL' => 'Select Team',
+    'LBL_ACCESSKEY_SELECT_TEAMSET_LABEL' => 'Επιλογή Ομάδας',
     'LBL_ACCESSKEY_CLEAR_TEAMS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_TEAMS_TITLE' => 'Καθαρισμός Ομάδας',
-    'LBL_ACCESSKEY_CLEAR_TEAMS_LABEL' => 'Clear Team',
+    'LBL_ACCESSKEY_CLEAR_TEAMS_LABEL' => 'Καθαρισμός Ομάδας',
     'LBL_SERVER_RESPONSE_RESOURCES' => 'Πόροι χρησιμοποιούνται για την κατασκευή αυτής της σελίδας (ερωτήματα, πεδία)',
     'LBL_SERVER_RESPONSE_TIME_SECONDS' => 'δευτερόλεπτα.',
     'LBL_SERVER_RESPONSE_TIME' => 'Χρόνος Απόκρισης διακομιστή:',
@@ -1756,14 +1756,14 @@ $app_strings = array(
     'LBL_SHOW' => 'Εμφάνιση',
     'LBL_STATE' => 'State:',
     'LBL_STATUS_UPDATED' => 'Η Κατάσταση σας για αυτό το συμβάν έχει ενημερωθεί!',
-    'LBL_STATUS' => 'Status:',
+    'LBL_STATUS' => 'Κατάσταση',
     'LBL_STREET' => 'Οδός',
     'LBL_SUBJECT' => 'Subject',
 
     'LBL_INBOUNDEMAIL_ID' => 'Ταυτότητα Εισερχόμενου Email',
 
     'LBL_SCENARIO_SALES' => 'Sales',
-    'LBL_SCENARIO_MARKETING' => 'Marketing',
+    'LBL_SCENARIO_MARKETING' => 'Μάρκετινγκ',
     'LBL_SCENARIO_FINANCE' => 'Finance',
     'LBL_SCENARIO_SERVICE' => 'Υπηρεσία',
     'LBL_SCENARIO_PROJECT' => 'Διαχείριση Έργου',
@@ -1774,26 +1774,26 @@ $app_strings = array(
     'LBL_SCENARIO_SERVICE_DESCRIPTION' => 'Το σενάριο αυτό διευκολύνει τη διαχείριση των υπηρεσιακών στοιχείων',
     'LBL_SCENARIO_PROJECT_DESCRIPTION' => 'Το σενάριο αυτό διευκολύνει τη διαχείριση των στοιχείων έργων',
 
-    'LBL_SYNC' => 'Sync',
-    'LBL_TABGROUP_ALL' => 'All',
+    'LBL_SYNC' => 'Συγχρονισμό',
+    'LBL_TABGROUP_ALL' => 'Όλα',
     'LBL_TABGROUP_ACTIVITIES' => 'Activities',
     'LBL_TABGROUP_COLLABORATION' => 'Συνεργασία',
-    'LBL_TABGROUP_MARKETING' => 'Marketing',
-    'LBL_TABGROUP_OTHER' => 'Other',
+    'LBL_TABGROUP_MARKETING' => 'Μάρκετινγκ',
+    'LBL_TABGROUP_OTHER' => 'Άλλο',
     'LBL_TABGROUP_SALES' => 'Sales',
     'LBL_TABGROUP_SUPPORT' => 'Υποστήριξη',
-    'LBL_TASKS' => 'Tasks',
+    'LBL_TASKS' => 'Εργασίες',
     'LBL_THOUSANDS_SYMBOL' => 'K',
     'LBL_TRACK_EMAIL_BUTTON_LABEL' => 'Αρχειοθέτηση Email',
-    'LBL_TRACK_EMAIL_BUTTON_TITLE' => 'Archive Email',
+    'LBL_TRACK_EMAIL_BUTTON_TITLE' => 'Αρχειοθέτηση Email',
     'LBL_UNDELETE_BUTTON_LABEL' => 'Ακύρωση Διαγραφής',
-    'LBL_UNDELETE_BUTTON_TITLE' => 'Undelete',
-    'LBL_UNDELETE_BUTTON' => 'Undelete',
-    'LBL_UNDELETE' => 'Undelete',
+    'LBL_UNDELETE_BUTTON_TITLE' => 'Ακύρωση Διαγραφής',
+    'LBL_UNDELETE_BUTTON' => 'Ακύρωση Διαγραφής',
+    'LBL_UNDELETE' => 'Ακύρωση Διαγραφής',
     'LBL_UNSYNC' => 'Ακύρωση Συγχρονισμού',
     'LBL_UPDATE' => 'Ενημέρωση',
     'LBL_USER_LIST' => 'Κατάλογος χρηστών',
-    'LBL_USERS' => 'Users',
+    'LBL_USERS' => 'Χειριστές',
     'LBL_VERIFY_EMAIL_ADDRESS' => 'Έλεγχος για υπάρχουσα καταχώρηση email...',
     'LBL_VERIFY_PORTAL_NAME' => 'Έλεγχος για υπάρχουσα καταχώρηση ονόματος portal...',
     'LBL_VIEW_IMAGE' => 'προβολή',
@@ -1801,26 +1801,26 @@ $app_strings = array(
     'LNK_ABOUT' => 'Σχετικά',
     'LNK_ADVANCED_FILTER' => 'Σύνθετη Αναζήτηση',
     'LNK_BASIC_FILTER' => 'Γρήγορη Αναζήτηση',
-    'LBL_ADVANCED_SEARCH' => 'Advanced Filter',
-    'LBL_QUICK_FILTER' => 'Quick Filter',
+    'LBL_ADVANCED_SEARCH' => 'Σύνθετη Αναζήτηση',
+    'LBL_QUICK_FILTER' => 'Γρήγορη Αναζήτηση',
     'LNK_SEARCH_NONFTS_VIEW_ALL' => 'Εμφάνιση Όλων',
     'LNK_CLOSE' => 'Close',
     'LBL_MODIFY_CURRENT_FILTER' => 'Επεξεργασία Τρέχον Αναζήτησης',
     'LNK_SAVED_VIEWS' => 'Επιλογες εμφανισης',
-    'LNK_DELETE' => 'Delete',
-    'LNK_EDIT' => 'Edit',
+    'LNK_DELETE' => 'Διαγραφή',
+    'LNK_EDIT' => 'Επεξεργασία',
     'LNK_GET_LATEST' => 'Λάβετε την πιο πρόσφατη',
     'LNK_GET_LATEST_TOOLTIP' => 'Αντικατάσταση με την πιο πρόσφατη έκδοση',
     'LNK_HELP' => 'Help',
-    'LNK_CREATE' => 'Create',
+    'LNK_CREATE' => 'Δημιουργία Στόχου',
     'LNK_LIST_END' => 'Τέλος',
-    'LNK_LIST_NEXT' => 'Next',
+    'LNK_LIST_NEXT' => 'Επόμενη',
     'LNK_LIST_PREVIOUS' => 'Προηγούμενο',
     'LNK_LIST_RETURN' => 'Επιστρoφή στην Λίστα',
     'LNK_LIST_START' => 'Έναρξη',
     'LNK_LOAD_SIGNED' => 'Υπογραφή',
     'LNK_LOAD_SIGNED_TOOLTIP' => 'Αντικατάσταση με υπογεγραμμένο έγγραφο',
-    'LNK_PRINT' => 'Print',
+    'LNK_PRINT' => 'Εκτύπωση',
     'LNK_BACKTOTOP' => 'Επιστροφή στην κορυφή',
     'LNK_REMOVE' => 'Remove',
     'LNK_RESUME' => 'Επανάληψη',
@@ -1831,14 +1831,14 @@ $app_strings = array(
     'NTC_DELETE_CONFIRMATION_MULTIPLE' => 'Είστε βέβαιοι ότι θέλετε να διαγράψετε την επιλεγμένη εγγραφή(ες);',
     'NTC_TEMPLATE_IS_USED' => 'Το πρότυπο χρησιμοποιείται σε τουλάχιστον μία εγγραφή email μάρκετινγκ. Είστε βέβαιοι ότι θέλετε να το διαγράψετε;',
     'NTC_TEMPLATES_IS_USED' => 'Τα ακόλουθα πρότυπα χρησιμοποιούντε στις εγγραφές email marketing. Είστε σίγουρος ότι θέλετε να τα διαγράψετε;' . PHP_EOL,
-    'NTC_DELETE_CONFIRMATION' => 'Are you sure you want to delete this record?',
+    'NTC_DELETE_CONFIRMATION' => 'Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτή την εγγραφή;',
     'NTC_DELETE_CONFIRMATION_NUM' => 'Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτή την',
     'NTC_UPDATE_CONFIRMATION_NUM' => 'Είστε βέβαιοι ότι θέλετε να ενημερώσετε αυτή την',
     'NTC_DELETE_SELECTED_RECORDS' => 'επιλεγμένη(ες) εγγραφή(ές);',
     'NTC_LOGIN_MESSAGE' => 'Παρακαλώ εισάγετε το όνομα χειριστή σας και τον κωδικό πρόσβασης σας.',
-    'NTC_NO_ITEMS_DISPLAY' => 'none',
+    'NTC_NO_ITEMS_DISPLAY' => 'κανένα',
     'NTC_REMOVE_CONFIRMATION' => 'Είστε βέβαιοι ότι θέλετε να αφαιρέσετε αυτή την σχέση; Μόνο η σχέση θα αφαιρεθεί. Το αρχείο δεν θα διαγραφεί.',
-    'NTC_REQUIRED' => 'Indicates required field',
+    'NTC_REQUIRED' => 'Υποδεικνύει υποχρεωτικό πεδίο',
     'NTC_TIME_FORMAT' => '(24:00)',
     'NTC_WELCOME' => 'Καλώς Ήλθατε',
     'NTC_YEAR_FORMAT' => '(εεεε)',
@@ -1852,7 +1852,7 @@ $app_strings = array(
     'LBL_MANAGE_SUBSCRIPTIONS' => 'Διαχείριση Συνδρομών',
     'LBL_MANAGE_SUBSCRIPTIONS_FOR' => 'Διαχείριση Συνδρομών για',
     // Ajax status strings
-    'LBL_LOADING' => 'Loading...',
+    'LBL_LOADING' => 'Λήψη...',
     'LBL_SEARCHING' => 'Αναζήτηση...',
     'LBL_SAVING_LAYOUT' => 'Αποθήκευση Διάταξης...',
     'LBL_SAVED_LAYOUT' => 'Η Διάταξη έχει αποθηκευτεί.',
@@ -1863,7 +1863,7 @@ $app_strings = array(
     'LBL_SEARCH_CRITERIA' => 'Κριτήρια αναζήτησης',
     'LBL_SAVED_VIEWS' => 'Αποθηκευμένες Προβολές',
     'LBL_PROCESSING_REQUEST' => 'Επεξεργασία...',
-    'LBL_REQUEST_PROCESSED' => 'Done',
+    'LBL_REQUEST_PROCESSED' => 'Ολοκληρώθηκε',
     'LBL_AJAX_FAILURE' => 'Ajax αποτυχία',
     'LBL_MERGE_DUPLICATES' => 'Συγχώνευση',
     'LBL_SAVED_FILTER_SHORTCUT' => 'Οι Αναζητήσεις μου',
@@ -1881,8 +1881,8 @@ $app_strings = array(
     'ERROR_JS_ALERT_TIMEOUT_MSG_1' => 'Λήξη Χρονικού Ορίου Σύνδεσης σε περίπου 2 λεπτά. Παρακαλώ αποθηκεύστε τις εργασίες σας.',
     'ERROR_JS_ALERT_TIMEOUT_MSG_2' => 'Έληξε το Χρονικό Όριο της Σύνδεσης.',
     'MSG_JS_ALERT_MTG_REMINDER_AGENDA' => "\nAgenda: ",
-    'MSG_JS_ALERT_MTG_REMINDER_MEETING' => 'Meeting',
-    'MSG_JS_ALERT_MTG_REMINDER_CALL' => 'Call',
+    'MSG_JS_ALERT_MTG_REMINDER_MEETING' => 'Συνάντηση',
+    'MSG_JS_ALERT_MTG_REMINDER_CALL' => 'Τηλεφωνική Κλήση',
     'MSG_JS_ALERT_MTG_REMINDER_TIME' => 'Ώρα:',
     'MSG_JS_ALERT_MTG_REMINDER_LOC' => 'Τοποθεσία:',
     'MSG_JS_ALERT_MTG_REMINDER_DESC' => 'Περιγραφή: ',
@@ -1904,7 +1904,7 @@ $app_strings = array(
     // contextMenu strings
     'LBL_ADD_TO_FAVORITES' => 'Προσθήκη στα Αγαπημένα Μου',
     'LBL_CREATE_CONTACT' => 'Δημιουργία Επαφής',
-    'LBL_CREATE_CASE' => 'Create Case',
+    'LBL_CREATE_CASE' => 'Δημιουργία Υπόθεσης',
     'LBL_CREATE_NOTE' => 'Δημιουργία Σημείωσης',
     'LBL_CREATE_OPPORTUNITY' => 'Δημιουργία ευκαιρίας πώλησης',
     'LBL_SCHEDULE_CALL' => 'Προγραμματισμός Κλήσης',
@@ -1924,7 +1924,7 @@ $app_strings = array(
     'LBL_ADD_ALL_LEAD_FIELDS' => 'Προσθήκη Όλων των Πεδίων',
     'LBL_RESET_ALL_LEAD_FIELDS' => 'Επαναφορά όλων των Πεδίων',
     'LBL_REMOVE_ALL_LEAD_FIELDS' => 'Αφαίρεση Όλων των Πεδίων',
-    'LBL_NEXT_BTN' => 'Next',
+    'LBL_NEXT_BTN' => 'Επόμενη',
     'LBL_ONLY_IMAGE_ATTACHMENT' => 'Μόνο συνημμένος τύπος εικόνας μπορεί να ενσωματωθεί',
     'LBL_TRAINING' => 'Φόρουμ Υποστήριξης',
     'ERR_MSSQL_DB_CONTEXT' => 'Άλλαξε το πλαίσιο της βάσης δεδομένων',
@@ -1940,7 +1940,7 @@ $app_strings = array(
     'LBL_DASHLET_CONFIGURE_GENERAL' => 'General',
     'LBL_DASHLET_CONFIGURE_FILTERS' => 'Φίλτρα',
     'LBL_DASHLET_CONFIGURE_MY_ITEMS_ONLY' => 'Μόνο οι Ομάδες Μου',
-    'LBL_DASHLET_CONFIGURE_TITLE' => 'Title',
+    'LBL_DASHLET_CONFIGURE_TITLE' => 'Τίτλος:',
     'LBL_DASHLET_CONFIGURE_DISPLAY_ROWS' => 'Εμφάνιση Γραμμών',
 
     // MySugar status strings
@@ -1966,7 +1966,7 @@ $app_strings = array(
     'LBL_3_COLUMN' => '3 Στήλες',
     'LBL_PAGE_NAME' => 'Όνομα Σελίδας',
 
-    'LBL_SEARCH_RESULTS' => 'Search Results',
+    'LBL_SEARCH_RESULTS' => 'Αναζήτηση Αποτελεσμάτων',
     'LBL_SEARCH_MODULES' => 'Ενότητες',
     'LBL_SEARCH_TOOLS' => 'Εργαλεία',
     'LBL_SEARCH_HELP_TITLE' => 'Συμβουλές Αναζήτησης',
@@ -2021,7 +2021,7 @@ $app_strings = array(
     'LBL_CHOOSE_START_AND_END_ENTRIES' => 'Παρακαλώ επιλέξτε και τα δύο, έναρξη και λήξη στις καταχωρήσεις',
 
     //jchi #  20776
-    'LBL_DROPDOWN_LIST_ALL' => 'All',
+    'LBL_DROPDOWN_LIST_ALL' => 'Όλες',
 
     //Connector
     'ERR_CONNECTOR_FILL_BEANS_SIZE_MISMATCH' => 'Λάθος: Η καταμέτρηση Array της παραμέτρου bean, δεν ταιριάζει με την καταμέτρηση Array των αποτελεσμάτων.',
@@ -2032,13 +2032,13 @@ $app_strings = array(
     'LBL_FASTCGI_LOGGING' => 'Για βέλτιστη εμπειρία χρησιμοποιώντας IIS/FastCGI sapi, καθορίστε fastcgi.logging σε 0 στο δικό σας php.ini αρχείο.',
 
     //Collection Field
-    'LBL_COLLECTION_NAME' => 'Name',
-    'LBL_COLLECTION_PRIMARY' => 'Primary',
+    'LBL_COLLECTION_NAME' => 'Όνομα',
+    'LBL_COLLECTION_PRIMARY' => 'Βασική',
     'ERROR_MISSING_COLLECTION_SELECTION' => 'Απαιτείται κενό πεδίο',
 
     //MB -Fixed Bug #32812 -Max
-    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
-    'LBL_DESCRIPTION' => 'Description',
+    'LBL_ASSIGNED_TO_NAME' => 'Ανατέθηκε σε',
+    'LBL_DESCRIPTION' => 'Περιγραφή',
 
     'LBL_YESTERDAY' => 'χθες',
     'LBL_TODAY' => 'σήμερα',
@@ -2089,7 +2089,7 @@ $app_strings = array(
     'LBL_NOTIFICATIONS_NONE' => 'Δεν υπάρχουν τρέχουσες ειδοποιήσεις',
     'LBL_ALT_SORT_DESC' => 'Ταξινόμιση Φθίνουσα',
     'LBL_ALT_SORT_ASC' => 'Ταξινομημένα σε Αύξουσα Σειρά',
-    'LBL_ALT_SORT' => 'Sort',
+    'LBL_ALT_SORT' => 'Είδος',
     'LBL_ALT_SHOW_OPTIONS' => 'Εμφάνιση Επιλογών',
     'LBL_ALT_HIDE_OPTIONS' => 'Απόκρυψη Επιλογών',
     'LBL_ALT_MOVE_COLUMN_LEFT' => 'Μετακίνηση επιλεγμένης εισόδου στην λίστα στα αριστερά',
@@ -2115,22 +2115,22 @@ $app_strings = array(
 
     //508 used Access Keys
     'LBL_EDIT_BUTTON_KEY' => 'i',
-    'LBL_EDIT_BUTTON_LABEL' => 'Edit',
-    'LBL_EDIT_BUTTON_TITLE' => 'Edit',
+    'LBL_EDIT_BUTTON_LABEL' => 'Επεξεργασία',
+    'LBL_EDIT_BUTTON_TITLE' => 'Επεξεργασία',
     'LBL_DUPLICATE_BUTTON_KEY' => 'u',
-    'LBL_DUPLICATE_BUTTON_LABEL' => 'Duplicate',
-    'LBL_DUPLICATE_BUTTON_TITLE' => 'Duplicate',
+    'LBL_DUPLICATE_BUTTON_LABEL' => 'Αντίγραφο',
+    'LBL_DUPLICATE_BUTTON_TITLE' => 'Αντίγραφο',
     'LBL_DELETE_BUTTON_KEY' => 'd',
-    'LBL_DELETE_BUTTON_LABEL' => 'Delete',
-    'LBL_DELETE_BUTTON_TITLE' => 'Delete',
+    'LBL_DELETE_BUTTON_LABEL' => 'Διαγραφή',
+    'LBL_DELETE_BUTTON_TITLE' => 'Διαγραφή',
     'LBL_BULK_ACTION_BUTTON_LABEL' => 'BULK ACTION',
     'LBL_BULK_ACTION_BUTTON_LABEL_MOBILE' => 'Δράση',
     'LBL_SAVE_BUTTON_KEY' => 'a',
     'LBL_SAVE_BUTTON_LABEL' => 'Save',
     'LBL_SAVE_BUTTON_TITLE' => 'Save',
     'LBL_CANCEL_BUTTON_KEY' => 'l',
-    'LBL_CANCEL_BUTTON_LABEL' => 'Cancel',
-    'LBL_CANCEL_BUTTON_TITLE' => 'Cancel',
+    'LBL_CANCEL_BUTTON_LABEL' => 'Ακύρωση',
+    'LBL_CANCEL_BUTTON_TITLE' => 'Ακύρωση',
     'LBL_FIRST_INPUT_EDIT_VIEW_KEY' => '7',
     'LBL_ADV_SEARCH_LNK_KEY' => '8',
     'LBL_FIRST_INPUT_SEARCH_KEY' => '9',
@@ -2142,7 +2142,7 @@ $app_strings = array(
     'LBL_ACCOUNT_PRODUCT_SALE_PRICE' => 'Τιμή Πώλησης',
     'LBL_EMAIL_CHECK_INTERVAL_DOM' => array(
         '-1' => 'Χειροκίνητα',
-        '5' => 'Every 5 minutes',
+        '5' => 'Κάθε 5 λεπτά',
         '15' => 'Κάθε 15 λεπτά',
         '30' => 'Κάθε 30 λεπτά',
         '60' => 'Κάθε ώρα',
@@ -2182,7 +2182,7 @@ $app_strings = array(
     'LBL_CONFIRM_APPLY_EMAIL_TEMPLATE_BODY' => 'Η λειτουργία θα αντικαταστήσει το κείμενο του e-mail και το θέμα του, θέλετε να συνεχίσετε;',
 
     'LBL_CONFIRM_OPT_IN_TITLE' => 'Εγγραφή επιβεβαιώθηκε',
-    'LBL_OPT_IN_TITLE' => 'Opt In',
+    'LBL_OPT_IN_TITLE' => 'Αιτηθείτε',
     'LBL_CONFIRM_OPT_IN_DATE' => 'Ημερομηνία επιβεβαίωσης εγγραφής',
     'LBL_CONFIRM_OPT_IN_SENT_DATE' => 'Ημερομηνία αποστολής επιβεβαίωσης εγγραφής',
     'LBL_CONFIRM_OPT_IN_FAIL_DATE' => 'Ημερομηνία αποτυχίας επιβεβαίωσης εγγραφής',
@@ -2194,7 +2194,7 @@ $app_strings = array(
     'LBL_PRIMARY_GROUP' => "Κύρια Ομάδα",
 
     // footer
-    'LBL_SUITE_TOP' => 'Back to top',
+    'LBL_SUITE_TOP' => 'Επιστροφή στην κορυφή',
     'LBL_SUITE_SUPERCHARGED' => 'Υπερτροφοδοτούμενο από το SuiteCRM',
     'LBL_SUITE_POWERED_BY' => 'Μηχανισμός της SuiteCRM',
     'LBL_SUITE_DESC1' => 'SuiteCRM has been written and assembled by <a href="https://suitecrm.com/">SuiteCRM Ltd</a>. The Program is provided AS IS, without warranty. Licensed under AGPLv3.',
@@ -2210,18 +2210,18 @@ $app_strings = array(
 );
 
 $app_list_strings['moduleList']['Library'] = 'Βιβλιοθήκη';
-$app_list_strings['moduleList']['EmailAddresses'] = 'Email Address';
-$app_list_strings['project_priority_default'] = 'Medium';
+$app_list_strings['moduleList']['EmailAddresses'] = 'Διευθύνσεις Email';
+$app_list_strings['project_priority_default'] = 'Μεσαία';
 $app_list_strings['project_priority_options'] = array(
     'High' => 'High',
-    'Medium' => 'Medium',
+    'Medium' => 'Μεσαία',
     'Low' => 'Low',
 );
 
 //GDPR lawful basis options
 $app_list_strings['lawful_basis_dom'] = array(
     '' => '',
-    'consent' => 'Consent',
+    'consent' => 'Συγκατάθεση',
     'contract' => 'Contract',
     'legal_obligation' => 'Νομική υποχρέωση',
     'protection_of_interest' => 'Προστασία συμφερόντων',
@@ -2235,14 +2235,14 @@ $app_list_strings['lawful_basis_dom'] = array(
 $app_list_strings['lawful_basis_source_dom'] = array(
     '' => '',
     'website' => 'Ιστοσελίδα',
-    'phone' => 'Phone',
+    'phone' => 'Τηλέφωνο:',
     'given_to_user' => 'Δόθηκε στον χρήστη',
     'email' => 'Email',
     'third_party' => 'Τρίτο μέρος',
 );
 //End GDPR lawful basis source options
 
-$app_list_strings['moduleList']['KBDocuments'] = 'Knowledge Base';
+$app_list_strings['moduleList']['KBDocuments'] = 'Βάση Γνώσεων';
 
 $app_list_strings['countries_dom'] = array(
     '' => '',
@@ -2406,7 +2406,7 @@ $app_list_strings['countries_dom'] = array(
     'NORFOLK ISLAND' => 'ΝΗΣΙ ΝΟΡΦΟΛΚ',
     'NORWAY' => 'ΝΟΡΒΗΓΙΑ',
     'OMAN' => 'ΟΜΑΝ',
-    'OTHER' => 'OTHER',
+    'OTHER' => 'ΑΛΛΟ',
     'PACIFIC ISLAND' => 'ΝΗΣΙΑ ΤΟΥ ΕΙΡΗΝΙΚΟΥ',
     'PAKISTAN' => 'ΠΑΚΙΣΤΑΝ',
     'PANAMA' => 'ΠΑΝΑΜΑ',
@@ -2910,35 +2910,35 @@ $app_list_strings['eapm_list_documents'] = array(
 $app_list_strings['token_status'] = array(
     1 => 'Αίτημα',
     2 => 'Πρόσβαση',
-    3 => 'Invalid',
+    3 => 'Διαθέσιμη',
 );
 
 $app_list_strings ['emailTemplates_type_list'] = array(
     '' => '',
-    'campaign' => 'Campaign',
+    'campaign' => 'Εκστρατεία',
     'email' => 'Email',
     'event' => 'Event',
 );
 
 $app_list_strings ['emailTemplates_type_list_campaigns'] = array(
     '' => '',
-    'campaign' => 'Campaign',
+    'campaign' => 'Εκστρατεία',
 );
 
 $app_list_strings ['emailTemplates_type_list_no_workflow'] = array(
     '' => '',
-    'campaign' => 'Campaign',
+    'campaign' => 'Εκστρατεία',
     'email' => 'Email',
     'event' => 'Event',
     'system' => 'System',
 );
 
 // knowledge base
-$app_list_strings['moduleList']['AOK_KnowledgeBase'] = 'Knowledge Base';
+$app_list_strings['moduleList']['AOK_KnowledgeBase'] = 'Βάση Γνώσεων';
 $app_list_strings['moduleList']['AOK_Knowledge_Base_Categories'] = 'ΓΒ - Κατηγορίες';
 $app_list_strings['aok_status_list']['Draft'] = 'Draft';
-$app_list_strings['aok_status_list']['Expired'] = 'Expired';
-$app_list_strings['aok_status_list']['In_Review'] = 'In Review';
+$app_list_strings['aok_status_list']['Expired'] = 'Ληγμένο';
+$app_list_strings['aok_status_list']['In_Review'] = 'Σε Αναθεώρηση';
 //$app_list_strings['aok_status_list']['Published'] = 'Published';
 $app_list_strings['aok_status_list']['published_private'] = 'Ιδιωτική';
 $app_list_strings['aok_status_list']['published_public'] = 'Δημόσια';
@@ -2951,8 +2951,8 @@ $app_list_strings['fp_event_invite_status_dom']['Invited'] = 'Προσκεκλη
 $app_list_strings['fp_event_invite_status_dom']['Not Invited'] = 'Απρόσκλητος';
 $app_list_strings['fp_event_invite_status_dom']['Attended'] = 'Παρεβρέθησαν ';
 $app_list_strings['fp_event_invite_status_dom']['Not Attended'] = 'Δεν παρεβρέθησαν';
-$app_list_strings['fp_event_status_dom']['Accepted'] = 'Accepted';
-$app_list_strings['fp_event_status_dom']['Declined'] = 'Declined';
+$app_list_strings['fp_event_status_dom']['Accepted'] = 'Αποδεκτό';
+$app_list_strings['fp_event_status_dom']['Declined'] = 'Απορριπτέα';
 $app_list_strings['fp_event_status_dom']['No Response'] = 'Δεν Απάντησε';
 
 $app_strings['LBL_STATUS_EVENT'] = 'Κατάσταση Πρόσκλησης';
@@ -2975,17 +2975,17 @@ $app_list_strings['case_state_default_key'] = 'Άνοιγμα';
 $app_list_strings['case_state_dom'] =
     array(
         'Open' => 'Άνοιγμα',
-        'Closed' => 'Closed',
+        'Closed' => 'Κλειστό',
     );
 $app_list_strings['case_status_default_key'] = 'Open_New';
 $app_list_strings['case_status_dom'] =
     array(
-        'Open_New' => 'New',
+        'Open_New' => 'Νέος',
         'Open_Assigned' => 'Assigned',
-        'Closed_Closed' => 'Closed',
-        'Open_Pending Input' => 'Pending Input',
+        'Closed_Closed' => 'Κλειστό',
+        'Open_Pending Input' => 'Εκκρεμής',
         'Closed_Rejected' => 'Rejected',
-        'Closed_Duplicate' => 'Duplicate',
+        'Closed_Duplicate' => 'Αντίγραφο',
     );
 $app_list_strings['contact_portal_user_type_dom'] =
     array(
@@ -2995,8 +2995,8 @@ $app_list_strings['contact_portal_user_type_dom'] =
 $app_list_strings['dom_email_distribution_for_auto_create'] = array(
     'AOPDefault' => 'Προεπιλογή Συστήματος',
     'singleUser' => 'Μοναδικός χρήστης',
-    'roundRobin' => 'Round-Robin',
-    'leastBusy' => 'Least-Busy',
+    'roundRobin' => 'Κατόπιν Ψηφοφορίας',
+    'leastBusy' => 'Λιγότερο-Απασχολημένο',
     'random' => 'Τυχαία ',
 );
 
@@ -3009,11 +3009,11 @@ $app_list_strings['moduleList']['AOR_Scheduled_Reports'] = 'Προγραμματ
 $app_list_strings['aor_operator_list']['Equal_To'] = 'Ίσο Με';
 $app_list_strings['aor_operator_list']['Not_Equal_To'] = 'Όχι Ίσο Με';
 $app_list_strings['aor_operator_list']['Greater_Than'] = 'Greater Than';
-$app_list_strings['aor_operator_list']['Less_Than'] = 'Less Than';
+$app_list_strings['aor_operator_list']['Less_Than'] = 'Λιγότερο Από';
 $app_list_strings['aor_operator_list']['Greater_Than_or_Equal_To'] = 'Μεγαλύτερο ή Ίσο Με';
 $app_list_strings['aor_operator_list']['Less_Than_or_Equal_To'] = 'Μικρότερο ή Ίσο Με';
 $app_list_strings['aor_operator_list']['Contains'] = 'Contains';
-$app_list_strings['aor_operator_list']['Starts_With'] = 'Starts With';
+$app_list_strings['aor_operator_list']['Starts_With'] = 'Έναρξη Με';
 $app_list_strings['aor_operator_list']['Ends_With'] = 'Τελειώνει με';
 $app_list_strings['aor_format_options'][''] = '';
 $app_list_strings['aor_format_options']['Y-m-d'] = 'Ε-μ-η';
@@ -3029,17 +3029,17 @@ $app_list_strings['aor_format_options']['Ymd'] = 'Εμη';
 $app_list_strings['aor_format_options']['Y-m'] = 'Ε-μ';
 $app_list_strings['aor_format_options']['Y'] = 'Έτος';
 $app_list_strings['aor_condition_operator_list']['And'] = 'And';
-$app_list_strings['aor_condition_operator_list']['OR'] = 'OR';
+$app_list_strings['aor_condition_operator_list']['OR'] = 'Ή';
 $app_list_strings['aor_condition_type_list']['Value'] = 'Τιμή';
 $app_list_strings['aor_condition_type_list']['Field'] = 'Πεδίο';
-$app_list_strings['aor_condition_type_list']['Date'] = 'Date';
+$app_list_strings['aor_condition_type_list']['Date'] = 'Ημερομηνία';
 $app_list_strings['aor_condition_type_list']['Multi'] = 'Ενα από';
 $app_list_strings['aor_condition_type_list']['Period'] = 'Περίοδος';
 $app_list_strings['aor_condition_type_list']['CurrentUserID'] = 'Τρέχων Χρήστης';
 $app_list_strings['aor_date_type_list'][''] = '';
 $app_list_strings['aor_date_type_list']['minute'] = 'Minutes';
 $app_list_strings['aor_date_type_list']['hour'] = 'Hours';
-$app_list_strings['aor_date_type_list']['day'] = 'Days';
+$app_list_strings['aor_date_type_list']['day'] = 'Ημέρες';
 $app_list_strings['aor_date_type_list']['week'] = 'Εβδομάδες';
 $app_list_strings['aor_date_type_list']['month'] = 'Μήνες';
 $app_list_strings['aor_date_type_list']['business_hours'] = 'Ώρες Εργασίας';
@@ -3049,8 +3049,8 @@ $app_list_strings['aor_date_operator']['now'] = '';
 $app_list_strings['aor_date_operator']['plus'] = '+';
 $app_list_strings['aor_date_operator']['minus'] = '-';
 $app_list_strings['aor_sort_operator'][''] = '';
-$app_list_strings['aor_sort_operator']['ASC'] = 'Ascending';
-$app_list_strings['aor_sort_operator']['DESC'] = 'Descending';
+$app_list_strings['aor_sort_operator']['ASC'] = 'Αύξουσα';
+$app_list_strings['aor_sort_operator']['DESC'] = 'Φθίνουσα';
 $app_list_strings['aor_function_list'][''] = '';
 $app_list_strings['aor_function_list']['COUNT'] = 'Αρίθμηση';
 $app_list_strings['aor_function_list']['MIN'] = 'Ελάχιστο';
@@ -3058,7 +3058,7 @@ $app_list_strings['aor_function_list']['MAX'] = 'Μέγιστο';
 $app_list_strings['aor_function_list']['SUM'] = 'Άθροισμα';
 $app_list_strings['aor_function_list']['AVG'] = 'Μέση Τιμή';
 $app_list_strings['aor_total_options'][''] = '';
-$app_list_strings['aor_total_options']['COUNT'] = 'Count';
+$app_list_strings['aor_total_options']['COUNT'] = 'Αρίθμηση';
 $app_list_strings['aor_total_options']['SUM'] = 'Sum';
 $app_list_strings['aor_total_options']['AVG'] = 'Average';
 $app_list_strings['aor_chart_types']['bar'] = 'Γράφημα Κολώνες';
@@ -3070,11 +3070,11 @@ $app_list_strings['aor_chart_types']['grouped_bar'] = 'Ομαδοποιημέν�
 $app_list_strings['aor_scheduled_report_schedule_types']['monthly'] = 'Monthly';
 $app_list_strings['aor_scheduled_report_schedule_types']['weekly'] = 'Weekly';
 $app_list_strings['aor_scheduled_report_schedule_types']['daily'] = 'Daily';
-$app_list_strings['aor_scheduled_reports_status_dom']['active'] = 'Active';
-$app_list_strings['aor_scheduled_reports_status_dom']['inactive'] = 'Inactive';
+$app_list_strings['aor_scheduled_reports_status_dom']['active'] = 'Ενεργή';
+$app_list_strings['aor_scheduled_reports_status_dom']['inactive'] = 'Ανενεργή';
 $app_list_strings['aor_email_type_list']['Email Address'] = 'Email';
-$app_list_strings['aor_email_type_list']['Specify User'] = 'User';
-$app_list_strings['aor_email_type_list']['Users'] = 'Users';
+$app_list_strings['aor_email_type_list']['Specify User'] = 'Χειριστή';
+$app_list_strings['aor_email_type_list']['Users'] = 'Χειριστές';
 $app_list_strings['aor_assign_options']['all'] = 'ΟΛΟΙ οι Χρήστες';
 $app_list_strings['aor_assign_options']['role'] = 'ΌΛΟΙ οι Χρήστες στον Ρόλο';
 $app_list_strings['aor_assign_options']['security_group'] = 'ΟΛΟΙ οι Χρήστες στην Ομάδα Ασφάλειας';
@@ -3082,8 +3082,8 @@ $app_list_strings['date_time_period_list']['today'] = 'Today';
 $app_list_strings['date_time_period_list']['yesterday'] = 'Χθες';
 $app_list_strings['date_time_period_list']['this_week'] = 'Αυτή την εβδομάδα';
 $app_list_strings['date_time_period_list']['last_week'] = 'Προηγούμενη εβδομάδα';
-$app_list_strings['date_time_period_list']['last_month'] = 'Last Month';
-$app_list_strings['date_time_period_list']['this_month'] = 'This Month';
+$app_list_strings['date_time_period_list']['last_month'] = 'Τελευταίο Μήνα';
+$app_list_strings['date_time_period_list']['this_month'] = 'Αυτόν τον Μήνα';
 $app_list_strings['date_time_period_list']['this_quarter'] = 'Αυτό το Τρίμηνο';
 $app_list_strings['date_time_period_list']['last_quarter'] = 'Τελευταίο Τρίμηνο';
 $app_list_strings['date_time_period_list']['this_year'] = 'Αυτό το έτος';
@@ -3102,25 +3102,25 @@ $app_strings['LBL_CRON_WEEKLY'] = 'Weekly';
 $app_strings['LBL_CRON_MONTHLY'] = 'Monthly';
 
 //aos
-$app_list_strings['moduleList']['AOS_Contracts'] = 'Contracts';
+$app_list_strings['moduleList']['AOS_Contracts'] = 'Συμβάσεις';
 $app_list_strings['moduleList']['AOS_Invoices'] = 'Invoices';
 $app_list_strings['moduleList']['AOS_PDF_Templates'] = 'PDF - Πρότυπα';
 $app_list_strings['moduleList']['AOS_Product_Categories'] = 'Προϊόντα - Κατηγορίες';
 $app_list_strings['moduleList']['AOS_Products'] = 'Products';
 $app_list_strings['moduleList']['AOS_Products_Quotes'] = 'Είδη Σειράς';
 $app_list_strings['moduleList']['AOS_Line_Item_Groups'] = 'Ομάδες Ειδών-Τεμαχίων';
-$app_list_strings['moduleList']['AOS_Quotes'] = 'Quotes';
+$app_list_strings['moduleList']['AOS_Quotes'] = 'Προσφορές';
 $app_list_strings['aos_quotes_type_dom'][''] = '';
 $app_list_strings['aos_quotes_type_dom']['Analyst'] = 'Analyst';
 $app_list_strings['aos_quotes_type_dom']['Competitor'] = 'Competitor';
 $app_list_strings['aos_quotes_type_dom']['Customer'] = 'Customer';
 $app_list_strings['aos_quotes_type_dom']['Integrator'] = 'Integrator';
 $app_list_strings['aos_quotes_type_dom']['Investor'] = 'Investor';
-$app_list_strings['aos_quotes_type_dom']['Partner'] = 'Partner';
+$app_list_strings['aos_quotes_type_dom']['Partner'] = 'Συνεργάτη';
 $app_list_strings['aos_quotes_type_dom']['Press'] = 'Press';
-$app_list_strings['aos_quotes_type_dom']['Prospect'] = 'Prospect';
+$app_list_strings['aos_quotes_type_dom']['Prospect'] = 'Προοπτική';
 $app_list_strings['aos_quotes_type_dom']['Reseller'] = 'Reseller';
-$app_list_strings['aos_quotes_type_dom']['Other'] = 'Other';
+$app_list_strings['aos_quotes_type_dom']['Other'] = 'Άλλο:';
 $app_list_strings['template_ddown_c_list'][''] = '';
 $app_list_strings['quote_stage_dom']['Draft'] = 'Draft';
 $app_list_strings['quote_stage_dom']['Negotiation'] = 'Σε Διαπραγμάτευση';
@@ -3128,7 +3128,7 @@ $app_list_strings['quote_stage_dom']['Delivered'] = 'Παραδομένη';
 $app_list_strings['quote_stage_dom']['On Hold'] = 'On Hold';
 $app_list_strings['quote_stage_dom']['Confirmed'] = 'Επιβεβαιωμένη';
 $app_list_strings['quote_stage_dom']['Closed Accepted'] = 'Έκλεισε Κερδισμένη';
-$app_list_strings['quote_stage_dom']['Closed Lost'] = 'Closed Lost';
+$app_list_strings['quote_stage_dom']['Closed Lost'] = 'Έκλεισε Χαμένη';
 $app_list_strings['quote_stage_dom']['Closed Dead'] = 'Νεκρή';
 $app_list_strings['quote_term_dom']['Net 15'] = 'Μετρητά 15 μέρες';
 $app_list_strings['quote_term_dom']['Net 30'] = 'Μετρητά 30 μέρες';
@@ -3149,11 +3149,11 @@ $app_list_strings['aos_invoices_type_dom']['Competitor'] = 'Competitor';
 $app_list_strings['aos_invoices_type_dom']['Customer'] = 'Customer';
 $app_list_strings['aos_invoices_type_dom']['Integrator'] = 'Integrator';
 $app_list_strings['aos_invoices_type_dom']['Investor'] = 'Investor';
-$app_list_strings['aos_invoices_type_dom']['Partner'] = 'Partner';
+$app_list_strings['aos_invoices_type_dom']['Partner'] = 'Συνεργάτη';
 $app_list_strings['aos_invoices_type_dom']['Press'] = 'Press';
-$app_list_strings['aos_invoices_type_dom']['Prospect'] = 'Prospect';
+$app_list_strings['aos_invoices_type_dom']['Prospect'] = 'Προοπτική';
 $app_list_strings['aos_invoices_type_dom']['Reseller'] = 'Reseller';
-$app_list_strings['aos_invoices_type_dom']['Other'] = 'Other';
+$app_list_strings['aos_invoices_type_dom']['Other'] = 'Άλλο:';
 $app_list_strings['invoice_status_dom']['Paid'] = 'Πληρωμένο';
 $app_list_strings['invoice_status_dom']['Unpaid'] = 'Απλήρωτο';
 $app_list_strings['invoice_status_dom']['Cancelled'] = 'Ακυρωθέν';
@@ -3167,18 +3167,18 @@ $app_list_strings['product_category_dom']['Desktops'] = 'Σταθεροί Υπο
 $app_list_strings['product_category_dom'][''] = '';
 $app_list_strings['product_type_dom']['Good'] = 'Εγκυρο';
 $app_list_strings['product_type_dom']['Service'] = 'Service';
-$app_list_strings['product_quote_parent_type_dom']['AOS_Quotes'] = 'Quotes';
+$app_list_strings['product_quote_parent_type_dom']['AOS_Quotes'] = 'Προσφορές';
 $app_list_strings['product_quote_parent_type_dom']['AOS_Invoices'] = 'Invoices';
-$app_list_strings['product_quote_parent_type_dom']['AOS_Contracts'] = 'Contracts';
-$app_list_strings['pdf_template_type_dom']['AOS_Quotes'] = 'Quotes';
+$app_list_strings['product_quote_parent_type_dom']['AOS_Contracts'] = 'Συμβάσεις';
+$app_list_strings['pdf_template_type_dom']['AOS_Quotes'] = 'Προσφορές';
 $app_list_strings['pdf_template_type_dom']['AOS_Invoices'] = 'Invoices';
-$app_list_strings['pdf_template_type_dom']['AOS_Contracts'] = 'Contracts';
-$app_list_strings['pdf_template_type_dom']['Accounts'] = 'Accounts';
+$app_list_strings['pdf_template_type_dom']['AOS_Contracts'] = 'Συμβάσεις';
+$app_list_strings['pdf_template_type_dom']['Accounts'] = 'Λογαριασμοί';
 $app_list_strings['pdf_template_type_dom']['Contacts'] = 'Contacts';
-$app_list_strings['pdf_template_type_dom']['Leads'] = 'Leads';
+$app_list_strings['pdf_template_type_dom']['Leads'] = 'Δυνητικοί Πελάτες';
 $app_list_strings['pdf_template_sample_dom'][''] = '';
-$app_list_strings['contract_status_list']['Not Started'] = 'Not Started';
-$app_list_strings['contract_status_list']['In Progress'] = 'In Progress';
+$app_list_strings['contract_status_list']['Not Started'] = 'Δεν έχει Αρχίσει';
+$app_list_strings['contract_status_list']['In Progress'] = 'Σε εξέλιξη';
 $app_list_strings['contract_status_list']['Signed'] = 'Υπογεγραμμένο ';
 $app_list_strings['contract_type_list']['Type'] = 'Τύπος';
 $app_strings['LBL_PRINT_AS_PDF'] = 'Εκτύπωση σε PDF';
@@ -3190,42 +3190,42 @@ $app_list_strings['moduleList']['AOW_WorkFlow'] = 'Ροή Εργασίας';
 $app_list_strings['moduleList']['AOW_Conditions'] = 'Συνθήκες Ροής Εργασίας';
 $app_list_strings['moduleList']['AOW_Processed'] = 'Ελεγχος Διαδικασιας';
 $app_list_strings['moduleList']['AOW_Actions'] = 'Ενέργειες Ροής Εργασίας';
-$app_list_strings['aow_status_list']['Active'] = 'Active';
-$app_list_strings['aow_status_list']['Inactive'] = 'Inactive';
+$app_list_strings['aow_status_list']['Active'] = 'Ενεργή';
+$app_list_strings['aow_status_list']['Inactive'] = 'Ανενεργή';
 $app_list_strings['aow_operator_list']['Equal_To'] = 'Equal To';
 $app_list_strings['aow_operator_list']['Not_Equal_To'] = 'Not Equal To';
 $app_list_strings['aow_operator_list']['Greater_Than'] = 'Greater Than';
-$app_list_strings['aow_operator_list']['Less_Than'] = 'Less Than';
+$app_list_strings['aow_operator_list']['Less_Than'] = 'Λιγότερο Από';
 $app_list_strings['aow_operator_list']['Greater_Than_or_Equal_To'] = 'Greater Than or Equal To';
 $app_list_strings['aow_operator_list']['Less_Than_or_Equal_To'] = 'Less Than or Equal To';
 $app_list_strings['aow_operator_list']['Contains'] = 'Contains';
-$app_list_strings['aow_operator_list']['Starts_With'] = 'Starts With';
-$app_list_strings['aow_operator_list']['Ends_With'] = 'Ends With';
+$app_list_strings['aow_operator_list']['Starts_With'] = 'Έναρξη Με';
+$app_list_strings['aow_operator_list']['Ends_With'] = 'Τελειώνει με';
 $app_list_strings['aow_operator_list']['is_null'] = 'είναι Άκυρο';
-$app_list_strings['aow_process_status_list']['Complete'] = 'Complete';
+$app_list_strings['aow_process_status_list']['Complete'] = 'Ολοκληρωμένη';
 $app_list_strings['aow_process_status_list']['Running'] = 'Εκτελείται';
-$app_list_strings['aow_process_status_list']['Pending'] = 'Pending';
+$app_list_strings['aow_process_status_list']['Pending'] = 'Σε Εκκρεμότητα';
 $app_list_strings['aow_process_status_list']['Failed'] = 'Failed';
 $app_list_strings['aow_condition_operator_list']['And'] = 'And';
-$app_list_strings['aow_condition_operator_list']['OR'] = 'OR';
-$app_list_strings['aow_condition_type_list']['Value'] = 'Value';
+$app_list_strings['aow_condition_operator_list']['OR'] = 'Ή';
+$app_list_strings['aow_condition_type_list']['Value'] = 'Αξία';
 $app_list_strings['aow_condition_type_list']['Field'] = 'Field';
 $app_list_strings['aow_condition_type_list']['Any_Change'] = 'Ολες οι Αλλαγές';
 $app_list_strings['aow_condition_type_list']['SecurityGroup'] = 'ΟμάδαΑσφαλίας';
-$app_list_strings['aow_condition_type_list']['Date'] = 'Date';
+$app_list_strings['aow_condition_type_list']['Date'] = 'Ημερομηνία';
 $app_list_strings['aow_condition_type_list']['Multi'] = 'One of';
-$app_list_strings['aow_action_type_list']['Value'] = 'Value';
+$app_list_strings['aow_action_type_list']['Value'] = 'Αξία';
 $app_list_strings['aow_action_type_list']['Field'] = 'Field';
-$app_list_strings['aow_action_type_list']['Date'] = 'Date';
+$app_list_strings['aow_action_type_list']['Date'] = 'Ημερομηνία';
 $app_list_strings['aow_action_type_list']['Round_Robin'] = 'Κατόπιν ψηφοφορίας';
 $app_list_strings['aow_action_type_list']['Least_Busy'] = 'Εξυπηρέτηση Με Βάση Τον Λιγότερο Απασχολημένο';
 $app_list_strings['aow_action_type_list']['Random'] = 'Random';
-$app_list_strings['aow_rel_action_type_list']['Value'] = 'Value';
+$app_list_strings['aow_rel_action_type_list']['Value'] = 'Αξία';
 $app_list_strings['aow_rel_action_type_list']['Field'] = 'Field';
 $app_list_strings['aow_date_type_list'][''] = '';
 $app_list_strings['aow_date_type_list']['minute'] = 'Minutes';
 $app_list_strings['aow_date_type_list']['hour'] = 'Hours';
-$app_list_strings['aow_date_type_list']['day'] = 'Days';
+$app_list_strings['aow_date_type_list']['day'] = 'Ημέρες';
 $app_list_strings['aow_date_type_list']['week'] = 'Weeks';
 $app_list_strings['aow_date_type_list']['month'] = 'Months';
 $app_list_strings['aow_date_type_list']['year'] = 'Years';
@@ -3242,9 +3242,9 @@ $app_list_strings['aow_assign_options']['security_group'] = 'ALL Users in Securi
 $app_list_strings['aow_email_type_list']['Email Address'] = 'Email';
 $app_list_strings['aow_email_type_list']['Record Email'] = 'Καταγραφή Emails';
 $app_list_strings['aow_email_type_list']['Related Field'] = 'Συσχετιζόμενο Πεδίο';
-$app_list_strings['aow_email_type_list']['Specify User'] = 'User';
-$app_list_strings['aow_email_type_list']['Users'] = 'Users';
-$app_list_strings['aow_email_to_list']['to'] = 'To';
+$app_list_strings['aow_email_type_list']['Specify User'] = 'Χειριστή';
+$app_list_strings['aow_email_type_list']['Users'] = 'Χειριστές';
+$app_list_strings['aow_email_to_list']['to'] = 'Προς';
 $app_list_strings['aow_email_to_list']['cc'] = 'Κοιν';
 $app_list_strings['aow_email_to_list']['bcc'] = 'Κρυφή Κοιν';
 $app_list_strings['aow_run_on_list']['All_Records'] = 'Όλες οι Εγγραφές';
@@ -3259,7 +3259,7 @@ $app_list_strings['moduleList']['AM_ProjectTemplates'] = 'Έργα - Πρότυ�
 $app_list_strings['moduleList']['AM_TaskTemplates'] = 'Πρότυπα  Προγράμματος Εργασίας';
 $app_list_strings['relationship_type_list']['FS'] = 'Τέλος σε Αρχή';
 $app_list_strings['relationship_type_list']['SS'] = 'Αρχή σε Αρχή';
-$app_list_strings['duration_unit_dom']['Days'] = 'Days';
+$app_list_strings['duration_unit_dom']['Days'] = 'Ημέρες';
 $app_list_strings['duration_unit_dom']['Hours'] = 'Hours';
 $app_strings['LBL_GANTT_BUTTON_LABEL'] = 'Προβολή Gantt';
 $app_strings['LBL_DETAIL_BUTTON_LABEL'] = 'Προβολή Λεπτομερειών';
@@ -3283,26 +3283,26 @@ $app_list_strings['moduleList']['jjwp_Partners'] = 'Συνεργάτες JJWP';
 $app_list_strings['map_unit_type_list']['mi'] = 'Μίλια';
 $app_list_strings['map_unit_type_list']['km'] = 'Χιλιόμετρα';
 
-$app_list_strings['map_module_type_list']['Accounts'] = 'Accounts';
+$app_list_strings['map_module_type_list']['Accounts'] = 'Λογαριασμοί';
 $app_list_strings['map_module_type_list']['Contacts'] = 'Contacts';
-$app_list_strings['map_module_type_list']['Cases'] = 'Cases';
-$app_list_strings['map_module_type_list']['Leads'] = 'Leads';
+$app_list_strings['map_module_type_list']['Cases'] = 'Υποθέσεις';
+$app_list_strings['map_module_type_list']['Leads'] = 'Δυνητικοί Πελάτες';
 $app_list_strings['map_module_type_list']['Meetings'] = 'Meetings';
-$app_list_strings['map_module_type_list']['Opportunities'] = 'Opportunities';
+$app_list_strings['map_module_type_list']['Opportunities'] = 'Ευκαιρίες';
 $app_list_strings['map_module_type_list']['Project'] = 'Projects';
 $app_list_strings['map_module_type_list']['Prospects'] = 'Targets';
 
-$app_list_strings['map_relate_type_list']['Accounts'] = 'Account';
-$app_list_strings['map_relate_type_list']['Contacts'] = 'Contact';
-$app_list_strings['map_relate_type_list']['Cases'] = 'Case';
-$app_list_strings['map_relate_type_list']['Leads'] = 'Lead';
-$app_list_strings['map_relate_type_list']['Meetings'] = 'Meeting';
-$app_list_strings['map_relate_type_list']['Opportunities'] = 'Opportunity';
-$app_list_strings['map_relate_type_list']['Project'] = 'Project';
-$app_list_strings['map_relate_type_list']['Prospects'] = 'Target';
+$app_list_strings['map_relate_type_list']['Accounts'] = 'Λογαριασμό';
+$app_list_strings['map_relate_type_list']['Contacts'] = 'Επαφή';
+$app_list_strings['map_relate_type_list']['Cases'] = 'Υπόθεση';
+$app_list_strings['map_relate_type_list']['Leads'] = 'Δυνητικό Πελάτη';
+$app_list_strings['map_relate_type_list']['Meetings'] = 'Συνάντηση';
+$app_list_strings['map_relate_type_list']['Opportunities'] = 'Ευκαιρία';
+$app_list_strings['map_relate_type_list']['Project'] = 'Έργο';
+$app_list_strings['map_relate_type_list']['Prospects'] = 'Στόχο';
 
 $app_list_strings['marker_image_list']['accident'] = 'Ατύχημα';
-$app_list_strings['marker_image_list']['administration'] = 'Administration';
+$app_list_strings['marker_image_list']['administration'] = 'Διαχείριση';
 $app_list_strings['marker_image_list']['agriculture'] = 'Αγροτικό';
 $app_list_strings['marker_image_list']['aircraft_small'] = 'Αεροσκάφος Μικρό';
 $app_list_strings['marker_image_list']['airplane_tourism'] = 'Αεροπλάνο Τουριστικό';
@@ -3383,7 +3383,7 @@ $app_list_strings['marker_image_list']['hairsalon'] = 'Κομμωτήριο';
 $app_list_strings['marker_image_list']['helicopter'] = 'Ελικόπτερο';
 $app_list_strings['marker_image_list']['highway'] = 'Αυτοκινητόδρομος';
 $app_list_strings['marker_image_list']['historical_quarter'] = 'Ιστορική Συνοικία';
-$app_list_strings['marker_image_list']['home'] = 'Home';
+$app_list_strings['marker_image_list']['home'] = 'Αρχή';
 $app_list_strings['marker_image_list']['hospital'] = 'Νοσοκομείο';
 $app_list_strings['marker_image_list']['hostel'] = 'Xόστελ ';
 $app_list_strings['marker_image_list']['hotel'] = 'Ξενοδοχείο';
@@ -3459,7 +3459,7 @@ $app_list_strings['marker_image_list']['restaurant_turkish'] = 'Εστιατόρ
 $app_list_strings['marker_image_list']['right'] = 'Δεξιά';
 $app_list_strings['marker_image_list']['right_then_down'] = 'Δεξιά Και Μετά Κάτω';
 $app_list_strings['marker_image_list']['right_then_up'] = 'Δεξιά Και Μετά Πάνω';
-$app_list_strings['marker_image_list']['saturday'] = 'Saturday';
+$app_list_strings['marker_image_list']['saturday'] = 'Σάββατο';
 $app_list_strings['marker_image_list']['school'] = 'Σχολείο';
 $app_list_strings['marker_image_list']['shopping_mall'] = 'Εμπορικό Κέντρο';
 $app_list_strings['marker_image_list']['shore'] = 'Ακτή';
@@ -3579,13 +3579,13 @@ $app_strings['LBL_DELETE_DASHBOARD2'] = 'Ταμπλό?';
 $app_strings['LBL_ADD_DASHBOARD_PAGE'] = 'Προσθήκη Ταμπλό';
 $app_strings['LBL_DELETE_DASHBOARD_PAGE'] = 'Διαγραφή Τρέχοντος Ταμπλό';
 $app_strings['LBL_RENAME_DASHBOARD_PAGE'] = 'Μετονομασία Ταμπλό';
-$app_strings['LBL_SUITE_DASHBOARD_ACTIONS'] = 'ACTIONS';
+$app_strings['LBL_SUITE_DASHBOARD_ACTIONS'] = 'ΕΝΕΡΓΕΙΕΣ';
 
 $app_list_strings['collection_temp_list'] = array(
-    'Tasks' => 'Tasks',
+    'Tasks' => 'Εργασίες',
     'Meetings' => 'Meetings',
-    'Calls' => 'Calls',
-    'Notes' => 'Notes',
+    'Calls' => 'Τηλεφωνικές Κλήσεις',
+    'Notes' => 'Σημειώσεις:',
     'Emails' => 'Emails'
 );
 
@@ -3596,13 +3596,13 @@ $app_strings['LBL_LOADING_ERROR_INLINE_EDITING'] = "Παρουσιάστηκε �
 //SuiteSpots
 $app_list_strings['spots_areas'] = array(
     'getSalesSpotsData' => 'Sales',
-    'getAccountsSpotsData' => 'Accounts',
-    'getLeadsSpotsData' => 'Leads',
+    'getAccountsSpotsData' => 'Λογαριασμοί',
+    'getLeadsSpotsData' => 'Δυνητικοί Πελάτες',
     'getServiceSpotsData' => 'Service',
-    'getMarketingSpotsData' => 'Marketing',
+    'getMarketingSpotsData' => 'Μάρκετινγκ',
     'getMarketingActivitySpotsData' => 'Δραστηριότητα Μάρκετινγκ',
     'getActivitiesSpotsData' => 'Activities',
-    'getQuotesSpotsData' => 'Quotes'
+    'getQuotesSpotsData' => 'Προσφορές'
 );
 
 $app_list_strings['moduleList']['Spots'] = 'Σημεία';
@@ -3637,7 +3637,7 @@ $app_list_strings['day_list']['Tuesday'] = 'Tuesday';
 $app_list_strings['day_list']['Wednesday'] = 'Wednesday';
 $app_list_strings['day_list']['Thursday'] = 'Thursday';
 $app_list_strings['day_list']['Friday'] = 'Friday';
-$app_list_strings['day_list']['Saturday'] = 'Saturday';
+$app_list_strings['day_list']['Saturday'] = 'Σάββατο';
 $app_list_strings['day_list']['Sunday'] = 'Sunday';
 $app_list_strings['pdf_page_size_dom']['A4'] = 'A4';
 $app_list_strings['pdf_page_size_dom']['Letter'] = 'Επιστολή';
@@ -3652,8 +3652,8 @@ $app_list_strings['moduleList']['SurveyQuestionResponses'] = 'Απαντήσει
 $app_list_strings['moduleList']['SurveyQuestions'] = 'Ερωτήσεις έρευνας';
 $app_list_strings['moduleList']['SurveyQuestionOptions'] = 'Επιλογές ερωτήσεων έρευνας';
 $app_list_strings['survey_status_list']['Draft'] = 'Draft';
-$app_list_strings['survey_status_list']['Public'] = 'Public';
-$app_list_strings['survey_status_list']['Closed'] = 'Closed';
+$app_list_strings['survey_status_list']['Public'] = 'Δημόσια';
+$app_list_strings['survey_status_list']['Closed'] = 'Κλειστό';
 $app_list_strings['surveys_question_type']['Text'] = 'Text';
 $app_list_strings['surveys_question_type']['Textbox'] = 'Πλαίσιο κειμένου';
 $app_list_strings['surveys_question_type']['Checkbox'] = 'Κουτί Ελέγχου';
@@ -3662,7 +3662,7 @@ $app_list_strings['surveys_question_type']['Dropdown'] = 'Αναπτυσσόμε
 $app_list_strings['surveys_question_type']['Multiselect'] = 'Πολυεπιλογή';
 $app_list_strings['surveys_question_type']['Matrix'] = 'Πίνακας';
 $app_list_strings['surveys_question_type']['DateTime'] = 'Ημερομηνία ώρα';
-$app_list_strings['surveys_question_type']['Date'] = 'Date';
+$app_list_strings['surveys_question_type']['Date'] = 'Ημερομηνία';
 $app_list_strings['surveys_question_type']['Scale'] = 'Κλίμακα';
 $app_list_strings['surveys_question_type']['Rating'] = 'Rating';
 $app_list_strings['surveys_matrix_options'][0] = 'Ικανοποιημένος';
@@ -3671,25 +3671,25 @@ $app_list_strings['surveys_matrix_options'][2] = 'Δυσαρεστημένος';
 
 $app_list_strings['moduleList']['CalendarAccount'] = 'Calendar Accounts';
 
-$app_strings['LBL_OPT_IN_PENDING_EMAIL_NOT_SENT'] = 'Pending Confirm opt in, Confirm opt in not sent';
+$app_strings['LBL_OPT_IN_PENDING_EMAIL_NOT_SENT'] = 'Εκκρεμεί η επιβεβαίωση συμμετοχής, η Επιβεβαίωση συμμετοχής δεν εστάλη';
 $app_strings['LBL_OPT_IN_PENDING_EMAIL_FAILED'] = 'Confirm opt in email sending failed';
-$app_strings['LBL_OPT_IN_PENDING_EMAIL_SENT'] = 'Pending Confirm opt in, Confirm opt in sent';
-$app_strings['LBL_OPT_IN'] = 'Opted in';
+$app_strings['LBL_OPT_IN_PENDING_EMAIL_SENT'] = 'Εκκρεμεί η επιβεβαίωση συμμετοχής, η Επιβεβαίωση συμμετοχής εστάλη';
+$app_strings['LBL_OPT_IN'] = 'Συμμετέχει';
 $app_strings['LBL_OPT_IN_CONFIRMED'] = 'Confirmed Opted in';
-$app_strings['LBL_OPT_IN_OPT_OUT'] = 'Opted Out';
-$app_strings['LBL_OPT_IN_INVALID'] = 'Invalid';
+$app_strings['LBL_OPT_IN_OPT_OUT'] = 'Αποχωρημένο';
+$app_strings['LBL_OPT_IN_INVALID'] = 'Διαθέσιμη';
 
 /** @see SugarEmailAddress */
 $app_list_strings['email_settings_opt_in_dom'] = array(
-    'not-opt-in' => 'Disabled',
-    'opt-in' => 'Opt In',
-    'confirmed-opt-in' => 'Confirmed Opt In'
+    'not-opt-in' => 'Απενεργοποιημένο',
+    'opt-in' => 'Αιτηθείτε',
+    'confirmed-opt-in' => 'Εγγραφή επιβεβαιώθηκε'
 );
 
 $app_list_strings['email_confirmed_opt_in_dom'] = array(
     'not-opt-in' => 'Not Opt In',
-    'opt-in' => 'Opt In',
-    'confirmed-opt-in' => 'Confirmed Opt In'
+    'opt-in' => 'Αιτηθείτε',
+    'confirmed-opt-in' => 'Εγγραφή επιβεβαιώθηκε'
 );
 
 $app_strings['RESPONSE_SEND_CONFIRM_OPT_IN_EMAIL'] = 'The confirm opt in email has been added to the email queue for %s email address(es). ';
@@ -3715,7 +3715,7 @@ $app_list_strings['oauth2_grant_type_dom'] = array(
 $app_list_strings['oauth2_duration_units'] = [
     'minute' => 'λεπτά',
     'hour' => 'ώρες',
-    'day' => 'days',
+    'day' => 'ημέρες',
     'week' => 'εβδομάδες',
     'month' => 'μήνες',
 ];
@@ -3729,7 +3729,7 @@ $app_list_strings['search_controllers'] = [
 $app_list_strings['calendar_account_types'] = [
     'personal' => 'Personal',
     'shared' => 'Κοινόχρηστα',
-    'group' => 'Group',
+    'group' => 'Γκρουπ',
 ];
 
 // Calendar Connection Status dropdown
@@ -3742,7 +3742,7 @@ $app_list_strings['calendar_connection_status_list'] = [
 // Calendar Sync Attempt Status dropdown
 $app_list_strings['sync_attempt_status_list'] = [
     '' => '',
-    'in_progress' => 'In Progress',
+    'in_progress' => 'Σε εξέλιξη',
     'success' => 'Success',
     'warning' => 'Προειδοποίηση',
     'error' => 'Λάθος',
@@ -3792,8 +3792,8 @@ $app_strings['LBL_SEARCH_QUERY']                   = 'Ερώτημα αναζή�
 $app_strings['LBL_SEARCH_RESULTS_PER_PAGE']        = 'Results per module: ';
 $app_strings['LBL_SEARCH_ENGINE']                  = 'Μηχανή: ';
 $app_strings['LBL_SEARCH_TOTAL'] = 'Σύνολο αποτελεσμάτων: ';
-$app_strings['LBL_SEARCH_PREV'] = 'Previous';
-$app_strings['LBL_SEARCH_NEXT'] = 'Next';
+$app_strings['LBL_SEARCH_PREV'] = 'Προηγούμενη';
+$app_strings['LBL_SEARCH_NEXT'] = 'Επόμενη';
 $app_strings['LBL_SEARCH_PAGE'] = 'Σελίδα ';
 $app_strings['LBL_SEARCH_OF'] = ' από ';
 $app_strings['LBL_USE_ADVANCED_SEARCH'] = 'Use Advanced Search';
@@ -3817,7 +3817,7 @@ $app_strings['WARN_OAUTH_TOKEN_SESSION_EXPIRED'] = 'Your IMAP OAuth session has 
 $app_strings['ERR_OAUTH_CONNECTION_ERROR'] = 'Not able to connect using OAuth login. For connection: ';
 
 $app_strings['LBL_KEY'] = 'Κλειδί';
-$app_strings['LBL_VALUE'] = 'Value';
+$app_strings['LBL_VALUE'] = 'Αξία';
 $app_strings['LBL_OPTIONAL'] = 'Optional';
 $app_strings['LBL_OPTIONAL_CONNECTION_STRING'] = 'Optional. Set to use a specific connection string';
 $app_strings['LBL_OUTBOUND_ACCOUNT'] = 'Outbound Account';
