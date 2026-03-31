@@ -44,9 +44,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings['LBL_ASSIGNED_TO_ID'] = 'Assigned User Id';
 $mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Assigned to';
-$mod_strings['LBL_ID'] = 'ID';
+$mod_strings['LBL_ID'] = 'Tunnus';
 $mod_strings['LBL_DATE_ENTERED'] = 'Date Created';
-$mod_strings['LBL_DATE_MODIFIED'] = 'Date Modified';
+$mod_strings['LBL_DATE_MODIFIED'] = 'Muokkauspvm';
 $mod_strings['LBL_MODIFIED'] = 'Modified By';
 $mod_strings['LBL_MODIFIED_NAME'] = 'Modified By Name';
 $mod_strings['LBL_CREATED'] = 'Created By';
