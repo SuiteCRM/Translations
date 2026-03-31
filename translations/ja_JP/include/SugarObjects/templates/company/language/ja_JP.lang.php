@@ -56,8 +56,8 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'アサイン先:',
     'LBL_RATING' => '格付:',
     'LBL_ASSIGNED_TO' => 'アサイン先:',
-    'LBL_ASSIGNED_USER' => 'アサイン先:',
-    'LBL_ASSIGNED_TO_ID' => 'アサイン先:',
+    'LBL_ASSIGNED_USER' => '担当ユーザー名:',
+    'LBL_ASSIGNED_TO_ID' => '担当ユーザー名:',
     'LBL_BILLING_ADDRESS_CITY' => '請求先市区町村:',
     'LBL_BILLING_ADDRESS_COUNTRY' => '請求先国:',
     'LBL_BILLING_ADDRESS_POSTALCODE' => '請求先郵便番号:',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => '本当にこのレコードを削除してよいですか?',
 
     'LBL_EDIT_BUTTON' => '編集  ',
-    'LBL_REMOVE' => '削除',
+    'LBL_REMOVE' => 'Remove',
 
 );
