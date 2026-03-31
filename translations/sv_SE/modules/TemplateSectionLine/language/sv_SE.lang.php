@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_DESCRIPTION' => 'Beskrivning',
+    'LBL_DESCRIPTION' => 'Description',
     'LBL_NAME' => 'Namn',
     'LBL_LIST_NAME' => 'Namn',
     'LBL_EDIT_BUTTON' => 'Redigera',
-    'LBL_REMOVE' => 'Ta bort',
-    'LBL_GRP' => 'Grupp',
-    'LBL_ORD' => 'Ordning',
+    'LBL_REMOVE' => 'Remove',
+    'LBL_GRP' => 'Group',
+    'LBL_ORD' => 'Order',
     'LBL_THUMBNAIL' => 'Miniatyrbild',
 );
