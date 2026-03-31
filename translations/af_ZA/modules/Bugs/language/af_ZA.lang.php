@@ -83,9 +83,9 @@ $mod_strings = array(
     'LBL_MODIFIED_BY' => 'Last Modified by:',
 
     'LBL_LIST_EMAIL_ADDRESS' => 'Email Address',
-    'LBL_LIST_CONTACT_NAME' => 'Contact Name',
+    'LBL_LIST_CONTACT_NAME' => 'Kontak naam',
     'LBL_LIST_ACCOUNT_NAME' => 'Account Name',
-    'LBL_LIST_PHONE' => 'Phone',
+    'LBL_LIST_PHONE' => 'Telefoon',
     'NTC_DELETE_CONFIRMATION' => 'Are you sure you want to remove this contact from this bug?',
 
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Bug Tracker',
@@ -97,7 +97,7 @@ $mod_strings = array(
     'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projects',
     'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documents',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigned User',
-    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
+    'LBL_ASSIGNED_TO_NAME' => 'Toegewys aan',
 
     'LBL_BUG_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
