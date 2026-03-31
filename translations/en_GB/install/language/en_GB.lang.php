@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_BASIC' => 'Basic',
+    'LBL_BASIC' => 'BASIC',
     'LBL_BASIC_SEARCH' => 'Quick Filter',
     'LBL_ADVANCED_SEARCH' => 'Advanced Filter',
     'LBL_BASIC_TYPE' => 'Basic Type',
