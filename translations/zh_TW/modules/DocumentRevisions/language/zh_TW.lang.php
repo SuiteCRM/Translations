@@ -46,33 +46,33 @@ $mod_strings = array(
     //module
     'LBL_MODULE_NAME' => '文件修訂版本',
 
-    'LNK_NEW_DOCUMENT' => '新增文件',
+    'LNK_NEW_DOCUMENT' => 'Create Document',
     'LNK_DOCUMENT_LIST' => '查看文件',
 
     //vardef labels
-    'LBL_REVISION_NAME' => '版本編號',
+    'LBL_REVISION_NAME' => 'Revision Number',
     'LBL_FILENAME' => '文件:',
-    'LBL_MIME' => 'Mime類型',
-    'LBL_REVISION' => '版本',
-    'LBL_DOCUMENT' => '相關文件',
-    'LBL_LATEST_REVISION' => '最新版本',
-    'LBL_CHANGE_LOG' => '修改日誌',
-    'LBL_ACTIVE_DATE' => '公佈日期',
-    'LBL_EXPIRATION_DATE' => '有效期',
-    'LBL_FILE_EXTENSION' => '副檔名',
+    'LBL_MIME' => 'Mime Type',
+    'LBL_REVISION' => 'Revision',
+    'LBL_DOCUMENT' => 'Related Document',
+    'LBL_LATEST_REVISION' => 'Latest Revision',
+    'LBL_CHANGE_LOG' => '更改日誌',
+    'LBL_ACTIVE_DATE' => 'Publish Date',
+    'LBL_EXPIRATION_DATE' => 'Expiration Date',
+    'LBL_FILE_EXTENSION' => 'File Extension',
 
-    'LBL_DOC_NAME' => '文件名稱:',
-    'LBL_DOC_VERSION' => '版本:',
+    'LBL_DOC_NAME' => 'Document Name:',
+    'LBL_DOC_VERSION' => 'Revision:',
 
     //document revisions.
-    'LBL_REV_LIST_REVISION' => '版本',
+    'LBL_REV_LIST_REVISION' => 'Revision',
     'LBL_REV_LIST_ENTERED' => '建立日期',
-    'LBL_REV_LIST_CREATED' => '建立人',
-    'LBL_REV_LIST_LOG' => '修改日誌',
-    'LBL_REV_LIST_FILENAME' => '文件名',
+    'LBL_REV_LIST_CREATED' => 'Created by',
+    'LBL_REV_LIST_LOG' => '更改日誌',
+    'LBL_REV_LIST_FILENAME' => '文件',
 
     'LBL_CURRENT_DOC_VERSION' => '最新修訂版本:',
-    'LBL_SEARCH_FORM_TITLE' => '文件搜尋',
+    'LBL_SEARCH_FORM_TITLE' => 'Document Search',
     'LBL_REVISIONS' => '修訂版',
 
     //error messages
@@ -80,7 +80,7 @@ $mod_strings = array(
     'ERR_DOC_VERSION' => '文件版本',
     'ERR_DELETE_CONFIRM' => '你想要刪除此文件的修訂版本嗎？',
     'ERR_DELETE_LATEST_VERSION' => '您沒有許可權刪除這個文件的最新修訂版本。',
-    'LNK_NEW_MAIL_MERGE' => '郵件合併',
+    'LNK_NEW_MAIL_MERGE' => 'Mail Merge',
     'LBL_DOC_ID' => '文件源標識',
     'LBL_DOC_TYPE' => '文件源',
     'LBL_DOC_URL' => '文件源URL',
