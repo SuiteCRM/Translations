@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_ID' => 'Възложен на оператор с идентификационен номер',
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date Created',
@@ -58,8 +58,8 @@ $mod_strings = array(
     'LBL_MODIFIED_USER' => 'Modified by User',
     'LBL_LIST_NAME' => 'Name',
     'LBL_LIST_FORM_TITLE' => 'Process Audit List',
-    'LBL_MODULE_NAME' => 'Process Audit',
-    'LBL_MODULE_TITLE' => 'Process Audit',
+    'LBL_MODULE_NAME' => 'Одит на процес',
+    'LBL_MODULE_TITLE' => 'Одит на процес',
     'LBL_HOMEPAGE_TITLE' => 'My Process Audit',
     'LNK_NEW_RECORD' => 'Create Process Audit',
     'LNK_LIST' => 'View Process Audit',
