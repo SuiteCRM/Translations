@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'صادرات',
+    'LBL_MODULE_NAME' => 'Releases',
     'LBL_MODULE_TITLE' => 'Releases: Home',
     'LBL_SEARCH_FORM_TITLE' => 'Release Search',
     'LBL_LIST_FORM_TITLE' => 'Release List',
@@ -66,5 +66,5 @@ $mod_strings = array(
             'Active' => 'فعال',
             'Inactive' => 'غیر فعال ہے',
         ),
-    'LBL_EDITLAYOUT' => 'لے آؤٹ میں ترمیم کریں' /*for 508 compliance fix*/,
+    'LBL_EDITLAYOUT' => 'لے آوٹ میں تبدیل کرنا' /*for 508 compliance fix*/,
 );
