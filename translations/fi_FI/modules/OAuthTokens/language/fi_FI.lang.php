@@ -47,7 +47,7 @@ $mod_strings = array(
     'LBL_OAUTH_AUTHORIZE' => "Authorize Token",
     'LBL_OAUTH_CONSUMERREQ' => "Authorize token from consumer <b>%s</b>?",
     'LBL_ASSIGNED_TO_NAME' => 'User',
-    'LBL_ID' => 'ID',
+    'LBL_ID' => 'Tunnus',
     'LBL_STATUS' => 'Status',
     'LBL_TS' => 'Timestamp',
     'LBL_LIST_DELETE' => 'Delete Token',
@@ -58,5 +58,5 @@ $mod_strings = array(
     'LBL_CALLBACK_URL' => 'Callback URL',
     'LBL_SECRET' => 'Secret',
     'LBL_TSTATE' => 'TState',
-    'LBL_VERIFY' => 'Verify',
+    'LBL_VERIFY' => 'Vahvista',
 );
