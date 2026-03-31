@@ -96,7 +96,7 @@ $mod_strings['LBL_EXPORT_ADDRESS_URL'] = 'Exportar URLs';
 $mod_strings['LBL_EXPORT_INSTRUCTIONS'] = 'Utilitzeu els següents enllaços per exportar adreces complets que necessiten informació geocodeing. Llavors utilitzar una eina en línia o offline lot Geocodificació Geocodifica les adreces. Quan hàgiu acabat Geocodificació, importar les adreces al mòdul d\'adreça memòria cau per utilitzar amb els seus mapes. Tingueu en compte que el mòdul d\'adreça memòria cau és opcional. Tota la informació Geocodificació s\'emmagatzema en el mòdul representatiu.';
 $mod_strings['LBL_ADDRESS_CACHE'] = 'Address Cache';
 $mod_strings['LBL_ADD_TO_TARGET_LIST'] = 'afegir a la llista de destinacions';
-$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Processing...';
+$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Processant...';
 
 
 $mod_strings['LBL_CONFIG_TITLE'] = 'Configuració';
@@ -185,7 +185,7 @@ $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = "Nota important: totes les c
 $mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Areas';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'Marcadors';
 $mod_strings['LBL_PARENT_ID'] = 'Parent ID';
-$mod_strings['LBL_JJWP_PARTNERS'] = 'JJWP Partners';
+$mod_strings['LBL_JJWP_PARTNERS'] = 'JJWP socis';
 $mod_strings['LBL_GET_GOOGLE_API_KEY'] = 'Aconseguir una clau';
 $mod_strings['LBL_GOOGLE_API_KEY'] = 'Clau d\'Api de Google';
 $mod_strings['LBL_ERROR_NO_GOOGLE_API_KEY'] = 'Establiu la clau de Google Api al Panell Administratiu de Google Maps.
