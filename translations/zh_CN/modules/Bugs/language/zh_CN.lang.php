@@ -50,7 +50,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Bug 列表',
     'LBL_NEW_FORM_TITLE' => '新建',
     'LBL_SUBJECT' => '主题',
-    'LBL_NUMBER' => '编号',
+    'LBL_NUMBER' => '号码',
     'LBL_STATUS' => '状态',
     'LBL_PRIORITY' => '优先级',
     'LBL_DESCRIPTION' => '说明',
@@ -59,11 +59,11 @@ $mod_strings = array(
     'LBL_LIST_NUMBER' => '编号',
     'LBL_LIST_SUBJECT' => '主题',
     'LBL_LIST_STATUS' => '状态',
-    'LBL_LIST_PRIORITY' => '优先级',
+    'LBL_LIST_PRIORITY' => 'Priority',
     'LBL_LIST_RESOLUTION' => '附加信息',
     'LBL_LIST_LAST_MODIFIED' => '最新修改',
     'LBL_INVITEE' => '联系人',
-    'LBL_TYPE' => '类型',
+    'LBL_TYPE' => 'Type:',
     'LBL_LIST_TYPE' => '类型',
     'LBL_RESOLUTION' => '分析',
     'LBL_RELEASE' => '版本',
@@ -75,17 +75,17 @@ $mod_strings = array(
     'LBL_FOUND_IN_RELEASE' => '发现 Bug 的版本',
     'LBL_FIXED_IN_RELEASE' => '修复 Bug 的版本',
     'LBL_LIST_FIXED_IN_RELEASE' => '修复 Bug 的版本',
-    'LBL_WORK_LOG' => '工作日志',
+    'LBL_WORK_LOG' => '工作记录',
     'LBL_SOURCE' => '来源',
-    'LBL_PRODUCT_CATEGORY' => '产品类别',
+    'LBL_PRODUCT_CATEGORY' => '类别',
 
     'LBL_CREATED_BY' => '创建人',
     'LBL_MODIFIED_BY' => '修改人',
 
     'LBL_LIST_EMAIL_ADDRESS' => 'Email 地址',
     'LBL_LIST_CONTACT_NAME' => '联系人',
-    'LBL_LIST_ACCOUNT_NAME' => '客户名称',
-    'LBL_LIST_PHONE' => '电话',
+    'LBL_LIST_ACCOUNT_NAME' => 'Account Name',
+    'LBL_LIST_PHONE' => 'Phone',
     'NTC_DELETE_CONFIRMATION' => '您确定要删除此项记录？',
     'NTC_SNOOZE_CONFIRMATION' => '确定要暂停吗？',
 
@@ -97,9 +97,9 @@ $mod_strings = array(
     'LBL_CASES_SUBPANEL_TITLE' => '客户反馈',
     'LBL_PROJECTS_SUBPANEL_TITLE' => '项目',
     'LBL_DOCUMENTS_SUBPANEL_TITLE' => '文档',
-    'LBL_LIST_ASSIGNED_TO_NAME' => '负责人',
-    'LBL_ASSIGNED_TO_NAME' => '负责人',
+    'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigned User',
+    'LBL_ASSIGNED_TO_NAME' => '分配给',
 
-    'LBL_BUG_INFORMATION' => '客户信息', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_BUG_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
 );
