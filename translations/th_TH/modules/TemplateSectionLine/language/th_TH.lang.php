@@ -46,9 +46,9 @@ $mod_strings = array(
     'LBL_DESCRIPTION' => 'รายละเอียด',
     'LBL_NAME' => 'ชื่อ',
     'LBL_LIST_NAME' => 'ชื่อ',
-    'LBL_EDIT_BUTTON' => 'แก้ไข',
-    'LBL_REMOVE' => 'ลบออก',
-    'LBL_GRP' => 'กลุ่ม',
-    'LBL_ORD' => 'ลำดับ',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
+    'LBL_GRP' => 'Group',
+    'LBL_ORD' => 'Order',
     'LBL_THUMBNAIL' => 'รูปขนาดย่อ',
 );
