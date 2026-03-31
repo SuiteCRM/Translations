@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_DESCRIPTION' => 'תאור',
+    'LBL_DESCRIPTION' => 'תיאור',
     'LBL_NAME' => 'שם',
     'LBL_LIST_NAME' => 'שם',
-    'LBL_EDIT_BUTTON' => 'לערוך',
-    'LBL_REMOVE' => 'הסר',
-    'LBL_GRP' => 'קבוצה',
-    'LBL_ORD' => 'סדר',
+    'LBL_EDIT_BUTTON' => 'ערוך',
+    'LBL_REMOVE' => 'Remove',
+    'LBL_GRP' => 'Group',
+    'LBL_ORD' => 'Order',
     'LBL_THUMBNAIL' => 'Thumbnail',
 );
