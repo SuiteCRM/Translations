@@ -43,16 +43,16 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Releases',
+    'LBL_MODULE_NAME' => 'Versions',
     'LBL_MODULE_TITLE' => 'Versions : Accueil',
     'LBL_SEARCH_FORM_TITLE' => 'Chercher une version',
     'LBL_LIST_FORM_TITLE' => 'Liste des versions',
     'LBL_NEW_FORM_TITLE' => 'Nouvelle version',
-    'LBL_RELEASE' => 'Release:',
+    'LBL_RELEASE' => 'Version :',
     'LBL_LIST_NAME' => 'Release',
     'LBL_NAME' => 'Version :',
-    'LBL_LIST_LIST_ORDER' => 'Order',
-    'LBL_LIST_ORDER' => 'Order:',
+    'LBL_LIST_LIST_ORDER' => 'Tri',
+    'LBL_LIST_ORDER' => 'Tri :',
     'LBL_LIST_STATUS' => 'Status',
     'LBL_STATUS' => 'Status:',
     'LNK_NEW_RELEASE' => 'Release List',
@@ -62,8 +62,8 @@ $mod_strings = array(
     'NTC_LIST_ORDER' => 'Renseigner la position à laquelle cette version doit apparaître dans la liste déroulante des versions',
     'release_status_dom' =>
         array(
-            'Active' => 'Active',
-            'Inactive' => 'Inactive',
+            'Active' => 'Activé',
+            'Inactive' => 'Désactivé',
         ),
-    'LBL_EDITLAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
+    'LBL_EDITLAYOUT' => 'Modifier la mise en page' /*for 508 compliance fix*/,
 );
