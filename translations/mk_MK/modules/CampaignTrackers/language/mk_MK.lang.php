@@ -53,7 +53,7 @@ $mod_strings = array(
     'LBL_MODIFIED_USER_ID' => 'Modified User Id',
     'LBL_CREATED_BY' => 'Креирано од',
     'LBL_DELETED' => 'Избришан',
-    'LBL_CAMPAIGN' => 'Кампања',
+    'LBL_CAMPAIGN' => 'Campaign',
     'LBL_OPTOUT' => 'Opt-out',
 
     'LBL_MODULE_NAME' => 'Campaign Trackers',
