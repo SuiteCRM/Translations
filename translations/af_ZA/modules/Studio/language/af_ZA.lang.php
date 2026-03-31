@@ -60,7 +60,7 @@ $mod_strings = array(
 //CUSTOM FIELDS
     'LBL_NAME' => 'Name',
     'LBL_LABEL' => 'Label',
-    'LBL_MASS_UPDATE' => 'Mass Update',
+    'LBL_MASS_UPDATE' => 'Massa bywerking',
     'LBL_DEFAULT_VALUE' => 'Default Value',
     'LBL_REQUIRED' => 'Required',
     'LBL_DATA_TYPE' => 'Type',
