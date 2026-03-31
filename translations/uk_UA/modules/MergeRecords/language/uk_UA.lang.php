@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Список записів, які підлягають об&#039;єднанню',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Пошук записів для об&#039;єднання',
-    'LBL_AVAIL_FIELDS' => 'Доступні поля',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'Умова фільтру',
     'LBL_MERGE_VALUE_OVER' => 'Перезаписати значенням',
 
@@ -58,15 +58,15 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Виконати злиття',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Виконати злиття',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Зберегти злиття',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Зберегти злиття',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => 'Знайдені записи для об&#039;єднання з',
     'LBL_SELECT_ERROR' => 'Ви повинні зробити вибір перед тим, як продовжити.',
     'LBL_CHANGE_PARENT' => 'Зробити основною',
-    'LBL_REMOVE_FROM_MERGE' => 'Видалити',
+    'LBL_REMOVE_FROM_MERGE' => 'Remove',
     'LBL_DIFF_COL_VALUES' => 'Колонки, значення яких відрізняються в поєднуваних записах:',
     'LBL_SAME_COL_VALUES' => 'Колонки, значення яких збігаються по всім записам:',
     'LBL_DELETE_MESSAGE' => 'В результаті будуть видалені наступні записи:',
