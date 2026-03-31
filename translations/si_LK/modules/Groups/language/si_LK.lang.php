@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'කණ්ඩායම්',
-    'LBL_GROUP_NAME' => 'සමූහය නම:',
-    'LBL_DESCRIPTION' => 'විස්තරය:',
-    'LBL_TEAM' => 'කණ්ඩායම:',
+    'LBL_MODULE_NAME' => 'Groups',
+    'LBL_GROUP_NAME' => 'Group Name:',
+    'LBL_DESCRIPTION' => 'Description:',
+    'LBL_TEAM' => 'Team:',
     // ListView
-    'LBL_LIST_TITLE' => 'කණ්ඩායම්',
+    'LBL_LIST_TITLE' => 'Groups',
     // Links
     'LNK_ALL_GROUPS' => 'සියලුම කණ්ඩායම්',
     'LNK_NEW_GROUP' => 'සමූහ නිර්මාණය',
