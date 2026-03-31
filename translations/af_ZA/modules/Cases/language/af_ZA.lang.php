@@ -53,7 +53,7 @@ $mod_strings = array(
     'LBL_NO_SUGGESTIONS' => 'No Suggestions',
     'LBL_RESOLUTION_BUTTON' => 'Resolution',
     'LBL_SUGGESTION_BOX_STATUS' => 'Status',
-    'LBL_SUGGESTION_BOX_TITLE' => 'Title',
+    'LBL_SUGGESTION_BOX_TITLE' => 'Titel',
     'LBL_SUGGESTION_BOX_REL' => 'Relevance',
 
     'LBL_ACCOUNT_ID' => 'Account ID',
@@ -96,8 +96,8 @@ $mod_strings = array(
 
     'LNK_CASE_LIST' => 'View Cases',
     'LNK_NEW_CASE' => 'Create Case',
-    'LBL_LIST_DATE_CREATED' => 'Date Created',
-    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
+    'LBL_LIST_DATE_CREATED' => 'Datum geskep',
+    'LBL_ASSIGNED_TO_NAME' => 'Toegewys aan',
     'LBL_TYPE' => 'Type',
     'LBL_WORK_LOG' => 'Work Log',
     'LNK_IMPORT_CASES' => 'Import Cases',
@@ -125,7 +125,7 @@ $mod_strings = array(
     'LBL_SELECT_INTERNAL_CASE_DOCUMENT' => 'Internal CRM document',
     'LBL_SELECT_EXTERNAL_CASE_DOCUMENT' => 'External file',
     'LBL_CONTACT_CREATED_BY_NAME' => 'Created by contact',
-    'LBL_CONTACT_CREATED_BY' => 'Created by',
+    'LBL_CONTACT_CREATED_BY' => 'Geskep deur',
     'LBL_CASE_UPDATE_FORM' => 'Updates - Attachment form', //Form for attachments on case updates
     'LBL_UNKNOWN_CONTACT' => 'Unknown Contact',
 );
