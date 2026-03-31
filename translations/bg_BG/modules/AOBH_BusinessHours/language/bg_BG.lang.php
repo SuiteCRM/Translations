@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_ID' => 'Възложен на оператор с идентификационен номер',
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date Created',
@@ -60,8 +60,8 @@ $mod_strings = array(
     'LBL_EDIT_BUTTON' => 'Edit',
     'LBL_REMOVE' => 'Remove',
     'LBL_LIST_FORM_TITLE' => 'Business Hours List',
-    'LBL_MODULE_NAME' => 'Business Hours',
-    'LBL_MODULE_TITLE' => 'Business Hours',
+    'LBL_MODULE_NAME' => 'Работно време',
+    'LBL_MODULE_TITLE' => 'Работно време',
     'LBL_HOMEPAGE_TITLE' => 'My Business Hours',
     'LNK_NEW_RECORD' => 'Create Business Hours',
     'LNK_LIST' => 'View Business Hours',
