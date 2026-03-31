@@ -131,8 +131,8 @@ $mod_strings = array(
     'LBL_SNOOZE_TIMER' => 'Setați amânarea pentru notificări',
     'SYSTEM_NAME_HELP' => 'Acesta este numele care se afișează în bara de titlu a browserului.',
     'LBL_LDAP_TITLE' => 'Suport autentificare LDAP',
-    'LBL_LDAP_LEGACY_WARNING' => 'LDAP Warning',
-    'LBL_LDAP_LEGACY_WARNING_MORE' => 'This LDAP configuration will only be used for v4 API authentication. To configure SuiteCRM login to use LDAP, add the needed configurations to the .env.local file. See LDAP configuration docs for more information.',
+    'LBL_LDAP_LEGACY_WARNING' => 'Avertizare LDAP',
+    'LBL_LDAP_LEGACY_WARNING_MORE' => 'Această configurare LDAP va fi utilizată numai pentru autentificare v4 API. Pentru a configura SuiteCRM logare pentru a utiliza LDAP, adaugați configurațiile necesare in fișierul .env.local. Vezi documentele de configurare LDAP pentru mai multe informații.',
     'LBL_LDAP_ENABLE' => 'Activează LDAP',
     'LBL_LDAP_SERVER_HOSTNAME' => 'Server:',
     'LBL_LDAP_SERVER_PORT' => 'Număr port:',
@@ -234,5 +234,5 @@ $mod_strings = array(
     'LBL_WELCOME' => 'Bun venit' /*for 508 compliance fix*/,
     'LBL_LOGO' => 'Logo' /*for 508 compliance fix*/,
     'LBL_ENABLE_HISTORY_CONTACTS_EMAILS' => 'Arată istoricul e-mailurilor de contact asociate modulului SubPanoul',
-    'LBL_HISTORY_SUBPANEL' => 'History Subpanel',
+    'LBL_HISTORY_SUBPANEL' => 'Istoric SubPanel',
 );
