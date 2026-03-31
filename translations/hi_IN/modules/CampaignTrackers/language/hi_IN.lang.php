@@ -52,7 +52,7 @@ $mod_strings = array(
     'LBL_DATE_MODIFIED' => 'तिथि संशोधित',
     'LBL_MODIFIED_USER_ID' => 'संशोधित उपयोगकर्ता आईडी',
     'LBL_CREATED_BY' => 'के द्वारा बनाई गई',
-    'LBL_DELETED' => 'हटाई गई',
+    'LBL_DELETED' => 'हटाए गए',
     'LBL_CAMPAIGN' => 'अभियान',
     'LBL_OPTOUT' => 'ऑप्ट-आउट करें',
 
