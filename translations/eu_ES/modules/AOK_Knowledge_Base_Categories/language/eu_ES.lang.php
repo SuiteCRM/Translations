@@ -43,15 +43,15 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_ID' => 'Esleitutako erabiltzailearen Id',
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date Created',
     'LBL_DATE_MODIFIED' => 'Date Modified',
     'LBL_MODIFIED' => 'Modified By',
     'LBL_MODIFIED_ID' => 'Modified By Id',
-    'LBL_MODIFIED_NAME' => 'Modified By Name',
-    'LBL_CREATED' => 'Created By',
+    'LBL_MODIFIED_NAME' => 'Nork aldatua',
+    'LBL_CREATED' => 'Sortzailea',
     'LBL_CREATED_ID' => 'Created By Id',
     'LBL_DESCRIPTION' => 'Description',
     'LBL_DELETED' => 'Deleted',
@@ -69,7 +69,7 @@ $mod_strings = array(
     'LNK_LIST' => 'View KB Categories',
     'LNK_IMPORT_AOK_KB_CATEGORIES' => 'Import KB Categories',
     'LBL_SEARCH_FORM_TITLE' => 'Search KB Categories',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Historia ikusi',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_AOK_KB_CATEGORIES_SUBPANEL_TITLE' => 'KB Categories',
     'LBL_NEW_FORM_TITLE' => 'New KB Categories',
