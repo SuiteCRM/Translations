@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_SEND_DATE_TIME' => 'Data trimiteri',
-    'LBL_SEND_ON' => 'Send On',
+    'LBL_SEND_ON' => 'Trimite pe',
     'LBL_IN_QUEUE' => 'În procesare',
     'LBL_IN_QUEUE_DATE' => 'Data în așteptare',
 
@@ -98,7 +98,7 @@ $mod_strings = array(
     'LBL_EXCHANGE_SMTPSERVER' => 'Server Exchange',
     'LBL_EMAIL_LINK_TYPE' => 'Client Email',
     'LBL_MARKETING_ID' => 'Id marketing',
-    'LBL_LIST_MARKETING_NAME' => 'Marketing Name',
+    'LBL_LIST_MARKETING_NAME' => 'Nume Marketing',
     'LBL_MODULE_ID' => 'ID Email',
     'LBL_MODULE_NAME' => 'Setări e-mail',
     'LBL_MODULE_TITLE' => 'Gestionare coadă e-mailuri de ieșire',
