@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_ID' => 'Възложен на оператор с идентификационен номер',
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date Created',
@@ -58,8 +58,8 @@ $mod_strings = array(
     'LBL_MODIFIED_USER' => 'Modified by User',
     'LBL_LIST_NAME' => 'Name',
     'LBL_LIST_FORM_TITLE' => 'WorkFlow List',
-    'LBL_MODULE_NAME' => 'WorkFlow',
-    'LBL_MODULE_TITLE' => 'WorkFlow',
+    'LBL_MODULE_NAME' => 'Работен процес',
+    'LBL_MODULE_TITLE' => 'Работен процес',
     'LBL_HOMEPAGE_TITLE' => 'My Work Flow',
     'LNK_NEW_RECORD' => 'Create WorkFlow',
     'LNK_LIST' => 'View WorkFlow',
