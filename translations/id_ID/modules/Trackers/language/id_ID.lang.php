@@ -44,12 +44,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     //Column header mapping
-    'action' => 'Tindakan',
-    'date_modified' => 'Tanggal Terakhir Aktivitas',
+    'action' => 'Action',
+    'date_modified' => 'Date of Last Action',
     'item_id' => 'ID',
-    'item_summary' => 'Nama',
-    'module_name' => 'Nama Modul',
-    'users' => 'Pengguna',
+    'item_summary' => 'Nama ',
+    'module_name' => 'Module Name',
+    'users' => 'Users',
 
     //Administration related labels
     'LBL_MODULE_NAME' => 'Pemantau',
