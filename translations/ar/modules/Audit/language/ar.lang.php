@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_FIELD_NAME' => 'Field',
+    'LBL_FIELD_NAME' => 'حقل',
     'LBL_OLD_NAME' => 'القيمة القديمة',
     'LBL_NEW_VALUE' => 'القيمة الجديدة',
     'LBL_CREATED_BY' => 'عدل بواسطة',
     'LBL_LIST_DATE' => 'تاريخ التعديل',
     'LBL_AUDITED_FIELDS' => 'الحقول المُدققة في هذه الوحدة: ',
-    'LBL_CHANGE_LOG' => 'Change Log',
+    'LBL_CHANGE_LOG' => 'سجل التغييرات',
 );
