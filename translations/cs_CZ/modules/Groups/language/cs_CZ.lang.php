@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Groups',
-    'LBL_GROUP_NAME' => 'Group Name:',
-    'LBL_DESCRIPTION' => 'Description:',
-    'LBL_TEAM' => 'Team:',
+    'LBL_MODULE_NAME' => 'Skupiny',
+    'LBL_GROUP_NAME' => 'Název skupiny:',
+    'LBL_DESCRIPTION' => 'Popis:',
+    'LBL_TEAM' => 'Tým:',
     // ListView
-    'LBL_LIST_TITLE' => 'Groups',
+    'LBL_LIST_TITLE' => 'Skupiny',
     // Links
     'LNK_ALL_GROUPS' => 'Všechny skupiny',
     'LNK_NEW_GROUP' => 'Vytvořit skupinu',
