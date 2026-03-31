@@ -46,9 +46,9 @@ $mod_strings = array(
     'LBL_DESCRIPTION' => 'Description:',
     'LBL_NAME' => 'Nom',
     'LBL_LIST_NAME' => 'Nom',
-    'LBL_EDIT_BUTTON' => 'Editer',
-    'LBL_REMOVE' => 'Retirer',
-    'LBL_GRP' => 'Groupe',
+    'LBL_EDIT_BUTTON' => 'Modifer',
+    'LBL_REMOVE' => 'Remove',
+    'LBL_GRP' => 'Group',
     'LBL_ORD' => 'Tri',
     'LBL_THUMBNAIL' => 'Vignette',
 );
