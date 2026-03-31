@@ -68,8 +68,8 @@ $mod_strings = array(
     'LBL_HISTORY_SUBPANEL_TITLE' => 'History',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups Management',
-    'LBL_USERS' => 'Users',
-    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
+    'LBL_USERS' => 'Brugere',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Brugere',
     'LBL_ROLES_SUBPANEL_TITLE' => 'Roles',
     'LBL_ROLES' => 'Roles',
 
