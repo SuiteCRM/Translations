@@ -164,7 +164,7 @@ $mod_strings = array(
     'LBL_LIST_TITLE_MY_SENT' => 'Sent Email',
     'LBL_LIST_TITLE_MY_ARCHIVES' => 'Archived Emails',
     'LNK_MY_DRAFTS' => 'Drafts',
-    'LNK_MY_INBOX' => 'Email',
+    'LNK_MY_INBOX' => 'Електронна поща',
     'LNK_VIEW_MY_INBOX' => 'View Email',
     'LNK_QUICK_REPLY' => 'Reply',
     'LNK_SENT_EMAIL_LIST' => 'Sent Emails',
@@ -172,7 +172,7 @@ $mod_strings = array(
     'LBL_TYPE_DIFFERENT' => 'External OAuth Connection type must be the SAME as the Inbound Email Account type',
 
     'LBL_MODIFIED_BY' => 'Modified By',
-    'LBL_SERVICE' => 'Service',
+    'LBL_SERVICE' => 'Услуга',
     'LBL_STORED_OPTIONS' => 'Stored Options',
     'LBL_GROUP_ID' => 'Group ID',
 
