@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
 
-    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_ID' => 'Възложен на оператор с идентификационен номер',
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date Created',
@@ -72,7 +72,7 @@ $mod_strings = [
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_NEW_FORM_TITLE' => 'New External OAuth Provider',
 
-    'LBL_LIST_DELETE' => 'Delete',
+    'LBL_LIST_DELETE' => 'Изтрий',
     'LBL_TYPE' => 'Type',
     'LBL_CONNECTOR' => 'Connector',
     'LBL_REDIRECT_URI' => 'Redirect URI',
@@ -97,7 +97,7 @@ $mod_strings = [
 
     'LBL_EXTRA' => 'Extra configurations',
     'LBL_MAPPING' => 'Mapping configurations',
-    'LBL_OTHER' => 'Other',
+    'LBL_OTHER' => 'Друг',
 
 
     'LNK_LIST_CREATE_NEW_PERSONAL' => 'New Personal OAuth Provider',
