@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Opportunity List',
     'LBL_OPPORTUNITY_NAME' => 'Opportunity Name:',
     'LBL_OPPORTUNITY' => 'Opportunity:',
-    'LBL_NAME' => 'Opportunity Name',
+    'LBL_NAME' => 'Geleentheid naam',
     'LBL_INVITEE' => 'Contacts',
     'LBL_CURRENCIES' => 'Currencies',
     'LBL_LIST_OPPORTUNITY_NAME' => 'Name',
@@ -66,7 +66,7 @@ $mod_strings = array(
     'LBL_ACCOUNT_NAME' => 'Account Name:',
     'LBL_AMOUNT' => 'Opportunity Amount:',
     'LBL_AMOUNT_USDOLLAR' => 'Amount:',
-    'LBL_CURRENCY' => 'Currency:',
+    'LBL_CURRENCY' => 'Geldeenheid:',
     'LBL_DATE_CLOSED' => 'Expected Close Date:',
     'LBL_TYPE' => 'Type:',
     'LBL_CAMPAIGN' => 'Campaign:',
@@ -91,7 +91,7 @@ $mod_strings = array(
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
     'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documents',
     'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projects',
-    'LBL_ASSIGNED_TO_NAME' => 'Assigned to:',
+    'LBL_ASSIGNED_TO_NAME' => 'Toegewys aan:',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigned User',
     'LBL_MY_CLOSED_OPPORTUNITIES' => 'My Closed Opportunities',
     'LBL_TOTAL_OPPORTUNITIES' => 'Total Opportunities',
@@ -107,6 +107,6 @@ $mod_strings = array(
 
     // SNIP
 
-    'LBL_AOS_CONTRACTS' => 'Contracts',
+    'LBL_AOS_CONTRACTS' => 'Kontrakte',
     'LBL_AOS_QUOTES' => 'Quotes',
 );
