@@ -43,13 +43,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Accounts',
+    'LBL_MODULE_NAME' => 'Cuentas',
     'LBL_MODULE_TITLE' => 'Accounts: Home',
     'LBL_SEARCH_FORM_TITLE' => 'Account Search',
     'LBL_LIST_FORM_TITLE' => 'Account List',
-    'LBL_NEW_FORM_TITLE' => 'Create Account',
+    'LBL_NEW_FORM_TITLE' => 'Crear Cuenta',
     'LNK_NEW_CONTACT' => 'Create Contact',
-    'LNK_NEW_ACCOUNT' => 'Create Account',
+    'LNK_NEW_ACCOUNT' => 'Crear una cuenta',
     'LNK_NEW_OPPORTUNITY' => 'Create Opportunity',
     'LNK_NEW_CASE' => 'Create Case',
     'LNK_NEW_NOTE' => 'Create Note or Attachment',
