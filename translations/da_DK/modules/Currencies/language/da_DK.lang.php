@@ -72,7 +72,7 @@ $mod_strings = array(
     'LBL_BELOW_MIN' => 'Omregningskursen skal være over 0',
     'currency_status_dom' =>
         array(
-            'Active' => 'Active',
+            'Active' => 'Aktiv',
             'Inactive' => 'Inactive',
         ),
     'LBL_CREATED_BY' => 'Created By',
