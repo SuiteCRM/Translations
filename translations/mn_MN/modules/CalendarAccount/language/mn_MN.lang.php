@@ -57,8 +57,8 @@ $mod_strings = [
 
     // Email opt-in labels
     'LBL_OPT_IN' => 'Оруулах',
-    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Хүлээгдэж буй "Opt in" буюу харилцагчийн зөвшөөрөл, илгээгдээгүй "Opt in"',
-    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Хүлээгдэж буй "Opt in" буюу харилцагчийн зөвшөөрөл, илгээсэн "Opt in"',
+    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Хүлээгдэж буй "Opt in" буюу харилцагчийн зөвшөөрөл, "Opt in" илгээгээгүй',
+    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Хүлээгдэж буй "Opt in" буюу харилцагчийн зөвшөөрөл, "Opt in" илгээсэн',
     'LBL_OPT_IN_CONFIRMED' => 'Сонгосон',
 
     // Subpanel titles
