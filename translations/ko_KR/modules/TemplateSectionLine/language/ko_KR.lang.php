@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_DESCRIPTION' => '상세',
-    'LBL_NAME' => '이름',
-    'LBL_LIST_NAME' => '이름',
-    'LBL_EDIT_BUTTON' => '편집',
-    'LBL_REMOVE' => '삭제',
-    'LBL_GRP' => '그룹:',
-    'LBL_ORD' => '주문',
+    'LBL_DESCRIPTION' => '설명',
+    'LBL_NAME' => 'Name',
+    'LBL_LIST_NAME' => 'Name',
+    'LBL_EDIT_BUTTON' => '수정',
+    'LBL_REMOVE' => 'Remove',
+    'LBL_GRP' => 'Group',
+    'LBL_ORD' => 'Order',
     'LBL_THUMBNAIL' => '썸네일',
 );
