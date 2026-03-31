@@ -65,10 +65,10 @@ $mod_strings = array(
     'LBL_DOC_VERSION' => 'Revízia:',
 
     //document revisions.
-    'LBL_REV_LIST_REVISION' => 'Revízia',
+    'LBL_REV_LIST_REVISION' => 'Revízia:',
     'LBL_REV_LIST_ENTERED' => 'Dátum vytvorenia',
-    'LBL_REV_LIST_CREATED' => 'Vytvoril',
-    'LBL_REV_LIST_LOG' => 'Záznam zmien',
+    'LBL_REV_LIST_CREATED' => 'Created by',
+    'LBL_REV_LIST_LOG' => 'Zmena protokolu',
     'LBL_REV_LIST_FILENAME' => 'Súbor',
 
     'LBL_CURRENT_DOC_VERSION' => 'Posledná revízia:',
