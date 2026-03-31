@@ -67,18 +67,18 @@ $app_list_strings = array(
         'Calendar' => 'カレンダー',
         'Leads' => '潜在顧客',
         'Currencies' => '通貨',
-        'Activities' => '活動',
+        'Activities' => 'Activities',
         'Bugs' => 'バグトラッカー',
         'Feeds' => 'RSSフィード',
         'iFrames' => 'ポータル',
         'TimePeriods' => '期間',
         'ContractTypes' => '契約種別',
         'Schedulers' => 'スケジューラー',
-        'Project' => 'プロジェクト',
+        'Project' => 'Projects',
         'ProjectTask' => 'プロジェクトタスク',
         'Campaigns' => 'キャンペーン',
         'CampaignLog' => 'キャンペーンログ',
-        'Documents' => 'ドキュメント',
+        'Documents' => 'Documents',
         'DocumentRevisions' => 'ドキュメント版数',
         'Connectors' => 'コネクタ設定',
         'Roles' => '役割',
@@ -86,8 +86,8 @@ $app_list_strings = array(
         'Sync' => '同期',
         'Users' => 'ユーザー',
         'Employees' => '従業員',
-        'Administration' => '管理',
-        'ACLRoles' => '役割',
+        'Administration' => 'Administration',
+        'ACLRoles' => 'Roles',
         'InboundEmail' => 'インバウンドメール',
         'Releases' => 'リリース',
         'Prospects' => 'ターゲット',
@@ -108,12 +108,12 @@ $app_list_strings = array(
         'OAuthKeys' => 'Oトークン認証キー',
         'OAuthTokens' => 'Oトークン認証',
         'OAuth2Clients' => 'OAuthクライアント',
-        'OAuth2Tokens' => 'Oトークン認証',
+        'OAuth2Tokens' => 'OAuth Tokens',
         'OAuth2AuthCodes' => 'OAuth Authorization Codes',
     ),
 
     'moduleListSingular' => array(
-        'Home' => 'ホーム',
+        'Home' => 'Home',
         'Dashboard' => 'ダッシュボード',
         'Contacts' => '連絡先',
         'Accounts' => '取引先',
@@ -125,22 +125,22 @@ $app_list_strings = array(
         'EmailTemplates' => 'Eメールテンプレート',
         'Meetings' => 'ミーティング',
         'Tasks' => 'タスク',
-        'Calendar' => 'カレンダー',
+        'Calendar' => 'Calendar',
         'Leads' => '潜在顧客',
         'Activities' => '活動',
         'Bugs' => 'バグトラッカー',
         'KBDocuments' => 'ナレッジベース',
-        'Feeds' => 'RSSフィード',
-        'iFrames' => 'ポータル',
+        'Feeds' => 'RSS',
+        'iFrames' => 'My Sites',
         'TimePeriods' => '期間',
         'Project' => 'プロジェクト',
         'ProjectTask' => 'プロジェクトタスク',
         'Prospects' => 'ターゲット',
         'Campaigns' => 'キャンペーン',
-        'Documents' => 'ドキュメント',
-        'Sync' => '同期',
-        'Users' => '担当ユーザー',
-        'SugarFavorites' => 'SuiteCRM お気に入り',
+        'Documents' => 'Document',
+        'Sync' => 'Sync',
+        'Users' => 'ユーザー',
+        'SugarFavorites' => 'SuiteCRM Favorites',
 
     ),
 
@@ -153,16 +153,16 @@ $app_list_strings = array(
     //e.g. en français 'Analyst'=>'Analyste',
     'account_type_dom' => array(
         '' => '',
-        'Analyst' => 'アナリスト',
-        'Competitor' => '競合他社',
-        'Customer' => '顧客',
-        'Integrator' => 'インテグレーター',
-        'Investor' => '投資家',
-        'Partner' => 'パートナー',
-        'Press' => '記者',
-        'Prospect' => '見込み客',
-        'Reseller' => '再販業者',
-        'Other' => 'その他',
+        'Analyst' => 'Analyst',
+        'Competitor' => 'Competitor',
+        'Customer' => 'Customer',
+        'Integrator' => 'Integrator',
+        'Investor' => 'Investor',
+        'Partner' => 'Partner',
+        'Press' => 'Press',
+        'Prospect' => 'Prospect',
+        'Reseller' => 'Reseller',
+        'Other' => 'Other',
     ),
     //e.g. en español 'Apparel'=>'Ropa',
     'industry_dom' => array(
@@ -196,7 +196,7 @@ $app_list_strings = array(
         'Telecommunications' => '通信業',
         'Transportation' => '交通',
         'Utilities' => 'ユーティリティ',
-        'Other' => 'その他',
+        'Other' => 'Other',
     ),
     'lead_source_default_key' => 'Self Generated',
     'lead_source_dom' => array(
@@ -205,7 +205,7 @@ $app_list_strings = array(
         'Existing Customer' => '既存客',
         'Self Generated' => 'Self Generated',
         'Employee' => '社員',
-        'Partner' => 'パートナー',
+        'Partner' => 'Partner',
         'Public Relations' => '広報活動',
         'Direct Mail' => 'ダイレクトメール',
         'Conference' => '会議',
@@ -213,13 +213,13 @@ $app_list_strings = array(
         'Web Site' => 'ウェブサイト',
         'Word of mouth' => '口コミ',
         'Email' => 'メール',
-        'Campaign' => 'キャンペーン',
-        'Other' => 'その他',
+        'Campaign' => 'Campaign',
+        'Other' => 'Other',
     ),
     'opportunity_type_dom' => array(
         '' => '',
-        'Existing Business' => '既存事業',
-        'New Business' => '新事業',
+        'Existing Business' => 'Existing Business',
+        'New Business' => 'New Business',
     ),
     'roi_type_dom' => array(
         'Revenue' => '売上',
@@ -240,7 +240,7 @@ $app_list_strings = array(
         'Technical Evaluator' => '技術評価者',
         'Executive Sponsor' => 'エグゼクティブスポンサー',
         'Influencer' => 'インフルエンサー',
-        'Other' => 'その他',
+        'Other' => 'Other',
     ),
     //Note:  do not translate case_relationship_type_default_key
 //       it is the key for the default case_relationship_type_dom value
@@ -282,11 +282,11 @@ $app_list_strings = array(
             'Closed Lost' => '0',
         ),
     'activity_dom' => array(
-        'Call' => 'コール情報',
-        'Meeting' => 'ミーティング',
-        'Task' => 'タスク',
+        'Call' => 'Call',
+        'Meeting' => 'Meeting',
+        'Task' => 'Task',
         'Email' => 'メール',
-        'Note' => 'ノート',
+        'Note' => 'Note',
     ),
     'salutation_dom' => array(
         '' => '',
@@ -318,18 +318,18 @@ $app_list_strings = array(
         86400 => '1日前',
     ),
 
-    'task_priority_default' => '中',
+    'task_priority_default' => 'Medium',
     'task_priority_dom' => array(
-        'High' => '高',
-        'Medium' => '中',
-        'Low' => '低',
+        'High' => 'High',
+        'Medium' => 'Medium',
+        'Low' => 'Low',
     ),
     'task_status_default' => '未開始',
     'task_status_dom' => array(
-        'Not Started' => '未開始',
+        'Not Started' => 'Not Started',
         'In Progress' => '進行中',
         'Completed' => '完了',
-        'Pending Input' => '保留',
+        'Pending Input' => 'Pending Input',
         'Deferred' => '延期',
     ),
     'meeting_status_default' => 'Planned',
@@ -342,14 +342,14 @@ $app_list_strings = array(
         'WebEx' => 'WebEx',
     ),
     'meeting_type_dom' => array(
-        'Other' => 'その他',
+        'Other' => 'Other',
         'Sugar' => 'SuiteCRM',
     ),
     'call_status_default' => 'Planned',
     'call_status_dom' => array(
         'Planned' => 'Planned',
-        'Held' => '完了',
-        'Not Held' => '未実施',
+        'Held' => 'Held',
+        'Not Held' => 'Not Held',
     ),
     'call_direction_default' => 'Outbound',
     'call_direction_dom' => array(
@@ -358,8 +358,8 @@ $app_list_strings = array(
     ),
     'lead_status_dom' => array(
         '' => '',
-        'New' => '新規',
-        'Assigned' => 'アサイン済み',
+        'New' => 'New',
+        'Assigned' => 'Assigned',
         'In Process' => 'キューイング中',
         'Converted' => 'コンバート済',
         'Recycled' => '戻し',
@@ -367,23 +367,23 @@ $app_list_strings = array(
     ),
     'case_priority_default_key' => 'P2',
     'case_priority_dom' => array(
-        'P1' => '高',
-        'P2' => '中',
-        'P3' => '低',
+        'P1' => 'High',
+        'P2' => 'Medium',
+        'P3' => 'Low',
     ),
     'user_type_dom' => array(
         'RegularUser' => 'レギュラーユーザー',
         'Administrator' => 'システム管理者',
     ),
     'user_status_dom' => array(
-        'Active' => '有効なアカウント',
+        'Active' => '稼働中',
         'Inactive' => '非アクティブ',
     ),
     'user_factor_auth_interface_dom' => array(
         'FactorAuthEmailCode' => 'メールコード',
     ),
     'employee_status_dom' => array(
-        'Active' => '有効なアカウント',
+        'Active' => '稼働中',
         'Terminated' => '退職',
         'Leave of Absence' => '休職',
     ),
@@ -394,18 +394,18 @@ $app_list_strings = array(
         'AOL' => 'AOL',
     ),
     'project_task_priority_options' => array(
-        'High' => '高',
-        'Medium' => '中',
-        'Low' => '低',
+        'High' => 'High',
+        'Medium' => 'Medium',
+        'Low' => 'Low',
     ),
-    'project_task_priority_default' => '中',
+    'project_task_priority_default' => 'Medium',
 
     'project_task_status_options' => array(
-        'Not Started' => '未開始',
-        'In Progress' => '進行中',
-        'Completed' => '完了',
-        'Pending Input' => '保留',
-        'Deferred' => '延期',
+        'Not Started' => 'Not Started',
+        'In Progress' => 'In Progress',
+        'Completed' => 'Completed',
+        'Pending Input' => 'Pending Input',
+        'Deferred' => 'Deferred',
     ),
     'project_task_utilization_options' => array(
         '0' => 'なし',
@@ -416,13 +416,13 @@ $app_list_strings = array(
     ),
 
     'project_status_dom' => array(
-        'Draft' => 'ドラフト',
+        'Draft' => '草案',
         'In Review' => 'レビュー中',
         'Underway' => '進行中',
         'On_Hold' => '保留中',
-        'Completed' => '完了',
+        'Completed' => 'Completed',
     ),
-    'project_status_default' => 'ドラフト',
+    'project_status_default' => '草案',
 
     'project_duration_units_dom' => array(
         'Days' => '日',
@@ -431,8 +431,8 @@ $app_list_strings = array(
 
     'activity_status_type_dom' => array(
         '' => '--管理者アクション--',
-        'active' => '有効なアカウント',
-        'inactive' => '非アクティブ',
+        'active' => '稼働中',
+        'inactive' => 'Inactive',
     ),
 
     // Note:  do not translate record_type_default_key
@@ -441,69 +441,69 @@ $app_list_strings = array(
     'record_type_display' => array(
         '' => '',
         'Accounts' => '取引先',
-        'Opportunities' => '商談',
-        'Cases' => 'ケース',
+        'Opportunities' => 'Opportunity',
+        'Cases' => 'Case',
         'Leads' => '潜在顧客',
-        'Contacts' => '連絡先', // cn (11/22/2005) added to support Emails
+        'Contacts' => '取引先担当者', // cn (11/22/2005) added to support Emails
 
-        'Bugs' => 'バグトラッカー',
-        'Project' => 'プロジェクト',
+        'Bugs' => 'Bug',
+        'Project' => 'Project',
 
-        'Prospects' => 'ターゲット',
-        'ProjectTask' => 'プロジェクトタスク',
+        'Prospects' => 'Target',
+        'ProjectTask' => 'Project Task',
 
-        'Tasks' => 'タスク',
+        'Tasks' => 'Task',
 
         'AOS_Contracts' => '契約',
         'AOS_Invoices' => '請求書',
         'AOS_Quotes' => '見積',
-        'AOS_Products' => '商品',
+        'AOS_Products' => 'Product',
 
     ),
 
     'record_type_display_notes' => array(
         'Accounts' => '取引先',
-        'Contacts' => '連絡先',
-        'Opportunities' => '商談',
-        'Campaigns' => 'キャンペーン',
-        'Tasks' => 'タスク',
+        'Contacts' => '取引先担当者',
+        'Opportunities' => 'Opportunity',
+        'Campaigns' => 'Campaign',
+        'Tasks' => 'Task',
         'Emails' => 'メール',
 
-        'Bugs' => 'バグトラッカー',
-        'Project' => 'プロジェクト',
-        'ProjectTask' => 'プロジェクトタスク',
-        'Prospects' => 'ターゲット',
-        'Cases' => 'ケース',
+        'Bugs' => 'Bug',
+        'Project' => 'Project',
+        'ProjectTask' => 'Project Task',
+        'Prospects' => 'Target',
+        'Cases' => 'Case',
         'Leads' => '潜在顧客',
 
-        'Meetings' => 'ミーティング',
-        'Calls' => 'コール情報',
+        'Meetings' => 'Meeting',
+        'Calls' => 'Call',
 
         'AOS_Contracts' => '契約',
         'AOS_Invoices' => '請求書',
-        'AOS_Quotes' => '見積',
-        'AOS_Products' => '商品',
+        'AOS_Quotes' => '見積書',
+        'AOS_Products' => 'Product',
     ),
 
     'parent_type_display' => array(
         'Accounts' => '取引先',
-        'Contacts' => '連絡先',
-        'Tasks' => 'タスク',
-        'Opportunities' => '商談',
+        'Contacts' => '取引先担当者',
+        'Tasks' => 'Task',
+        'Opportunities' => 'Opportunity',
 
-        'Bugs' => 'バグトラッカー',
-        'Cases' => 'ケース',
+        'Bugs' => 'Bug',
+        'Cases' => 'Case',
         'Leads' => '潜在顧客',
 
-        'Project' => 'プロジェクト',
-        'ProjectTask' => 'プロジェクトタスク',
+        'Project' => 'Project',
+        'ProjectTask' => 'Project Task',
 
-        'Prospects' => 'ターゲット',
+        'Prospects' => 'Target',
 
         'AOS_Contracts' => '契約',
         'AOS_Invoices' => '請求書',
-        'AOS_Quotes' => '見積',
-        'AOS_Products' => '商品',
+        'AOS_Quotes' => '見積書',
+        'AOS_Products' => 'Product',
 
     ),
     'parent_line_items' => array(
@@ -511,66 +511,66 @@ $app_list_strings = array(
         'AOS_Invoices' => '請求',
         'AOS_Contracts' => '契約',
     ),
-    'issue_priority_default_key' => '中',
+    'issue_priority_default_key' => 'Medium',
     'issue_priority_dom' => array(
         'Urgent' => '緊急',
-        'High' => '高',
-        'Medium' => '中',
-        'Low' => '低',
+        'High' => 'High',
+        'Medium' => 'Medium',
+        'Low' => 'Low',
     ),
     'issue_resolution_default_key' => '',
     'issue_resolution_dom' => array(
         '' => '',
-        'Accepted' => '受領',
-        'Duplicate' => '複製',
-        'Closed' => '完了',
-        'Out of Date' => '期限切れ',
-        'Invalid' => '無効',
+        'Accepted' => 'Accepted',
+        'Duplicate' => 'Duplicate',
+        'Closed' => 'Closed',
+        'Out of Date' => 'Out of Date',
+        'Invalid' => 'Invalid',
     ),
 
-    'issue_status_default_key' => '新規',
+    'issue_status_default_key' => 'New',
     'issue_status_dom' => array(
-        'New' => '新規',
-        'Assigned' => 'アサイン済み',
-        'Closed' => '完了',
+        'New' => 'New',
+        'Assigned' => 'Assigned',
+        'Closed' => 'Closed',
         'Pending' => '保留',
-        'Rejected' => '拒否',
+        'Rejected' => 'Rejected',
     ),
 
-    'bug_priority_default_key' => '中',
+    'bug_priority_default_key' => 'Medium',
     'bug_priority_dom' => array(
-        'Urgent' => '緊急',
-        'High' => '高',
-        'Medium' => '中',
-        'Low' => '低',
+        'Urgent' => 'Urgent',
+        'High' => 'High',
+        'Medium' => 'Medium',
+        'Low' => 'Low',
     ),
     'bug_resolution_default_key' => '',
     'bug_resolution_dom' => array(
         '' => '',
-        'Accepted' => '受領',
-        'Duplicate' => '複製',
+        'Accepted' => 'Accepted',
+        'Duplicate' => 'Duplicate',
         'Fixed' => '修正済み',
-        'Out of Date' => '期限切れ',
-        'Invalid' => '無効',
+        'Out of Date' => 'Out of Date',
+        'Invalid' => 'Invalid',
         'Later' => '後回し',
     ),
-    'bug_status_default_key' => '新規',
+    'bug_status_default_key' => 'New',
     'bug_status_dom' => array(
-        'New' => '新規',
-        'Assigned' => 'アサイン済み',
-        'Closed' => '完了',
+        'New' => 'New',
+        'Assigned' => 'Assigned',
+        'Closed' => 'Closed',
         'Pending' => '保留',
-        'Rejected' => '拒否',
+        'Rejected' => 'Rejected',
     ),
-    'bug_type_default_key' => 'バグトラッカー',
+    'bug_type_default_key' => 'Bug',
     'bug_type_dom' => array(
         'Defect' => '不具合',
         'Feature' => '仕様',
     ),
     'case_type_dom' => array(
-        'Administration' => '管理',
-        'Product' => '商品',
-        'User' => '担当ユーザー',
+        'Administration' => 'Administration',
+        'Product' => 'Product',
+        'User' => 'ユーザー',
     ),
 
     'source_default_key' => '',
@@ -586,40 +586,40 @@ $app_list_strings = array(
     'product_category_dom' => array(
         '' => '',
         'Accounts' => '取引先',
-        'Activities' => '活動',
-        'Bugs' => 'バグトラッカー',
-        'Calendar' => 'カレンダー',
-        'Calls' => 'コール',
-        'Campaigns' => 'キャンペーン',
-        'Cases' => 'ケース',
+        'Activities' => 'Activities',
+        'Bugs' => 'Bugs',
+        'Calendar' => 'Calendar',
+        'Calls' => 'Calls',
+        'Campaigns' => 'Campaigns',
+        'Cases' => 'Cases',
         'Contacts' => '連絡先',
-        'Currencies' => '通貨',
-        'Dashboard' => 'ダッシュボード',
-        'Documents' => 'ドキュメント',
+        'Currencies' => 'Currencies',
+        'Dashboard' => 'Dashboard',
+        'Documents' => 'Documents',
         'Emails' => 'Eメール',
         'Feeds' => 'RSSフィード',
         'Forecasts' => '予算',
         'Help' => 'ヘルプ',
-        'Home' => 'ホーム',
+        'Home' => 'Home',
         'Leads' => '潜在顧客',
-        'Meetings' => 'ミーティング',
-        'Notes' => 'ノート',
-        'Opportunities' => '商談',
+        'Meetings' => 'Meetings',
+        'Notes' => 'Notes',
+        'Opportunities' => 'Opportunities',
         'Outlook Plugin' => 'Outlookプラグイン',
-        'Projects' => 'プロジェクト',
-        'Quotes' => '見積',
-        'Releases' => 'リリース',
-        'RSS' => 'RSSフィード',
+        'Projects' => 'Projects',
+        'Quotes' => '見積書',
+        'Releases' => 'Releases',
+        'RSS' => 'RSS',
         'Studio' => 'Studio',
         'Upgrade' => 'アップグレード',
-        'Users' => 'ユーザー',
+        'Users' => '担当ユーザー',
     ),
     /*Added entries 'Queued' and 'Sending' for 4.0 release..*/
     'campaign_status_dom' => array(
         '' => '',
         'Planning' => '計画中',
-        'Active' => '有効なアカウント',
-        'Inactive' => '非アクティブ',
+        'Active' => '稼働中',
+        'Inactive' => 'Inactive',
         'Complete' => '完了',
         //'In Queue' => 'In Queue',
         //'Sending' => 'Sending',
@@ -725,25 +725,25 @@ $app_list_strings = array(
     ],
 
     'dom_external_oauth_connection_types' => [
-        'personal' => '個人',
-        'group' => 'グループ',
+        'personal' => 'Personal',
+        'group' => 'Group',
     ],
 
     'dom_external_oauth_provider_types' => [
-        'personal' => '個人',
-        'group' => 'グループ',
+        'personal' => 'Personal',
+        'group' => 'Group',
     ],
 
     'dom_outbound_email_account_types' => [
-        'user' => '個人',
-        'group' => 'グループ',
+        'user' => 'Personal',
+        'group' => 'Group',
         'system' => 'システム管理',
         'system-override' => 'システムの上書き',
     ],
 
     'dom_inbound_email_account_status' => [
-        'Active' => '有効なアカウント',
-        'Inactive' => '非アクティブ',
+        'Active' => '稼働中',
+        'Inactive' => 'Inactive',
     ],
 
     'dom_email_body_filtering_option' => [
@@ -754,35 +754,35 @@ $app_list_strings = array(
     'dom_email_types' => array(
         'out' => '送信済み',
         'archived' => '保存',
-        'draft' => 'ドラフト',
+        'draft' => '草案',
         'inbound' => '着信',
-        'campaign' => 'キャンペーン',
+        'campaign' => 'Campaign',
     ),
     'dom_email_status' => array(
-        'archived' => '保存',
-        'closed' => '完了',
+        'archived' => 'Archived',
+        'closed' => 'Closed',
         'draft' => 'ドラフト',
         'read' => '既読',
         'replied' => '返信済み',
-        'sent' => '送信済み',
+        'sent' => 'Sent',
         'send_error' => '送信エラー',
         'unread' => '未読',
     ),
     'dom_email_archived_status' => array(
-        'archived' => '保存',
+        'archived' => 'Archived',
     ),
 
     'dom_email_server_type' => array(
-        '' => '--管理者アクション--',
+        '' => '--None--',
         'imap' => 'IMAP',
     ),
     'dom_mailbox_type' => array(/*''           => '--None Specified--',*/
-        'pick' => '--管理者アクション--',
+        'pick' => '--None--',
         'createcase' => 'チケット作成',
         'bounce' => 'バウンス処理',
     ),
     'dom_email_distribution' => array(
-        '' => '--管理者アクション--',
+        '' => '--None--',
         'direct' => '直接アサイン',
         'roundRobin' => 'ラウンド-ロビン',
         'leastBusy' => '最も暇な',
@@ -793,16 +793,16 @@ $app_list_strings = array(
     ),
     'dom_email_bool' => array(
         'bool_true' => 'はい',
-        'bool_false' => 'いいえ',
+        'bool_false' => 'No',
     ),
     'dom_int_bool' => array(
         1 => 'はい',
-        0 => 'いいえ',
+        0 => 'No',
     ),
     'dom_switch_bool' => array(
         'on' => 'はい',
-        'off' => 'いいえ',
-        '' => 'いいえ',
+        'off' => 'No',
+        '' => 'No',
     ),
 
     'dom_email_link_type' => array(
@@ -825,31 +825,31 @@ $app_list_strings = array(
     'schedulers_times_dom' => array(
         'not run' => '実行時間を経過、未実施',
         'ready' => '準備完了',
-        'in progress' => '進行中',
+        'in progress' => 'In Progress',
         'failed' => '失敗',
-        'completed' => '完了',
+        'completed' => 'Completed',
         'no curl' => '実行不可: cURLライブラリがありません',
     ),
 
     'scheduler_status_dom' => array(
-        'Active' => '有効なアカウント',
-        'Inactive' => '非アクティブ',
+        'Active' => '稼働中',
+        'Inactive' => 'Inactive',
     ),
 
     'scheduler_period_dom' => array(
         'min' => '分',
-        'hour' => '時間',
+        'hour' => 'Hours',
     ),
     'document_category_dom' => array(
         '' => '',
         'Marketing' => 'マーケティング',
-        'Knowledege Base' => 'ナレッジベース',
+        'Knowledege Base' => '知識ベース',
         'Sales' => '営業',
     ),
 
     'email_category_dom' => array(
         '' => '',
-        'Archived' => '保存',
+        'Archived' => 'Archived',
         // TODO: add more categories here...
     ),
 
@@ -861,11 +861,11 @@ $app_list_strings = array(
     ),
 
     'document_status_dom' => array(
-        'Active' => '有効なアカウント',
-        'Draft' => 'ドラフト',
+        'Active' => '稼働中',
+        'Draft' => '草案',
         'FAQ' => 'よくある質問',
         'Expired' => '期限切れ',
-        'Under Review' => 'レビュー中',
+        'Under Review' => '審査中',
         'Pending' => '保留',
     ),
     'document_template_type_dom' => array(
@@ -881,9 +881,9 @@ $app_list_strings = array(
         'tentative' => '仮',
     ),
     'dom_meeting_accept_status' => array(
-        'accept' => '受領',
+        'accept' => 'Accepted',
         'decline' => '辞退',
-        'tentative' => '仮',
+        'tentative' => 'Tentative',
         'none' => 'なし',
     ),
     'duration_intervals' => array(
@@ -893,10 +893,10 @@ $app_list_strings = array(
         '45' => '45',
     ),
     'repeat_type_dom' => array(
-        '' => 'なし',
+        '' => 'None',
         'Daily' => '毎日',
-        'Weekly' => '毎週',
-        'Monthly' => '毎月',
+        'Weekly' => 'Weekly',
+        'Monthly' => 'Monthly',
         'Yearly' => '毎年',
     ),
 
@@ -909,7 +909,7 @@ $app_list_strings = array(
     ),
 
     'duration_dom' => array(
-        '' => 'なし',
+        '' => 'None',
         '900' => '15分',
         '1800' => '30分',
         '2700' => '45分',
@@ -942,8 +942,8 @@ $app_list_strings = array(
     ),
     'email_marketing_status_dom' => array(
         '' => '',
-        'active' => '有効なアカウント',
-        'inactive' => '非アクティブ',
+        'active' => '稼働中',
+        'inactive' => 'Inactive',
     ),
 
     'campainglog_activity_type_dom' => array(
@@ -962,8 +962,8 @@ $app_list_strings = array(
 
     'campainglog_target_type_dom' => array(
         'Contacts' => '連絡先',
-        'Users' => 'ユーザー',
-        'Prospects' => 'ターゲット',
+        'Users' => '担当ユーザー',
+        'Prospects' => 'Targets',
         'Leads' => '潜在顧客',
         'Accounts' => '取引先',
     ),
@@ -975,7 +975,7 @@ $app_list_strings = array(
 
     'custom_fields_importable_dom' => array(
         'true' => 'はい',
-        'false' => 'いいえ',
+        'false' => 'No',
         'required' => '必須',
     ),
 
@@ -988,15 +988,15 @@ $app_list_strings = array(
     ),
 
     'projects_priority_options' => array(
-        'high' => '高',
-        'medium' => '中',
-        'low' => '低',
+        'high' => 'High',
+        'medium' => 'Medium',
+        'low' => 'Low',
     ),
 
     'projects_status_options' => array(
-        'notstarted' => '未開始',
-        'inprogress' => '進行中',
-        'completed' => '完了',
+        'notstarted' => 'Not Started',
+        'inprogress' => 'In Progress',
+        'completed' => 'Completed',
     ),
     // strings to pass to Flash charts
     'chart_strings' => array(
@@ -1011,12 +1011,12 @@ $app_list_strings = array(
         'horizontalbarchart' => '水平バー チャート',
         'linechart' => 'ライン チャート',
         'noData' => 'データ無し',
-        'print' => '印刷',
+        'print' => 'Print',
         'pieWedgeName' => 'セクション',
     ),
     'release_status_dom' => array(
-        'Active' => '有効なアカウント',
-        'Inactive' => '非アクティブ',
+        'Active' => '稼働中',
+        'Inactive' => 'Inactive',
     ),
     'email_settings_for_ssl' => array(
         '0' => '',
@@ -1026,7 +1026,7 @@ $app_list_strings = array(
     'import_enclosure_options' => array(
         '\'' => 'シングルクォーテーション (&#39;)',
         '"' => 'ダブルクォーテーション (&#34;)',
-        '' => 'なし',
+        '' => 'None',
         'other' => 'その他:',
     ),
     'import_delimeter_options' => array(
@@ -1052,11 +1052,11 @@ $app_list_strings = array(
     ),
     'dashlet_auto_refresh_options_admin' => array(
         '-1' => 'なし',
-        '30' => '30秒毎',
-        '60' => '1時間毎',
-        '180' => '毎3分',
-        '300' => '毎5分',
-        '600' => '毎10分',
+        '30' => 'Every 30 seconds',
+        '60' => 'Every 1 minute',
+        '180' => 'Every 3 minutes',
+        '300' => 'Every 5 minutes',
+        '600' => 'Every 10 minutes',
     ),
     'date_range_search_dom' => array(
         '=' => 'イコール',
@@ -1076,13 +1076,13 @@ $app_list_strings = array(
         'between' => '期間(範囲)',
     ),
     'numeric_range_search_dom' => array(
-        '=' => 'イコール',
+        '=' => 'Equals',
         'not_equal' => 'イコールでない',
         'greater_than' => '～より大きい',
         'greater_than_equals' => '～以上',
         'less_than' => '～未満',
         'less_than_equals' => '～以下',
-        'between' => '期間(範囲)',
+        'between' => 'Is Between',
     ),
     'lead_conv_activity_opt' => array(
         'copy' => 'コピー',
@@ -1105,7 +1105,7 @@ $app_strings = array(
     'LBL_TOUR_TAKE_TOUR' => 'ツアーに出かける',
     'LBL_MOREDETAIL' => '詳細' /*for 508 compliance fix*/,
     'LBL_EDIT_INLINE' => 'インライン編集' /*for 508 compliance fix*/,
-    'LBL_VIEW_INLINE' => '閲覧' /*for 508 compliance fix*/,
+    'LBL_VIEW_INLINE' => 'View' /*for 508 compliance fix*/,
     'LBL_BASIC_SEARCH' => 'フィルタ' /*for 508 compliance fix*/,
     'LBL_Blank' => ' ' /*for 508 compliance fix*/,
     'LBL_ID_FF_ADD' => '追加' /*for 508 compliance fix*/,
@@ -1114,18 +1114,18 @@ $app_strings = array(
     'LBL_DELETE_INLINE' => '削除' /*for 508 compliance fix*/,
     'LBL_ID_FF_CLEAR' => 'クリア' /*for 508 compliance fix*/,
     'LBL_ID_FF_VCARD' => 'vCard' /*for 508 compliance fix*/,
-    'LBL_ID_FF_REMOVE' => '削除' /*for 508 compliance fix*/,
+    'LBL_ID_FF_REMOVE' => 'Remove' /*for 508 compliance fix*/,
     'LBL_ID_FF_REMOVE_EMAIL' => 'Eメール アドレスを削除' /*for 508 compliance fix*/,
     'LBL_ID_FF_OPT_OUT' => 'オプトアウトする',
     'LBL_ID_FF_INVALID' => '無効にする',
-    'LBL_ADD' => '追加' /*for 508 compliance fix*/,
+    'LBL_ADD' => 'Add' /*for 508 compliance fix*/,
     'LBL_COMPANY_LOGO' => '会社ロゴ' /*for 508 compliance fix*/,
     'LBL_CONNECTORS_POPUPS' => 'コネクタポップアップ',
-    'LBL_CLOSEINLINE' => '完了',
-    'LBL_VIEWINLINE' => '閲覧',
+    'LBL_CLOSEINLINE' => 'Close',
+    'LBL_VIEWINLINE' => 'View',
     'LBL_INFOINLINE' => '情報',
-    'LBL_PRINT' => '印刷',
-    'LBL_HELP' => 'ヘルプ',
+    'LBL_PRINT' => 'Print',
+    'LBL_HELP' => 'Help',
     'LBL_ID_FF_SELECT' => '選択',
     'DEFAULT' => '基本',
     'LBL_SORT' => 'ソート',
@@ -1142,13 +1142,13 @@ $app_strings = array(
     'NTC_OVERWRITE_ADDRESS_PHONE_CONFIRM' => '会社電話、および住所情報の各フィールドがすでに入力されています。取引先に登録された情報で上書きする場合はOKボタンを、そうでない場合はキャンセルボタンをクリックしてください。',
     'LBL_DROP_HERE' => '[ここにドロップ]',
     'LBL_EMAIL_ACCOUNTS_GMAIL_DEFAULTS' => 'Gmailのデフォルトをセット',
-    'LBL_EMAIL_ACCOUNTS_NAME' => '名前',
+    'LBL_EMAIL_ACCOUNTS_NAME' => '名称',
     'LBL_EMAIL_ACCOUNTS_OUTBOUND' => 'アウトバウンドメールサーバー',
     'LBL_EMAIL_ACCOUNTS_SMTPPASS' => 'SMTPパスワード',
     'LBL_EMAIL_ACCOUNTS_SMTPPORT' => 'SMTPポート',
     'LBL_EMAIL_ACCOUNTS_SMTPSERVER' => 'SMTPサーバー',
     'LBL_EMAIL_ACCOUNTS_SMTPUSER' => 'SMTPユーザー名',
-    'LBL_EMAIL_ACCOUNTS_SMTPDEFAULT' => '自動生成',
+    'LBL_EMAIL_ACCOUNTS_SMTPDEFAULT' => 'Default',
     'LBL_EMAIL_WARNING_MISSING_USER_CREDS' => '警告: 送信メール アカウントのユーザー名とパスワードが見つかりません。',
     'LBL_OAUTH_CONNECTION_NOT_SET' => '外部OAuth接続を設定してください。',
     'LBL_EMAIL_PASSWORD_NOT_SET' => '警告: パスワードが設定されていません。',
@@ -1157,14 +1157,14 @@ $app_strings = array(
     'LBL_EMAIL_ACCOUNTS_OUTBOUND_SUBTITLE' => '送信メールで利用するSMTPサーバーの情報を提供してください。',
 
     'LBL_EMAIL_ADDRESS_BOOK_ADD' => '完了',
-    'LBL_EMAIL_ADDRESS_BOOK_CLEAR' => 'クリア',
+    'LBL_EMAIL_ADDRESS_BOOK_CLEAR' => 'Clear',
     'LBL_EMAIL_ADDRESS_BOOK_ADD_TO' => 'To: ',
     'LBL_EMAIL_ADDRESS_BOOK_ADD_CC' => 'CC:',
     'LBL_EMAIL_ADDRESS_BOOK_ADD_BCC' => 'BCC:',
     'LBL_EMAIL_ADDRESS_BOOK_ADRRESS_TYPE' => '宛先・CC・BCC',
     'LBL_EMAIL_ADDRESS_BOOK_EMAIL_ADDR' => 'メールアドレス',
     'LBL_EMAIL_ADDRESS_BOOK_FILTER' => 'フィルタ',
-    'LBL_EMAIL_ADDRESS_BOOK_NAME' => '名前',
+    'LBL_EMAIL_ADDRESS_BOOK_NAME' => '名称',
     'LBL_EMAIL_ADDRESS_BOOK_NOT_FOUND' => 'アドレスが見つかりません',
     'LBL_EMAIL_ADDRESS_BOOK_SAVE_AND_ADD' => '保存してアドレス帳に追加',
     'LBL_EMAIL_ADDRESS_BOOK_SELECT_TITLE' => 'アドレス帳のエントリを選択',
@@ -1177,12 +1177,12 @@ $app_strings = array(
     'LBL_EMAIL_ARCHIVE_TO_SUITE' => 'SuiteCRMへインポート',
     'LBL_EMAIL_ASSIGNMENT' => 'アサイメント',
     'LBL_EMAIL_ATTACH_FILE_TO_EMAIL' => 'メールに添付',
-    'LBL_EMAIL_ATTACHMENT' => 'メールに添付',
+    'LBL_EMAIL_ATTACHMENT' => 'Attach',
     'LBL_EMAIL_ATTACHMENTS' => 'ファイルを添付',
     'LBL_EMAIL_ATTACHMENTS2' => 'SuiteCRM 文書管理から',
     'LBL_EMAIL_ATTACHMENTS3' => 'テンプレート添付ファイル',
     'LBL_EMAIL_ATTACHMENTS_FILE' => 'ファイル',
-    'LBL_EMAIL_ATTACHMENTS_DOCUMENT' => 'ドキュメント',
+    'LBL_EMAIL_ATTACHMENTS_DOCUMENT' => 'Document',
     'LBL_EMAIL_BCC' => 'BCC',
     'LBL_EMAIL_CANCEL' => 'キャンセル',
     'LBL_EMAIL_CC' => 'CC',
@@ -1190,7 +1190,7 @@ $app_strings = array(
     'LBL_EMAIL_CHECK' => 'Eメール確認',
     'LBL_EMAIL_CHECKING_NEW' => '新着Eメールをチェック',
     'LBL_EMAIL_CHECKING_DESC' => '新規メールをチェック中。<br><br>これが最初のチェックの場合、時間がかかることがあります。',
-    'LBL_EMAIL_CLOSE' => '完了',
+    'LBL_EMAIL_CLOSE' => 'Close',
     'LBL_EMAIL_COFFEE_BREAK' => '新規メールをチェック中。<br><br>大量にメールがある場合は時間がかかることがあります。',
 
     'LBL_EMAIL_COMPOSE' => 'メール',
@@ -1210,7 +1210,7 @@ $app_strings = array(
     'LBL_EMAIL_MULT_GROUP_FOLDER_ACCOUNTS_EMPTY' => '空',
     'LBL_EMAIL_DATE_SENT_BY_SENDER' => '送信者が送信した日',
     'LBL_EMAIL_DATE_TODAY' => '今日',
-    'LBL_EMAIL_DELETE' => '削除',
+    'LBL_EMAIL_DELETE' => 'Delete',
     'LBL_EMAIL_DELETE_CONFIRM' => '選択したメッセージを削除しますか?',
     'LBL_EMAIL_DELETE_SUCCESS' => 'Eメールは削除されました。',
     'LBL_EMAIL_DELETING_MESSAGE' => 'メッセージを削除しています',
@@ -1268,7 +1268,7 @@ $app_strings = array(
         '.gif',
         ''
     ),
-    'LBL_EMAIL_FOLDERS_ADD' => '追加',
+    'LBL_EMAIL_FOLDERS_ADD' => 'Add',
     'LBL_EMAIL_FOLDERS_ADD_DIALOG_TITLE' => '新たなフォルダを追加',
     'LBL_EMAIL_FOLDERS_RENAME_DIALOG_TITLE' => 'リネームフォルダ',
     'LBL_EMAIL_FOLDERS_ADD_NEW_FOLDER' => 'セーブする',
@@ -1284,8 +1284,8 @@ $app_strings = array(
     'LBL_EMAIL_DOWNLOAD_STATUS' => '[[total]] 件中 [[count]] 件のEメールをダウンロードしました。',
     'LBL_EMAIL_FROM' => '開始',
     'LBL_EMAIL_GROUP' => 'グループ',
-    'LBL_EMAIL_UPPER_CASE_GROUP' => 'グループ',
-    'LBL_EMAIL_HOME_FOLDER' => 'ホーム',
+    'LBL_EMAIL_UPPER_CASE_GROUP' => 'Group',
+    'LBL_EMAIL_HOME_FOLDER' => 'Home',
     'LBL_EMAIL_IE_DELETE' => 'メールアカウントを削除中',
     'LBL_EMAIL_IE_DELETE_SIGNATURE' => 'シグネチャを削除中',
     'LBL_EMAIL_IE_DELETE_CONFIRM' => 'このメールアカウントを削除しても良いですか?',
@@ -1294,7 +1294,7 @@ $app_strings = array(
     'LBL_EMAIL_IMPORTING_EMAIL' => 'Eメールを取り込んでいます',
     'LBL_EMAIL_IMPORT_EMAIL' => 'SuiteCRM へのインポート',
     'LBL_EMAIL_IMPORT_SETTINGS' => 'インポート設定',
-    'LBL_EMAIL_INVALID' => '無効',
+    'LBL_EMAIL_INVALID' => 'Invalid',
     'LBL_EMAIL_LOADING' => '読込中...',
     'LBL_EMAIL_MARK' => 'フラグ',
     'LBL_EMAIL_MARK_FLAGGED' => 'フラグをつける',
@@ -1309,8 +1309,8 @@ $app_strings = array(
     'LBL_EMAIL_MENU_EMPTY_TRASH' => 'ゴミ箱を空にする',
     'LBL_EMAIL_MENU_SYNCHRONIZE' => '同期',
     'LBL_EMAIL_MENU_CLEAR_CACHE' => 'キャッシュファイルを削除',
-    'LBL_EMAIL_MENU_REMOVE' => '削除',
-    'LBL_EMAIL_MENU_RENAME_FOLDER' => 'リネームフォルダ',
+    'LBL_EMAIL_MENU_REMOVE' => 'Remove',
+    'LBL_EMAIL_MENU_RENAME_FOLDER' => 'Rename Folder',
     'LBL_EMAIL_MENU_RENAMING_FOLDER' => 'フォルダの名前を変更中',
     'LBL_EMAIL_MENU_MAKE_SELECTION' => 'この操作を試みる前に選択してください。',
 
@@ -1329,7 +1329,7 @@ $app_strings = array(
 
     'LBL_EMAIL_MULTISELECT' => '複数選択するために<b>Ctrlを押しながらクリック</b>してください<br />(Macユーザーは<b>CMDを押しながらクリック</b>)',
 
-    'LBL_EMAIL_NO' => 'いいえ',
+    'LBL_EMAIL_NO' => 'No',
     'LBL_EMAIL_NOT_SENT' => 'リクエストを受けることができませんでした。システム管理者へお問い合わせください。',
 
     'LBL_EMAIL_OK' => '了解',
@@ -1337,25 +1337,25 @@ $app_strings = array(
     'LBL_EMAIL_OPEN_ALL' => '複数のメッセージを開く',
     'LBL_EMAIL_OPTIONS' => 'オプション',
     'LBL_EMAIL_QUICK_COMPOSE' => 'クイック編集',
-    'LBL_EMAIL_OPT_OUT' => 'メール不可',
+    'LBL_EMAIL_OPT_OUT' => 'Opted Out',
     'LBL_EMAIL_OPT_OUT_AND_INVALID' => '送信付加かつ不正',
     'LBL_EMAIL_PERFORMING_TASK' => 'タスクを実行中',
     'LBL_EMAIL_PRIMARY' => 'メインアドレス',
-    'LBL_EMAIL_PRINT' => '印刷',
+    'LBL_EMAIL_PRINT' => 'Print',
 
-    'LBL_EMAIL_QC_BUGS' => 'バグトラッカー',
-    'LBL_EMAIL_QC_CASES' => 'ケース',
+    'LBL_EMAIL_QC_BUGS' => 'Bug',
+    'LBL_EMAIL_QC_CASES' => 'Case',
     'LBL_EMAIL_QC_LEADS' => '潜在顧客',
     'LBL_EMAIL_QC_CONTACTS' => '連絡先',
-    'LBL_EMAIL_QC_TASKS' => 'タスク',
-    'LBL_EMAIL_QC_OPPORTUNITIES' => '商談',
+    'LBL_EMAIL_QC_TASKS' => 'Task',
+    'LBL_EMAIL_QC_OPPORTUNITIES' => 'Opportunity',
     'LBL_EMAIL_QUICK_CREATE' => 'クイック作成',
 
     'LBL_EMAIL_REBUILDING_FOLDERS' => 'フォルダを再構築中',
     'LBL_EMAIL_RELATE_TO' => '関連',
     'LBL_EMAIL_VIEW_RELATIONSHIPS' => '関連の表示',
     'LBL_EMAIL_RECORD' => 'Eメールレコード',
-    'LBL_EMAIL_REMOVE' => '削除',
+    'LBL_EMAIL_REMOVE' => 'Remove',
     'LBL_EMAIL_REPLY' => '返信',
     'LBL_EMAIL_REPLY_ALL' => '全員に返信',
     'LBL_EMAIL_REPLY_TO' => '返信',
@@ -1368,7 +1368,7 @@ $app_strings = array(
 
     'LBL_EMAIL_RULES_TITLE' => 'ルール管理',
 
-    'LBL_EMAIL_SAVE' => 'セーブする',
+    'LBL_EMAIL_SAVE' => '新しいグループフォルダを追加',
     'LBL_EMAIL_SAVE_AND_REPLY' => '保存して返信',
     'LBL_EMAIL_SAVE_DRAFT' => 'ドラフト保存',
     'LBL_EMAIL_DRAFT_SAVED' => '案を保存されました',
@@ -1394,9 +1394,9 @@ $app_strings = array(
     'LBL_EMAIL_SEARCH_NO_RESULTS' => '検索条件に合致する結果はありません。',
     'LBL_EMAIL_SEARCH_RESULTS_TITLE' => '検索結果',
 
-    'LBL_EMAIL_SELECT' => '選択',
+    'LBL_EMAIL_SELECT' => 'Select',
 
-    'LBL_EMAIL_SEND' => '送信',
+    'LBL_EMAIL_SEND' => 'Send',
     'LBL_EMAIL_SENDING_EMAIL' => 'Eメールを送信中',
 
     'LBL_EMAIL_SETTINGS' => '設定',
@@ -1435,7 +1435,7 @@ $app_strings = array(
     'LBL_SMTPTYPE_GMAIL' => 'Gmail',
     'LBL_SMTPTYPE_YAHOO' => 'Yahoo!メール',
     'LBL_SMTPTYPE_EXCHANGE' => 'Microsoft Exchange',
-    'LBL_SMTPTYPE_OTHER' => 'その他',
+    'LBL_SMTPTYPE_OTHER' => 'Other',
     'LBL_EMAIL_SPACER_MAIL_SERVER' => '[ リモートフォルダ ]',
     'LBL_EMAIL_SPACER_LOCAL_FOLDER' => '[SuiteCRM フォルダー]',
     'LBL_EMAIL_SUBJECT' => '件名',
@@ -1444,7 +1444,7 @@ $app_strings = array(
     'LBL_EMAIL_TEMPLATE_EDIT_PLAIN_TEXT' => 'メールテンプレートのボディに入力がありません。',
     'LBL_EMAIL_TEMPLATES' => 'テンプレート',
     'LBL_EMAIL_TO' => 'To',
-    'LBL_EMAIL_VIEW' => '閲覧',
+    'LBL_EMAIL_VIEW' => 'View',
     'LBL_EMAIL_VIEW_HEADERS' => 'ヘッダを表示',
     'LBL_EMAIL_VIEW_RAW' => 'Eメールの元データを表示',
     'LBL_EMAIL_VIEW_UNSUPPORTED' => 'この機能はPOP3を使用する場合はサポートされません。',
@@ -1456,10 +1456,10 @@ $app_strings = array(
     'LBL_EMAIL_IMPORT_SUCCESS' => 'インポートに成功しました',
     'LBL_EMAIL_IMPORT_FAIL' => 'インポートに失敗しました。対象メッセージはすでにインポート済みかサーバーから削除されています。',
 
-    'LBL_LINK_NONE' => 'なし',
+    'LBL_LINK_NONE' => 'None',
     'LBL_LINK_ALL' => 'すべて',
     'LBL_LINK_RECORDS' => 'レコード',
-    'LBL_LINK_SELECT' => '選択',
+    'LBL_LINK_SELECT' => 'Select',
     'LBL_LINK_ACTIONS' => 'アクション',
     'LBL_CLOSE_ACTIVITY_HEADER' => '確認',
     'LBL_CLOSE_ACTIVITY_CONFIRM' => 'この #module# を閉じても良いですか?',
@@ -1495,11 +1495,11 @@ $app_strings = array(
 
     'LBL_ACCOUNT' => '取引先',
     'LBL_ACCOUNTS' => '取引先',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => '活動',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_ACCUMULATED_HISTORY_BUTTON_KEY' => 'H',
     'LBL_ACCUMULATED_HISTORY_BUTTON_LABEL' => 'サマリ表示',
-    'LBL_ACCUMULATED_HISTORY_BUTTON_TITLE' => 'サマリ表示',
-    'LBL_ADD_BUTTON' => '追加',
+    'LBL_ACCUMULATED_HISTORY_BUTTON_TITLE' => 'View Summary',
+    'LBL_ADD_BUTTON' => 'Add',
     'LBL_ADD_DOCUMENT' => 'ドキュメント追加',
     'LBL_ADD_TO_PROSPECT_LIST_BUTTON_KEY' => 'L',
     'LBL_ADD_TO_PROSPECT_LIST_BUTTON_LABEL' => 'ターゲットリストに追加',
@@ -1511,57 +1511,57 @@ $app_strings = array(
     'LBL_ARCHIVE' => '保存',
     'LBL_ASSIGNED_TO_USER' => 'ユーザーにアサイン',
     'LBL_ASSIGNED_TO' => 'アサイン先:',
-    'LBL_BACK' => '戻る',
+    'LBL_BACK' => 'Back',
     'LBL_BILLING_ADDRESS' => '請求先住所',
     'LBL_QUICK_CREATE' => '作成 ',
     'LBL_BROWSER_TITLE' => 'SuiteCRM - オープンソース CRM',
-    'LBL_BUGS' => 'バグトラッカー',
+    'LBL_BUGS' => 'Bugs',
     'LBL_BY' => 'by',
-    'LBL_CALLS' => 'コール',
+    'LBL_CALLS' => 'Calls',
     'LBL_CAMPAIGNS_SEND_QUEUED' => 'キューに従ってキャンペーンメールを送信',
     'LBL_SUBMIT_BUTTON_LABEL' => '送信',
-    'LBL_CASE' => 'ケース',
-    'LBL_CASES' => 'ケース',
+    'LBL_CASE' => 'Case',
+    'LBL_CASES' => 'Cases',
     'LBL_CHANGE_PASSWORD' => 'パスワード変更',
     'LBL_CHARSET' => 'UTF-8',
     'LBL_CHECKALL' => 'すべてチェック',
-    'LBL_CITY' => '市',
-    'LBL_CLEAR_BUTTON_LABEL' => 'クリア',
-    'LBL_CLEAR_BUTTON_TITLE' => 'クリア',
+    'LBL_CITY' => 'City',
+    'LBL_CLEAR_BUTTON_LABEL' => 'Clear',
+    'LBL_CLEAR_BUTTON_TITLE' => 'Clear',
     'LBL_CLEARALL' => '全てクリア',
-    'LBL_CLOSE_BUTTON_TITLE' => '完了',
+    'LBL_CLOSE_BUTTON_TITLE' => 'Close',
     'LBL_CLOSE_AND_CREATE_BUTTON_LABEL' => 'これを完了状態にして複製を新規作成',
-    'LBL_CLOSE_AND_CREATE_BUTTON_TITLE' => 'これを完了状態にして複製を新規作成',
+    'LBL_CLOSE_AND_CREATE_BUTTON_TITLE' => 'Close and Create New',
     'LBL_CLOSE_AND_CREATE_BUTTON_KEY' => 'C',
     'LBL_OPEN_ITEMS' => 'Open Items:',
     'LBL_COMPOSE_EMAIL_BUTTON_KEY' => 'L',
     'LBL_COMPOSE_EMAIL_BUTTON_LABEL' => 'Eメール作成',
-    'LBL_COMPOSE_EMAIL_BUTTON_TITLE' => 'Eメール作成',
+    'LBL_COMPOSE_EMAIL_BUTTON_TITLE' => 'Compose Email',
     'LBL_SEARCH_DROPDOWN_YES' => 'はい',
-    'LBL_SEARCH_DROPDOWN_NO' => 'いいえ',
+    'LBL_SEARCH_DROPDOWN_NO' => 'No',
     'LBL_CONTACT_LIST' => '連絡先一覧',
     'LBL_CONTACT' => '連絡先',
     'LBL_CONTACTS' => '連絡先',
     'LBL_CONTRACT' => '契約',
-    'LBL_CONTRACTS' => '契約',
-    'LBL_COUNTRY' => '国:',
+    'LBL_CONTRACTS' => 'Contracts',
+    'LBL_COUNTRY' => 'Country:',
     'LBL_CREATE_BUTTON_LABEL' => '作成',
     'LBL_CREATED_BY_USER' => 'ユーザーが作成',
     'LBL_CREATED_USER' => 'ユーザーが作成',
     'LBL_CREATED' => '作成者',
     'LBL_CURRENT_USER_FILTER' => 'My Items:',
-    'LBL_CURRENCY' => '通貨',
-    'LBL_DOCUMENTS' => 'ドキュメント',
-    'LBL_DATE_ENTERED' => '入力日:',
+    'LBL_CURRENCY' => 'Currency:',
+    'LBL_DOCUMENTS' => 'Documents',
+    'LBL_DATE_ENTERED' => 'Date Created:',
     'LBL_DATE_MODIFIED' => '更新日:',
-    'LBL_EDIT_BUTTON' => '編集',
-    'LBL_DUPLICATE_BUTTON' => '複製',
-    'LBL_DELETE_BUTTON' => '削除',
-    'LBL_DELETE' => '削除',
-    'LBL_DELETED' => '削除済み',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_DUPLICATE_BUTTON' => 'Duplicate',
+    'LBL_DELETE_BUTTON' => 'Delete',
+    'LBL_DELETE' => 'Delete',
+    'LBL_DELETED' => 'Deleted',
     'LBL_DIRECT_REPORTS' => '直属の部下',
-    'LBL_DONE_BUTTON_LABEL' => '完了',
-    'LBL_DONE_BUTTON_TITLE' => '完了',
+    'LBL_DONE_BUTTON_LABEL' => 'Done',
+    'LBL_DONE_BUTTON_TITLE' => 'Done',
     'LBL_FAVORITES' => 'お気に入り',
     'LBL_VCARD' => 'vCard',
     'LBL_EMPTY_VCARD' => 'vCardファイルを選択してください。',
@@ -1570,10 +1570,10 @@ $app_strings = array(
     'LBL_VCARD_ERROR_DEFAULT' => 'vCard ファイルのアップロード エラーが発生しました。詳細については suitecrm.log を参照してください。',
     'LBL_IMPORT_VCARD' => 'インポートvCard:',
     'LBL_IMPORT_VCARD_BUTTON_LABEL' => 'vCardインポート',
-    'LBL_IMPORT_VCARD_BUTTON_TITLE' => 'vCardインポート',
-    'LBL_VIEW_BUTTON' => '閲覧',
+    'LBL_IMPORT_VCARD_BUTTON_TITLE' => 'Import vCard',
+    'LBL_VIEW_BUTTON' => 'View',
     'LBL_EMAIL_PDF_BUTTON_LABEL' => 'PDFをメール送信',
-    'LBL_EMAIL_PDF_BUTTON_TITLE' => 'PDFをメール送信',
+    'LBL_EMAIL_PDF_BUTTON_TITLE' => 'Email as PDF',
     'LBL_EMAILS' => 'Eメール',
     'LBL_EMPLOYEES' => '従業員',
     'LBL_ENTER_DATE' => '入力日',
@@ -1587,22 +1587,22 @@ $app_strings = array(
     'LBL_LAST_VIEWED' => '参照履歴',
     'LBL_LEADS' => '潜在顧客',
     'LBL_LESS' => '以下',
-    'LBL_CAMPAIGN' => 'キャンペーン:',
-    'LBL_CAMPAIGNS' => 'キャンペーン',
+    'LBL_CAMPAIGN' => 'Campaign:',
+    'LBL_CAMPAIGNS' => 'Campaigns',
     'LBL_CAMPAIGNLOG' => 'キャンペーンログ',
-    'LBL_CAMPAIGN_CONTACT' => 'キャンペーン',
+    'LBL_CAMPAIGN_CONTACT' => 'Campaigns',
     'LBL_CAMPAIGN_ID' => 'campaign_id',
-    'LBL_CAMPAIGN_NONE' => 'なし',
+    'LBL_CAMPAIGN_NONE' => 'None',
     'LBL_THEME' => 'テーマ:',
     'LBL_FOUND_IN_RELEASE' => '発見したリリース',
     'LBL_FIXED_IN_RELEASE' => '修正したリリース',
     'LBL_LIST_ACCOUNT_NAME' => '取引先名',
-    'LBL_LIST_ASSIGNED_USER' => '担当ユーザー',
+    'LBL_LIST_ASSIGNED_USER' => 'ユーザー',
     'LBL_LIST_CONTACT_NAME' => '連絡先名',
     'LBL_LIST_CONTACT_ROLE' => '連絡先の役割',
-    'LBL_LIST_DATE_ENTERED' => '作成日',
+    'LBL_LIST_DATE_ENTERED' => 'Date Created',
     'LBL_LIST_EMAIL' => 'メール',
-    'LBL_LIST_NAME' => '名前',
+    'LBL_LIST_NAME' => '名称',
     'LBL_LIST_OF' => 'の',
     'LBL_LIST_PHONE' => '電話番号',
     'LBL_LIST_RELATED_TO' => '関連先',
@@ -1614,85 +1614,85 @@ $app_strings = array(
 
     'LBL_LOCALE_NAME_EXAMPLE_FIRST' => '太郎',
     'LBL_LOCALE_NAME_EXAMPLE_LAST' => 'デモ',
-    'LBL_LOCALE_NAME_EXAMPLE_SALUTATION' => '先生',
+    'LBL_LOCALE_NAME_EXAMPLE_SALUTATION' => 'Dr.',
     'LBL_LOCALE_NAME_EXAMPLE_TITLE' => '非凡なコード モンキー',
-    'LBL_CANCEL' => 'キャンセル',
+    'LBL_CANCEL' => 'Cancel',
     'LBL_VERIFY' => '検証',
     'LBL_RESEND' => '再送信',
     'LBL_PROFILE' => 'プロファイル',
-    'LBL_MAILMERGE' => 'メールマージ',
+    'LBL_MAILMERGE' => 'Mail Merge',
     'LBL_MASS_UPDATE' => '更新',
     'LBL_NO_MASS_UPDATE_FIELDS_AVAILABLE' => '更新可能なフィールドがありませんでした。',
     'LBL_OPT_OUT_FLAG_PRIMARY' => '受信拒否メールアドレス',
     'LBL_OPT_IN_FLAG_PRIMARY' => 'プライマリEメールをオプト・インする',
-    'LBL_MEETINGS' => 'ミーティング',
+    'LBL_MEETINGS' => 'Meetings',
     'LBL_MEETING_GO_BACK' => 'ミーティングへ戻る',
     'LBL_MEMBERS' => 'メンバー一覧',
     'LBL_MEMBER_OF' => '以下のメンバー: ',
     'LBL_MODIFIED_BY_USER' => 'ユーザーが更新',
     'LBL_MODIFIED_USER' => 'ユーザーが更新',
     'LBL_MODIFIED' => '更新者',
-    'LBL_MODIFIED_NAME' => '更新者',
+    'LBL_MODIFIED_NAME' => 'Modified By Name',
     'LBL_MORE' => 'もっと',
     'LBL_MY_ACCOUNT' => '私の設定',
-    'LBL_NAME' => '名前',
+    'LBL_NAME' => '名称',
     'LBL_NEW_BUTTON_KEY' => 'N',
     'LBL_NEW_BUTTON_LABEL' => '作成',
     'LBL_NEW_BUTTON_TITLE' => '作成',
-    'LBL_NEXT_BUTTON_LABEL' => '次へ',
-    'LBL_NONE' => '--管理者アクション--',
-    'LBL_NOTES' => 'ノート',
-    'LBL_OPPORTUNITIES' => '商談',
+    'LBL_NEXT_BUTTON_LABEL' => 'Next',
+    'LBL_NONE' => '--None--',
+    'LBL_NOTES' => 'Notes',
+    'LBL_OPPORTUNITIES' => 'Opportunities',
     'LBL_OPPORTUNITY_NAME' => '商談名',
-    'LBL_OPPORTUNITY' => '商談',
+    'LBL_OPPORTUNITY' => 'Opportunity',
     'LBL_OR' => 'または',
     'LBL_PANEL_OVERVIEW' => '概要',
     'LBL_PANEL_ASSIGNMENT' => 'その他',
     'LBL_PANEL_ADVANCED' => '詳細情報',
     'LBL_PARENT_TYPE' => '親タイプ',
     'LBL_PERCENTAGE_SYMBOL' => '%',
-    'LBL_POSTAL_CODE' => '郵便番号:',
+    'LBL_POSTAL_CODE' => 'Postal Code:',
     'LBL_PRIMARY_ADDRESS_CITY' => '主となる市区町村:',
-    'LBL_PRIMARY_ADDRESS_COUNTRY' => '主となる国:',
+    'LBL_PRIMARY_ADDRESS_COUNTRY' => 'Primary Address Country:',
     'LBL_PRIMARY_ADDRESS_POSTALCODE' => '主となる郵便番号:',
     'LBL_PRIMARY_ADDRESS_STATE' => '主となる都道府県:',
-    'LBL_PRIMARY_ADDRESS_STREET_2' => '主となる住所 2:',
-    'LBL_PRIMARY_ADDRESS_STREET_3' => '主となる住所 3:',
+    'LBL_PRIMARY_ADDRESS_STREET_2' => 'Primary Address Street 2:',
+    'LBL_PRIMARY_ADDRESS_STREET_3' => 'Primary Address Street 3:',
     'LBL_PRIMARY_ADDRESS_STREET' => '主となる番地その他:',
     'LBL_PRIMARY_ADDRESS' => '主となる住所:',
 
     'LBL_PROSPECTS' => '見込み客',
     'LBL_PRODUCTS' => '商品',
-    'LBL_PROJECT_TASKS' => 'プロジェクトタスク',
-    'LBL_PROJECTS' => 'プロジェクト',
-    'LBL_QUOTES' => '見積',
+    'LBL_PROJECT_TASKS' => 'Project Tasks',
+    'LBL_PROJECTS' => 'Projects',
+    'LBL_QUOTES' => '見積書',
 
     'LBL_RELATED' => '関連',
     'LBL_RELATED_RECORDS' => '関連レコード',
-    'LBL_REMOVE' => '削除',
+    'LBL_REMOVE' => 'Remove',
     'LBL_REPORTS_TO' => '上司',
     'LBL_REQUIRED_SYMBOL' => '*',
     'LBL_REQUIRED_TITLE' => '入力必須項目',
-    'LBL_EMAIL_DONE_BUTTON_LABEL' => '完了',
+    'LBL_EMAIL_DONE_BUTTON_LABEL' => 'Done',
     'LBL_FULL_FORM_BUTTON_KEY' => 'L',
     'LBL_FULL_FORM_BUTTON_LABEL' => 'フルフォーム',
-    'LBL_FULL_FORM_BUTTON_TITLE' => 'フルフォーム',
+    'LBL_FULL_FORM_BUTTON_TITLE' => 'Full Form',
     'LBL_SAVE_NEW_BUTTON_LABEL' => '保存後新規作成',
-    'LBL_SAVE_NEW_BUTTON_TITLE' => '保存後新規作成',
+    'LBL_SAVE_NEW_BUTTON_TITLE' => 'Save & Create New',
     'LBL_SAVE_OBJECT' => '{0} を保存',
     'LBL_SEARCH_BUTTON_KEY' => 'Q',
     'LBL_SEARCH_BUTTON_LABEL' => '検索',
-    'LBL_SEARCH_BUTTON_TITLE' => '検索',
+    'LBL_SEARCH_BUTTON_TITLE' => 'Search',
     'LBL_FILTER' => 'フィルタ',
-    'LBL_SEARCH' => '検索',
+    'LBL_SEARCH' => 'Search',
     'LBL_SEARCH_ALT' => '',
     'LBL_SEARCH_MORE' => 'もっと',
     'LBL_UPLOAD_IMAGE_FILE_INVALID' => 'ファイルのフォーマットが無効です。',
     'LBL_SELECT_BUTTON_KEY' => 'T',
-    'LBL_SELECT_BUTTON_LABEL' => '選択',
-    'LBL_SELECT_BUTTON_TITLE' => '選択',
+    'LBL_SELECT_BUTTON_LABEL' => 'Select',
+    'LBL_SELECT_BUTTON_TITLE' => 'Select',
     'LBL_BROWSE_DOCUMENTS_BUTTON_LABEL' => '参照',
-    'LBL_BROWSE_DOCUMENTS_BUTTON_TITLE' => '参照',
+    'LBL_BROWSE_DOCUMENTS_BUTTON_TITLE' => 'Browse Documents',
     'LBL_SELECT_CONTACT_BUTTON_KEY' => 'T',
     'LBL_SELECT_CONTACT_BUTTON_LABEL' => '連絡先の選択',
     'LBL_SELECT_CONTACT_BUTTON_TITLE' => '連絡先の選択',
@@ -1710,7 +1710,7 @@ $app_strings = array(
     'LBL_ACCESSKEY_CLEAR_COLLECTION_LABEL' => '選択をクリア',
     'LBL_ACCESSKEY_SELECT_FILE_KEY' => 'F',
     'LBL_ACCESSKEY_SELECT_FILE_TITLE' => 'ファイル選択',
-    'LBL_ACCESSKEY_SELECT_FILE_LABEL' => 'ファイル選択',
+    'LBL_ACCESSKEY_SELECT_FILE_LABEL' => 'Select File',
     'LBL_ACCESSKEY_CLEAR_FILE_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_FILE_TITLE' => 'ファイルをクリア',
     'LBL_ACCESSKEY_CLEAR_FILE_LABEL' => 'ファイルをクリア',
@@ -1720,7 +1720,7 @@ $app_strings = array(
     'LBL_ACCESSKEY_SELECT_USERS_LABEL' => 'ユーザーを選択',
     'LBL_ACCESSKEY_CLEAR_USERS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_USERS_TITLE' => 'ユーザーをクリア',
-    'LBL_ACCESSKEY_CLEAR_USERS_LABEL' => 'ユーザーをクリア',
+    'LBL_ACCESSKEY_CLEAR_USERS_LABEL' => 'ユーザークリア',
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_KEY' => 'A',
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_TITLE' => '取引先の選択',
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_LABEL' => '取引先の選択',
@@ -1754,17 +1754,17 @@ $app_strings = array(
     'LBL_SERVER_PEAK_MEMORY_USAGE' => 'サーバー最大使用メモリ: {0} ({1})',
     'LBL_SHIPPING_ADDRESS' => '出荷先住所',
     'LBL_SHOW' => '表示',
-    'LBL_STATE' => '都道府県:',
+    'LBL_STATE' => 'State:',
     'LBL_STATUS_UPDATED' => '当イベントのステータスが更新されました!',
-    'LBL_STATUS' => 'ステータス:',
+    'LBL_STATUS' => 'Status:',
     'LBL_STREET' => '番地',
-    'LBL_SUBJECT' => '件名',
+    'LBL_SUBJECT' => 'Subject',
 
     'LBL_INBOUNDEMAIL_ID' => '受信メールID',
 
     'LBL_SCENARIO_SALES' => '営業',
     'LBL_SCENARIO_MARKETING' => 'マーケティング',
-    'LBL_SCENARIO_FINANCE' => '金融',
+    'LBL_SCENARIO_FINANCE' => 'Finance',
     'LBL_SCENARIO_SERVICE' => 'サービス',
     'LBL_SCENARIO_PROJECT' => 'プロジェクト管理',
 
@@ -1774,22 +1774,22 @@ $app_strings = array(
     'LBL_SCENARIO_SERVICE_DESCRIPTION' => 'このシナリオはサービス関連アイテムの管理を容易にします',
     'LBL_SCENARIO_PROJECT_DESCRIPTION' => 'このシナリオはプロジェクト関連アイテムの管理を容易にします',
 
-    'LBL_SYNC' => '同期',
-    'LBL_TABGROUP_ALL' => 'すべて',
-    'LBL_TABGROUP_ACTIVITIES' => '活動',
+    'LBL_SYNC' => 'Sync',
+    'LBL_TABGROUP_ALL' => 'All',
+    'LBL_TABGROUP_ACTIVITIES' => 'Activities',
     'LBL_TABGROUP_COLLABORATION' => '共同作業',
     'LBL_TABGROUP_MARKETING' => 'マーケティング',
-    'LBL_TABGROUP_OTHER' => 'その他',
+    'LBL_TABGROUP_OTHER' => 'Other',
     'LBL_TABGROUP_SALES' => '営業',
     'LBL_TABGROUP_SUPPORT' => 'サポート',
-    'LBL_TASKS' => 'タスク',
+    'LBL_TASKS' => 'Tasks',
     'LBL_THOUSANDS_SYMBOL' => 'K',
     'LBL_TRACK_EMAIL_BUTTON_LABEL' => 'メールをアーカイブする',
     'LBL_TRACK_EMAIL_BUTTON_TITLE' => 'メールをアーカイブする',
     'LBL_UNDELETE_BUTTON_LABEL' => '削除取消',
-    'LBL_UNDELETE_BUTTON_TITLE' => '削除取消',
-    'LBL_UNDELETE_BUTTON' => '削除取消',
-    'LBL_UNDELETE' => '削除取消',
+    'LBL_UNDELETE_BUTTON_TITLE' => 'Undelete',
+    'LBL_UNDELETE_BUTTON' => 'Undelete',
+    'LBL_UNDELETE' => 'Undelete',
     'LBL_UNSYNC' => '同期取消',
     'LBL_UPDATE' => '更新',
     'LBL_USER_LIST' => 'ユーザー一覧',
@@ -1804,25 +1804,25 @@ $app_strings = array(
     'LBL_ADVANCED_SEARCH' => '高度なフィルタ',
     'LBL_QUICK_FILTER' => 'クイック フィルタ',
     'LNK_SEARCH_NONFTS_VIEW_ALL' => '全て表示',
-    'LNK_CLOSE' => '完了',
+    'LNK_CLOSE' => 'Close',
     'LBL_MODIFY_CURRENT_FILTER' => '現在のフィルタを変更する',
     'LNK_SAVED_VIEWS' => '保存済みビュー',
-    'LNK_DELETE' => '削除',
-    'LNK_EDIT' => '編集',
+    'LNK_DELETE' => 'Delete',
+    'LNK_EDIT' => 'Edit',
     'LNK_GET_LATEST' => '最新を取得',
     'LNK_GET_LATEST_TOOLTIP' => '最新と入れ替え',
-    'LNK_HELP' => 'ヘルプ',
+    'LNK_HELP' => 'Help',
     'LNK_CREATE' => '作成',
     'LNK_LIST_END' => '終了',
-    'LNK_LIST_NEXT' => '次へ',
+    'LNK_LIST_NEXT' => 'Next',
     'LNK_LIST_PREVIOUS' => '前週',
     'LNK_LIST_RETURN' => '一覧へ戻る',
     'LNK_LIST_START' => '開始',
     'LNK_LOAD_SIGNED' => 'サイン',
     'LNK_LOAD_SIGNED_TOOLTIP' => 'サイン済みと入れ替え',
-    'LNK_PRINT' => '印刷',
+    'LNK_PRINT' => 'Print',
     'LNK_BACKTOTOP' => 'トップに戻る',
-    'LNK_REMOVE' => '削除',
+    'LNK_REMOVE' => 'Remove',
     'LNK_RESUME' => '戻す',
     'LNK_VIEW_CHANGE_LOG' => '変更履歴表示',
 
@@ -1836,9 +1836,9 @@ $app_strings = array(
     'NTC_UPDATE_CONFIRMATION_NUM' => '次を更新してもよいですか? ',
     'NTC_DELETE_SELECTED_RECORDS' => 'レコード選択',
     'NTC_LOGIN_MESSAGE' => 'ユーザー名とパスワードを入力してください:',
-    'NTC_NO_ITEMS_DISPLAY' => 'なし',
+    'NTC_NO_ITEMS_DISPLAY' => 'none',
     'NTC_REMOVE_CONFIRMATION' => '本当にこのリレーションを削除してよいですか?',
-    'NTC_REQUIRED' => '入力必須項目',
+    'NTC_REQUIRED' => 'Indicates required field',
     'NTC_TIME_FORMAT' => '(24:00)',
     'NTC_WELCOME' => 'ようこそ',
     'NTC_YEAR_FORMAT' => '(年年年年)',
@@ -1852,7 +1852,7 @@ $app_strings = array(
     'LBL_MANAGE_SUBSCRIPTIONS' => 'サブスクリプションの管理',
     'LBL_MANAGE_SUBSCRIPTIONS_FOR' => 'サブスクリプションの管理対象: ',
     // Ajax status strings
-    'LBL_LOADING' => '読込中...',
+    'LBL_LOADING' => 'ロード中....',
     'LBL_SEARCHING' => '検索中...',
     'LBL_SAVING_LAYOUT' => 'レイアウトを保存中....',
     'LBL_SAVED_LAYOUT' => 'レイアウトは保存されました。',
@@ -1863,7 +1863,7 @@ $app_strings = array(
     'LBL_SEARCH_CRITERIA' => '検索条件',
     'LBL_SAVED_VIEWS' => 'ビューを保存',
     'LBL_PROCESSING_REQUEST' => '処理中...',
-    'LBL_REQUEST_PROCESSED' => '完了',
+    'LBL_REQUEST_PROCESSED' => 'Done',
     'LBL_AJAX_FAILURE' => 'Ajaxエラー',
     'LBL_MERGE_DUPLICATES' => 'マージ',
     'LBL_SAVED_FILTER_SHORTCUT' => '私のフィルタ',
@@ -1872,17 +1872,17 @@ $app_strings = array(
     'LBL_LISTVIEW' => '一覧画面',
     'LBL_EDITVIEW' => '編集ビュー',
     'LBL_BILLING_STREET' => '請求先住所:',
-    'LBL_SHIPPING_STREET' => '請求先住所:',
+    'LBL_SHIPPING_STREET' => 'Street:',
     'LBL_SEARCHFORM' => '検索フォーム',
     'LBL_SAVED_SEARCH_ERROR' => 'このビューに名前を付けてください。',
     'LBL_DISPLAY_LOG' => 'ログを表示',
-    'ERROR_JS_ALERT_SYSTEM_CLASS' => 'システム管理',
+    'ERROR_JS_ALERT_SYSTEM_CLASS' => 'System',
     'ERROR_JS_ALERT_TIMEOUT_TITLE' => 'セッションタイムアウト',
     'ERROR_JS_ALERT_TIMEOUT_MSG_1' => 'セッションがおよそ2分でタイムアウトします。作業内容を保存してください。',
     'ERROR_JS_ALERT_TIMEOUT_MSG_2' => 'セッションがタイムアウトしました',
     'MSG_JS_ALERT_MTG_REMINDER_AGENDA' => "\nAgenda: ",
-    'MSG_JS_ALERT_MTG_REMINDER_MEETING' => 'ミーティング',
-    'MSG_JS_ALERT_MTG_REMINDER_CALL' => 'コール情報',
+    'MSG_JS_ALERT_MTG_REMINDER_MEETING' => 'Meeting',
+    'MSG_JS_ALERT_MTG_REMINDER_CALL' => 'Call',
     'MSG_JS_ALERT_MTG_REMINDER_TIME' => '時間: ',
     'MSG_JS_ALERT_MTG_REMINDER_LOC' => '場所: ',
     'MSG_JS_ALERT_MTG_REMINDER_DESC' => '詳細: ',
@@ -1904,7 +1904,7 @@ $app_strings = array(
     // contextMenu strings
     'LBL_ADD_TO_FAVORITES' => '私のお気に入りに追加',
     'LBL_CREATE_CONTACT' => '連絡先を作成',
-    'LBL_CREATE_CASE' => 'チケット作成',
+    'LBL_CREATE_CASE' => 'Create Case',
     'LBL_CREATE_NOTE' => 'ノート作成',
     'LBL_CREATE_OPPORTUNITY' => '商談作成',
     'LBL_SCHEDULE_CALL' => 'コール作成',
@@ -1924,7 +1924,7 @@ $app_strings = array(
     'LBL_ADD_ALL_LEAD_FIELDS' => '全フィールドの追加',
     'LBL_RESET_ALL_LEAD_FIELDS' => 'すべてのフィールドをリセットする',
     'LBL_REMOVE_ALL_LEAD_FIELDS' => '全フィールドの削除',
-    'LBL_NEXT_BTN' => '次へ',
+    'LBL_NEXT_BTN' => 'Next',
     'LBL_ONLY_IMAGE_ATTACHMENT' => 'イメージタイプの添付ファイルのみ埋め込めます。',
     'LBL_TRAINING' => 'サポート フォーラム',
     'ERR_MSSQL_DB_CONTEXT' => 'データベースコンテキストが変更されました',
@@ -1940,7 +1940,7 @@ $app_strings = array(
     'LBL_DASHLET_CONFIGURE_GENERAL' => '一般',
     'LBL_DASHLET_CONFIGURE_FILTERS' => 'フィルター',
     'LBL_DASHLET_CONFIGURE_MY_ITEMS_ONLY' => '私のアイテムのみ',
-    'LBL_DASHLET_CONFIGURE_TITLE' => '題名',
+    'LBL_DASHLET_CONFIGURE_TITLE' => 'Title',
     'LBL_DASHLET_CONFIGURE_DISPLAY_ROWS' => '行の表示',
 
     // MySugar status strings
@@ -1959,14 +1959,14 @@ $app_strings = array(
 
     'LBL_RELOAD_PAGE' => 'この SuiteCRM ダッシュレットを使用するには <a href="javascript: window.location.reload()"> ウィンドウを再読み込み</a> してください。',
     'LBL_ADD_DASHLETS' => 'ダッシュレットの追加',
-    'LBL_CLOSE_DASHLETS' => '完了',
-    'LBL_OPTIONS' => 'オプション',
+    'LBL_CLOSE_DASHLETS' => 'Close',
+    'LBL_OPTIONS' => 'Options',
     'LBL_1_COLUMN' => '1列',
     'LBL_2_COLUMN' => '2列',
     'LBL_3_COLUMN' => '3列',
     'LBL_PAGE_NAME' => 'ページ名',
 
-    'LBL_SEARCH_RESULTS' => '検索結果',
+    'LBL_SEARCH_RESULTS' => 'Search Results',
     'LBL_SEARCH_MODULES' => 'モジュール',
     'LBL_SEARCH_TOOLS' => 'ツール',
     'LBL_SEARCH_HELP_TITLE' => 'マルチセレクトコントロールの検索方法と保存済み検索の利用方法',
@@ -2021,7 +2021,7 @@ $app_strings = array(
     'LBL_CHOOSE_START_AND_END_ENTRIES' => '開始と終了のエントリの範囲を選択してください。',
 
     //jchi #  20776
-    'LBL_DROPDOWN_LIST_ALL' => 'すべて',
+    'LBL_DROPDOWN_LIST_ALL' => 'All',
 
     //Connector
     'ERR_CONNECTOR_FILL_BEANS_SIZE_MISMATCH' => 'エラー: Beanパラメータの配列の要素数と結果の配列の要素数が一致しません。',
@@ -2032,13 +2032,13 @@ $app_strings = array(
     'LBL_FASTCGI_LOGGING' => 'IIS/FastCGI SAPIを適切に未知いるためには、php.iniファイルで fastcgi.logging を 0 に設定してください。',
 
     //Collection Field
-    'LBL_COLLECTION_NAME' => '名前',
-    'LBL_COLLECTION_PRIMARY' => 'メインアドレス',
+    'LBL_COLLECTION_NAME' => '名称',
+    'LBL_COLLECTION_PRIMARY' => 'プライマリアドレス',
     'ERROR_MISSING_COLLECTION_SELECTION' => '空の必須入力フィールド',
 
     //MB -Fixed Bug #32812 -Max
-    'LBL_ASSIGNED_TO_NAME' => 'アサイン先',
-    'LBL_DESCRIPTION' => '詳細',
+    'LBL_ASSIGNED_TO_NAME' => 'アサインされたユーザー',
+    'LBL_DESCRIPTION' => 'Description',
 
     'LBL_YESTERDAY' => '昨日',
     'LBL_TODAY' => '今日',
@@ -2054,8 +2054,8 @@ $app_strings = array(
     'LBL_NEXT_YEAR' => '来年',
 
     //Datetimecombo fields
-    'LBL_HOURS' => '時間',
-    'LBL_MINUTES' => '分',
+    'LBL_HOURS' => 'Hours',
+    'LBL_MINUTES' => 'Minutes',
     'LBL_MERIDIEM' => '子午線',
     'LBL_DATE' => '日付',
     'LBL_DASHLET_CONFIGURE_AUTOREFRESH' => '自動更新',
@@ -2105,7 +2105,7 @@ $app_strings = array(
     'LBL_NOTIFICATIONS_NONE' => '現在の通知はありません',
     'LBL_ALT_SORT_DESC' => '降順に並び替え',
     'LBL_ALT_SORT_ASC' => '昇順に並び替え',
-    'LBL_ALT_SORT' => 'ソート',
+    'LBL_ALT_SORT' => 'Sort',
     'LBL_ALT_SHOW_OPTIONS' => 'オプションを表示する',
     'LBL_ALT_HIDE_OPTIONS' => 'オプション非表示',
     'LBL_ALT_MOVE_COLUMN_LEFT' => '左側のリストに選択したエントリを移動',
@@ -2131,22 +2131,22 @@ $app_strings = array(
 
     //508 used Access Keys
     'LBL_EDIT_BUTTON_KEY' => 'i',
-    'LBL_EDIT_BUTTON_LABEL' => '編集',
-    'LBL_EDIT_BUTTON_TITLE' => '編集',
+    'LBL_EDIT_BUTTON_LABEL' => 'Edit',
+    'LBL_EDIT_BUTTON_TITLE' => 'Edit',
     'LBL_DUPLICATE_BUTTON_KEY' => 'u',
-    'LBL_DUPLICATE_BUTTON_LABEL' => '複製',
-    'LBL_DUPLICATE_BUTTON_TITLE' => '複製',
+    'LBL_DUPLICATE_BUTTON_LABEL' => 'Duplicate',
+    'LBL_DUPLICATE_BUTTON_TITLE' => 'Duplicate',
     'LBL_DELETE_BUTTON_KEY' => 'd',
-    'LBL_DELETE_BUTTON_LABEL' => '削除',
-    'LBL_DELETE_BUTTON_TITLE' => '削除',
+    'LBL_DELETE_BUTTON_LABEL' => 'Delete',
+    'LBL_DELETE_BUTTON_TITLE' => 'Delete',
     'LBL_BULK_ACTION_BUTTON_LABEL' => 'BULK ACTION',
     'LBL_BULK_ACTION_BUTTON_LABEL_MOBILE' => 'アクション',
     'LBL_SAVE_BUTTON_KEY' => 'a',
-    'LBL_SAVE_BUTTON_LABEL' => 'セーブする',
-    'LBL_SAVE_BUTTON_TITLE' => 'セーブする',
+    'LBL_SAVE_BUTTON_LABEL' => '新しいグループフォルダを追加',
+    'LBL_SAVE_BUTTON_TITLE' => '新しいグループフォルダを追加',
     'LBL_CANCEL_BUTTON_KEY' => 'l',
-    'LBL_CANCEL_BUTTON_LABEL' => 'キャンセル',
-    'LBL_CANCEL_BUTTON_TITLE' => 'キャンセル',
+    'LBL_CANCEL_BUTTON_LABEL' => 'Cancel',
+    'LBL_CANCEL_BUTTON_TITLE' => 'Cancel',
     'LBL_FIRST_INPUT_EDIT_VIEW_KEY' => '7',
     'LBL_ADV_SEARCH_LNK_KEY' => '8',
     'LBL_FIRST_INPUT_SEARCH_KEY' => '9',
@@ -2154,11 +2154,11 @@ $app_strings = array(
     'ERR_CONNECTOR_NOT_ARRAY' => '{0} のコネクタ配列が正しく定義されていない、または空のため使用できませんでした。',
     'ERR_SUHOSIN' => 'アップロードストリームはSuhosinによってブロックされています。suhosin.executor.include.whitelist に「アップロード」を追加してください（詳細はsuitecrm.logを参照）。',
     'ERR_BAD_RESPONSE_FROM_SERVER' => 'サーバーからのレスポンス不良',
-    'LBL_ACCOUNT_PRODUCT_QUOTE_LINK' => '見積',
+    'LBL_ACCOUNT_PRODUCT_QUOTE_LINK' => '見積書',
     'LBL_ACCOUNT_PRODUCT_SALE_PRICE' => '販売価格',
     'LBL_EMAIL_CHECK_INTERVAL_DOM' => array(
         '-1' => '手動',
-        '5' => '毎5分',
+        '5' => 'Every 5 minutes',
         '15' => '毎15分',
         '30' => '毎30分',
         '60' => '1時間毎',
@@ -2180,8 +2180,8 @@ $app_strings = array(
 
     'LBL_FILTER_HEADER_TITLE' => 'フィルタ',
 
-    'LBL_CATEGORY' => 'カテゴリ',
-    'LBL_LIST_CATEGORY' => 'カテゴリ',
+    'LBL_CATEGORY' => 'Category',
+    'LBL_LIST_CATEGORY' => 'Category',
     'ERR_FACTOR_TPL_INVALID' => 'ファクタ認証メッセージは無効です。管理者にお問い合わせください。',
     'LBL_SUBTHEMES' => 'スタイル',
     'LBL_SUBTHEME_OPTIONS_DAWN' => 'Dawn',
@@ -2210,7 +2210,7 @@ $app_strings = array(
     'LBL_PRIMARY_GROUP' => "主要グループ",
 
     // footer
-    'LBL_SUITE_TOP' => 'トップに戻る',
+    'LBL_SUITE_TOP' => 'Back to top',
     'LBL_SUITE_SUPERCHARGED' => 'Supercharged by SuiteCRM',
     'LBL_SUITE_POWERED_BY' => 'Powered By SugarCRM',
     'LBL_SUITE_DESC1' => 'SuiteCRM has been written and assembled by <a href="https://suitecrm.com/">SuiteCRM Ltd</a>. The Program is provided AS IS, without warranty. Licensed under AGPLv3.',
@@ -2227,11 +2227,11 @@ $app_strings = array(
 
 $app_list_strings['moduleList']['Library'] = '辞書 図書館';
 $app_list_strings['moduleList']['EmailAddresses'] = 'メールアドレス';
-$app_list_strings['project_priority_default'] = '中';
+$app_list_strings['project_priority_default'] = 'Medium';
 $app_list_strings['project_priority_options'] = array(
-    'High' => '高',
-    'Medium' => '中',
-    'Low' => '低',
+    'High' => 'High',
+    'Medium' => 'Medium',
+    'Low' => 'Low',
 );
 
 //GDPR lawful basis options
@@ -2258,7 +2258,7 @@ $app_list_strings['lawful_basis_source_dom'] = array(
 );
 //End GDPR lawful basis source options
 
-$app_list_strings['moduleList']['KBDocuments'] = 'ナレッジベース';
+$app_list_strings['moduleList']['KBDocuments'] = '知識ベース';
 
 $app_list_strings['countries_dom'] = array(
     '' => '',
@@ -2926,35 +2926,35 @@ $app_list_strings['eapm_list_documents'] = array(
 $app_list_strings['token_status'] = array(
     1 => 'リクエスト',
     2 => 'アクセス',
-    3 => '無効',
+    3 => 'Invalid',
 );
 
 $app_list_strings ['emailTemplates_type_list'] = array(
     '' => '',
-    'campaign' => 'キャンペーン',
+    'campaign' => 'Campaign',
     'email' => 'メール',
     'event' => 'イベント',
 );
 
 $app_list_strings ['emailTemplates_type_list_campaigns'] = array(
     '' => '',
-    'campaign' => 'キャンペーン',
+    'campaign' => 'Campaign',
 );
 
 $app_list_strings ['emailTemplates_type_list_no_workflow'] = array(
     '' => '',
-    'campaign' => 'キャンペーン',
+    'campaign' => 'Campaign',
     'email' => 'メール',
     'event' => 'イベント',
-    'system' => 'システム管理',
+    'system' => 'System',
 );
 
 // knowledge base
-$app_list_strings['moduleList']['AOK_KnowledgeBase'] = 'ナレッジベース';
+$app_list_strings['moduleList']['AOK_KnowledgeBase'] = '知識ベース';
 $app_list_strings['moduleList']['AOK_Knowledge_Base_Categories'] = 'ナレッジベース - カテゴリー';
-$app_list_strings['aok_status_list']['Draft'] = 'ドラフト';
+$app_list_strings['aok_status_list']['Draft'] = '草案';
 $app_list_strings['aok_status_list']['Expired'] = '期限切れ';
-$app_list_strings['aok_status_list']['In_Review'] = 'レビュー中';
+$app_list_strings['aok_status_list']['In_Review'] = 'In Review';
 //$app_list_strings['aok_status_list']['Published'] = 'Published';
 $app_list_strings['aok_status_list']['published_private'] = 'プライベート';
 $app_list_strings['aok_status_list']['published_public'] = 'パブリック';
@@ -2967,8 +2967,8 @@ $app_list_strings['fp_event_invite_status_dom']['Invited'] = '招待済';
 $app_list_strings['fp_event_invite_status_dom']['Not Invited'] = '未招待';
 $app_list_strings['fp_event_invite_status_dom']['Attended'] = '出席';
 $app_list_strings['fp_event_invite_status_dom']['Not Attended'] = '欠席';
-$app_list_strings['fp_event_status_dom']['Accepted'] = '受領';
-$app_list_strings['fp_event_status_dom']['Declined'] = '辞退';
+$app_list_strings['fp_event_status_dom']['Accepted'] = 'Accepted';
+$app_list_strings['fp_event_status_dom']['Declined'] = 'Declined';
 $app_list_strings['fp_event_status_dom']['No Response'] = '応答無';
 
 $app_strings['LBL_STATUS_EVENT'] = '招待ステータス';
@@ -2991,17 +2991,17 @@ $app_list_strings['case_state_default_key'] = '開店';
 $app_list_strings['case_state_dom'] =
     array(
         'Open' => '開く',
-        'Closed' => '完了',
+        'Closed' => 'Closed',
     );
 $app_list_strings['case_status_default_key'] = 'Open_New';
 $app_list_strings['case_status_dom'] =
     array(
-        'Open_New' => '新規',
-        'Open_Assigned' => 'アサイン済み',
-        'Closed_Closed' => '完了',
-        'Open_Pending Input' => '保留',
-        'Closed_Rejected' => '拒否',
-        'Closed_Duplicate' => '複製',
+        'Open_New' => 'New',
+        'Open_Assigned' => 'Assigned',
+        'Closed_Closed' => 'Closed',
+        'Open_Pending Input' => 'Pending Input',
+        'Closed_Rejected' => 'Rejected',
+        'Closed_Duplicate' => 'Duplicate',
     );
 $app_list_strings['contact_portal_user_type_dom'] =
     array(
@@ -3024,12 +3024,12 @@ $app_list_strings['moduleList']['AOR_Fields'] = 'レポートフィールド';
 $app_list_strings['moduleList']['AOR_Scheduled_Reports'] = 'スケジュール済みレポート一覧';
 $app_list_strings['aor_operator_list']['Equal_To'] = '〜と同じ';
 $app_list_strings['aor_operator_list']['Not_Equal_To'] = '〜と異なる';
-$app_list_strings['aor_operator_list']['Greater_Than'] = '～より大きい';
-$app_list_strings['aor_operator_list']['Less_Than'] = '～未満';
+$app_list_strings['aor_operator_list']['Greater_Than'] = 'Greater Than';
+$app_list_strings['aor_operator_list']['Less_Than'] = 'Less Than';
 $app_list_strings['aor_operator_list']['Greater_Than_or_Equal_To'] = '〜以上';
 $app_list_strings['aor_operator_list']['Less_Than_or_Equal_To'] = '〜以下';
-$app_list_strings['aor_operator_list']['Contains'] = '含む';
-$app_list_strings['aor_operator_list']['Starts_With'] = '～で始まる';
+$app_list_strings['aor_operator_list']['Contains'] = 'Contains';
+$app_list_strings['aor_operator_list']['Starts_With'] = 'Starts With';
 $app_list_strings['aor_operator_list']['Ends_With'] = '〜で終わる';
 $app_list_strings['aor_format_options'][''] = '';
 $app_list_strings['aor_format_options']['Y-m-d'] = 'Y-m-d';
@@ -3044,18 +3044,18 @@ $app_list_strings['aor_format_options']['d.m.Y'] = 'd.m.Y';
 $app_list_strings['aor_format_options']['Ymd'] = 'Ymd';
 $app_list_strings['aor_format_options']['Y-m'] = 'Y-m';
 $app_list_strings['aor_format_options']['Y'] = 'Y';
-$app_list_strings['aor_condition_operator_list']['And'] = 'と';
-$app_list_strings['aor_condition_operator_list']['OR'] = 'または';
+$app_list_strings['aor_condition_operator_list']['And'] = 'And';
+$app_list_strings['aor_condition_operator_list']['OR'] = 'OR';
 $app_list_strings['aor_condition_type_list']['Value'] = '値';
 $app_list_strings['aor_condition_type_list']['Field'] = 'フィールド';
-$app_list_strings['aor_condition_type_list']['Date'] = '日付';
+$app_list_strings['aor_condition_type_list']['Date'] = 'Date';
 $app_list_strings['aor_condition_type_list']['Multi'] = '〜の一つ';
 $app_list_strings['aor_condition_type_list']['Period'] = '期間';
 $app_list_strings['aor_condition_type_list']['CurrentUserID'] = '現在のユーザー';
 $app_list_strings['aor_date_type_list'][''] = '';
-$app_list_strings['aor_date_type_list']['minute'] = '分';
-$app_list_strings['aor_date_type_list']['hour'] = '時間';
-$app_list_strings['aor_date_type_list']['day'] = '日';
+$app_list_strings['aor_date_type_list']['minute'] = 'Minutes';
+$app_list_strings['aor_date_type_list']['hour'] = 'Hours';
+$app_list_strings['aor_date_type_list']['day'] = 'Days';
 $app_list_strings['aor_date_type_list']['week'] = '週間';
 $app_list_strings['aor_date_type_list']['month'] = '月';
 $app_list_strings['aor_date_type_list']['business_hours'] = '営業時間';
@@ -3074,32 +3074,32 @@ $app_list_strings['aor_function_list']['MAX'] = '最大';
 $app_list_strings['aor_function_list']['SUM'] = '合計';
 $app_list_strings['aor_function_list']['AVG'] = '平均';
 $app_list_strings['aor_total_options'][''] = '';
-$app_list_strings['aor_total_options']['COUNT'] = '合計';
-$app_list_strings['aor_total_options']['SUM'] = '合計';
-$app_list_strings['aor_total_options']['AVG'] = '平均';
+$app_list_strings['aor_total_options']['COUNT'] = 'Count';
+$app_list_strings['aor_total_options']['SUM'] = 'Sum';
+$app_list_strings['aor_total_options']['AVG'] = 'Average';
 $app_list_strings['aor_chart_types']['bar'] = 'バー チャート';
 $app_list_strings['aor_chart_types']['line'] = 'ライン チャート';
 $app_list_strings['aor_chart_types']['pie'] = 'パイ チャート';
 $app_list_strings['aor_chart_types']['radar'] = 'レーダーチャート';
 $app_list_strings['aor_chart_types']['stacked_bar'] = '積み上げチャート';
 $app_list_strings['aor_chart_types']['grouped_bar'] = 'グループ チャート';
-$app_list_strings['aor_scheduled_report_schedule_types']['monthly'] = '毎月';
-$app_list_strings['aor_scheduled_report_schedule_types']['weekly'] = '毎週';
-$app_list_strings['aor_scheduled_report_schedule_types']['daily'] = '毎日';
-$app_list_strings['aor_scheduled_reports_status_dom']['active'] = '有効なアカウント';
-$app_list_strings['aor_scheduled_reports_status_dom']['inactive'] = '非アクティブ';
+$app_list_strings['aor_scheduled_report_schedule_types']['monthly'] = 'Monthly';
+$app_list_strings['aor_scheduled_report_schedule_types']['weekly'] = 'Weekly';
+$app_list_strings['aor_scheduled_report_schedule_types']['daily'] = 'Daily';
+$app_list_strings['aor_scheduled_reports_status_dom']['active'] = '稼働中';
+$app_list_strings['aor_scheduled_reports_status_dom']['inactive'] = 'Inactive';
 $app_list_strings['aor_email_type_list']['Email Address'] = 'メール';
-$app_list_strings['aor_email_type_list']['Specify User'] = '担当ユーザー';
+$app_list_strings['aor_email_type_list']['Specify User'] = 'ユーザー';
 $app_list_strings['aor_email_type_list']['Users'] = 'ユーザー';
 $app_list_strings['aor_assign_options']['all'] = 'すべてのユーザー';
 $app_list_strings['aor_assign_options']['role'] = '権限内のすべてのユーザー';
 $app_list_strings['aor_assign_options']['security_group'] = 'セキュリティ グループ内のすべてのユーザー';
-$app_list_strings['date_time_period_list']['today'] = '今日';
+$app_list_strings['date_time_period_list']['today'] = 'Today';
 $app_list_strings['date_time_period_list']['yesterday'] = '昨日';
 $app_list_strings['date_time_period_list']['this_week'] = '今週';
 $app_list_strings['date_time_period_list']['last_week'] = '先週';
-$app_list_strings['date_time_period_list']['last_month'] = '先月';
-$app_list_strings['date_time_period_list']['this_month'] = '今月';
+$app_list_strings['date_time_period_list']['last_month'] = 'Last Month';
+$app_list_strings['date_time_period_list']['this_month'] = 'This Month';
 $app_list_strings['date_time_period_list']['this_quarter'] = '今四半期';
 $app_list_strings['date_time_period_list']['last_quarter'] = '先四半期';
 $app_list_strings['date_time_period_list']['this_year'] = '今年';
@@ -3110,41 +3110,41 @@ $app_strings['LBL_CRON_AT'] = 'に';
 $app_strings['LBL_CRON_RAW'] = '詳細';
 $app_strings['LBL_CRON_MIN'] = '分';
 $app_strings['LBL_CRON_HOUR'] = '時';
-$app_strings['LBL_CRON_DAY'] = '日';
+$app_strings['LBL_CRON_DAY'] = 'Day';
 $app_strings['LBL_CRON_MONTH'] = '月';
 $app_strings['LBL_CRON_DOW'] = 'ダウ';
-$app_strings['LBL_CRON_DAILY'] = '毎日';
-$app_strings['LBL_CRON_WEEKLY'] = '毎週';
-$app_strings['LBL_CRON_MONTHLY'] = '毎月';
+$app_strings['LBL_CRON_DAILY'] = 'Daily';
+$app_strings['LBL_CRON_WEEKLY'] = 'Weekly';
+$app_strings['LBL_CRON_MONTHLY'] = 'Monthly';
 
 //aos
-$app_list_strings['moduleList']['AOS_Contracts'] = '契約';
-$app_list_strings['moduleList']['AOS_Invoices'] = '請求';
+$app_list_strings['moduleList']['AOS_Contracts'] = 'Contracts';
+$app_list_strings['moduleList']['AOS_Invoices'] = 'Invoices';
 $app_list_strings['moduleList']['AOS_PDF_Templates'] = 'PDF - テンプレート';
 $app_list_strings['moduleList']['AOS_Product_Categories'] = '製品 - カテゴリ';
-$app_list_strings['moduleList']['AOS_Products'] = '商品';
+$app_list_strings['moduleList']['AOS_Products'] = 'Products';
 $app_list_strings['moduleList']['AOS_Products_Quotes'] = '１行項目';
 $app_list_strings['moduleList']['AOS_Line_Item_Groups'] = '項目グループ';
-$app_list_strings['moduleList']['AOS_Quotes'] = '見積';
+$app_list_strings['moduleList']['AOS_Quotes'] = '見積書';
 $app_list_strings['aos_quotes_type_dom'][''] = '';
-$app_list_strings['aos_quotes_type_dom']['Analyst'] = 'アナリスト';
-$app_list_strings['aos_quotes_type_dom']['Competitor'] = '競合他社';
-$app_list_strings['aos_quotes_type_dom']['Customer'] = '顧客';
-$app_list_strings['aos_quotes_type_dom']['Integrator'] = 'インテグレーター';
-$app_list_strings['aos_quotes_type_dom']['Investor'] = '投資家';
-$app_list_strings['aos_quotes_type_dom']['Partner'] = 'パートナー';
-$app_list_strings['aos_quotes_type_dom']['Press'] = '記者';
-$app_list_strings['aos_quotes_type_dom']['Prospect'] = '見込み客';
-$app_list_strings['aos_quotes_type_dom']['Reseller'] = '再販業者';
-$app_list_strings['aos_quotes_type_dom']['Other'] = 'その他';
+$app_list_strings['aos_quotes_type_dom']['Analyst'] = 'Analyst';
+$app_list_strings['aos_quotes_type_dom']['Competitor'] = 'Competitor';
+$app_list_strings['aos_quotes_type_dom']['Customer'] = 'Customer';
+$app_list_strings['aos_quotes_type_dom']['Integrator'] = 'Integrator';
+$app_list_strings['aos_quotes_type_dom']['Investor'] = 'Investor';
+$app_list_strings['aos_quotes_type_dom']['Partner'] = 'Partner';
+$app_list_strings['aos_quotes_type_dom']['Press'] = 'Press';
+$app_list_strings['aos_quotes_type_dom']['Prospect'] = 'Prospect';
+$app_list_strings['aos_quotes_type_dom']['Reseller'] = 'Reseller';
+$app_list_strings['aos_quotes_type_dom']['Other'] = 'Other';
 $app_list_strings['template_ddown_c_list'][''] = '';
-$app_list_strings['quote_stage_dom']['Draft'] = 'ドラフト';
+$app_list_strings['quote_stage_dom']['Draft'] = '草案';
 $app_list_strings['quote_stage_dom']['Negotiation'] = '交渉';
 $app_list_strings['quote_stage_dom']['Delivered'] = '提供済み';
-$app_list_strings['quote_stage_dom']['On Hold'] = '保留中';
+$app_list_strings['quote_stage_dom']['On Hold'] = 'On Hold';
 $app_list_strings['quote_stage_dom']['Confirmed'] = '承認済み';
 $app_list_strings['quote_stage_dom']['Closed Accepted'] = 'クローズ 承認';
-$app_list_strings['quote_stage_dom']['Closed Lost'] = 'クローズ ロスト';
+$app_list_strings['quote_stage_dom']['Closed Lost'] = 'Closed Lost';
 $app_list_strings['quote_stage_dom']['Closed Dead'] = 'クローズ デッド';
 $app_list_strings['quote_term_dom']['Net 15'] = '請求書の日付から15日以内';
 $app_list_strings['quote_term_dom']['Net 30'] = '請求書の日付から30日以内';
@@ -3160,16 +3160,16 @@ $app_list_strings['vat_list']['20.0'] = '20$';
 $app_list_strings['discount_list']['Percentage'] = 'パーセント';
 $app_list_strings['discount_list']['Amount'] = '合計';
 $app_list_strings['aos_invoices_type_dom'][''] = '';
-$app_list_strings['aos_invoices_type_dom']['Analyst'] = 'アナリスト';
-$app_list_strings['aos_invoices_type_dom']['Competitor'] = '競合他社';
-$app_list_strings['aos_invoices_type_dom']['Customer'] = '顧客';
-$app_list_strings['aos_invoices_type_dom']['Integrator'] = 'インテグレーター';
-$app_list_strings['aos_invoices_type_dom']['Investor'] = '投資家';
-$app_list_strings['aos_invoices_type_dom']['Partner'] = 'パートナー';
-$app_list_strings['aos_invoices_type_dom']['Press'] = '記者';
-$app_list_strings['aos_invoices_type_dom']['Prospect'] = '見込み客';
-$app_list_strings['aos_invoices_type_dom']['Reseller'] = '再販業者';
-$app_list_strings['aos_invoices_type_dom']['Other'] = 'その他';
+$app_list_strings['aos_invoices_type_dom']['Analyst'] = 'Analyst';
+$app_list_strings['aos_invoices_type_dom']['Competitor'] = 'Competitor';
+$app_list_strings['aos_invoices_type_dom']['Customer'] = 'Customer';
+$app_list_strings['aos_invoices_type_dom']['Integrator'] = 'Integrator';
+$app_list_strings['aos_invoices_type_dom']['Investor'] = 'Investor';
+$app_list_strings['aos_invoices_type_dom']['Partner'] = 'Partner';
+$app_list_strings['aos_invoices_type_dom']['Press'] = 'Press';
+$app_list_strings['aos_invoices_type_dom']['Prospect'] = 'Prospect';
+$app_list_strings['aos_invoices_type_dom']['Reseller'] = 'Reseller';
+$app_list_strings['aos_invoices_type_dom']['Other'] = 'Other';
 $app_list_strings['invoice_status_dom']['Paid'] = '支払済';
 $app_list_strings['invoice_status_dom']['Unpaid'] = '未払';
 $app_list_strings['invoice_status_dom']['Cancelled'] = 'キャンセル済';
@@ -3182,19 +3182,19 @@ $app_list_strings['product_category_dom']['Laptops'] = 'ラップトップ';
 $app_list_strings['product_category_dom']['Desktops'] = 'デスクトップ';
 $app_list_strings['product_category_dom'][''] = '';
 $app_list_strings['product_type_dom']['Good'] = 'Good';
-$app_list_strings['product_type_dom']['Service'] = 'サービス';
-$app_list_strings['product_quote_parent_type_dom']['AOS_Quotes'] = '見積';
-$app_list_strings['product_quote_parent_type_dom']['AOS_Invoices'] = '請求';
-$app_list_strings['product_quote_parent_type_dom']['AOS_Contracts'] = '契約';
-$app_list_strings['pdf_template_type_dom']['AOS_Quotes'] = '見積';
-$app_list_strings['pdf_template_type_dom']['AOS_Invoices'] = '請求';
-$app_list_strings['pdf_template_type_dom']['AOS_Contracts'] = '契約';
+$app_list_strings['product_type_dom']['Service'] = 'Service';
+$app_list_strings['product_quote_parent_type_dom']['AOS_Quotes'] = '見積書';
+$app_list_strings['product_quote_parent_type_dom']['AOS_Invoices'] = 'Invoices';
+$app_list_strings['product_quote_parent_type_dom']['AOS_Contracts'] = 'Contracts';
+$app_list_strings['pdf_template_type_dom']['AOS_Quotes'] = '見積書';
+$app_list_strings['pdf_template_type_dom']['AOS_Invoices'] = 'Invoices';
+$app_list_strings['pdf_template_type_dom']['AOS_Contracts'] = 'Contracts';
 $app_list_strings['pdf_template_type_dom']['Accounts'] = '取引先';
 $app_list_strings['pdf_template_type_dom']['Contacts'] = '連絡先';
 $app_list_strings['pdf_template_type_dom']['Leads'] = '潜在顧客';
 $app_list_strings['pdf_template_sample_dom'][''] = '';
-$app_list_strings['contract_status_list']['Not Started'] = '未開始';
-$app_list_strings['contract_status_list']['In Progress'] = '進行中';
+$app_list_strings['contract_status_list']['Not Started'] = 'Not Started';
+$app_list_strings['contract_status_list']['In Progress'] = 'In Progress';
 $app_list_strings['contract_status_list']['Signed'] = 'サイン済';
 $app_list_strings['contract_type_list']['Type'] = 'タイプ';
 $app_strings['LBL_PRINT_AS_PDF'] = 'PDFを印刷';
@@ -3206,49 +3206,49 @@ $app_list_strings['moduleList']['AOW_WorkFlow'] = 'ワークフロー';
 $app_list_strings['moduleList']['AOW_Conditions'] = 'ワークフローの状態';
 $app_list_strings['moduleList']['AOW_Processed'] = '進捗審査';
 $app_list_strings['moduleList']['AOW_Actions'] = 'ワークフローアクション';
-$app_list_strings['aow_status_list']['Active'] = '有効なアカウント';
-$app_list_strings['aow_status_list']['Inactive'] = '非アクティブ';
-$app_list_strings['aow_operator_list']['Equal_To'] = '〜と同じ';
-$app_list_strings['aow_operator_list']['Not_Equal_To'] = '〜と異なる';
-$app_list_strings['aow_operator_list']['Greater_Than'] = '～より大きい';
-$app_list_strings['aow_operator_list']['Less_Than'] = '～未満';
-$app_list_strings['aow_operator_list']['Greater_Than_or_Equal_To'] = '〜以上';
-$app_list_strings['aow_operator_list']['Less_Than_or_Equal_To'] = '〜以下';
-$app_list_strings['aow_operator_list']['Contains'] = '含む';
-$app_list_strings['aow_operator_list']['Starts_With'] = '～で始まる';
-$app_list_strings['aow_operator_list']['Ends_With'] = '〜で終わる';
+$app_list_strings['aow_status_list']['Active'] = '稼働中';
+$app_list_strings['aow_status_list']['Inactive'] = 'Inactive';
+$app_list_strings['aow_operator_list']['Equal_To'] = 'Equal To';
+$app_list_strings['aow_operator_list']['Not_Equal_To'] = 'Not Equal To';
+$app_list_strings['aow_operator_list']['Greater_Than'] = 'Greater Than';
+$app_list_strings['aow_operator_list']['Less_Than'] = 'Less Than';
+$app_list_strings['aow_operator_list']['Greater_Than_or_Equal_To'] = 'Greater Than or Equal To';
+$app_list_strings['aow_operator_list']['Less_Than_or_Equal_To'] = 'Less Than or Equal To';
+$app_list_strings['aow_operator_list']['Contains'] = 'Contains';
+$app_list_strings['aow_operator_list']['Starts_With'] = 'Starts With';
+$app_list_strings['aow_operator_list']['Ends_With'] = 'Ends With';
 $app_list_strings['aow_operator_list']['is_null'] = 'はNull';
-$app_list_strings['aow_process_status_list']['Complete'] = '完了';
+$app_list_strings['aow_process_status_list']['Complete'] = 'Complete';
 $app_list_strings['aow_process_status_list']['Running'] = '起動中';
 $app_list_strings['aow_process_status_list']['Pending'] = '保留';
-$app_list_strings['aow_process_status_list']['Failed'] = '失敗';
-$app_list_strings['aow_condition_operator_list']['And'] = 'と';
-$app_list_strings['aow_condition_operator_list']['OR'] = 'または';
-$app_list_strings['aow_condition_type_list']['Value'] = '値';
-$app_list_strings['aow_condition_type_list']['Field'] = 'フィールド';
+$app_list_strings['aow_process_status_list']['Failed'] = 'Failed';
+$app_list_strings['aow_condition_operator_list']['And'] = 'And';
+$app_list_strings['aow_condition_operator_list']['OR'] = 'OR';
+$app_list_strings['aow_condition_type_list']['Value'] = 'Value';
+$app_list_strings['aow_condition_type_list']['Field'] = 'Field';
 $app_list_strings['aow_condition_type_list']['Any_Change'] = '変更';
 $app_list_strings['aow_condition_type_list']['SecurityGroup'] = 'セキュリティグループ内';
-$app_list_strings['aow_condition_type_list']['Date'] = '日付';
-$app_list_strings['aow_condition_type_list']['Multi'] = '〜の一つ';
-$app_list_strings['aow_action_type_list']['Value'] = '値';
-$app_list_strings['aow_action_type_list']['Field'] = 'フィールド';
-$app_list_strings['aow_action_type_list']['Date'] = '日付';
+$app_list_strings['aow_condition_type_list']['Date'] = 'Date';
+$app_list_strings['aow_condition_type_list']['Multi'] = 'One of';
+$app_list_strings['aow_action_type_list']['Value'] = 'Value';
+$app_list_strings['aow_action_type_list']['Field'] = 'Field';
+$app_list_strings['aow_action_type_list']['Date'] = 'Date';
 $app_list_strings['aow_action_type_list']['Round_Robin'] = 'ラウンド-ロビン';
 $app_list_strings['aow_action_type_list']['Least_Busy'] = '最も暇な';
-$app_list_strings['aow_action_type_list']['Random'] = 'ランダム';
-$app_list_strings['aow_rel_action_type_list']['Value'] = '値';
-$app_list_strings['aow_rel_action_type_list']['Field'] = 'フィールド';
+$app_list_strings['aow_action_type_list']['Random'] = 'Random';
+$app_list_strings['aow_rel_action_type_list']['Value'] = 'Value';
+$app_list_strings['aow_rel_action_type_list']['Field'] = 'Field';
 $app_list_strings['aow_date_type_list'][''] = '';
-$app_list_strings['aow_date_type_list']['minute'] = '分';
-$app_list_strings['aow_date_type_list']['hour'] = '時間';
-$app_list_strings['aow_date_type_list']['day'] = '日';
-$app_list_strings['aow_date_type_list']['week'] = '週間';
-$app_list_strings['aow_date_type_list']['month'] = '月';
+$app_list_strings['aow_date_type_list']['minute'] = 'Minutes';
+$app_list_strings['aow_date_type_list']['hour'] = 'Hours';
+$app_list_strings['aow_date_type_list']['day'] = 'Days';
+$app_list_strings['aow_date_type_list']['week'] = 'Weeks';
+$app_list_strings['aow_date_type_list']['month'] = 'Months';
 $app_list_strings['aow_date_type_list']['year'] = '年';
-$app_list_strings['aow_date_type_list']['business_hours'] = '営業時間';
-$app_list_strings['aow_date_options']['now'] = '現在';
-$app_list_strings['aow_date_options']['today'] = '今日';
-$app_list_strings['aow_date_options']['field'] = 'このフィールド';
+$app_list_strings['aow_date_type_list']['business_hours'] = 'Business Hours';
+$app_list_strings['aow_date_options']['now'] = 'Now';
+$app_list_strings['aow_date_options']['today'] = 'Today';
+$app_list_strings['aow_date_options']['field'] = 'This Field';
 $app_list_strings['aow_date_operator']['now'] = '';
 $app_list_strings['aow_date_operator']['plus'] = '+';
 $app_list_strings['aow_date_operator']['minus'] = '-';
@@ -3258,9 +3258,9 @@ $app_list_strings['aow_assign_options']['security_group'] = 'セキュリティ 
 $app_list_strings['aow_email_type_list']['Email Address'] = 'メール';
 $app_list_strings['aow_email_type_list']['Record Email'] = 'Eメールに記録';
 $app_list_strings['aow_email_type_list']['Related Field'] = '関連フィールド';
-$app_list_strings['aow_email_type_list']['Specify User'] = '担当ユーザー';
+$app_list_strings['aow_email_type_list']['Specify User'] = 'ユーザー';
 $app_list_strings['aow_email_type_list']['Users'] = 'ユーザー';
-$app_list_strings['aow_email_to_list']['to'] = 'To';
+$app_list_strings['aow_email_to_list']['to'] = '宛先';
 $app_list_strings['aow_email_to_list']['cc'] = 'Cc';
 $app_list_strings['aow_email_to_list']['bcc'] = 'Bcc';
 $app_list_strings['aow_run_on_list']['All_Records'] = 'すべてのレコード';
@@ -3275,8 +3275,8 @@ $app_list_strings['moduleList']['AM_ProjectTemplates'] = 'プロジェクト - �
 $app_list_strings['moduleList']['AM_TaskTemplates'] = 'プロジェクトタスクテンプレート';
 $app_list_strings['relationship_type_list']['FS'] = '終わりから次のタスクの先頭へ';
 $app_list_strings['relationship_type_list']['SS'] = '先頭からタスクの先頭へ';
-$app_list_strings['duration_unit_dom']['Days'] = '日';
-$app_list_strings['duration_unit_dom']['Hours'] = '時間';
+$app_list_strings['duration_unit_dom']['Days'] = 'Days';
+$app_list_strings['duration_unit_dom']['Hours'] = 'Hours';
 $app_strings['LBL_GANTT_BUTTON_LABEL'] = 'ガントチャートを見る';
 $app_strings['LBL_DETAIL_BUTTON_LABEL'] = '詳細を表示';
 $app_strings['LBL_CREATE_PROJECT'] = 'プロジェクト作成';
@@ -3287,7 +3287,7 @@ $app_strings['LBL_MAP'] = '地図';
 $app_strings['LBL_JJWG_MAPS_LNG'] = '経度';
 $app_strings['LBL_JJWG_MAPS_LAT'] = '緯度';
 $app_strings['LBL_JJWG_MAPS_GEOCODE_STATUS'] = 'ジオコードの状態';
-$app_strings['LBL_JJWG_MAPS_ADDRESS'] = '住所';
+$app_strings['LBL_JJWG_MAPS_ADDRESS'] = 'Address';
 
 $app_list_strings['moduleList']['jjwg_Maps'] = '地図';
 $app_list_strings['moduleList']['jjwg_Markers'] = '地図 - マーカー';
@@ -3301,24 +3301,24 @@ $app_list_strings['map_unit_type_list']['km'] = 'キロメートル';
 
 $app_list_strings['map_module_type_list']['Accounts'] = '取引先';
 $app_list_strings['map_module_type_list']['Contacts'] = '連絡先';
-$app_list_strings['map_module_type_list']['Cases'] = 'ケース';
+$app_list_strings['map_module_type_list']['Cases'] = 'Cases';
 $app_list_strings['map_module_type_list']['Leads'] = '潜在顧客';
-$app_list_strings['map_module_type_list']['Meetings'] = 'ミーティング';
-$app_list_strings['map_module_type_list']['Opportunities'] = '商談';
-$app_list_strings['map_module_type_list']['Project'] = 'プロジェクト';
-$app_list_strings['map_module_type_list']['Prospects'] = 'ターゲット';
+$app_list_strings['map_module_type_list']['Meetings'] = 'Meetings';
+$app_list_strings['map_module_type_list']['Opportunities'] = 'Opportunities';
+$app_list_strings['map_module_type_list']['Project'] = 'Projects';
+$app_list_strings['map_module_type_list']['Prospects'] = 'Targets';
 
 $app_list_strings['map_relate_type_list']['Accounts'] = '取引先';
 $app_list_strings['map_relate_type_list']['Contacts'] = '連絡先';
-$app_list_strings['map_relate_type_list']['Cases'] = 'ケース';
+$app_list_strings['map_relate_type_list']['Cases'] = 'Case';
 $app_list_strings['map_relate_type_list']['Leads'] = '潜在顧客';
-$app_list_strings['map_relate_type_list']['Meetings'] = 'ミーティング';
-$app_list_strings['map_relate_type_list']['Opportunities'] = '商談';
-$app_list_strings['map_relate_type_list']['Project'] = 'プロジェクト';
-$app_list_strings['map_relate_type_list']['Prospects'] = 'ターゲット';
+$app_list_strings['map_relate_type_list']['Meetings'] = 'Meeting';
+$app_list_strings['map_relate_type_list']['Opportunities'] = 'Opportunity';
+$app_list_strings['map_relate_type_list']['Project'] = 'Project';
+$app_list_strings['map_relate_type_list']['Prospects'] = 'Target';
 
 $app_list_strings['marker_image_list']['accident'] = 'アクシデント';
-$app_list_strings['marker_image_list']['administration'] = '管理';
+$app_list_strings['marker_image_list']['administration'] = 'Administration';
 $app_list_strings['marker_image_list']['agriculture'] = '農業';
 $app_list_strings['marker_image_list']['aircraft_small'] = '航空機小';
 $app_list_strings['marker_image_list']['airplane_tourism'] = '航空会社';
@@ -3357,8 +3357,8 @@ $app_list_strings['marker_image_list']['cluster_5'] = 'クラスター5';
 $app_list_strings['marker_image_list']['coffee'] = 'コーヒー';
 $app_list_strings['marker_image_list']['community_centre'] = 'コミュニティセンター';
 $app_list_strings['marker_image_list']['company'] = '会社';
-$app_list_strings['marker_image_list']['conference'] = '会議';
-$app_list_strings['marker_image_list']['construction'] = '建築';
+$app_list_strings['marker_image_list']['conference'] = 'Conference';
+$app_list_strings['marker_image_list']['construction'] = 'Construction';
 $app_list_strings['marker_image_list']['convenience'] = 'コンビニ';
 $app_list_strings['marker_image_list']['court'] = '裁判所';
 $app_list_strings['marker_image_list']['cruise'] = 'クルーズ';
@@ -3388,7 +3388,7 @@ $app_list_strings['marker_image_list']['festival'] = 'お祭り';
 $app_list_strings['marker_image_list']['fjord'] = 'フィヨルド';
 $app_list_strings['marker_image_list']['forest'] = '森';
 $app_list_strings['marker_image_list']['fountain'] = '噴水';
-$app_list_strings['marker_image_list']['friday'] = '金曜日';
+$app_list_strings['marker_image_list']['friday'] = 'Friday';
 $app_list_strings['marker_image_list']['garden'] = '庭';
 $app_list_strings['marker_image_list']['gas_station'] = 'ガソリンスタンド';
 $app_list_strings['marker_image_list']['geyser'] = '間欠泉';
@@ -3399,7 +3399,7 @@ $app_list_strings['marker_image_list']['hairsalon'] = '美容室';
 $app_list_strings['marker_image_list']['helicopter'] = 'ヘリコプター';
 $app_list_strings['marker_image_list']['highway'] = '高速道路';
 $app_list_strings['marker_image_list']['historical_quarter'] = '歴史的な地区';
-$app_list_strings['marker_image_list']['home'] = 'ホーム';
+$app_list_strings['marker_image_list']['home'] = 'Home';
 $app_list_strings['marker_image_list']['hospital'] = '病院';
 $app_list_strings['marker_image_list']['hostel'] = 'ホステル';
 $app_list_strings['marker_image_list']['hotel'] = 'ホテル';
@@ -3408,14 +3408,14 @@ $app_list_strings['marker_image_list']['hotel_2_stars'] = '2つ星ホテル';
 $app_list_strings['marker_image_list']['hotel_3_stars'] = '3つ星ホテル';
 $app_list_strings['marker_image_list']['hotel_4_stars'] = '4つ星ホテル';
 $app_list_strings['marker_image_list']['hotel_5_stars'] = '5つ星ホテル';
-$app_list_strings['marker_image_list']['info'] = '情報';
+$app_list_strings['marker_image_list']['info'] = 'Info';
 $app_list_strings['marker_image_list']['justice'] = '正義';
 $app_list_strings['marker_image_list']['lake'] = '池';
 $app_list_strings['marker_image_list']['laundromat'] = 'コイン ランドリー';
 $app_list_strings['marker_image_list']['left'] = '左';
 $app_list_strings['marker_image_list']['left_then_down'] = '左から下';
 $app_list_strings['marker_image_list']['left_then_up'] = '左から上';
-$app_list_strings['marker_image_list']['library'] = '辞書 図書館';
+$app_list_strings['marker_image_list']['library'] = 'Library';
 $app_list_strings['marker_image_list']['lighthouse'] = 'ライトハウス';
 $app_list_strings['marker_image_list']['liquor'] = '酒';
 $app_list_strings['marker_image_list']['lock'] = 'ロック';
@@ -3424,7 +3424,7 @@ $app_list_strings['marker_image_list']['massage'] = 'メッセージ';
 $app_list_strings['marker_image_list']['mobile_phone_tower'] = '携帯電話の塔';
 $app_list_strings['marker_image_list']['modern_tower'] = 'モダンな塔';
 $app_list_strings['marker_image_list']['monastery'] = '修道院';
-$app_list_strings['marker_image_list']['monday'] = '月曜日';
+$app_list_strings['marker_image_list']['monday'] = 'Monday';
 $app_list_strings['marker_image_list']['monument'] = '記念碑';
 $app_list_strings['marker_image_list']['mosque'] = 'モスク';
 $app_list_strings['marker_image_list']['motorcycle'] = 'バイク';
@@ -3437,7 +3437,7 @@ $app_list_strings['marker_image_list']['panoramic'] = 'パノラマ';
 $app_list_strings['marker_image_list']['park'] = '公園';
 $app_list_strings['marker_image_list']['park_and_ride'] = '公園と道路';
 $app_list_strings['marker_image_list']['parking'] = '駐車場';
-$app_list_strings['marker_image_list']['photo'] = '写真';
+$app_list_strings['marker_image_list']['photo'] = 'Photo';
 $app_list_strings['marker_image_list']['picnic'] = 'ピクニック';
 $app_list_strings['marker_image_list']['places_unvisited'] = '未訪問の場所';
 $app_list_strings['marker_image_list']['places_visited'] = '訪れた場所';
@@ -3475,7 +3475,7 @@ $app_list_strings['marker_image_list']['restaurant_turkish'] = 'トルコ料理�
 $app_list_strings['marker_image_list']['right'] = '右';
 $app_list_strings['marker_image_list']['right_then_down'] = '右から下';
 $app_list_strings['marker_image_list']['right_then_up'] = '右から上';
-$app_list_strings['marker_image_list']['saturday'] = '土曜日';
+$app_list_strings['marker_image_list']['saturday'] = 'Saturday';
 $app_list_strings['marker_image_list']['school'] = '学校';
 $app_list_strings['marker_image_list']['shopping_mall'] = 'ショッピングモール';
 $app_list_strings['marker_image_list']['shore'] = 'お店';
@@ -3502,8 +3502,8 @@ $app_list_strings['marker_image_list']['steam_train'] = '蒸気機関車';
 $app_list_strings['marker_image_list']['stop'] = '停止';
 $app_list_strings['marker_image_list']['stoplight'] = 'ストップ ライト';
 $app_list_strings['marker_image_list']['subway'] = '地下鉄';
-$app_list_strings['marker_image_list']['sun'] = '日';
-$app_list_strings['marker_image_list']['sunday'] = '日曜日';
+$app_list_strings['marker_image_list']['sun'] = 'Sun';
+$app_list_strings['marker_image_list']['sunday'] = 'Sunday';
 $app_list_strings['marker_image_list']['supermarket'] = 'スーパーマーケット';
 $app_list_strings['marker_image_list']['synagogue'] = 'シナゴーグ';
 $app_list_strings['marker_image_list']['tapas'] = 'タパス';
@@ -3516,7 +3516,7 @@ $app_list_strings['marker_image_list']['terrace'] = 'テラス';
 $app_list_strings['marker_image_list']['text'] = '文章';
 $app_list_strings['marker_image_list']['theater'] = '劇場';
 $app_list_strings['marker_image_list']['theme_park'] = 'テーマパーク';
-$app_list_strings['marker_image_list']['thursday'] = '木曜日';
+$app_list_strings['marker_image_list']['thursday'] = 'Thursday';
 $app_list_strings['marker_image_list']['toilets'] = 'トイレ';
 $app_list_strings['marker_image_list']['toll_station'] = '料金所';
 $app_list_strings['marker_image_list']['tower'] = 'タワー';
@@ -3524,7 +3524,7 @@ $app_list_strings['marker_image_list']['traffic_enforcement_camera'] = '自動�
 $app_list_strings['marker_image_list']['train'] = '電車';
 $app_list_strings['marker_image_list']['tram'] = 'トラム';
 $app_list_strings['marker_image_list']['truck'] = 'トラック';
-$app_list_strings['marker_image_list']['tuesday'] = '火曜日';
+$app_list_strings['marker_image_list']['tuesday'] = 'Tuesday';
 $app_list_strings['marker_image_list']['tunnel'] = 'トンネル';
 $app_list_strings['marker_image_list']['turn_left'] = '左に曲がる';
 $app_list_strings['marker_image_list']['turn_right'] = '右に曲がる';
@@ -3542,7 +3542,7 @@ $app_list_strings['marker_image_list']['waterfall'] = '滝';
 $app_list_strings['marker_image_list']['watermill'] = '水車小屋';
 $app_list_strings['marker_image_list']['waterpark'] = 'ウォーターパーク';
 $app_list_strings['marker_image_list']['watertower'] = '貯水塔';
-$app_list_strings['marker_image_list']['wednesday'] = '水曜日';
+$app_list_strings['marker_image_list']['wednesday'] = 'Wednesday';
 $app_list_strings['marker_image_list']['wifi'] = 'Wifi';
 $app_list_strings['marker_image_list']['wind_turbine'] = '風力タービン';
 $app_list_strings['marker_image_list']['windmill'] = '風車';
@@ -3563,7 +3563,7 @@ $app_strings['LBL_RESCHEDULE_REASON'] = '理由:';
 $app_strings['LBL_RESCHEDULE_ERROR1'] = '有効な日付を選択してください';
 $app_strings['LBL_RESCHEDULE_ERROR2'] = '理由を選択してください';
 
-$app_strings['LBL_RESCHEDULE_PANEL'] = 'リスケ';
+$app_strings['LBL_RESCHEDULE_PANEL'] = 'Reschedule';
 $app_strings['LBL_RESCHEDULE_HISTORY'] = '電話試行履歴';
 $app_strings['LBL_RESCHEDULE_COUNT'] = '電話連絡';
 
@@ -3583,7 +3583,7 @@ $app_strings['LBL_PANEL_SOCIAL_FEED'] = 'ソーシャル フィードの詳細';
 
 $app_strings['LBL_SUBPANEL_FILTER_LABEL'] = 'フィルタ';
 
-$app_strings['LBL_COLLECTION_TYPE'] = 'タイプ';
+$app_strings['LBL_COLLECTION_TYPE'] = 'Type';
 
 $app_strings['LBL_ADD_TAB'] = 'タブ追加';
 $app_strings['LBL_EDIT_TAB'] = 'タブ編集';
@@ -3598,10 +3598,10 @@ $app_strings['LBL_RENAME_DASHBOARD_PAGE'] = 'ダッシュボードページ名�
 $app_strings['LBL_SUITE_DASHBOARD_ACTIONS'] = 'アクション';
 
 $app_list_strings['collection_temp_list'] = array(
-    'Tasks' => 'タスク',
-    'Meetings' => 'ミーティング',
-    'Calls' => 'コール',
-    'Notes' => 'ノート',
+    'Tasks' => 'Tasks',
+    'Meetings' => 'Meetings',
+    'Calls' => 'Calls',
+    'Notes' => 'Notes',
     'Emails' => 'Eメール'
 );
 
@@ -3614,16 +3614,16 @@ $app_list_strings['spots_areas'] = array(
     'getSalesSpotsData' => '営業',
     'getAccountsSpotsData' => '取引先',
     'getLeadsSpotsData' => '潜在顧客',
-    'getServiceSpotsData' => 'サービス',
+    'getServiceSpotsData' => 'Service',
     'getMarketingSpotsData' => 'マーケティング',
     'getMarketingActivitySpotsData' => 'マーケティング活動',
-    'getActivitiesSpotsData' => '活動',
-    'getQuotesSpotsData' => '見積'
+    'getActivitiesSpotsData' => 'Activities',
+    'getQuotesSpotsData' => '見積書'
 );
 
 $app_list_strings['moduleList']['Spots'] = 'スポット';
 
-$app_list_strings['moduleList']['AOBH_BusinessHours'] = '営業時間';
+$app_list_strings['moduleList']['AOBH_BusinessHours'] = 'Business Hours';
 $app_list_strings['business_hours_list']['0'] = '12am';
 $app_list_strings['business_hours_list']['1'] = '1am';
 $app_list_strings['business_hours_list']['2'] = '2am';
@@ -3648,13 +3648,13 @@ $app_list_strings['business_hours_list']['20'] = '8pm';
 $app_list_strings['business_hours_list']['21'] = '9pm';
 $app_list_strings['business_hours_list']['22'] = '10pm';
 $app_list_strings['business_hours_list']['23'] = '11pm';
-$app_list_strings['day_list']['Monday'] = '月曜日';
-$app_list_strings['day_list']['Tuesday'] = '火曜日';
-$app_list_strings['day_list']['Wednesday'] = '水曜日';
-$app_list_strings['day_list']['Thursday'] = '木曜日';
-$app_list_strings['day_list']['Friday'] = '金曜日';
-$app_list_strings['day_list']['Saturday'] = '土曜日';
-$app_list_strings['day_list']['Sunday'] = '日曜日';
+$app_list_strings['day_list']['Monday'] = 'Monday';
+$app_list_strings['day_list']['Tuesday'] = 'Tuesday';
+$app_list_strings['day_list']['Wednesday'] = 'Wednesday';
+$app_list_strings['day_list']['Thursday'] = 'Thursday';
+$app_list_strings['day_list']['Friday'] = 'Friday';
+$app_list_strings['day_list']['Saturday'] = 'Saturday';
+$app_list_strings['day_list']['Sunday'] = 'Sunday';
 $app_list_strings['pdf_page_size_dom']['A4'] = 'A4';
 $app_list_strings['pdf_page_size_dom']['Letter'] = '手紙';
 $app_list_strings['pdf_page_size_dom']['Legal'] = '法';
@@ -3667,10 +3667,10 @@ $app_list_strings['moduleList']['Surveys'] = '調査';
 $app_list_strings['moduleList']['SurveyQuestionResponses'] = '調査質問の回答';
 $app_list_strings['moduleList']['SurveyQuestions'] = '調査質問';
 $app_list_strings['moduleList']['SurveyQuestionOptions'] = '調査質問の選択肢';
-$app_list_strings['survey_status_list']['Draft'] = 'ドラフト';
-$app_list_strings['survey_status_list']['Public'] = 'パブリック';
-$app_list_strings['survey_status_list']['Closed'] = '完了';
-$app_list_strings['surveys_question_type']['Text'] = '文章';
+$app_list_strings['survey_status_list']['Draft'] = '草案';
+$app_list_strings['survey_status_list']['Public'] = 'Public';
+$app_list_strings['survey_status_list']['Closed'] = 'Closed';
+$app_list_strings['surveys_question_type']['Text'] = 'Text';
 $app_list_strings['surveys_question_type']['Textbox'] = 'テキスト ボックス';
 $app_list_strings['surveys_question_type']['Checkbox'] = 'チェックボックス';
 $app_list_strings['surveys_question_type']['Radio'] = 'ラジオボタン';
@@ -3678,9 +3678,9 @@ $app_list_strings['surveys_question_type']['Dropdown'] = 'ドロップダウン'
 $app_list_strings['surveys_question_type']['Multiselect'] = '複数選択';
 $app_list_strings['surveys_question_type']['Matrix'] = 'マトリックス';
 $app_list_strings['surveys_question_type']['DateTime'] = '日付時刻';
-$app_list_strings['surveys_question_type']['Date'] = '日付';
+$app_list_strings['surveys_question_type']['Date'] = 'Date';
 $app_list_strings['surveys_question_type']['Scale'] = 'スケール';
-$app_list_strings['surveys_question_type']['Rating'] = '格付:';
+$app_list_strings['surveys_question_type']['Rating'] = 'Rating';
 $app_list_strings['surveys_matrix_options'][0] = '満足';
 $app_list_strings['surveys_matrix_options'][1] = 'どちらとも言えない';
 $app_list_strings['surveys_matrix_options'][2] = '不満';
@@ -3692,12 +3692,12 @@ $app_strings['LBL_OPT_IN_PENDING_EMAIL_FAILED'] = 'メールの送信に失敗�
 $app_strings['LBL_OPT_IN_PENDING_EMAIL_SENT'] = 'オプトインの確認を保留中、オプトインの確認の送信';
 $app_strings['LBL_OPT_IN'] = 'オプトインされた';
 $app_strings['LBL_OPT_IN_CONFIRMED'] = '確認されたオプトイン';
-$app_strings['LBL_OPT_IN_OPT_OUT'] = 'メール不可';
-$app_strings['LBL_OPT_IN_INVALID'] = '無効';
+$app_strings['LBL_OPT_IN_OPT_OUT'] = 'Opted Out';
+$app_strings['LBL_OPT_IN_INVALID'] = 'Invalid';
 
 /** @see SugarEmailAddress */
 $app_list_strings['email_settings_opt_in_dom'] = array(
-    'not-opt-in' => '不可',
+    'not-opt-in' => '無効',
     'opt-in' => 'オプト インする',
     'confirmed-opt-in' => '確認したオプト・イン'
 );
@@ -3731,7 +3731,7 @@ $app_list_strings['oauth2_grant_type_dom'] = array(
 $app_list_strings['oauth2_duration_units'] = [
     'minute' => '分',
     'hour' => '時',
-    'day' => '日',
+    'day' => 'days',
     'week' => '週',
     'month' => '月',
 ];
@@ -3743,23 +3743,23 @@ $app_list_strings['search_controllers'] = [
 
 // Calendar Account Types dropdown
 $app_list_strings['calendar_account_types'] = [
-    'personal' => '個人',
+    'personal' => 'Personal',
     'shared' => '共有',
-    'group' => 'グループ',
+    'group' => 'Group',
 ];
 
 // Calendar Connection Status dropdown
 $app_list_strings['calendar_connection_status_list'] = [
     'never_tested' => 'Never Tested',
     'success' => '接続',
-    'failed' => '失敗',
+    'failed' => 'Failed',
 ];
 
 // Calendar Sync Attempt Status dropdown
 $app_list_strings['sync_attempt_status_list'] = [
     '' => '',
-    'in_progress' => '進行中',
-    'success' => '成功',
+    'in_progress' => 'In Progress',
+    'success' => 'Success',
     'warning' => '警告',
     'error' => 'エラー',
 ];
@@ -3800,16 +3800,16 @@ $app_strings['IMAP_HANDLER_ERROR_NO_TEST_SET'] = 'テストの設定が存在し
 $app_strings['IMAP_HANDLER_ERROR_NO_KEY'] = 'キーが見つかりません。';
 $app_strings['IMAP_HANDLER_ERROR_KEY_SAVE'] = 'キーの保存エラー。';
 $app_strings['IMAP_HANDLER_ERROR_UNKNOWN'] = '不明なエラー';
-$app_strings['LBL_SEARCH_TITLE']                   = '検索';
+$app_strings['LBL_SEARCH_TITLE']                   = 'Search';
 $app_strings['LBL_SEARCH_TEXT_FIELD_TITLE_ATTR']   = '検索条件を入力';
-$app_strings['LBL_SEARCH_SUBMIT_FIELD_TITLE_ATTR'] = '検索';
-$app_strings['LBL_SEARCH_SUBMIT_FIELD_VALUE']      = '検索';
+$app_strings['LBL_SEARCH_SUBMIT_FIELD_TITLE_ATTR'] = 'Search';
+$app_strings['LBL_SEARCH_SUBMIT_FIELD_VALUE']      = 'Search';
 $app_strings['LBL_SEARCH_QUERY']                   = '検索条件: ';
 $app_strings['LBL_SEARCH_RESULTS_PER_PAGE']        = 'Results per module: ';
 $app_strings['LBL_SEARCH_ENGINE']                  = 'エンジン: ';
 $app_strings['LBL_SEARCH_TOTAL'] = '合計の実績: ';
-$app_strings['LBL_SEARCH_PREV'] = '前週';
-$app_strings['LBL_SEARCH_NEXT'] = '次へ';
+$app_strings['LBL_SEARCH_PREV'] = 'Previous';
+$app_strings['LBL_SEARCH_NEXT'] = 'Next';
 $app_strings['LBL_SEARCH_PAGE'] = 'ページ ';
 $app_strings['LBL_SEARCH_OF'] = ' の ';
 $app_strings['LBL_USE_ADVANCED_SEARCH'] = '詳細検索を使用';
@@ -3833,7 +3833,7 @@ $app_strings['WARN_OAUTH_TOKEN_SESSION_EXPIRED'] = 'IMAP OAuthセッションの
 $app_strings['ERR_OAUTH_CONNECTION_ERROR'] = 'Not able to connect using OAuth login. For connection: ';
 
 $app_strings['LBL_KEY'] = 'キー';
-$app_strings['LBL_VALUE'] = '値';
+$app_strings['LBL_VALUE'] = 'Value';
 $app_strings['LBL_OPTIONAL'] = 'オプション';
 $app_strings['LBL_OPTIONAL_CONNECTION_STRING'] = 'オプション: 特定の接続文字列を使用するように設定します';
 $app_strings['LBL_OUTBOUND_ACCOUNT'] = 'アウトバウンドアカウント';
