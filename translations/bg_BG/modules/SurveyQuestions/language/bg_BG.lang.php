@@ -39,7 +39,7 @@
  */
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID'                                                               => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_ID'                                                               => 'Възложен на оператор с идентификационен номер',
     'LBL_ASSIGNED_TO_NAME'                                                             => 'Assigned to',
     'LBL_SECURITYGROUPS'                                                               => 'Security Groups',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE'                                                => 'Security Groups',
