@@ -43,26 +43,26 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EDIT_LAYOUT' => 'Edit Layout',
+    'LBL_EDIT_LAYOUT' => 'Επεξεργασία Διάταξης',
     'LBL_EDIT_FIELDS' => 'Επεξεργασία Προσαρμοσμένων Πεδίων',
-    'LBL_SELECT_FILE' => 'Select File',
-    'LBL_MODULE_TITLE' => 'Studio',
-    'LBL_TOOLBOX' => 'Toolbox',
+    'LBL_SELECT_FILE' => 'Επιλογή Αρχείου',
+    'LBL_MODULE_TITLE' => 'Στούντιο',
+    'LBL_TOOLBOX' => 'Εργαλεία',
     'LBL_SUITE_FIELDS_STAGE' => 'Πεδία SuiteCRM (πατήστε στα είδη για να προστεθούν στην περιοχή οργάνωσης)',
     'LBL_VIEW_SUITE_FIELDS' => 'Προβολή Πεδίων SuiteCRM',
-    'LBL_FAILED_TO_SAVE' => 'Failed To Save',
+    'LBL_FAILED_TO_SAVE' => 'Αποτυχία Αποθήκευσης',
     'LBL_CONFIRM_UNSAVE' => 'Οποιεσδήποτε αλλαγές δεν θα αποθηκευτούν. Είστε σίγουροι ότι θέλετε να συνεχίσετε;',
     'LBL_PUBLISHING' => 'Publishing...',
-    'LBL_PUBLISHED' => 'Published',
-    'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
-    'LBL_DROP_HERE' => '[Drop Here]',
+    'LBL_PUBLISHED' => 'Δημοσίευση',
+    'LBL_FAILED_PUBLISHED' => 'Αποτυχία Δημοσίευσης',
+    'LBL_DROP_HERE' => '[Απόθεση Εδώ]',
 
 //CUSTOM FIELDS
-    'LBL_NAME' => 'Name',
+    'LBL_NAME' => 'Όνομα',
     'LBL_LABEL' => 'Label',
-    'LBL_MASS_UPDATE' => 'Mass Update',
-    'LBL_DEFAULT_VALUE' => 'Default Value',
-    'LBL_REQUIRED' => 'Required',
+    'LBL_MASS_UPDATE' => 'Μαζική Ενημέρωση',
+    'LBL_DEFAULT_VALUE' => 'Προκαθορισμένη Τιμή',
+    'LBL_REQUIRED' => 'Υποχρεωτικό',
     'LBL_DATA_TYPE' => 'Type',
 
 
@@ -79,7 +79,7 @@ $mod_strings = array(
     'LBL_SW_EDIT_GROUPTABS' => 'Διαμόρφωση Γκρουπ Καρτελών',
     'LBL_SW_EDIT_PORTAL' => 'Επεξεργασία Portal',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => 'Επιδιόρθωση Προσαρμοσμένων Πεδίων',
-    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrate Custom Fields',
+    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Μετεγκατάσταση Προσαρμοσμένων Πεδίων',
 
 // JS LABELS
     'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuilds javascript versions of language files',
@@ -87,7 +87,7 @@ $mod_strings = array(
 
 
 //Manager Backups History
-    'LBL_MB_DELETE' => 'Delete',
+    'LBL_MB_DELETE' => 'Διαγραφή',
 
 //EDIT DROP DOWNS
     'LBL_ED_CREATE_DROPDOWN' => 'Δημιουργία ενός Αναπτυσσόμενου',
@@ -100,30 +100,30 @@ $mod_strings = array(
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => 'Εμφάνιση Αξίας',
     'LBL_DD_DATABASEVALUE' => 'Αξία Βάσης Δεδομένων',
-    'LBL_DD_ALL' => 'All',
+    'LBL_DD_ALL' => 'Όλες',
 
 //BUTTONS
     'LBL_BTN_SAVE' => 'Save',
-    'LBL_BTN_CANCEL' => 'Cancel',
-    'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
+    'LBL_BTN_CANCEL' => 'Ακύρωση',
+    'LBL_BTN_SAVEPUBLISH' => 'Αποθήκευση & Ανάπτυξη',
     'LBL_BTN_HISTORY' => 'History',
-    'LBL_BTN_ADDROWS' => 'Add Rows',
+    'LBL_BTN_ADDROWS' => 'Προσθήκη Γραμμών',
     'LBL_BTN_UNDO' => 'Undo',
-    'LBL_BTN_REDO' => 'Redo',
-    'LBL_BTN_ADDCUSTOMFIELD' => 'Add Custom Field',
+    'LBL_BTN_REDO' => 'Ακύρωση αναίρεσης',
+    'LBL_BTN_ADDCUSTOMFIELD' => 'Προσθήκη Προσαρμοσμένου Πεδίου',
     'LBL_BTN_TABINDEX' => 'Επεξεργασία Σειράς Καρτελών',
 
 //TABS
-    'LBL_MODULES' => 'Modules',
-    'LBL_MODULE_NAME' => 'Administration',
-    'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
+    'LBL_MODULES' => 'Ενότητες',
+    'LBL_MODULE_NAME' => 'Διαχείριση',
+    'LBL_CONFIGURE_GROUP_TABS' => 'Διαμόρφωση Φίλτρων Μενού Ενότητας',
     'LBL_GROUP_TAB_WELCOME' => 'Τα παρακάτω φίλτρα θα εμφανίζονται στη λίστα Περισσότερα στο μενού ενότητας για τους χειριστές, για να χρησιμοποιήσουν στην προβολή γκρουπ ενοτήτων μέσα από το μενού. Drag and drop τις ενότητες και από τα φίλτρα. Σημείωση: Τα κενά φίλτρα δεν θα εμφανίζονται στις επιλογές.',
     'LBL_RENAME_TAB_WELCOME' => 'Πατήστε σε οποιαδήποτε καρτέλα Εμφάνισης Τιμών, στον πίνακα που ακολουθεί για να μετονομάσετε την καρτέλα.',
     'LBL_DELETE_MODULE' => 'Μετακίνηση&nbsp;ενότητας<br />από&nbsp;φίλτρο',
     'LBL_TAB_GROUP_LANGUAGE_HELP' => 'Επιλέξτε μια διαθέσιμη γλώσσα, να επεξεργαστείτε τις ετικέτες ομάδας και πατήστε το κουμπί Αποθήκευση & Ανάπτυξη για να εφαρμόσει τις ετικέτες στην επιλεγμένη γλώσσα.',
     'LBL_ADD_GROUP' => 'Προσθήκη Φίλτρου',
     'LBL_NEW_GROUP' => 'Νέα Ομάδα',
-    'LBL_RENAME_TABS' => 'Rename Modules',
+    'LBL_RENAME_TABS' => 'Μετονομασία Ενοτήτων',
 
 //ERRORS
     'ERROR_INVALID_KEY_VALUE' => "Error: Invalid Key Value: [']",
@@ -131,16 +131,16 @@ $mod_strings = array(
 //SUGAR PORTAL
     'LBL_SAVE' => 'Save' /*for 508 compliance fix*/,
     'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
-    'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
+    'LBL_REDO' => 'Ακύρωση αναίρεσης' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Ευθύγραμμο' /*for 508 compliance fix*/,
-    'LBL_DELETE' => 'Delete' /*for 508 compliance fix*/,
+    'LBL_DELETE' => 'Διαγραφή' /*for 508 compliance fix*/,
     'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Μεγιστοποίηση' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Ελαχιστοποίηση' /*for 508 compliance fix*/,
-    'LBL_PUBLISH' => 'Publish' /*for 508 compliance fix*/,
-    'LBL_ADDROWS' => 'Add Rows' /*for 508 compliance fix*/,
+    'LBL_PUBLISH' => 'Δημοσίευση' /*for 508 compliance fix*/,
+    'LBL_ADDROWS' => 'Προσθήκη Γραμμών' /*for 508 compliance fix*/,
     'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
-    'LBL_EDIT' => 'Edit' /*for 508 compliance fix*/,
+    'LBL_EDIT' => 'Επεξεργασία' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Επιλογή γλώσσας για επεξεργασία.',
     'LBL_SINGULAR' => 'Μοναδική Ετικέτα',
