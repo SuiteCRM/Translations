@@ -50,16 +50,16 @@ $mod_strings = array(
     'LBL_DELETE_BUTTON_TITLE' => '刪除這個已儲存的過濾',
     'LBL_SAVE_BUTTON_TITLE' => '儲存當前過濾條件',
     'LBL_LIST_NAME' => '名稱',
-    'LBL_LIST_MODULE' => '模組',
+    'LBL_LIST_MODULE' => 'Module',
     'LBL_ORDER_BY_COLUMNS' => '按行排序',
-    'LBL_DIRECTION' => '方向',
+    'LBL_DIRECTION' => 'Direction',
     'LBL_SAVE_SEARCH_AS' => '儲存過濾條件為:',
-    'LBL_ASCENDING' => '升序',
-    'LBL_DESCENDING' => '降序',
-    'LBL_MODIFY_CURRENT_FILTER' => '修改目前過濾條件',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
     'LBL_CREATED_BY' => '建立人',
-    'LBL_QUICK_FILTER' => '快速過濾',
+    'LBL_QUICK_FILTER' => 'Quick Filter',
 
 
 );
