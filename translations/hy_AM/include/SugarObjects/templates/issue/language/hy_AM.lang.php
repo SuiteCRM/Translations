@@ -44,25 +44,25 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
 
-    'LBL_NAME' => 'Անվանում',
+    'LBL_NAME' => 'Name',
     'LBL_NUMBER' => 'Համար',
-    'LBL_STATUS' => 'Կարգավիճակ',
+    'LBL_STATUS' => 'Status:',
     'LBL_PRIORITY' => 'Առաջնահերթություն',
-    'LBL_DESCRIPTION' => 'Նկարագրություն.',
+    'LBL_DESCRIPTION' => 'Description:',
     'LBL_RESOLUTION' => 'Պատասխան',
     'LBL_LAST_MODIFIED' => 'Վերջին փոփոխությունը',
     'LBL_ASSIGNED_TO_ID' => 'Կատարող',
-    'LBL_ASSIGNED_TO_NAME' => 'Օգտագործող.',
+    'LBL_ASSIGNED_TO_NAME' => 'User:',
     'LBL_WORK_LOG' => 'Գրանցամատյան․',
     'LBL_CREATED_BY' => 'Ստեղծված է․',
-    'LBL_DATE_ENTERED' => 'Ստեղծման ամսաթիվ',
-    'LBL_DATE_MODIFIED' => 'Փոփոխման ամսաթիվ',
+    'LBL_DATE_ENTERED' => 'Date Created:',
+    'LBL_DATE_MODIFIED' => 'Date Modified:',
     'LBL_MODIFIED_BY' => 'Փոփոխված է անցյալում․',
     'LBL_ASSIGNED_USER' => 'Պատասխանատու.',
-    'LBL_TYPE' => 'Տիպ.',
+    'LBL_TYPE' => 'Type:',
     'LBL_SUBJECT' => 'Թեմա․',
 
-    'LBL_EDIT_BUTTON' => 'Խմբագրել',
-    'LBL_REMOVE' => 'Հեռացնել',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
 
 );
