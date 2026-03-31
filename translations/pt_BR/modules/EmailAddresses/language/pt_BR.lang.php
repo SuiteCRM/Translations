@@ -46,10 +46,10 @@ $mod_strings = array(
     'LBL_EMAIL_ADDRESS_ID' => 'ID',
     'LBL_EMAIL_ADDRESS' => 'Endereço de e-mail',
     'LBL_EMAIL_ADDRESS_CAPS' => 'Endereço d Email maiúsc.',
-    'LBL_INVALID_EMAIL' => 'E-mail Inválido',
-    'LBL_OPT_OUT' => 'Optou por Sair',
+    'LBL_INVALID_EMAIL' => 'Invalid Email',
+    'LBL_OPT_OUT' => 'Opted Out',
     'LBL_CONFIRM_OPT_IN' => 'Confirmar adesão',
     'LBL_DATE_CREATE' => 'Criar dados',
     'LBL_DATE_MODIFIED' => 'Data de Modificação',
-    'LBL_DELETED' => 'Excluir',
+    'LBL_DELETED' => 'Delete',
 );
