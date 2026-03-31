@@ -103,7 +103,7 @@ $mod_strings = array(
     'LBL_DET_RELATED_DOCUMENT_VERSION' => "Lotutako dokumentuaren berrikuspena",
     'LBL_DET_IS_TEMPLATE' => 'Txantiloia?',
     'LBL_DET_TEMPLATE_TYPE' => 'Document Type:',
-    'LBL_DOC_DESCRIPTION' => 'Description:',
+    'LBL_DOC_DESCRIPTION' => 'Deskribapena:',
     'LBL_DOC_ACTIVE_DATE' => 'Publish Date:',
     'LBL_DOC_EXP_DATE' => 'Expiration Date:',
 
@@ -146,10 +146,10 @@ $mod_strings = array(
     'LBL_LIST_TEMPLATE_TYPE' => 'Document Type',
     'LBL_LAST_REV_CREATE_DATE' => 'Last Revision Create Date',
     'LBL_CONTRACTS' => 'Contracts',
-    'LBL_CREATED_USER' => 'Created User',
+    'LBL_CREATED_USER' => 'Erabiltzaileak sortua',
     'LBL_DOCUMENT_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_DOC_ID' => 'Document Source ID',
-    'LBL_DOC_TYPE' => 'Source',
+    'LBL_DOC_TYPE' => 'Jatorria',
     'LBL_DOC_TYPE_POPUP' => 'Select a source to which this document will be uploaded<br> and from which it will be available.',
     'LBL_DOC_URL' => 'Document Source URL',
     'LBL_SEARCH_EXTERNAL_DOCUMENT' => 'File Name',
@@ -159,7 +159,7 @@ $mod_strings = array(
     'ERR_INVALID_EXTERNAL_API_LOGIN' => 'The login check failed for external API ({0})',
 
     // Links around the world
-    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Accounts',
+    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Kontuak',
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
     'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Opportunities',
     'LBL_CASES_SUBPANEL_TITLE' => 'Cases',
