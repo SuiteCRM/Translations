@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Lista kombinacija',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Korak 1: Nađi Traži zapise koje ćeš da kombinuješ sa',
-    'LBL_AVAIL_FIELDS' => 'Polja koja su na raspolaganju',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'Uslov filtriranja',
     'LBL_MERGE_VALUE_OVER' => 'Spoji vrednosti preko',
 
@@ -58,15 +58,15 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Uradi spajanje',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Uradi spajanje',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Sačuvaj spojeno',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Sačuvaj spojeno',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => 'Zapisi koji su nađeni da se spoje sa:',
     'LBL_SELECT_ERROR' => 'Morate da napravite izbor pre nego što nastavite dalje.',
     'LBL_CHANGE_PARENT' => 'Postavite kao osnovi',
-    'LBL_REMOVE_FROM_MERGE' => 'Ukloni',
+    'LBL_REMOVE_FROM_MERGE' => 'Remove',
     'LBL_DIFF_COL_VALUES' => 'Kolone čija se vrednost u osnovnom redu razlikuje od vrednosti u spojenom redu:',
     'LBL_SAME_COL_VALUES' => 'Kolone čija je vrednost slična kroz sve redove:',
     'LBL_DELETE_MESSAGE' => 'Ovom akcijom biće obrisani sledeći zapis(i):',
