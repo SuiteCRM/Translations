@@ -67,7 +67,7 @@ $app_list_strings = array(
         '' => '',
         'Accepted' => 'Patvirtintas',
         'Duplicate' => 'Dubliuoti',
-        'Closed' => 'Uždarytas',
+        'Closed' => 'Closed',
         'Out of Date' => 'Pasibaigęs galiojimas',
         'Invalid' => 'Neteisingas',
     ),
