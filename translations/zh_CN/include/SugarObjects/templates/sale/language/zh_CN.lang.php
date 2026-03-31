@@ -48,8 +48,8 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => '搜索',
     'LBL_LIST_FORM_TITLE' => '销售列表',
     'LBL_NAME' => '名称',
-    'LBL_LIST_SALE_NAME' => '名称',
-    'LBL_LIST_ACCOUNT_NAME' => '客户名称',
+    'LBL_LIST_SALE_NAME' => '追踪器',
+    'LBL_LIST_ACCOUNT_NAME' => 'Account Name',
     'LBL_LIST_AMOUNT' => '金额(默认货币)',
     'LBL_LIST_DATE_CLOSED' => '关闭',
     'LBL_LIST_SALE_STAGE' => '销售阶段',
@@ -62,7 +62,7 @@ $mod_strings = array(
     'LBL_AMOUNT_USDOLLAR' => '金额(默认货币)',
     'LBL_CURRENCY' => '货币',
     'LBL_DATE_CLOSED' => '预计截止日期',
-    'LBL_TYPE' => '类型',
+    'LBL_TYPE' => 'Type:',
     'LBL_CAMPAIGN' => '营销活动',
     'LBL_LEADS_SUBPANEL_TITLE' => '潜在客户',
     'LBL_PROJECTS_SUBPANEL_TITLE' => '项目',
@@ -80,7 +80,7 @@ $mod_strings = array(
     'LBL_HISTORY_SUBPANEL_TITLE' => '历史记录',
 
     'LBL_CONTACTS_SUBPANEL_TITLE' => '联系人',
-    'LBL_ASSIGNED_TO_NAME' => '负责人',
+    'LBL_ASSIGNED_TO_NAME' => 'User:',
     'LBL_LIST_ASSIGNED_TO_NAME' => '负责人',
     'LBL_ASSIGNED_TO_ID' => '负责人ID',
     'LBL_MODIFIED_NAME' => '修改人姓名',
@@ -88,6 +88,6 @@ $mod_strings = array(
     'LBL_CURRENCY_NAME' => '名称',
     'LBL_CURRENCY_SYMBOL' => '货币符号',
     'LBL_EDIT_BUTTON' => '编辑',
-    'LBL_REMOVE' => '移除',
+    'LBL_REMOVE' => '删除',
 
 );
