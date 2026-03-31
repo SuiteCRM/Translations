@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'ERR_DELETE_RECORD' => 'K odstráneniu účtu, musíte zadať číslo záznamu.',
+    'ERR_DELETE_RECORD' => 'K odstráneniu záznamu musíte zadať číslo záznamu.',
     'LBL_TOOL_TIP_BOX_TITLE' => 'Návrhy z databázy vedomostí',
     'LBL_TOOL_TIP_TITLE' => 'Názov: ',
     'LBL_TOOL_TIP_BODY' => 'Obsah: ',
@@ -51,13 +51,13 @@ $mod_strings = array(
     'LBL_TOOL_TIP_USE' => 'Použiť ako: ',
     'LBL_SUGGESTION_BOX' => 'Návrhy',
     'LBL_NO_SUGGESTIONS' => 'Žiadne návrhy',
-    'LBL_RESOLUTION_BUTTON' => 'Rozhodnutie',
+    'LBL_RESOLUTION_BUTTON' => 'Rozhodnutie (Riešenie)',
     'LBL_SUGGESTION_BOX_STATUS' => 'Stav',
     'LBL_SUGGESTION_BOX_TITLE' => 'Názov',
     'LBL_SUGGESTION_BOX_REL' => 'Význam',
 
     'LBL_ACCOUNT_ID' => 'Firma ID',
-    'LBL_ACCOUNT_NAME' => 'Názov Firmy:',
+    'LBL_ACCOUNT_NAME' => 'Názov Firma:',
     'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Firmy',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktivity',
     'LBL_BUGS_SUBPANEL_TITLE' => 'Chyby',
@@ -80,14 +80,14 @@ $mod_strings = array(
     'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Dokumenty',
     'LBL_RESOLUTION' => 'Rozhodutie:',
     'LBL_SEARCH_FORM_TITLE' => 'Vyhľadať Prípad',
-    'LBL_STATUS' => 'Stav:',
+    'LBL_STATUS' => 'Stav',
     'LBL_SUBJECT' => 'Predmet:',
-    'LBL_LIST_ASSIGNED_TO_NAME' => 'Priradený úžívateľ',
+    'LBL_LIST_ASSIGNED_TO_NAME' => 'Priradený používateľ',
     'LBL_LIST_ACCOUNT_NAME' => 'Názov Firma',
     'LBL_LIST_ASSIGNED' => 'Priradený k',
     'LBL_LIST_CLOSE' => 'Zavrieť',
     'LBL_LIST_FORM_TITLE' => 'Zoznam Prípadov',
-    'LBL_LIST_LAST_MODIFIED' => 'Naposledy zmenené',
+    'LBL_LIST_LAST_MODIFIED' => 'Posledná zmena',
     'LBL_LIST_MY_CASES' => 'Moje otvorené Prípady',
     'LBL_LIST_NUMBER' => 'Číslo',
     'LBL_LIST_PRIORITY' => 'Priorita',
@@ -95,28 +95,28 @@ $mod_strings = array(
     'LBL_LIST_SUBJECT' => 'Predmet',
 
     'LNK_CASE_LIST' => 'Zobraziť Prípady',
-    'LNK_NEW_CASE' => 'Vytvoriť Prípad',
+    'LNK_NEW_CASE' => 'Vytvoriť udalosť',
     'LBL_LIST_DATE_CREATED' => 'Dátum vytvorenia',
     'LBL_ASSIGNED_TO_NAME' => 'Priradené ku',
     'LBL_TYPE' => 'Typ',
     'LBL_WORK_LOG' => 'Pracovný záznam',
     'LNK_IMPORT_CASES' => 'Importovať Prípady',
 
-    'LBL_CREATED_USER' => 'Vytvorený užívateľ',
-    'LBL_MODIFIED_USER' => 'Upravený užívateľ',
+    'LBL_CREATED_USER' => 'Vytvorené užívateľom',
+    'LBL_MODIFIED_USER' => 'Zmenený užívateľ',
     'LBL_PROJECT_SUBPANEL_TITLE' => 'Projekty',
-    'LBL_CASE_INFORMATION' => 'Prehľad', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_CASE_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
     // SNIP
     'LBL_UPDATE_TEXT' => 'Aktualizovať - Správu', //Field for Case updates with text only
     'LBL_INTERNAL' => 'Interná informácia',
-    'LBL_AOP_CASE_UPDATES' => 'Zoznam Aktualizácii',
+    'LBL_AOP_CASE_UPDATES' => 'Prehľad aktualizácii k prípadu',
     'LBL_AOP_CASE_UPDATES_THREADED' => 'Konverzácia aktualizácií k prípadu',
     'LBL_CASE_UPDATES_COLLAPSE_ALL' => 'Zbaliť všetko',
     'LBL_CASE_UPDATES_EXPAND_ALL' => 'Rozbaliť všetko',
     'LBL_AOP_CASE_ATTACHMENTS' => 'Prílohy:',
 
-    'LBL_AOP_CASE_EVENTS' => 'Události prípadu',
+    'LBL_AOP_CASE_EVENTS' => 'Události k prípadu',
     'LBL_CASE_ATTACHMENTS_DISPLAY' => 'Prílohy k prípadu:',
     'LBL_ADD_CASE_FILE' => 'Pridať súbor',
     'LBL_REMOVE_CASE_FILE' => 'Odstrániť súbor',
