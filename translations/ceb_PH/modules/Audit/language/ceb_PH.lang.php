@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_FIELD_NAME' => 'Kaumahan',
+    'LBL_FIELD_NAME' => 'Field',
     'LBL_OLD_NAME' => 'Daan na balyo',
     'LBL_NEW_VALUE' => 'Bag ong balyo',
     'LBL_CREATED_BY' => 'Usab na',
     'LBL_LIST_DATE' => 'Usab na date',
     'LBL_AUDITED_FIELDS' => 'Fields na audit sa module: ',
-    'LBL_CHANGE_LOG' => 'Usba ang Log',
+    'LBL_CHANGE_LOG' => 'Usbon ang log',
 );
