@@ -43,27 +43,27 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EDIT_LAYOUT' => 'Elrendezés szerkesztése',
+    'LBL_EDIT_LAYOUT' => 'Edit Layout',
     'LBL_EDIT_FIELDS' => 'Egyéni mezők szerkesztése',
-    'LBL_SELECT_FILE' => 'Válasszon egy fájlt',
-    'LBL_MODULE_TITLE' => 'Stúdió',
-    'LBL_TOOLBOX' => 'Eszköztár',
+    'LBL_SELECT_FILE' => 'Select File',
+    'LBL_MODULE_TITLE' => 'Studio',
+    'LBL_TOOLBOX' => 'Toolbox',
     'LBL_SUITE_FIELDS_STAGE' => 'CRM mezők (kattintson az elemek hozzáadása az átmeneti területhez)',
     'LBL_VIEW_SUITE_FIELDS' => 'CRM mezők megtekintése',
-    'LBL_FAILED_TO_SAVE' => 'Nem sikerült menteni',
+    'LBL_FAILED_TO_SAVE' => 'Failed To Save',
     'LBL_CONFIRM_UNSAVE' => 'Egyes módosítások nem lettek elmentve. Biztos tovább akar menni?',
     'LBL_PUBLISHING' => 'Közzététel...',
-    'LBL_PUBLISHED' => 'Megjelent',
-    'LBL_FAILED_PUBLISHED' => 'Nem sikerült a közzététel',
-    'LBL_DROP_HERE' => '[Húzza ide]',
+    'LBL_PUBLISHED' => 'Published',
+    'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
+    'LBL_DROP_HERE' => '[Drop Here]',
 
 //CUSTOM FIELDS
     'LBL_NAME' => 'Név',
-    'LBL_LABEL' => 'Címke',
-    'LBL_MASS_UPDATE' => 'Tömeges frissítés',
-    'LBL_DEFAULT_VALUE' => 'Alapértelmezett érték',
-    'LBL_REQUIRED' => 'Szükséges',
-    'LBL_DATA_TYPE' => 'Típus',
+    'LBL_LABEL' => 'Label',
+    'LBL_MASS_UPDATE' => 'Mass Update',
+    'LBL_DEFAULT_VALUE' => 'Default Value',
+    'LBL_REQUIRED' => 'Required',
+    'LBL_DATA_TYPE' => 'Type',
 
 
     'LBL_HISTORY' => 'Előzmények',
@@ -79,11 +79,11 @@ $mod_strings = array(
     'LBL_SW_EDIT_GROUPTABS' => 'Csoport fülek konfigurálása',
     'LBL_SW_EDIT_PORTAL' => 'Portál szerkesztése',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => 'Egyéni mezők javítása',
-    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Egyéni mezők áttelepítése (migration)',
+    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrate Custom Fields',
 
 // JS LABELS
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Nyelvi állomány verzió újraépítése',
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Javascript nyelvi állomány verziók eltávolítása, szükség esetén újraépítés',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuilds javascript versions of language files',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Removing javascript versions of language files, will rebuild when needed.',
 
 
 //Manager Backups History
@@ -93,53 +93,53 @@ $mod_strings = array(
     'LBL_ED_CREATE_DROPDOWN' => 'Hozzon létre egy legördülő értéklistát',
     'LBL_DROPDOWN_NAME' => 'Legördülő neve:',
     'LBL_DROPDOWN_LANGUAGE' => 'Legördülő nyelve:',
-    'LBL_TABGROUP_LANGUAGE' => 'Nyelv',
+    'LBL_TABGROUP_LANGUAGE' => 'Language:',
 
 //END WIZARDS
 
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => 'Érték megjelnítése',
     'LBL_DD_DATABASEVALUE' => 'Adatbázis érték',
-    'LBL_DD_ALL' => 'Minden',
+    'LBL_DD_ALL' => 'All',
 
 //BUTTONS
-    'LBL_BTN_SAVE' => 'Mentés',
-    'LBL_BTN_CANCEL' => 'Mégsem',
-    'LBL_BTN_SAVEPUBLISH' => 'Mentés és telepítés',
+    'LBL_BTN_SAVE' => 'Save',
+    'LBL_BTN_CANCEL' => 'Cancel',
+    'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
     'LBL_BTN_HISTORY' => 'Előzmények',
-    'LBL_BTN_ADDROWS' => 'Sorokat hozzáad',
-    'LBL_BTN_UNDO' => 'Visszavon',
-    'LBL_BTN_REDO' => 'Újra',
-    'LBL_BTN_ADDCUSTOMFIELD' => 'Hozzáad egyéni mezőt',
+    'LBL_BTN_ADDROWS' => 'Add Rows',
+    'LBL_BTN_UNDO' => 'Undo',
+    'LBL_BTN_REDO' => 'Redo',
+    'LBL_BTN_ADDCUSTOMFIELD' => 'Add Custom Field',
     'LBL_BTN_TABINDEX' => 'Fülek sorrendszerkesztője',
 
 //TABS
-    'LBL_MODULES' => 'Modulok',
-    'LBL_MODULE_NAME' => 'Adminisztráció',
-    'LBL_CONFIGURE_GROUP_TABS' => 'CRM tagolás',
+    'LBL_MODULES' => 'Modules',
+    'LBL_MODULE_NAME' => 'Administration',
+    'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
     'LBL_GROUP_TAB_WELCOME' => 'Azon felhasználók számára lesz látható a csoportos nézet a navigációs sávban, akik a Csoportos Modulok nézetet választják ki. A Fogd és Vidd modulok segítségével lehet konfigurálni, mely modulok mely csoportokban jelennek meg. Megjegyzés: Az üres csoportok nem jelennek meg a navigációs sávban.',
     'LBL_RENAME_TAB_WELCOME' => 'Kattintson a táblában bármelyik Képernyő fülre a fül átnevezéséhez.',
     'LBL_DELETE_MODULE' => 'Remove&nbsp;module<br />from&nbsp;filter',
     'LBL_TAB_GROUP_LANGUAGE_HELP' => 'Válasszon egy elérhető nyelvet, módosítsa a Csoportok címkét és kattintson a Mentés és Rendezés gombra.',
     'LBL_ADD_GROUP' => 'Csoport hozzáadása',
     'LBL_NEW_GROUP' => 'Új csoport',
-    'LBL_RENAME_TABS' => 'Modulok átnevezése',
+    'LBL_RENAME_TABS' => 'Rename Modules',
 
 //ERRORS
     'ERROR_INVALID_KEY_VALUE' => "Hiba: Érvénytelen kulcs érték: [&#39;]",
 
 //SUGAR PORTAL
-    'LBL_SAVE' => 'Mentés' /*for 508 compliance fix*/,
-    'LBL_UNDO' => 'Visszavon' /*for 508 compliance fix*/,
-    'LBL_REDO' => 'Újra' /*for 508 compliance fix*/,
+    'LBL_SAVE' => 'Save' /*for 508 compliance fix*/,
+    'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
+    'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Sorban' /*for 508 compliance fix*/,
     'LBL_DELETE' => 'Törlés' /*for 508 compliance fix*/,
-    'LBL_ADD_FIELD' => 'Mező hozzáadása' /*for 508 compliance fix*/,
+    'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Maximalizálása' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Minimalizálása' /*for 508 compliance fix*/,
-    'LBL_PUBLISH' => 'Közzétesz' /*for 508 compliance fix*/,
-    'LBL_ADDROWS' => 'Sorokat hozzáad' /*for 508 compliance fix*/,
-    'LBL_ADDFIELD' => 'Mező hozzáadása' /*for 508 compliance fix*/,
+    'LBL_PUBLISH' => 'Publish' /*for 508 compliance fix*/,
+    'LBL_ADDROWS' => 'Add Rows' /*for 508 compliance fix*/,
+    'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_EDIT' => 'Szerkesztés' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Válasszon nyelvet módosítani',
