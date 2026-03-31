@@ -173,7 +173,7 @@ $mod_strings = array(
     'LBL_LIST_RELATED_TO' => 'Related To',
     'LBL_LIST_SUBJECT' => 'Mövzu',
     'LBL_LIST_TO_ADDR' => 'Kimə',
-    'LBL_LIST_TYPE' => 'Tip',
+    'LBL_LIST_TYPE' => 'Növ',
 
     'WARNING_SETTINGS_NOT_CONF' => 'Xəbərdarlıq: E-poçt parametrləriniz e-poçt göndərmək üçün konfiqurasiya edilməyib.',
 
