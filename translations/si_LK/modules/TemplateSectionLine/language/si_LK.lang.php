@@ -44,11 +44,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_DESCRIPTION' => 'විස්තරය',
-    'LBL_NAME' => 'නම',
+    'LBL_NAME' => ' නම',
     'LBL_LIST_NAME' => 'නම',
-    'LBL_EDIT_BUTTON' => 'සංස්කරණය',
-    'LBL_REMOVE' => 'ඉවත් කරන්න',
-    'LBL_GRP' => '  සමූහ',
+    'LBL_EDIT_BUTTON' => '  සංස්කරණය',
+    'LBL_REMOVE' => 'Remove',
+    'LBL_GRP' => 'සමූහය',
     'LBL_ORD' => 'නියෝග',
     'LBL_THUMBNAIL' => 'Thumbnail',
 );
