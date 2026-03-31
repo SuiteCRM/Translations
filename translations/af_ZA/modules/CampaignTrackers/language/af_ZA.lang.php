@@ -52,7 +52,7 @@ $mod_strings = array(
     'LBL_DATE_MODIFIED' => 'Date Modified',
     'LBL_MODIFIED_USER_ID' => 'Modified User Id',
     'LBL_CREATED_BY' => 'Created By',
-    'LBL_DELETED' => 'Deleted',
+    'LBL_DELETED' => 'Geskrap',
     'LBL_CAMPAIGN' => 'Campaign',
     'LBL_OPTOUT' => 'Opt-out',
 
