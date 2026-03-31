@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_ID' => 'Възложен на оператор с идентификационен номер',
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date Created',
@@ -69,8 +69,8 @@ $mod_strings = array(
     'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_NEW_FORM_TITLE' => 'New Case Updates',
-    'LBL_CASE_NAME' => 'Case',
-    'LBL_CONTACT_NAME' => 'Contact',
+    'LBL_CASE_NAME' => 'Казус',
+    'LBL_CONTACT_NAME' => 'Контакт',
     'LBL_INTERNAL' => 'Internal Update',
     'LBL_AOP_CASE_ATTACHMENTS' => 'Attachments: ',
 );
