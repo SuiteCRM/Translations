@@ -43,27 +43,27 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ALL_MODULES' => 'Alle',//rost fix
-    'LBL_ASSIGNED_TO_ID' => 'Zugewiesene Benutzer ID',
+    'LBL_ALL_MODULES' => 'All',//rost fix
+    'LBL_ASSIGNED_TO_ID' => 'Zugewiesene Benutzer-ID',
     'LBL_ASSIGNED_TO_NAME' => 'Zugewiesen an',
-    'LBL_ID' => 'Id',
-    'LBL_DATE_ENTERED' => 'Erstellungsdatum',
+    'LBL_ID' => 'ID',
+    'LBL_DATE_ENTERED' => 'Datum erstellt',
     'LBL_DATE_MODIFIED' => 'Letzte Änderung',
     'LBL_MODIFIED' => 'Geändert von',
     'LBL_MODIFIED_NAME' => 'Geändert von Name',
-    'LBL_CREATED' => 'Erstellt von',
+    'LBL_CREATED' => 'Erstellt von:',
     'LBL_DESCRIPTION' => 'Beschreibung',
-    'LBL_DELETED' => 'Gelöscht',
+    'LBL_DELETED' => 'Deleted',
     'LBL_NONINHERITABLE' => 'Nicht vererbbar',
-    'LBL_LIST_NONINHERITABLE' => 'Nicht vererbbar',
+    'LBL_LIST_NONINHERITABLE' => 'Not Inheritable',
     'LBL_NAME' => 'Name',
-    'LBL_CREATED_USER' => 'Erstellt von Benutzer',
+    'LBL_CREATED_USER' => 'Erstellt von Benutzer:',
     'LBL_MODIFIED_USER' => 'Geändert von Benutzer',
-    'LBL_LIST_FORM_TITLE' => 'Berechtigungsgruppen',
+    'LBL_LIST_FORM_TITLE' => 'Sicherheitsgruppen',
     'LBL_MODULE_NAME' => 'Sicherheits-Suite Management',
     'LBL_MODULE_TITLE' => 'Sicherheits-Suite Management',
     'LNK_NEW_RECORD' => 'Berechtigungsgruppe erstellen',
-    'LNK_LIST' => 'Listenansicht',
+    'LNK_LIST' => 'List View',
     'LBL_SEARCH_FORM_TITLE' => 'Suche Security-Suite-Management',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Verlauf',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktivitäten',
@@ -96,7 +96,7 @@ $mod_strings = array(
 
     'LBL_DEFAULT_GROUP_TITLE' => 'Standardgruppe für neue Datensätze',
     'LBL_ADD_BUTTON_LABEL' => 'Hinzufügen',
-    'LBL_REMOVE_BUTTON_LABEL' => 'Entfernen',
+    'LBL_REMOVE_BUTTON_LABEL' => 'Löschen',
     'LBL_GROUP' => 'Gruppe:',
     'LBL_MODULE' => 'Modul:',
 
@@ -105,14 +105,14 @@ $mod_strings = array(
     'LBL_REMOVE' => 'Entfernen',
     'LBL_ASSIGN_CONFIRM' => 'Sind Sie sicher, dass diese Gruppe hinzufügen wollen zu den ',
     'LBL_REMOVE_CONFIRM' => 'Sind Sie sicher, dass diese Gruppe entfernen wollen von den ',
-    'LBL_CONFIRM_END' => 'ausgewählte(r) Datensatz/Datensätze?',
+    'LBL_CONFIRM_END' => ' ausgewählte(n) Datensätze/Datensatz?',
 
     'LBL_SECURITYGROUP_USER_FORM_TITLE' => 'Berechtigungsgruppe/Benutzer',
     'LBL_USER_NAME' => 'Benutzername',
     'LBL_SECURITYGROUP_NAME' => 'Name Berechtigungsgruppe',
     'LBL_HOMEPAGE_TITLE' => 'Gruppennachrichten',
     'LBL_TITLE' => 'Titel',
-    'LBL_ROWS' => 'Zeilen',
+    'LBL_ROWS' => 'Rows',
     'LBL_POST' => 'Senden',
     'LBL_SELECT_GROUP_ERROR' => 'Bitte wählen Sie eine Gruppe aus und versuchen Sie es erneut.',
 
