@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'لیست ادغام',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'برای ادغام با سوابق جستجو آن‌ها را پیدا کن',
-    'LBL_AVAIL_FIELDS' => 'فیلدهای در دسترس',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'شرایط فیلتر',
     'LBL_MERGE_VALUE_OVER' => 'Merge value over',
 
@@ -58,10 +58,10 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'انجام ادغام',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'انجام ادغام',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'صرفه جویی در ادغام',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'صرفه جویی در ادغام',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => 'دادهای به ادغام با',
     'LBL_SELECT_ERROR' => 'You must make a selection before you can proceed.',
