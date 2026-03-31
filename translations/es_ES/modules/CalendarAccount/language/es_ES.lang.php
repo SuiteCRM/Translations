@@ -31,35 +31,35 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
     // System fields
-    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
-    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
-    'LBL_DATE_ENTERED' => 'Date Created',
-    'LBL_DATE_MODIFIED' => 'Date Modified',
-    'LBL_MODIFIED' => 'Modified By',
+    'LBL_ASSIGNED_TO_ID' => 'Id de usuario asignado',
+    'LBL_ASSIGNED_TO_NAME' => 'Asignado a',
+    'LBL_DATE_ENTERED' => 'Fecha de Creación',
+    'LBL_DATE_MODIFIED' => 'Fecha de Modificación',
+    'LBL_MODIFIED' => 'Modificado Por',
     'LBL_MODIFIED_NAME' => 'Modified By Name',
-    'LBL_CREATED' => 'Created By',
-    'LBL_CREATED_USER' => 'Created by User',
-    'LBL_MODIFIED_USER' => 'Modified by User',
-    'LBL_DESCRIPTION' => 'Description',
-    'LBL_DELETED' => 'Deleted',
+    'LBL_CREATED' => 'Creado Por',
+    'LBL_CREATED_USER' => 'Creado por el Usuario',
+    'LBL_MODIFIED_USER' => 'Modificado por el Usuario',
+    'LBL_DESCRIPTION' => 'Descripción',
+    'LBL_DELETED' => 'Eliminado',
 
     // Security groups
-    'LBL_SECURITYGROUPS' => 'Security Groups',
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
+    'LBL_SECURITYGROUPS' => 'Grupos de Seguridad',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Grupos de Seguridad',
 
     // List view labels
-    'LBL_LIST_NAME' => 'Name',
+    'LBL_LIST_NAME' => 'Nombre',
     'LBL_LIST_DELETE' => 'Delete',
-    'LBL_EDIT_BUTTON' => 'Edit',
-    'LBL_REMOVE' => 'Remove',
-    'LBL_ASCENDING' => 'Ascending',
-    'LBL_DESCENDING' => 'Descending',
+    'LBL_EDIT_BUTTON' => 'Editar',
+    'LBL_REMOVE' => 'Quitar',
+    'LBL_ASCENDING' => 'Ascendente',
+    'LBL_DESCENDING' => 'Descendente',
 
     // Email opt-in labels
-    'LBL_OPT_IN' => 'Opt In',
-    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Pending Confirm opt in, Confirm opt in not sent',
-    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Pending Confirm opt in, Confirm opt in sent',
-    'LBL_OPT_IN_CONFIRMED' => 'Opted in',
+    'LBL_OPT_IN' => 'Autorizar',
+    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Confirmación de Autorización pendiente, Confirmación de Autorización no enviada',
+    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Confirmación de Autorización pendiente, Confirmación de Autorización enviada',
+    'LBL_OPT_IN_CONFIRMED' => 'Autorizado',
 
     // Subpanel titles
     'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
@@ -75,8 +75,8 @@ $mod_strings = [
     'LNK_LIST_CREATE_NEW_PERSONAL' => 'Create Personal Calendar Account',
     'LNK_LIST_INBOUND_EMAILS' => 'Inbound Emails',
     'LNK_LIST_OUTBOUND_EMAILS' => 'Outbound Emails',
-    'LNK_LIST_EXTERNAL_OAUTH_PROVIDERS' => 'External OAuth Providers',
-    'LNK_LIST_EXTERNAL_OAUTH_CONNECTIONS' => 'External OAuth Connections',
+    'LNK_LIST_EXTERNAL_OAUTH_PROVIDERS' => 'Proveedores de OAuth externos',
+    'LNK_LIST_EXTERNAL_OAUTH_CONNECTIONS' => 'Conexiones externas mediante OAuth',
 
     // Basic module labels
     'LBL_MODULE_NAME' => 'Calendar Accounts',
@@ -91,7 +91,7 @@ $mod_strings = [
     'LNK_LIST' => 'View Calendar Accounts',
 
     // Standard fields
-    'LBL_NAME' => 'Name',
+    'LBL_NAME' => 'Nombre',
     'LBL_ID' => 'ID',
     'LBL_TYPE' => 'Type',
     'LBL_SOURCE' => 'Calendar Source',
