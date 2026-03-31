@@ -50,7 +50,7 @@ $mod_strings = array(
     'LBL_NEW_FORM_TITLE' => ' Създаване на задача',
     'LBL_LIST_CLOSE' => 'Close',
     'LBL_LIST_SUBJECT' => 'Subject',
-    'LBL_LIST_CONTACT' => 'Contact',
+    'LBL_LIST_CONTACT' => 'Контакт',
     'LBL_LIST_PRIORITY' => 'Priority',
     'LBL_LIST_RELATED_TO' => 'Related to',
     'LBL_LIST_DUE_DATE' => 'Due Date',
@@ -93,5 +93,5 @@ $mod_strings = array(
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Notes',
     //For export labels
     'LBL_DATE_DUE' => 'Date Due',
-    'LBL_RELATED_TO' => 'Related to:',
+    'LBL_RELATED_TO' => 'Отнася се за:',
 );
