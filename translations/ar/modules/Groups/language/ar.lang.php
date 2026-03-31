@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Groups',
-    'LBL_GROUP_NAME' => 'Group Name:',
-    'LBL_DESCRIPTION' => 'Description:',
-    'LBL_TEAM' => 'Team:',
+    'LBL_MODULE_NAME' => 'المجموعات',
+    'LBL_GROUP_NAME' => 'اسم المجموعة:',
+    'LBL_DESCRIPTION' => 'الوصف:',
+    'LBL_TEAM' => 'الفريق:',
     // ListView
-    'LBL_LIST_TITLE' => 'Groups',
+    'LBL_LIST_TITLE' => 'المجموعات',
     // Links
     'LNK_ALL_GROUPS' => 'جميع المجموعات',
     'LNK_NEW_GROUP' => 'إنشاء مجموعة',
