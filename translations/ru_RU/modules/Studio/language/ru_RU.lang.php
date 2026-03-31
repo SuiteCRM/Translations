@@ -46,23 +46,23 @@ $mod_strings = array(
     'LBL_EDIT_LAYOUT' => 'Изменить макет',
     'LBL_EDIT_FIELDS' => 'Правка пользовательских полей',
     'LBL_SELECT_FILE' => 'Выбрать файл',
-    'LBL_MODULE_TITLE' => 'Студия',
-    'LBL_TOOLBOX' => 'ИНСТРУМЕНТАРИЙ',
+    'LBL_MODULE_TITLE' => 'Studio',
+    'LBL_TOOLBOX' => 'Toolbox',
     'LBL_SUITE_FIELDS_STAGE' => 'Элементы <br> (выберите категорию из списка для отображения соответствующих элементов)',
     'LBL_VIEW_SUITE_FIELDS' => 'Просмотр элементов',
-    'LBL_FAILED_TO_SAVE' => 'Невозможно сохранить',
+    'LBL_FAILED_TO_SAVE' => 'Failed To Save',
     'LBL_CONFIRM_UNSAVE' => 'Изменения не будут сохранены. Вы действительно хотите продолжить?',
-    'LBL_PUBLISHING' => 'Публикация ...',
-    'LBL_PUBLISHED' => 'Опубликовано',
-    'LBL_FAILED_PUBLISHED' => 'Невозможно опубликовать',
-    'LBL_DROP_HERE' => '[Переместить сюда]',
+    'LBL_PUBLISHING' => 'Publishing...',
+    'LBL_PUBLISHED' => 'Published',
+    'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
+    'LBL_DROP_HERE' => '[Drop Here]',
 
 //CUSTOM FIELDS
-    'LBL_NAME' => 'Имя',
-    'LBL_LABEL' => 'Название',
-    'LBL_MASS_UPDATE' => 'Массовое обновление',
-    'LBL_DEFAULT_VALUE' => 'Значение по умолчанию',
-    'LBL_REQUIRED' => 'Требуется',
+    'LBL_NAME' => 'Название',
+    'LBL_LABEL' => 'Label',
+    'LBL_MASS_UPDATE' => 'Mass Update',
+    'LBL_DEFAULT_VALUE' => 'Default Value',
+    'LBL_REQUIRED' => 'Required',
     'LBL_DATA_TYPE' => 'Тип',
 
 
@@ -79,15 +79,15 @@ $mod_strings = array(
     'LBL_SW_EDIT_GROUPTABS' => 'Настройка сгруппированных модулей',
     'LBL_SW_EDIT_PORTAL' => 'Редактирование портала',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => 'Восстановление пользовательских полей',
-    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Перемещение пользовательских полей',
+    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrate Custom Fields',
 
 // JS LABELS
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Перестройка javascript-версий языковых файлов',
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Удаление javascript-версий языковых файлов; файлы будут восстановлены при первой необходимости.',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuilds javascript versions of language files',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Removing javascript versions of language files, will rebuild when needed.',
 
 
 //Manager Backups History
-    'LBL_MB_DELETE' => 'Удаление',
+    'LBL_MB_DELETE' => 'Удалить',
 
 //EDIT DROP DOWNS
     'LBL_ED_CREATE_DROPDOWN' => 'Создать комбобокс',
@@ -104,43 +104,43 @@ $mod_strings = array(
 
 //BUTTONS
     'LBL_BTN_SAVE' => 'Сохранить',
-    'LBL_BTN_CANCEL' => 'Отмена',
-    'LBL_BTN_SAVEPUBLISH' => 'Сохранить и установить',
+    'LBL_BTN_CANCEL' => 'Отказаться',
+    'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
     'LBL_BTN_HISTORY' => 'История',
-    'LBL_BTN_ADDROWS' => 'Добавить строку',
-    'LBL_BTN_UNDO' => 'Отменить',
-    'LBL_BTN_REDO' => 'Вернуть',
-    'LBL_BTN_ADDCUSTOMFIELD' => 'Добавить пользовательское поле',
+    'LBL_BTN_ADDROWS' => 'Add Rows',
+    'LBL_BTN_UNDO' => 'Undo',
+    'LBL_BTN_REDO' => 'Redo',
+    'LBL_BTN_ADDCUSTOMFIELD' => 'Add Custom Field',
     'LBL_BTN_TABINDEX' => 'Редактировать порядок перемещения по элементам макета',
 
 //TABS
     'LBL_MODULES' => 'Модули',
     'LBL_MODULE_NAME' => 'Администрирование',
-    'LBL_CONFIGURE_GROUP_TABS' => 'Настройка сгруппированных модулей',
+    'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
     'LBL_GROUP_TAB_WELCOME' => 'Сгруппированные модули будут использоваться всякий раз, как только пользователь выберет на странице настроек параметров пользователя в качестве принципа навигации сгруппированные модули вместо обычных модулей. Вы можете перемещать закладки модулей между группами для настройки их расположения. Пустые группы не будут отображаться в панели закладок.',
     'LBL_RENAME_TAB_WELCOME' => ' Нажмите на необходимом названии закладки для её переименования.',
     'LBL_DELETE_MODULE' => 'Удалить&nbsp;модуль<br />из&nbsp;группы',
     'LBL_TAB_GROUP_LANGUAGE_HELP' => 'Выберите необходимый язык, отредактируйте закладки сгруппированных модулей и нажмите на кнопку <b>Сохранить и установить</b>.',
     'LBL_ADD_GROUP' => 'Добавить группу',
     'LBL_NEW_GROUP' => 'Новая группа',
-    'LBL_RENAME_TABS' => 'Переименование закладок модулей',
+    'LBL_RENAME_TABS' => 'Rename Modules',
 
 //ERRORS
-    'ERROR_INVALID_KEY_VALUE' => "Ошибка: Неверное значение ключа: [&#39;]",
+    'ERROR_INVALID_KEY_VALUE' => "Error: Invalid Key Value: [']",
 
 //SUGAR PORTAL
     'LBL_SAVE' => 'Сохранить' /*for 508 compliance fix*/,
-    'LBL_UNDO' => 'Отменить' /*for 508 compliance fix*/,
-    'LBL_REDO' => 'Вернуть' /*for 508 compliance fix*/,
+    'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
+    'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Строчный' /*for 508 compliance fix*/,
-    'LBL_DELETE' => 'Удаление' /*for 508 compliance fix*/,
-    'LBL_ADD_FIELD' => 'Добавить поле' /*for 508 compliance fix*/,
+    'LBL_DELETE' => 'Удалить' /*for 508 compliance fix*/,
+    'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Развернуть' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Свернуть' /*for 508 compliance fix*/,
-    'LBL_PUBLISH' => 'Опубликовать схему' /*for 508 compliance fix*/,
-    'LBL_ADDROWS' => 'Добавить строку' /*for 508 compliance fix*/,
-    'LBL_ADDFIELD' => 'Добавить поле' /*for 508 compliance fix*/,
-    'LBL_EDIT' => 'Правка' /*for 508 compliance fix*/,
+    'LBL_PUBLISH' => 'Publish' /*for 508 compliance fix*/,
+    'LBL_ADDROWS' => 'Add Rows' /*for 508 compliance fix*/,
+    'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
+    'LBL_EDIT' => 'Редактировать' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Выберите язык для редактирования.',
     'LBL_SINGULAR' => 'Единственное число',
