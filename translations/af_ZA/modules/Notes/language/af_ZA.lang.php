@@ -74,7 +74,7 @@ $mod_strings = array(
     'LBL_NOTE' => 'Note:',
     'LBL_OPPORTUNITY_ID' => 'Opportunity ID:',
     'LBL_PARENT_ID' => 'Parent ID:',
-    'LBL_PARENT_TYPE' => 'Parent Type',
+    'LBL_PARENT_TYPE' => 'Ouer tipe',
     'LBL_PHONE' => 'Phone:',
     'LBL_PORTAL_FLAG' => 'Display in Portal?',
     'LBL_EMBED_FLAG' => 'Embed in email?',
@@ -100,9 +100,9 @@ $mod_strings = array(
     //For export labels
     'LBL_FIRST_NAME' => 'First Name',
     'LBL_LAST_NAME' => 'Last Name',
-    'LBL_DATE_ENTERED' => 'Date Created',
+    'LBL_DATE_ENTERED' => 'Datum geskep',
     'LBL_DATE_MODIFIED' => 'Date Modified',
-    'LBL_DELETED' => 'Deleted',
+    'LBL_DELETED' => 'Geskrap',
     'LBL_FILE_CONTENTS' => 'File Contents',
 
     'LBL_ASCENDING' => 'Ascending',
