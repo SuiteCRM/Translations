@@ -75,7 +75,7 @@ $mod_strings = array(
     'LBL_DURATION' => 'Durada:',
     'LBL_HOURS_MINS' => '(hores/minuts)',
     'LBL_CONTACT_NAME' => 'Nom de contacte:',
-    'LBL_DESCRIPTION' => 'Description:',
+    'LBL_DESCRIPTION' => 'Descripció: ',
     'LNK_NEW_CALL' => 'Log Call',
     'LNK_NEW_MEETING' => 'Schedule Meeting',
     'LNK_NEW_TASK' => 'Create Task',
@@ -114,5 +114,5 @@ $mod_strings = array(
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Open Activities',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigned User',
 
-    'LBL_ACCEPT' => 'Accept' /*for 508 compliance fix*/,
+    'LBL_ACCEPT' => 'Acceptar' /*for 508 compliance fix*/,
 );
