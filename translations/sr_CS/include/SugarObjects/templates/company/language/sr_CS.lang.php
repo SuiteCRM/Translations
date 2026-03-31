@@ -56,8 +56,8 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Dodeljeno:',
     'LBL_RATING' => 'Bodovanje',
     'LBL_ASSIGNED_TO' => 'Dodeljeno:',
-    'LBL_ASSIGNED_USER' => 'Dodeljeno:',
-    'LBL_ASSIGNED_TO_ID' => 'Dodeljeno:',
+    'LBL_ASSIGNED_USER' => 'Assigned to:',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned to:',
     'LBL_BILLING_ADDRESS_CITY' => 'Grad:',
     'LBL_BILLING_ADDRESS_COUNTRY' => 'Zemlja:',
     'LBL_BILLING_ADDRESS_POSTALCODE' => 'Poštanski kod:',
@@ -97,7 +97,7 @@ $mod_strings = array(
     'LBL_PHONE_FAX' => 'Telefax:',
     'LBL_PHONE_OFFICE' => 'Kancelarijski telefon:',
     'LBL_PHONE' => 'Telefon:',
-    'LBL_EMAIL_ADDRESS' => 'E-adresa',
+    'LBL_EMAIL_ADDRESS' => 'Email Address',
     'LBL_EMAIL_ADDRESSES' => 'Adresa(e) elektronske pošte',
     'LBL_POSTAL_CODE' => 'Poštanski broj:',
     'LBL_SAVE_ACCOUNT' => 'Sačuvaj kompaniju',
@@ -116,7 +116,7 @@ $mod_strings = array(
     'LBL_TYPE' => 'Tip:',
     'LBL_WEBSITE' => 'Web stranica:',
 
-    'LNK_ACCOUNT_LIST' => 'Kompanije',
+    'LNK_ACCOUNT_LIST' => 'Accounts',
     'LNK_NEW_ACCOUNT' => 'Kreiraj kompaniju',
 
     'MSG_DUPLICATE' => 'Zapis naloga koji želite da kreirate možda je duplikat zapisa kompanije koja već postoji. Zapisi kompanije koji sadrže slična imena izlistani su ispod.<br>Kliknite Sačuvaj da bi nastavili sa kreiranjem ove nove kompanije, ili kliknite Otkaži da bi se vratili u modul bez kreiranja ove kompanije.',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'Da li ste sigurni da želite da obrišete ovaj zapis?',
 
     'LBL_EDIT_BUTTON' => 'Izmeni',
-    'LBL_REMOVE' => 'Ukloni',
+    'LBL_REMOVE' => 'Remove',
 
 );
