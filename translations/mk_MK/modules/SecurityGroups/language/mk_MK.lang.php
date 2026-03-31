@@ -43,10 +43,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ALL_MODULES' => 'Сите',//rost fix
+    'LBL_ALL_MODULES' => 'All',//rost fix
     'LBL_ASSIGNED_TO_ID' => 'Доделено на Корисник ID',
     'LBL_ASSIGNED_TO_NAME' => 'Доделено на',
-    'LBL_ID' => 'ID',
+    'LBL_ID' => 'Број',
     'LBL_DATE_ENTERED' => 'Дата на креирање',
     'LBL_DATE_MODIFIED' => 'Дата на промена',
     'LBL_MODIFIED' => 'Променето од',
@@ -59,7 +59,7 @@ $mod_strings = array(
     'LBL_NAME' => 'Име',
     'LBL_CREATED_USER' => 'Крирано од корисник',
     'LBL_MODIFIED_USER' => 'Променето од корисник',
-    'LBL_LIST_FORM_TITLE' => 'Безбедносни групи',
+    'LBL_LIST_FORM_TITLE' => 'Security Groups',
     'LBL_MODULE_NAME' => 'Security Suite Management',
     'LBL_MODULE_TITLE' => 'Security Suite Management',
     'LNK_NEW_RECORD' => 'Create a Security Group',
@@ -68,8 +68,8 @@ $mod_strings = array(
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Историја',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Активности',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Менаџмент на сигурносни групи',
-    'LBL_USERS' => 'Корисници',
-    'LBL_USERS_SUBPANEL_TITLE' => 'Корисници',
+    'LBL_USERS' => 'Users',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
     'LBL_ROLES_SUBPANEL_TITLE' => 'Улоги',
     'LBL_ROLES' => 'Улоги',
 
@@ -96,19 +96,19 @@ $mod_strings = array(
 
     'LBL_DEFAULT_GROUP_TITLE' => 'Default Groups for New Records',
     'LBL_ADD_BUTTON_LABEL' => 'Додади',
-    'LBL_REMOVE_BUTTON_LABEL' => 'Отстрани',
+    'LBL_REMOVE_BUTTON_LABEL' => 'Избриши',
     'LBL_GROUP' => 'Group:',
     'LBL_MODULE' => 'Module:',
 
     'LBL_MASS_ASSIGN' => 'Security Groups: Mass Assign',
     'LBL_ASSIGN' => 'Assign',
-    'LBL_REMOVE' => 'Отстрани',
+    'LBL_REMOVE' => 'Избриши',
     'LBL_ASSIGN_CONFIRM' => 'Are you sure that you want to add this group to the ',
     'LBL_REMOVE_CONFIRM' => 'Are you sure that you want to remove this group from the ',
     'LBL_CONFIRM_END' => ' одбраните запис(и)?',
 
     'LBL_SECURITYGROUP_USER_FORM_TITLE' => 'SecurityGroup/User',
-    'LBL_USER_NAME' => 'Име на Корисник',
+    'LBL_USER_NAME' => 'Име на корисник',
     'LBL_SECURITYGROUP_NAME' => 'SecurityGroup Name',
     'LBL_HOMEPAGE_TITLE' => 'Group Messages',
     'LBL_TITLE' => 'Наслов',
