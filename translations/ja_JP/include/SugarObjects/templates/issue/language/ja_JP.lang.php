@@ -44,25 +44,25 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
 
-    'LBL_NAME' => '名前',
+    'LBL_NAME' => '名称',
     'LBL_NUMBER' => '番号:',
-    'LBL_STATUS' => 'ステータス:',
+    'LBL_STATUS' => 'Status:',
     'LBL_PRIORITY' => '優先度:',
-    'LBL_DESCRIPTION' => '詳細:',
+    'LBL_DESCRIPTION' => 'Description:',
     'LBL_RESOLUTION' => '解決',
     'LBL_LAST_MODIFIED' => '最終更新日',
     'LBL_ASSIGNED_TO_ID' => 'アサイン先:',
-    'LBL_ASSIGNED_TO_NAME' => 'アサイン先:',
+    'LBL_ASSIGNED_TO_NAME' => 'User:',
     'LBL_WORK_LOG' => '作業履歴:',
     'LBL_CREATED_BY' => '作成者:',
-    'LBL_DATE_ENTERED' => '入力日:',
+    'LBL_DATE_ENTERED' => 'Date Created:',
     'LBL_DATE_MODIFIED' => '更新日:',
     'LBL_MODIFIED_BY' => '更新者:',
     'LBL_ASSIGNED_USER' => 'アサイン先ユーザー:',
-    'LBL_TYPE' => 'タイプ:',
+    'LBL_TYPE' => 'Type:',
     'LBL_SUBJECT' => '件名:',
 
-    'LBL_EDIT_BUTTON' => '編集',
-    'LBL_REMOVE' => '削除',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
 
 );
