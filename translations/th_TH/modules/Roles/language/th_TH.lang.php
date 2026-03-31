@@ -43,22 +43,22 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'หน้าที่:',
+    'LBL_ROLE' => 'Role:',
     'LBL_LANGUAGE' => 'ภาษา:',
-    'LBL_MODULE_NAME' => 'หน้าที่',
-    'LBL_MODULE_TITLE' => 'หน้าที่: หน้าแรก',
+    'LBL_MODULE_NAME' => 'บทบาท',
+    'LBL_MODULE_TITLE' => 'Roles: Home',
     'LBL_SEARCH_FORM_TITLE' => 'ค้นหา Role',
     'LBL_LIST_FORM_TITLE' => 'รายการ Role',
-    'LNK_NEW_ROLE' => 'สร้างหน้าที่',
-    'LNK_ROLES' => 'หน้าที่',
+    'LNK_NEW_ROLE' => 'Create Role',
+    'LNK_ROLES' => 'บทบาท',
     'LBL_NAME' => 'ชื่อ:',
     'LBL_DESCRIPTION' => 'รายละเอียด:',
     'LBL_ALLOWED_MODULES' => 'โมดูลที่อนุญาต: ',
     'LBL_DISALLOWED_MODULES' => 'โมดูลที่ไม่อนุญาต: ',
     'LBL_ASSIGN_MODULES' => 'แก้ไขโมดูล: ',
-    'LBL_DEFAULT_SUBPANEL_TITLE' => 'หน้าที่',
-    'LBL_USERS' => 'ผู้ใช้งาน',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'บทบาท',
+    'LBL_USERS' => 'Users',
 
-    'LBL_USERS_SUBPANEL_TITLE' => 'ผู้ใช้งาน',
-    'LBL_MODULES' => 'โมดูล',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
+    'LBL_MODULES' => 'Modules',
 );
