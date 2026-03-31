@@ -52,21 +52,21 @@ $mod_strings = array(
     'LBL_VIEW_SUITE_FIELDS' => 'Zobrazit SuiteCRM pole',
     'LBL_FAILED_TO_SAVE' => 'Failed To Save',
     'LBL_CONFIRM_UNSAVE' => 'Jakékoliv změny nebudou uloženy. Opravdu chcete pokračovat?',
-    'LBL_PUBLISHING' => 'Publishing...',
-    'LBL_PUBLISHED' => 'Published',
-    'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
-    'LBL_DROP_HERE' => '[Drop Here]',
+    'LBL_PUBLISHING' => 'Publikování...',
+    'LBL_PUBLISHED' => 'Zveřejněno',
+    'LBL_FAILED_PUBLISHED' => 'Zveřejnění selhalo',
+    'LBL_DROP_HERE' => '[Pustit zde]',
 
 //CUSTOM FIELDS
-    'LBL_NAME' => 'Name',
+    'LBL_NAME' => 'Název',
     'LBL_LABEL' => 'Label',
-    'LBL_MASS_UPDATE' => 'Mass Update',
-    'LBL_DEFAULT_VALUE' => 'Default Value',
-    'LBL_REQUIRED' => 'Required',
-    'LBL_DATA_TYPE' => 'Type',
+    'LBL_MASS_UPDATE' => 'Hromadná aktualizace',
+    'LBL_DEFAULT_VALUE' => 'Výchozí hodnota',
+    'LBL_REQUIRED' => 'Povinné',
+    'LBL_DATA_TYPE' => 'Typ',
 
 
-    'LBL_HISTORY' => 'History',
+    'LBL_HISTORY' => 'Historie',
 
 //WIZARDS
 
@@ -87,13 +87,13 @@ $mod_strings = array(
 
 
 //Manager Backups History
-    'LBL_MB_DELETE' => 'Delete',
+    'LBL_MB_DELETE' => 'Smazat',
 
 //EDIT DROP DOWNS
     'LBL_ED_CREATE_DROPDOWN' => 'Vytvořit rozbalovací nabídku',
     'LBL_DROPDOWN_NAME' => 'Název rozbalovací nabídky:',
     'LBL_DROPDOWN_LANGUAGE' => 'Jazyk rozbalovací nabídky:',
-    'LBL_TABGROUP_LANGUAGE' => 'Language:',
+    'LBL_TABGROUP_LANGUAGE' => 'Jazyk:',
 
 //END WIZARDS
 
@@ -103,10 +103,10 @@ $mod_strings = array(
     'LBL_DD_ALL' => 'All',
 
 //BUTTONS
-    'LBL_BTN_SAVE' => 'Save',
-    'LBL_BTN_CANCEL' => 'Cancel',
-    'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
-    'LBL_BTN_HISTORY' => 'History',
+    'LBL_BTN_SAVE' => 'Uložit',
+    'LBL_BTN_CANCEL' => 'Zrušit',
+    'LBL_BTN_SAVEPUBLISH' => 'Uložit a nasadit',
+    'LBL_BTN_HISTORY' => 'Historie',
     'LBL_BTN_ADDROWS' => 'Add Rows',
     'LBL_BTN_UNDO' => 'Undo',
     'LBL_BTN_REDO' => 'Redo',
@@ -115,7 +115,7 @@ $mod_strings = array(
 
 //TABS
     'LBL_MODULES' => 'Modules',
-    'LBL_MODULE_NAME' => 'Administration',
+    'LBL_MODULE_NAME' => 'Administrace',
     'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
     'LBL_GROUP_TAB_WELCOME' => 'Záložky a seskupené podzáložky se zobrazí pro uživatele, kteří se rozhodnou pro zobrazení Skupinových modulů v navigačním panelu. Drag and drop moduly z záložkových-boxů jsou potom určeny pro konfiguraci, které podzáložky se objevují v jednotlivých kartách. Prázdné Skupiny záložek nebudou zobrazeny v navigačním panelu.',
     'LBL_RENAME_TAB_WELCOME' => 'Pro přejmenování záložky klikněte na libovolnou zobrazovanou hodnotu v tabulce.',
@@ -126,21 +126,21 @@ $mod_strings = array(
     'LBL_RENAME_TABS' => 'Rename Modules',
 
 //ERRORS
-    'ERROR_INVALID_KEY_VALUE' => "Error: Invalid Key Value: [']",
+    'ERROR_INVALID_KEY_VALUE' => "Chyba: Neplatná klíčová hodnota: [']",
 
 //SUGAR PORTAL
-    'LBL_SAVE' => 'Save' /*for 508 compliance fix*/,
+    'LBL_SAVE' => 'Uložit' /*for 508 compliance fix*/,
     'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
     'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'V řádku' /*for 508 compliance fix*/,
-    'LBL_DELETE' => 'Delete' /*for 508 compliance fix*/,
+    'LBL_DELETE' => 'Smazat' /*for 508 compliance fix*/,
     'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Maximalizovat' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Minimalizovat' /*for 508 compliance fix*/,
-    'LBL_PUBLISH' => 'Publish' /*for 508 compliance fix*/,
+    'LBL_PUBLISH' => 'Publikovat' /*for 508 compliance fix*/,
     'LBL_ADDROWS' => 'Add Rows' /*for 508 compliance fix*/,
     'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
-    'LBL_EDIT' => 'Edit' /*for 508 compliance fix*/,
+    'LBL_EDIT' => 'Upravit' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Vyberte jazyk, který chcete upravit.',
     'LBL_SINGULAR' => 'Název v jednotném čísle',
