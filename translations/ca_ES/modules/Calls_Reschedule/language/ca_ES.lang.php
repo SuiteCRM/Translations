@@ -58,7 +58,7 @@ $mod_strings = array(
     'LBL_MODIFIED_USER' => 'Modified by User',
     'LBL_LIST_NAME' => 'Name',
     'LBL_EDIT_BUTTON' => 'Edit',
-    'LBL_REMOVE' => 'Remove',
+    'LBL_REMOVE' => 'Eliminar',
     'LBL_LIST_FORM_TITLE' => 'Llista de replanificacions',
     'LBL_MODULE_NAME' => 'Reschedule',
     'LBL_MODULE_TITLE' => 'Reschedule',
@@ -70,5 +70,5 @@ $mod_strings = array(
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_NEW_FORM_TITLE' => 'Nova replanificació',
     'LBL_REASON' => 'Reason',
-    'LBL_CALLS' => 'Calls',
+    'LBL_CALLS' => 'Trucades',
 );
