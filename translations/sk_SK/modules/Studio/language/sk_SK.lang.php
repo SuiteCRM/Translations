@@ -52,13 +52,13 @@ $mod_strings = array(
     'LBL_VIEW_SUITE_FIELDS' => 'Zobraziť SuiteCRM polia',
     'LBL_FAILED_TO_SAVE' => 'Neúspešné k uloženiu',
     'LBL_CONFIRM_UNSAVE' => 'Zmeny nebudú uložené. Skutočne chcete pokračovať?',
-    'LBL_PUBLISHING' => 'Publikovanie ...',
-    'LBL_PUBLISHED' => 'Uverejnený',
+    'LBL_PUBLISHING' => 'Publishing...',
+    'LBL_PUBLISHED' => 'Uverejnená',
     'LBL_FAILED_PUBLISHED' => 'Neúspešné publikovanie',
     'LBL_DROP_HERE' => '[Vlož sem]',
 
 //CUSTOM FIELDS
-    'LBL_NAME' => 'Názov',
+    'LBL_NAME' => 'Meno:',
     'LBL_LABEL' => 'Štítok',
     'LBL_MASS_UPDATE' => 'Hromadná aktualizácia',
     'LBL_DEFAULT_VALUE' => 'Prednastavená hodnota',
@@ -105,10 +105,10 @@ $mod_strings = array(
 //BUTTONS
     'LBL_BTN_SAVE' => 'Uložiť',
     'LBL_BTN_CANCEL' => 'Zrušiť',
-    'LBL_BTN_SAVEPUBLISH' => 'Uložiť a nasadiť',
+    'LBL_BTN_SAVEPUBLISH' => 'Uložiť a rozmiestniť',
     'LBL_BTN_HISTORY' => 'História',
     'LBL_BTN_ADDROWS' => 'Pridať riadky',
-    'LBL_BTN_UNDO' => 'Vrátiť späť',
+    'LBL_BTN_UNDO' => 'Zrušiť',
     'LBL_BTN_REDO' => 'Znovu',
     'LBL_BTN_ADDCUSTOMFIELD' => 'Pridať zákaznícke pole',
     'LBL_BTN_TABINDEX' => 'Úprava poradia záložiek',
@@ -123,7 +123,7 @@ $mod_strings = array(
     'LBL_TAB_GROUP_LANGUAGE_HELP' => 'Zvoľte dostupný jazyk. upravte štítky Skupiny a kliknite na Uložiť a uplatniť k použitiu štítkov v zvolenom jazyku.',
     'LBL_ADD_GROUP' => 'Pridať skupinu',
     'LBL_NEW_GROUP' => 'Nová skupina',
-    'LBL_RENAME_TABS' => 'Premenovať moduly',
+    'LBL_RENAME_TABS' => 'Premenovať záložky',
 
 //ERRORS
     'ERROR_INVALID_KEY_VALUE' => "Chyba: Nesprávna hodnota kľúča Key Value: [&#39;]",
@@ -137,7 +137,7 @@ $mod_strings = array(
     'LBL_ADD_FIELD' => 'Pridať pole:' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Maximalizovať' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Minimalizovať' /*for 508 compliance fix*/,
-    'LBL_PUBLISH' => 'Zverejniť' /*for 508 compliance fix*/,
+    'LBL_PUBLISH' => 'zverejniť' /*for 508 compliance fix*/,
     'LBL_ADDROWS' => 'Pridať riadky' /*for 508 compliance fix*/,
     'LBL_ADDFIELD' => 'Pridať pole:' /*for 508 compliance fix*/,
     'LBL_EDIT' => 'Upraviť' /*for 508 compliance fix*/,
