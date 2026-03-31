@@ -42,10 +42,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_MAP'] = 'Map';
-$mod_strings['LBL_MODULE_NAME'] = 'Maps';
+$mod_strings['LBL_MAP'] = 'Mapa';
+$mod_strings['LBL_MODULE_NAME'] = 'Mapy';
 $mod_strings['LBL_MODULE_TITLE'] = 'Mapy: Domů';
-$mod_strings['LBL_MODULE_ID'] = 'Maps';
+$mod_strings['LBL_MODULE_ID'] = 'Mapy';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'Soupis map';
 $mod_strings['LBL_MAP_CUSTOM_MARKER'] = 'Vlastní značka';
 $mod_strings['LBL_MAP_CUSTOM_AREA'] = 'Vlastní oblast';
@@ -59,59 +59,59 @@ $mod_strings['LBL_UNIT_TYPE'] = 'Typ jednotky:';
 $mod_strings['LBL_MAP_DISPLAY'] = 'Zobrazení mapy';
 $mod_strings['LBL_MAP_LEGEND'] = 'Legenda:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'Skupiny:';
-$mod_strings['LBL_MAP_GROUP'] = 'Group';
-$mod_strings['LBL_MAP_TYPE'] = 'Type';
-$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Assigned to:';
+$mod_strings['LBL_MAP_GROUP'] = 'Skupina';
+$mod_strings['LBL_MAP_TYPE'] = 'Typ';
+$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Přiřazeno k:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'Získat pokyny';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'Zobrazení Google map';
 
 $mod_strings['LNK_NEW_MAP'] = 'Přidat novou mapu';
-$mod_strings['LNK_NEW_RECORD'] = 'Add New Map';
+$mod_strings['LNK_NEW_RECORD'] = 'Přidat novou mapu';
 $mod_strings['LNK_MAP_LIST'] = 'Seznam map';
 
-$mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Geocoding Test';
+$mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Test geokódingu';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'Rychlá mapa s poloměrem';
-$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'None';
-$mod_strings['LBL_MAP_ADDRESS'] = 'Address';
+$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'Žádný';
+$mod_strings['LBL_MAP_ADDRESS'] = 'Adresa';
 $mod_strings['LBL_MAP_PROCESS'] = 'Zpracuj to!';
 
 $mod_strings['LBL_MAP_LAST_STATUS'] = 'Stav posledního geokódu';
 $mod_strings['LBL_GEOCODED_COUNTS'] = 'Modul počet geokódovaných';
 $mod_strings['LBL_CRON_URL'] = 'Cron URL:';
-$mod_strings['LBL_MODULE_HEADING'] = 'Module';
+$mod_strings['LBL_MODULE_HEADING'] = 'Modul';
 
 $mod_strings['LBL_N/A'] = 'Nedostupný';
 $mod_strings['LBL_ZERO_RESULTS'] = 'Žádné výsledky';
 $mod_strings['LBL_OK'] = 'Ok';
 $mod_strings['LBL_INVALID_REQUEST'] = 'Neplatný požadavek';
 $mod_strings['LBL_APPROXIMATE'] = 'Přibližně';
-$mod_strings['LBL_EMPTY'] = 'Empty';
+$mod_strings['LBL_EMPTY'] = 'Prázdný';
 
-$mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Total';
-$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Reset';
+$mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Celkem';
+$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Vynulovat';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = 'Tabulka níže ukazuje počet geokódováných objektů modulu, seskupených podle geokódováných odpovědí. Všimněte si, že výchozí mezní počet dotazů na Google Maps je 2500 žádostí za den. Tento modul bude ukládat do mezipaměti adresy geokodovacích informací během zpracování ke snížení celkového počtu potřebných požadavků.';
 
 $mod_strings['LBL_CRON_INSTRUCTIONS'] = 'Pro zpracování požadavků geokódování je doporučeno nastavit noční Cron-Úlohy. Pro tento účel byl vytvořen vlastní vstupní bod a lze k němu přistupovat bez autentizace. Adresa URL zobrazená dole je určena pro použití s úlohou administrativního plánovače. Více informací naleznete v dokumentaci.';
 $mod_strings['LBL_EXPORT_ADDRESS_URL'] = 'Exportovat URL';
 $mod_strings['LBL_EXPORT_INSTRUCTIONS'] = 'Použijte odkazy níže k exportu úplných adres nezbytných informací geokódování. Potom používejte online nebo offline nástroj dávkového geokódování na geokódování adres. Až dokončíte geokódování, importujte adresy do mezipaměti adresového modulu pro použití s vašimi mapami. Všimněte si, že modul mezipaměti adres je volitelný. Všechny geokódovací informace jsou uloženy v reprezentativním modulu.';
-$mod_strings['LBL_ADDRESS_CACHE'] = 'Address Cache';
+$mod_strings['LBL_ADDRESS_CACHE'] = 'Mezipaměť adres';
 $mod_strings['LBL_ADD_TO_TARGET_LIST'] = 'Přidat do Seznamu Cílů';
-$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Processing...';
+$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Zpracovávání...';
 
 
 $mod_strings['LBL_CONFIG_TITLE'] = 'Nastavení konfigurace';
 $mod_strings['LBL_CONFIG_SAVED'] = 'Nastavení úspěšně uloženo!';
-$mod_strings['LBL_BILLING_ADDRESS'] = 'Billing Address';
-$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Shipping Address';
-$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Primary Address';
+$mod_strings['LBL_BILLING_ADDRESS'] = 'Účetní adresa';
+$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Doručovací adresa';
+$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Primární adresa';
 $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'Další adresa';
-$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex Relate';
+$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flexibilní vztah';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Adresa (jednoduchá, uživatelé)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'Vlastní (Vlastní logika řadiče)';
-$mod_strings['LBL_ENABLED'] = 'Enabled';
-$mod_strings['LBL_DISABLED'] = 'Disabled';
+$mod_strings['LBL_ENABLED'] = 'Povoleno';
+$mod_strings['LBL_DISABLED'] = 'Zakázáno';
 $mod_strings['LBL_DEFAULT'] = 'Výchozí:';
-$mod_strings['LBL_CONFIG_DEFAULT'] = 'Default:';
+$mod_strings['LBL_CONFIG_DEFAULT'] = 'Výchozí:';
 
 $mod_strings['LBL_CONFIG_VALID_GEOCODE_MODULES'] = 'Platné Geocode moduly:';
 $mod_strings['LBL_CONFIG_VALID_GEOCODE_TABLES'] = 'Platné Geocode tabulky:';
@@ -183,10 +183,10 @@ $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_TITLE'] = "Maximální z
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_DESC'] = "'map_clusterer_max_zoom' slouží k nastavení maximální úrovně zoomu, při které nebude klastr použit.";
 $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = "Důležitá poznámka: Všechny uložené nastavení mohou být nalezeny v 'config' tabulce pod kategorií 'jjwg'.
 Připomínáme, že soubor controller.php by neměl být používán k nastavení.";
-$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Areas';
+$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Oblasti';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'Značky';
-$mod_strings['LBL_PARENT_ID'] = 'Parent ID';
-$mod_strings['LBL_JJWP_PARTNERS'] = 'JJWP Partners';
+$mod_strings['LBL_PARENT_ID'] = 'Nadřazené ID';
+$mod_strings['LBL_JJWP_PARTNERS'] = 'JJWP partneři';
 $mod_strings['LBL_GET_GOOGLE_API_KEY'] = 'Získat klíč';
 $mod_strings['LBL_GOOGLE_API_KEY'] = 'Klíč Google Api';
 $mod_strings['LBL_ERROR_NO_GOOGLE_API_KEY'] = 'Prosím, nastavte klíč Google Api v panelu administrace Google Maps.';
