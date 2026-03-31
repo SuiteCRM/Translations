@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
                 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_ID' => 'Възложен на оператор с идентификационен номер',
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date Created',
@@ -92,10 +92,10 @@ $mod_strings = array(
     'LBL_MANAGE_DELEGATES_TITLE' => 'Manage Delegates:-',
     'LBL_MANAGE_ACCEPTANCES' => 'Manage Acceptances',
     'LBL_MANAGE_ACCEPTANCES_TITLE' => 'Manage Acceptances:-',
-    'LBL_MANAGE_ACCEPTANCES_ACCEPTED' => 'Accepted',
+    'LBL_MANAGE_ACCEPTANCES_ACCEPTED' => 'Приета',
     'LBL_MANAGE_ACCEPTANCES_DECLINED' => 'Declined',
     'LBL_MANAGE_POPUP_ERROR' => 'No delegates have been selected.',
-    'LBL_MANAGE_DELEGATES_INVITED' => 'Invited',
+    'LBL_MANAGE_DELEGATES_INVITED' => 'Поканен',
     'LBL_MANAGE_DELEGATES_NOT_INVITED' => 'Not Invited',
     'LBL_MANAGE_DELEGATES_ATTENDED' => 'Attended',
     'LBL_MANAGE_DELEGATES_NOT_ATTENDED' => 'Not Attended',
@@ -108,7 +108,7 @@ $mod_strings = array(
     'LBL_EMAIL_INVITE' => 'Email Invite',
 
     'LBL_FP_EVENTS_CONTACTS_FROM_CONTACTS_TITLE' => 'Contacts',
-    'LBL_FP_EVENT_LOCATIONS_FP_EVENTS_1_FROM_FP_EVENT_LOCATIONS_TITLE' => 'Locations',
+    'LBL_FP_EVENT_LOCATIONS_FP_EVENTS_1_FROM_FP_EVENT_LOCATIONS_TITLE' => 'Местоположения',
     'LBL_FP_EVENTS_LEADS_1_FROM_LEADS_TITLE' => 'Leads',
     'LBL_FP_EVENTS_PROSPECTS_1_FROM_PROSPECTS_TITLE' => 'Targets',
 
@@ -121,7 +121,7 @@ $mod_strings = array(
     'LBL_ACCOUNT_NAME' => 'Company',
     'LBL_SIGNATURE' => 'Signature',
     // contacts/leads/targets subpanels
-    'LBL_LIST_INVITE_STATUS_EVENT' => 'Invited',
+    'LBL_LIST_INVITE_STATUS_EVENT' => 'Поканен',
     'LBL_LIST_ACCEPT_STATUS_EVENT' => 'Status',
 
     'LBL_ACTIVITY_STATUS' => 'Activity Status',
