@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_FIELD_NAME' => 'Väli',
+    'LBL_FIELD_NAME' => 'Field',
     'LBL_OLD_NAME' => 'Eelmine väärtus',
     'LBL_NEW_VALUE' => 'Uus väärtus',
     'LBL_CREATED_BY' => 'Muutja:',
