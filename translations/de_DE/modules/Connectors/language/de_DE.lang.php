@@ -51,8 +51,8 @@ $mod_strings = array(
     'LBL_CONFIRM_CONTINUE_SAVE' => 'Einige benötigte Felder wurden freigelassen. Fortfahren, um Änderungen zu speichern?',
     'LBL_CONNECTOR_FIELDS' => 'Konnektorfelder',
     'LBL_DATA' => 'Daten',
-    'LBL_DEFAULT' => 'Default',
-    'LBL_DISABLED' => 'Disabled',
+    'LBL_DEFAULT' => 'Standard',
+    'LBL_DISABLED' => 'Deaktiviert',
     'LBL_ENABLED' => 'Enabled',
     'LBL_EXTERNAL' => 'Benutzern erlauben, externe Kontoinformationen für diesen Konnektor zu erstellen.',
     'LBL_EXTERNAL_SET_PROPERTIES' => 'Um diesen Konnektor auch verwenden zu können, müssen die Konnektoreinstellungen auf der entsprechenden Seite gesetzt worden sein.',
@@ -65,7 +65,7 @@ $mod_strings = array(
     'LBL_MODIFY_PROPERTIES_TITLE' => 'Konnektoreigenschaften setzen',
     'LBL_MODIFY_PROPERTIES_DESC' => 'Konfigurieren Sie die Einstellungen für jeden Konnektor, inklusive URLs und API Schlüsseln.',
     'LBL_MODIFY_SEARCH_TITLE' => 'Konnektorsuche verwalten',
-    'LBL_MODIFY_SEARCH' => 'Search',
+    'LBL_MODIFY_SEARCH' => 'Suche',
     'LBL_MODIFY_SEARCH_DESC' => 'Wählen Sie die Konnektorfelder aus, mit denen in dem jeweiligen Modul nach Daten gesucht werden soll.',
     'LBL_MODULE_NAME' => 'Connectors',
     'LBL_NO_PROPERTIES' => 'Für diesen Konnektor gibt es keine konfigurierbaren Eigenschaften.',
@@ -84,6 +84,6 @@ $mod_strings = array(
     'ERROR_NO_SEARCHDEFS_MAPPING' => 'Fehler: Es wurden keine Suchfelder für das Modul und die Verbindungen definiert. Bitte kontaktieren Sie den Systemadministrator.',
     'ERROR_NO_DISPLAYABLE_MAPPED_FIELDS' => 'Fehler: Es wurden keine Modulfelder für die Anzeige des Resultats festgelegt. Bitte kontaktieren Sie den Systemadministrator.',
     'LBL_INFO_INLINE' => 'Info' /*for 508 compliance fix*/,
-    'LBL_CLOSE' => 'Close' /*for 508 compliance fix*/,
+    'LBL_CLOSE' => 'Schließen' /*for 508 compliance fix*/,
 
 );
