@@ -44,14 +44,14 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ROLE' => 'Role',
-    'LBL_NAME' => 'Name',
-    'LBL_DESCRIPTION' => 'Description',
+    'LBL_NAME' => 'Název',
+    'LBL_DESCRIPTION' => 'Popis',
     'LIST_ROLES' => 'Seznam rolí',
-    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Uživatelé',
     'LIST_ROLES_BY_USER' => 'Seznam rolí podle uživatele',
     'LBL_ROLES_SUBPANEL_TITLE' => 'Uživatelské role',
     'LBL_SEARCH_FORM_TITLE' => 'Search',
-    'LBL_NO_ACCESS' => 'You do not have access to this area. Contact your site administrator to obtain access.',
+    'LBL_NO_ACCESS' => 'Nemáte přístup do této sekce. Pro umožnění přístupu kontaktujte svého systémového administrátora.',
     'LBL_REDIRECT_TO_HOME' => 'Přesměrování na domovskou stránku za',
     'LBL_SECONDS' => 'vteřin',
     'LBL_ADDING' => 'Přidávání pro ',
