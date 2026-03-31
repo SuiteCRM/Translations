@@ -56,8 +56,8 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Utilizator:',
     'LBL_RATING' => 'Evaluare',
     'LBL_ASSIGNED_TO' => 'Atribuit lui:',
-    'LBL_ASSIGNED_USER' => 'Assigned to:',
-    'LBL_ASSIGNED_TO_ID' => 'Assigned to:',
+    'LBL_ASSIGNED_USER' => 'Atribuit lui:',
+    'LBL_ASSIGNED_TO_ID' => 'Atribuit lui:',
     'LBL_BILLING_ADDRESS_CITY' => 'Facturare - Oraș:',
     'LBL_BILLING_ADDRESS_COUNTRY' => 'Facturare - Țară:',
     'LBL_BILLING_ADDRESS_POSTALCODE' => 'Facturare - Cod poștal:',
@@ -97,7 +97,7 @@ $mod_strings = array(
     'LBL_PHONE_FAX' => 'Telefon fax:',
     'LBL_PHONE_OFFICE' => 'Telefon birou:',
     'LBL_PHONE' => 'Telefon:',
-    'LBL_EMAIL_ADDRESS' => 'Email Address',
+    'LBL_EMAIL_ADDRESS' => 'Adresă Email',
     'LBL_EMAIL_ADDRESSES' => 'Adresă(e) Email',
     'LBL_POSTAL_CODE' => 'Cod poștal:',
     'LBL_SAVE_ACCOUNT' => 'Salvaţi Cont',
@@ -116,7 +116,7 @@ $mod_strings = array(
     'LBL_TYPE' => 'Tip:',
     'LBL_WEBSITE' => 'Site Web:',
 
-    'LNK_ACCOUNT_LIST' => 'Accounts',
+    'LNK_ACCOUNT_LIST' => 'Companii',
     'LNK_NEW_ACCOUNT' => 'Companie nouă',
 
     'MSG_DUPLICATE' => 'Înregistrarea contului pe care urmează să îl creați ar putea fi un duplicat al unei înregistrări de cont existent. Înregistrările contului care conțin nume similare sunt enumerate mai jos.<br>Faceți clic pe Creare Cont pentru a continua crearea acestui cont nou sau selectați un cont existent listat mai jos.',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'Sunteţi sigur(ă) că vreţi să ştergeţi înregistrarea selectată?',
 
     'LBL_EDIT_BUTTON' => 'Editare  ',
-    'LBL_REMOVE' => 'Remove',
+    'LBL_REMOVE' => 'Înlătură',
 
 );
