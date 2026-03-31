@@ -56,7 +56,7 @@ $mod_strings = array(
     'LBL_REVISION' => 'Revision',
     'LBL_DOCUMENT' => 'Related Document',
     'LBL_LATEST_REVISION' => 'Latest Revision',
-    'LBL_CHANGE_LOG' => 'Change Log',
+    'LBL_CHANGE_LOG' => 'Änderungs-Log:',
     'LBL_ACTIVE_DATE' => 'Publish Date',
     'LBL_EXPIRATION_DATE' => 'Expiration Date',
     'LBL_FILE_EXTENSION' => 'File Extension',
@@ -66,9 +66,9 @@ $mod_strings = array(
 
     //document revisions.
     'LBL_REV_LIST_REVISION' => 'Revision',
-    'LBL_REV_LIST_ENTERED' => 'Date Created',
+    'LBL_REV_LIST_ENTERED' => 'Erstellt am',
     'LBL_REV_LIST_CREATED' => 'Created by',
-    'LBL_REV_LIST_LOG' => 'Change Log',
+    'LBL_REV_LIST_LOG' => 'Änderungs-Log:',
     'LBL_REV_LIST_FILENAME' => 'File',
 
     'LBL_CURRENT_DOC_VERSION' => 'Letzte Version:',
