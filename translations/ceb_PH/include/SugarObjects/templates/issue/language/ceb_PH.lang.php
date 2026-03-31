@@ -48,7 +48,7 @@ $mod_strings = array(
     'LBL_NUMBER' => 'Numero:',
     'LBL_STATUS' => 'Estado:',
     'LBL_PRIORITY' => 'Ang prayoridad:',
-    'LBL_DESCRIPTION' => 'Deskripsyon:',
+    'LBL_DESCRIPTION' => 'Ang deskripsyon:',
     'LBL_RESOLUTION' => 'Resolusyon',
     'LBL_LAST_MODIFIED' => 'Katapusan ge modified',
     'LBL_ASSIGNED_TO_ID' => 'Gigahin ngadto:',
@@ -62,7 +62,7 @@ $mod_strings = array(
     'LBL_TYPE' => 'Matang:',
     'LBL_SUBJECT' => 'Sabjek:',
 
-    'LBL_EDIT_BUTTON' => 'Usba',
-    'LBL_REMOVE' => 'Tangtanga',
+    'LBL_EDIT_BUTTON' => 'I-Editon',
+    'LBL_REMOVE' => 'Tangtangon',
 
 );
