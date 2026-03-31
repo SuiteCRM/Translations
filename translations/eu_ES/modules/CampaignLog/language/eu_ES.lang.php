@@ -59,7 +59,7 @@ $mod_strings = array(
     'LBL_ARCHIVED' => 'Archived',
     'LBL_HITS' => 'Asmatzeak',
 
-    'LBL_CAMPAIGN_NAME' => 'Name:',
+    'LBL_CAMPAIGN_NAME' => 'Izena:',
     'LBL_CAMPAIGN' => 'Campaign:',
     'LBL_NAME' => 'Izena ',
     'LBL_INVITEE' => 'Contacts',
