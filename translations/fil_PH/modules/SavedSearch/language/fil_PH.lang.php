@@ -49,17 +49,17 @@ $mod_strings = array(
     'LBL_DELETE_CONFIRM' => 'Sigurado ka bang na gusto mong burahin ang napiling na I-save na Filter?',
     'LBL_DELETE_BUTTON_TITLE' => 'Burahin ang itong Saved Filter',
     'LBL_SAVE_BUTTON_TITLE' => 'I-save ang kululukuyang filter',
-    'LBL_LIST_NAME' => 'Ang Pangalan',
+    'LBL_LIST_NAME' => 'Ang pangalan',
     'LBL_LIST_MODULE' => 'Modyul',
     'LBL_ORDER_BY_COLUMNS' => 'Order by column',
     'LBL_DIRECTION' => 'Direksyon',
     'LBL_SAVE_SEARCH_AS' => 'I-save ang filter bilang:',
     'LBL_ASCENDING' => 'Pataas',
     'LBL_DESCENDING' => 'Pababa',
-    'LBL_MODIFY_CURRENT_FILTER' => 'Binago an kasulukuyang filter',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
     'LBL_CREATED_BY' => 'Ito ay nalikha sa pamamagitan ng',
-    'LBL_QUICK_FILTER' => 'Mabilis na nasala',
+    'LBL_QUICK_FILTER' => 'Mabilis na filter',
 
 
 );
