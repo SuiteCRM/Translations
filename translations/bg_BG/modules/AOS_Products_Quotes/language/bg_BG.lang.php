@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_ID' => 'Възложен на оператор с идентификационен номер',
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date Created',
@@ -51,7 +51,7 @@ $mod_strings = array(
     'LBL_MODIFIED' => 'Modified By',
     'LBL_MODIFIED_NAME' => 'Modified By Name',
     'LBL_CREATED' => 'Created By',
-    'LBL_DESCRIPTION' => 'Note',
+    'LBL_DESCRIPTION' => 'Бележки',
     'LBL_DELETED' => 'Deleted',
     'LBL_NAME' => 'Name',
     'LBL_CREATED_USER' => 'Created by User',
@@ -79,7 +79,7 @@ $mod_strings = array(
     'LBL_VAT_AMT' => 'Tax Amount',
     'LBL_VAT' => 'Tax',
     'LBL_PRODUCT_TOTAL_PRICE' => 'Total Price',
-    'LBL_PRODUCT_NOTE' => 'Note',
+    'LBL_PRODUCT_NOTE' => 'Бележки',
     'Quote' => '',
     'LBL_FLEX_RELATE' => 'Related to',
     'LBL_PRODUCT' => 'Product',
@@ -99,7 +99,7 @@ $mod_strings = array(
     'LBL_PRODUCT_ID' => 'Product ID',
 
     'LBL_AOS_CONTRACTS' => 'Contracts',
-    'LBL_AOS_INVOICES' => 'Invoices',
+    'LBL_AOS_INVOICES' => 'Фактури',
     'LBL_AOS_PRODUCTS' => 'Products',
     'LBL_AOS_QUOTES' => 'Quotes',
 );
