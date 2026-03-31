@@ -49,5 +49,5 @@ $mod_strings = array(
     'LBL_CREATED_BY' => 'Změnil',
     'LBL_LIST_DATE' => 'Datum změny',
     'LBL_AUDITED_FIELDS' => 'Položky sledované v tomto modulu: ',
-    'LBL_CHANGE_LOG' => 'Change Log',
+    'LBL_CHANGE_LOG' => 'Protokol změn',
 );
