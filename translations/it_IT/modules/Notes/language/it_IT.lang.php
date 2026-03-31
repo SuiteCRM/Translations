@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'ERR_DELETE_RECORD' => 'Per eliminare l\'azienda deve essere specificato il numero del record.',
+    'ERR_DELETE_RECORD' => 'È necessario specificare un numero di record per eliminare l\'account.',
     'LBL_ACCOUNT_ID' => 'ID Azienda:',
     'LBL_CASE_ID' => 'ID Reclamo:',
     'LBL_CLOSE' => 'Chiudi:',
@@ -54,7 +54,7 @@ $mod_strings = array(
     'LBL_EMAIL_ADDRESS' => 'Indirizzo Email:',
     'LBL_EMAIL_ATTACHMENT' => 'Allegato Email',
     'LBL_FILE_MIME_TYPE' => 'Tipo File',
-    'LBL_FILE_URL' => 'URL File',
+    'LBL_FILE_URL' => 'URL del file',
     'LBL_FILENAME' => 'Allegato:',
     'LBL_LEAD_ID' => 'ID Lead:',
     'LBL_LIST_CONTACT_NAME' => 'Contatto',
@@ -74,13 +74,13 @@ $mod_strings = array(
     'LBL_NOTE' => 'Nota:',
     'LBL_OPPORTUNITY_ID' => 'ID Opportunità:',
     'LBL_PARENT_ID' => 'ID Padre:',
-    'LBL_PARENT_TYPE' => 'Tipo Padre',
+    'LBL_PARENT_TYPE' => 'Tipo Relazione',
     'LBL_PHONE' => 'Telefono:',
     'LBL_PORTAL_FLAG' => 'Mostra nel Portale?',
     'LBL_EMBED_FLAG' => 'Inserisci nell´email?',
     'LBL_PRODUCT_ID' => 'ID Prodotto:',
     'LBL_QUOTE_ID' => 'ID Offerta:',
-    'LBL_RELATED_TO' => 'Riferito A:',
+    'LBL_RELATED_TO' => 'Collegato A:',
     'LBL_SEARCH_FORM_TITLE' => 'Cerca Nota',
     'LBL_STATUS' => 'Stato',
     'LBL_SUBJECT' => 'Oggetto:',
@@ -92,17 +92,17 @@ $mod_strings = array(
     'LBL_REMOVING_ATTACHMENT' => 'Rimozione allegato...',
     'ERR_REMOVING_ATTACHMENT' => 'Rimozione allegato fallita...',
     'LBL_CREATED_BY' => 'Creato da',
-    'LBL_MODIFIED_BY' => 'Modificato da',
-    'LBL_SEND_ANYWAYS' => 'Questa email non ha un oggetto. Inviare/Salvare ugualmente?',
-    'LBL_NOTE_INFORMATION' => 'Informazioni', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_MODIFIED_BY' => 'Modificato Da',
+    'LBL_SEND_ANYWAYS' => 'Questo messaggio non ha un oggetto. Inviare/salvare lo stesso?',
+    'LBL_NOTE_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_MY_NOTES_DASHLETNAME' => 'Le mie note',
     'LBL_EDITLAYOUT' => 'Modifica Maschera' /*for 508 compliance fix*/,
     //For export labels
     'LBL_FIRST_NAME' => 'Nome',
     'LBL_LAST_NAME' => 'Cognome',
-    'LBL_DATE_ENTERED' => 'Data di Creazione',
+    'LBL_DATE_ENTERED' => 'Data Creazione',
     'LBL_DATE_MODIFIED' => 'Data Modifica',
-    'LBL_DELETED' => 'Cancellata',
+    'LBL_DELETED' => 'Eliminato',
     'LBL_FILE_CONTENTS' => 'Contenuto dei file',
 
     'LBL_ASCENDING' => 'Crescente',
