@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LNK_NEW_CALL' => 'Telefon aramasını günlüğe kaydet',
-    'LNK_NEW_MEETING' => 'Toplantı planlama',
+    'LNK_NEW_MEETING' => 'Toplantı zamanla',
     'LNK_NEW_TASK' => 'Görev ekle',
     'LNK_NEW_NOTE' => 'Not ya da dosya ekle',
     'LNK_NEW_EMAIL' => 'E-postayı arşivle',
