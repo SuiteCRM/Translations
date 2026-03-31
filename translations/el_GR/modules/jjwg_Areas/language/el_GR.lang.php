@@ -42,20 +42,20 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_ASSIGNED_TO_ID'] = 'Assigned User Id';
-$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'User';
-$mod_strings['LBL_ID'] = 'ID';
-$mod_strings['LBL_DATE_ENTERED'] = 'Date Created';
-$mod_strings['LBL_DATE_MODIFIED'] = 'Date Modified';
-$mod_strings['LBL_MODIFIED'] = 'Modified By';
-$mod_strings['LBL_MODIFIED_NAME'] = 'Modified By Name';
-$mod_strings['LBL_CREATED'] = 'Created By';
-$mod_strings['LBL_DESCRIPTION'] = 'Description';
-$mod_strings['LBL_DELETED'] = 'Deleted';
-$mod_strings['LBL_NAME'] = 'Name';
-$mod_strings['LBL_CREATED_USER'] = 'Created by User';
-$mod_strings['LBL_MODIFIED_USER'] = 'Modified by User';
-$mod_strings['LBL_LIST_NAME'] = 'Name';
+$mod_strings['LBL_ASSIGNED_TO_ID'] = 'Ταυτότητα Ανατεθειμένου Χειριστή';
+$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Χειριστής';
+$mod_strings['LBL_ID'] = 'Ταυτότητα';
+$mod_strings['LBL_DATE_ENTERED'] = 'Ημ/νία καταχώρησης';
+$mod_strings['LBL_DATE_MODIFIED'] = 'Ημ/νία Τροποποίησης';
+$mod_strings['LBL_MODIFIED'] = 'Τροποποιήθηκε Από';
+$mod_strings['LBL_MODIFIED_NAME'] = 'Τροποποιήθηκε Από Όνομα';
+$mod_strings['LBL_CREATED'] = 'Δημιουργήθηκε Από';
+$mod_strings['LBL_DESCRIPTION'] = 'Περιγραφή';
+$mod_strings['LBL_DELETED'] = 'Διαγράφηκε';
+$mod_strings['LBL_NAME'] = 'Όνομα';
+$mod_strings['LBL_CREATED_USER'] = 'Δημιουργήθηκε από';
+$mod_strings['LBL_MODIFIED_USER'] = 'τροποποίηση από';
+$mod_strings['LBL_LIST_NAME'] = 'Όνομα';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'Λίστα Περιοχών';
 $mod_strings['LBL_MODULE_NAME'] = 'Περιοχές';
 $mod_strings['LBL_MODULE_TITLE'] = 'Areas';
@@ -70,7 +70,7 @@ $mod_strings['LBL_CITY'] = 'City';
 $mod_strings['LBL_STATE'] = 'State';
 $mod_strings['LBL_COUNTRY'] = 'Country';
 $mod_strings['LBL_COORDINATES'] = 'Συντεταγμένες';
-$mod_strings['LBL_LIST_ASSIGNED_USER'] = 'User';
+$mod_strings['LBL_LIST_ASSIGNED_USER'] = 'Χειριστή';
 $mod_strings['LBL_AREA_MAP'] = 'Χάρτης Περιοχής';
 
 $mod_strings['LBL_AREA_EDIT_TITLE'] = 'Οδηγίες Δημιουργίας Περιοχών';
