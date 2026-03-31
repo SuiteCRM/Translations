@@ -44,9 +44,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 
 $mod_strings = array(
-    'LBL_ID' => 'ID',
+    'LBL_ID' => 'Tunnus',
     'LBL_DATE_ENTERED' => 'Date Created',
-    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_DATE_MODIFIED' => 'Muokkauspvm',
     'LBL_MODIFIED' => 'Modified By',
     'LBL_MODIFIED_NAME' => 'Modified By Name',
     'LBL_CREATED_USER' => 'Created by User',
@@ -54,7 +54,7 @@ $mod_strings = array(
     'LBL_CREATED' => 'Created By',
     'LBL_DESCRIPTION' => 'Description',
     'LBL_DELETED' => 'Deleted',
-    'LBL_NAME' => 'Name',
+    'LBL_NAME' => 'Nimi',
     'LBL_MODULE_NAME' => 'WorkFlow Conditions',
     'LBL_MODULE_TITLE' => 'WorkFlow Conditions',
     'LBL_MODULE_PATH' => 'Module',
