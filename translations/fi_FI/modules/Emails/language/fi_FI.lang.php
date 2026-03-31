@@ -64,17 +64,17 @@ $mod_strings = array(
 
     'ERR_ARCHIVE_EMAIL' => 'Virhe: Valitse arkistoitavat sähköpostit.',
     'ERR_DELETE_RECORD' => 'Virhe: Anna tietuenumero poistaaksesi tilin.',
-    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Accounts',
+    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Asiakkaat',
     'LBL_ADD_DASHLETS' => 'Lisätään SuiteCRM paneli',
     'LBL_ADD_DOCUMENT' => 'Lisää dokumentti',
     'LBL_ADD_ENTRIES' => 'Add Entries',
     'LBL_ADD_FILE' => 'Lisää tiedostoja',
-    'LBL_ATTACHMENTS' => 'Attachments:',
+    'LBL_ATTACHMENTS' => 'Liitteet:',
     'LBL_ATTACH_FILES' => 'Attach Files',
     'LBL_ATTACH_DOCUMENTS' => 'Attach Documents',
     'LBL_HAS_ATTACHMENT' => 'Has Attachment?:',
     'LBL_BCC' => 'Bcc:',
-    'LBL_BODY' => 'Body:',
+    'LBL_BODY' => 'Viesti: ',
     'LBL_BUGS_SUBPANEL_TITLE' => 'Bugs',
     'LBL_CC' => 'Cc:',
     'LBL_COMPOSE_MODULE_NAME' => 'Compose Email',
@@ -192,7 +192,7 @@ $mod_strings = array(
     'LBL_INBOUND_TITLE' => 'Inbound Email',
     'LBL_INTENT' => 'Intent',
     'LBL_MESSAGE_ID' => 'Message ID',
-    'LBL_REPLY_HEADER_1' => 'On',
+    'LBL_REPLY_HEADER_1' => 'Viikonpäivinä',
     'LBL_REPLY_HEADER_2' => 'wrote:',
     'LBL_REPLY_TO_ADDRESS' => 'Reply-to Address',
     'LBL_REPLY_TO_NAME' => 'Reply-to Name',
@@ -213,7 +213,7 @@ $mod_strings = array(
     'LBL_BUTTON_GRAB_TITLE' => 'Take from Group',
     'LBL_BUTTON_GRAB' => 'Take from Group',
     'LBL_CREATE_BUG' => 'Create Bug',
-    'LBL_CREATE_CASE' => 'Create Case',
+    'LBL_CREATE_CASE' => 'Luo palvelupyyntö',
     'LBL_CREATE_CONTACT' => 'Create Contact',
     'LBL_CREATE_LEAD' => 'Create Lead',
     'LBL_CREATE_TASK' => 'Create Task',
@@ -239,11 +239,11 @@ $mod_strings = array(
     'LBL_LIST_TITLE_GROUP_INBOX' => 'Ryhmän saapuneet',
     'LBL_LIST_TITLE_MY_DRAFTS' => 'Drafts',
     'LBL_LIST_TITLE_MY_INBOX' => 'Inbox',
-    'LBL_LIST_TITLE_MY_SENT' => 'Sent Email',
+    'LBL_LIST_TITLE_MY_SENT' => 'Sähköposti lähetetty',
     'LBL_LIST_TITLE_MY_ARCHIVES' => 'Arkistoidut viestit',
 
     'LNK_MY_DRAFTS' => 'Drafts',
-    'LNK_MY_INBOX' => 'Email',
+    'LNK_MY_INBOX' => 'Sähköposti',
     'LNK_VIEW_MY_INBOX' => 'View Email',
     'LNK_QUICK_REPLY' => 'Reply',
     'LBL_EMAILS_NO_PRIMARY_TEAM_SPECIFIED' => 'No Primary Team specified',
@@ -272,7 +272,7 @@ $mod_strings = array(
     'LBL_CHECK_ATTACHMENTS' => 'Please Check Attachments!',
     'LBL_HAS_ATTACHMENTS' => 'This email already has attachment(s). Would you like to keep the attachment(s)?',
     'LBL_HAS_ATTACHMENT_INDICATOR' => 'Sisältää liitteitä',
-    'ERR_MISSING_REQUIRED_FIELDS' => 'Missing required field',
+    'ERR_MISSING_REQUIRED_FIELDS' => 'Pakollinen kenttä puuttuu',
     'ERR_INVALID_REQUIRED_FIELDS' => 'Invalid required field',
     'LBL_ADD_INBOUND_ACCOUNT' => 'Add',
     'LBL_ADD_OUTBOUND_ACCOUNT' => 'Add',
@@ -293,7 +293,7 @@ $mod_strings = array(
     'LBL_EMAIL_DETAIL_VIEW_MORE' => ' more',
     'LBL_MORE_OPTIONS' => 'More',
     'LBL_LESS_OPTIONS' => 'Less',
-    'LBL_MAILBOX_TYPE_PERSONAL' => 'Personal',
+    'LBL_MAILBOX_TYPE_PERSONAL' => 'Henkilökohtainen',
     'LBL_MAILBOX_TYPE_GROUP' => 'Group',
     'LBL_MAILBOX_TYPE_GROUP_FOLDER' => 'Group - Auto-Import',
     'LBL_EMAIL_INBOUND_TYPE_HELP' => '<b>Personal</b>: Email account accessible by you. Only you can manage and import emails from this account.<br><b>Group</b>: Email account accessible by members of specified teams. Team members can manage and import emails from this account.<br><b>Group - auto-import</b>: Email account accessible by members of specified teams. Emails are automatically imported as records.',
@@ -307,7 +307,7 @@ $mod_strings = array(
     'LBL_TEST_EMAIL_SUBJECT' => 'Test Email from SuiteCRM',
     'LBL_NO_SUBJECT' => '(no subject)',
     'LBL_CHECKING_ACCOUNT' => 'Checking Account',
-    'LBL_OF' => 'of',
+    'LBL_OF' => '/',
     'LBL_TEST_EMAIL_BODY' => 'This email was sent in order to test the outgoing mail server information provided in the SuiteCRM application. A successful receipt of this email indicates that the outgoing mail server information provided is valid.',
 
     // for outbound email dialog
@@ -346,14 +346,14 @@ $mod_strings = array(
 
     // SNIP
     'LBL_EMAILS_MEETINGS_REL' => 'Emails:Meetings',
-    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_DATE_MODIFIED' => 'Muokkauspvm',
 
     'LBL_CATEGORY' => 'Category',
     'LBL_LIST_CATEGORY' => 'Category',
     'LBL_EMAIL_TEMPLATE' => 'Email Template',
 
-    'LBL_CONFIRM_DISREGARD_DRAFT_TITLE' => 'Disregard draft',
-    'LBL_CONFIRM_DISREGARD_DRAFT_BODY' => 'This operation will delete this email, do you want to continue?',
+    'LBL_CONFIRM_DISREGARD_DRAFT_TITLE' => 'Poista luonnos',
+    'LBL_CONFIRM_DISREGARD_DRAFT_BODY' => 'Tämä toiminto poistaa tämän sähköpostiviestin, haluatko jatkaa?',
     'LBL_EMAIL_DRAFT_DELETED' => 'Draft has been deleted',
     'LBL_EMAIL_DRAFT_ERROR_DELETING' => 'An error has occurred while trying to delete draft.',
 
@@ -361,8 +361,8 @@ $mod_strings = array(
     'LBL_QUICK_CREATE_SUCCESS2' => 'Click OK to view the new record.',
     'LBL_QUICK_CREATE_SUCCESS3' => 'Click Cancel to return to the Email.',
 
-    'LBL_CONFIRM_APPLY_EMAIL_TEMPLATE_TITLE' => 'Apply an Email Template',
-    'LBL_CONFIRM_APPLY_EMAIL_TEMPLATE_BODY' => 'This operation will override the email Body and Subject fields, do you want to continue?',
+    'LBL_CONFIRM_APPLY_EMAIL_TEMPLATE_TITLE' => 'Käytä sähköpostin mallina',
+    'LBL_CONFIRM_APPLY_EMAIL_TEMPLATE_BODY' => 'Tämä toiminto korvaa sähköpostin sisällön ja otsikkokentän, haluatko jatkaa?',
 
     'LBL_MAILBOX_ID' => 'Mailbox ID',
     'LBL_PARENT_ID' => 'Parent ID',
@@ -379,12 +379,12 @@ $mod_strings = array(
     'LBL_MARK_UNFLAGGED' => 'Mark As Unflagged',
     'LBL_CONFIRM_OPT_IN_SENT_DATE' => 'Opt In Email Sent',
     'LBL_CONFIRM_OPT_IN_FAIL_DATE' => 'Opt In Email Failed',
-    'LBL_CONFIRM_OPT_IN_TOKEN' => 'Confirm Opt In Token',
+    'LBL_CONFIRM_OPT_IN_TOKEN' => 'Hyväksyntävahvistusviestin tunniste',
 
     'ERR_NO_RETURN_ID' => 'Attachment not found.',
 
     'LBL_LIST_DATE_MODIFIED' => 'Last Modified',
-    'LNK_IMPORT_CAMPAIGNS' => 'Import Campaign',
+    'LNK_IMPORT_CAMPAIGNS' => 'Tuo kampanja',
 
     // Email Validation Error messages. Typicaly for Email Validation:
     'ERR_FIELD_FROM_IS_NOT_SET' => 'From field is not set.',
