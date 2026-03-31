@@ -54,7 +54,7 @@ $mod_strings = array(
     'LBL_NAME' => 'Pangalan',
     'LBL_CREATED_USER' => 'Gihimo ni User',
     'LBL_MODIFIED_USER' => 'Giusab ni User',
-    'LBL_LIST_NAME' => 'Pangalan',
+    'LBL_LIST_NAME' => 'Pangan',
     'LBL_EDIT_BUTTON' => 'Usba',
     'LBL_REMOVE' => 'Tangtanga',
 
