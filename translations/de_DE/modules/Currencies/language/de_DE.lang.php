@@ -43,14 +43,14 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Currencies',
-    'LBL_LIST_FORM_TITLE' => 'Currencies',
+    'LBL_MODULE_NAME' => 'Währungen',
+    'LBL_LIST_FORM_TITLE' => 'Währungen',
     'LBL_CURRENCY' => 'Currency',
-    'LBL_ADD' => 'Add',
+    'LBL_ADD' => 'Hinzufügen',
     'LBL_MERGE' => 'Merge',
     'LBL_MERGE_TXT' => 'Bitte wählen Sie die Währungen aus, die Sie zusammenführen möchten. Dieser Befehl löscht alle ausgewählten Währungen, nachdem die betreffenden Einträge neu zugeordnet wurden..',
     'LBL_US_DOLLAR' => 'Euro',
-    'LBL_DELETE' => 'Delete',
+    'LBL_DELETE' => 'Löschen',
     'LBL_LIST_SYMBOL' => 'Currency Symbol',
     'LBL_LIST_NAME' => 'Currency Name',
     'LBL_LIST_ISO4217' => 'ISO-4217-Code',
@@ -60,9 +60,9 @@ $mod_strings = array(
     'LBL_LIST_RATE_HELP' => 'Ein Wechselkurs von 0,5 für Euro bedeutet, dass 10 USD = 5 Euro entsprechen.',
     'LBL_LIST_STATUS' => 'Status',
     'LNK_NEW_CONTACT' => 'New Contact',
-    'LNK_NEW_ACCOUNT' => 'New Account',
+    'LNK_NEW_ACCOUNT' => 'Neue Firma',
     'LNK_NEW_OPPORTUNITY' => 'New Opportunity',
-    'LNK_NEW_CASE' => 'New Case',
+    'LNK_NEW_CASE' => 'Neue Fall',
     'LNK_NEW_NOTE' => 'Create Note or Attachment',
     'LNK_NEW_CALL' => 'Neuer Anruf',
     'LNK_NEW_EMAIL' => 'Neue E-Mail',
@@ -72,9 +72,9 @@ $mod_strings = array(
     'LBL_BELOW_MIN' => 'Umrechnungskurs muss > 0 sein',
     'currency_status_dom' =>
         array(
-            'Active' => 'Active',
-            'Inactive' => 'Inactive',
+            'Active' => 'Aktiv',
+            'Inactive' => 'Inaktiv',
         ),
-    'LBL_CREATED_BY' => 'Created By',
+    'LBL_CREATED_BY' => 'Erstellt von',
     'LBL_EDIT_LAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
 );
