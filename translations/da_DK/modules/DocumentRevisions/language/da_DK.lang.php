@@ -52,7 +52,7 @@ $mod_strings = array(
     //vardef labels
     'LBL_REVISION_NAME' => 'Revision Number',
     'LBL_FILENAME' => 'File:',
-    'LBL_MIME' => 'Mime Type',
+    'LBL_MIME' => 'Mime type',
     'LBL_REVISION' => 'Revision',
     'LBL_DOCUMENT' => 'Related Document',
     'LBL_LATEST_REVISION' => 'Latest Revision',
