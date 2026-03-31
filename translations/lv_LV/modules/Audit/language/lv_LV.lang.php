@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_FIELD_NAME' => 'Lauks',
+    'LBL_FIELD_NAME' => 'Field',
     'LBL_OLD_NAME' => 'Vecā vērtība',
     'LBL_NEW_VALUE' => 'Jaunā vērtība',
     'LBL_CREATED_BY' => 'Modificēja:',
     'LBL_LIST_DATE' => 'Izmaiņu datums',
     'LBL_AUDITED_FIELDS' => 'Auditētie lauki šai modulī:',
-    'LBL_CHANGE_LOG' => 'Izmaiņu žurnāls',
+    'LBL_CHANGE_LOG' => 'Change Log',
 );
