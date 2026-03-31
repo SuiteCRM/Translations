@@ -55,7 +55,7 @@ $mod_strings = array(
     'LNK_CALL_LIST' => 'Calls',
     'LNK_MEETING_LIST' => 'Meetings',
     'LNK_TASK_LIST' => 'Tasks',
-    'LNK_TASK' => 'Task',
+    'LNK_TASK' => 'Tehtävä',
     'LNK_TASK_VIEW' => 'Näytä tehtävä',
     'LNK_EVENT' => 'Event',
     'LNK_EVENT_VIEW' => 'Näytä tapahtuma',
@@ -103,7 +103,7 @@ $mod_strings = array(
     'LBL_NO' => 'No',
     'LBL_SETTINGS' => 'Settings',
     'LBL_CREATE_NEW_RECORD' => 'Luo tehtävä',
-    'LBL_LOADING' => 'Loading...',
+    'LBL_LOADING' => 'Ladataan...',
     'LBL_SAVING' => 'Saving...',
     'LBL_SENDING_INVITES' => 'Kutsujen tallennus ja lähetys...',
     'LBL_CONFIRM_REMOVE' => 'Haluatko varmasti poistaa tämän tietueen?',
@@ -144,8 +144,8 @@ $mod_strings = array(
 
     'LBL_REPEAT_TYPE' => 'Toista',
     'LBL_REPEAT_INTERVAL' => 'Kuinka usein?',
-    'LBL_REPEAT_END' => 'End',
-    'LBL_REPEAT_END_AFTER' => 'After',
+    'LBL_REPEAT_END' => 'Toisto loppuu',
+    'LBL_REPEAT_END_AFTER' => ' ',
     'LBL_REPEAT_OCCURRENCES' => 'kerran jälkeen',
     'LBL_REPEAT_END_BY' => 'tänä päivänä:',
     'LBL_REPEAT_DOW' => 'Viikonpäivinä',
@@ -165,14 +165,14 @@ $mod_strings = array(
     'LBL_MODULE' => 'Module',
     'LBL_BODY' => 'Body',
     'LBL_BORDER' => 'Reuna',
-    'LBL_TEXT' => 'Text',
+    'LBL_TEXT' => 'Teksti',
 );
 
 
 $mod_list_strings = array(
     'dom_cal_weekdays' =>
         array(
-            '0' => "Sun",
+            '0' => "Aurinko",
             '1' => "Mon",
             '2' => "Tue",
             '3' => "Wed",
