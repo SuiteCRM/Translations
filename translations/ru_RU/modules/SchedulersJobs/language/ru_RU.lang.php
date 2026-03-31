@@ -43,8 +43,8 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_NAME' => 'Название задания:',
-    'LBL_EXECUTE_TIME' => 'Время выполнения',
+    'LBL_NAME' => 'Job Name',
+    'LBL_EXECUTE_TIME' => 'Execute Time',
     'LBL_SCHEDULER_ID' => 'Планировщик',
     'LBL_STATUS' => 'Статус задания',
     'LBL_RESOLUTION' => 'Результат',
