@@ -56,7 +56,7 @@ $mod_strings = array(
     'LBL_SAVE_SEARCH_AS' => 'Save filter as:',
     'LBL_ASCENDING' => 'سنبھالنے',
     'LBL_DESCENDING' => 'نزولی',
-    'LBL_MODIFY_CURRENT_FILTER' => 'مجودہ فلٹر میں تبدیل کرنا',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
     'LBL_CREATED_BY' => 'کی طرف سے پیدا کردہ',
     'LBL_QUICK_FILTER' => 'فوری فلٹر',
