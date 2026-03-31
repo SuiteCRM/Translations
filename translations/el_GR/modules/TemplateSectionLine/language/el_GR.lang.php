@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_DESCRIPTION' => 'Description',
-    'LBL_NAME' => 'Name',
-    'LBL_LIST_NAME' => 'Name',
-    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_DESCRIPTION' => 'Περιγραφή',
+    'LBL_NAME' => 'Όνομα',
+    'LBL_LIST_NAME' => 'Όνομα',
+    'LBL_EDIT_BUTTON' => 'Επεξεργασία',
     'LBL_REMOVE' => 'Remove',
-    'LBL_GRP' => 'Group',
-    'LBL_ORD' => 'Order',
+    'LBL_GRP' => 'Γκρουπ',
+    'LBL_ORD' => 'Σειρά',
     'LBL_THUMBNAIL' => 'Thumbnail',
 );
