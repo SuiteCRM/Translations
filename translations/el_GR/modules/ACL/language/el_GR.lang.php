@@ -44,14 +44,14 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ROLE' => 'Role',
-    'LBL_NAME' => 'Name',
-    'LBL_DESCRIPTION' => 'Description',
+    'LBL_NAME' => 'Όνομα',
+    'LBL_DESCRIPTION' => 'Περιγραφή',
     'LIST_ROLES' => 'Κατάλογος ρόλων',
-    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Χειριστές',
     'LIST_ROLES_BY_USER' => 'Ρόλοι ανά χρήστη',
     'LBL_ROLES_SUBPANEL_TITLE' => 'Ρόλος χρήστη',
     'LBL_SEARCH_FORM_TITLE' => 'Search',
-    'LBL_NO_ACCESS' => 'You do not have access to this area. Contact your site administrator to obtain access.',
+    'LBL_NO_ACCESS' => 'Δεν έχετε πρόσβαση σε αυτή την περιοχή. Επικοινωνήστε με τον διαχειριστή τοποθεσίας σας για να αποκτήσετε πρόσβαση.',
     'LBL_REDIRECT_TO_HOME' => 'Επαναδρομολόγηση σε Αρχική σε',
     'LBL_SECONDS' => 'δευτερόλεπτα',
     'LBL_ADDING' => 'Προσθέτοντας για',
