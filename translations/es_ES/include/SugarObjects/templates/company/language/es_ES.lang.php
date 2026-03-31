@@ -56,8 +56,8 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Usuario:',
     'LBL_RATING' => 'Clasificación',
     'LBL_ASSIGNED_TO' => 'Asignado a:',
-    'LBL_ASSIGNED_USER' => 'Assigned to:',
-    'LBL_ASSIGNED_TO_ID' => 'Assigned to:',
+    'LBL_ASSIGNED_USER' => 'Asignado a:',
+    'LBL_ASSIGNED_TO_ID' => 'Asignado a:',
     'LBL_BILLING_ADDRESS_CITY' => 'Ciudad de Facturación:',
     'LBL_BILLING_ADDRESS_COUNTRY' => 'País de Facturación:',
     'LBL_BILLING_ADDRESS_POSTALCODE' => 'Código Postal de Facturación:',
@@ -116,7 +116,7 @@ $mod_strings = array(
     'LBL_TYPE' => 'Tipo:',
     'LBL_WEBSITE' => 'Sitio Web:',
 
-    'LNK_ACCOUNT_LIST' => 'Accounts',
+    'LNK_ACCOUNT_LIST' => 'Cuentas',
     'LNK_NEW_ACCOUNT' => 'Crear una cuenta',
 
     'MSG_DUPLICATE' => 'El registro para la cuenta que va a crear podría ser un duplicado de otro registro de cuenta existente. Los registros de cuenta con nombres similares se listan a continuación.<br>Haga clic en Guardar para continuar con la creación de esta cuenta, o en Cancelar para volver al módulo sin crear la cuenta.',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => '¿Está seguro de que desea eliminar este registro?',
 
     'LBL_EDIT_BUTTON' => 'Editar',
-    'LBL_REMOVE' => 'Remove',
+    'LBL_REMOVE' => 'Quitar',
 
 );
