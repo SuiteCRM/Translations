@@ -52,7 +52,7 @@ $app_list_strings = array(
         'Home' => 'Pagina iniziale',
         'ResourceCalendar' => 'Calendario delle risorse',
         'Contacts' => 'Contatti',
-        'Accounts' => 'Aziende',
+        'Accounts' => 'Accounts',
         'Alerts' => 'Avvisi',
         'Opportunities' => 'Opportunità',
         'Cases' => 'Reclami',
@@ -137,8 +137,8 @@ $app_list_strings = array(
         'ProjectTask' => 'Compito di Progetto',
         'Prospects' => 'Obiettivo',
         'Campaigns' => 'Campagna',
-        'Documents' => 'Documento',
-        'Sync' => 'Sincr',
+        'Documents' => 'Documenti',
+        'Sync' => 'Sincronizza',
         'Users' => 'Assegnato a',
         'SugarFavorites' => 'Preferiti di SuiteCRM',
 
@@ -259,7 +259,7 @@ $app_list_strings = array(
     'case_relationship_type_default_key' => 'Contatto primario',
     'case_relationship_type_dom' => array(
         '' => '',
-        'Primary Contact' => 'Contatto primario',
+        'Primary Contact' => 'Contatto Primario',
         'Alternate Contact' => 'Contato Alternativo',
     ),
     'payment_terms' => array(
@@ -415,14 +415,14 @@ $app_list_strings = array(
         'Administrator' => 'Amministratore',
     ),
     'user_status_dom' => array(
-        'Active' => 'Attivo',
+        'Active' => 'Attiva',
         'Inactive' => 'Inattivo',
     ),
     'user_factor_auth_interface_dom' => array(
         'FactorAuthEmailCode' => 'Codice Email',
     ),
     'employee_status_dom' => array(
-        'Active' => 'Attivo',
+        'Active' => 'Attiva',
         'Terminated' => 'Licenziato',
         'Leave of Absence' => 'In Ferie/Malattia/Licenza',
     ),
@@ -435,7 +435,7 @@ $app_list_strings = array(
     'project_task_priority_options' => array(
         'High' => 'Alta',
         'Medium' => 'Media',
-        'Low' => 'Bassa',
+        'Low' => 'Low',
     ),
     'project_task_priority_default' => 'Media',
 
@@ -470,13 +470,13 @@ $app_list_strings = array(
 
     'activity_status_type_dom' => array(
         '' => '--Nessuno--',
-        'active' => 'Attivo',
+        'active' => 'Attiva',
         'inactive' => 'Inattivo',
     ),
 
     // Note:  do not translate record_type_default_key
     //        it is the key for the default record_type_module value
-    'record_type_default_key' => 'Aziende',
+    'record_type_default_key' => 'Accounts',
     'record_type_display' => array(
         '' => '',
         'Accounts' => 'Azienda',
@@ -489,7 +489,7 @@ $app_list_strings = array(
         'Project' => 'Progetto',
 
         'Prospects' => 'Obiettivo',
-        'ProjectTask' => 'Compito di Progetto',
+        'ProjectTask' => 'Compito Progetto',
 
         'Tasks' => 'Compito',
 
@@ -510,7 +510,7 @@ $app_list_strings = array(
 
         'Bugs' => 'Errore',
         'Project' => 'Progetto',
-        'ProjectTask' => 'Compito di Progetto',
+        'ProjectTask' => 'Compito Progetto',
         'Prospects' => 'Obiettivo',
         'Cases' => 'Reclamo',
         'Leads' => 'Leads',
@@ -535,7 +535,7 @@ $app_list_strings = array(
         'Leads' => 'Leads',
 
         'Project' => 'Progetto',
-        'ProjectTask' => 'Compito di Progetto',
+        'ProjectTask' => 'Compito Progetto',
 
         'Prospects' => 'Obiettivo',
 
@@ -563,7 +563,7 @@ $app_list_strings = array(
         'Accepted' => 'Accettato',
         'Duplicate' => 'Duplica',
         'Closed' => 'Chiuso',
-        'Out of Date' => 'Scaduto',
+        'Out of Date' => 'Non aggiornato',
         'Invalid' => 'Non valido',
     ),
 
@@ -589,7 +589,7 @@ $app_list_strings = array(
         'Accepted' => 'Accettato',
         'Duplicate' => 'Duplica',
         'Fixed' => 'Corretto',
-        'Out of Date' => 'Scaduto',
+        'Out of Date' => 'Non aggiornato',
         'Invalid' => 'Non valido',
         'Later' => 'Posticipato',
     ),
@@ -624,7 +624,7 @@ $app_list_strings = array(
     'product_category_default_key' => '',
     'product_category_dom' => array(
         '' => '',
-        'Accounts' => 'Aziende',
+        'Accounts' => 'Accounts',
         'Activities' => 'Attività',
         'Bugs' => 'Errori',
         'Calendar' => 'Calendario',
@@ -633,7 +633,7 @@ $app_list_strings = array(
         'Cases' => 'Reclami',
         'Contacts' => 'Contatti',
         'Currencies' => 'Valute',
-        'Dashboard' => 'Dashboard',
+        'Dashboard' => 'Cruscotto',
         'Documents' => 'Documenti',
         'Emails' => 'Email',
         'Feeds' => 'RSS',
@@ -651,12 +651,12 @@ $app_list_strings = array(
         'RSS' => 'RSS',
         'Studio' => 'Studio',
         'Upgrade' => 'Aggiornamento',
-        'Users' => 'Utenti',
+        'Users' => 'Utente',
     ),
     /*Added entries 'Queued' and 'Sending' for 4.0 release..*/
     'campaign_status_dom' => array(
         'Planning' => 'Pianificazione',
-        'Active' => 'Attivo',
+        'Active' => 'Attiva',
         'Inactive' => 'Inattivo',
         'Complete' => 'Completa',
         //'In Queue' => 'In Queue',
@@ -707,7 +707,7 @@ $app_list_strings = array(
         '2' => 'Feb',
         '3' => 'Mar',
         '4' => 'Apr',
-        '5' => 'Mag',
+        '5' => 'Maggio',
         '6' => 'Giu',
         '7' => 'Lug',
         '8' => 'Ago',
@@ -780,7 +780,7 @@ $app_list_strings = array(
     ],
 
     'dom_inbound_email_account_status' => [
-        'Active' => 'Attivo',
+        'Active' => 'Attiva',
         'Inactive' => 'Inattivo',
     ],
 
@@ -830,19 +830,19 @@ $app_list_strings = array(
         2 => 'Devi assegnare solo gli oggetti selezionati durante Assegnazione Diretta.',
     ),
     'dom_email_bool' => array(
-        'bool_true' => 'Si',
+        'bool_true' => 'Sì',
         'bool_false' => 'No',
     ),
     'dom_int_bool' => array(
-        1 => 'Si',
+        1 => 'Sì',
         0 => 'No',
     ),
     'dom_int_bool_string' => array(
-        '1' => 'Si',
+        '1' => 'Sì',
         '0' => 'No',
     ),
     'dom_switch_bool' => array(
-        'on' => 'Si',
+        'on' => 'Sì',
         'off' => 'No',
         '' => 'No',
     ),
@@ -873,7 +873,7 @@ $app_list_strings = array(
     ),
 
     'scheduler_status_dom' => array(
-        'Active' => 'Attivo',
+        'Active' => 'Attiva',
         'Inactive' => 'Inattivo',
     ),
 
@@ -902,7 +902,7 @@ $app_list_strings = array(
     ),
 
     'document_status_dom' => array(
-        'Active' => 'Attivo',
+        'Active' => 'Attiva',
         'Draft' => 'Bozza',
         'FAQ' => 'Domande frequenti',
         'Expired' => 'Scaduto',
@@ -983,7 +983,7 @@ $app_list_strings = array(
     ),
     'email_marketing_status_dom' => array(
         '' => '',
-        'active' => 'Attivo',
+        'active' => 'Attiva',
         'draft' => 'Bozza',
         'scheduled' => 'Programmato',
         'pending_send' => 'Pending Send',
@@ -1023,10 +1023,10 @@ $app_list_strings = array(
 
     'campainglog_target_type_dom' => array(
         'Contacts' => 'Contatti',
-        'Users' => 'Utenti',
+        'Users' => 'Utente',
         'Prospects' => 'Obiettivi',
         'Leads' => 'Lead',
-        'Accounts' => 'Aziende',
+        'Accounts' => 'Accounts',
     ),
     'merge_operators_dom' => array(
         'like' => 'Contiene',
@@ -1035,7 +1035,7 @@ $app_list_strings = array(
     ),
 
     'custom_fields_importable_dom' => array(
-        'true' => 'Si',
+        'true' => 'Sì',
         'false' => 'No',
         'required' => 'Richiesto',
     ),
@@ -1076,7 +1076,7 @@ $app_list_strings = array(
         'pieWedgeName' => 'sezione',
     ),
     'release_status_dom' => array(
-        'Active' => 'Attivo',
+        'Active' => 'Attiva',
         'Inactive' => 'Inattivo',
     ),
     'email_settings_for_ssl' => array(
@@ -1170,7 +1170,7 @@ $app_strings = array(
     'LBL_TOUR_TAKE_TOUR' => 'Vai alla presentazione',
     'LBL_MOREDETAIL' => 'Più dettagli', /*for 508 compliance fix*/
     'LBL_EDIT_INLINE' => 'Modifica', /*for 508 compliance fix*/
-    'LBL_VIEW_INLINE' => 'Vista', /*for 508 compliance fix*/
+    'LBL_VIEW_INLINE' => 'Visualizza', /*for 508 compliance fix*/
     'LBL_BASIC_SEARCH' => 'Filtro', /*for 508 compliance fix*/
     'LBL_Blank' => ' ', /*for 508 compliance fix*/
     'LBL_ID_FF_ADD' => 'Aggiungi', /*for 508 compliance fix*/
@@ -1186,8 +1186,8 @@ $app_strings = array(
     'LBL_ADD' => 'Aggiungi', /*for 508 compliance fix*/
     'LBL_COMPANY_LOGO' => 'Logo Azienda', /*for 508 compliance fix*/
     'LBL_CONNECTORS_POPUPS' => 'Connettori Popups',
-    'LBL_CLOSEINLINE' => 'Chiusa',
-    'LBL_VIEWINLINE' => 'Vista',
+    'LBL_CLOSEINLINE' => 'Chiudi',
+    'LBL_VIEWINLINE' => 'Visualizza',
     'LBL_INFOINLINE' => 'Info',
     'LBL_PRINT' => 'Stampa',
     'LBL_HELP' => 'Aiuto',
@@ -1213,7 +1213,7 @@ $app_strings = array(
     'LBL_EMAIL_ACCOUNTS_SMTPPORT' => 'Porta SMTP',
     'LBL_EMAIL_ACCOUNTS_SMTPSERVER' => 'Server SMTP',
     'LBL_EMAIL_ACCOUNTS_SMTPUSER' => 'Nome Utente SMTP',
-    'LBL_EMAIL_ACCOUNTS_SMTPDEFAULT' => 'Auto-Creazione',
+    'LBL_EMAIL_ACCOUNTS_SMTPDEFAULT' => 'Predefinito',
     'LBL_EMAIL_WARNING_MISSING_USER_CREDS' => 'Attenzione: mancano nome utente e password dell´account di posta in uscita.',
     'LBL_OAUTH_CONNECTION_NOT_SET' => 'Impostare una connessione OAuth esterna.',
     'LBL_EMAIL_PASSWORD_NOT_SET' => 'Attenzione: Non è stata impostata alcuna password.',
@@ -1237,7 +1237,7 @@ $app_strings = array(
     'LBL_EMAIL_REMOVE_SMTP_WARNING' => 'Attenzione! L´account di posta in uscita che stai cercando di eliminare è associato ad un account di posta in entrata già esistente. Sei sicuro di voler continuare?',
     'LBL_EMAIL_ADDRESSES' => 'Indirizzi Email',
     'LBL_EMAIL' => 'Emails',
-    'LBL_EMAIL_ADDRESS_PRIMARY' => 'Indirizzo Email',
+    'LBL_EMAIL_ADDRESS_PRIMARY' => 'Email',
     'LBL_EMAIL_ADDRESS_OPT_IN' => 'Hai confermato che è stato attivato il tuo indirizzo email: ',
     'LBL_EMAIL_ADDRESS_OPT_IN_ERR' => 'Impossibile confermare l\'indirizzo email',
     'LBL_EMAIL_ARCHIVE_TO_SUITE' => 'Importa in SuiteCRM',
@@ -1256,10 +1256,10 @@ $app_strings = array(
     'LBL_EMAIL_CHECK' => 'Controllo Email',
     'LBL_EMAIL_CHECKING_NEW' => 'Controllo nuova posta',
     'LBL_EMAIL_CHECKING_DESC' => 'Controllo nuova posta. <br><br>Se è il primo controllo per questo mail account, può impiegare un pò di tempo.',
-    'LBL_EMAIL_CLOSE' => 'Chiusa',
+    'LBL_EMAIL_CLOSE' => 'Chiudi',
     'LBL_EMAIL_COFFEE_BREAK' => 'Controllo nuova posta. <br><br> Un account di posta considerevole potrebbe richiedere molto tempo.',
 
-    'LBL_EMAIL_COMPOSE' => 'Emails',
+    'LBL_EMAIL_COMPOSE' => 'Email',
     'LBL_EMAIL_COMPOSE_ERR_NO_RECIPIENTS' => 'Inserisci destinatari per questa email.',
     'LBL_EMAIL_COMPOSE_NO_BODY' => 'La mail è vuota. Inviare lo stesso?',
     'LBL_EMAIL_COMPOSE_NO_SUBJECT' => 'Questa email non ha un oggetto. Inviare ugualmente?',
@@ -1276,7 +1276,7 @@ $app_strings = array(
     'LBL_EMAIL_MULT_GROUP_FOLDER_ACCOUNTS_EMPTY' => 'Vuoto',
     'LBL_EMAIL_DATE_SENT_BY_SENDER' => 'Data Spedizione dal Mittente',
     'LBL_EMAIL_DATE_TODAY' => 'Oggi',
-    'LBL_EMAIL_DELETE' => 'Elimina',
+    'LBL_EMAIL_DELETE' => 'Cancella',
     'LBL_EMAIL_DELETE_CONFIRM' => 'Elimina i messaggi selezionati?',
     'LBL_EMAIL_DELETE_SUCCESS' => 'Email cancellate con successo.',
     'LBL_EMAIL_DELETING_MESSAGE' => 'Sto eliminando i messaggi',
@@ -1398,7 +1398,7 @@ $app_strings = array(
     'LBL_EMAIL_QC_BUGS' => 'Errore',
     'LBL_EMAIL_QC_CASES' => 'Reclamo',
     'LBL_EMAIL_QC_LEADS' => 'Leads',
-    'LBL_EMAIL_QC_CONTACTS' => 'Contatto',
+    'LBL_EMAIL_QC_CONTACTS' => 'Contatti',
     'LBL_EMAIL_QC_TASKS' => 'Compito',
     'LBL_EMAIL_QC_OPPORTUNITIES' => 'Opportunità',
     'LBL_EMAIL_QUICK_CREATE' => 'Creazione Rapida',
@@ -1574,12 +1574,12 @@ $app_strings = array(
     'LBL_CLEAR_BUTTON_LABEL' => 'Svuota',
     'LBL_CLEAR_BUTTON_TITLE' => 'Svuota',
     'LBL_CLEARALL' => 'Azzera tutto',
-    'LBL_CLOSE_BUTTON_TITLE' => 'Chiusa',
+    'LBL_CLOSE_BUTTON_TITLE' => 'Chiudi',
     'LBL_CLOSE_AND_CREATE_BUTTON_LABEL' => 'Chiudi e crea nuovo',
     'LBL_CLOSE_AND_CREATE_BUTTON_TITLE' => 'Chiudi e crea nuovo',
     'LBL_CLOSE_AND_CREATE_BUTTON_KEY' => 'C',
     'LBL_OPEN_ITEMS' => 'Apri Elementi',
-    'LBL_COMPOSE_EMAIL_BUTTON_KEY' => 'L',
+    'LBL_COMPOSE_EMAIL_BUTTON_KEY' => 'F',
     'LBL_COMPOSE_EMAIL_BUTTON_LABEL' => 'Scrivi Email',
     'LBL_COMPOSE_EMAIL_BUTTON_TITLE' => 'Scrivi Email',
     'LBL_SEARCH_DROPDOWN_YES' => 'Si',
@@ -1601,7 +1601,7 @@ $app_strings = array(
     'LBL_DATE_ENTERED' => 'Data di Creazione:',
     'LBL_DATE_MODIFIED' => 'Data Modifica:',
     'LBL_EDIT_BUTTON' => 'Modifica',
-    'LBL_DUPLICATE_BUTTON' => 'Duplica',
+    'LBL_DUPLICATE_BUTTON' => 'Duplicato',
     'LBL_DELETE_BUTTON' => 'Elimina',
     'LBL_DELETE' => 'Elimina',
     'LBL_DELETED' => 'Cancellata',
@@ -1618,7 +1618,7 @@ $app_strings = array(
     'LBL_IMPORT_VCARD' => 'Importa vCard:',
     'LBL_IMPORT_VCARD_BUTTON_LABEL' => 'Importa vCard',
     'LBL_IMPORT_VCARD_BUTTON_TITLE' => 'Importa vCard',
-    'LBL_VIEW_BUTTON' => 'Vista',
+    'LBL_VIEW_BUTTON' => 'Vedi',
     'LBL_EMAIL_PDF_BUTTON_LABEL' => 'Invia Email come PDF',
     'LBL_EMAIL_PDF_BUTTON_TITLE' => 'Invia Email come PDF',
     'LBL_EMAILS' => 'Email',
@@ -1667,10 +1667,10 @@ $app_strings = array(
     'LBL_FIXED_IN_RELEASE' => 'Fisso nella Release',
     'LBL_IN_EVERYWHERE' => 'Ovunque',
     'LBL_LIST_ACCOUNT_NAME' => 'Nome Azienda',
-    'LBL_LIST_ASSIGNED_USER' => 'Assegnato a',
+    'LBL_LIST_ASSIGNED_USER' => 'Utente',
     'LBL_LIST_CONTACT_NAME' => 'Contatto',
     'LBL_LIST_CONTACT_ROLE' => 'Ruolo del Contatto',
-    'LBL_LIST_DATE_ENTERED' => 'Data di Creazione',
+    'LBL_LIST_DATE_ENTERED' => 'Data Creazione',
     'LBL_LIST_EMAIL' => 'Emails',
     'LBL_LIST_NAME' => 'Nome',
     'LBL_LIST_OF' => 'di',
@@ -1687,7 +1687,7 @@ $app_strings = array(
     'LBL_LOCALE_NAME_EXAMPLE_SALUTATION' => 'Dott.',
     'LBL_LOCALE_NAME_EXAMPLE_TITLE' => 'Code Monkey Straordinario',
     'LBL_COPY' => 'Copia',
-    'LBL_CANCEL' => 'Annulla',
+    'LBL_CANCEL' => 'Annulla [Alt+X]',
     'LBL_SNOOZE' => 'Posticipa',
     'LBL_SNOOZE_INLINE_CONFIRM' => 'Snooze? ({{preferences.snooze_alert_timer|enum:snooze_alert_timer_simple}})',
     'LBL_DISMISS' => 'Chiudere',
@@ -1748,7 +1748,7 @@ $app_strings = array(
 
     'LBL_PROSPECTS' => 'Prospect',
     'LBL_PRODUCTS' => 'Prodotti',
-    'LBL_PROJECT_TASKS' => 'Compiti di progetto',
+    'LBL_PROJECT_TASKS' => 'Compiti di Progetto',
     'LBL_PROJECTS' => 'Progetti',
     'LBL_QUOTES' => 'Preventivi',
 
@@ -1759,7 +1759,7 @@ $app_strings = array(
     'LBL_REQUIRED_SYMBOL' => '*',
     'LBL_REQUIRED_TITLE' => 'Indica un campo obbligatorio',
     'LBL_EMAIL_DONE_BUTTON_LABEL' => 'Fatto',
-    'LBL_FULL_FORM_BUTTON_KEY' => 'L',
+    'LBL_FULL_FORM_BUTTON_KEY' => 'F',
     'LBL_FULL_FORM_BUTTON_LABEL' => 'Modulo Completo',
     'LBL_FULL_FORM_BUTTON_TITLE' => 'Modulo Completo',
     'LBL_SAVE_NEW_BUTTON_LABEL' => 'Salva e crea nuovo',
@@ -1851,7 +1851,7 @@ $app_strings = array(
 
     'LBL_ALL_SCHEDULERS' => 'All Schedulers',
     'LBL_LEGACY_SCHEDULERS' => 'Legacy Schedulers',
-    'LBL_SCHEDULERS' => 'Schedulatori',
+    'LBL_SCHEDULERS' => 'Pianificazioni',
     'LBL_RUN_LEGACY_SCHEDULERS' => 'Running Legacy Schedulers',
     'LBL_LEGACY_SCHEDULERS_RUN_SUCCESSFULLY' => 'Legacy Schedulers run successfully!',
     'LBL_RUN_SCHEDULERS' => 'Running Schedulers',
@@ -1895,7 +1895,7 @@ $app_strings = array(
     'LBL_UNSYNC' => 'Desinc.',
     'LBL_UPDATE' => 'Aggiorna',
     'LBL_USER_LIST' => 'Elenco Utenti',
-    'LBL_USERS' => 'Utenti',
+    'LBL_USERS' => 'Utente',
     'LBL_VERIFY_EMAIL_ADDRESS' => 'Controllo delle email esistenti in entrata...',
     'LBL_VERIFY_PORTAL_NAME' => 'Controllo dei portali esistenti...',
     'LBL_VIEW_IMAGE' => 'Visualizza',
@@ -1910,7 +1910,7 @@ $app_strings = array(
     'LBL_BASIC_FILTER' => 'Filtro di Base',
     'LBL_QUICK' => 'Rapido',
     'LNK_SEARCH_NONFTS_VIEW_ALL' => 'Mostra tutti',
-    'LNK_CLOSE' => 'Chiusa',
+    'LNK_CLOSE' => 'Chiudi',
     'LBL_MODIFY_CURRENT_FILTER' => 'Modifica l´attuale ricerca',
     'LNK_SAVED_VIEWS' => 'Opzioni Aspetto',
     'LNK_DELETE' => 'Elimina',
@@ -1999,7 +1999,7 @@ $app_strings = array(
     'ERROR_JS_ALERT_TIMEOUT_MSG_1' => 'La tua sessione sta per finire pergo salvare il lavoro.',
     'ERROR_JS_ALERT_TIMEOUT_MSG_2' => 'la tua sessione è scaduta.',
     'MSG_JS_ALERT_MTG_REMINDER_AGENDA' => "\nAgenda: ",
-    'MSG_JS_ALERT_MTG_REMINDER_MEETING' => 'Appuntamento',
+    'MSG_JS_ALERT_MTG_REMINDER_MEETING' => 'Incontro',
     'MSG_JS_ALERT_MTG_REMINDER_CALL' => 'Chiamata',
     'MSG_JS_ALERT_MTG_REMINDER_TIME' => 'Ora:',
     'MSG_JS_ALERT_MTG_REMINDER_LOC' => 'Luogo:',
@@ -2077,7 +2077,7 @@ $app_strings = array(
 
     'LBL_RELOAD_PAGE' => 'Si prega di <a href="javascript: window.location.reload()">ricaricare la finestra</a> per usare questa Dashlet.',
     'LBL_ADD_DASHLETS' => 'Aggiungi Dashlet di SuiteCRM',
-    'LBL_CLOSE_DASHLETS' => 'Chiusa',
+    'LBL_CLOSE_DASHLETS' => 'Chiudi',
     'LBL_OPTIONS' => 'Opzioni',
     'LBL_1_COLUMN' => '1 Colonna',
     'LBL_2_COLUMN' => '2 Colonne',
@@ -2254,7 +2254,7 @@ $app_strings = array(
     'LBL_EDIT_BUTTON_LABEL' => 'Modifica',
     'LBL_EDIT_BUTTON_TITLE' => 'Modifica',
     'LBL_DUPLICATE_BUTTON_KEY' => 'U',
-    'LBL_DUPLICATE_BUTTON_LABEL' => 'Duplica',
+    'LBL_DUPLICATE_BUTTON_LABEL' => 'Duplicato',
     'LBL_DUPLICATE_BUTTON_TITLE' => 'Duplica',
     'LBL_DISABLE_USER_2FA' => 'Disable 2FA',
     'LBL_DELETE_BUTTON_KEY' => 'D',
@@ -2289,7 +2289,7 @@ $app_strings = array(
     'LBL_NEW_EM_MARKETING' => 'New Marketing Email',
     'LBL_NEW_SURVEY' => 'New Survey',
     'LBL_WEB_TO_LEAD' => 'New Web to Person Form',
-    'LBL_TYPE' => 'Gruppo/Personale',
+    'LBL_TYPE' => 'Tipo',
     'LBL_DATE_START' => 'Data di Inizio',
     'LBL_SEND_DATE' => 'Data Invio',
     'LBL_SCHEDULE_BUTTON_LABEL' => 'Pianifica',
@@ -2391,7 +2391,7 @@ $app_strings = array(
     //List View Column Selector Modal
     'LBL_COLUMN_SELECTOR_DISPLAYED_COLS' => 'MOSTRATO',
     'LBL_COLUMN_SELECTOR_HIDDEN_COLS' => 'NASCOSTO',
-    'LBL_COLUMN_SELECTOR_CLOSE_BUTTON' => 'Chiusa',
+    'LBL_COLUMN_SELECTOR_CLOSE_BUTTON' => 'Chiudi',
     'LBL_COLUMN_SELECTOR_SAVE_BUTTON' => 'Salva Modifiche',
     'LBL_COLUMN_SELECTOR_MODAL_TITLE' => 'Scegli Colonne',
 
@@ -3133,7 +3133,7 @@ $app_list_strings['token_status'] = array(
 
 $app_list_strings ['emailTemplates_type_list'] = array(
     '' => '',
-    'campaign' => 'Campagna',
+    'campaign' => 'Campagne',
     'email' => 'Emails',
     'event' => 'Evento',
 );
@@ -3145,7 +3145,7 @@ $app_list_strings ['emailTemplates_type_list_campaigns'] = array(
 
 $app_list_strings ['emailTemplates_type_list_no_workflow'] = array(
     '' => '',
-    'campaign' => 'Campagna',
+    'campaign' => 'Campagne',
     'email' => 'Emails',
     'event' => 'Evento',
     'system' => 'Sistema',
@@ -3169,7 +3169,7 @@ $app_list_strings['fp_event_invite_status_dom']['Invited'] = 'Invitato';
 $app_list_strings['fp_event_invite_status_dom']['Not Invited'] = 'Non Invitato';
 $app_list_strings['fp_event_invite_status_dom']['Attended'] = 'Partecipato';
 $app_list_strings['fp_event_invite_status_dom']['Not Attended'] = 'Non Partecipato';
-$app_list_strings['fp_event_status_dom']['Accepted'] = 'Accettato';
+$app_list_strings['fp_event_status_dom']['Accepted'] = 'Accetta';
 $app_list_strings['fp_event_status_dom']['Declined'] = 'Rifiutato';
 $app_list_strings['fp_event_status_dom']['No Response'] = 'Nessuna Risposta';
 
@@ -3187,7 +3187,7 @@ $app_strings['LBL_AOP_EMAIL_REPLY_DELIMITER'] = '========== Rispondere sopra que
 $app_list_strings['case_state_default_key'] = 'Apri ';
 $app_list_strings['case_state_dom'] =
     array(
-        'Open' => 'Apri ',
+        'Open' => 'Aperto',
         'Closed' => 'Chiuso',
     );
 $app_list_strings['case_status_default_key'] = 'Open_New';
@@ -3198,7 +3198,7 @@ $app_list_strings['case_status_dom'] =
         'Closed_Closed' => 'Chiuso',
         'Open_Pending Input' => 'In attesa di input',
         'Closed_Rejected' => 'Rifiutato',
-        'Closed_Duplicate' => 'Duplica',
+        'Closed_Duplicate' => 'Duplicato',
     );
 $app_list_strings['contact_portal_user_type_dom'] =
     array(
@@ -3271,7 +3271,7 @@ $app_list_strings['aor_function_list']['MAX'] = 'Massimo';
 $app_list_strings['aor_function_list']['SUM'] = 'Somma';
 $app_list_strings['aor_function_list']['AVG'] = 'Media';
 $app_list_strings['aor_total_options'][''] = '';
-$app_list_strings['aor_total_options']['COUNT'] = 'Conteggio';
+$app_list_strings['aor_total_options']['COUNT'] = 'Conta';
 $app_list_strings['aor_total_options']['SUM'] = 'Somma';
 $app_list_strings['aor_total_options']['AVG'] = 'Media';
 $app_list_strings['aor_chart_types']['bar'] = 'Grafico a Barre';
@@ -3283,11 +3283,11 @@ $app_list_strings['aor_chart_types']['grouped_bar'] = 'Grafico a Barre Raggruppa
 $app_list_strings['aor_scheduled_report_schedule_types']['monthly'] = 'Mensile';
 $app_list_strings['aor_scheduled_report_schedule_types']['weekly'] = 'Settimanale';
 $app_list_strings['aor_scheduled_report_schedule_types']['daily'] = 'Giornaliero';
-$app_list_strings['aor_scheduled_reports_status_dom']['active'] = 'Attivo';
+$app_list_strings['aor_scheduled_reports_status_dom']['active'] = 'Attiva';
 $app_list_strings['aor_scheduled_reports_status_dom']['inactive'] = 'Inattivo';
 $app_list_strings['aor_email_type_list']['Email Address'] = 'Emails';
 $app_list_strings['aor_email_type_list']['Specify User'] = 'Assegnato a';
-$app_list_strings['aor_email_type_list']['Users'] = 'Utenti';
+$app_list_strings['aor_email_type_list']['Users'] = 'Utente';
 $app_list_strings['aor_assign_options']['all'] = 'Tutti Gli Utenti';
 $app_list_strings['aor_assign_options']['role'] = 'Tutti Gli Utenti del Ruolo';
 $app_list_strings['aor_assign_options']['security_group'] = 'Tutti Gli Utenti nel Gruppo di Sicurezza';
@@ -3415,12 +3415,12 @@ $app_list_strings['aow_operator_list']['Contains'] = 'Contiene';
 $app_list_strings['aow_operator_list']['Starts_With'] = 'Inizia con';
 $app_list_strings['aow_operator_list']['Ends_With'] = 'Termina Con';
 $app_list_strings['aow_operator_list']['is_null'] = 'E´ nullo';
-$app_list_strings['aow_process_status_list']['Complete'] = 'Completa';
+$app_list_strings['aow_process_status_list']['Complete'] = 'Completo';
 $app_list_strings['aow_process_status_list']['Running'] = 'In Esecuzione';
 $app_list_strings['aow_process_status_list']['Pending'] = 'In Attesa';
 $app_list_strings['aow_process_status_list']['Failed'] = 'Fallito';
 $app_list_strings['aow_condition_operator_list']['And'] = 'E';
-$app_list_strings['aow_condition_operator_list']['OR'] = 'o';
+$app_list_strings['aow_condition_operator_list']['OR'] = 'O';
 $app_list_strings['aow_condition_type_list']['Value'] = 'Valore';
 $app_list_strings['aow_condition_type_list']['Field'] = 'Campo';
 $app_list_strings['aow_condition_type_list']['Any_Change'] = 'Ogni Modifica';
@@ -3456,7 +3456,7 @@ $app_list_strings['aow_email_type_list']['Email Address'] = 'Emails';
 $app_list_strings['aow_email_type_list']['Record Email'] = 'Email collegata';
 $app_list_strings['aow_email_type_list']['Related Field'] = 'Campo Collegato';
 $app_list_strings['aow_email_type_list']['Specify User'] = 'Assegnato a';
-$app_list_strings['aow_email_type_list']['Users'] = 'Utenti';
+$app_list_strings['aow_email_type_list']['Users'] = 'Utente';
 $app_list_strings['aow_email_to_list']['to'] = 'A';
 $app_list_strings['aow_email_to_list']['cc'] = 'Cc';
 $app_list_strings['aow_email_to_list']['bcc'] = 'Ccn';
@@ -3780,7 +3780,7 @@ $app_strings['LBL_PANEL_SOCIAL_FEED'] = 'Dettagli Social Feed';
 
 $app_strings['LBL_SUBPANEL_FILTER_LABEL'] = 'Filtro';
 
-$app_strings['LBL_COLLECTION_TYPE'] = 'Gruppo/Personale';
+$app_strings['LBL_COLLECTION_TYPE'] = 'Tipo';
 
 $app_strings['LBL_ADD_TAB'] = 'Aggiungi Tab';
 $app_strings['LBL_EDIT_TAB'] = 'Modifica Schede';
@@ -4055,7 +4055,7 @@ $app_strings['LBL_CASE_UPDATE_SUBMITTED'] = 'Aggiornamento del Caso Inviato';
 $app_strings['LBL_SUMMARY_DEFAULT'] = "{{fields.name.value}}";
 $app_strings['LBL_SUMMARY_PERSON'] = "{{fields.salutation.value}} {{fields.first_name.value}} {{fields.last_name.value}}";
 $app_strings['LBL_SUMMARY_DOCUMENT'] = "{{fields.document_name.value}}";
-$app_strings['LBL_CREATE'] = 'Crea';
+$app_strings['LBL_CREATE'] = 'Nuovo';
 $app_strings['LBL_CLEAR_FILTER'] = 'Rimuovi Filtri';
 $app_strings['LBL_QUICK_FILTERS'] = 'Filtri Rapidi';
 $app_strings['LBL_SAVED_FILTER_SAVED'] = 'Filtro salvato correttamente';
@@ -4066,14 +4066,14 @@ $app_strings['LBL_SHOW_LESS'] = 'Mostra meno';
 $app_strings['LBL_LOAD_MORE'] = 'Carica altro';
 $app_strings['LBL_EMPTY'] = '-- Empty --';
 $app_strings['LBL_OPERATOR'] = 'Operatore';
-$app_strings['LBL_START'] = 'Inizia';
+$app_strings['LBL_START'] = 'Inizio';
 $app_strings['LBL_END'] = 'Fine';
 $app_strings['LBL_LINE_ITEMS_FIELD_CONFIG'] = 'Cattiva configurazione';
 
 
 $app_strings['LBL_ACTION_SUCCESS'] = 'Azione riuscita';
 
-$app_strings['LBL_YES'] = 'Si';
+$app_strings['LBL_YES'] = 'Sì';
 $app_strings['LBL_NO'] = 'No';
 
 $app_list_strings['sort_order'] = [];
@@ -4104,7 +4104,7 @@ $app_strings['LBL_ADD_CONTACTS_TO_TARGET_LIST_SUCCESS'] = 'Contatti aggiunti cor
 $app_strings['LBL_ADD_CONTACTS_TO_TARGET_LIST_FAILED'] = 'Si è verificato un errore aggiungendo i contatti all\'elenco di destinazione.';
 $app_strings['LBL_CHANGED_TO_TEXT'] = 'modificato a';
 $app_strings['LBL_RECORD_CHANGED'] = 'Registro Aggiornato';
-$app_strings['LBL_CREATE'] = "Crea";
+$app_strings['LBL_CREATE'] = "Nuovo";
 $app_strings['LBL_USE_ADVANCED_SEARCH'] = 'Usa la Ricerca Avanzata';
 $app_strings['LBL_USE_BASIC_SEARCH'] = 'Usa la Ricerca di Base';
 $app_strings['LBL_NO_MODULE_SELECTED'] = 'Nessun modulo selezionato';
@@ -4165,7 +4165,7 @@ $app_strings['LBL_MEDIUM'] = 'Media';
 $app_strings['LBL_NORMAL'] = 'Normale';
 $app_strings['LBL_LARGE'] = 'Large';
 $app_strings['LBL_HUGE'] = 'Huge';
-$app_strings['LBL_DEFAULT'] = 'Auto-Creazione';
+$app_strings['LBL_DEFAULT'] = 'Predefinita';
 $app_strings['LBL_APPLY'] = 'Applica';
 $app_strings['LBL_INSERT_LINK_URL_DESCRIPTION'] = 'Insert URL or email:';
 $app_strings['LBL_INSERT_LINK_PLACEHOLDER'] = 'e.g.: https://www.example.com';
@@ -4245,7 +4245,7 @@ $app_strings['LBL_FRI'] = 'Venerdì';
 $app_strings['LBL_SAT'] = 'Sabato';
 $app_strings['LBL_ALL'] = 'Ogni Giorno';
 $app_strings['LBL_EVERY'] = 'Ogni';
-$app_strings['LBL_ON_THE'] = 'Al';
+$app_strings['LBL_ON_THE'] = 'On the';
 $app_strings['LBL_RANGE'] = 'a';
 $app_strings['LBL_FROM'] = 'Da';
 $app_strings['LBL_AND'] = 'e';
@@ -4253,9 +4253,9 @@ $app_strings['LBL_MINS'] = 'Min';
 $app_strings['LBL_MINUTES'] = 'minuti';
 $app_strings['LBL_HOUR'] = 'ore';
 $app_strings['LBL_HOUR_SING'] = 'ora';
-$app_strings['LBL_OFTEN'] = 'Il più spesso possibile.';
-$app_strings['LBL_MIN_MARK'] = 'minuto scelto';
-$app_strings['LBL_INBOUND_EMAIL'] = 'Posta in Entrata';
+$app_strings['LBL_OFTEN'] = 'As often as possible.';
+$app_strings['LBL_MIN_MARK'] = 'minute mark';
+$app_strings['LBL_INBOUND_EMAIL'] = 'Posta in Arrivo';
 
 $app_strings['LBL_LEGEND'] = 'Legend';
 
