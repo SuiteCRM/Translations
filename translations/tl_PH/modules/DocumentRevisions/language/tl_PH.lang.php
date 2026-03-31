@@ -62,21 +62,21 @@ $mod_strings = array(
     'LBL_FILE_EXTENSION' => 'Ang ekstensiyon ng payl',
 
     'LBL_DOC_NAME' => 'Pangalan ng dokumento:',
-    'LBL_DOC_VERSION' => 'Pagbabago:',
+    'LBL_DOC_VERSION' => 'Ang Pagbabago:',
 
     //document revisions.
     'LBL_REV_LIST_REVISION' => 'Ang pagbabago',
     'LBL_REV_LIST_ENTERED' => 'Lumikha ng Petsa',
-    'LBL_REV_LIST_CREATED' => 'Ginawa sa pamamagitan',
+    'LBL_REV_LIST_CREATED' => 'Created by',
     'LBL_REV_LIST_LOG' => 'Ang log ay baguhin',
-    'LBL_REV_LIST_FILENAME' => 'Ang Payl',
+    'LBL_REV_LIST_FILENAME' => 'Payl',
 
     'LBL_CURRENT_DOC_VERSION' => 'Ang pinakabagong pagbabago:',
     'LBL_SEARCH_FORM_TITLE' => 'Ang paghahanap ng dokumento',
     'LBL_REVISIONS' => 'Ang mga pagbabago',
 
     //error messages
-    'ERR_FILENAME' => 'Pangalan ng File',
+    'ERR_FILENAME' => 'Ang Pangalan ng File',
     'ERR_DOC_VERSION' => 'Ang bersyon ng dokumento',
     'ERR_DELETE_CONFIRM' => 'Gusto mo bang burahin ang pagbabago ng dokumentong ito?',
     'ERR_DELETE_LATEST_VERSION' => 'Ikaw ay hindi pinapayagang burahin ang pinakabagong pagbabago ng isang dokumento.',
