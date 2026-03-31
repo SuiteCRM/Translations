@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_DESCRIPTION' => 'Apraksts',
+    'LBL_DESCRIPTION' => 'Description',
     'LBL_NAME' => 'Vārds:',
     'LBL_LIST_NAME' => 'Vārds:',
-    'LBL_EDIT_BUTTON' => 'Rediģēt',
-    'LBL_REMOVE' => 'Izņemt',
-    'LBL_GRP' => 'Grupa',
-    'LBL_ORD' => 'Secība',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
+    'LBL_GRP' => 'Group',
+    'LBL_ORD' => 'Order',
     'LBL_THUMBNAIL' => 'Thumbnail',
 );
