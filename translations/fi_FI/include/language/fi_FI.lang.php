@@ -203,7 +203,7 @@ $app_list_strings = array(
         '' => '',
         'Cold Call' => 'Uusi soitto',
         'Existing Customer' => 'Vanha asiakas',
-        'Self Generated' => 'Self Generated',
+        'Self Generated' => 'Itse luotu',
         'Employee' => 'Työntekijä',
         'Partner' => 'Partner',
         'Public Relations' => 'Yleiset suhteet',
@@ -212,7 +212,7 @@ $app_list_strings = array(
         'Trade Show' => 'Messut',
         'Web Site' => 'Web-sivusto',
         'Word of mouth' => 'Suusta suuhun',
-        'Email' => 'Email',
+        'Email' => 'Sähköposti',
         'Campaign' => 'Campaign',
         'Other' => 'Other',
     ),
@@ -282,11 +282,11 @@ $app_list_strings = array(
             'Closed Lost' => '0',
         ),
     'activity_dom' => array(
-        'Call' => 'Call',
-        'Meeting' => 'Meeting',
-        'Task' => 'Task',
-        'Email' => 'Email',
-        'Note' => 'Note',
+        'Call' => 'Puhelu',
+        'Meeting' => 'Tapaaminen',
+        'Task' => 'Tehtävä',
+        'Email' => 'Sähköposti',
+        'Note' => 'Muistio',
     ),
     'salutation_dom' => array(
         '' => '',
@@ -437,13 +437,13 @@ $app_list_strings = array(
 
     // Note:  do not translate record_type_default_key
     //        it is the key for the default record_type_module value
-    'record_type_default_key' => 'Accounts',
+    'record_type_default_key' => 'Asiakkaat',
     'record_type_display' => array(
         '' => '',
-        'Accounts' => 'Account',
-        'Opportunities' => 'Opportunity',
-        'Cases' => 'Case',
-        'Leads' => 'Lead',
+        'Accounts' => 'Asiakas',
+        'Opportunities' => 'Myyntimahdollisuus',
+        'Cases' => 'Palvelupyyntö',
+        'Leads' => 'Liidi',
         'Contacts' => 'Contact', // cn (11/22/2005) added to support Emails
 
         'Bugs' => 'Bug',
@@ -452,7 +452,7 @@ $app_list_strings = array(
         'Prospects' => 'Target',
         'ProjectTask' => 'Project Task',
 
-        'Tasks' => 'Task',
+        'Tasks' => 'Tehtävä',
 
         'AOS_Contracts' => 'Sopimus',
         'AOS_Invoices' => 'Lasku',
@@ -462,22 +462,22 @@ $app_list_strings = array(
     ),
 
     'record_type_display_notes' => array(
-        'Accounts' => 'Account',
+        'Accounts' => 'Asiakas',
         'Contacts' => 'Contact',
-        'Opportunities' => 'Opportunity',
+        'Opportunities' => 'Myyntimahdollisuus',
         'Campaigns' => 'Campaign',
-        'Tasks' => 'Task',
-        'Emails' => 'Email',
+        'Tasks' => 'Tehtävä',
+        'Emails' => 'Sähköposti',
 
         'Bugs' => 'Bug',
         'Project' => 'Project',
         'ProjectTask' => 'Project Task',
         'Prospects' => 'Target',
-        'Cases' => 'Case',
-        'Leads' => 'Lead',
+        'Cases' => 'Palvelupyyntö',
+        'Leads' => 'Liidi',
 
-        'Meetings' => 'Meeting',
-        'Calls' => 'Call',
+        'Meetings' => 'Tapaaminen',
+        'Calls' => 'Puhelu',
 
         'AOS_Contracts' => 'Contract',
         'AOS_Invoices' => 'Invoice',
@@ -486,14 +486,14 @@ $app_list_strings = array(
     ),
 
     'parent_type_display' => array(
-        'Accounts' => 'Account',
+        'Accounts' => 'Asiakas',
         'Contacts' => 'Contact',
-        'Tasks' => 'Task',
-        'Opportunities' => 'Opportunity',
+        'Tasks' => 'Tehtävä',
+        'Opportunities' => 'Myyntimahdollisuus',
 
         'Bugs' => 'Bug',
-        'Cases' => 'Case',
-        'Leads' => 'Lead',
+        'Cases' => 'Palvelupyyntö',
+        'Leads' => 'Liidi',
 
         'Project' => 'Project',
         'ProjectTask' => 'Project Task',
@@ -579,13 +579,13 @@ $app_list_strings = array(
         'Internal' => 'Sisäinen',
         'Forum' => 'Foorumi',
         'Web' => 'Verkko',
-        'InboundEmail' => 'Email',
+        'InboundEmail' => 'Sähköposti',
     ),
 
     'product_category_default_key' => '',
     'product_category_dom' => array(
         '' => '',
-        'Accounts' => 'Accounts',
+        'Accounts' => 'Asiakkaat',
         'Activities' => 'Activities',
         'Bugs' => 'Bugs',
         'Calendar' => 'Calendar',
@@ -594,7 +594,7 @@ $app_list_strings = array(
         'Cases' => 'Cases',
         'Contacts' => 'Contacts',
         'Currencies' => 'Currencies',
-        'Dashboard' => 'Dashboard',
+        'Dashboard' => 'Tietopaneeli',
         'Documents' => 'Documents',
         'Emails' => 'Emails',
         'Feeds' => 'Syötteet',
@@ -628,7 +628,7 @@ $app_list_strings = array(
         '' => '',
         'Telesales' => 'Puhelinmyynti',
         'Mail' => 'Posti',
-        'Email' => 'Email',
+        'Email' => 'Sähköposti',
         'Print' => 'Tulosta',
         'Web' => 'Web',
         'Radio' => 'Radio',
@@ -720,22 +720,22 @@ $app_list_strings = array(
 
     'dom_outbound_email_auth_types' => [
         'no_auth' => 'No Auth',
-        'basic' => 'Basic Auth',
+        'basic' => 'Perustodennus',
         'oauth' => 'OAuth',
     ],
 
     'dom_external_oauth_connection_types' => [
-        'personal' => 'Personal',
+        'personal' => 'Henkilökohtainen',
         'group' => 'Group',
     ],
 
     'dom_external_oauth_provider_types' => [
-        'personal' => 'Personal',
+        'personal' => 'Henkilökohtainen',
         'group' => 'Group',
     ],
 
     'dom_outbound_email_account_types' => [
-        'user' => 'Personal',
+        'user' => 'Henkilökohtainen',
         'group' => 'Group',
         'system' => 'Järjestelmä',
         'system-override' => 'Järjestelmän Ohitus',
@@ -965,7 +965,7 @@ $app_list_strings = array(
         'Users' => 'Users',
         'Prospects' => 'Targets',
         'Leads' => 'Leads',
-        'Accounts' => 'Accounts',
+        'Accounts' => 'Asiakkaat',
     ),
     'merge_operators_dom' => array(
         'like' => 'Sisältää',
@@ -1164,13 +1164,13 @@ $app_strings = array(
     'LBL_EMAIL_ADDRESS_BOOK_ADRRESS_TYPE' => 'Vast.Ottaja/Kopio/Piilokopio',
     'LBL_EMAIL_ADDRESS_BOOK_EMAIL_ADDR' => 'Email Address',
     'LBL_EMAIL_ADDRESS_BOOK_FILTER' => 'Filter',
-    'LBL_EMAIL_ADDRESS_BOOK_NAME' => 'Name',
+    'LBL_EMAIL_ADDRESS_BOOK_NAME' => 'Nimi',
     'LBL_EMAIL_ADDRESS_BOOK_NOT_FOUND' => 'Osoitetta ei löytynyt',
     'LBL_EMAIL_ADDRESS_BOOK_SAVE_AND_ADD' => 'Tallenna ja lisää osoitekirjaan',
     'LBL_EMAIL_ADDRESS_BOOK_SELECT_TITLE' => 'Valitse vastaanottaja',
     'LBL_EMAIL_ADDRESS_BOOK_TITLE' => 'Osoitekirja',
     'LBL_EMAIL_REMOVE_SMTP_WARNING' => 'Varoitus! Yrität poistaa lähtevien tilin joka on liitetty saapuvien tiliin.  Haluatko varmasti jatkaa?',
-    'LBL_EMAIL_ADDRESSES' => 'Email',
+    'LBL_EMAIL_ADDRESSES' => 'Sähköposti',
     'LBL_EMAIL_ADDRESS_PRIMARY' => 'Email Address',
     'LBL_EMAIL_ADDRESS_OPT_IN' => 'Olet antanut markkinointihyväksynnän sähköpostiosoitteellesi: ',
     'LBL_EMAIL_ADDRESS_OPT_IN_ERR' => 'Sähköpostiosoitetta ei voitu varmentaa',
@@ -1193,7 +1193,7 @@ $app_strings = array(
     'LBL_EMAIL_CLOSE' => 'Close',
     'LBL_EMAIL_COFFEE_BREAK' => 'Tarkastetaan uusia viestejä. <br><br>Suuret sähköpostilit saattavat kestää kauan päivittää.',
 
-    'LBL_EMAIL_COMPOSE' => 'Email',
+    'LBL_EMAIL_COMPOSE' => 'Sähköposti',
     'LBL_EMAIL_COMPOSE_ERR_NO_RECIPIENTS' => 'Ole hyvä ja lisää vastaanottajat(t).',
     'LBL_EMAIL_COMPOSE_NO_BODY' => 'Viesti on tyhjä. Lähetetäänkö tästä huolimatta?',
     'LBL_EMAIL_COMPOSE_NO_SUBJECT' => 'Viestissä ei ole aihetta. Lähetetäänkö silti?',
@@ -1344,11 +1344,11 @@ $app_strings = array(
     'LBL_EMAIL_PRINT' => 'Print',
 
     'LBL_EMAIL_QC_BUGS' => 'Bug',
-    'LBL_EMAIL_QC_CASES' => 'Case',
-    'LBL_EMAIL_QC_LEADS' => 'Lead',
+    'LBL_EMAIL_QC_CASES' => 'Palvelupyyntö',
+    'LBL_EMAIL_QC_LEADS' => 'Liidi',
     'LBL_EMAIL_QC_CONTACTS' => 'Contact',
-    'LBL_EMAIL_QC_TASKS' => 'Task',
-    'LBL_EMAIL_QC_OPPORTUNITIES' => 'Opportunity',
+    'LBL_EMAIL_QC_TASKS' => 'Tehtävä',
+    'LBL_EMAIL_QC_OPPORTUNITIES' => 'Myyntimahdollisuus',
     'LBL_EMAIL_QUICK_CREATE' => 'Luo',
 
     'LBL_EMAIL_REBUILDING_FOLDERS' => 'Luodaan kansioita',
@@ -1493,8 +1493,8 @@ $app_strings = array(
     'ERR_DB_FAIL' => 'Tietokantavirhe. Tarkista yksityiskohdat suitecrm.log tiedostosta.',
     'ERR_DB_VERSION' => 'SuiteCRM {0} tiedostoja voi käyttää ainoastaan SuiteCRM {1} tietokannan kanssa.',
 
-    'LBL_ACCOUNT' => 'Account',
-    'LBL_ACCOUNTS' => 'Accounts',
+    'LBL_ACCOUNT' => 'Asiakas',
+    'LBL_ACCOUNTS' => 'Asiakkaat',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_ACCUMULATED_HISTORY_BUTTON_KEY' => 'H',
     'LBL_ACCUMULATED_HISTORY_BUTTON_LABEL' => 'Katso yhteenveto',
@@ -1520,7 +1520,7 @@ $app_strings = array(
     'LBL_CALLS' => 'Calls',
     'LBL_CAMPAIGNS_SEND_QUEUED' => 'Lähetä jonoon asetetut sähköpostikampanjat',
     'LBL_SUBMIT_BUTTON_LABEL' => 'Lähetä',
-    'LBL_CASE' => 'Case',
+    'LBL_CASE' => 'Palvelupyyntö',
     'LBL_CASES' => 'Cases',
     'LBL_CHANGE_PASSWORD' => 'Vaihda salasana',
     'LBL_CHARSET' => 'UTF-8',
@@ -1581,7 +1581,7 @@ $app_strings = array(
     'LBL_FAVORITES_FILTER' => 'My Favorites:',
     'LBL_GO_BUTTON_LABEL' => 'Mene',
     'LBL_HIDE' => 'Piilota',
-    'LBL_ID' => 'ID',
+    'LBL_ID' => 'Tunnus',
     'LBL_IMPORT' => 'Tuo',
     'LBL_IMPORT_STARTED' => 'Tuonti aloitettu: ',
     'LBL_LAST_VIEWED' => 'Viimeksi katsottu',
@@ -1601,8 +1601,8 @@ $app_strings = array(
     'LBL_LIST_CONTACT_NAME' => 'Kontaktin nimi',
     'LBL_LIST_CONTACT_ROLE' => 'Kontaktin rooli',
     'LBL_LIST_DATE_ENTERED' => 'Date Created',
-    'LBL_LIST_EMAIL' => 'Email',
-    'LBL_LIST_NAME' => 'Name',
+    'LBL_LIST_EMAIL' => 'Sähköposti',
+    'LBL_LIST_NAME' => 'Nimi',
     'LBL_LIST_OF' => 'sta',
     'LBL_LIST_PHONE' => 'Phone',
     'LBL_LIST_RELATED_TO' => 'Liittyen',
@@ -1635,7 +1635,7 @@ $app_strings = array(
     'LBL_MODIFIED_NAME' => 'Modified By Name',
     'LBL_MORE' => 'lisää',
     'LBL_MY_ACCOUNT' => 'Omat asetukset',
-    'LBL_NAME' => 'Name',
+    'LBL_NAME' => 'Nimi',
     'LBL_NEW_BUTTON_KEY' => 'N',
     'LBL_NEW_BUTTON_LABEL' => 'Luo uusi',
     'LBL_NEW_BUTTON_TITLE' => 'Create',
@@ -1644,7 +1644,7 @@ $app_strings = array(
     'LBL_NOTES' => 'Notes',
     'LBL_OPPORTUNITIES' => 'Opportunities',
     'LBL_OPPORTUNITY_NAME' => 'Myyntimahdollisuus',
-    'LBL_OPPORTUNITY' => 'Opportunity',
+    'LBL_OPPORTUNITY' => 'Myyntimahdollisuus',
     'LBL_OR' => 'TAI',
     'LBL_PANEL_OVERVIEW' => 'Tietoja asiakkaasta',
     'LBL_PANEL_ASSIGNMENT' => 'MUUT',
@@ -1676,7 +1676,7 @@ $app_strings = array(
     'LBL_EMAIL_DONE_BUTTON_LABEL' => 'Done',
     'LBL_FULL_FORM_BUTTON_KEY' => 'L',
     'LBL_FULL_FORM_BUTTON_LABEL' => 'Koko lomake',
-    'LBL_FULL_FORM_BUTTON_TITLE' => 'Full Form',
+    'LBL_FULL_FORM_BUTTON_TITLE' => 'Koko lomake',
     'LBL_SAVE_NEW_BUTTON_LABEL' => 'Tallenna ja luo uusi',
     'LBL_SAVE_NEW_BUTTON_TITLE' => 'Save & Create New',
     'LBL_SAVE_OBJECT' => 'Tallenna {0}',
@@ -1704,16 +1704,16 @@ $app_strings = array(
     // Clear buttons take up too many keys, lets default the relate and collection ones to be empty
     'LBL_ACCESSKEY_CLEAR_RELATE_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_RELATE_TITLE' => 'Tyhjennä valinta',
-    'LBL_ACCESSKEY_CLEAR_RELATE_LABEL' => 'Clear Selection',
+    'LBL_ACCESSKEY_CLEAR_RELATE_LABEL' => 'Tyhjennä valinta',
     'LBL_ACCESSKEY_CLEAR_COLLECTION_KEY' => ' ',
-    'LBL_ACCESSKEY_CLEAR_COLLECTION_TITLE' => 'Clear Selection',
-    'LBL_ACCESSKEY_CLEAR_COLLECTION_LABEL' => 'Clear Selection',
+    'LBL_ACCESSKEY_CLEAR_COLLECTION_TITLE' => 'Tyhjennä valinta',
+    'LBL_ACCESSKEY_CLEAR_COLLECTION_LABEL' => 'Tyhjennä valinta',
     'LBL_ACCESSKEY_SELECT_FILE_KEY' => 'F',
     'LBL_ACCESSKEY_SELECT_FILE_TITLE' => 'Valitse tiedosto',
     'LBL_ACCESSKEY_SELECT_FILE_LABEL' => 'Select File',
     'LBL_ACCESSKEY_CLEAR_FILE_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_FILE_TITLE' => 'Tyhjennä Tiedosto',
-    'LBL_ACCESSKEY_CLEAR_FILE_LABEL' => 'Clear File',
+    'LBL_ACCESSKEY_CLEAR_FILE_LABEL' => 'Tyhjennä tiedosto',
 
     'LBL_ACCESSKEY_SELECT_USERS_KEY' => 'U',
     'LBL_ACCESSKEY_SELECT_USERS_TITLE' => 'Select User',
@@ -1726,25 +1726,25 @@ $app_strings = array(
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_LABEL' => 'Select Account',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_TITLE' => 'Tyhjennä tili',
-    'LBL_ACCESSKEY_CLEAR_ACCOUNTS_LABEL' => 'Clear Account',
+    'LBL_ACCESSKEY_CLEAR_ACCOUNTS_LABEL' => 'Tyhjennä tili',
     'LBL_ACCESSKEY_SELECT_CAMPAIGNS_KEY' => 'M',
     'LBL_ACCESSKEY_SELECT_CAMPAIGNS_TITLE' => 'Valitse kampanja',
-    'LBL_ACCESSKEY_SELECT_CAMPAIGNS_LABEL' => 'Select Campaign',
+    'LBL_ACCESSKEY_SELECT_CAMPAIGNS_LABEL' => 'Valitse kampanja',
     'LBL_ACCESSKEY_CLEAR_CAMPAIGNS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_CAMPAIGNS_TITLE' => 'Tyhjennä kampanja',
-    'LBL_ACCESSKEY_CLEAR_CAMPAIGNS_LABEL' => 'Clear Campaign',
+    'LBL_ACCESSKEY_CLEAR_CAMPAIGNS_LABEL' => 'Tyhjennä kampanja',
     'LBL_ACCESSKEY_SELECT_CONTACTS_KEY' => 'C',
     'LBL_ACCESSKEY_SELECT_CONTACTS_TITLE' => 'Select Contact',
     'LBL_ACCESSKEY_SELECT_CONTACTS_LABEL' => 'Select Contact',
     'LBL_ACCESSKEY_CLEAR_CONTACTS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_CONTACTS_TITLE' => 'Tyhjennä yhteystieto',
-    'LBL_ACCESSKEY_CLEAR_CONTACTS_LABEL' => 'Clear Contact',
+    'LBL_ACCESSKEY_CLEAR_CONTACTS_LABEL' => 'Tyhjennä yhteystieto',
     'LBL_ACCESSKEY_SELECT_TEAMSET_KEY' => 'Z',
     'LBL_ACCESSKEY_SELECT_TEAMSET_TITLE' => 'Valitse tiimi',
-    'LBL_ACCESSKEY_SELECT_TEAMSET_LABEL' => 'Select Team',
+    'LBL_ACCESSKEY_SELECT_TEAMSET_LABEL' => 'Valitse tiimi',
     'LBL_ACCESSKEY_CLEAR_TEAMS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_TEAMS_TITLE' => 'Tyhjennä tiimi',
-    'LBL_ACCESSKEY_CLEAR_TEAMS_LABEL' => 'Clear Team',
+    'LBL_ACCESSKEY_CLEAR_TEAMS_LABEL' => 'Tyhjennä tiimi',
     'LBL_SERVER_RESPONSE_RESOURCES' => 'Sivun rakentamiseen käytetyt resurssit (queries, files)',
     'LBL_SERVER_RESPONSE_TIME_SECONDS' => 'sekuntia.',
     'LBL_SERVER_RESPONSE_TIME' => 'Palvelimen vasteaika:',
@@ -1801,8 +1801,8 @@ $app_strings = array(
     'LNK_ABOUT' => 'Tietoja',
     'LNK_ADVANCED_FILTER' => 'Tarkempi suodin',
     'LNK_BASIC_FILTER' => 'Pikasuodin',
-    'LBL_ADVANCED_SEARCH' => 'Advanced Filter',
-    'LBL_QUICK_FILTER' => 'Quick Filter',
+    'LBL_ADVANCED_SEARCH' => 'Tarkempi suodin',
+    'LBL_QUICK_FILTER' => 'Pikasuodin',
     'LNK_SEARCH_NONFTS_VIEW_ALL' => 'Näytä kaikki',
     'LNK_CLOSE' => 'Close',
     'LBL_MODIFY_CURRENT_FILTER' => 'Muokkaa nykyistä suodinta',
@@ -1852,7 +1852,7 @@ $app_strings = array(
     'LBL_MANAGE_SUBSCRIPTIONS' => 'Hallitse tilauksia',
     'LBL_MANAGE_SUBSCRIPTIONS_FOR' => 'Hallitse tilauksiasi ',
     // Ajax status strings
-    'LBL_LOADING' => 'Loading...',
+    'LBL_LOADING' => 'Ladataan...',
     'LBL_SEARCHING' => 'Haetaan...',
     'LBL_SAVING_LAYOUT' => 'Tallennetaan asetelmaa...',
     'LBL_SAVED_LAYOUT' => 'Layout tallennettu.',
@@ -1881,8 +1881,8 @@ $app_strings = array(
     'ERROR_JS_ALERT_TIMEOUT_MSG_1' => 'Istunto vanhentuu 2 minuutin kuluttua. Ole hyvä ja tallenna työsi.',
     'ERROR_JS_ALERT_TIMEOUT_MSG_2' => 'Istuntosi on vanhentunut.',
     'MSG_JS_ALERT_MTG_REMINDER_AGENDA' => "\nAgenda: ",
-    'MSG_JS_ALERT_MTG_REMINDER_MEETING' => 'Meeting',
-    'MSG_JS_ALERT_MTG_REMINDER_CALL' => 'Call',
+    'MSG_JS_ALERT_MTG_REMINDER_MEETING' => 'Tapaaminen',
+    'MSG_JS_ALERT_MTG_REMINDER_CALL' => 'Puhelu',
     'MSG_JS_ALERT_MTG_REMINDER_TIME' => 'Aika: ',
     'MSG_JS_ALERT_MTG_REMINDER_LOC' => 'Paikka: ',
     'MSG_JS_ALERT_MTG_REMINDER_DESC' => 'Kuvaus: ',
@@ -1904,7 +1904,7 @@ $app_strings = array(
     // contextMenu strings
     'LBL_ADD_TO_FAVORITES' => 'Lisää omiin suosikkeihin',
     'LBL_CREATE_CONTACT' => 'Luo kontakti',
-    'LBL_CREATE_CASE' => 'Create Case',
+    'LBL_CREATE_CASE' => 'Luo palvelupyyntö',
     'LBL_CREATE_NOTE' => 'Luo muistio',
     'LBL_CREATE_OPPORTUNITY' => 'Luo myyntimahdollisuus',
     'LBL_SCHEDULE_CALL' => 'Kirjaa puhelu',
@@ -1940,7 +1940,7 @@ $app_strings = array(
     'LBL_DASHLET_CONFIGURE_GENERAL' => 'General',
     'LBL_DASHLET_CONFIGURE_FILTERS' => 'Suodattimet',
     'LBL_DASHLET_CONFIGURE_MY_ITEMS_ONLY' => 'Vain omat',
-    'LBL_DASHLET_CONFIGURE_TITLE' => 'Title',
+    'LBL_DASHLET_CONFIGURE_TITLE' => 'Titteli',
     'LBL_DASHLET_CONFIGURE_DISPLAY_ROWS' => 'Näytä rivit',
 
     // MySugar status strings
@@ -2032,7 +2032,7 @@ $app_strings = array(
     'LBL_FASTCGI_LOGGING' => 'Saavuttaaksesi parhaimman käyttökokemuksen käyttämällä IIS/FastCGI sapi, aseta fastcgi.logging arvoon 0 php.ini tiedostossa.',
 
     //Collection Field
-    'LBL_COLLECTION_NAME' => 'Name',
+    'LBL_COLLECTION_NAME' => 'Nimi',
     'LBL_COLLECTION_PRIMARY' => 'Primary',
     'ERROR_MISSING_COLLECTION_SELECTION' => 'Pakollinen kenttä on tyhjä',
 
@@ -2199,7 +2199,7 @@ $app_strings = array(
     'LBL_CONFIRM_APPLY_EMAIL_TEMPLATE_BODY' => 'Tämä toiminto korvaa sähköpostin sisällön ja otsikkokentän, haluatko jatkaa?',
 
     'LBL_CONFIRM_OPT_IN_TITLE' => 'Vahvistettu hyväksyntä',
-    'LBL_OPT_IN_TITLE' => 'Opt In',
+    'LBL_OPT_IN_TITLE' => 'Hyväksyntä',
     'LBL_CONFIRM_OPT_IN_DATE' => 'Vahvistetun hyväksynnän pvm.',
     'LBL_CONFIRM_OPT_IN_SENT_DATE' => 'Hyväksynnän vahvistavan viestin lähetyspvm',
     'LBL_CONFIRM_OPT_IN_FAIL_DATE' => 'Hyväksynnän vahvistavan viestin epäonnistumisen pvm',
@@ -2238,7 +2238,7 @@ $app_list_strings['project_priority_options'] = array(
 //GDPR lawful basis options
 $app_list_strings['lawful_basis_dom'] = array(
     '' => '',
-    'consent' => 'Consent',
+    'consent' => 'Suostumus',
     'contract' => 'Contract',
     'legal_obligation' => 'Oikeudellinen velvoite',
     'protection_of_interest' => 'Edun suojaus',
@@ -2254,7 +2254,7 @@ $app_list_strings['lawful_basis_source_dom'] = array(
     'website' => 'Www',
     'phone' => 'Phone',
     'given_to_user' => 'Suoraan käyttäjälle annettu',
-    'email' => 'Email',
+    'email' => 'Sähköposti',
     'third_party' => 'Kolmas osapuoli',
 );
 //End GDPR lawful basis source options
@@ -2423,7 +2423,7 @@ $app_list_strings['countries_dom'] = array(
     'NORFOLK ISLAND' => 'NORFOLKSAARI',
     'NORWAY' => 'NORJA',
     'OMAN' => 'OMAN',
-    'OTHER' => 'OTHER',
+    'OTHER' => 'MUUT',
     'PACIFIC ISLAND' => 'TYYNENMERENSAARET',
     'PAKISTAN' => 'PAKISTAN',
     'PANAMA' => 'PANAMA',
@@ -2933,7 +2933,7 @@ $app_list_strings['token_status'] = array(
 $app_list_strings ['emailTemplates_type_list'] = array(
     '' => '',
     'campaign' => 'Campaign',
-    'email' => 'Email',
+    'email' => 'Sähköposti',
     'event' => 'Event',
 );
 
@@ -2945,7 +2945,7 @@ $app_list_strings ['emailTemplates_type_list_campaigns'] = array(
 $app_list_strings ['emailTemplates_type_list_no_workflow'] = array(
     '' => '',
     'campaign' => 'Campaign',
-    'email' => 'Email',
+    'email' => 'Sähköposti',
     'event' => 'Event',
     'system' => 'System',
 );
@@ -3089,7 +3089,7 @@ $app_list_strings['aor_scheduled_report_schedule_types']['weekly'] = 'Weekly';
 $app_list_strings['aor_scheduled_report_schedule_types']['daily'] = 'Daily';
 $app_list_strings['aor_scheduled_reports_status_dom']['active'] = 'Active';
 $app_list_strings['aor_scheduled_reports_status_dom']['inactive'] = 'Inactive';
-$app_list_strings['aor_email_type_list']['Email Address'] = 'Email';
+$app_list_strings['aor_email_type_list']['Email Address'] = 'Sähköposti';
 $app_list_strings['aor_email_type_list']['Specify User'] = 'User';
 $app_list_strings['aor_email_type_list']['Users'] = 'Users';
 $app_list_strings['aor_assign_options']['all'] = 'KAIKKI käyttäjät';
@@ -3190,7 +3190,7 @@ $app_list_strings['product_quote_parent_type_dom']['AOS_Contracts'] = 'Contracts
 $app_list_strings['pdf_template_type_dom']['AOS_Quotes'] = 'Quotes';
 $app_list_strings['pdf_template_type_dom']['AOS_Invoices'] = 'Invoices';
 $app_list_strings['pdf_template_type_dom']['AOS_Contracts'] = 'Contracts';
-$app_list_strings['pdf_template_type_dom']['Accounts'] = 'Accounts';
+$app_list_strings['pdf_template_type_dom']['Accounts'] = 'Asiakkaat';
 $app_list_strings['pdf_template_type_dom']['Contacts'] = 'Contacts';
 $app_list_strings['pdf_template_type_dom']['Leads'] = 'Leads';
 $app_list_strings['pdf_template_sample_dom'][''] = '';
@@ -3256,7 +3256,7 @@ $app_list_strings['aow_date_operator']['minus'] = '-';
 $app_list_strings['aow_assign_options']['all'] = 'ALL Users';
 $app_list_strings['aow_assign_options']['role'] = 'ALL Users in Role';
 $app_list_strings['aow_assign_options']['security_group'] = 'ALL Users in Security Group';
-$app_list_strings['aow_email_type_list']['Email Address'] = 'Email';
+$app_list_strings['aow_email_type_list']['Email Address'] = 'Sähköposti';
 $app_list_strings['aow_email_type_list']['Record Email'] = 'Tietueen sähköposti';
 $app_list_strings['aow_email_type_list']['Related Field'] = 'Liittyvä kenttä';
 $app_list_strings['aow_email_type_list']['Specify User'] = 'User';
@@ -3300,7 +3300,7 @@ $app_list_strings['moduleList']['jjwp_Partners'] = 'JJWP Partners';
 $app_list_strings['map_unit_type_list']['mi'] = 'Mailit';
 $app_list_strings['map_unit_type_list']['km'] = 'Kilometrit';
 
-$app_list_strings['map_module_type_list']['Accounts'] = 'Accounts';
+$app_list_strings['map_module_type_list']['Accounts'] = 'Asiakkaat';
 $app_list_strings['map_module_type_list']['Contacts'] = 'Contacts';
 $app_list_strings['map_module_type_list']['Cases'] = 'Cases';
 $app_list_strings['map_module_type_list']['Leads'] = 'Leads';
@@ -3309,12 +3309,12 @@ $app_list_strings['map_module_type_list']['Opportunities'] = 'Opportunities';
 $app_list_strings['map_module_type_list']['Project'] = 'Projects';
 $app_list_strings['map_module_type_list']['Prospects'] = 'Targets';
 
-$app_list_strings['map_relate_type_list']['Accounts'] = 'Account';
+$app_list_strings['map_relate_type_list']['Accounts'] = 'Asiakas';
 $app_list_strings['map_relate_type_list']['Contacts'] = 'Contact';
-$app_list_strings['map_relate_type_list']['Cases'] = 'Case';
-$app_list_strings['map_relate_type_list']['Leads'] = 'Lead';
-$app_list_strings['map_relate_type_list']['Meetings'] = 'Meeting';
-$app_list_strings['map_relate_type_list']['Opportunities'] = 'Opportunity';
+$app_list_strings['map_relate_type_list']['Cases'] = 'Palvelupyyntö';
+$app_list_strings['map_relate_type_list']['Leads'] = 'Liidi';
+$app_list_strings['map_relate_type_list']['Meetings'] = 'Tapaaminen';
+$app_list_strings['map_relate_type_list']['Opportunities'] = 'Myyntimahdollisuus';
 $app_list_strings['map_relate_type_list']['Project'] = 'Project';
 $app_list_strings['map_relate_type_list']['Prospects'] = 'Target';
 
@@ -3359,7 +3359,7 @@ $app_list_strings['marker_image_list']['coffee'] = 'Kahvi';
 $app_list_strings['marker_image_list']['community_centre'] = 'Monitoimitalo';
 $app_list_strings['marker_image_list']['company'] = 'Yritys';
 $app_list_strings['marker_image_list']['conference'] = 'Conference';
-$app_list_strings['marker_image_list']['construction'] = 'Construction';
+$app_list_strings['marker_image_list']['construction'] = 'Rakennustyömaa';
 $app_list_strings['marker_image_list']['convenience'] = 'Lähikauppa';
 $app_list_strings['marker_image_list']['court'] = 'Tuomioistuin';
 $app_list_strings['marker_image_list']['cruise'] = 'Risteily';
@@ -3416,7 +3416,7 @@ $app_list_strings['marker_image_list']['laundromat'] = 'Pesula';
 $app_list_strings['marker_image_list']['left'] = 'Vasen';
 $app_list_strings['marker_image_list']['left_then_down'] = 'Vasen, sitten alas';
 $app_list_strings['marker_image_list']['left_then_up'] = 'Vasen, sitten ylös';
-$app_list_strings['marker_image_list']['library'] = 'Library';
+$app_list_strings['marker_image_list']['library'] = 'Kirjasto';
 $app_list_strings['marker_image_list']['lighthouse'] = 'Majakka';
 $app_list_strings['marker_image_list']['liquor'] = 'Viina';
 $app_list_strings['marker_image_list']['lock'] = 'Lukko';
@@ -3503,7 +3503,7 @@ $app_list_strings['marker_image_list']['steam_train'] = 'Höyryjuna';
 $app_list_strings['marker_image_list']['stop'] = 'Seis';
 $app_list_strings['marker_image_list']['stoplight'] = 'Liikennevalo';
 $app_list_strings['marker_image_list']['subway'] = 'Metro';
-$app_list_strings['marker_image_list']['sun'] = 'Sun';
+$app_list_strings['marker_image_list']['sun'] = 'Aurinko';
 $app_list_strings['marker_image_list']['sunday'] = 'Sunday';
 $app_list_strings['marker_image_list']['supermarket'] = 'Supermarketti';
 $app_list_strings['marker_image_list']['synagogue'] = 'Synagoga';
@@ -3596,7 +3596,7 @@ $app_strings['LBL_DELETE_DASHBOARD2'] = 'kojelaudan?';
 $app_strings['LBL_ADD_DASHBOARD_PAGE'] = 'Lisää kojelaudan sivu';
 $app_strings['LBL_DELETE_DASHBOARD_PAGE'] = 'Poista nykyinen kojelaudan sivu';
 $app_strings['LBL_RENAME_DASHBOARD_PAGE'] = 'Nimeä kojelaudan sivu uudelleen';
-$app_strings['LBL_SUITE_DASHBOARD_ACTIONS'] = 'ACTIONS';
+$app_strings['LBL_SUITE_DASHBOARD_ACTIONS'] = 'TOIMINNOT';
 
 $app_list_strings['collection_temp_list'] = array(
     'Tasks' => 'Tasks',
@@ -3613,7 +3613,7 @@ $app_strings['LBL_LOADING_ERROR_INLINE_EDITING'] = "Kentän lataamisessa tapahtu
 //SuiteSpots
 $app_list_strings['spots_areas'] = array(
     'getSalesSpotsData' => 'Sales',
-    'getAccountsSpotsData' => 'Accounts',
+    'getAccountsSpotsData' => 'Asiakkaat',
     'getLeadsSpotsData' => 'Leads',
     'getServiceSpotsData' => 'Service',
     'getMarketingSpotsData' => 'Marketing',
@@ -3671,7 +3671,7 @@ $app_list_strings['moduleList']['SurveyQuestionOptions'] = 'Kyselyn asetukset';
 $app_list_strings['survey_status_list']['Draft'] = 'Draft';
 $app_list_strings['survey_status_list']['Public'] = 'Public';
 $app_list_strings['survey_status_list']['Closed'] = 'Closed';
-$app_list_strings['surveys_question_type']['Text'] = 'Text';
+$app_list_strings['surveys_question_type']['Text'] = 'Teksti';
 $app_list_strings['surveys_question_type']['Textbox'] = 'Tekstilaatikko';
 $app_list_strings['surveys_question_type']['Checkbox'] = 'Valintaruutu';
 $app_list_strings['surveys_question_type']['Radio'] = 'Radio';
@@ -3688,10 +3688,10 @@ $app_list_strings['surveys_matrix_options'][2] = 'Tyytymätön';
 
 $app_list_strings['moduleList']['CalendarAccount'] = 'Calendar Accounts';
 
-$app_strings['LBL_OPT_IN_PENDING_EMAIL_NOT_SENT'] = 'Pending Confirm opt in, Confirm opt in not sent';
+$app_strings['LBL_OPT_IN_PENDING_EMAIL_NOT_SENT'] = 'Odottaa hyväksynnän vahvistusta; vahvistussähköpostia ei ole lähetetty';
 $app_strings['LBL_OPT_IN_PENDING_EMAIL_FAILED'] = 'Vahvista valinta epäonnistui sähköpostin lähetyksessä';
-$app_strings['LBL_OPT_IN_PENDING_EMAIL_SENT'] = 'Pending Confirm opt in, Confirm opt in sent';
-$app_strings['LBL_OPT_IN'] = 'Opted in';
+$app_strings['LBL_OPT_IN_PENDING_EMAIL_SENT'] = 'Odottaa hyväksynnän vahvistusta; vahvistussähköposti on lähetetty';
+$app_strings['LBL_OPT_IN'] = 'Hyväksyntä annettu';
 $app_strings['LBL_OPT_IN_CONFIRMED'] = 'Vahvistettu asetus';
 $app_strings['LBL_OPT_IN_OPT_OUT'] = 'Opted Out';
 $app_strings['LBL_OPT_IN_INVALID'] = 'Invalid';
@@ -3699,14 +3699,14 @@ $app_strings['LBL_OPT_IN_INVALID'] = 'Invalid';
 /** @see SugarEmailAddress */
 $app_list_strings['email_settings_opt_in_dom'] = array(
     'not-opt-in' => 'Disabled',
-    'opt-in' => 'Opt In',
-    'confirmed-opt-in' => 'Confirmed Opt In'
+    'opt-in' => 'Hyväksyntä',
+    'confirmed-opt-in' => 'Vahvistettu hyväksyntä'
 );
 
 $app_list_strings['email_confirmed_opt_in_dom'] = array(
     'not-opt-in' => 'Ei vahvistettu',
-    'opt-in' => 'Opt In',
-    'confirmed-opt-in' => 'Confirmed Opt In'
+    'opt-in' => 'Hyväksyntä',
+    'confirmed-opt-in' => 'Vahvistettu hyväksyntä'
 );
 
 $app_strings['RESPONSE_SEND_CONFIRM_OPT_IN_EMAIL'] = 'Sähköpostin vahvistusvalinnat on lisätty sähköpostijonoon %s -sähköpostiosoitteen tai -osoitteiden osalta. ';
@@ -3744,7 +3744,7 @@ $app_list_strings['search_controllers'] = [
 
 // Calendar Account Types dropdown
 $app_list_strings['calendar_account_types'] = [
-    'personal' => 'Personal',
+    'personal' => 'Henkilökohtainen',
     'shared' => 'Jaettu',
     'group' => 'Group',
 ];
