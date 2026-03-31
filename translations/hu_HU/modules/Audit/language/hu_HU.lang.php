@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_FIELD_NAME' => 'Mező',
+    'LBL_FIELD_NAME' => 'Field',
     'LBL_OLD_NAME' => 'Régi érték',
     'LBL_NEW_VALUE' => 'Új érték',
     'LBL_CREATED_BY' => 'Módosította',
     'LBL_LIST_DATE' => 'Dátum módosítása',
     'LBL_AUDITED_FIELDS' => 'A modulban auditált mezők: ',
-    'LBL_CHANGE_LOG' => 'Változtatási napló',
+    'LBL_CHANGE_LOG' => 'Change Log',
 );
