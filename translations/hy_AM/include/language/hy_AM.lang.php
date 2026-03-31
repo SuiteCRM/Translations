@@ -51,7 +51,7 @@ $app_list_strings = array(
     'moduleList' => array(
         'Home' => 'Գլխավոր',
         'ResourceCalendar' => 'Resource Calendar',
-        'Contacts' => 'Կոնտակտներ',
+        'Contacts' => 'Contacts',
         'Accounts' => 'Հաշիվներ',
         'Alerts' => 'Alerts',
         'Opportunities' => 'Գործարքներ',
@@ -67,18 +67,18 @@ $app_list_strings = array(
         'Calendar' => 'Օրացույց',
         'Leads' => 'Պոտենցիալ կլիենտներ (առաջնորդներ)',
         'Currencies' => 'Արտարժույթ',
-        'Activities' => 'Գործունեություն',
+        'Activities' => 'Activities',
         'Bugs' => 'Վրիպումներ',
         'Feeds' => 'RSS հոսք',
         'iFrames' => 'Իմ կայքերը',
         'TimePeriods' => 'Ժամանակահատված',
         'ContractTypes' => 'Պայմանագրի տեսակները',
         'Schedulers' => 'Պլանավորող',
-        'Project' => 'Նախագծեր',
+        'Project' => 'Projects',
         'ProjectTask' => 'Նախագծի խնդիրներ',
         'Campaigns' => 'Կամպանիաներ',
         'CampaignLog' => 'Մարքեթ․ արշավի գրանցամատյան',
-        'Documents' => 'Փաստաթղթեր',
+        'Documents' => 'Documents',
         'DocumentRevisions' => 'Փաստաթղթի տարբերակներ',
         'Connectors' => 'Միակցիչ',
         'Roles' => 'Դերերը',
@@ -86,8 +86,8 @@ $app_list_strings = array(
         'Sync' => 'Սինքրոնացում',
         'Users' => 'Օգտագործողներ',
         'Employees' => 'Աշխատակիցներ',
-        'Administration' => 'Ադմինիստրացիա',
-        'ACLRoles' => 'Դերերը',
+        'Administration' => 'Administration',
+        'ACLRoles' => 'Roles',
         'InboundEmail' => 'Մտից էլ․նամակ',
         'Releases' => 'Թողարկումներ',
         'Prospects' => 'Նպատակակետեր',
@@ -100,7 +100,7 @@ $app_list_strings = array(
         'Trackers' => 'Trackers',
         'TrackerSessions' => 'Tracker սեսիաները',
         'TrackerQueries' => 'Tracker հարցումներ',
-        'FAQ' => 'ՀՏՀ',
+        'FAQ' => 'FAQ',
         'Newsletters' => 'Տեղեկագրեր',
         'SugarFeed' => 'SuiteCRM լրահոս',
         'SugarFavorites' => 'SuiteCRM նախընտրելին',
@@ -113,7 +113,7 @@ $app_list_strings = array(
     ),
 
     'moduleListSingular' => array(
-        'Home' => 'Գլխավոր',
+        'Home' => 'Home',
         'Dashboard' => 'Դիագրամներ',
         'Contacts' => 'Կոնտակտ',
         'Accounts' => 'Հաշիվ',
@@ -125,22 +125,22 @@ $app_list_strings = array(
         'EmailTemplates' => 'Էլ-փոստի ձևանմուշ',
         'Meetings' => 'Հանդիպում',
         'Tasks' => 'Առաջադրանք',
-        'Calendar' => 'Օրացույց',
+        'Calendar' => 'Calendar',
         'Leads' => 'Պոտենցիալ կլիենտներ (առաջնորդներ)',
         'Activities' => 'Գործունեություն',
         'Bugs' => 'Վրիպում',
         'KBDocuments' => 'KBՓաստաթուղթ',
-        'Feeds' => 'RSS հոսք',
-        'iFrames' => 'Իմ կայքերը',
+        'Feeds' => 'RSS',
+        'iFrames' => 'My Sites',
         'TimePeriods' => 'Ժամանակահատված',
         'Project' => 'Նախագիծ',
         'ProjectTask' => 'Նախագծի խնդիր',
         'Prospects' => 'Նպատակակետ',
         'Campaigns' => 'Մարքեթինգային արշավ',
-        'Documents' => 'Փաստաթուղթ',
-        'Sync' => 'Սինքրոնացում',
-        'Users' => 'Օգտագործող',
-        'SugarFavorites' => 'SuiteCRM նախընտրելին',
+        'Documents' => 'Document',
+        'Sync' => 'Sync',
+        'Users' => 'User',
+        'SugarFavorites' => 'SuiteCRM Favorites',
 
     ),
 
@@ -153,16 +153,16 @@ $app_list_strings = array(
     //e.g. en français 'Analyst'=>'Analyste',
     'account_type_dom' => array(
         '' => '',
-        'Analyst' => 'Վերլուծաբան',
-        'Competitor' => 'Մրցակից',
-        'Customer' => 'Հաճախորդ',
-        'Integrator' => 'Ինտեգրատոր',
-        'Investor' => 'Ներդնող',
-        'Partner' => 'Գործընկեր',
-        'Press' => 'Մամուլ',
-        'Prospect' => 'Փաստեր',
-        'Reseller' => 'Վերավաճառող',
-        'Other' => 'Այլ',
+        'Analyst' => 'Analyst',
+        'Competitor' => 'Competitor',
+        'Customer' => 'Customer',
+        'Integrator' => 'Integrator',
+        'Investor' => 'Investor',
+        'Partner' => 'Partner',
+        'Press' => 'Press',
+        'Prospect' => 'Prospect',
+        'Reseller' => 'Reseller',
+        'Other' => 'Other',
     ),
     //e.g. en español 'Apparel'=>'Ropa',
     'industry_dom' => array(
@@ -196,7 +196,7 @@ $app_list_strings = array(
         'Telecommunications' => 'Հեռահաղորդակցություն',
         'Transportation' => 'Փոխադրում',
         'Utilities' => 'Կոմունալ ծառայություններ',
-        'Other' => 'Այլ',
+        'Other' => 'Other',
     ),
     'lead_source_default_key' => 'Self Generated',
     'lead_source_dom' => array(
@@ -205,21 +205,21 @@ $app_list_strings = array(
         'Existing Customer' => 'Առկա հաճախորդ',
         'Self Generated' => 'Self Generated',
         'Employee' => 'Աշխատակից',
-        'Partner' => 'Գործընկեր',
+        'Partner' => 'Partner',
         'Public Relations' => 'Հասարակական կապեր',
         'Direct Mail' => 'Անմիջական նամակ',
         'Conference' => 'Կոնֆերանս',
         'Trade Show' => 'Առևտրի ցուցադրում',
         'Web Site' => 'Վեբ կայք',
         'Word of mouth' => 'Խոսակցություն',
-        'Email' => 'Էլ-փոստ',
-        'Campaign' => 'Մարքեթինգային արշավ',
-        'Other' => 'Այլ',
+        'Email' => 'Email',
+        'Campaign' => 'Campaign',
+        'Other' => 'Other',
     ),
     'opportunity_type_dom' => array(
         '' => '',
-        'Existing Business' => 'Առկա բիզնես',
-        'New Business' => 'Նոր բիզնես',
+        'Existing Business' => 'Existing Business',
+        'New Business' => 'New Business',
     ),
     'roi_type_dom' => array(
         'Revenue' => 'Եկամուտ',
@@ -240,7 +240,7 @@ $app_list_strings = array(
         'Technical Evaluator' => 'Տեխնիկական գնահատող',
         'Executive Sponsor' => 'Գլխավոր հովանավոր',
         'Influencer' => 'Ազդող',
-        'Other' => 'Այլ',
+        'Other' => 'Other',
     ),
     //Note:  do not translate case_relationship_type_default_key
 //       it is the key for the default case_relationship_type_dom value
@@ -282,11 +282,11 @@ $app_list_strings = array(
             'Closed Lost' => '0',
         ),
     'activity_dom' => array(
-        'Call' => 'Հեռախոսազանգ',
-        'Meeting' => 'Հանդիպում',
-        'Task' => 'Առաջադրանք',
-        'Email' => 'Էլ-փոստ',
-        'Note' => 'Նշում',
+        'Call' => 'Call',
+        'Meeting' => 'Meeting',
+        'Task' => 'Task',
+        'Email' => 'Email',
+        'Note' => 'Note',
     ),
     'salutation_dom' => array(
         '' => '',
@@ -318,18 +318,18 @@ $app_list_strings = array(
         86400 => '1 օր առաջ',
     ),
 
-    'task_priority_default' => 'Միջին',
+    'task_priority_default' => 'Medium',
     'task_priority_dom' => array(
-        'High' => 'Բարձր',
-        'Medium' => 'Միջին',
-        'Low' => 'Ցածր',
+        'High' => 'High',
+        'Medium' => 'Medium',
+        'Low' => 'Low',
     ),
     'task_status_default' => 'Սկսված չէ',
     'task_status_dom' => array(
-        'Not Started' => 'Սկսված չէ',
+        'Not Started' => 'Not Started',
         'In Progress' => 'Ընթացքի մեջ է',
         'Completed' => 'Ավարտված է',
-        'Pending Input' => 'Որոշման սպասում',
+        'Pending Input' => 'Pending Input',
         'Deferred' => 'Հետաձգված է',
     ),
     'meeting_status_default' => 'Planned',
@@ -342,14 +342,14 @@ $app_list_strings = array(
         'WebEx' => 'WebEx',
     ),
     'meeting_type_dom' => array(
-        'Other' => 'Այլ',
+        'Other' => 'Other',
         'Sugar' => 'SuiteCRM',
     ),
     'call_status_default' => 'Planned',
     'call_status_dom' => array(
         'Planned' => 'Planned',
-        'Held' => 'Տեղի ունեցավ',
-        'Not Held' => 'Տեղի չունեցավ',
+        'Held' => 'Held',
+        'Not Held' => 'Not Held',
     ),
     'call_direction_default' => 'Outbound',
     'call_direction_dom' => array(
@@ -358,8 +358,8 @@ $app_list_strings = array(
     ),
     'lead_status_dom' => array(
         '' => '',
-        'New' => 'Նոր',
-        'Assigned' => 'Կատարող',
+        'New' => 'New',
+        'Assigned' => 'Assigned',
         'In Process' => 'Կատարվում է',
         'Converted' => 'Կոնվերտացված է',
         'Recycled' => 'Վերստեղծել',
@@ -367,23 +367,23 @@ $app_list_strings = array(
     ),
     'case_priority_default_key' => 'P2',
     'case_priority_dom' => array(
-        'P1' => 'Բարձր',
-        'P2' => 'Միջին',
-        'P3' => 'Ցածր',
+        'P1' => 'High',
+        'P2' => 'Medium',
+        'P3' => 'Low',
     ),
     'user_type_dom' => array(
         'RegularUser' => 'Սիստեմատիկ Օգտվող',
         'Administrator' => 'Ադմինիստրատոր',
     ),
     'user_status_dom' => array(
-        'Active' => 'Ակտիվ է',
+        'Active' => 'Active',
         'Inactive' => 'Ակտիվ չէ',
     ),
     'user_factor_auth_interface_dom' => array(
         'FactorAuthEmailCode' => 'Email Code',
     ),
     'employee_status_dom' => array(
-        'Active' => 'Ակտիվ է',
+        'Active' => 'Active',
         'Terminated' => 'Ազատված է',
         'Leave of Absence' => 'Արձակուրդի մեջ է',
     ),
@@ -394,18 +394,18 @@ $app_list_strings = array(
         'AOL' => 'AOL',
     ),
     'project_task_priority_options' => array(
-        'High' => 'Բարձր',
-        'Medium' => 'Միջին',
-        'Low' => 'Ցածր',
+        'High' => 'High',
+        'Medium' => 'Medium',
+        'Low' => 'Low',
     ),
-    'project_task_priority_default' => 'Միջին',
+    'project_task_priority_default' => 'Medium',
 
     'project_task_status_options' => array(
-        'Not Started' => 'Սկսված չէ',
-        'In Progress' => 'Ընթացքի մեջ է',
-        'Completed' => 'Ավարտված է',
-        'Pending Input' => 'Որոշման սպասում',
-        'Deferred' => 'Հետաձգված է',
+        'Not Started' => 'Not Started',
+        'In Progress' => 'In Progress',
+        'Completed' => 'Completed',
+        'Pending Input' => 'Pending Input',
+        'Deferred' => 'Deferred',
     ),
     'project_task_utilization_options' => array(
         '0' => 'ոչինչ',
@@ -416,13 +416,13 @@ $app_list_strings = array(
     ),
 
     'project_status_dom' => array(
-        'Draft' => 'Սևագրություն',
+        'Draft' => 'Draft',
         'In Review' => 'Վերանայվում է',
         'Underway' => 'Իրականացվում է',
         'On_Hold' => 'Կասեցված',
-        'Completed' => 'Ավարտված է',
+        'Completed' => 'Completed',
     ),
-    'project_status_default' => 'Սևագրություն',
+    'project_status_default' => 'Draft',
 
     'project_duration_units_dom' => array(
         'Days' => 'Օր',
@@ -431,8 +431,8 @@ $app_list_strings = array(
 
     'activity_status_type_dom' => array(
         '' => '--Ընտրված չէ--',
-        'active' => 'Ակտիվ է',
-        'inactive' => 'Ակտիվ չէ',
+        'active' => 'Active',
+        'inactive' => 'Inactive',
     ),
 
     // Note:  do not translate record_type_default_key
@@ -440,70 +440,70 @@ $app_list_strings = array(
     'record_type_default_key' => 'Հաշիվներ',
     'record_type_display' => array(
         '' => '',
-        'Accounts' => 'Հաշիվ',
-        'Opportunities' => 'Գործարք',
-        'Cases' => 'Գործ',
-        'Leads' => 'Պոտենցիալ կլիենտներ (առաջնորդներ)',
-        'Contacts' => 'Կոնտակտ', // cn (11/22/2005) added to support Emails
+        'Accounts' => 'Account',
+        'Opportunities' => 'Opportunity',
+        'Cases' => 'Case',
+        'Leads' => 'Lead',
+        'Contacts' => 'Contact', // cn (11/22/2005) added to support Emails
 
-        'Bugs' => 'Վրիպում',
-        'Project' => 'Նախագիծ',
+        'Bugs' => 'Bug',
+        'Project' => 'Project',
 
-        'Prospects' => 'Նպատակակետ',
-        'ProjectTask' => 'Նախագծի խնդիր',
+        'Prospects' => 'Target',
+        'ProjectTask' => 'Project Task',
 
-        'Tasks' => 'Առաջադրանք',
+        'Tasks' => 'Task',
 
         'AOS_Contracts' => 'Պայմանագիր',
         'AOS_Invoices' => 'Հաշիվ-ապրանքագիր',
         'AOS_Quotes' => 'Առաջարկ',
-        'AOS_Products' => 'Արտադրանք',
+        'AOS_Products' => 'Product',
 
     ),
 
     'record_type_display_notes' => array(
-        'Accounts' => 'Հաշիվ',
-        'Contacts' => 'Կոնտակտ',
-        'Opportunities' => 'Գործարք',
-        'Campaigns' => 'Մարքեթինգային արշավ',
-        'Tasks' => 'Առաջադրանք',
-        'Emails' => 'Էլ-փոստ',
+        'Accounts' => 'Account',
+        'Contacts' => 'Contact',
+        'Opportunities' => 'Opportunity',
+        'Campaigns' => 'Campaign',
+        'Tasks' => 'Task',
+        'Emails' => 'Email',
 
-        'Bugs' => 'Վրիպում',
-        'Project' => 'Նախագիծ',
-        'ProjectTask' => 'Նախագծի խնդիր',
-        'Prospects' => 'Նպատակակետ',
-        'Cases' => 'Գործ',
-        'Leads' => 'Պոտենցիալ կլիենտներ (առաջնորդներ)',
+        'Bugs' => 'Bug',
+        'Project' => 'Project',
+        'ProjectTask' => 'Project Task',
+        'Prospects' => 'Target',
+        'Cases' => 'Case',
+        'Leads' => 'Lead',
 
-        'Meetings' => 'Հանդիպում',
-        'Calls' => 'Հեռախոսազանգ',
+        'Meetings' => 'Meeting',
+        'Calls' => 'Call',
 
-        'AOS_Contracts' => 'Պայմանագիր',
-        'AOS_Invoices' => 'Հաշիվ-ապրանքագիր',
-        'AOS_Quotes' => 'Առաջարկ',
-        'AOS_Products' => 'Արտադրանք',
+        'AOS_Contracts' => 'Contract',
+        'AOS_Invoices' => 'Invoice',
+        'AOS_Quotes' => 'Quote',
+        'AOS_Products' => 'Product',
     ),
 
     'parent_type_display' => array(
-        'Accounts' => 'Հաշիվ',
-        'Contacts' => 'Կոնտակտ',
-        'Tasks' => 'Առաջադրանք',
-        'Opportunities' => 'Գործարք',
+        'Accounts' => 'Account',
+        'Contacts' => 'Contact',
+        'Tasks' => 'Task',
+        'Opportunities' => 'Opportunity',
 
-        'Bugs' => 'Վրիպում',
-        'Cases' => 'Գործ',
-        'Leads' => 'Պոտենցիալ կլիենտներ (առաջնորդներ)',
+        'Bugs' => 'Bug',
+        'Cases' => 'Case',
+        'Leads' => 'Lead',
 
-        'Project' => 'Նախագիծ',
-        'ProjectTask' => 'Նախագծի խնդիր',
+        'Project' => 'Project',
+        'ProjectTask' => 'Project Task',
 
-        'Prospects' => 'Նպատակակետ',
+        'Prospects' => 'Target',
 
-        'AOS_Contracts' => 'Պայմանագիր',
-        'AOS_Invoices' => 'Հաշիվ-ապրանքագիր',
-        'AOS_Quotes' => 'Առաջարկ',
-        'AOS_Products' => 'Արտադրանք',
+        'AOS_Contracts' => 'Contract',
+        'AOS_Invoices' => 'Invoice',
+        'AOS_Quotes' => 'Quote',
+        'AOS_Products' => 'Product',
 
     ),
     'parent_line_items' => array(
@@ -511,66 +511,66 @@ $app_list_strings = array(
         'AOS_Invoices' => 'Հաշիվ-ապրանքագիր',
         'AOS_Contracts' => 'Պայմանագրեր',
     ),
-    'issue_priority_default_key' => 'Միջին',
+    'issue_priority_default_key' => 'Medium',
     'issue_priority_dom' => array(
         'Urgent' => 'Հրատապ',
-        'High' => 'Բարձր',
-        'Medium' => 'Միջին',
-        'Low' => 'Ցածր',
+        'High' => 'High',
+        'Medium' => 'Medium',
+        'Low' => 'Low',
     ),
     'issue_resolution_default_key' => '',
     'issue_resolution_dom' => array(
         '' => '',
-        'Accepted' => 'Ընդունված է',
-        'Duplicate' => 'Դուբլիկատ',
-        'Closed' => 'Փակել',
-        'Out of Date' => 'Հնացած',
-        'Invalid' => 'Սխալ',
+        'Accepted' => 'Accepted',
+        'Duplicate' => 'Duplicate',
+        'Closed' => 'Closed',
+        'Out of Date' => 'Out of Date',
+        'Invalid' => 'Invalid',
     ),
 
-    'issue_status_default_key' => 'Նոր',
+    'issue_status_default_key' => 'New',
     'issue_status_dom' => array(
-        'New' => 'Նոր',
-        'Assigned' => 'Կատարող',
-        'Closed' => 'Փակել',
-        'Pending' => 'Սպասում',
-        'Rejected' => 'Մերժված է',
+        'New' => 'New',
+        'Assigned' => 'Assigned',
+        'Closed' => 'Closed',
+        'Pending' => 'Pending',
+        'Rejected' => 'Rejected',
     ),
 
-    'bug_priority_default_key' => 'Միջին',
+    'bug_priority_default_key' => 'Medium',
     'bug_priority_dom' => array(
-        'Urgent' => 'Հրատապ',
-        'High' => 'Բարձր',
-        'Medium' => 'Միջին',
-        'Low' => 'Ցածր',
+        'Urgent' => 'Urgent',
+        'High' => 'High',
+        'Medium' => 'Medium',
+        'Low' => 'Low',
     ),
     'bug_resolution_default_key' => '',
     'bug_resolution_dom' => array(
         '' => '',
-        'Accepted' => 'Ընդունված է',
-        'Duplicate' => 'Դուբլիկատ',
+        'Accepted' => 'Accepted',
+        'Duplicate' => 'Duplicate',
         'Fixed' => 'Հաստատուն',
-        'Out of Date' => 'Հնացած',
-        'Invalid' => 'Սխալ',
+        'Out of Date' => 'Out of Date',
+        'Invalid' => 'Invalid',
         'Later' => 'Հետաձգել',
     ),
-    'bug_status_default_key' => 'Նոր',
+    'bug_status_default_key' => 'New',
     'bug_status_dom' => array(
-        'New' => 'Նոր',
-        'Assigned' => 'Կատարող',
-        'Closed' => 'Փակել',
-        'Pending' => 'Սպասում',
-        'Rejected' => 'Մերժված է',
+        'New' => 'New',
+        'Assigned' => 'Assigned',
+        'Closed' => 'Closed',
+        'Pending' => 'Pending',
+        'Rejected' => 'Rejected',
     ),
-    'bug_type_default_key' => 'Վրիպում',
+    'bug_type_default_key' => 'Bug',
     'bug_type_dom' => array(
         'Defect' => 'Թերություն',
         'Feature' => 'Հատկանիշ',
     ),
     'case_type_dom' => array(
-        'Administration' => 'Ադմինիստրացիա',
-        'Product' => 'Արտադրանք',
-        'User' => 'Օգտագործող',
+        'Administration' => 'Administration',
+        'Product' => 'Product',
+        'User' => 'User',
     ),
 
     'source_default_key' => '',
@@ -579,47 +579,47 @@ $app_list_strings = array(
         'Internal' => 'Ներքին',
         'Forum' => 'Ֆորում',
         'Web' => 'Վեբ',
-        'InboundEmail' => 'Էլ-փոստ',
+        'InboundEmail' => 'Email',
     ),
 
     'product_category_default_key' => '',
     'product_category_dom' => array(
         '' => '',
         'Accounts' => 'Հաշիվներ',
-        'Activities' => 'Գործունեություն',
-        'Bugs' => 'Վրիպումներ',
-        'Calendar' => 'Օրացույց',
-        'Calls' => 'Զանգեր',
-        'Campaigns' => 'Կամպանիաներ',
-        'Cases' => 'Գործեր',
-        'Contacts' => 'Կոնտակտներ',
+        'Activities' => 'Activities',
+        'Bugs' => 'Bugs',
+        'Calendar' => 'Calendar',
+        'Calls' => 'Calls',
+        'Campaigns' => 'Campaigns',
+        'Cases' => 'Cases',
+        'Contacts' => 'Contacts',
         'Currencies' => 'Արտարժույթ',
-        'Dashboard' => 'Դիագրամներ',
-        'Documents' => 'Փաստաթղթեր',
+        'Dashboard' => 'Dashboard',
+        'Documents' => 'Documents',
         'Emails' => 'Էլ-փոստեր',
         'Feeds' => 'Լրահոսեր',
         'Forecasts' => 'Կանխատեսումներ',
         'Help' => 'Օգնություն',
-        'Home' => 'Գլխավոր',
+        'Home' => 'Home',
         'Leads' => 'Պոտենցիալ կլիենտներ (առաջնորդներ)',
-        'Meetings' => 'Հանդիպումներ',
-        'Notes' => 'Նշումներ',
-        'Opportunities' => 'Գործարքներ',
+        'Meetings' => 'Meetings',
+        'Notes' => 'Notes',
+        'Opportunities' => 'Opportunities',
         'Outlook Plugin' => 'Միացնել Outlook',
-        'Projects' => 'Նախագծեր',
-        'Quotes' => 'Առաջարկներ',
-        'Releases' => 'Թողարկումներ',
-        'RSS' => 'RSS հոսք',
+        'Projects' => 'Projects',
+        'Quotes' => 'Quotes',
+        'Releases' => 'Releases',
+        'RSS' => 'RSS',
         'Studio' => 'Ստուդիա',
         'Upgrade' => 'Թարմացնել',
-        'Users' => 'Օգտագործողներ',
+        'Users' => 'Users',
     ),
     /*Added entries 'Queued' and 'Sending' for 4.0 release..*/
     'campaign_status_dom' => array(
         '' => '',
         'Planning' => 'Պլանավորում',
-        'Active' => 'Ակտիվ է',
-        'Inactive' => 'Ակտիվ չէ',
+        'Active' => 'Active',
+        'Inactive' => 'Inactive',
         'Complete' => 'Ավարտված',
         //'In Queue' => 'In Queue',
         //'Sending' => 'Sending',
@@ -628,9 +628,9 @@ $app_list_strings = array(
         '' => '',
         'Telesales' => 'Վաճառքներ',
         'Mail' => 'Փոստ',
-        'Email' => 'Էլ-փոստ',
+        'Email' => 'Email',
         'Print' => 'Տպել',
-        'Web' => 'Վեբ',
+        'Web' => 'Web',
         'Radio' => 'Ռադիո',
         'Television' => 'Հեռուստատեսություն',
         'NewsLetter' => 'Տեղեկագիր',
@@ -669,7 +669,7 @@ $app_list_strings = array(
         '2' => 'Փտր․',
         '3' => 'Մրտ',
         '4' => 'Ապր',
-        '5' => 'Մայիս',
+        '5' => 'May',
         '6' => 'Հնս',
         '7' => 'Հլս',
         '8' => 'Օգս',
@@ -725,25 +725,25 @@ $app_list_strings = array(
     ],
 
     'dom_external_oauth_connection_types' => [
-        'personal' => 'Անձնական',
-        'group' => 'Խումբ',
+        'personal' => 'Personal',
+        'group' => 'Group',
     ],
 
     'dom_external_oauth_provider_types' => [
-        'personal' => 'Անձնական',
-        'group' => 'Խումբ',
+        'personal' => 'Personal',
+        'group' => 'Group',
     ],
 
     'dom_outbound_email_account_types' => [
-        'user' => 'Անձնական',
-        'group' => 'Խումբ',
+        'user' => 'Personal',
+        'group' => 'Group',
         'system' => 'Համակարգ',
         'system-override' => 'System Override',
     ],
 
     'dom_inbound_email_account_status' => [
-        'Active' => 'Ակտիվ է',
-        'Inactive' => 'Ակտիվ չէ',
+        'Active' => 'Active',
+        'Inactive' => 'Inactive',
     ],
 
     'dom_email_body_filtering_option' => [
@@ -754,35 +754,35 @@ $app_list_strings = array(
     'dom_email_types' => array(
         'out' => 'Ուղարկված է',
         'archived' => 'Արխիվ',
-        'draft' => 'Սևագրություն',
-        'inbound' => 'Մուտքային',
-        'campaign' => 'Մարքեթինգային արշավ',
+        'draft' => 'Draft',
+        'inbound' => 'Inbound',
+        'campaign' => 'Campaign',
     ),
     'dom_email_status' => array(
-        'archived' => 'Արխիվ',
-        'closed' => 'Փակել',
+        'archived' => 'Archived',
+        'closed' => 'Closed',
         'draft' => 'Սևագրություն',
         'read' => 'Ընթերցված է',
         'replied' => 'Պատասխան է տված',
-        'sent' => 'Ուղարկված է',
+        'sent' => 'Sent',
         'send_error' => 'Ուղարկման սխալ',
         'unread' => 'Ընթերցված չէ',
     ),
     'dom_email_archived_status' => array(
-        'archived' => 'Արխիվ',
+        'archived' => 'Archived',
     ),
 
     'dom_email_server_type' => array(
-        '' => '--Ընտրված չէ--',
+        '' => '--None--',
         'imap' => 'IMAP',
     ),
     'dom_mailbox_type' => array(/*''           => '--None Specified--',*/
-        'pick' => '--Ընտրված չէ--',
+        'pick' => '--None--',
         'createcase' => 'Ստեղծել գործ',
         'bounce' => 'Վերադարձած նամակների մշակում',
     ),
     'dom_email_distribution' => array(
-        '' => '--Ընտրված չէ--',
+        '' => '--None--',
         'direct' => 'Ուղիղ նշանակում',
         'roundRobin' => 'Ողակում',
         'leastBusy' => 'Առնվազն-զբաղված',
@@ -792,17 +792,17 @@ $app_list_strings = array(
         2 => 'You must assign Only Checked Items when Direct Assigning items.',
     ),
     'dom_email_bool' => array(
-        'bool_true' => 'Այո',
-        'bool_false' => 'Ոչ',
+        'bool_true' => 'Yes',
+        'bool_false' => 'No',
     ),
     'dom_int_bool' => array(
-        1 => 'Այո',
-        0 => 'Ոչ',
+        1 => 'Yes',
+        0 => 'No',
     ),
     'dom_switch_bool' => array(
-        'on' => 'Այո',
-        'off' => 'Ոչ',
-        '' => 'Ոչ',
+        'on' => 'Yes',
+        'off' => 'No',
+        '' => 'No',
     ),
 
     'dom_email_link_type' => array(
@@ -825,48 +825,48 @@ $app_list_strings = array(
     'schedulers_times_dom' => array(
         'not run' => 'Մեկնարկման ժամանակը անցել է, չի կատարվել',
         'ready' => 'Պատրաստ է',
-        'in progress' => 'Ընթացքի մեջ է',
+        'in progress' => 'In Progress',
         'failed' => 'Ձախողվել է',
-        'completed' => 'Ավարտված է',
+        'completed' => 'Completed',
         'no curl' => 'Չի թողարկվել․ cURL անհասանելի է',
     ),
 
     'scheduler_status_dom' => array(
-        'Active' => 'Ակտիվ է',
-        'Inactive' => 'Ակտիվ չէ',
+        'Active' => 'Active',
+        'Inactive' => 'Inactive',
     ),
 
     'scheduler_period_dom' => array(
         'min' => 'Րոպե',
-        'hour' => 'Ժամ',
+        'hour' => 'Hours',
     ),
     'document_category_dom' => array(
         '' => '',
-        'Marketing' => 'Մարքեթինգ',
+        'Marketing' => 'Marketing',
         'Knowledege Base' => 'Գիտելիքների բազա',
-        'Sales' => 'Գործարքներ',
+        'Sales' => 'Sales',
     ),
 
     'email_category_dom' => array(
         '' => '',
-        'Archived' => 'Արխիվ',
+        'Archived' => 'Archived',
         // TODO: add more categories here...
     ),
 
     'document_subcategory_dom' => array(
         '' => '',
-        'Marketing Collateral' => 'Մարքեթինգ',
-        'Product Brochures' => 'Ապրանքի բրոշյուրներ',
-        'FAQ' => 'ՀՏՀ',
+        'Marketing Collateral' => 'Marketing Collateral',
+        'Product Brochures' => 'Product Brochures',
+        'FAQ' => 'FAQ',
     ),
 
     'document_status_dom' => array(
-        'Active' => 'Ակտիվ է',
-        'Draft' => 'Սևագրություն',
-        'FAQ' => 'ՀՏՀ',
-        'Expired' => 'Սպառված է',
-        'Under Review' => 'Վերանայվում է',
-        'Pending' => 'Սպասում',
+        'Active' => 'Active',
+        'Draft' => 'Draft',
+        'FAQ' => 'FAQ',
+        'Expired' => 'Expired',
+        'Under Review' => 'Under Review',
+        'Pending' => 'Pending',
     ),
     'document_template_type_dom' => array(
         '' => '',
@@ -881,9 +881,9 @@ $app_list_strings = array(
         'tentative' => 'Փորձնական',
     ),
     'dom_meeting_accept_status' => array(
-        'accept' => 'Ընդունված է',
+        'accept' => 'Accepted',
         'decline' => 'Մերժված է',
-        'tentative' => 'Փորձնական',
+        'tentative' => 'Tentative',
         'none' => 'Ոչ ոք',
     ),
     'duration_intervals' => array(
@@ -893,10 +893,10 @@ $app_list_strings = array(
         '45' => '45',
     ),
     'repeat_type_dom' => array(
-        '' => 'Ոչ ոք',
+        '' => 'None',
         'Daily' => 'Օրական',
-        'Weekly' => 'Շաբաթական',
-        'Monthly' => 'Ամսական',
+        'Weekly' => 'Weekly',
+        'Monthly' => 'Monthly',
         'Yearly' => 'Տարեկան',
     ),
 
@@ -909,7 +909,7 @@ $app_list_strings = array(
     ),
 
     'duration_dom' => array(
-        '' => 'Ոչ ոք',
+        '' => 'None',
         '900' => '15 րոպե',
         '1800' => '30 րոպե',
         '2700' => '45 րոպե',
@@ -942,8 +942,8 @@ $app_list_strings = array(
     ),
     'email_marketing_status_dom' => array(
         '' => '',
-        'active' => 'Ակտիվ է',
-        'inactive' => 'Ակտիվ չէ',
+        'active' => 'Active',
+        'inactive' => 'Inactive',
     ),
 
     'campainglog_activity_type_dom' => array(
@@ -961,9 +961,9 @@ $app_list_strings = array(
     ),
 
     'campainglog_target_type_dom' => array(
-        'Contacts' => 'Կոնտակտներ',
-        'Users' => 'Օգտագործողներ',
-        'Prospects' => 'Նպատակակետեր',
+        'Contacts' => 'Contacts',
+        'Users' => 'Users',
+        'Prospects' => 'Targets',
         'Leads' => 'Պոտենցիալ կլիենտներ (առաջնորդներ)',
         'Accounts' => 'Հաշիվներ',
     ),
@@ -974,8 +974,8 @@ $app_list_strings = array(
     ),
 
     'custom_fields_importable_dom' => array(
-        'true' => 'Այո',
-        'false' => 'Ոչ',
+        'true' => 'Yes',
+        'false' => 'No',
         'required' => 'Պարտադիր',
     ),
 
@@ -988,15 +988,15 @@ $app_list_strings = array(
     ),
 
     'projects_priority_options' => array(
-        'high' => 'Բարձր',
-        'medium' => 'Միջին',
-        'low' => 'Ցածր',
+        'high' => 'High',
+        'medium' => 'Medium',
+        'low' => 'Low',
     ),
 
     'projects_status_options' => array(
-        'notstarted' => 'Սկսված չէ',
-        'inprogress' => 'Ընթացքի մեջ է',
-        'completed' => 'Ավարտված է',
+        'notstarted' => 'Not Started',
+        'inprogress' => 'In Progress',
+        'completed' => 'Completed',
     ),
     // strings to pass to Flash charts
     'chart_strings' => array(
@@ -1011,12 +1011,12 @@ $app_list_strings = array(
         'horizontalbarchart' => 'Հորիզոնտալ սյունաձև գրաֆիկ',
         'linechart' => 'Գծային գրաֆիկ',
         'noData' => 'Տվյալները բացակայում են',
-        'print' => 'Տպել',
+        'print' => 'Print',
         'pieWedgeName' => 'սեկցիաներ',
     ),
     'release_status_dom' => array(
-        'Active' => 'Ակտիվ է',
-        'Inactive' => 'Ակտիվ չէ',
+        'Active' => 'Active',
+        'Inactive' => 'Inactive',
     ),
     'email_settings_for_ssl' => array(
         '0' => '',
@@ -1026,7 +1026,7 @@ $app_list_strings = array(
     'import_enclosure_options' => array(
         '\'' => 'Մեկ չակերտով (&#39;)',
         '"' => 'Կրկնակի չակերտով (&#34;)',
-        '' => 'Ոչ ոք',
+        '' => 'None',
         'other' => 'Այլ.',
     ),
     'import_delimeter_options' => array(
@@ -1036,7 +1036,7 @@ $app_list_strings = array(
         '.' => '։',
         ':' => '․',
         '|' => '|',
-        'other' => 'Այլ.',
+        'other' => 'Other:',
     ),
     'link_target_dom' => array(
         '_blank' => 'Նոր պատուհան',
@@ -1052,11 +1052,11 @@ $app_list_strings = array(
     ),
     'dashlet_auto_refresh_options_admin' => array(
         '-1' => 'Երբեք',
-        '30' => 'Ամեն 30 վայրկյան',
-        '60' => 'Ամեն րոպե',
-        '180' => '3 րոպեն մեկ',
-        '300' => '5 րոպեն մեկ',
-        '600' => '10 րոպեն մեկ',
+        '30' => 'Every 30 seconds',
+        '60' => 'Every 1 minute',
+        '180' => 'Every 3 minutes',
+        '300' => 'Every 5 minutes',
+        '600' => 'Every 10 minutes',
     ),
     'date_range_search_dom' => array(
         '=' => 'Հավասար է',
@@ -1076,13 +1076,13 @@ $app_list_strings = array(
         'between' => 'Միջև',
     ),
     'numeric_range_search_dom' => array(
-        '=' => 'Հավասար է',
+        '=' => 'Equals',
         'not_equal' => 'Հավասար չէ',
         'greater_than' => 'Ավելի քան',
         'greater_than_equals' => 'Ավել է կամ հավասար',
         'less_than' => 'Պակաս քան',
         'less_than_equals' => 'Պակաս է կամ հավասար',
-        'between' => 'Միջև',
+        'between' => 'Is Between',
     ),
     'lead_conv_activity_opt' => array(
         'copy' => 'Պատճենել',
@@ -1105,8 +1105,8 @@ $app_strings = array(
     'LBL_TOUR_TAKE_TOUR' => 'Սկսեք ծանոթանալ համակարգին',
     'LBL_MOREDETAIL' => 'Մանրամասնություններ' /*for 508 compliance fix*/,
     'LBL_EDIT_INLINE' => 'Խմբագրել' /*for 508 compliance fix*/,
-    'LBL_VIEW_INLINE' => 'Դիտում' /*for 508 compliance fix*/,
-    'LBL_BASIC_SEARCH' => 'Որոնում' /*for 508 compliance fix*/,
+    'LBL_VIEW_INLINE' => 'View' /*for 508 compliance fix*/,
+    'LBL_BASIC_SEARCH' => 'Filter' /*for 508 compliance fix*/,
     'LBL_Blank' => ' ' /*for 508 compliance fix*/,
     'LBL_ID_FF_ADD' => 'Ավելացնել' /*for 508 compliance fix*/,
     'LBL_ID_FF_ADD_EMAIL' => 'Add Email Address' /*for 508 compliance fix*/,
@@ -1114,18 +1114,18 @@ $app_strings = array(
     'LBL_DELETE_INLINE' => 'Ջնջել' /*for 508 compliance fix*/,
     'LBL_ID_FF_CLEAR' => 'Մաքրել' /*for 508 compliance fix*/,
     'LBL_ID_FF_VCARD' => 'vCard' /*for 508 compliance fix*/,
-    'LBL_ID_FF_REMOVE' => 'Հեռացնել' /*for 508 compliance fix*/,
+    'LBL_ID_FF_REMOVE' => 'Remove' /*for 508 compliance fix*/,
     'LBL_ID_FF_REMOVE_EMAIL' => 'Remove Email Address' /*for 508 compliance fix*/,
     'LBL_ID_FF_OPT_OUT' => 'Opt Out',
     'LBL_ID_FF_INVALID' => 'Make Invalid',
-    'LBL_ADD' => 'Ավելացնել' /*for 508 compliance fix*/,
+    'LBL_ADD' => 'Add' /*for 508 compliance fix*/,
     'LBL_COMPANY_LOGO' => 'Կազմակերպության լոգոն' /*for 508 compliance fix*/,
     'LBL_CONNECTORS_POPUPS' => 'Միակցիչներ',
-    'LBL_CLOSEINLINE' => 'Փակել',
-    'LBL_VIEWINLINE' => 'Դիտում',
+    'LBL_CLOSEINLINE' => 'Close',
+    'LBL_VIEWINLINE' => 'View',
     'LBL_INFOINLINE' => 'Տեղեկատվություն',
-    'LBL_PRINT' => 'Տպել',
-    'LBL_HELP' => 'Օգնություն',
+    'LBL_PRINT' => 'Print',
+    'LBL_HELP' => 'Help',
     'LBL_ID_FF_SELECT' => 'Ընտրել',
     'DEFAULT' => 'Հիմնական',
     'LBL_SORT' => 'Սորտավորում',
@@ -1142,13 +1142,13 @@ $app_strings = array(
     'NTC_OVERWRITE_ADDRESS_PHONE_CONFIRM' => 'Հասցեների և Հեռախոսահամարների տվյալներով դաշտերի այս գրառումը այժմ պարունակում է արժեքներ։ Վերագրանցել այդ արժեքները, ինչպես նաև հետևյալ գրասենյակի հեռախոսահամարը և հասցեն հաշվից, որ դուք ընտրել եք՝ սեղմեք "Լավ է"։ Ներկայիս արժեքները պահպանելու համար, սեղմեք "Չեղարկել"։',
     'LBL_DROP_HERE' => '[Գցել այստեղ]',
     'LBL_EMAIL_ACCOUNTS_GMAIL_DEFAULTS' => 'Տեղադրել Gmail&#153; լռելյայն',
-    'LBL_EMAIL_ACCOUNTS_NAME' => 'Անվանում',
+    'LBL_EMAIL_ACCOUNTS_NAME' => 'Name',
     'LBL_EMAIL_ACCOUNTS_OUTBOUND' => 'Ելքային փոստի սերվերի հատկությունները',
     'LBL_EMAIL_ACCOUNTS_SMTPPASS' => 'SMTP Գաղտնաբառ',
     'LBL_EMAIL_ACCOUNTS_SMTPPORT' => 'SMTP Պորտ',
     'LBL_EMAIL_ACCOUNTS_SMTPSERVER' => 'SMTP սերվեր',
     'LBL_EMAIL_ACCOUNTS_SMTPUSER' => 'SMTP Օգտանուն',
-    'LBL_EMAIL_ACCOUNTS_SMTPDEFAULT' => 'Լռելյայն ',
+    'LBL_EMAIL_ACCOUNTS_SMTPDEFAULT' => 'Default',
     'LBL_EMAIL_WARNING_MISSING_USER_CREDS' => 'Ուշադրություն․ Ելքային փոստի հաշվի օգտանունը և գաղտնաբառը բացակայում է։',
     'LBL_OAUTH_CONNECTION_NOT_SET' => 'Please set an External OAuth Connection.',
     'LBL_EMAIL_PASSWORD_NOT_SET' => 'Warning: A password has not been set.',
@@ -1157,32 +1157,32 @@ $app_strings = array(
     'LBL_EMAIL_ACCOUNTS_OUTBOUND_SUBTITLE' => 'Տրամադրել SMTP փոստի սերվերի տվյալները, օգտագործելու փոստային հաշվի ելքային նամակը ուղարկելու համար։',
 
     'LBL_EMAIL_ADDRESS_BOOK_ADD' => 'Պատրաստ է',
-    'LBL_EMAIL_ADDRESS_BOOK_CLEAR' => 'Մաքրել',
+    'LBL_EMAIL_ADDRESS_BOOK_CLEAR' => 'Clear',
     'LBL_EMAIL_ADDRESS_BOOK_ADD_TO' => 'Ում․ ',
     'LBL_EMAIL_ADDRESS_BOOK_ADD_CC' => 'Կրկնօրինակ․',
     'LBL_EMAIL_ADDRESS_BOOK_ADD_BCC' => 'Չերևացող կրկնօրինակ․',
     'LBL_EMAIL_ADDRESS_BOOK_ADRRESS_TYPE' => 'Ում/Պատճեն/Թաքնված պատճեն',
-    'LBL_EMAIL_ADDRESS_BOOK_EMAIL_ADDR' => 'էլ-փոստի հասցե',
-    'LBL_EMAIL_ADDRESS_BOOK_FILTER' => 'Որոնում',
-    'LBL_EMAIL_ADDRESS_BOOK_NAME' => 'Անվանում',
+    'LBL_EMAIL_ADDRESS_BOOK_EMAIL_ADDR' => 'Email Address',
+    'LBL_EMAIL_ADDRESS_BOOK_FILTER' => 'Filter',
+    'LBL_EMAIL_ADDRESS_BOOK_NAME' => 'Name',
     'LBL_EMAIL_ADDRESS_BOOK_NOT_FOUND' => 'Հասցեները չեն հայտնաբերվել',
     'LBL_EMAIL_ADDRESS_BOOK_SAVE_AND_ADD' => 'Պահպանել և ավելացնել հասցեագրքի մեջ',
     'LBL_EMAIL_ADDRESS_BOOK_SELECT_TITLE' => 'Ընտրել էլ-փոստի ստուգողներին',
     'LBL_EMAIL_ADDRESS_BOOK_TITLE' => 'Հասցեագիրք',
     'LBL_EMAIL_REMOVE_SMTP_WARNING' => 'Ուշադրությո՛ւն։ Այն ելքային հաշիվը, որը փորձում եք ջնջել, կապված է գոյություն ունեցող մուտքային հաշվի հետ: Համոզվա՞ծ եք, որ ցանկանում եք շարունակել։',
-    'LBL_EMAIL_ADDRESSES' => 'Էլ-փոստ',
-    'LBL_EMAIL_ADDRESS_PRIMARY' => 'էլ-փոստի հասցե',
+    'LBL_EMAIL_ADDRESSES' => 'Email',
+    'LBL_EMAIL_ADDRESS_PRIMARY' => 'Email Address',
     'LBL_EMAIL_ADDRESS_OPT_IN' => 'You have confirmed that your email address has been opted in: ',
     'LBL_EMAIL_ADDRESS_OPT_IN_ERR' => 'Unable to confirm email address',
     'LBL_EMAIL_ARCHIVE_TO_SUITE' => 'Ներմուծում SuiteCRM',
     'LBL_EMAIL_ASSIGNMENT' => 'Նշանակում',
     'LBL_EMAIL_ATTACH_FILE_TO_EMAIL' => 'Կցորդ',
-    'LBL_EMAIL_ATTACHMENT' => 'Կցորդ',
+    'LBL_EMAIL_ATTACHMENT' => 'Attach',
     'LBL_EMAIL_ATTACHMENTS' => 'Լոկալ համակարգից',
     'LBL_EMAIL_ATTACHMENTS2' => 'SuiteCRM-ի փաստաթղթեր',
     'LBL_EMAIL_ATTACHMENTS3' => 'Ձևանմուշին կցված ֆայլեր',
     'LBL_EMAIL_ATTACHMENTS_FILE' => 'Ֆայլ',
-    'LBL_EMAIL_ATTACHMENTS_DOCUMENT' => 'Փաստաթուղթ',
+    'LBL_EMAIL_ATTACHMENTS_DOCUMENT' => 'Document',
     'LBL_EMAIL_BCC' => 'Չերևացող կրկնօրինակ',
     'LBL_EMAIL_CANCEL' => 'Չեղարկել',
     'LBL_EMAIL_CC' => 'Կրկնօրինակ',
@@ -1190,10 +1190,10 @@ $app_strings = array(
     'LBL_EMAIL_CHECK' => 'Ստուգել էլ-փոստը',
     'LBL_EMAIL_CHECKING_NEW' => 'Նոր էլ-փոստի ստուգում',
     'LBL_EMAIL_CHECKING_DESC' => 'Խնդրում ենք սպասել․․․ <br><br>Եթե այս փոստային հաշվի առաջին ստուգումն է, դա կարող է տևել որոշ ժամանակ:',
-    'LBL_EMAIL_CLOSE' => 'Փակել',
+    'LBL_EMAIL_CLOSE' => 'Close',
     'LBL_EMAIL_COFFEE_BREAK' => 'Նոր էլ-փոստի ստուգում։ <br><br>Մեծ ծավալ ունեցող փոստարկղերի ստուգումը կարող է զբաղեցնել զգալի ժամանակ։ Խնդրում ենք սպասել։',
 
-    'LBL_EMAIL_COMPOSE' => 'Էլ-փոստ',
+    'LBL_EMAIL_COMPOSE' => 'Email',
     'LBL_EMAIL_COMPOSE_ERR_NO_RECIPIENTS' => 'Խնդրում ենք մուտք գործել ստացող(ներ), այս նամակի համար:',
     'LBL_EMAIL_COMPOSE_NO_BODY' => 'Այս նամակը դատարկ է։ Ուղարկե՞լ ամեն դեպքում։',
     'LBL_EMAIL_COMPOSE_NO_SUBJECT' => 'Այս նամակի վերնագիրը նշված չէ: Ուղարկե՞լ ամեն դեպքում։',
@@ -1210,7 +1210,7 @@ $app_strings = array(
     'LBL_EMAIL_MULT_GROUP_FOLDER_ACCOUNTS_EMPTY' => 'Դատարկ է',
     'LBL_EMAIL_DATE_SENT_BY_SENDER' => 'Առաքիչի կողմից ուղարկվածի ամսաթիվը',
     'LBL_EMAIL_DATE_TODAY' => 'Այսօր',
-    'LBL_EMAIL_DELETE' => 'Ջնջել',
+    'LBL_EMAIL_DELETE' => 'Delete',
     'LBL_EMAIL_DELETE_CONFIRM' => 'Հեռացնե՞լ ընտրված հաղորդագրությունները։',
     'LBL_EMAIL_DELETE_SUCCESS' => 'Էլ-նամակը հաջողությամբ հեռացվեց։',
     'LBL_EMAIL_DELETING_MESSAGE' => 'Հաղորդագրությունը հեռացվում է',
@@ -1268,7 +1268,7 @@ $app_strings = array(
         '.gif',
         ''
     ),
-    'LBL_EMAIL_FOLDERS_ADD' => 'Ավելացնել',
+    'LBL_EMAIL_FOLDERS_ADD' => 'Add',
     'LBL_EMAIL_FOLDERS_ADD_DIALOG_TITLE' => 'Ավելացնել նոր պանակ',
     'LBL_EMAIL_FOLDERS_RENAME_DIALOG_TITLE' => 'Անվանափոխել պանակը',
     'LBL_EMAIL_FOLDERS_ADD_NEW_FOLDER' => 'Պահպանել',
@@ -1286,8 +1286,8 @@ Text for Translation
     'LBL_EMAIL_DOWNLOAD_STATUS' => 'Ներբեռնվել է [[count]] [[total]] նամակներից',
     'LBL_EMAIL_FROM' => 'Ումից',
     'LBL_EMAIL_GROUP' => 'խումբ',
-    'LBL_EMAIL_UPPER_CASE_GROUP' => 'Խումբ',
-    'LBL_EMAIL_HOME_FOLDER' => 'Գլխավոր',
+    'LBL_EMAIL_UPPER_CASE_GROUP' => 'Group',
+    'LBL_EMAIL_HOME_FOLDER' => 'Home',
     'LBL_EMAIL_IE_DELETE' => 'Հեռացվում է փոստի հաշիվը',
     'LBL_EMAIL_IE_DELETE_SIGNATURE' => 'Հեռացվում է ստորագրությունը',
     'LBL_EMAIL_IE_DELETE_CONFIRM' => 'Համոզվա՞ծ եք, որ ցանկանում եք հեռացնել այս փոստի հաշիվը:',
@@ -1296,7 +1296,7 @@ Text for Translation
     'LBL_EMAIL_IMPORTING_EMAIL' => 'Էլ-փոստի ներմուծում',
     'LBL_EMAIL_IMPORT_EMAIL' => 'Import into SuiteCRM',
     'LBL_EMAIL_IMPORT_SETTINGS' => 'Ներմուծման կարգավորումներ',
-    'LBL_EMAIL_INVALID' => 'Սխալ',
+    'LBL_EMAIL_INVALID' => 'Invalid',
     'LBL_EMAIL_LOADING' => 'Բեռնում ․․․․․',
     'LBL_EMAIL_MARK' => 'Նշում',
     'LBL_EMAIL_MARK_FLAGGED' => 'որպես կարևոր',
@@ -1311,8 +1311,8 @@ Text for Translation
     'LBL_EMAIL_MENU_EMPTY_TRASH' => 'Դատարկել աղբամանը',
     'LBL_EMAIL_MENU_SYNCHRONIZE' => 'Սինքրոնացում',
     'LBL_EMAIL_MENU_CLEAR_CACHE' => 'Փոստային քեշի մաքրում',
-    'LBL_EMAIL_MENU_REMOVE' => 'Հեռացնել',
-    'LBL_EMAIL_MENU_RENAME_FOLDER' => 'Անվանափոխել պանակը',
+    'LBL_EMAIL_MENU_REMOVE' => 'Remove',
+    'LBL_EMAIL_MENU_RENAME_FOLDER' => 'Rename Folder',
     'LBL_EMAIL_MENU_RENAMING_FOLDER' => 'Անվանափոխել պանակը',
     'LBL_EMAIL_MENU_MAKE_SELECTION' => 'Խնդրում ենք կատարել ընտրություն այս գործողությունը կատարելուց առաջ։',
 
@@ -1331,7 +1331,7 @@ Text for Translation
 
     'LBL_EMAIL_MULTISELECT' => '<b>Ctrl-Click</b>բազմաթիվ ընտրության դեպքում<br />(Mac օգտվողները օգտագործում են <b>CMD-Click</b>)',
 
-    'LBL_EMAIL_NO' => 'Ոչ',
+    'LBL_EMAIL_NO' => 'No',
     'LBL_EMAIL_NOT_SENT' => 'Համակարգը ի վիճակի չէ մշակել Ձեր հարցումը: Խնդրում ենք կապնվել համակարգի ադմինիստրատորի հետ:',
 
     'LBL_EMAIL_OK' => 'OK',
@@ -1339,25 +1339,25 @@ Text for Translation
     'LBL_EMAIL_OPEN_ALL' => 'Բացել բազմաթիվ հաղորդագրություններ',
     'LBL_EMAIL_OPTIONS' => 'Պարամետրեր',
     'LBL_EMAIL_QUICK_COMPOSE' => 'Արագ կազմել',
-    'LBL_EMAIL_OPT_OUT' => 'Չգրել',
+    'LBL_EMAIL_OPT_OUT' => 'Opted Out',
     'LBL_EMAIL_OPT_OUT_AND_INVALID' => 'Չգրել/Սխալ հասցե',
     'LBL_EMAIL_PERFORMING_TASK' => 'Առաջադրանքի կատարում',
     'LBL_EMAIL_PRIMARY' => 'Հիմնական',
-    'LBL_EMAIL_PRINT' => 'Տպել',
+    'LBL_EMAIL_PRINT' => 'Print',
 
-    'LBL_EMAIL_QC_BUGS' => 'Վրիպում',
-    'LBL_EMAIL_QC_CASES' => 'Գործ',
-    'LBL_EMAIL_QC_LEADS' => 'Պոտենցիալ կլիենտներ (առաջնորդներ)',
-    'LBL_EMAIL_QC_CONTACTS' => 'Կոնտակտ',
-    'LBL_EMAIL_QC_TASKS' => 'Առաջադրանք',
-    'LBL_EMAIL_QC_OPPORTUNITIES' => 'Գործարք',
+    'LBL_EMAIL_QC_BUGS' => 'Bug',
+    'LBL_EMAIL_QC_CASES' => 'Case',
+    'LBL_EMAIL_QC_LEADS' => 'Lead',
+    'LBL_EMAIL_QC_CONTACTS' => 'Contact',
+    'LBL_EMAIL_QC_TASKS' => 'Task',
+    'LBL_EMAIL_QC_OPPORTUNITIES' => 'Opportunity',
     'LBL_EMAIL_QUICK_CREATE' => 'Արագ ստեղծել',
 
     'LBL_EMAIL_REBUILDING_FOLDERS' => 'Թղթապանակների վերականգնում',
     'LBL_EMAIL_RELATE_TO' => 'Կապել',
     'LBL_EMAIL_VIEW_RELATIONSHIPS' => 'Կապերի դիտում',
     'LBL_EMAIL_RECORD' => 'Էլ-փոստի գրառումներ',
-    'LBL_EMAIL_REMOVE' => 'Հեռացնել',
+    'LBL_EMAIL_REMOVE' => 'Remove',
     'LBL_EMAIL_REPLY' => 'Պատասխանել',
     'LBL_EMAIL_REPLY_ALL' => 'Պատասխանել բոլորին',
     'LBL_EMAIL_REPLY_TO' => 'Պատասխան դեպի',
@@ -1370,7 +1370,7 @@ Text for Translation
 
     'LBL_EMAIL_RULES_TITLE' => 'Կանոնների կառավարում',
 
-    'LBL_EMAIL_SAVE' => 'Պահպանել',
+    'LBL_EMAIL_SAVE' => 'Save',
     'LBL_EMAIL_SAVE_AND_REPLY' => 'Պահպանել և Պատասխանել',
     'LBL_EMAIL_SAVE_DRAFT' => 'Պահպանել սևագրությունը',
     'LBL_EMAIL_DRAFT_SAVED' => 'Draft has been saved',
@@ -1396,9 +1396,9 @@ Text for Translation
     'LBL_EMAIL_SEARCH_NO_RESULTS' => 'Ըստ Ձեր որոնման չափանիշների համապատասխան արդյունք չի գտնվել:',
     'LBL_EMAIL_SEARCH_RESULTS_TITLE' => 'Որոնման արդնուքներ',
 
-    'LBL_EMAIL_SELECT' => 'Ընտրել',
+    'LBL_EMAIL_SELECT' => 'Select',
 
-    'LBL_EMAIL_SEND' => 'Ուղարկել',
+    'LBL_EMAIL_SEND' => 'Send',
     'LBL_EMAIL_SENDING_EMAIL' => 'Էլ-փոստի ուղարկում',
 
     'LBL_EMAIL_SETTINGS' => 'Կարգավորումներ',
@@ -1437,7 +1437,7 @@ Text for Translation
     'LBL_SMTPTYPE_GMAIL' => 'Gmail',
     'LBL_SMTPTYPE_YAHOO' => 'Yahoo Փոստ',
     'LBL_SMTPTYPE_EXCHANGE' => 'Microsoft Exchange',
-    'LBL_SMTPTYPE_OTHER' => 'Այլ',
+    'LBL_SMTPTYPE_OTHER' => 'Other',
     'LBL_EMAIL_SPACER_MAIL_SERVER' => '[ Հեռացված թղթապանակներ ]',
     'LBL_EMAIL_SPACER_LOCAL_FOLDER' => '[ SuiteCRM Պանակներ ]',
     'LBL_EMAIL_SUBJECT' => 'Թեմա',
@@ -1446,22 +1446,22 @@ Text for Translation
     'LBL_EMAIL_TEMPLATE_EDIT_PLAIN_TEXT' => 'Էլ-նամակի ձևանմուշը դատարկ է',
     'LBL_EMAIL_TEMPLATES' => 'Ձևանմուշներ',
     'LBL_EMAIL_TO' => 'Ում',
-    'LBL_EMAIL_VIEW' => 'Դիտում',
+    'LBL_EMAIL_VIEW' => 'View',
     'LBL_EMAIL_VIEW_HEADERS' => 'Ցուցադրման վերնագրեր',
     'LBL_EMAIL_VIEW_RAW' => 'Ցուցադրել չմշակված էլ-նամակի տեքստը',
     'LBL_EMAIL_VIEW_UNSUPPORTED' => 'Այս հատկությունը չի աջակցվում, երբ օգտագործվում է POP3:',
     'LBL_DEFAULT_LINK_TEXT' => 'Լռելյայն հղման տեքստ․',
-    'LBL_EMAIL_YES' => 'Այո',
+    'LBL_EMAIL_YES' => 'Yes',
     'LBL_EMAIL_TEST_OUTBOUND_SETTINGS' => 'Փորձնական էլեկտրոնային նամակի ուղարկում',
     'LBL_EMAIL_TEST_OUTBOUND_SETTINGS_SENT' => 'Թեստային էլ-նամակը ուղարկված է',
     'LBL_EMAIL_MESSAGE_NO' => 'Ուղերձ՝',
     'LBL_EMAIL_IMPORT_SUCCESS' => 'Ներմուծումը բարեհաջող կատարվել է',
     'LBL_EMAIL_IMPORT_FAIL' => 'Ներմուծումը ձախողվեց, որովհետև հաղորդագրությունը կամ արդեն ներմուծված է եղել կամ ջնջվել է սերվերից',
 
-    'LBL_LINK_NONE' => 'Ոչ ոք',
+    'LBL_LINK_NONE' => 'None',
     'LBL_LINK_ALL' => 'Բոլորը',
     'LBL_LINK_RECORDS' => 'Գրառումներ',
-    'LBL_LINK_SELECT' => 'Ընտրել',
+    'LBL_LINK_SELECT' => 'Select',
     'LBL_LINK_ACTIONS' => 'ACTIONS',
     'LBL_CLOSE_ACTIVITY_HEADER' => 'Հաստատել',
     'LBL_CLOSE_ACTIVITY_CONFIRM' => 'Ցանկանո՞ւմ եք փակել այս #մոդուլը#:',
@@ -1495,13 +1495,13 @@ Text for Translation
     'ERR_DB_FAIL' => 'Database failure. Please refer to suitecrm.log for details.',
     'ERR_DB_VERSION' => 'SuiteCRM {0} Files May Only Be Used With A SuiteCRM {1} Database.',
 
-    'LBL_ACCOUNT' => 'Հաշիվ',
+    'LBL_ACCOUNT' => 'Account',
     'LBL_ACCOUNTS' => 'Հաշիվներ',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Գործունեություն',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_ACCUMULATED_HISTORY_BUTTON_KEY' => 'H',
     'LBL_ACCUMULATED_HISTORY_BUTTON_LABEL' => 'Դիտել ամփոփումը',
-    'LBL_ACCUMULATED_HISTORY_BUTTON_TITLE' => 'Դիտել ամփոփումը',
-    'LBL_ADD_BUTTON' => 'Ավելացնել',
+    'LBL_ACCUMULATED_HISTORY_BUTTON_TITLE' => 'View Summary',
+    'LBL_ADD_BUTTON' => 'Add',
     'LBL_ADD_DOCUMENT' => 'Ավելացնել փաստաթուղթ',
     'LBL_ADD_TO_PROSPECT_LIST_BUTTON_KEY' => 'L',
     'LBL_ADD_TO_PROSPECT_LIST_BUTTON_LABEL' => 'Ավելացնել թիրախների ցուցակին',
@@ -1512,58 +1512,58 @@ Text for Translation
     'LBL_ALT_HOT_KEY' => '',
     'LBL_ARCHIVE' => 'Պահոց',
     'LBL_ASSIGNED_TO_USER' => 'Պատասխանատու',
-    'LBL_ASSIGNED_TO' => 'Կատարող',
-    'LBL_BACK' => 'Վերադարձ',
+    'LBL_ASSIGNED_TO' => 'Assigned to:',
+    'LBL_BACK' => 'Back',
     'LBL_BILLING_ADDRESS' => 'Վճարման հասցե',
     'LBL_QUICK_CREATE' => 'Ստեղծել',
     'LBL_BROWSER_TITLE' => 'SuiteCRM - Բաց կոդով CRM',
-    'LBL_BUGS' => 'Վրիպումներ',
+    'LBL_BUGS' => 'Bugs',
     'LBL_BY' => 'համար',
-    'LBL_CALLS' => 'Զանգեր',
+    'LBL_CALLS' => 'Calls',
     'LBL_CAMPAIGNS_SEND_QUEUED' => 'Ուղարկել հերթով արշավի Էլ․նամակները',
     'LBL_SUBMIT_BUTTON_LABEL' => 'Ուղարկել',
-    'LBL_CASE' => 'Գործ',
-    'LBL_CASES' => 'Գործեր',
+    'LBL_CASE' => 'Case',
+    'LBL_CASES' => 'Cases',
     'LBL_CHANGE_PASSWORD' => 'Փոխել Գաղտնաբառը',
     'LBL_CHARSET' => 'UTF-8',
     'LBL_CHECKALL' => 'Ընտրել բոլորը',
-    'LBL_CITY' => 'Քաղաք',
-    'LBL_CLEAR_BUTTON_LABEL' => 'Մաքրել',
-    'LBL_CLEAR_BUTTON_TITLE' => 'Մաքրել',
+    'LBL_CITY' => 'City',
+    'LBL_CLEAR_BUTTON_LABEL' => 'Clear',
+    'LBL_CLEAR_BUTTON_TITLE' => 'Clear',
     'LBL_CLEARALL' => 'Մաքրել ամբողջը',
-    'LBL_CLOSE_BUTTON_TITLE' => 'Փակել',
+    'LBL_CLOSE_BUTTON_TITLE' => 'Close',
     'LBL_CLOSE_AND_CREATE_BUTTON_LABEL' => 'Փակել և ստեղծել նորը',
-    'LBL_CLOSE_AND_CREATE_BUTTON_TITLE' => 'Փակել և ստեղծել նորը',
+    'LBL_CLOSE_AND_CREATE_BUTTON_TITLE' => 'Close and Create New',
     'LBL_CLOSE_AND_CREATE_BUTTON_KEY' => 'C',
     'LBL_OPEN_ITEMS' => 'Open Items:',
     'LBL_COMPOSE_EMAIL_BUTTON_KEY' => 'L',
     'LBL_COMPOSE_EMAIL_BUTTON_LABEL' => 'Ստեղծել էլ-նամակ',
-    'LBL_COMPOSE_EMAIL_BUTTON_TITLE' => 'Ստեղծել էլ-նամակ',
-    'LBL_SEARCH_DROPDOWN_YES' => 'Այո',
-    'LBL_SEARCH_DROPDOWN_NO' => 'Ոչ',
+    'LBL_COMPOSE_EMAIL_BUTTON_TITLE' => 'Compose Email',
+    'LBL_SEARCH_DROPDOWN_YES' => 'Yes',
+    'LBL_SEARCH_DROPDOWN_NO' => 'No',
     'LBL_CONTACT_LIST' => 'Կոնտակտների ցուցակ',
-    'LBL_CONTACT' => 'Կոնտակտ',
-    'LBL_CONTACTS' => 'Կոնտակտներ',
-    'LBL_CONTRACT' => 'Պայմանագիր',
-    'LBL_CONTRACTS' => 'Պայմանագրեր',
-    'LBL_COUNTRY' => 'Երկիր:',
+    'LBL_CONTACT' => 'Contact',
+    'LBL_CONTACTS' => 'Contacts',
+    'LBL_CONTRACT' => 'Contract',
+    'LBL_CONTRACTS' => 'Contracts',
+    'LBL_COUNTRY' => 'Country:',
     'LBL_CREATE_BUTTON_LABEL' => 'Ստեղծել',
-    'LBL_CREATED_BY_USER' => 'Փոփոխված է օգտագործողի կողմից ',
-    'LBL_CREATED_USER' => 'Փոփոխված է օգտագործողի կողմից ',
+    'LBL_CREATED_BY_USER' => 'Created by User',
+    'LBL_CREATED_USER' => 'Created by User',
     'LBL_CREATED' => 'Ստեղծված է․',
     'LBL_CURRENT_USER_FILTER' => 'My Items:',
-    'LBL_CURRENCY' => 'Արտարժույթ․',
-    'LBL_DOCUMENTS' => 'Փաստաթղթեր',
-    'LBL_DATE_ENTERED' => 'Ստեղծման ամսաթիվ',
-    'LBL_DATE_MODIFIED' => 'Փոփոխման ամսաթիվ',
-    'LBL_EDIT_BUTTON' => 'Խմբագրել',
-    'LBL_DUPLICATE_BUTTON' => 'Դուբլիկատ',
-    'LBL_DELETE_BUTTON' => 'Ջնջել',
-    'LBL_DELETE' => 'Ջնջել',
-    'LBL_DELETED' => 'Ջնջված է',
+    'LBL_CURRENCY' => 'Currency:',
+    'LBL_DOCUMENTS' => 'Documents',
+    'LBL_DATE_ENTERED' => 'Date Created:',
+    'LBL_DATE_MODIFIED' => 'Date Modified:',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_DUPLICATE_BUTTON' => 'Duplicate',
+    'LBL_DELETE_BUTTON' => 'Delete',
+    'LBL_DELETE' => 'Delete',
+    'LBL_DELETED' => 'Deleted',
     'LBL_DIRECT_REPORTS' => 'Հաշվետվություններ',
-    'LBL_DONE_BUTTON_LABEL' => 'Պատրաստ է',
-    'LBL_DONE_BUTTON_TITLE' => 'Պատրաստ է',
+    'LBL_DONE_BUTTON_LABEL' => 'Done',
+    'LBL_DONE_BUTTON_TITLE' => 'Done',
     'LBL_FAVORITES' => 'Ընտրվածները',
     'LBL_VCARD' => 'vCard',
     'LBL_EMPTY_VCARD' => 'Խնդրում ենք ընտրել vCard ֆայլը',
@@ -1572,12 +1572,12 @@ Text for Translation
     'LBL_VCARD_ERROR_DEFAULT' => 'vCard ֆայլի վերբեռնման ժամանակ սխալ է տեղի ունեցել։ Մանրամասների համար տեղեկանալ suitecrm.log ֆայլից։',
     'LBL_IMPORT_VCARD' => 'Ներմուծել vCard',
     'LBL_IMPORT_VCARD_BUTTON_LABEL' => 'Ներմուծել vCard',
-    'LBL_IMPORT_VCARD_BUTTON_TITLE' => 'Ներմուծել vCard',
-    'LBL_VIEW_BUTTON' => 'Դիտում',
+    'LBL_IMPORT_VCARD_BUTTON_TITLE' => 'Import vCard',
+    'LBL_VIEW_BUTTON' => 'View',
     'LBL_EMAIL_PDF_BUTTON_LABEL' => 'Ուղարկել որպես PDF ֆայլ',
-    'LBL_EMAIL_PDF_BUTTON_TITLE' => 'Ուղարկել որպես PDF ֆայլ',
+    'LBL_EMAIL_PDF_BUTTON_TITLE' => 'Email as PDF',
     'LBL_EMAILS' => 'Էլ-փոստեր',
-    'LBL_EMPLOYEES' => 'Աշխատակիցներ',
+    'LBL_EMPLOYEES' => 'Employees',
     'LBL_ENTER_DATE' => 'Մուտքագրել ամսաթիվը',
     'LBL_EXPORT' => 'Արտահանել',
     'LBL_FAVORITES_FILTER' => 'My Favorites:',
@@ -1589,24 +1589,24 @@ Text for Translation
     'LBL_LAST_VIEWED' => 'Վերջին դիտումները',
     'LBL_LEADS' => 'Պոտենցիալ կլիենտներ (առաջնորդներ)',
     'LBL_LESS' => 'պակաս է',
-    'LBL_CAMPAIGN' => 'Մարքեթինգային արշավ․',
-    'LBL_CAMPAIGNS' => 'Կամպանիաներ',
+    'LBL_CAMPAIGN' => 'Campaign:',
+    'LBL_CAMPAIGNS' => 'Campaigns',
     'LBL_CAMPAIGNLOG' => 'Մարքեթ․ արշավի գրանցամատյան',
-    'LBL_CAMPAIGN_CONTACT' => 'Կամպանիաներ',
+    'LBL_CAMPAIGN_CONTACT' => 'Campaigns',
     'LBL_CAMPAIGN_ID' => 'campaign_id',
-    'LBL_CAMPAIGN_NONE' => 'Ոչ ոք',
+    'LBL_CAMPAIGN_NONE' => 'None',
     'LBL_THEME' => 'Թեմա․',
     'LBL_FOUND_IN_RELEASE' => 'Հայտնաբերվել է թողարկման մեջ',
     'LBL_FIXED_IN_RELEASE' => 'Ուղղված է թողարկման մեջ',
-    'LBL_LIST_ACCOUNT_NAME' => 'Հաշվի անվանումը',
-    'LBL_LIST_ASSIGNED_USER' => 'Օգտագործող',
+    'LBL_LIST_ACCOUNT_NAME' => 'Account Name',
+    'LBL_LIST_ASSIGNED_USER' => 'User',
     'LBL_LIST_CONTACT_NAME' => 'Կոնտակտ անվանում',
     'LBL_LIST_CONTACT_ROLE' => 'Կոնտակտի դերը',
-    'LBL_LIST_DATE_ENTERED' => 'Ստեղծման ամսաթիվ',
-    'LBL_LIST_EMAIL' => 'Էլ-փոստ',
-    'LBL_LIST_NAME' => 'Անվանում',
+    'LBL_LIST_DATE_ENTERED' => 'Date Created',
+    'LBL_LIST_EMAIL' => 'Email',
+    'LBL_LIST_NAME' => 'Name',
     'LBL_LIST_OF' => 'ից',
-    'LBL_LIST_PHONE' => 'Հեռ.',
+    'LBL_LIST_PHONE' => 'Phone',
     'LBL_LIST_RELATED_TO' => 'Առնչվում է',
     'LBL_LIST_USER_NAME' => 'Օգտագործողի անուն',
     'LBL_LISTVIEW_NO_SELECTED' => 'Խնդրում ենք ընտրել առնվազն 1 գրառում մինչև շարունակելը:',
@@ -1616,93 +1616,93 @@ Text for Translation
 
     'LBL_LOCALE_NAME_EXAMPLE_FIRST' => 'Դավիթ',
     'LBL_LOCALE_NAME_EXAMPLE_LAST' => 'Լիվինգստոուն',
-    'LBL_LOCALE_NAME_EXAMPLE_SALUTATION' => 'Դոկտոր',
+    'LBL_LOCALE_NAME_EXAMPLE_SALUTATION' => 'Dr.',
     'LBL_LOCALE_NAME_EXAMPLE_TITLE' => 'Արտակարգ աղբյուրը, կոդը',
-    'LBL_CANCEL' => 'Չեղարկել',
+    'LBL_CANCEL' => 'Cancel',
     'LBL_VERIFY' => 'Նույնականացնել',
     'LBL_RESEND' => 'Կրկին ուղարկել',
     'LBL_PROFILE' => 'Պրոֆիլ',
-    'LBL_MAILMERGE' => 'Փոստի միավորում',
+    'LBL_MAILMERGE' => 'Mail Merge',
     'LBL_MASS_UPDATE' => 'Մասսային թարմացում',
     'LBL_NO_MASS_UPDATE_FIELDS_AVAILABLE' => 'Զանգվածային թարմացման գործողությունների դաշտեր չկան',
     'LBL_OPT_OUT_FLAG_PRIMARY' => 'Չգրել հիմնական էլ-փոստին',
     'LBL_OPT_IN_FLAG_PRIMARY' => 'Opt in Primary Email',
-    'LBL_MEETINGS' => 'Հանդիպումներ',
+    'LBL_MEETINGS' => 'Meetings',
     'LBL_MEETING_GO_BACK' => 'Վերադառնալ հանդիպման',
     'LBL_MEMBERS' => 'Անդամներ',
     'LBL_MEMBER_OF' => 'Անդամ է ',
-    'LBL_MODIFIED_BY_USER' => 'Փոփոխված է օգտագործողի կողմից',
-    'LBL_MODIFIED_USER' => 'Փոփոխված է օգտագործողի կողմից',
+    'LBL_MODIFIED_BY_USER' => 'Modified by User',
+    'LBL_MODIFIED_USER' => 'Modified by User',
     'LBL_MODIFIED' => 'Փոփոխված է',
-    'LBL_MODIFIED_NAME' => 'Փոփոխված ըստ անվան',
+    'LBL_MODIFIED_NAME' => 'Modified By Name',
     'LBL_MORE' => 'Ավելին',
     'LBL_MY_ACCOUNT' => 'Իմ կարգավորումները',
-    'LBL_NAME' => 'Անվանում',
+    'LBL_NAME' => 'Name',
     'LBL_NEW_BUTTON_KEY' => 'N',
     'LBL_NEW_BUTTON_LABEL' => 'Ստեղծել',
-    'LBL_NEW_BUTTON_TITLE' => 'Ստեղծել',
-    'LBL_NEXT_BUTTON_LABEL' => 'Հաջորդ',
-    'LBL_NONE' => '--Ընտրված չէ--',
-    'LBL_NOTES' => 'Նշումներ',
-    'LBL_OPPORTUNITIES' => 'Գործարքներ',
+    'LBL_NEW_BUTTON_TITLE' => 'Create',
+    'LBL_NEXT_BUTTON_LABEL' => 'Next',
+    'LBL_NONE' => '--None--',
+    'LBL_NOTES' => 'Notes',
+    'LBL_OPPORTUNITIES' => 'Opportunities',
     'LBL_OPPORTUNITY_NAME' => 'Գործարքի անվանում',
-    'LBL_OPPORTUNITY' => 'Գործարք',
+    'LBL_OPPORTUNITY' => 'Opportunity',
     'LBL_OR' => 'կամ',
     'LBL_PANEL_OVERVIEW' => 'Հիմնական ինֆորմացիա',
     'LBL_PANEL_ASSIGNMENT' => 'ԱՅԼ',
     'LBL_PANEL_ADVANCED' => 'MORE INFORMATION',
     'LBL_PARENT_TYPE' => 'Ծնողի տեսակը',
     'LBL_PERCENTAGE_SYMBOL' => '%',
-    'LBL_POSTAL_CODE' => 'Փոստային ինդեքս',
+    'LBL_POSTAL_CODE' => 'Postal Code:',
     'LBL_PRIMARY_ADDRESS_CITY' => 'Հիմնական հասցե - քաղաք.',
-    'LBL_PRIMARY_ADDRESS_COUNTRY' => 'Հիմնական հասցե - երկիր.',
+    'LBL_PRIMARY_ADDRESS_COUNTRY' => 'Primary Address Country:',
     'LBL_PRIMARY_ADDRESS_POSTALCODE' => 'Հիմնական հասցե - ինդեքս.',
     'LBL_PRIMARY_ADDRESS_STATE' => 'Հիմնական հասցե - մարզ.',
-    'LBL_PRIMARY_ADDRESS_STREET_2' => 'Հիմնական հասցե - փողոց 2.',
-    'LBL_PRIMARY_ADDRESS_STREET_3' => 'Հիմնական հասցե - փողոց 3․',
+    'LBL_PRIMARY_ADDRESS_STREET_2' => 'Primary Address Street 2:',
+    'LBL_PRIMARY_ADDRESS_STREET_3' => 'Primary Address Street 3:',
     'LBL_PRIMARY_ADDRESS_STREET' => 'Հիմնական հասցե - փողոց.',
     'LBL_PRIMARY_ADDRESS' => 'Հիմնական հասցե․',
 
     'LBL_PROSPECTS' => 'Հեռանկարներ',
     'LBL_PRODUCTS' => 'Արտադրանք',
-    'LBL_PROJECT_TASKS' => 'Նախագծի խնդիրներ',
-    'LBL_PROJECTS' => 'Նախագծեր',
-    'LBL_QUOTES' => 'Առաջարկներ',
+    'LBL_PROJECT_TASKS' => 'Project Tasks',
+    'LBL_PROJECTS' => 'Projects',
+    'LBL_QUOTES' => 'Quotes',
 
     'LBL_RELATED' => 'Առնչվում է',
     'LBL_RELATED_RECORDS' => 'Առնչվող գրառումներ',
-    'LBL_REMOVE' => 'Հեռացնել',
+    'LBL_REMOVE' => 'Remove',
     'LBL_REPORTS_TO' => 'Հաշվետվություններ դեպի',
     'LBL_REQUIRED_SYMBOL' => '*',
     'LBL_REQUIRED_TITLE' => 'Նշել անհրաժեշտ դաշտերը',
-    'LBL_EMAIL_DONE_BUTTON_LABEL' => 'Պատրաստ է',
+    'LBL_EMAIL_DONE_BUTTON_LABEL' => 'Done',
     'LBL_FULL_FORM_BUTTON_KEY' => 'L',
     'LBL_FULL_FORM_BUTTON_LABEL' => 'Ամբողջ Ձևը',
-    'LBL_FULL_FORM_BUTTON_TITLE' => 'Ամբողջ Ձևը',
+    'LBL_FULL_FORM_BUTTON_TITLE' => 'Full Form',
     'LBL_SAVE_NEW_BUTTON_LABEL' => 'Պահպանել և ստեղծել նորը',
-    'LBL_SAVE_NEW_BUTTON_TITLE' => 'Պահպանել և ստեղծել նորը',
+    'LBL_SAVE_NEW_BUTTON_TITLE' => 'Save & Create New',
     'LBL_SAVE_OBJECT' => 'Պահպանել {0}',
     'LBL_SEARCH_BUTTON_KEY' => 'Q',
     'LBL_SEARCH_BUTTON_LABEL' => 'Որոնում',
-    'LBL_SEARCH_BUTTON_TITLE' => 'Որոնում',
-    'LBL_FILTER' => 'Որոնում',
-    'LBL_SEARCH' => 'Որոնում',
+    'LBL_SEARCH_BUTTON_TITLE' => 'Search',
+    'LBL_FILTER' => 'Filter',
+    'LBL_SEARCH' => 'Search',
     'LBL_SEARCH_ALT' => '',
     'LBL_SEARCH_MORE' => 'ավելին',
     'LBL_UPLOAD_IMAGE_FILE_INVALID' => 'Ֆայլի սխալ ֆորմատ։ Կարող են վերբեռնվեն միայն պատկերները։',
     'LBL_SELECT_BUTTON_KEY' => 'T',
-    'LBL_SELECT_BUTTON_LABEL' => 'Ընտրել',
-    'LBL_SELECT_BUTTON_TITLE' => 'Ընտրել',
+    'LBL_SELECT_BUTTON_LABEL' => 'Select',
+    'LBL_SELECT_BUTTON_TITLE' => 'Select',
     'LBL_BROWSE_DOCUMENTS_BUTTON_LABEL' => 'Փաստաթղթերի դիտում',
-    'LBL_BROWSE_DOCUMENTS_BUTTON_TITLE' => 'Փաստաթղթերի դիտում',
+    'LBL_BROWSE_DOCUMENTS_BUTTON_TITLE' => 'Browse Documents',
     'LBL_SELECT_CONTACT_BUTTON_KEY' => 'T',
     'LBL_SELECT_CONTACT_BUTTON_LABEL' => 'Ընտրել կոնտակտ',
-    'LBL_SELECT_CONTACT_BUTTON_TITLE' => 'Ընտրել կոնտակտ',
+    'LBL_SELECT_CONTACT_BUTTON_TITLE' => 'Select Contact',
     'LBL_SELECT_REPORTS_BUTTON_LABEL' => 'Ընտրել հաշվետվություններից',
     'LBL_SELECT_REPORTS_BUTTON_TITLE' => 'Ընտրել հաշվետվություններ',
     'LBL_SELECT_USER_BUTTON_KEY' => 'U',
     'LBL_SELECT_USER_BUTTON_LABEL' => 'Ընտրել օգտվողի',
-    'LBL_SELECT_USER_BUTTON_TITLE' => 'Ընտրել օգտվողի',
+    'LBL_SELECT_USER_BUTTON_TITLE' => 'Select User',
     // Clear buttons take up too many keys, lets default the relate and collection ones to be empty
     'LBL_ACCESSKEY_CLEAR_RELATE_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_RELATE_TITLE' => 'Clear Selection',
@@ -1712,20 +1712,20 @@ Text for Translation
     'LBL_ACCESSKEY_CLEAR_COLLECTION_LABEL' => 'Clear Selection',
     'LBL_ACCESSKEY_SELECT_FILE_KEY' => 'F',
     'LBL_ACCESSKEY_SELECT_FILE_TITLE' => 'Ընտրել ֆայլը',
-    'LBL_ACCESSKEY_SELECT_FILE_LABEL' => 'Ընտրել ֆայլը',
+    'LBL_ACCESSKEY_SELECT_FILE_LABEL' => 'Select File',
     'LBL_ACCESSKEY_CLEAR_FILE_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_FILE_TITLE' => 'Clear File',
     'LBL_ACCESSKEY_CLEAR_FILE_LABEL' => 'Clear File',
 
     'LBL_ACCESSKEY_SELECT_USERS_KEY' => 'U',
-    'LBL_ACCESSKEY_SELECT_USERS_TITLE' => 'Ընտրել օգտվողի',
-    'LBL_ACCESSKEY_SELECT_USERS_LABEL' => 'Ընտրել օգտվողի',
+    'LBL_ACCESSKEY_SELECT_USERS_TITLE' => 'Select User',
+    'LBL_ACCESSKEY_SELECT_USERS_LABEL' => 'Select User',
     'LBL_ACCESSKEY_CLEAR_USERS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_USERS_TITLE' => 'Ջնջել օգտվողին',
-    'LBL_ACCESSKEY_CLEAR_USERS_LABEL' => 'Ջնջել օգտվողին',
+    'LBL_ACCESSKEY_CLEAR_USERS_LABEL' => 'Clear User',
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_KEY' => 'A',
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_TITLE' => 'Ընտրել հաշիվը',
-    'LBL_ACCESSKEY_SELECT_ACCOUNTS_LABEL' => 'Ընտրել հաշիվը',
+    'LBL_ACCESSKEY_SELECT_ACCOUNTS_LABEL' => 'Select Account',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_TITLE' => 'Clear Account',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_LABEL' => 'Clear Account',
@@ -1736,8 +1736,8 @@ Text for Translation
     'LBL_ACCESSKEY_CLEAR_CAMPAIGNS_TITLE' => 'Clear Campaign',
     'LBL_ACCESSKEY_CLEAR_CAMPAIGNS_LABEL' => 'Clear Campaign',
     'LBL_ACCESSKEY_SELECT_CONTACTS_KEY' => 'C',
-    'LBL_ACCESSKEY_SELECT_CONTACTS_TITLE' => 'Ընտրել կոնտակտ',
-    'LBL_ACCESSKEY_SELECT_CONTACTS_LABEL' => 'Ընտրել կոնտակտ',
+    'LBL_ACCESSKEY_SELECT_CONTACTS_TITLE' => 'Select Contact',
+    'LBL_ACCESSKEY_SELECT_CONTACTS_LABEL' => 'Select Contact',
     'LBL_ACCESSKEY_CLEAR_CONTACTS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_CONTACTS_TITLE' => 'Clear Contact',
     'LBL_ACCESSKEY_CLEAR_CONTACTS_LABEL' => 'Clear Contact',
@@ -1758,15 +1758,15 @@ Text for Translation
     'LBL_SHOW' => 'Ցուցադրում',
     'LBL_STATE' => 'Մարզ',
     'LBL_STATUS_UPDATED' => 'Ձեր կարգավիճակը այս իրադարձության համար թարմացվել է:',
-    'LBL_STATUS' => 'Կարգավիճակ',
+    'LBL_STATUS' => 'Status:',
     'LBL_STREET' => 'Փողոց',
-    'LBL_SUBJECT' => 'Թեմա',
+    'LBL_SUBJECT' => 'Subject',
 
     'LBL_INBOUNDEMAIL_ID' => 'Մտից էլ-փոստի ID',
 
-    'LBL_SCENARIO_SALES' => 'Գործարքներ',
-    'LBL_SCENARIO_MARKETING' => 'Մարքեթինգ',
-    'LBL_SCENARIO_FINANCE' => 'Ֆինանսներ',
+    'LBL_SCENARIO_SALES' => 'Sales',
+    'LBL_SCENARIO_MARKETING' => 'Marketing',
+    'LBL_SCENARIO_FINANCE' => 'Finance',
     'LBL_SCENARIO_SERVICE' => 'Սպասարկում',
     'LBL_SCENARIO_PROJECT' => 'Նախագծի կառավարում',
 
@@ -1776,26 +1776,26 @@ Text for Translation
     'LBL_SCENARIO_SERVICE_DESCRIPTION' => 'This scenario facilitates the management of service related items',
     'LBL_SCENARIO_PROJECT_DESCRIPTION' => 'This scenario facilitates the management of project related items',
 
-    'LBL_SYNC' => 'Սինքրոնացում',
-    'LBL_TABGROUP_ALL' => 'Բոլորը',
-    'LBL_TABGROUP_ACTIVITIES' => 'Գործունեություն',
+    'LBL_SYNC' => 'Sync',
+    'LBL_TABGROUP_ALL' => 'All',
+    'LBL_TABGROUP_ACTIVITIES' => 'Activities',
     'LBL_TABGROUP_COLLABORATION' => 'Գործակցություն',
-    'LBL_TABGROUP_MARKETING' => 'Մարքեթինգ',
-    'LBL_TABGROUP_OTHER' => 'Այլ',
-    'LBL_TABGROUP_SALES' => 'Գործարքներ',
+    'LBL_TABGROUP_MARKETING' => 'Marketing',
+    'LBL_TABGROUP_OTHER' => 'Other',
+    'LBL_TABGROUP_SALES' => 'Sales',
     'LBL_TABGROUP_SUPPORT' => 'Ապահովում',
-    'LBL_TASKS' => 'Խնդիրներ',
+    'LBL_TASKS' => 'Tasks',
     'LBL_THOUSANDS_SYMBOL' => 'K',
     'LBL_TRACK_EMAIL_BUTTON_LABEL' => 'Արխիվացնել E-mail ',
-    'LBL_TRACK_EMAIL_BUTTON_TITLE' => 'Արխիվացնել E-mail ',
+    'LBL_TRACK_EMAIL_BUTTON_TITLE' => 'Archive Email',
     'LBL_UNDELETE_BUTTON_LABEL' => 'Վերականգնել',
-    'LBL_UNDELETE_BUTTON_TITLE' => 'Վերականգնել',
-    'LBL_UNDELETE_BUTTON' => 'Վերականգնել',
-    'LBL_UNDELETE' => 'Վերականգնել',
+    'LBL_UNDELETE_BUTTON_TITLE' => 'Undelete',
+    'LBL_UNDELETE_BUTTON' => 'Undelete',
+    'LBL_UNDELETE' => 'Undelete',
     'LBL_UNSYNC' => 'Անսինքրոնացում',
     'LBL_UPDATE' => 'Թարմացնել',
     'LBL_USER_LIST' => 'Օգտագործողների ցուցակ',
-    'LBL_USERS' => 'Օգտագործողներ',
+    'LBL_USERS' => 'Users',
     'LBL_VERIFY_EMAIL_ADDRESS' => 'Էլ-փոստի հասցեի ստուգում․․․',
     'LBL_VERIFY_PORTAL_NAME' => 'Առկա պորտալի անվանման ստուգում...',
     'LBL_VIEW_IMAGE' => 'տեսք',
@@ -1806,25 +1806,25 @@ Text for Translation
     'LBL_ADVANCED_SEARCH' => 'Advanced Filter',
     'LBL_QUICK_FILTER' => 'Quick Filter',
     'LNK_SEARCH_NONFTS_VIEW_ALL' => 'Ցույց տալ ամբողջը',
-    'LNK_CLOSE' => 'Փակել',
+    'LNK_CLOSE' => 'Close',
     'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
     'LNK_SAVED_VIEWS' => 'Նախագծի ընտրանքներ',
-    'LNK_DELETE' => 'Ջնջել',
-    'LNK_EDIT' => 'Խմբագրել',
+    'LNK_DELETE' => 'Delete',
+    'LNK_EDIT' => 'Edit',
     'LNK_GET_LATEST' => 'Ստանալ վերջին տարբերակը',
     'LNK_GET_LATEST_TOOLTIP' => 'Փոխարինել վերջին տարբերակով',
-    'LNK_HELP' => 'Օգնություն',
-    'LNK_CREATE' => 'Ստեղծել',
+    'LNK_HELP' => 'Help',
+    'LNK_CREATE' => 'Create',
     'LNK_LIST_END' => 'Ավարտել',
-    'LNK_LIST_NEXT' => 'Հաջորդ',
+    'LNK_LIST_NEXT' => 'Next',
     'LNK_LIST_PREVIOUS' => 'Նախորդ',
     'LNK_LIST_RETURN' => 'Վերադառնալ ցուցակին',
     'LNK_LIST_START' => 'Մեկնարկ',
     'LNK_LOAD_SIGNED' => 'Ստորագրություն',
     'LNK_LOAD_SIGNED_TOOLTIP' => 'Փոխարինել ստորագրված փաստաթղթով',
-    'LNK_PRINT' => 'Տպել',
+    'LNK_PRINT' => 'Print',
     'LNK_BACKTOTOP' => 'Վերադառնալ սկիզբ',
-    'LNK_REMOVE' => 'Հեռացնել',
+    'LNK_REMOVE' => 'Remove',
     'LNK_RESUME' => 'Շարունակել',
     'LNK_VIEW_CHANGE_LOG' => 'Դիտել փոփոխությունների գրամատյանը',
 
@@ -1833,14 +1833,14 @@ Text for Translation
     'NTC_DELETE_CONFIRMATION_MULTIPLE' => 'Դուք համոզվա՞ծ եք, որ ցանկանում եք ջնջել այս գրառումը(ները)։',
     'NTC_TEMPLATE_IS_USED' => 'Տվյալ ձևանմուշը օգտագործվում է առնվազն մեկ էլ-փոստառաքման համար։ Դուք համոզվա՞ծ եք, որ ցանկանում եք ջնջել այն։',
     'NTC_TEMPLATES_IS_USED' => 'The following templates are used in email marketing records. Are you sure you want to delete them?' . PHP_EOL,
-    'NTC_DELETE_CONFIRMATION' => 'Դուք համոզվա՞ծ եք, որ ցանկանում եք ջնջել այս գրառումը։',
+    'NTC_DELETE_CONFIRMATION' => 'Are you sure you want to delete this record?',
     'NTC_DELETE_CONFIRMATION_NUM' => 'Դուք համոզված եք, որ ուզում եք ջնջել այս',
     'NTC_UPDATE_CONFIRMATION_NUM' => 'Դուք համոզված եք, որ ուզում եք թարմացնել',
     'NTC_DELETE_SELECTED_RECORDS' => 'Ընտրված գրանցում(ներ)?',
     'NTC_LOGIN_MESSAGE' => 'Խնդրում ենք մուտքագրել Ձեր մուտքանունը և գաղտնաբառը։',
-    'NTC_NO_ITEMS_DISPLAY' => 'ոչինչ',
+    'NTC_NO_ITEMS_DISPLAY' => 'none',
     'NTC_REMOVE_CONFIRMATION' => 'Դուք համոզվա՞ծ եք, որ ցանկանում եք հեռացնել այս հարաբերությունը: Հարաբերությունները հեռացնելու դեպքում տվյալները չեն ջնջվում։',
-    'NTC_REQUIRED' => 'Նշել անհրաժեշտ դաշտերը',
+    'NTC_REQUIRED' => 'Indicates required field',
     'NTC_TIME_FORMAT' => '(24:00)',
     'NTC_WELCOME' => 'Բարի գալուստ',
     'NTC_YEAR_FORMAT' => '(տտտտ)',
@@ -1854,7 +1854,7 @@ Text for Translation
     'LBL_MANAGE_SUBSCRIPTIONS' => 'Կառավարել բաժանորդագրությունները',
     'LBL_MANAGE_SUBSCRIPTIONS_FOR' => 'Կառավարել բաժանորդագրությունները ',
     // Ajax status strings
-    'LBL_LOADING' => 'Բեռնում ․․․․․',
+    'LBL_LOADING' => 'Loading...',
     'LBL_SEARCHING' => 'Searching...',
     'LBL_SAVING_LAYOUT' => 'Մակետի պահպանումը․․․',
     'LBL_SAVED_LAYOUT' => 'Մակետը պահպանվել է։',
@@ -1865,7 +1865,7 @@ Text for Translation
     'LBL_SEARCH_CRITERIA' => 'Search Criteria',
     'LBL_SAVED_VIEWS' => 'Saved Views',
     'LBL_PROCESSING_REQUEST' => 'Մշակվում է․․․',
-    'LBL_REQUEST_PROCESSED' => 'Պատրաստ է',
+    'LBL_REQUEST_PROCESSED' => 'Done',
     'LBL_AJAX_FAILURE' => 'Ajax ձախողումը',
     'LBL_MERGE_DUPLICATES' => 'Միավորել',
     'LBL_SAVED_FILTER_SHORTCUT' => 'My Filters',
@@ -1874,17 +1874,17 @@ Text for Translation
     'LBL_LISTVIEW' => 'Ցուցակի դիտում',
     'LBL_EDITVIEW' => 'Խմբագրման դիտում',
     'LBL_BILLING_STREET' => 'Փողոց․',
-    'LBL_SHIPPING_STREET' => 'Փողոց․',
+    'LBL_SHIPPING_STREET' => 'Street:',
     'LBL_SEARCHFORM' => 'Որոնման ձև',
     'LBL_SAVED_SEARCH_ERROR' => 'Խնդրում ենք տրամադրել մի անվանում այս կարծիքի համար:',
     'LBL_DISPLAY_LOG' => 'Ցուցադրել գրանցամատյանը',
-    'ERROR_JS_ALERT_SYSTEM_CLASS' => 'Համակարգ',
+    'ERROR_JS_ALERT_SYSTEM_CLASS' => 'System',
     'ERROR_JS_ALERT_TIMEOUT_TITLE' => 'Նիստի տևողությունը',
     'ERROR_JS_ALERT_TIMEOUT_MSG_1' => 'Ձեր ժամանակը կսպառվի 2 րոպեից: Խնդրում ենք պահպանել Ձեր աշխատանքը:',
     'ERROR_JS_ALERT_TIMEOUT_MSG_2' => 'Ձեր ժամանակը սպառվել է:',
     'MSG_JS_ALERT_MTG_REMINDER_AGENDA' => "\nAgenda: ",
-    'MSG_JS_ALERT_MTG_REMINDER_MEETING' => 'Հանդիպում',
-    'MSG_JS_ALERT_MTG_REMINDER_CALL' => 'Հեռախոսազանգ',
+    'MSG_JS_ALERT_MTG_REMINDER_MEETING' => 'Meeting',
+    'MSG_JS_ALERT_MTG_REMINDER_CALL' => 'Call',
     'MSG_JS_ALERT_MTG_REMINDER_TIME' => 'Ժամանակ․ ',
     'MSG_JS_ALERT_MTG_REMINDER_LOC' => 'Տեղանք.',
     'MSG_JS_ALERT_MTG_REMINDER_DESC' => 'Նկարագրություն.',
@@ -1906,7 +1906,7 @@ Text for Translation
     // contextMenu strings
     'LBL_ADD_TO_FAVORITES' => 'Ավելացնել նախընտրելիներին',
     'LBL_CREATE_CONTACT' => 'Ստեղծել կոնտակտ',
-    'LBL_CREATE_CASE' => 'Ստեղծել գործ',
+    'LBL_CREATE_CASE' => 'Create Case',
     'LBL_CREATE_NOTE' => 'Ստեղծել նշում',
     'LBL_CREATE_OPPORTUNITY' => 'Ստեղծել գործարք',
     'LBL_SCHEDULE_CALL' => 'Նշանակել զանգ',
@@ -1926,7 +1926,7 @@ Text for Translation
     'LBL_ADD_ALL_LEAD_FIELDS' => 'Ավելացնել բոլոր դաշտերը',
     'LBL_RESET_ALL_LEAD_FIELDS' => 'Ջնջել բոլոր դաշտերը',
     'LBL_REMOVE_ALL_LEAD_FIELDS' => 'Ջնջել բոլոր դաշտերը',
-    'LBL_NEXT_BTN' => 'Հաջորդ',
+    'LBL_NEXT_BTN' => 'Next',
     'LBL_ONLY_IMAGE_ATTACHMENT' => 'Միայն հետևյալ ֆայլի տեսակները կարող են կցված լինել՝ JPG, PNG։',
     'LBL_TRAINING' => 'Support Forum',
     'ERR_MSSQL_DB_CONTEXT' => 'Փոփոխված տվյալների բազայի ենթատեքստ',
@@ -1939,10 +1939,10 @@ Text for Translation
     'ERR_SMARTY_UNEQUAL_RELATED_FIELD_PARAMETERS' => 'Սխալ է։ Գոյություն ունի անհավասար թվով "բանալի" և "պատճեն" տարրերի displayParams զանգված։',
 
     /* MySugar Framework (for Home and Dashboard) */
-    'LBL_DASHLET_CONFIGURE_GENERAL' => 'Գլխավոր',
+    'LBL_DASHLET_CONFIGURE_GENERAL' => 'General',
     'LBL_DASHLET_CONFIGURE_FILTERS' => 'Ֆիլտրեր',
     'LBL_DASHLET_CONFIGURE_MY_ITEMS_ONLY' => 'Միայն իմ գործերը',
-    'LBL_DASHLET_CONFIGURE_TITLE' => 'Վերնագիր',
+    'LBL_DASHLET_CONFIGURE_TITLE' => 'Title',
     'LBL_DASHLET_CONFIGURE_DISPLAY_ROWS' => 'Տողերի ցուցադրում',
 
     // MySugar status strings
@@ -1961,14 +1961,14 @@ Text for Translation
 
     'LBL_RELOAD_PAGE' => 'Խնդրում ենք <a href="javascript: window.location.reload()">վերբեռնել այս պատուհանը</a> SuiteCRM Dashlet-ը օգտագործելու համար։',
     'LBL_ADD_DASHLETS' => 'Ավելացնել դաշլետներ',
-    'LBL_CLOSE_DASHLETS' => 'Փակել',
-    'LBL_OPTIONS' => 'Պարամետրեր',
+    'LBL_CLOSE_DASHLETS' => 'Close',
+    'LBL_OPTIONS' => 'Options',
     'LBL_1_COLUMN' => '1 սյունակ',
     'LBL_2_COLUMN' => '2 սյունակ',
     'LBL_3_COLUMN' => '3 սյունակ',
     'LBL_PAGE_NAME' => 'Էջի անվանումը',
 
-    'LBL_SEARCH_RESULTS' => 'Որոնման արդնուքներ',
+    'LBL_SEARCH_RESULTS' => 'Search Results',
     'LBL_SEARCH_MODULES' => 'Մոդուլներ',
     'LBL_SEARCH_TOOLS' => 'Գործիքներ',
     'LBL_SEARCH_HELP_TITLE' => 'Որոնել խորհուրդներ',
@@ -2023,7 +2023,7 @@ Text for Translation
     'LBL_CHOOSE_START_AND_END_ENTRIES' => 'Խնդրում ենք նշել դիապազոնի սկզբնական և վերջնական ամսաթիվը',
 
     //jchi #  20776
-    'LBL_DROPDOWN_LIST_ALL' => 'Բոլորը',
+    'LBL_DROPDOWN_LIST_ALL' => 'All',
 
     //Connector
     'ERR_CONNECTOR_FILL_BEANS_SIZE_MISMATCH' => 'Սխալ։ Ցուցակի պարամետրերը չեն համապատասխանում արդյունքների ցուցակին:',
@@ -2034,13 +2034,13 @@ Text for Translation
     'LBL_FASTCGI_LOGGING' => 'IIS/FastCGI sapi օպտիմալ օգտագործման համար, տեղադրեք fastcgi.logging պարամետրը php.ini ֆայլի մեջ, որը հավասար է 0։',
 
     //Collection Field
-    'LBL_COLLECTION_NAME' => 'Անվանում',
-    'LBL_COLLECTION_PRIMARY' => 'Հիմնական',
+    'LBL_COLLECTION_NAME' => 'Name',
+    'LBL_COLLECTION_PRIMARY' => 'Primary',
     'ERROR_MISSING_COLLECTION_SELECTION' => 'Empty required field',
 
     //MB -Fixed Bug #32812 -Max
-    'LBL_ASSIGNED_TO_NAME' => 'Կատարող',
-    'LBL_DESCRIPTION' => 'Նկարագրություն',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
+    'LBL_DESCRIPTION' => 'Description',
 
     'LBL_YESTERDAY' => 'երեկ',
     'LBL_TODAY' => 'այսօր',
@@ -2056,8 +2056,8 @@ Text for Translation
     'LBL_NEXT_YEAR' => 'հաջորդ տարի',
 
     //Datetimecombo fields
-    'LBL_HOURS' => 'Ժամ',
-    'LBL_MINUTES' => 'Րոպե',
+    'LBL_HOURS' => 'Hours',
+    'LBL_MINUTES' => 'Minutes',
     'LBL_MERIDIEM' => 'Կեսօրից',
     'LBL_DATE' => 'Ամսաթիվ',
     'LBL_DASHLET_CONFIGURE_AUTOREFRESH' => 'Ավտո-թարմացում',
@@ -2109,7 +2109,7 @@ Text for Translation
     'LBL_NOTIFICATIONS_NONE' => 'Ծանուցումները բացակայում են',
     'LBL_ALT_SORT_DESC' => 'Սորտավորում նվազման կարգով',
     'LBL_ALT_SORT_ASC' => 'Տեսակավորված է աճման կարգով',
-    'LBL_ALT_SORT' => 'Սորտավորում',
+    'LBL_ALT_SORT' => 'Sort',
     'LBL_ALT_SHOW_OPTIONS' => 'Ցուցադրել ընտրանքները',
     'LBL_ALT_HIDE_OPTIONS' => 'Թաքցնել ընտրանքները',
     'LBL_ALT_MOVE_COLUMN_LEFT' => 'Տեղափոխել ընտրված միավորը դեպի ձախ սյունակը',
@@ -2135,22 +2135,22 @@ Text for Translation
 
     //508 used Access Keys
     'LBL_EDIT_BUTTON_KEY' => 'i',
-    'LBL_EDIT_BUTTON_LABEL' => 'Խմբագրել',
-    'LBL_EDIT_BUTTON_TITLE' => 'Խմբագրել',
+    'LBL_EDIT_BUTTON_LABEL' => 'Edit',
+    'LBL_EDIT_BUTTON_TITLE' => 'Edit',
     'LBL_DUPLICATE_BUTTON_KEY' => 'u',
-    'LBL_DUPLICATE_BUTTON_LABEL' => 'Դուբլիկատ',
-    'LBL_DUPLICATE_BUTTON_TITLE' => 'Դուբլիկատ',
+    'LBL_DUPLICATE_BUTTON_LABEL' => 'Duplicate',
+    'LBL_DUPLICATE_BUTTON_TITLE' => 'Duplicate',
     'LBL_DELETE_BUTTON_KEY' => 'd',
-    'LBL_DELETE_BUTTON_LABEL' => 'Ջնջել',
-    'LBL_DELETE_BUTTON_TITLE' => 'Ջնջել',
+    'LBL_DELETE_BUTTON_LABEL' => 'Delete',
+    'LBL_DELETE_BUTTON_TITLE' => 'Delete',
     'LBL_BULK_ACTION_BUTTON_LABEL' => 'BULK ACTION',
     'LBL_BULK_ACTION_BUTTON_LABEL_MOBILE' => 'Գործողություն',
     'LBL_SAVE_BUTTON_KEY' => 'a',
-    'LBL_SAVE_BUTTON_LABEL' => 'Պահպանել',
-    'LBL_SAVE_BUTTON_TITLE' => 'Պահպանել',
+    'LBL_SAVE_BUTTON_LABEL' => 'Save',
+    'LBL_SAVE_BUTTON_TITLE' => 'Save',
     'LBL_CANCEL_BUTTON_KEY' => 'l',
-    'LBL_CANCEL_BUTTON_LABEL' => 'Չեղարկել',
-    'LBL_CANCEL_BUTTON_TITLE' => 'Չեղարկել',
+    'LBL_CANCEL_BUTTON_LABEL' => 'Cancel',
+    'LBL_CANCEL_BUTTON_TITLE' => 'Cancel',
     'LBL_FIRST_INPUT_EDIT_VIEW_KEY' => '7',
     'LBL_ADV_SEARCH_LNK_KEY' => '8',
     'LBL_FIRST_INPUT_SEARCH_KEY' => '9',
@@ -2158,11 +2158,11 @@ Text for Translation
     'ERR_CONNECTOR_NOT_ARRAY' => 'Միակցիչի զանգվածը {0} ճիշտ չէ սահմանված կամ դատարկ է, և չի կարող օգտագործվել:',
     'ERR_SUHOSIN' => 'Բեռնումը արգելափակվել է Suhosin մոդուլով, պետք է ավելացնել &quot;upload&quot; suhosin.executor.include.whitelist տարբերակի մեջ (նկարագրված է մանրամասն suitecrm.log ֆայլի մեջ)',
     'ERR_BAD_RESPONSE_FROM_SERVER' => 'Սերվերի ոչ կոռեկտ պատասխան',
-    'LBL_ACCOUNT_PRODUCT_QUOTE_LINK' => 'Առաջարկ',
+    'LBL_ACCOUNT_PRODUCT_QUOTE_LINK' => 'Quote',
     'LBL_ACCOUNT_PRODUCT_SALE_PRICE' => 'Վաճառքի գին',
     'LBL_EMAIL_CHECK_INTERVAL_DOM' => array(
         '-1' => 'Ձեռքով',
-        '5' => '5 րոպեն մեկ',
+        '5' => 'Every 5 minutes',
         '15' => '15 րոպեն մեկ',
         '30' => '30 րոպեն մեկ',
         '60' => 'Ամեն ժամ',
@@ -2182,10 +2182,10 @@ Text for Translation
     'LBL_HIDDEN' => 'Hidden',
     'ERR_EMPTY_COLUMNS_LIST' => 'Նվազագույնը մեկ տարրը պարտադիր է',
 
-    'LBL_FILTER_HEADER_TITLE' => 'Որոնում',
+    'LBL_FILTER_HEADER_TITLE' => 'Filter',
 
-    'LBL_CATEGORY' => 'Կատեգորիա',
-    'LBL_LIST_CATEGORY' => 'Կատեգորիա',
+    'LBL_CATEGORY' => 'Category',
+    'LBL_LIST_CATEGORY' => 'Category',
     'ERR_FACTOR_TPL_INVALID' => 'Factor Authentication message is invalid, please contact to your administrator.',
     'LBL_SUBTHEMES' => 'Style',
     'LBL_SUBTHEME_OPTIONS_DAWN' => 'Dawn',
@@ -2214,7 +2214,7 @@ Text for Translation
     'LBL_PRIMARY_GROUP' => "Հիմնական խումբ",
 
     // footer
-    'LBL_SUITE_TOP' => 'Վերադառնալ սկիզբ',
+    'LBL_SUITE_TOP' => 'Back to top',
     'LBL_SUITE_SUPERCHARGED' => 'Հասել է բարձրագույն արտադրողականության SuiteCRM կողմից',
     'LBL_SUITE_POWERED_BY' => 'Ապահովվում է SugarCRM կողմից',
     'LBL_SUITE_DESC1' => 'SuiteCRM has been written and assembled by <a href="https://suitecrm.com/">SuiteCRM Ltd</a>. The Program is provided AS IS, without warranty. Licensed under AGPLv3.',
@@ -2230,19 +2230,19 @@ Text for Translation
 );
 
 $app_list_strings['moduleList']['Library'] = 'Գրադարան';
-$app_list_strings['moduleList']['EmailAddresses'] = 'էլ-փոստի հասցե';
-$app_list_strings['project_priority_default'] = 'Միջին';
+$app_list_strings['moduleList']['EmailAddresses'] = 'Email Address';
+$app_list_strings['project_priority_default'] = 'Medium';
 $app_list_strings['project_priority_options'] = array(
-    'High' => 'Բարձր',
-    'Medium' => 'Միջին',
-    'Low' => 'Ցածր',
+    'High' => 'High',
+    'Medium' => 'Medium',
+    'Low' => 'Low',
 );
 
 //GDPR lawful basis options
 $app_list_strings['lawful_basis_dom'] = array(
     '' => '',
     'consent' => 'Consent',
-    'contract' => 'Պայմանագիր',
+    'contract' => 'Contract',
     'legal_obligation' => 'Legal obligation',
     'protection_of_interest' => 'Protection of interest',
     'public_interest' => 'Public interest',
@@ -2255,9 +2255,9 @@ $app_list_strings['lawful_basis_dom'] = array(
 $app_list_strings['lawful_basis_source_dom'] = array(
     '' => '',
     'website' => 'Վեբ-կայք',
-    'phone' => 'Հեռ.',
+    'phone' => 'Phone',
     'given_to_user' => 'Given to User',
-    'email' => 'Էլ-փոստ',
+    'email' => 'Email',
     'third_party' => 'Third Party',
 );
 //End GDPR lawful basis source options
@@ -2426,7 +2426,7 @@ $app_list_strings['countries_dom'] = array(
     'NORFOLK ISLAND' => 'ՆՈՐՖՈԼՔ ԿՂԶԻ',
     'NORWAY' => 'ՆՈՐՎԵԳԻԱ',
     'OMAN' => 'ՕՄԱՆ',
-    'OTHER' => 'ԱՅԼ',
+    'OTHER' => 'OTHER',
     'PACIFIC ISLAND' => 'ԽԱՂԱՂ ԿՂԶԻ',
     'PAKISTAN' => 'ՊԱԿԻՍՏԱՆ',
     'PANAMA' => 'ՊԱՆԱՄԱ',
@@ -2930,35 +2930,35 @@ $app_list_strings['eapm_list_documents'] = array(
 $app_list_strings['token_status'] = array(
     1 => 'Հարցում',
     2 => 'Մուտքի իրավունք',
-    3 => 'Սխալ',
+    3 => 'Invalid',
 );
 
 $app_list_strings ['emailTemplates_type_list'] = array(
     '' => '',
-    'campaign' => 'Մարքեթինգային արշավ',
-    'email' => 'Էլ-փոստ',
-    'event' => 'Իրադարձություն',
+    'campaign' => 'Campaign',
+    'email' => 'Email',
+    'event' => 'Event',
 );
 
 $app_list_strings ['emailTemplates_type_list_campaigns'] = array(
     '' => '',
-    'campaign' => 'Մարքեթինգային արշավ',
+    'campaign' => 'Campaign',
 );
 
 $app_list_strings ['emailTemplates_type_list_no_workflow'] = array(
     '' => '',
-    'campaign' => 'Մարքեթինգային արշավ',
-    'email' => 'Էլ-փոստ',
-    'event' => 'Իրադարձություն',
-    'system' => 'Համակարգ',
+    'campaign' => 'Campaign',
+    'email' => 'Email',
+    'event' => 'Event',
+    'system' => 'System',
 );
 
 // knowledge base
 $app_list_strings['moduleList']['AOK_KnowledgeBase'] = 'Գիտելիքների բազա';
 $app_list_strings['moduleList']['AOK_Knowledge_Base_Categories'] = 'ԳՇ - Բաժիններ';
-$app_list_strings['aok_status_list']['Draft'] = 'Սևագրություն';
-$app_list_strings['aok_status_list']['Expired'] = 'Սպառված է';
-$app_list_strings['aok_status_list']['In_Review'] = 'Վերանայվում է';
+$app_list_strings['aok_status_list']['Draft'] = 'Draft';
+$app_list_strings['aok_status_list']['Expired'] = 'Expired';
+$app_list_strings['aok_status_list']['In_Review'] = 'In Review';
 //$app_list_strings['aok_status_list']['Published'] = 'Published';
 $app_list_strings['aok_status_list']['published_private'] = 'Անձնական';
 $app_list_strings['aok_status_list']['published_public'] = 'Հանրային';
@@ -2971,8 +2971,8 @@ $app_list_strings['fp_event_invite_status_dom']['Invited'] = 'Հրավիրված
 $app_list_strings['fp_event_invite_status_dom']['Not Invited'] = 'Հրավիրված չէ';
 $app_list_strings['fp_event_invite_status_dom']['Attended'] = 'Մասնակցել է';
 $app_list_strings['fp_event_invite_status_dom']['Not Attended'] = 'Չի մասնակցել';
-$app_list_strings['fp_event_status_dom']['Accepted'] = 'Ընդունված է';
-$app_list_strings['fp_event_status_dom']['Declined'] = 'Մերժված է';
+$app_list_strings['fp_event_status_dom']['Accepted'] = 'Accepted';
+$app_list_strings['fp_event_status_dom']['Declined'] = 'Declined';
 $app_list_strings['fp_event_status_dom']['No Response'] = 'Պատասխան չկա';
 
 $app_strings['LBL_STATUS_EVENT'] = 'Հրավերի կարգավիճակ';
@@ -2995,17 +2995,17 @@ $app_list_strings['case_state_default_key'] = 'Open';
 $app_list_strings['case_state_dom'] =
     array(
         'Open' => 'Open',
-        'Closed' => 'Փակել',
+        'Closed' => 'Closed',
     );
 $app_list_strings['case_status_default_key'] = 'Open_New';
 $app_list_strings['case_status_dom'] =
     array(
-        'Open_New' => 'Նոր',
-        'Open_Assigned' => 'Կատարող',
-        'Closed_Closed' => 'Փակել',
-        'Open_Pending Input' => 'Որոշման սպասում',
-        'Closed_Rejected' => 'Մերժված է',
-        'Closed_Duplicate' => 'Դուբլիկատ',
+        'Open_New' => 'New',
+        'Open_Assigned' => 'Assigned',
+        'Closed_Closed' => 'Closed',
+        'Open_Pending Input' => 'Pending Input',
+        'Closed_Rejected' => 'Rejected',
+        'Closed_Duplicate' => 'Duplicate',
     );
 $app_list_strings['contact_portal_user_type_dom'] =
     array(
@@ -3015,8 +3015,8 @@ $app_list_strings['contact_portal_user_type_dom'] =
 $app_list_strings['dom_email_distribution_for_auto_create'] = array(
     'AOPDefault' => 'Լռելյայն համակարգ',
     'singleUser' => 'Միակ Օգտվողը',
-    'roundRobin' => 'Ողակում',
-    'leastBusy' => 'Առնվազն-զբաղված',
+    'roundRobin' => 'Round-Robin',
+    'leastBusy' => 'Least-Busy',
     'random' => 'Պատահական',
 );
 
@@ -3028,12 +3028,12 @@ $app_list_strings['moduleList']['AOR_Fields'] = 'Հաշվետվության դա
 $app_list_strings['moduleList']['AOR_Scheduled_Reports'] = 'Պլանավորված հաշվետվություններ';
 $app_list_strings['aor_operator_list']['Equal_To'] = 'Հավասար է';
 $app_list_strings['aor_operator_list']['Not_Equal_To'] = 'Հավասար չէ';
-$app_list_strings['aor_operator_list']['Greater_Than'] = 'Ավելի քան';
-$app_list_strings['aor_operator_list']['Less_Than'] = 'Պակաս քան';
+$app_list_strings['aor_operator_list']['Greater_Than'] = 'Greater Than';
+$app_list_strings['aor_operator_list']['Less_Than'] = 'Less Than';
 $app_list_strings['aor_operator_list']['Greater_Than_or_Equal_To'] = 'Ավել է կամ հավասար';
 $app_list_strings['aor_operator_list']['Less_Than_or_Equal_To'] = 'Պակաս է կամ հավասար';
-$app_list_strings['aor_operator_list']['Contains'] = 'Պարունակում է';
-$app_list_strings['aor_operator_list']['Starts_With'] = 'Սկսվում է';
+$app_list_strings['aor_operator_list']['Contains'] = 'Contains';
+$app_list_strings['aor_operator_list']['Starts_With'] = 'Starts With';
 $app_list_strings['aor_operator_list']['Ends_With'] = 'Ավարտվում է';
 $app_list_strings['aor_format_options'][''] = '';
 $app_list_strings['aor_format_options']['Y-m-d'] = 'Տարի-ամիս-օր';
@@ -3048,18 +3048,18 @@ $app_list_strings['aor_format_options']['d.m.Y'] = 'd.m.Y';
 $app_list_strings['aor_format_options']['Ymd'] = 'Տարի ամիս օր';
 $app_list_strings['aor_format_options']['Y-m'] = 'Տարի-ամիս';
 $app_list_strings['aor_format_options']['Y'] = 'Տարի';
-$app_list_strings['aor_condition_operator_list']['And'] = 'և';
-$app_list_strings['aor_condition_operator_list']['OR'] = 'կամ';
+$app_list_strings['aor_condition_operator_list']['And'] = 'And';
+$app_list_strings['aor_condition_operator_list']['OR'] = 'OR';
 $app_list_strings['aor_condition_type_list']['Value'] = 'Արժեք';
 $app_list_strings['aor_condition_type_list']['Field'] = 'դաշտ';
-$app_list_strings['aor_condition_type_list']['Date'] = 'Ամսաթիվ';
+$app_list_strings['aor_condition_type_list']['Date'] = 'Date';
 $app_list_strings['aor_condition_type_list']['Multi'] = 'Որևէ մեկը';
 $app_list_strings['aor_condition_type_list']['Period'] = 'Ժամանակաշրջան';
 $app_list_strings['aor_condition_type_list']['CurrentUserID'] = 'Ընթացիկ Օգտվող';
 $app_list_strings['aor_date_type_list'][''] = '';
-$app_list_strings['aor_date_type_list']['minute'] = 'Րոպե';
-$app_list_strings['aor_date_type_list']['hour'] = 'Ժամ';
-$app_list_strings['aor_date_type_list']['day'] = 'Օր';
+$app_list_strings['aor_date_type_list']['minute'] = 'Minutes';
+$app_list_strings['aor_date_type_list']['hour'] = 'Hours';
+$app_list_strings['aor_date_type_list']['day'] = 'Days';
 $app_list_strings['aor_date_type_list']['week'] = 'Շաբաթ';
 $app_list_strings['aor_date_type_list']['month'] = 'Ամիս';
 $app_list_strings['aor_date_type_list']['business_hours'] = 'Աշխատանքային ժամեր';
@@ -3069,8 +3069,8 @@ $app_list_strings['aor_date_operator']['now'] = '';
 $app_list_strings['aor_date_operator']['plus'] = '+';
 $app_list_strings['aor_date_operator']['minus'] = '-';
 $app_list_strings['aor_sort_operator'][''] = '';
-$app_list_strings['aor_sort_operator']['ASC'] = 'Բարձրացող';
-$app_list_strings['aor_sort_operator']['DESC'] = 'Վայրընթաց';
+$app_list_strings['aor_sort_operator']['ASC'] = 'Ascending';
+$app_list_strings['aor_sort_operator']['DESC'] = 'Descending';
 $app_list_strings['aor_function_list'][''] = '';
 $app_list_strings['aor_function_list']['COUNT'] = 'Քանակ';
 $app_list_strings['aor_function_list']['MIN'] = 'Մինիմում';
@@ -3078,32 +3078,32 @@ $app_list_strings['aor_function_list']['MAX'] = 'Մաքսիմում';
 $app_list_strings['aor_function_list']['SUM'] = 'Գումար';
 $app_list_strings['aor_function_list']['AVG'] = 'Միջինը';
 $app_list_strings['aor_total_options'][''] = '';
-$app_list_strings['aor_total_options']['COUNT'] = 'Քանակ';
-$app_list_strings['aor_total_options']['SUM'] = 'Գումար';
-$app_list_strings['aor_total_options']['AVG'] = 'Միջինը';
+$app_list_strings['aor_total_options']['COUNT'] = 'Count';
+$app_list_strings['aor_total_options']['SUM'] = 'Sum';
+$app_list_strings['aor_total_options']['AVG'] = 'Average';
 $app_list_strings['aor_chart_types']['bar'] = 'Սյունաձև գրաֆիկ';
 $app_list_strings['aor_chart_types']['line'] = 'Գծային գրաֆիկ';
 $app_list_strings['aor_chart_types']['pie'] = 'Շրջանաձև գրաֆիկ';
 $app_list_strings['aor_chart_types']['radar'] = 'Ռադարային գրաֆիկ';
 $app_list_strings['aor_chart_types']['stacked_bar'] = 'Կուտակումով դիագրամմաներ';
 $app_list_strings['aor_chart_types']['grouped_bar'] = 'Խմբավորումով դիագրամմաներ';
-$app_list_strings['aor_scheduled_report_schedule_types']['monthly'] = 'Ամսական';
-$app_list_strings['aor_scheduled_report_schedule_types']['weekly'] = 'Շաբաթական';
-$app_list_strings['aor_scheduled_report_schedule_types']['daily'] = 'Օրական';
-$app_list_strings['aor_scheduled_reports_status_dom']['active'] = 'Ակտիվ է';
-$app_list_strings['aor_scheduled_reports_status_dom']['inactive'] = 'Ակտիվ չէ';
-$app_list_strings['aor_email_type_list']['Email Address'] = 'Էլ-փոստ';
-$app_list_strings['aor_email_type_list']['Specify User'] = 'Օգտագործող';
-$app_list_strings['aor_email_type_list']['Users'] = 'Օգտագործողներ';
+$app_list_strings['aor_scheduled_report_schedule_types']['monthly'] = 'Monthly';
+$app_list_strings['aor_scheduled_report_schedule_types']['weekly'] = 'Weekly';
+$app_list_strings['aor_scheduled_report_schedule_types']['daily'] = 'Daily';
+$app_list_strings['aor_scheduled_reports_status_dom']['active'] = 'Active';
+$app_list_strings['aor_scheduled_reports_status_dom']['inactive'] = 'Inactive';
+$app_list_strings['aor_email_type_list']['Email Address'] = 'Email';
+$app_list_strings['aor_email_type_list']['Specify User'] = 'User';
+$app_list_strings['aor_email_type_list']['Users'] = 'Users';
 $app_list_strings['aor_assign_options']['all'] = 'Բոլոր Օգտվողները';
 $app_list_strings['aor_assign_options']['role'] = 'Բոլոր Օգտվողների դերերը';
 $app_list_strings['aor_assign_options']['security_group'] = 'Անվտանգության խմբի բոլոր Օգտվողները';
-$app_list_strings['date_time_period_list']['today'] = 'Այսօր';
+$app_list_strings['date_time_period_list']['today'] = 'Today';
 $app_list_strings['date_time_period_list']['yesterday'] = 'Երեկ';
 $app_list_strings['date_time_period_list']['this_week'] = 'Այս շաբաթ';
 $app_list_strings['date_time_period_list']['last_week'] = 'Անցյալ շաբաթ';
-$app_list_strings['date_time_period_list']['last_month'] = 'Անցյալ ամիս';
-$app_list_strings['date_time_period_list']['this_month'] = 'Այս ամիս';
+$app_list_strings['date_time_period_list']['last_month'] = 'Last Month';
+$app_list_strings['date_time_period_list']['this_month'] = 'This Month';
 $app_list_strings['date_time_period_list']['this_quarter'] = 'Այս եռամսյակ';
 $app_list_strings['date_time_period_list']['last_quarter'] = 'Անցյալ եռամսյակ';
 $app_list_strings['date_time_period_list']['this_year'] = 'Այս տարի';
@@ -3114,41 +3114,41 @@ $app_strings['LBL_CRON_AT'] = 'մոտ';
 $app_strings['LBL_CRON_RAW'] = 'Լրացուցիչ կարգավորումներ';
 $app_strings['LBL_CRON_MIN'] = 'ր';
 $app_strings['LBL_CRON_HOUR'] = 'Ժամ';
-$app_strings['LBL_CRON_DAY'] = 'Օր';
+$app_strings['LBL_CRON_DAY'] = 'Day';
 $app_strings['LBL_CRON_MONTH'] = 'Ամիս';
 $app_strings['LBL_CRON_DOW'] = 'Աշխատանքային օր';
-$app_strings['LBL_CRON_DAILY'] = 'Օրական';
-$app_strings['LBL_CRON_WEEKLY'] = 'Շաբաթական';
-$app_strings['LBL_CRON_MONTHLY'] = 'Ամսական';
+$app_strings['LBL_CRON_DAILY'] = 'Daily';
+$app_strings['LBL_CRON_WEEKLY'] = 'Weekly';
+$app_strings['LBL_CRON_MONTHLY'] = 'Monthly';
 
 //aos
-$app_list_strings['moduleList']['AOS_Contracts'] = 'Պայմանագրեր';
-$app_list_strings['moduleList']['AOS_Invoices'] = 'Հաշիվ-ապրանքագիր';
+$app_list_strings['moduleList']['AOS_Contracts'] = 'Contracts';
+$app_list_strings['moduleList']['AOS_Invoices'] = 'Invoices';
 $app_list_strings['moduleList']['AOS_PDF_Templates'] = 'PDF ձևանմուշներ';
 $app_list_strings['moduleList']['AOS_Product_Categories'] = 'Ապրանքներ - Բաժիններ';
-$app_list_strings['moduleList']['AOS_Products'] = 'Արտադրանք';
+$app_list_strings['moduleList']['AOS_Products'] = 'Products';
 $app_list_strings['moduleList']['AOS_Products_Quotes'] = 'Տողի նյութեր';
 $app_list_strings['moduleList']['AOS_Line_Item_Groups'] = 'Տողի տարրի խմբեր';
-$app_list_strings['moduleList']['AOS_Quotes'] = 'Առաջարկներ';
+$app_list_strings['moduleList']['AOS_Quotes'] = 'Quotes';
 $app_list_strings['aos_quotes_type_dom'][''] = '';
-$app_list_strings['aos_quotes_type_dom']['Analyst'] = 'Վերլուծաբան';
-$app_list_strings['aos_quotes_type_dom']['Competitor'] = 'Մրցակից';
-$app_list_strings['aos_quotes_type_dom']['Customer'] = 'Հաճախորդ';
-$app_list_strings['aos_quotes_type_dom']['Integrator'] = 'Ինտեգրատոր';
-$app_list_strings['aos_quotes_type_dom']['Investor'] = 'Ներդնող';
-$app_list_strings['aos_quotes_type_dom']['Partner'] = 'Գործընկեր';
-$app_list_strings['aos_quotes_type_dom']['Press'] = 'Մամուլ';
-$app_list_strings['aos_quotes_type_dom']['Prospect'] = 'Փաստեր';
-$app_list_strings['aos_quotes_type_dom']['Reseller'] = 'Վերավաճառող';
-$app_list_strings['aos_quotes_type_dom']['Other'] = 'Այլ';
+$app_list_strings['aos_quotes_type_dom']['Analyst'] = 'Analyst';
+$app_list_strings['aos_quotes_type_dom']['Competitor'] = 'Competitor';
+$app_list_strings['aos_quotes_type_dom']['Customer'] = 'Customer';
+$app_list_strings['aos_quotes_type_dom']['Integrator'] = 'Integrator';
+$app_list_strings['aos_quotes_type_dom']['Investor'] = 'Investor';
+$app_list_strings['aos_quotes_type_dom']['Partner'] = 'Partner';
+$app_list_strings['aos_quotes_type_dom']['Press'] = 'Press';
+$app_list_strings['aos_quotes_type_dom']['Prospect'] = 'Prospect';
+$app_list_strings['aos_quotes_type_dom']['Reseller'] = 'Reseller';
+$app_list_strings['aos_quotes_type_dom']['Other'] = 'Other';
 $app_list_strings['template_ddown_c_list'][''] = '';
-$app_list_strings['quote_stage_dom']['Draft'] = 'Սևագրություն';
+$app_list_strings['quote_stage_dom']['Draft'] = 'Draft';
 $app_list_strings['quote_stage_dom']['Negotiation'] = 'Բանակցություններ';
 $app_list_strings['quote_stage_dom']['Delivered'] = 'Մատակարարված';
-$app_list_strings['quote_stage_dom']['On Hold'] = 'Կասեցված';
+$app_list_strings['quote_stage_dom']['On Hold'] = 'On Hold';
 $app_list_strings['quote_stage_dom']['Confirmed'] = 'Հաստատված';
 $app_list_strings['quote_stage_dom']['Closed Accepted'] = 'Փակված ընդունված';
-$app_list_strings['quote_stage_dom']['Closed Lost'] = 'Փակված է կորուստներով';
+$app_list_strings['quote_stage_dom']['Closed Lost'] = 'Closed Lost';
 $app_list_strings['quote_stage_dom']['Closed Dead'] = 'Փակված է և բլոկավորված';
 $app_list_strings['quote_term_dom']['Net 15'] = 'Նետտո 15';
 $app_list_strings['quote_term_dom']['Net 30'] = 'Նետտո 30';
@@ -3164,16 +3164,16 @@ $app_list_strings['vat_list']['20.0'] = '20%';
 $app_list_strings['discount_list']['Percentage'] = '%';
 $app_list_strings['discount_list']['Amount'] = 'Գումար';
 $app_list_strings['aos_invoices_type_dom'][''] = '';
-$app_list_strings['aos_invoices_type_dom']['Analyst'] = 'Վերլուծաբան';
-$app_list_strings['aos_invoices_type_dom']['Competitor'] = 'Մրցակից';
-$app_list_strings['aos_invoices_type_dom']['Customer'] = 'Հաճախորդ';
-$app_list_strings['aos_invoices_type_dom']['Integrator'] = 'Ինտեգրատոր';
-$app_list_strings['aos_invoices_type_dom']['Investor'] = 'Ներդնող';
-$app_list_strings['aos_invoices_type_dom']['Partner'] = 'Գործընկեր';
-$app_list_strings['aos_invoices_type_dom']['Press'] = 'Մամուլ';
-$app_list_strings['aos_invoices_type_dom']['Prospect'] = 'Փաստեր';
-$app_list_strings['aos_invoices_type_dom']['Reseller'] = 'Վերավաճառող';
-$app_list_strings['aos_invoices_type_dom']['Other'] = 'Այլ';
+$app_list_strings['aos_invoices_type_dom']['Analyst'] = 'Analyst';
+$app_list_strings['aos_invoices_type_dom']['Competitor'] = 'Competitor';
+$app_list_strings['aos_invoices_type_dom']['Customer'] = 'Customer';
+$app_list_strings['aos_invoices_type_dom']['Integrator'] = 'Integrator';
+$app_list_strings['aos_invoices_type_dom']['Investor'] = 'Investor';
+$app_list_strings['aos_invoices_type_dom']['Partner'] = 'Partner';
+$app_list_strings['aos_invoices_type_dom']['Press'] = 'Press';
+$app_list_strings['aos_invoices_type_dom']['Prospect'] = 'Prospect';
+$app_list_strings['aos_invoices_type_dom']['Reseller'] = 'Reseller';
+$app_list_strings['aos_invoices_type_dom']['Other'] = 'Other';
 $app_list_strings['invoice_status_dom']['Paid'] = 'Վճարված է';
 $app_list_strings['invoice_status_dom']['Unpaid'] = 'Վճարված չէ';
 $app_list_strings['invoice_status_dom']['Cancelled'] = 'Չեղարկված է';
@@ -3186,19 +3186,19 @@ $app_list_strings['product_category_dom']['Laptops'] = 'Դյուրակիր հա�
 $app_list_strings['product_category_dom']['Desktops'] = 'Աշխատասեղաններ';
 $app_list_strings['product_category_dom'][''] = '';
 $app_list_strings['product_type_dom']['Good'] = 'Լավ';
-$app_list_strings['product_type_dom']['Service'] = 'Սպասարկում';
-$app_list_strings['product_quote_parent_type_dom']['AOS_Quotes'] = 'Առաջարկներ';
-$app_list_strings['product_quote_parent_type_dom']['AOS_Invoices'] = 'Հաշիվ-ապրանքագիր';
-$app_list_strings['product_quote_parent_type_dom']['AOS_Contracts'] = 'Պայմանագրեր';
-$app_list_strings['pdf_template_type_dom']['AOS_Quotes'] = 'Առաջարկներ';
-$app_list_strings['pdf_template_type_dom']['AOS_Invoices'] = 'Հաշիվ-ապրանքագիր';
-$app_list_strings['pdf_template_type_dom']['AOS_Contracts'] = 'Պայմանագրեր';
+$app_list_strings['product_type_dom']['Service'] = 'Service';
+$app_list_strings['product_quote_parent_type_dom']['AOS_Quotes'] = 'Quotes';
+$app_list_strings['product_quote_parent_type_dom']['AOS_Invoices'] = 'Invoices';
+$app_list_strings['product_quote_parent_type_dom']['AOS_Contracts'] = 'Contracts';
+$app_list_strings['pdf_template_type_dom']['AOS_Quotes'] = 'Quotes';
+$app_list_strings['pdf_template_type_dom']['AOS_Invoices'] = 'Invoices';
+$app_list_strings['pdf_template_type_dom']['AOS_Contracts'] = 'Contracts';
 $app_list_strings['pdf_template_type_dom']['Accounts'] = 'Հաշիվներ';
-$app_list_strings['pdf_template_type_dom']['Contacts'] = 'Կոնտակտներ';
+$app_list_strings['pdf_template_type_dom']['Contacts'] = 'Contacts';
 $app_list_strings['pdf_template_type_dom']['Leads'] = 'Պոտենցիալ կլիենտներ (առաջնորդներ)';
 $app_list_strings['pdf_template_sample_dom'][''] = '';
-$app_list_strings['contract_status_list']['Not Started'] = 'Սկսված չէ';
-$app_list_strings['contract_status_list']['In Progress'] = 'Ընթացքի մեջ է';
+$app_list_strings['contract_status_list']['Not Started'] = 'Not Started';
+$app_list_strings['contract_status_list']['In Progress'] = 'In Progress';
 $app_list_strings['contract_status_list']['Signed'] = 'Ստորագրված է';
 $app_list_strings['contract_type_list']['Type'] = 'Տիպ';
 $app_strings['LBL_PRINT_AS_PDF'] = 'Տպել, որպես PDF ֆայլ';
@@ -3210,61 +3210,61 @@ $app_list_strings['moduleList']['AOW_WorkFlow'] = 'Գործընթաց';
 $app_list_strings['moduleList']['AOW_Conditions'] = 'Գործընթացի պայմաններ';
 $app_list_strings['moduleList']['AOW_Processed'] = 'Գործընթացի աուդիտ';
 $app_list_strings['moduleList']['AOW_Actions'] = 'Գործընթացի գործողություններ';
-$app_list_strings['aow_status_list']['Active'] = 'Ակտիվ է';
-$app_list_strings['aow_status_list']['Inactive'] = 'Ակտիվ չէ';
-$app_list_strings['aow_operator_list']['Equal_To'] = 'Հավասար է';
-$app_list_strings['aow_operator_list']['Not_Equal_To'] = 'Հավասար չէ';
-$app_list_strings['aow_operator_list']['Greater_Than'] = 'Ավելի քան';
-$app_list_strings['aow_operator_list']['Less_Than'] = 'Պակաս քան';
-$app_list_strings['aow_operator_list']['Greater_Than_or_Equal_To'] = 'Ավել է կամ հավասար';
-$app_list_strings['aow_operator_list']['Less_Than_or_Equal_To'] = 'Պակաս է կամ հավասար';
-$app_list_strings['aow_operator_list']['Contains'] = 'Պարունակում է';
-$app_list_strings['aow_operator_list']['Starts_With'] = 'Սկսվում է';
-$app_list_strings['aow_operator_list']['Ends_With'] = 'Ավարտվում է';
+$app_list_strings['aow_status_list']['Active'] = 'Active';
+$app_list_strings['aow_status_list']['Inactive'] = 'Inactive';
+$app_list_strings['aow_operator_list']['Equal_To'] = 'Equal To';
+$app_list_strings['aow_operator_list']['Not_Equal_To'] = 'Not Equal To';
+$app_list_strings['aow_operator_list']['Greater_Than'] = 'Greater Than';
+$app_list_strings['aow_operator_list']['Less_Than'] = 'Less Than';
+$app_list_strings['aow_operator_list']['Greater_Than_or_Equal_To'] = 'Greater Than or Equal To';
+$app_list_strings['aow_operator_list']['Less_Than_or_Equal_To'] = 'Less Than or Equal To';
+$app_list_strings['aow_operator_list']['Contains'] = 'Contains';
+$app_list_strings['aow_operator_list']['Starts_With'] = 'Starts With';
+$app_list_strings['aow_operator_list']['Ends_With'] = 'Ends With';
 $app_list_strings['aow_operator_list']['is_null'] = 'Դատարկ է';
-$app_list_strings['aow_process_status_list']['Complete'] = 'Ավարտված';
+$app_list_strings['aow_process_status_list']['Complete'] = 'Complete';
 $app_list_strings['aow_process_status_list']['Running'] = 'Կատարվում է';
-$app_list_strings['aow_process_status_list']['Pending'] = 'Սպասում';
-$app_list_strings['aow_process_status_list']['Failed'] = 'Ձախողվել է';
-$app_list_strings['aow_condition_operator_list']['And'] = 'և';
-$app_list_strings['aow_condition_operator_list']['OR'] = 'կամ';
-$app_list_strings['aow_condition_type_list']['Value'] = 'Արժեք';
-$app_list_strings['aow_condition_type_list']['Field'] = 'դաշտ';
+$app_list_strings['aow_process_status_list']['Pending'] = 'Pending';
+$app_list_strings['aow_process_status_list']['Failed'] = 'Failed';
+$app_list_strings['aow_condition_operator_list']['And'] = 'And';
+$app_list_strings['aow_condition_operator_list']['OR'] = 'OR';
+$app_list_strings['aow_condition_type_list']['Value'] = 'Value';
+$app_list_strings['aow_condition_type_list']['Field'] = 'Field';
 $app_list_strings['aow_condition_type_list']['Any_Change'] = 'Ցանկացած փոփոխություն';
 $app_list_strings['aow_condition_type_list']['SecurityGroup'] = 'Անվտանգության խմբում';
-$app_list_strings['aow_condition_type_list']['Date'] = 'Ամսաթիվ';
-$app_list_strings['aow_condition_type_list']['Multi'] = 'Որևէ մեկը';
-$app_list_strings['aow_action_type_list']['Value'] = 'Արժեք';
-$app_list_strings['aow_action_type_list']['Field'] = 'դաշտ';
-$app_list_strings['aow_action_type_list']['Date'] = 'Ամսաթիվ';
+$app_list_strings['aow_condition_type_list']['Date'] = 'Date';
+$app_list_strings['aow_condition_type_list']['Multi'] = 'One of';
+$app_list_strings['aow_action_type_list']['Value'] = 'Value';
+$app_list_strings['aow_action_type_list']['Field'] = 'Field';
+$app_list_strings['aow_action_type_list']['Date'] = 'Date';
 $app_list_strings['aow_action_type_list']['Round_Robin'] = 'Round Robin';
 $app_list_strings['aow_action_type_list']['Least_Busy'] = 'Առնվազն զբաղված';
-$app_list_strings['aow_action_type_list']['Random'] = 'Պատահական';
-$app_list_strings['aow_rel_action_type_list']['Value'] = 'Արժեք';
-$app_list_strings['aow_rel_action_type_list']['Field'] = 'դաշտ';
+$app_list_strings['aow_action_type_list']['Random'] = 'Random';
+$app_list_strings['aow_rel_action_type_list']['Value'] = 'Value';
+$app_list_strings['aow_rel_action_type_list']['Field'] = 'Field';
 $app_list_strings['aow_date_type_list'][''] = '';
-$app_list_strings['aow_date_type_list']['minute'] = 'Րոպե';
-$app_list_strings['aow_date_type_list']['hour'] = 'Ժամ';
-$app_list_strings['aow_date_type_list']['day'] = 'Օր';
-$app_list_strings['aow_date_type_list']['week'] = 'Շաբաթ';
-$app_list_strings['aow_date_type_list']['month'] = 'Ամիս';
+$app_list_strings['aow_date_type_list']['minute'] = 'Minutes';
+$app_list_strings['aow_date_type_list']['hour'] = 'Hours';
+$app_list_strings['aow_date_type_list']['day'] = 'Days';
+$app_list_strings['aow_date_type_list']['week'] = 'Weeks';
+$app_list_strings['aow_date_type_list']['month'] = 'Months';
 $app_list_strings['aow_date_type_list']['year'] = 'Years';
-$app_list_strings['aow_date_type_list']['business_hours'] = 'Աշխատանքային ժամեր';
-$app_list_strings['aow_date_options']['now'] = 'Այս պահին';
-$app_list_strings['aow_date_options']['today'] = 'Այսօր';
-$app_list_strings['aow_date_options']['field'] = 'Այս դաշտը';
+$app_list_strings['aow_date_type_list']['business_hours'] = 'Business Hours';
+$app_list_strings['aow_date_options']['now'] = 'Now';
+$app_list_strings['aow_date_options']['today'] = 'Today';
+$app_list_strings['aow_date_options']['field'] = 'This Field';
 $app_list_strings['aow_date_operator']['now'] = '';
 $app_list_strings['aow_date_operator']['plus'] = '+';
 $app_list_strings['aow_date_operator']['minus'] = '-';
-$app_list_strings['aow_assign_options']['all'] = 'Բոլոր Օգտվողները';
-$app_list_strings['aow_assign_options']['role'] = 'Բոլոր Օգտվողների դերերը';
-$app_list_strings['aow_assign_options']['security_group'] = 'Անվտանգության խմբի բոլոր Օգտվողները';
-$app_list_strings['aow_email_type_list']['Email Address'] = 'Էլ-փոստ';
+$app_list_strings['aow_assign_options']['all'] = 'ALL Users';
+$app_list_strings['aow_assign_options']['role'] = 'ALL Users in Role';
+$app_list_strings['aow_assign_options']['security_group'] = 'ALL Users in Security Group';
+$app_list_strings['aow_email_type_list']['Email Address'] = 'Email';
 $app_list_strings['aow_email_type_list']['Record Email'] = 'Գրանցել էլ․փոստ';
 $app_list_strings['aow_email_type_list']['Related Field'] = 'Առնչվող դաշտ';
-$app_list_strings['aow_email_type_list']['Specify User'] = 'Օգտագործող';
-$app_list_strings['aow_email_type_list']['Users'] = 'Օգտագործողներ';
-$app_list_strings['aow_email_to_list']['to'] = 'Ում';
+$app_list_strings['aow_email_type_list']['Specify User'] = 'User';
+$app_list_strings['aow_email_type_list']['Users'] = 'Users';
+$app_list_strings['aow_email_to_list']['to'] = 'To';
 $app_list_strings['aow_email_to_list']['cc'] = 'Կրկնօրինակ';
 $app_list_strings['aow_email_to_list']['bcc'] = 'Չերևացող կրկնօրինակ';
 $app_list_strings['aow_run_on_list']['All_Records'] = 'Բոլոր գրառումները';
@@ -3279,8 +3279,8 @@ $app_list_strings['moduleList']['AM_ProjectTemplates'] = 'Նախագծեր - Ձ�
 $app_list_strings['moduleList']['AM_TaskTemplates'] = 'Նախագծի առաջադրանքների ձևանմուշներ';
 $app_list_strings['relationship_type_list']['FS'] = 'Մեկնարկումը ավարտված է';
 $app_list_strings['relationship_type_list']['SS'] = 'Սկսել մակնարկը';
-$app_list_strings['duration_unit_dom']['Days'] = 'Օր';
-$app_list_strings['duration_unit_dom']['Hours'] = 'Ժամ';
+$app_list_strings['duration_unit_dom']['Days'] = 'Days';
+$app_list_strings['duration_unit_dom']['Hours'] = 'Hours';
 $app_strings['LBL_GANTT_BUTTON_LABEL'] = 'Դիտել Գանտի գրաֆիկը';
 $app_strings['LBL_DETAIL_BUTTON_LABEL'] = 'View Detail';
 $app_strings['LBL_CREATE_PROJECT'] = 'Ստեղծել նախագիծ';
@@ -3291,7 +3291,7 @@ $app_strings['LBL_MAP'] = 'Քարտեզ';
 $app_strings['LBL_JJWG_MAPS_LNG'] = 'Երկայնություն';
 $app_strings['LBL_JJWG_MAPS_LAT'] = 'Երկայնություն';
 $app_strings['LBL_JJWG_MAPS_GEOCODE_STATUS'] = 'Գեոկոդավորել կարգավիճակը';
-$app_strings['LBL_JJWG_MAPS_ADDRESS'] = 'Հասցե';
+$app_strings['LBL_JJWG_MAPS_ADDRESS'] = 'Address';
 
 $app_list_strings['moduleList']['jjwg_Maps'] = 'Քարտեզներ';
 $app_list_strings['moduleList']['jjwg_Markers'] = 'Քարտեզներ - Նշումներ';
@@ -3304,25 +3304,25 @@ $app_list_strings['map_unit_type_list']['mi'] = 'Մղոն';
 $app_list_strings['map_unit_type_list']['km'] = 'Կիլոմետրեր';
 
 $app_list_strings['map_module_type_list']['Accounts'] = 'Հաշիվներ';
-$app_list_strings['map_module_type_list']['Contacts'] = 'Կոնտակտներ';
-$app_list_strings['map_module_type_list']['Cases'] = 'Գործեր';
+$app_list_strings['map_module_type_list']['Contacts'] = 'Contacts';
+$app_list_strings['map_module_type_list']['Cases'] = 'Cases';
 $app_list_strings['map_module_type_list']['Leads'] = 'Պոտենցիալ կլիենտներ (առաջնորդներ)';
-$app_list_strings['map_module_type_list']['Meetings'] = 'Հանդիպումներ';
-$app_list_strings['map_module_type_list']['Opportunities'] = 'Գործարքներ';
-$app_list_strings['map_module_type_list']['Project'] = 'Նախագծեր';
-$app_list_strings['map_module_type_list']['Prospects'] = 'Նպատակակետեր';
+$app_list_strings['map_module_type_list']['Meetings'] = 'Meetings';
+$app_list_strings['map_module_type_list']['Opportunities'] = 'Opportunities';
+$app_list_strings['map_module_type_list']['Project'] = 'Projects';
+$app_list_strings['map_module_type_list']['Prospects'] = 'Targets';
 
-$app_list_strings['map_relate_type_list']['Accounts'] = 'Հաշիվ';
-$app_list_strings['map_relate_type_list']['Contacts'] = 'Կոնտակտ';
-$app_list_strings['map_relate_type_list']['Cases'] = 'Գործ';
-$app_list_strings['map_relate_type_list']['Leads'] = 'Պոտենցիալ կլիենտներ (առաջնորդներ)';
-$app_list_strings['map_relate_type_list']['Meetings'] = 'Հանդիպում';
-$app_list_strings['map_relate_type_list']['Opportunities'] = 'Գործարք';
-$app_list_strings['map_relate_type_list']['Project'] = 'Նախագիծ';
-$app_list_strings['map_relate_type_list']['Prospects'] = 'Նպատակակետ';
+$app_list_strings['map_relate_type_list']['Accounts'] = 'Account';
+$app_list_strings['map_relate_type_list']['Contacts'] = 'Contact';
+$app_list_strings['map_relate_type_list']['Cases'] = 'Case';
+$app_list_strings['map_relate_type_list']['Leads'] = 'Lead';
+$app_list_strings['map_relate_type_list']['Meetings'] = 'Meeting';
+$app_list_strings['map_relate_type_list']['Opportunities'] = 'Opportunity';
+$app_list_strings['map_relate_type_list']['Project'] = 'Project';
+$app_list_strings['map_relate_type_list']['Prospects'] = 'Target';
 
 $app_list_strings['marker_image_list']['accident'] = 'Պատահար';
-$app_list_strings['marker_image_list']['administration'] = 'Ադմինիստրացիա';
+$app_list_strings['marker_image_list']['administration'] = 'Administration';
 $app_list_strings['marker_image_list']['agriculture'] = 'Գյուղատնտեսություն';
 $app_list_strings['marker_image_list']['aircraft_small'] = 'Փոքր ինքնաթիռ';
 $app_list_strings['marker_image_list']['airplane_tourism'] = 'Աէրոտուրիզմ';
@@ -3361,8 +3361,8 @@ $app_list_strings['marker_image_list']['cluster_5'] = 'Կլաստեր 5';
 $app_list_strings['marker_image_list']['coffee'] = 'Սուրճ';
 $app_list_strings['marker_image_list']['community_centre'] = 'Համայնքային կենտրոն';
 $app_list_strings['marker_image_list']['company'] = 'Ընկերություն';
-$app_list_strings['marker_image_list']['conference'] = 'Կոնֆերանս';
-$app_list_strings['marker_image_list']['construction'] = 'Շինարարություն';
+$app_list_strings['marker_image_list']['conference'] = 'Conference';
+$app_list_strings['marker_image_list']['construction'] = 'Construction';
 $app_list_strings['marker_image_list']['convenience'] = 'Հարմարություն';
 $app_list_strings['marker_image_list']['court'] = 'Դատարան';
 $app_list_strings['marker_image_list']['cruise'] = 'Կրուիզ';
@@ -3392,7 +3392,7 @@ $app_list_strings['marker_image_list']['festival'] = 'Փառատոն';
 $app_list_strings['marker_image_list']['fjord'] = 'Ֆյորդ';
 $app_list_strings['marker_image_list']['forest'] = 'Անտառ';
 $app_list_strings['marker_image_list']['fountain'] = 'Շատրվան';
-$app_list_strings['marker_image_list']['friday'] = 'Ուրբաթ';
+$app_list_strings['marker_image_list']['friday'] = 'Friday';
 $app_list_strings['marker_image_list']['garden'] = 'Պարտեզ';
 $app_list_strings['marker_image_list']['gas_station'] = 'Գազալցակայան';
 $app_list_strings['marker_image_list']['geyser'] = 'Գեյզեր';
@@ -3403,7 +3403,7 @@ $app_list_strings['marker_image_list']['hairsalon'] = 'Վարսավիրանոց'
 $app_list_strings['marker_image_list']['helicopter'] = 'Ուղղաթիռ';
 $app_list_strings['marker_image_list']['highway'] = 'Մայրուղի';
 $app_list_strings['marker_image_list']['historical_quarter'] = 'Պատմական եռամսյակ';
-$app_list_strings['marker_image_list']['home'] = 'Գլխավոր';
+$app_list_strings['marker_image_list']['home'] = 'Home';
 $app_list_strings['marker_image_list']['hospital'] = 'Հիվանդանոց';
 $app_list_strings['marker_image_list']['hostel'] = 'Հանրակացարան';
 $app_list_strings['marker_image_list']['hotel'] = 'Հյուրանոց';
@@ -3412,14 +3412,14 @@ $app_list_strings['marker_image_list']['hotel_2_stars'] = 'Հյուրանոց 2 
 $app_list_strings['marker_image_list']['hotel_3_stars'] = 'Հյուրանոց 3 Աստղ';
 $app_list_strings['marker_image_list']['hotel_4_stars'] = 'Հյուրանոց 4 Աստղ';
 $app_list_strings['marker_image_list']['hotel_5_stars'] = 'Հյուրանոց 5 Աստղ';
-$app_list_strings['marker_image_list']['info'] = 'Տեղեկատվություն';
+$app_list_strings['marker_image_list']['info'] = 'Info';
 $app_list_strings['marker_image_list']['justice'] = 'Արդարադատություն';
 $app_list_strings['marker_image_list']['lake'] = 'Լիճ';
 $app_list_strings['marker_image_list']['laundromat'] = 'Ինքնասպասարկման լվացքատուն';
 $app_list_strings['marker_image_list']['left'] = 'Ձախ';
 $app_list_strings['marker_image_list']['left_then_down'] = 'Ձախ այնուհետև ներքև';
 $app_list_strings['marker_image_list']['left_then_up'] = 'Ձախ այնուհետև վերև';
-$app_list_strings['marker_image_list']['library'] = 'Գրադարան';
+$app_list_strings['marker_image_list']['library'] = 'Library';
 $app_list_strings['marker_image_list']['lighthouse'] = 'Փարոս';
 $app_list_strings['marker_image_list']['liquor'] = 'Խմիչք';
 $app_list_strings['marker_image_list']['lock'] = 'Կողպեք';
@@ -3428,7 +3428,7 @@ $app_list_strings['marker_image_list']['massage'] = 'Մերսում';
 $app_list_strings['marker_image_list']['mobile_phone_tower'] = 'Բջջային կապի աշտարակ';
 $app_list_strings['marker_image_list']['modern_tower'] = 'Ժամանակակից աշտարակ';
 $app_list_strings['marker_image_list']['monastery'] = 'Վանք';
-$app_list_strings['marker_image_list']['monday'] = 'Երկուշաբթի';
+$app_list_strings['marker_image_list']['monday'] = 'Monday';
 $app_list_strings['marker_image_list']['monument'] = 'Հուշարձան';
 $app_list_strings['marker_image_list']['mosque'] = 'Մզկիթ';
 $app_list_strings['marker_image_list']['motorcycle'] = 'Մոտոցիկլ';
@@ -3441,7 +3441,7 @@ $app_list_strings['marker_image_list']['panoramic'] = 'Համայնապատկե�
 $app_list_strings['marker_image_list']['park'] = 'Զբոսայգի';
 $app_list_strings['marker_image_list']['park_and_ride'] = 'Կայատեղ և զբոսանք';
 $app_list_strings['marker_image_list']['parking'] = 'Կայանում';
-$app_list_strings['marker_image_list']['photo'] = 'Լուսանկար';
+$app_list_strings['marker_image_list']['photo'] = 'Photo';
 $app_list_strings['marker_image_list']['picnic'] = 'Զբոսախնջույք';
 $app_list_strings['marker_image_list']['places_unvisited'] = 'Չայցելած տեղեր';
 $app_list_strings['marker_image_list']['places_visited'] = 'Այցելած տեղեր';
@@ -3479,7 +3479,7 @@ $app_list_strings['marker_image_list']['restaurant_turkish'] = 'Ռեստորան
 $app_list_strings['marker_image_list']['right'] = 'Աջ';
 $app_list_strings['marker_image_list']['right_then_down'] = 'Աջ այնուհետև ներքև';
 $app_list_strings['marker_image_list']['right_then_up'] = 'Աջ այնուհետև ներքև';
-$app_list_strings['marker_image_list']['saturday'] = 'Շաբաթ';
+$app_list_strings['marker_image_list']['saturday'] = 'Saturday';
 $app_list_strings['marker_image_list']['school'] = 'Դպրոց';
 $app_list_strings['marker_image_list']['shopping_mall'] = 'Առևտրի կենտրոն';
 $app_list_strings['marker_image_list']['shore'] = 'Ծովափ';
@@ -3506,8 +3506,8 @@ $app_list_strings['marker_image_list']['steam_train'] = 'Շոգեքարշ';
 $app_list_strings['marker_image_list']['stop'] = 'Կանգ առնել';
 $app_list_strings['marker_image_list']['stoplight'] = 'Լուսաֆոր';
 $app_list_strings['marker_image_list']['subway'] = 'Մետրո';
-$app_list_strings['marker_image_list']['sun'] = 'Արև';
-$app_list_strings['marker_image_list']['sunday'] = 'Կիրակի';
+$app_list_strings['marker_image_list']['sun'] = 'Sun';
+$app_list_strings['marker_image_list']['sunday'] = 'Sunday';
 $app_list_strings['marker_image_list']['supermarket'] = 'Սուպերմարկետ';
 $app_list_strings['marker_image_list']['synagogue'] = 'Սինագոգ';
 $app_list_strings['marker_image_list']['tapas'] = 'Tapas';
@@ -3520,7 +3520,7 @@ $app_list_strings['marker_image_list']['terrace'] = 'Տերրասա';
 $app_list_strings['marker_image_list']['text'] = 'Տեքստ';
 $app_list_strings['marker_image_list']['theater'] = 'Թատրոն';
 $app_list_strings['marker_image_list']['theme_park'] = 'Թեմատիկ այգի';
-$app_list_strings['marker_image_list']['thursday'] = 'Հինգշաբթի';
+$app_list_strings['marker_image_list']['thursday'] = 'Thursday';
 $app_list_strings['marker_image_list']['toilets'] = 'Զուգարաններ';
 $app_list_strings['marker_image_list']['toll_station'] = 'Զանգերի կայան';
 $app_list_strings['marker_image_list']['tower'] = 'Աշտարակ';
@@ -3528,7 +3528,7 @@ $app_list_strings['marker_image_list']['traffic_enforcement_camera'] = 'ՃՈ վ�
 $app_list_strings['marker_image_list']['train'] = 'Գնացք';
 $app_list_strings['marker_image_list']['tram'] = 'Տրամվայ';
 $app_list_strings['marker_image_list']['truck'] = 'Բեռնատար մեքենա';
-$app_list_strings['marker_image_list']['tuesday'] = 'Երեքշաբթի';
+$app_list_strings['marker_image_list']['tuesday'] = 'Tuesday';
 $app_list_strings['marker_image_list']['tunnel'] = 'Թունել';
 $app_list_strings['marker_image_list']['turn_left'] = 'Թեքվել ձախ';
 $app_list_strings['marker_image_list']['turn_right'] = 'Թեքվել աջ';
@@ -3546,7 +3546,7 @@ $app_list_strings['marker_image_list']['waterfall'] = 'Ջրվեժ';
 $app_list_strings['marker_image_list']['watermill'] = 'Ջրաղաց';
 $app_list_strings['marker_image_list']['waterpark'] = 'Ջրաշխարհ';
 $app_list_strings['marker_image_list']['watertower'] = 'Ջրամղիչ աշտարակ';
-$app_list_strings['marker_image_list']['wednesday'] = 'Չորեքշաբթի';
+$app_list_strings['marker_image_list']['wednesday'] = 'Wednesday';
 $app_list_strings['marker_image_list']['wifi'] = 'Wi-fi';
 $app_list_strings['marker_image_list']['wind_turbine'] = 'Քամու տուրբին';
 $app_list_strings['marker_image_list']['windmill'] = 'Քամաղաց';
@@ -3567,7 +3567,7 @@ $app_strings['LBL_RESCHEDULE_REASON'] = 'Պատճառ․';
 $app_strings['LBL_RESCHEDULE_ERROR1'] = 'Խնդրում ենք ընտրել ճիշտ ամսաթիվը';
 $app_strings['LBL_RESCHEDULE_ERROR2'] = 'Խնդրում ենք ընտրել պատճառը';
 
-$app_strings['LBL_RESCHEDULE_PANEL'] = 'Վերապլանավորել';
+$app_strings['LBL_RESCHEDULE_PANEL'] = 'Reschedule';
 $app_strings['LBL_RESCHEDULE_HISTORY'] = 'Զանգի փորձերի պատմությունը';
 $app_strings['LBL_RESCHEDULE_COUNT'] = 'Փորձնական զանգ';
 
@@ -3585,9 +3585,9 @@ $app_strings['FACEBOOK_USER_C'] = 'Facebook';
 $app_strings['TWITTER_USER_C'] = 'Twitter';
 $app_strings['LBL_PANEL_SOCIAL_FEED'] = 'Սոցիալական լրահոսի մանրամասներ';
 
-$app_strings['LBL_SUBPANEL_FILTER_LABEL'] = 'Որոնում';
+$app_strings['LBL_SUBPANEL_FILTER_LABEL'] = 'Filter';
 
-$app_strings['LBL_COLLECTION_TYPE'] = 'Տիպ';
+$app_strings['LBL_COLLECTION_TYPE'] = 'Type';
 
 $app_strings['LBL_ADD_TAB'] = 'Ավելացնել էջ';
 $app_strings['LBL_EDIT_TAB'] = 'Խմբագրել էջանիշերը';
@@ -3602,10 +3602,10 @@ $app_strings['LBL_RENAME_DASHBOARD_PAGE'] = 'Վերանվանել էջը';
 $app_strings['LBL_SUITE_DASHBOARD_ACTIONS'] = 'ACTIONS';
 
 $app_list_strings['collection_temp_list'] = array(
-    'Tasks' => 'Խնդիրներ',
-    'Meetings' => 'Հանդիպումներ',
-    'Calls' => 'Զանգեր',
-    'Notes' => 'Նշումներ',
+    'Tasks' => 'Tasks',
+    'Meetings' => 'Meetings',
+    'Calls' => 'Calls',
+    'Notes' => 'Notes',
     'Emails' => 'Էլ-փոստեր'
 );
 
@@ -3615,19 +3615,19 @@ $app_strings['LBL_LOADING_ERROR_INLINE_EDITING'] = "There was an error loading t
 
 //SuiteSpots
 $app_list_strings['spots_areas'] = array(
-    'getSalesSpotsData' => 'Գործարքներ',
+    'getSalesSpotsData' => 'Sales',
     'getAccountsSpotsData' => 'Հաշիվներ',
     'getLeadsSpotsData' => 'Պոտենցիալ կլիենտներ (առաջնորդներ)',
-    'getServiceSpotsData' => 'Սպասարկում',
-    'getMarketingSpotsData' => 'Մարքեթինգ',
+    'getServiceSpotsData' => 'Service',
+    'getMarketingSpotsData' => 'Marketing',
     'getMarketingActivitySpotsData' => 'Marketing Activity',
-    'getActivitiesSpotsData' => 'Գործունեություն',
-    'getQuotesSpotsData' => 'Առաջարկներ'
+    'getActivitiesSpotsData' => 'Activities',
+    'getQuotesSpotsData' => 'Quotes'
 );
 
 $app_list_strings['moduleList']['Spots'] = 'Spots';
 
-$app_list_strings['moduleList']['AOBH_BusinessHours'] = 'Աշխատանքային ժամեր';
+$app_list_strings['moduleList']['AOBH_BusinessHours'] = 'Business Hours';
 $app_list_strings['business_hours_list']['0'] = '12am';
 $app_list_strings['business_hours_list']['1'] = '1am';
 $app_list_strings['business_hours_list']['2'] = '2am';
@@ -3652,13 +3652,13 @@ $app_list_strings['business_hours_list']['20'] = '8pm';
 $app_list_strings['business_hours_list']['21'] = '9pm';
 $app_list_strings['business_hours_list']['22'] = '10pm';
 $app_list_strings['business_hours_list']['23'] = '11pm';
-$app_list_strings['day_list']['Monday'] = 'Երկուշաբթի';
-$app_list_strings['day_list']['Tuesday'] = 'Երեքշաբթի';
-$app_list_strings['day_list']['Wednesday'] = 'Չորեքշաբթի';
-$app_list_strings['day_list']['Thursday'] = 'Հինգշաբթի';
-$app_list_strings['day_list']['Friday'] = 'Ուրբաթ';
-$app_list_strings['day_list']['Saturday'] = 'Շաբաթ';
-$app_list_strings['day_list']['Sunday'] = 'Կիրակի';
+$app_list_strings['day_list']['Monday'] = 'Monday';
+$app_list_strings['day_list']['Tuesday'] = 'Tuesday';
+$app_list_strings['day_list']['Wednesday'] = 'Wednesday';
+$app_list_strings['day_list']['Thursday'] = 'Thursday';
+$app_list_strings['day_list']['Friday'] = 'Friday';
+$app_list_strings['day_list']['Saturday'] = 'Saturday';
+$app_list_strings['day_list']['Sunday'] = 'Sunday';
 $app_list_strings['pdf_page_size_dom']['A4'] = 'A4';
 $app_list_strings['pdf_page_size_dom']['Letter'] = 'Letter';
 $app_list_strings['pdf_page_size_dom']['Legal'] = 'Իրավական';
@@ -3671,20 +3671,20 @@ $app_list_strings['moduleList']['Surveys'] = 'Surveys';
 $app_list_strings['moduleList']['SurveyQuestionResponses'] = 'Survey Question Responses';
 $app_list_strings['moduleList']['SurveyQuestions'] = 'Survey Questions';
 $app_list_strings['moduleList']['SurveyQuestionOptions'] = 'Survey Question Options';
-$app_list_strings['survey_status_list']['Draft'] = 'Սևագրություն';
-$app_list_strings['survey_status_list']['Public'] = 'Հանրային';
-$app_list_strings['survey_status_list']['Closed'] = 'Փակել';
-$app_list_strings['surveys_question_type']['Text'] = 'Տեքստ';
+$app_list_strings['survey_status_list']['Draft'] = 'Draft';
+$app_list_strings['survey_status_list']['Public'] = 'Public';
+$app_list_strings['survey_status_list']['Closed'] = 'Closed';
+$app_list_strings['surveys_question_type']['Text'] = 'Text';
 $app_list_strings['surveys_question_type']['Textbox'] = 'Textbox';
 $app_list_strings['surveys_question_type']['Checkbox'] = 'Checkbox';
-$app_list_strings['surveys_question_type']['Radio'] = 'Ռադիո';
+$app_list_strings['surveys_question_type']['Radio'] = 'Radio';
 $app_list_strings['surveys_question_type']['Dropdown'] = 'Dropdown';
 $app_list_strings['surveys_question_type']['Multiselect'] = 'Multiselect';
 $app_list_strings['surveys_question_type']['Matrix'] = 'Matrix';
 $app_list_strings['surveys_question_type']['DateTime'] = 'DateTime';
-$app_list_strings['surveys_question_type']['Date'] = 'Ամսաթիվ';
+$app_list_strings['surveys_question_type']['Date'] = 'Date';
 $app_list_strings['surveys_question_type']['Scale'] = 'Scale';
-$app_list_strings['surveys_question_type']['Rating'] = 'Վարկանիշ';
+$app_list_strings['surveys_question_type']['Rating'] = 'Rating';
 $app_list_strings['surveys_matrix_options'][0] = 'Satisfied';
 $app_list_strings['surveys_matrix_options'][1] = 'Neither Satisfied nor Dissatisfied';
 $app_list_strings['surveys_matrix_options'][2] = 'Dissatisfied';
@@ -3696,12 +3696,12 @@ $app_strings['LBL_OPT_IN_PENDING_EMAIL_FAILED'] = 'Confirm opt in email sending 
 $app_strings['LBL_OPT_IN_PENDING_EMAIL_SENT'] = 'Pending Confirm opt in, Confirm opt in sent';
 $app_strings['LBL_OPT_IN'] = 'Opted in';
 $app_strings['LBL_OPT_IN_CONFIRMED'] = 'Confirmed Opted in';
-$app_strings['LBL_OPT_IN_OPT_OUT'] = 'Չգրել';
-$app_strings['LBL_OPT_IN_INVALID'] = 'Սխալ';
+$app_strings['LBL_OPT_IN_OPT_OUT'] = 'Opted Out';
+$app_strings['LBL_OPT_IN_INVALID'] = 'Invalid';
 
 /** @see SugarEmailAddress */
 $app_list_strings['email_settings_opt_in_dom'] = array(
-    'not-opt-in' => 'Անաշխատունակ',
+    'not-opt-in' => 'Disabled',
     'opt-in' => 'Opt In',
     'confirmed-opt-in' => 'Confirmed Opt In'
 );
@@ -3735,7 +3735,7 @@ $app_list_strings['oauth2_grant_type_dom'] = array(
 $app_list_strings['oauth2_duration_units'] = [
     'minute' => ' րոպե ',
     'hour' => 'ժամեր',
-    'day' => 'օրեր',
+    'day' => 'days',
     'week' => 'weeks',
     'month' => 'months',
 ];
@@ -3747,23 +3747,23 @@ $app_list_strings['search_controllers'] = [
 
 // Calendar Account Types dropdown
 $app_list_strings['calendar_account_types'] = [
-    'personal' => 'Անձնական',
+    'personal' => 'Personal',
     'shared' => 'Բաժանել',
-    'group' => 'Խումբ',
+    'group' => 'Group',
 ];
 
 // Calendar Connection Status dropdown
 $app_list_strings['calendar_connection_status_list'] = [
     'never_tested' => 'Never Tested',
     'success' => 'Միացված է',
-    'failed' => 'Ձախողվել է',
+    'failed' => 'Failed',
 ];
 
 // Calendar Sync Attempt Status dropdown
 $app_list_strings['sync_attempt_status_list'] = [
     '' => '',
-    'in_progress' => 'Ընթացքի մեջ է',
-    'success' => 'Հաջողված է',
+    'in_progress' => 'In Progress',
+    'success' => 'Success',
     'warning' => 'Ուշադրություն',
     'error' => 'Սխալ',
 ];
@@ -3804,16 +3804,16 @@ $app_strings['IMAP_HANDLER_ERROR_NO_TEST_SET'] = 'Test settings does not exists.
 $app_strings['IMAP_HANDLER_ERROR_NO_KEY'] = 'Key not found.';
 $app_strings['IMAP_HANDLER_ERROR_KEY_SAVE'] = 'Key saving error.';
 $app_strings['IMAP_HANDLER_ERROR_UNKNOWN'] = 'Unknown error';
-$app_strings['LBL_SEARCH_TITLE']                   = 'Որոնում';
+$app_strings['LBL_SEARCH_TITLE']                   = 'Search';
 $app_strings['LBL_SEARCH_TEXT_FIELD_TITLE_ATTR']   = 'Input Search Criteria';
-$app_strings['LBL_SEARCH_SUBMIT_FIELD_TITLE_ATTR'] = 'Որոնում';
-$app_strings['LBL_SEARCH_SUBMIT_FIELD_VALUE']      = 'Որոնում';
+$app_strings['LBL_SEARCH_SUBMIT_FIELD_TITLE_ATTR'] = 'Search';
+$app_strings['LBL_SEARCH_SUBMIT_FIELD_VALUE']      = 'Search';
 $app_strings['LBL_SEARCH_QUERY']                   = 'Search query: ';
 $app_strings['LBL_SEARCH_RESULTS_PER_PAGE']        = 'Results per module: ';
 $app_strings['LBL_SEARCH_ENGINE']                  = 'Engine: ';
 $app_strings['LBL_SEARCH_TOTAL'] = 'Total result(s): ';
-$app_strings['LBL_SEARCH_PREV'] = 'Նախորդ';
-$app_strings['LBL_SEARCH_NEXT'] = 'Հաջորդ';
+$app_strings['LBL_SEARCH_PREV'] = 'Previous';
+$app_strings['LBL_SEARCH_NEXT'] = 'Next';
 $app_strings['LBL_SEARCH_PAGE'] = 'Page ';
 $app_strings['LBL_SEARCH_OF'] = ' of ';
 $app_strings['LBL_USE_ADVANCED_SEARCH'] = 'Use Advanced Search';
@@ -3837,7 +3837,7 @@ $app_strings['WARN_OAUTH_TOKEN_SESSION_EXPIRED'] = 'Your IMAP OAuth session has 
 $app_strings['ERR_OAUTH_CONNECTION_ERROR'] = 'Not able to connect using OAuth login. For connection: ';
 
 $app_strings['LBL_KEY'] = 'Բանալի';
-$app_strings['LBL_VALUE'] = 'Արժեք';
+$app_strings['LBL_VALUE'] = 'Value';
 $app_strings['LBL_OPTIONAL'] = 'Optional';
 $app_strings['LBL_OPTIONAL_CONNECTION_STRING'] = 'Optional. Set to use a specific connection string';
 $app_strings['LBL_OUTBOUND_ACCOUNT'] = 'Outbound Account';
