@@ -43,20 +43,20 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
                 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Id utente assegnato',
-    'LBL_ASSIGNED_TO_NAME' => 'Assegnato a',
+    'LBL_ASSIGNED_TO_ID' => 'Id Utente Assegnato',
+    'LBL_ASSIGNED_TO_NAME' => 'Assegnato a:',
     'LBL_ID' => 'ID',
-    'LBL_DATE_ENTERED' => 'Data di Creazione',
+    'LBL_DATE_ENTERED' => 'Data Creazione',
     'LBL_DATE_MODIFIED' => 'Data Modifica',
-    'LBL_MODIFIED' => 'Modificato da',
+    'LBL_MODIFIED' => 'Modificato Da',
     'LBL_MODIFIED_NAME' => 'Modificato da Nome',
     'LBL_CREATED' => 'Creato da',
     'LBL_DESCRIPTION' => 'Descrizione',
-    'LBL_DELETED' => 'Cancellata',
+    'LBL_DELETED' => 'Eliminato',
     'LBL_NAME' => 'Nome',
     'LBL_CREATED_USER' => 'Creato dall\'utente',
     'LBL_MODIFIED_USER' => 'Modificato dall\'utente',
-    'LBL_LIST_NAME' => 'Nome',
+    'LBL_LIST_NAME' => 'Nome Contatto',
     'LBL_EDIT_BUTTON' => 'Modifica',
     'LBL_REMOVE' => 'Cancella',
     'LBL_LIST_FORM_TITLE' => 'Elenco Eventi',
@@ -66,7 +66,7 @@ $mod_strings = array(
     'LNK_NEW_RECORD' => 'Crea Evento',
     'LNK_LIST' => 'Visualizza eventi',
     'LBL_SEARCH_FORM_TITLE' => 'Cerca Eventi',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Visualizza Cronologia',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Vedi log cambiamenti',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Attività',
     'LBL_NEW_FORM_TITLE' => 'Nuovo Evento',
     'LBL_LOCATION' => 'Posizione',
@@ -84,7 +84,7 @@ $mod_strings = array(
     'LBL_DECLINE_REDIRECT' => 'Rifiuta Redirect URL',
     'LBL_SELECT_DELEGATES' => 'Seleziona Invitati',
     'LBL_SELECT_DELEGATES_TITLE' => 'Seleziona Invitati:-',
-    'LBL_SELECT_DELEGATES_TARGET_LIST' => 'Liste Obiettivi',
+    'LBL_SELECT_DELEGATES_TARGET_LIST' => 'Lista Obiettivi',
     'LBL_SELECT_DELEGATES_TARGETS' => 'Obiettivi',
     'LBL_SELECT_DELEGATES_CONTACTS' => 'Contatti',
     'LBL_SELECT_DELEGATES_LEADS' => 'Lead',
@@ -117,7 +117,7 @@ $mod_strings = array(
     'LBL_FP_EVENTS_FP_EVENT_DELEGATES_1_FROM_FP_EVENT_DELEGATES_TITLE' => 'Invitati',
 
     // Attendance report
-    'LBL_CONTACT_NAME' => 'Nome',
+    'LBL_CONTACT_NAME' => 'Nome Categoria',
     'LBL_ACCOUNT_NAME' => 'Azienda',
     'LBL_SIGNATURE' => 'Firma',
     // contacts/leads/targets subpanels
