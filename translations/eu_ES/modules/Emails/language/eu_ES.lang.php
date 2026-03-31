@@ -64,7 +64,7 @@ $mod_strings = array(
 
     'ERR_ARCHIVE_EMAIL' => 'Akatsa: artxibatu beharreko posta elektronikoak aukeratu',
     'ERR_DELETE_RECORD' => 'Akatsa: ezabatu beharreko erregistroaren zenbakia zehaztu behar duzu',
-    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Accounts',
+    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Kontuak',
     'LBL_ADD_DASHLETS' => 'Add SuiteCRM Dashlets',
     'LBL_ADD_DOCUMENT' => 'Dokumentu bat erantsi',
     'LBL_ADD_ENTRIES' => 'Add Entries',
@@ -74,7 +74,7 @@ $mod_strings = array(
     'LBL_ATTACH_DOCUMENTS' => 'Attach Documents',
     'LBL_HAS_ATTACHMENT' => 'Has Attachment?:',
     'LBL_BCC' => 'Bcc:',
-    'LBL_BODY' => 'Body:',
+    'LBL_BODY' => 'Gorputza:',
     'LBL_BUGS_SUBPANEL_TITLE' => 'Bugs',
     'LBL_CC' => 'Cc:',
     'LBL_COMPOSE_MODULE_NAME' => 'Compose Email',
@@ -202,7 +202,7 @@ $mod_strings = array(
     'LBL_LIST_CONTACT' => 'Contacts',
     'LBL_LIST_LEAD' => 'Leads',
     'LBL_LIST_TASK' => 'Tasks',
-    'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigned User',
+    'LBL_LIST_ASSIGNED_TO_NAME' => 'Nori esleitua',
 
     // for Inbox
     'LBL_ALL' => 'All',
@@ -224,7 +224,7 @@ $mod_strings = array(
     'LBL_NEW' => 'New',
     'LBL_NEXT_EMAIL' => 'Hurrengo item askea',
     'LBL_REPLIED' => 'Replied',
-    'LBL_TO' => 'To:',
+    'LBL_TO' => 'Nori:',
     'LBL_TOGGLE_ALL' => 'Toggle All',
     'LBL_UNKNOWN' => 'Unknown',
     'LBL_USE' => 'Esleitu',
