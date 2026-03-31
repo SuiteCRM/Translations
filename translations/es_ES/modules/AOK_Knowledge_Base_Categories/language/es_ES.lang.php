@@ -43,24 +43,24 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
-    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
+    'LBL_ASSIGNED_TO_ID' => 'Id de usuario asignado',
+    'LBL_ASSIGNED_TO_NAME' => 'Asignado a',
     'LBL_ID' => 'ID',
-    'LBL_DATE_ENTERED' => 'Date Created',
-    'LBL_DATE_MODIFIED' => 'Date Modified',
-    'LBL_MODIFIED' => 'Modified By',
-    'LBL_MODIFIED_ID' => 'Modified By Id',
+    'LBL_DATE_ENTERED' => 'Fecha de Creación',
+    'LBL_DATE_MODIFIED' => 'Fecha de Modificación',
+    'LBL_MODIFIED' => 'Modificado Por',
+    'LBL_MODIFIED_ID' => 'Modificado por Id',
     'LBL_MODIFIED_NAME' => 'Modified By Name',
-    'LBL_CREATED' => 'Created By',
-    'LBL_CREATED_ID' => 'Created By Id',
-    'LBL_DESCRIPTION' => 'Description',
-    'LBL_DELETED' => 'Deleted',
-    'LBL_NAME' => 'Name',
-    'LBL_CREATED_USER' => 'Created by User',
-    'LBL_MODIFIED_USER' => 'Modified by User',
-    'LBL_LIST_NAME' => 'Name',
-    'LBL_EDIT_BUTTON' => 'Edit',
-    'LBL_REMOVE' => 'Remove',
+    'LBL_CREATED' => 'Creado Por',
+    'LBL_CREATED_ID' => 'Creado Por Id',
+    'LBL_DESCRIPTION' => 'Descripción',
+    'LBL_DELETED' => 'Eliminado',
+    'LBL_NAME' => 'Nombre',
+    'LBL_CREATED_USER' => 'Creado por el Usuario',
+    'LBL_MODIFIED_USER' => 'Modificado por el Usuario',
+    'LBL_LIST_NAME' => 'Nombre',
+    'LBL_EDIT_BUTTON' => 'Editar',
+    'LBL_REMOVE' => 'Quitar',
     'LBL_LIST_FORM_TITLE' => 'KB Categories Lista',
     'LBL_MODULE_NAME' => 'KB Categorías',
     'LBL_MODULE_TITLE' => 'KB Categories',
@@ -75,4 +75,4 @@ $mod_strings = array(
     'LBL_NEW_FORM_TITLE' => 'Nuevo KB Categories',
 );
 
-$mod_strings['LBL_AOK_KB_TITLE'] = 'Knowledge Base';
+$mod_strings['LBL_AOK_KB_TITLE'] = 'Base de Conocimiento';
