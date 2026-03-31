@@ -42,7 +42,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_MAP'] = 'แผนที่';
+$mod_strings['LBL_MAP'] = 'Map';
 $mod_strings['LBL_MODULE_NAME'] = 'แผนที่';
 $mod_strings['LBL_MODULE_TITLE'] = 'แผนที่: หน้าแรก';
 $mod_strings['LBL_MODULE_ID'] = 'แผนที่';
@@ -59,9 +59,9 @@ $mod_strings['LBL_UNIT_TYPE'] = 'ประเภทหน่วย:';
 $mod_strings['LBL_MAP_DISPLAY'] = 'แสดงแผนที่';
 $mod_strings['LBL_MAP_LEGEND'] = 'ตำนาน:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'กลุ่ม:';
-$mod_strings['LBL_MAP_GROUP'] = 'กลุ่ม';
-$mod_strings['LBL_MAP_TYPE'] = 'ประเภท';
-$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'กำหนดให้:';
+$mod_strings['LBL_MAP_GROUP'] = 'Group';
+$mod_strings['LBL_MAP_TYPE'] = 'Type';
+$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Assigned to:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'ขอเส้นทาง';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'ดูแผนที่ Google';
 
@@ -71,8 +71,8 @@ $mod_strings['LNK_MAP_LIST'] = 'รายการแผนที่';
 
 $mod_strings['LBL_MAP_ADDRESS_TEST'] = 'ทดสอบระบุพิกัดทางภูมิศาสตร์';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'แผนที่รัศมีด่วน';
-$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'ไม่มี';
-$mod_strings['LBL_MAP_ADDRESS'] = 'ที่อยู่';
+$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'ไม่ได้ตั้งค่า';
+$mod_strings['LBL_MAP_ADDRESS'] = 'Address';
 $mod_strings['LBL_MAP_PROCESS'] = 'ประมวลผล!';
 
 $mod_strings['LBL_MAP_LAST_STATUS'] = 'สถานะพิกัดทางภูมิศาสตร์ครั้งล่าสุด';
@@ -82,12 +82,12 @@ $mod_strings['LBL_MODULE_HEADING'] = 'โมดูล';
 
 $mod_strings['LBL_N/A'] = 'N/A';
 $mod_strings['LBL_ZERO_RESULTS'] = 'Zero Results';
-$mod_strings['LBL_OK'] = 'ตกลง';
+$mod_strings['LBL_OK'] = 'Ok';
 $mod_strings['LBL_INVALID_REQUEST'] = 'Invalid Request';
 $mod_strings['LBL_APPROXIMATE'] = 'Approximate';
-$mod_strings['LBL_EMPTY'] = 'ว่าง';
+$mod_strings['LBL_EMPTY'] = 'Empty';
 
-$mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'ผลรวม';
+$mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Total';
 $mod_strings['LBL_MODULE_RESET_HEADING'] = 'ตั้งค่าใหม่';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = 'ตารางแสดงสถานะที่ระบุแสดงจำนวนอ๊อปเจ็คในแบบจำลองที่กำหนดด้วยพิกัดทางภูมิศาสตร์โดยจัดกลุ่มตามการตอบรหัสพิกัดทางภูมิศาสตร์ โปรดจำไว้ว่าขีด จำกัด การใช้งานมาตรฐานของ Google Maps คือ 2500 คำขอต่อวัน โมดูลนี้จะแคชข้อมูลพิกัดทางภูมิศาสตร์ที่อยู่ระหว่างการประมวลผลเพื่อลดจำนวนคำขอทั้งหมดที่ต้องการ';
 
@@ -101,15 +101,15 @@ $mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'กำลังประม
 
 $mod_strings['LBL_CONFIG_TITLE'] = 'การตั้งค่าการกำหนดค่า';
 $mod_strings['LBL_CONFIG_SAVED'] = 'บันทึกการตั้งค่าเรียบร้อยแล้ว!';
-$mod_strings['LBL_BILLING_ADDRESS'] = 'ที่อยู่เรียกเก็บเงิน';
-$mod_strings['LBL_SHIPPING_ADDRESS'] = 'ที่อยู่จัดส่ง';
-$mod_strings['LBL_PRIMARY_ADDRESS'] = 'ที่อยู่หลัก';
+$mod_strings['LBL_BILLING_ADDRESS'] = 'Billing Address';
+$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Shipping Address';
+$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Primary Address';
 $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'ที่อยู่อื่น';
 $mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex Relate';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'ที่อยู่ (ง่าย, ผู้ใช้)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'กำหนดเอง (ลอจิกควบคุมที่กำหนดเอง)';
-$mod_strings['LBL_ENABLED'] = 'ถูกเปิดใช้งานแล้ว';
-$mod_strings['LBL_DISABLED'] = 'ถูกปิดใช้งาน';
+$mod_strings['LBL_ENABLED'] = 'Enabled';
+$mod_strings['LBL_DISABLED'] = 'Disabled';
 $mod_strings['LBL_DEFAULT'] = 'ค่าเริ่มต้น:';
 $mod_strings['LBL_CONFIG_DEFAULT'] = 'ค่าเริ่มต้น:';
 
@@ -184,7 +184,7 @@ $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_DESC'] = "'map_clusterer
 $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = "หมายเหตุสำคัญ: การตั้งค่าที่บันทึกไว้ทั้งหมดสามารถพบได้ในตาราง 'config' ภายใต้หมวด 'jjwg' หมายเหตุไฟล์ custom.php ที่กำหนดเองไม่ควรใช้เพื่อแทนที่การตั้งค่าอีกต่อไป";
 $mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'พื้นที่';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'เครื่องหมาย';
-$mod_strings['LBL_PARENT_ID'] = 'รหัสหลัก';
+$mod_strings['LBL_PARENT_ID'] = 'Parent ID';
 $mod_strings['LBL_JJWP_PARTNERS'] = 'พาร์ทเนอร์ JJWP';
 $mod_strings['LBL_GET_GOOGLE_API_KEY'] = 'ได้รับคีย์';
 $mod_strings['LBL_GOOGLE_API_KEY'] = 'Google Api ดีย์';
