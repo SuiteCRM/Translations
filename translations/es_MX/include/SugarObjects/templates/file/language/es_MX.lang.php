@@ -89,23 +89,23 @@ $mod_strings = array(
     'LBL_LIST_DOCUMENT' => 'Documento',
     'LBL_LIST_CATEGORY' => 'Categoría',
     'LBL_LIST_SUBCATEGORY' => 'Subcategoría',
-    'LBL_LIST_REVISION' => 'Versión',
+    'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => 'Publicado por',
     'LBL_LIST_LAST_REV_DATE' => 'Fecha de versión',
     'LBL_LIST_VIEW_DOCUMENT' => 'Ver',
-    'LBL_LIST_ACTIVE_DATE' => 'Fecha de publicación',
-    'LBL_LIST_EXP_DATE' => 'Fecha de expiración',
+    'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
+    'LBL_LIST_EXP_DATE' => 'Expiration Date',
     'LBL_LIST_STATUS' => 'Estado',
 
     //document search form.
-    'LBL_SF_CATEGORY' => 'Categoría:',
-    'LBL_SF_SUBCATEGORY' => 'Subcategoría:',
+    'LBL_SF_CATEGORY' => 'Category:',
+    'LBL_SF_SUBCATEGORY' => 'Sub Category:',
 
     'DEF_CREATE_LOG' => 'Documento creado',
 
     //error messages
     'ERR_DOC_NAME' => 'Nombre del documento',
-    'ERR_DOC_ACTIVE_DATE' => 'Fecha de publicación',
+    'ERR_DOC_ACTIVE_DATE' => 'Publish Date',
     'ERR_FILENAME' => 'Nombre del archivo',
 
     //sub-panel vardefs.
