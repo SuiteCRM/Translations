@@ -42,23 +42,23 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_ASSIGNED_TO_ID'] = 'Assigned User Id';
-$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'User';
-$mod_strings['LBL_ID'] = 'ID';
-$mod_strings['LBL_DATE_ENTERED'] = 'Date Created';
-$mod_strings['LBL_DATE_MODIFIED'] = 'Date Modified';
-$mod_strings['LBL_MODIFIED'] = 'Modified By';
-$mod_strings['LBL_MODIFIED_NAME'] = 'Modified By Name';
-$mod_strings['LBL_CREATED'] = 'Created By';
-$mod_strings['LBL_DESCRIPTION'] = 'Description';
-$mod_strings['LBL_DELETED'] = 'Deleted';
-$mod_strings['LBL_NAME'] = 'Name';
-$mod_strings['LBL_CREATED_USER'] = 'Created by User';
-$mod_strings['LBL_MODIFIED_USER'] = 'Modified by User';
-$mod_strings['LBL_LIST_NAME'] = 'Name';
+$mod_strings['LBL_ASSIGNED_TO_ID'] = 'Ταυτότητα Ανατεθειμένου Χειριστή';
+$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Χειριστής';
+$mod_strings['LBL_ID'] = 'Ταυτότητα';
+$mod_strings['LBL_DATE_ENTERED'] = 'Ημ/νία καταχώρησης';
+$mod_strings['LBL_DATE_MODIFIED'] = 'Ημ/νία Τροποποίησης';
+$mod_strings['LBL_MODIFIED'] = 'Τροποποιήθηκε Από';
+$mod_strings['LBL_MODIFIED_NAME'] = 'Τροποποιήθηκε Από Όνομα';
+$mod_strings['LBL_CREATED'] = 'Δημιουργήθηκε Από';
+$mod_strings['LBL_DESCRIPTION'] = 'Περιγραφή';
+$mod_strings['LBL_DELETED'] = 'Διαγράφηκε';
+$mod_strings['LBL_NAME'] = 'Όνομα';
+$mod_strings['LBL_CREATED_USER'] = 'Δημιουργήθηκε από';
+$mod_strings['LBL_MODIFIED_USER'] = 'τροποποίηση από';
+$mod_strings['LBL_LIST_NAME'] = 'Όνομα';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'Λίστα δεικτών';
-$mod_strings['LBL_MODULE_NAME'] = 'Markers';
-$mod_strings['LBL_MODULE_TITLE'] = 'Markers';
+$mod_strings['LBL_MODULE_NAME'] = 'Δείκτες';
+$mod_strings['LBL_MODULE_TITLE'] = 'Δείκτες';
 $mod_strings['LBL_HOMEPAGE_TITLE'] = 'Οι Δείκτες μου';
 $mod_strings['LNK_NEW_RECORD'] = 'Δημιουργία Δεικτών';
 $mod_strings['LNK_LIST'] = 'View Markers';
@@ -73,7 +73,7 @@ $mod_strings['LBL_COUNTRY'] = 'Country';
 $mod_strings['LBL_JJWG_MAPS_LAT'] = 'Latitude';
 $mod_strings['LBL_JJWG_MAPS_LNG'] = 'Longitude';
 $mod_strings['LBL_MARKER_IMAGE'] = 'Marker Image Type';
-$mod_strings['LBL_LIST_ASSIGNED_USER'] = 'Assigned To';
+$mod_strings['LBL_LIST_ASSIGNED_USER'] = 'Ανατέθηκε Σε';
 
 $mod_strings['LBL_MARKER_MARKER_POSITION'] = 'Marker Position (Latitude, Longitude):';
 $mod_strings['LBL_MARKER_CLOSEST_MATCHING_ADDRESS'] = 'Closest Matching Address:';
