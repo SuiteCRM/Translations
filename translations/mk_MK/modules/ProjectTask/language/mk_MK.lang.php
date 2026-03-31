@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Проектни задачи',
+    'LBL_MODULE_NAME' => 'Project Tasks',
     'LBL_MODULE_TITLE' => 'Project Task: Home',
 
     'LBL_ID' => 'Id:',
@@ -51,11 +51,11 @@ $mod_strings = array(
     'LBL_PROJECT_ID' => 'Project Id:',
     'LBL_DATE_ENTERED' => 'Дата на креирање:',
     'LBL_DATE_MODIFIED' => 'Дата на промена:',
-    'LBL_ASSIGNED_USER_ID' => 'Доделено на:',
+    'LBL_ASSIGNED_USER_ID' => 'Assigned To:',
     'LBL_MODIFIED_USER_ID' => 'Modified User Id:',
     'LBL_CREATED_BY' => 'Created By:',
     'LBL_NAME' => 'Име:',
-    'LBL_STATUS' => 'Состојба:',
+    'LBL_STATUS' => 'Status:',
     'LBL_DATE_DUE' => 'Датум на доспевање:',
     'LBL_TIME_DUE' => 'Време на доспевање:',
     'LBL_PREDECESSORS' => 'Predecessor',
@@ -69,7 +69,7 @@ $mod_strings = array(
     'LBL_PARENT_ID' => 'Project:',
     'LBL_PARENT_TASK_ID' => 'Parent Task Id:',
     'LBL_PERCENT_COMPLETE' => '% Cpl',
-    'LBL_PRIORITY' => 'Приоритет:',
+    'LBL_PRIORITY' => 'Priority:',
     'LBL_DESCRIPTION' => 'Notes:',
     'LBL_ORDER_NUMBER' => 'Order:',
     'LBL_TASK_NUMBER' => 'Task Number:',
@@ -82,7 +82,7 @@ $mod_strings = array(
     'LBL_IMPORT_PROJECT_TASKS' => 'Import Project Tasks',
 
     'LBL_LIST_NAME' => 'Име',
-    'LBL_LIST_PARENT_NAME' => 'Проект',
+    'LBL_LIST_PARENT_NAME' => 'Project',
     'LBL_SEARCH_FORM_TITLE' => 'Project Task Search',
     'LBL_LIST_PERCENT_COMPLETE' => '% Complete',
     'LBL_LIST_STATUS' => 'Статус',
@@ -96,10 +96,10 @@ $mod_strings = array(
     'LNK_NEW_PROJECT' => 'Create Project',
     'LNK_PROJECT_LIST' => 'Project List',
     'LNK_NEW_PROJECT_TASK' => 'Create Project Task',
-    'LNK_PROJECT_TASK_LIST' => 'Проектни задачи',
+    'LNK_PROJECT_TASK_LIST' => 'Project Tasks',
 
     'LBL_LIST_MY_PROJECT_TASKS' => 'Мои проектни задачи',
-    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Проектни задачи',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Project Tasks',
     'LBL_NEW_FORM_TITLE' => 'New Project Task',
 
     'LBL_HISTORY_TITLE' => 'Историја',
@@ -113,10 +113,10 @@ $mod_strings = array(
 
     'LBL_SUBTASK' => 'Sub-Task',
     'LBL_LAG' => 'Lag',
-    'LBL_DAYS' => 'Денови',
-    'LBL_HOURS' => 'Часови',
+    'LBL_DAYS' => 'Days',
+    'LBL_HOURS' => 'Hours',
     'LBL_RELATIONSHIP_TYPE' => 'Relationship Type',
 
-    'LBL_ASCENDING' => 'Растечки',
-    'LBL_DESCENDING' => 'Опаѓачки',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
 );
