@@ -65,5 +65,5 @@ $mod_strings = array(
     'LBL_SUBTOTAL_TAX_AMOUNT_USDOLLAR' => 'Subtotal + Impost (moneda per defecte)',
     'LBL_PARENT_ID' => 'Id pare',
 
-    'AOS_PRODUCT_QUOTES' => 'Product Quotes',
+    'AOS_PRODUCT_QUOTES' => 'Pressupostos de Productes',
 );
