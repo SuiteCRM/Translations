@@ -43,30 +43,30 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EDIT_LAYOUT' => 'Edit Layout',
+    'LBL_EDIT_LAYOUT' => 'تحرير التصميم',
     'LBL_EDIT_FIELDS' => 'تحرير الحقول المخصصة',
-    'LBL_SELECT_FILE' => 'Select File',
-    'LBL_MODULE_TITLE' => 'Studio',
-    'LBL_TOOLBOX' => 'Toolbox',
+    'LBL_SELECT_FILE' => 'حدد ملف',
+    'LBL_MODULE_TITLE' => 'الاستديو',
+    'LBL_TOOLBOX' => 'صندوق الأدوات',
     'LBL_SUITE_FIELDS_STAGE' => 'حقول SuiteCRM (انقر على العناصر للإضافة إلى منطقة التجهيز)',
     'LBL_VIEW_SUITE_FIELDS' => 'عرض حقول SuiteCRM',
-    'LBL_FAILED_TO_SAVE' => 'Failed To Save',
+    'LBL_FAILED_TO_SAVE' => 'فشل في الحفظ',
     'LBL_CONFIRM_UNSAVE' => 'سيتم إلغاء حفظ أي تغييرات. هل أنت متأكد من أنك تريد المتابعة؟',
-    'LBL_PUBLISHING' => 'Publishing...',
-    'LBL_PUBLISHED' => 'Published',
-    'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
-    'LBL_DROP_HERE' => '[Drop Here]',
+    'LBL_PUBLISHING' => 'جاري النشر...',
+    'LBL_PUBLISHED' => 'تم نشره',
+    'LBL_FAILED_PUBLISHED' => 'فشل في النشر',
+    'LBL_DROP_HERE' => '[أضفه هنا]',
 
 //CUSTOM FIELDS
-    'LBL_NAME' => 'Name',
-    'LBL_LABEL' => 'Label',
-    'LBL_MASS_UPDATE' => 'Mass Update',
-    'LBL_DEFAULT_VALUE' => 'Default Value',
-    'LBL_REQUIRED' => 'Required',
-    'LBL_DATA_TYPE' => 'Type',
+    'LBL_NAME' => 'الاسم',
+    'LBL_LABEL' => 'التسمية',
+    'LBL_MASS_UPDATE' => 'تحديث جماعي',
+    'LBL_DEFAULT_VALUE' => 'القيمة الافتراضية',
+    'LBL_REQUIRED' => 'إلزامي',
+    'LBL_DATA_TYPE' => 'النوع',
 
 
-    'LBL_HISTORY' => 'History',
+    'LBL_HISTORY' => 'التاريخ',
 
 //WIZARDS
 
@@ -79,68 +79,68 @@ $mod_strings = array(
     'LBL_SW_EDIT_GROUPTABS' => 'تكوين علامات تبويب المجموعات',
     'LBL_SW_EDIT_PORTAL' => 'تحرير البوابة',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => 'إصلاح الحقول المخصصة',
-    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrate Custom Fields',
+    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'تصدير الحقول المخصصة',
 
 // JS LABELS
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuilds javascript versions of language files',
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Removing javascript versions of language files, will rebuild when needed.',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'يعيد بناء إصدارات جافا سكريبت لملفات اللغة',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'إزالة إصدار جافا سكريبت من ملف اللغات، سيتم إعادة بنائه عند الحاجة.',
 
 
 //Manager Backups History
-    'LBL_MB_DELETE' => 'Delete',
+    'LBL_MB_DELETE' => 'حذف',
 
 //EDIT DROP DOWNS
     'LBL_ED_CREATE_DROPDOWN' => 'إنشاء قائمة منسدلة',
     'LBL_DROPDOWN_NAME' => 'اسم القائمة المنسدلة:',
     'LBL_DROPDOWN_LANGUAGE' => 'لغة القائمة المنسدلة:',
-    'LBL_TABGROUP_LANGUAGE' => 'Language:',
+    'LBL_TABGROUP_LANGUAGE' => 'اللغة:',
 
 //END WIZARDS
 
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => 'عرض القيمة',
     'LBL_DD_DATABASEVALUE' => 'قيمة قاعدة البيانات',
-    'LBL_DD_ALL' => 'All',
+    'LBL_DD_ALL' => 'الكل',
 
 //BUTTONS
-    'LBL_BTN_SAVE' => 'Save',
-    'LBL_BTN_CANCEL' => 'Cancel',
-    'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
-    'LBL_BTN_HISTORY' => 'History',
-    'LBL_BTN_ADDROWS' => 'Add Rows',
-    'LBL_BTN_UNDO' => 'Undo',
-    'LBL_BTN_REDO' => 'Redo',
-    'LBL_BTN_ADDCUSTOMFIELD' => 'Add Custom Field',
+    'LBL_BTN_SAVE' => 'حفظ',
+    'LBL_BTN_CANCEL' => 'إلغاء',
+    'LBL_BTN_SAVEPUBLISH' => 'حفظ وتنفيذ',
+    'LBL_BTN_HISTORY' => 'التاريخ',
+    'LBL_BTN_ADDROWS' => 'إضافة صفوف',
+    'LBL_BTN_UNDO' => 'تراجع',
+    'LBL_BTN_REDO' => 'إعادة',
+    'LBL_BTN_ADDCUSTOMFIELD' => 'إضافة حقل مخصص',
     'LBL_BTN_TABINDEX' => 'تعديل ترتيب التبويب',
 
 //TABS
-    'LBL_MODULES' => 'Modules',
-    'LBL_MODULE_NAME' => 'Administration',
-    'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
+    'LBL_MODULES' => 'الوحدات',
+    'LBL_MODULE_NAME' => 'إدارة',
+    'LBL_CONFIGURE_GROUP_TABS' => 'تهيئة معطيات الفرز لقوائم الوحدة',
     'LBL_GROUP_TAB_WELCOME' => 'محددات الفرز أدناه سيتم عرضها في قائمة المزيد في قائمة الوحدة للمستخدمين لاستخدامها لعرض مجموعات الوحدات داخل القائمة. سحب وإسقاط الوحدات إلى الفلاتر ومنها. ملاحظة: الفلاتر الفارغة لن يتم عرضها في القائمة.',
     'LBL_RENAME_TAB_WELCOME' => 'انقر على أي قيمة عرض علامة تبويب في الجدول أدناه لإعادة تسمية علامة التبويب.',
     'LBL_DELETE_MODULE' => 'إزالة&nbsp;وحدة<br />من&nbsp;الفرز',
     'LBL_TAB_GROUP_LANGUAGE_HELP' => 'حدد لغة متوفرة، قم بتعديل تسميات المجموعة وانقر فوق حفظ وتنفيذ لتطبيق التسميات باللغة المحددة.',
     'LBL_ADD_GROUP' => 'إضافة معطى فرز',
     'LBL_NEW_GROUP' => 'مجموعة جديدة',
-    'LBL_RENAME_TABS' => 'Rename Modules',
+    'LBL_RENAME_TABS' => 'إعادة تسمية الوحدات',
 
 //ERRORS
-    'ERROR_INVALID_KEY_VALUE' => "Error: Invalid Key Value: [']",
+    'ERROR_INVALID_KEY_VALUE' => "خطأ: قيمة المفتاح غير صالحة: [']",
 
 //SUGAR PORTAL
-    'LBL_SAVE' => 'Save' /*for 508 compliance fix*/,
-    'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
-    'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
+    'LBL_SAVE' => 'حفظ' /*for 508 compliance fix*/,
+    'LBL_UNDO' => 'تراجع' /*for 508 compliance fix*/,
+    'LBL_REDO' => 'إعادة' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'داخلي' /*for 508 compliance fix*/,
-    'LBL_DELETE' => 'Delete' /*for 508 compliance fix*/,
-    'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
+    'LBL_DELETE' => 'حذف' /*for 508 compliance fix*/,
+    'LBL_ADD_FIELD' => 'إضافة حقل' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'تكبير' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'تصغير' /*for 508 compliance fix*/,
-    'LBL_PUBLISH' => 'Publish' /*for 508 compliance fix*/,
-    'LBL_ADDROWS' => 'Add Rows' /*for 508 compliance fix*/,
-    'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
-    'LBL_EDIT' => 'Edit' /*for 508 compliance fix*/,
+    'LBL_PUBLISH' => 'نشر' /*for 508 compliance fix*/,
+    'LBL_ADDROWS' => 'إضافة صفوف' /*for 508 compliance fix*/,
+    'LBL_ADDFIELD' => 'إضافة حقل' /*for 508 compliance fix*/,
+    'LBL_EDIT' => 'حرر' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'حدد اللغة المراد تعديلها.',
     'LBL_SINGULAR' => 'التسمية بصيغة المفرد',
