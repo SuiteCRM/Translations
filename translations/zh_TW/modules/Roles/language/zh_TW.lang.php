@@ -43,16 +43,16 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => '角色:',
+    'LBL_ROLE' => 'Role:',
     'LBL_LANGUAGE' => '語言:',
     'LBL_MODULE_NAME' => '訪問控制角色',
-    'LBL_MODULE_TITLE' => '角色:首頁',
+    'LBL_MODULE_TITLE' => 'Roles: Home',
     'LBL_SEARCH_FORM_TITLE' => '角色搜尋',
     'LBL_LIST_FORM_TITLE' => '角色列表',
-    'LNK_NEW_ROLE' => '創建角色',
+    'LNK_NEW_ROLE' => 'Create Role',
     'LNK_ROLES' => '訪問控制角色',
     'LBL_NAME' => '名稱:',
-    'LBL_DESCRIPTION' => '描述:',
+    'LBL_DESCRIPTION' => '說明:',
     'LBL_ALLOWED_MODULES' => '允許模組: ',
     'LBL_DISALLOWED_MODULES' => '禁用模組: ',
     'LBL_ASSIGN_MODULES' => '編輯模塊:',
@@ -60,5 +60,5 @@ $mod_strings = array(
     'LBL_USERS' => '使用者',
 
     'LBL_USERS_SUBPANEL_TITLE' => '使用者',
-    'LBL_MODULES' => '模組',
+    'LBL_MODULES' => '模塊',
 );
