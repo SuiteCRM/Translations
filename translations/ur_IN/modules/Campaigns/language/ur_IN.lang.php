@@ -70,7 +70,7 @@ $mod_strings = array(
     'LBL_TEAM' => 'Team:',
     'LBL_ASSIGNED_TO' => 'مقرر کردہ سے:',
     'LBL_ASSIGNED_TO_ID' => 'مقرر کردہ سے:',
-    'LBL_ASSIGNED_TO_NAME' => 'مقرر کردہ سے:',
+    'LBL_ASSIGNED_TO_NAME' => 'اس حوالے سے:',
     'LBL_CAMPAIGN_START_DATE' => 'شروع تاریخ:',
     'LBL_CAMPAIGN_END_DATE' => 'End Date:',
     'LBL_CAMPAIGN_STATUS' => 'حیثیت:',
@@ -379,7 +379,7 @@ $mod_strings = array(
     'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'مواقعے',
 
     'LBL_LEAD_FORM_WIZARD' => 'Lead Form Wizard',
-    'LBL_CAMPAIGN_INFORMATION' => 'جائزہ', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_CAMPAIGN_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_EDIT_BUTTON' => 'Launch Wizard',
     'LBL_YEAR' => "Year",
     'LBL_DAY' => "Day",
