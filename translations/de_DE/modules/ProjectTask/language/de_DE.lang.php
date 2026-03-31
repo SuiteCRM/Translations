@@ -43,15 +43,15 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Project Tasks',
+    'LBL_MODULE_NAME' => 'Projektaufgaben',
     'LBL_MODULE_TITLE' => 'Projektaufgaben: Home',
 
     'LBL_ID' => 'Id:',
     'LBL_PROJECT_TASK_ID' => 'Projektaufgaben ID:',
     'LBL_PROJECT_ID' => 'Projekt ID:',
-    'LBL_DATE_ENTERED' => 'Date Created:',
-    'LBL_DATE_MODIFIED' => 'Date Modified:',
-    'LBL_ASSIGNED_USER_ID' => 'Assigned To:',
+    'LBL_DATE_ENTERED' => 'Erstellt am:',
+    'LBL_DATE_MODIFIED' => 'Geändert am:',
+    'LBL_ASSIGNED_USER_ID' => 'Zugewiesen an:',
     'LBL_MODIFIED_USER_ID' => 'Modified User Id:',
     'LBL_CREATED_BY' => 'Created By:',
     'LBL_NAME' => 'Name:',
@@ -82,29 +82,29 @@ $mod_strings = array(
     'LBL_IMPORT_PROJECT_TASKS' => 'Projektaufgaben importieren',
 
     'LBL_LIST_NAME' => 'Name',
-    'LBL_LIST_PARENT_NAME' => 'Project',
+    'LBL_LIST_PARENT_NAME' => 'Projekt',
     'LBL_SEARCH_FORM_TITLE' => 'Project Task Search',
     'LBL_LIST_PERCENT_COMPLETE' => '% Complete',
     'LBL_LIST_STATUS' => 'Status',
     'LBL_LIST_ASSIGNED_USER_ID' => 'Assigned To',
     'LBL_LIST_DATE_DUE' => 'Datum fällig',
     'LBL_LIST_PRIORITY' => 'Priority',
-    'LBL_LIST_CLOSE' => 'Close',
+    'LBL_LIST_CLOSE' => 'Schließen',
     'LBL_PROJECT_NAME' => 'Project Name',
     'LBL_LIST_FORM_TITLE' => 'Project Task List',
 
     'LNK_NEW_PROJECT' => 'Create Project',
     'LNK_PROJECT_LIST' => 'Project List',
     'LNK_NEW_PROJECT_TASK' => 'Create Project Task',
-    'LNK_PROJECT_TASK_LIST' => 'Project Tasks',
+    'LNK_PROJECT_TASK_LIST' => 'Projektaufgaben',
 
     'LBL_LIST_MY_PROJECT_TASKS' => 'Meine Projektaufgaben',
-    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Project Tasks',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Projektaufgaben',
     'LBL_NEW_FORM_TITLE' => 'Neue Projektaufgabe',
 
-    'LBL_HISTORY_TITLE' => 'History',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'History',
+    'LBL_HISTORY_TITLE' => 'Verlauf',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktivitäten',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Verlauf',
 
     'LBL_ASSIGNED_USER_NAME' => 'Assigned To',
     'LBL_PARENT_NAME' => 'Project Name',
@@ -113,10 +113,10 @@ $mod_strings = array(
 
     'LBL_SUBTASK' => 'Unter-Aufgabe',
     'LBL_LAG' => 'Lag',
-    'LBL_DAYS' => 'Days',
-    'LBL_HOURS' => 'Hours',
+    'LBL_DAYS' => 'Tage',
+    'LBL_HOURS' => 'Stunden',
     'LBL_RELATIONSHIP_TYPE' => 'Relationship Type',
 
-    'LBL_ASCENDING' => 'Ascending',
-    'LBL_DESCENDING' => 'Descending',
+    'LBL_ASCENDING' => 'Aufsteigend',
+    'LBL_DESCENDING' => 'Absteigend',
 );
