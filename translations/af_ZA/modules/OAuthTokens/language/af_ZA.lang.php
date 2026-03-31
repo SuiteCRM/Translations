@@ -58,5 +58,5 @@ $mod_strings = array(
     'LBL_CALLBACK_URL' => 'Callback URL',
     'LBL_SECRET' => 'Secret',
     'LBL_TSTATE' => 'TState',
-    'LBL_VERIFY' => 'Verify',
+    'LBL_VERIFY' => 'Verifieer',
 );
