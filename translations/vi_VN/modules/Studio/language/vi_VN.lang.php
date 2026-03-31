@@ -53,16 +53,16 @@ $mod_strings = array(
     'LBL_FAILED_TO_SAVE' => 'Bị lỗi để lưu',
     'LBL_CONFIRM_UNSAVE' => 'Mọi thay đổi sẽ không được lưu. Bạn có chắc chắn muốn tiếp tục không?',
     'LBL_PUBLISHING' => 'Đang phát hành...',
-    'LBL_PUBLISHED' => 'Công bố',
+    'LBL_PUBLISHED' => 'Published',
     'LBL_FAILED_PUBLISHED' => 'Phát hành thất bại',
     'LBL_DROP_HERE' => '[Thả ở đây]',
 
 //CUSTOM FIELDS
-    'LBL_NAME' => 'Tên',
+    'LBL_NAME' => 'tên',
     'LBL_LABEL' => 'Nhãn',
     'LBL_MASS_UPDATE' => 'Khối lượng Cập Nhật',
-    'LBL_DEFAULT_VALUE' => 'Giá trị mặc định',
-    'LBL_REQUIRED' => 'Yêu cầu',
+    'LBL_DEFAULT_VALUE' => 'Default Value',
+    'LBL_REQUIRED' => 'Required',
     'LBL_DATA_TYPE' => 'Loại',
 
 
