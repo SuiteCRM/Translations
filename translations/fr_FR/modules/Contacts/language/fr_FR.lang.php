@@ -168,7 +168,7 @@ $mod_strings = array(
     'LNK_NEW_TASK' => 'Planifier une tâche',
     'LNK_SELECT_ACCOUNT' => "Select Account",
     'NTC_DELETE_CONFIRMATION' => 'Are you sure you want to delete this record?',
-    'NTC_SNOOZE_CONFIRMATION' => 'Are you sure you want to snooze?',
+    'NTC_SNOOZE_CONFIRMATION' => 'Êtes-vous sûr de vouloir reporter ?',
     'NTC_OPPORTUNITY_REQUIRES_ACCOUNT' => 'Créer une Affaire nécessite un Compte associé.<br /> Merci de le créer ou de le sélectionner.',
     'NTC_REMOVE_CONFIRMATION' => 'Etes vous sûr de vouloir supprimer ce contact pour ce cas?',
 
