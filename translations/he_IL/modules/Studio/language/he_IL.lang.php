@@ -43,30 +43,30 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EDIT_LAYOUT' => 'ערוך תצוגה',
+    'LBL_EDIT_LAYOUT' => 'Edit Layout',
     'LBL_EDIT_FIELDS' => 'ערוך שדות מותאמים',
-    'LBL_SELECT_FILE' => 'בחר קובץ',
-    'LBL_MODULE_TITLE' => 'סטודיו',
-    'LBL_TOOLBOX' => 'תיבת כלים',
+    'LBL_SELECT_FILE' => 'Select File',
+    'LBL_MODULE_TITLE' => 'Studio',
+    'LBL_TOOLBOX' => 'Toolbox',
     'LBL_SUITE_FIELDS_STAGE' => 'SuiteCRM Fields (click items to add to staging area)',
     'LBL_VIEW_SUITE_FIELDS' => 'View SuiteCRM Fields',
-    'LBL_FAILED_TO_SAVE' => 'שמירה נכשלה',
+    'LBL_FAILED_TO_SAVE' => 'Failed To Save',
     'LBL_CONFIRM_UNSAVE' => 'Any changes will go unsaved. Are you sure you would like to continue?',
-    'LBL_PUBLISHING' => 'מפרסם...',
-    'LBL_PUBLISHED' => 'פורסם',
-    'LBL_FAILED_PUBLISHED' => 'פרסום נכשל',
-    'LBL_DROP_HERE' => '[השלך לכאן]',
+    'LBL_PUBLISHING' => 'Publishing...',
+    'LBL_PUBLISHED' => 'Published',
+    'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
+    'LBL_DROP_HERE' => '[Drop Here]',
 
 //CUSTOM FIELDS
     'LBL_NAME' => 'שם',
-    'LBL_LABEL' => 'תווית',
+    'LBL_LABEL' => 'Label',
     'LBL_MASS_UPDATE' => 'עדכון המוני',
-    'LBL_DEFAULT_VALUE' => 'ערך ברירת מחדל',
-    'LBL_REQUIRED' => 'נדרש',
-    'LBL_DATA_TYPE' => 'סוג',
+    'LBL_DEFAULT_VALUE' => 'Default Value',
+    'LBL_REQUIRED' => 'Required',
+    'LBL_DATA_TYPE' => 'Type',
 
 
-    'LBL_HISTORY' => 'הסטוריה',
+    'LBL_HISTORY' => 'History',
 
 //WIZARDS
 
@@ -79,68 +79,68 @@ $mod_strings = array(
     'LBL_SW_EDIT_GROUPTABS' => 'התאם קבוצת תגיות',
     'LBL_SW_EDIT_PORTAL' => 'ערוך פורטל',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => 'תקן שדות מותאמים',
-    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'העבר שדות מותאמים',
+    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrate Custom Fields',
 
 // JS LABELS
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'בנה מחדש גרסת Javascript  לשפת קבצים',
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'מסיר גרסת Javascript של קובץ שפה, יווצר בעת הצורך',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuilds javascript versions of language files',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Removing javascript versions of language files, will rebuild when needed.',
 
 
 //Manager Backups History
-    'LBL_MB_DELETE' => 'למחוק',
+    'LBL_MB_DELETE' => 'Delete',
 
 //EDIT DROP DOWNS
     'LBL_ED_CREATE_DROPDOWN' => 'צור רשימה נפתחת מוגדרת מראש',
     'LBL_DROPDOWN_NAME' => 'Dropdown Name:',
     'LBL_DROPDOWN_LANGUAGE' => 'Dropdown Language:',
-    'LBL_TABGROUP_LANGUAGE' => 'שפה:',
+    'LBL_TABGROUP_LANGUAGE' => 'Language:',
 
 //END WIZARDS
 
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => 'הצג ערך',
     'LBL_DD_DATABASEVALUE' => 'ערך מאגר נתונים',
-    'LBL_DD_ALL' => 'הכל',
+    'LBL_DD_ALL' => 'All',
 
 //BUTTONS
     'LBL_BTN_SAVE' => 'שמור',
-    'LBL_BTN_CANCEL' => 'בטל',
-    'LBL_BTN_SAVEPUBLISH' => 'שמור ופרסם',
-    'LBL_BTN_HISTORY' => 'הסטוריה',
-    'LBL_BTN_ADDROWS' => 'הוסף שורות',
-    'LBL_BTN_UNDO' => 'בטל',
-    'LBL_BTN_REDO' => 'בצע',
-    'LBL_BTN_ADDCUSTOMFIELD' => 'הוסף שדות מותאמים',
+    'LBL_BTN_CANCEL' => 'Cancel',
+    'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
+    'LBL_BTN_HISTORY' => 'History',
+    'LBL_BTN_ADDROWS' => 'Add Rows',
+    'LBL_BTN_UNDO' => 'Undo',
+    'LBL_BTN_REDO' => 'Redo',
+    'LBL_BTN_ADDCUSTOMFIELD' => 'Add Custom Field',
     'LBL_BTN_TABINDEX' => 'ערוך סדר שדות',
 
 //TABS
-    'LBL_MODULES' => 'מודולים',
-    'LBL_MODULE_NAME' => 'אדמיניסטרציה',
-    'LBL_CONFIGURE_GROUP_TABS' => 'עצב קבוצת תגיות',
+    'LBL_MODULES' => 'Modules',
+    'LBL_MODULE_NAME' => 'מנהל מערכת',
+    'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
     'LBL_GROUP_TAB_WELCOME' => 'The filters below will be displayed in the More list in the module menu for users to use to view groups of modules within the menu. Drag and drop modules to and from the filters. Note: Empty filters will not be displayed in the menu.',
     'LBL_RENAME_TAB_WELCOME' => 'Click on any tab\'s Display Value in the table below to rename the tab.',
     'LBL_DELETE_MODULE' => 'Remove&nbsp;module<br />from&nbsp;filter',
     'LBL_TAB_GROUP_LANGUAGE_HELP' => 'Select an available language, edit the Group labels and click Save & Deploy to apply the labels in the selected language.',
     'LBL_ADD_GROUP' => 'Add Filter',
     'LBL_NEW_GROUP' => 'New Group',
-    'LBL_RENAME_TABS' => 'תן שם חדש לתגיות',
+    'LBL_RENAME_TABS' => 'Rename Modules',
 
 //ERRORS
     'ERROR_INVALID_KEY_VALUE' => "Error: Invalid Key Value: [']",
 
 //SUGAR PORTAL
     'LBL_SAVE' => 'שמור' /*for 508 compliance fix*/,
-    'LBL_UNDO' => 'בטל' /*for 508 compliance fix*/,
-    'LBL_REDO' => 'בצע' /*for 508 compliance fix*/,
+    'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
+    'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Inline' /*for 508 compliance fix*/,
-    'LBL_DELETE' => 'למחוק' /*for 508 compliance fix*/,
-    'LBL_ADD_FIELD' => 'הוסף שדה' /*for 508 compliance fix*/,
+    'LBL_DELETE' => 'Delete' /*for 508 compliance fix*/,
+    'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Maximize' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Minimize' /*for 508 compliance fix*/,
-    'LBL_PUBLISH' => 'פורסם' /*for 508 compliance fix*/,
-    'LBL_ADDROWS' => 'הוסף שורות' /*for 508 compliance fix*/,
-    'LBL_ADDFIELD' => 'הוסף שדה' /*for 508 compliance fix*/,
-    'LBL_EDIT' => 'לערוך' /*for 508 compliance fix*/,
+    'LBL_PUBLISH' => 'Publish' /*for 508 compliance fix*/,
+    'LBL_ADDROWS' => 'Add Rows' /*for 508 compliance fix*/,
+    'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
+    'LBL_EDIT' => 'עריכה' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Select the language to edit.',
     'LBL_SINGULAR' => 'Singular Label',
