@@ -56,7 +56,7 @@ $mod_strings = array(
     'LBL_SAVE_SEARCH_AS' => 'Save filter as:',
     'LBL_ASCENDING' => 'Artan',
     'LBL_DESCENDING' => 'Azalan',
-    'LBL_MODIFY_CURRENT_FILTER' => 'Hazırkı filtiri dəyişdir',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
     'LBL_CREATED_BY' => 'Müəllif',
     'LBL_QUICK_FILTER' => 'Sürətli Filtirləmə',
