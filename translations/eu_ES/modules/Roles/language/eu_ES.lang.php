@@ -43,16 +43,16 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Role:',
-    'LBL_LANGUAGE' => 'Language:',
+    'LBL_ROLE' => 'Rol:',
+    'LBL_LANGUAGE' => 'Lengoaia:',
     'LBL_MODULE_NAME' => 'Roles',
     'LBL_MODULE_TITLE' => 'Roles: Home',
     'LBL_SEARCH_FORM_TITLE' => 'Rol-bilaketa',
     'LBL_LIST_FORM_TITLE' => 'Rol-zerrenda',
     'LNK_NEW_ROLE' => 'Create Role',
     'LNK_ROLES' => 'Roles',
-    'LBL_NAME' => 'Name:',
-    'LBL_DESCRIPTION' => 'Description:',
+    'LBL_NAME' => 'Izena:',
+    'LBL_DESCRIPTION' => 'Deskribapena:',
     'LBL_ALLOWED_MODULES' => 'Baimendutako moduluak:',
     'LBL_DISALLOWED_MODULES' => 'Baimendu gabeko moduluak:',
     'LBL_ASSIGN_MODULES' => 'Moduluak editatu:',
