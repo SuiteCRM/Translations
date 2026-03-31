@@ -44,9 +44,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_MODULE_NAME' => 'Groups',
-    'LBL_GROUP_NAME' => 'Emri grupit:',
-    'LBL_DESCRIPTION' => 'Përshkrim',
-    'LBL_TEAM' => 'Grupi',
+    'LBL_GROUP_NAME' => 'Group Name:',
+    'LBL_DESCRIPTION' => 'Description:',
+    'LBL_TEAM' => 'Team:',
     // ListView
     'LBL_LIST_TITLE' => 'Groups',
     // Links
