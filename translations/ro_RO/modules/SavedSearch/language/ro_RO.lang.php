@@ -52,14 +52,14 @@ $mod_strings = array(
     'LBL_LIST_NAME' => 'Prenume',
     'LBL_LIST_MODULE' => 'Modul',
     'LBL_ORDER_BY_COLUMNS' => 'Ordonare după coloană',
-    'LBL_DIRECTION' => 'Direction',
+    'LBL_DIRECTION' => 'Direcție',
     'LBL_SAVE_SEARCH_AS' => 'Salvează filtru ca:',
     'LBL_ASCENDING' => 'Ascendent',
     'LBL_DESCENDING' => 'Descendent',
     'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
     'LBL_CREATED_BY' => 'Creat de',
-    'LBL_QUICK_FILTER' => 'Quick Filter',
+    'LBL_QUICK_FILTER' => 'Filtru Rapid',
 
 
 );
