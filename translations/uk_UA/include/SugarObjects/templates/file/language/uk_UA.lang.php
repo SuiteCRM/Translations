@@ -87,31 +87,31 @@ $mod_strings = array(
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'Список документів',
     'LBL_LIST_DOCUMENT' => 'Документ',
-    'LBL_LIST_CATEGORY' => 'Категорія',
-    'LBL_LIST_SUBCATEGORY' => 'Підкатегорія',
-    'LBL_LIST_REVISION' => 'Версія',
+    'LBL_LIST_CATEGORY' => 'Category',
+    'LBL_LIST_SUBCATEGORY' => 'Sub Category',
+    'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => 'Опубліковано',
     'LBL_LIST_LAST_REV_DATE' => 'Дата перегляду',
     'LBL_LIST_VIEW_DOCUMENT' => 'Перегляд',
-    'LBL_LIST_ACTIVE_DATE' => 'Дата публікації',
-    'LBL_LIST_EXP_DATE' => 'Термін дії',
-    'LBL_LIST_STATUS' => 'Статус',
+    'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
+    'LBL_LIST_EXP_DATE' => 'Expiration Date',
+    'LBL_LIST_STATUS' => 'Status',
 
     //document search form.
-    'LBL_SF_CATEGORY' => 'Категорія:',
-    'LBL_SF_SUBCATEGORY' => 'Підкатегорія:',
+    'LBL_SF_CATEGORY' => 'Category:',
+    'LBL_SF_SUBCATEGORY' => 'Sub Category:',
 
     'DEF_CREATE_LOG' => 'Документ створено',
 
     //error messages
-    'ERR_DOC_NAME' => 'Назва документа',
-    'ERR_DOC_ACTIVE_DATE' => 'Дата публікації',
+    'ERR_DOC_NAME' => 'Document Name',
+    'ERR_DOC_ACTIVE_DATE' => 'Publish Date',
     'ERR_FILENAME' => 'Ім\'я файлу',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'Назва документа',
+    'LBL_LIST_DOCUMENT_NAME' => 'Document Name',
 
     'LBL_EDIT_BUTTON' => 'Редагувати ',
-    'LBL_REMOVE' => 'Видалити',
+    'LBL_REMOVE' => 'Remove',
 
 );
