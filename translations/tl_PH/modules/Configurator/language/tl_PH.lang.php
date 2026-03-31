@@ -85,7 +85,7 @@ $mod_strings = array(
     'LBL_MODULE_FAVICON_HELP' => 'Kung ikaw ay nasa modyul na may ikono, gamitin ang ikono ng modyul bilang isang favicon, sa halip ng tema ng favicon, sa tab ng browser.',
     'LBL_MODULE_NAME' => 'Mga Setting ng Sistema',
     'LBL_MODULE_ID' => 'Tagapag-konfigyura',
-    'LBL_MODULE_TITLE' => 'Interfeys ng Gumagamit',
+    'LBL_MODULE_TITLE' => 'Interfeys sa Gumagamit',
     'LBL_NOTIFY_FROMADDRESS' => '"Mula" sa Address:',
     'LBL_NOTIFY_SUBJECT' => 'Subjek ng email:',
 
@@ -229,7 +229,7 @@ $mod_strings = array(
     'LBL_WIZARD_SYSTEM_DESC' => 'Magbigay ng pangalan sa iyong organisasyon at logo nang sa ganun ikaw ay magpa-tatak sa iyong SuiteCRM.',
     'LBL_WIZARD_LOCALE_DESC' => 'Tukuyin kung papaano ang gusto mong maipa-displey na data sa SuiteCRM, na basi sa iyong heograpikal na lokasyon. Ang mga setting na iyong ibinigay rito ay magiging mga setting na naka-default. Ang mga gumagamit ay maaaring makapag-set ng kani-kanilang mga sariling preferensiya.',
     'LBL_WIZARD_SMTP_DESC' => 'Magbigay ng account sa email na gagamitin sa pagpapadala ng mga email, kagaya ng mga notipikasyon sa asaynment at mga password ng gumagamit na baguhan. Ang mga gumagamit ay makakatanggap ng mga email mula sa SuiteCRM, bilang isang naipadala mula sa tukoy na account sa email.',
-    'LBL_LOADING' => 'Nag loload...' /*for 508 compliance fix*/,
+    'LBL_LOADING' => 'Nag-lo-load...' /*for 508 compliance fix*/,
     'LBL_DELETE' => 'Alisin' /*for 508 compliance fix*/,
     'LBL_WELCOME' => 'Walang anuman' /*for 508 compliance fix*/,
     'LBL_LOGO' => 'Logo' /*for 508 compliance fix*/,
