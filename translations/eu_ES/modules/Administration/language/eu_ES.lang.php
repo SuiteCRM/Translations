@@ -782,7 +782,7 @@ SQL Exekutatu SQL-a exekutatuko da
     'CampaignTrackers' => 'CampaignTracker',
     'Connectors' => 'Connectors',
     'ContractTypes' => 'ContractType',
-    'Currencies' => 'Currency',
+    'Currencies' => 'Moneta',
     'CustomFields' => 'CustomFields',
     'CustomQueries' => 'CustomQuery',
     'DataSets' => 'DataSet',
