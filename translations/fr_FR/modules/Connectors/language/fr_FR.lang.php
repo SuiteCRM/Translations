@@ -47,11 +47,11 @@ $mod_strings = array(
 
     'LBL_ADMINISTRATION_MAIN' => 'Paramètres du Connecteur',
     'LBL_AVAILABLE' => 'Disponible',
-    'LBL_BACK' => '< Back',
+    'LBL_BACK' => '< Précédent',
     'LBL_CONFIRM_CONTINUE_SAVE' => 'Un ou des champs obligatoires ont été laissé vide.  Réalisez les changements ?',
     'LBL_CONNECTOR_FIELDS' => 'Champs du Connecteur',
     'LBL_DATA' => 'Donnée',
-    'LBL_DEFAULT' => 'Default',
+    'LBL_DEFAULT' => 'Par défaut',
     'LBL_DISABLED' => 'Disabled',
     'LBL_ENABLED' => 'Enabled',
     'LBL_EXTERNAL' => 'Autoriser les utilisateurs à créer des liens externes pour ce connecteur. Pour utiliser ce connecteur, les propriétés devraient aussi être définies dans la rubrique de définition des propriétés du connecteur',
@@ -67,9 +67,9 @@ $mod_strings = array(
     'LBL_MODIFY_SEARCH_TITLE' => 'Gérer la recherche du Connecteur',
     'LBL_MODIFY_SEARCH' => 'Search',
     'LBL_MODIFY_SEARCH_DESC' => 'Sélectionner les champs du connecteur a utilisé pour la recherche des données pour chacun des modules.',
-    'LBL_MODULE_NAME' => 'Connectors',
+    'LBL_MODULE_NAME' => 'Connecteurs',
     'LBL_NO_PROPERTIES' => 'Il n\'y a pas de propriétés paramétrables pour ce connecteur.',
-    'LBL_SAVE' => 'Save',
+    'LBL_SAVE' => 'Sauvegarder',
     'LBL_SUMMARY' => 'Summary',
     'LBL_STEP1' => 'Rechercher et voir les données',
     'LBL_STEP2' => 'Fusionner les enregistrements avec',
@@ -84,6 +84,6 @@ $mod_strings = array(
     'ERROR_NO_SEARCHDEFS_MAPPING' => 'Erreur : Il n&#39;y a pas de champ de recherche défini pour ce module et ce connecteur. Veuillez contacter votre administrateur système.',
     'ERROR_NO_DISPLAYABLE_MAPPED_FIELDS' => 'Erreur : Il n&#39;y a pas de champ de module défini pour afficher les résultats. Veuillez contacter votre administrateur système.',
     'LBL_INFO_INLINE' => 'Info' /*for 508 compliance fix*/,
-    'LBL_CLOSE' => 'Close' /*for 508 compliance fix*/,
+    'LBL_CLOSE' => 'Fermer' /*for 508 compliance fix*/,
 
 );
