@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Releases',
+    'LBL_MODULE_NAME' => 'Vydání',
     'LBL_MODULE_TITLE' => 'Vydání: Domů',
     'LBL_SEARCH_FORM_TITLE' => 'Hledat vydání',
     'LBL_LIST_FORM_TITLE' => 'Seznam vydání',
@@ -53,17 +53,17 @@ $mod_strings = array(
     'LBL_NAME' => 'Verze vydání:',
     'LBL_LIST_LIST_ORDER' => 'Order',
     'LBL_LIST_ORDER' => 'Order:',
-    'LBL_LIST_STATUS' => 'Status',
-    'LBL_STATUS' => 'Status:',
+    'LBL_LIST_STATUS' => 'Stav',
+    'LBL_STATUS' => 'Stav:',
     'LNK_NEW_RELEASE' => 'Release List',
-    'NTC_DELETE_CONFIRMATION' => 'Are you sure you want to delete this record?',
+    'NTC_DELETE_CONFIRMATION' => 'Opravdu chcete smazat tento záznam?',
     'ERR_DELETE_RECORD' => 'Pro smazání vydání musíte určit číslo záznamu',
     'NTC_STATUS' => 'Pro odstranění tohoto vydání ze seznamu rozbalovací nabídky vydání, musíte nastavit stav na Neaktivní',
     'NTC_LIST_ORDER' => 'Nastavit pořadí tohoto vydání jak se bude zobrazovat v seznamu rozbalovací nabídky Vydání',
     'release_status_dom' =>
         array(
-            'Active' => 'Active',
-            'Inactive' => 'Inactive',
+            'Active' => 'Aktivní',
+            'Inactive' => 'Neaktivní',
         ),
     'LBL_EDITLAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
 );
