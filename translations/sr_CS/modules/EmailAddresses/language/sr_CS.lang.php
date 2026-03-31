@@ -43,13 +43,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EMAIL_ADDRESS_ID' => 'ID broj',
-    'LBL_EMAIL_ADDRESS' => 'E-adresa',
+    'LBL_EMAIL_ADDRESS_ID' => 'ID',
+    'LBL_EMAIL_ADDRESS' => 'Email Address',
     'LBL_EMAIL_ADDRESS_CAPS' => 'Email adrese',
-    'LBL_INVALID_EMAIL' => 'Nevažeći Email',
-    'LBL_OPT_OUT' => 'Isključene opcije',
+    'LBL_INVALID_EMAIL' => 'Invalid Email',
+    'LBL_OPT_OUT' => 'Opted Out',
     'LBL_CONFIRM_OPT_IN' => 'Confirm Opt In',
     'LBL_DATE_CREATE' => 'Datum kreiranja',
-    'LBL_DATE_MODIFIED' => 'Datum izmene',
-    'LBL_DELETED' => 'Obriši',
+    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_DELETED' => 'Delete',
 );
