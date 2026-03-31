@@ -59,7 +59,7 @@ $mod_strings = array(
     'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
     'LBL_CREATED_BY' => 'Créé par',
-    'LBL_QUICK_FILTER' => 'Quick Filter',
+    'LBL_QUICK_FILTER' => 'Filtre rapide',
 
 
 );
