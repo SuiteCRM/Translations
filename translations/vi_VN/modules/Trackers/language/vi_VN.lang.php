@@ -52,5 +52,5 @@ $mod_strings = array(
     'users' => 'Người dùng',
 
     //Administration related labels
-    'LBL_MODULE_NAME' => 'Theo dõi',
+    'LBL_MODULE_NAME' => 'Trackers',
 );
