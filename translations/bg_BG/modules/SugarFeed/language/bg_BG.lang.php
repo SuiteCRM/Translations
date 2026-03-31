@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_ID' => 'Възложен на оператор с идентификационен номер',
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date Created',
@@ -74,7 +74,7 @@ $mod_strings = array(
     'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_NEW_FORM_TITLE' => 'Нова новина',
-    'LBL_ALL' => 'All',
+    'LBL_ALL' => 'Всички',
     'LBL_USER_FEED' => 'User Feed',
     'LBL_ENABLE_USER_FEED' => 'Активни новини за потребителя',
     'LBL_TO' => 'Visible to Team',
@@ -115,7 +115,7 @@ $mod_strings = array(
     'LBL_POST' => 'Post',
     'LBL_AUTHENTICATE' => 'Connect to',
     'LBL_AUTHENTICATION_PENDING' => 'Не всички маркирани външни потребители са се идентифицирали пред системата. Натиснете \'Отмени\' за да се върнете в прозореца за идентификация на външните потребители, или натиснете \'Ок\' за да продължите без идентификация.',
-    'LBL_ADVANCED_SEARCH' => 'Advanced Filter' /*for 508 compliance fix*/,
+    'LBL_ADVANCED_SEARCH' => 'Разширен филтър' /*for 508 compliance fix*/,
     'LBL_SHOW_MORE_OPTIONS' => 'Show More Options',
     'LBL_HIDE_OPTIONS' => 'Hide Options',
     'LBL_VIEW' => 'View',
