@@ -64,7 +64,7 @@ $mod_strings = array(
     'LBL_DATA_TYPE_MODIFIED' => 'Modified:',
     'LBL_LIST_CONTACT' => 'Contact',
     'LBL_LIST_RELATED_TO' => 'Related to',
-    'LBL_LIST_DATE' => 'Date',
+    'LBL_LIST_DATE' => 'Data',
     'LBL_LIST_CLOSE' => 'Close',
     'LBL_SUBJECT' => 'Subject:',
     'LBL_STATUS' => 'Status:',
@@ -75,7 +75,7 @@ $mod_strings = array(
     'LBL_DURATION' => 'Iraupena',
     'LBL_HOURS_MINS' => '(orduak/minutuak)',
     'LBL_CONTACT_NAME' => 'Kontaktuaren Izena: ',
-    'LBL_DESCRIPTION' => 'Description:',
+    'LBL_DESCRIPTION' => 'Deskribapena:',
     'LNK_NEW_CALL' => 'Log Call',
     'LNK_NEW_MEETING' => 'Schedule Meeting',
     'LNK_NEW_TASK' => 'Create Task',
@@ -112,7 +112,7 @@ $mod_strings = array(
     'LNK_IMPORT_NOTES' => 'Oharrak inportatu',
     'LBL_ACCEPT_THIS' => 'Onartu?',
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Open Activities',
-    'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigned User',
+    'LBL_LIST_ASSIGNED_TO_NAME' => 'Nori esleitua',
 
     'LBL_ACCEPT' => 'Accept' /*for 508 compliance fix*/,
 );
