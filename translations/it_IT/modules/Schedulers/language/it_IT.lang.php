@@ -107,7 +107,7 @@ $mod_strings = array(
     'LBL_JOB_URL' => 'URL Job',
     'LBL_LAST_RUN' => 'Ultima Esecuzione senza errori',
     'LBL_MODULE_NAME' => 'Schedulatore SuiteCRM',
-    'LBL_MODULE_TITLE' => 'Schedulatori',
+    'LBL_MODULE_TITLE' => 'Schedulazioni',
     'LBL_NAME' => 'Nome Operazione',
     'LBL_NEVER' => 'Mai',
     'LBL_NEW_FORM_TITLE' => 'Nuova Schedulazione',
@@ -125,7 +125,7 @@ $mod_strings = array(
     'LBL_TOGGLE_ADV' => 'Mostra le Opzioni Avanzate',
     'LBL_TOGGLE_BASIC' => 'Mostra Opzioni Base',
 // Links
-    'LNK_LIST_SCHEDULER' => 'Schedulatori',
+    'LNK_LIST_SCHEDULER' => 'Schedulazioni',
     'LNK_NEW_SCHEDULER' => 'Nuova Schedulazione',
 // Messages
     'ERR_CRON_SYNTAX' => 'Syntax Cron non valida',
