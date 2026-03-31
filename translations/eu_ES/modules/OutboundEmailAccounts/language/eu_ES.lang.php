@@ -43,14 +43,14 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_ID' => 'Esleitutako erabiltzailearen Id',
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date Created',
     'LBL_DATE_MODIFIED' => 'Date Modified',
     'LBL_MODIFIED' => 'Modified By',
-    'LBL_MODIFIED_NAME' => 'Modified By Name',
-    'LBL_CREATED' => 'Created By',
+    'LBL_MODIFIED_NAME' => 'Nork aldatua',
+    'LBL_CREATED' => 'Sortzailea',
     'LBL_DESCRIPTION' => 'Description',
     'LBL_DELETED' => 'Deleted',
     'LBL_NAME' => 'Name',
@@ -72,14 +72,14 @@ $mod_strings = array(
     'LNK_LIST' => 'Outbound Email Accounts',
     'LNK_LIST_INBOUND_EMAIL_ACCOUNTS' => 'Inbound Email Accounts',
     'LBL_SEARCH_FORM_TITLE' => 'Search Outbound Email Accounts',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Historia ikusi',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_NEW_FORM_TITLE' => 'New Outbound Email Accounts',
     'LBL_USERNAME' => 'Username',
     'LBL_PASSWORD' => 'Password',
     'LBL_SMTP_SERVERNAME' => 'SMTP Server Name',
     'LBL_SMTP_AUTH' => 'SMTP Auth',
-    'LBL_SMTP_PORT' => 'SMTP Port',
+    'LBL_SMTP_PORT' => 'SMTP ataka',
     'LBL_SMTP_PROTOCOL' => 'SMTP Protocol',
     'LBL_EDITVIEW_PANEL1' => 'Account settings',
     'LBL_OUTBOUND_CONFIGURATION' => 'Outbound Configuration',
@@ -113,7 +113,7 @@ $mod_strings = array(
     'LBL_REPLY_TO_NAME' => '"Reply-to" name',
     'LBL_REPLY_TO_ADDR' => '"Reply-to" address',
 
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Segurtasun-taldeak',
 
     'LBL_OWNER' => 'Owner',
     'LBL_OWNER_NAME' => 'Owner',
