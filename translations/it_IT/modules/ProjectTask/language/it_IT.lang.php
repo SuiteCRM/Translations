@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Compiti di progetto',
+    'LBL_MODULE_NAME' => 'Compiti di Progetto',
     'LBL_MODULE_TITLE' => 'Compiti di Progetto: Home',
 
     'LBL_ID' => 'ID:',
@@ -81,32 +81,32 @@ $mod_strings = array(
     'LBL_DELETED' => 'Eliminato:',
     'LBL_IMPORT_PROJECT_TASKS' => 'Importa le Attività del Progetto',
 
-    'LBL_LIST_NAME' => 'Nome',
+    'LBL_LIST_NAME' => 'Nome Contatto',
     'LBL_LIST_PARENT_NAME' => 'Progetto',
     'LBL_SEARCH_FORM_TITLE' => 'Project Task Search',
     'LBL_LIST_PERCENT_COMPLETE' => 'Progresso (%)',
     'LBL_LIST_STATUS' => 'Stato',
-    'LBL_LIST_ASSIGNED_USER_ID' => 'Assegnato a',
+    'LBL_LIST_ASSIGNED_USER_ID' => 'Assegnato A',
     'LBL_LIST_DATE_DUE' => 'Data Scadenza',
     'LBL_LIST_PRIORITY' => 'Priorità',
-    'LBL_LIST_CLOSE' => 'Chiusa',
+    'LBL_LIST_CLOSE' => 'Chiudi',
     'LBL_PROJECT_NAME' => 'Nome Progetto',
     'LBL_LIST_FORM_TITLE' => 'Project Task List',
 
     'LNK_NEW_PROJECT' => 'Nuovo Progetto',
     'LNK_PROJECT_LIST' => 'Visualizza Progetti',
     'LNK_NEW_PROJECT_TASK' => 'Nuovo Compito di Progetto',
-    'LNK_PROJECT_TASK_LIST' => 'Compiti di progetto',
+    'LNK_PROJECT_TASK_LIST' => 'Compiti di Progetto',
 
     'LBL_LIST_MY_PROJECT_TASKS' => 'Compiti del Mio Progetto',
-    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Compiti di progetto',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Compiti di Progetto',
     'LBL_NEW_FORM_TITLE' => 'Nuovo Compito di Progetto',
 
     'LBL_HISTORY_TITLE' => 'Cronologia',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Attività',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Cronologia',
 
-    'LBL_ASSIGNED_USER_NAME' => 'Assegnato a',
+    'LBL_ASSIGNED_USER_NAME' => 'Assegnato A',
     'LBL_PARENT_NAME' => 'Nome Progetto',
     'LBL_EDITLAYOUT' => 'Modifica Maschera' /*for 508 compliance fix*/,
     'LBL_PANEL_TIMELINE' => 'Cronologia',
