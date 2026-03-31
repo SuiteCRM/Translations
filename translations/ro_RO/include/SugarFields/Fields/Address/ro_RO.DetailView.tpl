@@ -28,10 +28,10 @@
  * SW2-130, Cupertino, CA 95014, USA. or at email address contact@sugarcrm.com.
  *
  * The interactive user interfaces in modified source and object code versions
- * of this program must display Appropriate Legal Notices, as required under
- * Section 5 of the GNU Affero General Public License version 3.
+ * Acest program trebuie să afișeze notificări juridice corespunzătoare, în conformitate cu
+ * Secțiunea 5 a GNU Affero General Public License, versiunea 3.
  *
- * In accordance with Section 7(b) of the GNU Affero General Public License version 3,
+ * În conformitate cu Secțiunea 7 litera (b) din GNU Affero General Public License, versiunea 3
  * these Appropriate Legal Notices must retain the display of the "Powered by
  * SugarCRM" logo and "Supercharged by SuiteCRM" logo. If the display of the logos is not
  * reasonably feasible for technical reasons, the Appropriate Legal Notices must
