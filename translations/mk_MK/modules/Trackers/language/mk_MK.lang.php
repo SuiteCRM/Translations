@@ -46,11 +46,11 @@ $mod_strings = array(
     //Column header mapping
     'action' => 'Акција',
     'date_modified' => 'Date of Last Action',
-    'item_id' => 'ID',
+    'item_id' => 'Број',
     'item_summary' => 'Име',
     'module_name' => 'Име на модул',
-    'users' => 'Корисници',
+    'users' => 'Users',
 
     //Administration related labels
-    'LBL_MODULE_NAME' => 'Tракери',
+    'LBL_MODULE_NAME' => 'Trackers',
 );
