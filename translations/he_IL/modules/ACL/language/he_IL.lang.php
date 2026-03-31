@@ -43,15 +43,15 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'תפקיד',
+    'LBL_ROLE' => 'Role',
     'LBL_NAME' => 'שם',
-    'LBL_DESCRIPTION' => 'תאור',
+    'LBL_DESCRIPTION' => 'תיאור',
     'LIST_ROLES' => 'רשימת תפקידים',
     'LBL_USERS_SUBPANEL_TITLE' => 'משתמשים',
     'LIST_ROLES_BY_USER' => 'רשימת תפקיד לפי משתמש',
     'LBL_ROLES_SUBPANEL_TITLE' => 'תפקידי המשתמש',
-    'LBL_SEARCH_FORM_TITLE' => 'חיפוש',
-    'LBL_NO_ACCESS' => 'אין לך גישה לאזור זה, פנה למנהל המערכת לעזרה.',
+    'LBL_SEARCH_FORM_TITLE' => 'Search',
+    'LBL_NO_ACCESS' => 'You do not have access to this area. Contact your site administrator to obtain access.',
     'LBL_REDIRECT_TO_HOME' => 'לנתב לבית ב',
     'LBL_SECONDS' => 'שניות',
     'LBL_ADDING' => 'מוסיף עבור',
