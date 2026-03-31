@@ -45,17 +45,17 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     //module
     'LBL_MODULE_NAME' => 'Dokumenty',
-    'LBL_MODULE_TITLE' => 'Dokumenty: Domov',
+    'LBL_MODULE_TITLE' => 'Dokumenty',
     'LNK_NEW_DOCUMENT' => 'Vytvoriť dokument',
     'LNK_DOCUMENT_LIST' => 'Zobraziť dokumenty',
     'LBL_DOC_REV_HEADER' => 'Revízie dokumentov',
     'LBL_SEARCH_FORM_TITLE' => 'Vyhľadávanie dokumentov',
     //vardef labels
     'LBL_NAME' => 'Názov dokumentu',
-    'LBL_DESCRIPTION' => 'Popis',
+    'LBL_DESCRIPTION' => 'Popis:',
     'LBL_CATEGORY' => 'Kategória',
     'LBL_SUBCATEGORY' => 'Pod kategória',
-    'LBL_STATUS' => 'Stav',
+    'LBL_STATUS' => 'Stav:',
     'LBL_CREATED_BY' => 'Vytvoril',
     'LBL_DATE_ENTERED' => 'Dátum vytvorenia',
     'LBL_DATE_MODIFIED' => 'Dátum úpravy',
@@ -68,7 +68,7 @@ $mod_strings = array(
     'LBL_RELATED_DOCUMENT_REVISION_ID' => 'Dokumenty súvisiace s revíziou ID',
     'LBL_IS_TEMPLATE' => 'Je šablóna',
     'LBL_TEMPLATE_TYPE' => 'Typ dokumentu:',
-    'LBL_ASSIGNED_TO_NAME' => 'Priradené ku:',
+    'LBL_ASSIGNED_TO_NAME' => 'Pridelený k',
     'LBL_REVISION_NAME' => 'Číslo revízie',
     'LBL_MIME' => 'Typ MIME',
     'LBL_REVISION' => 'Revízia',
@@ -86,9 +86,9 @@ $mod_strings = array(
     //document edit and detail view
     'LBL_DOC_NAME' => 'Názov dokumentu:',
     'LBL_FILENAME' => 'Názov súboru',
-    'LBL_LIST_FILENAME' => 'Príloha:',
+    'LBL_LIST_FILENAME' => 'Súbor:',
     'LBL_DOC_VERSION' => 'Revízia:',
-    'LBL_FILE_UPLOAD' => 'Príloha:',
+    'LBL_FILE_UPLOAD' => 'Súbor:',
 
     'LBL_CATEGORY_VALUE' => 'Kategória:',
     'LBL_LIST_CATEGORY' => 'Kategória',
@@ -109,7 +109,7 @@ $mod_strings = array(
 
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'Zoznam dokumentov',
-    'LBL_LIST_DOCUMENT' => 'Dokument',
+    'LBL_LIST_DOCUMENT' => 'Dokumenty',
     'LBL_LIST_SUBCATEGORY' => 'Pod kategória',
     'LBL_LIST_REVISION' => 'Revízia',
     'LBL_LIST_LAST_REV_CREATOR' => 'Zverejnil:',
@@ -126,7 +126,7 @@ $mod_strings = array(
 
     //document search form.
     'LBL_SF_CATEGORY' => 'Kategória:',
-    'LBL_SF_SUBCATEGORY' => 'Pod kategória:',
+    'LBL_SF_SUBCATEGORY' => 'Pod kategórie:',
 
     'DEF_CREATE_LOG' => 'Dokument vytvorený',
 
@@ -136,18 +136,18 @@ $mod_strings = array(
     'ERR_FILENAME' => 'Názov súboru',
     'ERR_DOC_VERSION' => 'Verzia dokumentu',
     'ERR_DELETE_CONFIRM' => 'Chcete vymazať túto revíziu dokumentu?',
-    'ERR_DELETE_LATEST_VERSION' => 'Nemáte oprávnenia k výmazaniu poslednej revízie dokumentu.',
+    'ERR_DELETE_LATEST_VERSION' => 'Nemáte oprávnenia k výmazu poslednej revízie dokumentu.',
     'LNK_NEW_MAIL_MERGE' => 'Hromadná korešpondencia',
     'ERR_MISSING_FILE' => 'Tento dokument neobsahue súbor, pravdepodbne z dôvodu chyby pri nahrávaní. Prosím opakujte odoslanie súboru alebo sa obráťte na správcu systému.',
 
     //sub-panel vardefs.
     'LBL_LIST_DOCUMENT_NAME' => 'Názov',
     'LBL_LIST_IS_TEMPLATE' => 'Šablóna?',
-    'LBL_LIST_TEMPLATE_TYPE' => 'Typ dokumentu:',
+    'LBL_LIST_TEMPLATE_TYPE' => 'Typ dokumentu',
     'LBL_LAST_REV_CREATE_DATE' => 'Dátum vytvorenia poslednej revízie',
     'LBL_CONTRACTS' => 'Zmluvy',
-    'LBL_CREATED_USER' => 'Vytvorený užívateľ',
-    'LBL_DOCUMENT_INFORMATION' => 'Prehľad', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_CREATED_USER' => 'Vytvorené užívateľom',
+    'LBL_DOCUMENT_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_DOC_ID' => 'ID zdroja dokumentu',
     'LBL_DOC_TYPE' => 'Zdroj',
     'LBL_DOC_TYPE_POPUP' => 'Vyberte zdroj, cez ktorý bude tento dokument nahraný<br />a z ktorého bude k dispozícii.',
