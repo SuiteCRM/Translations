@@ -47,7 +47,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Valute',
     'LBL_CURRENCY' => 'Valuta',
     'LBL_ADD' => 'Aggiungi',
-    'LBL_MERGE' => 'Unisci duplicati',
+    'LBL_MERGE' => 'Unisci',
     'LBL_MERGE_TXT' => 'Si prega di selezionare le valute che vuoi mappare nella valuta scelta. Le valute scelte verranno eliminate e gli importi relativi saranno contrassegnati con la valuta scelta.',
     'LBL_US_DOLLAR' => 'Dollaro USA',
     'LBL_DELETE' => 'Elimina',
@@ -76,5 +76,5 @@ $mod_strings = array(
             'Inactive' => 'Inattivo',
         ),
     'LBL_CREATED_BY' => 'Creato da',
-    'LBL_EDIT_LAYOUT' => 'Modifica Maschera' /*for 508 compliance fix*/,
+    'LBL_EDIT_LAYOUT' => 'Modifica Layout' /*for 508 compliance fix*/,
 );
