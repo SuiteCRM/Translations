@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Fusjonér liste',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Finn Søk Oppføringer å slå sammen med',
-    'LBL_AVAIL_FIELDS' => 'Tilgjengelige felt',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'Betingelse for filter',
     'LBL_MERGE_VALUE_OVER' => 'Fusjonér verdi over',
 
@@ -58,15 +58,15 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Utfør fusjonering',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Utfør fusjonering',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Lagre fusjonering',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Lagre fusjonering',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => 'Funne registre å fusjonere med',
     'LBL_SELECT_ERROR' => 'Du må gjøre et valg før du kan fortsette.',
     'LBL_CHANGE_PARENT' => 'Velg som primær',
-    'LBL_REMOVE_FROM_MERGE' => 'Fjern',
+    'LBL_REMOVE_FROM_MERGE' => 'Remove',
     'LBL_DIFF_COL_VALUES' => 'Kolonner med andre verdier i primærradene enn i de fusjonerte radene:',
     'LBL_SAME_COL_VALUES' => 'Kolonner med verdier som er tilsvarende like i alle rader:',
     'LBL_DELETE_MESSAGE' => 'Denne handlingen kommer til å slette følgende registrering(er):',
