@@ -44,22 +44,22 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
 
-    'LBL_ASSIGNED_TO_ID' => 'Id Utilisateur Assigné',
-    'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
+    'LBL_ASSIGNED_TO_ID' => 'Id Utilisateur assigné',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigné à:',
     'LBL_ID' => 'ID',
-    'LBL_DATE_ENTERED' => 'Date Création',
-    'LBL_DATE_MODIFIED' => 'Date Modification',
+    'LBL_DATE_ENTERED' => 'Date de création',
+    'LBL_DATE_MODIFIED' => 'Date de modification',
     'LBL_MODIFIED' => 'Modifié Par',
     'LBL_MODIFIED_NAME' => 'Modifié par Nom',
-    'LBL_CREATED' => 'Créé Par',
+    'LBL_CREATED' => 'Créé par',
     'LBL_DESCRIPTION' => 'Description:',
     'LBL_DELETED' => 'Supprimé',
     'LBL_NAME' => 'Nom',
-    'LBL_CREATED_USER' => 'Créé par Utilisateur',
-    'LBL_MODIFIED_USER' => 'Modifié par Utilisateur',
+    'LBL_CREATED_USER' => 'Créé par Utiliateur',
+    'LBL_MODIFIED_USER' => 'Modifié Par Utilisateur',
     'LBL_LIST_NAME' => 'Nom',
-    'LBL_EDIT_BUTTON' => 'Editer',
-    'LBL_REMOVE' => 'Retirer',
+    'LBL_EDIT_BUTTON' => 'Modifer',
+    'LBL_REMOVE' => 'Supprimer',
     'LBL_LIST_FORM_TITLE' => 'Liste des fournisseurs OAuth externes',
     'LBL_MODULE_NAME' => 'Fournisseurs OAuth Externes',
     'LBL_MODULE_TITLE' => 'Fournisseurs OAuth Externes',
@@ -68,8 +68,8 @@ $mod_strings = [
 
     'LNK_LIST' => 'Fournisseurs OAuth Externes',
     'LBL_SEARCH_FORM_TITLE' => 'Recherche de fournisseur OAuth Externe',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Voir Historique',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activités',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Historique et Activités terminées',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activités à réaliser',
     'LBL_NEW_FORM_TITLE' => 'Nouveau fournisseur OAuth Externe',
 
     'LBL_LIST_DELETE' => 'Supprimer',
@@ -106,5 +106,5 @@ $mod_strings = [
     'LNK_LIST_OUTBOUND_EMAILS' => 'Comptes Email Sortants',
     'LNK_LIST_EXTERNAL_OAUTH_CONNECTION' => 'Connexions OAuth Externe',
 
-    'LBL_OWNER' => 'Assigné',
+    'LBL_OWNER' => 'Owner',
 ];
