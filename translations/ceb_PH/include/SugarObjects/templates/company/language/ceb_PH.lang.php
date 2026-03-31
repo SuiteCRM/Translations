@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'Sigurado ka ba sa pagwagtang niining rekord?',
 
     'LBL_EDIT_BUTTON' => 'I-edit  ',
-    'LBL_REMOVE' => 'Tangtanga',
+    'LBL_REMOVE' => 'Tangtangon',
 
 );
