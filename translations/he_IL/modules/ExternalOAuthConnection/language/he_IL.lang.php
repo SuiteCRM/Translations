@@ -44,21 +44,21 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
 
-    'LBL_ASSIGNED_TO_ID' => 'מזהה המשתמש המוקצה',
-    'LBL_ASSIGNED_TO_NAME' => 'מנה שם משתמש:',
-    'LBL_ID' => 'זיהוי',
+    'LBL_ASSIGNED_TO_ID' => 'מזהה המשתמש רשום',
+    'LBL_ASSIGNED_TO_NAME' => 'מוקצה למשתמש',
+    'LBL_ID' => 'מזהה',
     'LBL_DATE_ENTERED' => 'תאריך יצירה:',
-    'LBL_DATE_MODIFIED' => 'תאריך שינוי',
-    'LBL_MODIFIED' => 'שונה ע"י:',
-    'LBL_MODIFIED_NAME' => 'שונה על ידי ששמו',
+    'LBL_DATE_MODIFIED' => 'התאריך שונה',
+    'LBL_MODIFIED' => 'עודכן ע"י',
+    'LBL_MODIFIED_NAME' => 'השתנה על-ידי שם',
     'LBL_CREATED' => 'נוצר ע"י',
-    'LBL_DESCRIPTION' => 'תאור',
+    'LBL_DESCRIPTION' => 'תיאור',
     'LBL_DELETED' => 'נמחק',
     'LBL_NAME' => 'שם',
     'LBL_CREATED_USER' => 'נוצר על ידי המשתמש',
-    'LBL_MODIFIED_USER' => 'שונה על ידי המשתמש',
+    'LBL_MODIFIED_USER' => 'עודכן על ידי המשתמש',
     'LBL_LIST_NAME' => 'שם',
-    'LBL_EDIT_BUTTON' => 'לערוך',
+    'LBL_EDIT_BUTTON' => 'ערוך',
     'LBL_REMOVE' => 'הסר',
     'LBL_LIST_FORM_TITLE' => 'External OAuth Connection List',
     'LBL_MODULE_NAME' => 'External OAuth Connections',
@@ -72,8 +72,8 @@ $mod_strings = [
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'פעילויות',
     'LBL_NEW_FORM_TITLE' => 'New External OAuth Connection',
 
-    'LBL_LIST_DELETE' => 'למחוק',
-    'LBL_TYPE' => 'סוג',
+    'LBL_LIST_DELETE' => 'Delete',
+    'LBL_TYPE' => 'Type',
 
     'LBL_CLIENT_ID' => 'Client Id',
     'LBL_CLIENT_SECRET' => 'Client Secret',
@@ -96,5 +96,5 @@ $mod_strings = [
     'LNK_LIST_OUTBOUND_EMAILS' => 'Outbound Email Accounts',
     'LNK_LIST_EXTERNAL_OAUTH_PROVIDERS' => 'External OAuth Providers',
 
-    'LBL_OWNER' => 'בעלים',
+    'LBL_OWNER' => 'Owner',
 ];
