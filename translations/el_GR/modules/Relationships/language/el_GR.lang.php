@@ -54,9 +54,9 @@ $mod_strings = array(
     'LBL_JOIN_TABLE' => 'Ένωση Ονόματος Πίνακα',
     'LBL_JOIN_KEY_LHS' => 'Ένωση Κλειδιού LHS',
     'LBL_JOIN_KEY_RHS' => 'Ένωση Κλειδιού RHS',
-    'LBL_RELATIONSHIP_TYPE' => 'Relationship Type',
+    'LBL_RELATIONSHIP_TYPE' => 'Τύπος σχέσης',
     'LBL_RELATIONSHIP_ROLE_COLUMN' => 'Όνομα Στήλης Ρόλου Συσχετισμού',
     'LBL_RELATIONSHIP_ROLE_COLUMN_VALUE' => 'Τιμή Στήλης Ρόλου Συσχετισμού',
     'LBL_REVERSE' => 'Αντίστροφη',
-    'LBL_DELETED' => 'Deleted',
+    'LBL_DELETED' => 'Διαγράφηκε',
 );
