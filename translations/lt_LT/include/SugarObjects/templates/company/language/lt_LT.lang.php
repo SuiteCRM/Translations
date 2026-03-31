@@ -116,7 +116,7 @@ $mod_strings = array(
     'LBL_TYPE' => 'Tipas:',
     'LBL_WEBSITE' => 'Tinklalapis:',
 
-    'LNK_ACCOUNT_LIST' => 'Klientai',
+    'LNK_ACCOUNT_LIST' => 'Naudotojai',
     'LNK_NEW_ACCOUNT' => 'Sukurti paskyrą',
 
     'MSG_DUPLICATE' => 'Sukūrus šį klientą, gali atsirasti įrašų dublikatų.',
