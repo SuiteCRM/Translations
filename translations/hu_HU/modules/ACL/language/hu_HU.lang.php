@@ -43,15 +43,15 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Szerepkör',
+    'LBL_ROLE' => 'Role',
     'LBL_NAME' => 'Név',
-    'LBL_DESCRIPTION' => 'Leírás',
+    'LBL_DESCRIPTION' => 'Üzenet tartalma',
     'LIST_ROLES' => 'Szerepkörök listázása',
-    'LBL_USERS_SUBPANEL_TITLE' => 'Felhasználók',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
     'LIST_ROLES_BY_USER' => 'Felhasználó szerepköreinek listázása',
     'LBL_ROLES_SUBPANEL_TITLE' => 'Felhasználó szerepkörei',
-    'LBL_SEARCH_FORM_TITLE' => 'Keresés',
-    'LBL_NO_ACCESS' => 'Ön nem férhet hozzá ehhez az oldalhoz. A hozzáféréshez lépjen kapcsolatba a rendszergazdával.',
+    'LBL_SEARCH_FORM_TITLE' => 'Search',
+    'LBL_NO_ACCESS' => 'You do not have access to this area. Contact your site administrator to obtain access.',
     'LBL_REDIRECT_TO_HOME' => 'Visszatérés a főoldalra:',
     'LBL_SECONDS' => 'másodperc',
     'LBL_ADDING' => 'Hozzátéve ',
