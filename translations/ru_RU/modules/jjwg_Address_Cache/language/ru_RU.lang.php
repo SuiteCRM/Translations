@@ -42,14 +42,14 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_ASSIGNED_TO_ID'] = 'ID ответственного';
+$mod_strings['LBL_ASSIGNED_TO_ID'] = 'Ответственный(ая)';
 $mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Ответственное лицо';
 $mod_strings['LBL_ID'] = 'ID';
 $mod_strings['LBL_DATE_ENTERED'] = 'Дата создания';
 $mod_strings['LBL_DATE_MODIFIED'] = 'Дата изменения';
 $mod_strings['LBL_MODIFIED'] = 'Изменено';
-$mod_strings['LBL_MODIFIED_NAME'] = 'Изменено (Имя)';
-$mod_strings['LBL_CREATED'] = 'Создано';
+$mod_strings['LBL_MODIFIED_NAME'] = 'Изменено';
+$mod_strings['LBL_CREATED'] = 'Кем создано';
 $mod_strings['LBL_DESCRIPTION'] = 'Описание';
 $mod_strings['LBL_DELETED'] = 'Удалено';
 $mod_strings['LBL_NAME'] = 'Адрес';
@@ -69,4 +69,4 @@ $mod_strings['LBL_NEW_FORM_TITLE'] = 'Новый кэш адресов';
 $mod_strings['LBL_LAT'] = 'Широта';
 $mod_strings['LBL_LNG'] = 'Долгота';
 $mod_strings['LBL_CURRENT_USER_FILTER'] = 'Мои записи';
-$mod_strings['LBL_ASSIGNED_TO'] = 'Ответственный(ая)';
+$mod_strings['LBL_ASSIGNED_TO'] = 'Назначенный пользователь';
