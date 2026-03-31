@@ -49,15 +49,15 @@ $mod_strings = array(
     'LBL_DELETE_CONFIRM' => 'Biztos hogy törölni akarod a kiválasztott elmentett szűrőt?',
     'LBL_DELETE_BUTTON_TITLE' => 'Elmentett szűrő törlése',
     'LBL_SAVE_BUTTON_TITLE' => 'Jelenlegi szűrő elmentése',
-    'LBL_LIST_NAME' => 'Név',
-    'LBL_LIST_MODULE' => 'Modul',
+    'LBL_LIST_NAME' => 'Elnevezés',
+    'LBL_LIST_MODULE' => 'Module',
     'LBL_ORDER_BY_COLUMNS' => 'Order by column:',
-    'LBL_DIRECTION' => 'Irány:',
+    'LBL_DIRECTION' => 'Direction:',
     'LBL_SAVE_SEARCH_AS' => 'Szűrő mentése, mint:',
     'LBL_ASCENDING' => 'Növekvő',
-    'LBL_DESCENDING' => 'Csökkenő',
-    'LBL_MODIFY_CURRENT_FILTER' => 'Aktuális szűrő módosítása',
+    'LBL_DESCENDING' => 'Descending',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
-    'LBL_CREATED_BY' => 'Létrehozta',
+    'LBL_CREATED_BY' => 'Készítette',
 
 );
