@@ -56,7 +56,7 @@ $mod_strings = [
     'LBL_DESCENDING' => 'Descending',
 
     // Email opt-in labels
-    'LBL_OPT_IN' => 'Opt In',
+    'LBL_OPT_IN' => 'Tilvælg',
     'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Pending Confirm opt in, Confirm opt in not sent',
     'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Pending Confirm opt in, Confirm opt in sent',
     'LBL_OPT_IN_CONFIRMED' => 'Opted in',
@@ -102,7 +102,7 @@ $mod_strings = [
 
     // Basic Auth Fields
     'LBL_USERNAME' => 'Username',
-    'LBL_PASSWORD' => 'Password',
+    'LBL_PASSWORD' => 'Adgangskode',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test Connection',
 
@@ -163,10 +163,10 @@ $mod_strings = [
 
     // Connection test messages
     'LBL_CALENDAR' => 'Calendar',
-    'LBL_SUCCESSFUL' => 'Successful',
+    'LBL_SUCCESSFUL' => 'Succesfuld',
     'LBL_FAILED' => 'Failed',
     'LBL_CONNECTION_TEST' => 'Connection Test',
-    'LBL_YES' => 'Yes',
+    'LBL_YES' => 'Ja',
     'LBL_NO' => 'No',
     'LBL_FOUND_CALENDARS' => 'Found {count} calendars.',
     'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'An error occurred while processing the connection test response. Please check the logs for details.',
@@ -182,7 +182,7 @@ $mod_strings = [
 
     // Dialog labels
     'LBL_NOTIFICATION' => 'Notification',
-    'LBL_CONFIRM' => 'Confirm',
+    'LBL_CONFIRM' => 'Godkend',
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
