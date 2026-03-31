@@ -43,23 +43,23 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'מזהה המשתמש המוקצה',
-    'LBL_ASSIGNED_TO_NAME' => 'מנה שם משתמש:',
-    'LBL_ID' => 'זיהוי',
+    'LBL_ASSIGNED_TO_ID' => 'מזהה המשתמש רשום',
+    'LBL_ASSIGNED_TO_NAME' => 'מוקצה למשתמש',
+    'LBL_ID' => 'מזהה',
     'LBL_DATE_ENTERED' => 'תאריך יצירה:',
-    'LBL_DATE_MODIFIED' => 'תאריך שינוי',
-    'LBL_MODIFIED' => 'שונה ע"י:',
-    'LBL_MODIFIED_ID' => 'שונה על ידי Id',
-    'LBL_MODIFIED_NAME' => 'שונה על ידי ששמו',
+    'LBL_DATE_MODIFIED' => 'התאריך שונה',
+    'LBL_MODIFIED' => 'עודכן ע"י',
+    'LBL_MODIFIED_ID' => 'השתנה על-ידי מזהה',
+    'LBL_MODIFIED_NAME' => 'השתנה על-ידי שם',
     'LBL_CREATED' => 'נוצר ע"י',
-    'LBL_CREATED_ID' => 'נוצר על ידי Id',
-    'LBL_DESCRIPTION' => 'תאור',
+    'LBL_CREATED_ID' => 'נוצר על ידי מזהה',
+    'LBL_DESCRIPTION' => 'תיאור',
     'LBL_DELETED' => 'נמחק',
     'LBL_NAME' => 'שם',
     'LBL_CREATED_USER' => 'נוצר על ידי המשתמש',
-    'LBL_MODIFIED_USER' => 'שונה על ידי המשתמש',
+    'LBL_MODIFIED_USER' => 'עודכן על ידי המשתמש',
     'LBL_LIST_NAME' => 'שם',
-    'LBL_EDIT_BUTTON' => 'לערוך',
+    'LBL_EDIT_BUTTON' => 'ערוך',
     'LBL_REMOVE' => 'הסר',
     'LBL_LIST_FORM_TITLE' => 'KB Categories List',
     'LBL_MODULE_NAME' => 'KB Categories',
@@ -75,4 +75,4 @@ $mod_strings = array(
     'LBL_NEW_FORM_TITLE' => 'New KB Categories',
 );
 
-$mod_strings['LBL_AOK_KB_TITLE'] = 'מרכז הידע';
+$mod_strings['LBL_AOK_KB_TITLE'] = 'מאגר הידע Knowledge Base';
