@@ -58,7 +58,7 @@ $mod_strings = array(
     'LBL_MODIFIED_USER' => 'Modified by User',
     'LBL_LIST_NAME' => 'Name',
     'LBL_EDIT_BUTTON' => 'Edit',
-    'LBL_REMOVE' => 'Remove',
+    'LBL_REMOVE' => 'Eliminar',
     'LBL_LIST_FORM_TITLE' => 'Event List',
     'LBL_MODULE_NAME' => 'Event',
     'LBL_MODULE_TITLE' => 'Event',
@@ -73,7 +73,7 @@ $mod_strings = array(
     'LBL_START_DATE' => 'start date',
     'LBL_END_DATE' => 'End Date/Time',
     'LBL_BUDGET' => 'Budget',
-    'LBL_DATE' => 'Start Date',
+    'LBL_DATE' => 'Data d\'Inici',
     'LBL_DATE_END' => 'End Date',
     'LBL_DURATION' => 'Duration',
     'LBL_INVITE_TEMPLATES' => 'Plantilla de correu electrònic d\'invitació',
@@ -127,7 +127,7 @@ $mod_strings = array(
     'LBL_ACTIVITY_STATUS' => 'Estat de l\'activitat',
     'LBL_FP_EVENT_LOCATIONS_FP_EVENTS_1_FROM_FP_EVENTS_TITLE' => 'Ubicacions d\'esdeveniments des dels títols',
     // Email links
-    'LBL_ACCEPT_LINK' => 'Accept',
-    'LBL_DECLINE_LINK' => 'Decline',
+    'LBL_ACCEPT_LINK' => 'Acceptar',
+    'LBL_DECLINE_LINK' => 'Rebutjar',
     
 );
