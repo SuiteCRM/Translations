@@ -80,7 +80,7 @@ $mod_strings = array(
     'LBL_SUBCATEGORY_VALUE' => 'Sub-kategori:',
     'LBL_DOC_STATUS' => 'Status',
     'LBL_DET_TEMPLATE_TYPE' => 'Dokumenttype:',
-    'LBL_DOC_DESCRIPTION' => 'Description:',
+    'LBL_DOC_DESCRIPTION' => 'Beskrivelse:',
     'LBL_DOC_ACTIVE_DATE' => 'Udgivelsesdato:',
     'LBL_DOC_EXP_DATE' => 'Udløbsdato:',
 
