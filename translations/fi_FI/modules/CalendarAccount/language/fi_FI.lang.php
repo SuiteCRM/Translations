@@ -34,7 +34,7 @@ $mod_strings = [
     'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_DATE_ENTERED' => 'Date Created',
-    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_DATE_MODIFIED' => 'Muokkauspvm',
     'LBL_MODIFIED' => 'Modified By',
     'LBL_MODIFIED_NAME' => 'Modified By Name',
     'LBL_CREATED' => 'Created By',
@@ -48,7 +48,7 @@ $mod_strings = [
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
 
     // List view labels
-    'LBL_LIST_NAME' => 'Name',
+    'LBL_LIST_NAME' => 'Nimi',
     'LBL_LIST_DELETE' => 'Delete',
     'LBL_EDIT_BUTTON' => 'Edit',
     'LBL_REMOVE' => 'Remove',
@@ -56,10 +56,10 @@ $mod_strings = [
     'LBL_DESCENDING' => 'Descending',
 
     // Email opt-in labels
-    'LBL_OPT_IN' => 'Opt In',
-    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Pending Confirm opt in, Confirm opt in not sent',
-    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Pending Confirm opt in, Confirm opt in sent',
-    'LBL_OPT_IN_CONFIRMED' => 'Opted in',
+    'LBL_OPT_IN' => 'Hyväksyntä',
+    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Odottaa hyväksynnän vahvistusta; vahvistussähköpostia ei ole lähetetty',
+    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Odottaa hyväksynnän vahvistusta; vahvistussähköposti on lähetetty',
+    'LBL_OPT_IN_CONFIRMED' => 'Hyväksyntä annettu',
 
     // Subpanel titles
     'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
@@ -91,8 +91,8 @@ $mod_strings = [
     'LNK_LIST' => 'View Calendar Accounts',
 
     // Standard fields
-    'LBL_NAME' => 'Name',
-    'LBL_ID' => 'ID',
+    'LBL_NAME' => 'Nimi',
+    'LBL_ID' => 'Tunnus',
     'LBL_TYPE' => 'Type',
     'LBL_SOURCE' => 'Calendar Source',
 
@@ -192,7 +192,7 @@ $mod_strings = [
     'LBL_SYNC_STATUS_ERROR' => 'Error',
 
     // Sync message enum translations
-    'LBL_SYNC_MSG_SYNC_COMPLETE' => 'All meetings synced.',
+    'LBL_SYNC_MSG_SYNC_COMPLETE' => 'Kaikki kokoukset synkronoitu.',
     'LBL_SYNC_MSG_UP_TO_DATE' => 'No new meetings to sync.',
     'LBL_SYNC_MSG_MEETINGS_FAILED' => 'Some meetings failed to sync. Check logs.',
     'LBL_SYNC_MSG_SYNC_PARTIAL' => 'Some meetings synced. More pending due to limits.',
