@@ -62,7 +62,7 @@ $mod_strings = array(
     'LBL_CASE_MACRO_DESC' => 'Set the macro which will be parsed and used to link imported email to a Case.',
     'LBL_CASE_MACRO_DESC2' => 'Set this to any value, but preserve the <b>"%1"</b>.',
     'LBL_CLOSE_POPUP' => 'Close Window',
-    'LBL_CREATE_TEMPLATE' => 'Create',
+    'LBL_CREATE_TEMPLATE' => 'Skep',
     'LBL_DELETE_SEEN' => 'Delete Read Emails After Import',
     'LBL_EDIT_TEMPLATE' => 'Edit',
     'LBL_EMAIL_OPTIONS' => 'Email Handling Options',
@@ -172,7 +172,7 @@ $mod_strings = array(
     'LBL_TYPE_DIFFERENT' => 'External OAuth Connection type must be the SAME as the Inbound Email Account type',
 
     'LBL_MODIFIED_BY' => 'Modified By',
-    'LBL_SERVICE' => 'Service',
+    'LBL_SERVICE' => 'Diens',
     'LBL_STORED_OPTIONS' => 'Stored Options',
     'LBL_GROUP_ID' => 'Group ID',
 
