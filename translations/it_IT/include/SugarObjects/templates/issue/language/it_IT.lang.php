@@ -59,7 +59,7 @@ $mod_strings = array(
     'LBL_DATE_MODIFIED' => 'Data Modifica:',
     'LBL_MODIFIED_BY' => 'Ultima modifica fatta da:',
     'LBL_ASSIGNED_USER' => 'Utente Assegnato:',
-    'LBL_TYPE' => 'Tipologia:',
+    'LBL_TYPE' => 'Tipo:',
     'LBL_SUBJECT' => 'Oggetto:',
 
     'LBL_EDIT_BUTTON' => 'Modifica',
