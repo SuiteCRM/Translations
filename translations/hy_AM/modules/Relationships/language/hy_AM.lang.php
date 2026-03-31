@@ -54,9 +54,9 @@ $mod_strings = array(
     'LBL_JOIN_TABLE' => 'Կցված աղյուսակի անվանումը',
     'LBL_JOIN_KEY_LHS' => 'LHS միացման բանալի',
     'LBL_JOIN_KEY_RHS' => 'RHS միացման բանալի',
-    'LBL_RELATIONSHIP_TYPE' => 'Հարաբերության տեսակը',
+    'LBL_RELATIONSHIP_TYPE' => 'Relationship Type',
     'LBL_RELATIONSHIP_ROLE_COLUMN' => 'Հարաբերության դերի սյունակի անվանումը',
     'LBL_RELATIONSHIP_ROLE_COLUMN_VALUE' => 'Հարաբերության դերի սյունակի արժեքը',
     'LBL_REVERSE' => 'Շրջել',
-    'LBL_DELETED' => 'Ջնջված է',
+    'LBL_DELETED' => 'Deleted',
 );
