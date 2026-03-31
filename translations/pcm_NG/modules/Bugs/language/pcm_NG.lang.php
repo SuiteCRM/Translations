@@ -62,7 +62,7 @@ $mod_strings = array(
     'LBL_LIST_PRIORITY' => 'Priority',
     'LBL_LIST_RESOLUTION' => 'Resolution',
     'LBL_LIST_LAST_MODIFIED' => 'The day wey dem modify am last',
-    'LBL_INVITEE' => 'Contacts',
+    'LBL_INVITEE' => 'Contacts dem',
     'LBL_TYPE' => 'Type:',
     'LBL_LIST_TYPE' => 'Type',
     'LBL_RESOLUTION' => 'Resolution:',
@@ -100,6 +100,6 @@ $mod_strings = array(
     'LBL_LIST_ASSIGNED_TO_NAME' => 'User wey dem give am to',
     'LBL_ASSIGNED_TO_NAME' => 'Dem give am',
 
-    'LBL_BUG_INFORMATION' => 'Overview', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_BUG_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
 );
