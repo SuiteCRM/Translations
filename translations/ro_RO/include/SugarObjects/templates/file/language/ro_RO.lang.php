@@ -51,8 +51,8 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Caută documente',
     //vardef labels
     'LBL_NAME' => 'Nume document',
-    'LBL_DESCRIPTION' => 'Description',
-    'LBL_ASSIGNED_TO' => 'Assigned to:',
+    'LBL_DESCRIPTION' => 'Descriere: ',
+    'LBL_ASSIGNED_TO' => 'Atribuit lui:',
     'LBL_CATEGORY' => 'Categorie',
     'LBL_SUBCATEGORY' => 'Sub-Categorie',
     'LBL_STATUS' => 'Stare',
@@ -80,38 +80,38 @@ $mod_strings = array(
     'LBL_SUBCATEGORY_VALUE' => 'Sub-Categorie:',
     'LBL_DOC_STATUS' => 'Status:',
     'LBL_DET_TEMPLATE_TYPE' => 'Tip de document:',
-    'LBL_DOC_DESCRIPTION' => 'Description:',
+    'LBL_DOC_DESCRIPTION' => 'Descriere:',
     'LBL_DOC_ACTIVE_DATE' => 'Dată Publicare:',
     'LBL_DOC_EXP_DATE' => 'Dată Expirare:',
 
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'Lista de documente',
     'LBL_LIST_DOCUMENT' => 'Document',
-    'LBL_LIST_CATEGORY' => 'Category',
-    'LBL_LIST_SUBCATEGORY' => 'Sub Category',
-    'LBL_LIST_REVISION' => 'Revision',
+    'LBL_LIST_CATEGORY' => 'Categorie',
+    'LBL_LIST_SUBCATEGORY' => 'Sub-Categorie',
+    'LBL_LIST_REVISION' => 'Revizie',
     'LBL_LIST_LAST_REV_CREATOR' => 'Publicat de',
     'LBL_LIST_LAST_REV_DATE' => 'Data revizuirii',
     'LBL_LIST_VIEW_DOCUMENT' => 'Vizualizează',
-    'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
-    'LBL_LIST_EXP_DATE' => 'Expiration Date',
-    'LBL_LIST_STATUS' => 'Status',
+    'LBL_LIST_ACTIVE_DATE' => 'Data publicării',
+    'LBL_LIST_EXP_DATE' => 'Data expirarii',
+    'LBL_LIST_STATUS' => 'Statut',
 
     //document search form.
-    'LBL_SF_CATEGORY' => 'Category:',
-    'LBL_SF_SUBCATEGORY' => 'Sub Category:',
+    'LBL_SF_CATEGORY' => 'Categorie',
+    'LBL_SF_SUBCATEGORY' => 'Sub-Categorie:',
 
     'DEF_CREATE_LOG' => 'Document creat',
 
     //error messages
-    'ERR_DOC_NAME' => 'Document Name',
-    'ERR_DOC_ACTIVE_DATE' => 'Publish Date',
+    'ERR_DOC_NAME' => 'Nume document',
+    'ERR_DOC_ACTIVE_DATE' => 'Data publicării',
     'ERR_FILENAME' => 'Nume fișier',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'Document Name',
+    'LBL_LIST_DOCUMENT_NAME' => 'Nume document',
 
     'LBL_EDIT_BUTTON' => 'Editează ',
-    'LBL_REMOVE' => 'Remove',
+    'LBL_REMOVE' => 'Înlătură',
 
 );
