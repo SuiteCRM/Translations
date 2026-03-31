@@ -58,7 +58,7 @@ $mod_strings = array(
     'LBL_STATUS' => 'Status',
     'LBL_CREATED_BY' => 'Created by',
     'LBL_DATE_ENTERED' => 'Date Created',
-    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_DATE_MODIFIED' => 'Muokkauspvm',
     'LBL_DELETED' => 'Deleted',
     'LBL_MODIFIED' => 'Muokkaaja ID',
     'LBL_MODIFIED_USER' => 'Modified by',
@@ -141,17 +141,17 @@ $mod_strings = array(
     'ERR_MISSING_FILE' => 'Tästä dokumenttitietueesta puuttuu tiedosto, todennäköisesti johtuen järjestelmäänlatauksen aikaisesta virheestä. Yritä latausta uudelleen tai ota yhteys ylläpitäjään.',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'Name',
+    'LBL_LIST_DOCUMENT_NAME' => 'Nimi',
     'LBL_LIST_IS_TEMPLATE' => 'Mallipohja?',
     'LBL_LIST_TEMPLATE_TYPE' => 'Document Type',
     'LBL_LAST_REV_CREATE_DATE' => 'Viimeisimmän version luonti pvm',
     'LBL_CONTRACTS' => 'Contracts',
     'LBL_CREATED_USER' => 'Created User',
     'LBL_DOCUMENT_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
-    'LBL_DOC_ID' => 'Document Source ID',
+    'LBL_DOC_ID' => 'Dokumentin lähteen tunnus',
     'LBL_DOC_TYPE' => 'Source',
     'LBL_DOC_TYPE_POPUP' => 'Valitse lähde, johon tämä dokumentti ladataan, ja mistä se on saatavilla.',
-    'LBL_DOC_URL' => 'Document Source URL',
+    'LBL_DOC_URL' => 'Dokumentin lähteen osoite',
     'LBL_SEARCH_EXTERNAL_DOCUMENT' => 'File Name',
     'LBL_EXTERNAL_DOCUMENT_NOTE' => '20 viimeksi muutetuinta tiedostoa näytetään allaolevassa listassa. Käytä hakutoimintoa muiden tiedostojen löytämiseen.',
     'LBL_LIST_EXT_DOCUMENT_NAME' => 'File Name',
@@ -159,7 +159,7 @@ $mod_strings = array(
     'ERR_INVALID_EXTERNAL_API_LOGIN' => 'Ulkoisen APIn tunnistautuminen epäonnistui ({0})',
 
     // Links around the world
-    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Accounts',
+    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Asiakkaat',
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
     'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Opportunities',
     'LBL_CASES_SUBPANEL_TITLE' => 'Cases',
