@@ -53,7 +53,7 @@ $mod_strings = array(
     'LBL_LIST_NAME' => 'Name',
     'LBL_LIST_LAST_NAME' => 'Last Name',
     'LBL_LIST_TITLE' => 'Job Title',
-    'LBL_LIST_EMAIL_ADDRESS' => 'Email',
+    'LBL_LIST_EMAIL_ADDRESS' => 'Електронна поща',
     'LBL_LIST_PHONE' => 'Phone',
     'LBL_LIST_FIRST_NAME' => 'First Name',
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
@@ -153,5 +153,5 @@ $mod_strings = array(
     'LBL_MODIFIED_USER' => 'Modified User',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'History',
     //For export labels
-    'LBL_FP_EVENTS_PROSPECTS_1_FROM_FP_EVENTS_TITLE' => 'Events',
+    'LBL_FP_EVENTS_PROSPECTS_1_FROM_FP_EVENTS_TITLE' => 'Събития',
 );
