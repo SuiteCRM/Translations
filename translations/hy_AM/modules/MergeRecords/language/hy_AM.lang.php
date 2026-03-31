@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Միավորել ցուցակը',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Գտնել գրառումներ միավորելու համար',
-    'LBL_AVAIL_FIELDS' => 'Հասանելի դաշտեր',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'Ֆիլտրի պայմանը',
     'LBL_MERGE_VALUE_OVER' => 'Միավորել արժեքով',
 
@@ -58,15 +58,15 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Կատարել միաձուլումը',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Կատարել միաձուլումը',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Պահպանել միավորումը',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Պահպանել միավորումը',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => 'Գտնված գրառումները միավորելու համար',
     'LBL_SELECT_ERROR' => 'Դուք պետք է կատարեք ընտրություն, նախքան շարունակելը։',
     'LBL_CHANGE_PARENT' => 'Սահմանել որպես առաջնային',
-    'LBL_REMOVE_FROM_MERGE' => 'Հեռացնել',
+    'LBL_REMOVE_FROM_MERGE' => 'Remove',
     'LBL_DIFF_COL_VALUES' => 'Սյունակներ, որոնց արժեքները տարբերվում են հիմնական տողի արժեքներից միավորվող տողերում.',
     'LBL_SAME_COL_VALUES' => 'Սյուներ, որոնց արժեքները նույնն են բոլոր տողերով․',
     'LBL_DELETE_MESSAGE' => 'Այս գործողությունը կջնջի հետևյալ գրառում(ները).',
