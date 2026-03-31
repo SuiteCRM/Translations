@@ -56,8 +56,8 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Bruker:',
     'LBL_RATING' => 'Rangering',
     'LBL_ASSIGNED_TO' => 'Tildelt brukers navn:',
-    'LBL_ASSIGNED_USER' => 'Tildelt brukers navn:',
-    'LBL_ASSIGNED_TO_ID' => 'Tildelt brukers navn:',
+    'LBL_ASSIGNED_USER' => 'Assigned to:',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned to:',
     'LBL_BILLING_ADDRESS_CITY' => 'Faktureringsadresse, sted:',
     'LBL_BILLING_ADDRESS_COUNTRY' => 'Faktureringsadresse, land:',
     'LBL_BILLING_ADDRESS_POSTALCODE' => 'Faktureringsadresse, postnummer:',
@@ -97,7 +97,7 @@ $mod_strings = array(
     'LBL_PHONE_FAX' => 'Faksnr:',
     'LBL_PHONE_OFFICE' => 'Tlfnr, arbeid:',
     'LBL_PHONE' => 'Telefonnr:',
-    'LBL_EMAIL_ADDRESS' => 'E-postadresse:',
+    'LBL_EMAIL_ADDRESS' => 'Email Address',
     'LBL_EMAIL_ADDRESSES' => 'E-post adresse(r)',
     'LBL_POSTAL_CODE' => 'Postnr:',
     'LBL_SAVE_ACCOUNT' => 'Lagre Kunde',
@@ -116,7 +116,7 @@ $mod_strings = array(
     'LBL_TYPE' => 'Type:',
     'LBL_WEBSITE' => 'Nettside:',
 
-    'LNK_ACCOUNT_LIST' => 'Kunder',
+    'LNK_ACCOUNT_LIST' => 'Accounts',
     'LNK_NEW_ACCOUNT' => 'Ny forbindelse',
 
     'MSG_DUPLICATE' => 'Opprettelse av denne kunden kan føre til to identiske kunden. Du kan enten velge en kunde fra listen under, eller klikke på <b>Opprett ny kunde<b/> for å fortsette.',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'Er du sikker på at du vil slette denne oppføringen?',
 
     'LBL_EDIT_BUTTON' => 'Endre',
-    'LBL_REMOVE' => 'Fjern',
+    'LBL_REMOVE' => 'Remove',
 
 );
