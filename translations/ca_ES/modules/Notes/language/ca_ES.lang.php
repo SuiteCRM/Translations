@@ -98,7 +98,7 @@ $mod_strings = array(
     'LBL_MY_NOTES_DASHLETNAME' => 'Les meves notes',
     'LBL_EDITLAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
     //For export labels
-    'LBL_FIRST_NAME' => 'First Name',
+    'LBL_FIRST_NAME' => 'Nom',
     'LBL_LAST_NAME' => 'Last Name',
     'LBL_DATE_ENTERED' => 'Date Created',
     'LBL_DATE_MODIFIED' => 'Date Modified',
