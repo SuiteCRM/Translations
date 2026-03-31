@@ -47,7 +47,7 @@ $mod_strings = array(
     'action' => 'Aksyon',
     'date_modified' => 'Petsa ng huling aksyon',
     'item_id' => 'Ang ID',
-    'item_summary' => 'Ang Pangalan',
+    'item_summary' => 'Ang pangalan',
     'module_name' => 'Pangalan ng modyul',
     'users' => 'Ang mga gumagamit',
 
