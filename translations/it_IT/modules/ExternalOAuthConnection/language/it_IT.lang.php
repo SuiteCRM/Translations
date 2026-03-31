@@ -44,20 +44,20 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
 
-    'LBL_ASSIGNED_TO_ID' => 'Id utente assegnato',
-    'LBL_ASSIGNED_TO_NAME' => 'Assegnato a',
+    'LBL_ASSIGNED_TO_ID' => 'Id Utente Assegnato',
+    'LBL_ASSIGNED_TO_NAME' => 'Assegnato a:',
     'LBL_ID' => 'ID',
-    'LBL_DATE_ENTERED' => 'Data di Creazione',
+    'LBL_DATE_ENTERED' => 'Data Creazione',
     'LBL_DATE_MODIFIED' => 'Data Modifica',
-    'LBL_MODIFIED' => 'Modificato da',
+    'LBL_MODIFIED' => 'Modificato Da',
     'LBL_MODIFIED_NAME' => 'Modificato da Nome',
     'LBL_CREATED' => 'Creato da',
     'LBL_DESCRIPTION' => 'Descrizione',
-    'LBL_DELETED' => 'Cancellata',
+    'LBL_DELETED' => 'Eliminato',
     'LBL_NAME' => 'Nome',
     'LBL_CREATED_USER' => 'Creato dall\'utente',
     'LBL_MODIFIED_USER' => 'Modificato dall\'utente',
-    'LBL_LIST_NAME' => 'Nome',
+    'LBL_LIST_NAME' => 'Nome Contatto',
     'LBL_EDIT_BUTTON' => 'Modifica',
     'LBL_REMOVE' => 'Cancella',
     'LBL_LIST_FORM_TITLE' => 'Lista Connessioni OAuth Esterne',
@@ -68,12 +68,12 @@ $mod_strings = [
 
     'LNK_LIST' => 'Connessioni OAuth Esterne',
     'LBL_SEARCH_FORM_TITLE' => 'Cerca Connessioni OAuth Esterne',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Visualizza Cronologia',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Vedi log cambiamenti',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Attività',
     'LBL_NEW_FORM_TITLE' => 'Nuova Connessiona OAuth Esterna',
 
-    'LBL_LIST_DELETE' => 'Elimina',
-    'LBL_TYPE' => 'Gruppo/Personale',
+    'LBL_LIST_DELETE' => 'Cancella',
+    'LBL_TYPE' => 'Tipo',
 
     'LBL_CLIENT_ID' => 'Id Client',
     'LBL_CLIENT_SECRET' => 'Client Secret',
@@ -87,13 +87,13 @@ $mod_strings = [
 
 
     'LBL_EXTERNAL_OAUTH_PROVIDER' => 'Fornitore',
-    'LBL_EXTERNAL_OAUTH_PROVIDER_NAME' => 'Fornitore',
+    'LBL_EXTERNAL_OAUTH_PROVIDER_NAME' => 'Nome Fornitore Autenticazione OAuth esterna',
     'LBL_EXTERNAL_OAUTH_PROVIDER_ID' => 'Id Fornitore Autenticazione OAuth esterna',
 
     'LNK_LIST_CREATE_NEW_PERSONAL' => 'New Personal OAuth Connection',
     'LNK_LIST_CREATE_NEW_GROUP' => 'New Group OAuth Connection',
     'LNK_LIST_INBOUND_EMAILS' => 'Account di posta elettronica in entrata',
-    'LNK_LIST_OUTBOUND_EMAILS' => 'Accounts Email in uscita',
+    'LNK_LIST_OUTBOUND_EMAILS' => 'Account di posta elettronica in uscita',
     'LNK_LIST_EXTERNAL_OAUTH_PROVIDERS' => 'Provider OAuth Esterni',
 
     'LBL_OWNER' => 'Proprietario',
