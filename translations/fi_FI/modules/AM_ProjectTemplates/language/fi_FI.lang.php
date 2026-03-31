@@ -45,9 +45,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
     'LBL_ASSIGNED_TO_NAME' => 'Projekti päällikkö',
-    'LBL_ID' => 'ID',
+    'LBL_ID' => 'Tunnus',
     'LBL_DATE_ENTERED' => 'Date Created',
-    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_DATE_MODIFIED' => 'Muokkauspvm',
     'LBL_MODIFIED' => 'Modified By',
     'LBL_MODIFIED_NAME' => 'Modified By Name',
     'LBL_CREATED' => 'Created By',
@@ -55,7 +55,7 @@ $mod_strings = array(
     'LBL_NAME' => 'Mallipohjan nimi',
     'LBL_CREATED_USER' => 'Created by User',
     'LBL_MODIFIED_USER' => 'Modified by User',
-    'LBL_LIST_NAME' => 'Name',
+    'LBL_LIST_NAME' => 'Nimi',
     'LBL_EDIT_BUTTON' => 'Edit',
     'LBL_REMOVE' => 'Remove',
     'LBL_LIST_FORM_TITLE' => 'Project Templates List',
@@ -82,7 +82,7 @@ $mod_strings = array(
     'LBL_NEW_PROJECT' => 'Create Project',
     'LBL_CANCEL_PROJECT' => 'Cancel',
 
-    'LBL_SUBTASK' => 'Task',
+    'LBL_SUBTASK' => 'Tehtävä',
     'LBL_MILESTONE_FLAG' => 'Välietappi',
     'LBL_RELATIONSHIP_TYPE' => 'Relaation tyyppi',
     'LBL_LAG' => 'Viive',
@@ -106,7 +106,7 @@ $mod_strings = array(
     'LBL_ADD_NEW_TASK' => 'Lisää uusi tehtävä',
     'LBL_ASSIGNED_USER_NAME' => 'Projektipäällikkö:',
 
-    'LBL_TASK_ID' => 'ID',
+    'LBL_TASK_ID' => 'Tunnus',
     'LBL_TASK_NAME' => 'Tehtävän nimi',
     'LBL_DURATION' => 'Duration',
     'LBL_ACTUAL_DURATION' => 'Todellinen kesto',
@@ -122,7 +122,7 @@ $mod_strings = array(
     'LBL_TOOLTIP_TITLE' => 'Hint',
     'LBL_TOOLTIP_TEXT' => 'Copies All tasks with assigned users',
 
-    'LBL_EMAIL' => 'Email',
+    'LBL_EMAIL' => 'Sähköposti',
     'LBL_PHONE' => 'Toimiston puhelin:',
     'LBL_ADD_BUTTON' => 'Add',
     'LBL_ADD_INVITEE' => 'Add Resource',
