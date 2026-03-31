@@ -43,8 +43,8 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_BASIC_SEARCH' => 'Quick Filter',
-    'LBL_ADVANCED_SEARCH' => 'Advanced Filter',
+    'LBL_BASIC_SEARCH' => 'Filtro rápido',
+    'LBL_ADVANCED_SEARCH' => 'Filtro avanzado',
     'LBL_BASIC_TYPE' => 'Tipo Básico',
     'LBL_ADVANCED_TYPE' => 'Tipo Avanzado',
     'LBL_SYSOPTS_2' => '¿Qué tipo de base de datos será utilizada para la instancia de SuiteCRM que está a punto de instalar?',
@@ -114,7 +114,7 @@ $mod_strings = array(
     'ERR_LOG_DIRECTORY_NOT_EXISTS' => 'El directorio de Log provisto no es un directorio válido.',
     'ERR_LOG_DIRECTORY_NOT_WRITABLE' => 'El directorio de Log provisto no tiene permisos de escritura.',
     'ERR_NO_DIRECT_SCRIPT' => 'No se puede procesar el script de forma directa.',
-    'ERR_NO_SINGLE_QUOTE' => 'Cannot use the single quotation mark for ',
+    'ERR_NO_SINGLE_QUOTE' => 'No se puede usar comillas simples para ',
     'ERR_PASSWORD_MISMATCH' => 'Las contraseñas provistas para el usuario admin de SuiteCRM no coinciden.  Por favor vuelva a ingresar las mismas contraseñas en los campos.',
     'ERR_PERFORM_CONFIG_PHP_1' => 'No se puede escribir el archivo <span class=stop>config.php</span>.',
     'ERR_PERFORM_CONFIG_PHP_2' => 'Puedecontinuar con esta instalación creando manualmente el archivo config.php y pegando la siguiente información de configuración dentro del archivo.  De todos modos, usted <strong>debería </strong>crear el archivo config.php antes de continuar con el siguiente paso.',
@@ -163,7 +163,7 @@ $mod_strings = array(
     'LBL_CHECKSYS_IISVER' => 'Versión de IIS',
     'LBL_CHECKSYS_JSON' => 'Analizador JSON',
     'LBL_CHECKSYS_RECHECK' => 'Volver a Verificar',
-    'LBL_CHECKSYS_STATUS' => 'Status',
+    'LBL_CHECKSYS_STATUS' => 'Estado',
     'LBL_CHECKSYS_TITLE' => 'Aceptación de Verificación del Sistema',
     'LBL_CHECKSYS_XML' => 'Análisis XML',
     'LBL_CHECKSYS_ZLIB' => 'Módulo de Compresión ZLIB',
@@ -218,7 +218,7 @@ $mod_strings = array(
     'LBL_INSTALL_TYPE_MSG3' => 'Provee opciones adicionales a establecer durante la instalación. La mayor parte de estas opciones también están disponibles después de la instalación en la pantalla de administración. Recomendada para usuarios avanzados.',
     'LBL_LANG_1' => 'Para usar otro idioma diferente al idioma por defecto (US-English), puede subir e instalar un paquete de idioma en este momento. También podrá subir e instalar paquetes de idioma desde adentro de la aplicación. Si quiere omitir este paso, haga click en Siguiente.',
     'LBL_LANG_BUTTON_COMMIT' => 'Install',
-    'LBL_LANG_BUTTON_REMOVE' => 'Remove',
+    'LBL_LANG_BUTTON_REMOVE' => 'Quitar',
     'LBL_LANG_BUTTON_UNINSTALL' => 'Desinstalar',
     'LBL_LANG_BUTTON_UPLOAD' => 'Subir',
     'LBL_LANG_NO_PACKS' => 'none',
@@ -245,9 +245,9 @@ $mod_strings = array(
     'LBL_LOCALE_NAME_SALUTATION' => 'Dr.',
 
     'LBL_ML_ACTION' => 'Action',
-    'LBL_ML_DESCRIPTION' => 'Description',
+    'LBL_ML_DESCRIPTION' => 'Descripción',
     'LBL_ML_INSTALLED' => 'Fecha de Instalación',
-    'LBL_ML_NAME' => 'Name',
+    'LBL_ML_NAME' => 'Nombre',
     'LBL_ML_PUBLISHED' => 'Fecha de Publicación',
     'LBL_ML_TYPE' => 'Type',
     'LBL_ML_UNINSTALLABLE' => 'Desinstalable',
@@ -414,7 +414,7 @@ Después de ingresar utilizando la contraseña de arriba, puede que se le pida c
     ),
     'advanced_password_forgot_password_email' => array(
         'subject' => 'Reestablecer su contraseña',
-        'type' => 'system',
+        'type' => 'sistema',
         'description' => "Esta plantilla es utilizada para enviarle un enlace al usuario que al cliquearse reestablece la contraseña de la cuenta del usuario.",
         'body' => '<div><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width="550" align=\"\&quot;\&quot;center\&quot;\&quot;\"><tbody><tr><td colspan=\"2\"><p>Recientemente ($contact_user_pwd_last_changed) ha requerido reestablecer la contraseña de su cuenta. </p><p>Haga click en el siguiente enlace para reestablecer su contraseña:</p><p> $contact_user_link_guid </p>  </td>         </tr><tr><td colspan=\"2\"></td>         </tr> </tbody></table> </div>',
         'txt_body' =>
@@ -430,7 +430,7 @@ $contact_user_link_guid',
 
     'two_factor_auth_email' => array(
         'subject' => 'Código de autenticación de dos factores',
-        'type' => 'system',
+        'type' => 'sistema',
         'description' => "Esta plantilla es usada para enviar al usuario un código de autenticación de dos factores.",
         'body' => '<div><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width="550" align=\"\&quot;\&quot;center\&quot;\&quot;\"><tbody><tr><td colspan=\"2\"><p>código de autenticación de doble Factor es  <b>$code</b>.</p>  </td>         </tr><tr><td colspan=\"2\"></td>         </tr> </tbody></table> </div>',
         'txt_body' =>
@@ -476,7 +476,7 @@ $contact_user_link_guid',
 
     'LBL_WIZARD_SYSTEM_TITLE' => 'Imagen de marca',
     'LBL_WIZARD_SYSTEM_DESC' => 'Proporcione el nombre y logo de su organización para establecer la imagen de su marca en SuiteCRM.',
-    'SYSTEM_NAME_WIZARD' => 'Name:',
+    'SYSTEM_NAME_WIZARD' => 'Nombre:',
     'SYSTEM_NAME_HELP' => 'Éste es el nombre mostrado en la barra de título de su navegador.',
     'NEW_LOGO' => 'Seleccionar Logo:',
     'NEW_LOGO_HELP' => 'El formato del archivo de imagen puede ser tanto .png como .jpg. La altura máxima es 170px, y la anchura máxima es 450px. Cualquier imagen cargada que se sobrepase en alguna de las medidas será modificada al tamaño indicado, según la medida que exceda.',
@@ -538,7 +538,7 @@ $contact_user_link_guid',
     'LBL_OLD_PHP_MSG' => 'La versión de PHP recomendada para instalar SuiteCRM es %s <br />La versión mínima de PHP requerida es %s<br />Está utilizando la versión PHP %s, que ha llegado a finalizar la fecha de soporte oficial: <a href="http://php.net/eol.php">http://php. et/eol.php</a>.<br />Por favor considere actualizar su versión de PHP. ',
     'LBL_OLD_PHP_OK' => 'Soy consciente de los riesgos y deseo continuar.',
 
-    'LBL_DBCONF_TITLE_USER_INFO_LABEL' => 'User',
+    'LBL_DBCONF_TITLE_USER_INFO_LABEL' => 'Usuario',
     'LBL_DBCONFIG_MSG3_LABEL' => 'Database Name',
     'LBL_DBCONFIG_MSG3' => 'Nombre de la base de datos que contendrá la información de la instancia de SuiteCRM que está a punto de instalar:',
     'LBL_DBCONFIG_MSG2_LABEL' => 'Host Name',
