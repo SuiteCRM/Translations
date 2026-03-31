@@ -50,7 +50,7 @@ $mod_strings = array(
     'LBL_CLOSE_DATE_START' => 'Data de tancament estimada - Des de:',
     'LBL_CLOSE_DATE_END' => 'Data de tancament estimada - Fins:',
     'LBL_DATE_END' => 'End Date:',
-    'LBL_DATE_RANGE_TO' => 'to',
+    'LBL_DATE_RANGE_TO' => 'a',
     'LBL_DATE_RANGE' => 'El rang de dates és',
     'LBL_DATE_START' => 'Data d\'Inici:',
     'LBL_EDIT' => 'Edit',
@@ -91,7 +91,7 @@ $mod_strings = array(
     'LNK_NEW_TASK' => 'Create Task',
     'NTC_NO_LEGENDS' => 'None',
 
-    'LBL_TITLE' => 'Title:',
+    'LBL_TITLE' => 'Tí­tol:',
     'LBL_MY_MODULES_USED_SIZE' => 'Número d\'Accesos',
 
     'LBL_CHART_PIPELINE_BY_SALES_STAGE' => 'Embut per etapa de vendes',
