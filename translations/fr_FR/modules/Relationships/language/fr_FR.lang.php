@@ -58,5 +58,5 @@ $mod_strings = array(
     'LBL_RELATIONSHIP_ROLE_COLUMN' => 'Nom Colonne Rôle de la Relation',
     'LBL_RELATIONSHIP_ROLE_COLUMN_VALUE' => 'Valeur Colonne Rôle de la Relation',
     'LBL_REVERSE' => 'Inverser',
-    'LBL_DELETED' => 'Deleted',
+    'LBL_DELETED' => 'Supprimé',
 );
