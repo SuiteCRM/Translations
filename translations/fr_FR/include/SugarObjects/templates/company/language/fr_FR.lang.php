@@ -56,8 +56,8 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Utilisateur :',
     'LBL_RATING' => 'Evaluation',
     'LBL_ASSIGNED_TO' => 'Assigné à :',
-    'LBL_ASSIGNED_USER' => 'Assigned to:',
-    'LBL_ASSIGNED_TO_ID' => 'Assigned to:',
+    'LBL_ASSIGNED_USER' => 'Assigné à :',
+    'LBL_ASSIGNED_TO_ID' => 'Assigné à :',
     'LBL_BILLING_ADDRESS_CITY' => 'Facturation - Ville :',
     'LBL_BILLING_ADDRESS_COUNTRY' => 'Facturation - Pays :',
     'LBL_BILLING_ADDRESS_POSTALCODE' => 'Facturation - Code Postal :',
@@ -97,7 +97,7 @@ $mod_strings = array(
     'LBL_PHONE_FAX' => 'Fax :',
     'LBL_PHONE_OFFICE' => 'Téléphone du bureau :',
     'LBL_PHONE' => 'Téléphone :',
-    'LBL_EMAIL_ADDRESS' => 'Email Address',
+    'LBL_EMAIL_ADDRESS' => 'Adresse de courrier électronique',
     'LBL_EMAIL_ADDRESSES' => 'Adresse(s) E-mail',
     'LBL_POSTAL_CODE' => 'Code postal :',
     'LBL_SAVE_ACCOUNT' => 'Sauvegarder le compte',
@@ -116,7 +116,7 @@ $mod_strings = array(
     'LBL_TYPE' => 'Type :',
     'LBL_WEBSITE' => 'Site Web :',
 
-    'LNK_ACCOUNT_LIST' => 'Accounts',
+    'LNK_ACCOUNT_LIST' => 'Comptes',
     'LNK_NEW_ACCOUNT' => 'Créer un compte',
 
     'MSG_DUPLICATE' => 'Créer ce Compte est une source de doublon potentielle. Vous pouvez soit sélectionner un compte dans la liste ci dessous ou cliquer sur "Sauvegarder" pour poursuivre la création de la fiche compte avec les données saisies.',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'Voulez-vous vraiment supprimer cet enregistrement ?',
 
     'LBL_EDIT_BUTTON' => 'Modifier  ',
-    'LBL_REMOVE' => 'Remove',
+    'LBL_REMOVE' => 'Supprimer',
 
 );
