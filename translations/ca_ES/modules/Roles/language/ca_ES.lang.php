@@ -43,16 +43,16 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Role:',
-    'LBL_LANGUAGE' => 'Language:',
+    'LBL_ROLE' => 'Rol: ',
+    'LBL_LANGUAGE' => 'Llenguatge: ',
     'LBL_MODULE_NAME' => 'Roles',
     'LBL_MODULE_TITLE' => 'Roles: Home',
     'LBL_SEARCH_FORM_TITLE' => 'Cerca de Rols',
     'LBL_LIST_FORM_TITLE' => 'Llista de Rols',
     'LNK_NEW_ROLE' => 'Create Role',
     'LNK_ROLES' => 'Roles',
-    'LBL_NAME' => 'Name:',
-    'LBL_DESCRIPTION' => 'Description:',
+    'LBL_NAME' => 'Nom: ',
+    'LBL_DESCRIPTION' => 'Descripció: ',
     'LBL_ALLOWED_MODULES' => 'Mòduls Permesos: ',
     'LBL_DISALLOWED_MODULES' => 'Mòduls No Permesos: ',
     'LBL_ASSIGN_MODULES' => 'Editar Mòduls: ',
