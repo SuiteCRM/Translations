@@ -44,26 +44,26 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ASSIGNED_TO_ID' => 'Id ผู้รับผิดชอบ',
-    'LBL_ASSIGNED_TO_NAME' => 'ผู้รับผิดชอบ',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_ID' => 'ไอดี',
     'LBL_DATE_ENTERED' => 'วันที่สร้าง',
     'LBL_DATE_MODIFIED' => 'วันที่แก้ไข',
     'LBL_MODIFIED' => 'แก้ไขโดย',
-    'LBL_MODIFIED_ID' => 'แก้ไขโดยไอดี',
+    'LBL_MODIFIED_ID' => 'Modified By Id',
     'LBL_MODIFIED_NAME' => 'แก้ไขโดยชื่อ',
     'LBL_CREATED' => 'สร้างโดย',
-    'LBL_CREATED_ID' => 'สร้างโดยไอดี',
+    'LBL_CREATED_ID' => 'Created By Id',
     'LBL_DESCRIPTION' => 'รายละเอียด',
     'LBL_DELETED' => 'ลบ',
     'LBL_NAME' => 'ชื่อ',
     'LBL_CREATED_USER' => 'สร้างโดยผู้ใช้งาน',
     'LBL_MODIFIED_USER' => 'แก้ไข โดยผู้ใช้',
     'LBL_LIST_NAME' => 'ชื่อ',
-    'LBL_EDIT_BUTTON' => 'แก้ไข',
-    'LBL_REMOVE' => 'ลบออก',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
     'LBL_LIST_FORM_TITLE' => 'รายการประเภท KB',
     'LBL_MODULE_NAME' => 'ประเภท KB',
-    'LBL_MODULE_TITLE' => 'ประเภท KB',
+    'LBL_MODULE_TITLE' => 'KB Categories',
     'LBL_HOMEPAGE_TITLE' => 'ประเภท KB ของฉัน',
     'LNK_NEW_RECORD' => 'สร้างประเภท KB',
     'LNK_LIST' => 'ดูประเภท KB',
@@ -71,8 +71,8 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'ค้นหาประเภท KB',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'ดูประวัติ',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'กิจกรรม',
-    'LBL_AOK_KB_CATEGORIES_SUBPANEL_TITLE' => 'ประเภท KB',
+    'LBL_AOK_KB_CATEGORIES_SUBPANEL_TITLE' => 'KB Categories',
     'LBL_NEW_FORM_TITLE' => 'ประเภท KB ใหม่',
 );
 
-$mod_strings['LBL_AOK_KB_TITLE'] = 'ฐานความรู้';
+$mod_strings['LBL_AOK_KB_TITLE'] = 'Knowledge Base';
