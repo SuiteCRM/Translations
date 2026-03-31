@@ -31,39 +31,39 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
     // System fields
-    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
-    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
-    'LBL_DATE_ENTERED' => 'Date Created',
-    'LBL_DATE_MODIFIED' => 'Date Modified',
-    'LBL_MODIFIED' => 'Modified By',
-    'LBL_MODIFIED_NAME' => 'Modified By Name',
-    'LBL_CREATED' => 'Created By',
-    'LBL_CREATED_USER' => 'Created by User',
-    'LBL_MODIFIED_USER' => 'Modified by User',
-    'LBL_DESCRIPTION' => 'Description',
-    'LBL_DELETED' => 'Deleted',
+    'LBL_ASSIGNED_TO_ID' => 'Id atribuit utilizatorului',
+    'LBL_ASSIGNED_TO_NAME' => 'Atrbuit lui',
+    'LBL_DATE_ENTERED' => 'Data intrare',
+    'LBL_DATE_MODIFIED' => 'Data modificare',
+    'LBL_MODIFIED' => 'Modificat de',
+    'LBL_MODIFIED_NAME' => 'Modificat de Nume',
+    'LBL_CREATED' => 'Creat de',
+    'LBL_CREATED_USER' => 'Creat de utilizator',
+    'LBL_MODIFIED_USER' => 'Modificat de utilizator',
+    'LBL_DESCRIPTION' => 'Descriere: ',
+    'LBL_DELETED' => 'Șters',
 
     // Security groups
-    'LBL_SECURITYGROUPS' => 'Security Groups',
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
+    'LBL_SECURITYGROUPS' => 'Grupuri securitate',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Grupuri de securitate',
 
     // List view labels
-    'LBL_LIST_NAME' => 'Name',
-    'LBL_LIST_DELETE' => 'Delete',
-    'LBL_EDIT_BUTTON' => 'Edit',
-    'LBL_REMOVE' => 'Remove',
-    'LBL_ASCENDING' => 'Ascending',
-    'LBL_DESCENDING' => 'Descending',
+    'LBL_LIST_NAME' => 'Prenume',
+    'LBL_LIST_DELETE' => 'Ștergeți',
+    'LBL_EDIT_BUTTON' => 'Editați',
+    'LBL_REMOVE' => 'Înlătură',
+    'LBL_ASCENDING' => 'Ascendent',
+    'LBL_DESCENDING' => 'Descendent',
 
     // Email opt-in labels
-    'LBL_OPT_IN' => 'Opt In',
-    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Pending Confirm opt in, Confirm opt in not sent',
-    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Pending Confirm opt in, Confirm opt in sent',
-    'LBL_OPT_IN_CONFIRMED' => 'Opted in',
+    'LBL_OPT_IN' => 'Înscrieți-vă',
+    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'În așteptare confirmarea înscrierii, confirmarea înscrierii nu a fost trimisă',
+    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'În așteptare Confirmare înscriere, Confirmare înscriere trimisă',
+    'LBL_OPT_IN_CONFIRMED' => 'Utilizatorul s-a înscris',
 
     // Subpanel titles
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Vezi istoric',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activitati',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
 
@@ -75,8 +75,8 @@ $mod_strings = [
     'LNK_LIST_CREATE_NEW_PERSONAL' => 'Create Personal Calendar Account',
     'LNK_LIST_INBOUND_EMAILS' => 'Inbound Emails',
     'LNK_LIST_OUTBOUND_EMAILS' => 'Outbound Emails',
-    'LNK_LIST_EXTERNAL_OAUTH_PROVIDERS' => 'External OAuth Providers',
-    'LNK_LIST_EXTERNAL_OAUTH_CONNECTIONS' => 'External OAuth Connections',
+    'LNK_LIST_EXTERNAL_OAUTH_PROVIDERS' => 'Furnizori externi OAuth',
+    'LNK_LIST_EXTERNAL_OAUTH_CONNECTIONS' => 'Conexiuni OAuth externe',
 
     // Basic module labels
     'LBL_MODULE_NAME' => 'Calendar Accounts',
@@ -91,9 +91,9 @@ $mod_strings = [
     'LNK_LIST' => 'View Calendar Accounts',
 
     // Standard fields
-    'LBL_NAME' => 'Name',
-    'LBL_ID' => 'ID',
-    'LBL_TYPE' => 'Type',
+    'LBL_NAME' => 'Nume: ',
+    'LBL_ID' => 'ID-ul',
+    'LBL_TYPE' => 'Tip',
     'LBL_SOURCE' => 'Calendar Source',
 
     // OAuth2 Fields
@@ -101,8 +101,8 @@ $mod_strings = [
     'LBL_CONNECT_OAUTH' => 'Connect OAuth',
 
     // Basic Auth Fields
-    'LBL_USERNAME' => 'Username',
-    'LBL_PASSWORD' => 'Password',
+    'LBL_USERNAME' => 'Nume utilizator',
+    'LBL_PASSWORD' => 'Parolă',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test Connection',
 
@@ -163,11 +163,11 @@ $mod_strings = [
 
     // Connection test messages
     'LBL_CALENDAR' => 'Calendar',
-    'LBL_SUCCESSFUL' => 'Successful',
-    'LBL_FAILED' => 'Failed',
+    'LBL_SUCCESSFUL' => 'Terminare cu succes',
+    'LBL_FAILED' => 'Eșuat',
     'LBL_CONNECTION_TEST' => 'Connection Test',
-    'LBL_YES' => 'Yes',
-    'LBL_NO' => 'No',
+    'LBL_YES' => 'Da',
+    'LBL_NO' => 'Nu',
     'LBL_FOUND_CALENDARS' => 'Found {count} calendars.',
     'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'An error occurred while processing the connection test response. Please check the logs for details.',
     'LBL_CONNECTION_TEST_HTTP_ERROR' => 'Connection test failed with HTTP status',
@@ -182,14 +182,14 @@ $mod_strings = [
 
     // Dialog labels
     'LBL_NOTIFICATION' => 'Notification',
-    'LBL_CONFIRM' => 'Confirm',
+    'LBL_CONFIRM' => 'Confirmă',
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => 'In Progress',
-    'LBL_SYNC_STATUS_SUCCESS' => 'Success',
-    'LBL_SYNC_STATUS_WARNING' => 'Warning',
-    'LBL_SYNC_STATUS_ERROR' => 'Error',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => 'În curs',
+    'LBL_SYNC_STATUS_SUCCESS' => 'Succes',
+    'LBL_SYNC_STATUS_WARNING' => 'Avertizare',
+    'LBL_SYNC_STATUS_ERROR' => 'Eroare',
 
     // Sync message enum translations
     'LBL_SYNC_MSG_SYNC_COMPLETE' => 'All meetings synced.',
@@ -202,5 +202,5 @@ $mod_strings = [
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Calendar not found.',
 
     // Relationship labels
-    'LBL_MEETINGS' => 'Meetings',
+    'LBL_MEETINGS' => 'Întâlniri',
 ];
