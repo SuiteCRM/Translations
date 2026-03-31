@@ -44,5 +44,5 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_SECURITYGROUPS' => "用户组列表",
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => "用户组列表"
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => "用户组"
 );
