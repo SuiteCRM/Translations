@@ -91,7 +91,7 @@ $mod_strings = array(
     'LNK_NEW_TASK' => 'Create Task',
     'NTC_NO_LEGENDS' => 'None',
 
-    'LBL_TITLE' => 'Title:',
+    'LBL_TITLE' => 'Izenburua:',
     'LBL_MY_MODULES_USED_SIZE' => 'Access Count',
 
     'LBL_CHART_PIPELINE_BY_SALES_STAGE' => 'Pipeline by Sales Stage',
