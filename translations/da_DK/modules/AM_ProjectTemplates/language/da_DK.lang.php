@@ -75,7 +75,7 @@ $mod_strings = array(
     'LBL_START_DATE' => 'Startdato',
     'LBL_CREATE_PROJECT_TITLE' => 'Create a new project from this template?',
     'LBL_AM_TASKTEMPLATES_AM_PROJECTTEMPLATES_FROM_AM_TASKTEMPLATES_TITLE' => 'Task Templates',
-    'LBL_AM_PROJECTTEMPLATES_USERS_1_TITLE' => 'Users',
+    'LBL_AM_PROJECTTEMPLATES_USERS_1_TITLE' => 'Brugere',
     'LBL_AM_PROJECTTEMPLATES_CONTACTS_1_TITLE' => 'Contacts',
     'LBL_AM_PROJECTTEMPLATES_RESOURCES_TITLE' => 'Select Resources',
     'LBL_NEW_PROJECT_CREATED' => 'New Project Created',
@@ -91,7 +91,7 @@ $mod_strings = array(
     'LBL_MONTHS' => 'Months',
 
     'LBL_PROJECT_TASKS_SUBPANEL_TITLE' => 'Project Tasks',
-    'LBL_VIEW_GANTT_TITLE' => 'View Gantt',
+    'LBL_VIEW_GANTT_TITLE' => 'Vis Gantt',
     'LBL_VIEW_GANTT_DURATION' => 'Varighed',
     'LBL_TASK_TITLE' => 'Edit Task',
     'LBL_DURATION_TITLE' => 'Edit Duration',
