@@ -62,7 +62,7 @@ $mod_strings = array(
     'LBL_TYPE' => 'प्रकार:',
     'LBL_SUBJECT' => 'विषय:',
 
-    'LBL_EDIT_BUTTON' => 'संशोधन करें',
-    'LBL_REMOVE' => 'हटाऐं',
+    'LBL_EDIT_BUTTON' => 'संपादित करें',
+    'LBL_REMOVE' => 'हटाएँ',
 
 );
