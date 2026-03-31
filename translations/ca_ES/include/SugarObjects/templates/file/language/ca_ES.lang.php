@@ -80,7 +80,7 @@ $mod_strings = array(
     'LBL_SUBCATEGORY_VALUE' => 'Subcategoría:',
     'LBL_DOC_STATUS' => 'Estat:',
     'LBL_DET_TEMPLATE_TYPE' => 'Tipus de Document:',
-    'LBL_DOC_DESCRIPTION' => 'Description:',
+    'LBL_DOC_DESCRIPTION' => 'Descripció: ',
     'LBL_DOC_ACTIVE_DATE' => 'Data de Publicació:',
     'LBL_DOC_EXP_DATE' => 'Data de Caducitat:',
 
@@ -112,6 +112,6 @@ $mod_strings = array(
     'LBL_LIST_DOCUMENT_NAME' => 'Document Name',
 
     'LBL_EDIT_BUTTON' => 'Editar',
-    'LBL_REMOVE' => 'Remove',
+    'LBL_REMOVE' => 'Eliminar',
 
 );
