@@ -46,9 +46,9 @@ $mod_strings = array(
 
     'LBL_NAME' => 'Név',
     'LBL_NUMBER' => 'Szám:',
-    'LBL_STATUS' => 'Állapot:',
+    'LBL_STATUS' => 'Status:',
     'LBL_PRIORITY' => 'Prioritás:',
-    'LBL_DESCRIPTION' => 'Megjegyzés:',
+    'LBL_DESCRIPTION' => 'Üzenet szövege:',
     'LBL_RESOLUTION' => 'Megoldás',
     'LBL_LAST_MODIFIED' => 'Utoljára módosítva',
     'LBL_ASSIGNED_TO_ID' => 'Felelős:',
@@ -56,13 +56,13 @@ $mod_strings = array(
     'LBL_WORK_LOG' => 'Munkanapló:',
     'LBL_CREATED_BY' => 'Létrehozta:',
     'LBL_DATE_ENTERED' => 'Létrehozás dátuma:',
-    'LBL_DATE_MODIFIED' => 'Módosítás dátuma:',
+    'LBL_DATE_MODIFIED' => 'Date Modified:',
     'LBL_MODIFIED_BY' => 'Utoljára módosította:',
     'LBL_ASSIGNED_USER' => 'Felelős felhasználó:',
-    'LBL_TYPE' => 'Típus:',
+    'LBL_TYPE' => 'Type:',
     'LBL_SUBJECT' => 'Tárgy:',
 
     'LBL_EDIT_BUTTON' => 'Szerkesztés',
-    'LBL_REMOVE' => 'Sil',
+    'LBL_REMOVE' => 'Eltávolítás',
 
 );
