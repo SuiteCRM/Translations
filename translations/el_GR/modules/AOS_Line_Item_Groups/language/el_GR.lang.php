@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ID' => 'ID',
+    'LBL_ID' => 'Ταυτότητα',
     'LBL_MODULE_NAME' => 'Ομάδες',
-    'LBL_DATE_ENTERED' => 'Date Created',
-    'LBL_DATE_MODIFIED' => 'Date Modified',
-    'LBL_DESCRIPTION' => 'Description',
-    'LBL_DELETED' => 'Deleted',
+    'LBL_DATE_ENTERED' => 'Ημ/νία καταχώρησης',
+    'LBL_DATE_MODIFIED' => 'Ημ/νία Τροποποίησης',
+    'LBL_DESCRIPTION' => 'Περιγραφή',
+    'LBL_DELETED' => 'Διαγράφηκε',
     'LBL_NAME' => 'Group Name',
     'LBL_TOTAL_AMT' => 'Total',
     'LBL_DISCOUNT_AMOUNT' => 'Discount',
@@ -65,5 +65,5 @@ $mod_strings = array(
     'LBL_SUBTOTAL_TAX_AMOUNT_USDOLLAR' => 'Υποσύνολο + Φόροι (Προεπιλεγμένο Νόμισμα)',
     'LBL_PARENT_ID' => 'Γονικός Κωδικός',
 
-    'AOS_PRODUCT_QUOTES' => 'Product Quotes',
+    'AOS_PRODUCT_QUOTES' => 'Προσφορές Προϊόντων',
 );
