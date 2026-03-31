@@ -64,7 +64,7 @@ $mod_strings = [
     'LBL_ACCESS_TOKEN_EXPIRES' => '访问令牌过期',
     'LBL_REFRESH_TOKEN_EXPIRES' => '刷新令牌过期',
 
-    'LNK_OAUTH2_TOKEN_LIST'=> '列出 oauth2 令牌',
+    'LNK_OAUTH2_TOKEN_LIST'=> '列出OAuth2令牌',
     'LNK_OAUTH2_CLIENT_LIST' => '列出Oauth2 客户端',
 
     'LNK_NEW_OAUTH2_CLIENT' => '创建OAuth2客户端',
