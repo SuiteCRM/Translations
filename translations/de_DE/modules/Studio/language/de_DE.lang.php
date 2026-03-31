@@ -45,17 +45,17 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_EDIT_LAYOUT' => 'Edit Layout',
     'LBL_EDIT_FIELDS' => 'Benutzerdefinierte Felder bearbeiten',
-    'LBL_SELECT_FILE' => 'Select File',
+    'LBL_SELECT_FILE' => 'Datei auswählen',
     'LBL_MODULE_TITLE' => 'Studio',
     'LBL_TOOLBOX' => 'Toolbox',
     'LBL_SUITE_FIELDS_STAGE' => 'SuiteCRM Felder (klicken Sie auf das Element um es zum Arbeitsbereich hinzuzufügen)',
     'LBL_VIEW_SUITE_FIELDS' => 'SuiteCRM Felder anzeigen',
     'LBL_FAILED_TO_SAVE' => 'Failed To Save',
     'LBL_CONFIRM_UNSAVE' => 'Änderungen werden nicht gespeichert. Möchten Sie wirklich fortfahren?',
-    'LBL_PUBLISHING' => 'Publishing...',
+    'LBL_PUBLISHING' => 'Veröffentlichen ...',
     'LBL_PUBLISHED' => 'Published',
     'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
-    'LBL_DROP_HERE' => '[Drop Here]',
+    'LBL_DROP_HERE' => '[Hierher ziehen]',
 
 //CUSTOM FIELDS
     'LBL_NAME' => 'Name',
@@ -63,10 +63,10 @@ $mod_strings = array(
     'LBL_MASS_UPDATE' => 'Mass Update',
     'LBL_DEFAULT_VALUE' => 'Default Value',
     'LBL_REQUIRED' => 'Required',
-    'LBL_DATA_TYPE' => 'Type',
+    'LBL_DATA_TYPE' => 'Typ',
 
 
-    'LBL_HISTORY' => 'History',
+    'LBL_HISTORY' => 'Verlauf',
 
 //WIZARDS
 
@@ -87,7 +87,7 @@ $mod_strings = array(
 
 
 //Manager Backups History
-    'LBL_MB_DELETE' => 'Delete',
+    'LBL_MB_DELETE' => 'Löschen',
 
 //EDIT DROP DOWNS
     'LBL_ED_CREATE_DROPDOWN' => 'Auswahlmenü erstellen',
@@ -104,9 +104,9 @@ $mod_strings = array(
 
 //BUTTONS
     'LBL_BTN_SAVE' => 'Save',
-    'LBL_BTN_CANCEL' => 'Cancel',
-    'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
-    'LBL_BTN_HISTORY' => 'History',
+    'LBL_BTN_CANCEL' => 'Abbrechen',
+    'LBL_BTN_SAVEPUBLISH' => 'Speichern & Veröffentlichen',
+    'LBL_BTN_HISTORY' => 'Verlauf',
     'LBL_BTN_ADDROWS' => 'Add Rows',
     'LBL_BTN_UNDO' => 'Undo',
     'LBL_BTN_REDO' => 'Redo',
@@ -133,14 +133,14 @@ $mod_strings = array(
     'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
     'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Inline' /*for 508 compliance fix*/,
-    'LBL_DELETE' => 'Delete' /*for 508 compliance fix*/,
+    'LBL_DELETE' => 'Löschen' /*for 508 compliance fix*/,
     'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Maximieren' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Minimieren' /*for 508 compliance fix*/,
-    'LBL_PUBLISH' => 'Publish' /*for 508 compliance fix*/,
+    'LBL_PUBLISH' => 'Publizieren' /*for 508 compliance fix*/,
     'LBL_ADDROWS' => 'Add Rows' /*for 508 compliance fix*/,
     'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
-    'LBL_EDIT' => 'Edit' /*for 508 compliance fix*/,
+    'LBL_EDIT' => 'Bearbeiten' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Zu bearbeitende Sprache auswählen.',
     'LBL_SINGULAR' => 'Bezeichnung Einzahl',
