@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Список записей, подлежащих объединению',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Поиск записей для объединения',
-    'LBL_AVAIL_FIELDS' => 'Доступные поля',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'Условие фильтра',
     'LBL_MERGE_VALUE_OVER' => 'Перезаписать значением',
 
@@ -58,10 +58,10 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Выполнить объединение',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Выполнить объединение',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Сохранить объединение',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Сохранить объединение',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => 'Найденные записи для объединения с',
     'LBL_SELECT_ERROR' => 'Вы должны сделать выбор перед тем как продолжить.',
