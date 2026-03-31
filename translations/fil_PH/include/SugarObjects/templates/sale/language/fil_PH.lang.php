@@ -48,7 +48,7 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Ang paghahanap ng binibenta',
     'LBL_LIST_FORM_TITLE' => 'Ang listahan ng benta',
     'LBL_NAME' => 'Ang pangalan ng benta',
-    'LBL_LIST_SALE_NAME' => 'Ang Pangalan',
+    'LBL_LIST_SALE_NAME' => 'Ang pangalan',
     'LBL_LIST_ACCOUNT_NAME' => 'Pangalan ng Akwant',
     'LBL_LIST_AMOUNT' => 'Ang halaga',
     'LBL_LIST_DATE_CLOSED' => 'Ang pagsasara',
@@ -87,7 +87,7 @@ $mod_strings = array(
     'LBL_SALE_INFORMATION' => 'Ang impormasyon ng pagbebenta',
     'LBL_CURRENCY_NAME' => 'Pangalan ng pera',
     'LBL_CURRENCY_SYMBOL' => 'Simbolo ng pera',
-    'LBL_EDIT_BUTTON' => 'I-edit',
+    'LBL_EDIT_BUTTON' => 'Ang i-edit',
     'LBL_REMOVE' => 'Tanggalin',
 
 );
