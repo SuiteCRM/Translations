@@ -49,14 +49,14 @@ $mod_strings = array(
     'LBL_DELETE_CONFIRM' => 'Sei sicuro di voler cancellare la Ricerca Salvata?',
     'LBL_DELETE_BUTTON_TITLE' => 'Cancella la Ricerca Salvata',
     'LBL_SAVE_BUTTON_TITLE' => 'Salva la Ricerca Corrente',
-    'LBL_LIST_NAME' => 'Nome',
+    'LBL_LIST_NAME' => 'Nome Contatto',
     'LBL_LIST_MODULE' => 'Modulo',
     'LBL_ORDER_BY_COLUMNS' => 'Ordina per la colonna:',
     'LBL_DIRECTION' => 'Direzione:',
     'LBL_SAVE_SEARCH_AS' => 'Salvare il filtro come:',
     'LBL_ASCENDING' => 'Crescente',
     'LBL_DESCENDING' => 'Decrescente',
-    'LBL_MODIFY_CURRENT_FILTER' => 'Modifica l´attuale ricerca',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
     'LBL_CREATED_BY' => 'Creato da',
 
