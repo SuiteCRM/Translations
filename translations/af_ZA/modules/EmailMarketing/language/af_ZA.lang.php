@@ -53,7 +53,7 @@ $mod_strings = array(
     'LBL_LIST_NAME' => 'Name',
     'LBL_LIST_FROM_ADDR' => 'From Email',
     'LBL_LIST_DATE_START' => 'Start Date',
-    'LBL_LIST_TEMPLATE_NAME' => 'Email Template',
+    'LBL_LIST_TEMPLATE_NAME' => 'Epos - Template',
     'LBL_LIST_STATUS' => 'Status',
     'LBL_STATUS' => 'Status',
     'LBL_STATUS_TEXT' => 'Status:',
@@ -81,7 +81,7 @@ $mod_strings = array(
     'LNK_NEW_PROSPECT' => 'Create Target',
     'LNK_PROSPECT_LIST' => 'Targets',
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Email Marketing',
-    'LBL_CREATE_EMAIL_TEMPLATE' => 'Create',
+    'LBL_CREATE_EMAIL_TEMPLATE' => 'Skep',
     'LBL_EDIT_EMAIL_TEMPLATE' => 'Edit',
     'LBL_FROM_MAILBOX' => 'From Mailbox',
     'LBL_FROM_MAILBOX_NAME' => 'Use Mailbox:',
@@ -102,7 +102,7 @@ $mod_strings = array(
 
     'LBL_CAMPAIGN_ID' => 'Campaign ID',
     'LBL_OUTBOUND_EMAIL_ACOUNT_ID' => 'Outbound Email Account ID',
-    'LBL_EMAIL_TEMPLATE' => 'Email Template',
+    'LBL_EMAIL_TEMPLATE' => 'Epos - Template',
     'LBL_PROSPECT_LISTS' => 'Prospect Lists',
 
 );
