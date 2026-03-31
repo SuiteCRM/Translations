@@ -60,8 +60,8 @@ $mod_strings['LBL_MAP_DISPLAY'] = 'Tampilan Peta';
 $mod_strings['LBL_MAP_LEGEND'] = 'Legenda:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'Grup:';
 $mod_strings['LBL_MAP_GROUP'] = 'Grup';
-$mod_strings['LBL_MAP_TYPE'] = 'Tipe';
-$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Menugaskan ke:';
+$mod_strings['LBL_MAP_TYPE'] = 'Type';
+$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Ditugaskan kepada:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'Tentukan Arah';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'Penampilan Peta Google';
 
@@ -78,14 +78,14 @@ $mod_strings['LBL_MAP_PROCESS'] = 'Proses itu!';
 $mod_strings['LBL_MAP_LAST_STATUS'] = 'Status Geokode Terakhir';
 $mod_strings['LBL_GEOCODED_COUNTS'] = 'Hitung Modul Geokode';
 $mod_strings['LBL_CRON_URL'] = 'Cron URL:';
-$mod_strings['LBL_MODULE_HEADING'] = 'Modul';
+$mod_strings['LBL_MODULE_HEADING'] = 'Module';
 
 $mod_strings['LBL_N/A'] = 'N/A';
 $mod_strings['LBL_ZERO_RESULTS'] = 'Zero Results';
 $mod_strings['LBL_OK'] = 'Baik';
 $mod_strings['LBL_INVALID_REQUEST'] = 'Invalid Request';
 $mod_strings['LBL_APPROXIMATE'] = 'Approximate';
-$mod_strings['LBL_EMPTY'] = 'Kosong';
+$mod_strings['LBL_EMPTY'] = 'Empty';
 
 $mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Total';
 $mod_strings['LBL_MODULE_RESET_HEADING'] = 'Setel ulang';
@@ -101,15 +101,15 @@ $mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Memproses...';
 
 $mod_strings['LBL_CONFIG_TITLE'] = 'Pengaturan Konfigurasi';
 $mod_strings['LBL_CONFIG_SAVED'] = 'Pengaturan Tersimpan berhasil!';
-$mod_strings['LBL_BILLING_ADDRESS'] = 'Alamat Tagihan';
-$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Alamat Pengiriman';
-$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Alamat Utama';
+$mod_strings['LBL_BILLING_ADDRESS'] = 'Billing Address';
+$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Shipping Address';
+$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Primary Address';
 $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'Alamat Alternatif';
 $mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex Terkait';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Alamat (Sederhana, Pengguna)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'Khusus (Custom Controller Logic)';
-$mod_strings['LBL_ENABLED'] = 'Diaktifkan';
-$mod_strings['LBL_DISABLED'] = 'Tidak Diaktifkan';
+$mod_strings['LBL_ENABLED'] = 'Enabled';
+$mod_strings['LBL_DISABLED'] = 'Disabled';
 $mod_strings['LBL_DEFAULT'] = 'Standar:';
 $mod_strings['LBL_CONFIG_DEFAULT'] = 'Standar:';
 
@@ -184,7 +184,7 @@ $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_DESC'] = "'map_clusterer
 $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = "Catatan Penting: Semua pengaturan tersimpan dapat ditemukan di 'config' tabel di bawah kategori 'jjwg'. Catatan, file controller.php khusus seharusnya tidak lagi digunakan untuk mengganti pengaturan.";
 $mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Area';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'Penanda';
-$mod_strings['LBL_PARENT_ID'] = 'ID Induk';
+$mod_strings['LBL_PARENT_ID'] = 'Parent ID';
 $mod_strings['LBL_JJWP_PARTNERS'] = 'Partners JJWP';
 $mod_strings['LBL_GET_GOOGLE_API_KEY'] = 'Mendapatkan Sebuah Kunci';
 $mod_strings['LBL_GOOGLE_API_KEY'] = 'Kunci Google Api';
