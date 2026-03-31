@@ -39,7 +39,7 @@
  */
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID'                                                             => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_ID'                                                             => 'Възложен на оператор с идентификационен номер',
     'LBL_ASSIGNED_TO_NAME'                                                           => 'Assigned to',
     'LBL_SECURITYGROUPS'                                                             => 'Security Groups',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE'                                              => 'Security Groups',
@@ -74,11 +74,11 @@ $mod_strings = array(
     'LBL_HAPPINESS'                                                                  => 'Happiness',
     'LBL_EMAIL_RESPONSE_SENT'                                                        => 'Email Response Sent',
     'LBL_SURVEYRESPONSES_SURVEYQUESTIONRESPONSES_FROM_SURVEYQUESTIONRESPONSES_TITLE' => 'Survey Question Responses',
-    'LBL_SURVEYRESPONSES_CONTACTS_FROM_CONTACTS_TITLE'                               => 'Contact',
-    'LBL_SURVEYRESPONSES_ACCOUNTS_FROM_ACCOUNTS_TITLE'                               => 'Account',
+    'LBL_SURVEYRESPONSES_CONTACTS_FROM_CONTACTS_TITLE'                               => 'Контакт',
+    'LBL_SURVEYRESPONSES_ACCOUNTS_FROM_ACCOUNTS_TITLE'                               => 'Организация',
     'LBL_SURVEYS_SURVEYRESPONSES_FROM_SURVEYS_TITLE'                                 => 'Survey',
     'LBL_QUESTION_RESPONSES_DISPLAY'                                                 => 'Question Responses',
-    'LBL_SURVEYRESPONSES_CAMPAIGNS_FROM_CAMPAIGNS_TITLE'                             => 'Campaign',
+    'LBL_SURVEYRESPONSES_CAMPAIGNS_FROM_CAMPAIGNS_TITLE'                             => 'Кампания',
     'LBL_QUESTION' => 'Question',
     'LBL_RESPONSE' => 'Response'
 
