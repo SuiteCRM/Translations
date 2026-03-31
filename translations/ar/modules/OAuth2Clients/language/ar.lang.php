@@ -44,14 +44,14 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
     'LBL_MODULE_NAME' => 'تطبيقات OAuth2',
-    'LBL_MODULE_TITLE' => 'OAuth2 Clients',
-    'LBL_MODULE_ID' => 'OAuth2 Clients',
+    'LBL_MODULE_TITLE' => 'تطبيقات OAuth2',
+    'LBL_MODULE_ID' => 'تطبيقات OAuth2',
     'LBL_IS_CONFIDENTIAL' => 'هو سري',
     'LBL_SECRET' => 'الكلمة السرية',
     'LBL_SECRET_HASHED' => 'تغيير الكلمة السرية',
     'LBL_LEAVE_BLANK' => 'اتركه فارغاً ما لم يتغير',
     'LBL_REMEMBER_SECRET' => 'يرجى كتابة الكلمة السرية لديك لأنها لن تكون متاحة بعد الحفظ.',
-    'LBL_REDIRECT_URL' => 'Redirect URL',
+    'LBL_REDIRECT_URL' => 'رابط إعادة التوجيه',
     'LBL_ALLOWED_GRANT_TYPE' => 'نوع الصلاحيات الممنوحة المسموح به',
     'LBL_DURATION_AMOUNT' => 'قيمة المدة',
     'LBL_DURATION_UNIT' => 'وحدة المدة',
@@ -64,14 +64,14 @@ $mod_strings = [
     'LBL_ACCESS_TOKEN_EXPIRES' => 'تنتهي صلاحية رمز الوصول',
     'LBL_REFRESH_TOKEN_EXPIRES' => 'تنتهي صلاحية رمز التحديث',
 
-    'LNK_OAUTH2_TOKEN_LIST'=> 'List OAuth2 Tokens',
-    'LNK_OAUTH2_CLIENT_LIST' => 'List OAuth2 Clients',
+    'LNK_OAUTH2_TOKEN_LIST'=> 'إدراج رموز OAuth2 المميزة',
+    'LNK_OAUTH2_CLIENT_LIST' => 'إدراج تطبيقات OAuth2',
     'LNK_OAUTH2_AUTHCODE_LIST' => 'List OAuth2 Authorization Codes',
 
-    'LNK_NEW_OAUTH2_CLIENT' => 'Create OAuth2 Client',
-    'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'New Password Client',
-    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'New Client Credentials Client',
-    'LNK_NEW_OAUTH2_IMPLICIT_CLIENT' => 'New Implicit Client',
-    'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'New Authorization Client',
+    'LNK_NEW_OAUTH2_CLIENT' => 'إنشاء تطبيق OAuth2',
+    'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'تطبيق كلمة المرور الجديدة',
+    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'تطبيق جديد لوثائق تفويض التطبيق',
+    'LNK_NEW_OAUTH2_IMPLICIT_CLIENT' => 'تطبيق ضمني جديد',
+    'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'تطبيق تفويض جديد',
 
 ];
