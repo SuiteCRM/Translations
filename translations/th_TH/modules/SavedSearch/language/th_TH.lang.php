@@ -52,14 +52,14 @@ $mod_strings = array(
     'LBL_LIST_NAME' => 'ชื่อ',
     'LBL_LIST_MODULE' => 'โมดูล',
     'LBL_ORDER_BY_COLUMNS' => 'Order by column',
-    'LBL_DIRECTION' => 'ทิศทาง',
+    'LBL_DIRECTION' => 'Direction',
     'LBL_SAVE_SEARCH_AS' => 'บันทึกตัวกรองเป็น:',
     'LBL_ASCENDING' => 'เรียงจากน้อยไปมาก',
     'LBL_DESCENDING' => 'เรียงจากมากไปน้อย',
-    'LBL_MODIFY_CURRENT_FILTER' => 'ปรับเปลี่ยนตัวกรองปัจจุบัน',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
     'LBL_CREATED_BY' => 'สร้างโดย',
-    'LBL_QUICK_FILTER' => 'ตัวกรอง',
+    'LBL_QUICK_FILTER' => 'ตัวกรองด่วน',
 
 
 );
