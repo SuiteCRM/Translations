@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Группы',
-    'LBL_GROUP_NAME' => 'Название группы:',
+    'LBL_MODULE_NAME' => 'Groups',
+    'LBL_GROUP_NAME' => 'Group Name:',
     'LBL_DESCRIPTION' => 'Описание:',
     'LBL_TEAM' => 'Группа:',
     // ListView
-    'LBL_LIST_TITLE' => 'Группы',
+    'LBL_LIST_TITLE' => 'Groups',
     // Links
     'LNK_ALL_GROUPS' => 'Все группы',
     'LNK_NEW_GROUP' => 'Создать группу',
