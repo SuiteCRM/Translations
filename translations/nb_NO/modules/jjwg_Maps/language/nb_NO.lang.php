@@ -42,10 +42,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_MAP'] = 'Kart';
-$mod_strings['LBL_MODULE_NAME'] = 'Kart';
+$mod_strings['LBL_MAP'] = 'Map';
+$mod_strings['LBL_MODULE_NAME'] = 'Maps';
 $mod_strings['LBL_MODULE_TITLE'] = 'Kart: Hjem';
-$mod_strings['LBL_MODULE_ID'] = 'Kart';
+$mod_strings['LBL_MODULE_ID'] = 'Maps';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'Kart';
 $mod_strings['LBL_MAP_CUSTOM_MARKER'] = 'Tilpasset markør';
 $mod_strings['LBL_MAP_CUSTOM_AREA'] = 'Tilpasset område';
@@ -59,59 +59,59 @@ $mod_strings['LBL_UNIT_TYPE'] = 'Enhetstype:';
 $mod_strings['LBL_MAP_DISPLAY'] = 'Kartvisning';
 $mod_strings['LBL_MAP_LEGEND'] = 'Forklaring:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'Grupper:';
-$mod_strings['LBL_MAP_GROUP'] = 'Gruppe';
+$mod_strings['LBL_MAP_GROUP'] = 'Group';
 $mod_strings['LBL_MAP_TYPE'] = 'Type';
-$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Tildelt brukers navn:';
+$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Assigned to:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'Få veibeskrivelser';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'Google Maps View';
 
 $mod_strings['LNK_NEW_MAP'] = 'Legg til nytt kart';
-$mod_strings['LNK_NEW_RECORD'] = 'Legg til nytt kart';
+$mod_strings['LNK_NEW_RECORD'] = 'Add New Map';
 $mod_strings['LNK_MAP_LIST'] = 'List kart';
 
-$mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Geokodingstest';
+$mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Geocoding Test';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'Hurtig radiuskart';
-$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'Ingen';
-$mod_strings['LBL_MAP_ADDRESS'] = 'Adresse:';
+$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'None';
+$mod_strings['LBL_MAP_ADDRESS'] = 'Address';
 $mod_strings['LBL_MAP_PROCESS'] = 'Prosesser!';
 
 $mod_strings['LBL_MAP_LAST_STATUS'] = 'Forige geokodestatus';
 $mod_strings['LBL_GEOCODED_COUNTS'] = 'Modulens geokodeantal';
 $mod_strings['LBL_CRON_URL'] = 'Cron URL:';
-$mod_strings['LBL_MODULE_HEADING'] = 'Modul';
+$mod_strings['LBL_MODULE_HEADING'] = 'Module';
 
 $mod_strings['LBL_N/A'] = 'N/A';
 $mod_strings['LBL_ZERO_RESULTS'] = 'Zero Results';
 $mod_strings['LBL_OK'] = 'Ok';
 $mod_strings['LBL_INVALID_REQUEST'] = 'Invalid Request';
 $mod_strings['LBL_APPROXIMATE'] = 'Approximate';
-$mod_strings['LBL_EMPTY'] = 'Tom';
+$mod_strings['LBL_EMPTY'] = 'Empty';
 
-$mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Totalt';
-$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Tilbakestill';
+$mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Total';
+$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Reset';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = 'Tabellen under viser antall modulobjekter som er geokodet, gruppert etter geokoding svar. Husk at standard Google Maps bruk begrenses til 2500 forespørsler per dag. Denne modulen vil hurtiglagre adresser under behandling for å redusere det totale antallet forespørsler om nødvendig.';
 
 $mod_strings['LBL_CRON_INSTRUCTIONS'] = 'Behandle geokoding forespørsler anbefales det å sette til en nattlig Cron-jobb. Et egendefinert inngangspunkt er opprettet for dette formålet, og kan nås uten godkjenning. URL-adressen nedenfor er ment å brukes med en administrativ planlagt oppgave. Se dokumentasjonen for mer informasjon.';
 $mod_strings['LBL_EXPORT_ADDRESS_URL'] = 'Eksporter URLer';
 $mod_strings['LBL_EXPORT_INSTRUCTIONS'] = 'Bruk koblingene nedenfor til å eksportere fulle adresser som har behov for geokoding. Deretter bruk et online eller offline geocodingverktøye for å geokode adressene. Når du er ferdig med geokoding, importer adressene til hurtiglagret slik at det kan brukes i kart. Legg merke til at modulen hurtiglagring er valgfri. Alle geokoding lagres i modulen.';
-$mod_strings['LBL_ADDRESS_CACHE'] = 'Hurtiglager for adresser';
+$mod_strings['LBL_ADDRESS_CACHE'] = 'Address Cache';
 $mod_strings['LBL_ADD_TO_TARGET_LIST'] = 'Legg til i målliste';
-$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Prosesserer...';
+$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Processing...';
 
 
 $mod_strings['LBL_CONFIG_TITLE'] = 'Konfigurasjonsinnstillinger';
 $mod_strings['LBL_CONFIG_SAVED'] = 'Innstillingene ble lagret!';
-$mod_strings['LBL_BILLING_ADDRESS'] = 'Faktureringsadresse';
-$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Leveringsadresse';
-$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Primæradresse:';
+$mod_strings['LBL_BILLING_ADDRESS'] = 'Billing Address';
+$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Shipping Address';
+$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Primary Address';
 $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'Alternativ adresse';
-$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex forbindelse';
+$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex Relate';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Adresse (Enkel, Brukere)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'Tilpasset (Tilpasset kontroll-logikk)';
-$mod_strings['LBL_ENABLED'] = 'Aktiv';
-$mod_strings['LBL_DISABLED'] = 'Inaktiv';
+$mod_strings['LBL_ENABLED'] = 'Enabled';
+$mod_strings['LBL_DISABLED'] = 'Disabled';
 $mod_strings['LBL_DEFAULT'] = 'Standard:';
-$mod_strings['LBL_CONFIG_DEFAULT'] = 'Standard:';
+$mod_strings['LBL_CONFIG_DEFAULT'] = 'Default:';
 
 $mod_strings['LBL_CONFIG_VALID_GEOCODE_MODULES'] = 'Gyldig geokodemoduler:';
 $mod_strings['LBL_CONFIG_VALID_GEOCODE_TABLES'] = 'Gyldige geokodetabeller:';
@@ -182,9 +182,9 @@ $mod_strings['LBL_CONFIG_MAP_CLUSTER_GRID_SIZE_DESC'] = "'map_clusterer_grid_siz
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_TITLE'] = "Maksimal zoom for kartmarkørklynge:";
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_DESC'] = "'map_clusterer_max_zoom' blir brukt for å sette det maksimale zoom-nivået hvor klynger ikke vil bli tatt i bruk.";
 $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = "Viktig melding: Alle lagrede innstillinger kan bli funnet i 'config'-tabellen under kategorier 'jjwg'. Legg merke til at en tilpasset controller.php bør ikke lenger brukes for å overkjøre innstillinger.";
-$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Områder';
+$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Areas';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'Markører';
-$mod_strings['LBL_PARENT_ID'] = 'Forelder ID';
+$mod_strings['LBL_PARENT_ID'] = 'Parent ID';
 $mod_strings['LBL_JJWP_PARTNERS'] = 'JJWP partnere';
 $mod_strings['LBL_GET_GOOGLE_API_KEY'] = 'Get A Key';
 $mod_strings['LBL_GOOGLE_API_KEY'] = 'Google Api Key';
