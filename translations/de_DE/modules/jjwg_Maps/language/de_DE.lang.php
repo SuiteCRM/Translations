@@ -60,8 +60,8 @@ $mod_strings['LBL_MAP_DISPLAY'] = 'Kartenanzeige';
 $mod_strings['LBL_MAP_LEGEND'] = 'Legende:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'Gruppen:';
 $mod_strings['LBL_MAP_GROUP'] = 'Group';
-$mod_strings['LBL_MAP_TYPE'] = 'Type';
-$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Assigned to:';
+$mod_strings['LBL_MAP_TYPE'] = 'Typ';
+$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Zugewiesen an:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'Route berechnen';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'Google Maps Ansicht';
 
@@ -71,7 +71,7 @@ $mod_strings['LNK_MAP_LIST'] = 'Karten anzeigen';
 
 $mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Geocoding Test';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'Schnelle Umkreis Karte';
-$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'None';
+$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'Kein(e)';
 $mod_strings['LBL_MAP_ADDRESS'] = 'Address';
 $mod_strings['LBL_MAP_PROCESS'] = 'Verarbeiten!';
 
@@ -87,7 +87,7 @@ $mod_strings['LBL_INVALID_REQUEST'] = 'Ungültige Anfrage';
 $mod_strings['LBL_APPROXIMATE'] = 'Ungefähr';
 $mod_strings['LBL_EMPTY'] = 'Empty';
 
-$mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Total';
+$mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Gesamt';
 $mod_strings['LBL_MODULE_RESET_HEADING'] = 'Reset';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = 'Die unten dargestellte Tabelle weist die Anzahl an geocodierten Modulobjekten auf, die nach den geocodierten Antworten gruppiert wurde. Beachten Sie, dass das Standardlimit von Abfragen bei Google Maps 2500 Anfragen pro Tag beträgt. Dieses Modul wird die geocodierten Informationen der Adressen während der Bearbeitung zwischenspeichern, um die Gesamtanzahl an verwendeten Anfragen zu reduzieren.';
 
@@ -96,7 +96,7 @@ $mod_strings['LBL_EXPORT_ADDRESS_URL'] = 'URLs exportieren';
 $mod_strings['LBL_EXPORT_INSTRUCTIONS'] = 'Verwenden Sie die unten stehenden Links um komplette Adressen zu exportieren, die geocodierte Informationen benötigen. Verwenden Sie danach ein online oder offline Batch Geocoding Tool, um die Adressen zu geocodieren. Importieren Sie die Adressen in das Adressen-Cache Modul, das Sie für Ihre Karten verwenden, nachdem Sie mit der Geocodierung fertig sind. Beachten Sie, dass das Adressen-Cache Modul optional ist. Alle geocodierten Informationen werden im repräsentativen Modul gespeichert.';
 $mod_strings['LBL_ADDRESS_CACHE'] = 'Address Cache';
 $mod_strings['LBL_ADD_TO_TARGET_LIST'] = 'Zu einer Zielkontaktliste hinzufügen';
-$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Processing...';
+$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Verarbeiten...';
 
 
 $mod_strings['LBL_CONFIG_TITLE'] = 'Konfigurationseinstellungen';
@@ -109,7 +109,7 @@ $mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex Relate';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Adresse (Einfach, Benutzer)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'Benutzerdefiniert (Custom Controller Logic)';
 $mod_strings['LBL_ENABLED'] = 'Enabled';
-$mod_strings['LBL_DISABLED'] = 'Disabled';
+$mod_strings['LBL_DISABLED'] = 'Deaktiviert';
 $mod_strings['LBL_DEFAULT'] = 'Standard:';
 $mod_strings['LBL_CONFIG_DEFAULT'] = 'Default:';
 
@@ -185,7 +185,7 @@ $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = "Wichtige Notiz:  alle gespe
 $mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Areas';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'Marken';
 $mod_strings['LBL_PARENT_ID'] = 'Parent ID';
-$mod_strings['LBL_JJWP_PARTNERS'] = 'JJWP Partners';
+$mod_strings['LBL_JJWP_PARTNERS'] = 'JJWP Partner';
 $mod_strings['LBL_GET_GOOGLE_API_KEY'] = 'Schlüssel erhalten';
 $mod_strings['LBL_GOOGLE_API_KEY'] = 'Google-Api-Schlüssel';
 $mod_strings['LBL_ERROR_NO_GOOGLE_API_KEY'] = 'Bitte erstellen Sie den Google-Api-Schlüssel in der Google Maps Administration.';
