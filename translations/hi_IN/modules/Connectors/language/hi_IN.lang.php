@@ -53,7 +53,7 @@ $mod_strings = array(
     'LBL_DATA' => 'डेटा',
     'LBL_DEFAULT' => 'डिफॉल्ट',
     'LBL_DISABLED' => 'विकलांग',
-    'LBL_ENABLED' => 'सक्षम है',
+    'LBL_ENABLED' => 'सक्रिय',
     'LBL_EXTERNAL' => 'उपयोगकर्ताओं को इस कनेक्टर में बाहरी खाता रिकॉर्ड बनाने में सक्षम करें।',
     'LBL_EXTERNAL_SET_PROPERTIES' => ' इस कनेक्टर का उपयोग करने के लिए, गुणों को सेट कनेक्टर गुण सेटिंग पृष्ठ में भी सेट किया जाना चाहिए।',
     'LBL_MERGE' => 'मर्ज करें',
@@ -84,6 +84,6 @@ $mod_strings = array(
     'ERROR_NO_SEARCHDEFS_MAPPING' => 'त्रुटि: मॉड्यूल और कनेक्टर के लिए कोई खोज फ़ील्ड परिभाषित नहीं हैं। कृपया सिस्टम व्यवस्थापक से संपर्क करें।',
     'ERROR_NO_DISPLAYABLE_MAPPED_FIELDS' => 'त्रुटि: कोई भी मॉड्यूल फ़ील्ड नहीं है जिसे परिणामों में प्रदर्शित करने के लिए मैप किया गया हो। कृपया सिस्टम व्यवस्थापक से संपर्क करें।',
     'LBL_INFO_INLINE' => 'जानकारी' /*for 508 compliance fix*/,
-    'LBL_CLOSE' => 'बंद करें' /*for 508 compliance fix*/,
+    'LBL_CLOSE' => 'बंद' /*for 508 compliance fix*/,
 
 );
