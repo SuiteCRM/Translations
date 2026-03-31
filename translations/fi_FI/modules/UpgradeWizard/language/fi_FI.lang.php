@@ -189,7 +189,7 @@ $mod_strings = array(
     'LBL_UW_TITLE_START' => 'Welcome',
     'LBL_UW_TITLE_SYSTEM_CHECK' => 'System Check',
     'LBL_UW_TITLE_UPLOAD' => 'Upload Package',
-    'LBL_UW_TITLE' => 'Upgrade Wizard',
+    'LBL_UW_TITLE' => 'Ohjattu päivitys',
     'LBL_UW_UNINSTALL' => 'Uninstall',
     //500 upgrade labels
     'LBL_UW_ACCEPT_THE_LICENSE' => 'Accept License',
@@ -224,7 +224,7 @@ $mod_strings = array(
     'LBL_ML_COMMIT' => 'Commit',
     'LBL_ML_DESCRIPTION' => 'Description',
     'LBL_ML_INSTALLED' => 'Date Installed',
-    'LBL_ML_NAME' => 'Name',
+    'LBL_ML_NAME' => 'Nimi',
     'LBL_ML_PUBLISHED' => 'Date Published',
     'LBL_ML_TYPE' => 'Type',
     'LBL_ML_UNINSTALLABLE' => 'Uninstallable',
