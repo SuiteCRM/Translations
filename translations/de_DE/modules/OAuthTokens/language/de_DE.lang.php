@@ -46,7 +46,7 @@ $mod_strings = array(
     'LBL_OAUTH_REQUEST' => "Token anfordern",
     'LBL_OAUTH_AUTHORIZE' => "Token bestätigen",
     'LBL_OAUTH_CONSUMERREQ' => "Bestätigund des Token vom Verbraucher <b>%s</b>?",
-    'LBL_ASSIGNED_TO_NAME' => 'User',
+    'LBL_ASSIGNED_TO_NAME' => 'Benutzer',
     'LBL_ID' => 'ID',
     'LBL_STATUS' => 'Status',
     'LBL_TS' => 'Zeitstempel',
@@ -56,7 +56,7 @@ $mod_strings = array(
 
     'LBL_TOKEN_TS' => 'Token TS',
     'LBL_CALLBACK_URL' => 'URL für Rückfragen',
-    'LBL_SECRET' => 'Secret',
+    'LBL_SECRET' => 'Schlüssel',
     'LBL_TSTATE' => 'TState',
-    'LBL_VERIFY' => 'Verify',
+    'LBL_VERIFY' => 'Bestätigung',
 );
