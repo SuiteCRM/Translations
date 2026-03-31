@@ -42,19 +42,19 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_ASSIGNED_TO_ID'] = 'Magtalaga ng nagagamit sa Id';
-$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Ang gumagamit';
-$mod_strings['LBL_ID'] = 'ID';
-$mod_strings['LBL_DATE_ENTERED'] = 'Lumikha ng Petsa';
-$mod_strings['LBL_DATE_MODIFIED'] = 'Petsang binago';
+$mod_strings['LBL_ASSIGNED_TO_ID'] = 'Ang nagagamit sa Id ay nagtalaga';
+$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Ang Tagagamit';
+$mod_strings['LBL_ID'] = 'Ang ID';
+$mod_strings['LBL_DATE_ENTERED'] = 'Ang petsa ay lumikha';
+$mod_strings['LBL_DATE_MODIFIED'] = 'Ang petsa ay binago';
 $mod_strings['LBL_MODIFIED'] = 'Binago kay';
-$mod_strings['LBL_MODIFIED_NAME'] = 'Binago sa pamamagitan ng pangalan';
+$mod_strings['LBL_MODIFIED_NAME'] = 'Sa pamamagitan ng pangalan ay binago';
 $mod_strings['LBL_CREATED'] = 'Nilikha ni';
-$mod_strings['LBL_DESCRIPTION'] = 'Paglalarawan';
-$mod_strings['LBL_DELETED'] = 'Nabura';
-$mod_strings['LBL_NAME'] = 'Ang Pangalan';
+$mod_strings['LBL_DESCRIPTION'] = 'Ang Paglalarawan';
+$mod_strings['LBL_DELETED'] = 'Ang Nabura';
+$mod_strings['LBL_NAME'] = 'Pangalan';
 $mod_strings['LBL_CREATED_USER'] = 'Nililikha sa pamamagitan ng Gumagamit';
-$mod_strings['LBL_MODIFIED_USER'] = 'Binago sa pamamagitan ng gumagamit';
+$mod_strings['LBL_MODIFIED_USER'] = 'Ang Binago sa pamamagitan ng gumagamit';
 $mod_strings['LBL_LIST_NAME'] = 'Ang Pangalan';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'Ang mga lugar ng listahan';
 $mod_strings['LBL_MODULE_NAME'] = 'Ang Mga lugar';
@@ -66,11 +66,11 @@ $mod_strings['LBL_SEARCH_FORM_TITLE'] = 'Ang mga lugar na hinahanap';
 $mod_strings['LBL_HISTORY_SUBPANEL_TITLE'] = 'Tanawin ang kasaysayan';
 $mod_strings['LBL_ACTIVITIES_SUBPANEL_TITLE'] = 'Ang mga gawain';
 $mod_strings['LBL_NEW_FORM_TITLE'] = 'Ang mga bagong lugar';
-$mod_strings['LBL_CITY'] = 'Syudad';
-$mod_strings['LBL_STATE'] = 'Estado';
+$mod_strings['LBL_CITY'] = 'Ang Syudad';
+$mod_strings['LBL_STATE'] = 'Ang Estado';
 $mod_strings['LBL_COUNTRY'] = 'Bansa';
 $mod_strings['LBL_COORDINATES'] = 'Ang mga coordinate';
-$mod_strings['LBL_LIST_ASSIGNED_USER'] = 'Ang gumagamit';
+$mod_strings['LBL_LIST_ASSIGNED_USER'] = 'Ang Tagagamit';
 $mod_strings['LBL_AREA_MAP'] = 'Ang lugar ng mapa';
 
 $mod_strings['LBL_AREA_EDIT_TITLE'] = 'Ang Mga Tagubilin sa Paglikha ng lugar:';
