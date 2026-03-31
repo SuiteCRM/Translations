@@ -46,23 +46,23 @@ $mod_strings = array(
 
     'LBL_NAME' => '名稱',
     'LBL_NUMBER' => '編號:',
-    'LBL_STATUS' => '狀態:',
+    'LBL_STATUS' => 'Status:',
     'LBL_PRIORITY' => '優先順序:',
-    'LBL_DESCRIPTION' => '描述:',
+    'LBL_DESCRIPTION' => '說明:',
     'LBL_RESOLUTION' => '分析',
     'LBL_LAST_MODIFIED' => '最新修改',
     'LBL_ASSIGNED_TO_ID' => '負責人:',
-    'LBL_ASSIGNED_TO_NAME' => '使用者:',
+    'LBL_ASSIGNED_TO_NAME' => 'User:',
     'LBL_WORK_LOG' => '工作日誌:',
     'LBL_CREATED_BY' => '建立人:',
     'LBL_DATE_ENTERED' => '創建日期:',
     'LBL_DATE_MODIFIED' => '修改日期:',
     'LBL_MODIFIED_BY' => '最新修改人:',
     'LBL_ASSIGNED_USER' => '負責人',
-    'LBL_TYPE' => '類型:',
+    'LBL_TYPE' => 'Type:',
     'LBL_SUBJECT' => '主旨:',
 
-    'LBL_EDIT_BUTTON' => '編輯',
+    'LBL_EDIT_BUTTON' => 'Edit',
     'LBL_REMOVE' => '刪除',
 
 );
