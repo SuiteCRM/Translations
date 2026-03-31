@@ -31,21 +31,21 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
     // System fields
-    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_ID' => 'Esleitutako erabiltzailearen Id',
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_DATE_ENTERED' => 'Date Created',
     'LBL_DATE_MODIFIED' => 'Date Modified',
     'LBL_MODIFIED' => 'Modified By',
-    'LBL_MODIFIED_NAME' => 'Modified By Name',
-    'LBL_CREATED' => 'Created By',
+    'LBL_MODIFIED_NAME' => 'Nork aldatua',
+    'LBL_CREATED' => 'Sortzailea',
     'LBL_CREATED_USER' => 'Created by User',
     'LBL_MODIFIED_USER' => 'Modified by User',
     'LBL_DESCRIPTION' => 'Description',
     'LBL_DELETED' => 'Deleted',
 
     // Security groups
-    'LBL_SECURITYGROUPS' => 'Security Groups',
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
+    'LBL_SECURITYGROUPS' => 'Segurtasun-taldeak',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Segurtasun-taldeak',
 
     // List view labels
     'LBL_LIST_NAME' => 'Name',
@@ -62,7 +62,7 @@ $mod_strings = [
     'LBL_OPT_IN_CONFIRMED' => 'Opted in',
 
     // Subpanel titles
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Historia ikusi',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
