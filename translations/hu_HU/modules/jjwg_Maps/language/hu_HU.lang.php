@@ -42,10 +42,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_MAP'] = 'Térkép';
-$mod_strings['LBL_MODULE_NAME'] = 'Térképek';
+$mod_strings['LBL_MAP'] = 'Map';
+$mod_strings['LBL_MODULE_NAME'] = 'Maps';
 $mod_strings['LBL_MODULE_TITLE'] = 'Térképek: Főoldal';
-$mod_strings['LBL_MODULE_ID'] = 'Térképek';
+$mod_strings['LBL_MODULE_ID'] = 'Maps';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'Maps Listing';
 $mod_strings['LBL_MAP_CUSTOM_MARKER'] = 'Egyéni Marker';
 $mod_strings['LBL_MAP_CUSTOM_AREA'] = 'Egyéni területet';
@@ -59,9 +59,9 @@ $mod_strings['LBL_UNIT_TYPE'] = 'Egység típusa:';
 $mod_strings['LBL_MAP_DISPLAY'] = 'Map Display';
 $mod_strings['LBL_MAP_LEGEND'] = 'Jelmagyarázat:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'Csoportok:';
-$mod_strings['LBL_MAP_GROUP'] = 'Csoport';
-$mod_strings['LBL_MAP_TYPE'] = 'Típus';
-$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Felelős:';
+$mod_strings['LBL_MAP_GROUP'] = 'Group';
+$mod_strings['LBL_MAP_TYPE'] = 'Type';
+$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Hozzárendelve:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'Útvonalterv';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'Google-térkép megtekintése';
 
@@ -71,24 +71,24 @@ $mod_strings['LNK_MAP_LIST'] = 'Térképek listája';
 
 $mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Helymeghatározáshoz teszt';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'Gyors sugár megjelenítése';
-$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'Egyik sem';
-$mod_strings['LBL_MAP_ADDRESS'] = 'Cím:';
+$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'None';
+$mod_strings['LBL_MAP_ADDRESS'] = 'Address';
 $mod_strings['LBL_MAP_PROCESS'] = 'Dolgozd fel!';
 
 $mod_strings['LBL_MAP_LAST_STATUS'] = 'Utolsó meghatározott helyzet';
 $mod_strings['LBL_GEOCODED_COUNTS'] = 'Module Geocoded Counts';
 $mod_strings['LBL_CRON_URL'] = 'Cron URL-címe:';
-$mod_strings['LBL_MODULE_HEADING'] = 'Modul';
+$mod_strings['LBL_MODULE_HEADING'] = 'Module';
 
 $mod_strings['LBL_N/A'] = 'Nincs Adat';
 $mod_strings['LBL_ZERO_RESULTS'] = 'Nincs találat';
 $mod_strings['LBL_OK'] = 'Ok';
 $mod_strings['LBL_INVALID_REQUEST'] = 'Érvénytelen kérés';
 $mod_strings['LBL_APPROXIMATE'] = 'Hozzávetőleges';
-$mod_strings['LBL_EMPTY'] = 'Üres';
+$mod_strings['LBL_EMPTY'] = 'Empty';
 
 $mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Összesen';
-$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Alapbeállítás';
+$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Reset';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = 'The table shown belown shows the number of module objects geocoded, grouped by geocoding response. Keep in mind that the standard Google Maps usage limit is 2500 requests per day . This module will cache the addresses geocoding information during processing to reduce the overall number of requests needed.';
 
 $mod_strings['LBL_CRON_INSTRUCTIONS'] = 'To process the geocoding requests it is recommended to setup a nightly Cron-Job. A custom entry point has been created for this purpose and can be accessed without authentication. The URL shown below is meant to be used with an Administrative Scheduled Task. Please see the documentation for more information.';
@@ -96,20 +96,20 @@ $mod_strings['LBL_EXPORT_ADDRESS_URL'] = 'Export-URL-ek';
 $mod_strings['LBL_EXPORT_INSTRUCTIONS'] = 'Use the links below to export full addresses in need of geocodeing information. Then use an online or offline batch geocoding tool to geocode the addresses. When you are finished geocoding, import the addresses into the Address Cache module to be used with your maps. Note, the Address Cache module is optional. All geocoding information is stored in the representative module.';
 $mod_strings['LBL_ADDRESS_CACHE'] = 'Cím gyorsítótár';
 $mod_strings['LBL_ADD_TO_TARGET_LIST'] = 'Hozzáadás a céllistához';
-$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Feldolgozás...';
+$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Processing...';
 
 
 $mod_strings['LBL_CONFIG_TITLE'] = 'Konfigurációs beállítások';
 $mod_strings['LBL_CONFIG_SAVED'] = 'Beállítások mentése sikeres!';
-$mod_strings['LBL_BILLING_ADDRESS'] = 'Számlázási cím';
-$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Szállítási cím';
-$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Elsődleges cím';
+$mod_strings['LBL_BILLING_ADDRESS'] = 'Billing Address';
+$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Shipping Address';
+$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Primary Address';
 $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'Alternatív cím';
-$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Rugalmas társítás';
+$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex Relate';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Cím (egyszerű, felhasználók)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'Egyéni (egyéni vezérlő logika)';
-$mod_strings['LBL_ENABLED'] = 'Engedélyez';
-$mod_strings['LBL_DISABLED'] = 'Tilt';
+$mod_strings['LBL_ENABLED'] = 'Enabled';
+$mod_strings['LBL_DISABLED'] = 'Disabled';
 $mod_strings['LBL_DEFAULT'] = 'Alapértelmezett érték:';
 $mod_strings['LBL_CONFIG_DEFAULT'] = 'Alapértelmezett érték:';
 
@@ -184,7 +184,7 @@ $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_DESC'] = "'map_clusterer
 $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = "Important Note: All saved settings can be found in the 'config' table under category 'jjwg'. Note, a custom controller.php file should no longer be used to override settings.";
 $mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Területek';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'Jelölők';
-$mod_strings['LBL_PARENT_ID'] = 'Szülő ID';
+$mod_strings['LBL_PARENT_ID'] = 'Parent ID';
 $mod_strings['LBL_JJWP_PARTNERS'] = 'JJWP-partnerek';
 $mod_strings['LBL_GET_GOOGLE_API_KEY'] = 'Kulcs beszerzése';
 $mod_strings['LBL_GOOGLE_API_KEY'] = 'A Google Api-kulcs';
