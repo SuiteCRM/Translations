@@ -44,12 +44,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_EMAIL_ADDRESS_ID' => 'ID',
-    'LBL_EMAIL_ADDRESS' => 'Ang email na padalahan',
+    'LBL_EMAIL_ADDRESS' => 'Ang email na address',
     'LBL_EMAIL_ADDRESS_CAPS' => 'Caps ng Email Address',
-    'LBL_INVALID_EMAIL' => 'Hindi wastong email',
+    'LBL_INVALID_EMAIL' => 'Hindi wasto ang email',
     'LBL_OPT_OUT' => 'Nagpasyang sumali',
     'LBL_CONFIRM_OPT_IN' => 'Kumpirmahin ang Opt In',
     'LBL_DATE_CREATE' => 'Araw na lumikha',
-    'LBL_DATE_MODIFIED' => 'Petsang binago',
+    'LBL_DATE_MODIFIED' => 'Ang petsa ay binago',
     'LBL_DELETED' => 'Alisin',
 );
