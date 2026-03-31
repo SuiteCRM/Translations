@@ -51,8 +51,8 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Document Search',
     //vardef labels
     'LBL_NAME' => 'Document Name',
-    'LBL_DESCRIPTION' => 'Description',
-    'LBL_ASSIGNED_TO' => 'Assigned to:',
+    'LBL_DESCRIPTION' => 'Beskrywing',
+    'LBL_ASSIGNED_TO' => 'Toegewys aan:',
     'LBL_CATEGORY' => 'Kategorie',
     'LBL_SUBCATEGORY' => 'Sub Category',
     'LBL_STATUS' => 'Status',
@@ -87,7 +87,7 @@ $mod_strings = array(
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'Document List',
     'LBL_LIST_DOCUMENT' => 'Dokument',
-    'LBL_LIST_CATEGORY' => 'Category',
+    'LBL_LIST_CATEGORY' => 'Kategorie',
     'LBL_LIST_SUBCATEGORY' => 'Sub Category',
     'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => 'Published By',
