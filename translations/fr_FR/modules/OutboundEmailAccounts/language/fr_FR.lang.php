@@ -65,8 +65,8 @@ $mod_strings = array(
     'LBL_HOMEPAGE_TITLE' => 'Mes comptes d\'E-mail sortant',
     'LNK_NEW_RECORD' => 'Créer des comptes d\'E-mail sortant',
 
-    'LNK_LIST_CREATE_NEW_PERSONAL' => 'New Personal Account',
-    'LNK_LIST_CREATE_NEW_GROUP' => 'New Group Account',
+    'LNK_LIST_CREATE_NEW_PERSONAL' => 'Nouveau compte personnel',
+    'LNK_LIST_CREATE_NEW_GROUP' => 'Nouveau compte de groupe',
     'LNK_LIST_CREATE_SYSTEM_OVERRIDE_GROUP' => 'Nouveau compte e-mail système sortant de remplacement',
 
     'LNK_LIST' => 'Comptes de courrier électronique sortant',
@@ -117,9 +117,9 @@ $mod_strings = array(
 
     'LBL_OWNER' => 'Owner',
     'LBL_OWNER_NAME' => 'Owner',
-    'LBL_IS_DEFAULT' => 'Default',
+    'LBL_IS_DEFAULT' => 'Par défaut',
     'LBL_IS_PERSONAL' => 'Is Personal',
-    'LBL_SET_AS_DEFAULT_BUTTON' => 'Set as default',
+    'LBL_SET_AS_DEFAULT_BUTTON' => 'Définir par défaut',
 
     'LBL_AUTH_TYPE' => 'Type d\'authentification',
 
