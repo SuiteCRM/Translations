@@ -54,11 +54,11 @@ $mod_strings = array(
     'LBL_ORDER_BY_COLUMNS' => 'Trier par colonne',
     'LBL_DIRECTION' => 'Direction',
     'LBL_SAVE_SEARCH_AS' => 'Enregistrer Filtre comme:',
-    'LBL_ASCENDING' => 'Croissant',
-    'LBL_DESCENDING' => 'Décroissant',
-    'LBL_MODIFY_CURRENT_FILTER' => 'Modifier Filtre en cours',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
-    'LBL_CREATED_BY' => 'Créé Par',
+    'LBL_CREATED_BY' => 'Créée par:',
     'LBL_QUICK_FILTER' => 'Filtre Rapide',
 
 
