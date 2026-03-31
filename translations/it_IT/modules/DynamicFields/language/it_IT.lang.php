@@ -43,14 +43,14 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LNK_NEW_CALL' => 'Nuova Chiamata',
+    'LNK_NEW_CALL' => 'Log chiamata',
     'LNK_NEW_MEETING' => 'Pianifica Riunione',
     'LNK_NEW_TASK' => 'Nuovo Compito',
     'LNK_NEW_NOTE' => 'Nuova Nota o Allegato',
     'LNK_NEW_EMAIL' => 'Scrivi Email',
     'LNK_CALL_LIST' => 'Chiamate',
     'LNK_MEETING_LIST' => 'Appuntamenti',
-    'LNK_TASK_LIST' => 'Compiti',
+    'LNK_TASK_LIST' => 'Visualizza Compiti',
     'LNK_NOTE_LIST' => 'Note',
     'LBL_ADD_FIELD' => 'Aggiungi Campo:',
     'LBL_SEARCH_FORM_TITLE' => 'Cerca Modulo',
@@ -86,7 +86,7 @@ $mod_strings = array(
     'COLUMN_TITLE_DUPLICATE_MERGE' => 'Unisci Duplicati',
     'LBL_LABEL' => 'Etichetta',
     'LBL_DATA_TYPE' => 'Tipo Dato',
-    'LBL_DEFAULT_VALUE' => 'Valore predefinito',
+    'LBL_DEFAULT_VALUE' => 'Valore Predefinito',
     'ERR_RESERVED_FIELD_NAME' => "Parola chiave riservata",
     'ERR_SELECT_FIELD_TYPE' => 'Si prega di selezionare un Tipo Campo',
     'ERR_FIELD_NAME_ALREADY_EXISTS' => 'Nome Campo già esistente',
