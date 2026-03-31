@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EDIT_LAYOUT' => 'Modifica Maschera',
+    'LBL_EDIT_LAYOUT' => 'Modifica Layout',
     'LBL_EDIT_FIELDS' => 'Modifica Campi Personalizzati',
     'LBL_SELECT_FILE' => 'Seleziona File',
     'LBL_MODULE_TITLE' => 'Studio',
@@ -53,7 +53,7 @@ $mod_strings = array(
     'LBL_FAILED_TO_SAVE' => 'Salvataggio non riuscito',
     'LBL_CONFIRM_UNSAVE' => 'Tutte le modifiche saranno perse. Vuoi continuare?',
     'LBL_PUBLISHING' => 'In pubblicazione ...',
-    'LBL_PUBLISHED' => 'In pubblicazione',
+    'LBL_PUBLISHED' => 'Pubblicata',
     'LBL_FAILED_PUBLISHED' => 'Pubblicazione non riuscita',
     'LBL_DROP_HERE' => '[Trascina Qui]',
 
@@ -61,9 +61,9 @@ $mod_strings = array(
     'LBL_NAME' => 'Nome',
     'LBL_LABEL' => 'Etichetta',
     'LBL_MASS_UPDATE' => 'Aggiornamento di Massa',
-    'LBL_DEFAULT_VALUE' => 'Valore predefinito',
+    'LBL_DEFAULT_VALUE' => 'Valore Predefinito',
     'LBL_REQUIRED' => 'Richiesto',
-    'LBL_DATA_TYPE' => 'Gruppo/Personale',
+    'LBL_DATA_TYPE' => 'Tipo',
 
 
     'LBL_HISTORY' => 'Cronologia',
@@ -79,7 +79,7 @@ $mod_strings = array(
     'LBL_SW_EDIT_GROUPTABS' => 'Configura Gruppo Schede',
     'LBL_SW_EDIT_PORTAL' => 'Modifica Portale',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => 'Ripara Campi Personalizzati',
-    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Esporta Campi personalizzati',
+    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrazione Campi Personalizzati',
 
 // JS LABELS
     'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Ricostruisce le versioni javascript dei file di lingua',
@@ -105,9 +105,9 @@ $mod_strings = array(
 //BUTTONS
     'LBL_BTN_SAVE' => 'Salva',
     'LBL_BTN_CANCEL' => 'Annulla',
-    'LBL_BTN_SAVEPUBLISH' => 'Salva e Pubblica',
+    'LBL_BTN_SAVEPUBLISH' => 'Salva &amp; Pubblica',
     'LBL_BTN_HISTORY' => 'Cronologia',
-    'LBL_BTN_ADDROWS' => 'Aggiungi Righe',
+    'LBL_BTN_ADDROWS' => 'Aggiunge Fila',
     'LBL_BTN_UNDO' => 'Annulla',
     'LBL_BTN_REDO' => 'Ripeti',
     'LBL_BTN_ADDCUSTOMFIELD' => 'Aggiungi Campo Personalizzato',
@@ -126,7 +126,7 @@ $mod_strings = array(
     'LBL_RENAME_TABS' => 'Rinomina Moduli',
 
 //ERRORS
-    'ERROR_INVALID_KEY_VALUE' => "Errore: Valore chiave non valido: [']",
+    'ERROR_INVALID_KEY_VALUE' => "Errore: Valore Chiave Non Valido: [&#39;]",
 
 //SUGAR PORTAL
     'LBL_SAVE' => 'Salva' /*for 508 compliance fix*/,
