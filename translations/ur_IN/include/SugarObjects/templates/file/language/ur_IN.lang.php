@@ -112,6 +112,6 @@ $mod_strings = array(
     'LBL_LIST_DOCUMENT_NAME' => 'دستاویز کا نام',
 
     'LBL_EDIT_BUTTON' => 'ردوبدل کیجیے ',
-    'LBL_REMOVE' => 'ختم کر دیں',
+    'LBL_REMOVE' => 'نکال دیں',
 
 );
