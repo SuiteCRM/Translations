@@ -646,7 +646,7 @@ $app_list_strings = array(
         'Opportunities' => 'Opportunities',
         'Outlook Plugin' => 'Outlook Plugin',
         'Projects' => 'Projects',
-        'Quotes' => 'Quotes',
+        'Quotes' => 'Quote',
         'Releases' => 'Releases',
         'RSS' => 'RSS',
         'Studio' => 'Studio',
@@ -2393,7 +2393,7 @@ $app_strings = array(
     'LBL_COLUMN_SELECTOR_DISPLAYED_COLS' => 'DISPLAYED',
     'LBL_COLUMN_SELECTOR_HIDDEN_COLS' => 'HIDDEN',
     'LBL_COLUMN_SELECTOR_CLOSE_BUTTON' => 'Close',
-    'LBL_COLUMN_SELECTOR_SAVE_BUTTON' => 'Save Changes',
+    'LBL_COLUMN_SELECTOR_SAVE_BUTTON' => 'Save changes',
     'LBL_COLUMN_SELECTOR_MODAL_TITLE' => 'Choose Columns',
 
     // Two-Factor Authentication
@@ -4048,7 +4048,7 @@ $app_strings['LBL_OPPORTUNITIES_TOTAL_SUM'] = 'Total Value';
 $app_strings['LBL_QUOTES_EXPIRY'] = 'Next Expiration Date';
 $app_strings['LBL_DEFAULT_TOTAL'] = 'Total';
 $app_strings['AOS_Contracts'] = 'Contracts';
-$app_strings['AOS_Quotes'] = 'Quotes';
+$app_strings['AOS_Quotes'] = 'Quote';
 $app_strings['AOS_Invoices'] = 'Invoices';
 $app_strings['LBL_PHOTO'] = 'Photo';
 $app_strings['LBL_CASE_UPDATES'] = 'Case Updates';
