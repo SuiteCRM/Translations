@@ -94,7 +94,7 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_DATE' => 'Start Date & Time',
     'LBL_CREATE_MEETING' => 'تَرتيب کار اجلاس',
-    'LBL_CREATE_CALL' => 'لاگ ان کال',
+    'LBL_CREATE_CALL' => 'لاگ کال',
     'LBL_HOURS_ABBREV' => 'h',
     'LBL_MINS_ABBREV' => 'm',
 
