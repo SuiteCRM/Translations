@@ -51,15 +51,15 @@ $mod_strings = [
     'LBL_LIST_NAME' => 'Name',
     'LBL_LIST_DELETE' => 'Delete',
     'LBL_EDIT_BUTTON' => 'Edit',
-    'LBL_REMOVE' => 'Remove',
+    'LBL_REMOVE' => 'Eliminar',
     'LBL_ASCENDING' => 'Ascending',
     'LBL_DESCENDING' => 'Descending',
 
     // Email opt-in labels
-    'LBL_OPT_IN' => 'Opt In',
-    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Pending Confirm opt in, Confirm opt in not sent',
-    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Pending Confirm opt in, Confirm opt in sent',
-    'LBL_OPT_IN_CONFIRMED' => 'Opted in',
+    'LBL_OPT_IN' => 'Autoritzar comunicacions',
+    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Confirmació d\'autorització pendent, Confirmació d\'autorització no enviada',
+    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Confirmació d\'autorització pendent, Confirmació d\'autorització enviada',
+    'LBL_OPT_IN_CONFIRMED' => 'Autoritzat a enviar',
 
     // Subpanel titles
     'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
