@@ -60,7 +60,7 @@ $mod_strings = array(
     'LBL_LEAD_SOURCE_FORM_TITLE' => 'Kaikki myyntimahdollisuudet liidin lähteen mukaan',
     'LBL_LEAD_SOURCE_OTHER' => 'Other',
     'LBL_LEAD_SOURCES' => 'Liidin lähteet:',
-    'LBL_MODULE_NAME' => 'Dashboard',
+    'LBL_MODULE_NAME' => 'Tietopaneeli',
     'LBL_MODULE_TITLE' => 'Tietopaneeli: Etusivu',
     'LBL_MONTH_BY_OUTCOME_DESC' => 'Näyttää kumulatiiviset myyntimahdollisuuksien summat kuukausittain toteuman ja valittujen käyttäjien mukaan annetulla aikavälillä.  Toteuma perustuu ja on jaoteltu myyynnin  vaiheiden mukaan.',
     'LBL_OPP_SIZE' => 'Myyntimahdollisuuksien koko',
@@ -82,7 +82,7 @@ $mod_strings = array(
     'LBL_YEAR' => 'Vuosi:',
     'LNK_NEW_ACCOUNT' => 'Create Account',
     'LNK_NEW_CALL' => 'Log Call',
-    'LNK_NEW_CASE' => 'Create Case',
+    'LNK_NEW_CASE' => 'Luo palvelupyyntö',
     'LNK_NEW_CONTACT' => 'Create Contact',
     'LNK_NEW_LEAD' => 'Luo liidi',
     'LNK_NEW_MEETING' => 'Schedule Meeting',
@@ -91,7 +91,7 @@ $mod_strings = array(
     'LNK_NEW_TASK' => 'Create Task',
     'NTC_NO_LEGENDS' => 'None',
 
-    'LBL_TITLE' => 'Title:',
+    'LBL_TITLE' => 'Otsikko: ',
     'LBL_MY_MODULES_USED_SIZE' => 'Pääsy määrä',
 
     'LBL_CHART_PIPELINE_BY_SALES_STAGE' => 'Myyntiputki vaiheen mukaan',
