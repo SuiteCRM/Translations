@@ -52,7 +52,7 @@ $mod_strings = array(
     'LBL_VIEW_SUITE_FIELDS' => 'Veure camps de SuiteCRM',
     'LBL_FAILED_TO_SAVE' => 'Failed To Save',
     'LBL_CONFIRM_UNSAVE' => 'Els canvis no s\'han guardat i es perdran. Està segur de que vol continuar?',
-    'LBL_PUBLISHING' => 'Publishing...',
+    'LBL_PUBLISHING' => 'Publicant ...',
     'LBL_PUBLISHED' => 'Published',
     'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
     'LBL_DROP_HERE' => '[Drop Here]',
@@ -93,7 +93,7 @@ $mod_strings = array(
     'LBL_ED_CREATE_DROPDOWN' => 'Crea una Llista Desplegable',
     'LBL_DROPDOWN_NAME' => 'Nom de Llista Desplegable:',
     'LBL_DROPDOWN_LANGUAGE' => 'Llenguatge de Llista Desplegable:',
-    'LBL_TABGROUP_LANGUAGE' => 'Language:',
+    'LBL_TABGROUP_LANGUAGE' => 'Llenguatge: ',
 
 //END WIZARDS
 
@@ -116,7 +116,7 @@ $mod_strings = array(
 //TABS
     'LBL_MODULES' => 'Modules',
     'LBL_MODULE_NAME' => 'Administration',
-    'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
+    'LBL_CONFIGURE_GROUP_TABS' => 'Configurar els filtres del menú del mòdul',
     'LBL_GROUP_TAB_WELCOME' => 'El disseny dels Grups de Pestanyes s\'usarà sempre que un usuari elegeixi utilitzar Grups de Pestanyes en lloc de les Pestanyes de Mòduls habituals en Dc. Compte>Opcions de Presentació.',
     'LBL_RENAME_TAB_WELCOME' => 'Faci clic en el Valor de Visualització de qualsevol pestanya de la següent taula per rebatejar la pestanya.',
     'LBL_DELETE_MODULE' => 'Eliminar&nbsp;mòdul<br />del&nbsp;filtre',
