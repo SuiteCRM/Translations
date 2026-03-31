@@ -58,7 +58,7 @@ $mod_strings = array(
     'LBL_EDIT_VIEW_DIRECTIONS' => 'Per cambiare il valore doppio click in una cella.',
     'LBL_ACCESS_DEFAULT' => 'Non Impostato',
     'LBL_ACTION_ADMIN' => 'Tipo Accesso',
-    'LBL_ALL' => 'Tutti',
+    'LBL_ALL' => 'Tutto',
     'LBL_DUPLICATE_OF' => 'Duplicato di ',
 
     'LBL_SECURITYGROUPS' => 'Gruppi di Sicurezza',
