@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Csoportok',
-    'LBL_GROUP_NAME' => 'Csoport név:',
-    'LBL_DESCRIPTION' => 'Megjegyzés:',
-    'LBL_TEAM' => 'Csoport:',
+    'LBL_MODULE_NAME' => 'Groups',
+    'LBL_GROUP_NAME' => 'Group Name:',
+    'LBL_DESCRIPTION' => 'Üzenet szövege:',
+    'LBL_TEAM' => 'Team:',
     // ListView
-    'LBL_LIST_TITLE' => 'Csoportok',
+    'LBL_LIST_TITLE' => 'Groups',
     // Links
     'LNK_ALL_GROUPS' => 'Minden csoport',
     'LNK_NEW_GROUP' => 'Csoport létrehozása',
