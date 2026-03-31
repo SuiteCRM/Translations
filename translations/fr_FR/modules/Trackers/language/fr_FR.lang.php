@@ -47,10 +47,10 @@ $mod_strings = array(
     'action' => 'Action',
     'date_modified' => 'Date of Last Action',
     'item_id' => 'ID',
-    'item_summary' => 'Name',
+    'item_summary' => 'Nom',
     'module_name' => 'Module Name',
-    'users' => 'Users',
+    'users' => 'Utilisateurs',
 
     //Administration related labels
-    'LBL_MODULE_NAME' => 'Trackers',
+    'LBL_MODULE_NAME' => 'Suivis',
 );
