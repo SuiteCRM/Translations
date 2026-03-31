@@ -44,25 +44,25 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
 
-    'LBL_NAME' => 'Name',
+    'LBL_NAME' => 'الاسم',
     'LBL_NUMBER' => 'الرقم:',
-    'LBL_STATUS' => 'Status:',
+    'LBL_STATUS' => 'الحالة:',
     'LBL_PRIORITY' => 'الأولوية:',
-    'LBL_DESCRIPTION' => 'Description:',
+    'LBL_DESCRIPTION' => 'الوصف:',
     'LBL_RESOLUTION' => 'الحل',
     'LBL_LAST_MODIFIED' => 'آخر تعديل',
     'LBL_ASSIGNED_TO_ID' => 'أُسند إلى:',
-    'LBL_ASSIGNED_TO_NAME' => 'User:',
+    'LBL_ASSIGNED_TO_NAME' => 'المستخدم:',
     'LBL_WORK_LOG' => 'سجل العمل:',
     'LBL_CREATED_BY' => 'أنشئ بواسطة:',
-    'LBL_DATE_ENTERED' => 'Date Created:',
-    'LBL_DATE_MODIFIED' => 'Date Modified:',
+    'LBL_DATE_ENTERED' => 'تاريخ الإنشاء:',
+    'LBL_DATE_MODIFIED' => 'تاريخ التعديل:',
     'LBL_MODIFIED_BY' => 'آخر تعديل بواسطة:',
     'LBL_ASSIGNED_USER' => 'المستخدم المُكلف:',
-    'LBL_TYPE' => 'Type:',
+    'LBL_TYPE' => 'النوع:',
     'LBL_SUBJECT' => 'الموضوع:',
 
-    'LBL_EDIT_BUTTON' => 'Edit',
-    'LBL_REMOVE' => 'Remove',
+    'LBL_EDIT_BUTTON' => 'حرر',
+    'LBL_REMOVE' => 'إزالة',
 
 );
