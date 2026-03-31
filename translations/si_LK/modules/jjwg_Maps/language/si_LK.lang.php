@@ -42,10 +42,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_MAP'] = 'සිතියම';
-$mod_strings['LBL_MODULE_NAME'] = 'සිතියම්';
+$mod_strings['LBL_MAP'] = 'Map';
+$mod_strings['LBL_MODULE_NAME'] = 'Maps';
 $mod_strings['LBL_MODULE_TITLE'] = 'සිතියම්: මුල් පිටුව';
-$mod_strings['LBL_MODULE_ID'] = 'සිතියම්';
+$mod_strings['LBL_MODULE_ID'] = 'Maps';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'සිතියම් ලැයිස්තුගත';
 $mod_strings['LBL_MAP_CUSTOM_MARKER'] = 'රේගු මාකර්';
 $mod_strings['LBL_MAP_CUSTOM_AREA'] = 'අභිරුචි ප්‍රදේශය';
@@ -59,36 +59,36 @@ $mod_strings['LBL_UNIT_TYPE'] = 'ඒකකය වර්ගය:';
 $mod_strings['LBL_MAP_DISPLAY'] = 'සිතියම පෙන්වන්න';
 $mod_strings['LBL_MAP_LEGEND'] = 'Legend:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'සමූහ:';
-$mod_strings['LBL_MAP_GROUP'] = '  සමූහ';
+$mod_strings['LBL_MAP_GROUP'] = 'සමූහය';
 $mod_strings['LBL_MAP_TYPE'] = 'වර්ගය';
 $mod_strings['LBL_MAP_ASSIGNED_TO'] = ' පවරා:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'උපදෙස් ලබා ගන්න';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'Google Maps බලන්න';
 
 $mod_strings['LNK_NEW_MAP'] = 'නව සිතියම එකතු කරන්න';
-$mod_strings['LNK_NEW_RECORD'] = 'නව සිතියම එකතු කරන්න';
+$mod_strings['LNK_NEW_RECORD'] = 'Add New Map';
 $mod_strings['LNK_MAP_LIST'] = 'ලැයිස්තුව සිතියම්';
 
 $mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Geocoding ටෙස්ට්';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'ඉක්මන් අරය සිතියම';
-$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'කිසිවක් නැත';
-$mod_strings['LBL_MAP_ADDRESS'] = 'Address';
+$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'None';
+$mod_strings['LBL_MAP_ADDRESS'] = 'ලිපිනය';
 $mod_strings['LBL_MAP_PROCESS'] = 'එය සකසන්න!';
 
 $mod_strings['LBL_MAP_LAST_STATUS'] = 'පසුගිය Geocode තත්ත්වය';
 $mod_strings['LBL_GEOCODED_COUNTS'] = 'මොඩියුලය ාපාරික සිටුවරයන්ගෙන්';
 $mod_strings['LBL_CRON_URL'] = 'ක්රොන් URL:';
-$mod_strings['LBL_MODULE_HEADING'] = 'මොඩියුලය';
+$mod_strings['LBL_MODULE_HEADING'] = 'Module';
 
 $mod_strings['LBL_N/A'] = 'N/A';
 $mod_strings['LBL_ZERO_RESULTS'] = 'Zero Results';
 $mod_strings['LBL_OK'] = 'Ok';
 $mod_strings['LBL_INVALID_REQUEST'] = 'Invalid Request';
 $mod_strings['LBL_APPROXIMATE'] = 'Approximate';
-$mod_strings['LBL_EMPTY'] = 'හිස්';
+$mod_strings['LBL_EMPTY'] = 'Empty';
 
-$mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'මුළු';
-$mod_strings['LBL_MODULE_RESET_HEADING'] = 'නැවත සකසන්න';
+$mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'එකතුව';
+$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Reset';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = 'The table shown belown shows the number of module objects geocoded, grouped by geocoding response. Keep in mind that the standard Google Maps usage limit is 2500 requests per day . This module will cache the addresses geocoding information during processing to reduce the overall number of requests needed.';
 
 $mod_strings['LBL_CRON_INSTRUCTIONS'] = 'මෙම geocoding කටයුතු කිරීමට එය පිහිටුවන්නේ රාත්රි ක්රොන්-යෝබ් කිරීම රෙකමදාරු කරනු ලැබේ ඉල්ලා සිටියි. ඒ චාරිත්රය පිවිසුම් ස්ථානය මේ සඳහා නිර්මාණය කර ඇති අතර අනන්යතාවය තහවුරු නොකර ප්රවේශ විය හැකිය. පහත දැක්වෙන URL එක පරිපාලන උපෙල්ඛනගත කාර්ය සාධක සමග භාවිතා කල යුතු ය. වැඩි විස්තර සඳහා ලේඛගතකිරීම බලන්න.';
@@ -108,10 +108,10 @@ $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'විකල්ප ලිපිනය
 $mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex සම්බන්ධ';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'ලිපිනය (සරල, පරිශීලකයන්)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'රේගු (රේගු පාලක ලොජික්)';
-$mod_strings['LBL_ENABLED'] = 'සක්රීය';
-$mod_strings['LBL_DISABLED'] = 'ආබාධිත';
+$mod_strings['LBL_ENABLED'] = 'සබල කර ඇත';
+$mod_strings['LBL_DISABLED'] = 'අබල කර ඇත';
 $mod_strings['LBL_DEFAULT'] = 'පෙරනිමි:';
-$mod_strings['LBL_CONFIG_DEFAULT'] = 'පෙරනිමි:';
+$mod_strings['LBL_CONFIG_DEFAULT'] = 'Default:';
 
 $mod_strings['LBL_CONFIG_VALID_GEOCODE_MODULES'] = 'වලංගු Geocode මොඩියුල:';
 $mod_strings['LBL_CONFIG_VALID_GEOCODE_TABLES'] = 'වලංගු Geocode මේස ගැන:';
@@ -182,7 +182,7 @@ $mod_strings['LBL_CONFIG_MAP_CLUSTER_GRID_SIZE_DESC'] = "'map_clusterer_grid_siz
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_TITLE'] = "සිතියම සලකුණු Clusterer මැක්ස් විශාලනය:";
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_DESC'] = "'map_clusterer_max_zoom' පොකුරේ යෙදිය වනු ඇත දී උපරිම විශාලන මට්ටම සකස් කිරීම සඳහා භාවිතා කර ඇත.";
 $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = "වැදගත් සටහන: සියලුම ගැලවීම සැකසුම් 'jjwg' කාණ්ඩය යටතේ 'config' මේසය සොයා ගත හැකි සටහන, චාරිත්රයක් controller.php ගොනු තවදුරටත් සැකසුම් ප්රතිස්ථාපනය කිරීමට භාවිතා කළ යුතුය..";
-$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'ප්‍රදේශ';
+$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'ප්රදේශ';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'සලකුණු';
 $mod_strings['LBL_PARENT_ID'] = 'මව් හැඳුනුම්';
 $mod_strings['LBL_JJWP_PARTNERS'] = 'JJWP Partners';
