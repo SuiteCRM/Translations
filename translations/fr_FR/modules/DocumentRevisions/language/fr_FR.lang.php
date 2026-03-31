@@ -46,7 +46,7 @@ $mod_strings = array(
     //module
     'LBL_MODULE_NAME' => 'Version du document',
 
-    'LNK_NEW_DOCUMENT' => 'Create Document',
+    'LNK_NEW_DOCUMENT' => 'Créer un document',
     'LNK_DOCUMENT_LIST' => 'Liste des documents',
 
     //vardef labels
@@ -56,19 +56,19 @@ $mod_strings = array(
     'LBL_REVISION' => 'Revision',
     'LBL_DOCUMENT' => 'Related Document',
     'LBL_LATEST_REVISION' => 'Latest Revision',
-    'LBL_CHANGE_LOG' => 'Change Log',
+    'LBL_CHANGE_LOG' => 'Journal des modifications',
     'LBL_ACTIVE_DATE' => 'Publish Date',
     'LBL_EXPIRATION_DATE' => 'Expiration Date',
     'LBL_FILE_EXTENSION' => 'File Extension',
 
-    'LBL_DOC_NAME' => 'Document Name:',
+    'LBL_DOC_NAME' => 'Nom du document :',
     'LBL_DOC_VERSION' => 'Revision:',
 
     //document revisions.
     'LBL_REV_LIST_REVISION' => 'Revision',
-    'LBL_REV_LIST_ENTERED' => 'Date Created',
+    'LBL_REV_LIST_ENTERED' => 'Date de création',
     'LBL_REV_LIST_CREATED' => 'Created by',
-    'LBL_REV_LIST_LOG' => 'Change Log',
+    'LBL_REV_LIST_LOG' => 'Journal des modifications',
     'LBL_REV_LIST_FILENAME' => 'File',
 
     'LBL_CURRENT_DOC_VERSION' => 'Derniére version :',
@@ -76,11 +76,11 @@ $mod_strings = array(
     'LBL_REVISIONS' => 'Révisions',
 
     //error messages
-    'ERR_FILENAME' => 'File Name',
+    'ERR_FILENAME' => 'Nom du fichier',
     'ERR_DOC_VERSION' => 'Version du document',
     'ERR_DELETE_CONFIRM' => 'Voulez vous effacer cette version du document?',
     'ERR_DELETE_LATEST_VERSION' => 'Vous n&#39;êtes pas autorisé à effacer la dernière version d&#39;un document.',
-    'LNK_NEW_MAIL_MERGE' => 'Mail Merge',
+    'LNK_NEW_MAIL_MERGE' => 'Publipostage',
     'LBL_DOC_ID' => 'ID du document orignal',
     'LBL_DOC_TYPE' => 'Origine',
     'LBL_DOC_URL' => 'URL du document original',
