@@ -89,11 +89,11 @@ $mod_strings = array(
     'LBL_LIST_ASSIGNED_USER_ID' => 'को सौंपना',
     'LBL_LIST_DATE_DUE' => 'देय तिथि',
     'LBL_LIST_PRIORITY' => 'प्राथमिकता',
-    'LBL_LIST_CLOSE' => 'बंद करें',
+    'LBL_LIST_CLOSE' => 'बंद',
     'LBL_PROJECT_NAME' => 'प्रोजेक्ट का नाम',
     'LBL_LIST_FORM_TITLE' => 'परियोजना कार्य सूची',
 
-    'LNK_NEW_PROJECT' => 'प्रोजेक्ट बनाएँ',
+    'LNK_NEW_PROJECT' => 'परियोजना बनाएँ',
     'LNK_PROJECT_LIST' => 'परियोजना सूची',
     'LNK_NEW_PROJECT_TASK' => 'प्रोजेक्ट कार्य बनाएँ',
     'LNK_PROJECT_TASK_LIST' => 'प्रोजेक्ट कार्य ',
