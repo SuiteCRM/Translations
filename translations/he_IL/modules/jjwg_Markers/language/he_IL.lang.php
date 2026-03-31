@@ -42,23 +42,23 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_ASSIGNED_TO_ID'] = 'מזהה המשתמש המוקצה';
-$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'המשתמש';
-$mod_strings['LBL_ID'] = 'זיהוי';
+$mod_strings['LBL_ASSIGNED_TO_ID'] = 'מזהה המשתמש רשום';
+$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'User';
+$mod_strings['LBL_ID'] = 'מזהה';
 $mod_strings['LBL_DATE_ENTERED'] = 'תאריך יצירה:';
-$mod_strings['LBL_DATE_MODIFIED'] = 'תאריך שינוי';
-$mod_strings['LBL_MODIFIED'] = 'שונה ע"י:';
-$mod_strings['LBL_MODIFIED_NAME'] = 'שונה על ידי ששמו';
+$mod_strings['LBL_DATE_MODIFIED'] = 'התאריך שונה';
+$mod_strings['LBL_MODIFIED'] = 'עודכן ע"י';
+$mod_strings['LBL_MODIFIED_NAME'] = 'השתנה על-ידי שם';
 $mod_strings['LBL_CREATED'] = 'נוצר ע"י';
-$mod_strings['LBL_DESCRIPTION'] = 'תאור';
+$mod_strings['LBL_DESCRIPTION'] = 'תיאור';
 $mod_strings['LBL_DELETED'] = 'נמחק';
 $mod_strings['LBL_NAME'] = 'שם';
 $mod_strings['LBL_CREATED_USER'] = 'נוצר על ידי המשתמש';
-$mod_strings['LBL_MODIFIED_USER'] = 'שונה על ידי המשתמש';
+$mod_strings['LBL_MODIFIED_USER'] = 'עודכן על ידי המשתמש';
 $mod_strings['LBL_LIST_NAME'] = 'שם';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'Markers List';
-$mod_strings['LBL_MODULE_NAME'] = 'סמני מפה';
-$mod_strings['LBL_MODULE_TITLE'] = 'סמני מפה';
+$mod_strings['LBL_MODULE_NAME'] = 'Markers';
+$mod_strings['LBL_MODULE_TITLE'] = 'Markers';
 $mod_strings['LBL_HOMEPAGE_TITLE'] = 'My Markers';
 $mod_strings['LNK_NEW_RECORD'] = 'Create Markers';
 $mod_strings['LNK_LIST'] = 'סמני מפה';
@@ -67,11 +67,11 @@ $mod_strings['LBL_SEARCH_FORM_TITLE'] = 'Search Markers';
 $mod_strings['LBL_HISTORY_SUBPANEL_TITLE'] = 'צפה בהסטוריה';
 $mod_strings['LBL_ACTIVITIES_SUBPANEL_TITLE'] = 'פעילויות';
 $mod_strings['LBL_NEW_FORM_TITLE'] = 'New Markers';
-$mod_strings['LBL_CITY'] = 'עיר';
-$mod_strings['LBL_STATE'] = 'מדינה';
-$mod_strings['LBL_COUNTRY'] = 'ארץ';
-$mod_strings['LBL_JJWG_MAPS_LAT'] = 'קו רוחב';
-$mod_strings['LBL_JJWG_MAPS_LNG'] = 'קו אורך';
+$mod_strings['LBL_CITY'] = 'City';
+$mod_strings['LBL_STATE'] = 'State';
+$mod_strings['LBL_COUNTRY'] = 'Country';
+$mod_strings['LBL_JJWG_MAPS_LAT'] = 'Latitude';
+$mod_strings['LBL_JJWG_MAPS_LNG'] = 'Longitude';
 $mod_strings['LBL_MARKER_IMAGE'] = 'Marker Image Type';
 $mod_strings['LBL_LIST_ASSIGNED_USER'] = 'העבר ל';
 
@@ -79,4 +79,4 @@ $mod_strings['LBL_MARKER_MARKER_POSITION'] = 'Marker Position (Latitude, Longitu
 $mod_strings['LBL_MARKER_CLOSEST_MATCHING_ADDRESS'] = 'Closest Matching Address:';
 $mod_strings['LBL_MARKER_MARKER_STATUS'] = 'Marker Status';
 $mod_strings['LBL_MARKER_EDIT_DESCRIPTION'] = 'Click and drag the marker.';
-$mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MAPS_TITLE'] = 'מפות';
+$mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MAPS_TITLE'] = 'Maps';
