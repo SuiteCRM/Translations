@@ -51,8 +51,8 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'بحث الوثائق',
     //vardef labels
     'LBL_NAME' => 'اسم الوثيقة',
-    'LBL_DESCRIPTION' => 'Description',
-    'LBL_ASSIGNED_TO' => 'Assigned to:',
+    'LBL_DESCRIPTION' => 'الوصف',
+    'LBL_ASSIGNED_TO' => 'أُسند إلى:',
     'LBL_CATEGORY' => 'الفئة',
     'LBL_SUBCATEGORY' => 'الفئة الفرعية',
     'LBL_STATUS' => 'الحالة',
@@ -80,38 +80,38 @@ $mod_strings = array(
     'LBL_SUBCATEGORY_VALUE' => 'الفئة الفرعية:',
     'LBL_DOC_STATUS' => 'الحالة:',
     'LBL_DET_TEMPLATE_TYPE' => 'نوع الوثيقة:',
-    'LBL_DOC_DESCRIPTION' => 'Description:',
+    'LBL_DOC_DESCRIPTION' => 'وصف:',
     'LBL_DOC_ACTIVE_DATE' => 'تاريخ النشر:',
     'LBL_DOC_EXP_DATE' => 'تاريخ الإنتهاء:',
 
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'قائمة الوثائق',
     'LBL_LIST_DOCUMENT' => 'الوثيقة',
-    'LBL_LIST_CATEGORY' => 'Category',
-    'LBL_LIST_SUBCATEGORY' => 'Sub Category',
-    'LBL_LIST_REVISION' => 'Revision',
+    'LBL_LIST_CATEGORY' => 'الفئة',
+    'LBL_LIST_SUBCATEGORY' => 'الفئة الفرعية',
+    'LBL_LIST_REVISION' => 'المراجعة',
     'LBL_LIST_LAST_REV_CREATOR' => 'نُشر بواسطة',
     'LBL_LIST_LAST_REV_DATE' => 'تاريخ المراجعة',
     'LBL_LIST_VIEW_DOCUMENT' => 'عرض',
-    'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
-    'LBL_LIST_EXP_DATE' => 'Expiration Date',
-    'LBL_LIST_STATUS' => 'Status',
+    'LBL_LIST_ACTIVE_DATE' => 'تاريخ النشر',
+    'LBL_LIST_EXP_DATE' => 'تاريخ الإنتهاء',
+    'LBL_LIST_STATUS' => 'الحالة',
 
     //document search form.
-    'LBL_SF_CATEGORY' => 'Category:',
-    'LBL_SF_SUBCATEGORY' => 'Sub Category:',
+    'LBL_SF_CATEGORY' => 'الفئة:',
+    'LBL_SF_SUBCATEGORY' => 'الفئة الفرعية:',
 
     'DEF_CREATE_LOG' => 'تم إنشاء الوثيقة',
 
     //error messages
-    'ERR_DOC_NAME' => 'Document Name',
-    'ERR_DOC_ACTIVE_DATE' => 'Publish Date',
+    'ERR_DOC_NAME' => 'اسم الوثيقة',
+    'ERR_DOC_ACTIVE_DATE' => 'تاريخ النشر',
     'ERR_FILENAME' => 'اسم الملف',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'Document Name',
+    'LBL_LIST_DOCUMENT_NAME' => 'اسم الوثيقة',
 
     'LBL_EDIT_BUTTON' => 'تحرير ',
-    'LBL_REMOVE' => 'Remove',
+    'LBL_REMOVE' => 'إزالة',
 
 );
