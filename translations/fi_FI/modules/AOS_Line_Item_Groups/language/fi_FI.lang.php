@@ -43,10 +43,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ID' => 'ID',
+    'LBL_ID' => 'Tunnus',
     'LBL_MODULE_NAME' => 'Ryhmät',
     'LBL_DATE_ENTERED' => 'Date Created',
-    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_DATE_MODIFIED' => 'Muokkauspvm',
     'LBL_DESCRIPTION' => 'Description',
     'LBL_DELETED' => 'Deleted',
     'LBL_NAME' => 'Group Name',
@@ -65,5 +65,5 @@ $mod_strings = array(
     'LBL_SUBTOTAL_TAX_AMOUNT_USDOLLAR' => 'Välisumma + alv (oletusvaluutta)',
     'LBL_PARENT_ID' => 'Parent ID:',
 
-    'AOS_PRODUCT_QUOTES' => 'Product Quotes',
+    'AOS_PRODUCT_QUOTES' => 'Tuotetarjoukset',
 );
