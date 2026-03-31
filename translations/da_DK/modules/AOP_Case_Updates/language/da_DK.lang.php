@@ -70,7 +70,7 @@ $mod_strings = array(
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_NEW_FORM_TITLE' => 'New Case Updates',
     'LBL_CASE_NAME' => 'Case',
-    'LBL_CONTACT_NAME' => 'Contact',
+    'LBL_CONTACT_NAME' => 'Kontakt',
     'LBL_INTERNAL' => 'Internal Update',
     'LBL_AOP_CASE_ATTACHMENTS' => 'Attachments: ',
 );
