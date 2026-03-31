@@ -53,7 +53,7 @@ $mod_strings = array(
     'LBL_NUMBER' => 'Nömrə:',
     'LBL_STATUS' => 'Status:',
     'LBL_PRIORITY' => 'Birincilik:',
-    'LBL_DESCRIPTION' => 'Açıqlama:',
+    'LBL_DESCRIPTION' => 'Açıqlama: ',
     'LBL_CONTACT_NAME' => 'Əlaqəli şəxs Adı:',
     'LBL_CONTACT_ROLE' => 'Rol:',
     'LBL_LIST_NUMBER' => 'Nömrə.',
@@ -64,7 +64,7 @@ $mod_strings = array(
     'LBL_LIST_LAST_MODIFIED' => 'Son dəyişiklik',
     'LBL_INVITEE' => 'Əlaqələr',
     'LBL_TYPE' => 'Növ:',
-    'LBL_LIST_TYPE' => 'Tip',
+    'LBL_LIST_TYPE' => 'Növ',
     'LBL_RESOLUTION' => 'Qərar:',
     'LBL_RELEASE' => 'Buraxılış:',
     'LNK_NEW_BUG' => 'Səhvi bildirin',
@@ -100,6 +100,6 @@ $mod_strings = array(
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Təyin edilmiş İstifadəçi',
     'LBL_ASSIGNED_TO_NAME' => 'Təyin Edilsin',
 
-    'LBL_BUG_INFORMATION' => '	İcmal', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_BUG_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
 );
