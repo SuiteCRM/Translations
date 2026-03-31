@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_LOADING' => '正在加载' /*for 508 compliance fix*/,
+    'LBL_LOADING' => 'Loading' /*for 508 compliance fix*/,
     'LBL_HIDEOPTIONS' => '隐藏选项' /*for 508 compliance fix*/,
     'LBL_DELETE' => '删除' /*for 508 compliance fix*/,
     'help' => array(
@@ -111,7 +111,7 @@ $mod_strings = array(
         'listViewEditor' => array(
             'modify' => '此处是所有可以在 <b>列表视图</b> 中显示的字段。<br /><br /><b>默认</b> 列包含在 <b>列表视图</b> 中显示的字段。<br /><br /><b>可用</b> 列包含用户可以选择创建自定义 <b>列表视图</b> 的字段。<br /><br /><b>隐藏</b> 列包含可添加到 <b>默认</b> 列或 <b>可用</b> 列的字段。'
         ,
-            'savebtn' => '点击 <b>保存并部署</b> 来保存所有更改并应用到系统。',
+            'savebtn' => 'Click <b>Save & Deploy</b> to save changes you made and to make them active within the module.',
             'historyBtn' => '点击 <b>查看历史记录</b> 可在历史记录中查看或恢复先前保存的布局。',
             'historyDefault' => '点击 <b>恢复默认</b> 来恢复视图的原始布局。<br /><br /><b>恢复默认</b> 仅恢复视图布局。如需更改字段标签，点击字段的编辑图标。',
             'Hidden' => '<b>已隐藏</b> 字段将不出现在列表视图中。',
@@ -121,19 +121,19 @@ $mod_strings = array(
         'popupListViewEditor' => array(
             'modify' => '此处是所有可以在<b>列表视图</b>中显示的字段。<br /><br /><b>默认</b>列包含在<b>列表视图</b>中显示的字段。<br /> <br /><b>隐藏</b>列包含可添加到<b>默认</b>列的字段。'
         ,
-            'savebtn' => '点击 <b>保存并部署</b> 来保存所有更改并应用到系统。',
-            'historyBtn' => '点击 <b>查看历史记录</b> 可在历史记录中查看或恢复先前保存的布局。',
-            'historyDefault' => '点击 <b>恢复默认</b> 来恢复视图的原始布局。<br /><br /><b>恢复默认</b> 仅恢复视图布局。如需更改字段标签，点击字段的编辑图标。',
-            'Hidden' => '<b>已隐藏</b> 字段将不出现在列表视图中。',
-            'Default' => '<b>默认</b> 字段将出现在列表视图中，并且用户无法自定义。'
+            'savebtn' => 'Click <b>Save & Deploy</b> to save changes you made and to make them active within the module.',
+            'historyBtn' => 'Click <b>View History</b> to view and restore a previously saved layout from the history.<br><br><b>Restore</b> within <b>View History</b> restores the field placement within previously saved layouts. To change field labels, click the Edit icon next to each field.',
+            'historyDefault' => 'Click <b>Restore Default</b> to restore a view to its original layout.<br><br><b>Restore Default</b> only restores the field placement within the original layout. To change field labels, click the Edit icon next to each field.',
+            'Hidden' => '<b>隐藏</b> 字段将不出现在列表视图中。',
+            'Default' => '<b>Default</b> fields appear in ListViews that are not customized by users.'
         ),
         'searchViewEditor' => array(
             'modify' => '此处是所有可以在<b>筛选</b>中显示的字段。<br /><br /><b>默认</b>列包含在<b>筛选</b>视图中显示的字段。<br /> <br /><b>隐藏</b>列包含可添加到<b>默认</b>列的字段。'
         ,
             'savebtn' => '点击 <b>保存并部署</b> 来保存所有更改并应用到系统。',
             'Hidden' => '<b>已隐藏</b> 字段将不出现在筛选视图中。',
-            'historyBtn' => '点击 <b>查看历史记录</b> 可在历史记录中查看或恢复先前保存的布局。',
-            'historyDefault' => '点击 <b>恢复默认</b> 来恢复视图的原始布局。<br /><br /><b>恢复默认</b> 仅恢复视图布局。如需更改字段标签，点击字段的编辑图标。',
+            'historyBtn' => 'Click <b>View History</b> to view and restore a previously saved layout from the history.<br><br><b>Restore</b> within <b>View History</b> restores the field placement within previously saved layouts. To change field labels, click the Edit icon next to each field.',
+            'historyDefault' => 'Click <b>Restore Default</b> to restore a view to its original layout.<br><br><b>Restore Default</b> only restores the field placement within the original layout. To change field labels, click the Edit icon next to each field.',
             'Default' => '<b>默认</b> 字段将出现在筛选视图中。'
         ),
         'layoutEditor' => array(
@@ -142,8 +142,8 @@ $mod_strings = array(
             //this default will be used for edit view
             'default' => '<b>布局</b> 区域包含当前在当前视图内显示的字段。<br /><br /><b>工具箱</b> 包含 <b>可以添加到当前布局的字段及布局元素。<br /><br />通过拖放字段和布局元素更改当前视图布局。<br /><br />从布局中删除字段，将字段拖放到 <b>回收站</b>。',
             'saveBtn' => '点击 <b>保存</b> 来保存所有更改。',
-            'historyBtn' => '点击 <b>查看历史记录</b> 可在历史记录中查看或恢复先前保存的布局。',
-            'historyDefault' => '点击 <b>恢复默认</b> 来恢复视图的原始布局。<br /><br /><b>恢复默认</b> 仅恢复视图布局。如需更改字段标签，点击字段的编辑图标。',
+            'historyBtn' => 'Click <b>View History</b> to view and restore a previously saved layout from the history.<br><br><b>Restore</b> within <b>View History</b> restores the field placement within previously saved layouts. To change field labels, click the Edit icon next to each field.',
+            'historyDefault' => 'Click <b>Restore Default</b> to restore a view to its original layout.<br><br><b>Restore Default</b> only restores the field placement within the original layout. To change field labels, click the Edit icon next to each field.',
             'publishBtn' => '点击 <b>保存并部署</b> 来保存所有更改并应用到系统。',
             'toolbox' => '<b>工具箱</b> 包含 <b>可以添加到当前布局的字段及布局元素。',
             'panels' => '通过拖放字段和布局元素更改当前视图布局。',
@@ -163,7 +163,7 @@ $mod_strings = array(
             'exportCustomBtn' => '点击 <b>导出</b> 将包含自定义设置的模块打包成 .zip 格式的文件 。',
             'name' => '设置包的 <b>名称</b>。包名称将在安装过程中显示。',
             'author' => '设置包的 <b>作者</b>。作者可以是个人或公司。',
-            'description' => '设置包的 <b>说明</b>。<br /><br />用于描述包的信息。',
+            'description' => 'This is the <b>Description</b> of the package that is displayed during installation.',
         ),
         'studioWizard' => array(
             'mainHelp' => '欢迎使用 <b>开发者工具</b>。<br /><br />可以使用这些工具来创建、管理模块和字段。',
@@ -303,25 +303,25 @@ $mod_strings = array(
             'panels' => '通过拖放字段和布局元素更改当前视图布局。'
         ),
         'dropdownEditor' => array(
-            'default' => '<b>布局</b> 区域包含当前在当前视图内显示的字段。<br /><br /><b>工具箱</b> 包含 <b>可以添加到当前布局的字段及布局元素。<br /><br />通过拖放字段和布局元素更改当前视图布局。<br /><br />从布局中删除字段，将字段拖放到 <b>回收站</b>。',
+            'default' => 'There are two columns displayed to the left. The right-hand column, labeled Current Layout or Layout Preview, is where you change the module layout. The left-hand column, entitled Toolbox, contains useful elements and tools for use when editing the layout. <br/><br/>If the layout area is titled Current Layout then you are working on a copy of the layout currently used by the module for display.<br/><br/>If it is titled Layout Preview then you are working on a copy created earlier by a click on the Save button, that might have already been changed from the version seen by users of this module.',
             'dropdownaddbtn' => '点击此按钮给下拉列表添加新的条目。',
 
         ),
         'exportcustom' => array(
             'exportHelp' => '当前系统中使用 <b>工作室</b> 进行自定义的设置，可以进行 <b>导出</b> 并部署到其他系统中。<br /><br />设置 <b>包名称</b>、<b>作者</b>以及<b>说明</b> 等相关信息。<br /><br />选择包含自定义设置的模块进行导出（仅显示包含自定义设置的模块）。<br /><br />点击 <b>导出</b> 将包含自定义设置的模块打包成 .zip 格式的文件 。可在其他 SuiteCRM 系统中使用 <b>模块加载器</b> 进行安装部署。',
-            'exportCustomBtn' => '点击 <b>导出</b> 将包含自定义设置的模块打包成 .zip 格式的文件 。',
+            'exportCustomBtn' => 'Click <b>Export</b> to create a .zip file for the package containing the customizations that you wish to export.',
             'name' => '设置包的 <b>名称</b>。包名称将在安装过程中显示。',
             'author' => '设置包的 <b>作者</b>。作者可以是个人或公司。',
             'description' => '设置包的 <b>说明</b>。用于描述包的信息。',
         ),
         'studioWizard' => array(
-            'mainHelp' => '欢迎使用 <b>开发者工具</b>。<br /><br />可以使用这些工具来创建、管理模块和字段。',
+            'mainHelp' => 'Welcome to the <b>Developer Tools</b> area. <br/><br/>Use the tools within this area to create and manage standard and custom modules and fields.',
             'studioBtn' => '使用 <b>工作室</b> 来自定义已安装的模块。',
             'mbBtn' => '使用 <b>模块构建器</b> 创建新的模块。',
             'appBtn' => '自定义程序的各种属性，例如在首页显示多少 TPS 记录',
             'backBtn' => '返回',
             'studioHelp' => '使用 <b>工作室</b> 来自定义已安装的模块。',
-            'moduleBtn' => '点击编辑此模块',
+            'moduleBtn' => 'Click to edit this module.',
             'moduleHelp' => '选择您想要编辑的模块组件。',
             'fieldsBtn' => '创建或自定义模块中用于存储信息的 <b>字段</b>。',
             'labelsBtn' => '点击 <b>保存</b> 来保存您的自定义标签。',
@@ -330,7 +330,7 @@ $mod_strings = array(
             'layoutsHelp' => '可以在此自定义模块 <b>布局</b>。<br /><br />布局显示字段和字段数据。<br /><br />点击图标，选择要编辑的布局。',
             'subpanelHelp' => '选择要编辑的 <b>子面板</b>。',
             'searchHelp' => '选择要编辑的 <b>筛选</b> 布局。',
-            'newPackage' => '点击 <b>新建包</b> 来创建一个新的文件包。',
+            'newPackage' => 'Click <b>New Package</b> to create a new package.',
             'mbHelp' => '欢迎使用模块构建器。使用 <b>模块构建器</b> 来创建包含自定义模块的软件包。包可以理解为作为项目的一部分并且包含了自定义模块的容器，一个包可以包含一个或多个模块，模块与模块之间可以互相关联。<br /><br />例如：您可能想要创建一个包，其中包含一个自定义的模块关联到标准的客户模块中。或者您可能想要创建一个包，其中包含多个新创建的模块，彼此之间或者与其他模块之间互相关联来共同完成工作。',
             'exportBtn' => '点击 <b>导出自定义</b> 将工作室中指定模块的自定义的部分进行导出。',
         ),
@@ -338,13 +338,13 @@ $mod_strings = array(
 
     ),
 //HOME
-    'LBL_HOME_EDIT_DROPDOWNS' => '下拉列表编辑器',
+    'LBL_HOME_EDIT_DROPDOWNS' => 'Dropdown Editor',
 
 //STUDIO2
-    'LBL_MODULEBUILDER' => '模块构建器',
+    'LBL_MODULEBUILDER' => '模块生成器',
     'LBL_STUDIO' => '工作室',
-    'LBL_DROPDOWNEDITOR' => '下拉列表编辑器',
-    'LBL_DEVELOPER_TOOLS' => '工作室',
+    'LBL_DROPDOWNEDITOR' => 'Dropdown Editor',
+    'LBL_DEVELOPER_TOOLS' => 'Developer Tools',
     'LBL_SUITEPORTAL' => 'SuiteCRM 门户编辑器',
     'LBL_PACKAGE_LIST' => '文件包列表',
     'LBL_HOME' => '首页',
@@ -353,18 +353,18 @@ $mod_strings = array(
     'LBL_DEPLOY_FAILED' => '在部署流程中出现了一个错误，您的软件包可能未正确安装',
     'LBL_AVAILABLE_SUBPANELS' => '可用的子面板',
     'LBL_ADVANCED' => '高级',
-    'LBL_ADVANCED_SEARCH' => '高级筛选',
+    'LBL_ADVANCED_SEARCH' => '高级搜索',
     'LBL_BASIC' => '基本',
     'LBL_BASIC_SEARCH' => '快速筛选',
     'LBL_CURRENT_LAYOUT' => '布局',
-    'LBL_CURRENCY' => '货币名称',
+    'LBL_CURRENCY' => '货币',
     'LBL_DASHLET' => 'Dashlet 视图',
     'LBL_DASHLETLISTVIEW' => 'Dashlet 列表视图',
     'LBL_POPUP' => '弹出视图',
     'LBL_POPUPLISTVIEW' => '弹出列表视图',
     'LBL_POPUPSEARCH' => '弹出筛选视图',
     'LBL_DASHLETSEARCHVIEW' => 'Dashlet 筛选视图',
-    'LBL_DETAILVIEW' => '详细视图',
+    'LBL_DETAILVIEW' => 'Detail View',
     'LBL_DROP_HERE' => '[拖放到此处]',
     'LBL_EDIT' => '编辑',
     'LBL_EDIT_LAYOUT' => '编辑布局',
@@ -385,11 +385,11 @@ $mod_strings = array(
     'LBL_NEW_ROW' => '新建行',
     'LBL_PACKAGE_DELETED' => '包已删除',
     'LBL_PUBLISHING' => '正在发布...',
-    'LBL_PUBLISHED' => '已发布',
+    'LBL_PUBLISHED' => 'Published',
     'LBL_SELECT_FILE' => '选择文件',
     'LBL_SUBPANELS' => '子面板',
     'LBL_SUBPANEL' => '子面板',
-    'LBL_SUBPANEL_TITLE' => '标题',
+    'LBL_SUBPANEL_TITLE' => '标题：',
     'LBL_SEARCH_FORMS' => '搜索',
     'LBL_SEARCH' => '搜索',
     'LBL_SEARCH_BUTTON' => '搜索',
@@ -407,7 +407,7 @@ $mod_strings = array(
     'LBL_TABDEF_TYPE_OPTION_HELP' => '面板：在布局视图中以面板方式显示。<br />标签：在布局视图中以标签方式显示。',
     'LBL_TABDEF_COLLAPSE' => '折叠',
     'LBL_TABDEF_COLLAPSE_HELP' => '勾选此项，使面板默认为折叠状态。',
-    'LBL_DROPDOWN_TITLE_NAME' => '名称',
+    'LBL_DROPDOWN_TITLE_NAME' => '追踪器',
     'LBL_DROPDOWN_LANGUAGE' => '语言',
     'LBL_DROPDOWN_ITEMS' => '条目',
     'LBL_DROPDOWN_ITEM_NAME' => '条目名称',
@@ -423,12 +423,12 @@ $mod_strings = array(
 
 
 //RELATIONSHIPS
-    'LBL_MODULE' => '模块路径',
+    'LBL_MODULE' => '模块',
     'LBL_LHS_MODULE' => '主模块',
     'LBL_CUSTOM_RELATIONSHIPS' => '* 自定义的关联',
     'LBL_RELATIONSHIPS' => '关联关系',
     'LBL_RELATIONSHIP_EDIT' => '编辑关联',
-    'LBL_REL_NAME' => '名称',
+    'LBL_REL_NAME' => '追踪器',
     'LBL_REL_LABEL' => '标签',
     'LBL_REL_TYPE' => '类型',
     'LBL_RHS_MODULE' => '关联的模块',
@@ -457,13 +457,13 @@ $mod_strings = array(
 //CUSTOM FIELDS
     'LBL_NAME' => '名称',
     'LBL_LABELS' => '标签',
-    'LBL_MASS_UPDATE' => '批量更新',
+    'LBL_MASS_UPDATE' => 'Mass Update',
     'LBL_DEFAULT_VALUE' => '默认值',
-    'LBL_REQUIRED' => '转换前提',
+    'LBL_REQUIRED' => '必填',
     'LBL_DATA_TYPE' => '类型',
     'LBL_HCUSTOM' => '自定义',
     'LBL_HDEFAULT' => '默认',
-    'LBL_LANGUAGE' => '语言',
+    'LBL_LANGUAGE' => 'Language:',
     'LBL_CUSTOM_FIELDS' => '* 自定义的字段',
 
 //SECTION
@@ -478,12 +478,12 @@ $mod_strings = array(
     'LBL_SECTION_MAIN' => '主要',
     'LBL_SECTION_FIELDEDITOR' => '编辑字段',
     'LBL_SECTION_DEPLOY' => '部署',
-    'LBL_SECTION_MODULE' => '模块路径',
+    'LBL_SECTION_MODULE' => '模块',
 //WIZARDS
 
 //LIST VIEW EDITOR
     'LBL_DEFAULT' => '默认',
-    'LBL_HIDDEN' => '已隐藏',
+    'LBL_HIDDEN' => '隐藏',
     'LBL_AVAILABLE' => '可用的',
     'LBL_LISTVIEW_DESCRIPTION' => '<b>默认</b> 列包含在 <b>列表视图</b> 中显示的字段。<br /><br /><b>可用</b> 列包含用户可以选择创建自定义 <b>列表视图</b> 的字段。<br /><br /><b>隐藏</b> 列包含可添加到 <b>默认</b> 列或 <b>可用</b> 列的字段。',
     'LBL_LISTVIEW_EDIT' => '列表视图编辑器',
@@ -502,7 +502,7 @@ $mod_strings = array(
     'LBL_BTN_SAVE_CHANGES' => '保存更改',
     'LBL_BTN_DONT_SAVE' => '放弃更改',
     'LBL_BTN_CANCEL' => '取消',
-    'LBL_BTN_CLOSE' => '关闭',
+    'LBL_BTN_CLOSE' => '截止日期',
     'LBL_BTN_SAVEPUBLISH' => '保存并部署',
     'LBL_BTN_CLONE' => '复制',
     'LBL_BTN_ADDROWS' => '添加行',
@@ -515,15 +515,15 @@ $mod_strings = array(
     'LBL_BTN_REDO' => '重做',
     'LBL_BTN_ADDCUSTOMFIELD' => '添加自定义字段',
     'LBL_BTN_EXPORT' => '导出自定义',
-    'LBL_BTN_DUPLICATE' => '复制',
+    'LBL_BTN_DUPLICATE' => '重复',
     'LBL_BTN_PUBLISH' => '发布',
     'LBL_BTN_DEPLOY' => '部署',
     'LBL_BTN_EXP' => '导出',
     'LBL_BTN_DELETE' => '删除',
     'LBL_BTN_VIEW_LAYOUTS' => '查看布局',
     'LBL_BTN_VIEW_FIELDS' => '查看字段',
-    'LBL_BTN_VIEW_RELATIONSHIPS' => '查看关联',
-    'LBL_BTN_ADD_RELATIONSHIP' => '添加关联',
+    'LBL_BTN_VIEW_RELATIONSHIPS' => 'View Relationships',
+    'LBL_BTN_ADD_RELATIONSHIP' => 'Add Relationship',
     'LBL_BTN_RENAME_MODULE' => '重命名模块',
 //TABS
 
@@ -533,7 +533,7 @@ $mod_strings = array(
     'ERROR_INVALID_KEY_VALUE' => "错误：无效的键值 [']",
     'ERROR_NO_HISTORY' => '未找到历史记录文件',
     'ERROR_MINIMUM_FIELDS' => '布局中必须至少包含一个字段',
-    'ERROR_GENERIC_TITLE' => '出现一个错误',
+    'ERROR_GENERIC_TITLE' => '出现错误',
     'ERROR_REQUIRED_FIELDS' => '您确定要继续？布局中缺少以下必填字段：',
 
 
@@ -550,15 +550,15 @@ $mod_strings = array(
     'LBL_LABEL_TITLE' => '标签',
     'LBL_WIDTH' => '宽',
     'LBL_PACKAGE' => '文件包',
-    'LBL_TYPE' => '类型',
+    'LBL_TYPE' => 'Type:',
     'LBL_NAV_TAB' => '导航栏',
     'LBL_CREATE' => '创建',
     'LBL_LIST' => '列表',
-    'LBL_VIEW' => '查看',
+    'LBL_VIEW' => '视图',
     'LBL_HISTORY' => '历史记录',
     'LBL_RESTORE_DEFAULT' => '恢复默认',
     'LBL_ACTIVITIES' => '活动',
-    'LBL_NEW' => '新增',
+    'LBL_NEW' => '新建',
     'LBL_TYPE_BASIC' => '基本',
     'LBL_TYPE_COMPANY' => '公司',
     'LBL_TYPE_PERSON' => '人员',
@@ -573,9 +573,9 @@ $mod_strings = array(
     'LBL_PACKAGE_WAS_DELETED' => '[[package]] 已删除',
 
 //EXPORT CUSTOMS
-    'LBL_EC_TITLE' => '导出自定义',
-    'LBL_EC_NAME' => '包名称',
-    'LBL_EC_AUTHOR' => '作者',
+    'LBL_EC_TITLE' => 'Export Customizations',
+    'LBL_EC_NAME' => 'Package Name:',
+    'LBL_EC_AUTHOR' => 'Author:',
     'LBL_EC_DESCRIPTION' => '说明',
     'LBL_EC_CHECKERROR' => '请选择一个模块。',
     'LBL_EC_CUSTOMFIELD' => '自定义的字段',
@@ -601,7 +601,7 @@ $mod_strings = array(
     'LBL_AJAX_BUILDPROGRESS' => '正在构建...',
     'LBL_AJAX_DEPLOYPROGRESS' => '正在部署...',
 
-    'LBL_AJAX_RESPONSE_TITLE' => '结果',
+    'LBL_AJAX_RESPONSE_TITLE' => '分析',
     'LBL_AJAX_RESPONSE_MESSAGE' => '成功完成此操作',
     'LBL_AJAX_LOADING_TITLE' => '正在执行...',
     'LBL_AJAX_LOADING_MESSAGE' => '正在加载，请稍候。',
@@ -650,16 +650,16 @@ $mod_strings = array(
         'varchar' => '单行文本',
         'int' => '整数',
         'float' => '浮点数',
-        'bool' => '复选框',
+        'bool' => 'Checkbox',
         'enum' => '下拉列表',
         'dynamicenum' => '动态下拉列表',
         'multienum' => '多选',
         'date' => '日期',
-        'phone' => '电话',
-        'currency' => '货币名称',
+        'phone' => 'Phone',
+        'currency' => '货币',
         'html' => '只读 HTML (已废弃，请使用文本块)',
         'radioenum' => '单选',
-        'relate' => '关联',
+        'relate' => 'Relate',
         'address' => '地址',
         'text' => '文本域',
         'textblock' => '文本块',
