@@ -58,15 +58,15 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Realizar Combinación',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Realizar Combinación',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Guardar Combinación',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Guardar Combinación',
 
     'LBL_STEP2_FORM_TITLE' => 'Registros Encontrados con los que Combinar',
     'LBL_SELECT_ERROR' => 'Debe realizar una selección antes de continuar.',
     'LBL_CHANGE_PARENT' => 'Establecer como principal',
-    'LBL_REMOVE_FROM_MERGE' => 'Remove',
+    'LBL_REMOVE_FROM_MERGE' => 'Quitar',
     'LBL_DIFF_COL_VALUES' => 'Columnas cuyo valor en la fila principal difiere del valor en las filas de combinación:',
     'LBL_SAME_COL_VALUES' => 'Columnas cuyo valor es similar en todas las filas:',
     'LBL_DELETE_MESSAGE' => 'Esta acción eliminará los siguientes registros:',
