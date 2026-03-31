@@ -43,24 +43,24 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_ID' => 'Zugewiesene Benutzer-ID',
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_ID' => 'ID',
-    'LBL_DATE_ENTERED' => 'Date Created',
-    'LBL_DATE_MODIFIED' => 'Date Modified',
-    'LBL_MODIFIED' => 'Modified By',
+    'LBL_DATE_ENTERED' => 'Erstellt am',
+    'LBL_DATE_MODIFIED' => 'Geändert am',
+    'LBL_MODIFIED' => 'Geändert von',
     'LBL_MODIFIED_ID' => 'Modified By Id',
     'LBL_MODIFIED_NAME' => 'Modified By Name',
-    'LBL_CREATED' => 'Created By',
+    'LBL_CREATED' => 'Erstellt von',
     'LBL_CREATED_ID' => 'Created By Id',
-    'LBL_DESCRIPTION' => 'Description',
+    'LBL_DESCRIPTION' => 'Beschreibung',
     'LBL_DELETED' => 'Deleted',
     'LBL_NAME' => 'Name',
-    'LBL_CREATED_USER' => 'Created by User',
-    'LBL_MODIFIED_USER' => 'Modified by User',
+    'LBL_CREATED_USER' => 'Erstellt vom Benutzer',
+    'LBL_MODIFIED_USER' => 'Geändert von Benutzer',
     'LBL_LIST_NAME' => 'Name',
-    'LBL_EDIT_BUTTON' => 'Edit',
-    'LBL_REMOVE' => 'Remove',
+    'LBL_EDIT_BUTTON' => 'Bearbeiten',
+    'LBL_REMOVE' => 'Entfernen',
     'LBL_LIST_FORM_TITLE' => 'KB-Kategorien-Liste',
     'LBL_MODULE_NAME' => 'KB Kategorien',
     'LBL_MODULE_TITLE' => 'KB Categories',
@@ -69,10 +69,10 @@ $mod_strings = array(
     'LNK_LIST' => 'Ansicht KB Kategorien',
     'LNK_IMPORT_AOK_KB_CATEGORIES' => 'KB-Kategorien importieren',
     'LBL_SEARCH_FORM_TITLE' => 'Suche - Kategorien',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Verlauf anzeigen',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktivitäten',
     'LBL_AOK_KB_CATEGORIES_SUBPANEL_TITLE' => 'KB Categories',
     'LBL_NEW_FORM_TITLE' => 'Neue KB-Kategorien',
 );
 
-$mod_strings['LBL_AOK_KB_TITLE'] = 'Knowledge Base';
+$mod_strings['LBL_AOK_KB_TITLE'] = 'Wissensdatenbank ';
