@@ -47,16 +47,16 @@ $mod_strings = array(
 
     'LBL_ADMINISTRATION_MAIN' => '连接器设置',
     'LBL_AVAILABLE' => '可用的',
-    'LBL_BACK' => '返回',
+    'LBL_BACK' => '< Back',
     'LBL_CONFIRM_CONTINUE_SAVE' => '一些必填字段为空，是否继续保存更改？',
     'LBL_CONNECTOR_FIELDS' => '连接器字段',
     'LBL_DATA' => '数据',
     'LBL_DEFAULT' => '默认',
-    'LBL_DISABLED' => '已禁用',
+    'LBL_DISABLED' => '已停用',
     'LBL_ENABLED' => '已启用',
     'LBL_EXTERNAL' => '允许用户创建外部客户到此连接器。',
     'LBL_EXTERNAL_SET_PROPERTIES' => '如需使用此连接器，请先在“连接器属性设置”页面中设置。',
-    'LBL_MERGE' => '合并',
+    'LBL_MERGE' => '合并重复',
     'LBL_MODIFY_DISPLAY_TITLE' => '启用连接器',
     'LBL_MODIFY_DISPLAY_DESC' => '选择哪些模块启用连接器。',
     'LBL_MODULE_FIELDS' => '模块字段',
@@ -84,6 +84,6 @@ $mod_strings = array(
     'ERROR_NO_SEARCHDEFS_MAPPING' => '错误：没有为模块和连接器定义搜索字段，请联系系统管理员。',
     'ERROR_NO_DISPLAYABLE_MAPPED_FIELDS' => '错误：结果中没有被映射可以用于显示的模块字段。请联系系统管理员。',
     'LBL_INFO_INLINE' => '信息' /*for 508 compliance fix*/,
-    'LBL_CLOSE' => '关闭' /*for 508 compliance fix*/,
+    'LBL_CLOSE' => '截止日期' /*for 508 compliance fix*/,
 
 );
