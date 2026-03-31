@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Bugs',
+    'LBL_MODULE_NAME' => 'Anomalies',
     'LBL_MODULE_TITLE' => 'Suivi de Anomalies : Accueil',
-    'LBL_MODULE_ID' => 'Bugs',
+    'LBL_MODULE_ID' => 'Anomalies',
     'LBL_SEARCH_FORM_TITLE' => 'Rechercher un Bug',
     'LBL_LIST_FORM_TITLE' => 'Liste des Anomalies',
     'LBL_NEW_FORM_TITLE' => 'Nouveau Bug',
@@ -53,11 +53,11 @@ $mod_strings = array(
     'LBL_NUMBER' => 'Number:',
     'LBL_STATUS' => 'Status:',
     'LBL_PRIORITY' => 'Priority:',
-    'LBL_DESCRIPTION' => 'Description:',
+    'LBL_DESCRIPTION' => 'Description :',
     'LBL_CONTACT_NAME' => 'Nom du contact :',
     'LBL_CONTACT_ROLE' => 'Rôle :',
     'LBL_LIST_NUMBER' => 'Num.',
-    'LBL_LIST_SUBJECT' => 'Subject',
+    'LBL_LIST_SUBJECT' => 'Sujet',
     'LBL_LIST_STATUS' => 'Status',
     'LBL_LIST_PRIORITY' => 'Priority',
     'LBL_LIST_RESOLUTION' => 'Resolution',
@@ -82,23 +82,23 @@ $mod_strings = array(
     'LBL_CREATED_BY' => 'Created by:',
     'LBL_MODIFIED_BY' => 'Last Modified by:',
 
-    'LBL_LIST_EMAIL_ADDRESS' => 'Email Address',
-    'LBL_LIST_CONTACT_NAME' => 'Contact Name',
+    'LBL_LIST_EMAIL_ADDRESS' => 'Adresse électronique',
+    'LBL_LIST_CONTACT_NAME' => 'Nom du contact',
     'LBL_LIST_ACCOUNT_NAME' => 'Account Name',
-    'LBL_LIST_PHONE' => 'Phone',
+    'LBL_LIST_PHONE' => 'Téléphone',
     'NTC_DELETE_CONFIRMATION' => 'Etes-vous sûr(e) de vouloir supprimer ce Contact du Bug ?',
 
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Suivi Anomalies',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'History',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activités',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Historique',
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
-    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Accounts',
-    'LBL_CASES_SUBPANEL_TITLE' => 'Cases',
-    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projects',
+    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Comptes',
+    'LBL_CASES_SUBPANEL_TITLE' => 'Tickets',
+    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projets',
     'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documents',
-    'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigned User',
+    'LBL_LIST_ASSIGNED_TO_NAME' => 'Utilisateur attribué',
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
 
-    'LBL_BUG_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_BUG_INFORMATION' => 'Aperçu', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
 );
