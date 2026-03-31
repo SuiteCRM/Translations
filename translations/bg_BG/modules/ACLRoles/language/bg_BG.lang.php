@@ -58,7 +58,7 @@ $mod_strings = array(
     'LBL_EDIT_VIEW_DIRECTIONS' => 'За смяна на стойностите, натиснете два пъти върху клетките.',
     'LBL_ACCESS_DEFAULT' => 'Not Set',
     'LBL_ACTION_ADMIN' => 'Access Type',
-    'LBL_ALL' => 'All',
+    'LBL_ALL' => 'Всички',
     'LBL_DUPLICATE_OF' => 'Дублиране на',
 
     'LBL_SECURITYGROUPS' => 'Security Groups',
