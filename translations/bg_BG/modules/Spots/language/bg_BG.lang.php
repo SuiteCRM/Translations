@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_ID' => 'Възложен на оператор с идентификационен номер',
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_SECURITYGROUPS' => 'Security Groups',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
@@ -113,7 +113,7 @@ $mod_strings = array(
     'LBL_AN_SALES_WEEK' => 'Sales Week',
     'LBL_AN_SALES_DAY' => 'Sales Day',
     'LBL_AN_SALES_YEAR' => 'Sales Year',
-    'LBL_AN_SALES_CAMPAIGN' => 'Campaign',
+    'LBL_AN_SALES_CAMPAIGN' => 'Кампания',
 
     //Analytics labels for service pivot
     'LBL_AN_SERVICE_ACCOUNT_NAME' => 'Account Name',
