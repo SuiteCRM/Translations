@@ -52,7 +52,7 @@ $mod_strings = array(
     //vardef labels
     'LBL_REVISION_NAME' => 'Numero Revisione',
     'LBL_FILENAME' => 'File:',
-    'LBL_MIME' => 'Tipo File',
+    'LBL_MIME' => 'Tipo Mime',
     'LBL_REVISION' => 'Revisione',
     'LBL_DOCUMENT' => 'Documento Collegato',
     'LBL_LATEST_REVISION' => 'Ultima versione',
@@ -66,9 +66,9 @@ $mod_strings = array(
 
     //document revisions.
     'LBL_REV_LIST_REVISION' => 'Revisione',
-    'LBL_REV_LIST_ENTERED' => 'Data di Creazione',
-    'LBL_REV_LIST_CREATED' => 'Creato da',
-    'LBL_REV_LIST_LOG' => 'Dettagli Modifiche',
+    'LBL_REV_LIST_ENTERED' => 'Data Creazione',
+    'LBL_REV_LIST_CREATED' => 'Created by',
+    'LBL_REV_LIST_LOG' => 'Dettagli Modifiche:',
     'LBL_REV_LIST_FILENAME' => 'File',
 
     'LBL_CURRENT_DOC_VERSION' => 'Ultima versione:',
@@ -76,7 +76,7 @@ $mod_strings = array(
     'LBL_REVISIONS' => 'Revisioni',
 
     //error messages
-    'ERR_FILENAME' => 'Nome file',
+    'ERR_FILENAME' => 'Nome del File',
     'ERR_DOC_VERSION' => 'Versione Documento',
     'ERR_DELETE_CONFIRM' => 'Vuoi eliminare questa revisione del documento ?',
     'ERR_DELETE_LATEST_VERSION' => 'Non sei autorizzato a cancellare l´ultima versione di un documento.',
