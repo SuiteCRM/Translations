@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_NAME' => 'Առաջադրանք',
-    'LBL_EXECUTE_TIME' => 'Կատարման ժամանակը',
-    'LBL_SCHEDULER_ID' => 'Պլանավորող',
+    'LBL_NAME' => 'Job Name',
+    'LBL_EXECUTE_TIME' => 'Execute Time',
+    'LBL_SCHEDULER_ID' => 'Scheduler',
     'LBL_STATUS' => 'Առաջադրանքի կարգավիճակը',
-    'LBL_RESOLUTION' => 'Արդյունք',
+    'LBL_RESOLUTION' => 'Result',
     'LBL_MESSAGE' => 'Հաղորդագրություններ',
     'LBL_DATA' => 'Աշխատանքի տվյալներ',
     'LBL_REQUEUE' => 'Կրկին փորձել խափանման դեպքում',
