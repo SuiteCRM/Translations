@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Egyesíthető rekordok listája',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Keresés indítása rekordok egyesítéséhez',
-    'LBL_AVAIL_FIELDS' => 'Elérhető mezők',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'Szűrés feltétel',
     'LBL_MERGE_VALUE_OVER' => 'Értékek egyesítése',
 
@@ -58,15 +58,15 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Egyesítés végrehajtása (CTRL+P)',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Egyesítés végrehajtása (CTRL+P)',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Egyesítés mentése',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Egyesítés mentése',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => 'Talált rekordok egyesítése a következővel',
     'LBL_SELECT_ERROR' => 'Választania kell mielőtt folytatná.',
     'LBL_CHANGE_PARENT' => 'Állítsa be elsődlegesként',
-    'LBL_REMOVE_FROM_MERGE' => 'Sil',
+    'LBL_REMOVE_FROM_MERGE' => 'Eltávolítás',
     'LBL_DIFF_COL_VALUES' => 'Oszlopok, amelyek értéke az elsődleges rekord adott sorától eltérő értékű az egyesítendő sorokban:',
     'LBL_SAME_COL_VALUES' => 'Oszlopok, amelyeknek értéke hasonló az összes sorban:
 ',
