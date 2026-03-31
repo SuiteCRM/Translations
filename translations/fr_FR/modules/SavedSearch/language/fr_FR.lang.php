@@ -49,15 +49,15 @@ $mod_strings = array(
     'LBL_DELETE_CONFIRM' => 'Êtes-vous sûr de que vouloir supprimer le filtre sélectionné ?',
     'LBL_DELETE_BUTTON_TITLE' => 'Supprimer ce filtre',
     'LBL_SAVE_BUTTON_TITLE' => 'Enregistrer le filtre actuel',
-    'LBL_LIST_NAME' => 'Name',
+    'LBL_LIST_NAME' => 'Nom',
     'LBL_LIST_MODULE' => 'Module',
     'LBL_ORDER_BY_COLUMNS' => 'Tri par :',
-    'LBL_DIRECTION' => 'Direction:',
+    'LBL_DIRECTION' => 'Sens du tri :',
     'LBL_SAVE_SEARCH_AS' => 'Enregistrer le filtre comme :',
     'LBL_ASCENDING' => 'Ascending',
     'LBL_DESCENDING' => 'Descending',
     'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
-    'LBL_CREATED_BY' => 'Created By',
+    'LBL_CREATED_BY' => 'Créé par',
 
 );
