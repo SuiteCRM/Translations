@@ -68,6 +68,6 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Diaqramları Axtarın',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Tarixçəyə bax',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Fəaliyyətlər',
-    'LBL_AOR_CHARTS_SUBPANEL_TITLE' => 'Diaqramlar',
+    'LBL_AOR_CHARTS_SUBPANEL_TITLE' => 'Qrafiklər',
     'LBL_NEW_FORM_TITLE' => 'Yeni diaqramlar',
 );
