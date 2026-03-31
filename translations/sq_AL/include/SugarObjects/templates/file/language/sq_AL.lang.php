@@ -51,8 +51,8 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'kërkimi i dokumentacionit',
     //vardef labels
     'LBL_NAME' => 'emri i dokumentacionit',
-    'LBL_DESCRIPTION' => 'Përshkrim',
-    'LBL_ASSIGNED_TO' => 'drejtuar',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_ASSIGNED_TO' => 'Assigned to:',
     'LBL_CATEGORY' => 'Kategoria',
     'LBL_SUBCATEGORY' => 'nënkategoria',
     'LBL_STATUS' => 'Statusi',
@@ -80,38 +80,38 @@ $mod_strings = array(
     'LBL_SUBCATEGORY_VALUE' => 'Nën kategoria',
     'LBL_DOC_STATUS' => 'Statusi',
     'LBL_DET_TEMPLATE_TYPE' => 'lloji i dokumentacionit',
-    'LBL_DOC_DESCRIPTION' => 'Përshkrim',
+    'LBL_DOC_DESCRIPTION' => 'Description:',
     'LBL_DOC_ACTIVE_DATE' => 'data e publikimit',
     'LBL_DOC_EXP_DATE' => 'data e skadimit',
 
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'Lista e dokumentacionit',
     'LBL_LIST_DOCUMENT' => 'Dokumentacioni',
-    'LBL_LIST_CATEGORY' => 'Kategoria',
-    'LBL_LIST_SUBCATEGORY' => 'nënkategoria',
-    'LBL_LIST_REVISION' => 'rishikim',
+    'LBL_LIST_CATEGORY' => 'Category',
+    'LBL_LIST_SUBCATEGORY' => 'Sub Category',
+    'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => 'Publikuar nga',
     'LBL_LIST_LAST_REV_DATE' => 'data e rishikimit',
     'LBL_LIST_VIEW_DOCUMENT' => 'Shih',
-    'LBL_LIST_ACTIVE_DATE' => 'data e publikimit',
-    'LBL_LIST_EXP_DATE' => 'data e skadimit',
-    'LBL_LIST_STATUS' => 'Statusi',
+    'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
+    'LBL_LIST_EXP_DATE' => 'Expiration Date',
+    'LBL_LIST_STATUS' => 'Status',
 
     //document search form.
-    'LBL_SF_CATEGORY' => 'Kategoria',
-    'LBL_SF_SUBCATEGORY' => 'Nën kategoria',
+    'LBL_SF_CATEGORY' => 'Category:',
+    'LBL_SF_SUBCATEGORY' => 'Sub Category:',
 
     'DEF_CREATE_LOG' => 'dokumentacioni i krijuar',
 
     //error messages
-    'ERR_DOC_NAME' => 'emri i dokumentacionit',
-    'ERR_DOC_ACTIVE_DATE' => 'data e publikimit',
+    'ERR_DOC_NAME' => 'Document Name',
+    'ERR_DOC_ACTIVE_DATE' => 'Publish Date',
     'ERR_FILENAME' => 'emri i dosjes',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'emri i dokumentacionit',
+    'LBL_LIST_DOCUMENT_NAME' => 'Document Name',
 
     'LBL_EDIT_BUTTON' => 'Ndrysho',
-    'LBL_REMOVE' => 'Largo',
+    'LBL_REMOVE' => 'Remove',
 
 );
