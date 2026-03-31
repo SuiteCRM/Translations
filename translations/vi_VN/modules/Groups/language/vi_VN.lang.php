@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_MODULE_NAME' => 'Các Nhóm',
     'LBL_GROUP_NAME' => 'Tên nhóm:',
-    'LBL_DESCRIPTION' => 'Chi tiết:',
+    'LBL_DESCRIPTION' => 'Mô tả:',
     'LBL_TEAM' => 'Nhóm:',
     // ListView
     'LBL_LIST_TITLE' => 'Các Nhóm',
