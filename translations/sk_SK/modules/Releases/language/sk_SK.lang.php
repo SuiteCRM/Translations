@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Verzie',
+    'LBL_MODULE_NAME' => 'Verzia',
     'LBL_MODULE_TITLE' => 'Verzia: Hlavná stránka',
     'LBL_SEARCH_FORM_TITLE' => 'Vyhľadať verziu',
     'LBL_LIST_FORM_TITLE' => 'Zoznam verzií',
@@ -54,9 +54,9 @@ $mod_strings = array(
     'LBL_LIST_LIST_ORDER' => 'Iné',
     'LBL_LIST_ORDER' => 'Poradie:',
     'LBL_LIST_STATUS' => 'Stav',
-    'LBL_STATUS' => 'Stav:',
+    'LBL_STATUS' => 'Stav',
     'LNK_NEW_RELEASE' => 'Zoznam verzií',
-    'NTC_DELETE_CONFIRMATION' => 'Skutočne, chcete vymazať tento záznam?',
+    'NTC_DELETE_CONFIRMATION' => 'Ste si istý, že chcete vymazať tento záznam?',
     'NTC_SNOOZE_CONFIRMATION' => 'Are you sure you want to snooze?',
     'ERR_DELETE_RECORD' => 'K odstráneniu verzie musíte zadať číslo záznamu.',
     'NTC_STATUS' => 'K odstráneniu tejto verzie zo zoznamu výberových polí verzie nastavte stav na neaktívny.',
