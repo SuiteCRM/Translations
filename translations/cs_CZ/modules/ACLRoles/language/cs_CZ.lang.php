@@ -43,15 +43,15 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Roles',
+    'LBL_MODULE_NAME' => 'Role',
     'LBL_MODULE_TITLE' => 'Role: Domů',
     'LBL_ROLE' => 'Role',
-    'LBL_NAME' => 'Name',
-    'LBL_DESCRIPTION' => 'Description',
+    'LBL_NAME' => 'Název',
+    'LBL_DESCRIPTION' => 'Popis',
     'LIST_ROLES' => 'List Roles',
-    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Uživatelé',
     'LIST_ROLES_BY_USER' => 'List Roles By User',
-    'LBL_LIST_FORM_TITLE' => 'Roles',
+    'LBL_LIST_FORM_TITLE' => 'Role',
     'LBL_ROLES_SUBPANEL_TITLE' => 'User Roles',
     'LBL_SEARCH_FORM_TITLE' => 'Search',
     'LBL_CREATE_ROLE' => 'Přidat roli',
