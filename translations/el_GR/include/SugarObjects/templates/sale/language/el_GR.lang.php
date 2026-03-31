@@ -48,8 +48,8 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Αναζήτηση Πώλησης',
     'LBL_LIST_FORM_TITLE' => 'Λίστα Πωλήσεων',
     'LBL_NAME' => 'Όνομα',
-    'LBL_LIST_SALE_NAME' => 'Name',
-    'LBL_LIST_ACCOUNT_NAME' => 'Account Name',
+    'LBL_LIST_SALE_NAME' => 'Όνομα',
+    'LBL_LIST_ACCOUNT_NAME' => 'Όνομα Λογαριασμού',
     'LBL_LIST_AMOUNT' => 'Ποσό ',
     'LBL_LIST_DATE_CLOSED' => 'Κλείσιμο',
     'LBL_LIST_SALE_STAGE' => 'Στάδιο πώλησης',
@@ -87,7 +87,7 @@ $mod_strings = array(
     'LBL_SALE_INFORMATION' => 'Πληροφορίες Πώλησης',
     'LBL_CURRENCY_NAME' => 'Ονομασία Νομίσματος',
     'LBL_CURRENCY_SYMBOL' => 'Σύμβολο Νομίσματος',
-    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_EDIT_BUTTON' => 'Επεξεργασία',
     'LBL_REMOVE' => 'Remove',
 
 );
