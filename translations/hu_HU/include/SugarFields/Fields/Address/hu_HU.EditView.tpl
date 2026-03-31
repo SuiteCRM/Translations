@@ -1,4 +1,4 @@
-
+{*
 /**
  *
  A SugarCRM Community Edition ügyfélkapcsolat-kezelő szoftver fejlesztője a(z)
