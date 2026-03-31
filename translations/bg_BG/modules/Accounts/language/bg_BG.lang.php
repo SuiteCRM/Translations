@@ -159,7 +159,7 @@ $mod_strings = array(
     'LBL_PRODUCTS_SERVICES_PURCHASED_SUBPANEL_TITLE' => 'Products and Services Purchased',
 
     'LBL_AOS_CONTRACTS' => 'Contracts',
-    'LBL_AOS_INVOICES' => 'Invoices',
+    'LBL_AOS_INVOICES' => 'Фактури',
     'LBL_AOS_QUOTES' => 'Quotes',
     'LBL_LIST_WEBSITE' => 'website',
 );
