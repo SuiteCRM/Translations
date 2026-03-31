@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     /*'ADMIN_EXPORT_ONLY'=>'Admin export only',*/
-    'ADVANCED' => 'Pokročilé',
+    'ADVANCED' => 'Pokročilý',
     'DEFAULT_CURRENCY_ISO4217' => 'ISO 4217 kód meny',
     'DEFAULT_CURRENCY_NAME' => 'Názov meny',
     'DEFAULT_CURRENCY_SYMBOL' => 'Symbol meny',
@@ -139,7 +139,7 @@ $mod_strings = array(
     'LBL_LDAP_ADMIN_USER' => 'Meno užívateľa:',
     'LBL_LDAP_ADMIN_USER_DESC' => 'Používa sa k vyhľadaniu užívateľa LDAP. Môže vyžadovať plné oprávnenie.',
     'LBL_LDAP_ADMIN_PASSWORD' => 'Heslo:',
-    'LBL_LDAP_AUTHENTICATION' => 'Overenie LDAP',
+    'LBL_LDAP_AUTHENTICATION' => 'overovanie:',
     'LBL_LDAP_AUTHENTICATION_DESC' => 'Pripojiť na LDAP server pomocou poverení konkrétnych užívateľov. Ak nie sú k dispozícii, pripojiť anonymne.',
     'LBL_LDAP_AUTO_CREATE_USERS' => 'Automaticky vytvoriť užívateľov:',
     'LBL_LDAP_USER_DN' => 'Užívateľské DN:',
