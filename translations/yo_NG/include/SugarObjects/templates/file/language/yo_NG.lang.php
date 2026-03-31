@@ -94,7 +94,7 @@ $mod_strings = array(
     'LBL_LIST_LAST_REV_DATE' => 'Revision Date',
     'LBL_LIST_VIEW_DOCUMENT' => 'Wo',
     'LBL_LIST_ACTIVE_DATE' => 'Ojo atejade',
-    'LBL_LIST_EXP_DATE' => 'Ojo ipari',
+    'LBL_LIST_EXP_DATE' => 'Ojo ti o jo tan',
     'LBL_LIST_STATUS' => 'Ipo',
 
     //document search form.
