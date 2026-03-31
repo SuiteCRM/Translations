@@ -68,10 +68,10 @@ $mod_strings = array(
     'LBL_BIRTHDATE' => 'Fødselsdato:',
     'LBL_CITY' => 'City:',
     'LBL_CAMPAIGN_ID' => 'Campaign ID',
-    'LBL_CONTACT_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_CONTACT_INFORMATION' => 'Oversigt', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_CONTACT_NAME' => 'Contact Name:',
     'LBL_CONTACT_OPP_FORM_TITLE' => 'Kontakt-mulighed:',
-    'LBL_CONTACT_ROLE' => 'Role:',
+    'LBL_CONTACT_ROLE' => 'Rolle:',
     'LBL_CONTACT' => 'Contact:',
     'LBL_COUNTRY' => 'Country:',
     'LBL_CREATED_ACCOUNT' => 'Opret en ny kunde',
@@ -82,7 +82,7 @@ $mod_strings = array(
     'LBL_DATE_MODIFIED' => 'Date Modified:',
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Contacts',
     'LBL_DEPARTMENT' => 'Afdeling:',
-    'LBL_DESCRIPTION' => 'Description:',
+    'LBL_DESCRIPTION' => 'Beskrivelse:',
     'LBL_DIRECT_REPORTS_SUBPANEL_TITLE' => 'Direct Reports',
     'LBL_DO_NOT_CALL' => 'Ønsker ikke opkald:',
     'LBL_DUPLICATE' => 'Mulig kontakt duplet',
@@ -118,7 +118,7 @@ $mod_strings = array(
     'LBL_MODIFIED' => 'Ændret af:',
     'LBL_MODULE_NAME' => 'Contacts',
     'LBL_MODULE_TITLE' => 'Kontakter: Hjem',
-    'LBL_NAME' => 'Name:',
+    'LBL_NAME' => 'Navn:',
     'LBL_NEW_FORM_TITLE' => 'Ny kontakt',
     'LBL_NOTE_SUBJECT' => 'Note emne',
     'LBL_OFFICE_PHONE' => 'Office Phone:',
@@ -167,7 +167,7 @@ $mod_strings = array(
     'LNK_NEW_OPPORTUNITY' => 'Create Opportunity',
     'LNK_NEW_TASK' => 'Create Task',
     'LNK_SELECT_ACCOUNT' => "Select Account",
-    'NTC_DELETE_CONFIRMATION' => 'Are you sure you want to delete this record?',
+    'NTC_DELETE_CONFIRMATION' => 'Er du sikker på, at du vil slette denne post?',
     'NTC_OPPORTUNITY_REQUIRES_ACCOUNT' => 'Oprettelse af en mulighed kræver en kunde.',
     'NTC_REMOVE_CONFIRMATION' => 'Er du sikker på at du ønsker at slette denne kontakt fra sagen?',
 
@@ -195,7 +195,7 @@ $mod_strings = array(
     // SNIP
     'LBL_USER_SYNC' => 'Bruger Synkronisering',
 
-    'LBL_FP_EVENTS_CONTACTS_FROM_FP_EVENTS_TITLE' => 'Events',
+    'LBL_FP_EVENTS_CONTACTS_FROM_FP_EVENTS_TITLE' => 'Begivenheder',
 
     'LBL_AOP_CASE_UPDATES' => 'Case Updates',
     'LBL_CREATE_PORTAL_USER' => 'Create Portal User',
@@ -214,8 +214,8 @@ $mod_strings = array(
 
     'LBL_AOS_CONTRACTS' => 'Contracts',
     'LBL_AOS_INVOICES' => 'Invoices',
-    'LBL_AOS_QUOTES' => 'Quotes',
+    'LBL_AOS_QUOTES' => 'Tilbud',
     'LBL_PROJECT_CONTACTS_1_FROM_PROJECT_TITLE' => 'Project Contacts from Project Title',
 
-    'LBL_LIST_INVITE_STATUS' => 'Invite Status',
+    'LBL_LIST_INVITE_STATUS' => 'Invitationsstatus',
 );
