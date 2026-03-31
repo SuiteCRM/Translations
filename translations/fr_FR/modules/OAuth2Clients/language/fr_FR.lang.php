@@ -44,14 +44,14 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
     'LBL_MODULE_NAME' => 'Clients OAuth2',
-    'LBL_MODULE_TITLE' => 'OAuth2 Clients',
-    'LBL_MODULE_ID' => 'OAuth2 Clients',
+    'LBL_MODULE_TITLE' => 'Clients OAuth2',
+    'LBL_MODULE_ID' => 'Clients OAuth2',
     'LBL_IS_CONFIDENTIAL' => 'Est confidentiel',
     'LBL_SECRET' => 'Confidentiel',
     'LBL_SECRET_HASHED' => 'Changer le secret',
     'LBL_LEAVE_BLANK' => 'Laissez vide, sauf changement',
     'LBL_REMEMBER_SECRET' => 'Veuillez noter le secret car il ne sera plus disponible après enregistrement.',
-    'LBL_REDIRECT_URL' => 'Redirect URL',
+    'LBL_REDIRECT_URL' => 'URL de redirection',
     'LBL_ALLOWED_GRANT_TYPE' => 'Type d\'autorisation permise',
     'LBL_DURATION_AMOUNT' => 'Durée',
     'LBL_DURATION_UNIT' => 'Unité de temps',
@@ -64,14 +64,14 @@ $mod_strings = [
     'LBL_ACCESS_TOKEN_EXPIRES' => 'Expiration des jetons d\'accès',
     'LBL_REFRESH_TOKEN_EXPIRES' => 'Expiration des jetons d\'accès',
 
-    'LNK_OAUTH2_TOKEN_LIST'=> 'List OAuth2 Tokens',
-    'LNK_OAUTH2_CLIENT_LIST' => 'List OAuth2 Clients',
+    'LNK_OAUTH2_TOKEN_LIST'=> 'Liste des jetons OAuth2',
+    'LNK_OAUTH2_CLIENT_LIST' => 'Liste des clients OAuth2',
     'LNK_OAUTH2_AUTHCODE_LIST' => 'List OAuth2 Authorization Codes',
 
-    'LNK_NEW_OAUTH2_CLIENT' => 'Create OAuth2 Client',
-    'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'New Password Client',
-    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'New Client Credentials Client',
-    'LNK_NEW_OAUTH2_IMPLICIT_CLIENT' => 'New Implicit Client',
-    'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'New Authorization Client',
+    'LNK_NEW_OAUTH2_CLIENT' => 'Créer client OAuth2',
+    'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'Nouveau mot de passe client',
+    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'Nouvelles informations clientèle',
+    'LNK_NEW_OAUTH2_IMPLICIT_CLIENT' => 'Nouveau client tacite',
+    'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'Nouvelle autorisation du client',
 
 ];
