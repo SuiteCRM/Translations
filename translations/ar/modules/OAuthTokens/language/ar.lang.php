@@ -46,9 +46,9 @@ $mod_strings = array(
     'LBL_OAUTH_REQUEST' => "طلب الرمز المميز",
     'LBL_OAUTH_AUTHORIZE' => "تفويض الرمز المميز",
     'LBL_OAUTH_CONSUMERREQ' => "طلب تفويض الرمز المميز من المستهلك <b>%s</b>؟",
-    'LBL_ASSIGNED_TO_NAME' => 'User',
-    'LBL_ID' => 'ID',
-    'LBL_STATUS' => 'Status',
+    'LBL_ASSIGNED_TO_NAME' => 'مُستخدم',
+    'LBL_ID' => 'المُعرف',
+    'LBL_STATUS' => 'الحالة',
     'LBL_TS' => 'ختم زمني (TimeStamp)',
     'LBL_LIST_DELETE' => 'حذف الرمز المميز',
     'LBL_CONSUMER' => 'اسم المستهلك',
@@ -56,7 +56,7 @@ $mod_strings = array(
 
     'LBL_TOKEN_TS' => 'رمز مميز من نوع Token TS',
     'LBL_CALLBACK_URL' => 'رابط إعادة الاتصال/التوجيه',
-    'LBL_SECRET' => 'Secret',
+    'LBL_SECRET' => 'الكلمة السرية',
     'LBL_TSTATE' => 'حالة العملية (TState)',
-    'LBL_VERIFY' => 'Verify',
+    'LBL_VERIFY' => 'التحقق',
 );
