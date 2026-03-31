@@ -54,7 +54,7 @@ $mod_strings = array(
     'LBL_NAME' => '名前',
     'LBL_CREATED_USER' => 'ユーザーが作成',
     'LBL_MODIFIED_USER' => 'ユーザーが更新',
-    'LBL_LIST_NAME' => '名前',
+    'LBL_LIST_NAME' => '名称',
     'LBL_EDIT_BUTTON' => '編集',
     'LBL_REMOVE' => '削除',
 
