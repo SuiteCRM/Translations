@@ -58,5 +58,5 @@ $mod_strings = array(
     'LBL_RELATIONSHIP_ROLE_COLUMN' => 'Název sloupce role vztahu',
     'LBL_RELATIONSHIP_ROLE_COLUMN_VALUE' => 'Hodnota sloupce role vztahu',
     'LBL_REVERSE' => 'Obrátit',
-    'LBL_DELETED' => 'Deleted',
+    'LBL_DELETED' => 'Vymazáno',
 );
