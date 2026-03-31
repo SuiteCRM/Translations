@@ -51,8 +51,8 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'ドキュメント検索',
     //vardef labels
     'LBL_NAME' => 'ドキュメント名',
-    'LBL_DESCRIPTION' => '詳細',
-    'LBL_ASSIGNED_TO' => 'アサイン先:',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_ASSIGNED_TO' => '担当ユーザー名:',
     'LBL_CATEGORY' => 'カテゴリ',
     'LBL_SUBCATEGORY' => 'サブカテゴリ',
     'LBL_STATUS' => 'ステータス',
@@ -80,38 +80,38 @@ $mod_strings = array(
     'LBL_SUBCATEGORY_VALUE' => 'サブカテゴリ:',
     'LBL_DOC_STATUS' => 'ステータス:',
     'LBL_DET_TEMPLATE_TYPE' => 'ドキュメントタイプ:',
-    'LBL_DOC_DESCRIPTION' => '詳細:',
+    'LBL_DOC_DESCRIPTION' => 'Description:',
     'LBL_DOC_ACTIVE_DATE' => '発行日:',
     'LBL_DOC_EXP_DATE' => '有効期限:',
 
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'ドキュメント一覧',
     'LBL_LIST_DOCUMENT' => 'ドキュメント',
-    'LBL_LIST_CATEGORY' => 'カテゴリ',
-    'LBL_LIST_SUBCATEGORY' => 'サブカテゴリ',
-    'LBL_LIST_REVISION' => '版数',
+    'LBL_LIST_CATEGORY' => 'Category',
+    'LBL_LIST_SUBCATEGORY' => 'Sub Category',
+    'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => '発行者',
     'LBL_LIST_LAST_REV_DATE' => '改版日',
     'LBL_LIST_VIEW_DOCUMENT' => '閲覧',
-    'LBL_LIST_ACTIVE_DATE' => '発行日',
-    'LBL_LIST_EXP_DATE' => '有効期限',
-    'LBL_LIST_STATUS' => 'ステータス',
+    'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
+    'LBL_LIST_EXP_DATE' => 'Expiration Date',
+    'LBL_LIST_STATUS' => 'Status',
 
     //document search form.
-    'LBL_SF_CATEGORY' => 'カテゴリ:',
-    'LBL_SF_SUBCATEGORY' => 'サブカテゴリ:',
+    'LBL_SF_CATEGORY' => 'Category:',
+    'LBL_SF_SUBCATEGORY' => 'Sub Category:',
 
     'DEF_CREATE_LOG' => 'ドキュメント作成日',
 
     //error messages
-    'ERR_DOC_NAME' => 'ドキュメント名',
-    'ERR_DOC_ACTIVE_DATE' => '発行日',
+    'ERR_DOC_NAME' => 'Document Name',
+    'ERR_DOC_ACTIVE_DATE' => 'Publish Date',
     'ERR_FILENAME' => 'ファイル名',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'ドキュメント名',
+    'LBL_LIST_DOCUMENT_NAME' => 'Document Name',
 
     'LBL_EDIT_BUTTON' => '編集',
-    'LBL_REMOVE' => '削除',
+    'LBL_REMOVE' => 'Remove',
 
 );
