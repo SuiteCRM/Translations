@@ -49,5 +49,5 @@ $mod_strings = array(
     'LBL_CREATED_BY' => 'Άλλαξε από',
     'LBL_LIST_DATE' => 'Ημ/νία αλλαγής',
     'LBL_AUDITED_FIELDS' => 'Πεδία που αναζητήθηκαν: ',
-    'LBL_CHANGE_LOG' => 'Change Log',
+    'LBL_CHANGE_LOG' => 'Αλλαγή Σύνδεσης:',
 );
