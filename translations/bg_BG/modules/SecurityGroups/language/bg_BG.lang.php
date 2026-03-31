@@ -43,8 +43,8 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ALL_MODULES' => 'All',//rost fix
-    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ALL_MODULES' => 'Всички',//rost fix
+    'LBL_ASSIGNED_TO_ID' => 'Възложен на оператор с идентификационен номер',
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date Created',
