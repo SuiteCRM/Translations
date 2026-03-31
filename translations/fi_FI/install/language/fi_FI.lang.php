@@ -43,8 +43,8 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_BASIC_SEARCH' => 'Quick Filter',
-    'LBL_ADVANCED_SEARCH' => 'Advanced Filter',
+    'LBL_BASIC_SEARCH' => 'Pikasuodin',
+    'LBL_ADVANCED_SEARCH' => 'Tarkempi suodin',
     'LBL_BASIC_TYPE' => 'Perustyyppi',
     'LBL_ADVANCED_TYPE' => 'Tarkennettu tyyppi',
     'LBL_SYSOPTS_2' => 'Minkä tyyppistä tietokantaa asennettavassa SuiteCRM -asennuksessa tullaan käyttämään?',
@@ -247,7 +247,7 @@ $mod_strings = array(
     'LBL_ML_ACTION' => 'Action',
     'LBL_ML_DESCRIPTION' => 'Description',
     'LBL_ML_INSTALLED' => 'Asennus pvm.',
-    'LBL_ML_NAME' => 'Name',
+    'LBL_ML_NAME' => 'Nimi',
     'LBL_ML_PUBLISHED' => 'Julkaisu pvm.',
     'LBL_ML_TYPE' => 'Type',
     'LBL_ML_UNINSTALLABLE' => 'Asennus poistettavissa',
