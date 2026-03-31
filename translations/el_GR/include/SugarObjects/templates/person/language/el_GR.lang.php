@@ -81,7 +81,7 @@ $mod_strings = array(
     'LBL_COUNTRY' => 'Χώρα',
     'LBL_CONTACT_INFORMATION' => 'Πληροφορίες Επικοινωνίας',
     'LBL_ADDRESS_INFORMATION' => 'Διεύθυνση(εις)',
-    'LBL_ASSIGNED_TO_NAME' => 'User',
+    'LBL_ASSIGNED_TO_NAME' => 'Χειριστής',
     'LBL_OTHER_EMAIL_ADDRESS' => 'Other Email:',
     'LBL_ASSISTANT' => 'Βοηθός',
     'LBL_ASSISTANT_PHONE' => 'Τηλέφωνο Βοηθού',
@@ -90,7 +90,7 @@ $mod_strings = array(
     'LBL_ANY_EMAIL' => 'Οποιοδήποτε Email',
     'LBL_EMAIL_NON_PRIMARY' => 'Non Primary E-mails',
     'LBL_PHOTO' => 'Φωτογραφία',
-    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_EDIT_BUTTON' => 'Επεξεργασία',
     'LBL_REMOVE' => 'Remove',
 
     //Lawful Basis labels
