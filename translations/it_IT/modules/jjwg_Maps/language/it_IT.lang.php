@@ -60,7 +60,7 @@ $mod_strings['LBL_MAP_DISPLAY'] = 'Mostra Map';
 $mod_strings['LBL_MAP_LEGEND'] = 'Legenda:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'Gruppi:';
 $mod_strings['LBL_MAP_GROUP'] = 'Gruppo';
-$mod_strings['LBL_MAP_TYPE'] = 'Gruppo/Personale';
+$mod_strings['LBL_MAP_TYPE'] = 'Tipo';
 $mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Assegnato a:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'Come Arrivarci';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'Visualizza su Google Maps';
@@ -88,7 +88,7 @@ $mod_strings['LBL_APPROXIMATE'] = 'Approssimativa';
 $mod_strings['LBL_EMPTY'] = 'Vuoto';
 
 $mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Totale';
-$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Resetta';
+$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Reimposta';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = 'La tabella sotto mostra il numero di moduli geocodificati, raggruppati per risposta geocoding. Ricorda che il limite di utilizzo standard di Google Maps è di 2500 richieste al giorno. Questo modulo mantiene in cache le informazioni di geocodifica degli indirizzi durante le elaborazione per ridurre il numero complessivo di richieste necessarie.';
 
 $mod_strings['LBL_CRON_INSTRUCTIONS'] = 'Per elaborare le richieste di geocoding si consiglia di impostare un Cron-Job notturno. È stato creato un punto di accesso personalizzato per questo scopo ed è possibile accedervi senza autenticazione. L\'URL di seguito è destinato a essere utilizzato con una operazione pianificata. Consultare la documentazione per maggiori informazioni.';
