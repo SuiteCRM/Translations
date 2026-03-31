@@ -56,8 +56,8 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Benutzer:',
     'LBL_RATING' => 'Bewertung',
     'LBL_ASSIGNED_TO' => 'Zugewiesen:',
-    'LBL_ASSIGNED_USER' => 'Assigned to:',
-    'LBL_ASSIGNED_TO_ID' => 'Assigned to:',
+    'LBL_ASSIGNED_USER' => 'Zugewiesen an:',
+    'LBL_ASSIGNED_TO_ID' => 'Zugewiesen an:',
     'LBL_BILLING_ADDRESS_CITY' => 'Rechnungsadresse Stadt:',
     'LBL_BILLING_ADDRESS_COUNTRY' => 'Rechnungsadresse Land:',
     'LBL_BILLING_ADDRESS_POSTALCODE' => 'Rechnungsadresse Postleitzahl:',
@@ -97,7 +97,7 @@ $mod_strings = array(
     'LBL_PHONE_FAX' => 'Telefon/Fax:',
     'LBL_PHONE_OFFICE' => 'Telefon Büro:',
     'LBL_PHONE' => 'Telefon:',
-    'LBL_EMAIL_ADDRESS' => 'Email Address',
+    'LBL_EMAIL_ADDRESS' => 'E-Mail',
     'LBL_EMAIL_ADDRESSES' => 'E-Mail Adresse(n)',
     'LBL_POSTAL_CODE' => 'Postleitzahl:',
     'LBL_SAVE_ACCOUNT' => 'Firma speichern',
@@ -116,7 +116,7 @@ $mod_strings = array(
     'LBL_TYPE' => 'Typ:',
     'LBL_WEBSITE' => 'Webseite:',
 
-    'LNK_ACCOUNT_LIST' => 'Accounts',
+    'LNK_ACCOUNT_LIST' => 'Firmen',
     'LNK_NEW_ACCOUNT' => 'Firma erstellen',
 
     'MSG_DUPLICATE' => 'Diese Firma könnte bereits existieren (Duplikat!). Sie können entweder eine Firma aus der untenstehenden Liste auswählen oder auf Speichern klicken und die neue Firma mit den zuvor eingegebenen Daten erstellen.',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'Sind Sie sicher, dass Sie diesen Eintrag löschen wollen?',
 
     'LBL_EDIT_BUTTON' => 'Bearbeiten',
-    'LBL_REMOVE' => 'Remove',
+    'LBL_REMOVE' => 'Entfernen',
 
 );
