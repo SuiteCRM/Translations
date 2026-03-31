@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_BASIC' => 'Základné',
-    'LBL_BASIC_SEARCH' => 'Základný filter',
-    'LBL_ADVANCED_SEARCH' => 'Rozšírený filter',
+    'LBL_BASIC' => 'BASIC',
+    'LBL_BASIC_SEARCH' => 'Rychlý filter',
+    'LBL_ADVANCED_SEARCH' => 'Rozšírený Filter',
     'LBL_BASIC_TYPE' => 'Základný typ',
     'LBL_ADVANCED_TYPE' => 'Pokročilý typ',
     'LBL_SYSOPTS_2' => 'Aký typ databázy bude použitý pre inštaláciu SuiteCRM inštancie ?',
@@ -112,7 +112,7 @@ $mod_strings = array(
     'ERR_DB_PRIV_USER' => 'Uveďte používateľské meno správcu databázy. Používateľ je vyžadovaný pre počiatočné pripojenie k databáze.',
     'ERR_DB_USER_EXISTS' => 'Používateľské meno používateľa SuiteCRM databázy už existuje - nie je možné vytvoriť ďalšieho s rovnakým menom. Prosím zadajte nové používateľské meno.',
     'ERR_DB_USER' => 'Zadajte používateľské meno pre správcu SuiteCRM databázy.',
-    'ERR_DBCONF_VALIDATION' => 'Prosím, pred pokračovaním opravte nasledovné chyby:',
+    'ERR_DBCONF_VALIDATION' => 'Opravte prosím nasledujúce chyby pred konaním:',
     'ERR_DBCONF_PASSWORD_MISMATCH' => 'Heslá stanovená pre používateľov SuiteCRM databázy sa nezhodujú. Prosím, zadajte znova rovnaké heslo v poli pre heslo.',
     'ERR_ERROR_GENERAL' => 'Došlo k nasledujúcim chybám:',
     'ERR_LANG_CANNOT_DELETE_FILE' => 'Nemožno zmazať súbor:',
@@ -239,7 +239,7 @@ $mod_strings = array(
     'LBL_CLOSE' => 'Zavrieť',
     'LBL_THREE' => '3',
     'LBL_CONFIRM_BE_CREATED' => 'byť vytvorený',
-    'LBL_CONFIRM_DB_TYPE' => 'Typ databázy',
+    'LBL_CONFIRM_DB_TYPE' => 'Typ databáze',
     'LBL_CONFIRM_NOT' => 'nie',
     'LBL_CONFIRM_TITLE' => 'Potvrdiť Nadstavenia',
     'LBL_CONFIRM_WILL' => 'chcieť',
