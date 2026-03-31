@@ -61,7 +61,7 @@ $mod_strings['LBL_MAP_LEGEND'] = 'Légende :';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'Groupes:';
 $mod_strings['LBL_MAP_GROUP'] = 'Group';
 $mod_strings['LBL_MAP_TYPE'] = 'Type';
-$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Assigned to:';
+$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Assigné à :';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'Obtenir les Directions';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'Vue Google Maps';
 
@@ -71,8 +71,8 @@ $mod_strings['LNK_MAP_LIST'] = 'Lister les cartes';
 
 $mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Geocoding Test';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'Carte rapide';
-$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'None';
-$mod_strings['LBL_MAP_ADDRESS'] = 'Address';
+$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'Aucun';
+$mod_strings['LBL_MAP_ADDRESS'] = 'Adresse';
 $mod_strings['LBL_MAP_PROCESS'] = 'Traiter !';
 
 $mod_strings['LBL_MAP_LAST_STATUS'] = 'Dernier statut de géocodage';
@@ -85,7 +85,7 @@ $mod_strings['LBL_ZERO_RESULTS'] = 'Aucun résultat';
 $mod_strings['LBL_OK'] = 'Ok';
 $mod_strings['LBL_INVALID_REQUEST'] = 'Demande non valide';
 $mod_strings['LBL_APPROXIMATE'] = 'Environ';
-$mod_strings['LBL_EMPTY'] = 'Empty';
+$mod_strings['LBL_EMPTY'] = 'Vide';
 
 $mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Total';
 $mod_strings['LBL_MODULE_RESET_HEADING'] = 'Reset';
@@ -96,7 +96,7 @@ $mod_strings['LBL_EXPORT_ADDRESS_URL'] = 'URL&#39; s d\'export';
 $mod_strings['LBL_EXPORT_INSTRUCTIONS'] = 'Utiliser les liens ci-dessous pour exporter les adresses complètes ayant besoin d’une information de geocodage. Puis utilisez un outil de géocodage batch en ligne ou hors ligne pour géocoder les adresses. Lorsque vous avez fini de géocodage, importer les adresses dans le module de Cache d’adresses à utiliser avec vos cartes. Noter que le module du Cache de l’adresse est facultatif. Toutes les informations de géolocalisation sont stockées dans le module représentatif.';
 $mod_strings['LBL_ADDRESS_CACHE'] = 'Address Cache';
 $mod_strings['LBL_ADD_TO_TARGET_LIST'] = 'Ajouter à la liste des cibles';
-$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Processing...';
+$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Traitement en cours...';
 
 
 $mod_strings['LBL_CONFIG_TITLE'] = 'Paramètres de configuration';
@@ -185,7 +185,7 @@ $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = "Remarque importante : Tous 
 $mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Areas';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'Marqueurs';
 $mod_strings['LBL_PARENT_ID'] = 'Parent ID';
-$mod_strings['LBL_JJWP_PARTNERS'] = 'JJWP Partners';
+$mod_strings['LBL_JJWP_PARTNERS'] = 'Partenaires JJWP';
 $mod_strings['LBL_GET_GOOGLE_API_KEY'] = 'Obtenir une clé';
 $mod_strings['LBL_GOOGLE_API_KEY'] = 'Clé d’Api Google';
 $mod_strings['LBL_ERROR_NO_GOOGLE_API_KEY'] = 'Veuillez régler la Google Api Key dans le panneau d\'administration de Google Maps.';
