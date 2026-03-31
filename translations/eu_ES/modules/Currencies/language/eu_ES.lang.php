@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_MODULE_NAME' => 'Currencies',
     'LBL_LIST_FORM_TITLE' => 'Currencies',
-    'LBL_CURRENCY' => 'Currency',
+    'LBL_CURRENCY' => 'Moneta',
     'LBL_ADD' => 'Add',
     'LBL_MERGE' => 'Merge',
     'LBL_MERGE_TXT' => 'Please select the currencies you would like to map to the selected currency. This will delete all the currencies with a checkmark and reassign any value associated with them to the selected currency.',
@@ -75,6 +75,6 @@ $mod_strings = array(
             'Active' => 'Active',
             'Inactive' => 'Inactive',
         ),
-    'LBL_CREATED_BY' => 'Created By',
+    'LBL_CREATED_BY' => 'Sortzailea',
     'LBL_EDIT_LAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
 );
