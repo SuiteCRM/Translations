@@ -48,11 +48,11 @@ $mod_strings = array(
     'LBL_NUMBER' => 'Número:',
     'LBL_STATUS' => 'Status:',
     'LBL_PRIORITY' => 'Prioritat:',
-    'LBL_DESCRIPTION' => 'Description:',
+    'LBL_DESCRIPTION' => 'Descripció: ',
     'LBL_RESOLUTION' => 'Resolució',
     'LBL_LAST_MODIFIED' => 'Modificat',
     'LBL_ASSIGNED_TO_ID' => 'Assignat A:',
-    'LBL_ASSIGNED_TO_NAME' => 'User:',
+    'LBL_ASSIGNED_TO_NAME' => 'Usuari:',
     'LBL_WORK_LOG' => 'Registre d\'Activitat:',
     'LBL_CREATED_BY' => 'Creat per:',
     'LBL_DATE_ENTERED' => 'Date Created:',
@@ -63,6 +63,6 @@ $mod_strings = array(
     'LBL_SUBJECT' => 'Assumpte:',
 
     'LBL_EDIT_BUTTON' => 'Edit',
-    'LBL_REMOVE' => 'Remove',
+    'LBL_REMOVE' => 'Eliminar',
 
 );
