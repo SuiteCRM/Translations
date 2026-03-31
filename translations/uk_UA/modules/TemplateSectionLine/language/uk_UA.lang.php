@@ -46,9 +46,9 @@ $mod_strings = array(
     'LBL_DESCRIPTION' => 'Опис',
     'LBL_NAME' => 'Назва',
     'LBL_LIST_NAME' => 'Назва',
-    'LBL_EDIT_BUTTON' => 'Правка',
-    'LBL_REMOVE' => 'Видалити',
-    'LBL_GRP' => 'Група',
-    'LBL_ORD' => 'Замовлення',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
+    'LBL_GRP' => 'Group',
+    'LBL_ORD' => 'Order',
     'LBL_THUMBNAIL' => 'Thumbnail',
 );
