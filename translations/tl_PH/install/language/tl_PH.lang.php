@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_BASIC' => 'Saligan',
+    'LBL_BASIC' => 'BASIC',
     'LBL_BASIC_SEARCH' => 'Mabilis na pag sala',
     'LBL_ADVANCED_SEARCH' => 'Naunang pag Sala',
     'LBL_BASIC_TYPE' => 'Mga Simpleng Klase',
@@ -645,8 +645,8 @@ Ang ekstensyon ng PHP ay tumigil sa pag-upload ng payl. Ang PHP ay hindi nagbibi
     'LBL_OLD_PHP_MSG' => 'The recommended PHP version to install SuiteCRM is %s <br />The minimum PHP version required is %s<br />You are using PHP version %s, which is EOL: <a href="https://www.php.net/eol.php">https://www.php.net/eol.php</a>.<br />Please consider upgrading your PHP version. ',
     'LBL_OLD_PHP_OK' => 'Alam ko ang mga peligro at nais na magpatuloy.',
 
-    'LBL_DBCONF_TITLE_USER_INFO_LABEL' => 'Ang gumagamit',
-    'LBL_DBCONFIG_MSG3_LABEL' => 'Ang pangalan ng database',
+    'LBL_DBCONF_TITLE_USER_INFO_LABEL' => 'Ang Tagagamit',
+    'LBL_DBCONFIG_MSG3_LABEL' => 'Pangalan ng Database',
     'LBL_DBCONFIG_MSG3' => 'Naglalaman ng pangalan sa database ang data para sa halimbawa ng SuiteCRM na tungkol sa i-install mo.',
     'LBL_DBCONFIG_MSG2_LABEL' => 'Pangalan ng Host',
     'LBL_DBCONFIG_MSG2' => 'Ang pangalan ng web server o makina (host) ang database kung saan matatagpuan (tulad ng www.mydomain.com). Kung i-install nang lokal, mas mahusay na gamitin ang \'localhost\' kaysa sa \'127.0.0.1\', para sa mga dahilan ng pagganap.',
