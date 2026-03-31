@@ -44,9 +44,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
 
-    'LBL_NAME' => 'Názov',
+    'LBL_NAME' => 'Meno:',
     'LBL_NUMBER' => 'Číslo:',
-    'LBL_STATUS' => 'Stav:',
+    'LBL_STATUS' => 'Stav',
     'LBL_PRIORITY' => 'Priorita:',
     'LBL_DESCRIPTION' => 'Popis:',
     'LBL_RESOLUTION' => 'Rozhodnutie',
@@ -55,8 +55,8 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Používateľ:',
     'LBL_WORK_LOG' => 'Pracovný záznam',
     'LBL_CREATED_BY' => 'Vytvoril:',
-    'LBL_DATE_ENTERED' => 'Dátum vytvorenia',
-    'LBL_DATE_MODIFIED' => 'Dátum úpravy',
+    'LBL_DATE_ENTERED' => 'Dátum vytvorenia:',
+    'LBL_DATE_MODIFIED' => 'Dátum zmeny:',
     'LBL_MODIFIED_BY' => 'Naposledy upravované:',
     'LBL_ASSIGNED_USER' => 'Pridelený uživateľ',
     'LBL_TYPE' => 'Typ:',
