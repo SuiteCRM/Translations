@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_ID' => 'Възложен на оператор с идентификационен номер',
     'LBL_ASSIGNED_TO_NAME' => 'Ръководител на проекта',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date Created',
@@ -82,7 +82,7 @@ $mod_strings = array(
     'LBL_NEW_PROJECT' => 'Create Project',
     'LBL_CANCEL_PROJECT' => 'Cancel',
 
-    'LBL_SUBTASK' => 'Task',
+    'LBL_SUBTASK' => 'Задача',
     'LBL_MILESTONE_FLAG' => 'Milestone',
     'LBL_RELATIONSHIP_TYPE' => 'Relation Type',
     'LBL_LAG' => 'Lag',
@@ -122,7 +122,7 @@ $mod_strings = array(
     'LBL_TOOLTIP_TITLE' => 'Hint',
     'LBL_TOOLTIP_TEXT' => 'Copies All tasks with assigned users',
 
-    'LBL_EMAIL' => 'Email',
+    'LBL_EMAIL' => 'Електронна поща',
     'LBL_PHONE' => 'Служебен телефон:',
     'LBL_ADD_BUTTON' => 'Add',
     'LBL_ADD_INVITEE' => 'Add Resource',
