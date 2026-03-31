@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_BASIC' => 'Cơ bản',
+    'LBL_BASIC' => 'BASIC',
     'LBL_BASIC_SEARCH' => 'Lọc nhanh',
     'LBL_ADVANCED_SEARCH' => 'Bộ lọc nâng cao',
     'LBL_BASIC_TYPE' => 'Loại cơ bản',
@@ -149,7 +149,7 @@ $mod_strings = array(
     'ERROR_PACKAGE_TYPE' => 'Tệp kê khai chỉ định một loại gói không được công nhận',
     'ERROR_VERSION_INCOMPATIBLE' => 'Các tập tin được tải lên là không tương thích với phiên bản này của SuiteCRM: ',
 
-    'LBL_BACK' => 'Quay lại',
+    'LBL_BACK' => 'Back',
     'LBL_CANCEL' => 'Hủy',
     'LBL_ACCEPT' => 'Đồng ý',
     'LBL_CHECKSYS_LEGACY_CACHE' => 'Writable Legacy Cache Sub-Directories',
@@ -275,7 +275,7 @@ $mod_strings = array(
     'LBL_DISABLED_HELP_2' => 'Support Forums',
     'LBL_APP_NOT_INSTALLED' => 'SuiteCRM chưa được cài đặt. Điểm truy cập cần có SuiteCRM đã cài đặt, vui lòng cài đặt trước.',
     'LBL_DISABLED_TITLE_2' => 'Cài đặt SuiteCRM đã bị vô hiệu',
-    'LBL_HELP' => 'Giúp đỡ',
+    'LBL_HELP' => 'Help',
     'LBL_INSTALL' => 'Cài đặt',
     'LBL_INSTALL_TYPE_TITLE' => 'Tùy chọn cài đặt',
     'LBL_INSTALL_TYPE_SUBTITLE' => 'Lựa chọn kiểu cài đặt',
@@ -312,7 +312,7 @@ $mod_strings = array(
 
     'LBL_LOCALE_NAME_FIRST' => 'David',
     'LBL_LOCALE_NAME_LAST' => 'Livingstone',
-    'LBL_LOCALE_NAME_SALUTATION' => 'Tiến sĩ.',
+    'LBL_LOCALE_NAME_SALUTATION' => 'Dr.',
 
     'LBL_ML_ACTION' => 'Hành động',
     'LBL_ML_DESCRIPTION' => 'Mô tả',
@@ -327,7 +327,7 @@ $mod_strings = array(
     'LBL_MSSQL_SQLSRV' => 'SQL Server (Microsoft SQL Server Driver cho PHP)',
     'LBL_MYSQL' => 'MySQL',
     'LBL_MYSQLI' => 'MySQL (mysqli extension)',
-    'LBL_NEXT' => 'Tiếp theo',
+    'LBL_NEXT' => 'Tới',
     'LBL_NO' => 'Không',
     'LBL_PERFORM_ADMIN_PASSWORD' => 'Cài đặt mật khẩu quản trị trang web',
     'LBL_PERFORM_CONFIG_PHP' => 'Đang tạo file cấu hình SuiteCRM',
@@ -349,7 +349,7 @@ $mod_strings = array(
     'LBL_PERFORM_SUCCESS' => 'Thành công!',
     'LBL_PERFORM_TABLES' => 'Tạo các bảng ứng dụng SuiteCRM, các bảng kiểm toán và quan hệ của các dữ liệu',
     'LBL_PERFORM_TITLE' => 'Thực hiện cài đặt',
-    'LBL_PRINT' => 'In',
+    'LBL_PRINT' => 'Print',
     'LBL_REG_CONF_1' => 'Vui lòng điền đầy đủ thông tin dưới đây để nhận các thông báo về sản phẩm mới, tin đào tạo, tin khuyến mãi và các sự kiến đặc biệt từ SuiteCRM. Chúng tôi không bán, cho thuê, chia sẻ hoặc phân phối bất kì thông tin nào cho bên thứ ba.',
     'LBL_REG_CONF_3' => 'Cảm ơn bạn đã đăng ký. Nhấn vào nút Hoàn thành để đăng nhập vào SuiteCRM. Bạn sẽ cần phải đăng nhập lần đầu tiên sử dụng tên người dùng "admin" và mật khẩu bạn đã nhập trong bước 2.',
     'LBL_REG_TITLE' => 'Đăng ký',
@@ -477,7 +477,7 @@ $mod_strings = array(
     'LBL_WELCOME_CHOOSE_LANGUAGE' => '<b>Chọn ngôn ngữ của bạn</b>',
     'LBL_WELCOME_SETUP_WIZARD' => 'Cài đặt Wizard',
     'LBL_WIZARD_TITLE' => 'Cài đặt SuiteCRM Wizard: ',
-    'LBL_YES' => 'Có',
+    'LBL_YES' => 'Yes',
 
     'LBL_PATCHES_TITLE' => 'Cài đặt các bản vá lỗi mới nhất',
     'LBL_MODULE_TITLE' => 'Cài đặt gói ngôn ngữ',
@@ -603,7 +603,7 @@ $contact_user_link_guid',
     'LBL_TIME_FORMAT' => 'Định dạng thời gian:',
     'LBL_TIMEZONE' => 'Múi giờ:',
     'LBL_LANGUAGE' => 'Ngôn ngữ:',
-    'LBL_CURRENCY' => 'Tiền tệ:',
+    'LBL_CURRENCY' => 'Currency:',
     'LBL_CURRENCY_SYMBOL' => 'Biểu tượng loại tiền:',
     'LBL_CURRENCY_ISO4217' => 'Mã tiền tệ ISO 4217:',
     'LBL_NUMBER_GROUPING_SEP' => 'phân tách 1000s:',
@@ -622,7 +622,7 @@ $contact_user_link_guid',
 
     'LBL_INSTALL_PROCESS' => 'Cài đặt...',
 
-    'LBL_EMAIL_ADDRESS' => 'Địa chỉ Email :',
+    'LBL_EMAIL_ADDRESS' => 'Email Address:',
     'ERR_ADMIN_EMAIL' => 'Địa chỉ Email của Quản trị viên không chính xác.',
     'ERR_SITE_URL' => 'URL trang web là bắt buộc.',
 
