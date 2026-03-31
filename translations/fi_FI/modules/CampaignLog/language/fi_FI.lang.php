@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_LIST_ID' => 'Prospektilistan tunnus',
-    'LBL_ID' => 'ID',
+    'LBL_ID' => 'Tunnus',
     'LBL_TARGET_TRACKER_KEY' => 'Prospektin seuranta-avain',
     'LBL_TARGET_ID' => 'Prospektin tunnus',
     'LBL_TARGET_TYPE' => 'Prospektin tyyppi',
@@ -53,7 +53,7 @@ $mod_strings = array(
     'LBL_RELATED_ID' => 'Liittyvän tunnus',
     'LBL_RELATED_TYPE' => 'Liittyvän tyypi',
     'LBL_DELETED' => 'Deleted',
-    'LBL_MODULE_NAME' => 'Campaign Log',
+    'LBL_MODULE_NAME' => 'Kampanjaloki',
     'LBL_LIST_RECIPIENT_EMAIL' => 'Vastaanottajan sähköpostiosoite',
     'LBL_LIST_RECIPIENT_NAME' => 'Vastaanottajan nimi',
     'LBL_ARCHIVED' => 'Archived',
@@ -68,7 +68,7 @@ $mod_strings = array(
     'LBL_LIST_TYPE' => 'Type',
     'LBL_LIST_END_DATE' => 'End Date',
     'LBL_DATE_ENTERED' => 'Kirjauspvm',
-    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_DATE_MODIFIED' => 'Muokkauspvm',
     'LBL_MODIFIED' => 'Muokkaaja: ',
     'LBL_CREATED' => 'Tekijä: ',
     'LBL_TEAM' => 'Tiimi: ',
@@ -96,6 +96,6 @@ $mod_strings = array(
     'LBL_CAMPAIGNS' => 'Campaigns',
     'LBL_LIST_MARKETING_NAME' => 'Markkinointitunnus',
 
-    'LBL_MARKETING_ID' => 'Marketing Id',
+    'LBL_MARKETING_ID' => 'Markkinointitunnus',
     'LBL_RELATED_NAME' => 'Liittyvä nimi',
 );
