@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'ERR_DELETE_RECORD' => 'Per eliminare l\'azienda deve essere specificato il numero del record.',
+    'ERR_DELETE_RECORD' => 'È necessario specificare un numero di record per eliminare l\'account.',
     'LBL_TOOL_TIP_BOX_TITLE' => 'KnowledgeBase Suggerimenti',
     'LBL_TOOL_TIP_TITLE' => 'Titolo:',
     'LBL_TOOL_TIP_BODY' => 'Corpo:',
@@ -57,8 +57,8 @@ $mod_strings = array(
     'LBL_SUGGESTION_BOX_REL' => 'Rilevanza',
 
     'LBL_ACCOUNT_ID' => 'ID Azienda',
-    'LBL_ACCOUNT_NAME' => 'Nome Azienda:',
-    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Aziende',
+    'LBL_ACCOUNT_NAME' => 'Nome azienda:',
+    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Accounts',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Attività',
     'LBL_BUGS_SUBPANEL_TITLE' => 'Errori',
     'LBL_CASE_NUMBER' => 'Numero Reclamo:',
@@ -85,9 +85,9 @@ $mod_strings = array(
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Utente Assegnato',
     'LBL_LIST_ACCOUNT_NAME' => 'Nome Azienda',
     'LBL_LIST_ASSIGNED' => 'Assegnato a',
-    'LBL_LIST_CLOSE' => 'Chiusa',
+    'LBL_LIST_CLOSE' => 'Chiudi',
     'LBL_LIST_FORM_TITLE' => 'Elenco Reclami',
-    'LBL_LIST_LAST_MODIFIED' => 'Ultima Modifica',
+    'LBL_LIST_LAST_MODIFIED' => 'Ultima modifica',
     'LBL_LIST_MY_CASES' => 'I miei Reclami Aperti',
     'LBL_LIST_NUMBER' => 'Numero.',
     'LBL_LIST_PRIORITY' => 'Priorità',
@@ -96,16 +96,16 @@ $mod_strings = array(
 
     'LNK_CASE_LIST' => 'Visualizza Reclami',
     'LNK_NEW_CASE' => 'Nuovo Reclamo',
-    'LBL_LIST_DATE_CREATED' => 'Data di Creazione',
-    'LBL_ASSIGNED_TO_NAME' => 'Assegnato a',
-    'LBL_TYPE' => 'Gruppo/Personale',
+    'LBL_LIST_DATE_CREATED' => 'Data Creazione',
+    'LBL_ASSIGNED_TO_NAME' => 'Assegnato a:',
+    'LBL_TYPE' => 'Tipo',
     'LBL_WORK_LOG' => 'Registro Operazioni',
     'LNK_IMPORT_CASES' => 'Importa Reclami',
 
     'LBL_CREATED_USER' => 'Utente Creato',
     'LBL_MODIFIED_USER' => 'Utente Modificato',
     'LBL_PROJECT_SUBPANEL_TITLE' => 'Progetti',
-    'LBL_CASE_INFORMATION' => 'Informazioni', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_CASE_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
     // SNIP
     'LBL_UPDATE_TEXT' => 'Aggiorna Testo', //Field for Case updates with text only
