@@ -93,7 +93,7 @@ $mod_strings = array(
     'LBL_ED_CREATE_DROPDOWN' => 'Opret en rulleliste',
     'LBL_DROPDOWN_NAME' => 'Rullelistenavn:',
     'LBL_DROPDOWN_LANGUAGE' => 'Rullelistesprog:',
-    'LBL_TABGROUP_LANGUAGE' => 'Language:',
+    'LBL_TABGROUP_LANGUAGE' => 'Sprog:',
 
 //END WIZARDS
 
