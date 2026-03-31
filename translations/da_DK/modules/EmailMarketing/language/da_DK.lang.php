@@ -52,7 +52,7 @@ $mod_strings = array(
     'LBL_NAME' => 'Name: ',
     'LBL_LIST_NAME' => 'Name',
     'LBL_LIST_FROM_ADDR' => 'Fra email',
-    'LBL_LIST_DATE_START' => 'Start Date',
+    'LBL_LIST_DATE_START' => 'Startdato',
     'LBL_LIST_TEMPLATE_NAME' => 'Email Template',
     'LBL_LIST_STATUS' => 'Status',
     'LBL_STATUS' => 'Status',
@@ -66,8 +66,8 @@ $mod_strings = array(
 
     'LBL_FROM_NAME' => 'Fra navn: ',
     'LBL_FROM_ADDR' => 'Fra email adresse: ',
-    'LBL_DATE_START' => 'Start Date',
-    'LBL_TIME_START' => 'Start Time',
+    'LBL_DATE_START' => 'Startdato',
+    'LBL_TIME_START' => 'Starttidspunkt',
     'LBL_START_DATE_TIME' => 'Startdato & tidspunkt: ',
     'LBL_TEMPLATE' => 'Email skabelon: ',
 
@@ -76,7 +76,7 @@ $mod_strings = array(
 
     'LNK_NEW_CAMPAIGN' => 'Create Campaign',
     'LNK_CAMPAIGN_LIST' => 'Campaigns',
-    'LNK_NEW_PROSPECT_LIST' => 'Create Target List',
+    'LNK_NEW_PROSPECT_LIST' => 'Opret målgruppe liste',
     'LNK_PROSPECT_LIST_LIST' => 'Target Lists',
     'LNK_NEW_PROSPECT' => 'Create Target',
     'LNK_PROSPECT_LIST' => 'Targets',
