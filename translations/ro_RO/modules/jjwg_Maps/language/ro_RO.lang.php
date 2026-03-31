@@ -42,10 +42,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_MAP'] = 'Map';
-$mod_strings['LBL_MODULE_NAME'] = 'Maps';
+$mod_strings['LBL_MAP'] = 'Hartă';
+$mod_strings['LBL_MODULE_NAME'] = 'Hărți';
 $mod_strings['LBL_MODULE_TITLE'] = 'Hărți: Acasă';
-$mod_strings['LBL_MODULE_ID'] = 'Maps';
+$mod_strings['LBL_MODULE_ID'] = 'Hărți';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'Listare hărți';
 $mod_strings['LBL_MAP_CUSTOM_MARKER'] = 'Marker personalizat';
 $mod_strings['LBL_MAP_CUSTOM_AREA'] = 'Zonă personalizată';
@@ -59,59 +59,59 @@ $mod_strings['LBL_UNIT_TYPE'] = 'Tipul unității:';
 $mod_strings['LBL_MAP_DISPLAY'] = 'Afișare hartă';
 $mod_strings['LBL_MAP_LEGEND'] = 'Legendă:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'Grupuri:';
-$mod_strings['LBL_MAP_GROUP'] = 'Group';
-$mod_strings['LBL_MAP_TYPE'] = 'Type';
-$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Assigned to:';
+$mod_strings['LBL_MAP_GROUP'] = 'Grup';
+$mod_strings['LBL_MAP_TYPE'] = 'Tip';
+$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Atribuit lui:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'Obțineți Indicații de orientare';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'Vizualizare hărți Google';
 
 $mod_strings['LNK_NEW_MAP'] = 'Adaugă hartă nouă';
-$mod_strings['LNK_NEW_RECORD'] = 'Add New Map';
+$mod_strings['LNK_NEW_RECORD'] = 'Adaugă hartă nouă';
 $mod_strings['LNK_MAP_LIST'] = 'Listă de hărți';
 
-$mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Geocoding Test';
+$mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Test Geocode-are';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'Hartă cu rază rapidă';
-$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'None';
-$mod_strings['LBL_MAP_ADDRESS'] = 'Address';
+$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'Nimic';
+$mod_strings['LBL_MAP_ADDRESS'] = 'Adresă';
 $mod_strings['LBL_MAP_PROCESS'] = 'Procesează-l!';
 
 $mod_strings['LBL_MAP_LAST_STATUS'] = 'Ultimul status Geocode';
 $mod_strings['LBL_GEOCODED_COUNTS'] = 'Module numărare Geocode';
 $mod_strings['LBL_CRON_URL'] = 'URL cron:';
-$mod_strings['LBL_MODULE_HEADING'] = 'Module';
+$mod_strings['LBL_MODULE_HEADING'] = 'Modul';
 
 $mod_strings['LBL_N/A'] = 'Neaplicabil';
 $mod_strings['LBL_ZERO_RESULTS'] = 'Fără rezultate';
 $mod_strings['LBL_OK'] = 'Ok';
 $mod_strings['LBL_INVALID_REQUEST'] = 'Cerere invalidă';
 $mod_strings['LBL_APPROXIMATE'] = 'Aproximare';
-$mod_strings['LBL_EMPTY'] = 'Empty';
+$mod_strings['LBL_EMPTY'] = 'Gol';
 
 $mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Total';
-$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Reset';
+$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Reseteaza';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = 'Tabelul de mai jos arată numărul de obiecte Geocode, grupate după răspuns. Rețineți că limita standard de utilizare Google Maps este de 2500 de cereri pe zi. Acest modul va salva informațiile de geocodificare a adreselor în timpul procesării pentru a reduce numărul total de cereri necesare.';
 
 $mod_strings['LBL_CRON_INSTRUCTIONS'] = 'Pentru a procesa cererile de geocodare este recomandat să configurați un Cron-Job. A fost creat un punct de intrare personalizat în acest scop și poate fi accesat fără autentificare. URL-ul indicat mai jos este destinat utilizării cu o sarcină administrativă programată. Vă rugăm să consultați documentația pentru mai multe informații.';
 $mod_strings['LBL_EXPORT_ADDRESS_URL'] = 'Exportă URL-uri';
 $mod_strings['LBL_EXPORT_INSTRUCTIONS'] = 'Utilizați link-urile de mai jos pentru a exporta adrese complete care au nevoie de informații de geocodare. Apoi folosește o unealtă de geocodare online sau offline pentru a geocoda adresele. Când ați terminat de geocodat, importați adresele în modulul Cache de adrese pentru a fi utilizat cu hărțile dvs. Notă: modulul Cache de adrese este opțional. Toate informațiile de geocodare sunt stocate în modulul reprezentativ.';
-$mod_strings['LBL_ADDRESS_CACHE'] = 'Address Cache';
+$mod_strings['LBL_ADDRESS_CACHE'] = 'Adresă cache';
 $mod_strings['LBL_ADD_TO_TARGET_LIST'] = 'Adaugă la lista țintă';
-$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Processing...';
+$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Procesare...';
 
 
 $mod_strings['LBL_CONFIG_TITLE'] = 'Setări de configurare';
 $mod_strings['LBL_CONFIG_SAVED'] = 'Setări salvate cu succes!';
-$mod_strings['LBL_BILLING_ADDRESS'] = 'Billing Address';
-$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Shipping Address';
-$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Primary Address';
+$mod_strings['LBL_BILLING_ADDRESS'] = 'Adresa de facturare';
+$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Adresa livrare';
+$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Adresa principală';
 $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'Adresă alternativă';
-$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex Relate';
+$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Relaționare flexibilă';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Adresă (Simplu, Utilizatori)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'Personalizat (Custom Controller Logic)';
-$mod_strings['LBL_ENABLED'] = 'Enabled';
-$mod_strings['LBL_DISABLED'] = 'Disabled';
+$mod_strings['LBL_ENABLED'] = 'Activat';
+$mod_strings['LBL_DISABLED'] = 'Dezactivat';
 $mod_strings['LBL_DEFAULT'] = 'Implicit:';
-$mod_strings['LBL_CONFIG_DEFAULT'] = 'Default:';
+$mod_strings['LBL_CONFIG_DEFAULT'] = 'Implicit:';
 
 $mod_strings['LBL_CONFIG_VALID_GEOCODE_MODULES'] = 'Module de Geocode valide:';
 $mod_strings['LBL_CONFIG_VALID_GEOCODE_TABLES'] = 'Tabele de Geocode valide:';
@@ -182,10 +182,10 @@ $mod_strings['LBL_CONFIG_MAP_CLUSTER_GRID_SIZE_DESC'] = "'map_clusterer_grid_siz
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_TITLE'] = "Grupează marcajele pe hartă la nivel maxim de mărire:";
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_DESC'] = "'map_clusterer_max_zoom' este folosit pentru a stabili nivelul maxim de mărire la care gruparea care nu va fi aplicată.";
 $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = "Notă importantă: Toate setările salvate pot fi găsite în tabelul 'config' din categoria 'jwg'. Nota: fișierul controller.php personalizat nu mai trebuie fi folosit pentru a suprascrie setările.";
-$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Areas';
+$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Zone';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'Marcajele';
-$mod_strings['LBL_PARENT_ID'] = 'Parent ID';
-$mod_strings['LBL_JJWP_PARTNERS'] = 'JJWP Partners';
+$mod_strings['LBL_PARENT_ID'] = 'ID Părinte';
+$mod_strings['LBL_JJWP_PARTNERS'] = 'Parteneri JJWP';
 $mod_strings['LBL_GET_GOOGLE_API_KEY'] = 'Obține cheia de acces';
 $mod_strings['LBL_GOOGLE_API_KEY'] = 'Cheie Api Google';
 $mod_strings['LBL_ERROR_NO_GOOGLE_API_KEY'] = 'Vă rugăm să setați Google Api Key în panoul administrativ Google Maps.';
