@@ -50,15 +50,15 @@ $mod_strings = array(
     'LBL_DELETE_BUTTON_TITLE' => 'Ta bort detta sparade filter',
     'LBL_SAVE_BUTTON_TITLE' => 'Spara det aktuella filtret',
     'LBL_LIST_NAME' => 'Namn',
-    'LBL_LIST_MODULE' => 'Modul',
+    'LBL_LIST_MODULE' => 'Module',
     'LBL_ORDER_BY_COLUMNS' => 'Order by column',
-    'LBL_DIRECTION' => 'Inriktning',
+    'LBL_DIRECTION' => 'Direction',
     'LBL_SAVE_SEARCH_AS' => 'Spara filter som:',
-    'LBL_ASCENDING' => 'Stigande',
-    'LBL_DESCENDING' => 'Fallande',
-    'LBL_MODIFY_CURRENT_FILTER' => 'Ändra nuvarande filter',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
-    'LBL_CREATED_BY' => 'Skapad Av',
+    'LBL_CREATED_BY' => 'Created By',
     'LBL_QUICK_FILTER' => 'Snabbfilter',
 
 
