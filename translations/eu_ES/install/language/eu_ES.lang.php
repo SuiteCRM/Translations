@@ -505,7 +505,7 @@ $contact_user_link_guid',
 
     'LBL_WIZARD_SYSTEM_TITLE' => 'Branding',
     'LBL_WIZARD_SYSTEM_DESC' => 'Provide your organization\'s name and logo in order to brand your SuiteCRM.',
-    'SYSTEM_NAME_WIZARD' => 'Name:',
+    'SYSTEM_NAME_WIZARD' => 'Izena:',
     'SYSTEM_NAME_HELP' => 'This is the name that displays in the title bar of your browser.',
     'NEW_LOGO' => 'Logo berria igo (212x40)',
     'NEW_LOGO_HELP' => 'The image file format can be either .png or .jpg. The maximum height is 170px, and the maximum width is 450px. Any image uploaded that is larger in any direction will be scaled to these max dimensions.',
