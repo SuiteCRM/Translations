@@ -47,18 +47,18 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_SECURITYGROUPS' => 'Security Groups',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
-    'LBL_ID' => 'ID',
+    'LBL_ID' => 'Tunnus',
     'LBL_DATE_ENTERED' => 'Date Created',
-    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_DATE_MODIFIED' => 'Muokkauspvm',
     'LBL_MODIFIED' => 'Modified By',
     'LBL_MODIFIED_NAME' => 'Modified By Name',
     'LBL_CREATED' => 'Created By',
     'LBL_DESCRIPTION' => 'Description',
     'LBL_DELETED' => 'Deleted',
-    'LBL_NAME' => 'Name',
+    'LBL_NAME' => 'Nimi',
     'LBL_CREATED_USER' => 'Created by User',
     'LBL_MODIFIED_USER' => 'Modified by User',
-    'LBL_LIST_NAME' => 'Name',
+    'LBL_LIST_NAME' => 'Nimi',
     'LBL_EDIT_BUTTON' => 'Edit',
     'LBL_REMOVE' => 'Remove',
     'LBL_LIST_FORM_TITLE' => 'Pivot List',
@@ -82,7 +82,7 @@ $mod_strings = array(
     'LBL_AN_UNSUPPORTED_DB' => 'Sorry, Suite Spots are currently configured for MySQL and MS SQL only',
 
     //Analytics labels for accounts pivot
-    'LBL_AN_ACCOUNTS_ACCOUNT_NAME' => 'Name',
+    'LBL_AN_ACCOUNTS_ACCOUNT_NAME' => 'Nimi',
     'LBL_AN_ACCOUNTS_ACCOUNT_TYPE' => 'Account Type',
     'LBL_AN_ACCOUNTS_ACCOUNT_INDUSTRY' => 'Industry',
     'LBL_AN_ACCOUNTS_ACCOUNT_BILLING_COUNTRY' => 'Billing Country',
@@ -91,7 +91,7 @@ $mod_strings = array(
     'LBL_AN_LEADS_ASSIGNED_USER' => 'Assigned User',
     'LBL_AN_LEADS_STATUS' => 'Status',
     'LBL_AN_LEADS_LEAD_SOURCE' => 'Lead Source',
-    'LBL_AN_LEADS_CAMPAIGN_NAME' => 'Campaign Name',
+    'LBL_AN_LEADS_CAMPAIGN_NAME' => 'Kampanjan nimi',
     'LBL_AN_LEADS_YEAR' => 'Year',
     'LBL_AN_LEADS_QUARTER' => 'Quarter',
     'LBL_AN_LEADS_MONTH' => 'Month',
@@ -130,7 +130,7 @@ $mod_strings = array(
 
     //Analytics labels for the activities pivot
     'LBL_AN_ACTIVITIES_TYPE' => 'Type',
-    'LBL_AN_ACTIVITIES_NAME' => 'Name',
+    'LBL_AN_ACTIVITIES_NAME' => 'Nimi',
     'LBL_AN_ACTIVITIES_STATUS' => 'Status',
     'LBL_AN_ACTIVITIES_ASSIGNED_TO' => 'Assigned User',
 
@@ -147,10 +147,10 @@ $mod_strings = array(
     'LBL_AN_MARKETING_ACCOUNT_NAME' => 'Account Name',
 
     //Analytics labels for the marketing activities pivot
-    'LBL_AN_MARKETINGACTIVITY_CAMPAIGN_NAME' => 'Campaign Name',
+    'LBL_AN_MARKETINGACTIVITY_CAMPAIGN_NAME' => 'Kampanjan nimi',
     'LBL_AN_MARKETINGACTIVITY_ACTIVITY_DATE' => 'Activity Date',
     'LBL_AN_MARKETINGACTIVITY_ACTIVITY_TYPE' => 'Activity Type',
-    'LBL_AN_MARKETINGACTIVITY_RELATED_TYPE' => 'Related Type',
+    'LBL_AN_MARKETINGACTIVITY_RELATED_TYPE' => 'Liittyvän tyypi',
     'LBL_AN_MARKETINGACTIVITY_RELATED_ID' => 'Related ID',
 
     //Analytics labels for the quotes pivot
