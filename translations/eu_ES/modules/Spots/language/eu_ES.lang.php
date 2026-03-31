@@ -43,16 +43,16 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_ID' => 'Esleitutako erabiltzailearen Id',
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
-    'LBL_SECURITYGROUPS' => 'Security Groups',
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
+    'LBL_SECURITYGROUPS' => 'Segurtasun-taldeak',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Segurtasun-taldeak',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date Created',
     'LBL_DATE_MODIFIED' => 'Date Modified',
     'LBL_MODIFIED' => 'Modified By',
-    'LBL_MODIFIED_NAME' => 'Modified By Name',
-    'LBL_CREATED' => 'Created By',
+    'LBL_MODIFIED_NAME' => 'Nork aldatua',
+    'LBL_CREATED' => 'Sortzailea',
     'LBL_DESCRIPTION' => 'Description',
     'LBL_DELETED' => 'Deleted',
     'LBL_NAME' => 'Name',
@@ -68,7 +68,7 @@ $mod_strings = array(
     'LNK_NEW_RECORD' => 'Create Pivot',
     'LNK_LIST' => 'View Pivot',
     'LBL_SEARCH_FORM_TITLE' => 'Search Pivot',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Historia ikusi',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_NEW_FORM_TITLE' => 'New Pivot',
     'LBL_CONFIG' => 'Config',
@@ -88,7 +88,7 @@ $mod_strings = array(
     'LBL_AN_ACCOUNTS_ACCOUNT_BILLING_COUNTRY' => 'Billing Country',
 
     //Analytics labels for leads pivot
-    'LBL_AN_LEADS_ASSIGNED_USER' => 'Assigned User',
+    'LBL_AN_LEADS_ASSIGNED_USER' => 'Nori esleitua',
     'LBL_AN_LEADS_STATUS' => 'Status',
     'LBL_AN_LEADS_LEAD_SOURCE' => 'Lead Source',
     'LBL_AN_LEADS_CAMPAIGN_NAME' => 'Campaign Name',
@@ -101,7 +101,7 @@ $mod_strings = array(
     //Analytics labels for sales pivot
     'LBL_AN_SALES_ACCOUNT_NAME' => 'Account Name',
     'LBL_AN_SALES_OPPORTUNITY_NAME' => 'Opportunity Name',
-    'LBL_AN_SALES_ASSIGNED_USER' => 'Assigned User',
+    'LBL_AN_SALES_ASSIGNED_USER' => 'Nori esleitua',
     'LBL_AN_SALES_OPPORTUNITY_TYPE' => 'OpportunityType',
     'LBL_AN_SALES_LEAD_SOURCE' => 'Lead Source',
     'LBL_AN_SALES_AMOUNT' => 'Amount',
@@ -126,13 +126,13 @@ $mod_strings = array(
     'LBL_AN_SERVICE_CREATED_QUARTER' => 'Created Quarter',
     'LBL_AN_SERVICE_CREATED_YEAR' => 'Created Year',
     'LBL_AN_SERVICE_CONTACT_NAME' => 'Contact Name',
-    'LBL_AN_SERVICE_ASSIGNED_TO' => 'Assigned User',
+    'LBL_AN_SERVICE_ASSIGNED_TO' => 'Nori esleitua',
 
     //Analytics labels for the activities pivot
     'LBL_AN_ACTIVITIES_TYPE' => 'Type',
     'LBL_AN_ACTIVITIES_NAME' => 'Name',
     'LBL_AN_ACTIVITIES_STATUS' => 'Status',
-    'LBL_AN_ACTIVITIES_ASSIGNED_TO' => 'Assigned User',
+    'LBL_AN_ACTIVITIES_ASSIGNED_TO' => 'Nori esleitua',
 
     //Analytics labels for the marketing pivot
     'LBL_AN_MARKETING_STATUS' => 'Status',
@@ -171,7 +171,7 @@ $mod_strings = array(
     'LBL_AN_QUOTES_ITEM_DISCOUNT_AMOUNT' => 'Discount Amount',
     'LBL_AN_QUOTES_ITEM_TOTAL' => 'Item Total',
     'LBL_AN_QUOTES_GRAND_TOTAL' => 'Grand Total',
-    'LBL_AN_QUOTES_ASSIGNED_TO' => 'Assigned User',
+    'LBL_AN_QUOTES_ASSIGNED_TO' => 'Nori esleitua',
     'LBL_AN_QUOTES_DATE_CREATED' => 'Date Created',
     'LBL_AN_QUOTES_DAY_CREATED' => 'Day Created',
     'LBL_AN_QUOTES_WEEK_CREATED' => 'Week Created',
