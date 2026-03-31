@@ -42,19 +42,19 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_ASSIGNED_TO_ID'] = 'Assigned User Id';
-$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Assigned to';
-$mod_strings['LBL_ID'] = 'ID';
-$mod_strings['LBL_DATE_ENTERED'] = 'Date Created';
-$mod_strings['LBL_DATE_MODIFIED'] = 'Date Modified';
-$mod_strings['LBL_MODIFIED'] = 'Modified By';
-$mod_strings['LBL_MODIFIED_NAME'] = 'Modified By Name';
-$mod_strings['LBL_CREATED'] = 'Created By';
-$mod_strings['LBL_DESCRIPTION'] = 'Description';
-$mod_strings['LBL_DELETED'] = 'Deleted';
+$mod_strings['LBL_ASSIGNED_TO_ID'] = 'Ταυτότητα Ανατεθειμένου Χειριστή';
+$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Ανατέθηκε σε';
+$mod_strings['LBL_ID'] = 'Ταυτότητα';
+$mod_strings['LBL_DATE_ENTERED'] = 'Ημ/νία καταχώρησης';
+$mod_strings['LBL_DATE_MODIFIED'] = 'Ημ/νία Τροποποίησης';
+$mod_strings['LBL_MODIFIED'] = 'Τροποποιήθηκε Από';
+$mod_strings['LBL_MODIFIED_NAME'] = 'Τροποποιήθηκε Από Όνομα';
+$mod_strings['LBL_CREATED'] = 'Δημιουργήθηκε Από';
+$mod_strings['LBL_DESCRIPTION'] = 'Περιγραφή';
+$mod_strings['LBL_DELETED'] = 'Διαγράφηκε';
 $mod_strings['LBL_NAME'] = 'Address';
-$mod_strings['LBL_CREATED_USER'] = 'Created by User';
-$mod_strings['LBL_MODIFIED_USER'] = 'Modified by User';
+$mod_strings['LBL_CREATED_USER'] = 'Δημιουργήθηκε από';
+$mod_strings['LBL_MODIFIED_USER'] = 'τροποποίηση από';
 $mod_strings['LBL_LIST_NAME'] = 'Address';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'Address Cache List';
 $mod_strings['LBL_MODULE_NAME'] = 'Address Cache';
@@ -69,4 +69,4 @@ $mod_strings['LBL_NEW_FORM_TITLE'] = 'New Address Cache';
 $mod_strings['LBL_LAT'] = 'Latitude';
 $mod_strings['LBL_LNG'] = 'Longitude';
 $mod_strings['LBL_CURRENT_USER_FILTER'] = 'Τα αντικείμενα μου';
-$mod_strings['LBL_ASSIGNED_TO'] = 'Assigned User';
+$mod_strings['LBL_ASSIGNED_TO'] = 'Ανατεθειμένος Χειριστής';
