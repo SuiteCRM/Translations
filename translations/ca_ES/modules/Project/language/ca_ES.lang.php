@@ -55,8 +55,8 @@ $mod_strings = array(
     'LBL_ASSIGNED_USER_NAME' => 'Project Manager:',
     'LBL_MODIFIED_USER_ID' => 'Modificat pel Id Usuari:',
     'LBL_CREATED_BY' => 'Creat per:',
-    'LBL_NAME' => 'Name:',
-    'LBL_DESCRIPTION' => 'Description:',
+    'LBL_NAME' => 'Nom: ',
+    'LBL_DESCRIPTION' => 'Descripció: ',
     'LBL_DELETED' => 'Esborrat:',
     'LBL_DATE' => 'Date:',
     'LBL_DATE_START' => 'Start Date:',
@@ -140,10 +140,10 @@ $mod_strings = array(
     'LBL_PROJECT_USERS_1_FROM_USERS_TITLE' => 'Resources',
 
     'LBL_EMAIL' => 'Email',
-    'LBL_PHONE' => 'Phone Office:',
+    'LBL_PHONE' => 'Telèfon d\'oficina:',
     'LBL_ADD_BUTTON' => 'Add',
     'LBL_ADD_INVITEE' => 'Add Resource',
-    'LBL_FIRST_NAME' => 'First Name',
+    'LBL_FIRST_NAME' => 'Nom',
     'LBL_LAST_NAME' => 'Last Name',
     'LBL_SEARCH_BUTTON' => 'Search',
     'LBL_EMPTY_SEARCH_RESULT' => 'Sorry, no results were found. Please create an invitee below.',
@@ -153,7 +153,7 @@ $mod_strings = array(
     'LBL_CANCEL_CREATE_INVITEE' => 'Cancel',
     'LBL_NO_ACCESS' => 'You have no access to create $module',
     'LBL_SCHEDULING_FORM_TITLE' => 'Resource List',
-    'LBL_REMOVE' => 'Remove',
+    'LBL_REMOVE' => 'Eliminar',
     'LBL_VIEW_DETAIL' => 'View Details',
     'LBL_OVERRIDE_BUSINESS_HOURS' => 'Consider Working days',
 
@@ -172,9 +172,9 @@ $mod_strings = array(
     'LBL_RESOURCE_CHART_MONTH' => 'Month',
     'LBL_RESOURCE_CHART_QUARTER' => 'Trimestre',
 
-    'LBL_PROJECT_CONTACTS_1_FROM_CONTACTS_TITLE' => 'Project Contacts from Contacts Title',
-    'LBL_AM_PROJECTTEMPLATES_PROJECT_1_FROM_PROJECT_TITLE' => 'Project Templates: Project from Project Title',
-    'LBL_AOS_QUOTES_PROJECT' => 'Quotes: Project',
+    'LBL_PROJECT_CONTACTS_1_FROM_CONTACTS_TITLE' => 'Contactes del projecte a partir del nom de contactes',
+    'LBL_AM_PROJECTTEMPLATES_PROJECT_1_FROM_PROJECT_TITLE' => 'Plantilla de projecte: Projecte a partir del títol del projecte',
+    'LBL_AOS_QUOTES_PROJECT' => 'Pressupostos: Projecte',
     'LBL_TASKS_NOT_FOUND' => 'There are no Tasks to build the Gantt Table',
 
 
