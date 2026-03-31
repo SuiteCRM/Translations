@@ -43,27 +43,27 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Releases',
+    'LBL_MODULE_NAME' => 'Lansări',
     'LBL_MODULE_TITLE' => 'Lansări: Acasă',
     'LBL_SEARCH_FORM_TITLE' => 'Căutare lansare',
     'LBL_LIST_FORM_TITLE' => 'Lista de lansări',
     'LBL_NEW_FORM_TITLE' => 'Lansare Noua',
-    'LBL_RELEASE' => 'Release:',
-    'LBL_LIST_NAME' => 'Release',
+    'LBL_RELEASE' => 'Lansare:',
+    'LBL_LIST_NAME' => 'Lansare',
     'LBL_NAME' => 'Versiune lansare:',
-    'LBL_LIST_LIST_ORDER' => 'Order',
-    'LBL_LIST_ORDER' => 'Order:',
-    'LBL_LIST_STATUS' => 'Status',
+    'LBL_LIST_LIST_ORDER' => 'Comanda',
+    'LBL_LIST_ORDER' => 'Comandă:',
+    'LBL_LIST_STATUS' => 'Statut',
     'LBL_STATUS' => 'Status:',
-    'LNK_NEW_RELEASE' => 'Release List',
-    'NTC_DELETE_CONFIRMATION' => 'Are you sure you want to delete this record?',
+    'LNK_NEW_RELEASE' => 'Lista lansare',
+    'NTC_DELETE_CONFIRMATION' => 'Sunteți sigur ca doriți sa ștergeți aceasta înregistrare?',
     'ERR_DELETE_RECORD' => 'Trebuie să specificați un număr de înregistrare pentru a șterge lansarea.',
     'NTC_STATUS' => 'Setați starea Inactiv pentru a elimina această versiune din listele derulante',
     'NTC_LIST_ORDER' => 'Setați ordinea în care această versiune va apărea în listele de lansare derulante',
     'release_status_dom' =>
         array(
-            'Active' => 'Active',
-            'Inactive' => 'Inactive',
+            'Active' => 'Activ',
+            'Inactive' => 'Inactiv',
         ),
-    'LBL_EDITLAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
+    'LBL_EDITLAYOUT' => 'Editare machetă' /*for 508 compliance fix*/,
 );
