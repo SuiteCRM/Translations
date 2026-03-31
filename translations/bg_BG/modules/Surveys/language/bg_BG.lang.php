@@ -39,7 +39,7 @@
  */
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID'                                     => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_ID'                                     => 'Възложен на оператор с идентификационен номер',
     'LBL_ADD_OPTION'                                         => 'Add new option',
     'LBL_ASSIGNED_TO_NAME'                                   => 'Assigned to',
     'LBL_SECURITYGROUPS'                                     => 'Security Groups',
@@ -81,7 +81,7 @@ $mod_strings = array(
     'LBL_CHECKED'                                            => 'Checked',
     'LBL_UNCHECKED'                                          => 'Unchecked',
     'LBL_RESPONSE_ANSWER'                                    => 'Answer',
-    'LBL_RESPONSE_CONTACT'                                   => 'Contact',
+    'LBL_RESPONSE_CONTACT'                                   => 'Контакт',
     'LBL_RESPONSE_TIME'                                      => 'Date',
     'LBL_UNKNOWN_CONTACT'                                    => 'Unknown',
     'LBL_RESPONSE_COUNT'                                     => 'Count',
