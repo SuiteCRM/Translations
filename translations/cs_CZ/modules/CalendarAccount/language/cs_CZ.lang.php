@@ -31,39 +31,39 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
     // System fields
-    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
-    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
-    'LBL_DATE_ENTERED' => 'Date Created',
-    'LBL_DATE_MODIFIED' => 'Date Modified',
-    'LBL_MODIFIED' => 'Modified By',
-    'LBL_MODIFIED_NAME' => 'Modified By Name',
-    'LBL_CREATED' => 'Created By',
-    'LBL_CREATED_USER' => 'Created by User',
-    'LBL_MODIFIED_USER' => 'Modified by User',
-    'LBL_DESCRIPTION' => 'Description',
-    'LBL_DELETED' => 'Deleted',
+    'LBL_ASSIGNED_TO_ID' => 'ID přiřazeného uživatele',
+    'LBL_ASSIGNED_TO_NAME' => 'Přiřazeno k',
+    'LBL_DATE_ENTERED' => 'Datum vytvoření',
+    'LBL_DATE_MODIFIED' => 'Datum změny',
+    'LBL_MODIFIED' => 'Změnil',
+    'LBL_MODIFIED_NAME' => 'Změněno dle Jména',
+    'LBL_CREATED' => 'Vytvořeno',
+    'LBL_CREATED_USER' => 'Vytvořeno dle Uživatele',
+    'LBL_MODIFIED_USER' => 'Změněno Uživatelem',
+    'LBL_DESCRIPTION' => 'Popis',
+    'LBL_DELETED' => 'Vymazáno',
 
     // Security groups
     'LBL_SECURITYGROUPS' => 'Security Groups',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
 
     // List view labels
-    'LBL_LIST_NAME' => 'Name',
-    'LBL_LIST_DELETE' => 'Delete',
-    'LBL_EDIT_BUTTON' => 'Edit',
-    'LBL_REMOVE' => 'Remove',
-    'LBL_ASCENDING' => 'Ascending',
-    'LBL_DESCENDING' => 'Descending',
+    'LBL_LIST_NAME' => 'Název',
+    'LBL_LIST_DELETE' => 'Smazat',
+    'LBL_EDIT_BUTTON' => 'Upravit',
+    'LBL_REMOVE' => 'Odstranit',
+    'LBL_ASCENDING' => 'Vzestupně',
+    'LBL_DESCENDING' => 'Sestupně',
 
     // Email opt-in labels
     'LBL_OPT_IN' => 'Opt In',
-    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Pending Confirm opt in, Confirm opt in not sent',
-    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Pending Confirm opt in, Confirm opt in sent',
-    'LBL_OPT_IN_CONFIRMED' => 'Opted in',
+    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Čekající potvrzení Opt In, potvrzení Opt In neodesláno',
+    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Čekající potvrzení Opt In, potvrzení Opt In odesláno',
+    'LBL_OPT_IN_CONFIRMED' => 'Opted In',
 
     // Subpanel titles
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Zobrazit historii',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktivity',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
 
@@ -91,9 +91,9 @@ $mod_strings = [
     'LNK_LIST' => 'View Calendar Accounts',
 
     // Standard fields
-    'LBL_NAME' => 'Name',
+    'LBL_NAME' => 'Název',
     'LBL_ID' => 'ID',
-    'LBL_TYPE' => 'Type',
+    'LBL_TYPE' => 'Typ',
     'LBL_SOURCE' => 'Calendar Source',
 
     // OAuth2 Fields
@@ -101,8 +101,8 @@ $mod_strings = [
     'LBL_CONNECT_OAUTH' => 'Connect OAuth',
 
     // Basic Auth Fields
-    'LBL_USERNAME' => 'Username',
-    'LBL_PASSWORD' => 'Password',
+    'LBL_USERNAME' => 'Uživatelské jméno',
+    'LBL_PASSWORD' => 'Heslo',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test Connection',
 
@@ -162,12 +162,12 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Please select a calendar source first.',
 
     // Connection test messages
-    'LBL_CALENDAR' => 'Calendar',
+    'LBL_CALENDAR' => 'Kalendář',
     'LBL_SUCCESSFUL' => 'Successful',
-    'LBL_FAILED' => 'Failed',
+    'LBL_FAILED' => 'Selhalo',
     'LBL_CONNECTION_TEST' => 'Connection Test',
-    'LBL_YES' => 'Yes',
-    'LBL_NO' => 'No',
+    'LBL_YES' => 'Ano',
+    'LBL_NO' => 'Ne',
     'LBL_FOUND_CALENDARS' => 'Found {count} calendars.',
     'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'An error occurred while processing the connection test response. Please check the logs for details.',
     'LBL_CONNECTION_TEST_HTTP_ERROR' => 'Connection test failed with HTTP status',
@@ -182,11 +182,11 @@ $mod_strings = [
 
     // Dialog labels
     'LBL_NOTIFICATION' => 'Notification',
-    'LBL_CONFIRM' => 'Confirm',
+    'LBL_CONFIRM' => 'Potvrdit',
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => 'In Progress',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => 'V procesu',
     'LBL_SYNC_STATUS_SUCCESS' => 'Success',
     'LBL_SYNC_STATUS_WARNING' => 'Warning',
     'LBL_SYNC_STATUS_ERROR' => 'Error',
@@ -202,5 +202,5 @@ $mod_strings = [
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Calendar not found.',
 
     // Relationship labels
-    'LBL_MEETINGS' => 'Meetings',
+    'LBL_MEETINGS' => 'Schůzky',
 ];
