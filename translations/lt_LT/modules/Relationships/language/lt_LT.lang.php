@@ -54,9 +54,9 @@ $mod_strings = array(
     'LBL_JOIN_TABLE' => 'Prijungti lentelės pavadinimą',
     'LBL_JOIN_KEY_LHS' => 'Sujungti rakto LHS',
     'LBL_JOIN_KEY_RHS' => 'Sujungti rakto RHS',
-    'LBL_RELATIONSHIP_TYPE' => 'Ryšio tipas',
+    'LBL_RELATIONSHIP_TYPE' => 'Relationship Type',
     'LBL_RELATIONSHIP_ROLE_COLUMN' => 'Ryšių rolės stulpelio pavadinimas',
     'LBL_RELATIONSHIP_ROLE_COLUMN_VALUE' => 'Ryšių rolės stulpelio reikšmė',
     'LBL_REVERSE' => 'Atbulinis',
-    'LBL_DELETED' => 'Ištrintas',
+    'LBL_DELETED' => 'Ištrinta',
 );
