@@ -71,7 +71,7 @@ $mod_strings = array(
     'LBL_SEND_DATE' => 'Send Date',
     'LBL_SCHEDULED_START_DATE' => 'Scheduled Run Date',
     'LBL_CHECK_DUPLICATE' => 'Duplicate Handling',
-    'LBL_TIME_START' => 'Asiko ibeere ',
+    'LBL_TIME_START' => 'Start Time',
     'LBL_START_DATE_TIME' => 'Start Date & Time: ',
     'LBL_TEMPLATE' => 'Email Template: ',
     'LBL_TEMPLATE_SELECTED' => 'Template',
@@ -139,7 +139,7 @@ $mod_strings = array(
     'LBL_OOTB_SEND_EMAIL_TO_QUEUE' => 'Queue Campaign Emails',
     'LBL_OOTB_BOUNCE' => 'Run Nightly Process Bounced Campaign Emails',
     'LBL_OOTB_SEND_EMAIL_FROM_QUEUE' => 'Send Campaign Emails',
-    'LBL_SCHEDULERS' => 'Awon Iseto',
+    'LBL_SCHEDULERS' => 'Awon apere',
     'LBL_INBOUND_EMAIL' => 'Imeeli t\'on wole',
 
     'LBL_TRACKERS_ENABLED' => 'Trackers Enabled',
