@@ -43,28 +43,28 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Pers',
+    'LBL_MODULE_NAME' => 'Releases',
     'LBL_MODULE_TITLE' => 'Rilis: Beranda',
     'LBL_SEARCH_FORM_TITLE' => 'Cari Rilis',
     'LBL_LIST_FORM_TITLE' => 'Daftar Rilis',
     'LBL_NEW_FORM_TITLE' => 'Rilis Baru',
-    'LBL_RELEASE' => 'Rilis',
+    'LBL_RELEASE' => 'Release:',
     'LBL_LIST_NAME' => 'Melepaskan',
     'LBL_NAME' => 'Rilis versi:',
-    'LBL_LIST_LIST_ORDER' => 'Pesanan',
-    'LBL_LIST_ORDER' => 'Pesan:',
+    'LBL_LIST_LIST_ORDER' => 'Order',
+    'LBL_LIST_ORDER' => 'Order:',
     'LBL_LIST_STATUS' => 'Status',
-    'LBL_STATUS' => 'Status',
+    'LBL_STATUS' => 'Status:',
     'LNK_NEW_RELEASE' => 'Daftar Rilis',
-    'NTC_DELETE_CONFIRMATION' => 'Anda yakin mau menghapus record ini?',
+    'NTC_DELETE_CONFIRMATION' => 'Are you sure you want to delete this record?',
     'NTC_SNOOZE_CONFIRMATION' => 'Are you sure you want to snooze?',
     'ERR_DELETE_RECORD' => 'Anda harus menentukan sejumlah catatan untuk menghapus rilis.',
     'NTC_STATUS' => 'Mengatur status untuk Aktif menghapus rilis ini dari Rilis daftar dropdown',
     'NTC_LIST_ORDER' => 'Setel perintah rilis akan tampil di daftar pilihan menurun Rilis',
     'release_status_dom' =>
         array(
-            'Active' => 'Email Account Aktif',
-            'Inactive' => 'Nonaktif',
+            'Active' => 'Active',
+            'Inactive' => 'Inactive',
         ),
     'LBL_EDITLAYOUT' => 'Sunting Tata Letak' /*for 508 compliance fix*/,
 );
