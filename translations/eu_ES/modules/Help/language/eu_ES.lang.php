@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Accounts',
+    'LBL_MODULE_NAME' => 'Kontuak',
     'LBL_MODULE_TITLE' => 'Accounts: Home',
     'LBL_SEARCH_FORM_TITLE' => 'Account Search',
     'LBL_LIST_FORM_TITLE' => 'Account List',
