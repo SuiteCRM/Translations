@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Seznam spajanj',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => '1. korak: Poišči zapise za spojitev',
-    'LBL_AVAIL_FIELDS' => 'Polja na voljo',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'Pogoj filtra',
     'LBL_MERGE_VALUE_OVER' => 'Spoji vrednost večjo kot',
 
@@ -58,15 +58,15 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Spoji',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Spoji',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Shrani spojitev',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Shrani spojitev',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => 'Zapisi najdeni za združitev:',
     'LBL_SELECT_ERROR' => 'Ni mogoče nadaljevati pred izbiro.',
     'LBL_CHANGE_PARENT' => 'Določi kot primarno',
-    'LBL_REMOVE_FROM_MERGE' => 'Odstrani',
+    'LBL_REMOVE_FROM_MERGE' => 'Remove',
     'LBL_DIFF_COL_VALUES' => 'Stolpci katerih vrednosti v primarni vrstici se razlikujejo od vrednosti v spjalnih vrsticah:',
     'LBL_SAME_COL_VALUES' => 'Stolpci, katerih vrednosti so podobne čez vse vrstice:',
     'LBL_DELETE_MESSAGE' => 'To dejanje bo izbrisalo naslednje zapise:',
