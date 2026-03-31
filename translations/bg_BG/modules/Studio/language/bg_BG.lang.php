@@ -52,7 +52,7 @@ $mod_strings = array(
     'LBL_VIEW_SUITE_FIELDS' => 'View SuiteCRM Fields',
     'LBL_FAILED_TO_SAVE' => 'Failed To Save',
     'LBL_CONFIRM_UNSAVE' => 'Промените няма да бъдат съхранени. Сигурни ли сте, че искате да продължите?',
-    'LBL_PUBLISHING' => 'Publishing...',
+    'LBL_PUBLISHING' => 'В процес на публикуване ...',
     'LBL_PUBLISHED' => 'Published',
     'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
     'LBL_DROP_HERE' => '[Drop Here]',
@@ -87,7 +87,7 @@ $mod_strings = array(
 
 
 //Manager Backups History
-    'LBL_MB_DELETE' => 'Delete',
+    'LBL_MB_DELETE' => 'Изтрий',
 
 //EDIT DROP DOWNS
     'LBL_ED_CREATE_DROPDOWN' => 'Създаване на падащо меню',
@@ -100,7 +100,7 @@ $mod_strings = array(
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => 'Етикет',
     'LBL_DD_DATABASEVALUE' => 'Име на полето',
-    'LBL_DD_ALL' => 'All',
+    'LBL_DD_ALL' => 'Всички',
 
 //BUTTONS
     'LBL_BTN_SAVE' => 'Save',
@@ -133,7 +133,7 @@ $mod_strings = array(
     'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
     'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Inline' /*for 508 compliance fix*/,
-    'LBL_DELETE' => 'Delete' /*for 508 compliance fix*/,
+    'LBL_DELETE' => 'Изтрий' /*for 508 compliance fix*/,
     'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Maximize' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Minimize' /*for 508 compliance fix*/,
