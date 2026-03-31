@@ -52,8 +52,8 @@ $mod_strings = array(
     'LBL_DATE_MODIFIED' => 'Data Modifica',
     'LBL_MODIFIED_USER_ID' => 'Id Utente Modificato',
     'LBL_CREATED_BY' => 'Creato da',
-    'LBL_DELETED' => 'Cancellata',
-    'LBL_CAMPAIGN' => 'Campagna',
+    'LBL_DELETED' => 'Eliminato',
+    'LBL_CAMPAIGN' => 'Campagne',
     'LBL_OPTOUT' => 'Opt-out',
 
     'LBL_MODULE_NAME' => 'Tracker della Campagna',
