@@ -70,7 +70,7 @@ $mod_strings = array(
     'LBL_LEAD_SOURCE' => 'Presa de contacte:',
     'LBL_SALES_STAGE' => 'Etapa de vendes:',
     'LBL_PROBABILITY' => 'Probabilitat (%):',
-    'LBL_DESCRIPTION' => 'Description:',
+    'LBL_DESCRIPTION' => 'Descripció: ',
     'LBL_DUPLICATE' => 'Possible Venta Duplicada',
     'MSG_DUPLICATE' => 'El registre per a la venta que va a crear podria ser un duplicat en un altre registre de venta existent. Els registres de venta amb noms similars es llisten a continuació.<br>Faci clic a Desar per continuar amb la creació d\'aquesta venta, o en Cancel·lar per tornar al mòdul sense crear la venta.',
     'LBL_NEW_FORM_TITLE' => 'Nova Venta',
@@ -80,7 +80,7 @@ $mod_strings = array(
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Històrial',
 
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
-    'LBL_ASSIGNED_TO_NAME' => 'User:',
+    'LBL_ASSIGNED_TO_NAME' => 'Usuari:',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Usuari Assignat',
     'LBL_ASSIGNED_TO_ID' => 'Assignada a ID',
     'LBL_MODIFIED_NAME' => 'Modificada per Usuari',
@@ -88,6 +88,6 @@ $mod_strings = array(
     'LBL_CURRENCY_NAME' => 'Nom de Moneda',
     'LBL_CURRENCY_SYMBOL' => 'Símbol de Moneda',
     'LBL_EDIT_BUTTON' => 'Edit',
-    'LBL_REMOVE' => 'Remove',
+    'LBL_REMOVE' => 'Eliminar',
 
 );
