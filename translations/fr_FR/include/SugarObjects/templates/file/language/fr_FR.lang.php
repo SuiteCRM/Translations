@@ -52,7 +52,7 @@ $mod_strings = array(
     //vardef labels
     'LBL_NAME' => 'Nom du document',
     'LBL_DESCRIPTION' => 'Description',
-    'LBL_ASSIGNED_TO' => 'Assigned to:',
+    'LBL_ASSIGNED_TO' => 'Assigné à :',
     'LBL_CATEGORY' => 'Catégorie',
     'LBL_SUBCATEGORY' => 'Sous Catégorie',
     'LBL_STATUS' => 'Statut',
@@ -80,7 +80,7 @@ $mod_strings = array(
     'LBL_SUBCATEGORY_VALUE' => 'Sous Catégorie :',
     'LBL_DOC_STATUS' => 'Statut :',
     'LBL_DET_TEMPLATE_TYPE' => 'Type de document :',
-    'LBL_DOC_DESCRIPTION' => 'Description:',
+    'LBL_DOC_DESCRIPTION' => 'Description :',
     'LBL_DOC_ACTIVE_DATE' => 'Date de publication :',
     'LBL_DOC_EXP_DATE' => 'Date d&#39;Expiration :',
 
@@ -104,14 +104,14 @@ $mod_strings = array(
     'DEF_CREATE_LOG' => 'Document créé',
 
     //error messages
-    'ERR_DOC_NAME' => 'Document Name',
+    'ERR_DOC_NAME' => 'Nom du document',
     'ERR_DOC_ACTIVE_DATE' => 'Publish Date',
     'ERR_FILENAME' => 'Nom Fichier',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'Document Name',
+    'LBL_LIST_DOCUMENT_NAME' => 'Nom du document',
 
     'LBL_EDIT_BUTTON' => 'Modifier ',
-    'LBL_REMOVE' => 'Remove',
+    'LBL_REMOVE' => 'Supprimer',
 
 );
