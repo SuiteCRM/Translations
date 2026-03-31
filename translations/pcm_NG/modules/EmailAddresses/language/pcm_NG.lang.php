@@ -50,6 +50,6 @@ $mod_strings = array(
     'LBL_OPT_OUT' => 'Comot from',
     'LBL_CONFIRM_OPT_IN' => 'Confirm Opt In',
     'LBL_DATE_CREATE' => 'Date Create',
-    'LBL_DATE_MODIFIED' => 'De day wey dem modify am',
+    'LBL_DATE_MODIFIED' => 'The day wey dem modify am',
     'LBL_DELETED' => 'Commot',
 );
