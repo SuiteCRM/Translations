@@ -49,15 +49,15 @@ $mod_strings = array(
     'LBL_DELETE_CONFIRM' => 'Opravdu chcete smazat vybraný Uložený filtr?',
     'LBL_DELETE_BUTTON_TITLE' => 'Odstranit tento uložený filtr',
     'LBL_SAVE_BUTTON_TITLE' => 'Uložit aktuální filtr',
-    'LBL_LIST_NAME' => 'Name',
-    'LBL_LIST_MODULE' => 'Module',
+    'LBL_LIST_NAME' => 'Název',
+    'LBL_LIST_MODULE' => 'Modul',
     'LBL_ORDER_BY_COLUMNS' => 'Řadit dle sloupce:',
     'LBL_DIRECTION' => 'Direction:',
     'LBL_SAVE_SEARCH_AS' => 'Uložit filtr jako:',
-    'LBL_ASCENDING' => 'Ascending',
-    'LBL_DESCENDING' => 'Descending',
+    'LBL_ASCENDING' => 'Vzestupně',
+    'LBL_DESCENDING' => 'Sestupně',
     'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
-    'LBL_CREATED_BY' => 'Created By',
+    'LBL_CREATED_BY' => 'Vytvořeno',
 
 );
