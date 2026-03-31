@@ -49,15 +49,15 @@ $mod_strings = array(
     'LBL_DELETE_CONFIRM' => 'Sunteți sigur că doriți să ștergeți filtrul salvat selectat?',
     'LBL_DELETE_BUTTON_TITLE' => 'Șterge acest filtru salvat',
     'LBL_SAVE_BUTTON_TITLE' => 'Salvează filtrul curent',
-    'LBL_LIST_NAME' => 'Name',
-    'LBL_LIST_MODULE' => 'Module',
+    'LBL_LIST_NAME' => 'Prenume',
+    'LBL_LIST_MODULE' => 'Modul',
     'LBL_ORDER_BY_COLUMNS' => 'Ordinea pe coloane',
-    'LBL_DIRECTION' => 'Direction:',
+    'LBL_DIRECTION' => 'Direcție:',
     'LBL_SAVE_SEARCH_AS' => 'Salvează filtru ca:',
-    'LBL_ASCENDING' => 'Ascending',
-    'LBL_DESCENDING' => 'Descending',
+    'LBL_ASCENDING' => 'Ascendent',
+    'LBL_DESCENDING' => 'Descendent',
     'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
-    'LBL_CREATED_BY' => 'Created By',
+    'LBL_CREATED_BY' => 'Creat de',
 
 );
