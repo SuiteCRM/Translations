@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_FIELD_NAME' => 'դաշտ',
+    'LBL_FIELD_NAME' => 'Field',
     'LBL_OLD_NAME' => 'Հնացած արժեք',
     'LBL_NEW_VALUE' => 'Նոր արժեք',
     'LBL_CREATED_BY' => 'Փոխված է',
     'LBL_LIST_DATE' => 'Փոփոխության ամսաթիվը',
     'LBL_AUDITED_FIELDS' => 'Դաշտեր, ստուգվող այս մոդուլում․ ',
-    'LBL_CHANGE_LOG' => 'Փոփոխությունների գրանցամատյան',
+    'LBL_CHANGE_LOG' => 'Change Log',
 );
