@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Խմբեր',
-    'LBL_GROUP_NAME' => 'Խումբի անվանումը',
-    'LBL_DESCRIPTION' => 'Նկարագրություն.',
-    'LBL_TEAM' => 'Թիմ․',
+    'LBL_MODULE_NAME' => 'Groups',
+    'LBL_GROUP_NAME' => 'Group Name:',
+    'LBL_DESCRIPTION' => 'Description:',
+    'LBL_TEAM' => 'Team:',
     // ListView
-    'LBL_LIST_TITLE' => 'Խմբեր',
+    'LBL_LIST_TITLE' => 'Groups',
     // Links
     'LNK_ALL_GROUPS' => 'Բոլոր խմբերը',
     'LNK_NEW_GROUP' => 'Ստեղծել խումբ',
