@@ -44,25 +44,25 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
 
-    'LBL_NAME' => 'Name',
+    'LBL_NAME' => 'Název',
     'LBL_NUMBER' => 'Číslo:',
-    'LBL_STATUS' => 'Status:',
+    'LBL_STATUS' => 'Stav:',
     'LBL_PRIORITY' => 'Priorita:',
-    'LBL_DESCRIPTION' => 'Description:',
+    'LBL_DESCRIPTION' => 'Popis:',
     'LBL_RESOLUTION' => 'Výsledek',
     'LBL_LAST_MODIFIED' => 'Poslední úprava',
     'LBL_ASSIGNED_TO_ID' => 'Přiřazeno k:',
-    'LBL_ASSIGNED_TO_NAME' => 'User:',
+    'LBL_ASSIGNED_TO_NAME' => 'Uživatel:',
     'LBL_WORK_LOG' => 'Pracovní protokol:',
     'LBL_CREATED_BY' => 'Vytvořil:',
-    'LBL_DATE_ENTERED' => 'Date Created:',
-    'LBL_DATE_MODIFIED' => 'Date Modified:',
+    'LBL_DATE_ENTERED' => 'Datum vytvoření:',
+    'LBL_DATE_MODIFIED' => 'Datum změny:',
     'LBL_MODIFIED_BY' => 'Naposledy změnil:',
     'LBL_ASSIGNED_USER' => 'Přiřazený uživatel:',
-    'LBL_TYPE' => 'Type:',
+    'LBL_TYPE' => 'Typ:',
     'LBL_SUBJECT' => 'Předmět:',
 
-    'LBL_EDIT_BUTTON' => 'Edit',
-    'LBL_REMOVE' => 'Remove',
+    'LBL_EDIT_BUTTON' => 'Upravit',
+    'LBL_REMOVE' => 'Odstranit',
 
 );
