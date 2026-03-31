@@ -61,7 +61,7 @@ $mod_strings['LBL_MAP_LEGEND'] = 'Leyenda:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'Grupos de Usuarios:';
 $mod_strings['LBL_MAP_GROUP'] = 'Group';
 $mod_strings['LBL_MAP_TYPE'] = 'Type';
-$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Assigned to:';
+$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Asignado a:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'Obtener direcciones';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'Vista de Mapas de Google';
 
@@ -85,7 +85,7 @@ $mod_strings['LBL_ZERO_RESULTS'] = 'No hay resultados';
 $mod_strings['LBL_OK'] = 'Ok';
 $mod_strings['LBL_INVALID_REQUEST'] = 'Solicitud no válida';
 $mod_strings['LBL_APPROXIMATE'] = 'Aproximado';
-$mod_strings['LBL_EMPTY'] = 'Empty';
+$mod_strings['LBL_EMPTY'] = 'Vacío';
 
 $mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Total';
 $mod_strings['LBL_MODULE_RESET_HEADING'] = 'Reset';
@@ -96,7 +96,7 @@ $mod_strings['LBL_EXPORT_ADDRESS_URL'] = 'Exportación de URLs';
 $mod_strings['LBL_EXPORT_INSTRUCTIONS'] = 'Utilice los vínculos siguientes para exportar direcciones completas que necesitan información de la herramienta de geocodeing. Luego utilizar una herramienta de geocodificación de lote en línea o sin conexión a geocodificar las direcciones. Cuando haya acabado la geocodificación, importar las direcciones en el módulo de caché de dirección para ser utilizado con los mapas. Tenga en cuenta que el módulo de caché de dirección es opcional. Toda la información geocoding es almacenada en el módulo representativo.';
 $mod_strings['LBL_ADDRESS_CACHE'] = 'Address Cache';
 $mod_strings['LBL_ADD_TO_TARGET_LIST'] = 'Añadir a la Lista de destinos';
-$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Processing...';
+$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Procesando...';
 
 
 $mod_strings['LBL_CONFIG_TITLE'] = 'Configuración';
@@ -185,7 +185,7 @@ $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = "Nota Importante: Todas las 
 $mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Areas';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'Marcadores';
 $mod_strings['LBL_PARENT_ID'] = 'Parent ID';
-$mod_strings['LBL_JJWP_PARTNERS'] = 'JJWP Partners';
+$mod_strings['LBL_JJWP_PARTNERS'] = 'Socios JJWP';
 $mod_strings['LBL_GET_GOOGLE_API_KEY'] = 'Obtener una clave';
 $mod_strings['LBL_GOOGLE_API_KEY'] = 'Google Api Key';
 $mod_strings['LBL_ERROR_NO_GOOGLE_API_KEY'] = 'Por favor seleccione el Google Api Key en el Panel administrativo de mapas de Google.';
