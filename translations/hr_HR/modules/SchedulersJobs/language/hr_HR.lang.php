@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_NAME' => 'Naziv posla',
-    'LBL_EXECUTE_TIME' => 'Vrijeme izvršenja',
-    'LBL_SCHEDULER_ID' => 'Raspored',
+    'LBL_NAME' => 'Job Name',
+    'LBL_EXECUTE_TIME' => 'Execute Time',
+    'LBL_SCHEDULER_ID' => 'Scheduler',
     'LBL_STATUS' => 'Status posla',
-    'LBL_RESOLUTION' => 'Rezultat',
+    'LBL_RESOLUTION' => 'Result',
     'LBL_MESSAGE' => 'Poruke',
     'LBL_DATA' => 'Podaci posla',
     'LBL_REQUEUE' => 'Ponovi kod neuspjeha',
