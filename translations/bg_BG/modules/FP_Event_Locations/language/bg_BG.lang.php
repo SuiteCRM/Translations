@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_ID' => 'Възложен на оператор с идентификационен номер',
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date Created',
@@ -60,8 +60,8 @@ $mod_strings = array(
     'LBL_EDIT_BUTTON' => 'Edit',
     'LBL_REMOVE' => 'Remove',
     'LBL_LIST_FORM_TITLE' => 'Locations List',
-    'LBL_MODULE_NAME' => 'Locations',
-    'LBL_MODULE_TITLE' => 'Locations',
+    'LBL_MODULE_NAME' => 'Местоположения',
+    'LBL_MODULE_TITLE' => 'Местоположения',
     'LBL_HOMEPAGE_TITLE' => 'My Locations',
     'LNK_NEW_RECORD' => 'Create Locations',
     'LNK_LIST' => 'View Locations',
@@ -76,5 +76,5 @@ $mod_strings = array(
     'LBL_ADDRESS_STATE' => 'County',
     'LBL_CAPACITY' => 'Capacity',
     'LBL_EDITVIEW_PANEL1' => 'Address',
-    'LBL_FP_EVENT_LOCATIONS_FP_EVENTS_1_FROM_FP_EVENTS_TITLE' => 'Events',
+    'LBL_FP_EVENT_LOCATIONS_FP_EVENTS_1_FROM_FP_EVENTS_TITLE' => 'Събития',
 );
