@@ -32,16 +32,16 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = [
     // System fields
     'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
-    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
-    'LBL_DATE_ENTERED' => 'Date Created',
+    'LBL_ASSIGNED_TO_NAME' => 'Toegewys aan',
+    'LBL_DATE_ENTERED' => 'Datum geskep',
     'LBL_DATE_MODIFIED' => 'Date Modified',
     'LBL_MODIFIED' => 'Modified By',
-    'LBL_MODIFIED_NAME' => 'Modified By Name',
+    'LBL_MODIFIED_NAME' => 'Gewysig deur Naam',
     'LBL_CREATED' => 'Created By',
-    'LBL_CREATED_USER' => 'Created by User',
-    'LBL_MODIFIED_USER' => 'Modified by User',
-    'LBL_DESCRIPTION' => 'Description',
-    'LBL_DELETED' => 'Deleted',
+    'LBL_CREATED_USER' => 'Geskep deur Gebruiker',
+    'LBL_MODIFIED_USER' => 'Verander deur gebruiker',
+    'LBL_DESCRIPTION' => 'Beskrywing',
+    'LBL_DELETED' => 'Geskrap',
 
     // Security groups
     'LBL_SECURITYGROUPS' => 'Security Groups',
@@ -56,7 +56,7 @@ $mod_strings = [
     'LBL_DESCENDING' => 'Descending',
 
     // Email opt-in labels
-    'LBL_OPT_IN' => 'Opt In',
+    'LBL_OPT_IN' => 'Kies In',
     'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Pending Confirm opt in, Confirm opt in not sent',
     'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Pending Confirm opt in, Confirm opt in sent',
     'LBL_OPT_IN_CONFIRMED' => 'Opted in',
