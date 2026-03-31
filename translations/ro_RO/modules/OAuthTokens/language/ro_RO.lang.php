@@ -46,8 +46,8 @@ $mod_strings = array(
     'LBL_OAUTH_REQUEST' => "Token de cerere",
     'LBL_OAUTH_AUTHORIZE' => "Token de autorizare",
     'LBL_OAUTH_CONSUMERREQ' => "Autorizează Token-ul de la consumatorul <b>%s</b>?",
-    'LBL_ASSIGNED_TO_NAME' => 'User',
-    'LBL_ID' => 'ID',
+    'LBL_ASSIGNED_TO_NAME' => 'Utilizator',
+    'LBL_ID' => 'ID-ul',
     'LBL_STATUS' => 'Status',
     'LBL_TS' => 'Marcaj temporal',
     'LBL_LIST_DELETE' => 'Șterge Token',
@@ -58,5 +58,5 @@ $mod_strings = array(
     'LBL_CALLBACK_URL' => 'URL-ul de apel invers',
     'LBL_SECRET' => 'Secret',
     'LBL_TSTATE' => 'TState',
-    'LBL_VERIFY' => 'Verify',
+    'LBL_VERIFY' => 'Verificați',
 );
