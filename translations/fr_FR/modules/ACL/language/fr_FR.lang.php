@@ -44,10 +44,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ROLE' => 'Role',
-    'LBL_NAME' => 'Name',
+    'LBL_NAME' => 'Nom',
     'LBL_DESCRIPTION' => 'Description',
     'LIST_ROLES' => 'Liste des Rôles',
-    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Utilisateurs',
     'LIST_ROLES_BY_USER' => 'Liste des Rôles par Utilisateur',
     'LBL_ROLES_SUBPANEL_TITLE' => 'Rôles des Utilisateurs',
     'LBL_SEARCH_FORM_TITLE' => 'Search',
