@@ -47,7 +47,7 @@ $mod_strings = array(
     'LBL_FW' => 'RV:',
     'LBL_RE' => 'RE: ',
 
-    'LBL_BUTTON_CREATE' => 'Create',
+    'LBL_BUTTON_CREATE' => 'Crear',
     'LBL_BUTTON_EDIT' => 'Edit',
     'LBL_BUTTON_EDIT_EDIT_DRAFT' => 'Edita esborrany',
     'LBL_QS_DISABLED' => 'No disponible',
@@ -74,7 +74,7 @@ $mod_strings = array(
     'LBL_ATTACH_DOCUMENTS' => 'Adjuntar Documents',
     'LBL_HAS_ATTACHMENT' => 'Té adjunt?',
     'LBL_BCC' => 'Bcc:',
-    'LBL_BODY' => 'Body:',
+    'LBL_BODY' => 'Cos:',
     'LBL_BUGS_SUBPANEL_TITLE' => 'Bugs',
     'LBL_CC' => 'Cc:',
     'LBL_COMPOSE_MODULE_NAME' => 'Compose Email',
@@ -145,7 +145,7 @@ $mod_strings = array(
     'LBL_USERS_SUBPANEL_TITLE' => 'Users',
     'LBL_USERS' => 'Users',
 
-    'LNK_CALL_LIST' => 'Calls',
+    'LNK_CALL_LIST' => 'Trucades',
     'LBL_EMAIL_RELATE' => 'Relacionat amb',
     'LNK_EMAIL_TEMPLATE_LIST' => 'View Email Templates',
     'LNK_MEETING_LIST' => 'Meetings',
@@ -168,7 +168,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_DRAFTS_TITLE' => 'Draft',
     'LBL_LIST_FORM_SENT_TITLE' => 'Sent Emails',
     'LBL_LIST_FORM_TITLE' => 'Llista de correus electrònics',
-    'LBL_LIST_FROM_ADDR' => 'From',
+    'LBL_LIST_FROM_ADDR' => 'Des de',
     //'LBL_LIST_RELATED_TO' => 'Recipient Type' (previous value)
     'LBL_LIST_RELATED_TO' => 'Related To',
     'LBL_LIST_SUBJECT' => 'Subject',
@@ -192,7 +192,7 @@ $mod_strings = array(
     'LBL_INBOUND_TITLE' => 'Inbound Email',
     'LBL_INTENT' => 'Intenció',
     'LBL_MESSAGE_ID' => 'ID Missatge',
-    'LBL_REPLY_HEADER_1' => 'On',
+    'LBL_REPLY_HEADER_1' => 'En',
     'LBL_REPLY_HEADER_2' => 'va escriure:',
     'LBL_REPLY_TO_ADDRESS' => 'Direcció de Respondre A',
     'LBL_REPLY_TO_NAME' => 'Nom de Respondre A',
@@ -224,7 +224,7 @@ $mod_strings = array(
     'LBL_NEW' => 'New',
     'LBL_NEXT_EMAIL' => 'Següent Element Lliure',
     'LBL_REPLIED' => 'Replied',
-    'LBL_TO' => 'To:',
+    'LBL_TO' => 'Per a:',
     'LBL_TOGGLE_ALL' => 'Activar tots',
     'LBL_UNKNOWN' => 'Unknown',
     'LBL_USE' => 'Assignar:',
@@ -242,7 +242,7 @@ $mod_strings = array(
     'LBL_LIST_TITLE_MY_SENT' => 'Sent Email',
     'LBL_LIST_TITLE_MY_ARCHIVES' => 'Correus electrònics arxivats',
 
-    'LNK_MY_DRAFTS' => 'Drafts',
+    'LNK_MY_DRAFTS' => 'Esborranys',
     'LNK_MY_INBOX' => 'Email',
     'LNK_VIEW_MY_INBOX' => 'Mostra el correu electrònic',
     'LNK_QUICK_REPLY' => 'Reply',
@@ -258,7 +258,7 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO' => 'Assigned To:',
     'LBL_MEMBER_OF' => 'Pare',
     'LBL_QUICK_CREATE' => 'Quick Create',
-    'LBL_CREATE' => 'Create',
+    'LBL_CREATE' => 'Crear',
     'LBL_STATUS' => 'Estat del correu electrònic:',
     'LBL_EMAIL_FLAGGED' => 'Etiquetat:',
     'LBL_EMAIL_REPLY_TO_STATUS' => 'Estat de Respondre A:',
@@ -352,8 +352,8 @@ $mod_strings = array(
     'LBL_LIST_CATEGORY' => 'Category',
     'LBL_EMAIL_TEMPLATE' => 'Email Template',
 
-    'LBL_CONFIRM_DISREGARD_DRAFT_TITLE' => 'Disregard draft',
-    'LBL_CONFIRM_DISREGARD_DRAFT_BODY' => 'This operation will delete this email, do you want to continue?',
+    'LBL_CONFIRM_DISREGARD_DRAFT_TITLE' => 'Descartar el esborrany',
+    'LBL_CONFIRM_DISREGARD_DRAFT_BODY' => 'Amb aquesta operació se suprimirà aquest missatge, voleu continuar?',
     'LBL_EMAIL_DRAFT_DELETED' => 'L\'esborrany s\'ha borrat correctament',
     'LBL_EMAIL_DRAFT_ERROR_DELETING' => 'S\'ha produït un error en intentar esborrar l\'esborrany.',
 
@@ -361,8 +361,8 @@ $mod_strings = array(
     'LBL_QUICK_CREATE_SUCCESS2' => 'Clic OK per mostrar el registre nou.',
     'LBL_QUICK_CREATE_SUCCESS3' => 'Feu clic a Cancel·lar per tornar a l\'E-mail.',
 
-    'LBL_CONFIRM_APPLY_EMAIL_TEMPLATE_TITLE' => 'Apply an Email Template',
-    'LBL_CONFIRM_APPLY_EMAIL_TEMPLATE_BODY' => 'This operation will override the email Body and Subject fields, do you want to continue?',
+    'LBL_CONFIRM_APPLY_EMAIL_TEMPLATE_TITLE' => 'Aplicar una plantilla de missatge',
+    'LBL_CONFIRM_APPLY_EMAIL_TEMPLATE_BODY' => 'Aquesta operació esborrarà el camp cos del missatge, ¿vol continuar?',
 
     'LBL_MAILBOX_ID' => 'Id de bústia',
     'LBL_PARENT_ID' => 'Parent ID',
@@ -379,12 +379,12 @@ $mod_strings = array(
     'LBL_MARK_UNFLAGGED' => 'Marcar com no destacat',
     'LBL_CONFIRM_OPT_IN_SENT_DATE' => 'E-mail d\'Autoritzat a enviar enviat',
     'LBL_CONFIRM_OPT_IN_FAIL_DATE' => 'E-mail d\'Autoritzat a enviar no enviat',
-    'LBL_CONFIRM_OPT_IN_TOKEN' => 'Confirm Opt In Token',
+    'LBL_CONFIRM_OPT_IN_TOKEN' => 'Confirmar Autoritzat a enviar en Token',
 
     'ERR_NO_RETURN_ID' => 'Fitxer adjunt no es troba.',
 
     'LBL_LIST_DATE_MODIFIED' => 'Last Modified',
-    'LNK_IMPORT_CAMPAIGNS' => 'Import Campaign',
+    'LNK_IMPORT_CAMPAIGNS' => 'Importar Campanya',
 
     // Email Validation Error messages. Typicaly for Email Validation:
     'ERR_FIELD_FROM_IS_NOT_SET' => 'El camp "De" no està definit.',
