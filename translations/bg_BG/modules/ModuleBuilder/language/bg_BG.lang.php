@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_LOADING' => 'Loading' /*for 508 compliance fix*/,
     'LBL_HIDEOPTIONS' => 'Hide Options' /*for 508 compliance fix*/,
-    'LBL_DELETE' => 'Delete' /*for 508 compliance fix*/,
+    'LBL_DELETE' => 'Изтрий' /*for 508 compliance fix*/,
     'help' => array(
         'package' => array(
             'create' => 'Въведете <b>Име</b> на пакета. Въвежданото име трябва да е последователност от букви и цифри и не трябва да съдържа интервали. (Пример: HR_Management)<br/><br/> Можете допълнително да въведете информация за <b>Автора</b> и <b>Описание</b> на пакета. <br/><br/>Натиснете <b>Запази</b>, за да създадете пакета.',
@@ -338,10 +338,10 @@ $mod_strings = array(
     'LBL_DEPLOYE_COMPLETE' => 'Завърши и публикувай',
     'LBL_DEPLOY_FAILED' => 'Възникна грешка по време на процеса, вашият пакет може да не е инсталиран правилно',
     'LBL_AVAILABLE_SUBPANELS' => 'Налични панели',
-    'LBL_ADVANCED' => 'Advanced',
-    'LBL_ADVANCED_SEARCH' => 'Advanced Filter',
+    'LBL_ADVANCED' => 'Разширен',
+    'LBL_ADVANCED_SEARCH' => 'Разширен филтър',
     'LBL_BASIC' => 'Основно',
-    'LBL_BASIC_SEARCH' => 'Quick Filter',
+    'LBL_BASIC_SEARCH' => 'Бързо филтриране',
     'LBL_CURRENT_LAYOUT' => 'Текуща подредба',
     'LBL_CURRENCY' => 'Currency',
     'LBL_DASHLET' => 'SuiteCRM Dashlet',
@@ -477,7 +477,7 @@ $mod_strings = array(
 //Manager Backups History
     'LBL_MB_PREVIEW' => 'Преглед',
     'LBL_MB_RESTORE' => 'Restore',
-    'LBL_MB_DELETE' => 'Delete',
+    'LBL_MB_DELETE' => 'Изтрий',
     'LBL_MB_DEFAULT_LAYOUT' => 'Подредба на екрани',
 
 //END WIZARDS
@@ -505,7 +505,7 @@ $mod_strings = array(
     'LBL_BTN_PUBLISH' => 'Publish',
     'LBL_BTN_DEPLOY' => 'Deploy',
     'LBL_BTN_EXP' => 'Export',
-    'LBL_BTN_DELETE' => 'Delete',
+    'LBL_BTN_DELETE' => 'Изтрий',
     'LBL_BTN_VIEW_LAYOUTS' => 'Преглед на подредби',
     'LBL_BTN_VIEW_FIELDS' => 'View Fields',
     'LBL_BTN_VIEW_RELATIONSHIPS' => 'View Relationships',
@@ -582,12 +582,12 @@ $mod_strings = array(
 
 //AJAX STATUS
     'LBL_AJAX_FAILED_DATA' => 'Failed to retrieve data',
-    'LBL_AJAX_LOADING' => 'Loading...',
+    'LBL_AJAX_LOADING' => 'Зареждане...',
     'LBL_AJAX_DELETING' => 'Изтриване...',
     'LBL_AJAX_BUILDPROGRESS' => 'Build In Progress...',
     'LBL_AJAX_DEPLOYPROGRESS' => 'Инсталиране...',
 
-    'LBL_AJAX_RESPONSE_TITLE' => 'Result',
+    'LBL_AJAX_RESPONSE_TITLE' => 'Резултат',
     'LBL_AJAX_RESPONSE_MESSAGE' => 'Действието е изпълнено успешно',
     'LBL_AJAX_LOADING_TITLE' => 'Изпълнява се...',
     'LBL_AJAX_LOADING_MESSAGE' => 'Моля, изчакайте зареждането...',
@@ -664,6 +664,6 @@ $mod_strings = array(
 
     'LBL_CONFIRM_SAVE_DROPDOWN' => "Избрахте този елемент за да го премахнете от падащия списък. Всички падащи менюта, използващи този списък с този елемент като стойност, вече няма да показват стойността и стойността вече няма да може да бъде избрана от падащите менюта. Сигурни ли сте, че желаете да продължите?",
 
-    'LBL_ALL_MODULES' => 'All Modules',
+    'LBL_ALL_MODULES' => 'Всички Модули',
     'LBL_RELATED_FIELD_ID_NAME_LABEL' => '{0} (свързано с {1} ID)',
 );
