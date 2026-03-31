@@ -94,7 +94,7 @@ $mod_strings = array(
     'LBL_CREATED_BY' => 'Siseda nipa',
     'LBL_MODIFIED_BY' => 'Se iyipada nipasẹ',
     'LBL_SEND_ANYWAYS' => 'This email has no subject. Send/save anyway?',
-    'LBL_NOTE_INFORMATION' => 'Isonisoki', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_NOTE_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_MY_NOTES_DASHLETNAME' => 'My Notes',
     'LBL_EDITLAYOUT' => 'Ṣatunkọ Aṣayan' /*for 508 compliance fix*/,
     //For export labels
