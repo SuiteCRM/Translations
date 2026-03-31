@@ -74,7 +74,7 @@ $mod_strings = array(
     'LBL_LEAD_SOURCE' => 'Lead Source:',
     'LBL_SALES_STAGE' => 'Sales Stage:',
     'LBL_PROBABILITY' => 'Probability (%):',
-    'LBL_DESCRIPTION' => 'Description:',
+    'LBL_DESCRIPTION' => 'Beskrivelse:',
     'LBL_DUPLICATE' => 'Mulighed duplet Mulighed',
     'MSG_DUPLICATE' => 'Du danner en duplet. Du kan enten vælge en mulighed fra nedenstående listen eller du kan klikke på Gem og oprette dupletten.',
     'LBL_NEW_FORM_TITLE' => 'Create Opportunity',
@@ -108,5 +108,5 @@ $mod_strings = array(
     // SNIP
 
     'LBL_AOS_CONTRACTS' => 'Contracts',
-    'LBL_AOS_QUOTES' => 'Quotes',
+    'LBL_AOS_QUOTES' => 'Tilbud',
 );
