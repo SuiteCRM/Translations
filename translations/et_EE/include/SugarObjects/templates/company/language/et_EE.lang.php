@@ -56,8 +56,8 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Kasutaja:',
     'LBL_RATING' => 'Hinnang',
     'LBL_ASSIGNED_TO' => 'Vastutaja:',
-    'LBL_ASSIGNED_USER' => 'Vastutaja:',
-    'LBL_ASSIGNED_TO_ID' => 'Vastutaja:',
+    'LBL_ASSIGNED_USER' => 'Assigned to:',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned to:',
     'LBL_BILLING_ADDRESS_CITY' => 'Linn arvel:',
     'LBL_BILLING_ADDRESS_COUNTRY' => 'Maakond arvel:',
     'LBL_BILLING_ADDRESS_POSTALCODE' => 'Postiindeks arvel:',
@@ -97,7 +97,7 @@ $mod_strings = array(
     'LBL_PHONE_FAX' => 'Fax:',
     'LBL_PHONE_OFFICE' => 'Töötelefon:',
     'LBL_PHONE' => 'Tlf number:',
-    'LBL_EMAIL_ADDRESS' => 'E-post:',
+    'LBL_EMAIL_ADDRESS' => 'Email Address',
     'LBL_EMAIL_ADDRESSES' => 'E-posti aadress(d)',
     'LBL_POSTAL_CODE' => 'Postiindeks:',
     'LBL_SAVE_ACCOUNT' => 'Salvesta ettevõte',
@@ -116,7 +116,7 @@ $mod_strings = array(
     'LBL_TYPE' => 'Tüüp:',
     'LBL_WEBSITE' => 'Veebisait:',
 
-    'LNK_ACCOUNT_LIST' => 'Ettevõtted',
+    'LNK_ACCOUNT_LIST' => 'Accounts',
     'LNK_NEW_ACCOUNT' => 'Loo ettevõte',
 
     'MSG_DUPLICATE' => 'Ettevõtte kirje, mida hetkel lood võib olla duplikaat juba olemasolevast ettevõtte kirjest. Kirjed, mis sisaldavad sarnaseid nimesid on väljatoodud allpool. Kliki Salvesta selle uue konto loomiseks või kliki Tühista moodulisse tagasiminemiseks kontot loomata.',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'Kas oled kindel, et soovid seda kirjet kustutada?',
 
     'LBL_EDIT_BUTTON' => 'Muuda  ',
-    'LBL_REMOVE' => 'Eemalda',
+    'LBL_REMOVE' => 'Remove',
 
 );
