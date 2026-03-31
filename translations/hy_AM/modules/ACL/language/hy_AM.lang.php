@@ -43,15 +43,15 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Դեր',
-    'LBL_NAME' => 'Անվանում',
-    'LBL_DESCRIPTION' => 'Նկարագրություն',
+    'LBL_ROLE' => 'Role',
+    'LBL_NAME' => 'Name',
+    'LBL_DESCRIPTION' => 'Description',
     'LIST_ROLES' => 'Դերերի ցուցակ',
-    'LBL_USERS_SUBPANEL_TITLE' => 'Օգտագործողներ',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
     'LIST_ROLES_BY_USER' => 'Դերեր ցուցակը ըստ օգտագործողների',
     'LBL_ROLES_SUBPANEL_TITLE' => 'Օգտագործողի դերերը',
-    'LBL_SEARCH_FORM_TITLE' => 'Որոնում',
-    'LBL_NO_ACCESS' => 'Դուք չունեք այս դաշտ մուտք գործելու թույլտվություն: Կապվեք ձեր կայքի ադմինիստրատորին մուտքի իրավունք ստանալու համար:',
+    'LBL_SEARCH_FORM_TITLE' => 'Search',
+    'LBL_NO_ACCESS' => 'You do not have access to this area. Contact your site administrator to obtain access.',
     'LBL_REDIRECT_TO_HOME' => 'Վերաուղղորդում դեպի Գլխավոր էջ',
     'LBL_SECONDS' => 'վարկյան',
     'LBL_ADDING' => 'Ավելացնել ',
