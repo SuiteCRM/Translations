@@ -86,7 +86,7 @@ $mod_strings = array(
     'LBL_PREVIOUS_SHARED' => 'Previous',
     'LBL_NEXT_SHARED' => 'Next',
     'LBL_SHARED_CAL_TITLE' => 'Delt kalender',
-    'LBL_USERS' => 'Users',
+    'LBL_USERS' => 'Brugere',
     'LBL_REFRESH' => 'Gentegn',
     'LBL_EDIT_USERLIST' => 'User List',
     'LBL_SELECT_USERS' => 'Vælg brugere for kalender visning',
@@ -99,11 +99,11 @@ $mod_strings = array(
     'LBL_MINS_ABBREV' => 'm',
 
 
-    'LBL_YES' => 'Yes',
+    'LBL_YES' => 'Ja',
     'LBL_NO' => 'No',
     'LBL_SETTINGS' => 'Settings',
     'LBL_CREATE_NEW_RECORD' => 'Opret aktivitet',
-    'LBL_LOADING' => 'Loading...',
+    'LBL_LOADING' => 'Indlæser ...',
     'LBL_SAVING' => 'Saving...',
     'LBL_SENDING_INVITES' => 'Gemmer og sender invitationer...',
     'LBL_CONFIRM_REMOVE' => 'Er du sikker på, at du vil slette denne post?',
@@ -162,10 +162,10 @@ $mod_strings = array(
     'LBL_NO_ITEMS_MOBILE' => 'Your calendar is clear for the week.',
     'LBL_GENERAL_SETTINGS' => 'Generelle indstillinger',
     'LBL_COLOR_SETTINGS' => 'Farveindstillinger',
-    'LBL_MODULE' => 'Module',
-    'LBL_BODY' => 'Body',
+    'LBL_MODULE' => 'Modul',
+    'LBL_BODY' => 'Brødtekst',
     'LBL_BORDER' => 'Kant',
-    'LBL_TEXT' => 'Text',
+    'LBL_TEXT' => 'Tekst',
 );
 
 
