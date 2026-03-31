@@ -45,10 +45,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_ID' => 'ID',
     'LBL_MODULE_NAME' => 'Groupes',
-    'LBL_DATE_ENTERED' => 'Date Created',
-    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_DATE_ENTERED' => 'Date de création',
+    'LBL_DATE_MODIFIED' => 'Date de modification',
     'LBL_DESCRIPTION' => 'Description',
-    'LBL_DELETED' => 'Deleted',
+    'LBL_DELETED' => 'Supprimé',
     'LBL_NAME' => 'Group Name',
     'LBL_TOTAL_AMT' => 'Total',
     'LBL_DISCOUNT_AMOUNT' => 'Discount',
