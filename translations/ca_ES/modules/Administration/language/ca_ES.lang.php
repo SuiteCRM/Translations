@@ -127,7 +127,7 @@ $mod_strings = array(
     'HDR_LOGIN_PANEL' => 'Si us plau, introdueixi les seves credencials d\'inici de sessió a SuiteCRM.',
     'HEARTBEAT_MESSAGE' => "<br />El mecanisme d'Actualitzacions de SuiteCRM permet que el seu servidor comprovi si hi ha disponible alguna actualització per a la seva versió de SuiteCRM producte.",
     'LBL_ACCEPT_TERMS' => 'Acceptar Termes i Condicions',
-    'LBL_ACCEPT' => 'Accept',
+    'LBL_ACCEPT' => 'Acceptar',
     'LBL_ADMINISTRATION_HOME_TITLE' => 'System',
     'LBL_ADMINISTRATION_HOME_DESC' => 'Administri la configuració global segons les especificacions de la seva organització. Els usuaris poden reemplaçar algunes de les opcions de configuració regional a la pàgina El Meu Compte.',
     'LBL_ALLOW_USER_TABS' => 'Permet als usuaris configurar les pestanyes',
@@ -380,7 +380,7 @@ Enllaçar al servidor LDAP utilitzant credencials d\'usuaris específiques. Es v
 
     'LBL_LOADING' => 'Crregant, esperi, si us plau...',
     'LBL_LOCALE_DB_COLLATION_TITLE' => 'Ordenació de Base de dades',
-    'LBL_LOCALE_DB_COLLATION' => 'Collation',
+    'LBL_LOCALE_DB_COLLATION' => 'Ordenació',
     'LBL_LOCALE_DEFAULT_CURRENCY_ISO4217' => 'Codi de moneda ISO 4217',
     'LBL_LOCALE_DEFAULT_CURRENCY_NAME' => 'Moneda',
     'LBL_LOCALE_DEFAULT_CURRENCY_SYMBOL' => 'Currency Symbol',
@@ -471,7 +471,7 @@ Enllaçar al servidor LDAP utilitzant credencials d\'usuaris específiques. Es v
     'LBL_OVERWRITE_FILES' => 'Sobreescriure Arxius',
     'LBL_PASSWORD' => 'Password',
     'LBL_PASSWORD_TEMPLATE' => 'Plantilles de correu electrònic',
-    'LBL_PASSWORD_CREATE_TEMPLATE' => 'Create',
+    'LBL_PASSWORD_CREATE_TEMPLATE' => 'Crear',
     'LBL_PASSWORD_EDIT_TEMPLATE' => 'Edit',
     'LBL_PASSWORD_GENERATE_TEMPLATE_MSG' => 'Contrasenya generada pel sistema',
     'LBL_PASSWORD_LOST_TEMPLATE_MSG' => 'Enllaç per restaurar la contrasenya generada pel sistema',
@@ -499,7 +499,7 @@ Enllaçar al servidor LDAP utilitzant credencials d\'usuaris específiques. Es v
     'LBL_PROXY_PASSWORD' => 'Password',
     'LBL_PROXY_PORT' => 'Port',
     'LBL_PROXY_TITLE' => 'Configuració de Proxy',
-    'LBL_PROXY_USERNAME' => 'User Name',
+    'LBL_PROXY_USERNAME' => 'Nom d\'Usuari',
     'LBL_README' => 'Llegeix-me',
     'LBL_REBUILD_AUDIT_SEARCH' => 'Buscant nous mòduls amb auditoria habilitada',
     'LBL_REBUILD_AUDIT_SKIP' => 'La taula de auditoria per a %1$s ja existeix. saltant...<BR>',
@@ -615,8 +615,8 @@ Enllaçar al servidor LDAP utilitzant credencials d\'usuaris específiques. Es v
     'LBL_UPGRADE' => 'Comprovar i reparar SuiteCRM',
     'LBL_UPLOAD_UPGRADE' => 'Pujar una actualització: ',
     'LBL_UPTODATE' => 'Té l\'última versió disponible',
-    'LBL_USER_NAME' => 'User Name:',
-    'LBL_USERNAME' => 'User Name',
+    'LBL_USER_NAME' => 'Nom d\'Usuari:',
+    'LBL_USERNAME' => 'Nom d\'Usuari',
     'LBL_USERS_TITLE' => 'Users & Authentication',
     'LBL_HISTORY_CONTACTS_EMAILS' => 'Història Subpanell',
     'LBL_HISTORY_CONTACTS_EMAILS_DESC' => 'Habilitar / desactivar missatges de correu electrònic contactes en l\'historial',
@@ -838,8 +838,8 @@ Enllaçar al servidor LDAP utilitzant credencials d\'usuaris específiques. Es v
     'LBL_SELECT_MODULES_TITLE' => 'Arrossegar i deixar anar per seleccionar els mòduls i per canviar l\'ordre de presentació. Realitzar una cerca per aplicar els canvis.',
     'LBL_LANGUAGE_PACKS' => 'Paquets de llenguatge' /*for 508 compliance fix*/,
     'LBL_PATCH_UPGRADES' => 'Parche d\'actualitzacions' /*for 508 compliance fix*/,
-    'LBL_ADVANCED_SEARCH' => 'Advanced Filter' /*for 508 compliance fix*/,
-    'LBL_BASIC_SEARCH' => 'Quick Filter' /*for 508 compliance fix*/,
+    'LBL_ADVANCED_SEARCH' => 'Filtre avançat' /*for 508 compliance fix*/,
+    'LBL_BASIC_SEARCH' => 'Filtre ràpid' /*for 508 compliance fix*/,
     'LBL_PROCESSING' => 'En procés' /*for 508 compliance fix*/,
 
     // OAuth
@@ -934,7 +934,7 @@ Enllaçar al servidor LDAP utilitzant credencials d\'usuaris específiques. Es v
     'LBL_AOP_BUSINESS_HOURS_DESC' => "Restrict Workflow & Case automations to certain days and times",
     'LBL_SUPPORT_FROM_ADDRESS' => 'Adreça de correu electrònic de soport',
     'LBL_SUPPORT_FROM_NAME' => 'Nom del correu electrònic de soport',
-    'LBL_CREATE_EMAIL_TEMPLATE' => 'Create',
+    'LBL_CREATE_EMAIL_TEMPLATE' => 'Crear',
     'LBL_EDIT_EMAIL_TEMPLATE' => 'Edit',
     'LBL_AOP_SETTINGS' => 'Case Module Settings',
 
@@ -942,7 +942,7 @@ Enllaçar al servidor LDAP utilitzant credencials d\'usuaris específiques. Es v
     'LBL_AOP_IF_STATUS' => 'Si l\'estat és',
     'LBL_AOP_THEN_STATUS' => 'canviar l\'estat a',
     'LBL_AOP_ADD_STATUS' => 'Add',
-    'LBL_AOP_REMOVE_STATUS' => 'Remove',
+    'LBL_AOP_REMOVE_STATUS' => 'Eliminar',
 
     'LBL_AOS_ADMIN_CONTRACT_SETTINGS' => 'Configuració de contractes',
     'LBL_AOS_ADMIN_CONTRACT_RENEWAL_REMINDER' => 'Període de recordatori de renovació',
@@ -967,7 +967,7 @@ Enllaçar al servidor LDAP utilitzant credencials d\'usuaris específiques. Es v
 
     'LBL_BUSINESS_HOURS' => 'Hores Laborals',
     'LBL_BUSINESS_HOURS_DESC' => "Gestionar l'horari laboral",
-    'LBL_BUSINESS_HOURS_FROM' => 'From',
+    'LBL_BUSINESS_HOURS_FROM' => 'Des de',
     'LBL_BUSINESS_HOURS_TO' => 'To',
     'LBL_BUSINESS_HOURS_OPEN' => "Open",
 
@@ -988,21 +988,21 @@ Enllaçar al servidor LDAP utilitzant credencials d\'usuaris específiques. Es v
 
     'LBL_PWDSEC_SETS' => 'Configuració de contrasenya de seguretat',
     'LBL_PWDSEC_MIN_LENGTH' => 'Longitud mínima de la contrasenya',
-    'LBL_PWDSEC_MIN_LENGTH_DESC' => 'Password minimum length',
+    'LBL_PWDSEC_MIN_LENGTH_DESC' => 'Longitud mínima de la contrasenya',
     'LBL_PWDSEC_UPPERCASE' => 'La contrasenya ha de contenir caràcters en majúscula',
-    'LBL_PWDSEC_UPPERCASE_DESC' => 'Password should contain uppercase characters',
+    'LBL_PWDSEC_UPPERCASE_DESC' => 'La contrasenya ha de contenir caràcters en majúscula',
     'LBL_PWDSEC_LOWERCASE' => 'La contrasenya ha de contenir caràcters en minúscula',
-    'LBL_PWDSEC_LOWERCASE_DESC' => 'Password should contain lowercase characters',
+    'LBL_PWDSEC_LOWERCASE_DESC' => 'La contrasenya ha de contenir caràcters en minúscula',
     'LBL_PWDSEC_NUMBERS' => 'La contrasenya ha de contenir números',
-    'LBL_PWDSEC_NUMBERS_DESC' => 'Password should contain numbers',
+    'LBL_PWDSEC_NUMBERS_DESC' => 'La contrasenya ha de contenir números',
     'LBL_PWDSEC_SPECCHAR' => 'La contrasenya ha de contenir caràcters especials',
-    'LBL_PWDSEC_SPECCHAR_DESC' => 'Password should contain special characters',
+    'LBL_PWDSEC_SPECCHAR_DESC' => 'La contrasenya ha de contenir caràcters especials',
     'LBL_PWDSEC_CHARS' => 'Caracters',
 
     // SearchWrapper
     'LBL_SEARCH_HEADER' => 'Configuració de la cerca',
     'LBL_SEARCH_HEADER_DESC' => 'Gestionar les meves preferències de recerca.',
-    'LBL_SEARCH_WRAPPER' => 'Search Settings',
+    'LBL_SEARCH_WRAPPER' => 'Configuració de la cerca',
     'LBL_SEARCH_WRAPPER_DESC' => 'Configuri les opcions de cerca global per al sistema',
 
     // Elasticsearch Settings
