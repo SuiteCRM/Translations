@@ -113,7 +113,7 @@ $mod_strings = array(
     'LBL_ERROR_LOADING' => 'Greška kod učitavanja',
     'LBL_GOTO_DATE' => 'Idi na datum',
     'NOTICE_DURATION_TIME' => 'Vrijeme trajanja mora biti veće od 0',
-    'LBL_STYLE_BASIC' => 'Osnovni', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_STYLE_BASIC' => 'BASIC', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_STYLE_ADVANCED' => 'Napredno', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
     'LBL_NO_USER' => 'Nema podudaranja za polje: Dodijeljeno',
