@@ -81,7 +81,7 @@ $mod_strings = array(
     'LBL_COUNTRY' => 'País',
     'LBL_CONTACT_INFORMATION' => 'Informació de Contacte',
     'LBL_ADDRESS_INFORMATION' => 'Direccions',
-    'LBL_ASSIGNED_TO_NAME' => 'User',
+    'LBL_ASSIGNED_TO_NAME' => 'Usuari',
     'LBL_OTHER_EMAIL_ADDRESS' => 'Other Email:',
     'LBL_ASSISTANT' => 'Assistent',
     'LBL_ASSISTANT_PHONE' => 'Tel. Assistent',
@@ -91,7 +91,7 @@ $mod_strings = array(
     'LBL_EMAIL_NON_PRIMARY' => 'Non Primary E-mails',
     'LBL_PHOTO' => 'Foto',
     'LBL_EDIT_BUTTON' => 'Edit',
-    'LBL_REMOVE' => 'Remove',
+    'LBL_REMOVE' => 'Eliminar',
 
     //Lawful Basis labels
     'LBL_LAWFUL_BASIS' => 'Base legal',
