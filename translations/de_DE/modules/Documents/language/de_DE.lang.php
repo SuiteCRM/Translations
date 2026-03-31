@@ -44,21 +44,21 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     //module
-    'LBL_MODULE_NAME' => 'Documents',
+    'LBL_MODULE_NAME' => 'Dokumente',
     'LBL_MODULE_TITLE' => 'Documents: Home',
     'LNK_NEW_DOCUMENT' => 'Create Document',
     'LNK_DOCUMENT_LIST' => 'View Documents',
-    'LBL_DOC_REV_HEADER' => 'Document Revisions',
+    'LBL_DOC_REV_HEADER' => 'Dokumentversionen',
     'LBL_SEARCH_FORM_TITLE' => 'Document Search',
     //vardef labels
     'LBL_NAME' => 'Document Name',
-    'LBL_DESCRIPTION' => 'Description',
-    'LBL_CATEGORY' => 'Category',
+    'LBL_DESCRIPTION' => 'Beschreibung',
+    'LBL_CATEGORY' => 'Kategorie',
     'LBL_SUBCATEGORY' => 'Sub Category',
     'LBL_STATUS' => 'Status',
     'LBL_CREATED_BY' => 'Created by',
-    'LBL_DATE_ENTERED' => 'Date Created',
-    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_DATE_ENTERED' => 'Erstellt am',
+    'LBL_DATE_MODIFIED' => 'Geändert am',
     'LBL_DELETED' => 'Deleted',
     'LBL_MODIFIED' => 'Geändert von ID',
     'LBL_MODIFIED_USER' => 'Modified by',
@@ -68,13 +68,13 @@ $mod_strings = array(
     'LBL_RELATED_DOCUMENT_REVISION_ID' => 'Verknüpfte Dokumentversions ID',
     'LBL_IS_TEMPLATE' => 'Is a Template',
     'LBL_TEMPLATE_TYPE' => 'Document Type',
-    'LBL_ASSIGNED_TO_NAME' => 'Assigned to:',
+    'LBL_ASSIGNED_TO_NAME' => 'Zugewiesen an:',
     'LBL_REVISION_NAME' => 'Revision Number',
     'LBL_MIME' => 'Mime Type',
     'LBL_REVISION' => 'Revision',
     'LBL_DOCUMENT' => 'Related Document',
     'LBL_LATEST_REVISION' => 'Latest Revision',
-    'LBL_CHANGE_LOG' => 'Change Log',
+    'LBL_CHANGE_LOG' => 'Änderungs-Log:',
     'LBL_ACTIVE_DATE' => 'Publish Date',
     'LBL_EXPIRATION_DATE' => 'Expiration Date',
     'LBL_FILE_EXTENSION' => 'File Extension',
@@ -91,7 +91,7 @@ $mod_strings = array(
     'LBL_FILE_UPLOAD' => 'File:',
 
     'LBL_CATEGORY_VALUE' => 'Category:',
-    'LBL_LIST_CATEGORY' => 'Category',
+    'LBL_LIST_CATEGORY' => 'Kategorie',
     'LBL_SUBCATEGORY_VALUE' => 'Sub Category:',
     'LBL_DOC_STATUS' => 'Status:',
     'LBL_LAST_REV_CREATOR' => 'Version erstellt von:',
@@ -103,13 +103,13 @@ $mod_strings = array(
     'LBL_DET_RELATED_DOCUMENT_VERSION' => "Verknüpfte Version dieses Dokuments:",
     'LBL_DET_IS_TEMPLATE' => 'Vorlage? :',
     'LBL_DET_TEMPLATE_TYPE' => 'Document Type:',
-    'LBL_DOC_DESCRIPTION' => 'Description:',
+    'LBL_DOC_DESCRIPTION' => 'Beschreibung:',
     'LBL_DOC_ACTIVE_DATE' => 'Publish Date:',
     'LBL_DOC_EXP_DATE' => 'Expiration Date:',
 
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'Document List',
-    'LBL_LIST_DOCUMENT' => 'Document',
+    'LBL_LIST_DOCUMENT' => 'Dokument',
     'LBL_LIST_SUBCATEGORY' => 'Sub Category',
     'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => 'Published By',
@@ -145,9 +145,9 @@ $mod_strings = array(
     'LBL_LIST_IS_TEMPLATE' => 'Vorlage?',
     'LBL_LIST_TEMPLATE_TYPE' => 'Document Type',
     'LBL_LAST_REV_CREATE_DATE' => 'Erstellungsdatum Letzte Version',
-    'LBL_CONTRACTS' => 'Contracts',
+    'LBL_CONTRACTS' => 'Verträge',
     'LBL_CREATED_USER' => 'Created User',
-    'LBL_DOCUMENT_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_DOCUMENT_INFORMATION' => 'Überblick', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_DOC_ID' => 'Document Source ID',
     'LBL_DOC_TYPE' => 'Source',
     'LBL_DOC_TYPE_POPUP' => 'Wählen Sie eine Quelle zu welcher dieses Dokument hinaufgeladen werden soll<br> und von welcher es verfügbar sein wird.',
@@ -159,11 +159,11 @@ $mod_strings = array(
     'ERR_INVALID_EXTERNAL_API_LOGIN' => 'Die Login Überprüfung für die externe API ({0}) ist fehlgeschlagen',
 
     // Links around the world
-    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Accounts',
-    'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
-    'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Opportunities',
-    'LBL_CASES_SUBPANEL_TITLE' => 'Cases',
-    'LBL_BUGS_SUBPANEL_TITLE' => 'Bugs',
+    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Firmen',
+    'LBL_CONTACTS_SUBPANEL_TITLE' => 'Kontakte',
+    'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Verkaufschancen',
+    'LBL_CASES_SUBPANEL_TITLE' => 'Fälle',
+    'LBL_BUGS_SUBPANEL_TITLE' => 'Fehler',
 
-    'LBL_AOS_CONTRACTS' => 'Contracts',
+    'LBL_AOS_CONTRACTS' => 'Verträge',
 );
