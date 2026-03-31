@@ -56,8 +56,8 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Përdorues',
     'LBL_RATING' => 'Klasifikimi:',
     'LBL_ASSIGNED_TO' => 'drejtuar',
-    'LBL_ASSIGNED_USER' => 'drejtuar',
-    'LBL_ASSIGNED_TO_ID' => 'drejtuar',
+    'LBL_ASSIGNED_USER' => 'Assigned to:',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned to:',
     'LBL_BILLING_ADDRESS_CITY' => 'Qyteti i faturës',
     'LBL_BILLING_ADDRESS_COUNTRY' => 'Shteti i faturës',
     'LBL_BILLING_ADDRESS_POSTALCODE' => 'Kodi postal i faturës',
@@ -97,7 +97,7 @@ $mod_strings = array(
     'LBL_PHONE_FAX' => 'telefon faks',
     'LBL_PHONE_OFFICE' => 'Telefoni i zyrës:',
     'LBL_PHONE' => 'Telefoni',
-    'LBL_EMAIL_ADDRESS' => 'Email adresa',
+    'LBL_EMAIL_ADDRESS' => 'Email Address',
     'LBL_EMAIL_ADDRESSES' => 'Email Adresa',
     'LBL_POSTAL_CODE' => 'Kodi postal',
     'LBL_SAVE_ACCOUNT' => 'Ruaj llogarinë',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'A jeni të sigurtë që dëshironi të fshini këtë regjistrim?',
 
     'LBL_EDIT_BUTTON' => 'Ndrysho',
-    'LBL_REMOVE' => 'Largo',
+    'LBL_REMOVE' => 'Remove',
 
 );
