@@ -168,7 +168,7 @@ $mod_strings = array(
     'LNK_NEW_TASK' => 'Creează sarcină',
     'LNK_SELECT_ACCOUNT' => "Selectați Cont",
     'NTC_DELETE_CONFIRMATION' => 'Sunteți sigur ca doriți sa ștergeți aceasta înregistrare?',
-    'NTC_SNOOZE_CONFIRMATION' => 'Are you sure you want to snooze?',
+    'NTC_SNOOZE_CONFIRMATION' => 'Ești sigur că dorești să închizi?',
     'NTC_OPPORTUNITY_REQUIRES_ACCOUNT' => 'Crearea unei oportunităţi necesită un cont.\n Vă rugăm fie creați un cont nou sau selectați unul existent.',
     'NTC_REMOVE_CONFIRMATION' => 'Sunteţi sigur(ă) că vreţi să înlăturați acest contact de la caz?',
 
