@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_BASIC' => 'Basic',
+    'LBL_BASIC' => 'BASIC',
     'LBL_BASIC_SEARCH' => 'Quick Filter',
     'LBL_ADVANCED_SEARCH' => 'Advance Filter',
     'LBL_BASIC_TYPE' => 'Basic type',
@@ -118,7 +118,8 @@ $mod_strings = array(
     'ERR_DB_USER_EXISTS' => 'User name for SuiteCRM database user don already dey -- e no fit create another one wit de same name. Abeg put new user name.',
     'ERR_DB_USER' => 'Put user name for de SuiteCRM database administrator.
 ',
-    'ERR_DBCONF_VALIDATION' => 'Abeg correct dis mistakes before u begin:',
+    'ERR_DBCONF_VALIDATION' => 'Abeg try correct dis mistakes dem before u begin:
+',
     'ERR_DBCONF_PASSWORD_MISMATCH' => 'De passwords wey u put for de SuiteCRM database user no match. Abeg put de same passwords password fields again. ',
     'ERR_ERROR_GENERAL' => 'Na dis mistakes we encounter:',
     'ERR_LANG_CANNOT_DELETE_FILE' => 'U no fit comot file: ',
@@ -162,7 +163,7 @@ $mod_strings = array(
     'ERROR_VERSION_INCOMPATIBLE' => 'Dis file so no go work for here, de version no dey compatible with dis SuiteCRM:',
 
     'LBL_BACK' => 'Back',
-    'LBL_CANCEL' => 'Clean am',
+    'LBL_CANCEL' => 'Cancel',
     'LBL_ACCEPT' => 'I Agree',
     'LBL_CHECKSYS_LEGACY_CACHE' => 'Writable Legacy Cache Sub-Directories',
     'LBL_CHECKSYS_CACHE' => ' Cache Sub-Directories Wey dey fit wite',
@@ -251,7 +252,7 @@ $mod_strings = array(
     'LBL_CLOSE' => 'Close',
     'LBL_THREE' => '3',
     'LBL_CONFIRM_BE_CREATED' => 'Dey create am',
-    'LBL_CONFIRM_DB_TYPE' => 'Type of Database',
+    'LBL_CONFIRM_DB_TYPE' => 'Type of Database ',
     'LBL_CONFIRM_NOT' => 'not',
     'LBL_CONFIRM_TITLE' => 'Confam settings',
     'LBL_CONFIRM_WILL' => 'will',
