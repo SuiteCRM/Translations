@@ -44,13 +44,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     //Column header mapping
-    'action' => 'Action',
-    'date_modified' => 'Date of Last Action',
-    'item_id' => 'ID',
-    'item_summary' => 'Name',
+    'action' => 'Δράση',
+    'date_modified' => 'Ημερομηνία Τελευταίας Δράσης',
+    'item_id' => 'Ταυτότητα',
+    'item_summary' => 'Όνομα',
     'module_name' => 'Module Name',
-    'users' => 'Users',
+    'users' => 'Χειριστές',
 
     //Administration related labels
-    'LBL_MODULE_NAME' => 'Trackers',
+    'LBL_MODULE_NAME' => 'Σημεία Εντοπισμού',
 );
