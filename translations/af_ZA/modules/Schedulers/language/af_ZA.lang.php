@@ -84,7 +84,7 @@ $mod_strings = array(
     'LBL_AND' => 'and',
     'LBL_MINUTES' => 'minutes',
     'LBL_HOUR' => 'hours',
-    'LBL_HOUR_SING' => 'hour',
+    'LBL_HOUR_SING' => 'uur',
     'LBL_OFTEN' => 'As often as possible.',
     'LBL_MIN_MARK' => 'minute mark',
 
@@ -94,7 +94,7 @@ $mod_strings = array(
     'LBL_HOURS' => 'hrs',
     'LBL_DAY_OF_MONTH' => 'date',
     'LBL_MONTHS' => 'mo',
-    'LBL_DAY_OF_WEEK' => 'day',
+    'LBL_DAY_OF_WEEK' => 'dag',
     'LBL_CRONTAB_EXAMPLES' => 'The above uses standard crontab notation.',
 // Labels
     'LBL_ALWAYS' => 'Always',
@@ -118,7 +118,7 @@ $mod_strings = array(
     'LBL_TIME_FROM' => 'Active From',
     'LBL_TIME_TO' => 'Active To',
     'LBL_WARN_CURL_TITLE' => 'cURL Warning:',
-    'LBL_WARN_CURL' => 'Warning:',
+    'LBL_WARN_CURL' => 'Waarskuwing:',
     'LBL_WARN_NO_CURL' => 'This system does not have the cURL libraries enabled/compiled into the PHP module (--with-curl=/path/to/curl_library). Please contact your administrator to resolve this issue. Without the cURL functionality, the Scheduler cannot thread its jobs.',
     'LBL_BASIC_OPTIONS' => 'Basic Setup',
     'LBL_ADV_OPTIONS' => 'Advanced Options',
