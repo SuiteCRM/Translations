@@ -51,8 +51,8 @@ $mod_strings = array(
     'LBL_DATE_ENTERED' => 'Date. ni sulod',
     'LBL_DATE_MODIFIED' => 'Petsa nga gi-usab',
     'LBL_MODIFIED_USER_ID' => 'Nausab nga Id sa user',
-    'LBL_CREATED_BY' => 'Gihimo Ni',
-    'LBL_DELETED' => 'Gitangtang',
+    'LBL_CREATED_BY' => 'Gimugna Ni',
+    'LBL_DELETED' => 'Gipapas',
     'LBL_CAMPAIGN' => 'Mangompanya',
     'LBL_OPTOUT' => 'Opt-Out',
 
@@ -67,6 +67,6 @@ $mod_strings = array(
     'LBL_EDIT_MESSAGE_URL' => 'URL para sa mensahe sa kampanya:',
     'LBL_EDIT_TRACKER_KEY' => 'Yawi sa traker:',
     'LBL_EDIT_OPT_OUT' => 'Wagtangon ang Link?',
-    'LNK_CAMPAIGN_LIST' => 'Mga kampanya',
+    'LNK_CAMPAIGN_LIST' => 'Mangompanya',
     'LBL_EDIT_LAYOUT' => 'I-edit ang Plano' /*for 508 compliance fix*/,
 );
