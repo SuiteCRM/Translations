@@ -52,7 +52,7 @@ $mod_strings = array(
     'LBL_BUTTON_EDIT_EDIT_DRAFT' => 'Edit Draft',
     'LBL_QS_DISABLED' => '(Функция за експресно търсене не е налична за този модул. Моля, използвайте бутона за избиране.)',
     'LBL_SIGNATURE_PREPEND' => 'Използване на подпис?',
-    'LBL_IMPORT' => 'Import',
+    'LBL_IMPORT' => 'Импортирай',
     'LBL_LOADING' => 'Loading',
     'LBL_MARKING' => 'Marking',
     'LBL_DELETING' => 'Deleting',
@@ -205,7 +205,7 @@ $mod_strings = array(
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigned User',
 
     // for Inbox
-    'LBL_ALL' => 'All',
+    'LBL_ALL' => 'Всички',
     'LBL_ASSIGN_WARN' => 'Убедете се че са избрани и 3-те опции.',
     'LBL_BACK_TO_GROUP' => 'Връщане към групова кутия за входящи писма',
     'LBL_BUTTON_DISTRIBUTE_TITLE' => 'Assign',
@@ -243,7 +243,7 @@ $mod_strings = array(
     'LBL_LIST_TITLE_MY_ARCHIVES' => 'Архивирани писма',
 
     'LNK_MY_DRAFTS' => 'Drafts',
-    'LNK_MY_INBOX' => 'Email',
+    'LNK_MY_INBOX' => 'Електронна поща',
     'LNK_VIEW_MY_INBOX' => 'View Email',
     'LNK_QUICK_REPLY' => 'Reply',
     'LBL_EMAILS_NO_PRIMARY_TEAM_SPECIFIED' => 'Не е посочен основен екип',
@@ -291,7 +291,7 @@ $mod_strings = array(
     'LBL_SEND_EMAIL_FAIL_TITLE' => 'Съобщението не може да бъде изпратено.',
     'LBL_EMAIL_DETAIL_VIEW_SHOW' => 'show',
     'LBL_EMAIL_DETAIL_VIEW_MORE' => 'more',
-    'LBL_MORE_OPTIONS' => 'More',
+    'LBL_MORE_OPTIONS' => 'Още',
     'LBL_LESS_OPTIONS' => 'Свии',
     'LBL_MAILBOX_TYPE_PERSONAL' => 'Personal',
     'LBL_MAILBOX_TYPE_GROUP' => 'Group',
@@ -330,7 +330,7 @@ $mod_strings = array(
 
     'LBL_EDIT_LAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
     'LBL_ATTACHMENT' => 'Приложение' /*for 508 compliance fix*/,
-    'LBL_DELETE_INLINE' => 'Delete' /*for 508 compliance fix*/,
+    'LBL_DELETE_INLINE' => 'Изтрий' /*for 508 compliance fix*/,
     'LBL_CREATE_CASES' => 'Create Cases' /*for 508 compliance fix*/,
     'LBL_CREATE_LEADS' => 'Create Leads' /*for 508 compliance fix*/,
     'LBL_CREATE_CONTACTS' => 'Create Contacts' /*for 508 compliance fix*/,
@@ -352,8 +352,8 @@ $mod_strings = array(
     'LBL_LIST_CATEGORY' => 'Category',
     'LBL_EMAIL_TEMPLATE' => 'Email Template',
 
-    'LBL_CONFIRM_DISREGARD_DRAFT_TITLE' => 'Disregard draft',
-    'LBL_CONFIRM_DISREGARD_DRAFT_BODY' => 'This operation will delete this email, do you want to continue?',
+    'LBL_CONFIRM_DISREGARD_DRAFT_TITLE' => 'Игнорирай черновата',
+    'LBL_CONFIRM_DISREGARD_DRAFT_BODY' => 'Тази операция ще изтрие този имейл, желаете ли да продължите?',
     'LBL_EMAIL_DRAFT_DELETED' => 'Draft has been deleted',
     'LBL_EMAIL_DRAFT_ERROR_DELETING' => 'An error has occurred while trying to delete draft.',
 
@@ -361,7 +361,7 @@ $mod_strings = array(
     'LBL_QUICK_CREATE_SUCCESS2' => 'Click OK to view the new record.',
     'LBL_QUICK_CREATE_SUCCESS3' => 'Click Cancel to return to the Email.',
 
-    'LBL_CONFIRM_APPLY_EMAIL_TEMPLATE_TITLE' => 'Apply an Email Template',
+    'LBL_CONFIRM_APPLY_EMAIL_TEMPLATE_TITLE' => 'Приложете шаблон за имейл',
     'LBL_CONFIRM_APPLY_EMAIL_TEMPLATE_BODY' => 'This operation will override the email Body and Subject fields, do you want to continue?',
 
     'LBL_MAILBOX_ID' => 'Mailbox ID',
