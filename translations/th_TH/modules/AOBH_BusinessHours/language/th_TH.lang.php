@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ASSIGNED_TO_ID' => 'Id ผู้รับผิดชอบ',
-    'LBL_ASSIGNED_TO_NAME' => 'ผู้รับผิดชอบ',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_ID' => 'ไอดี',
     'LBL_DATE_ENTERED' => 'วันที่สร้าง',
     'LBL_DATE_MODIFIED' => 'วันที่แก้ไข',
@@ -57,11 +57,11 @@ $mod_strings = array(
     'LBL_CREATED_USER' => 'สร้างโดยผู้ใช้งาน',
     'LBL_MODIFIED_USER' => 'แก้ไข โดยผู้ใช้',
     'LBL_LIST_NAME' => 'ชื่อ',
-    'LBL_EDIT_BUTTON' => 'แก้ไข',
-    'LBL_REMOVE' => 'ลบออก',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
     'LBL_LIST_FORM_TITLE' => 'รายการชั่วโมงทำการ',
-    'LBL_MODULE_NAME' => 'เวลาทำการ',
-    'LBL_MODULE_TITLE' => 'เวลาทำการ',
+    'LBL_MODULE_NAME' => 'Business Hours',
+    'LBL_MODULE_TITLE' => 'Business Hours',
     'LBL_HOMEPAGE_TITLE' => 'ชั่วโมงทำหารของฉัน',
     'LNK_NEW_RECORD' => 'สร้างชั่วโมงทำการ',
     'LNK_LIST' => 'ดูชั่วโมงทำการ',
@@ -71,6 +71,6 @@ $mod_strings = array(
     'LBL_NEW_FORM_TITLE' => 'ชั่วโมงทำการใหม่',
     'LBL_OPENING_HOURS' => 'เวลาเปิดทำการ',
     'LBL_CLOSING_HOURS' => 'เวลาปิดทำการ',
-    'LBL_DAY' => 'วัน',
+    'LBL_DAY' => 'Day',
     'LBL_OPEN' => 'เปิด',
 );
