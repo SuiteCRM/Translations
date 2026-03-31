@@ -44,14 +44,14 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ALL_MODULES' => 'All',//rost fix
-    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_ID' => 'Esleitutako erabiltzailearen Id',
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date Created',
     'LBL_DATE_MODIFIED' => 'Date Modified',
     'LBL_MODIFIED' => 'Modified By',
-    'LBL_MODIFIED_NAME' => 'Modified By Name',
-    'LBL_CREATED' => 'Created By',
+    'LBL_MODIFIED_NAME' => 'Nork aldatua',
+    'LBL_CREATED' => 'Sortzailea',
     'LBL_DESCRIPTION' => 'Description',
     'LBL_DELETED' => 'Deleted',
     'LBL_NONINHERITABLE' => 'Not Inheritable',
@@ -59,7 +59,7 @@ $mod_strings = array(
     'LBL_NAME' => 'Name',
     'LBL_CREATED_USER' => 'Created by User',
     'LBL_MODIFIED_USER' => 'Modified by User',
-    'LBL_LIST_FORM_TITLE' => 'Security Groups',
+    'LBL_LIST_FORM_TITLE' => 'Segurtasun-taldeak',
     'LBL_MODULE_NAME' => 'Security Suite Management',
     'LBL_MODULE_TITLE' => 'Security Suite Management',
     'LNK_NEW_RECORD' => 'Create a Security Group',
