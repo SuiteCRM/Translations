@@ -52,7 +52,7 @@ $mod_strings = array(
     'LBL_NAME' => 'Name: ',
     'LBL_LIST_NAME' => 'Name',
     'LBL_LIST_FROM_ADDR' => 'Correu electrònic remitent',
-    'LBL_LIST_DATE_START' => 'Start Date',
+    'LBL_LIST_DATE_START' => 'Data d\'Inici',
     'LBL_LIST_TEMPLATE_NAME' => 'Email Template',
     'LBL_LIST_STATUS' => 'Status',
     'LBL_STATUS' => 'Status',
@@ -66,8 +66,8 @@ $mod_strings = array(
 
     'LBL_FROM_NAME' => 'Nom Remitent: ',
     'LBL_FROM_ADDR' => 'Direcció correu electrònic remitent: ',
-    'LBL_DATE_START' => 'Start Date',
-    'LBL_TIME_START' => 'Start Time',
+    'LBL_DATE_START' => 'Data d\'Inici',
+    'LBL_TIME_START' => 'Hora d\'Inici',
     'LBL_START_DATE_TIME' => 'Data i Hora d\'Inici: ',
     'LBL_TEMPLATE' => 'Plantilla de correu electrònic:',
 
@@ -81,7 +81,7 @@ $mod_strings = array(
     'LNK_NEW_PROSPECT' => 'Create Target',
     'LNK_PROSPECT_LIST' => 'Targets',
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Email Marketing',
-    'LBL_CREATE_EMAIL_TEMPLATE' => 'Create',
+    'LBL_CREATE_EMAIL_TEMPLATE' => 'Crear',
     'LBL_EDIT_EMAIL_TEMPLATE' => 'Edit',
     'LBL_FROM_MAILBOX' => 'De bustia',
     'LBL_FROM_MAILBOX_NAME' => 'Fer servir bustia:',
@@ -103,6 +103,6 @@ $mod_strings = array(
     'LBL_CAMPAIGN_ID' => 'Campaign ID',
     'LBL_OUTBOUND_EMAIL_ACOUNT_ID' => 'ID de compte d\'E-mail sortint',
     'LBL_EMAIL_TEMPLATE' => 'Email Template',
-    'LBL_PROSPECT_LISTS' => 'Prospect Lists',
+    'LBL_PROSPECT_LISTS' => 'Llistes de Públic Objectiu',
 
 );
