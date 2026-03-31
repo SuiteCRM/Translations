@@ -103,7 +103,7 @@ $mod_strings = array(
     'LBL_DET_RELATED_DOCUMENT_VERSION' => "Versió de Document Relacionat:",
     'LBL_DET_IS_TEMPLATE' => 'Plantilla? :',
     'LBL_DET_TEMPLATE_TYPE' => 'Document Type:',
-    'LBL_DOC_DESCRIPTION' => 'Description:',
+    'LBL_DOC_DESCRIPTION' => 'Descripció: ',
     'LBL_DOC_ACTIVE_DATE' => 'Publish Date:',
     'LBL_DOC_EXP_DATE' => 'Expiration Date:',
 
