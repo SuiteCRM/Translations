@@ -93,7 +93,7 @@ $mod_strings = array(
     'LBL_ED_CREATE_DROPDOWN' => 'Create a Drop Down',
     'LBL_DROPDOWN_NAME' => 'Dropdown Name:',
     'LBL_DROPDOWN_LANGUAGE' => 'Dropdown Language:',
-    'LBL_TABGROUP_LANGUAGE' => 'Language:',
+    'LBL_TABGROUP_LANGUAGE' => 'Lengoaia:',
 
 //END WIZARDS
 
