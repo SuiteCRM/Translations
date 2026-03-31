@@ -43,22 +43,22 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Role:',
-    'LBL_LANGUAGE' => 'Language:',
+    'LBL_ROLE' => 'Rolle:',
+    'LBL_LANGUAGE' => 'Sprog:',
     'LBL_MODULE_NAME' => 'Roles',
     'LBL_MODULE_TITLE' => 'Roles: Home',
     'LBL_SEARCH_FORM_TITLE' => 'Rolle søgning',
     'LBL_LIST_FORM_TITLE' => 'Rolle liste',
     'LNK_NEW_ROLE' => 'Create Role',
     'LNK_ROLES' => 'Roles',
-    'LBL_NAME' => 'Name:',
-    'LBL_DESCRIPTION' => 'Description:',
+    'LBL_NAME' => 'Navn:',
+    'LBL_DESCRIPTION' => 'Beskrivelse:',
     'LBL_ALLOWED_MODULES' => 'Tilladte moduler: ',
     'LBL_DISALLOWED_MODULES' => 'Fravalgte moduler: ',
     'LBL_ASSIGN_MODULES' => 'Rediger moduler: ',
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Roles',
-    'LBL_USERS' => 'Users',
+    'LBL_USERS' => 'Brugere',
 
-    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Brugere',
     'LBL_MODULES' => 'Modules',
 );
