@@ -31,7 +31,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
     // System fields
-    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_ID' => 'Възложен на оператор с идентификационен номер',
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_DATE_ENTERED' => 'Date Created',
     'LBL_DATE_MODIFIED' => 'Date Modified',
@@ -49,17 +49,17 @@ $mod_strings = [
 
     // List view labels
     'LBL_LIST_NAME' => 'Name',
-    'LBL_LIST_DELETE' => 'Delete',
+    'LBL_LIST_DELETE' => 'Изтрий',
     'LBL_EDIT_BUTTON' => 'Edit',
     'LBL_REMOVE' => 'Remove',
     'LBL_ASCENDING' => 'Ascending',
     'LBL_DESCENDING' => 'Descending',
 
     // Email opt-in labels
-    'LBL_OPT_IN' => 'Opt In',
-    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Pending Confirm opt in, Confirm opt in not sent',
-    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Pending Confirm opt in, Confirm opt in sent',
-    'LBL_OPT_IN_CONFIRMED' => 'Opted in',
+    'LBL_OPT_IN' => 'Съгласие',
+    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Поканата за очаквано потвърждение на съгласие не е изпратена',
+    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Изпратена е покана за очаквано потвърждаване на съгласие',
+    'LBL_OPT_IN_CONFIRMED' => 'Съгласен',
 
     // Subpanel titles
     'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
@@ -166,7 +166,7 @@ $mod_strings = [
     'LBL_SUCCESSFUL' => 'Successful',
     'LBL_FAILED' => 'Failed',
     'LBL_CONNECTION_TEST' => 'Connection Test',
-    'LBL_YES' => 'Yes',
+    'LBL_YES' => 'Да',
     'LBL_NO' => 'No',
     'LBL_FOUND_CALENDARS' => 'Found {count} calendars.',
     'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'An error occurred while processing the connection test response. Please check the logs for details.',
