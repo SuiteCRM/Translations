@@ -43,17 +43,17 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Roles',
+    'LBL_MODULE_NAME' => 'Rollen',
     'LBL_MODULE_TITLE' => 'Rollen: Home',
     'LBL_ROLE' => 'Role',
     'LBL_NAME' => 'Name',
-    'LBL_DESCRIPTION' => 'Description',
+    'LBL_DESCRIPTION' => 'Beschreibung',
     'LIST_ROLES' => 'List Roles',
-    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Benutzer',
     'LIST_ROLES_BY_USER' => 'List Roles By User',
-    'LBL_LIST_FORM_TITLE' => 'Roles',
+    'LBL_LIST_FORM_TITLE' => 'Rollen',
     'LBL_ROLES_SUBPANEL_TITLE' => 'User Roles',
-    'LBL_SEARCH_FORM_TITLE' => 'Search',
+    'LBL_SEARCH_FORM_TITLE' => 'Suche',
     'LBL_CREATE_ROLE' => 'Neue Rolle',
     'LBL_EDIT_VIEW_DIRECTIONS' => 'Zum Ändern des Wertes die Zelle doppelklicken.',
     'LBL_ACCESS_DEFAULT' => 'Not Set',
@@ -61,5 +61,5 @@ $mod_strings = array(
     'LBL_ALL' => 'All',
     'LBL_DUPLICATE_OF' => 'Duplikat von ',
 
-    'LBL_SECURITYGROUPS' => 'Security Groups',
+    'LBL_SECURITYGROUPS' => 'Sicherheitsgruppen',
 );
