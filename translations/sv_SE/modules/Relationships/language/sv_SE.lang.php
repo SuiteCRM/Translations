@@ -54,9 +54,9 @@ $mod_strings = array(
     'LBL_JOIN_TABLE' => 'Lägg ihop tabellnamn',
     'LBL_JOIN_KEY_LHS' => 'Lägg ihop vänstersidig nyckel',
     'LBL_JOIN_KEY_RHS' => 'Lägg ihop högersidig nyckel',
-    'LBL_RELATIONSHIP_TYPE' => 'Relationstyp',
+    'LBL_RELATIONSHIP_TYPE' => 'Relationship Type',
     'LBL_RELATIONSHIP_ROLE_COLUMN' => 'Kolumnnamn för relationsroll',
     'LBL_RELATIONSHIP_ROLE_COLUMN_VALUE' => 'Kolumnvärde för relationsroll',
     'LBL_REVERSE' => 'Vänd',
-    'LBL_DELETED' => 'Raderad',
+    'LBL_DELETED' => 'Deleted',
 );
