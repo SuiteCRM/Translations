@@ -42,14 +42,14 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_ASSIGNED_TO_ID'] = 'Assigned User Id';
+$mod_strings['LBL_ASSIGNED_TO_ID'] = 'Esleitutako erabiltzailearen Id';
 $mod_strings['LBL_ASSIGNED_TO_NAME'] = 'User';
 $mod_strings['LBL_ID'] = 'ID';
 $mod_strings['LBL_DATE_ENTERED'] = 'Date Created';
 $mod_strings['LBL_DATE_MODIFIED'] = 'Date Modified';
 $mod_strings['LBL_MODIFIED'] = 'Modified By';
-$mod_strings['LBL_MODIFIED_NAME'] = 'Modified By Name';
-$mod_strings['LBL_CREATED'] = 'Created By';
+$mod_strings['LBL_MODIFIED_NAME'] = 'Nork aldatua';
+$mod_strings['LBL_CREATED'] = 'Sortzailea';
 $mod_strings['LBL_DESCRIPTION'] = 'Description';
 $mod_strings['LBL_DELETED'] = 'Deleted';
 $mod_strings['LBL_NAME'] = 'Name';
@@ -63,7 +63,7 @@ $mod_strings['LBL_HOMEPAGE_TITLE'] = 'My Areas';
 $mod_strings['LNK_NEW_RECORD'] = 'Create Areas';
 $mod_strings['LNK_LIST'] = 'View Areas';
 $mod_strings['LBL_SEARCH_FORM_TITLE'] = 'Search Areas';
-$mod_strings['LBL_HISTORY_SUBPANEL_TITLE'] = 'View History';
+$mod_strings['LBL_HISTORY_SUBPANEL_TITLE'] = 'Historia ikusi';
 $mod_strings['LBL_ACTIVITIES_SUBPANEL_TITLE'] = 'Activities';
 $mod_strings['LBL_NEW_FORM_TITLE'] = 'New Areas';
 $mod_strings['LBL_CITY'] = 'City';
