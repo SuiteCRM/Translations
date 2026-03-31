@@ -46,10 +46,10 @@ $mod_strings = array(
     'LBL_EMAIL_ADDRESS_ID' => 'ID',
     'LBL_EMAIL_ADDRESS' => 'Alamat Surel',
     'LBL_EMAIL_ADDRESS_CAPS' => 'Tutup alamat email',
-    'LBL_INVALID_EMAIL' => 'Email tidak valid',
-    'LBL_OPT_OUT' => 'Dihapus',
+    'LBL_INVALID_EMAIL' => 'Invalid Email',
+    'LBL_OPT_OUT' => 'Opted Out',
     'LBL_CONFIRM_OPT_IN' => 'Konfirmasi Keikutsertaan',
     'LBL_DATE_CREATE' => 'Tanggsl Dibuat',
     'LBL_DATE_MODIFIED' => 'Tanggal diubah',
-    'LBL_DELETED' => 'Hapus',
+    'LBL_DELETED' => 'Delete',
 );
