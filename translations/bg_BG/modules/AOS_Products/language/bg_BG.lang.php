@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_ID' => 'Възложен на оператор с идентификационен номер',
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date Created',
@@ -74,7 +74,7 @@ $mod_strings = array(
     'LBL_COST' => 'Cost',
     'LBL_PRICE' => 'Price',
     'LBL_URL' => 'Адрес',
-    'LBL_CONTACT' => 'Contact',
+    'LBL_CONTACT' => 'Контакт',
     'LBL_PRODUCT_IMAGE' => 'Product Image',
     'LBL_IMAGE_UPLOAD_FAIL' => 'ERROR: uploaded file exceeded the max filesize: max filesize: ',
     'LBL_AOS_PRODUCT_CATEGORYS_NAME' => 'Product Category',
@@ -86,5 +86,5 @@ $mod_strings = array(
     'LBL_CUSTOMERS_PURCHASED_PRODUCTS_SUBPANEL_TITLE' => 'Purchases',
     'LBL_PRODUCTS_PURCHASES' => 'Purchases',
     'LBL_AOS_QUOTE_NAME' => 'Quote',
-    'LBL_ACCOUNT_NAME' => 'Account',
+    'LBL_ACCOUNT_NAME' => 'Организация',
 );
