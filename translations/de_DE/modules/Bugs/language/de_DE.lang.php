@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Bugs',
+    'LBL_MODULE_NAME' => 'Fehler',
     'LBL_MODULE_TITLE' => 'Fehlerverfolgung: Startseite',
-    'LBL_MODULE_ID' => 'Bugs',
+    'LBL_MODULE_ID' => 'Fehler',
     'LBL_SEARCH_FORM_TITLE' => 'Fehlersuche',
     'LBL_LIST_FORM_TITLE' => 'Fehlerliste',
     'LBL_NEW_FORM_TITLE' => 'Neuer Fehler',
@@ -53,7 +53,7 @@ $mod_strings = array(
     'LBL_NUMBER' => 'Number:',
     'LBL_STATUS' => 'Status:',
     'LBL_PRIORITY' => 'Priority:',
-    'LBL_DESCRIPTION' => 'Description:',
+    'LBL_DESCRIPTION' => 'Beschreibung:',
     'LBL_CONTACT_NAME' => 'Ansprechpartner:',
     'LBL_CONTACT_ROLE' => 'Rolle:',
     'LBL_LIST_NUMBER' => 'NUM.',
@@ -62,9 +62,9 @@ $mod_strings = array(
     'LBL_LIST_PRIORITY' => 'Priority',
     'LBL_LIST_RESOLUTION' => 'Resolution',
     'LBL_LIST_LAST_MODIFIED' => 'Last Modified',
-    'LBL_INVITEE' => 'Contacts',
+    'LBL_INVITEE' => 'Kontakte',
     'LBL_TYPE' => 'Type:',
-    'LBL_LIST_TYPE' => 'Type',
+    'LBL_LIST_TYPE' => 'Typ',
     'LBL_RESOLUTION' => 'Lösung:',
     'LBL_RELEASE' => 'Version:',
     'LNK_NEW_BUG' => 'Fehler melden',
@@ -82,23 +82,23 @@ $mod_strings = array(
     'LBL_CREATED_BY' => 'Created by:',
     'LBL_MODIFIED_BY' => 'Last Modified by:',
 
-    'LBL_LIST_EMAIL_ADDRESS' => 'Email Address',
+    'LBL_LIST_EMAIL_ADDRESS' => 'E-Mail',
     'LBL_LIST_CONTACT_NAME' => 'Contact Name',
-    'LBL_LIST_ACCOUNT_NAME' => 'Account Name',
-    'LBL_LIST_PHONE' => 'Phone',
+    'LBL_LIST_ACCOUNT_NAME' => 'Firmenname',
+    'LBL_LIST_PHONE' => 'Telefon',
     'NTC_DELETE_CONFIRMATION' => 'Möchten Sie diesen Kontakt wirklich von diesem Fehler entfernen?',
 
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Fehlerverfolgung',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'History',
-    'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
-    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Accounts',
-    'LBL_CASES_SUBPANEL_TITLE' => 'Cases',
-    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projects',
-    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documents',
-    'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigned User',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktivitäten',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Verlauf',
+    'LBL_CONTACTS_SUBPANEL_TITLE' => 'Kontakte',
+    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Firmen',
+    'LBL_CASES_SUBPANEL_TITLE' => 'Fälle',
+    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projekte',
+    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Dokumente',
+    'LBL_LIST_ASSIGNED_TO_NAME' => 'Zugewiesener Benutzer',
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
 
-    'LBL_BUG_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_BUG_INFORMATION' => 'Überblick', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
 );
