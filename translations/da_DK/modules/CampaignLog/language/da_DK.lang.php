@@ -59,7 +59,7 @@ $mod_strings = array(
     'LBL_ARCHIVED' => 'Archived',
     'LBL_HITS' => 'Hits',
 
-    'LBL_CAMPAIGN_NAME' => 'Name:',
+    'LBL_CAMPAIGN_NAME' => 'Navn:',
     'LBL_CAMPAIGN' => 'Campaign:',
     'LBL_NAME' => 'Navn: ',
     'LBL_INVITEE' => 'Contacts',
@@ -96,6 +96,6 @@ $mod_strings = array(
     'LBL_CAMPAIGNS' => 'Campaigns',
     'LBL_LIST_MARKETING_NAME' => 'Markedsførings id',
 
-    'LBL_MARKETING_ID' => 'Marketing Id',
+    'LBL_MARKETING_ID' => 'Markedsførings id',
     'LBL_RELATED_NAME' => 'Related Name',
 );
