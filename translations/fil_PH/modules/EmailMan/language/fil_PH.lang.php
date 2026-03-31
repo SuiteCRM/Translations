@@ -53,7 +53,7 @@ $mod_strings = array(
     'LBL_ATTACHMENT_AUDIT' => ' naipadala. ito ay hindi lokal na naduplika upang i-conserve ang paggamit ng disk.',
     'LBL_CONFIGURE_SETTINGS' => 'I-configure ang mga setting ng email',
     'LBL_CUSTOM_LOCATION' => 'Tumutukoy sa Gumagamit',
-    'LBL_DEFAULT_LOCATION' => 'Default ',
+    'LBL_DEFAULT_LOCATION' => 'Default',
 
     'LBL_EMAIL_DEFAULT_DELETE_ATTACHMENTS' => 'I-delete ang mga kaugnay na mga note & mga maglalakip kasama ang mga natanggal na mga email',
     'LBL_EMAIL_WARNING_NOTIFICATIONS' => 'Email warning notifications',
