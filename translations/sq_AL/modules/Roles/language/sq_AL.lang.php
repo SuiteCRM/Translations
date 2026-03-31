@@ -43,22 +43,22 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Rolo:',
+    'LBL_ROLE' => 'Roli:',
     'LBL_LANGUAGE' => 'Gjuha:',
-    'LBL_MODULE_NAME' => 'Rolet',
-    'LBL_MODULE_TITLE' => 'Rolet: Ballina',
+    'LBL_MODULE_NAME' => 'Roles',
+    'LBL_MODULE_TITLE' => 'Roles: Home',
     'LBL_SEARCH_FORM_TITLE' => 'kërkim i roleve',
     'LBL_LIST_FORM_TITLE' => 'Lista e roleve',
-    'LNK_NEW_ROLE' => 'Krijo rol',
-    'LNK_ROLES' => 'Rolet',
-    'LBL_NAME' => 'Emri',
-    'LBL_DESCRIPTION' => 'Përshkrim',
+    'LNK_NEW_ROLE' => 'Create Role',
+    'LNK_ROLES' => 'Roles',
+    'LBL_NAME' => 'Emri:',
+    'LBL_DESCRIPTION' => 'Description:',
     'LBL_ALLOWED_MODULES' => 'Moduled e lejuara:',
     'LBL_DISALLOWED_MODULES' => 'Modulet e palejuara:',
     'LBL_ASSIGN_MODULES' => 'Ndrysho modulet',
-    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Rolet',
-    'LBL_USERS' => 'përdoruesit',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Roles',
+    'LBL_USERS' => 'Users',
 
-    'LBL_USERS_SUBPANEL_TITLE' => 'përdoruesit',
-    'LBL_MODULES' => 'Modulet',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
+    'LBL_MODULES' => 'Modules',
 );
