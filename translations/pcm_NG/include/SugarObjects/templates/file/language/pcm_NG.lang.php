@@ -51,7 +51,7 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Document Search',
     //vardef labels
     'LBL_NAME' => 'Document Name',
-    'LBL_DESCRIPTION' => 'Na here dem go tell u as de thing be',
+    'LBL_DESCRIPTION' => 'Na for here you go sabi as the thing be',
     'LBL_ASSIGNED_TO' => 'Dem give am:',
     'LBL_CATEGORY' => 'Category',
     'LBL_SUBCATEGORY' => 'Sub Category',
