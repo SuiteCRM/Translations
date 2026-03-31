@@ -54,7 +54,7 @@ $mod_strings = array(
     'LBL_ASSIGNED_USER_ID' => 'Assigned To:',
     'LBL_MODIFIED_USER_ID' => 'Modified User Id:',
     'LBL_CREATED_BY' => 'Created By:',
-    'LBL_NAME' => 'Name:',
+    'LBL_NAME' => 'Navn:',
     'LBL_STATUS' => 'Status:',
     'LBL_DATE_DUE' => 'Slutdato:',
     'LBL_TIME_DUE' => 'Sluttidspunkt:',
@@ -112,7 +112,7 @@ $mod_strings = array(
     'LBL_PANEL_TIMELINE' => 'Tidslinje',
 
     'LBL_SUBTASK' => 'Underopgave',
-    'LBL_LAG' => 'Lag',
+    'LBL_LAG' => 'Forsinkelse',
     'LBL_DAYS' => 'Days',
     'LBL_HOURS' => 'Hours',
     'LBL_RELATIONSHIP_TYPE' => 'Relationship Type',
