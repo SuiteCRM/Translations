@@ -44,11 +44,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_DESCRIPTION' => 'Description',
-    'LBL_NAME' => 'Name',
-    'LBL_LIST_NAME' => 'Name',
-    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_NAME' => 'Nom',
+    'LBL_LIST_NAME' => 'Nom',
+    'LBL_EDIT_BUTTON' => 'Modifier',
     'LBL_REMOVE' => 'Remove',
     'LBL_GRP' => 'Group',
-    'LBL_ORD' => 'Order',
+    'LBL_ORD' => 'Tri',
     'LBL_THUMBNAIL' => 'Miniature',
 );
