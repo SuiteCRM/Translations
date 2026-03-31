@@ -51,8 +51,8 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Búsqueda de Documentos',
     //vardef labels
     'LBL_NAME' => 'Nombre de Documento',
-    'LBL_DESCRIPTION' => 'Description',
-    'LBL_ASSIGNED_TO' => 'Assigned to:',
+    'LBL_DESCRIPTION' => 'Descripción',
+    'LBL_ASSIGNED_TO' => 'Asignado a:',
     'LBL_CATEGORY' => 'Categoría',
     'LBL_SUBCATEGORY' => 'Subcategoría',
     'LBL_STATUS' => 'Estado',
@@ -80,7 +80,7 @@ $mod_strings = array(
     'LBL_SUBCATEGORY_VALUE' => 'Subcategoría:',
     'LBL_DOC_STATUS' => 'Estado:',
     'LBL_DET_TEMPLATE_TYPE' => 'Tipo de Documento:',
-    'LBL_DOC_DESCRIPTION' => 'Description:',
+    'LBL_DOC_DESCRIPTION' => 'Descripción:',
     'LBL_DOC_ACTIVE_DATE' => 'Fecha de Publicación:',
     'LBL_DOC_EXP_DATE' => 'Fecha de Caducidad:',
 
@@ -95,7 +95,7 @@ $mod_strings = array(
     'LBL_LIST_VIEW_DOCUMENT' => 'Ver',
     'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
     'LBL_LIST_EXP_DATE' => 'Expiration Date',
-    'LBL_LIST_STATUS' => 'Status',
+    'LBL_LIST_STATUS' => 'Estado',
 
     //document search form.
     'LBL_SF_CATEGORY' => 'Category:',
@@ -112,6 +112,6 @@ $mod_strings = array(
     'LBL_LIST_DOCUMENT_NAME' => 'Document Name',
 
     'LBL_EDIT_BUTTON' => 'Editar',
-    'LBL_REMOVE' => 'Remove',
+    'LBL_REMOVE' => 'Quitar',
 
 );
