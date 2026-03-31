@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
 
-    'LBL_NAME' => 'Ad',
+    'LBL_NAME' => 'İsim',
     'LBL_NUMBER' => 'Numara:',
     'LBL_STATUS' => 'Durum:',
     'LBL_PRIORITY' => 'Öncelik:',
@@ -62,7 +62,7 @@ $mod_strings = array(
     'LBL_TYPE' => 'Tür:',
     'LBL_SUBJECT' => 'Konu:',
 
-    'LBL_EDIT_BUTTON' => 'Düzenle',
+    'LBL_EDIT_BUTTON' => 'Değiştir',
     'LBL_REMOVE' => 'Sil',
 
 );
