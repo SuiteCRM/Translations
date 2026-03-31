@@ -43,30 +43,30 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EDIT_LAYOUT' => 'ویرایش چیدمان',
+    'LBL_EDIT_LAYOUT' => 'Edit Layout',
     'LBL_EDIT_FIELDS' => 'ویرایش فیلدهای سفارشی',
-    'LBL_SELECT_FILE' => 'فایل را انتخاب کنید',
-    'LBL_MODULE_TITLE' => 'استودیو',
-    'LBL_TOOLBOX' => 'جعبه ابزار',
+    'LBL_SELECT_FILE' => 'انتخاب فایل',
+    'LBL_MODULE_TITLE' => 'Studio',
+    'LBL_TOOLBOX' => 'Toolbox',
     'LBL_SUITE_FIELDS_STAGE' => 'SuiteCRM Fields (click items to add to staging area)',
     'LBL_VIEW_SUITE_FIELDS' => 'مشاهده فیلدهای SuiteCRM',
-    'LBL_FAILED_TO_SAVE' => 'عدم موفقیت در ذخیره سازی',
+    'LBL_FAILED_TO_SAVE' => 'Failed To Save',
     'LBL_CONFIRM_UNSAVE' => 'هر گونه تغییر ذخیره نشده خواهد بود. می خواهید ادامه دهید؟',
     'LBL_PUBLISHING' => 'در حال انتشار...',
-    'LBL_PUBLISHED' => 'منتشرشده',
-    'LBL_FAILED_PUBLISHED' => 'شکست در انتشار',
-    'LBL_DROP_HERE' => '[در اینجا رها کنید]',
+    'LBL_PUBLISHED' => 'Published',
+    'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
+    'LBL_DROP_HERE' => '[Drop Here]',
 
 //CUSTOM FIELDS
     'LBL_NAME' => 'نام',
-    'LBL_LABEL' => 'عنوان',
-    'LBL_MASS_UPDATE' => 'به روز رسانی جمعی',
-    'LBL_DEFAULT_VALUE' => 'مقدار پیش فرض',
-    'LBL_REQUIRED' => 'ضروری',
+    'LBL_LABEL' => 'Label',
+    'LBL_MASS_UPDATE' => 'Mass Update',
+    'LBL_DEFAULT_VALUE' => 'Default Value',
+    'LBL_REQUIRED' => 'Required',
     'LBL_DATA_TYPE' => 'نوع',
 
 
-    'LBL_HISTORY' => 'تاريخچه',
+    'LBL_HISTORY' => 'History',
 
 //WIZARDS
 
@@ -79,7 +79,7 @@ $mod_strings = array(
     'LBL_SW_EDIT_GROUPTABS' => 'پیکربندی گروه تب ها',
     'LBL_SW_EDIT_PORTAL' => 'ویرایش پورتال',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => 'تعمیر فیلدهای اختصاصی',
-    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'مهاجرت زمینه های سفارشی',
+    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrate Custom Fields',
 
 // JS LABELS
     'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuilds javascript versions of language files',
@@ -93,29 +93,29 @@ $mod_strings = array(
     'LBL_ED_CREATE_DROPDOWN' => 'Create a Drop Down',
     'LBL_DROPDOWN_NAME' => 'نام لیست کشویی:',
     'LBL_DROPDOWN_LANGUAGE' => 'Dropdown Language:',
-    'LBL_TABGROUP_LANGUAGE' => 'زبان:',
+    'LBL_TABGROUP_LANGUAGE' => 'زبان: ',
 
 //END WIZARDS
 
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => 'نمایش دادن مقدار',
     'LBL_DD_DATABASEVALUE' => 'نام پایگاه داده',
-    'LBL_DD_ALL' => 'همه',
+    'LBL_DD_ALL' => 'All',
 
 //BUTTONS
     'LBL_BTN_SAVE' => 'ذخيره',
     'LBL_BTN_CANCEL' => 'لغو',
-    'LBL_BTN_SAVEPUBLISH' => 'ذخیره و استقرار',
-    'LBL_BTN_HISTORY' => 'تاريخچه',
-    'LBL_BTN_ADDROWS' => 'اضافه کردن ردیف',
-    'LBL_BTN_UNDO' => 'لغو عمل',
-    'LBL_BTN_REDO' => 'انجام دوباره',
-    'LBL_BTN_ADDCUSTOMFIELD' => 'افزودن فیلد دلخواه',
+    'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
+    'LBL_BTN_HISTORY' => 'History',
+    'LBL_BTN_ADDROWS' => 'Add Rows',
+    'LBL_BTN_UNDO' => 'Undo',
+    'LBL_BTN_REDO' => 'Redo',
+    'LBL_BTN_ADDCUSTOMFIELD' => 'Add Custom Field',
     'LBL_BTN_TABINDEX' => 'Edit Tabbing Order',
 
 //TABS
-    'LBL_MODULES' => 'ماژولها',
-    'LBL_MODULE_NAME' => 'سرپرستی',
+    'LBL_MODULES' => 'Modules',
+    'LBL_MODULE_NAME' => 'مدیریت',
     'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
     'LBL_GROUP_TAB_WELCOME' => 'The filters below will be displayed in the More list in the module menu for users to use to view groups of modules within the menu. Drag and drop modules to and from the filters. Note: Empty filters will not be displayed in the menu.',
     'LBL_RENAME_TAB_WELCOME' => 'Click on any tab\'s Display Value in the table below to rename the tab.',
@@ -123,22 +123,22 @@ $mod_strings = array(
     'LBL_TAB_GROUP_LANGUAGE_HELP' => 'Select an available language, edit the Group labels and click Save & Deploy to apply the labels in the selected language.',
     'LBL_ADD_GROUP' => 'Add Filter',
     'LBL_NEW_GROUP' => 'New Group',
-    'LBL_RENAME_TABS' => 'تغییر نام ماژول ها',
+    'LBL_RENAME_TABS' => 'Rename Modules',
 
 //ERRORS
     'ERROR_INVALID_KEY_VALUE' => "Error: Invalid Key Value: [']",
 
 //SUGAR PORTAL
     'LBL_SAVE' => 'ذخيره' /*for 508 compliance fix*/,
-    'LBL_UNDO' => 'لغو عمل' /*for 508 compliance fix*/,
-    'LBL_REDO' => 'انجام دوباره' /*for 508 compliance fix*/,
+    'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
+    'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Inline' /*for 508 compliance fix*/,
     'LBL_DELETE' => 'حذف' /*for 508 compliance fix*/,
     'LBL_ADD_FIELD' => 'افزودن فیلد' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'حداکثر رساندن' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Minimize' /*for 508 compliance fix*/,
-    'LBL_PUBLISH' => 'انتشار' /*for 508 compliance fix*/,
-    'LBL_ADDROWS' => 'اضافه کردن ردیف' /*for 508 compliance fix*/,
+    'LBL_PUBLISH' => 'Publish' /*for 508 compliance fix*/,
+    'LBL_ADDROWS' => 'Add Rows' /*for 508 compliance fix*/,
     'LBL_ADDFIELD' => 'افزودن فیلد' /*for 508 compliance fix*/,
     'LBL_EDIT' => 'ویرایش' /*for 508 compliance fix*/,
 
