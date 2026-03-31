@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'Està segur de que desitja eliminar el registre?',
 
     'LBL_EDIT_BUTTON' => 'Editar',
-    'LBL_REMOVE' => 'Remove',
+    'LBL_REMOVE' => 'Eliminar',
 
 );
