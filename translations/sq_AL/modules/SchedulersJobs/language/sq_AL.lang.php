@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_NAME' => 'Emri i punës',
-    'LBL_EXECUTE_TIME' => 'koha e ekzekutimit',
-    'LBL_SCHEDULER_ID' => 'Planifikuesit',
+    'LBL_NAME' => 'Job Name',
+    'LBL_EXECUTE_TIME' => 'Execute Time',
+    'LBL_SCHEDULER_ID' => 'Scheduler',
     'LBL_STATUS' => 'Statusi i punës',
     'LBL_RESOLUTION' => 'Result',
     'LBL_MESSAGE' => 'Mesazhe',
