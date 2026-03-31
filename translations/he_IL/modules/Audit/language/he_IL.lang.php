@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_FIELD_NAME' => 'שדה',
+    'LBL_FIELD_NAME' => 'Field',
     'LBL_OLD_NAME' => 'ערך ישן',
     'LBL_NEW_VALUE' => 'ערך חדש',
     'LBL_CREATED_BY' => 'שונה ע"י',
     'LBL_LIST_DATE' => 'תאריך השינוי',
     'LBL_AUDITED_FIELDS' => 'שדות מבוקרים במודול זה',
-    'LBL_CHANGE_LOG' => 'שנה יומן',
+    'LBL_CHANGE_LOG' => 'Change Log',
 );
