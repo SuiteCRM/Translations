@@ -52,17 +52,17 @@ $mod_strings = array(
     'LBL_VIEW_SUITE_FIELDS' => '查看 SuiteCRM 字段',
     'LBL_FAILED_TO_SAVE' => '保存失败',
     'LBL_CONFIRM_UNSAVE' => '将不会保存任何更改，您确定要继续？',
-    'LBL_PUBLISHING' => '正在发布...',
-    'LBL_PUBLISHED' => '已发布',
+    'LBL_PUBLISHING' => 'Publishing...',
+    'LBL_PUBLISHED' => 'Published',
     'LBL_FAILED_PUBLISHED' => '发布失败',
     'LBL_DROP_HERE' => '[拖放到此处]',
 
 //CUSTOM FIELDS
     'LBL_NAME' => '名称',
     'LBL_LABEL' => '标签',
-    'LBL_MASS_UPDATE' => '批量更新',
+    'LBL_MASS_UPDATE' => 'Mass Update',
     'LBL_DEFAULT_VALUE' => '默认值',
-    'LBL_REQUIRED' => '转换前提',
+    'LBL_REQUIRED' => '必填',
     'LBL_DATA_TYPE' => '类型',
 
 
@@ -83,7 +83,7 @@ $mod_strings = array(
 
 // JS LABELS
     'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => '重建 javascript 版本的语言文件。',
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => '正在移除 javascript 版本的语言文件，它会在需要的时候重建。',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Removing javascript versions of language files, will rebuild when needed.',
 
 
 //Manager Backups History
@@ -93,19 +93,19 @@ $mod_strings = array(
     'LBL_ED_CREATE_DROPDOWN' => '创建下拉列表',
     'LBL_DROPDOWN_NAME' => '下拉列表名称',
     'LBL_DROPDOWN_LANGUAGE' => '语言下拉列表',
-    'LBL_TABGROUP_LANGUAGE' => '语言',
+    'LBL_TABGROUP_LANGUAGE' => 'Language:',
 
 //END WIZARDS
 
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => '显示数值',
     'LBL_DD_DATABASEVALUE' => '数据库数值',
-    'LBL_DD_ALL' => '全部',
+    'LBL_DD_ALL' => '全部模块',
 
 //BUTTONS
     'LBL_BTN_SAVE' => '保存',
     'LBL_BTN_CANCEL' => '取消',
-    'LBL_BTN_SAVEPUBLISH' => '保存并部署',
+    'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
     'LBL_BTN_HISTORY' => '历史记录',
     'LBL_BTN_ADDROWS' => '添加行',
     'LBL_BTN_UNDO' => '撤销',
@@ -116,17 +116,17 @@ $mod_strings = array(
 //TABS
     'LBL_MODULES' => '模块',
     'LBL_MODULE_NAME' => '系统管理',
-    'LBL_CONFIGURE_GROUP_TABS' => '配置模块组',
+    'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
     'LBL_GROUP_TAB_WELCOME' => '拖放模块添加到模块组中，空的模块组将不会显示。',
     'LBL_RENAME_TAB_WELCOME' => '点击下表中的标签进行重命名。',
     'LBL_DELETE_MODULE' => '删除模块',
     'LBL_TAB_GROUP_LANGUAGE_HELP' => '为其他语言选项设置组标签的标题。选择一个语言选项，然后编辑标题并点击<b>保存并部署</b>。',
     'LBL_ADD_GROUP' => '添加组',
     'LBL_NEW_GROUP' => '新建组',
-    'LBL_RENAME_TABS' => '重命名标签',
+    'LBL_RENAME_TABS' => '重命标签',
 
 //ERRORS
-    'ERROR_INVALID_KEY_VALUE' => "错误：无效的键值 [']",
+    'ERROR_INVALID_KEY_VALUE' => "Error: Invalid Key Value: [']",
 
 //SUGAR PORTAL
     'LBL_SAVE' => '保存' /*for 508 compliance fix*/,
