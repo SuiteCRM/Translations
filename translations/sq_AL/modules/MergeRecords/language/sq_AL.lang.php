@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Lista e bashkimeve',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Gjej kërkimet e regjistruara për të bashkuar me',
-    'LBL_AVAIL_FIELDS' => 'Fushat në dipozicion',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'Gjendja e filtrit',
     'LBL_MERGE_VALUE_OVER' => 'bashko vlerën gjatë',
 
@@ -58,15 +58,15 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Performo bashkimin',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Performo bashkimin',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Ruaj bashkimin',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Ruaj bashkimin',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => 'regjistrimet e gjetura të bashkohen me',
     'LBL_SELECT_ERROR' => 'Duhet bërë selektim që të mund të vazhdoni',
     'LBL_CHANGE_PARENT' => 'Vendos si parësor',
-    'LBL_REMOVE_FROM_MERGE' => 'Largo',
+    'LBL_REMOVE_FROM_MERGE' => 'Remove',
     'LBL_DIFF_COL_VALUES' => 'Kolonat vlerat e të cilave në reshtin e parë dallojnë nga vlera e rreshtave të bashkuar',
     'LBL_SAME_COL_VALUES' => 'Kolonat vlera e të cilave është e ngajshme gjatë gjitë rreshtave',
     'LBL_DELETE_MESSAGE' => 'Ky veprim do të fshij regjistrimin(et) në vijim',
