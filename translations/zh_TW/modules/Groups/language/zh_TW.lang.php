@@ -44,9 +44,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_MODULE_NAME' => '群組',
-    'LBL_GROUP_NAME' => '組名:',
-    'LBL_DESCRIPTION' => '描述:',
-    'LBL_TEAM' => '團隊:',
+    'LBL_GROUP_NAME' => 'Group Name:',
+    'LBL_DESCRIPTION' => '說明:',
+    'LBL_TEAM' => 'Team:',
     // ListView
     'LBL_LIST_TITLE' => '群組',
     // Links
