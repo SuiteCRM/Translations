@@ -44,16 +44,16 @@ $mod_strings = [
     'LBL_DELETED' => 'Избришан',
 
     // Security groups
-    'LBL_SECURITYGROUPS' => 'Безбедносни групи',
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Безбедносни групи',
+    'LBL_SECURITYGROUPS' => 'Security Groups',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
 
     // List view labels
     'LBL_LIST_NAME' => 'Име',
     'LBL_LIST_DELETE' => 'Избриши',
     'LBL_EDIT_BUTTON' => 'Промени',
-    'LBL_REMOVE' => 'Отстрани',
-    'LBL_ASCENDING' => 'Растечки',
-    'LBL_DESCENDING' => 'Опаѓачки',
+    'LBL_REMOVE' => 'Избриши',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
 
     // Email opt-in labels
     'LBL_OPT_IN' => 'Opt In',
@@ -62,7 +62,7 @@ $mod_strings = [
     'LBL_OPT_IN_CONFIRMED' => 'Opted in',
 
     // Subpanel titles
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Види историја',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Активности',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
@@ -92,7 +92,7 @@ $mod_strings = [
 
     // Standard fields
     'LBL_NAME' => 'Име',
-    'LBL_ID' => 'ID',
+    'LBL_ID' => 'Број',
     'LBL_TYPE' => 'Тип',
     'LBL_SOURCE' => 'Calendar Source',
 
@@ -162,9 +162,9 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Please select a calendar source first.',
 
     // Connection test messages
-    'LBL_CALENDAR' => 'Календар',
+    'LBL_CALENDAR' => 'Calendar',
     'LBL_SUCCESSFUL' => 'Успешно',
-    'LBL_FAILED' => 'Неуспешен',
+    'LBL_FAILED' => 'Failed',
     'LBL_CONNECTION_TEST' => 'Connection Test',
     'LBL_YES' => 'Да',
     'LBL_NO' => 'Не',
@@ -186,7 +186,7 @@ $mod_strings = [
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => 'Во тек',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => 'In Progress',
     'LBL_SYNC_STATUS_SUCCESS' => 'Успешно',
     'LBL_SYNC_STATUS_WARNING' => 'Внимание',
     'LBL_SYNC_STATUS_ERROR' => 'Грешка',
@@ -202,5 +202,5 @@ $mod_strings = [
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Calendar not found.',
 
     // Relationship labels
-    'LBL_MEETINGS' => 'Состаноци',
+    'LBL_MEETINGS' => 'Meetings',
 ];
