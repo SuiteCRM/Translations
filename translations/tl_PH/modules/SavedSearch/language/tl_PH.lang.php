@@ -56,7 +56,7 @@ $mod_strings = array(
     'LBL_SAVE_SEARCH_AS' => 'I-save ang filter bilang:',
     'LBL_ASCENDING' => 'Pataas',
     'LBL_DESCENDING' => 'Pababa',
-    'LBL_MODIFY_CURRENT_FILTER' => 'Modipikahin ang kasalukuyang salaan',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
     'LBL_CREATED_BY' => 'Nilikha ni',
     'LBL_QUICK_FILTER' => 'Mabilis na pag sala',
