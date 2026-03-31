@@ -44,25 +44,25 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
 
-    'LBL_NAME' => 'Name',
+    'LBL_NAME' => 'Nume: ',
     'LBL_NUMBER' => 'Număr:',
     'LBL_STATUS' => 'Status:',
     'LBL_PRIORITY' => 'Prioritate:',
-    'LBL_DESCRIPTION' => 'Description:',
+    'LBL_DESCRIPTION' => 'Descriere:',
     'LBL_RESOLUTION' => 'Soluție',
     'LBL_LAST_MODIFIED' => 'Data modificării',
     'LBL_ASSIGNED_TO_ID' => 'Atribuit lui:',
-    'LBL_ASSIGNED_TO_NAME' => 'User:',
+    'LBL_ASSIGNED_TO_NAME' => 'Utilizator:',
     'LBL_WORK_LOG' => 'Jurnal de activitate:',
     'LBL_CREATED_BY' => 'Creat de:',
-    'LBL_DATE_ENTERED' => 'Date Created:',
-    'LBL_DATE_MODIFIED' => 'Date Modified:',
+    'LBL_DATE_ENTERED' => 'Data creării:',
+    'LBL_DATE_MODIFIED' => 'Data modificării:',
     'LBL_MODIFIED_BY' => 'Modificat de:',
     'LBL_ASSIGNED_USER' => 'Atribuit utilizatorului:',
-    'LBL_TYPE' => 'Type:',
+    'LBL_TYPE' => 'Tip:',
     'LBL_SUBJECT' => 'Subiect:',
 
-    'LBL_EDIT_BUTTON' => 'Edit',
-    'LBL_REMOVE' => 'Remove',
+    'LBL_EDIT_BUTTON' => 'Editați',
+    'LBL_REMOVE' => 'Înlătură',
 
 );
