@@ -81,7 +81,7 @@ $mod_strings = array(
     'LBL_DELETED' => 'Deleted:',
     'LBL_IMPORT_PROJECT_TASKS' => 'Import Project Tasks',
 
-    'LBL_LIST_NAME' => 'Name',
+    'LBL_LIST_NAME' => 'Nimi',
     'LBL_LIST_PARENT_NAME' => 'Project',
     'LBL_SEARCH_FORM_TITLE' => 'Project Task Search',
     'LBL_LIST_PERCENT_COMPLETE' => '% Complete',
