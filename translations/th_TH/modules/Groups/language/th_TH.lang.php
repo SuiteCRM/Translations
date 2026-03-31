@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'กลุ่ม',
+    'LBL_MODULE_NAME' => 'Groups',
     'LBL_GROUP_NAME' => 'ชื่อกลุ่ม:',
     'LBL_DESCRIPTION' => 'รายละเอียด:',
     'LBL_TEAM' => 'ทีม:',
     // ListView
-    'LBL_LIST_TITLE' => 'กลุ่ม',
+    'LBL_LIST_TITLE' => 'Groups',
     // Links
     'LNK_ALL_GROUPS' => 'กลุ่มทั้งหมด',
     'LNK_NEW_GROUP' => 'สร้างกลุ่ม',
