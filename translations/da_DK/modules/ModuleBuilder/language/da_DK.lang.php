@@ -43,8 +43,8 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_LOADING' => 'Loading' /*for 508 compliance fix*/,
-    'LBL_HIDEOPTIONS' => 'Hide Options' /*for 508 compliance fix*/,
+    'LBL_LOADING' => 'Loader' /*for 508 compliance fix*/,
+    'LBL_HIDEOPTIONS' => 'Skjul indstillinger' /*for 508 compliance fix*/,
     'LBL_DELETE' => 'Delete' /*for 508 compliance fix*/,
     'help' => array(
         'package' => array(
@@ -327,7 +327,7 @@ $mod_strings = array(
     'LBL_HOME_EDIT_DROPDOWNS' => 'Dropdown Editor',
 
 //STUDIO2
-    'LBL_MODULEBUILDER' => 'Module Builder',
+    'LBL_MODULEBUILDER' => 'Module skaber',
     'LBL_STUDIO' => 'Studio',
     'LBL_DROPDOWNEDITOR' => 'Dropdown Editor',
     'LBL_DEVELOPER_TOOLS' => 'Developer Tools',
@@ -339,9 +339,9 @@ $mod_strings = array(
     'LBL_DEPLOY_FAILED' => 'En fejl er fremkommende under installeringsprocessen, din programpakker er muligvis ikke installeret korret.',
     'LBL_AVAILABLE_SUBPANELS' => 'Tilgængelige underpaneler',
     'LBL_ADVANCED' => 'Advanced',
-    'LBL_ADVANCED_SEARCH' => 'Advanced Filter',
+    'LBL_ADVANCED_SEARCH' => 'Avanceret filter',
     'LBL_BASIC' => 'Grundlæggende',
-    'LBL_BASIC_SEARCH' => 'Quick Filter',
+    'LBL_BASIC_SEARCH' => 'Hurtigfilter',
     'LBL_CURRENT_LAYOUT' => 'Layout',
     'LBL_CURRENCY' => 'Currency',
     'LBL_DASHLET' => 'SuiteCRM Dashlet',
@@ -375,7 +375,7 @@ $mod_strings = array(
     'LBL_SELECT_FILE' => 'Select File',
     'LBL_SUBPANELS' => 'Underpaneler',
     'LBL_SUBPANEL' => 'Underpanel',
-    'LBL_SUBPANEL_TITLE' => 'Title:',
+    'LBL_SUBPANEL_TITLE' => 'Titel:',
     'LBL_SEARCH_FORMS' => 'Filter',
     'LBL_SEARCH' => 'Search',
     'LBL_SEARCH_BUTTON' => 'Search',
@@ -409,7 +409,7 @@ $mod_strings = array(
 
 
 //RELATIONSHIPS
-    'LBL_MODULE' => 'Module',
+    'LBL_MODULE' => 'Modul',
     'LBL_LHS_MODULE' => 'Primært modul',
     'LBL_CUSTOM_RELATIONSHIPS' => '* relation oprettet i Studio',
     'LBL_RELATIONSHIPS' => 'Relationer',
@@ -449,7 +449,7 @@ $mod_strings = array(
     'LBL_DATA_TYPE' => 'Type',
     'LBL_HCUSTOM' => 'BRUGERDEFINERET',
     'LBL_HDEFAULT' => 'STANDARD',
-    'LBL_LANGUAGE' => 'Language:',
+    'LBL_LANGUAGE' => 'Sprog:',
     'LBL_CUSTOM_FIELDS' => '* field created in Studio',
 
 //SECTION
@@ -464,11 +464,11 @@ $mod_strings = array(
     'LBL_SECTION_MAIN' => 'Primær',
     'LBL_SECTION_FIELDEDITOR' => 'Rediger felt',
     'LBL_SECTION_DEPLOY' => 'Installer',
-    'LBL_SECTION_MODULE' => 'Module',
+    'LBL_SECTION_MODULE' => 'Modul',
 //WIZARDS
 
 //LIST VIEW EDITOR
-    'LBL_DEFAULT' => 'Default',
+    'LBL_DEFAULT' => 'Standard',
     'LBL_HIDDEN' => 'Hidden',
     'LBL_AVAILABLE' => 'Available',
     'LBL_LISTVIEW_DESCRIPTION' => 'Der vises tre kolonner nedenfor. Kolonnen <b>Standard</b> indeholder felter, der som standard vises i en listevisning. Kolonnen <b>Yderligere</b> indeholder felter, som en bruger kan vælge at bruge til at oprette en brugerdefineret visning. Kolonnen <b>Tilgængelige</b> viser felter, der er tilgængelige for dig som administrator, så du kan føje dem til kolonnerne Standard eller Yderligere til brug for brugerne.',
@@ -476,7 +476,7 @@ $mod_strings = array(
 
 //Manager Backups History
     'LBL_MB_PREVIEW' => 'Eksempel',
-    'LBL_MB_RESTORE' => 'Restore',
+    'LBL_MB_RESTORE' => 'Gendan',
     'LBL_MB_DELETE' => 'Delete',
     'LBL_MB_DEFAULT_LAYOUT' => 'Standardlayout',
 
@@ -501,7 +501,7 @@ $mod_strings = array(
     'LBL_BTN_REDO' => 'Annuller fortryd',
     'LBL_BTN_ADDCUSTOMFIELD' => 'Tilføj brugerdefineret felt',
     'LBL_BTN_EXPORT' => 'Eksportér tilpasninger',
-    'LBL_BTN_DUPLICATE' => 'Duplicate',
+    'LBL_BTN_DUPLICATE' => 'Duplikere',
     'LBL_BTN_PUBLISH' => 'Publish',
     'LBL_BTN_DEPLOY' => 'Deploy',
     'LBL_BTN_EXP' => 'Export',
@@ -527,7 +527,7 @@ $mod_strings = array(
     'LBL_PACKAGE_NAME' => 'Pakkenavn:',
     'LBL_MODULE_NAME' => 'Modulnavn:',
     'LBL_AUTHOR' => 'Forfatter:',
-    'LBL_DESCRIPTION' => 'Description:',
+    'LBL_DESCRIPTION' => 'Beskrivelse:',
     'LBL_KEY' => 'Key:',
     'LBL_ADD_README' => 'Vigtigt',
     'LBL_LAST_MODIFIED' => 'Sidst ændret:',
@@ -539,12 +539,12 @@ $mod_strings = array(
     'LBL_TYPE' => 'Type:',
     'LBL_NAV_TAB' => 'Navigationsfane',
     'LBL_CREATE' => 'Create',
-    'LBL_LIST' => 'List',
+    'LBL_LIST' => 'Liste',
     'LBL_VIEW' => 'View',
     'LBL_HISTORY' => 'View History',
     'LBL_RESTORE_DEFAULT' => 'Gendan standard',
     'LBL_ACTIVITIES' => 'Activities',
-    'LBL_NEW' => 'New',
+    'LBL_NEW' => 'Ny',
     'LBL_TYPE_BASIC' => 'basic',
     'LBL_TYPE_COMPANY' => 'company',
     'LBL_TYPE_PERSON' => 'person',
@@ -562,7 +562,7 @@ $mod_strings = array(
     'LBL_EC_TITLE' => 'Export Customizations',
     'LBL_EC_NAME' => 'Package Name:',
     'LBL_EC_AUTHOR' => 'Author:',
-    'LBL_EC_DESCRIPTION' => 'Description:',
+    'LBL_EC_DESCRIPTION' => 'Beskrivelse:',
     'LBL_EC_CHECKERROR' => 'Vælg et modul.',
     'LBL_EC_CUSTOMFIELD' => 'tilpassede felter',
     'LBL_EC_CUSTOMLAYOUT' => 'tilpassede layout',
@@ -582,7 +582,7 @@ $mod_strings = array(
 
 //AJAX STATUS
     'LBL_AJAX_FAILED_DATA' => 'Det lykkedes ikke at hente data',
-    'LBL_AJAX_LOADING' => 'Loading...',
+    'LBL_AJAX_LOADING' => 'Indlæser ...',
     'LBL_AJAX_DELETING' => 'Sletter...',
     'LBL_AJAX_BUILDPROGRESS' => 'Opbygningen er startet...',
     'LBL_AJAX_DEPLOYPROGRESS' => 'Installationen er startet...',
