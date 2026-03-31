@@ -58,26 +58,26 @@ $mod_strings = array(
 
     'LBL_ACCOUNT_ID' => 'اکاؤنٹ کی شناخت',
     'LBL_ACCOUNT_NAME' => 'اکاؤنٹ کا نام:',
-    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'کهاتے',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'سرگرمیاں',
-    'LBL_BUGS_SUBPANEL_TITLE' => 'مسئلے',
+    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Accounts',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
+    'LBL_BUGS_SUBPANEL_TITLE' => 'Bugs',
     'LBL_CASE_NUMBER' => 'کیس نمبر:',
     'LBL_CASE' => 'معاملہ:',
     'LBL_CONTACT_NAME' => 'رابطے کا نام:',
     'LBL_CONTACT_ROLE' => 'کردار:',
-    'LBL_CONTACTS_SUBPANEL_TITLE' => 'رابطے',
-    'LBL_DEFAULT_SUBPANEL_TITLE' => 'معاملے',
+    'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Cases',
     'LBL_DESCRIPTION' => 'تفصیل:',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'تاریخ',
-    'LBL_INVITEE' => 'رابطے',
-    'LBL_MEMBER_OF' => 'کهاتے',
-    'LBL_MODULE_NAME' => 'معاملے',
+    'LBL_INVITEE' => 'Contacts',
+    'LBL_MEMBER_OF' => 'Account',
+    'LBL_MODULE_NAME' => 'Cases',
     'LBL_MODULE_TITLE' => 'مقدمات: گھر',
     'LBL_NEW_FORM_TITLE' => 'نیا کیس',
     'LBL_NUMBER' => 'نمبر:',
     'LBL_PRIORITY' => 'ترجیح:',
-    'LBL_PROJECTS_SUBPANEL_TITLE' => 'منصوبے',
-    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'دستاویزات',
+    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projects',
+    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documents',
     'LBL_RESOLUTION' => 'ہمت:',
     'LBL_SEARCH_FORM_TITLE' => 'کیس تلاش',
     'LBL_STATUS' => 'حیثیت:',
@@ -96,7 +96,7 @@ $mod_strings = array(
 
     'LNK_CASE_LIST' => 'کیس دیکھیں',
     'LNK_NEW_CASE' => 'کیس بنائیں',
-    'LBL_LIST_DATE_CREATED' => 'تاریخ کی تشکیل',
+    'LBL_LIST_DATE_CREATED' => 'تاریخ بنائی گئی ہے',
     'LBL_ASSIGNED_TO_NAME' => 'کے لئے تفویض',
     'LBL_TYPE' => 'قسم',
     'LBL_WORK_LOG' => 'کام کی لاگت',
@@ -104,8 +104,8 @@ $mod_strings = array(
 
     'LBL_CREATED_USER' => 'صارف بنائیں',
     'LBL_MODIFIED_USER' => 'صارف میں کچھ تبدیلیاں کرنا',
-    'LBL_PROJECT_SUBPANEL_TITLE' => 'منصوبے',
-    'LBL_CASE_INFORMATION' => 'جائزہ', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_PROJECT_SUBPANEL_TITLE' => 'Projects',
+    'LBL_CASE_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
     // SNIP
     'LBL_UPDATE_TEXT' => 'تازہ ترین معلومات - ٹیکسٹ', //Field for Case updates with text only
