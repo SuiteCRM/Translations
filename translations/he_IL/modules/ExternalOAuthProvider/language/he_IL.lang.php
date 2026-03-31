@@ -44,21 +44,21 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
 
-    'LBL_ASSIGNED_TO_ID' => 'מזהה המשתמש המוקצה',
-    'LBL_ASSIGNED_TO_NAME' => 'מנה שם משתמש:',
-    'LBL_ID' => 'זיהוי',
+    'LBL_ASSIGNED_TO_ID' => 'מזהה המשתמש רשום',
+    'LBL_ASSIGNED_TO_NAME' => 'מוקצה למשתמש',
+    'LBL_ID' => 'מזהה',
     'LBL_DATE_ENTERED' => 'תאריך יצירה:',
-    'LBL_DATE_MODIFIED' => 'תאריך שינוי',
-    'LBL_MODIFIED' => 'שונה ע"י:',
-    'LBL_MODIFIED_NAME' => 'שונה על ידי ששמו',
+    'LBL_DATE_MODIFIED' => 'התאריך שונה',
+    'LBL_MODIFIED' => 'עודכן ע"י',
+    'LBL_MODIFIED_NAME' => 'השתנה על-ידי שם',
     'LBL_CREATED' => 'נוצר ע"י',
-    'LBL_DESCRIPTION' => 'תאור',
+    'LBL_DESCRIPTION' => 'תיאור',
     'LBL_DELETED' => 'נמחק',
     'LBL_NAME' => 'שם',
     'LBL_CREATED_USER' => 'נוצר על ידי המשתמש',
-    'LBL_MODIFIED_USER' => 'שונה על ידי המשתמש',
+    'LBL_MODIFIED_USER' => 'עודכן על ידי המשתמש',
     'LBL_LIST_NAME' => 'שם',
-    'LBL_EDIT_BUTTON' => 'לערוך',
+    'LBL_EDIT_BUTTON' => 'ערוך',
     'LBL_REMOVE' => 'הסר',
     'LBL_LIST_FORM_TITLE' => 'External OAuth Provider List',
     'LBL_MODULE_NAME' => 'External OAuth Providers',
@@ -72,8 +72,8 @@ $mod_strings = [
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'פעילויות',
     'LBL_NEW_FORM_TITLE' => 'New External OAuth Provider',
 
-    'LBL_LIST_DELETE' => 'למחוק',
-    'LBL_TYPE' => 'סוג',
+    'LBL_LIST_DELETE' => 'Delete',
+    'LBL_TYPE' => 'Type',
     'LBL_CONNECTOR' => 'Connector',
     'LBL_REDIRECT_URI' => 'Redirect URI',
     'LBL_REDIRECT_URI_TYPE' => 'Redirect URI Type',
@@ -97,7 +97,7 @@ $mod_strings = [
 
     'LBL_EXTRA' => 'Extra configurations',
     'LBL_MAPPING' => 'Mapping configurations',
-    'LBL_OTHER' => 'אחרים',
+    'LBL_OTHER' => 'Other',
 
 
     'LNK_LIST_CREATE_NEW_PERSONAL' => 'New Personal OAuth Provider',
@@ -106,5 +106,5 @@ $mod_strings = [
     'LNK_LIST_OUTBOUND_EMAILS' => 'Outbound Email Accounts',
     'LNK_LIST_EXTERNAL_OAUTH_CONNECTION' => 'External OAuth Connections',
 
-    'LBL_OWNER' => 'בעלים',
+    'LBL_OWNER' => 'Owner',
 ];
