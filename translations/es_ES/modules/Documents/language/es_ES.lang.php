@@ -52,14 +52,14 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Document Search',
     //vardef labels
     'LBL_NAME' => 'Document Name',
-    'LBL_DESCRIPTION' => 'Description',
+    'LBL_DESCRIPTION' => 'Descripción',
     'LBL_CATEGORY' => 'Category',
     'LBL_SUBCATEGORY' => 'Sub Category',
-    'LBL_STATUS' => 'Status',
+    'LBL_STATUS' => 'Estado',
     'LBL_CREATED_BY' => 'Created by',
-    'LBL_DATE_ENTERED' => 'Date Created',
-    'LBL_DATE_MODIFIED' => 'Date Modified',
-    'LBL_DELETED' => 'Deleted',
+    'LBL_DATE_ENTERED' => 'Fecha de Creación',
+    'LBL_DATE_MODIFIED' => 'Fecha de Modificación',
+    'LBL_DELETED' => 'Eliminado',
     'LBL_MODIFIED' => 'Modificado por Id',
     'LBL_MODIFIED_USER' => 'Modified by',
     'LBL_CREATED' => 'Created by',
@@ -68,7 +68,7 @@ $mod_strings = array(
     'LBL_RELATED_DOCUMENT_REVISION_ID' => 'ID de Versión de Documento Relacionado',
     'LBL_IS_TEMPLATE' => 'Is a Template',
     'LBL_TEMPLATE_TYPE' => 'Document Type',
-    'LBL_ASSIGNED_TO_NAME' => 'Assigned to:',
+    'LBL_ASSIGNED_TO_NAME' => 'Asignado a:',
     'LBL_REVISION_NAME' => 'Revision Number',
     'LBL_MIME' => 'Mime Type',
     'LBL_REVISION' => 'Revision',
@@ -86,9 +86,9 @@ $mod_strings = array(
     //document edit and detail view
     'LBL_DOC_NAME' => 'Document Name:',
     'LBL_FILENAME' => 'File Name:',
-    'LBL_LIST_FILENAME' => 'File:',
+    'LBL_LIST_FILENAME' => 'Archivo:',
     'LBL_DOC_VERSION' => 'Revision:',
-    'LBL_FILE_UPLOAD' => 'File:',
+    'LBL_FILE_UPLOAD' => 'Archivo:',
 
     'LBL_CATEGORY_VALUE' => 'Category:',
     'LBL_LIST_CATEGORY' => 'Category',
@@ -103,7 +103,7 @@ $mod_strings = array(
     'LBL_DET_RELATED_DOCUMENT_VERSION' => "Versión de Documento Relacionado:",
     'LBL_DET_IS_TEMPLATE' => '¿Plantilla? :',
     'LBL_DET_TEMPLATE_TYPE' => 'Document Type:',
-    'LBL_DOC_DESCRIPTION' => 'Description:',
+    'LBL_DOC_DESCRIPTION' => 'Descripción:',
     'LBL_DOC_ACTIVE_DATE' => 'Publish Date:',
     'LBL_DOC_EXP_DATE' => 'Expiration Date:',
 
@@ -117,7 +117,7 @@ $mod_strings = array(
     'LBL_LIST_VIEW_DOCUMENT' => 'View',
     'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
     'LBL_LIST_EXP_DATE' => 'Expiration Date',
-    'LBL_LIST_STATUS' => 'Status',
+    'LBL_LIST_STATUS' => 'Estado',
     'LBL_LINKED_ID' => 'Id enlace',
     'LBL_SELECTED_REVISION_ID' => 'Id de versión seleccionada',
     'LBL_LATEST_REVISION_ID' => 'Id de última versión',
@@ -141,7 +141,7 @@ $mod_strings = array(
     'ERR_MISSING_FILE' => 'Este documento no se encuentra un archivo, es muy probable que el error se haya generado durante la carga. Por favor vuelva a intentar cargar el archivo o póngase en contacto con su administrador.',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'Name',
+    'LBL_LIST_DOCUMENT_NAME' => 'Nombre',
     'LBL_LIST_IS_TEMPLATE' => '¿Plantilla?',
     'LBL_LIST_TEMPLATE_TYPE' => 'Document Type',
     'LBL_LAST_REV_CREATE_DATE' => 'Fecha de Creación de Última Versión',
@@ -159,10 +159,10 @@ $mod_strings = array(
     'ERR_INVALID_EXTERNAL_API_LOGIN' => 'La comprobación de inicio de sesión ha sido errónea para la API externa ({0})',
 
     // Links around the world
-    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Accounts',
-    'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
+    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Cuentas',
+    'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contactos',
     'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Opportunities',
-    'LBL_CASES_SUBPANEL_TITLE' => 'Cases',
+    'LBL_CASES_SUBPANEL_TITLE' => 'Casos',
     'LBL_BUGS_SUBPANEL_TITLE' => 'Bugs',
 
     'LBL_AOS_CONTRACTS' => 'Contracts',
