@@ -51,7 +51,7 @@ $mod_strings = [
     'LBL_SECRET_HASHED' => 'Geheimen Schlüssel ändern',
     'LBL_LEAVE_BLANK' => 'Feld frei lassen ausser bei Änderung',
     'LBL_REMEMBER_SECRET' => 'Bitte notieren Sie den geheimen Schlüssel, da dieser nach dem Speichern nicht mehr verfügbar sein wird.',
-    'LBL_REDIRECT_URL' => 'Redirect URL',
+    'LBL_REDIRECT_URL' => 'Umleitungs-URL',
     'LBL_ALLOWED_GRANT_TYPE' => 'Erlaubte Zugriffsberechtigungen',
     'LBL_DURATION_AMOUNT' => 'Dauer (Anzahl)',
     'LBL_DURATION_UNIT' => 'Dauer (Einheit)',
@@ -64,14 +64,14 @@ $mod_strings = [
     'LBL_ACCESS_TOKEN_EXPIRES' => 'Ablauf der Zugangskennung (Token)',
     'LBL_REFRESH_TOKEN_EXPIRES' => 'Erneuerung des Ablaufs der Zugangskennung (Token)',
 
-    'LNK_OAUTH2_TOKEN_LIST'=> 'List OAuth2 Tokens',
-    'LNK_OAUTH2_CLIENT_LIST' => 'List OAuth2 Clients',
+    'LNK_OAUTH2_TOKEN_LIST'=> 'Liste OAuth2 Tokens',
+    'LNK_OAUTH2_CLIENT_LIST' => 'Liste OAuth2 Clients',
     'LNK_OAUTH2_AUTHCODE_LIST' => 'List OAuth2 Authorization Codes',
 
-    'LNK_NEW_OAUTH2_CLIENT' => 'Create OAuth2 Client',
-    'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'New Password Client',
-    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'New Client Credentials Client',
-    'LNK_NEW_OAUTH2_IMPLICIT_CLIENT' => 'New Implicit Client',
-    'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'New Authorization Client',
+    'LNK_NEW_OAUTH2_CLIENT' => 'OAuth2 Client erstellen',
+    'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'Erstelle neues Benutzerpasswort',
+    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'Erstelle neue Benutzerdaten',
+    'LNK_NEW_OAUTH2_IMPLICIT_CLIENT' => 'Neuen impliziten OAuth2 Client erstellen',
+    'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'Neuen authorisierten OAuth2 Client erstellen',
 
 ];
