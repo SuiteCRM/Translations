@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Rolė',
+    'LBL_ROLE' => 'Role',
     'LBL_NAME' => 'Vardas',
-    'LBL_DESCRIPTION' => 'Aprašymas',
+    'LBL_DESCRIPTION' => 'Aprašymas:',
     'LIST_ROLES' => 'Rolių sąrašas',
     'LBL_USERS_SUBPANEL_TITLE' => 'Vartotojas',
     'LIST_ROLES_BY_USER' => 'Rolių sąrašas pagal vartotoją',
