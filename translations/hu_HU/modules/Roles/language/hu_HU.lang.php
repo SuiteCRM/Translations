@@ -43,22 +43,22 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Szerepkör:',
-    'LBL_LANGUAGE' => 'Nyelv',
+    'LBL_ROLE' => 'Role:',
+    'LBL_LANGUAGE' => 'Language:',
     'LBL_MODULE_NAME' => 'Szerepkörök',
     'LBL_MODULE_TITLE' => 'Szerepkörök: Főoldal',
     'LBL_SEARCH_FORM_TITLE' => 'Szerepkör keresés',
     'LBL_LIST_FORM_TITLE' => 'Szerepkörlista',
-    'LNK_NEW_ROLE' => 'Szerepkör létrehozása',
+    'LNK_NEW_ROLE' => 'Create Role',
     'LNK_ROLES' => 'Szerepkörök',
-    'LBL_NAME' => 'Név',
-    'LBL_DESCRIPTION' => 'Megjegyzés:',
+    'LBL_NAME' => 'Name:',
+    'LBL_DESCRIPTION' => 'Üzenet szövege:',
     'LBL_ALLOWED_MODULES' => 'Engedélyezett modulok: ',
     'LBL_DISALLOWED_MODULES' => 'Tiltott modulok: ',
     'LBL_ASSIGN_MODULES' => 'Modulok szerkesztése: ',
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Szerepkörök',
-    'LBL_USERS' => 'Felhasználók',
+    'LBL_USERS' => 'Users',
 
-    'LBL_USERS_SUBPANEL_TITLE' => 'Felhasználók',
-    'LBL_MODULES' => 'Modulok',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
+    'LBL_MODULES' => 'Modules',
 );
