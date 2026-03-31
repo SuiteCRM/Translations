@@ -43,27 +43,27 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EDIT_LAYOUT' => 'Editar diseño',
+    'LBL_EDIT_LAYOUT' => 'Edit Layout',
     'LBL_EDIT_FIELDS' => 'Editar campos personalizados',
-    'LBL_SELECT_FILE' => 'Seleccionar archivo',
-    'LBL_MODULE_TITLE' => 'Estudio',
-    'LBL_TOOLBOX' => 'Caja de herramientas',
+    'LBL_SELECT_FILE' => 'Select File',
+    'LBL_MODULE_TITLE' => 'Studio',
+    'LBL_TOOLBOX' => 'Toolbox',
     'LBL_SUITE_FIELDS_STAGE' => 'Campos SuiteCRM (haga clic en los elementos para agregarlos al área de diseño)',
     'LBL_VIEW_SUITE_FIELDS' => 'Ver Campos SuiteCRM',
-    'LBL_FAILED_TO_SAVE' => 'Falla al guardar',
+    'LBL_FAILED_TO_SAVE' => 'Failed To Save',
     'LBL_CONFIRM_UNSAVE' => 'Los cambios no se han guardado y se perderán. ¿Está seguro que desea continuar?',
-    'LBL_PUBLISHING' => 'Publicando ...',
+    'LBL_PUBLISHING' => 'Publicando...',
     'LBL_PUBLISHED' => 'Publicado',
-    'LBL_FAILED_PUBLISHED' => 'Fallo al publicar',
-    'LBL_DROP_HERE' => '[Soltar aquí]',
+    'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
+    'LBL_DROP_HERE' => '[Drop Here]',
 
 //CUSTOM FIELDS
     'LBL_NAME' => 'Nombre',
-    'LBL_LABEL' => 'Etiqueta',
-    'LBL_MASS_UPDATE' => 'Actualización masiva',
-    'LBL_DEFAULT_VALUE' => 'Valor predeterminado',
-    'LBL_REQUIRED' => 'Obligatorio',
-    'LBL_DATA_TYPE' => 'Tipo',
+    'LBL_LABEL' => 'Label',
+    'LBL_MASS_UPDATE' => 'Mass Update',
+    'LBL_DEFAULT_VALUE' => 'Default Value',
+    'LBL_REQUIRED' => 'Required',
+    'LBL_DATA_TYPE' => 'Type',
 
 
     'LBL_HISTORY' => 'Historial',
@@ -79,15 +79,15 @@ $mod_strings = array(
     'LBL_SW_EDIT_GROUPTABS' => 'Configurar grupos de pestañas',
     'LBL_SW_EDIT_PORTAL' => 'Editar portal',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => 'Reparar campos personalizados',
-    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migración de campos personalizados',
+    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrate Custom Fields',
 
 // JS LABELS
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Reconstruye versiones JavaScript de los archivos de idioma',
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Quitando versiones JavaScript de archivos de idioma, se reconstruirán cuando sea necesario',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuilds javascript versions of language files',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Removing javascript versions of language files, will rebuild when needed.',
 
 
 //Manager Backups History
-    'LBL_MB_DELETE' => 'Eliminar',
+    'LBL_MB_DELETE' => 'Delete',
 
 //EDIT DROP DOWNS
     'LBL_ED_CREATE_DROPDOWN' => 'Crea una lista desplegable',
@@ -100,22 +100,22 @@ $mod_strings = array(
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => 'Valor mostrado',
     'LBL_DD_DATABASEVALUE' => 'Tabla de base de datos',
-    'LBL_DD_ALL' => 'Todo',
+    'LBL_DD_ALL' => 'All',
 
 //BUTTONS
-    'LBL_BTN_SAVE' => 'Guardar',
-    'LBL_BTN_CANCEL' => 'Cancelar',
-    'LBL_BTN_SAVEPUBLISH' => 'Guardar y desplegar',
+    'LBL_BTN_SAVE' => 'Save',
+    'LBL_BTN_CANCEL' => 'Cancel',
+    'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
     'LBL_BTN_HISTORY' => 'Historial',
-    'LBL_BTN_ADDROWS' => 'Agregar filas',
-    'LBL_BTN_UNDO' => 'Deshacer',
-    'LBL_BTN_REDO' => 'Rehacer',
-    'LBL_BTN_ADDCUSTOMFIELD' => 'Agregar campo personalizado',
+    'LBL_BTN_ADDROWS' => 'Add Rows',
+    'LBL_BTN_UNDO' => 'Undo',
+    'LBL_BTN_REDO' => 'Redo',
+    'LBL_BTN_ADDCUSTOMFIELD' => 'Add Custom Field',
     'LBL_BTN_TABINDEX' => 'Editar orden de pestañas',
 
 //TABS
-    'LBL_MODULES' => 'Módulos',
-    'LBL_MODULE_NAME' => 'Administración',
+    'LBL_MODULES' => 'Modules',
+    'LBL_MODULE_NAME' => 'Administration',
     'LBL_CONFIGURE_GROUP_TABS' => 'Configurar el módulo del menú filtros',
     'LBL_GROUP_TAB_WELCOME' => 'Las siguientes pestañas y grupos de subpestañas serán mostradas a los usuarios que elijan ver módulos agrupados en la barra de navegación. Arrastre y suelte módulos a las cajas con pestañas para configurar qué subpestañas deben aparecer bajo qué pestañas. Los grupos de pestañas vacíos no serán mostrados en la barra de navegación',
     'LBL_RENAME_TAB_WELCOME' => 'Haga click en el valor de visualización de cualquier pestaña de la siguiente tabla para renombrar la pestaña',
@@ -123,23 +123,23 @@ $mod_strings = array(
     'LBL_TAB_GROUP_LANGUAGE_HELP' => 'Para establecer las etiquetas de los grupos de pestañas en otros idiomas disponibles, seleccione un idioma, edite las etiquetas y haga clic en guardar & desplegar para realizar los cambios para ese idioma',
     'LBL_ADD_GROUP' => 'Agregar filtro',
     'LBL_NEW_GROUP' => 'Nuevo grupo',
-    'LBL_RENAME_TABS' => 'Renombrar pestañas',
+    'LBL_RENAME_TABS' => 'Rename Modules',
 
 //ERRORS
-    'ERROR_INVALID_KEY_VALUE' => "Error: Valor de Clave No Válido: [&#39;]",
+    'ERROR_INVALID_KEY_VALUE' => "Error: Invalid Key Value: [']",
 
 //SUGAR PORTAL
-    'LBL_SAVE' => 'Guardar' /*for 508 compliance fix*/,
-    'LBL_UNDO' => 'Deshacer' /*for 508 compliance fix*/,
-    'LBL_REDO' => 'Rehacer' /*for 508 compliance fix*/,
+    'LBL_SAVE' => 'Save' /*for 508 compliance fix*/,
+    'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
+    'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Incorporada' /*for 508 compliance fix*/,
-    'LBL_DELETE' => 'Eliminar' /*for 508 compliance fix*/,
-    'LBL_ADD_FIELD' => 'Agregar campo' /*for 508 compliance fix*/,
+    'LBL_DELETE' => 'Delete' /*for 508 compliance fix*/,
+    'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Maximizar' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Minimizar' /*for 508 compliance fix*/,
-    'LBL_PUBLISH' => 'Publicar' /*for 508 compliance fix*/,
-    'LBL_ADDROWS' => 'Agregar filas' /*for 508 compliance fix*/,
-    'LBL_ADDFIELD' => 'Agregar campo' /*for 508 compliance fix*/,
+    'LBL_PUBLISH' => 'Publish' /*for 508 compliance fix*/,
+    'LBL_ADDROWS' => 'Add Rows' /*for 508 compliance fix*/,
+    'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_EDIT' => 'Editar' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Seleccionar un idioma para editar.',
