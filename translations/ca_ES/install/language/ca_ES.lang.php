@@ -43,8 +43,8 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_BASIC_SEARCH' => 'Quick Filter',
-    'LBL_ADVANCED_SEARCH' => 'Advanced Filter',
+    'LBL_BASIC_SEARCH' => 'Filtre ràpid',
+    'LBL_ADVANCED_SEARCH' => 'Filtre avançat',
     'LBL_BASIC_TYPE' => 'Tipus bàsic',
     'LBL_ADVANCED_TYPE' => 'Tipus avançat',
     'LBL_SYSOPTS_2' => 'Quin tipus de base de dades es farà servir per a la instància de SuiteCRM que instal·larà?',
@@ -188,7 +188,7 @@ $mod_strings = array(
     'LBL_DBCONF_DB_ADMIN_USER' => 'Nom d´usuari de l´Administrador de Base de Dades',
     'LBL_DBCONF_DB_ADMIN_PASSWORD' => 'Contrasenya del Administrador de Base de dades',
     'LBL_DBCONF_COLLATION' => 'Ordenació',
-    'LBL_DBCONF_CHARSET' => 'Character Set',
+    'LBL_DBCONF_CHARSET' => 'Joc de Caràcters',
     'LBL_DBCONF_ADV_DB_CFG_TITLE' => 'Configuració avançada de la Base de Dades',
     'LBL_DBCONF_DEMO_DATA' => 'Introduir Dades de Demostració en la Base de Dades?',
     'LBL_DBCONF_DEMO_DATA_TITLE' => 'Seleccioni les Dades de Demo',
@@ -218,7 +218,7 @@ $mod_strings = array(
     'LBL_INSTALL_TYPE_MSG3' => 'Proveeix opcions addicionals a establir durant la instal·lació. La majoria d\'aquestes estan també disponibles després de la instal·lació a les pantalles d\'adminitración. Recomanat per a usuaris avançats.',
     'LBL_LANG_1' => 'Per utilitzar un llenguatge a SuiteCRM diferent al del llenguatge per defecte (Anglès EUA), pot pujar i instal·lar ara el paquet de llenguatge. També podrà pujar i instal·lar paquets de llenguatge des de l\'aplicació SuiteCRM. Si vol saltar-se aquest pas, faci clic a Següent.',
     'LBL_LANG_BUTTON_COMMIT' => 'Install',
-    'LBL_LANG_BUTTON_REMOVE' => 'Remove',
+    'LBL_LANG_BUTTON_REMOVE' => 'Eliminar',
     'LBL_LANG_BUTTON_UNINSTALL' => 'Desinstal·lar',
     'LBL_LANG_BUTTON_UPLOAD' => 'Pujar',
     'LBL_LANG_NO_PACKS' => 'none',
@@ -429,7 +429,7 @@ Quan ainicieu la sessió amb la contrasenya anterior, pot ser necessari per rest
     ),
     'advanced_password_forgot_password_email' => array(
         'subject' => 'Restablir la contrasenya del compte',
-        'type' => 'system',
+        'type' => 'sistema',
         'description' => "Aquesta plantilla s'utilitza per enviar a un usuari l'enllaç per clicar,  per restaurar la contrasenya de compte de l'usuari.",
         'body' => '<div><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width="550" align=\"\&quot;\&quot;center\&quot;\&quot;\"><tbody><tr><td colspan=\"2\"><p>Recentment heu sol·licitat a $contact_user_pwd_last_changed per poder restablir la contrasenya del seu compte.</p> <p>Feu clic en el següent enllaç per restablir la contrasenya:</p><p> $contact_user_link_guid </p>  </td>         </tr><tr><td colspan=\"2\"></td>         </tr> </tbody></table> </div>',
         'txt_body' =>
@@ -442,7 +442,7 @@ $contact_user_link_guid',
 
     'two_factor_auth_email' => array(
         'subject' => 'Codi d\'autenticació en dos passos - Two Factor Autentication',
-        'type' => 'system',
+        'type' => 'sistema',
         'description' => "Aquesta plantilla s'utilitza per enviar un codi d'usuari d'autenticació en dos passos.",
         'body' => '<div><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width="550" align=\"\&quot;\&quot;center\&quot;\&quot;\"><tbody><tr><td colspan=\"2\"><p>Two Factor Authentication code is <b>$code</b>.</p>  </td>         </tr><tr><td colspan=\"2\"></td>         </tr> </tbody></table> </div>',
         'txt_body' =>
@@ -488,7 +488,7 @@ $contact_user_link_guid',
 
     'LBL_WIZARD_SYSTEM_TITLE' => 'Imatge de marca',
     'LBL_WIZARD_SYSTEM_DESC' => 'Proporcioni el nom i el logotip de la seva organització per tal d\'establir la imatge de la seva marca a SuiteCRM.',
-    'SYSTEM_NAME_WIZARD' => 'Name:',
+    'SYSTEM_NAME_WIZARD' => 'Nom: ',
     'SYSTEM_NAME_HELP' => 'Aquest és el nom que es mostrarà al títol de la barra del seu navegador.',
     'NEW_LOGO' => 'Pujar nou logo',
     'NEW_LOGO_HELP' => 'El format d\'arxiu d\'imatge pot ser .png o .jpg. L\'alçada màxima és de 170px, i l\'amplada màxima és de 450px. Qualsevol imatge carregada que és més gran en qualsevol direcció serà modificada perquè aquestes dimensions màximes.',
@@ -550,7 +550,7 @@ $contact_user_link_guid',
     'LBL_OLD_PHP_MSG' => 'The recommended PHP version to install SuiteCRM is %s <br />The minimum PHP version required is %s<br />You are using PHP version %s, which is EOL: <a href="http://php.net/eol.php">http://php.net/eol.php</a>.<br />Please consider upgrading your PHP version. ',
     'LBL_OLD_PHP_OK' => 'Sóc conscient dels riscos i vull continuar.',
 
-    'LBL_DBCONF_TITLE_USER_INFO_LABEL' => 'User',
+    'LBL_DBCONF_TITLE_USER_INFO_LABEL' => 'Usuari',
     'LBL_DBCONFIG_MSG3_LABEL' => 'Database Name',
     'LBL_DBCONFIG_MSG3' => 'Nom de la base de dades que acollirà les dades de la instància de SuiteCRM que instal·larà:',
     'LBL_DBCONFIG_MSG2_LABEL' => 'Host Name',
