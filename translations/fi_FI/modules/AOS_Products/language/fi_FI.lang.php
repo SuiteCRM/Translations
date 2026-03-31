@@ -45,9 +45,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
-    'LBL_ID' => 'ID',
+    'LBL_ID' => 'Tunnus',
     'LBL_DATE_ENTERED' => 'Date Created',
-    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_DATE_MODIFIED' => 'Muokkauspvm',
     'LBL_MODIFIED' => 'Modified By',
     'LBL_MODIFIED_NAME' => 'Modified By Name',
     'LBL_CREATED' => 'Created By',
@@ -84,7 +84,7 @@ $mod_strings = array(
     'LBL_PRICE_USDOLLAR' => 'Hinta (Oletusvaluutta)',
     'LBL_FILE_URL' => 'Tiedoston URL',
     'LBL_CUSTOMERS_PURCHASED_PRODUCTS_SUBPANEL_TITLE' => 'Ostot',
-    'LBL_PRODUCTS_PURCHASES' => 'Purchases',
+    'LBL_PRODUCTS_PURCHASES' => 'Ostot',
     'LBL_AOS_QUOTE_NAME' => 'Quote',
-    'LBL_ACCOUNT_NAME' => 'Account',
+    'LBL_ACCOUNT_NAME' => 'Asiakas',
 );
