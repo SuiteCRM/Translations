@@ -107,7 +107,7 @@ $mod_strings = array(
     'LBL_JOB_URL' => 'Job URL',
     'LBL_LAST_RUN' => 'آخری کامیابی کی دوڑ',
     'LBL_MODULE_NAME' => 'سوتیکرم سچدلر',
-    'LBL_MODULE_TITLE' => 'زمان بند',
+    'LBL_MODULE_TITLE' => 'Schedulers',
     'LBL_NAME' => 'Scheduler Name',
     'LBL_NEVER' => 'کبھی نہیں',
     'LBL_NEW_FORM_TITLE' => 'New Schedule',
@@ -125,7 +125,7 @@ $mod_strings = array(
     'LBL_TOGGLE_ADV' => 'اعلی درجے کی اختیارات دکھائیں',
     'LBL_TOGGLE_BASIC' => 'Show Basic Options',
 // Links
-    'LNK_LIST_SCHEDULER' => 'زمان بند',
+    'LNK_LIST_SCHEDULER' => 'Schedulers',
     'LNK_NEW_SCHEDULER' => 'Create Scheduler',
 // Cron
     'ERR_CRON_SYNTAX' => 'Invalid Cron syntax',
