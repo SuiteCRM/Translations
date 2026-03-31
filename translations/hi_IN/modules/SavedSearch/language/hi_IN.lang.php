@@ -59,7 +59,7 @@ $mod_strings = array(
     'LBL_MODIFY_CURRENT_FILTER' => 'वर्तमान फ़िल्टर संशोधित करें',
 
     'LBL_CREATED_BY' => 'के द्वारा बनाई गई',
-    'LBL_QUICK_FILTER' => 'त्वरित फ़िल्टर ',
+    'LBL_QUICK_FILTER' => 'त्वरित फ़िल्टर',
 
 
 );
