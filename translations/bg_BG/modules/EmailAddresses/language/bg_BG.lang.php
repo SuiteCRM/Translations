@@ -51,5 +51,5 @@ $mod_strings = array(
     'LBL_CONFIRM_OPT_IN' => 'Confirm Opt In',
     'LBL_DATE_CREATE' => 'Създадено на',
     'LBL_DATE_MODIFIED' => 'Date Modified',
-    'LBL_DELETED' => 'Delete',
+    'LBL_DELETED' => 'Изтрий',
 );
