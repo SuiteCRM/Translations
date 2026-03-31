@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_NAME' => '名称',
+    'LBL_NAME' => 'Job Name',
     'LBL_EXECUTE_TIME' => '执行时间',
-    'LBL_SCHEDULER_ID' => '任务计划',
+    'LBL_SCHEDULER_ID' => 'Scheduler',
     'LBL_STATUS' => '状态',
-    'LBL_RESOLUTION' => '结果',
+    'LBL_RESOLUTION' => '分析',
     'LBL_MESSAGE' => '信息',
     'LBL_DATA' => '数据',
     'LBL_REQUEUE' => '失败重试',
