@@ -44,19 +44,19 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
 
-    'LBL_NAME' => 'Tên',
+    'LBL_NAME' => 'tên',
     'LBL_NUMBER' => 'Số:',
     'LBL_STATUS' => 'Tình trạng:',
     'LBL_PRIORITY' => 'Ưu tiên:',
-    'LBL_DESCRIPTION' => 'Chi tiết:',
+    'LBL_DESCRIPTION' => 'Mô tả:',
     'LBL_RESOLUTION' => 'Giải pháp',
     'LBL_LAST_MODIFIED' => 'Lần sửa cuối',
     'LBL_ASSIGNED_TO_ID' => 'Giao cho:',
     'LBL_ASSIGNED_TO_NAME' => 'Người dùng:',
     'LBL_WORK_LOG' => 'Lịch sử làm việc:',
     'LBL_CREATED_BY' => 'Tạo bởi:',
-    'LBL_DATE_ENTERED' => 'Ngày tạo:',
-    'LBL_DATE_MODIFIED' => 'Ngày sửa:',
+    'LBL_DATE_ENTERED' => 'Date Created:',
+    'LBL_DATE_MODIFIED' => 'Date Modified:',
     'LBL_MODIFIED_BY' => 'Sửa lần cuối bởi:',
     'LBL_ASSIGNED_USER' => 'Đã chỉ định cho người dùng:',
     'LBL_TYPE' => 'Loại:',
