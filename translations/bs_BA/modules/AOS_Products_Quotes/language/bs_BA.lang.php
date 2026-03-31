@@ -101,5 +101,5 @@ $mod_strings = array(
     'LBL_AOS_CONTRACTS' => 'Ugovori',
     'LBL_AOS_INVOICES' => 'Fakture',
     'LBL_AOS_PRODUCTS' => 'Proizvodi',
-    'LBL_AOS_QUOTES' => 'Ponude',
+    'LBL_AOS_QUOTES' => 'Citati',
 );
