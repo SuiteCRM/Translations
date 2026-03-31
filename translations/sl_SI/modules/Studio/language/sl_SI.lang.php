@@ -43,30 +43,30 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EDIT_LAYOUT' => 'Uredi izgled',
+    'LBL_EDIT_LAYOUT' => 'Edit Layout',
     'LBL_EDIT_FIELDS' => 'Uredi prilagojena polja',
-    'LBL_SELECT_FILE' => 'Izberi datoteko',
+    'LBL_SELECT_FILE' => 'Select File',
     'LBL_MODULE_TITLE' => 'Studio',
-    'LBL_TOOLBOX' => 'Orodjarna',
+    'LBL_TOOLBOX' => 'Toolbox',
     'LBL_SUITE_FIELDS_STAGE' => 'SuiteCRM Fields (click items to add to staging area)',
     'LBL_VIEW_SUITE_FIELDS' => 'View SuiteCRM Fields',
-    'LBL_FAILED_TO_SAVE' => 'Shranjevanje ni uspelo',
+    'LBL_FAILED_TO_SAVE' => 'Failed To Save',
     'LBL_CONFIRM_UNSAVE' => 'Spremembe ne bodo shranjene. Ste prepričani, da želite nadaljevati?',
-    'LBL_PUBLISHING' => 'Objavljam ...',
-    'LBL_PUBLISHED' => 'Objavljeno',
-    'LBL_FAILED_PUBLISHED' => 'Objavljanje ni uspelo',
-    'LBL_DROP_HERE' => '[Spusti tukaj]',
+    'LBL_PUBLISHING' => 'Publishing...',
+    'LBL_PUBLISHED' => 'Published',
+    'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
+    'LBL_DROP_HERE' => '[Drop Here]',
 
 //CUSTOM FIELDS
-    'LBL_NAME' => 'Ime',
-    'LBL_LABEL' => 'Nalepka',
-    'LBL_MASS_UPDATE' => 'Masovna posodobitev',
-    'LBL_DEFAULT_VALUE' => 'Prednastavljena vrednost',
-    'LBL_REQUIRED' => 'Zahtevano',
-    'LBL_DATA_TYPE' => 'Tip',
+    'LBL_NAME' => 'Name',
+    'LBL_LABEL' => 'Label',
+    'LBL_MASS_UPDATE' => 'Mass Update',
+    'LBL_DEFAULT_VALUE' => 'Default Value',
+    'LBL_REQUIRED' => 'Required',
+    'LBL_DATA_TYPE' => 'Type',
 
 
-    'LBL_HISTORY' => 'Zgodovina',
+    'LBL_HISTORY' => 'History',
 
 //WIZARDS
 
@@ -79,7 +79,7 @@ $mod_strings = array(
     'LBL_SW_EDIT_GROUPTABS' => 'Nastavi skupinske zavihke',
     'LBL_SW_EDIT_PORTAL' => 'Uredi portal',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => 'Popravi prilagojena polja',
-    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Prenesi prilagojena polja',
+    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrate Custom Fields',
 
 // JS LABELS
     'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuilds javascript versions of language files',
@@ -87,60 +87,60 @@ $mod_strings = array(
 
 
 //Manager Backups History
-    'LBL_MB_DELETE' => 'Briši',
+    'LBL_MB_DELETE' => 'Delete',
 
 //EDIT DROP DOWNS
     'LBL_ED_CREATE_DROPDOWN' => 'Ustvari spustni meni',
     'LBL_DROPDOWN_NAME' => 'Ime spustnega menija:',
     'LBL_DROPDOWN_LANGUAGE' => 'Jezik spustnega menija:',
-    'LBL_TABGROUP_LANGUAGE' => 'Jezik skupinskega zavihka:',
+    'LBL_TABGROUP_LANGUAGE' => 'Language:',
 
 //END WIZARDS
 
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => 'Prikaži vrednost',
     'LBL_DD_DATABASEVALUE' => 'Vrednost v bazi',
-    'LBL_DD_ALL' => 'Vsi',
+    'LBL_DD_ALL' => 'All',
 
 //BUTTONS
-    'LBL_BTN_SAVE' => 'Shrani',
-    'LBL_BTN_CANCEL' => 'Prekliči',
-    'LBL_BTN_SAVEPUBLISH' => 'Shrani in objavi',
-    'LBL_BTN_HISTORY' => 'Zgodovina',
-    'LBL_BTN_ADDROWS' => 'Dodaj vrstice',
-    'LBL_BTN_UNDO' => 'korak nazaj',
-    'LBL_BTN_REDO' => 'korak naprej',
-    'LBL_BTN_ADDCUSTOMFIELD' => 'Dodaj prilagojeno polje',
+    'LBL_BTN_SAVE' => 'Save',
+    'LBL_BTN_CANCEL' => 'Cancel',
+    'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
+    'LBL_BTN_HISTORY' => 'History',
+    'LBL_BTN_ADDROWS' => 'Add Rows',
+    'LBL_BTN_UNDO' => 'Undo',
+    'LBL_BTN_REDO' => 'Redo',
+    'LBL_BTN_ADDCUSTOMFIELD' => 'Add Custom Field',
     'LBL_BTN_TABINDEX' => 'Uredi vrstni red zavihkov',
 
 //TABS
-    'LBL_MODULES' => 'Moduli',
-    'LBL_MODULE_NAME' => 'Administracija',
-    'LBL_CONFIGURE_GROUP_TABS' => 'Nastavi skupinske zavihke',
+    'LBL_MODULES' => 'Modules',
+    'LBL_MODULE_NAME' => 'Administration',
+    'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
     'LBL_GROUP_TAB_WELCOME' => 'The filters below will be displayed in the More list in the module menu for users to use to view groups of modules within the menu. Drag and drop modules to and from the filters. Note: Empty filters will not be displayed in the menu.',
     'LBL_RENAME_TAB_WELCOME' => 'Click on any tab\'s Display Value in the table below to rename the tab.',
     'LBL_DELETE_MODULE' => 'Remove&nbsp;module<br />from&nbsp;filter',
     'LBL_TAB_GROUP_LANGUAGE_HELP' => 'Select an available language, edit the Group labels and click Save & Deploy to apply the labels in the selected language.',
     'LBL_ADD_GROUP' => 'Dodaj skupino',
     'LBL_NEW_GROUP' => 'Nova skupina',
-    'LBL_RENAME_TABS' => 'Preimenuj zavihke',
+    'LBL_RENAME_TABS' => 'Rename Modules',
 
 //ERRORS
-    'ERROR_INVALID_KEY_VALUE' => "Napaka: napačna vrednost: [&#039;]",
+    'ERROR_INVALID_KEY_VALUE' => "Error: Invalid Key Value: [']",
 
 //SUGAR PORTAL
-    'LBL_SAVE' => 'Shrani' /*for 508 compliance fix*/,
-    'LBL_UNDO' => 'korak nazaj' /*for 508 compliance fix*/,
-    'LBL_REDO' => 'korak naprej' /*for 508 compliance fix*/,
+    'LBL_SAVE' => 'Save' /*for 508 compliance fix*/,
+    'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
+    'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Inline' /*for 508 compliance fix*/,
-    'LBL_DELETE' => 'Briši' /*for 508 compliance fix*/,
-    'LBL_ADD_FIELD' => 'Add Field ' /*for 508 compliance fix*/,
+    'LBL_DELETE' => 'Delete' /*for 508 compliance fix*/,
+    'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Maximize' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Minimize' /*for 508 compliance fix*/,
-    'LBL_PUBLISH' => 'objavi' /*for 508 compliance fix*/,
-    'LBL_ADDROWS' => 'Dodaj vrstice' /*for 508 compliance fix*/,
-    'LBL_ADDFIELD' => 'Add Field ' /*for 508 compliance fix*/,
-    'LBL_EDIT' => 'Uredi' /*for 508 compliance fix*/,
+    'LBL_PUBLISH' => 'Publish' /*for 508 compliance fix*/,
+    'LBL_ADDROWS' => 'Add Rows' /*for 508 compliance fix*/,
+    'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
+    'LBL_EDIT' => 'Edit' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Select the language to edit.',
     'LBL_SINGULAR' => 'Singular Label',
