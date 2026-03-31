@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_MODULE_NAME' => 'Groups',
-    'LBL_GROUP_NAME' => 'Group Name:',
+    'LBL_GROUP_NAME' => 'Όνομα Γκρουπ:',
     'LBL_DESCRIPTION' => 'Description:',
     'LBL_TEAM' => 'Team:',
     // ListView
