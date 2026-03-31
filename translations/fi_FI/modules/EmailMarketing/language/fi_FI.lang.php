@@ -50,7 +50,7 @@ $mod_strings = array(
     'LBL_MODULE_TITLE' => 'Sähköpostimarkkinointi: Etusivu',
     'LBL_LIST_FORM_TITLE' => 'Sähköpostikampanjat',
     'LBL_NAME' => 'Name: ',
-    'LBL_LIST_NAME' => 'Name',
+    'LBL_LIST_NAME' => 'Nimi',
     'LBL_LIST_FROM_ADDR' => 'Lähettäjä',
     'LBL_LIST_DATE_START' => 'Start Date',
     'LBL_LIST_TEMPLATE_NAME' => 'Email Template',
@@ -58,11 +58,11 @@ $mod_strings = array(
     'LBL_STATUS' => 'Status',
     'LBL_STATUS_TEXT' => 'Status:',
     'LBL_TEMPLATE_NAME' => 'Template Name',
-    'LBL_DATE_ENTERED' => 'Date Entered',
-    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_DATE_ENTERED' => 'Kirjauspvm',
+    'LBL_DATE_MODIFIED' => 'Muokkauspvm',
     'LBL_MODIFIED' => 'Muokkaaja: ',
     'LBL_CREATED' => 'Tekijä: ',
-    'LBL_MESSAGE_FOR' => 'Send This Message To:',
+    'LBL_MESSAGE_FOR' => 'Lähetä viesti vastaanottajille:',
 
     'LBL_FROM_NAME' => 'Lähettäjän nimi: ',
     'LBL_FROM_ADDR' => 'Lähettäjän sähköpostiosoite: ',
@@ -98,11 +98,11 @@ $mod_strings = array(
     'LBL_SCHEDULE_MESSAGE_EMAILS' => 'Please select the campaign messages that you would like to schedule for distribution on the specified start date and time:',
     'LBL_SCHEDULE_BUTTON_TITLE' => 'Send',
     'LBL_SCHEDULE_BUTTON_LABEL' => 'Send',
-    'LBL_ERROR_ON_MARKETING' => 'Missing required field(s)',
+    'LBL_ERROR_ON_MARKETING' => 'Pakollinen kenttä puuttuu',
 
     'LBL_CAMPAIGN_ID' => 'Campaign ID',
     'LBL_OUTBOUND_EMAIL_ACOUNT_ID' => 'Outbound Email Account ID',
     'LBL_EMAIL_TEMPLATE' => 'Email Template',
-    'LBL_PROSPECT_LISTS' => 'Prospect Lists',
+    'LBL_PROSPECT_LISTS' => 'Prospektilistat',
 
 );
