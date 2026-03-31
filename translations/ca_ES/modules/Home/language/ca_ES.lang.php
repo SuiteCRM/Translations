@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Home',
+    'LBL_MODULE_NAME' => 'Inici',
     'LBL_NEW_FORM_TITLE' => 'New Contact',
-    'LBL_FIRST_NAME' => 'First Name:',
+    'LBL_FIRST_NAME' => 'Nom:',
     'LBL_LAST_NAME' => 'Last Name:',
     'LBL_LIST_LAST_NAME' => 'Last Name',
     'LBL_PHONE' => 'Phone:',
@@ -105,15 +105,15 @@ $mod_strings = array(
         'Tools' => 'Tools',
         'Miscellaneous' => 'Altres'
     ),
-    'LBL_ADDING_DASHLET' => 'Adding SuiteCRM Dashlet...',
+    'LBL_ADDING_DASHLET' => 'Afegint Dashlet de SuiteCRM...',
     'LBL_ADDED_DASHLET' => 'SuiteCRM Dashlet Added',
     'LBL_REMOVE_DASHLET_CONFIRM' => 'Are you sure you want to remove this SuiteCRM Dashlet?',
-    'LBL_REMOVING_DASHLET' => 'Removing SuiteCRM Dashlet...',
+    'LBL_REMOVING_DASHLET' => 'Eliminant Dashlet de SuiteCRM...',
     'LBL_REMOVED_DASHLET' => 'SuiteCRM Dashlet Removed',
     'LBL_DASHLET_CONFIGURE_GENERAL' => 'General',
     'LBL_DASHLET_CONFIGURE_FILTERS' => 'Filters',
     'LBL_DASHLET_CONFIGURE_MY_ITEMS_ONLY' => 'Only My Items',
-    'LBL_DASHLET_CONFIGURE_TITLE' => 'Title',
+    'LBL_DASHLET_CONFIGURE_TITLE' => 'Títol',
     'LBL_DASHLET_CONFIGURE_DISPLAY_ROWS' => 'Display Rows',
 
     'LBL_DASHLET_DELETE' => 'Eliminar Dashlet de SuiteCRM',
@@ -138,14 +138,14 @@ $mod_strings = array(
     'LBL_SOURCE_SUGAR' => 'SugarCRM Inc - proveïdors de CE framework',
 
     'LBL_DASHLET_TITLE' => 'My Sites',
-    'LBL_DASHLET_OPT_TITLE' => 'Title',
+    'LBL_DASHLET_OPT_TITLE' => 'Títol',
     'LBL_DASHLET_INCORRECT_URL' => 'La ubicació especificada de la web es incorrecta',
     'LBL_DASHLET_OPT_URL' => 'Adreça del lloc web',
     'LBL_DASHLET_OPT_HEIGHT' => 'Altura del Dashlet (en píxels)',
     'LBL_DASHLET_SUITE_NEWS' => 'Noticies sobre SuiteCRM',
     'LBL_DASHLET_DISCOVER_SUITE' => 'Descobrir SuiteCRM',
-    'LBL_BASIC_SEARCH' => 'Quick Filter' /*for 508 compliance fix*/,
-    'LBL_ADVANCED_SEARCH' => 'Advanced Filter' /*for 508 compliance fix*/,
+    'LBL_BASIC_SEARCH' => 'Filtre ràpid' /*for 508 compliance fix*/,
+    'LBL_ADVANCED_SEARCH' => 'Filtre avançat' /*for 508 compliance fix*/,
     'LBL_TOUR_HOME' => 'Icona de la pàgina d\'inici',
     'LBL_TOUR_HOME_DESCRIPTION' => 'Torni a la seva pàgina d\'inici en un sol clic.',
     'LBL_TOUR_MODULES' => 'Modules',
@@ -217,12 +217,12 @@ $mod_strings = array(
     'LBL_REPEAT_TAB' => 'Recurrence',
 
     'LBL_REPEAT_TYPE' => 'Repeat',
-    'LBL_REPEAT_INTERVAL' => 'Every',
+    'LBL_REPEAT_INTERVAL' => 'Cada',
     'LBL_REPEAT_END' => 'End',
     'LBL_REPEAT_END_AFTER' => 'After',
-    'LBL_REPEAT_OCCURRENCES' => 'recurrences',
+    'LBL_REPEAT_OCCURRENCES' => 'recurrències',
     'LBL_REPEAT_END_BY' => 'By',
-    'LBL_REPEAT_DOW' => 'On',
+    'LBL_REPEAT_DOW' => 'En',
     'LBL_REPEAT_UNTIL' => 'Repeat Until',
     'LBL_REPEAT_COUNT' => 'Number of recurrences',
     'LBL_REPEAT_LIMIT_ERROR' => 'Your request was going to create more than $limit meetings.',
@@ -233,15 +233,15 @@ $mod_strings = array(
     'LBL_DATE' => 'Data: ',
     'LBL_DURATION' => 'Durada: ',
     'LBL_NAME' => 'Títol: ',
-    'LBL_HOUR_ABBREV' => 'hour',
-    'LBL_HOURS_ABBREV' => 'hours',
-    'LBL_MINSS_ABBREV' => 'minutes',
+    'LBL_HOUR_ABBREV' => 'hora',
+    'LBL_HOURS_ABBREV' => 'hores',
+    'LBL_MINSS_ABBREV' => 'minuts',
     'LBL_LOCATION' => 'Location:',
     'LBL_STATUS' => 'Status:',
     'LBL_DESCRIPTION' => 'Description: ',
     //End Events
 
-    'LBL_ELASTIC_SEARCH_EXCEPTION_SEARCH_INVALID_REQUEST' => 'An error has occurred while performing the search. Your query syntax might not be valid.',
+    'LBL_ELASTIC_SEARCH_EXCEPTION_SEARCH_INVALID_REQUEST' => 'S\'ha produït un error mentre es realitzava la cerca. La sintaxi de la consulta podria no ser vàlida.',
     'LBL_ELASTIC_SEARCH_EXCEPTION_SEARCH_ENGINE_NOT_FOUND' => 'No es pot trobar el motor de cerca sol·licitat. Intenta realitzar la cerca de nou.',
     'LBL_ELASTIC_SEARCH_EXCEPTION_NO_NODES_AVAILABLE' => 'No s\'ha pogut connectar al servidor Elasticsearch.',
     'LBL_ELASTIC_SEARCH_EXCEPTION_SEARCH' => 'S\'ha produït un error intern a la recerca.',
@@ -249,7 +249,7 @@ $mod_strings = array(
     'LBL_ELASTIC_SEARCH_EXCEPTION_END_MESSAGE' => 'Si el problema persisteix, contacti amb un administrador. Més informació en els registres.',
     'LBL_ELASTIC_SEARCH_EXCEPTION_MISSING_INDEX' => 'The search index for one or more modules could not be found. Please make sure that crontab is configured and running, open the Elasticsearch configuration and click "Schedule full indexing" and consider creating a Scheduler job "Elasticsearch Indexer" when not existent.',
 
-    'LBL_ELASTIC_SEARCH_DEFAULT' => 'No results matching your search criteria. Try broadening your search.',
+    'LBL_ELASTIC_SEARCH_DEFAULT' => 'No hi ha resultats que coincideixin amb els criteris de cerca. Tracti d\'ampliar la cerca.',
 
     'LNK_TASK_VIEW' => 'View Task',
 );
