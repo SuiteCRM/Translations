@@ -50,6 +50,6 @@ $mod_strings = array(
     'LBL_OPT_OUT' => 'Désinscription',
     'LBL_CONFIRM_OPT_IN' => 'Confirmer Inscription',
     'LBL_DATE_CREATE' => 'Date Création',
-    'LBL_DATE_MODIFIED' => 'Date Modification',
+    'LBL_DATE_MODIFIED' => 'Date de modification',
     'LBL_DELETED' => 'Supprimer',
 );
