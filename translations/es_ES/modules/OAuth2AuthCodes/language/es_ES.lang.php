@@ -44,7 +44,7 @@ $mod_strings = [
     'LBL_OAUTH_WHO_IS_REQUESTING' => 'Who is requesting (Client):',
     'LBL_AUTH_CODE_EXPIRES' => 'Auth Code Expires',
     'LBL_OAUTH_REDIRECT' => 'Redirigir URL',
-    'LBL_CURRENT_USER' => 'User',
+    'LBL_CURRENT_USER' => 'Usuario',
     'LBL_OAUTH_REQUESTED_PERMISSIONS' => 'Requested Permissions',
     'LBL_OAUTH_ACCESS_TO_USER_INFO' => 'Access to all the information you can see on the CRM',
     'LBL_OAUTH_INFO_1' => 'This application is requesting access to your SuiteCRM account.',
@@ -67,7 +67,7 @@ $mod_strings = [
     'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'Nuevo cliente de autorización',
 
     'LBL_OAUTH_AUTHORIZATION_REQUESTED' => 'Authorization requested',
-    'LBL_OAUTH_AUTHORIZE' => 'Authorize',
+    'LBL_OAUTH_AUTHORIZE' => 'Autorizar',
     'LBL_OAUTH2_GRANT_MODULE_ACCESS' => 'Module data',
     'LBL_OAUTH2_GRANT_MODULE_ACCESS_DESC' => 'Grants full access to the data of all modules you have access to',
     'LBL_OAUTH2_GRANT_USER_DATA_ACCESS' => 'Personal user data',
