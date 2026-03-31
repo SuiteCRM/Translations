@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ROLE' => 'Rol',
-    'LBL_NAME' => 'Ad',
+    'LBL_NAME' => 'İsim',
     'LBL_DESCRIPTION' => 'Açıklama',
     'LIST_ROLES' => 'Roller listesi',
     'LBL_USERS_SUBPANEL_TITLE' => 'Kullanıcılar',
