@@ -139,7 +139,7 @@ $mod_strings = array(
     'LBL_MINIMIZE' => 'Minimize' /*for 508 compliance fix*/,
     'LBL_PUBLISH' => 'Nəşr et' /*for 508 compliance fix*/,
     'LBL_ADDROWS' => 'Sətirlər əlavə edin' /*for 508 compliance fix*/,
-    'LBL_ADDFIELD' => 'Dama Artır' /*for 508 compliance fix*/,
+    'LBL_ADDFIELD' => 'Sahə əlavə et' /*for 508 compliance fix*/,
     'LBL_EDIT' => 'Redaktə et' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Select the language to edit.',
