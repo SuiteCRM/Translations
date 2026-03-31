@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'グループ一覧',
-    'LBL_GROUP_NAME' => 'グループ名:',
-    'LBL_DESCRIPTION' => '詳細:',
-    'LBL_TEAM' => 'チーム:',
+    'LBL_MODULE_NAME' => 'Groups',
+    'LBL_GROUP_NAME' => 'Group Name:',
+    'LBL_DESCRIPTION' => 'Description:',
+    'LBL_TEAM' => 'Team:',
     // ListView
-    'LBL_LIST_TITLE' => 'グループ一覧',
+    'LBL_LIST_TITLE' => 'Groups',
     // Links
     'LNK_ALL_GROUPS' => 'すべてのグループ',
     'LNK_NEW_GROUP' => 'グループ作成',
