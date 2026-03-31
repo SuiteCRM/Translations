@@ -58,10 +58,10 @@ $mod_strings = array(
     'LBL_DROP_HERE' => '[Drop Here]',
 
 //CUSTOM FIELDS
-    'LBL_NAME' => 'Name',
-    'LBL_LABEL' => 'Label',
+    'LBL_NAME' => 'Nimi',
+    'LBL_LABEL' => 'Nimike',
     'LBL_MASS_UPDATE' => 'Mass Update',
-    'LBL_DEFAULT_VALUE' => 'Default Value',
+    'LBL_DEFAULT_VALUE' => 'Oletusarvo',
     'LBL_REQUIRED' => 'Required',
     'LBL_DATA_TYPE' => 'Type',
 
@@ -79,7 +79,7 @@ $mod_strings = array(
     'LBL_SW_EDIT_GROUPTABS' => 'Configure Group Tabs',
     'LBL_SW_EDIT_PORTAL' => 'Edit Portal',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => 'Repair Custom Fields',
-    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrate Custom Fields',
+    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Siirrä mukautetut kentät',
 
 // JS LABELS
     'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuilds javascript versions of language files',
@@ -116,7 +116,7 @@ $mod_strings = array(
 //TABS
     'LBL_MODULES' => 'Modules',
     'LBL_MODULE_NAME' => 'Administration',
-    'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
+    'LBL_CONFIGURE_GROUP_TABS' => 'Määritä koduulivalikkosuodattimia',
     'LBL_GROUP_TAB_WELCOME' => 'The filters below will be displayed in the More list in the module menu for users to use to view groups of modules within the menu. Drag and drop modules to and from the filters. Note: Empty filters will not be displayed in the menu.',
     'LBL_RENAME_TAB_WELCOME' => 'Click on any tab\'s Display Value in the table below to rename the tab.',
     'LBL_DELETE_MODULE' => 'Remove&nbsp;module<br />from&nbsp;filter',
