@@ -43,30 +43,30 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EDIT_LAYOUT' => 'Edit Layout',
+    'LBL_EDIT_LAYOUT' => 'Editare machetă',
     'LBL_EDIT_FIELDS' => 'Editează câmpuri personalizate',
-    'LBL_SELECT_FILE' => 'Select File',
+    'LBL_SELECT_FILE' => 'Selectaţi fişierul',
     'LBL_MODULE_TITLE' => 'Studio',
-    'LBL_TOOLBOX' => 'Toolbox',
+    'LBL_TOOLBOX' => 'Instrumente',
     'LBL_SUITE_FIELDS_STAGE' => 'Câmpuri SuiteCRM (faceți clic pe elemente pentru a adăuga la zona de așteptare)',
     'LBL_VIEW_SUITE_FIELDS' => 'Vezi câmpurile SuiteCRM',
-    'LBL_FAILED_TO_SAVE' => 'Failed To Save',
+    'LBL_FAILED_TO_SAVE' => 'Salvare eșuată',
     'LBL_CONFIRM_UNSAVE' => 'Orice modificări vor rămâne nesalvate. Sunteți sigur că doriți să continuați?',
-    'LBL_PUBLISHING' => 'Publishing...',
-    'LBL_PUBLISHED' => 'Published',
-    'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
-    'LBL_DROP_HERE' => '[Drop Here]',
+    'LBL_PUBLISHING' => 'În curs de Publicare...',
+    'LBL_PUBLISHED' => 'Publicat',
+    'LBL_FAILED_PUBLISHED' => 'Publicare eșuată',
+    'LBL_DROP_HERE' => '[Lasă sa cadă aici]',
 
 //CUSTOM FIELDS
-    'LBL_NAME' => 'Name',
-    'LBL_LABEL' => 'Label',
-    'LBL_MASS_UPDATE' => 'Mass Update',
-    'LBL_DEFAULT_VALUE' => 'Default Value',
-    'LBL_REQUIRED' => 'Required',
-    'LBL_DATA_TYPE' => 'Type',
+    'LBL_NAME' => 'Nume: ',
+    'LBL_LABEL' => 'Eticheta',
+    'LBL_MASS_UPDATE' => 'Actualizare în masă',
+    'LBL_DEFAULT_VALUE' => 'Valoare implicită',
+    'LBL_REQUIRED' => 'Obligatoriu',
+    'LBL_DATA_TYPE' => 'Tip',
 
 
-    'LBL_HISTORY' => 'History',
+    'LBL_HISTORY' => 'Istorie',
 
 //WIZARDS
 
@@ -79,68 +79,68 @@ $mod_strings = array(
     'LBL_SW_EDIT_GROUPTABS' => 'Configurare grupuri de secțiuni',
     'LBL_SW_EDIT_PORTAL' => 'Editare Portal',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => 'Repară câmpuri personalizate',
-    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrate Custom Fields',
+    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrează câmpuri personalizate',
 
 // JS LABELS
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuilds javascript versions of language files',
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Removing javascript versions of language files, will rebuild when needed.',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Reconstruiește versiunile javascript ale fișierelor de limbă',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Eliminarea versiunilor javascript a fișierelor de limbă se va reconstrui atunci când este necesar.',
 
 
 //Manager Backups History
-    'LBL_MB_DELETE' => 'Delete',
+    'LBL_MB_DELETE' => 'Ștergere',
 
 //EDIT DROP DOWNS
     'LBL_ED_CREATE_DROPDOWN' => 'Creează o Listă derulantă',
     'LBL_DROPDOWN_NAME' => 'Denumire Listă derulantă:',
     'LBL_DROPDOWN_LANGUAGE' => 'Limbă Listă derulantă:',
-    'LBL_TABGROUP_LANGUAGE' => 'Language:',
+    'LBL_TABGROUP_LANGUAGE' => 'Limba:',
 
 //END WIZARDS
 
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => 'Afișare valoare',
     'LBL_DD_DATABASEVALUE' => 'Valoare bază de date',
-    'LBL_DD_ALL' => 'All',
+    'LBL_DD_ALL' => 'Totul',
 
 //BUTTONS
-    'LBL_BTN_SAVE' => 'Save',
-    'LBL_BTN_CANCEL' => 'Cancel',
-    'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
-    'LBL_BTN_HISTORY' => 'History',
-    'LBL_BTN_ADDROWS' => 'Add Rows',
-    'LBL_BTN_UNDO' => 'Undo',
-    'LBL_BTN_REDO' => 'Redo',
-    'LBL_BTN_ADDCUSTOMFIELD' => 'Add Custom Field',
+    'LBL_BTN_SAVE' => 'Salvați',
+    'LBL_BTN_CANCEL' => 'Anulați',
+    'LBL_BTN_SAVEPUBLISH' => 'Salvează și implementează',
+    'LBL_BTN_HISTORY' => 'Istorie',
+    'LBL_BTN_ADDROWS' => 'Adăugați Rânduri',
+    'LBL_BTN_UNDO' => 'Anulează',
+    'LBL_BTN_REDO' => 'Reface',
+    'LBL_BTN_ADDCUSTOMFIELD' => 'Adăugați Câmp Personalizat',
     'LBL_BTN_TABINDEX' => 'Modifică ordinea tabulării',
 
 //TABS
-    'LBL_MODULES' => 'Modules',
-    'LBL_MODULE_NAME' => 'Administration',
-    'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
+    'LBL_MODULES' => 'Module',
+    'LBL_MODULE_NAME' => 'Administrare',
+    'LBL_CONFIGURE_GROUP_TABS' => 'Configurați filtrele de meniu',
     'LBL_GROUP_TAB_WELCOME' => 'Filtrele de mai jos vor fi afișate în lista de mai multe module pentru ca utilizatorii să poată vizualiza grupuri de module din meniu. Trageți modulele către și dinspre filtre. Notă: Filtrele goale nu vor fi afișate în meniu.',
     'LBL_RENAME_TAB_WELCOME' => 'Dă click pe orice filă de afișare a valorii din tabelul de mai jos pentru a redenumi fila.',
     'LBL_DELETE_MODULE' => 'Elimină&nbsp;modulul<br />din filtrul&nbsp;',
     'LBL_TAB_GROUP_LANGUAGE_HELP' => 'Selectați o limbă disponibilă, editați etichetele grupului și faceți clic pe Salvare & Implementare pentru a aplica etichetele în limba selectată.',
     'LBL_ADD_GROUP' => 'Adăugați Filtru',
     'LBL_NEW_GROUP' => 'Grup nou',
-    'LBL_RENAME_TABS' => 'Rename Modules',
+    'LBL_RENAME_TABS' => 'Redenumire module',
 
 //ERRORS
-    'ERROR_INVALID_KEY_VALUE' => "Error: Invalid Key Value: [']",
+    'ERROR_INVALID_KEY_VALUE' => "Eroare: Valoare Cheie Invalida: [*]",
 
 //SUGAR PORTAL
-    'LBL_SAVE' => 'Save' /*for 508 compliance fix*/,
-    'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
-    'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
+    'LBL_SAVE' => 'Salvați' /*for 508 compliance fix*/,
+    'LBL_UNDO' => 'Anulează' /*for 508 compliance fix*/,
+    'LBL_REDO' => 'Reface' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'În linie' /*for 508 compliance fix*/,
-    'LBL_DELETE' => 'Delete' /*for 508 compliance fix*/,
-    'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
+    'LBL_DELETE' => 'Ștergeți' /*for 508 compliance fix*/,
+    'LBL_ADD_FIELD' => 'Adăugați câmp' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Maximizează' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Minimizare' /*for 508 compliance fix*/,
-    'LBL_PUBLISH' => 'Publish' /*for 508 compliance fix*/,
-    'LBL_ADDROWS' => 'Add Rows' /*for 508 compliance fix*/,
-    'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
-    'LBL_EDIT' => 'Edit' /*for 508 compliance fix*/,
+    'LBL_PUBLISH' => 'Publică' /*for 508 compliance fix*/,
+    'LBL_ADDROWS' => 'Adăugați rânduri' /*for 508 compliance fix*/,
+    'LBL_ADDFIELD' => 'Adăugați câmp' /*for 508 compliance fix*/,
+    'LBL_EDIT' => 'Editeaza' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Selectați limba de editat.',
     'LBL_SINGULAR' => 'Etichetă singulară',
