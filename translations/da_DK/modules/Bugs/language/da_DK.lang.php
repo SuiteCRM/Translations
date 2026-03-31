@@ -53,7 +53,7 @@ $mod_strings = array(
     'LBL_NUMBER' => 'Number:',
     'LBL_STATUS' => 'Status:',
     'LBL_PRIORITY' => 'Priority:',
-    'LBL_DESCRIPTION' => 'Description:',
+    'LBL_DESCRIPTION' => 'Beskrivelse:',
     'LBL_CONTACT_NAME' => 'Kontaktnavn:',
     'LBL_CONTACT_ROLE' => 'Rolle:',
     'LBL_LIST_NUMBER' => 'Nr.',
@@ -99,6 +99,6 @@ $mod_strings = array(
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigned User',
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
 
-    'LBL_BUG_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_BUG_INFORMATION' => 'Oversigt', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
 );
