@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Grupper',
-    'LBL_GROUP_NAME' => 'Gruppnamn:',
-    'LBL_DESCRIPTION' => 'Beskrivning:',
+    'LBL_MODULE_NAME' => 'Groups',
+    'LBL_GROUP_NAME' => 'Group Name:',
+    'LBL_DESCRIPTION' => 'Description:',
     'LBL_TEAM' => 'Team:',
     // ListView
-    'LBL_LIST_TITLE' => 'Grupper',
+    'LBL_LIST_TITLE' => 'Groups',
     // Links
     'LNK_ALL_GROUPS' => 'Alla grupper',
     'LNK_NEW_GROUP' => 'Skapa grupp',
