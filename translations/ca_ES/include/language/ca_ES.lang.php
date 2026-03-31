@@ -113,7 +113,7 @@ $app_list_strings = array(
     ),
 
     'moduleListSingular' => array(
-        'Home' => 'Home',
+        'Home' => 'Inici',
         'Dashboard' => 'Quadre de Comandament',
         'Contacts' => 'Contacte',
         'Accounts' => 'Compte',
@@ -139,7 +139,7 @@ $app_list_strings = array(
         'Campaigns' => 'Campanya',
         'Documents' => 'Document',
         'Sync' => 'Sync',
-        'Users' => 'User',
+        'Users' => 'Usuari',
         'SugarFavorites' => 'SuiteCRM Favorites',
 
     ),
@@ -233,7 +233,7 @@ $app_list_strings = array(
     'opportunity_relationship_type_default_key' => 'Principal encarregat de prendre decisions',
     'opportunity_relationship_type_dom' => array(
         '' => '',
-        'Primary Decision Maker' => 'Primary Decision Maker',
+        'Primary Decision Maker' => 'Principal encarregat de prendre decisions',
         'Business Decision Maker' => 'Prenedor de Decisió de Negoci',
         'Business Evaluator' => 'Avaluador de Negoci',
         'Technical Decision Maker' => 'Prenedor de Decisió Tècnica',
@@ -257,7 +257,7 @@ $app_list_strings = array(
     ),
     'sales_stage_default_key' => 'Prospecció',
     'sales_stage_dom' => array(
-        'Prospecting' => 'Prospecting',
+        'Prospecting' => 'Prospecció',
         'Qualification' => 'Qualificació',
         'Needs Analysis' => 'Necesita Análisis',
         'Value Proposition' => 'Proposta de Valor',
@@ -334,7 +334,7 @@ $app_list_strings = array(
     ),
     'meeting_status_default' => 'Planificat',
     'meeting_status_dom' => array(
-        'Planned' => 'Planned',
+        'Planned' => 'Planificat',
         'Held' => 'Realitzada',
         'Not Held' => 'No Realitzada',
     ),
@@ -345,16 +345,16 @@ $app_list_strings = array(
         'Other' => 'Other',
         'Sugar' => 'SuiteCRM',
     ),
-    'call_status_default' => 'Planned',
+    'call_status_default' => 'Planificat',
     'call_status_dom' => array(
-        'Planned' => 'Planned',
+        'Planned' => 'Planificat',
         'Held' => 'Held',
         'Not Held' => 'Not Held',
     ),
     'call_direction_default' => 'Sortida',
     'call_direction_dom' => array(
         'Inbound' => 'Entrant',
-        'Outbound' => 'Outbound',
+        'Outbound' => 'Sortida',
     ),
     'lead_status_dom' => array(
         '' => '',
@@ -570,7 +570,7 @@ $app_list_strings = array(
     'case_type_dom' => array(
         'Administration' => 'Administration',
         'Product' => 'Product',
-        'User' => 'User',
+        'User' => 'Usuari',
     ),
 
     'source_default_key' => '',
@@ -589,7 +589,7 @@ $app_list_strings = array(
         'Activities' => 'Activities',
         'Bugs' => 'Bugs',
         'Calendar' => 'Calendar',
-        'Calls' => 'Calls',
+        'Calls' => 'Trucades',
         'Campaigns' => 'Campaigns',
         'Cases' => 'Cases',
         'Contacts' => 'Contacts',
@@ -600,7 +600,7 @@ $app_list_strings = array(
         'Feeds' => 'Canals electrònics',
         'Forecasts' => 'Objectiu',
         'Help' => 'Ajuda',
-        'Home' => 'Home',
+        'Home' => 'Inici',
         'Leads' => 'Leads',
         'Meetings' => 'Meetings',
         'Notes' => 'Notes',
@@ -843,7 +843,7 @@ $app_list_strings = array(
     'document_category_dom' => array(
         '' => '',
         'Marketing' => 'Marketing',
-        'Knowledege Base' => 'Knowledge Base',
+        'Knowledege Base' => 'Base de coneixements',
         'Sales' => 'Sales',
     ),
 
@@ -1114,7 +1114,7 @@ $app_strings = array(
     'LBL_DELETE_INLINE' => 'Esborrar' /*for 508 compliance fix*/,
     'LBL_ID_FF_CLEAR' => 'Netejar' /*for 508 compliance fix*/,
     'LBL_ID_FF_VCARD' => 'vCard' /*for 508 compliance fix*/,
-    'LBL_ID_FF_REMOVE' => 'Remove' /*for 508 compliance fix*/,
+    'LBL_ID_FF_REMOVE' => 'Eliminar' /*for 508 compliance fix*/,
     'LBL_ID_FF_REMOVE_EMAIL' => 'Borrar l\'adreça de correu electrònic' /*for 508 compliance fix*/,
     'LBL_ID_FF_OPT_OUT' => 'Optar per',
     'LBL_ID_FF_INVALID' => 'Fer invàlid',
@@ -1285,7 +1285,7 @@ $app_strings = array(
     'LBL_EMAIL_FROM' => 'De',
     'LBL_EMAIL_GROUP' => 'grup',
     'LBL_EMAIL_UPPER_CASE_GROUP' => 'Group',
-    'LBL_EMAIL_HOME_FOLDER' => 'Home',
+    'LBL_EMAIL_HOME_FOLDER' => 'Inici',
     'LBL_EMAIL_IE_DELETE' => 'Borrant Compte',
     'LBL_EMAIL_IE_DELETE_SIGNATURE' => 'Borrant Firma',
     'LBL_EMAIL_IE_DELETE_CONFIRM' => 'Està segur que desitja eliminar aquest compte de correu?',
@@ -1309,7 +1309,7 @@ $app_strings = array(
     'LBL_EMAIL_MENU_EMPTY_TRASH' => 'Buidar Paperera',
     'LBL_EMAIL_MENU_SYNCHRONIZE' => 'Sincronitzar',
     'LBL_EMAIL_MENU_CLEAR_CACHE' => 'Netejar arxius de memòria cau',
-    'LBL_EMAIL_MENU_REMOVE' => 'Remove',
+    'LBL_EMAIL_MENU_REMOVE' => 'Eliminar',
     'LBL_EMAIL_MENU_RENAME_FOLDER' => 'Rename Folder',
     'LBL_EMAIL_MENU_RENAMING_FOLDER' => 'Renombrant Carpeta',
     'LBL_EMAIL_MENU_MAKE_SELECTION' => 'Si us plau, realitzi una selecció abans d\'intentar aquesta operació.',
@@ -1355,7 +1355,7 @@ $app_strings = array(
     'LBL_EMAIL_RELATE_TO' => 'Relacionado',
     'LBL_EMAIL_VIEW_RELATIONSHIPS' => 'Vure Relacions',
     'LBL_EMAIL_RECORD' => 'Registre de correu electrònic',
-    'LBL_EMAIL_REMOVE' => 'Remove',
+    'LBL_EMAIL_REMOVE' => 'Eliminar',
     'LBL_EMAIL_REPLY' => 'Respondre',
     'LBL_EMAIL_REPLY_ALL' => 'Contestar a Tots',
     'LBL_EMAIL_REPLY_TO' => 'Contestar a',
@@ -1517,7 +1517,7 @@ $app_strings = array(
     'LBL_BROWSER_TITLE' => 'SuiteCRM - CRM de codi obert',
     'LBL_BUGS' => 'Bugs',
     'LBL_BY' => 'per',
-    'LBL_CALLS' => 'Calls',
+    'LBL_CALLS' => 'Trucades',
     'LBL_CAMPAIGNS_SEND_QUEUED' => 'Enviar correus electrònics de campanya pendents',
     'LBL_SUBMIT_BUTTON_LABEL' => 'Enviar',
     'LBL_CASE' => 'Case',
@@ -1597,7 +1597,7 @@ $app_strings = array(
     'LBL_FOUND_IN_RELEASE' => 'Trobat en Versió',
     'LBL_FIXED_IN_RELEASE' => 'Corregit en Versió',
     'LBL_LIST_ACCOUNT_NAME' => 'Account Name',
-    'LBL_LIST_ASSIGNED_USER' => 'User',
+    'LBL_LIST_ASSIGNED_USER' => 'Usuari',
     'LBL_LIST_CONTACT_NAME' => 'Contacte',
     'LBL_LIST_CONTACT_ROLE' => 'Rol Contacte',
     'LBL_LIST_DATE_ENTERED' => 'Date Created',
@@ -1638,7 +1638,7 @@ $app_strings = array(
     'LBL_NAME' => 'Name',
     'LBL_NEW_BUTTON_KEY' => 'N',
     'LBL_NEW_BUTTON_LABEL' => 'Crear',
-    'LBL_NEW_BUTTON_TITLE' => 'Create',
+    'LBL_NEW_BUTTON_TITLE' => 'Crear',
     'LBL_NEXT_BUTTON_LABEL' => 'Next',
     'LBL_NONE' => '--None--',
     'LBL_NOTES' => 'Notes',
@@ -1669,7 +1669,7 @@ $app_strings = array(
 
     'LBL_RELATED' => 'Relacionat',
     'LBL_RELATED_RECORDS' => 'Registres Relacionats',
-    'LBL_REMOVE' => 'Remove',
+    'LBL_REMOVE' => 'Eliminar',
     'LBL_REPORTS_TO' => 'Informa a',
     'LBL_REQUIRED_SYMBOL' => '*',
     'LBL_REQUIRED_TITLE' => 'Indica un camp requerit',
@@ -1704,16 +1704,16 @@ $app_strings = array(
     // Clear buttons take up too many keys, lets default the relate and collection ones to be empty
     'LBL_ACCESSKEY_CLEAR_RELATE_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_RELATE_TITLE' => 'Netejar Selecció',
-    'LBL_ACCESSKEY_CLEAR_RELATE_LABEL' => 'Clear Selection',
+    'LBL_ACCESSKEY_CLEAR_RELATE_LABEL' => 'Netejar Selecció',
     'LBL_ACCESSKEY_CLEAR_COLLECTION_KEY' => ' ',
-    'LBL_ACCESSKEY_CLEAR_COLLECTION_TITLE' => 'Clear Selection',
-    'LBL_ACCESSKEY_CLEAR_COLLECTION_LABEL' => 'Clear Selection',
+    'LBL_ACCESSKEY_CLEAR_COLLECTION_TITLE' => 'Netejar Selecció',
+    'LBL_ACCESSKEY_CLEAR_COLLECTION_LABEL' => 'Netejar Selecció',
     'LBL_ACCESSKEY_SELECT_FILE_KEY' => 'F',
     'LBL_ACCESSKEY_SELECT_FILE_TITLE' => 'Seleccionar Arxiu',
     'LBL_ACCESSKEY_SELECT_FILE_LABEL' => 'Select File',
     'LBL_ACCESSKEY_CLEAR_FILE_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_FILE_TITLE' => 'Netejar Arxiu',
-    'LBL_ACCESSKEY_CLEAR_FILE_LABEL' => 'Clear File',
+    'LBL_ACCESSKEY_CLEAR_FILE_LABEL' => 'Netejar Arxiu',
 
     'LBL_ACCESSKEY_SELECT_USERS_KEY' => 'U',
     'LBL_ACCESSKEY_SELECT_USERS_TITLE' => 'Select User',
@@ -1726,25 +1726,25 @@ $app_strings = array(
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_LABEL' => 'Select Account',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_TITLE' => 'Netejar Compte',
-    'LBL_ACCESSKEY_CLEAR_ACCOUNTS_LABEL' => 'Clear Account',
+    'LBL_ACCESSKEY_CLEAR_ACCOUNTS_LABEL' => 'Netejar Compte',
     'LBL_ACCESSKEY_SELECT_CAMPAIGNS_KEY' => 'M',
     'LBL_ACCESSKEY_SELECT_CAMPAIGNS_TITLE' => 'Seleccionar Campanya',
-    'LBL_ACCESSKEY_SELECT_CAMPAIGNS_LABEL' => 'Select Campaign',
+    'LBL_ACCESSKEY_SELECT_CAMPAIGNS_LABEL' => 'Seleccionar Campanya',
     'LBL_ACCESSKEY_CLEAR_CAMPAIGNS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_CAMPAIGNS_TITLE' => 'Netejar Campanya',
-    'LBL_ACCESSKEY_CLEAR_CAMPAIGNS_LABEL' => 'Clear Campaign',
+    'LBL_ACCESSKEY_CLEAR_CAMPAIGNS_LABEL' => 'Netejar Campanya',
     'LBL_ACCESSKEY_SELECT_CONTACTS_KEY' => 'C',
     'LBL_ACCESSKEY_SELECT_CONTACTS_TITLE' => 'Select Contact',
     'LBL_ACCESSKEY_SELECT_CONTACTS_LABEL' => 'Select Contact',
     'LBL_ACCESSKEY_CLEAR_CONTACTS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_CONTACTS_TITLE' => 'Netejar Contacte',
-    'LBL_ACCESSKEY_CLEAR_CONTACTS_LABEL' => 'Clear Contact',
+    'LBL_ACCESSKEY_CLEAR_CONTACTS_LABEL' => 'Netejar Contacte',
     'LBL_ACCESSKEY_SELECT_TEAMSET_KEY' => 'Z',
     'LBL_ACCESSKEY_SELECT_TEAMSET_TITLE' => 'Seleccionar Equip',
-    'LBL_ACCESSKEY_SELECT_TEAMSET_LABEL' => 'Select Team',
+    'LBL_ACCESSKEY_SELECT_TEAMSET_LABEL' => 'Seleccionar Equip',
     'LBL_ACCESSKEY_CLEAR_TEAMS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_TEAMS_TITLE' => 'Netejar Equip',
-    'LBL_ACCESSKEY_CLEAR_TEAMS_LABEL' => 'Clear Team',
+    'LBL_ACCESSKEY_CLEAR_TEAMS_LABEL' => 'Netejar Equip',
     'LBL_SERVER_RESPONSE_RESOURCES' => 'Recursos usats per construir aquesta pàgina (consultes,arxius)',
     'LBL_SERVER_RESPONSE_TIME_SECONDS' => 'segons.',
     'LBL_SERVER_RESPONSE_TIME' => 'Temps de resposta del servidor:',
@@ -1801,8 +1801,8 @@ $app_strings = array(
     'LNK_ABOUT' => 'Quant a',
     'LNK_ADVANCED_FILTER' => 'Filtre avançat',
     'LNK_BASIC_FILTER' => 'Filtre ràpid',
-    'LBL_ADVANCED_SEARCH' => 'Advanced Filter',
-    'LBL_QUICK_FILTER' => 'Quick Filter',
+    'LBL_ADVANCED_SEARCH' => 'Filtre avançat',
+    'LBL_QUICK_FILTER' => 'Filtre ràpid',
     'LNK_SEARCH_NONFTS_VIEW_ALL' => 'Mostrar Tot',
     'LNK_CLOSE' => 'Close',
     'LBL_MODIFY_CURRENT_FILTER' => 'Modificar el filtre actual',
@@ -1812,7 +1812,7 @@ $app_strings = array(
     'LNK_GET_LATEST' => 'Obtenir última',
     'LNK_GET_LATEST_TOOLTIP' => 'Reemplaçar amb última versió',
     'LNK_HELP' => 'Help',
-    'LNK_CREATE' => 'Create',
+    'LNK_CREATE' => 'Crear',
     'LNK_LIST_END' => 'Últim',
     'LNK_LIST_NEXT' => 'Next',
     'LNK_LIST_PREVIOUS' => 'Anterior',
@@ -1822,7 +1822,7 @@ $app_strings = array(
     'LNK_LOAD_SIGNED_TOOLTIP' => 'Reemplaçar amb document firmat',
     'LNK_PRINT' => 'Print',
     'LNK_BACKTOTOP' => 'Tornar a l\'inici',
-    'LNK_REMOVE' => 'Remove',
+    'LNK_REMOVE' => 'Eliminar',
     'LNK_RESUME' => 'Continuar',
     'LNK_VIEW_CHANGE_LOG' => 'Veure Registre de Canvis',
 
@@ -1852,7 +1852,7 @@ $app_strings = array(
     'LBL_MANAGE_SUBSCRIPTIONS' => 'Administrar Subscripcions',
     'LBL_MANAGE_SUBSCRIPTIONS_FOR' => 'Administrar Subscripcions a ',
     // Ajax status strings
-    'LBL_LOADING' => 'Loading...',
+    'LBL_LOADING' => 'Carregant ...',
     'LBL_SEARCHING' => 'Cercant...',
     'LBL_SAVING_LAYOUT' => 'Desant Disseny...',
     'LBL_SAVED_LAYOUT' => 'El disseny ha estat guardat.',
@@ -1940,7 +1940,7 @@ $app_strings = array(
     'LBL_DASHLET_CONFIGURE_GENERAL' => 'General',
     'LBL_DASHLET_CONFIGURE_FILTERS' => 'Filtres',
     'LBL_DASHLET_CONFIGURE_MY_ITEMS_ONLY' => 'Només els Meus Elements',
-    'LBL_DASHLET_CONFIGURE_TITLE' => 'Title',
+    'LBL_DASHLET_CONFIGURE_TITLE' => 'Títol',
     'LBL_DASHLET_CONFIGURE_DISPLAY_ROWS' => 'Mostrar Files',
 
     // MySugar status strings
@@ -2183,7 +2183,7 @@ $app_strings = array(
     'LBL_CONFIRM_APPLY_EMAIL_TEMPLATE_BODY' => 'Aquesta operació esborrarà el camp cos del missatge, ¿vol continuar?',
 
     'LBL_CONFIRM_OPT_IN_TITLE' => 'Confirmat Autoritzat a enviar',
-    'LBL_OPT_IN_TITLE' => 'Opt In',
+    'LBL_OPT_IN_TITLE' => 'Autoritzat a enviar',
     'LBL_CONFIRM_OPT_IN_DATE' => 'Confirmat Autoritzat a enviar en data',
     'LBL_CONFIRM_OPT_IN_SENT_DATE' => 'Confirmat Autoritzat a enviar en data d\'enviament',
     'LBL_CONFIRM_OPT_IN_FAIL_DATE' => 'Confirmat Autoritzat per enviar en data errònia',
@@ -2222,7 +2222,7 @@ $app_list_strings['project_priority_options'] = array(
 //GDPR lawful basis options
 $app_list_strings['lawful_basis_dom'] = array(
     '' => '',
-    'consent' => 'Consent',
+    'consent' => 'Consentiment',
     'contract' => 'Contract',
     'legal_obligation' => 'Obligació legal',
     'protection_of_interest' => 'Protecció d\'interès',
@@ -2243,7 +2243,7 @@ $app_list_strings['lawful_basis_source_dom'] = array(
 );
 //End GDPR lawful basis source options
 
-$app_list_strings['moduleList']['KBDocuments'] = 'Knowledge Base';
+$app_list_strings['moduleList']['KBDocuments'] = 'Base de coneixements';
 
 $app_list_strings['countries_dom'] = array(
     '' => '',
@@ -2935,7 +2935,7 @@ $app_list_strings ['emailTemplates_type_list_no_workflow'] = array(
 );
 
 // knowledge base
-$app_list_strings['moduleList']['AOK_KnowledgeBase'] = 'Knowledge Base';
+$app_list_strings['moduleList']['AOK_KnowledgeBase'] = 'Base de coneixements';
 $app_list_strings['moduleList']['AOK_Knowledge_Base_Categories'] = 'Categories Base de coneixement';
 $app_list_strings['aok_status_list']['Draft'] = 'Draft';
 $app_list_strings['aok_status_list']['Expired'] = 'Expired';
@@ -3074,7 +3074,7 @@ $app_list_strings['aor_scheduled_report_schedule_types']['daily'] = 'Daily';
 $app_list_strings['aor_scheduled_reports_status_dom']['active'] = 'Active';
 $app_list_strings['aor_scheduled_reports_status_dom']['inactive'] = 'Inactive';
 $app_list_strings['aor_email_type_list']['Email Address'] = 'Email';
-$app_list_strings['aor_email_type_list']['Specify User'] = 'User';
+$app_list_strings['aor_email_type_list']['Specify User'] = 'Usuari';
 $app_list_strings['aor_email_type_list']['Users'] = 'Users';
 $app_list_strings['aor_assign_options']['all'] = 'Tots els usuaris';
 $app_list_strings['aor_assign_options']['role'] = 'Tots els usuaris de rol';
@@ -3243,7 +3243,7 @@ $app_list_strings['aow_assign_options']['security_group'] = 'ALL Users in Securi
 $app_list_strings['aow_email_type_list']['Email Address'] = 'Email';
 $app_list_strings['aow_email_type_list']['Record Email'] = 'Registre de correu electrònic';
 $app_list_strings['aow_email_type_list']['Related Field'] = 'Camp Relacionat';
-$app_list_strings['aow_email_type_list']['Specify User'] = 'User';
+$app_list_strings['aow_email_type_list']['Specify User'] = 'Usuari';
 $app_list_strings['aow_email_type_list']['Users'] = 'Users';
 $app_list_strings['aow_email_to_list']['to'] = 'To';
 $app_list_strings['aow_email_to_list']['cc'] = 'Cc';
@@ -3384,7 +3384,7 @@ $app_list_strings['marker_image_list']['hairsalon'] = 'Perruqueria';
 $app_list_strings['marker_image_list']['helicopter'] = 'Helicòpter';
 $app_list_strings['marker_image_list']['highway'] = 'Autopista';
 $app_list_strings['marker_image_list']['historical_quarter'] = 'Casc antic';
-$app_list_strings['marker_image_list']['home'] = 'Home';
+$app_list_strings['marker_image_list']['home'] = 'Inici';
 $app_list_strings['marker_image_list']['hospital'] = 'Hospital';
 $app_list_strings['marker_image_list']['hostel'] = 'Hostal';
 $app_list_strings['marker_image_list']['hotel'] = 'Hotel';
@@ -3585,7 +3585,7 @@ $app_strings['LBL_SUITE_DASHBOARD_ACTIONS'] = 'ACTIONS';
 $app_list_strings['collection_temp_list'] = array(
     'Tasks' => 'Tasks',
     'Meetings' => 'Meetings',
-    'Calls' => 'Calls',
+    'Calls' => 'Trucades',
     'Notes' => 'Notes',
     'Emails' => 'Emails'
 );
@@ -3672,10 +3672,10 @@ $app_list_strings['surveys_matrix_options'][2] = 'Insatisfet';
 
 $app_list_strings['moduleList']['CalendarAccount'] = 'Calendar Accounts';
 
-$app_strings['LBL_OPT_IN_PENDING_EMAIL_NOT_SENT'] = 'Pending Confirm opt in, Confirm opt in not sent';
+$app_strings['LBL_OPT_IN_PENDING_EMAIL_NOT_SENT'] = 'Pendent de confirmar Autoritzat a enviar, confirmar Autoritzat a enviar no enviat';
 $app_strings['LBL_OPT_IN_PENDING_EMAIL_FAILED'] = 'Confirmar Autoritzat a enviar a l\'e-mail d\'enviament ha fallat';
-$app_strings['LBL_OPT_IN_PENDING_EMAIL_SENT'] = 'Pending Confirm opt in, Confirm opt in sent';
-$app_strings['LBL_OPT_IN'] = 'Opted in';
+$app_strings['LBL_OPT_IN_PENDING_EMAIL_SENT'] = 'Pendent de confirmar Autoritzat a enviar, confirmar Autoritzat a enviar per enviaments';
+$app_strings['LBL_OPT_IN'] = 'Autoritzat a enviar';
 $app_strings['LBL_OPT_IN_CONFIRMED'] = 'Autoritzat a enviar Confirmat';
 $app_strings['LBL_OPT_IN_OPT_OUT'] = 'Opted Out';
 $app_strings['LBL_OPT_IN_INVALID'] = 'Invalid';
@@ -3683,14 +3683,14 @@ $app_strings['LBL_OPT_IN_INVALID'] = 'Invalid';
 /** @see SugarEmailAddress */
 $app_list_strings['email_settings_opt_in_dom'] = array(
     'not-opt-in' => 'Disabled',
-    'opt-in' => 'Opt In',
-    'confirmed-opt-in' => 'Confirmed Opt In'
+    'opt-in' => 'Autoritzat a enviar',
+    'confirmed-opt-in' => 'Confirmat Autoritzat a enviar'
 );
 
 $app_list_strings['email_confirmed_opt_in_dom'] = array(
     'not-opt-in' => 'No Autoritzat a enviar',
-    'opt-in' => 'Opt In',
-    'confirmed-opt-in' => 'Confirmed Opt In'
+    'opt-in' => 'Autoritzat a enviar',
+    'confirmed-opt-in' => 'Confirmat Autoritzat a enviar'
 );
 
 $app_strings['RESPONSE_SEND_CONFIRM_OPT_IN_EMAIL'] = 'El correu electrònic de confirmació per Autoritzat a enviar s\'ha afegit a la cua de correu electrònic d\'adreces d\'e-mail %s';
