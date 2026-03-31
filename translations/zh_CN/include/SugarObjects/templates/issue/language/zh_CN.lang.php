@@ -52,17 +52,17 @@ $mod_strings = array(
     'LBL_RESOLUTION' => '附加信息',
     'LBL_LAST_MODIFIED' => '最新修改',
     'LBL_ASSIGNED_TO_ID' => '负责人',
-    'LBL_ASSIGNED_TO_NAME' => '负责人',
+    'LBL_ASSIGNED_TO_NAME' => 'User:',
     'LBL_WORK_LOG' => '工作日志',
     'LBL_CREATED_BY' => '创建人',
     'LBL_DATE_ENTERED' => '创建日期',
-    'LBL_DATE_MODIFIED' => '修改日期',
+    'LBL_DATE_MODIFIED' => 'Date Modified:',
     'LBL_MODIFIED_BY' => '修改人',
     'LBL_ASSIGNED_USER' => '负责人ID',
-    'LBL_TYPE' => '类型',
+    'LBL_TYPE' => 'Type:',
     'LBL_SUBJECT' => '主题',
 
     'LBL_EDIT_BUTTON' => '编辑',
-    'LBL_REMOVE' => '移除',
+    'LBL_REMOVE' => '删除',
 
 );
