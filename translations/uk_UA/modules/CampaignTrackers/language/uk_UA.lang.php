@@ -48,12 +48,12 @@ $mod_strings = array(
     'LBL_TRACKER_URL' => 'URL трекера',
     'LBL_TRACKER_NAME' => 'Назва трекера',
     'LBL_CAMPAIGN_ID' => 'Код маркетингової кампанії',
-    'LBL_DATE_ENTERED' => 'Дата вводу',
+    'LBL_DATE_ENTERED' => 'Date Entered',
     'LBL_DATE_MODIFIED' => 'Дата зміни',
     'LBL_MODIFIED_USER_ID' => 'Змінено користувачем:',
     'LBL_CREATED_BY' => 'Ким створено',
-    'LBL_DELETED' => 'Видалено',
-    'LBL_CAMPAIGN' => 'Маркетингова кампанія',
+    'LBL_DELETED' => 'Deleted',
+    'LBL_CAMPAIGN' => 'Campaign',
     'LBL_OPTOUT' => 'Відмова від розсилки',
 
     'LBL_MODULE_NAME' => 'Трекер маркетингової кампанії',
@@ -63,10 +63,10 @@ $mod_strings = array(
 
     'LBL_SUBPANEL_TRACKER_NAME' => 'Назва',
     'LBL_SUBPANEL_TRACKER_URL' => 'URL',
-    'LBL_SUBPANEL_TRACKER_KEY' => 'Ключ',
+    'LBL_SUBPANEL_TRACKER_KEY' => 'Key',
     'LBL_EDIT_MESSAGE_URL' => 'URL для повідомлення по Кампанії:',
     'LBL_EDIT_TRACKER_KEY' => 'Ключ трекера:',
     'LBL_EDIT_OPT_OUT' => 'Посилання для відмови від розсилки?',
-    'LNK_CAMPAIGN_LIST' => 'Маркет. кампанії',
+    'LNK_CAMPAIGN_LIST' => 'Campaigns',
     'LBL_EDIT_LAYOUT' => 'Правка розташування' /*for 508 compliance fix*/,
 );
