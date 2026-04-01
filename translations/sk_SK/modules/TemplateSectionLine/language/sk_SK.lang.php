@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_DESCRIPTION' => 'Popis',
-    'LBL_NAME' => 'Názov',
-    'LBL_LIST_NAME' => 'Názov',
+    'LBL_DESCRIPTION' => 'Popis:',
+    'LBL_NAME' => 'Meno:',
+    'LBL_LIST_NAME' => 'Meno',
     'LBL_EDIT_BUTTON' => 'Upraviť',
-    'LBL_REMOVE' => 'Odstrániť',
+    'LBL_REMOVE' => 'Remove',
     'LBL_GRP' => 'Skupina',
     'LBL_ORD' => 'Iné',
     'LBL_THUMBNAIL' => 'Náhľad',
