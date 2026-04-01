@@ -43,8 +43,8 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'کرنسیاں',
-    'LBL_LIST_FORM_TITLE' => 'کرنسیاں',
+    'LBL_MODULE_NAME' => 'Currencies',
+    'LBL_LIST_FORM_TITLE' => 'Currencies',
     'LBL_CURRENCY' => 'کرنسی',
     'LBL_ADD' => 'شامل کریں',
     'LBL_MERGE' => 'کٹھہ کرنا',
