@@ -50,13 +50,13 @@ $mod_strings = array(
     'LBL_DELETE_BUTTON_TITLE' => 'Delete this Saved Filter',
     'LBL_SAVE_BUTTON_TITLE' => 'Save the current filter',
     'LBL_LIST_NAME' => 'Назва',
-    'LBL_LIST_MODULE' => 'Модуль',
+    'LBL_LIST_MODULE' => 'Module',
     'LBL_ORDER_BY_COLUMNS' => 'Order by column:',
-    'LBL_DIRECTION' => 'Сортування:',
+    'LBL_DIRECTION' => 'Direction:',
     'LBL_SAVE_SEARCH_AS' => 'Save filter as:',
     'LBL_ASCENDING' => 'За зростанням',
     'LBL_DESCENDING' => 'За спаданням',
-    'LBL_MODIFY_CURRENT_FILTER' => 'Змінити поточний фільтр',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
     'LBL_CREATED_BY' => 'Ким створено',
 
