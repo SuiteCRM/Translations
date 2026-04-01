@@ -32,11 +32,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = [
     // System fields
     'LBL_ASSIGNED_TO_ID' => '负责人ID',
-    'LBL_ASSIGNED_TO_NAME' => '负责人',
+    'LBL_ASSIGNED_TO_NAME' => '分配给',
     'LBL_DATE_ENTERED' => '创建日期',
     'LBL_DATE_MODIFIED' => '修改日期',
     'LBL_MODIFIED' => '修改人',
-    'LBL_MODIFIED_NAME' => '修改人',
+    'LBL_MODIFIED_NAME' => '修改人姓名',
     'LBL_CREATED' => '创建人',
     'LBL_CREATED_USER' => '创建人',
     'LBL_MODIFIED_USER' => '修改人',
@@ -45,21 +45,21 @@ $mod_strings = [
 
     // Security groups
     'LBL_SECURITYGROUPS' => '用户组列表',
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => '用户组列表',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => '用户组',
 
     // List view labels
-    'LBL_LIST_NAME' => '名称',
+    'LBL_LIST_NAME' => '追踪器',
     'LBL_LIST_DELETE' => '删除',
     'LBL_EDIT_BUTTON' => '编辑',
-    'LBL_REMOVE' => '移除',
+    'LBL_REMOVE' => '删除',
     'LBL_ASCENDING' => '升序',
     'LBL_DESCENDING' => '降序',
 
     // Email opt-in labels
     'LBL_OPT_IN' => '选择参加',
-    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => '待定确认选择参加，参加证实未发送',
-    'LBL_OPT_IN_PENDING_EMAIL_SENT' => '待定确认选择参加，参加证实已发送',
-    'LBL_OPT_IN_CONFIRMED' => '已确认参加',
+    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => '等待确认加入中，确认加入不发送',
+    'LBL_OPT_IN_PENDING_EMAIL_SENT' => '等待确认加入中，加入确认已发送',
+    'LBL_OPT_IN_CONFIRMED' => '已加入',
 
     // Subpanel titles
     'LBL_HISTORY_SUBPANEL_TITLE' => '历史记录',
@@ -92,7 +92,7 @@ $mod_strings = [
 
     // Standard fields
     'LBL_NAME' => '名称',
-    'LBL_ID' => '编号',
+    'LBL_ID' => 'ID',
     'LBL_TYPE' => '类型',
     'LBL_SOURCE' => 'Calendar Source',
 
@@ -102,7 +102,7 @@ $mod_strings = [
 
     // Basic Auth Fields
     'LBL_USERNAME' => '用户名',
-    'LBL_PASSWORD' => '密码',
+    'LBL_PASSWORD' => '更改密码',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test Connection',
 
@@ -162,12 +162,12 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Please select a calendar source first.',
 
     // Connection test messages
-    'LBL_CALENDAR' => '日历',
-    'LBL_SUCCESSFUL' => '成功',
+    'LBL_CALENDAR' => '日程安排',
+    'LBL_SUCCESSFUL' => 'Successful',
     'LBL_FAILED' => '失败',
     'LBL_CONNECTION_TEST' => 'Connection Test',
     'LBL_YES' => '是',
-    'LBL_NO' => '否',
+    'LBL_NO' => '无',
     'LBL_FOUND_CALENDARS' => 'Found {count} calendars.',
     'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'An error occurred while processing the connection test response. Please check the logs for details.',
     'LBL_CONNECTION_TEST_HTTP_ERROR' => 'Connection test failed with HTTP status',
@@ -182,11 +182,11 @@ $mod_strings = [
 
     // Dialog labels
     'LBL_NOTIFICATION' => 'Notification',
-    'LBL_CONFIRM' => '确认',
+    'LBL_CONFIRM' => 'Confirm',
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => '正在执行',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => '处理中',
     'LBL_SYNC_STATUS_SUCCESS' => '成功',
     'LBL_SYNC_STATUS_WARNING' => '警告',
     'LBL_SYNC_STATUS_ERROR' => '错误',
@@ -202,5 +202,5 @@ $mod_strings = [
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Calendar not found.',
 
     // Relationship labels
-    'LBL_MEETINGS' => '查看会议',
+    'LBL_MEETINGS' => '会议',
 ];
