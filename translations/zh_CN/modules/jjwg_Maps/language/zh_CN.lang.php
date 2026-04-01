@@ -59,30 +59,30 @@ $mod_strings['LBL_UNIT_TYPE'] = '单元类型';
 $mod_strings['LBL_MAP_DISPLAY'] = '地图显示';
 $mod_strings['LBL_MAP_LEGEND'] = '图例';
 $mod_strings['LBL_MAP_USER_GROUPS'] = '组';
-$mod_strings['LBL_MAP_GROUP'] = '分组';
+$mod_strings['LBL_MAP_GROUP'] = '群组';
 $mod_strings['LBL_MAP_TYPE'] = '类型';
 $mod_strings['LBL_MAP_ASSIGNED_TO'] = '负责人';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = '获取路线';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = '谷歌地图视图';
 
 $mod_strings['LNK_NEW_MAP'] = '创建地图';
-$mod_strings['LNK_NEW_RECORD'] = '创建地图';
+$mod_strings['LNK_NEW_RECORD'] = 'Add New Map';
 $mod_strings['LNK_MAP_LIST'] = '查看地图';
 
-$mod_strings['LBL_MAP_ADDRESS_TEST'] = '地理编码测试';
+$mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Geocoding Test';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = '快速查看地图';
-$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = '无';
+$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = '-无-';
 $mod_strings['LBL_MAP_ADDRESS'] = '地址';
 $mod_strings['LBL_MAP_PROCESS'] = '执行';
 
 $mod_strings['LBL_MAP_LAST_STATUS'] = '最后地理编码状态';
 $mod_strings['LBL_GEOCODED_COUNTS'] = '地理编码计数';
 $mod_strings['LBL_CRON_URL'] = '任务计划 URL：';
-$mod_strings['LBL_MODULE_HEADING'] = '模块路径';
+$mod_strings['LBL_MODULE_HEADING'] = '模块';
 
 $mod_strings['LBL_N/A'] = '未知';
 $mod_strings['LBL_ZERO_RESULTS'] = '无结果';
-$mod_strings['LBL_OK'] = '确定';
+$mod_strings['LBL_OK'] = 'Ok';
 $mod_strings['LBL_INVALID_REQUEST'] = '无效请求';
 $mod_strings['LBL_APPROXIMATE'] = '大概';
 $mod_strings['LBL_EMPTY'] = '空';
@@ -94,22 +94,22 @@ $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = 'The table shown belown shows 
 $mod_strings['LBL_CRON_INSTRUCTIONS'] = '建议添加设置任务计划，在夜间执行地理编码请求。当前已为此目的创建了自定义入口，并且无需身份验证进行即可访问。下面所显示的 URL 是用于管理的任务计划。详细信息请参阅文档帮助。';
 $mod_strings['LBL_EXPORT_ADDRESS_URL'] = '导出URLs';
 $mod_strings['LBL_EXPORT_INSTRUCTIONS'] = 'Use the links below to export full addresses in need of geocodeing information. Then use an online or offline batch geocoding tool to geocode the addresses. When you are finished geocoding, import the addresses into the Address Cache module to be used with your maps. Note, the Address Cache module is optional. All geocoding information is stored in the representative module.';
-$mod_strings['LBL_ADDRESS_CACHE'] = '地图-地址缓存';
+$mod_strings['LBL_ADDRESS_CACHE'] = '地址缓存';
 $mod_strings['LBL_ADD_TO_TARGET_LIST'] = '添加到目标群体';
 $mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = '正在处理...';
 
 
 $mod_strings['LBL_CONFIG_TITLE'] = '地图设置';
 $mod_strings['LBL_CONFIG_SAVED'] = '设置已保存！';
-$mod_strings['LBL_BILLING_ADDRESS'] = '账单地址';
-$mod_strings['LBL_SHIPPING_ADDRESS'] = '送货地址';
-$mod_strings['LBL_PRIMARY_ADDRESS'] = '主要地址';
+$mod_strings['LBL_BILLING_ADDRESS'] = 'Billing Address';
+$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Shipping Address';
+$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Primary Address';
 $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = '其他地址';
-$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = '弹性关联';
+$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = '关联到';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = '地址（地址，用户）';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = '自定义（自定义控制器逻辑）';
 $mod_strings['LBL_ENABLED'] = '已启用';
-$mod_strings['LBL_DISABLED'] = '已禁用';
+$mod_strings['LBL_DISABLED'] = '已停用';
 $mod_strings['LBL_DEFAULT'] = '默认';
 $mod_strings['LBL_CONFIG_DEFAULT'] = '默认';
 
