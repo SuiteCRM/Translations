@@ -42,10 +42,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_MAP'] = 'Kaart';
-$mod_strings['LBL_MODULE_NAME'] = 'Kaarten';
+$mod_strings['LBL_MAP'] = 'Map';
+$mod_strings['LBL_MODULE_NAME'] = 'Maps';
 $mod_strings['LBL_MODULE_TITLE'] = 'Kaarten: Start';
-$mod_strings['LBL_MODULE_ID'] = 'Kaarten';
+$mod_strings['LBL_MODULE_ID'] = 'Maps';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'Kaarten Lijst';
 $mod_strings['LBL_MAP_CUSTOM_MARKER'] = 'Custom Markeerpunt';
 $mod_strings['LBL_MAP_CUSTOM_AREA'] = 'Custom Gebied';
@@ -59,20 +59,20 @@ $mod_strings['LBL_UNIT_TYPE'] = 'Eenheid type:';
 $mod_strings['LBL_MAP_DISPLAY'] = 'Kaart tonen';
 $mod_strings['LBL_MAP_LEGEND'] = 'Legenda:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'Groepen:';
-$mod_strings['LBL_MAP_GROUP'] = 'Groep';
+$mod_strings['LBL_MAP_GROUP'] = 'Group';
 $mod_strings['LBL_MAP_TYPE'] = 'Type';
-$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Toegewezen aan:';
+$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Assigned to:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'Krijg routebeschrijving';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'Google Maps overzicht';
 
 $mod_strings['LNK_NEW_MAP'] = 'Toevoegen nieuwe kaart';
-$mod_strings['LNK_NEW_RECORD'] = 'Toevoegen nieuwe kaart';
+$mod_strings['LNK_NEW_RECORD'] = 'Add New Map';
 $mod_strings['LNK_MAP_LIST'] = 'Kaarten lijst';
 
 $mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Geocoding Test';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'Quick Radius Kaart';
-$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'Geen';
-$mod_strings['LBL_MAP_ADDRESS'] = 'Adres';
+$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'None';
+$mod_strings['LBL_MAP_ADDRESS'] = 'Alternatief Adres';
 $mod_strings['LBL_MAP_PROCESS'] = 'Verwerken!';
 
 $mod_strings['LBL_MAP_LAST_STATUS'] = 'Laatste geocode status';
@@ -82,36 +82,36 @@ $mod_strings['LBL_MODULE_HEADING'] = 'Module';
 
 $mod_strings['LBL_N/A'] = 'N/B';
 $mod_strings['LBL_ZERO_RESULTS'] = 'Geen resultaten';
-$mod_strings['LBL_OK'] = 'Oké';
+$mod_strings['LBL_OK'] = 'Ok';
 $mod_strings['LBL_INVALID_REQUEST'] = 'Ongeldig verzoek';
 $mod_strings['LBL_APPROXIMATE'] = 'Ongeveer';
 $mod_strings['LBL_EMPTY'] = 'Leeg';
 
-$mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Totaal';
-$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Opnieuw instellen';
+$mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Total';
+$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Reset';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = 'De tabel onderaan bevat het nummer van de module objecten Geocode, gegroepeerd op geocoding reactie. Houd er rekening mee dat de standaard Google Maps het gebruik beperkt is tot 2500 aanvragen per dag. Deze module zal de adressen geocoding informatie tijdens de bewerking verminderen dan er nodig is van de totale aantal aanvragen die nodig zijn voor de cache.';
 
 $mod_strings['LBL_CRON_INSTRUCTIONS'] = 'Voor het verwerken van de geocoding verzoeken is het aanbevolen om een nachtelijke Cron-Job in te stellen. Een aangepaste ingangspunt voor dit doel is aangemaakt en kan worden geopend zonder verificatie. De URL hieronder is bedoeld om te worden gebruikt met een geplande beheertaak. Raadpleeg de documentatie voor meer informatie.';
 $mod_strings['LBL_EXPORT_ADDRESS_URL'] = 'Exporteer URLs';
 $mod_strings['LBL_EXPORT_INSTRUCTIONS'] = 'Gebruik de links hieronder om adressen van de volledige behoefte van geocodeing informatie te exporteren. Wanneer u klaar bent met geocoding, importeren van de adressen in de adres Cache module voor gebruik met uw kaarten. Opmerking, het adres Cache module is optioneel. Alle geocoding informatie wordt opgeslagen in de representatieve module.';
-$mod_strings['LBL_ADDRESS_CACHE'] = 'Adres Cache';
+$mod_strings['LBL_ADDRESS_CACHE'] = 'Address Cache';
 $mod_strings['LBL_ADD_TO_TARGET_LIST'] = 'Voeg toe aan de verzendlijst';
-$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Verwerken...';
+$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Verwerken ...';
 
 
 $mod_strings['LBL_CONFIG_TITLE'] = 'Configuratie Instellingen';
 $mod_strings['LBL_CONFIG_SAVED'] = 'Instellingen zijn opgeslagen!';
-$mod_strings['LBL_BILLING_ADDRESS'] = 'Factuur adres';
-$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Verzend adres';
-$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Primair adres';
+$mod_strings['LBL_BILLING_ADDRESS'] = 'Billing Address';
+$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Shipping Address';
+$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Primary Address';
 $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'Alternatief adres';
-$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex betrekking hebben';
+$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex Relate';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Adres (Eenvoudig, Gebruikers)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'Aangepast (Custom Controller Logic)';
-$mod_strings['LBL_ENABLED'] = 'Geactiveerd';
-$mod_strings['LBL_DISABLED'] = 'Gedeactiveerd';
+$mod_strings['LBL_ENABLED'] = 'Enabled';
+$mod_strings['LBL_DISABLED'] = 'Disabled';
 $mod_strings['LBL_DEFAULT'] = 'Standaard:';
-$mod_strings['LBL_CONFIG_DEFAULT'] = 'Standaard:';
+$mod_strings['LBL_CONFIG_DEFAULT'] = 'Default:';
 
 $mod_strings['LBL_CONFIG_VALID_GEOCODE_MODULES'] = 'Geldige Geocode modules:';
 $mod_strings['LBL_CONFIG_VALID_GEOCODE_TABLES'] = 'Geldige Geocode tabellen:';
@@ -182,9 +182,9 @@ $mod_strings['LBL_CONFIG_MAP_CLUSTER_GRID_SIZE_DESC'] = "'map_clusterer_grid_siz
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_TITLE'] = "Kaart markeerpunten cluster maximale zoom:";
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_DESC'] = "'map_clusterer_max_zoom' wordt gebruikt om het maximum zoom niveau te bepalen waarbij clustering niet zal worden toegepast.";
 $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = "Belangrijke opmerking: Alle opgeslagen instellingen kunnen gewijzigd worden in the 'config' tabel nnder categorie 'jjwg'. Opmerking, een aparte controller.php bestand hoeft niet langer gebruikt te worden om deze instellingen te wijzigen.";
-$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Gebieden';
+$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Areas';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'Markeerpunten';
-$mod_strings['LBL_PARENT_ID'] = 'Hoofd ID';
+$mod_strings['LBL_PARENT_ID'] = 'Parent ID';
 $mod_strings['LBL_JJWP_PARTNERS'] = 'JJWP Partners';
 $mod_strings['LBL_GET_GOOGLE_API_KEY'] = 'Verkrijg Google API sleutel';
 $mod_strings['LBL_GOOGLE_API_KEY'] = 'Google Api-sleutel';
