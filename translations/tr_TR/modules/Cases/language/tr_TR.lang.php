@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'ERR_DELETE_RECORD' => 'Hesabı silmek için bir kayıt numarası belirtmelisiniz.',
+    'ERR_DELETE_RECORD' => 'Hesabı silmek için bir kayıt numarası yazmalısınız.',
     'LBL_TOOL_TIP_BOX_TITLE' => 'Bilgi bankası önerileri',
     'LBL_TOOL_TIP_TITLE' => 'Başlık: ',
     'LBL_TOOL_TIP_BODY' => 'İçerik metni:',
@@ -51,7 +51,7 @@ $mod_strings = array(
     'LBL_TOOL_TIP_USE' => 'Şu olarak kullan: ',
     'LBL_SUGGESTION_BOX' => 'Öneriler',
     'LBL_NO_SUGGESTIONS' => 'Herhangi bir öneri yok',
-    'LBL_RESOLUTION_BUTTON' => 'Çözüm',
+    'LBL_RESOLUTION_BUTTON' => 'Resolution',
     'LBL_SUGGESTION_BOX_STATUS' => 'Durum',
     'LBL_SUGGESTION_BOX_TITLE' => 'Başlık',
     'LBL_SUGGESTION_BOX_REL' => 'İlişki',
@@ -59,7 +59,7 @@ $mod_strings = array(
     'LBL_ACCOUNT_ID' => 'Hesap kimliği',
     'LBL_ACCOUNT_NAME' => 'Hesap adı:',
     'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Hesaplar',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'İşlemler',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Etkinlikler',
     'LBL_BUGS_SUBPANEL_TITLE' => 'Hatalar',
     'LBL_CASE_NUMBER' => 'Destek kaydı numarası:',
     'LBL_CASE' => 'Destek kaydı:',
@@ -77,11 +77,11 @@ $mod_strings = array(
     'LBL_NUMBER' => 'Numara:',
     'LBL_PRIORITY' => 'Öncelik:',
     'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projeler',
-    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Belgeler',
-    'LBL_RESOLUTION' => 'Çözüm:',
+    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Dökümanlar',
+    'LBL_RESOLUTION' => 'Resolution:',
     'LBL_SEARCH_FORM_TITLE' => 'Destek kaydı arama',
     'LBL_STATUS' => 'Durum:',
-    'LBL_SUBJECT' => 'Konu:',
+    'LBL_SUBJECT' => 'Konusu:',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Atanmış kullanıcı',
     'LBL_LIST_ACCOUNT_NAME' => 'Hesap adı',
     'LBL_LIST_ASSIGNED' => 'Atanmış kişi',
@@ -89,9 +89,9 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Destek kaydı listesi',
     'LBL_LIST_LAST_MODIFIED' => 'Son değiştirilme',
     'LBL_LIST_MY_CASES' => 'Açık destek kayıtlarım',
-    'LBL_LIST_NUMBER' => 'No.',
+    'LBL_LIST_NUMBER' => 'Num.',
     'LBL_LIST_PRIORITY' => 'Öncelik',
-    'LBL_LIST_STATUS' => 'Durum',
+    'LBL_LIST_STATUS' => 'Durum:',
     'LBL_LIST_SUBJECT' => 'Konu',
 
     'LNK_CASE_LIST' => 'Destek kayıtlarını görüntüle',
@@ -103,7 +103,7 @@ $mod_strings = array(
     'LNK_IMPORT_CASES' => 'Destek kayıtlarını içe aktar',
 
     'LBL_CREATED_USER' => 'Ekleyen kullanıcı',
-    'LBL_MODIFIED_USER' => 'Değiştiren kullanıcı',
+    'LBL_MODIFIED_USER' => 'Değiştiren Kullanıcı',
     'LBL_PROJECT_SUBPANEL_TITLE' => 'Projeler',
     'LBL_CASE_INFORMATION' => 'Özet', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
