@@ -43,27 +43,27 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Версии',
+    'LBL_MODULE_NAME' => 'Releases',
     'LBL_MODULE_TITLE' => 'Версии - ГЛАВНАЯ',
     'LBL_SEARCH_FORM_TITLE' => 'Поиск версий',
     'LBL_LIST_FORM_TITLE' => 'Список версий',
     'LBL_NEW_FORM_TITLE' => 'Новая версия',
-    'LBL_RELEASE' => 'Версия:',
-    'LBL_LIST_NAME' => 'Версия',
+    'LBL_RELEASE' => 'Release:',
+    'LBL_LIST_NAME' => 'Release',
     'LBL_NAME' => 'Версия:',
-    'LBL_LIST_LIST_ORDER' => 'Сортировка',
-    'LBL_LIST_ORDER' => 'Порядковый номер в проекте:',
+    'LBL_LIST_LIST_ORDER' => 'Order',
+    'LBL_LIST_ORDER' => 'Order:',
     'LBL_LIST_STATUS' => 'Статус',
     'LBL_STATUS' => 'Статус:',
-    'LNK_NEW_RELEASE' => 'Список версий',
-    'NTC_DELETE_CONFIRMATION' => 'Вы действительно хотите удалить эту запись?',
+    'LNK_NEW_RELEASE' => 'Release List',
+    'NTC_DELETE_CONFIRMATION' => 'Are you sure you want to delete this record?',
     'ERR_DELETE_RECORD' => 'Вы должны указать запись для удаления версии.',
     'NTC_STATUS' => 'Установите статус на "Не активна" для удаления этой версии из списка',
     'NTC_LIST_ORDER' => 'Установить порядок следования версий',
     'release_status_dom' =>
         array(
-            'Active' => 'Активен',
-            'Inactive' => 'Не активна',
+            'Active' => 'Active',
+            'Inactive' => 'Неактивен',
         ),
     'LBL_EDITLAYOUT' => 'Изменить макет' /*for 508 compliance fix*/,
 );
