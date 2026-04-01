@@ -35,25 +35,25 @@ $mod_strings = [
     'LBL_ASSIGNED_TO_NAME' => 'Atribuído a',
     'LBL_DATE_ENTERED' => 'Data de Criação',
     'LBL_DATE_MODIFIED' => 'Data de Modificação',
-    'LBL_MODIFIED' => 'Modificado por',
+    'LBL_MODIFIED' => 'Modificado Por',
     'LBL_MODIFIED_NAME' => 'Modificado por (Nome)',
-    'LBL_CREATED' => 'Criado por',
-    'LBL_CREATED_USER' => 'Criado pelo Usuário',
+    'LBL_CREATED' => 'Created By',
+    'LBL_CREATED_USER' => 'Created by User',
     'LBL_MODIFIED_USER' => 'Modificado pelo Usuário',
-    'LBL_DESCRIPTION' => 'Descrição',
-    'LBL_DELETED' => 'Excluído',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_DELETED' => 'Deleted',
 
     // Security groups
-    'LBL_SECURITYGROUPS' => 'Grupos de segurança',
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Grupos de segurança',
+    'LBL_SECURITYGROUPS' => 'Grupos de Segurança',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Grupos de Segurança',
 
     // List view labels
-    'LBL_LIST_NAME' => 'Nome',
-    'LBL_LIST_DELETE' => 'Excluir',
-    'LBL_EDIT_BUTTON' => 'Editar',
+    'LBL_LIST_NAME' => 'Name',
+    'LBL_LIST_DELETE' => 'Delete',
+    'LBL_EDIT_BUTTON' => 'Edit',
     'LBL_REMOVE' => 'Remover',
-    'LBL_ASCENDING' => 'Crescente',
-    'LBL_DESCENDING' => 'Decrescente',
+    'LBL_ASCENDING' => 'Ascendente',
+    'LBL_DESCENDING' => 'Descendente',
 
     // Email opt-in labels
     'LBL_OPT_IN' => 'Optar por aderir',
@@ -91,9 +91,9 @@ $mod_strings = [
     'LNK_LIST' => 'View Calendar Accounts',
 
     // Standard fields
-    'LBL_NAME' => 'Nome',
+    'LBL_NAME' => 'Name',
     'LBL_ID' => 'ID',
-    'LBL_TYPE' => 'Tipo',
+    'LBL_TYPE' => 'Type',
     'LBL_SOURCE' => 'Calendar Source',
 
     // OAuth2 Fields
@@ -101,8 +101,8 @@ $mod_strings = [
     'LBL_CONNECT_OAUTH' => 'Connect OAuth',
 
     // Basic Auth Fields
-    'LBL_USERNAME' => 'Nome do usuário',
-    'LBL_PASSWORD' => 'Senha',
+    'LBL_USERNAME' => 'Username',
+    'LBL_PASSWORD' => 'Password',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test Connection',
 
@@ -162,9 +162,9 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Please select a calendar source first.',
 
     // Connection test messages
-    'LBL_CALENDAR' => 'Calendário',
-    'LBL_SUCCESSFUL' => 'Bem Sucedido',
-    'LBL_FAILED' => 'Falhou',
+    'LBL_CALENDAR' => 'Agenda',
+    'LBL_SUCCESSFUL' => 'Successful',
+    'LBL_FAILED' => 'Failed',
     'LBL_CONNECTION_TEST' => 'Connection Test',
     'LBL_YES' => 'Sim',
     'LBL_NO' => 'Não',
@@ -182,12 +182,12 @@ $mod_strings = [
 
     // Dialog labels
     'LBL_NOTIFICATION' => 'Notification',
-    'LBL_CONFIRM' => 'Confirmar',
+    'LBL_CONFIRM' => 'Confirm',
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => 'Em processamento',
-    'LBL_SYNC_STATUS_SUCCESS' => 'Sucesso',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => 'Em Andamento',
+    'LBL_SYNC_STATUS_SUCCESS' => 'Success',
     'LBL_SYNC_STATUS_WARNING' => 'Alerta',
     'LBL_SYNC_STATUS_ERROR' => 'Erro',
 
