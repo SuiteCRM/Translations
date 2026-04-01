@@ -52,7 +52,7 @@ $mod_strings = array(
     'LBL_DATE_MODIFIED' => '修改日期',
     'LBL_MODIFIED_USER_ID' => '修改人編號',
     'LBL_CREATED_BY' => '建立人',
-    'LBL_DELETED' => '刪除',
+    'LBL_DELETED' => '已刪除',
     'LBL_CAMPAIGN' => '市場活動',
     'LBL_OPTOUT' => '退出',
 
@@ -61,9 +61,9 @@ $mod_strings = array(
     'LBL_EDIT_TRACKER_NAME' => '追蹤名稱:',
     'LBL_EDIT_TRACKER_URL' => '追蹤網址:',
 
-    'LBL_SUBPANEL_TRACKER_NAME' => '名稱',
+    'LBL_SUBPANEL_TRACKER_NAME' => '名稱:',
     'LBL_SUBPANEL_TRACKER_URL' => '超鏈接',
-    'LBL_SUBPANEL_TRACKER_KEY' => '索引',
+    'LBL_SUBPANEL_TRACKER_KEY' => 'Key',
     'LBL_EDIT_MESSAGE_URL' => '市場活動消息網址:',
     'LBL_EDIT_TRACKER_KEY' => '追蹤索引:',
     'LBL_EDIT_OPT_OUT' => '退出鏈接?',
