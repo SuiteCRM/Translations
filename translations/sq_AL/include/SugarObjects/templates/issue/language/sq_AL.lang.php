@@ -44,25 +44,25 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
 
-    'LBL_NAME' => 'Emri',
+    'LBL_NAME' => 'Name',
     'LBL_NUMBER' => 'Numri',
-    'LBL_STATUS' => 'Statusi',
+    'LBL_STATUS' => 'Status:',
     'LBL_PRIORITY' => 'Priorieti:',
-    'LBL_DESCRIPTION' => 'Përshkrim',
+    'LBL_DESCRIPTION' => 'Description:',
     'LBL_RESOLUTION' => 'zgjidhja',
     'LBL_LAST_MODIFIED' => 'Ndryshimi i fundit',
     'LBL_ASSIGNED_TO_ID' => 'drejtuar',
-    'LBL_ASSIGNED_TO_NAME' => 'Përdorues',
+    'LBL_ASSIGNED_TO_NAME' => 'User:',
     'LBL_WORK_LOG' => 'Identifikimi i punës',
     'LBL_CREATED_BY' => 'Krijuar nga',
-    'LBL_DATE_ENTERED' => 'Të dhënat e krijuara',
-    'LBL_DATE_MODIFIED' => 'Të dhënat e modifikuara',
+    'LBL_DATE_ENTERED' => 'Date Created:',
+    'LBL_DATE_MODIFIED' => 'Date Modified:',
     'LBL_MODIFIED_BY' => 'Modifikim i fundit nga',
     'LBL_ASSIGNED_USER' => 'Përdorues i caktuar',
-    'LBL_TYPE' => 'Lloji',
+    'LBL_TYPE' => 'Type:',
     'LBL_SUBJECT' => 'Subjekti',
 
-    'LBL_EDIT_BUTTON' => 'Ndrysho',
-    'LBL_REMOVE' => 'Largo',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
 
 );
