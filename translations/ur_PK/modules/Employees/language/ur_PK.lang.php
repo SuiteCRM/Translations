@@ -43,10 +43,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'ملازمین',
+    'LBL_MODULE_NAME' => 'Employees',
     'LBL_MODULE_TITLE' => 'ملازمین: گھر',
     'LBL_SEARCH_FORM_TITLE' => 'ملازمت کی تلاش',
-    'LBL_LIST_FORM_TITLE' => 'ملازمین',
+    'LBL_LIST_FORM_TITLE' => 'Employees',
     'LBL_NEW_FORM_TITLE' => 'نیا ملازم',
     'LBL_LOGIN' => 'لاگ ان کریں',
     'LBL_RESET_PREFERENCES' => 'پہلے سے طے شدہ ترجیحات پر ری سیٹ کریں',
@@ -59,7 +59,7 @@ $mod_strings = array(
     'LBL_LIST_EMPLOYEE_NAME' => 'ملازم کا نام',
     'LBL_LIST_DEPARTMENT' => 'محکمہ',
     'LBL_LIST_REPORTS_TO_NAME' => 'شکایت کرنا یا کسی بات کے بارے میں بتانا',
-    'LBL_LIST_EMAIL' => 'ای میل',
+    'LBL_LIST_EMAIL' => 'Email',
     'LBL_LIST_USER_NAME' => 'صارف کا نام',
     'LBL_ERROR' => 'غلطی یا نقص:',
     'LBL_PASSWORD' => 'پاس ورڈ:',
@@ -83,7 +83,7 @@ $mod_strings = array(
     'LBL_ANY_EMAIL' => 'کوئی بھی ای میل:',
     'LBL_ADDRESS' => 'پتہ:',
     'LBL_CITY' => 'شہر:',
-    'LBL_STATE' => 'ریاست یا علاقہ:',
+    'LBL_STATE' => 'State/Region:',
     'LBL_POSTAL_CODE' => 'پوسٹل کوڈ:',
     'LBL_COUNTRY' => 'ملک:',
     'LBL_NAME' => 'نام:',
@@ -145,11 +145,11 @@ $mod_strings = array(
     'LBL_BUTTON_CLEAR' => 'صاف کرنا',
 
     'LBL_CONTACTS_SYNC' => 'ہم آہنگی سے رابطہ کریں',
-    'LBL_OAUTH_TOKENS' => 'OAuth کا ٹوکن',
+    'LBL_OAUTH_TOKENS' => 'OAuth Tokens',
     'LBL_PROJECT_USERS_1_FROM_PROJECT_TITLE' => 'پروجیکٹ کے صارفین پروجیکٹ ٹائٹل سے',
     'LBL_PROJECT_CONTACTS_1_FROM_CONTACTS_TITLE' => 'رابطہ عنوان سے پروجیکٹ رابطے',
-    'LBL_ROLES' => 'کردار',
-    'LBL_SECURITYGROUPS' => 'سیکورٹی گروپ',
+    'LBL_ROLES' => 'Roles',
+    'LBL_SECURITYGROUPS' => 'سیکورٹی گروپس',
     'LBL_PROSPECT_LIST' => 'متوقع فہرست',
 
     'LBL_FACTOR_AUTH_INTERFACE' => 'دو فیکٹر اتھینٹی کیشن انٹرفیس:',
