@@ -42,10 +42,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_MAP'] = 'Bản đồ';
-$mod_strings['LBL_MODULE_NAME'] = 'Các bản đồ';
+$mod_strings['LBL_MAP'] = 'Map';
+$mod_strings['LBL_MODULE_NAME'] = 'Maps';
 $mod_strings['LBL_MODULE_TITLE'] = 'Bảng đồ: Trang chủ';
-$mod_strings['LBL_MODULE_ID'] = 'Các bản đồ';
+$mod_strings['LBL_MODULE_ID'] = 'Maps';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'Các bản đồ';
 $mod_strings['LBL_MAP_CUSTOM_MARKER'] = 'Đánh dấu tùy chỉnh';
 $mod_strings['LBL_MAP_CUSTOM_AREA'] = 'Khu vực tùy chỉnh';
