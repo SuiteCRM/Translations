@@ -59,8 +59,8 @@ $mod_strings['LBL_UNIT_TYPE'] = 'Тип одиниці вимірювання:';
 $mod_strings['LBL_MAP_DISPLAY'] = 'Map Display';
 $mod_strings['LBL_MAP_LEGEND'] = 'Умовні позначення:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'Групи:';
-$mod_strings['LBL_MAP_GROUP'] = 'Група';
-$mod_strings['LBL_MAP_TYPE'] = 'Тип';
+$mod_strings['LBL_MAP_GROUP'] = 'Group';
+$mod_strings['LBL_MAP_TYPE'] = 'Type';
 $mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Відповідальна особа:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'Прокласти маршрут';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'Google Maps View';
@@ -71,14 +71,14 @@ $mod_strings['LNK_MAP_LIST'] = 'Список мап';
 
 $mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Перевірка геокодування';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'Quick Radius Map';
-$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'Немає';
-$mod_strings['LBL_MAP_ADDRESS'] = 'Адреса';
+$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'None';
+$mod_strings['LBL_MAP_ADDRESS'] = 'Address';
 $mod_strings['LBL_MAP_PROCESS'] = 'Process It!';
 
 $mod_strings['LBL_MAP_LAST_STATUS'] = 'Last Geocode Status';
 $mod_strings['LBL_GEOCODED_COUNTS'] = 'Module Geocoded Counts';
 $mod_strings['LBL_CRON_URL'] = 'Cron URL:';
-$mod_strings['LBL_MODULE_HEADING'] = 'Модуль';
+$mod_strings['LBL_MODULE_HEADING'] = 'Module';
 
 $mod_strings['LBL_N/A'] = 'N/A';
 $mod_strings['LBL_ZERO_RESULTS'] = 'Zero Results';
@@ -88,7 +88,7 @@ $mod_strings['LBL_APPROXIMATE'] = 'Approximate';
 $mod_strings['LBL_EMPTY'] = 'Пусто';
 
 $mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Всього';
-$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Скинути';
+$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Reset';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = 'The table shown belown shows the number of module objects geocoded, grouped by geocoding response. Keep in mind that the standard Google Maps usage limit is 2500 requests per day . This module will cache the addresses geocoding information during processing to reduce the overall number of requests needed.';
 
 $mod_strings['LBL_CRON_INSTRUCTIONS'] = 'To process the geocoding requests it is recommended to setup a nightly Cron-Job. A custom entry point has been created for this purpose and can be accessed without authentication. The URL shown below is meant to be used with an Administrative Scheduled Task. Please see the documentation for more information.';
@@ -96,20 +96,20 @@ $mod_strings['LBL_EXPORT_ADDRESS_URL'] = 'Export URLs';
 $mod_strings['LBL_EXPORT_INSTRUCTIONS'] = 'Use the links below to export full addresses in need of geocodeing information. Then use an online or offline batch geocoding tool to geocode the addresses. When you are finished geocoding, import the addresses into the Address Cache module to be used with your maps. Note, the Address Cache module is optional. All geocoding information is stored in the representative module.';
 $mod_strings['LBL_ADDRESS_CACHE'] = 'Адресний кеш';
 $mod_strings['LBL_ADD_TO_TARGET_LIST'] = 'Add to Target List';
-$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Обробка...';
+$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Йде обробка...';
 
 
 $mod_strings['LBL_CONFIG_TITLE'] = 'Configuration Settings';
 $mod_strings['LBL_CONFIG_SAVED'] = 'Settings Saved Successfully!';
 $mod_strings['LBL_BILLING_ADDRESS'] = 'Адреса для доставки рахунків';
 $mod_strings['LBL_SHIPPING_ADDRESS'] = 'Адреса доставки';
-$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Основна адреса';
+$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Primary Address';
 $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'Alternative Address';
-$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Гнучкі відносини';
+$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex Relate';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Address (Simple, Users)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'Custom (Custom Controller Logic)';
-$mod_strings['LBL_ENABLED'] = 'Доступний';
-$mod_strings['LBL_DISABLED'] = 'Заблокований';
+$mod_strings['LBL_ENABLED'] = 'Enabled';
+$mod_strings['LBL_DISABLED'] = 'Disabled';
 $mod_strings['LBL_DEFAULT'] = 'За замовчуванням:';
 $mod_strings['LBL_CONFIG_DEFAULT'] = 'За замовчуванням:';
 
@@ -184,7 +184,7 @@ $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_DESC'] = "'map_clusterer
 $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = "Important Note: All saved settings can be found in the 'config' table under category 'jjwg'. Note, a custom controller.php file should no longer be used to override settings.";
 $mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Areas';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'Позначки';
-$mod_strings['LBL_PARENT_ID'] = 'ID початкового запису';
+$mod_strings['LBL_PARENT_ID'] = 'Parent ID';
 $mod_strings['LBL_JJWP_PARTNERS'] = 'JJWP Партнери';
 $mod_strings['LBL_GET_GOOGLE_API_KEY'] = 'Get A Key';
 $mod_strings['LBL_GOOGLE_API_KEY'] = 'Google Api Key';
