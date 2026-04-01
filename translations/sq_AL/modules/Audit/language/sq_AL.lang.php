@@ -49,5 +49,5 @@ $mod_strings = array(
     'LBL_CREATED_BY' => 'Ndryshuar nga',
     'LBL_LIST_DATE' => 'Ndrysho datën',
     'LBL_AUDITED_FIELDS' => 'Fushat e kontrolluara në këtë modulë',
-    'LBL_CHANGE_LOG' => 'ndryshimi i dokumentacionit',
+    'LBL_CHANGE_LOG' => 'Change Log',
 );
