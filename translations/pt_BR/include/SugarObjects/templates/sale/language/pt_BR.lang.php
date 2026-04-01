@@ -48,7 +48,7 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Pesquisa de Venda',
     'LBL_LIST_FORM_TITLE' => 'Lista de Venda',
     'LBL_NAME' => 'Nome da Venda',
-    'LBL_LIST_SALE_NAME' => 'Nome',
+    'LBL_LIST_SALE_NAME' => 'Name',
     'LBL_LIST_ACCOUNT_NAME' => 'Nome da Conta',
     'LBL_LIST_AMOUNT' => 'Valor',
     'LBL_LIST_DATE_CLOSED' => 'Fechar',
@@ -75,7 +75,7 @@ $mod_strings = array(
     'MSG_DUPLICATE' => 'O registro que está prestes a criar pode ser uma duplicidade. Registros contendo nomes semelhantes estão listados abaixo.<br>Clique em Salvar para continuar a criar esse novo registro, ou em Cancelar para retornar ao módulo sem criar o registro.',
     'LBL_NEW_FORM_TITLE' => 'Criar Venda',
     'ERR_DELETE_RECORD' => 'Para excluir a conta, um número de registro deve ser informado.',
-    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Venda',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Sale',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Atividades',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Histórico',
 
@@ -87,7 +87,7 @@ $mod_strings = array(
     'LBL_SALE_INFORMATION' => 'Informação de Venda',
     'LBL_CURRENCY_NAME' => 'Nome da Moeda',
     'LBL_CURRENCY_SYMBOL' => 'Símbolo de Moeda',
-    'LBL_EDIT_BUTTON' => 'Editar',
+    'LBL_EDIT_BUTTON' => 'Edit',
     'LBL_REMOVE' => 'Remover',
 
 );
