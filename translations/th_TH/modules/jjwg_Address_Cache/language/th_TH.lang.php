@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings['LBL_ASSIGNED_TO_ID'] = 'Id ผู้รับผิดชอบ';
-$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'ผู้รับผิดชอบ';
+$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Assigned to';
 $mod_strings['LBL_ID'] = 'ไอดี';
 $mod_strings['LBL_DATE_ENTERED'] = 'วันที่สร้าง';
 $mod_strings['LBL_DATE_MODIFIED'] = 'วันที่แก้ไข';
@@ -52,10 +52,10 @@ $mod_strings['LBL_MODIFIED_NAME'] = 'แก้ไขโดยชื่อ';
 $mod_strings['LBL_CREATED'] = 'สร้างโดย';
 $mod_strings['LBL_DESCRIPTION'] = 'รายละเอียด';
 $mod_strings['LBL_DELETED'] = 'ลบ';
-$mod_strings['LBL_NAME'] = 'ที่อยู่';
+$mod_strings['LBL_NAME'] = 'Address';
 $mod_strings['LBL_CREATED_USER'] = 'สร้างโดยผู้ใช้งาน';
 $mod_strings['LBL_MODIFIED_USER'] = 'แก้ไข โดยผู้ใช้';
-$mod_strings['LBL_LIST_NAME'] = 'ที่อยู่';
+$mod_strings['LBL_LIST_NAME'] = 'Address';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'รายการที่อยู่แดช';
 $mod_strings['LBL_MODULE_NAME'] = 'ที่อยู่แคช';
 $mod_strings['LBL_MODULE_TITLE'] = 'ที่อยู่แคช';
@@ -69,4 +69,4 @@ $mod_strings['LBL_NEW_FORM_TITLE'] = 'ที่อยู่แคชใหม่
 $mod_strings['LBL_LAT'] = 'ละติจูด';
 $mod_strings['LBL_LNG'] = 'ลองจิจูด';
 $mod_strings['LBL_CURRENT_USER_FILTER'] = 'รายการของฉัน';
-$mod_strings['LBL_ASSIGNED_TO'] = 'ผู้รับผิดชอบ';
+$mod_strings['LBL_ASSIGNED_TO'] = 'Assigned User';
