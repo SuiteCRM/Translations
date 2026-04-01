@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'گروه‌ها',
-    'LBL_GROUP_NAME' => 'نام گروه:',
-    'LBL_DESCRIPTION' => 'توضیحات:',
-    'LBL_TEAM' => 'تیم:',
+    'LBL_MODULE_NAME' => 'Groups',
+    'LBL_GROUP_NAME' => 'Group Name:',
+    'LBL_DESCRIPTION' => 'توضیحات: ',
+    'LBL_TEAM' => 'Team:',
     // ListView
-    'LBL_LIST_TITLE' => 'گروه‌ها',
+    'LBL_LIST_TITLE' => 'Groups',
     // Links
     'LNK_ALL_GROUPS' => 'همه گروه‌ها',
     'LNK_NEW_GROUP' => 'ایجاد گروه',
