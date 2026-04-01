@@ -32,14 +32,14 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = [
     // System fields
     'LBL_ASSIGNED_TO_ID' => 'ID przydzielonego użytkownika',
-    'LBL_ASSIGNED_TO_NAME' => 'Przypisano do',
+    'LBL_ASSIGNED_TO_NAME' => 'Przypisany Do',
     'LBL_DATE_ENTERED' => 'Data utworzenia',
-    'LBL_DATE_MODIFIED' => 'Data Modyfikacji:',
+    'LBL_DATE_MODIFIED' => 'Data Modyfikacji',
     'LBL_MODIFIED' => 'Zmodyfikowane przez',
     'LBL_MODIFIED_NAME' => 'Nazwa użytkownika modyfikującego',
     'LBL_CREATED' => 'Utworzone przez',
     'LBL_CREATED_USER' => 'Utworzony przez Użytkownika',
-    'LBL_MODIFIED_USER' => 'Zmodyfikowany przez Użytkownika',
+    'LBL_MODIFIED_USER' => 'Zmodyfikowany przez użytkownika',
     'LBL_DESCRIPTION' => 'Opis',
     'LBL_DELETED' => 'Usunięte',
 
@@ -48,7 +48,7 @@ $mod_strings = [
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Grupy bezpieczeństwa',
 
     // List view labels
-    'LBL_LIST_NAME' => 'Nazwa',
+    'LBL_LIST_NAME' => 'Nazwa dokument',
     'LBL_LIST_DELETE' => 'Usuń',
     'LBL_EDIT_BUTTON' => 'Edytuj',
     'LBL_REMOVE' => 'Usuń',
@@ -57,9 +57,9 @@ $mod_strings = [
 
     // Email opt-in labels
     'LBL_OPT_IN' => 'Zgoda na przetwarzanie danych osobowych',
-    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Oczekuje na potwierdzenie zgody na przetwarzanie danych osobowych, potwierdzenie nie wysłane',
-    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Oczekuje na potwierdzenie zgody na przetwarzanie danych osobowych, wysłano potwierdzenie',
-    'LBL_OPT_IN_CONFIRMED' => 'Zgoda na przetwarzanie danych osobowych wyrażona',
+    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Oczekuje na potwierdzenie zgody, potwierdzenie nie wysłane',
+    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Oczekuje na potwierdzenie zgody, potwierdzenie nie wysłane',
+    'LBL_OPT_IN_CONFIRMED' => 'Zgoda wyrażona',
 
     // Subpanel titles
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Przeglądaj historię',
@@ -102,7 +102,7 @@ $mod_strings = [
 
     // Basic Auth Fields
     'LBL_USERNAME' => 'Nazwa użytkownika',
-    'LBL_PASSWORD' => 'Hasło SMTP:',
+    'LBL_PASSWORD' => 'Hasło',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test Connection',
 
@@ -162,8 +162,8 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Please select a calendar source first.',
 
     // Connection test messages
-    'LBL_CALENDAR' => 'Kalendarz',
-    'LBL_SUCCESSFUL' => 'Powodzenie',
+    'LBL_CALENDAR' => 'Calendar',
+    'LBL_SUCCESSFUL' => 'Successful',
     'LBL_FAILED' => 'Nieudany',
     'LBL_CONNECTION_TEST' => 'Connection Test',
     'LBL_YES' => 'Tak',
@@ -182,11 +182,11 @@ $mod_strings = [
 
     // Dialog labels
     'LBL_NOTIFICATION' => 'Notification',
-    'LBL_CONFIRM' => 'Potwierdź',
+    'LBL_CONFIRM' => 'Confirm',
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => 'W trakcie',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => 'W realizacji',
     'LBL_SYNC_STATUS_SUCCESS' => 'Zakończone powodzeniem',
     'LBL_SYNC_STATUS_WARNING' => 'Ostrzeżenie',
     'LBL_SYNC_STATUS_ERROR' => 'Błąd',
