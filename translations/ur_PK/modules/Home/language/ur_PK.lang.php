@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'شروع',
+    'LBL_MODULE_NAME' => 'Home',
     'LBL_NEW_FORM_TITLE' => 'نیا رابطہ',
     'LBL_FIRST_NAME' => 'پہلا نام:',
     'LBL_LAST_NAME' => 'آخری نام:',
@@ -137,7 +137,7 @@ $mod_strings = array(
 
     'LBL_SOURCE_SUGAR' => 'شوگر سی آر ایم مہیا کرتی ہے فریم ورک ce کو',
 
-    'LBL_DASHLET_TITLE' => 'میری جگہیں',
+    'LBL_DASHLET_TITLE' => 'My Sites',
     'LBL_DASHLET_OPT_TITLE' => 'عنوان',
     'LBL_DASHLET_INCORRECT_URL' => 'ویب سائٹ کا محل وقوع غلط ہے',
     'LBL_DASHLET_OPT_URL' => 'ویب سائٹ کا محل وقوع',
@@ -154,7 +154,7 @@ $mod_strings = array(
     'LBL_TOUR_MORE_DESCRIPTION' => 'آپ کے ماڈل کا آرام یہاں موجود ہے.',
     'LBL_TOUR_SEARCH' => 'مکمل لوفظ تلاش کرنا',
     'LBL_TOUR_SEARCH_DESCRIPTION' => 'صرف تلاش کریں بہتر چیزیں.',
-    'LBL_TOUR_NOTIFICATIONS' => 'آگاہییاں',
+    'LBL_TOUR_NOTIFICATIONS' => 'Notifications',
     'LBL_TOUR_NOTIFICATIONS_DESCRIPTION' => 'SuiteCRM کی درخواست نوٹیفیکیشن یہاں دیا جائے گا.',
     'LBL_TOUR_PROFILE' => 'تصویر کا خاکہ',
     'LBL_TOUR_PROFILE_DESCRIPTION' => 'پروفایل کی ترتیب اور لوگ اوٹ سے رسائی حاصل کریں.',
@@ -209,7 +209,7 @@ $mod_strings = array(
     'LBL_CLOSE_BUTTON' => 'بند کریں',
 
     'LBL_CREATE_NEW_RECORD' => 'سرگرمی بنائیں',
-    'LBL_CREATE_CALL' => 'لاگ ان کال',
+    'LBL_CREATE_CALL' => 'لاگ کال',
     'LBL_CREATE_MEETING' => 'تَرتيب کار اجلاس',
 
     'LBL_GENERAL_TAB' => 'تفصیلات',
