@@ -44,15 +44,15 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ID' => 'شناخت',
-    'LBL_DATE_ENTERED' => 'تاریخ کی تشکیل',
+    'LBL_DATE_ENTERED' => 'تاریخ بنائی گئی ہے',
     'LBL_DATE_MODIFIED' => 'تاریخ میں ترمیم',
     'LBL_MODIFIED' => 'کسی کی طرف سے ترمیم',
-    'LBL_MODIFIED_NAME' => 'نام کی طرف سے ترمیم',
+    'LBL_MODIFIED_NAME' => 'نام سے ترمیم',
     'LBL_CREATED' => 'کی طرف سے پیدا کردہ',
     'LBL_DESCRIPTION' => 'تفصیل',
     'LBL_DELETED' => 'حذف کر دیا گیا',
     'LBL_NAME' => 'نام',
-    'LBL_CREATED_USER' => 'صارف کی طرف سے پیدا کردہ',
+    'LBL_CREATED_USER' => 'صارف کی طرف سے پیدا شدہ',
     'LBL_MODIFIED_USER' => 'صارف کی طرف سے ترمیم',
     'LBL_LIST_NAME' => 'نام',
     'LBL_EDIT_BUTTON' => 'ردوبدل',
@@ -67,7 +67,7 @@ $mod_strings = array(
     'LNK_LIST' => 'چارٹس دیکھیں',
     'LBL_SEARCH_FORM_TITLE' => 'چارٹس تلاش کریں',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'تاریخ دیکھیں',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'سرگرمیاں',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_AOR_CHARTS_SUBPANEL_TITLE' => 'چارٹس',
     'LBL_NEW_FORM_TITLE' => 'نئے چارٹس',
 );
