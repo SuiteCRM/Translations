@@ -42,10 +42,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_MAP'] = 'Karta';
-$mod_strings['LBL_MODULE_NAME'] = 'Kartor';
+$mod_strings['LBL_MAP'] = 'Map';
+$mod_strings['LBL_MODULE_NAME'] = 'Maps';
 $mod_strings['LBL_MODULE_TITLE'] = 'Kartor: hem';
-$mod_strings['LBL_MODULE_ID'] = 'Kartor';
+$mod_strings['LBL_MODULE_ID'] = 'Maps';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'Maps Listing';
 $mod_strings['LBL_MAP_CUSTOM_MARKER'] = 'Anpassad markör';
 $mod_strings['LBL_MAP_CUSTOM_AREA'] = 'Anpassade område';
@@ -59,26 +59,26 @@ $mod_strings['LBL_UNIT_TYPE'] = 'Enhetstyp:';
 $mod_strings['LBL_MAP_DISPLAY'] = 'Kartvisning';
 $mod_strings['LBL_MAP_LEGEND'] = 'Förklaring:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'Grupper:';
-$mod_strings['LBL_MAP_GROUP'] = 'Grupp';
-$mod_strings['LBL_MAP_TYPE'] = 'Typ';
-$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Tilldelad till:';
+$mod_strings['LBL_MAP_GROUP'] = 'Group';
+$mod_strings['LBL_MAP_TYPE'] = 'Type';
+$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Assigned to:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'Vägbeskrivning';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'Google Maps-vy';
 
 $mod_strings['LNK_NEW_MAP'] = 'Lägg till ny karta';
-$mod_strings['LNK_NEW_RECORD'] = 'Lägg till ny karta';
+$mod_strings['LNK_NEW_RECORD'] = 'Add New Map';
 $mod_strings['LNK_MAP_LIST'] = 'Lista kartor';
 
 $mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Geokodningstest';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'Quick Radius Map';
-$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'Ingen';
-$mod_strings['LBL_MAP_ADDRESS'] = 'Adress:';
+$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'None';
+$mod_strings['LBL_MAP_ADDRESS'] = 'Adress';
 $mod_strings['LBL_MAP_PROCESS'] = 'Bearbeta det!';
 
 $mod_strings['LBL_MAP_LAST_STATUS'] = 'Status för senaste geokodning';
 $mod_strings['LBL_GEOCODED_COUNTS'] = 'Module Geocoded Counts';
 $mod_strings['LBL_CRON_URL'] = 'Cron-URL:';
-$mod_strings['LBL_MODULE_HEADING'] = 'Modul';
+$mod_strings['LBL_MODULE_HEADING'] = 'Module';
 
 $mod_strings['LBL_N/A'] = 'N/A';
 $mod_strings['LBL_ZERO_RESULTS'] = 'Inga resultat';
@@ -101,15 +101,15 @@ $mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Bearbetar...';
 
 $mod_strings['LBL_CONFIG_TITLE'] = 'Konfigurationsinställningar';
 $mod_strings['LBL_CONFIG_SAVED'] = 'Inställningarna har sparats!';
-$mod_strings['LBL_BILLING_ADDRESS'] = 'Faktureringsadress';
-$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Leveransadress';
-$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Primär adress';
+$mod_strings['LBL_BILLING_ADDRESS'] = 'Billing Address';
+$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Shipping Address';
+$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Primär Adress';
 $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'Alternativ adress';
 $mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex Relate';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Address (Simple, Users)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'Custom (Custom Controller Logic)';
-$mod_strings['LBL_ENABLED'] = 'Medgiven';
-$mod_strings['LBL_DISABLED'] = 'Ej medgiven';
+$mod_strings['LBL_ENABLED'] = 'Enabled';
+$mod_strings['LBL_DISABLED'] = 'Disabled';
 $mod_strings['LBL_DEFAULT'] = 'Standard:';
 $mod_strings['LBL_CONFIG_DEFAULT'] = 'Standard:';
 
