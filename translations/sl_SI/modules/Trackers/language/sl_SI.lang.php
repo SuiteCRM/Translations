@@ -44,13 +44,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     //Column header mapping
-    'action' => 'Aktivnost',
-    'date_modified' => 'Datum zadnje aktivnosti',
+    'action' => 'Action',
+    'date_modified' => 'Date of Last Action',
     'item_id' => 'ID',
-    'item_summary' => 'Ime',
-    'module_name' => 'Ime modula',
-    'users' => 'Uporabniki',
+    'item_summary' => 'Name',
+    'module_name' => 'Module Name',
+    'users' => 'Users',
 
     //Administration related labels
-    'LBL_MODULE_NAME' => 'Sledilci klikov',
+    'LBL_MODULE_NAME' => 'Trackers',
 );
