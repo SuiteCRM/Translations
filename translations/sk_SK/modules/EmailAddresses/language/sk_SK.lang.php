@@ -44,9 +44,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_EMAIL_ADDRESS_ID' => 'ID',
-    'LBL_EMAIL_ADDRESS' => 'Adresa Emailu',
+    'LBL_EMAIL_ADDRESS' => 'E-mailová Adresa',
     'LBL_EMAIL_ADDRESS_CAPS' => 'E-mailová adresa (veľké písmena)',
-    'LBL_INVALID_EMAIL' => 'Chybný Email',
+    'LBL_INVALID_EMAIL' => 'Neplatný E-mail',
     'LBL_OPT_OUT' => 'Odhlásené',
     'LBL_CONFIRM_OPT_IN' => 'Potvrdiť Odhlásenie',
     'LBL_DATE_CREATE' => 'Dátum vytvorenia',
