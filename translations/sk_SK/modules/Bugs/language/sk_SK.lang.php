@@ -51,7 +51,7 @@ $mod_strings = array(
     'LBL_NEW_FORM_TITLE' => 'Vytvoriť záznam Chyba',
     'LBL_SUBJECT' => 'Predmet:',
     'LBL_NUMBER' => 'Číslo:',
-    'LBL_STATUS' => 'Stav:',
+    'LBL_STATUS' => 'Stav',
     'LBL_PRIORITY' => 'Priorita:',
     'LBL_DESCRIPTION' => 'Popis:',
     'LBL_CONTACT_NAME' => 'Meno Kontaktu:',
@@ -61,7 +61,7 @@ $mod_strings = array(
     'LBL_LIST_STATUS' => 'Stav',
     'LBL_LIST_PRIORITY' => 'Priorita',
     'LBL_LIST_RESOLUTION' => 'Rozhodnutie',
-    'LBL_LIST_LAST_MODIFIED' => 'Naposledy zmenené',
+    'LBL_LIST_LAST_MODIFIED' => 'Posledná zmena',
     'LBL_INVITEE' => 'Kontakty',
     'LBL_TYPE' => 'Typ:',
     'LBL_LIST_TYPE' => 'Typ',
@@ -82,8 +82,8 @@ $mod_strings = array(
     'LBL_CREATED_BY' => 'Vytvoril:',
     'LBL_MODIFIED_BY' => 'Naposledy upravované:',
 
-    'LBL_LIST_EMAIL_ADDRESS' => 'Adresa Emailu',
-    'LBL_LIST_CONTACT_NAME' => 'Názov kontaktu',
+    'LBL_LIST_EMAIL_ADDRESS' => 'E-mailová Adresa',
+    'LBL_LIST_CONTACT_NAME' => 'Meno Kontaktu',
     'LBL_LIST_ACCOUNT_NAME' => 'Názov Firma',
     'LBL_LIST_PHONE' => 'Telefón',
     'NTC_DELETE_CONFIRMATION' => 'Ste si istý, že chcete vymazať tento kontakt z modulu Chyba?',
@@ -96,9 +96,9 @@ $mod_strings = array(
     'LBL_CASES_SUBPANEL_TITLE' => 'Prípady',
     'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projekty',
     'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Dokumenty',
-    'LBL_LIST_ASSIGNED_TO_NAME' => 'Priradený úžívateľ',
+    'LBL_LIST_ASSIGNED_TO_NAME' => 'Priradený používateľ',
     'LBL_ASSIGNED_TO_NAME' => 'Priradené ku',
 
-    'LBL_BUG_INFORMATION' => 'Prehľad', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_BUG_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
 );
