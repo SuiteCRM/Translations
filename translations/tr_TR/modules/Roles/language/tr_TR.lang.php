@@ -44,14 +44,14 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ROLE' => 'Rol:',
-    'LBL_LANGUAGE' => 'Dil:',
+    'LBL_LANGUAGE' => 'Dil',
     'LBL_MODULE_NAME' => 'Roller',
     'LBL_MODULE_TITLE' => 'Roller: Giriş',
     'LBL_SEARCH_FORM_TITLE' => 'Rol arama',
     'LBL_LIST_FORM_TITLE' => 'Rol listesi',
     'LNK_NEW_ROLE' => 'Rol ekle',
     'LNK_ROLES' => 'Roller',
-    'LBL_NAME' => 'Ad:',
+    'LBL_NAME' => 'İsim:',
     'LBL_DESCRIPTION' => 'Açıklama:',
     'LBL_ALLOWED_MODULES' => 'İzin verilen modüller:',
     'LBL_DISALLOWED_MODULES' => 'İzin verilmeyen modüller:',
