@@ -48,12 +48,12 @@ $mod_strings = array(
     'LBL_TRACKER_URL' => 'Traceerbare URL',
     'LBL_TRACKER_NAME' => 'Naam traceerbare URL',
     'LBL_CAMPAIGN_ID' => 'Campagne id',
-    'LBL_DATE_ENTERED' => 'Datum ingevoerd',
+    'LBL_DATE_ENTERED' => 'Date Entered',
     'LBL_DATE_MODIFIED' => 'Datum gewijzigd',
     'LBL_MODIFIED_USER_ID' => 'Gewijzigde gebruikers-ID',
     'LBL_CREATED_BY' => 'Aangemaakt door',
     'LBL_DELETED' => 'Verwijderd',
-    'LBL_CAMPAIGN' => 'Campagnes',
+    'LBL_CAMPAIGN' => 'Campaign',
     'LBL_OPTOUT' => 'Uitschrijven',
 
     'LBL_MODULE_NAME' => 'Traceerbare URL\'s',
@@ -63,10 +63,10 @@ $mod_strings = array(
 
     'LBL_SUBPANEL_TRACKER_NAME' => 'Naam',
     'LBL_SUBPANEL_TRACKER_URL' => 'URL',
-    'LBL_SUBPANEL_TRACKER_KEY' => 'Id',
+    'LBL_SUBPANEL_TRACKER_KEY' => 'Key',
     'LBL_EDIT_MESSAGE_URL' => 'URL in campagne email:',
     'LBL_EDIT_TRACKER_KEY' => 'Id traceerbare URL:',
     'LBL_EDIT_OPT_OUT' => 'Uitschrijf link?',
-    'LNK_CAMPAIGN_LIST' => 'Campagnes',
+    'LNK_CAMPAIGN_LIST' => 'Campaigns',
     'LBL_EDIT_LAYOUT' => 'Bewerk lay-out' /*for 508 compliance fix*/,
 );
