@@ -396,7 +396,7 @@ $app_list_strings = array(
     'project_task_priority_options' => array(
         'High' => 'উচ্চ',
         'Medium' => 'মধ্যম',
-        'Low' => 'কম',
+        'Low' => 'Low',
     ),
     'project_task_priority_default' => 'মধ্যম',
 
@@ -759,7 +759,7 @@ $app_list_strings = array(
         'campaign' => 'অভিযান',
     ),
     'dom_email_status' => array(
-        'archived' => 'আর্কাইভ করা',
+        'archived' => 'সংরক্ষণাগার',
         'closed' => 'বন্ধ',
         'draft' => 'খসড়া মধ্যে',
         'read' => 'পড়া',
@@ -769,20 +769,20 @@ $app_list_strings = array(
         'unread' => 'অপঠিত',
     ),
     'dom_email_archived_status' => array(
-        'archived' => 'আর্কাইভ করা',
+        'archived' => 'সংরক্ষণাগার',
     ),
 
     'dom_email_server_type' => array(
-        '' => '--None--',
+        '' => 'কেউ না',
         'imap' => 'IMAP এর',
     ),
     'dom_mailbox_type' => array(/*''           => '--None Specified--',*/
-        'pick' => '--None--',
+        'pick' => 'কেউ না',
         'createcase' => 'কেস তৈরি করুন',
         'bounce' => 'বাউন্ড হ্যান্ডলিং',
     ),
     'dom_email_distribution' => array(
-        '' => '--None--',
+        '' => 'কেউ না',
         'direct' => 'সরাসরি হস্তান্তর',
         'roundRobin' => 'রাউন্ড-রবিন',
         'leastBusy' => 'কম ব্যস্ত',
@@ -792,15 +792,15 @@ $app_list_strings = array(
         2 => 'ডাইরেক্ট অন্বেষণ আইটেম যখন আপনি শুধুমাত্র চেক্ড আইটেম প্রদান করা আবশ্যক.',
     ),
     'dom_email_bool' => array(
-        'bool_true' => 'Yes',
+        'bool_true' => 'হাঁ',
         'bool_false' => 'না',
     ),
     'dom_int_bool' => array(
-        1 => 'Yes',
+        1 => 'হাঁ',
         0 => 'না',
     ),
     'dom_switch_bool' => array(
-        'on' => 'Yes',
+        'on' => 'হাঁ',
         'off' => 'না',
         '' => 'না',
     ),
@@ -849,7 +849,7 @@ $app_list_strings = array(
 
     'email_category_dom' => array(
         '' => '',
-        'Archived' => 'আর্কাইভ করা',
+        'Archived' => 'সংরক্ষণাগার',
         // TODO: add more categories here...
     ),
 
@@ -974,7 +974,7 @@ $app_list_strings = array(
     ),
 
     'custom_fields_importable_dom' => array(
-        'true' => 'Yes',
+        'true' => 'হাঁ',
         'false' => 'না',
         'required' => 'প্রয়োজনীয়',
     ),
@@ -1449,7 +1449,7 @@ $app_strings = array(
     'LBL_EMAIL_VIEW_RAW' => 'কাঁচা ইমেইল প্রদর্শন করুন',
     'LBL_EMAIL_VIEW_UNSUPPORTED' => 'POP3 এর সাথে ব্যবহার করা হলে এই বৈশিষ্ট্যটি অসমর্থিত.',
     'LBL_DEFAULT_LINK_TEXT' => 'ডিফল্ট লিঙ্ক পাঠ্য.',
-    'LBL_EMAIL_YES' => 'Yes',
+    'LBL_EMAIL_YES' => 'হাঁ',
     'LBL_EMAIL_TEST_OUTBOUND_SETTINGS' => 'ডিফল্ট লিঙ্ক পাঠ্য',
     'LBL_EMAIL_TEST_OUTBOUND_SETTINGS_SENT' => 'টেস্ট ইমেল প্রেরিত',
     'LBL_EMAIL_MESSAGE_NO' => 'বার্তা নং.',
@@ -1537,7 +1537,7 @@ $app_strings = array(
     'LBL_COMPOSE_EMAIL_BUTTON_KEY' => 'L',
     'LBL_COMPOSE_EMAIL_BUTTON_LABEL' => 'Compose Email',
     'LBL_COMPOSE_EMAIL_BUTTON_TITLE' => 'Compose Email',
-    'LBL_SEARCH_DROPDOWN_YES' => 'Yes',
+    'LBL_SEARCH_DROPDOWN_YES' => 'হাঁ',
     'LBL_SEARCH_DROPDOWN_NO' => 'না',
     'LBL_CONTACT_LIST' => 'Contact List',
     'LBL_CONTACT' => 'যোগাযোগ',
@@ -1640,7 +1640,7 @@ $app_strings = array(
     'LBL_NEW_BUTTON_LABEL' => 'Create',
     'LBL_NEW_BUTTON_TITLE' => 'Create',
     'LBL_NEXT_BUTTON_LABEL' => 'Next',
-    'LBL_NONE' => '--None--',
+    'LBL_NONE' => 'কেউ না',
     'LBL_NOTES' => 'নোট',
     'LBL_OPPORTUNITIES' => 'সুযোগ',
     'LBL_OPPORTUNITY_NAME' => 'Opportunity Name',
@@ -2423,7 +2423,7 @@ $app_list_strings['countries_dom'] = array(
     'NORFOLK ISLAND' => 'NORFOLK ISLAND',
     'NORWAY' => 'NORWAY',
     'OMAN' => 'OMAN',
-    'OTHER' => 'অন্যান্য',
+    'OTHER' => 'OTHER',
     'PACIFIC ISLAND' => 'PACIFIC ISLAND',
     'PAKISTAN' => 'PAKISTAN',
     'PANAMA' => 'PANAMA',
