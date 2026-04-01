@@ -45,11 +45,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ID' => 'شناخت',
-    'LBL_DATE_ENTERED' => 'تاریخ کی تشکیل',
+    'LBL_DATE_ENTERED' => 'تاریخ بنائی گئی ہے',
     'LBL_DATE_MODIFIED' => 'تاریخ میں ترمیم',
     'LBL_MODIFIED' => 'کسی کی طرف سے ترمیم',
-    'LBL_MODIFIED_NAME' => 'نام کی طرف سے ترمیم',
-    'LBL_CREATED_USER' => 'صارف کی طرف سے پیدا کردہ',
+    'LBL_MODIFIED_NAME' => 'نام سے ترمیم',
+    'LBL_CREATED_USER' => 'صارف کی طرف سے پیدا شدہ',
     'LBL_MODIFIED_USER' => 'صارف کی طرف سے ترمیم',
     'LBL_CREATED' => 'کی طرف سے پیدا کردہ',
     'LBL_DESCRIPTION' => 'تفصیل',
