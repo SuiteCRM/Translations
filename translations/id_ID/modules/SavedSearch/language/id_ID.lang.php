@@ -49,15 +49,15 @@ $mod_strings = array(
     'LBL_DELETE_CONFIRM' => 'Apakah anda yakin anda ingin menghapus dipilih Disimpan Filter?',
     'LBL_DELETE_BUTTON_TITLE' => 'Hapus filter yang tersimpan ini',
     'LBL_SAVE_BUTTON_TITLE' => 'Simpan filter saat ini',
-    'LBL_LIST_NAME' => 'Nama',
-    'LBL_LIST_MODULE' => 'Modul',
+    'LBL_LIST_NAME' => 'Nama ',
+    'LBL_LIST_MODULE' => 'Module',
     'LBL_ORDER_BY_COLUMNS' => 'Order by column:',
-    'LBL_DIRECTION' => 'Arah',
+    'LBL_DIRECTION' => 'Direction:',
     'LBL_SAVE_SEARCH_AS' => 'Simpan filter sebagai:',
-    'LBL_ASCENDING' => 'Naik',
-    'LBL_DESCENDING' => 'Turun',
-    'LBL_MODIFY_CURRENT_FILTER' => 'Modifikasi filter saat ini',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
-    'LBL_CREATED_BY' => 'Dibuat Oleh',
+    'LBL_CREATED_BY' => 'Created By',
 
 );
