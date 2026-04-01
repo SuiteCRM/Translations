@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_NAME' => 'Jobbnamn',
-    'LBL_EXECUTE_TIME' => 'Exekveringstid',
-    'LBL_SCHEDULER_ID' => 'Schemaläggare',
+    'LBL_NAME' => 'Job Name',
+    'LBL_EXECUTE_TIME' => 'Execute Time',
+    'LBL_SCHEDULER_ID' => 'Scheduler',
     'LBL_STATUS' => 'Status',
     'LBL_RESOLUTION' => 'Resultat',
     'LBL_MESSAGE' => 'Meddelanden',
