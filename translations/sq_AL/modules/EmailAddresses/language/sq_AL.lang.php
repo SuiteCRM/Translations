@@ -44,12 +44,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_EMAIL_ADDRESS_ID' => 'ID',
-    'LBL_EMAIL_ADDRESS' => 'Email adresa',
+    'LBL_EMAIL_ADDRESS' => 'Email Address',
     'LBL_EMAIL_ADDRESS_CAPS' => 'Shkronjat kapitale të email adresës',
-    'LBL_INVALID_EMAIL' => 'Email Jo Valid',
-    'LBL_OPT_OUT' => 'e zgjedhur jashtë',
+    'LBL_INVALID_EMAIL' => 'Invalid Email',
+    'LBL_OPT_OUT' => 'Opted Out',
     'LBL_CONFIRM_OPT_IN' => 'Confirm Opt In',
     'LBL_DATE_CREATE' => 'krijim i të dhënës',
-    'LBL_DATE_MODIFIED' => 'Të dhënat e modifikuara',
-    'LBL_DELETED' => 'Fshi',
+    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_DELETED' => 'Delete',
 );
