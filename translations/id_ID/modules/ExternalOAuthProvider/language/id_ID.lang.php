@@ -44,22 +44,22 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
 
-    'LBL_ASSIGNED_TO_ID' => 'ID Pengguna yang ditugaskan',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
     'LBL_ASSIGNED_TO_NAME' => 'Ditugaskan kepada',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Tanggal Dibuat',
     'LBL_DATE_MODIFIED' => 'Tanggal diubah',
-    'LBL_MODIFIED' => 'Diubah Oleh',
+    'LBL_MODIFIED' => 'Modified By',
     'LBL_MODIFIED_NAME' => 'Modifikasi berdasarkan Nama',
-    'LBL_CREATED' => 'Dibuat Oleh',
-    'LBL_DESCRIPTION' => 'Deskripsi',
-    'LBL_DELETED' => 'Hapus',
-    'LBL_NAME' => 'Nama',
-    'LBL_CREATED_USER' => 'Dibuat oleh Pemakai',
-    'LBL_MODIFIED_USER' => 'Modifikasi oleh Pemakai',
-    'LBL_LIST_NAME' => 'Nama',
-    'LBL_EDIT_BUTTON' => 'Ubah',
-    'LBL_REMOVE' => 'Menghapus',
+    'LBL_CREATED' => 'Created By',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_DELETED' => 'Deleted',
+    'LBL_NAME' => 'Nama ',
+    'LBL_CREATED_USER' => 'Dibuat oleh Pengguna',
+    'LBL_MODIFIED_USER' => 'Modified by User',
+    'LBL_LIST_NAME' => 'Nama ',
+    'LBL_EDIT_BUTTON' => 'Sunting',
+    'LBL_REMOVE' => 'Remove',
     'LBL_LIST_FORM_TITLE' => 'External OAuth Provider List',
     'LBL_MODULE_NAME' => 'External OAuth Providers',
     'LBL_MODULE_TITLE' => 'External OAuth Providers',
@@ -68,12 +68,12 @@ $mod_strings = [
 
     'LNK_LIST' => 'External OAuth Providers',
     'LBL_SEARCH_FORM_TITLE' => 'Search External OAuth Providers',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Lihat Histori',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktivitas',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_NEW_FORM_TITLE' => 'New External OAuth Provider',
 
-    'LBL_LIST_DELETE' => 'Hapus',
-    'LBL_TYPE' => 'Tipe',
+    'LBL_LIST_DELETE' => 'Delete',
+    'LBL_TYPE' => 'Type',
     'LBL_CONNECTOR' => 'Connector',
     'LBL_REDIRECT_URI' => 'Redirect URI',
     'LBL_REDIRECT_URI_TYPE' => 'Redirect URI Type',
@@ -97,7 +97,7 @@ $mod_strings = [
 
     'LBL_EXTRA' => 'Extra configurations',
     'LBL_MAPPING' => 'Mapping configurations',
-    'LBL_OTHER' => 'Lain',
+    'LBL_OTHER' => 'Other',
 
 
     'LNK_LIST_CREATE_NEW_PERSONAL' => 'New Personal OAuth Provider',
@@ -106,5 +106,5 @@ $mod_strings = [
     'LNK_LIST_OUTBOUND_EMAILS' => 'Outbound Akun Email',
     'LNK_LIST_EXTERNAL_OAUTH_CONNECTION' => 'External OAuth Connections',
 
-    'LBL_OWNER' => 'Pemilik',
+    'LBL_OWNER' => 'Owner',
 ];
