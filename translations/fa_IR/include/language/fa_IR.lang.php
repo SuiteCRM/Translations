@@ -52,7 +52,7 @@ $app_list_strings = array(
         'Home' => 'خانه',
         'ResourceCalendar' => 'تقویم منابع',
         'Contacts' => 'مخاطب‌ها',
-        'Accounts' => 'حساب ها',
+        'Accounts' => 'حساب‌ها',
         'Alerts' => 'هشدارها',
         'Opportunities' => 'فرصت‌ها',
         'Cases' => 'موارد',
@@ -86,7 +86,7 @@ $app_list_strings = array(
         'Sync' => 'همگام‌سازی',
         'Users' => 'کاربرها',
         'Employees' => 'کارمندها',
-        'Administration' => 'سرپرستی',
+        'Administration' => 'مدیریت',
         'ACLRoles' => 'نقش‌ها',
         'InboundEmail' => 'ایمیل‌های ورودی',
         'Releases' => 'نسخه‌ها',
@@ -100,7 +100,7 @@ $app_list_strings = array(
         'Trackers' => 'ردیاب',
         'TrackerSessions' => 'جلسات ردیاب',
         'TrackerQueries' => 'کوئری‌های ردیاب',
-        'FAQ' => 'سوالات متداول',
+        'FAQ' => 'FAQ',
         'Newsletters' => 'خبرنامه',
         'SugarFeed' => 'خوراک SuiteCRM',
         'SugarFavorites' => 'برگزیده‌های SuiteCRM',
@@ -108,7 +108,7 @@ $app_list_strings = array(
         'OAuthKeys' => 'کلید های مصرفی OAuth',
         'OAuthTokens' => 'توکن OAuth',
         'OAuth2Clients' => 'OAuth Clients',
-        'OAuth2Tokens' => 'توکن OAuth',
+        'OAuth2Tokens' => 'OAuth Tokens',
         'OAuth2AuthCodes' => 'OAuth Authorization Codes',
     ),
 
@@ -130,16 +130,16 @@ $app_list_strings = array(
         'Activities' => 'فعالیت',
         'Bugs' => 'اشکال',
         'KBDocuments' => 'اسناد دانش محور',
-        'Feeds' => 'خبرخوان',
+        'Feeds' => 'RSS',
         'iFrames' => 'سایت‌های من',
         'TimePeriods' => 'دوره زمانی',
         'Project' => 'پروژه',
         'ProjectTask' => 'وظیفه‌ی پروژه',
         'Prospects' => 'هدف',
         'Campaigns' => 'کمپین',
-        'Documents' => 'سند',
+        'Documents' => 'Document',
         'Sync' => 'همگام‌سازی',
-        'Users' => 'کاربر',
+        'Users' => 'User',
         'SugarFavorites' => 'برگزیده‌های SuiteCRM',
 
     ),
@@ -153,16 +153,16 @@ $app_list_strings = array(
     //e.g. en français 'Analyst'=>'Analyste',
     'account_type_dom' => array(
         '' => '',
-        'Analyst' => 'تحلیل‌گر',
-        'Competitor' => 'رقیب',
+        'Analyst' => 'Analyst',
+        'Competitor' => 'Competitor',
         'Customer' => 'مشتری',
-        'Integrator' => 'تلفیق کننده',
+        'Integrator' => 'تلفیق دهنده',
         'Investor' => 'سرمایه‌گذار',
         'Partner' => 'شریک',
         'Press' => 'مطبوعات',
         'Prospect' => 'مشتری بالقوه',
         'Reseller' => 'نماینده‌ی فروش',
-        'Other' => 'دیگر',
+        'Other' => 'سایر',
     ),
     //e.g. en español 'Apparel'=>'Ropa',
     'industry_dom' => array(
@@ -196,7 +196,7 @@ $app_list_strings = array(
         'Telecommunications' => 'ارتباطات راه دور',
         'Transportation' => 'حمل و نقل',
         'Utilities' => 'صنایع همگانی',
-        'Other' => 'دیگر',
+        'Other' => 'سایر',
     ),
     'lead_source_default_key' => 'Self Generated',
     'lead_source_dom' => array(
@@ -214,7 +214,7 @@ $app_list_strings = array(
         'Word of mouth' => 'دهان به دهان',
         'Email' => 'ایمیل',
         'Campaign' => 'کمپین',
-        'Other' => 'دیگر',
+        'Other' => 'سایر',
     ),
     'opportunity_type_dom' => array(
         '' => '',
@@ -240,7 +240,7 @@ $app_list_strings = array(
         'Technical Evaluator' => 'ارزیاب فنی',
         'Executive Sponsor' => 'حامی اجرایی',
         'Influencer' => 'تاثیرگذار',
-        'Other' => 'دیگر',
+        'Other' => 'سایر',
     ),
     //Note:  do not translate case_relationship_type_default_key
 //       it is the key for the default case_relationship_type_dom value
@@ -283,7 +283,7 @@ $app_list_strings = array(
         ),
     'activity_dom' => array(
         'Call' => 'تماس',
-        'Meeting' => 'جلسه',
+        'Meeting' => 'Meeting',
         'Task' => 'وظیفه',
         'Email' => 'ایمیل',
         'Note' => 'یادداشت',
@@ -318,11 +318,11 @@ $app_list_strings = array(
         86400 => '1 روز قبل',
     ),
 
-    'task_priority_default' => 'متوسط',
+    'task_priority_default' => 'Medium',
     'task_priority_dom' => array(
-        'High' => 'بالا',
-        'Medium' => 'متوسط',
-        'Low' => 'پایین',
+        'High' => 'High',
+        'Medium' => 'Medium',
+        'Low' => 'Low',
     ),
     'task_status_default' => 'شروع نشده',
     'task_status_dom' => array(
@@ -342,14 +342,14 @@ $app_list_strings = array(
         'WebEx' => 'WebEx',
     ),
     'meeting_type_dom' => array(
-        'Other' => 'دیگر',
+        'Other' => 'سایر',
         'Sugar' => 'SuiteCRM',
     ),
     'call_status_default' => 'Planned',
     'call_status_dom' => array(
         'Planned' => 'Planned',
-        'Held' => 'برقرار شد',
-        'Not Held' => 'برقرار نشد',
+        'Held' => 'Held',
+        'Not Held' => 'Not Held',
     ),
     'call_direction_default' => 'Outbound',
     'call_direction_dom' => array(
@@ -367,9 +367,9 @@ $app_list_strings = array(
     ),
     'case_priority_default_key' => 'P2',
     'case_priority_dom' => array(
-        'P1' => 'بالا',
-        'P2' => 'متوسط',
-        'P3' => 'پایین',
+        'P1' => 'High',
+        'P2' => 'Medium',
+        'P3' => 'Low',
     ),
     'user_type_dom' => array(
         'RegularUser' => 'کاربر عادی',
@@ -394,15 +394,15 @@ $app_list_strings = array(
         'AOL' => 'AOL',
     ),
     'project_task_priority_options' => array(
-        'High' => 'بالا',
-        'Medium' => 'متوسط',
-        'Low' => 'پایین',
+        'High' => 'High',
+        'Medium' => 'Medium',
+        'Low' => 'Low',
     ),
-    'project_task_priority_default' => 'متوسط',
+    'project_task_priority_default' => 'Medium',
 
     'project_task_status_options' => array(
         'Not Started' => 'شروع نشده',
-        'In Progress' => 'در حال انجام',
+        'In Progress' => 'در حال پردازش',
         'Completed' => 'تکمیل شده',
         'Pending Input' => 'منتظر ورودی',
         'Deferred' => 'معوق',
@@ -416,13 +416,13 @@ $app_list_strings = array(
     ),
 
     'project_status_dom' => array(
-        'Draft' => 'پیش نویس',
+        'Draft' => 'پیش‌نویس',
         'In Review' => 'در حال بررسی',
         'Underway' => 'در حال انجام',
         'On_Hold' => 'در انتظار',
         'Completed' => 'تکمیل شده',
     ),
-    'project_status_default' => 'پیش نویس',
+    'project_status_default' => 'پیش‌نویس',
 
     'project_duration_units_dom' => array(
         'Days' => 'روز',
@@ -432,22 +432,22 @@ $app_list_strings = array(
     'activity_status_type_dom' => array(
         '' => '--هیچ--',
         'active' => 'فعال',
-        'inactive' => 'غیر فعال',
+        'inactive' => 'غیرفعال',
     ),
 
     // Note:  do not translate record_type_default_key
     //        it is the key for the default record_type_module value
-    'record_type_default_key' => 'حساب ها',
+    'record_type_default_key' => 'حساب‌ها',
     'record_type_display' => array(
         '' => '',
-        'Accounts' => 'مرکز',
-        'Opportunities' => 'فرصت',
+        'Accounts' => 'حساب',
+        'Opportunities' => 'Opportunity',
         'Cases' => 'خدمات',
-        'Leads' => 'سرنخ',
-        'Contacts' => 'مخاطب', // cn (11/22/2005) added to support Emails
+        'Leads' => 'Lead',
+        'Contacts' => 'Contact', // cn (11/22/2005) added to support Emails
 
         'Bugs' => 'اشکال',
-        'Project' => 'پروژه',
+        'Project' => 'Project',
 
         'Prospects' => 'هدف',
         'ProjectTask' => 'وظیفه‌ی پروژه',
@@ -457,53 +457,53 @@ $app_list_strings = array(
         'AOS_Contracts' => 'قرارداد',
         'AOS_Invoices' => 'فاکتور',
         'AOS_Quotes' => 'پیش‌فاکتور',
-        'AOS_Products' => 'محصول',
+        'AOS_Products' => 'Product',
 
     ),
 
     'record_type_display_notes' => array(
-        'Accounts' => 'مرکز',
-        'Contacts' => 'مخاطب',
-        'Opportunities' => 'فرصت',
+        'Accounts' => 'حساب',
+        'Contacts' => 'Contact',
+        'Opportunities' => 'Opportunity',
         'Campaigns' => 'کمپین',
         'Tasks' => 'وظیفه',
         'Emails' => 'ایمیل',
 
         'Bugs' => 'اشکال',
-        'Project' => 'پروژه',
+        'Project' => 'Project',
         'ProjectTask' => 'وظیفه‌ی پروژه',
         'Prospects' => 'هدف',
         'Cases' => 'خدمات',
-        'Leads' => 'سرنخ',
+        'Leads' => 'Lead',
 
-        'Meetings' => 'جلسه',
+        'Meetings' => 'Meeting',
         'Calls' => 'تماس',
 
         'AOS_Contracts' => 'قرارداد',
-        'AOS_Invoices' => 'فاکتور',
-        'AOS_Quotes' => 'پیش‌فاکتور',
-        'AOS_Products' => 'محصول',
+        'AOS_Invoices' => 'Invoice',
+        'AOS_Quotes' => 'Quote',
+        'AOS_Products' => 'Product',
     ),
 
     'parent_type_display' => array(
-        'Accounts' => 'مرکز',
-        'Contacts' => 'مخاطب',
+        'Accounts' => 'حساب',
+        'Contacts' => 'Contact',
         'Tasks' => 'وظیفه',
-        'Opportunities' => 'فرصت',
+        'Opportunities' => 'Opportunity',
 
         'Bugs' => 'اشکال',
         'Cases' => 'خدمات',
-        'Leads' => 'سرنخ',
+        'Leads' => 'Lead',
 
-        'Project' => 'پروژه',
+        'Project' => 'Project',
         'ProjectTask' => 'وظیفه‌ی پروژه',
 
         'Prospects' => 'هدف',
 
         'AOS_Contracts' => 'قرارداد',
-        'AOS_Invoices' => 'فاکتور',
-        'AOS_Quotes' => 'پیش‌فاکتور',
-        'AOS_Products' => 'محصول',
+        'AOS_Invoices' => 'Invoice',
+        'AOS_Quotes' => 'Quote',
+        'AOS_Products' => 'Product',
 
     ),
     'parent_line_items' => array(
@@ -511,21 +511,21 @@ $app_list_strings = array(
         'AOS_Invoices' => 'فاکتورها',
         'AOS_Contracts' => 'قراردادها',
     ),
-    'issue_priority_default_key' => 'متوسط',
+    'issue_priority_default_key' => 'Medium',
     'issue_priority_dom' => array(
         'Urgent' => 'فوری',
-        'High' => 'بالا',
-        'Medium' => 'متوسط',
-        'Low' => 'پایین',
+        'High' => 'High',
+        'Medium' => 'Medium',
+        'Low' => 'Low',
     ),
     'issue_resolution_default_key' => '',
     'issue_resolution_dom' => array(
         '' => '',
-        'Accepted' => 'قبول شده',
-        'Duplicate' => 'متناظر',
+        'Accepted' => 'پذیرفته‌شده',
+        'Duplicate' => 'تکراری',
         'Closed' => 'بسته',
-        'Out of Date' => 'تاریخ گذشته',
-        'Invalid' => 'نامعتبر',
+        'Out of Date' => 'Out of Date',
+        'Invalid' => 'Invalid',
     ),
 
     'issue_status_default_key' => 'جدید',
@@ -533,25 +533,25 @@ $app_list_strings = array(
         'New' => 'جدید',
         'Assigned' => 'محول شده',
         'Closed' => 'بسته',
-        'Pending' => 'انتظار',
+        'Pending' => 'در انتظار',
         'Rejected' => 'رد شده',
     ),
 
-    'bug_priority_default_key' => 'متوسط',
+    'bug_priority_default_key' => 'Medium',
     'bug_priority_dom' => array(
         'Urgent' => 'فوری',
-        'High' => 'بالا',
-        'Medium' => 'متوسط',
-        'Low' => 'پایین',
+        'High' => 'High',
+        'Medium' => 'Medium',
+        'Low' => 'Low',
     ),
     'bug_resolution_default_key' => '',
     'bug_resolution_dom' => array(
         '' => '',
-        'Accepted' => 'قبول شده',
-        'Duplicate' => 'متناظر',
+        'Accepted' => 'پذیرفته‌شده',
+        'Duplicate' => 'تکراری',
         'Fixed' => 'برطرف شده',
-        'Out of Date' => 'تاریخ گذشته',
-        'Invalid' => 'نامعتبر',
+        'Out of Date' => 'Out of Date',
+        'Invalid' => 'Invalid',
         'Later' => 'بعداً',
     ),
     'bug_status_default_key' => 'جدید',
@@ -559,7 +559,7 @@ $app_list_strings = array(
         'New' => 'جدید',
         'Assigned' => 'محول شده',
         'Closed' => 'بسته',
-        'Pending' => 'انتظار',
+        'Pending' => 'در انتظار',
         'Rejected' => 'رد شده',
     ),
     'bug_type_default_key' => 'اشکال',
@@ -568,9 +568,9 @@ $app_list_strings = array(
         'Feature' => 'ویژگی',
     ),
     'case_type_dom' => array(
-        'Administration' => 'سرپرستی',
-        'Product' => 'محصول',
-        'User' => 'کاربر',
+        'Administration' => 'مدیریت',
+        'Product' => 'Product',
+        'User' => 'User',
     ),
 
     'source_default_key' => '',
@@ -585,13 +585,13 @@ $app_list_strings = array(
     'product_category_default_key' => '',
     'product_category_dom' => array(
         '' => '',
-        'Accounts' => 'حساب ها',
+        'Accounts' => 'حساب‌ها',
         'Activities' => 'فعالیت‌ها',
         'Bugs' => 'اشکالات',
         'Calendar' => 'تقویم',
         'Calls' => 'تماس‌ها',
         'Campaigns' => 'کمپین‌ها',
-        'Cases' => 'موارد',
+        'Cases' => 'خدمات',
         'Contacts' => 'مخاطب‌ها',
         'Currencies' => 'واحدهای پول',
         'Dashboard' => 'پیشخوان',
@@ -602,14 +602,14 @@ $app_list_strings = array(
         'Help' => 'کمک',
         'Home' => 'خانه',
         'Leads' => 'سرنخ‌ها',
-        'Meetings' => 'جلسات',
+        'Meetings' => 'جلسه‌ها',
         'Notes' => 'یادداشت‌ها',
         'Opportunities' => 'فرصت‌ها',
         'Outlook Plugin' => 'افزونه Outlook',
         'Projects' => 'پروژه‌ها',
-        'Quotes' => 'پیش فاکتور',
+        'Quotes' => 'نقل قول ها',
         'Releases' => 'نسخه‌ها',
-        'RSS' => 'خبرخوان',
+        'RSS' => 'RSS',
         'Studio' => 'استودیو',
         'Upgrade' => 'ارتقاء',
         'Users' => 'کاربرها',
@@ -619,7 +619,7 @@ $app_list_strings = array(
         '' => '',
         'Planning' => 'در حال برنامه‌ریزی',
         'Active' => 'فعال',
-        'Inactive' => 'غیر فعال',
+        'Inactive' => 'غیرفعال',
         'Complete' => 'کامل شده',
         //'In Queue' => 'In Queue',
         //'Sending' => 'Sending',
@@ -630,7 +630,7 @@ $app_list_strings = array(
         'Mail' => 'پست',
         'Email' => 'ایمیل',
         'Print' => 'چاپی',
-        'Web' => 'وب',
+        'Web' => 'Web',
         'Radio' => 'رادیو',
         'Television' => 'تلویزیون',
         'NewsLetter' => 'خبرنامه',
@@ -669,7 +669,7 @@ $app_list_strings = array(
         '2' => 'فوریه',
         '3' => 'مارس',
         '4' => 'آوریل',
-        '5' => 'می',
+        '5' => 'May',
         '6' => 'ژوئن',
         '7' => 'جولای',
         '8' => 'آگوست',
@@ -725,25 +725,25 @@ $app_list_strings = array(
     ],
 
     'dom_external_oauth_connection_types' => [
-        'personal' => 'شخصی',
-        'group' => 'گروه',
+        'personal' => 'Personal',
+        'group' => 'Group',
     ],
 
     'dom_external_oauth_provider_types' => [
-        'personal' => 'شخصی',
-        'group' => 'گروه',
+        'personal' => 'Personal',
+        'group' => 'Group',
     ],
 
     'dom_outbound_email_account_types' => [
-        'user' => 'شخصی',
-        'group' => 'گروه',
+        'user' => 'Personal',
+        'group' => 'Group',
         'system' => 'سیستم',
         'system-override' => 'System Override',
     ],
 
     'dom_inbound_email_account_status' => [
         'Active' => 'فعال',
-        'Inactive' => 'غیر فعال',
+        'Inactive' => 'غیرفعال',
     ],
 
     'dom_email_body_filtering_option' => [
@@ -754,7 +754,7 @@ $app_list_strings = array(
     'dom_email_types' => array(
         'out' => 'ارسال شده',
         'archived' => 'آرشیو شده',
-        'draft' => 'پیش نویس',
+        'draft' => 'پیش‌نویس',
         'inbound' => 'ورودی',
         'campaign' => 'کمپین',
     ),
@@ -825,7 +825,7 @@ $app_list_strings = array(
     'schedulers_times_dom' => array(
         'not run' => 'از زمان اجرا گذشته، اجرا نشده',
         'ready' => 'آماده',
-        'in progress' => 'در حال انجام',
+        'in progress' => 'در حال پردازش',
         'failed' => 'انجام نشد',
         'completed' => 'تکمیل شده',
         'no curl' => 'اجرا نشده: cURL در دسترس نیست',
@@ -833,7 +833,7 @@ $app_list_strings = array(
 
     'scheduler_status_dom' => array(
         'Active' => 'فعال',
-        'Inactive' => 'غیر فعال',
+        'Inactive' => 'غیرفعال',
     ),
 
     'scheduler_period_dom' => array(
@@ -855,18 +855,18 @@ $app_list_strings = array(
 
     'document_subcategory_dom' => array(
         '' => '',
-        'Marketing Collateral' => 'تضمین بازاریابی',
-        'Product Brochures' => 'بروشور محصولات',
-        'FAQ' => 'سوالات متداول',
+        'Marketing Collateral' => 'Marketing Collateral',
+        'Product Brochures' => 'Product Brochures',
+        'FAQ' => 'FAQ',
     ),
 
     'document_status_dom' => array(
         'Active' => 'فعال',
-        'Draft' => 'پیش نویس',
-        'FAQ' => 'سوالات متداول',
-        'Expired' => 'منقضی شده',
-        'Under Review' => 'تحت بررسی',
-        'Pending' => 'انتظار',
+        'Draft' => 'پیش‌نویس',
+        'FAQ' => 'FAQ',
+        'Expired' => 'Expired',
+        'Under Review' => 'Under Review',
+        'Pending' => 'در انتظار',
     ),
     'document_template_type_dom' => array(
         '' => '',
@@ -881,9 +881,9 @@ $app_list_strings = array(
         'tentative' => 'آزمایشی',
     ),
     'dom_meeting_accept_status' => array(
-        'accept' => 'قبول شده',
+        'accept' => 'پذیرفته‌شده',
         'decline' => 'رد شده',
-        'tentative' => 'آزمایشی',
+        'tentative' => 'Tentative',
         'none' => 'هیچ‌کدام',
     ),
     'duration_intervals' => array(
@@ -895,8 +895,8 @@ $app_list_strings = array(
     'repeat_type_dom' => array(
         '' => 'هیچ‌کدام',
         'Daily' => 'روزانه',
-        'Weekly' => 'هفتگی',
-        'Monthly' => 'ماهیانه',
+        'Weekly' => 'Weekly',
+        'Monthly' => 'Monthly',
         'Yearly' => 'سالانه',
     ),
 
@@ -943,7 +943,7 @@ $app_list_strings = array(
     'email_marketing_status_dom' => array(
         '' => '',
         'active' => 'فعال',
-        'inactive' => 'غیر فعال',
+        'inactive' => 'غیرفعال',
     ),
 
     'campainglog_activity_type_dom' => array(
@@ -963,9 +963,9 @@ $app_list_strings = array(
     'campainglog_target_type_dom' => array(
         'Contacts' => 'مخاطب‌ها',
         'Users' => 'کاربرها',
-        'Prospects' => 'اهداف',
+        'Prospects' => 'Targets',
         'Leads' => 'سرنخ‌ها',
-        'Accounts' => 'حساب ها',
+        'Accounts' => 'حساب‌ها',
     ),
     'merge_operators_dom' => array(
         'like' => 'شامل',
@@ -988,14 +988,14 @@ $app_list_strings = array(
     ),
 
     'projects_priority_options' => array(
-        'high' => 'بالا',
-        'medium' => 'متوسط',
-        'low' => 'پایین',
+        'high' => 'High',
+        'medium' => 'Medium',
+        'low' => 'Low',
     ),
 
     'projects_status_options' => array(
         'notstarted' => 'شروع نشده',
-        'inprogress' => 'در حال انجام',
+        'inprogress' => 'در حال پردازش',
         'completed' => 'تکمیل شده',
     ),
     // strings to pass to Flash charts
@@ -1016,7 +1016,7 @@ $app_list_strings = array(
     ),
     'release_status_dom' => array(
         'Active' => 'فعال',
-        'Inactive' => 'غیر فعال',
+        'Inactive' => 'غیرفعال',
     ),
     'email_settings_for_ssl' => array(
         '0' => '',
@@ -1105,8 +1105,8 @@ $app_strings = array(
     'LBL_TOUR_TAKE_TOUR' => 'تور آشنایی با سیستم را ببین',
     'LBL_MOREDETAIL' => 'جزئیات بیشتر' /*for 508 compliance fix*/,
     'LBL_EDIT_INLINE' => 'ویرایش درون‌خطی' /*for 508 compliance fix*/,
-    'LBL_VIEW_INLINE' => 'مشاهده' /*for 508 compliance fix*/,
-    'LBL_BASIC_SEARCH' => 'جستجو' /*for 508 compliance fix*/,
+    'LBL_VIEW_INLINE' => 'View' /*for 508 compliance fix*/,
+    'LBL_BASIC_SEARCH' => 'فیلتر' /*for 508 compliance fix*/,
     'LBL_Blank' => ' ' /*for 508 compliance fix*/,
     'LBL_ID_FF_ADD' => 'ﺍﻓﺰﻭﺩﻥ' /*for 508 compliance fix*/,
     'LBL_ID_FF_ADD_EMAIL' => 'افزودن آدرس ایمیل' /*for 508 compliance fix*/,
@@ -1121,8 +1121,8 @@ $app_strings = array(
     'LBL_ADD' => 'ﺍﻓﺰﻭﺩﻥ' /*for 508 compliance fix*/,
     'LBL_COMPANY_LOGO' => 'لوگوی شرکت' /*for 508 compliance fix*/,
     'LBL_CONNECTORS_POPUPS' => 'پاپ-آپ اتصالگرها',
-    'LBL_CLOSEINLINE' => 'بستن',
-    'LBL_VIEWINLINE' => 'مشاهده',
+    'LBL_CLOSEINLINE' => 'Close',
+    'LBL_VIEWINLINE' => 'View',
     'LBL_INFOINLINE' => 'اطلاعات',
     'LBL_PRINT' => 'چاپی',
     'LBL_HELP' => 'کمک',
@@ -1157,13 +1157,13 @@ $app_strings = array(
     'LBL_EMAIL_ACCOUNTS_OUTBOUND_SUBTITLE' => 'اطلاعات سرور پست الکترونیک SMTP را برای استفاده از پست الکترونیک خروجی در حساب‌های پست الکترونیک ارائه دهید.',
 
     'LBL_EMAIL_ADDRESS_BOOK_ADD' => 'ﺍﻧﺠﺎﻡ شد',
-    'LBL_EMAIL_ADDRESS_BOOK_CLEAR' => 'پاکسازی',
+    'LBL_EMAIL_ADDRESS_BOOK_CLEAR' => 'Clear',
     'LBL_EMAIL_ADDRESS_BOOK_ADD_TO' => 'به:',
     'LBL_EMAIL_ADDRESS_BOOK_ADD_CC' => 'رونوشت:',
     'LBL_EMAIL_ADDRESS_BOOK_ADD_BCC' => 'رونوشت مخفی:',
     'LBL_EMAIL_ADDRESS_BOOK_ADRRESS_TYPE' => 'To/Cc/Bcc',
-    'LBL_EMAIL_ADDRESS_BOOK_EMAIL_ADDR' => 'آدرس ایمیل',
-    'LBL_EMAIL_ADDRESS_BOOK_FILTER' => 'جستجو',
+    'LBL_EMAIL_ADDRESS_BOOK_EMAIL_ADDR' => 'Email Address',
+    'LBL_EMAIL_ADDRESS_BOOK_FILTER' => 'فیلتر',
     'LBL_EMAIL_ADDRESS_BOOK_NAME' => 'نام',
     'LBL_EMAIL_ADDRESS_BOOK_NOT_FOUND' => 'هیچ آدرسی یافت نشد',
     'LBL_EMAIL_ADDRESS_BOOK_SAVE_AND_ADD' => 'ذخیره و افزودن به دفترچه آدرس',
@@ -1171,18 +1171,18 @@ $app_strings = array(
     'LBL_EMAIL_ADDRESS_BOOK_TITLE' => 'دفترچه‌ آدرس',
     'LBL_EMAIL_REMOVE_SMTP_WARNING' => 'هشدار! این حساب کاربری خروجی که شما سعی در حذف آن دارید، مربوط به یک حساب کاربری وردوی موجود است. آیا از ادامه اطمینان دارید؟',
     'LBL_EMAIL_ADDRESSES' => 'ایمیل',
-    'LBL_EMAIL_ADDRESS_PRIMARY' => 'آدرس ایمیل',
+    'LBL_EMAIL_ADDRESS_PRIMARY' => 'Email Address',
     'LBL_EMAIL_ADDRESS_OPT_IN' => 'You have confirmed that your email address has been opted in: ',
     'LBL_EMAIL_ADDRESS_OPT_IN_ERR' => 'تایید آدرس ایمیل امکان‌پذیر نیست',
     'LBL_EMAIL_ARCHIVE_TO_SUITE' => 'درون‌ریزی به SuiteCRM',
     'LBL_EMAIL_ASSIGNMENT' => 'تخصیص',
     'LBL_EMAIL_ATTACH_FILE_TO_EMAIL' => 'پیوست',
-    'LBL_EMAIL_ATTACHMENT' => 'پیوست',
+    'LBL_EMAIL_ATTACHMENT' => 'Attach',
     'LBL_EMAIL_ATTACHMENTS' => 'از سیستم محلی',
     'LBL_EMAIL_ATTACHMENTS2' => 'از اسناد SuiteCRM',
     'LBL_EMAIL_ATTACHMENTS3' => 'پیوست‌های قالب',
     'LBL_EMAIL_ATTACHMENTS_FILE' => 'فایل',
-    'LBL_EMAIL_ATTACHMENTS_DOCUMENT' => 'سند',
+    'LBL_EMAIL_ATTACHMENTS_DOCUMENT' => 'Document',
     'LBL_EMAIL_BCC' => 'رونوشت پنهان',
     'LBL_EMAIL_CANCEL' => 'لغو',
     'LBL_EMAIL_CC' => 'رونوشت',
@@ -1190,7 +1190,7 @@ $app_strings = array(
     'LBL_EMAIL_CHECK' => 'بررسی ایمیل',
     'LBL_EMAIL_CHECKING_NEW' => 'بررسی برای ایمیل جدید',
     'LBL_EMAIL_CHECKING_DESC' => 'لطفا یک لحظه صبر کنید...<br><br>اگر این اولین بررسی حساب ایمیل است، احتمال دارد کمی طول بکشد.',
-    'LBL_EMAIL_CLOSE' => 'بستن',
+    'LBL_EMAIL_CLOSE' => 'Close',
     'LBL_EMAIL_COFFEE_BREAK' => 'بررسی ایمیل‌ جدید. <br><br>برای حساب‌های ایمیل حجیم ممکن است خیلی طول بکشد.',
 
     'LBL_EMAIL_COMPOSE' => 'ایمیل',
@@ -1284,7 +1284,7 @@ $app_strings = array(
     'LBL_EMAIL_DOWNLOAD_STATUS' => '[count] از [total] ایمیل دانلود شد',
     'LBL_EMAIL_FROM' => 'فرستنده',
     'LBL_EMAIL_GROUP' => 'گروه',
-    'LBL_EMAIL_UPPER_CASE_GROUP' => 'گروه',
+    'LBL_EMAIL_UPPER_CASE_GROUP' => 'Group',
     'LBL_EMAIL_HOME_FOLDER' => 'خانه',
     'LBL_EMAIL_IE_DELETE' => 'در حال حذف حساب ایمیل',
     'LBL_EMAIL_IE_DELETE_SIGNATURE' => 'در حال حذف امضا',
@@ -1294,7 +1294,7 @@ $app_strings = array(
     'LBL_EMAIL_IMPORTING_EMAIL' => 'درون‌ریزی ایمیل',
     'LBL_EMAIL_IMPORT_EMAIL' => 'درون‌ریزی به SuiteCRM',
     'LBL_EMAIL_IMPORT_SETTINGS' => 'درون‌ریزی تنظیمات',
-    'LBL_EMAIL_INVALID' => 'نامعتبر',
+    'LBL_EMAIL_INVALID' => 'Invalid',
     'LBL_EMAIL_LOADING' => 'در حال بارگذاری...',
     'LBL_EMAIL_MARK' => 'علامت‌گذاری',
     'LBL_EMAIL_MARK_FLAGGED' => 'نشانه دار',
@@ -1346,10 +1346,10 @@ $app_strings = array(
 
     'LBL_EMAIL_QC_BUGS' => 'اشکال',
     'LBL_EMAIL_QC_CASES' => 'خدمات',
-    'LBL_EMAIL_QC_LEADS' => 'سرنخ',
-    'LBL_EMAIL_QC_CONTACTS' => 'مخاطب',
+    'LBL_EMAIL_QC_LEADS' => 'Lead',
+    'LBL_EMAIL_QC_CONTACTS' => 'Contact',
     'LBL_EMAIL_QC_TASKS' => 'وظیفه',
-    'LBL_EMAIL_QC_OPPORTUNITIES' => 'فرصت',
+    'LBL_EMAIL_QC_OPPORTUNITIES' => 'Opportunity',
     'LBL_EMAIL_QUICK_CREATE' => 'ایجاد سریع',
 
     'LBL_EMAIL_REBUILDING_FOLDERS' => 'در حال بازسازی پوشه‌ها',
@@ -1397,7 +1397,7 @@ $app_strings = array(
 
     'LBL_EMAIL_SELECT' => 'انتخاب',
 
-    'LBL_EMAIL_SEND' => 'ارسال',
+    'LBL_EMAIL_SEND' => 'Send',
     'LBL_EMAIL_SENDING_EMAIL' => 'در حال ارسال ایمیل',
 
     'LBL_EMAIL_SETTINGS' => 'تنطیمات',
@@ -1436,7 +1436,7 @@ $app_strings = array(
     'LBL_SMTPTYPE_GMAIL' => 'Gmail',
     'LBL_SMTPTYPE_YAHOO' => 'Yahoo! Mail',
     'LBL_SMTPTYPE_EXCHANGE' => 'Microsoft Exchange',
-    'LBL_SMTPTYPE_OTHER' => 'دیگر',
+    'LBL_SMTPTYPE_OTHER' => 'سایر',
     'LBL_EMAIL_SPACER_MAIL_SERVER' => '[ Remote Folders ]',
     'LBL_EMAIL_SPACER_LOCAL_FOLDER' => '[پوشه های SuiteCRM ]',
     'LBL_EMAIL_SUBJECT' => 'موضوع',
@@ -1445,7 +1445,7 @@ $app_strings = array(
     'LBL_EMAIL_TEMPLATE_EDIT_PLAIN_TEXT' => 'متن body قالب ایمیل خالی است',
     'LBL_EMAIL_TEMPLATES' => 'قالب‌ها',
     'LBL_EMAIL_TO' => 'به',
-    'LBL_EMAIL_VIEW' => 'مشاهده',
+    'LBL_EMAIL_VIEW' => 'View',
     'LBL_EMAIL_VIEW_HEADERS' => 'نمایش سرصفحه',
     'LBL_EMAIL_VIEW_RAW' => 'نمایش ایمیل‌های خام',
     'LBL_EMAIL_VIEW_UNSUPPORTED' => 'این ویژگی هنگام استفاده با POP3 پشتیبانی نمی‌شود.',
@@ -1494,12 +1494,12 @@ $app_strings = array(
     'ERR_DB_FAIL' => 'خرابی پایگاه داده. برای جزئیات بیشتر به suitecrm.log مراجعه کنید.',
     'ERR_DB_VERSION' => 'فایل‌های SuiteCRM {0} فقط می‌توانند با یک پایگاه داده SuiteCRM {1} استفاده شوند.',
 
-    'LBL_ACCOUNT' => 'مرکز',
-    'LBL_ACCOUNTS' => 'حساب ها',
+    'LBL_ACCOUNT' => 'حساب',
+    'LBL_ACCOUNTS' => 'حساب‌ها',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'فعالیت‌ها',
     'LBL_ACCUMULATED_HISTORY_BUTTON_KEY' => 'H',
     'LBL_ACCUMULATED_HISTORY_BUTTON_LABEL' => 'مشاهده خلاصه',
-    'LBL_ACCUMULATED_HISTORY_BUTTON_TITLE' => 'مشاهده خلاصه',
+    'LBL_ACCUMULATED_HISTORY_BUTTON_TITLE' => 'View Summary',
     'LBL_ADD_BUTTON' => 'ﺍﻓﺰﻭﺩﻥ',
     'LBL_ADD_DOCUMENT' => 'افزودن پرونده',
     'LBL_ADD_TO_PROSPECT_LIST_BUTTON_KEY' => 'L',
@@ -1511,7 +1511,7 @@ $app_strings = array(
     'LBL_ALT_HOT_KEY' => '',
     'LBL_ARCHIVE' => 'بایگانی',
     'LBL_ASSIGNED_TO_USER' => 'اختصاص یافته به کاربر',
-    'LBL_ASSIGNED_TO' => 'اختصاص داده شده به:',
+    'LBL_ASSIGNED_TO' => 'Assigned to:',
     'LBL_BACK' => 'بازگشت',
     'LBL_BILLING_ADDRESS' => 'آدرس صورت‌حساب',
     'LBL_QUICK_CREATE' => 'ایجاد ',
@@ -1522,41 +1522,41 @@ $app_strings = array(
     'LBL_CAMPAIGNS_SEND_QUEUED' => 'ارسال ایمیل‌های کمپین در صف انتظار',
     'LBL_SUBMIT_BUTTON_LABEL' => 'ثبت',
     'LBL_CASE' => 'خدمات',
-    'LBL_CASES' => 'موارد',
+    'LBL_CASES' => 'خدمات',
     'LBL_CHANGE_PASSWORD' => 'تغییر گذرواژه',
     'LBL_CHARSET' => 'UTF-8',
     'LBL_CHECKALL' => 'انتخاب همه',
-    'LBL_CITY' => 'شهر',
-    'LBL_CLEAR_BUTTON_LABEL' => 'پاکسازی',
-    'LBL_CLEAR_BUTTON_TITLE' => 'پاکسازی',
+    'LBL_CITY' => 'City',
+    'LBL_CLEAR_BUTTON_LABEL' => 'Clear',
+    'LBL_CLEAR_BUTTON_TITLE' => 'Clear',
     'LBL_CLEARALL' => 'پاک کردن همه',
-    'LBL_CLOSE_BUTTON_TITLE' => 'بستن',
+    'LBL_CLOSE_BUTTON_TITLE' => 'Close',
     'LBL_CLOSE_AND_CREATE_BUTTON_LABEL' => 'بستن و ایجاد جدید',
-    'LBL_CLOSE_AND_CREATE_BUTTON_TITLE' => 'بستن و ایجاد جدید',
+    'LBL_CLOSE_AND_CREATE_BUTTON_TITLE' => 'Close and Create New',
     'LBL_CLOSE_AND_CREATE_BUTTON_KEY' => 'C',
     'LBL_OPEN_ITEMS' => 'Open Items:',
     'LBL_COMPOSE_EMAIL_BUTTON_KEY' => 'L',
     'LBL_COMPOSE_EMAIL_BUTTON_LABEL' => 'نوشتن ایمیل',
-    'LBL_COMPOSE_EMAIL_BUTTON_TITLE' => 'نوشتن ایمیل',
+    'LBL_COMPOSE_EMAIL_BUTTON_TITLE' => 'Compose Email',
     'LBL_SEARCH_DROPDOWN_YES' => 'بله',
     'LBL_SEARCH_DROPDOWN_NO' => 'خير',
     'LBL_CONTACT_LIST' => 'لیست مخاطب‌ها',
-    'LBL_CONTACT' => 'مخاطب',
+    'LBL_CONTACT' => 'Contact',
     'LBL_CONTACTS' => 'مخاطب‌ها',
     'LBL_CONTRACT' => 'قرارداد',
     'LBL_CONTRACTS' => 'قراردادها',
     'LBL_COUNTRY' => 'کشور:',
     'LBL_CREATE_BUTTON_LABEL' => 'ایجاد',
-    'LBL_CREATED_BY_USER' => 'کاربر ایجاد کننده',
-    'LBL_CREATED_USER' => 'کاربر ایجاد کننده',
+    'LBL_CREATED_BY_USER' => 'Created by User',
+    'LBL_CREATED_USER' => 'Created by User',
     'LBL_CREATED' => 'ایجاد کننده',
     'LBL_CURRENT_USER_FILTER' => 'My Items:',
     'LBL_CURRENCY' => 'واحد پول:',
     'LBL_DOCUMENTS' => 'اسناد',
-    'LBL_DATE_ENTERED' => 'تاریخ ایجاد:',
+    'LBL_DATE_ENTERED' => 'Date Created:',
     'LBL_DATE_MODIFIED' => 'تاریخ ویرایش:',
     'LBL_EDIT_BUTTON' => 'ویرایش',
-    'LBL_DUPLICATE_BUTTON' => 'متناظر',
+    'LBL_DUPLICATE_BUTTON' => 'تکراری',
     'LBL_DELETE_BUTTON' => 'حذف',
     'LBL_DELETE' => 'حذف',
     'LBL_DELETED' => 'حذف شده',
@@ -1571,10 +1571,10 @@ $app_strings = array(
     'LBL_VCARD_ERROR_DEFAULT' => 'There was an error uploading the vCard file. Please refer to suitecrm.log for details.',
     'LBL_IMPORT_VCARD' => 'وارد‌سازی vCard:',
     'LBL_IMPORT_VCARD_BUTTON_LABEL' => 'درون‌ریزی vCard',
-    'LBL_IMPORT_VCARD_BUTTON_TITLE' => 'درون‌ریزی vCard',
-    'LBL_VIEW_BUTTON' => 'مشاهده',
+    'LBL_IMPORT_VCARD_BUTTON_TITLE' => 'Import vCard',
+    'LBL_VIEW_BUTTON' => 'View',
     'LBL_EMAIL_PDF_BUTTON_LABEL' => 'ایمیل به عنوان PDF',
-    'LBL_EMAIL_PDF_BUTTON_TITLE' => 'ایمیل به عنوان PDF',
+    'LBL_EMAIL_PDF_BUTTON_TITLE' => 'Email as PDF',
     'LBL_EMAILS' => 'ایمیل‌ها',
     'LBL_EMPLOYEES' => 'کارمندها',
     'LBL_ENTER_DATE' => 'تاریخ را وارد کنید',
@@ -1582,13 +1582,13 @@ $app_strings = array(
     'LBL_FAVORITES_FILTER' => 'My Favorites:',
     'LBL_GO_BUTTON_LABEL' => 'برو',
     'LBL_HIDE' => 'پنهان کن',
-    'LBL_ID' => 'شناسه',
+    'LBL_ID' => 'ID',
     'LBL_IMPORT' => 'درون‌ریزی',
     'LBL_IMPORT_STARTED' => 'وارد‌سازی آغاز شد: ',
     'LBL_LAST_VIEWED' => 'مشاهده‌های اخیر',
     'LBL_LEADS' => 'سرنخ‌ها',
     'LBL_LESS' => 'کمتر',
-    'LBL_CAMPAIGN' => 'کمپین:',
+    'LBL_CAMPAIGN' => 'Campaign:',
     'LBL_CAMPAIGNS' => 'کمپین‌ها',
     'LBL_CAMPAIGNLOG' => 'گزارش وضعیت کمپین',
     'LBL_CAMPAIGN_CONTACT' => 'کمپین‌ها',
@@ -1598,14 +1598,14 @@ $app_strings = array(
     'LBL_FOUND_IN_RELEASE' => 'یافت شده در انتشار یافته ها',
     'LBL_FIXED_IN_RELEASE' => 'رفع شده در انتشار',
     'LBL_LIST_ACCOUNT_NAME' => 'نام حساب',
-    'LBL_LIST_ASSIGNED_USER' => 'کاربر',
+    'LBL_LIST_ASSIGNED_USER' => 'User',
     'LBL_LIST_CONTACT_NAME' => 'نام مخاطب',
     'LBL_LIST_CONTACT_ROLE' => 'نقش مخاطب',
-    'LBL_LIST_DATE_ENTERED' => 'تاریخ ایجاد',
+    'LBL_LIST_DATE_ENTERED' => 'Date Created',
     'LBL_LIST_EMAIL' => 'ایمیل',
     'LBL_LIST_NAME' => 'نام',
     'LBL_LIST_OF' => 'از',
-    'LBL_LIST_PHONE' => 'تلفن',
+    'LBL_LIST_PHONE' => 'Phone',
     'LBL_LIST_RELATED_TO' => 'مربوط به',
     'LBL_LIST_USER_NAME' => 'نام کاربر',
     'LBL_LISTVIEW_NO_SELECTED' => 'لطفا برای ادامه ی عملیات حداقل 1 ردیف را انتخاب کنید.',
@@ -1626,7 +1626,7 @@ $app_strings = array(
     'LBL_NO_MASS_UPDATE_FIELDS_AVAILABLE' => 'هیچ فیلدی برای عملیات به‌روز‌رسانی جمعی در دسترس نیست',
     'LBL_OPT_OUT_FLAG_PRIMARY' => 'لغو ایمیل اصلی',
     'LBL_OPT_IN_FLAG_PRIMARY' => 'Opt in Primary Email',
-    'LBL_MEETINGS' => 'جلسات',
+    'LBL_MEETINGS' => 'جلسه‌ها',
     'LBL_MEETING_GO_BACK' => 'بازگشت به جلسه',
     'LBL_MEMBERS' => 'اعضای',
     'LBL_MEMBER_OF' => 'عضو',
@@ -1640,12 +1640,12 @@ $app_strings = array(
     'LBL_NEW_BUTTON_KEY' => 'شمال',
     'LBL_NEW_BUTTON_LABEL' => 'ایجاد',
     'LBL_NEW_BUTTON_TITLE' => 'ایجاد',
-    'LBL_NEXT_BUTTON_LABEL' => 'ادامه',
+    'LBL_NEXT_BUTTON_LABEL' => 'بعدی',
     'LBL_NONE' => '--هیچ--',
     'LBL_NOTES' => 'یادداشت‌ها',
     'LBL_OPPORTUNITIES' => 'فرصت‌ها',
     'LBL_OPPORTUNITY_NAME' => 'نام فرصت',
-    'LBL_OPPORTUNITY' => 'فرصت',
+    'LBL_OPPORTUNITY' => 'Opportunity',
     'LBL_OR' => 'یا',
     'LBL_PANEL_OVERVIEW' => 'خلاصه',
     'LBL_PANEL_ASSIGNMENT' => 'دیگر',
@@ -1654,11 +1654,11 @@ $app_strings = array(
     'LBL_PERCENTAGE_SYMBOL' => '%',
     'LBL_POSTAL_CODE' => 'کد پستی:',
     'LBL_PRIMARY_ADDRESS_CITY' => 'شهر آدرس اولیه:',
-    'LBL_PRIMARY_ADDRESS_COUNTRY' => 'کشور آدرس اولیه:',
+    'LBL_PRIMARY_ADDRESS_COUNTRY' => 'Primary Address Country:',
     'LBL_PRIMARY_ADDRESS_POSTALCODE' => 'کد پستی آدرس اولیه:',
     'LBL_PRIMARY_ADDRESS_STATE' => 'استان آدرس اولیه:',
     'LBL_PRIMARY_ADDRESS_STREET_2' => 'ادامه آدرس اولیه:',
-    'LBL_PRIMARY_ADDRESS_STREET_3' => 'ادامه آدرس اولیه:',
+    'LBL_PRIMARY_ADDRESS_STREET_3' => 'Primary Address Street 3:',
     'LBL_PRIMARY_ADDRESS_STREET' => 'آدرس اولیه:',
     'LBL_PRIMARY_ADDRESS' => 'آدرس اولیه:',
 
@@ -1666,7 +1666,7 @@ $app_strings = array(
     'LBL_PRODUCTS' => 'محصولات',
     'LBL_PROJECT_TASKS' => 'وظایف پروژه',
     'LBL_PROJECTS' => 'پروژه‌ها',
-    'LBL_QUOTES' => 'پیش فاکتور',
+    'LBL_QUOTES' => 'پیش‌فاکتورها',
 
     'LBL_RELATED' => 'مربوط',
     'LBL_RELATED_RECORDS' => 'سوابق مرتبط',
@@ -1683,9 +1683,9 @@ $app_strings = array(
     'LBL_SAVE_OBJECT' => 'ذخیره {0}',
     'LBL_SEARCH_BUTTON_KEY' => 'Q',
     'LBL_SEARCH_BUTTON_LABEL' => 'جستجو',
-    'LBL_SEARCH_BUTTON_TITLE' => 'جستجو',
-    'LBL_FILTER' => 'جستجو',
-    'LBL_SEARCH' => 'جستجو',
+    'LBL_SEARCH_BUTTON_TITLE' => 'Search',
+    'LBL_FILTER' => 'فیلتر',
+    'LBL_SEARCH' => 'Search',
     'LBL_SEARCH_ALT' => '',
     'LBL_SEARCH_MORE' => 'بیشتر',
     'LBL_UPLOAD_IMAGE_FILE_INVALID' => 'فرمت فایل معتبر نیست، تنها فایل های از نوع عکس می توانند بارگذاری شوند.',
@@ -1693,10 +1693,10 @@ $app_strings = array(
     'LBL_SELECT_BUTTON_LABEL' => 'انتخاب',
     'LBL_SELECT_BUTTON_TITLE' => 'انتخاب',
     'LBL_BROWSE_DOCUMENTS_BUTTON_LABEL' => 'مرور اسناد',
-    'LBL_BROWSE_DOCUMENTS_BUTTON_TITLE' => 'مرور اسناد',
+    'LBL_BROWSE_DOCUMENTS_BUTTON_TITLE' => 'Browse Documents',
     'LBL_SELECT_CONTACT_BUTTON_KEY' => 'T',
     'LBL_SELECT_CONTACT_BUTTON_LABEL' => 'انتخاب مخاطب',
-    'LBL_SELECT_CONTACT_BUTTON_TITLE' => 'انتخاب مخاطب',
+    'LBL_SELECT_CONTACT_BUTTON_TITLE' => 'Select Contact',
     'LBL_SELECT_REPORTS_BUTTON_LABEL' => 'از میان گزارش ها انتخاب کنید',
     'LBL_SELECT_REPORTS_BUTTON_TITLE' => 'گزارش ها را انتخاب کنید.',
     'LBL_SELECT_USER_BUTTON_KEY' => 'U',
@@ -1711,7 +1711,7 @@ $app_strings = array(
     'LBL_ACCESSKEY_CLEAR_COLLECTION_LABEL' => 'لغو انتخاب شده‌ها',
     'LBL_ACCESSKEY_SELECT_FILE_KEY' => 'F',
     'LBL_ACCESSKEY_SELECT_FILE_TITLE' => 'فایل را انتخاب کنید',
-    'LBL_ACCESSKEY_SELECT_FILE_LABEL' => 'فایل را انتخاب کنید',
+    'LBL_ACCESSKEY_SELECT_FILE_LABEL' => 'انتخاب فایل',
     'LBL_ACCESSKEY_CLEAR_FILE_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_FILE_TITLE' => 'Clear File',
     'LBL_ACCESSKEY_CLEAR_FILE_LABEL' => 'Clear File',
@@ -1721,10 +1721,10 @@ $app_strings = array(
     'LBL_ACCESSKEY_SELECT_USERS_LABEL' => 'انتخاب کاربر',
     'LBL_ACCESSKEY_CLEAR_USERS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_USERS_TITLE' => 'پاک کردن کاربر ',
-    'LBL_ACCESSKEY_CLEAR_USERS_LABEL' => 'پاک کردن کاربر ',
+    'LBL_ACCESSKEY_CLEAR_USERS_LABEL' => 'Clear User',
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_KEY' => 'A',
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_TITLE' => 'انتخاب مرکز',
-    'LBL_ACCESSKEY_SELECT_ACCOUNTS_LABEL' => 'انتخاب مرکز',
+    'LBL_ACCESSKEY_SELECT_ACCOUNTS_LABEL' => 'Select Account',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_TITLE' => 'Clear Account',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_LABEL' => 'Clear Account',
@@ -1735,8 +1735,8 @@ $app_strings = array(
     'LBL_ACCESSKEY_CLEAR_CAMPAIGNS_TITLE' => 'پاک کردن کمپین',
     'LBL_ACCESSKEY_CLEAR_CAMPAIGNS_LABEL' => 'پاک کردن کمپین',
     'LBL_ACCESSKEY_SELECT_CONTACTS_KEY' => 'C',
-    'LBL_ACCESSKEY_SELECT_CONTACTS_TITLE' => 'انتخاب مخاطب',
-    'LBL_ACCESSKEY_SELECT_CONTACTS_LABEL' => 'انتخاب مخاطب',
+    'LBL_ACCESSKEY_SELECT_CONTACTS_TITLE' => 'Select Contact',
+    'LBL_ACCESSKEY_SELECT_CONTACTS_LABEL' => 'Select Contact',
     'LBL_ACCESSKEY_CLEAR_CONTACTS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_CONTACTS_TITLE' => 'Clear Contact',
     'LBL_ACCESSKEY_CLEAR_CONTACTS_LABEL' => 'Clear Contact',
@@ -1757,7 +1757,7 @@ $app_strings = array(
     'LBL_SHOW' => 'نمایش',
     'LBL_STATE' => 'وضعیت:',
     'LBL_STATUS_UPDATED' => 'Your Status for this event has been updated!',
-    'LBL_STATUS' => 'وضعیت',
+    'LBL_STATUS' => 'Status:',
     'LBL_STREET' => 'خیابان',
     'LBL_SUBJECT' => 'موضوع',
 
@@ -1776,21 +1776,21 @@ $app_strings = array(
     'LBL_SCENARIO_PROJECT_DESCRIPTION' => 'This scenario facilitates the management of project related items',
 
     'LBL_SYNC' => 'همگام‌سازی',
-    'LBL_TABGROUP_ALL' => 'همه',
+    'LBL_TABGROUP_ALL' => 'All',
     'LBL_TABGROUP_ACTIVITIES' => 'فعالیت‌ها',
     'LBL_TABGROUP_COLLABORATION' => 'همکاری',
     'LBL_TABGROUP_MARKETING' => 'بازاریابی',
-    'LBL_TABGROUP_OTHER' => 'دیگر',
+    'LBL_TABGROUP_OTHER' => 'سایر',
     'LBL_TABGROUP_SALES' => 'فروش',
     'LBL_TABGROUP_SUPPORT' => 'پشتیبانی',
     'LBL_TASKS' => 'وظایف',
     'LBL_THOUSANDS_SYMBOL' => 'K',
     'LBL_TRACK_EMAIL_BUTTON_LABEL' => 'آرشیو ایمیل',
-    'LBL_TRACK_EMAIL_BUTTON_TITLE' => 'آرشیو ایمیل',
+    'LBL_TRACK_EMAIL_BUTTON_TITLE' => 'Archive Email',
     'LBL_UNDELETE_BUTTON_LABEL' => 'بازگردانی',
-    'LBL_UNDELETE_BUTTON_TITLE' => 'بازگردانی',
-    'LBL_UNDELETE_BUTTON' => 'بازگردانی',
-    'LBL_UNDELETE' => 'بازگردانی',
+    'LBL_UNDELETE_BUTTON_TITLE' => 'Undelete',
+    'LBL_UNDELETE_BUTTON' => 'Undelete',
+    'LBL_UNDELETE' => 'Undelete',
     'LBL_UNSYNC' => 'نا همگام',
     'LBL_UPDATE' => 'به‌روز رسانی',
     'LBL_USER_LIST' => 'لیست کاربر',
@@ -1805,7 +1805,7 @@ $app_strings = array(
     'LBL_ADVANCED_SEARCH' => 'فیلتر پیشرفته',
     'LBL_QUICK_FILTER' => 'فیلتر سریع',
     'LNK_SEARCH_NONFTS_VIEW_ALL' => 'نمایش همه',
-    'LNK_CLOSE' => 'بستن',
+    'LNK_CLOSE' => 'Close',
     'LBL_MODIFY_CURRENT_FILTER' => 'ویرایش فیلتر فعلی',
     'LNK_SAVED_VIEWS' => 'تنظیمات چیدمان',
     'LNK_DELETE' => 'حذف',
@@ -1815,7 +1815,7 @@ $app_strings = array(
     'LNK_HELP' => 'کمک',
     'LNK_CREATE' => 'ایجاد',
     'LNK_LIST_END' => 'پايان',
-    'LNK_LIST_NEXT' => 'ادامه',
+    'LNK_LIST_NEXT' => 'بعدی',
     'LNK_LIST_PREVIOUS' => 'قبلی',
     'LNK_LIST_RETURN' => 'بازگشت به فهرست',
     'LNK_LIST_START' => 'شروع',
@@ -1832,14 +1832,14 @@ $app_strings = array(
     'NTC_DELETE_CONFIRMATION_MULTIPLE' => 'Are you sure you want to delete selected record(s)?',
     'NTC_TEMPLATE_IS_USED' => 'The template is used in at least one email marketing record. Are you sure you want to delete it?',
     'NTC_TEMPLATES_IS_USED' => 'The following templates are used in email marketing records. Are you sure you want to delete them?' . PHP_EOL,
-    'NTC_DELETE_CONFIRMATION' => 'آیا از حذف این سابقه مطمئن هستید؟',
+    'NTC_DELETE_CONFIRMATION' => 'Are you sure you want to delete this record?',
     'NTC_DELETE_CONFIRMATION_NUM' => 'Are you sure you want to delete the ',
     'NTC_UPDATE_CONFIRMATION_NUM' => 'Are you sure you want to update the ',
     'NTC_DELETE_SELECTED_RECORDS' => ' رکرود های انتخاب شده?',
     'NTC_LOGIN_MESSAGE' => 'Please enter your user name and password.',
     'NTC_NO_ITEMS_DISPLAY' => 'هیچ‌کدام',
     'NTC_REMOVE_CONFIRMATION' => 'Are you sure you want to remove this relationship? Only the relationship will be removed. The record will not be deleted.',
-    'NTC_REQUIRED' => 'فیلد های مورد نیاز را نشان می دهد',
+    'NTC_REQUIRED' => 'Indicates required field',
     'NTC_TIME_FORMAT' => '(24:00)',
     'NTC_WELCOME' => 'خوش آمدید',
     'NTC_YEAR_FORMAT' => '(yyyy)',
@@ -1877,12 +1877,12 @@ $app_strings = array(
     'LBL_SEARCHFORM' => 'فرم جستجو',
     'LBL_SAVED_SEARCH_ERROR' => 'Please provide a name for this view.',
     'LBL_DISPLAY_LOG' => 'Display Log',
-    'ERROR_JS_ALERT_SYSTEM_CLASS' => 'سیستم',
+    'ERROR_JS_ALERT_SYSTEM_CLASS' => 'System',
     'ERROR_JS_ALERT_TIMEOUT_TITLE' => 'Session Timeout',
     'ERROR_JS_ALERT_TIMEOUT_MSG_1' => 'Your session is about to timeout in 2 minutes. Please save your work.',
     'ERROR_JS_ALERT_TIMEOUT_MSG_2' => 'جلسه شما را به اتمام رسیده است.',
     'MSG_JS_ALERT_MTG_REMINDER_AGENDA' => "\nAgenda: ",
-    'MSG_JS_ALERT_MTG_REMINDER_MEETING' => 'جلسه',
+    'MSG_JS_ALERT_MTG_REMINDER_MEETING' => 'Meeting',
     'MSG_JS_ALERT_MTG_REMINDER_CALL' => 'تماس',
     'MSG_JS_ALERT_MTG_REMINDER_TIME' => 'زمان: ',
     'MSG_JS_ALERT_MTG_REMINDER_LOC' => 'مکان: ',
@@ -1905,7 +1905,7 @@ $app_strings = array(
     // contextMenu strings
     'LBL_ADD_TO_FAVORITES' => 'افزودن به مورد علاقه های شما',
     'LBL_CREATE_CONTACT' => 'ایجاد مخاطب',
-    'LBL_CREATE_CASE' => 'ایجاد خدمات',
+    'LBL_CREATE_CASE' => 'Create Case',
     'LBL_CREATE_NOTE' => 'ایجاد یادداشت',
     'LBL_CREATE_OPPORTUNITY' => 'ایجاد فرصت',
     'LBL_SCHEDULE_CALL' => 'ثبت تماس',
@@ -1925,7 +1925,7 @@ $app_strings = array(
     'LBL_ADD_ALL_LEAD_FIELDS' => 'اضافه کردن همه فیلد ها',
     'LBL_RESET_ALL_LEAD_FIELDS' => 'Reset all Fields',
     'LBL_REMOVE_ALL_LEAD_FIELDS' => 'حذف همه فیلدها',
-    'LBL_NEXT_BTN' => 'ادامه',
+    'LBL_NEXT_BTN' => 'بعدی',
     'LBL_ONLY_IMAGE_ATTACHMENT' => 'Only the following supported image type attachments can be embedded: JPG, PNG.',
     'LBL_TRAINING' => 'انجمن پشتیبانی',
     'ERR_MSSQL_DB_CONTEXT' => 'Changed database context to',
@@ -1938,10 +1938,10 @@ $app_strings = array(
     'ERR_SMARTY_UNEQUAL_RELATED_FIELD_PARAMETERS' => 'Error: There are an unequal number of arguments for the \'key\' and \'copy\' elements in the displayParams array.',
 
     /* MySugar Framework (for Home and Dashboard) */
-    'LBL_DASHLET_CONFIGURE_GENERAL' => 'عمومی',
+    'LBL_DASHLET_CONFIGURE_GENERAL' => 'General',
     'LBL_DASHLET_CONFIGURE_FILTERS' => 'فیلترها',
     'LBL_DASHLET_CONFIGURE_MY_ITEMS_ONLY' => 'فقط موارد من',
-    'LBL_DASHLET_CONFIGURE_TITLE' => 'عنوان',
+    'LBL_DASHLET_CONFIGURE_TITLE' => 'Title',
     'LBL_DASHLET_CONFIGURE_DISPLAY_ROWS' => 'نمایش سطور',
 
     // MySugar status strings
@@ -1960,14 +1960,14 @@ $app_strings = array(
 
     'LBL_RELOAD_PAGE' => 'لطفا <a href="javascript: window.location.reload()"> مجدد پنجره</a> برای استفاده از این SuiteCRM Dashlet.',
     'LBL_ADD_DASHLETS' => 'افزودن دشلت',
-    'LBL_CLOSE_DASHLETS' => 'بستن',
-    'LBL_OPTIONS' => 'گزینه ها',
+    'LBL_CLOSE_DASHLETS' => 'Close',
+    'LBL_OPTIONS' => 'Options',
     'LBL_1_COLUMN' => '1 ستون',
     'LBL_2_COLUMN' => '2 ستون',
     'LBL_3_COLUMN' => '3 ستون',
     'LBL_PAGE_NAME' => 'نام برگه',
 
-    'LBL_SEARCH_RESULTS' => 'نتایج جستجو',
+    'LBL_SEARCH_RESULTS' => 'Search Results',
     'LBL_SEARCH_MODULES' => 'ماژولها',
     'LBL_SEARCH_TOOLS' => 'ابزار',
     'LBL_SEARCH_HELP_TITLE' => 'نکات جستجو',
@@ -2022,7 +2022,7 @@ $app_strings = array(
     'LBL_CHOOSE_START_AND_END_ENTRIES' => 'لطفا هر دو محدوده تاریخ شروع و پایان را انتخاب کنید',
 
     //jchi #  20776
-    'LBL_DROPDOWN_LIST_ALL' => 'همه',
+    'LBL_DROPDOWN_LIST_ALL' => 'All',
 
     //Connector
     'ERR_CONNECTOR_FILL_BEANS_SIZE_MISMATCH' => 'Error: The Array count of the bean parameter does not match the Array count of the results.',
@@ -2034,12 +2034,12 @@ $app_strings = array(
 
     //Collection Field
     'LBL_COLLECTION_NAME' => 'نام',
-    'LBL_COLLECTION_PRIMARY' => 'اصلی',
+    'LBL_COLLECTION_PRIMARY' => 'Primary',
     'ERROR_MISSING_COLLECTION_SELECTION' => 'Empty required field',
 
     //MB -Fixed Bug #32812 -Max
     'LBL_ASSIGNED_TO_NAME' => 'اختصاص داده شده به',
-    'LBL_DESCRIPTION' => 'توضیحات',
+    'LBL_DESCRIPTION' => 'Description',
 
     'LBL_YESTERDAY' => 'دیروز',
     'LBL_TODAY' => 'امروز',
@@ -2107,7 +2107,7 @@ $app_strings = array(
     'LBL_NOTIFICATIONS_NONE' => 'هیچ اطلاعیه در جریانی موجود نیست',
     'LBL_ALT_SORT_DESC' => 'مرتب شده نزولی',
     'LBL_ALT_SORT_ASC' => 'مرتب سازی صعودی',
-    'LBL_ALT_SORT' => 'مرتب‌سازی',
+    'LBL_ALT_SORT' => 'Sort',
     'LBL_ALT_SHOW_OPTIONS' => 'نمایش گزینه های',
     'LBL_ALT_HIDE_OPTIONS' => 'پنهان کردن گزینه‌ها',
     'LBL_ALT_MOVE_COLUMN_LEFT' => 'Move selected entry to the list on the left',
@@ -2136,8 +2136,8 @@ $app_strings = array(
     'LBL_EDIT_BUTTON_LABEL' => 'ویرایش',
     'LBL_EDIT_BUTTON_TITLE' => 'ویرایش',
     'LBL_DUPLICATE_BUTTON_KEY' => 'u',
-    'LBL_DUPLICATE_BUTTON_LABEL' => 'متناظر',
-    'LBL_DUPLICATE_BUTTON_TITLE' => 'متناظر',
+    'LBL_DUPLICATE_BUTTON_LABEL' => 'تکراری',
+    'LBL_DUPLICATE_BUTTON_TITLE' => 'تکراری',
     'LBL_DELETE_BUTTON_KEY' => 'd',
     'LBL_DELETE_BUTTON_LABEL' => 'حذف',
     'LBL_DELETE_BUTTON_TITLE' => 'حذف',
@@ -2156,7 +2156,7 @@ $app_strings = array(
     'ERR_CONNECTOR_NOT_ARRAY' => 'connector array in {0} been defined incorrectly or is empty and could not be used.',
     'ERR_SUHOSIN' => 'Upload stream is blocked by Suhosin, please add &quot;upload&quot; to suhosin.executor.include.whitelist (See suitecrm.log for more information)',
     'ERR_BAD_RESPONSE_FROM_SERVER' => 'پاسخ بد از سمت سرور',
-    'LBL_ACCOUNT_PRODUCT_QUOTE_LINK' => 'پیش‌فاکتور',
+    'LBL_ACCOUNT_PRODUCT_QUOTE_LINK' => 'Quote',
     'LBL_ACCOUNT_PRODUCT_SALE_PRICE' => 'قیمت فروش',
     'LBL_EMAIL_CHECK_INTERVAL_DOM' => array(
         '-1' => 'دستی',
@@ -2180,10 +2180,10 @@ $app_strings = array(
     'LBL_HIDDEN' => 'مخفی',
     'ERR_EMPTY_COLUMNS_LIST' => 'At least, one element required',
 
-    'LBL_FILTER_HEADER_TITLE' => 'جستجو',
+    'LBL_FILTER_HEADER_TITLE' => 'فیلتر',
 
-    'LBL_CATEGORY' => 'دسته',
-    'LBL_LIST_CATEGORY' => 'دسته',
+    'LBL_CATEGORY' => 'Category',
+    'LBL_LIST_CATEGORY' => 'Category',
     'ERR_FACTOR_TPL_INVALID' => 'Factor Authentication message is invalid, please contact to your administrator.',
     'LBL_SUBTHEMES' => 'استایل',
     'LBL_SUBTHEME_OPTIONS_DAWN' => 'Dawn',
@@ -2228,12 +2228,12 @@ $app_strings = array(
 );
 
 $app_list_strings['moduleList']['Library'] = 'کتابخانه';
-$app_list_strings['moduleList']['EmailAddresses'] = 'آدرس ایمیل';
-$app_list_strings['project_priority_default'] = 'متوسط';
+$app_list_strings['moduleList']['EmailAddresses'] = 'Email Address';
+$app_list_strings['project_priority_default'] = 'Medium';
 $app_list_strings['project_priority_options'] = array(
-    'High' => 'بالا',
-    'Medium' => 'متوسط',
-    'Low' => 'پایین',
+    'High' => 'High',
+    'Medium' => 'Medium',
+    'Low' => 'Low',
 );
 
 //GDPR lawful basis options
@@ -2253,7 +2253,7 @@ $app_list_strings['lawful_basis_dom'] = array(
 $app_list_strings['lawful_basis_source_dom'] = array(
     '' => '',
     'website' => 'وب سایت',
-    'phone' => 'تلفن',
+    'phone' => 'Phone',
     'given_to_user' => 'Given to User',
     'email' => 'ایمیل',
     'third_party' => 'Third Party',
@@ -2424,7 +2424,7 @@ $app_list_strings['countries_dom'] = array(
     'NORFOLK ISLAND' => 'جزیره نورفولک',
     'NORWAY' => 'نروژ',
     'OMAN' => 'عمان',
-    'OTHER' => 'دیگر',
+    'OTHER' => 'OTHER',
     'PACIFIC ISLAND' => 'جزیره های اقیانوس آرام',
     'PAKISTAN' => 'پاکستان',
     'PANAMA' => 'پاناما',
@@ -2928,14 +2928,14 @@ $app_list_strings['eapm_list_documents'] = array(
 $app_list_strings['token_status'] = array(
     1 => 'درخواست',
     2 => 'دسترسی',
-    3 => 'نامعتبر',
+    3 => 'Invalid',
 );
 
 $app_list_strings ['emailTemplates_type_list'] = array(
     '' => '',
     'campaign' => 'کمپین',
     'email' => 'ایمیل',
-    'event' => 'رویداد',
+    'event' => 'Event',
 );
 
 $app_list_strings ['emailTemplates_type_list_campaigns'] = array(
@@ -2947,15 +2947,15 @@ $app_list_strings ['emailTemplates_type_list_no_workflow'] = array(
     '' => '',
     'campaign' => 'کمپین',
     'email' => 'ایمیل',
-    'event' => 'رویداد',
-    'system' => 'سیستم',
+    'event' => 'Event',
+    'system' => 'System',
 );
 
 // knowledge base
 $app_list_strings['moduleList']['AOK_KnowledgeBase'] = 'دانش بنیان';
 $app_list_strings['moduleList']['AOK_Knowledge_Base_Categories'] = 'KB - Categories';
-$app_list_strings['aok_status_list']['Draft'] = 'پیش نویس';
-$app_list_strings['aok_status_list']['Expired'] = 'منقضی شده';
+$app_list_strings['aok_status_list']['Draft'] = 'پیش‌نویس';
+$app_list_strings['aok_status_list']['Expired'] = 'Expired';
 $app_list_strings['aok_status_list']['In_Review'] = 'در حال بررسی';
 //$app_list_strings['aok_status_list']['Published'] = 'Published';
 $app_list_strings['aok_status_list']['published_private'] = 'خصوصی';
@@ -2969,7 +2969,7 @@ $app_list_strings['fp_event_invite_status_dom']['Invited'] = 'دعوت شده';
 $app_list_strings['fp_event_invite_status_dom']['Not Invited'] = 'دعوت نشده';
 $app_list_strings['fp_event_invite_status_dom']['Attended'] = 'شرکت کرده';
 $app_list_strings['fp_event_invite_status_dom']['Not Attended'] = 'شرکت نکرده';
-$app_list_strings['fp_event_status_dom']['Accepted'] = 'قبول شده';
+$app_list_strings['fp_event_status_dom']['Accepted'] = 'پذیرفته‌شده';
 $app_list_strings['fp_event_status_dom']['Declined'] = 'رد شده';
 $app_list_strings['fp_event_status_dom']['No Response'] = 'بدون پاسخ';
 
@@ -2992,7 +2992,7 @@ $app_strings['LBL_AOP_EMAIL_REPLY_DELIMITER'] = '========== لطفا بالای 
 $app_list_strings['case_state_default_key'] = 'باز';
 $app_list_strings['case_state_dom'] =
     array(
-        'Open' => 'باز',
+        'Open' => 'Open',
         'Closed' => 'بسته',
     );
 $app_list_strings['case_status_default_key'] = 'Open_New';
@@ -3003,7 +3003,7 @@ $app_list_strings['case_status_dom'] =
         'Closed_Closed' => 'بسته',
         'Open_Pending Input' => 'منتظر ورودی',
         'Closed_Rejected' => 'رد شده',
-        'Closed_Duplicate' => 'متناظر',
+        'Closed_Duplicate' => 'تکراری',
     );
 $app_list_strings['contact_portal_user_type_dom'] =
     array(
@@ -3014,7 +3014,7 @@ $app_list_strings['dom_email_distribution_for_auto_create'] = array(
     'AOPDefault' => 'پیشفرض سیستم',
     'singleUser' => 'تک کاربره',
     'roundRobin' => 'Round-Robin',
-    'leastBusy' => 'کم مشغله‌ترین',
+    'leastBusy' => 'Least-Busy',
     'random' => 'تصادفی',
 );
 
@@ -3068,7 +3068,7 @@ $app_list_strings['aor_date_operator']['plus'] = '+';
 $app_list_strings['aor_date_operator']['minus'] = '-';
 $app_list_strings['aor_sort_operator'][''] = '';
 $app_list_strings['aor_sort_operator']['ASC'] = 'صعودی';
-$app_list_strings['aor_sort_operator']['DESC'] = 'نزولی';
+$app_list_strings['aor_sort_operator']['DESC'] = 'Descending';
 $app_list_strings['aor_function_list'][''] = '';
 $app_list_strings['aor_function_list']['COUNT'] = 'تعداد';
 $app_list_strings['aor_function_list']['MIN'] = 'کمترین';
@@ -3076,32 +3076,32 @@ $app_list_strings['aor_function_list']['MAX'] = 'بیشترین';
 $app_list_strings['aor_function_list']['SUM'] = 'مجموع';
 $app_list_strings['aor_function_list']['AVG'] = 'میانگین';
 $app_list_strings['aor_total_options'][''] = '';
-$app_list_strings['aor_total_options']['COUNT'] = 'تعداد';
-$app_list_strings['aor_total_options']['SUM'] = 'مجموع';
-$app_list_strings['aor_total_options']['AVG'] = 'میانگین';
+$app_list_strings['aor_total_options']['COUNT'] = 'Count';
+$app_list_strings['aor_total_options']['SUM'] = 'Sum';
+$app_list_strings['aor_total_options']['AVG'] = 'Average';
 $app_list_strings['aor_chart_types']['bar'] = 'نمودار میله‌ای';
 $app_list_strings['aor_chart_types']['line'] = 'نمودار خطی';
 $app_list_strings['aor_chart_types']['pie'] = 'نمودار دایره‌ای';
 $app_list_strings['aor_chart_types']['radar'] = 'نمودار راداری';
 $app_list_strings['aor_chart_types']['stacked_bar'] = 'میله‌ای ِ انباشه';
 $app_list_strings['aor_chart_types']['grouped_bar'] = 'میله‌ای گروه‌بندی شده';
-$app_list_strings['aor_scheduled_report_schedule_types']['monthly'] = 'ماهیانه';
-$app_list_strings['aor_scheduled_report_schedule_types']['weekly'] = 'هفتگی';
-$app_list_strings['aor_scheduled_report_schedule_types']['daily'] = 'روزانه';
+$app_list_strings['aor_scheduled_report_schedule_types']['monthly'] = 'Monthly';
+$app_list_strings['aor_scheduled_report_schedule_types']['weekly'] = 'Weekly';
+$app_list_strings['aor_scheduled_report_schedule_types']['daily'] = 'Daily';
 $app_list_strings['aor_scheduled_reports_status_dom']['active'] = 'فعال';
-$app_list_strings['aor_scheduled_reports_status_dom']['inactive'] = 'غیر فعال';
+$app_list_strings['aor_scheduled_reports_status_dom']['inactive'] = 'غیرفعال';
 $app_list_strings['aor_email_type_list']['Email Address'] = 'ایمیل';
-$app_list_strings['aor_email_type_list']['Specify User'] = 'کاربر';
+$app_list_strings['aor_email_type_list']['Specify User'] = 'User';
 $app_list_strings['aor_email_type_list']['Users'] = 'کاربرها';
 $app_list_strings['aor_assign_options']['all'] = 'همه‌ کاربرها';
 $app_list_strings['aor_assign_options']['role'] = 'همه کاربرها با این نقش';
 $app_list_strings['aor_assign_options']['security_group'] = 'تمام کاربرها در گروه امنیتی';
-$app_list_strings['date_time_period_list']['today'] = 'امروز';
+$app_list_strings['date_time_period_list']['today'] = 'Today';
 $app_list_strings['date_time_period_list']['yesterday'] = 'دیروز';
 $app_list_strings['date_time_period_list']['this_week'] = 'این هفته';
 $app_list_strings['date_time_period_list']['last_week'] = 'هفته پیش';
-$app_list_strings['date_time_period_list']['last_month'] = 'ماه گذشته';
-$app_list_strings['date_time_period_list']['this_month'] = 'این ماه';
+$app_list_strings['date_time_period_list']['last_month'] = 'Last Month';
+$app_list_strings['date_time_period_list']['this_month'] = 'This Month';
 $app_list_strings['date_time_period_list']['this_quarter'] = 'این فصل';
 $app_list_strings['date_time_period_list']['last_quarter'] = 'سه ماهه گذشته';
 $app_list_strings['date_time_period_list']['this_year'] = 'امسال';
@@ -3112,41 +3112,41 @@ $app_strings['LBL_CRON_AT'] = 'در';
 $app_strings['LBL_CRON_RAW'] = 'پیشرفته';
 $app_strings['LBL_CRON_MIN'] = 'دقیقه';
 $app_strings['LBL_CRON_HOUR'] = 'ساعت';
-$app_strings['LBL_CRON_DAY'] = 'روز';
+$app_strings['LBL_CRON_DAY'] = 'Day';
 $app_strings['LBL_CRON_MONTH'] = 'ماه';
 $app_strings['LBL_CRON_DOW'] = 'روزِ هفته';
-$app_strings['LBL_CRON_DAILY'] = 'روزانه';
-$app_strings['LBL_CRON_WEEKLY'] = 'هفتگی';
-$app_strings['LBL_CRON_MONTHLY'] = 'ماهیانه';
+$app_strings['LBL_CRON_DAILY'] = 'Daily';
+$app_strings['LBL_CRON_WEEKLY'] = 'Weekly';
+$app_strings['LBL_CRON_MONTHLY'] = 'Monthly';
 
 //aos
 $app_list_strings['moduleList']['AOS_Contracts'] = 'قراردادها';
-$app_list_strings['moduleList']['AOS_Invoices'] = 'فاکتورها';
+$app_list_strings['moduleList']['AOS_Invoices'] = 'صورت‌حساب‌ها';
 $app_list_strings['moduleList']['AOS_PDF_Templates'] = 'PDF - Templates';
 $app_list_strings['moduleList']['AOS_Product_Categories'] = 'Products - Categories';
-$app_list_strings['moduleList']['AOS_Products'] = 'محصولات';
+$app_list_strings['moduleList']['AOS_Products'] = 'Products';
 $app_list_strings['moduleList']['AOS_Products_Quotes'] = 'ردیف';
 $app_list_strings['moduleList']['AOS_Line_Item_Groups'] = 'گروه‌های موارد';
-$app_list_strings['moduleList']['AOS_Quotes'] = 'پیش فاکتور';
+$app_list_strings['moduleList']['AOS_Quotes'] = 'نقل قول ها';
 $app_list_strings['aos_quotes_type_dom'][''] = '';
-$app_list_strings['aos_quotes_type_dom']['Analyst'] = 'تحلیل‌گر';
-$app_list_strings['aos_quotes_type_dom']['Competitor'] = 'رقیب';
+$app_list_strings['aos_quotes_type_dom']['Analyst'] = 'Analyst';
+$app_list_strings['aos_quotes_type_dom']['Competitor'] = 'Competitor';
 $app_list_strings['aos_quotes_type_dom']['Customer'] = 'مشتری';
-$app_list_strings['aos_quotes_type_dom']['Integrator'] = 'تلفیق کننده';
+$app_list_strings['aos_quotes_type_dom']['Integrator'] = 'تلفیق دهنده';
 $app_list_strings['aos_quotes_type_dom']['Investor'] = 'سرمایه‌گذار';
 $app_list_strings['aos_quotes_type_dom']['Partner'] = 'شریک';
 $app_list_strings['aos_quotes_type_dom']['Press'] = 'مطبوعات';
 $app_list_strings['aos_quotes_type_dom']['Prospect'] = 'مشتری بالقوه';
 $app_list_strings['aos_quotes_type_dom']['Reseller'] = 'نماینده‌ی فروش';
-$app_list_strings['aos_quotes_type_dom']['Other'] = 'دیگر';
+$app_list_strings['aos_quotes_type_dom']['Other'] = 'سایر';
 $app_list_strings['template_ddown_c_list'][''] = '';
-$app_list_strings['quote_stage_dom']['Draft'] = 'پیش نویس';
+$app_list_strings['quote_stage_dom']['Draft'] = 'پیش‌نویس';
 $app_list_strings['quote_stage_dom']['Negotiation'] = 'مذاکره';
 $app_list_strings['quote_stage_dom']['Delivered'] = 'تحویل‌شده';
-$app_list_strings['quote_stage_dom']['On Hold'] = 'در انتظار';
+$app_list_strings['quote_stage_dom']['On Hold'] = 'On Hold';
 $app_list_strings['quote_stage_dom']['Confirmed'] = 'تأیید شده';
 $app_list_strings['quote_stage_dom']['Closed Accepted'] = 'بسته و پذیرفته شده';
-$app_list_strings['quote_stage_dom']['Closed Lost'] = 'شکست خورد';
+$app_list_strings['quote_stage_dom']['Closed Lost'] = 'Closed Lost';
 $app_list_strings['quote_stage_dom']['Closed Dead'] = 'بسته و از بین‌رفته';
 $app_list_strings['quote_term_dom']['Net 15'] = 'نقدی 15 روزه';
 $app_list_strings['quote_term_dom']['Net 30'] = 'نقدی 30 روزه';
@@ -3162,16 +3162,16 @@ $app_list_strings['vat_list']['20.0'] = '20%';
 $app_list_strings['discount_list']['Percentage'] = 'درصد';
 $app_list_strings['discount_list']['Amount'] = 'مقدار';
 $app_list_strings['aos_invoices_type_dom'][''] = '';
-$app_list_strings['aos_invoices_type_dom']['Analyst'] = 'تحلیل‌گر';
-$app_list_strings['aos_invoices_type_dom']['Competitor'] = 'رقیب';
+$app_list_strings['aos_invoices_type_dom']['Analyst'] = 'Analyst';
+$app_list_strings['aos_invoices_type_dom']['Competitor'] = 'Competitor';
 $app_list_strings['aos_invoices_type_dom']['Customer'] = 'مشتری';
-$app_list_strings['aos_invoices_type_dom']['Integrator'] = 'تلفیق کننده';
+$app_list_strings['aos_invoices_type_dom']['Integrator'] = 'تلفیق دهنده';
 $app_list_strings['aos_invoices_type_dom']['Investor'] = 'سرمایه‌گذار';
 $app_list_strings['aos_invoices_type_dom']['Partner'] = 'شریک';
 $app_list_strings['aos_invoices_type_dom']['Press'] = 'مطبوعات';
 $app_list_strings['aos_invoices_type_dom']['Prospect'] = 'مشتری بالقوه';
 $app_list_strings['aos_invoices_type_dom']['Reseller'] = 'نماینده‌ی فروش';
-$app_list_strings['aos_invoices_type_dom']['Other'] = 'دیگر';
+$app_list_strings['aos_invoices_type_dom']['Other'] = 'سایر';
 $app_list_strings['invoice_status_dom']['Paid'] = 'پرداخت شده';
 $app_list_strings['invoice_status_dom']['Unpaid'] = 'پرداخت نشده';
 $app_list_strings['invoice_status_dom']['Cancelled'] = 'لغو شده';
@@ -3185,18 +3185,18 @@ $app_list_strings['product_category_dom']['Desktops'] = 'کامپیوتر روم
 $app_list_strings['product_category_dom'][''] = '';
 $app_list_strings['product_type_dom']['Good'] = 'کالا';
 $app_list_strings['product_type_dom']['Service'] = 'خدمات';
-$app_list_strings['product_quote_parent_type_dom']['AOS_Quotes'] = 'پیش فاکتور';
-$app_list_strings['product_quote_parent_type_dom']['AOS_Invoices'] = 'فاکتورها';
+$app_list_strings['product_quote_parent_type_dom']['AOS_Quotes'] = 'نقل قول ها';
+$app_list_strings['product_quote_parent_type_dom']['AOS_Invoices'] = 'صورت‌حساب‌ها';
 $app_list_strings['product_quote_parent_type_dom']['AOS_Contracts'] = 'قراردادها';
-$app_list_strings['pdf_template_type_dom']['AOS_Quotes'] = 'پیش فاکتور';
-$app_list_strings['pdf_template_type_dom']['AOS_Invoices'] = 'فاکتورها';
+$app_list_strings['pdf_template_type_dom']['AOS_Quotes'] = 'نقل قول ها';
+$app_list_strings['pdf_template_type_dom']['AOS_Invoices'] = 'صورت‌حساب‌ها';
 $app_list_strings['pdf_template_type_dom']['AOS_Contracts'] = 'قراردادها';
-$app_list_strings['pdf_template_type_dom']['Accounts'] = 'حساب ها';
+$app_list_strings['pdf_template_type_dom']['Accounts'] = 'حساب‌ها';
 $app_list_strings['pdf_template_type_dom']['Contacts'] = 'مخاطب‌ها';
 $app_list_strings['pdf_template_type_dom']['Leads'] = 'سرنخ‌ها';
 $app_list_strings['pdf_template_sample_dom'][''] = '';
 $app_list_strings['contract_status_list']['Not Started'] = 'شروع نشده';
-$app_list_strings['contract_status_list']['In Progress'] = 'در حال انجام';
+$app_list_strings['contract_status_list']['In Progress'] = 'در حال پردازش';
 $app_list_strings['contract_status_list']['Signed'] = 'امضاء شده';
 $app_list_strings['contract_type_list']['Type'] = 'نوع';
 $app_strings['LBL_PRINT_AS_PDF'] = 'چاپ به صورت PDF';
@@ -3211,7 +3211,7 @@ $app_list_strings['moduleList']['AOW_Conditions'] = 'شرايط گردش کار'
 $app_list_strings['moduleList']['AOW_Processed'] = 'فرایند ممیزی';
 $app_list_strings['moduleList']['AOW_Actions'] = 'اقدامات گردش کار';
 $app_list_strings['aow_status_list']['Active'] = 'فعال';
-$app_list_strings['aow_status_list']['Inactive'] = 'غیر فعال';
+$app_list_strings['aow_status_list']['Inactive'] = 'غیرفعال';
 $app_list_strings['aow_operator_list']['Equal_To'] = 'برابر با';
 $app_list_strings['aow_operator_list']['Not_Equal_To'] = 'مخالف';
 $app_list_strings['aow_operator_list']['Greater_Than'] = 'بزرگ‌تر از';
@@ -3222,13 +3222,13 @@ $app_list_strings['aow_operator_list']['Contains'] = 'شامل';
 $app_list_strings['aow_operator_list']['Starts_With'] = 'شروع می‌شود با';
 $app_list_strings['aow_operator_list']['Ends_With'] = 'پایان می‌یابد با';
 $app_list_strings['aow_operator_list']['is_null'] = 'Null است';
-$app_list_strings['aow_process_status_list']['Complete'] = 'کامل شده';
+$app_list_strings['aow_process_status_list']['Complete'] = 'تکمیل';
 $app_list_strings['aow_process_status_list']['Running'] = 'در حال اجرا';
-$app_list_strings['aow_process_status_list']['Pending'] = 'انتظار';
-$app_list_strings['aow_process_status_list']['Failed'] = 'انجام نشد';
+$app_list_strings['aow_process_status_list']['Pending'] = 'در انتظار';
+$app_list_strings['aow_process_status_list']['Failed'] = 'ناموفق';
 $app_list_strings['aow_condition_operator_list']['And'] = 'و';
 $app_list_strings['aow_condition_operator_list']['OR'] = 'یا';
-$app_list_strings['aow_condition_type_list']['Value'] = 'مقدار';
+$app_list_strings['aow_condition_type_list']['Value'] = 'ارزش';
 $app_list_strings['aow_condition_type_list']['Field'] = 'فیلد';
 $app_list_strings['aow_condition_type_list']['Any_Change'] = 'هرگونه تغییر';
 $app_list_strings['aow_condition_type_list']['SecurityGroup'] = 'در گروه امنیتی';
@@ -3250,21 +3250,21 @@ $app_list_strings['aow_date_type_list']['week'] = 'هفته';
 $app_list_strings['aow_date_type_list']['month'] = 'ماه';
 $app_list_strings['aow_date_type_list']['year'] = 'Years';
 $app_list_strings['aow_date_type_list']['business_hours'] = 'ساعات کاری';
-$app_list_strings['aow_date_options']['now'] = 'اکنون';
-$app_list_strings['aow_date_options']['today'] = 'امروز';
-$app_list_strings['aow_date_options']['field'] = 'این فیلد';
+$app_list_strings['aow_date_options']['now'] = 'Now';
+$app_list_strings['aow_date_options']['today'] = 'Today';
+$app_list_strings['aow_date_options']['field'] = 'This Field';
 $app_list_strings['aow_date_operator']['now'] = '';
 $app_list_strings['aow_date_operator']['plus'] = '+';
 $app_list_strings['aow_date_operator']['minus'] = '-';
-$app_list_strings['aow_assign_options']['all'] = 'همه‌ کاربرها';
-$app_list_strings['aow_assign_options']['role'] = 'همه کاربرها با این نقش';
-$app_list_strings['aow_assign_options']['security_group'] = 'تمام کاربرها در گروه امنیتی';
+$app_list_strings['aow_assign_options']['all'] = 'ALL Users';
+$app_list_strings['aow_assign_options']['role'] = 'ALL Users in Role';
+$app_list_strings['aow_assign_options']['security_group'] = 'ALL Users in Security Group';
 $app_list_strings['aow_email_type_list']['Email Address'] = 'ایمیل';
 $app_list_strings['aow_email_type_list']['Record Email'] = 'ثبت نامه الکترونیک';
 $app_list_strings['aow_email_type_list']['Related Field'] = 'فیلدهای مرتبط';
-$app_list_strings['aow_email_type_list']['Specify User'] = 'کاربر';
+$app_list_strings['aow_email_type_list']['Specify User'] = 'User';
 $app_list_strings['aow_email_type_list']['Users'] = 'کاربرها';
-$app_list_strings['aow_email_to_list']['to'] = 'به';
+$app_list_strings['aow_email_to_list']['to'] = 'To';
 $app_list_strings['aow_email_to_list']['cc'] = 'رونوشت';
 $app_list_strings['aow_email_to_list']['bcc'] = 'رونوشت مخفی';
 $app_list_strings['aow_run_on_list']['All_Records'] = 'همه رکوردها';
@@ -3291,7 +3291,7 @@ $app_strings['LBL_MAP'] = 'نقشه';
 $app_strings['LBL_JJWG_MAPS_LNG'] = 'طول جغرافیایی';
 $app_strings['LBL_JJWG_MAPS_LAT'] = 'عرض جغرافیایی';
 $app_strings['LBL_JJWG_MAPS_GEOCODE_STATUS'] = 'وضعیت Geocode';
-$app_strings['LBL_JJWG_MAPS_ADDRESS'] = 'آدرس';
+$app_strings['LBL_JJWG_MAPS_ADDRESS'] = 'Address';
 
 $app_list_strings['moduleList']['jjwg_Maps'] = 'نقشه ها';
 $app_list_strings['moduleList']['jjwg_Markers'] = 'Maps - Markers';
@@ -3303,26 +3303,26 @@ $app_list_strings['moduleList']['jjwp_Partners'] = 'JJWP Partners';
 $app_list_strings['map_unit_type_list']['mi'] = 'مایل';
 $app_list_strings['map_unit_type_list']['km'] = 'کیلومتر';
 
-$app_list_strings['map_module_type_list']['Accounts'] = 'حساب ها';
+$app_list_strings['map_module_type_list']['Accounts'] = 'حساب‌ها';
 $app_list_strings['map_module_type_list']['Contacts'] = 'مخاطب‌ها';
-$app_list_strings['map_module_type_list']['Cases'] = 'موارد';
+$app_list_strings['map_module_type_list']['Cases'] = 'خدمات';
 $app_list_strings['map_module_type_list']['Leads'] = 'سرنخ‌ها';
-$app_list_strings['map_module_type_list']['Meetings'] = 'جلسات';
+$app_list_strings['map_module_type_list']['Meetings'] = 'جلسه‌ها';
 $app_list_strings['map_module_type_list']['Opportunities'] = 'فرصت‌ها';
 $app_list_strings['map_module_type_list']['Project'] = 'پروژه‌ها';
-$app_list_strings['map_module_type_list']['Prospects'] = 'اهداف';
+$app_list_strings['map_module_type_list']['Prospects'] = 'Targets';
 
-$app_list_strings['map_relate_type_list']['Accounts'] = 'مرکز';
-$app_list_strings['map_relate_type_list']['Contacts'] = 'مخاطب';
+$app_list_strings['map_relate_type_list']['Accounts'] = 'حساب';
+$app_list_strings['map_relate_type_list']['Contacts'] = 'Contact';
 $app_list_strings['map_relate_type_list']['Cases'] = 'خدمات';
-$app_list_strings['map_relate_type_list']['Leads'] = 'سرنخ';
-$app_list_strings['map_relate_type_list']['Meetings'] = 'جلسه';
-$app_list_strings['map_relate_type_list']['Opportunities'] = 'فرصت';
-$app_list_strings['map_relate_type_list']['Project'] = 'پروژه';
+$app_list_strings['map_relate_type_list']['Leads'] = 'Lead';
+$app_list_strings['map_relate_type_list']['Meetings'] = 'Meeting';
+$app_list_strings['map_relate_type_list']['Opportunities'] = 'Opportunity';
+$app_list_strings['map_relate_type_list']['Project'] = 'Project';
 $app_list_strings['map_relate_type_list']['Prospects'] = 'هدف';
 
 $app_list_strings['marker_image_list']['accident'] = 'حادثه';
-$app_list_strings['marker_image_list']['administration'] = 'سرپرستی';
+$app_list_strings['marker_image_list']['administration'] = 'مدیریت';
 $app_list_strings['marker_image_list']['agriculture'] = 'کشاورزی';
 $app_list_strings['marker_image_list']['aircraft_small'] = 'هواپیمای کوچک';
 $app_list_strings['marker_image_list']['airplane_tourism'] = 'هواپیمای گردشگری';
@@ -3419,7 +3419,7 @@ $app_list_strings['marker_image_list']['laundromat'] = 'ماشین لباسشو�
 $app_list_strings['marker_image_list']['left'] = 'چپ';
 $app_list_strings['marker_image_list']['left_then_down'] = 'چپ بعد پایین';
 $app_list_strings['marker_image_list']['left_then_up'] = 'چپ بعد بالا';
-$app_list_strings['marker_image_list']['library'] = 'کتابخانه';
+$app_list_strings['marker_image_list']['library'] = 'Library';
 $app_list_strings['marker_image_list']['lighthouse'] = 'فانوس دریایی';
 $app_list_strings['marker_image_list']['liquor'] = 'مشروب';
 $app_list_strings['marker_image_list']['lock'] = 'قفل';
@@ -3567,7 +3567,7 @@ $app_strings['LBL_RESCHEDULE_REASON'] = 'دلیل:';
 $app_strings['LBL_RESCHEDULE_ERROR1'] = 'لطفاً یک تاریخ معتبرانتخاب کنید';
 $app_strings['LBL_RESCHEDULE_ERROR2'] = 'لطفا یک دلیل انتخاب کنید';
 
-$app_strings['LBL_RESCHEDULE_PANEL'] = 'زمانبندی مجدد';
+$app_strings['LBL_RESCHEDULE_PANEL'] = 'برنا مه‌ریزی مجدد';
 $app_strings['LBL_RESCHEDULE_HISTORY'] = 'تاریخچه تماس‌';
 $app_strings['LBL_RESCHEDULE_COUNT'] = 'تماس‌ها';
 
@@ -3585,7 +3585,7 @@ $app_strings['FACEBOOK_USER_C'] = 'فیس‌بوک';
 $app_strings['TWITTER_USER_C'] = 'توییتر';
 $app_strings['LBL_PANEL_SOCIAL_FEED'] = 'جزئیات فید شبکه‌های اجتماعی';
 
-$app_strings['LBL_SUBPANEL_FILTER_LABEL'] = 'جستجو';
+$app_strings['LBL_SUBPANEL_FILTER_LABEL'] = 'فیلتر';
 
 $app_strings['LBL_COLLECTION_TYPE'] = 'نوع';
 
@@ -3603,7 +3603,7 @@ $app_strings['LBL_SUITE_DASHBOARD_ACTIONS'] = 'اقدامات';
 
 $app_list_strings['collection_temp_list'] = array(
     'Tasks' => 'وظایف',
-    'Meetings' => 'جلسات',
+    'Meetings' => 'جلسه‌ها',
     'Calls' => 'تماس‌ها',
     'Notes' => 'یادداشت‌ها',
     'Emails' => 'ایمیل‌ها'
@@ -3616,13 +3616,13 @@ $app_strings['LBL_LOADING_ERROR_INLINE_EDITING'] = "There was an error loading t
 //SuiteSpots
 $app_list_strings['spots_areas'] = array(
     'getSalesSpotsData' => 'فروش',
-    'getAccountsSpotsData' => 'حساب ها',
+    'getAccountsSpotsData' => 'حساب‌ها',
     'getLeadsSpotsData' => 'سرنخ‌ها',
     'getServiceSpotsData' => 'خدمات',
     'getMarketingSpotsData' => 'بازاریابی',
     'getMarketingActivitySpotsData' => 'Marketing Activity',
     'getActivitiesSpotsData' => 'فعالیت‌ها',
-    'getQuotesSpotsData' => 'پیش فاکتور'
+    'getQuotesSpotsData' => 'نقل قول ها'
 );
 
 $app_list_strings['moduleList']['Spots'] = 'Spots';
@@ -3671,20 +3671,20 @@ $app_list_strings['moduleList']['Surveys'] = 'Surveys';
 $app_list_strings['moduleList']['SurveyQuestionResponses'] = 'Survey Question Responses';
 $app_list_strings['moduleList']['SurveyQuestions'] = 'Survey Questions';
 $app_list_strings['moduleList']['SurveyQuestionOptions'] = 'Survey Question Options';
-$app_list_strings['survey_status_list']['Draft'] = 'پیش نویس';
+$app_list_strings['survey_status_list']['Draft'] = 'پیش‌نویس';
 $app_list_strings['survey_status_list']['Public'] = 'عمومی';
 $app_list_strings['survey_status_list']['Closed'] = 'بسته';
-$app_list_strings['surveys_question_type']['Text'] = 'متن';
+$app_list_strings['surveys_question_type']['Text'] = 'Text';
 $app_list_strings['surveys_question_type']['Textbox'] = 'Textbox';
 $app_list_strings['surveys_question_type']['Checkbox'] = 'کادر انتخاب';
-$app_list_strings['surveys_question_type']['Radio'] = 'رادیو';
+$app_list_strings['surveys_question_type']['Radio'] = 'Radio';
 $app_list_strings['surveys_question_type']['Dropdown'] = 'Dropdown';
 $app_list_strings['surveys_question_type']['Multiselect'] = 'Multiselect';
 $app_list_strings['surveys_question_type']['Matrix'] = 'Matrix';
 $app_list_strings['surveys_question_type']['DateTime'] = 'DateTime';
 $app_list_strings['surveys_question_type']['Date'] = 'تاریخ';
 $app_list_strings['surveys_question_type']['Scale'] = 'Scale';
-$app_list_strings['surveys_question_type']['Rating'] = 'امتیاز';
+$app_list_strings['surveys_question_type']['Rating'] = 'Rating';
 $app_list_strings['surveys_matrix_options'][0] = 'Satisfied';
 $app_list_strings['surveys_matrix_options'][1] = 'Neither Satisfied nor Dissatisfied';
 $app_list_strings['surveys_matrix_options'][2] = 'Dissatisfied';
@@ -3697,11 +3697,11 @@ $app_strings['LBL_OPT_IN_PENDING_EMAIL_SENT'] = 'در انتظار تایید ع
 $app_strings['LBL_OPT_IN'] = 'عضو شد';
 $app_strings['LBL_OPT_IN_CONFIRMED'] = 'Confirmed Opted in';
 $app_strings['LBL_OPT_IN_OPT_OUT'] = 'انصراف داده';
-$app_strings['LBL_OPT_IN_INVALID'] = 'نامعتبر';
+$app_strings['LBL_OPT_IN_INVALID'] = 'Invalid';
 
 /** @see SugarEmailAddress */
 $app_list_strings['email_settings_opt_in_dom'] = array(
-    'not-opt-in' => 'غیرفعال شده',
+    'not-opt-in' => 'Disabled',
     'opt-in' => 'عضویت',
     'confirmed-opt-in' => 'Confirmed Opt In'
 );
@@ -3735,7 +3735,7 @@ $app_list_strings['oauth2_grant_type_dom'] = array(
 $app_list_strings['oauth2_duration_units'] = [
     'minute' => 'دقیقه',
     'hour' => ' ساعت',
-    'day' => 'روز',
+    'day' => 'days',
     'week' => 'weeks',
     'month' => 'months',
 ];
@@ -3747,23 +3747,23 @@ $app_list_strings['search_controllers'] = [
 
 // Calendar Account Types dropdown
 $app_list_strings['calendar_account_types'] = [
-    'personal' => 'شخصی',
+    'personal' => 'Personal',
     'shared' => 'اشتراک‌گذاری‌شده',
-    'group' => 'گروه',
+    'group' => 'Group',
 ];
 
 // Calendar Connection Status dropdown
 $app_list_strings['calendar_connection_status_list'] = [
     'never_tested' => 'Never Tested',
     'success' => 'متصل شد',
-    'failed' => 'انجام نشد',
+    'failed' => 'ناموفق',
 ];
 
 // Calendar Sync Attempt Status dropdown
 $app_list_strings['sync_attempt_status_list'] = [
     '' => '',
-    'in_progress' => 'در حال انجام',
-    'success' => 'موفق',
+    'in_progress' => 'در حال پردازش',
+    'success' => 'Success',
     'warning' => 'هشدار',
     'error' => 'خطا',
 ];
@@ -3804,16 +3804,16 @@ $app_strings['IMAP_HANDLER_ERROR_NO_TEST_SET'] = 'Test settings does not exists.
 $app_strings['IMAP_HANDLER_ERROR_NO_KEY'] = 'Key not found.';
 $app_strings['IMAP_HANDLER_ERROR_KEY_SAVE'] = 'Key saving error.';
 $app_strings['IMAP_HANDLER_ERROR_UNKNOWN'] = 'Unknown error';
-$app_strings['LBL_SEARCH_TITLE']                   = 'جستجو';
+$app_strings['LBL_SEARCH_TITLE']                   = 'Search';
 $app_strings['LBL_SEARCH_TEXT_FIELD_TITLE_ATTR']   = 'Input Search Criteria';
-$app_strings['LBL_SEARCH_SUBMIT_FIELD_TITLE_ATTR'] = 'جستجو';
-$app_strings['LBL_SEARCH_SUBMIT_FIELD_VALUE']      = 'جستجو';
+$app_strings['LBL_SEARCH_SUBMIT_FIELD_TITLE_ATTR'] = 'Search';
+$app_strings['LBL_SEARCH_SUBMIT_FIELD_VALUE']      = 'Search';
 $app_strings['LBL_SEARCH_QUERY']                   = 'Search query: ';
 $app_strings['LBL_SEARCH_RESULTS_PER_PAGE']        = 'Results per module: ';
 $app_strings['LBL_SEARCH_ENGINE']                  = 'Engine: ';
 $app_strings['LBL_SEARCH_TOTAL'] = 'Total result(s): ';
-$app_strings['LBL_SEARCH_PREV'] = 'قبلی';
-$app_strings['LBL_SEARCH_NEXT'] = 'ادامه';
+$app_strings['LBL_SEARCH_PREV'] = 'Previous';
+$app_strings['LBL_SEARCH_NEXT'] = 'بعدی';
 $app_strings['LBL_SEARCH_PAGE'] = 'Page ';
 $app_strings['LBL_SEARCH_OF'] = ' of ';
 $app_strings['LBL_USE_ADVANCED_SEARCH'] = 'Use Advanced Search';
