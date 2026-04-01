@@ -49,15 +49,15 @@ $mod_strings = array(
     'LBL_DELETE_CONFIRM' => 'Вы действительно хотите удалить выбранный фильтр?',
     'LBL_DELETE_BUTTON_TITLE' => 'Удалить эти условия фильтрации',
     'LBL_SAVE_BUTTON_TITLE' => 'Сохранить текущий фильтр',
-    'LBL_LIST_NAME' => 'Имя',
+    'LBL_LIST_NAME' => 'Название',
     'LBL_LIST_MODULE' => 'Модуль',
     'LBL_ORDER_BY_COLUMNS' => 'Order by column:',
-    'LBL_DIRECTION' => 'Направление:',
+    'LBL_DIRECTION' => 'Direction:',
     'LBL_SAVE_SEARCH_AS' => 'Сохранить фильтр как:',
     'LBL_ASCENDING' => 'Восходящая',
     'LBL_DESCENDING' => 'Нисходящая',
-    'LBL_MODIFY_CURRENT_FILTER' => 'Выбранный фильтр',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
-    'LBL_CREATED_BY' => 'Создано',
+    'LBL_CREATED_BY' => 'Кем создано',
 
 );
