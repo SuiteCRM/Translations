@@ -44,10 +44,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_DESCRIPTION' => 'Mô tả',
-    'LBL_NAME' => 'Tên',
-    'LBL_LIST_NAME' => 'Tên',
+    'LBL_NAME' => 'tên',
+    'LBL_LIST_NAME' => 'tên',
     'LBL_EDIT_BUTTON' => 'Sửa',
-    'LBL_REMOVE' => 'Xóa bỏ',
+    'LBL_REMOVE' => 'Remove',
     'LBL_GRP' => 'Nhóm',
     'LBL_ORD' => 'Số thứ tự',
     'LBL_THUMBNAIL' => 'Ảnh thu nhỏ',
