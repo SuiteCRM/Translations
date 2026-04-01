@@ -44,31 +44,31 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
 
-    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
-    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
+    'LBL_ASSIGNED_TO_ID' => 'Toegewezen gebruiker-Id',
+    'LBL_ASSIGNED_TO_NAME' => 'Toegewezen aan',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date Created',
-    'LBL_DATE_MODIFIED' => 'Date Modified',
-    'LBL_MODIFIED' => 'Modified By',
-    'LBL_MODIFIED_NAME' => 'Modified By Name',
-    'LBL_CREATED' => 'Created By',
+    'LBL_DATE_MODIFIED' => 'Datum gewijzigd',
+    'LBL_MODIFIED' => 'Gewijzigd door',
+    'LBL_MODIFIED_NAME' => 'Gewijzigd door naam',
+    'LBL_CREATED' => 'Aangemaakt door',
     'LBL_DESCRIPTION' => 'Description',
-    'LBL_DELETED' => 'Deleted',
-    'LBL_NAME' => 'Name',
-    'LBL_CREATED_USER' => 'Created by User',
+    'LBL_DELETED' => 'Verwijderd',
+    'LBL_NAME' => 'Naam',
+    'LBL_CREATED_USER' => 'Aangemaakt door gebruiker',
     'LBL_MODIFIED_USER' => 'Modified by User',
-    'LBL_LIST_NAME' => 'Name',
+    'LBL_LIST_NAME' => 'Naam',
     'LBL_EDIT_BUTTON' => 'Edit',
     'LBL_REMOVE' => 'Remove',
     'LBL_LIST_FORM_TITLE' => 'Externe OAuth Provider lijst',
-    'LBL_MODULE_NAME' => 'External OAuth Providers',
-    'LBL_MODULE_TITLE' => 'External OAuth Providers',
+    'LBL_MODULE_NAME' => 'Externe OAuth Providers',
+    'LBL_MODULE_TITLE' => 'Externe OAuth Providers',
     'LBL_HOMEPAGE_TITLE' => 'Mijn externe OAuth providers',
     'LNK_NEW_RECORD' => 'Externe OAuth Provider maken',
 
-    'LNK_LIST' => 'External OAuth Providers',
+    'LNK_LIST' => 'Externe OAuth Providers',
     'LBL_SEARCH_FORM_TITLE' => 'Zoek externe OAuth providers',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Bekijk geschiedenis',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_NEW_FORM_TITLE' => 'Nieuwe externe OAuth Provider',
 
@@ -97,14 +97,14 @@ $mod_strings = [
 
     'LBL_EXTRA' => 'Extra configuraties',
     'LBL_MAPPING' => 'Mapping configurations',
-    'LBL_OTHER' => 'Other',
+    'LBL_OTHER' => 'Overige',
 
 
     'LNK_LIST_CREATE_NEW_PERSONAL' => 'Nieuwe persoonlijke OAuth Provider',
     'LNK_LIST_CREATE_NEW_GROUP' => 'Nieuwe Groep OAuth Provider',
-    'LNK_LIST_INBOUND_EMAILS' => 'Inbound Email Accounts',
+    'LNK_LIST_INBOUND_EMAILS' => 'Inkomende Email Accounts',
     'LNK_LIST_OUTBOUND_EMAILS' => 'Outbound Email Accounts',
-    'LNK_LIST_EXTERNAL_OAUTH_CONNECTION' => 'External OAuth Connections',
+    'LNK_LIST_EXTERNAL_OAUTH_CONNECTION' => 'Externe OAuth verbindingen',
 
     'LBL_OWNER' => 'Owner',
 ];
