@@ -44,13 +44,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ROLE' => 'Rola',
-    'LBL_NAME' => 'Názov',
-    'LBL_DESCRIPTION' => 'Popis',
+    'LBL_NAME' => 'Meno:',
+    'LBL_DESCRIPTION' => 'Popis:',
     'LIST_ROLES' => 'Zoznam rolí',
     'LBL_USERS_SUBPANEL_TITLE' => 'Užívatelia',
     'LIST_ROLES_BY_USER' => 'Zoznam rolí podľa užívateľov',
     'LBL_ROLES_SUBPANEL_TITLE' => 'Role užívateľov',
-    'LBL_SEARCH_FORM_TITLE' => 'Vyhľadať',
+    'LBL_SEARCH_FORM_TITLE' => 'Vyhľadávanie role',
     'LBL_NO_ACCESS' => 'Nemáte prístup na toto miesto. Kontaktujte svojho administrátora k získaniu prístupu.',
     'LBL_REDIRECT_TO_HOME' => 'Presmerovať domov',
     'LBL_SECONDS' => 'sekundy',
