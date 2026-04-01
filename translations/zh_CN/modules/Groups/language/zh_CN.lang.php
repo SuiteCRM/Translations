@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => '条目组',
-    'LBL_GROUP_NAME' => '组名',
+    'LBL_MODULE_NAME' => '组',
+    'LBL_GROUP_NAME' => 'Group Name:',
     'LBL_DESCRIPTION' => '说明',
-    'LBL_TEAM' => '团队',
+    'LBL_TEAM' => '团队ID',
     // ListView
-    'LBL_LIST_TITLE' => '条目组',
+    'LBL_LIST_TITLE' => '组',
     // Links
     'LNK_ALL_GROUPS' => '所有组',
     'LNK_NEW_GROUP' => '创建组',
