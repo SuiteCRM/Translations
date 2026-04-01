@@ -51,8 +51,8 @@ $mod_strings = array(
     'LBL_DATE_ENTERED' => 'Megadott dátum',
     'LBL_DATE_MODIFIED' => 'Módosítás dátuma',
     'LBL_MODIFIED_USER_ID' => 'Módosító felhasználó ID',
-    'LBL_CREATED_BY' => 'Létrehozta',
-    'LBL_DELETED' => 'Törölve',
+    'LBL_CREATED_BY' => 'Készítette',
+    'LBL_DELETED' => 'Deleted',
     'LBL_CAMPAIGN' => 'Kampány',
     'LBL_OPTOUT' => 'Elutasítva',
 
@@ -61,12 +61,12 @@ $mod_strings = array(
     'LBL_EDIT_TRACKER_NAME' => 'Követő neve:',
     'LBL_EDIT_TRACKER_URL' => 'Követő URL:',
 
-    'LBL_SUBPANEL_TRACKER_NAME' => 'Név',
-    'LBL_SUBPANEL_TRACKER_URL' => 'URL:',
-    'LBL_SUBPANEL_TRACKER_KEY' => 'Kulcs',
+    'LBL_SUBPANEL_TRACKER_NAME' => 'Elnevezés',
+    'LBL_SUBPANEL_TRACKER_URL' => 'URL',
+    'LBL_SUBPANEL_TRACKER_KEY' => 'Key',
     'LBL_EDIT_MESSAGE_URL' => 'URL kampány üzenethez:',
     'LBL_EDIT_TRACKER_KEY' => 'Követőkulcs:',
     'LBL_EDIT_OPT_OUT' => 'Elutasító link ?',
-    'LNK_CAMPAIGN_LIST' => 'Kampányok',
+    'LNK_CAMPAIGN_LIST' => 'Campaigns',
     'LBL_EDIT_LAYOUT' => 'Elrendezés szerkesztése' /*for 508 compliance fix*/,
 );
