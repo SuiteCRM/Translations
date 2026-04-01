@@ -43,14 +43,14 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ALL_MODULES' => '全部',//rost fix
+    'LBL_ALL_MODULES' => '全部模块',//rost fix
     'LBL_ASSIGNED_TO_ID' => '负责人ID',
-    'LBL_ASSIGNED_TO_NAME' => '负责人',
-    'LBL_ID' => '编号',
+    'LBL_ASSIGNED_TO_NAME' => '分配给',
+    'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => '创建日期',
     'LBL_DATE_MODIFIED' => '修改日期',
     'LBL_MODIFIED' => '修改人',
-    'LBL_MODIFIED_NAME' => '修改人',
+    'LBL_MODIFIED_NAME' => '修改人姓名',
     'LBL_CREATED' => '创建人',
     'LBL_DESCRIPTION' => '说明',
     'LBL_DELETED' => '已删除',
@@ -59,7 +59,7 @@ $mod_strings = array(
     'LBL_NAME' => '名称',
     'LBL_CREATED_USER' => '创建人',
     'LBL_MODIFIED_USER' => '修改人',
-    'LBL_LIST_FORM_TITLE' => '用户组列表',
+    'LBL_LIST_FORM_TITLE' => '用户组',
     'LBL_MODULE_NAME' => '安全套件管理',
     'LBL_MODULE_TITLE' => '安全套件管理',
     'LNK_NEW_RECORD' => '创建用户组',
@@ -68,10 +68,10 @@ $mod_strings = array(
     'LBL_HISTORY_SUBPANEL_TITLE' => '历史记录',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => '活动',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => '安全套件管理',
-    'LBL_USERS' => '用户',
-    'LBL_USERS_SUBPANEL_TITLE' => '用户',
-    'LBL_ROLES_SUBPANEL_TITLE' => '角色',
-    'LBL_ROLES' => '角色',
+    'LBL_USERS' => '多个用户',
+    'LBL_USERS_SUBPANEL_TITLE' => '多个用户',
+    'LBL_ROLES_SUBPANEL_TITLE' => '查看角色',
+    'LBL_ROLES' => '查看角色',
 
     'LBL_CONFIGURE_SETTINGS' => '设置',
     'LBL_ADDITIVE' => '权限累积',
@@ -96,13 +96,13 @@ $mod_strings = array(
 
     'LBL_DEFAULT_GROUP_TITLE' => '新建记录的默认用户组',
     'LBL_ADD_BUTTON_LABEL' => '添加',
-    'LBL_REMOVE_BUTTON_LABEL' => '移除',
+    'LBL_REMOVE_BUTTON_LABEL' => '删除',
     'LBL_GROUP' => '用户组',
     'LBL_MODULE' => '模块',
 
     'LBL_MASS_ASSIGN' => '批量分配用户组',
     'LBL_ASSIGN' => '部署',
-    'LBL_REMOVE' => '移除',
+    'LBL_REMOVE' => '删除',
     'LBL_ASSIGN_CONFIRM' => '您确定要将此用户组添加到 ',
     'LBL_REMOVE_CONFIRM' => '您确定要将这个组移除从',
     'LBL_CONFIRM_END' => ' 已选的记录？',
@@ -111,7 +111,7 @@ $mod_strings = array(
     'LBL_USER_NAME' => '用户名',
     'LBL_SECURITYGROUP_NAME' => '用户组',
     'LBL_HOMEPAGE_TITLE' => '用户组',
-    'LBL_TITLE' => '名称',
+    'LBL_TITLE' => '标题',
     'LBL_ROWS' => '行',
     'LBL_POST' => '提交',
     'LBL_SELECT_GROUP_ERROR' => '请选择一个用户组，然后重试。',
