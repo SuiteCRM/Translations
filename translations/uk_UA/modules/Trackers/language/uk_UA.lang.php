@@ -44,13 +44,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     //Column header mapping
-    'action' => 'Дія',
+    'action' => 'Action',
     'date_modified' => 'Дата останньої дії',
     'item_id' => 'ID',
     'item_summary' => 'Назва',
     'module_name' => 'Назва модуля',
-    'users' => 'Користувачі',
+    'users' => 'Users',
 
     //Administration related labels
-    'LBL_MODULE_NAME' => 'Трекери',
+    'LBL_MODULE_NAME' => 'Trackers',
 );
