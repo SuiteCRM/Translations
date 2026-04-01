@@ -44,11 +44,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     //module
-    'LBL_MODULE_NAME' => 'دستاویزات',
+    'LBL_MODULE_NAME' => 'Documents',
     'LBL_MODULE_TITLE' => 'دستاویزات: ہوم',
     'LNK_NEW_DOCUMENT' => 'دستاویز بنائیں',
     'LNK_DOCUMENT_LIST' => 'دستاویزات دیکھیں',
-    'LBL_DOC_REV_HEADER' => 'دستاویزی نظرثانیاں',
+    'LBL_DOC_REV_HEADER' => 'Document Revisions',
     'LBL_SEARCH_FORM_TITLE' => 'دستاویز کی تلاش',
     //vardef labels
     'LBL_NAME' => 'دستاویز کا نام',
@@ -57,7 +57,7 @@ $mod_strings = array(
     'LBL_SUBCATEGORY' => 'ذیلی زمرہ جات',
     'LBL_STATUS' => 'حیثیت',
     'LBL_CREATED_BY' => 'کی طرف سے بنایا گیا',
-    'LBL_DATE_ENTERED' => 'تاریخ کی تشکیل',
+    'LBL_DATE_ENTERED' => 'تاریخ بنائی گئی ہے',
     'LBL_DATE_MODIFIED' => 'تاریخ میں ترمیم',
     'LBL_DELETED' => 'حذف کر دیا گیا',
     'LBL_MODIFIED' => 'معلمات کو تبدیل کریں',
@@ -68,7 +68,7 @@ $mod_strings = array(
     'LBL_RELATED_DOCUMENT_REVISION_ID' => 'دستاویز ورژن کے مطابق معلومات',
     'LBL_IS_TEMPLATE' => 'ایک سانچہ ہے',
     'LBL_TEMPLATE_TYPE' => 'دستاویز کی قسم',
-    'LBL_ASSIGNED_TO_NAME' => 'مقرر کردہ سے:',
+    'LBL_ASSIGNED_TO_NAME' => 'اس حوالے سے:',
     'LBL_REVISION_NAME' => 'نظر ثانی نمبر',
     'LBL_MIME' => 'مائم کی قسم',
     'LBL_REVISION' => 'نظر ثانی',
@@ -147,7 +147,7 @@ $mod_strings = array(
     'LBL_LAST_REV_CREATE_DATE' => 'آخری ترمیم تخلیق کی تاریخ',
     'LBL_CONTRACTS' => 'معاہدے',
     'LBL_CREATED_USER' => 'صارف بنائیں',
-    'LBL_DOCUMENT_INFORMATION' => 'جائزہ', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_DOCUMENT_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_DOC_ID' => 'دستاویز ماخذ شناخت',
     'LBL_DOC_TYPE' => 'ذریعہ',
     'LBL_DOC_TYPE_POPUP' => 'جو دستاویز چڑھایا جارہا ہے اس کے ذرائع کو منتخب کریں<br> جو کے دستیاب ہوگا.',
@@ -159,11 +159,11 @@ $mod_strings = array(
     'ERR_INVALID_EXTERNAL_API_LOGIN' => 'بیرونی API کے لئے لاگ ان چیک ناکام ہوگئی({0})',
 
     // Links around the world
-    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'کهاتے',
-    'LBL_CONTACTS_SUBPANEL_TITLE' => 'رابطے',
-    'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'مواقعے',
-    'LBL_CASES_SUBPANEL_TITLE' => 'معاملے',
-    'LBL_BUGS_SUBPANEL_TITLE' => 'مسئلے',
+    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Accounts',
+    'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
+    'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Opportunities',
+    'LBL_CASES_SUBPANEL_TITLE' => 'Cases',
+    'LBL_BUGS_SUBPANEL_TITLE' => 'Bugs',
 
     'LBL_AOS_CONTRACTS' => 'معاہدے',
 );
