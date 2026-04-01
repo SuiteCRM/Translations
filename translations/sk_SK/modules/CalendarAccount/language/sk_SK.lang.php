@@ -40,7 +40,7 @@ $mod_strings = [
     'LBL_CREATED' => 'Vytvoril:',
     'LBL_CREATED_USER' => 'Vytvorené užívateľom',
     'LBL_MODIFIED_USER' => 'Zmenil užívateľ',
-    'LBL_DESCRIPTION' => 'Popis',
+    'LBL_DESCRIPTION' => 'Popis:',
     'LBL_DELETED' => 'Vymazaný',
 
     // Security groups
@@ -48,12 +48,12 @@ $mod_strings = [
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'CRM Skupiny',
 
     // List view labels
-    'LBL_LIST_NAME' => 'Názov',
+    'LBL_LIST_NAME' => 'Meno',
     'LBL_LIST_DELETE' => 'Vymazať',
     'LBL_EDIT_BUTTON' => 'Upraviť',
     'LBL_REMOVE' => 'Odstrániť',
-    'LBL_ASCENDING' => 'Vzostupne (A-Z)',
-    'LBL_DESCENDING' => 'Zostupne (Z-A)',
+    'LBL_ASCENDING' => 'Vzostupne',
+    'LBL_DESCENDING' => 'Zostupne',
 
     // Email opt-in labels
     'LBL_OPT_IN' => 'Prihlásiť sa',
@@ -91,7 +91,7 @@ $mod_strings = [
     'LNK_LIST' => 'View Calendar Accounts',
 
     // Standard fields
-    'LBL_NAME' => 'Názov',
+    'LBL_NAME' => 'Meno:',
     'LBL_ID' => 'ID',
     'LBL_TYPE' => 'Typ',
     'LBL_SOURCE' => 'Calendar Source',
@@ -102,7 +102,7 @@ $mod_strings = [
 
     // Basic Auth Fields
     'LBL_USERNAME' => 'Užívateľské meno',
-    'LBL_PASSWORD' => 'Heslo',
+    'LBL_PASSWORD' => 'Heslo:',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test Connection',
 
@@ -202,5 +202,5 @@ $mod_strings = [
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Calendar not found.',
 
     // Relationship labels
-    'LBL_MEETINGS' => 'Schódzky/Mítingy',
+    'LBL_MEETINGS' => 'Schôdzky',
 ];
