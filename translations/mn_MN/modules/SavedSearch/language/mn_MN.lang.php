@@ -52,11 +52,11 @@ $mod_strings = array(
     'LBL_LIST_NAME' => 'Нэр',
     'LBL_LIST_MODULE' => 'Модуль',
     'LBL_ORDER_BY_COLUMNS' => 'Эрэмблэх багана:',
-    'LBL_DIRECTION' => 'Чиглэл:',
+    'LBL_DIRECTION' => 'Дараалал:',
     'LBL_SAVE_SEARCH_AS' => 'Шүүлтийг хадгалах нэр:',
     'LBL_ASCENDING' => 'Өсөх',
     'LBL_DESCENDING' => 'Буурах',
-    'LBL_MODIFY_CURRENT_FILTER' => 'Одоох шүүлтийг өөрчлөх',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
     'LBL_CREATED_BY' => 'Үүсгэсэн',
 
