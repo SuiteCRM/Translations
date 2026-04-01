@@ -44,10 +44,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ASSIGNED_TO_ID' => 'ID przydzielonego użytkownika',
-    'LBL_ASSIGNED_TO_NAME' => 'Przypisano do',
+    'LBL_ASSIGNED_TO_NAME' => 'Przypisany Do',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Data utworzenia',
-    'LBL_DATE_MODIFIED' => 'Data Modyfikacji:',
+    'LBL_DATE_MODIFIED' => 'Data Modyfikacji',
     'LBL_MODIFIED' => 'Zmodyfikowane przez',
     'LBL_MODIFIED_NAME' => 'Nazwa użytkownika modyfikującego',
     'LBL_CREATED' => 'Utworzone przez',
@@ -55,8 +55,8 @@ $mod_strings = array(
     'LBL_DELETED' => 'Usunięte',
     'LBL_NAME' => 'Nazwa',
     'LBL_CREATED_USER' => 'Utworzony przez Użytkownika',
-    'LBL_MODIFIED_USER' => 'Zmodyfikowany przez Użytkownika',
-    'LBL_LIST_NAME' => 'Nazwa',
+    'LBL_MODIFIED_USER' => 'Zmodyfikowany przez użytkownika',
+    'LBL_LIST_NAME' => 'Nazwa dokument',
     'LBL_EDIT_BUTTON' => 'Edytuj',
     'LBL_REMOVE' => 'Usuń',
     'LBL_LIST_FORM_TITLE' => 'Lista godzin urzędowania',
@@ -71,6 +71,6 @@ $mod_strings = array(
     'LBL_NEW_FORM_TITLE' => 'Nowe godziny urzędowania',
     'LBL_OPENING_HOURS' => 'Godziny pracy',
     'LBL_CLOSING_HOURS' => 'Godziny zamknięcia',
-    'LBL_DAY' => 'Dzienny',
+    'LBL_DAY' => 'Dzień',
     'LBL_OPEN' => 'Otwarte',
 );
