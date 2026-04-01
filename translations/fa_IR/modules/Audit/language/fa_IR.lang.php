@@ -49,5 +49,5 @@ $mod_strings = array(
     'LBL_CREATED_BY' => 'تغییر یافته توسط',
     'LBL_LIST_DATE' => 'تاریخ تغییر',
     'LBL_AUDITED_FIELDS' => 'زمینه های حسابرسی در این ماژول: ',
-    'LBL_CHANGE_LOG' => 'سوابق تغییرات',
+    'LBL_CHANGE_LOG' => 'Change Log',
 );
