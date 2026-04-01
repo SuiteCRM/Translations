@@ -47,22 +47,22 @@ $mod_strings = array(
     'LBL_EDIT_FIELDS' => 'Edytuj Pola Osobiste',
     'LBL_SELECT_FILE' => 'Wybierz plik',
     'LBL_MODULE_TITLE' => 'Edytor modułów',
-    'LBL_TOOLBOX' => 'Skrzynka narzędziowa',
+    'LBL_TOOLBOX' => 'Toolbox',
     'LBL_SUITE_FIELDS_STAGE' => 'SuiteCRM pola (kliknij elementy aby je dodać do obszaru tymczasowego)',
     'LBL_VIEW_SUITE_FIELDS' => 'Przeglądaj pola SuiteCRM',
-    'LBL_FAILED_TO_SAVE' => 'Nie można zapisać',
+    'LBL_FAILED_TO_SAVE' => 'Failed To Save',
     'LBL_CONFIRM_UNSAVE' => 'Wszystkie zmiany zostaną pominięte. Czy na pewno chcesz kontynuować?',
     'LBL_PUBLISHING' => 'Publikowanie...',
     'LBL_PUBLISHED' => 'Opublikowany',
-    'LBL_FAILED_PUBLISHED' => 'Nie można opublikować',
-    'LBL_DROP_HERE' => '[Upuść tutaj]',
+    'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
+    'LBL_DROP_HERE' => '[Drop Here]',
 
 //CUSTOM FIELDS
     'LBL_NAME' => 'Nazwa',
-    'LBL_LABEL' => 'Etykieta',
-    'LBL_MASS_UPDATE' => 'Masowa edycja',
+    'LBL_LABEL' => 'Label',
+    'LBL_MASS_UPDATE' => 'Mass Update',
     'LBL_DEFAULT_VALUE' => 'Wartość domyślna',
-    'LBL_REQUIRED' => 'Wymagany',
+    'LBL_REQUIRED' => 'Required',
     'LBL_DATA_TYPE' => 'Typ',
 
 
@@ -79,11 +79,11 @@ $mod_strings = array(
     'LBL_SW_EDIT_GROUPTABS' => 'Konfiguruj Zakładki Grupowe ',
     'LBL_SW_EDIT_PORTAL' => 'Edytuj Portal',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => 'Napraw Pola Osobiste',
-    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migruj niestandardowe pola',
+    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrate Custom Fields',
 
 // JS LABELS
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Przebudowuje wersję javascript plików językowych',
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Usuwanie wersji javascript plików językowych.',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuilds javascript versions of language files',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Removing javascript versions of language files, will rebuild when needed.',
 
 
 //Manager Backups History
@@ -105,17 +105,17 @@ $mod_strings = array(
 //BUTTONS
     'LBL_BTN_SAVE' => 'Zapisz',
     'LBL_BTN_CANCEL' => 'Anuluj',
-    'LBL_BTN_SAVEPUBLISH' => 'Zapisz i zainstaluj',
+    'LBL_BTN_SAVEPUBLISH' => 'Zapisz & Publikuj',
     'LBL_BTN_HISTORY' => 'Historia',
-    'LBL_BTN_ADDROWS' => 'Dodaj wiersz',
+    'LBL_BTN_ADDROWS' => 'Add Rows',
     'LBL_BTN_UNDO' => 'Cofnij',
     'LBL_BTN_REDO' => 'Przywróć',
-    'LBL_BTN_ADDCUSTOMFIELD' => 'Dodaj własne pole',
+    'LBL_BTN_ADDCUSTOMFIELD' => 'Add Custom Field',
     'LBL_BTN_TABINDEX' => 'Edytuj Tabbing Order',
 
 //TABS
-    'LBL_MODULES' => 'Moduły',
-    'LBL_MODULE_NAME' => 'Panel konfiguracyjny',
+    'LBL_MODULES' => 'Moduł',
+    'LBL_MODULE_NAME' => 'Administracja',
     'LBL_CONFIGURE_GROUP_TABS' => 'Konfiguracja filtrów menu modułów',
     'LBL_GROUP_TAB_WELCOME' => 'Poniższe filtry będą wyświetlane na liście Więcej w menu modułu aby użytkownicy mogli przeglądać grupy zakładek w menu. Przeciągnij i upuść moduły do i z filtrów. Uwaga: puste filtry nie będą wyświetlane w menu.',
     'LBL_RENAME_TAB_WELCOME' => 'Aby zmienić nazwę zakładki, kliknij na dowolną zakładkę, wyświetlisz jej zawartość w tabelce poniżej.',
@@ -123,7 +123,7 @@ $mod_strings = array(
     'LBL_TAB_GROUP_LANGUAGE_HELP' => 'Wybierz dostępny język, edytuj etykiety grupy i kliknij Zapisz i Udostępnij, aby zastosować etykiety w wybranym języku.',
     'LBL_ADD_GROUP' => 'Dodaj Filtr',
     'LBL_NEW_GROUP' => 'Nowa Grupa',
-    'LBL_RENAME_TABS' => 'Edycja nazwy modułów',
+    'LBL_RENAME_TABS' => 'Rename Modules',
 
 //ERRORS
     'ERROR_INVALID_KEY_VALUE' => "Błąd: Nieprawidłowa wartość klucza: [']",
@@ -134,12 +134,12 @@ $mod_strings = array(
     'LBL_REDO' => 'Przywróć' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'W linii' /*for 508 compliance fix*/,
     'LBL_DELETE' => 'Usuń' /*for 508 compliance fix*/,
-    'LBL_ADD_FIELD' => 'Dodaj Pole' /*for 508 compliance fix*/,
+    'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Maksymalizuj' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Minimalizuj' /*for 508 compliance fix*/,
-    'LBL_PUBLISH' => 'publikuj' /*for 508 compliance fix*/,
-    'LBL_ADDROWS' => 'Dodaj wiersz' /*for 508 compliance fix*/,
-    'LBL_ADDFIELD' => 'Dodaj Pole' /*for 508 compliance fix*/,
+    'LBL_PUBLISH' => 'Publish' /*for 508 compliance fix*/,
+    'LBL_ADDROWS' => 'Add Rows' /*for 508 compliance fix*/,
+    'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_EDIT' => 'Edytuj' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Wybierz język do edycji.',
