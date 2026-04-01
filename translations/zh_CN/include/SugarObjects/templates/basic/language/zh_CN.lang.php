@@ -54,7 +54,7 @@ $mod_strings = array(
     'LBL_NAME' => '名称',
     'LBL_CREATED_USER' => '创建人',
     'LBL_MODIFIED_USER' => '修改人',
-    'LBL_LIST_NAME' => '名称',
+    'LBL_LIST_NAME' => '追踪器',
     'LBL_EDIT_BUTTON' => '编辑',
     'LBL_REMOVE' => '移除',
 
