@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'ERR_DELETE_RECORD' => 'Bạn phải chỉ định một bản ghi để xóa tài khoản.',
+    'ERR_DELETE_RECORD' => 'You must specify a record number to delete the account.',
     'LBL_TOOL_TIP_BOX_TITLE' => 'Gợi ý kiến thức cơ bản',
     'LBL_TOOL_TIP_TITLE' => 'Tiêu đề:',
     'LBL_TOOL_TIP_BODY' => 'Nội dung:',
@@ -51,12 +51,12 @@ $mod_strings = array(
     'LBL_TOOL_TIP_USE' => 'Sử dụng như:',
     'LBL_SUGGESTION_BOX' => 'Gợi ý',
     'LBL_NO_SUGGESTIONS' => 'Không có đề xuất',
-    'LBL_RESOLUTION_BUTTON' => 'Giải pháp',
+    'LBL_RESOLUTION_BUTTON' => 'Resolution',
     'LBL_SUGGESTION_BOX_STATUS' => 'Tình trạng',
-    'LBL_SUGGESTION_BOX_TITLE' => 'Chức danh',
+    'LBL_SUGGESTION_BOX_TITLE' => 'Title',
     'LBL_SUGGESTION_BOX_REL' => 'Mức độ liên quan',
 
-    'LBL_ACCOUNT_ID' => 'ID Khách hàng',
+    'LBL_ACCOUNT_ID' => 'Account ID',
     'LBL_ACCOUNT_NAME' => 'Tên tài khoản:',
     'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Tài khoản',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Hoạt động',
@@ -66,19 +66,19 @@ $mod_strings = array(
     'LBL_CONTACT_NAME' => 'Tên liên lạc:',
     'LBL_CONTACT_ROLE' => 'Vai trò:',
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Liên hệ',
-    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Hỗ trợ khách hàng',
-    'LBL_DESCRIPTION' => 'Chi tiết:',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Các Vụ việc',
+    'LBL_DESCRIPTION' => 'Mô tả:',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Lịch sử',
     'LBL_INVITEE' => 'Liên hệ',
     'LBL_MEMBER_OF' => 'Tài khoản',
-    'LBL_MODULE_NAME' => 'Hỗ trợ khách hàng',
+    'LBL_MODULE_NAME' => 'Các Vụ việc',
     'LBL_MODULE_TITLE' => 'Vụ việc: Tr.chính',
     'LBL_NEW_FORM_TITLE' => 'Vụ việc mới',
-    'LBL_NUMBER' => 'Số:',
-    'LBL_PRIORITY' => 'Ưu tiên:',
+    'LBL_NUMBER' => 'Number:',
+    'LBL_PRIORITY' => 'Priority:',
     'LBL_PROJECTS_SUBPANEL_TITLE' => 'Dự án',
     'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Tài liệu',
-    'LBL_RESOLUTION' => 'Giải pháp:',
+    'LBL_RESOLUTION' => 'Resolution:',
     'LBL_SEARCH_FORM_TITLE' => 'Tìm kiếm',
     'LBL_STATUS' => 'Tình trạng:',
     'LBL_SUBJECT' => 'Chủ đề:',
@@ -89,8 +89,8 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Danh sách Vụ việc',
     'LBL_LIST_LAST_MODIFIED' => 'Lần sửa cuối',
     'LBL_LIST_MY_CASES' => 'Vụ việc',
-    'LBL_LIST_NUMBER' => 'Số.',
-    'LBL_LIST_PRIORITY' => 'Ưu tiên',
+    'LBL_LIST_NUMBER' => 'Num.',
+    'LBL_LIST_PRIORITY' => 'Priority',
     'LBL_LIST_STATUS' => 'Tình trạng',
     'LBL_LIST_SUBJECT' => 'Chủ đề',
 
@@ -102,21 +102,21 @@ $mod_strings = array(
     'LBL_WORK_LOG' => 'Nhật ký làm việc',
     'LNK_IMPORT_CASES' => 'Nhập Vụ việc',
 
-    'LBL_CREATED_USER' => 'Người tạo',
-    'LBL_MODIFIED_USER' => 'Người sửa',
+    'LBL_CREATED_USER' => 'Created User',
+    'LBL_MODIFIED_USER' => 'Modified User',
     'LBL_PROJECT_SUBPANEL_TITLE' => 'Dự án',
-    'LBL_CASE_INFORMATION' => 'Thông tin Khách hàng', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_CASE_INFORMATION' => 'Xem toàn bộ', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
     // SNIP
     'LBL_UPDATE_TEXT' => 'Bản Cập Nhật - văn bản', //Field for Case updates with text only
     'LBL_INTERNAL' => 'Cập nhật nội bộ',
-    'LBL_AOP_CASE_UPDATES' => 'Cập nhật Vụ việc',
+    'LBL_AOP_CASE_UPDATES' => 'Cập nhật trường hợp',
     'LBL_AOP_CASE_UPDATES_THREADED' => 'Cập nhật tình huống bài viết',
     'LBL_CASE_UPDATES_COLLAPSE_ALL' => 'Thu gọn tất cả',
     'LBL_CASE_UPDATES_EXPAND_ALL' => 'Mở rộng tất cả',
     'LBL_AOP_CASE_ATTACHMENTS' => 'Đính kèm:',
 
-    'LBL_AOP_CASE_EVENTS' => 'Các Sự kiện của Vụ việc',
+    'LBL_AOP_CASE_EVENTS' => 'Trường hợp các sự kiện',
     'LBL_CASE_ATTACHMENTS_DISPLAY' => 'Tập tin đính kém của Vụ việc:',
     'LBL_ADD_CASE_FILE' => 'Thêm tập tin',
     'LBL_REMOVE_CASE_FILE' => 'Loại bỏ tệp',
