@@ -44,17 +44,17 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_OAUTH_REQUEST' => "Pedir chave",
-    'LBL_OAUTH_AUTHORIZE' => "Autorizar certificado",
-    'LBL_OAUTH_CONSUMERREQ' => "Autorizar o certificado do cliente <b>%s</b>?",
+    'LBL_OAUTH_AUTHORIZE' => "Autorizar chave",
+    'LBL_OAUTH_CONSUMERREQ' => "Autorizar a chave do consumidor <b>%s</b>?",
     'LBL_ASSIGNED_TO_NAME' => 'Utilizador',
     'LBL_ID' => 'ID',
     'LBL_STATUS' => 'Situação',
     'LBL_TS' => 'Carimbo temporal',
-    'LBL_LIST_DELETE' => 'Eliminar certificado',
-    'LBL_CONSUMER' => 'Nome do cliente',
+    'LBL_LIST_DELETE' => 'Eliminar chave',
+    'LBL_CONSUMER' => 'Nome do consumidor',
     'LBL_OAUTH_DISABLED' => 'O suporte a OAuth não está ativo. A extensão oauth PHP pode estar em falta. Por favor, contacte o administrador.',
 
-    'LBL_TOKEN_TS' => 'Certificado TS',
+    'LBL_TOKEN_TS' => 'Chave TS',
     'LBL_CALLBACK_URL' => 'URL de retorno',
     'LBL_SECRET' => 'Segredo',
     'LBL_TSTATE' => 'Estado da chave',
