@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_NAME' => 'نام کار',
-    'LBL_EXECUTE_TIME' => 'زمان اجرا',
-    'LBL_SCHEDULER_ID' => 'برنامه‌ریز',
+    'LBL_NAME' => 'Job Name',
+    'LBL_EXECUTE_TIME' => 'Execute Time',
+    'LBL_SCHEDULER_ID' => 'Scheduler',
     'LBL_STATUS' => 'وضعیت کار',
-    'LBL_RESOLUTION' => 'نتیجه',
+    'LBL_RESOLUTION' => 'Result',
     'LBL_MESSAGE' => 'پیام‌ها',
     'LBL_DATA' => 'داده‌های کار',
     'LBL_REQUEUE' => 'در صورت شکست دوباره تلاش کن',
