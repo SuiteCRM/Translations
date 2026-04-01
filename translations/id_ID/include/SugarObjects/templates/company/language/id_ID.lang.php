@@ -56,8 +56,8 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Pengguna:',
     'LBL_RATING' => 'Peringkat',
     'LBL_ASSIGNED_TO' => 'Menugaskan ke:',
-    'LBL_ASSIGNED_USER' => 'Menugaskan ke:',
-    'LBL_ASSIGNED_TO_ID' => 'Menugaskan ke:',
+    'LBL_ASSIGNED_USER' => 'Ditugaskan kepada:',
+    'LBL_ASSIGNED_TO_ID' => 'Ditugaskan kepada:',
     'LBL_BILLING_ADDRESS_CITY' => 'Kota Penagihan:',
     'LBL_BILLING_ADDRESS_COUNTRY' => 'Negara Penagihan:',
     'LBL_BILLING_ADDRESS_POSTALCODE' => 'Kode Pos  Penagihan:',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'Anda yakin mau menghapus record ini?',
 
     'LBL_EDIT_BUTTON' => 'Sunting  ',
-    'LBL_REMOVE' => 'Menghapus',
+    'LBL_REMOVE' => 'Remove',
 
 );
