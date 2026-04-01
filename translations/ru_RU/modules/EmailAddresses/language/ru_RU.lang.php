@@ -44,12 +44,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_EMAIL_ADDRESS_ID' => 'ID',
-    'LBL_EMAIL_ADDRESS' => 'Адрес E-mail',
+    'LBL_EMAIL_ADDRESS' => 'E-mail',
     'LBL_EMAIL_ADDRESS_CAPS' => 'Адрес E-mail (заглавными буквами)',
-    'LBL_INVALID_EMAIL' => 'Неверный E-mail',
-    'LBL_OPT_OUT' => 'Адресаты, отписавшиеся от рассылки',
+    'LBL_INVALID_EMAIL' => 'Invalid Email',
+    'LBL_OPT_OUT' => 'Кол-во отписок',
     'LBL_CONFIRM_OPT_IN' => 'Подтверждать выбор',
     'LBL_DATE_CREATE' => 'Дата создания',
     'LBL_DATE_MODIFIED' => 'Дата изменения',
-    'LBL_DELETED' => 'Удаление',
+    'LBL_DELETED' => 'Удалить',
 );
