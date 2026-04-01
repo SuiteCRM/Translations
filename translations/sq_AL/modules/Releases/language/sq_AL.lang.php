@@ -43,27 +43,27 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Publikimet',
+    'LBL_MODULE_NAME' => 'Releases',
     'LBL_MODULE_TITLE' => 'Publikimet: Ballina',
     'LBL_SEARCH_FORM_TITLE' => 'kërkim i publikimeve',
     'LBL_LIST_FORM_TITLE' => 'lista e publikimeve',
     'LBL_NEW_FORM_TITLE' => 'publikim i ri',
-    'LBL_RELEASE' => 'Publikimi',
-    'LBL_LIST_NAME' => 'publikimi',
+    'LBL_RELEASE' => 'Release:',
+    'LBL_LIST_NAME' => 'Release',
     'LBL_NAME' => 'Versioni i publikimit',
     'LBL_LIST_LIST_ORDER' => 'Order',
     'LBL_LIST_ORDER' => 'Order:',
-    'LBL_LIST_STATUS' => 'Statusi',
-    'LBL_STATUS' => 'Statusi',
-    'LNK_NEW_RELEASE' => 'lista e publikimeve',
-    'NTC_DELETE_CONFIRMATION' => 'A jeni të sigurtë që dëshironi të fshini këtë regjistrim?',
+    'LBL_LIST_STATUS' => 'Status',
+    'LBL_STATUS' => 'Status:',
+    'LNK_NEW_RELEASE' => 'Release List',
+    'NTC_DELETE_CONFIRMATION' => 'Are you sure you want to delete this record?',
     'ERR_DELETE_RECORD' => 'Duhet që të përcaktoni numrin e regjistrimit për të fshirë publikimin',
     'NTC_STATUS' => 'Vendos statusin në pasiv për heqje të këtij publikimi prej listës së poshtme të publikimeve',
     'NTC_LIST_ORDER' => 'Përcakto porosinë që ky publikim do të shfaq në listën e poshtme të publikimeve',
     'release_status_dom' =>
         array(
-            'Active' => 'aktive',
-            'Inactive' => 'pasive',
+            'Active' => 'Active',
+            'Inactive' => 'Inactive',
         ),
-    'LBL_EDITLAYOUT' => 'Ndrysho formatin' /*for 508 compliance fix*/,
+    'LBL_EDITLAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
 );
