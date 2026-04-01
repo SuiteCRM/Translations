@@ -56,8 +56,8 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Toegewezen aan:',
     'LBL_RATING' => 'Score',
     'LBL_ASSIGNED_TO' => 'Toegewezen aan:',
-    'LBL_ASSIGNED_USER' => 'Toegewezen aan:',
-    'LBL_ASSIGNED_TO_ID' => 'Toegewezen aan:',
+    'LBL_ASSIGNED_USER' => 'Assigned to:',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned to:',
     'LBL_BILLING_ADDRESS_CITY' => 'Factuur plaats',
     'LBL_BILLING_ADDRESS_COUNTRY' => 'Factuur land',
     'LBL_BILLING_ADDRESS_POSTALCODE' => 'Factuur postcode',
@@ -97,7 +97,7 @@ $mod_strings = array(
     'LBL_PHONE_FAX' => 'Fax',
     'LBL_PHONE_OFFICE' => 'Telefoon (werk):',
     'LBL_PHONE' => 'Telefoon',
-    'LBL_EMAIL_ADDRESS' => 'E-mail',
+    'LBL_EMAIL_ADDRESS' => 'Email Address',
     'LBL_EMAIL_ADDRESSES' => 'E-mail adres(sen)',
     'LBL_POSTAL_CODE' => 'Postcode',
     'LBL_SAVE_ACCOUNT' => 'Organisatie opslaan',
@@ -116,7 +116,7 @@ $mod_strings = array(
     'LBL_TYPE' => 'Type',
     'LBL_WEBSITE' => 'Website',
 
-    'LNK_ACCOUNT_LIST' => 'Relaties',
+    'LNK_ACCOUNT_LIST' => 'Accounts',
     'LNK_NEW_ACCOUNT' => 'Nieuwe relatie',
 
     'MSG_DUPLICATE' => 'Toevoegen van deze relatie kan resulteren in een dubbele relatie. U kunt een relatie kiezen uit de onderstaande lijst of een Nieuwe relatie toevoegen om door te gaan met toevoegen van het relatie.<br>Klik op Opslaan om door te gaan met het maken van deze nieuwe relatie, of klik Annuleren om terug te keren naar de module zonder de relatie aan te maken.',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'Weet u zeker dat u dit record wilt verwijderen?',
 
     'LBL_EDIT_BUTTON' => 'Bewerken ',
-    'LBL_REMOVE' => 'Verwijder',
+    'LBL_REMOVE' => 'Remove',
 
 );
