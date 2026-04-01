@@ -43,30 +43,30 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EDIT_LAYOUT' => 'Ndrysho formatin',
+    'LBL_EDIT_LAYOUT' => 'Edit Layout',
     'LBL_EDIT_FIELDS' => 'Ndrysho',
-    'LBL_SELECT_FILE' => 'Selekto dosje',
+    'LBL_SELECT_FILE' => 'Select File',
     'LBL_MODULE_TITLE' => 'Studio',
-    'LBL_TOOLBOX' => 'Kutia e veglave',
+    'LBL_TOOLBOX' => 'Toolbox',
     'LBL_SUITE_FIELDS_STAGE' => 'Fushat e SuiteCRM',
     'LBL_VIEW_SUITE_FIELDS' => 'Shih fushat e SuiteCRM',
-    'LBL_FAILED_TO_SAVE' => 'Dështoi të ruhet',
+    'LBL_FAILED_TO_SAVE' => 'Failed To Save',
     'LBL_CONFIRM_UNSAVE' => 'Çdo ndryshim nuk do të ruhet. A jeni të sigurt që dëshironi të vazhdoni?',
-    'LBL_PUBLISHING' => 'Publikim...',
-    'LBL_PUBLISHED' => 'publikuar',
-    'LBL_FAILED_PUBLISHED' => 'Dështoi të publikohet.',
-    'LBL_DROP_HERE' => '[Hudhu këtu]',
+    'LBL_PUBLISHING' => 'Publishing...',
+    'LBL_PUBLISHED' => 'Published',
+    'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
+    'LBL_DROP_HERE' => '[Drop Here]',
 
 //CUSTOM FIELDS
-    'LBL_NAME' => 'Emri',
+    'LBL_NAME' => 'Name',
     'LBL_LABEL' => 'Label',
-    'LBL_MASS_UPDATE' => 'Masa e rinovuar',
-    'LBL_DEFAULT_VALUE' => 'Vlerë e gabuar',
-    'LBL_REQUIRED' => 'E nevojshme',
-    'LBL_DATA_TYPE' => 'Lloji',
+    'LBL_MASS_UPDATE' => 'Mass Update',
+    'LBL_DEFAULT_VALUE' => 'Default Value',
+    'LBL_REQUIRED' => 'Required',
+    'LBL_DATA_TYPE' => 'Type',
 
 
-    'LBL_HISTORY' => 'Historia',
+    'LBL_HISTORY' => 'History',
 
 //WIZARDS
 
@@ -79,15 +79,15 @@ $mod_strings = array(
     'LBL_SW_EDIT_GROUPTABS' => 'Lidhëset e konfigurimit të grupit',
     'LBL_SW_EDIT_PORTAL' => 'Ndrysho portalin',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => 'Riparo fusha të rëndomta',
-    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migro fushat e zakonshme',
+    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrate Custom Fields',
 
 // JS LABELS
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rindërtimet e versioneve javascript të dosjeve të gjuhës',
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Heqja e versioneve javascript të dosjeve të gjuhës, do të rindërtohet sipas nevojes.',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuilds javascript versions of language files',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Removing javascript versions of language files, will rebuild when needed.',
 
 
 //Manager Backups History
-    'LBL_MB_DELETE' => 'Fshi',
+    'LBL_MB_DELETE' => 'Delete',
 
 //EDIT DROP DOWNS
     'LBL_ED_CREATE_DROPDOWN' => 'Krijo një lëshim',
@@ -100,47 +100,47 @@ $mod_strings = array(
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => 'Shfaq vlerën',
     'LBL_DD_DATABASEVALUE' => 'Vlera e bazës së të dhënave',
-    'LBL_DD_ALL' => 'Të gjitha',
+    'LBL_DD_ALL' => 'All',
 
 //BUTTONS
-    'LBL_BTN_SAVE' => 'Ruaj',
-    'LBL_BTN_CANCEL' => 'Anulo',
-    'LBL_BTN_SAVEPUBLISH' => 'Ruaj dhe vendos',
-    'LBL_BTN_HISTORY' => 'Historia',
-    'LBL_BTN_ADDROWS' => 'Shto reshta',
-    'LBL_BTN_UNDO' => 'Zhbëj',
-    'LBL_BTN_REDO' => 'Ribëj',
-    'LBL_BTN_ADDCUSTOMFIELD' => 'Shto fushë të rëndomtë',
+    'LBL_BTN_SAVE' => 'Save',
+    'LBL_BTN_CANCEL' => 'Cancel',
+    'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
+    'LBL_BTN_HISTORY' => 'History',
+    'LBL_BTN_ADDROWS' => 'Add Rows',
+    'LBL_BTN_UNDO' => 'Undo',
+    'LBL_BTN_REDO' => 'Redo',
+    'LBL_BTN_ADDCUSTOMFIELD' => 'Add Custom Field',
     'LBL_BTN_TABINDEX' => 'Ndrysho urdhërat e butonave',
 
 //TABS
-    'LBL_MODULES' => 'Modulet',
-    'LBL_MODULE_NAME' => 'Administrimi',
-    'LBL_CONFIGURE_GROUP_TABS' => 'Konfiguro modulet e grupuara',
+    'LBL_MODULES' => 'Modules',
+    'LBL_MODULE_NAME' => 'Administration',
+    'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
     'LBL_GROUP_TAB_WELCOME' => 'Filtrat e mëposhtme do të shfaqet në listën e më shumë menynë të modulit për përdoruesit që të përdorin për të parë grupet e moduleve në meny. Tërhiqeni dhe lëshoni modulet për dhe nga filtrat. Shënim: Filtrat e zbrazëta nuk do të shfaqen në meny.',
     'LBL_RENAME_TAB_WELCOME' => 'Shtyp në cilindo shfaqje të vlerës së butonit në tabelën e mëposhtme për të riemëruar butonin.',
     'LBL_DELETE_MODULE' => 'Remove&nbsp;module<br />from&nbsp;filter',
     'LBL_TAB_GROUP_LANGUAGE_HELP' => 'Selekto një gjuhë të disponueshme, ndrysho klasifikimin e grupit dhe shtyp Ruaj dhe Poziciono për të aplikuar klasifikimet në gjuhët e selektuara.',
     'LBL_ADD_GROUP' => 'Shto filtër',
     'LBL_NEW_GROUP' => 'Grup i ri',
-    'LBL_RENAME_TABS' => 'Riemëro modulat',
+    'LBL_RENAME_TABS' => 'Rename Modules',
 
 //ERRORS
-    'ERROR_INVALID_KEY_VALUE' => "Gabim: vlerë jovalide e çelësit:[&#39;]",
+    'ERROR_INVALID_KEY_VALUE' => "Error: Invalid Key Value: [']",
 
 //SUGAR PORTAL
-    'LBL_SAVE' => 'Ruaj' /*for 508 compliance fix*/,
-    'LBL_UNDO' => 'Zhbëj' /*for 508 compliance fix*/,
-    'LBL_REDO' => 'Ribëj' /*for 508 compliance fix*/,
+    'LBL_SAVE' => 'Save' /*for 508 compliance fix*/,
+    'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
+    'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Në linjë' /*for 508 compliance fix*/,
-    'LBL_DELETE' => 'Fshi' /*for 508 compliance fix*/,
+    'LBL_DELETE' => 'Delete' /*for 508 compliance fix*/,
     'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Mksimizo' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Minimizo' /*for 508 compliance fix*/,
-    'LBL_PUBLISH' => 'Publiko' /*for 508 compliance fix*/,
-    'LBL_ADDROWS' => 'Shto reshta' /*for 508 compliance fix*/,
+    'LBL_PUBLISH' => 'Publish' /*for 508 compliance fix*/,
+    'LBL_ADDROWS' => 'Add Rows' /*for 508 compliance fix*/,
     'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
-    'LBL_EDIT' => 'Ndrysho' /*for 508 compliance fix*/,
+    'LBL_EDIT' => 'Edit' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Selekto gjuhën për ta ndryshuar',
     'LBL_SINGULAR' => 'Etiketë Njëjësi',
