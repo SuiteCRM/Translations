@@ -100,8 +100,8 @@ $mod_strings = array(
     'LBL_YAHOOMAIL_SMTPUSER' => 'Yahoo! мэйл:',
     'LBL_GMAIL_SMTPPASS' => 'Gmail - нууц үг:',
     'LBL_GMAIL_SMTPUSER' => 'Gmail - хаяг:',
-    'LBL_EXCHANGE_SMTPPASS' => 'Exchange нууц үг:',
-    'LBL_EXCHANGE_SMTPUSER' => 'Exchange нэр:',
+    'LBL_EXCHANGE_SMTPPASS' => 'Exchange - нууц үг:',
+    'LBL_EXCHANGE_SMTPUSER' => 'Exchange - нэр:',
     'LBL_EXCHANGE_SMTPPORT' => 'Exchange сервер порт:',
     'LBL_EXCHANGE_SMTPSERVER' => 'Exchange сервер:',
 
