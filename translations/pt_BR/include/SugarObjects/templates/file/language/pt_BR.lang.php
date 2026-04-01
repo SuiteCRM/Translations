@@ -51,7 +51,7 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Pesquisar Documentos',
     //vardef labels
     'LBL_NAME' => 'Nome do Documento',
-    'LBL_DESCRIPTION' => 'Descrição',
+    'LBL_DESCRIPTION' => 'Description',
     'LBL_ASSIGNED_TO' => 'Atribuído a:',
     'LBL_CATEGORY' => 'Categoria',
     'LBL_SUBCATEGORY' => 'Subcategoria',
@@ -87,29 +87,29 @@ $mod_strings = array(
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'Lista de Documentos',
     'LBL_LIST_DOCUMENT' => 'Documento',
-    'LBL_LIST_CATEGORY' => 'Categoria',
-    'LBL_LIST_SUBCATEGORY' => 'Subcategoria',
-    'LBL_LIST_REVISION' => 'Revisão',
+    'LBL_LIST_CATEGORY' => 'Category',
+    'LBL_LIST_SUBCATEGORY' => 'Sub Category',
+    'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => 'Publicado por',
     'LBL_LIST_LAST_REV_DATE' => 'Data da Revisão',
     'LBL_LIST_VIEW_DOCUMENT' => 'Visualizar',
-    'LBL_LIST_ACTIVE_DATE' => 'Data da Publicação',
-    'LBL_LIST_EXP_DATE' => 'Data de Expiração',
-    'LBL_LIST_STATUS' => 'Estado',
+    'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
+    'LBL_LIST_EXP_DATE' => 'Expiration Date',
+    'LBL_LIST_STATUS' => 'Status',
 
     //document search form.
-    'LBL_SF_CATEGORY' => 'Categoria:',
-    'LBL_SF_SUBCATEGORY' => 'Subcategoria:',
+    'LBL_SF_CATEGORY' => 'Category:',
+    'LBL_SF_SUBCATEGORY' => 'Sub Category:',
 
     'DEF_CREATE_LOG' => 'Documento Criado',
 
     //error messages
-    'ERR_DOC_NAME' => 'Nome do Documento',
-    'ERR_DOC_ACTIVE_DATE' => 'Data da Publicação',
+    'ERR_DOC_NAME' => 'Document Name',
+    'ERR_DOC_ACTIVE_DATE' => 'Publish Date',
     'ERR_FILENAME' => 'Nome do Arquivo',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'Nome do Documento',
+    'LBL_LIST_DOCUMENT_NAME' => 'Document Name',
 
     'LBL_EDIT_BUTTON' => 'Editar ',
     'LBL_REMOVE' => 'Remover',
