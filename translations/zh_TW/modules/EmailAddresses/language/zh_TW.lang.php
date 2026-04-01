@@ -43,13 +43,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EMAIL_ADDRESS_ID' => '編號',
-    'LBL_EMAIL_ADDRESS' => '電子郵箱地址',
+    'LBL_EMAIL_ADDRESS_ID' => 'ID',
+    'LBL_EMAIL_ADDRESS' => '電子郵件',
     'LBL_EMAIL_ADDRESS_CAPS' => '電郵地址帽',
     'LBL_INVALID_EMAIL' => '無效的電子郵件',
-    'LBL_OPT_OUT' => '選擇排除',
+    'LBL_OPT_OUT' => '可退出的郵件',
     'LBL_CONFIRM_OPT_IN' => '確認參加',
     'LBL_DATE_CREATE' => '創建日期',
     'LBL_DATE_MODIFIED' => '修改日期',
-    'LBL_DELETED' => '刪除',
+    'LBL_DELETED' => 'Delete',
 );
