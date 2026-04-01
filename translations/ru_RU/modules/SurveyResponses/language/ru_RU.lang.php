@@ -39,7 +39,7 @@
  */
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID'                                                             => 'ID ответственного',
+    'LBL_ASSIGNED_TO_ID'                                                             => 'Ответственный(ая)',
     'LBL_ASSIGNED_TO_NAME'                                                           => 'Ответственное лицо',
     'LBL_SECURITYGROUPS'                                                             => 'Группы пользователей',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE'                                              => 'Группы пользователей',
@@ -48,16 +48,16 @@ $mod_strings = array(
     'LBL_DATE_MODIFIED'                                                              => 'Дата изменения',
     'LBL_MODIFIED'                                                                   => 'Изменено',
     'LBL_MODIFIED_ID'                                                                => 'Изменено(ID)',
-    'LBL_MODIFIED_NAME'                                                              => 'Изменено (Имя)',
-    'LBL_CREATED'                                                                    => 'Создано',
+    'LBL_MODIFIED_NAME'                                                              => 'Изменено',
+    'LBL_CREATED'                                                                    => 'Кем создано',
     'LBL_CREATED_ID'                                                                 => 'Создано(ID)',
     'LBL_DESCRIPTION'                                                                => 'Описание',
     'LBL_DELETED'                                                                    => 'Удалено',
-    'LBL_NAME'                                                                       => 'Имя',
+    'LBL_NAME'                                                                       => 'Название',
     'LBL_CREATED_USER'                                                               => 'Создано',
     'LBL_MODIFIED_USER'                                                              => 'Изменено',
-    'LBL_LIST_NAME'                                                                  => 'Имя',
-    'LBL_EDIT_BUTTON'                                                                => 'Правка',
+    'LBL_LIST_NAME'                                                                  => 'Название',
+    'LBL_EDIT_BUTTON'                                                                => 'Править',
     'LBL_REMOVE'                                                                     => 'Удалить',
     'LBL_LIST_FORM_TITLE'                                                            => 'Список ответов на анкету',
     'LBL_MODULE_NAME'                                                                => 'Ответы анкетирования',
@@ -78,7 +78,7 @@ $mod_strings = array(
     'LBL_SURVEYRESPONSES_ACCOUNTS_FROM_ACCOUNTS_TITLE'                               => 'Контрагент',
     'LBL_SURVEYS_SURVEYRESPONSES_FROM_SURVEYS_TITLE'                                 => 'Опрос',
     'LBL_QUESTION_RESPONSES_DISPLAY'                                                 => 'Ответы на вопросы',
-    'LBL_SURVEYRESPONSES_CAMPAIGNS_FROM_CAMPAIGNS_TITLE'                             => 'Маркет. кампания',
+    'LBL_SURVEYRESPONSES_CAMPAIGNS_FROM_CAMPAIGNS_TITLE'                             => 'Промоакция',
     'LBL_QUESTION' => 'Question',
     'LBL_RESPONSE' => 'Response'
 
