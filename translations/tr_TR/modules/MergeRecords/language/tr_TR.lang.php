@@ -61,7 +61,7 @@ $mod_strings = array(
     'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Birleştir',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Birleştirmeyi Kaydet',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Birleştirmeyi Kaydet',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Birleştirmeyi kaydet',
 
     'LBL_STEP2_FORM_TITLE' => 'Bulunan birleştirilecek kayıtlar',
     'LBL_SELECT_ERROR' => 'İlerlemeden önce bir seçim yapmalısınız.',
