@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => '合併列表',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => '第一步：搜尋記錄以合併',
-    'LBL_AVAIL_FIELDS' => '有效欄位',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => '過濾條件',
     'LBL_MERGE_VALUE_OVER' => '合併值為',
 
