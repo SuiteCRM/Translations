@@ -35,25 +35,25 @@ $mod_strings = [
     'LBL_ASSIGNED_TO_NAME' => '負責人',
     'LBL_DATE_ENTERED' => '建立日期',
     'LBL_DATE_MODIFIED' => '修改日期',
-    'LBL_MODIFIED' => '修改',
-    'LBL_MODIFIED_NAME' => '修改者名稱',
+    'LBL_MODIFIED' => '修改人',
+    'LBL_MODIFIED_NAME' => 'Modified By Name',
     'LBL_CREATED' => '建立人',
     'LBL_CREATED_USER' => '創建者',
-    'LBL_MODIFIED_USER' => '修改的使用者',
-    'LBL_DESCRIPTION' => '描述',
-    'LBL_DELETED' => '刪除',
+    'LBL_MODIFIED_USER' => 'Modified by User',
+    'LBL_DESCRIPTION' => '說明:',
+    'LBL_DELETED' => '已刪除',
 
     // Security groups
-    'LBL_SECURITYGROUPS' => '安全群組',
+    'LBL_SECURITYGROUPS' => '權限群組',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => '安全群組',
 
     // List view labels
     'LBL_LIST_NAME' => '名稱',
-    'LBL_LIST_DELETE' => '刪除',
-    'LBL_EDIT_BUTTON' => '編輯',
+    'LBL_LIST_DELETE' => 'Delete',
+    'LBL_EDIT_BUTTON' => 'Edit',
     'LBL_REMOVE' => '刪除',
-    'LBL_ASCENDING' => '升序',
-    'LBL_DESCENDING' => '降序',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
 
     // Email opt-in labels
     'LBL_OPT_IN' => '選擇參加',
@@ -62,7 +62,7 @@ $mod_strings = [
     'LBL_OPT_IN_CONFIRMED' => '已選擇參加',
 
     // Subpanel titles
-    'LBL_HISTORY_SUBPANEL_TITLE' => '查看歷史記錄',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => '銷售活動',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
@@ -101,7 +101,7 @@ $mod_strings = [
     'LBL_CONNECT_OAUTH' => 'Connect OAuth',
 
     // Basic Auth Fields
-    'LBL_USERNAME' => '使用者名稱',
+    'LBL_USERNAME' => 'Username',
     'LBL_PASSWORD' => '密碼',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test Connection',
@@ -163,11 +163,11 @@ $mod_strings = [
 
     // Connection test messages
     'LBL_CALENDAR' => '日曆',
-    'LBL_SUCCESSFUL' => '成功',
-    'LBL_FAILED' => '失敗',
+    'LBL_SUCCESSFUL' => 'Successful',
+    'LBL_FAILED' => 'Failed',
     'LBL_CONNECTION_TEST' => 'Connection Test',
-    'LBL_YES' => '確定',
-    'LBL_NO' => '不',
+    'LBL_YES' => '是',
+    'LBL_NO' => '否',
     'LBL_FOUND_CALENDARS' => 'Found {count} calendars.',
     'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'An error occurred while processing the connection test response. Please check the logs for details.',
     'LBL_CONNECTION_TEST_HTTP_ERROR' => 'Connection test failed with HTTP status',
@@ -182,14 +182,14 @@ $mod_strings = [
 
     // Dialog labels
     'LBL_NOTIFICATION' => 'Notification',
-    'LBL_CONFIRM' => '確定',
+    'LBL_CONFIRM' => 'Confirm',
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => '處理中',
-    'LBL_SYNC_STATUS_SUCCESS' => '成功',
-    'LBL_SYNC_STATUS_WARNING' => '警告',
-    'LBL_SYNC_STATUS_ERROR' => '錯誤:',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => 'In Progress',
+    'LBL_SYNC_STATUS_SUCCESS' => 'Success',
+    'LBL_SYNC_STATUS_WARNING' => 'Warning',
+    'LBL_SYNC_STATUS_ERROR' => 'Error',
 
     // Sync message enum translations
     'LBL_SYNC_MSG_SYNC_COMPLETE' => 'All meetings synced.',
@@ -202,5 +202,5 @@ $mod_strings = [
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Calendar not found.',
 
     // Relationship labels
-    'LBL_MEETINGS' => '會議',
+    'LBL_MEETINGS' => 'Meetings',
 ];
