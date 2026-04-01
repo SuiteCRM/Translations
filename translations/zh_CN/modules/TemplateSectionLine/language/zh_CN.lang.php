@@ -45,10 +45,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_DESCRIPTION' => '说明',
     'LBL_NAME' => '名称',
-    'LBL_LIST_NAME' => '名称',
+    'LBL_LIST_NAME' => '追踪器',
     'LBL_EDIT_BUTTON' => '编辑',
-    'LBL_REMOVE' => '移除',
-    'LBL_GRP' => '分组',
+    'LBL_REMOVE' => 'Remove',
+    'LBL_GRP' => '群组',
     'LBL_ORD' => '顺序',
     'LBL_THUMBNAIL' => '缩略图',
 );
