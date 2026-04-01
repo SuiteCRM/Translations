@@ -48,11 +48,11 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Phiên bản tìm kiếm',
     'LBL_LIST_FORM_TITLE' => 'Danh sách phát hành',
     'LBL_NEW_FORM_TITLE' => 'Mới phát hành',
-    'LBL_RELEASE' => 'Phát hành:',
-    'LBL_LIST_NAME' => 'Phát hành',
+    'LBL_RELEASE' => 'Release:',
+    'LBL_LIST_NAME' => 'Release',
     'LBL_NAME' => 'Phiên bản phát hành:',
     'LBL_LIST_LIST_ORDER' => 'Số thứ tự',
-    'LBL_LIST_ORDER' => 'Số thứ tự:',
+    'LBL_LIST_ORDER' => 'Order:',
     'LBL_LIST_STATUS' => 'Tình trạng',
     'LBL_STATUS' => 'Tình trạng:',
     'LNK_NEW_RELEASE' => 'Danh sách phát hành',
@@ -63,7 +63,7 @@ $mod_strings = array(
     'release_status_dom' =>
         array(
             'Active' => 'Đang hoạt động',
-            'Inactive' => 'Không hoạt động',
+            'Inactive' => 'Inactive',
         ),
     'LBL_EDITLAYOUT' => 'Sửa khung' /*for 508 compliance fix*/,
 );
