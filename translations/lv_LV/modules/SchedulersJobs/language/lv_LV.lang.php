@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_NAME' => 'Uzdevuma nosaukums',
-    'LBL_EXECUTE_TIME' => 'Izpildes laiks',
-    'LBL_SCHEDULER_ID' => 'Plānotājs',
+    'LBL_NAME' => 'Job Name',
+    'LBL_EXECUTE_TIME' => 'Execute Time',
+    'LBL_SCHEDULER_ID' => 'Scheduler',
     'LBL_STATUS' => 'Uzdevuma statuss',
-    'LBL_RESOLUTION' => 'Rezultāts',
+    'LBL_RESOLUTION' => 'Result',
     'LBL_MESSAGE' => 'Ziņojumi',
     'LBL_DATA' => 'Uzdevuma dati',
     'LBL_REQUEUE' => 'Atkārtot ja neizdodas',
