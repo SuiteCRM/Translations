@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'बिक्री सूची',
     'LBL_NAME' => 'बिक्री का नाम',
     'LBL_LIST_SALE_NAME' => 'नाम',
-    'LBL_LIST_ACCOUNT_NAME' => 'खाते का नाम',
+    'LBL_LIST_ACCOUNT_NAME' => 'खाता नाम',
     'LBL_LIST_AMOUNT' => 'रकम',
     'LBL_LIST_DATE_CLOSED' => 'बंद करें',
     'LBL_LIST_SALE_STAGE' => 'बिक्री चरण',
@@ -79,7 +79,7 @@ $mod_strings = array(
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'गतिविधियाँ',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'इतिहास',
 
-    'LBL_CONTACTS_SUBPANEL_TITLE' => 'संपर्कों',
+    'LBL_CONTACTS_SUBPANEL_TITLE' => 'संपर्क',
     'LBL_ASSIGNED_TO_NAME' => 'उपयोगकर्ता:',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'निर्दिष्ट उपयोगकर्ता',
     'LBL_ASSIGNED_TO_ID' => 'आईडी को सौंपा गया',
@@ -87,7 +87,7 @@ $mod_strings = array(
     'LBL_SALE_INFORMATION' => 'बिक्री की जानकारी',
     'LBL_CURRENCY_NAME' => 'मुद्रा का नाम',
     'LBL_CURRENCY_SYMBOL' => 'मुद्रा चिह्न',
-    'LBL_EDIT_BUTTON' => 'संशोधन करें',
-    'LBL_REMOVE' => 'हटाऐं',
+    'LBL_EDIT_BUTTON' => 'संपादित करें',
+    'LBL_REMOVE' => 'हटाएँ',
 
 );
