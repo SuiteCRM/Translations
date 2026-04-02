@@ -68,7 +68,7 @@ $mod_strings = array(
     'LBL_RELATED_DOCUMENT_REVISION_ID' => 'ID revizije povezanog dokumenta',
     'LBL_IS_TEMPLATE' => 'Ovo je predložak',
     'LBL_TEMPLATE_TYPE' => 'Vrsta dokumenta',
-    'LBL_ASSIGNED_TO_NAME' => 'Dodijeljeno korisniku:',
+    'LBL_ASSIGNED_TO_NAME' => 'Dodijeljeno:',
     'LBL_REVISION_NAME' => 'Broj revizije',
     'LBL_MIME' => 'Mime tip',
     'LBL_REVISION' => 'Revizija',
@@ -147,7 +147,7 @@ $mod_strings = array(
     'LBL_LAST_REV_CREATE_DATE' => 'Datum kreiranja posljednje revizije',
     'LBL_CONTRACTS' => 'Ugovori',
     'LBL_CREATED_USER' => 'Kreirani korisnik',
-    'LBL_DOCUMENT_INFORMATION' => 'Pregled', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_DOCUMENT_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_DOC_ID' => 'ID izvora dokumenta',
     'LBL_DOC_TYPE' => 'Izvor',
     'LBL_DOC_TYPE_POPUP' => 'Select a source to which this document will be uploaded<br> and from which it will be available.',
@@ -159,9 +159,9 @@ $mod_strings = array(
     'ERR_INVALID_EXTERNAL_API_LOGIN' => 'Provjera prijave neuspjela za vanjski API ({0})',
 
     // Links around the world
-    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Klijenti',
+    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Računi',
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Kontakti',
-    'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Poslovne prilike',
+    'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Prilike',
     'LBL_CASES_SUBPANEL_TITLE' => 'Slučajevi',
     'LBL_BUGS_SUBPANEL_TITLE' => 'Bugovi',
 
