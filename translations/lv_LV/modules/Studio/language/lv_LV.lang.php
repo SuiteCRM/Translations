@@ -43,30 +43,30 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EDIT_LAYOUT' => 'Rediģēt izkārtojumu',
+    'LBL_EDIT_LAYOUT' => 'Edit Layout',
     'LBL_EDIT_FIELDS' => 'Rediģēt pielāgotos laukus',
-    'LBL_SELECT_FILE' => 'Izvēlēties failu [Alt+F]',
+    'LBL_SELECT_FILE' => 'Select File',
     'LBL_MODULE_TITLE' => 'Studio',
-    'LBL_TOOLBOX' => 'Rīkjosla',
+    'LBL_TOOLBOX' => 'Toolbox',
     'LBL_SUITE_FIELDS_STAGE' => 'SuiteCRM lauki (klikšķiniet uz vienumiem, lai pievienotu sākuma zonai)',
     'LBL_VIEW_SUITE_FIELDS' => 'Skatīt SuiteCRM laukus',
-    'LBL_FAILED_TO_SAVE' => 'Neizdevās saglabāt',
+    'LBL_FAILED_TO_SAVE' => 'Failed To Save',
     'LBL_CONFIRM_UNSAVE' => 'Izmaiņas netiks saglabātas. Vai tiešām vēlaties turpināt?',
-    'LBL_PUBLISHING' => 'Publicē...',
-    'LBL_PUBLISHED' => 'Nopublicēts',
-    'LBL_FAILED_PUBLISHED' => 'Neizdevās nopublicēt',
-    'LBL_DROP_HERE' => '[Nomest šeit]',
+    'LBL_PUBLISHING' => 'Publishing...',
+    'LBL_PUBLISHED' => 'Published',
+    'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
+    'LBL_DROP_HERE' => '[Drop Here]',
 
 //CUSTOM FIELDS
     'LBL_NAME' => 'Vārds:',
-    'LBL_LABEL' => 'Etiķete',
-    'LBL_MASS_UPDATE' => 'Masveida izmaiņas',
-    'LBL_DEFAULT_VALUE' => 'Noklusētā vērtība',
-    'LBL_REQUIRED' => 'Obligāts',
+    'LBL_LABEL' => 'Label',
+    'LBL_MASS_UPDATE' => 'Mass Update',
+    'LBL_DEFAULT_VALUE' => 'Default Value',
+    'LBL_REQUIRED' => 'Required',
     'LBL_DATA_TYPE' => 'Tips:',
 
 
-    'LBL_HISTORY' => 'Vēsture',
+    'LBL_HISTORY' => 'History',
 
 //WIZARDS
 
@@ -79,68 +79,68 @@ $mod_strings = array(
     'LBL_SW_EDIT_GROUPTABS' => 'Konfigurēt grupu cilnes',
     'LBL_SW_EDIT_PORTAL' => 'Rediģēt portālu',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => 'Salabot pielāgotos laukus',
-    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrēt pielāgotos laukus',
+    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrate Custom Fields',
 
 // JS LABELS
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Pārbūvē javascript versijas no valodas failiem',
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Noņem javascript versijas no no valodas failiem, kas tiks izveidotas pēc vajadzības.',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuilds javascript versions of language files',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Removing javascript versions of language files, will rebuild when needed.',
 
 
 //Manager Backups History
-    'LBL_MB_DELETE' => 'Dzēsts',
+    'LBL_MB_DELETE' => 'Delete',
 
 //EDIT DROP DOWNS
     'LBL_ED_CREATE_DROPDOWN' => 'Izveidot nolaižamo izvēlni',
     'LBL_DROPDOWN_NAME' => 'Dropdown nosaukums:',
     'LBL_DROPDOWN_LANGUAGE' => 'Valoda:',
-    'LBL_TABGROUP_LANGUAGE' => 'Valoda:',
+    'LBL_TABGROUP_LANGUAGE' => 'Language:',
 
 //END WIZARDS
 
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => 'Attēlojuma vērtība',
     'LBL_DD_DATABASEVALUE' => 'Datubāzes vērtība',
-    'LBL_DD_ALL' => 'Visus',
+    'LBL_DD_ALL' => 'All',
 
 //BUTTONS
-    'LBL_BTN_SAVE' => 'Pabeigt',
-    'LBL_BTN_CANCEL' => 'Atcelt',
-    'LBL_BTN_SAVEPUBLISH' => 'Saglabāt un izvietot',
-    'LBL_BTN_HISTORY' => 'Vēsture',
-    'LBL_BTN_ADDROWS' => 'Pievienot rindas',
-    'LBL_BTN_UNDO' => 'Atsaukt',
-    'LBL_BTN_REDO' => 'Atatsaukt',
-    'LBL_BTN_ADDCUSTOMFIELD' => 'Pievienot pielāgotu lauku',
+    'LBL_BTN_SAVE' => 'Save',
+    'LBL_BTN_CANCEL' => 'Cancel',
+    'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
+    'LBL_BTN_HISTORY' => 'History',
+    'LBL_BTN_ADDROWS' => 'Add Rows',
+    'LBL_BTN_UNDO' => 'Undo',
+    'LBL_BTN_REDO' => 'Redo',
+    'LBL_BTN_ADDCUSTOMFIELD' => 'Add Custom Field',
     'LBL_BTN_TABINDEX' => 'Tabulēšanas secības rediģēšana',
 
 //TABS
-    'LBL_MODULES' => 'Moduļi:',
-    'LBL_MODULE_NAME' => 'Administrēšana',
-    'LBL_CONFIGURE_GROUP_TABS' => 'Konfigurēt grupētos moduļus',
+    'LBL_MODULES' => 'Modules',
+    'LBL_MODULE_NAME' => 'Administration',
+    'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
     'LBL_GROUP_TAB_WELCOME' => 'Zemāk esošās grupas tiks attēlotas navigācijas joslā lietotājiem, kuri izvēlēsies aplūkot Grupētos moduļus. Velc un nomet moduļus uz un no grupām, lai konfigurētu, kuri moduļi parādīsies grupās. Piezīme: Tukšas grupas navigācijas joslā netiks parādītas.',
     'LBL_RENAME_TAB_WELCOME' => 'Lai pārsauktu cilni, spiediet uz jebkura Attēlot vērtību.',
     'LBL_DELETE_MODULE' => 'Izņemt&nbsp;moduli<br />no&nbsp;grupas',
     'LBL_TAB_GROUP_LANGUAGE_HELP' => 'Izvēlieties pieejamo valodu, rediģējiet grupu nosaukumus un spiediet "Saglabāt & Izvietot", lai nosaukumi parādītos izvēlētajā  valodā.',
     'LBL_ADD_GROUP' => 'Pievienot filtru',
     'LBL_NEW_GROUP' => 'Jauna grupa',
-    'LBL_RENAME_TABS' => 'Pārsaukt moduļus',
+    'LBL_RENAME_TABS' => 'Rename Modules',
 
 //ERRORS
     'ERROR_INVALID_KEY_VALUE' => "Kļūda: Nederīga atslēgas vērtība: [&#39;]",
 
 //SUGAR PORTAL
-    'LBL_SAVE' => 'Pabeigt' /*for 508 compliance fix*/,
-    'LBL_UNDO' => 'Atsaukt' /*for 508 compliance fix*/,
-    'LBL_REDO' => 'Atatsaukt' /*for 508 compliance fix*/,
+    'LBL_SAVE' => 'Save' /*for 508 compliance fix*/,
+    'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
+    'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Iekļauts' /*for 508 compliance fix*/,
-    'LBL_DELETE' => 'Dzēsts' /*for 508 compliance fix*/,
-    'LBL_ADD_FIELD' => 'Pievienot lauku' /*for 508 compliance fix*/,
+    'LBL_DELETE' => 'Delete' /*for 508 compliance fix*/,
+    'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Maksimizēt' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Minimizēt' /*for 508 compliance fix*/,
-    'LBL_PUBLISH' => 'Publicēt' /*for 508 compliance fix*/,
-    'LBL_ADDROWS' => 'Pievienot rindas' /*for 508 compliance fix*/,
-    'LBL_ADDFIELD' => 'Pievienot lauku' /*for 508 compliance fix*/,
-    'LBL_EDIT' => 'Rediģēt' /*for 508 compliance fix*/,
+    'LBL_PUBLISH' => 'Publish' /*for 508 compliance fix*/,
+    'LBL_ADDROWS' => 'Add Rows' /*for 508 compliance fix*/,
+    'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
+    'LBL_EDIT' => 'Edit' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Norādiet rediģējamo valodu',
     'LBL_SINGULAR' => 'Viendabīga etiķete',
