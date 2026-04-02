@@ -32,26 +32,26 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = [
     // System fields
     'LBL_ASSIGNED_TO_ID' => 'Gi-assign nga User Id',
-    'LBL_ASSIGNED_TO_NAME' => 'Gigahin kang',
+    'LBL_ASSIGNED_TO_NAME' => 'Gigahin sa',
     'LBL_DATE_ENTERED' => 'Petsa nga gihimo',
     'LBL_DATE_MODIFIED' => 'Petsa nga gi-usab',
-    'LBL_MODIFIED' => 'Giusab Ni',
+    'LBL_MODIFIED' => 'Ubsonunon Ni',
     'LBL_MODIFIED_NAME' => 'Giusab pinaagi sa pangan',
     'LBL_CREATED' => 'Gihimo Ni',
     'LBL_CREATED_USER' => 'Gihimo ni User',
-    'LBL_MODIFIED_USER' => 'Giusab ni User',
-    'LBL_DESCRIPTION' => 'Paghulagway',
-    'LBL_DELETED' => 'Gitangtang',
+    'LBL_MODIFIED_USER' => 'Ginag-o ni User',
+    'LBL_DESCRIPTION' => 'Deskrespyon',
+    'LBL_DELETED' => 'Gipapas',
 
     // Security groups
     'LBL_SECURITYGROUPS' => 'Mga Grupo para sa seguridad',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Mga Grupo para sa seguridad',
 
     // List view labels
-    'LBL_LIST_NAME' => 'Pangalan',
-    'LBL_LIST_DELETE' => 'Tangtanga',
-    'LBL_EDIT_BUTTON' => 'Usba',
-    'LBL_REMOVE' => 'Tangtanga',
+    'LBL_LIST_NAME' => 'Pangan',
+    'LBL_LIST_DELETE' => 'Tangtangon',
+    'LBL_EDIT_BUTTON' => 'I-Editon',
+    'LBL_REMOVE' => 'Tangtangon',
     'LBL_ASCENDING' => 'Pasaka',
     'LBL_DESCENDING' => 'Pakanaog',
 
@@ -62,7 +62,7 @@ $mod_strings = [
     'LBL_OPT_IN_CONFIRMED' => 'Opted sa sud',
 
     // Subpanel titles
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Tan-awon ang Kasaysayan',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Tanawon ang Kasaysayan',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Mga Aktibidad',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
@@ -92,8 +92,8 @@ $mod_strings = [
 
     // Standard fields
     'LBL_NAME' => 'Pangalan',
-    'LBL_ID' => 'ID',
-    'LBL_TYPE' => 'Matang',
+    'LBL_ID' => 'Mga Aksyon sa WorkFlow',
+    'LBL_TYPE' => 'Isulat',
     'LBL_SOURCE' => 'Calendar Source',
 
     // OAuth2 Fields
