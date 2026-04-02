@@ -43,24 +43,24 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EDIT_LAYOUT' => 'Modifier Mise en page',
+    'LBL_EDIT_LAYOUT' => 'Modifier Mise en Page',
     'LBL_EDIT_FIELDS' => 'Modifier Champs Personnalisés',
-    'LBL_SELECT_FILE' => 'Selectionner un fichier',
+    'LBL_SELECT_FILE' => 'Selectionner Fichier',
     'LBL_MODULE_TITLE' => 'Studio',
-    'LBL_TOOLBOX' => 'Boite à outils',
+    'LBL_TOOLBOX' => 'Boîte à Outils',
     'LBL_SUITE_FIELDS_STAGE' => 'Champs CRM (cliquez sur les éléments à ajouter à la zone)',
     'LBL_VIEW_SUITE_FIELDS' => 'Afficher Champs CRM',
-    'LBL_FAILED_TO_SAVE' => 'Echec de la sauvegarde',
+    'LBL_FAILED_TO_SAVE' => 'Échec Sauvegarde',
     'LBL_CONFIRM_UNSAVE' => 'Toutes les modifications seront perdues. Êtes-vous sûr de vouloir continuer ?',
     'LBL_PUBLISHING' => 'Publication ...',
-    'LBL_PUBLISHED' => 'Publié',
-    'LBL_FAILED_PUBLISHED' => 'Echec de la publication',
-    'LBL_DROP_HERE' => '[Déposer ici]',
+    'LBL_PUBLISHED' => 'Published',
+    'LBL_FAILED_PUBLISHED' => 'Échec Publication',
+    'LBL_DROP_HERE' => '[Drop Here]',
 
 //CUSTOM FIELDS
     'LBL_NAME' => 'Nom',
-    'LBL_LABEL' => 'Étiquette',
-    'LBL_MASS_UPDATE' => 'Mise à jour globale',
+    'LBL_LABEL' => 'Libellé',
+    'LBL_MASS_UPDATE' => 'Mise à jour Massive',
     'LBL_DEFAULT_VALUE' => 'Valeur par défaut',
     'LBL_REQUIRED' => 'Requis',
     'LBL_DATA_TYPE' => 'Type',
@@ -79,11 +79,11 @@ $mod_strings = array(
     'LBL_SW_EDIT_GROUPTABS' => 'Configurer Groupes Onglets',
     'LBL_SW_EDIT_PORTAL' => 'Modifier Portail',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => 'Réparer Champs Personnalisés',
-    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrer Champs personnalisés',
+    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrer Champs Personnalisés',
 
 // JS LABELS
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Reconstruit la version javascript des fichiers de langues',
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Les fichiers de cache des fichiers de langues ont été supprimés: ils seront reconstruits automatiquement par SuiteCRM lorsque nécessaire.',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuilds javascript versions of language files',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Les fichiers de cache des fichiers de langues ont été supprimés : ils seront reconstruits automatiquement lorsque necessaire.',
 
 
 //Manager Backups History
@@ -100,17 +100,17 @@ $mod_strings = array(
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => 'Afficher Valeur',
     'LBL_DD_DATABASEVALUE' => 'Valeur Base de Données',
-    'LBL_DD_ALL' => 'Tous',
+    'LBL_DD_ALL' => 'Tout',
 
 //BUTTONS
     'LBL_BTN_SAVE' => 'Sauvegarder',
-    'LBL_BTN_CANCEL' => 'Annuler/Fermer',
-    'LBL_BTN_SAVEPUBLISH' => 'Sauvegarder & Déployer',
+    'LBL_BTN_CANCEL' => 'Annuler',
+    'LBL_BTN_SAVEPUBLISH' => 'Sauvegarder et publier',
     'LBL_BTN_HISTORY' => 'Historique',
-    'LBL_BTN_ADDROWS' => 'Ajouter des Lignes',
+    'LBL_BTN_ADDROWS' => 'Ajouter Lignes',
     'LBL_BTN_UNDO' => 'Annuler',
-    'LBL_BTN_REDO' => 'Réappliquer',
-    'LBL_BTN_ADDCUSTOMFIELD' => 'Ajouter des champs personnalisés',
+    'LBL_BTN_REDO' => 'Rétablir',
+    'LBL_BTN_ADDCUSTOMFIELD' => 'Ajouter Champ Personnalisé',
     'LBL_BTN_TABINDEX' => 'Modifier Ordre Onglets',
 
 //TABS
@@ -123,24 +123,24 @@ $mod_strings = array(
     'LBL_TAB_GROUP_LANGUAGE_HELP' => 'Sélectionnez une langue disponible, modifiez les étiquettes de groupe et cliquez sur Enregistrer et déployer pour appliquer les étiquettes dans la langue sélectionnée.',
     'LBL_ADD_GROUP' => 'Ajouter Filtre',
     'LBL_NEW_GROUP' => 'Nouveau Groupe',
-    'LBL_RENAME_TABS' => 'Renommer les modules',
+    'LBL_RENAME_TABS' => 'Renommer Modules',
 
 //ERRORS
-    'ERROR_INVALID_KEY_VALUE' => "Erreur: Valeur de clé invalide: [&#39;]",
+    'ERROR_INVALID_KEY_VALUE' => "Erreur: Valeur de clé invalide: [']",
 
 //SUGAR PORTAL
     'LBL_SAVE' => 'Sauvegarder' /*for 508 compliance fix*/,
     'LBL_UNDO' => 'Annuler' /*for 508 compliance fix*/,
-    'LBL_REDO' => 'Réappliquer' /*for 508 compliance fix*/,
+    'LBL_REDO' => 'Rétablir' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Édition En ligne' /*for 508 compliance fix*/,
     'LBL_DELETE' => 'Supprimer' /*for 508 compliance fix*/,
-    'LBL_ADD_FIELD' => 'Ajouter Champ' /*for 508 compliance fix*/,
+    'LBL_ADD_FIELD' => 'Ajouter champ' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Maximiser' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Minimiser' /*for 508 compliance fix*/,
-    'LBL_PUBLISH' => 'Publier' /*for 508 compliance fix*/,
-    'LBL_ADDROWS' => 'Ajouter des Lignes' /*for 508 compliance fix*/,
+    'LBL_PUBLISH' => 'Mettre en ligne' /*for 508 compliance fix*/,
+    'LBL_ADDROWS' => 'Ajouter Lignes' /*for 508 compliance fix*/,
     'LBL_ADDFIELD' => 'Ajouter Champ' /*for 508 compliance fix*/,
-    'LBL_EDIT' => 'Editer' /*for 508 compliance fix*/,
+    'LBL_EDIT' => 'Modifier' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Sélectionner la langue à modifier.',
     'LBL_SINGULAR' => 'Étiquette au Singulier',
