@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'ERR_DELETE_RECORD' => 'Morate navesti broj zapisa da obrišete račun.',
+    'ERR_DELETE_RECORD' => 'Morate označiti broj zapisa kako bi izbrisali kompaniju.',
     'LBL_TOOL_TIP_BOX_TITLE' => 'KnowledgeBase Suggestions',
     'LBL_TOOL_TIP_TITLE' => 'Naslov:',
     'LBL_TOOL_TIP_BODY' => 'Tijelo:',
@@ -57,8 +57,8 @@ $mod_strings = array(
     'LBL_SUGGESTION_BOX_REL' => 'Relevantnost',
 
     'LBL_ACCOUNT_ID' => 'ID klijenta',
-    'LBL_ACCOUNT_NAME' => 'Ime klijenta:',
-    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Klijenti',
+    'LBL_ACCOUNT_NAME' => 'Naziv klijenta:',
+    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Računi',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktivnosti',
     'LBL_BUGS_SUBPANEL_TITLE' => 'Bugovi',
     'LBL_CASE_NUMBER' => 'Broj slučaja:',
@@ -105,12 +105,12 @@ $mod_strings = array(
     'LBL_CREATED_USER' => 'Kreirani korisnik',
     'LBL_MODIFIED_USER' => 'Modificirani korisnik',
     'LBL_PROJECT_SUBPANEL_TITLE' => 'Projekti',
-    'LBL_CASE_INFORMATION' => 'Pregled', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_CASE_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
     // SNIP
     'LBL_UPDATE_TEXT' => 'Ažuriraj tekst', //Field for Case updates with text only
     'LBL_INTERNAL' => 'Interno ažuriranje',
-    'LBL_AOP_CASE_UPDATES' => 'Ažuriranja slučajeva',
+    'LBL_AOP_CASE_UPDATES' => 'Ažuriranja slučaja',
     'LBL_AOP_CASE_UPDATES_THREADED' => 'Case Updates Threaded',
     'LBL_CASE_UPDATES_COLLAPSE_ALL' => 'Skupi sve',
     'LBL_CASE_UPDATES_EXPAND_ALL' => 'Proširi sve',
