@@ -43,22 +43,22 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'කාර්යභාරය:',
-    'LBL_LANGUAGE' => 'භාෂා:',
+    'LBL_ROLE' => 'Role:',
+    'LBL_LANGUAGE' => 'Language:',
     'LBL_MODULE_NAME' => 'භූමිකා',
-    'LBL_MODULE_TITLE' => 'භූමිකා: මුල් පිටුව',
+    'LBL_MODULE_TITLE' => 'Roles: Home',
     'LBL_SEARCH_FORM_TITLE' => 'කාර්යභාරය සොයන්න',
     'LBL_LIST_FORM_TITLE' => 'කාර්යභාරය ලැයිස්තුව',
-    'LNK_NEW_ROLE' => 'භූමිකාවක් නිර්මාණය',
+    'LNK_NEW_ROLE' => 'Create Role',
     'LNK_ROLES' => 'භූමිකා',
-    'LBL_NAME' => 'නම:',
-    'LBL_DESCRIPTION' => 'විස්තරය:',
+    'LBL_NAME' => 'Name:',
+    'LBL_DESCRIPTION' => 'Description:',
     'LBL_ALLOWED_MODULES' => 'අවසර මොඩියුල: ',
     'LBL_DISALLOWED_MODULES' => 'තහනම් මොඩියුල: ',
     'LBL_ASSIGN_MODULES' => 'සංස්කරණය කරන්න මොඩියුල: ',
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'භූමිකා',
-    'LBL_USERS' => 'පරිශීලකයන්',
+    'LBL_USERS' => 'පරිශිලකයින්',
 
-    'LBL_USERS_SUBPANEL_TITLE' => 'පරිශීලකයන්',
-    'LBL_MODULES' => 'මොඩියුල',
+    'LBL_USERS_SUBPANEL_TITLE' => 'පරිශිලකයින්',
+    'LBL_MODULES' => 'Modules',
 );
