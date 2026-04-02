@@ -113,7 +113,7 @@ $mod_strings = array(
     'LBL_ERROR_LOADING' => 'Error while loading',
     'LBL_GOTO_DATE' => 'Go to Date',
     'NOTICE_DURATION_TIME' => 'Duration time must be greater than 0',
-    'LBL_STYLE_BASIC' => 'Basic', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_STYLE_BASIC' => 'BASIC', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_STYLE_ADVANCED' => 'Advanced', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
     'LBL_NO_USER' => 'No match for field: Assigned to',
