@@ -54,9 +54,9 @@ $mod_strings = array(
     'LBL_JOIN_TABLE' => 'Join tabell tabellnavn',
     'LBL_JOIN_KEY_LHS' => 'Join nøkkel LHS',
     'LBL_JOIN_KEY_RHS' => 'Join nøkkel LHS',
-    'LBL_RELATIONSHIP_TYPE' => 'Relasjonstype',
+    'LBL_RELATIONSHIP_TYPE' => 'Relationship Type',
     'LBL_RELATIONSHIP_ROLE_COLUMN' => 'Forholdet rolle kolonnenavn',
     'LBL_RELATIONSHIP_ROLE_COLUMN_VALUE' => 'Forholdet rolle kolonneverdi',
     'LBL_REVERSE' => 'Omvendt',
-    'LBL_DELETED' => 'Slettet',
+    'LBL_DELETED' => 'Deleted',
 );
