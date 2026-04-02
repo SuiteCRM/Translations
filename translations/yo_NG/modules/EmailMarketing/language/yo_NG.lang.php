@@ -67,7 +67,7 @@ $mod_strings = array(
     'LBL_FROM_NAME' => 'Lati Oruko: ',
     'LBL_FROM_ADDR' => 'From Email Address: ',
     'LBL_DATE_START' => 'Ojo ibeere',
-    'LBL_TIME_START' => 'Asiko ibeere ',
+    'LBL_TIME_START' => 'Start Time',
     'LBL_START_DATE_TIME' => 'Start Date & Time: ',
     'LBL_TEMPLATE' => 'Email Template: ',
 
