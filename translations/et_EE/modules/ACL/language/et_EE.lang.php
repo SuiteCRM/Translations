@@ -43,15 +43,15 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Roll',
+    'LBL_ROLE' => 'Role',
     'LBL_NAME' => 'Nimi',
-    'LBL_DESCRIPTION' => 'Kirjeldus',
+    'LBL_DESCRIPTION' => 'Description',
     'LIST_ROLES' => 'Rollide loend',
-    'LBL_USERS_SUBPANEL_TITLE' => 'Kasutajad',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
     'LIST_ROLES_BY_USER' => 'Rollide loend kasutajati',
     'LBL_ROLES_SUBPANEL_TITLE' => 'Kasutaja rollid',
-    'LBL_SEARCH_FORM_TITLE' => 'Otsi',
-    'LBL_NO_ACCESS' => 'Ligipääs puudub sellele alale. Kontakteeru saidi administraatoriga ligipääsu taotlemiseks.',
+    'LBL_SEARCH_FORM_TITLE' => 'Search',
+    'LBL_NO_ACCESS' => 'You do not have access to this area. Contact your site administrator to obtain access.',
     'LBL_REDIRECT_TO_HOME' => 'Suuna ümber kodulehele',
     'LBL_SECONDS' => 'sekundi pärast',
     'LBL_ADDING' => 'Lisamine ',
