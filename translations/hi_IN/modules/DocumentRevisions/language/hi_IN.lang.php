@@ -58,7 +58,7 @@ $mod_strings = array(
     'LBL_LATEST_REVISION' => 'नवीनतम संशोधन',
     'LBL_CHANGE_LOG' => 'लॉग बदलें',
     'LBL_ACTIVE_DATE' => 'प्रकाशित तिथि',
-    'LBL_EXPIRATION_DATE' => 'समय सीमा समाप्ति दिनांक',
+    'LBL_EXPIRATION_DATE' => 'समाप्ति तिथि',
     'LBL_FILE_EXTENSION' => 'फाइल एक्सटेंशन',
 
     'LBL_DOC_NAME' => 'दस्तावेज़ का नाम:',
