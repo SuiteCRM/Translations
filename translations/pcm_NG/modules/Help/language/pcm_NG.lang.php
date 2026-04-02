@@ -47,7 +47,7 @@ $mod_strings = array(
     'LBL_MODULE_TITLE' => 'Accounts: Home',
     'LBL_SEARCH_FORM_TITLE' => 'Account Search',
     'LBL_LIST_FORM_TITLE' => 'Account List',
-    'LBL_NEW_FORM_TITLE' => 'Create account',
+    'LBL_NEW_FORM_TITLE' => 'Make you open Account',
     'LNK_NEW_CONTACT' => 'Make you Create Contact',
     'LNK_NEW_ACCOUNT' => 'Create account',
     'LNK_NEW_OPPORTUNITY' => 'Create Opportunity',
@@ -56,6 +56,6 @@ $mod_strings = array(
     'LNK_NEW_CALL' => 'Log Call',
     'LNK_NEW_EMAIL' => 'Make you Archive Email',
     'LNK_NEW_MEETING' => 'Make you Schedule Meeting',
-    'LNK_NEW_TASK' => 'Create Task',
+    'LNK_NEW_TASK' => 'Make you Create Task',
     'ERR_DELETE_RECORD' => 'E get specific record number before person fit comot the account.',
 );
