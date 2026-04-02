@@ -42,19 +42,19 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_ASSIGNED_TO_ID'] = 'Id Utilisateur Assigné';
-$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Assigné à';
+$mod_strings['LBL_ASSIGNED_TO_ID'] = 'Id Utilisateur assigné';
+$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Assigné à:';
 $mod_strings['LBL_ID'] = 'ID';
-$mod_strings['LBL_DATE_ENTERED'] = 'Date Création';
-$mod_strings['LBL_DATE_MODIFIED'] = 'Date Modification';
+$mod_strings['LBL_DATE_ENTERED'] = 'Date de création';
+$mod_strings['LBL_DATE_MODIFIED'] = 'Date de modification';
 $mod_strings['LBL_MODIFIED'] = 'Modifié Par';
 $mod_strings['LBL_MODIFIED_NAME'] = 'Modifié par Nom';
-$mod_strings['LBL_CREATED'] = 'Créé Par';
+$mod_strings['LBL_CREATED'] = 'Créé par';
 $mod_strings['LBL_DESCRIPTION'] = 'Description:';
 $mod_strings['LBL_DELETED'] = 'Supprimé';
 $mod_strings['LBL_NAME'] = 'Adresse';
-$mod_strings['LBL_CREATED_USER'] = 'Créé par Utilisateur';
-$mod_strings['LBL_MODIFIED_USER'] = 'Modifié par Utilisateur';
+$mod_strings['LBL_CREATED_USER'] = 'Créé par Utiliateur';
+$mod_strings['LBL_MODIFIED_USER'] = 'Modifié Par Utilisateur';
 $mod_strings['LBL_LIST_NAME'] = 'Adresse';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'Liste Cache Adresse';
 $mod_strings['LBL_MODULE_NAME'] = 'Cache Adresse';
@@ -63,8 +63,8 @@ $mod_strings['LBL_HOMEPAGE_TITLE'] = 'Mon Cache Adresse';
 $mod_strings['LNK_NEW_RECORD'] = 'Créer Cache Adresse';
 $mod_strings['LNK_LIST'] = 'Voir Cache Adresse';
 $mod_strings['LBL_SEARCH_FORM_TITLE'] = 'Recherche Cache Adresse';
-$mod_strings['LBL_HISTORY_SUBPANEL_TITLE'] = 'Voir Historique';
-$mod_strings['LBL_ACTIVITIES_SUBPANEL_TITLE'] = 'Activités';
+$mod_strings['LBL_HISTORY_SUBPANEL_TITLE'] = 'Historique et Activités terminées';
+$mod_strings['LBL_ACTIVITIES_SUBPANEL_TITLE'] = 'Activités à réaliser';
 $mod_strings['LBL_NEW_FORM_TITLE'] = 'Nouveau Cache Adresse';
 $mod_strings['LBL_LAT'] = 'Latitude';
 $mod_strings['LBL_LNG'] = 'Longitude';
