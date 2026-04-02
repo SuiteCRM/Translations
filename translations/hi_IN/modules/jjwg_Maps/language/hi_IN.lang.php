@@ -61,7 +61,7 @@ $mod_strings['LBL_MAP_LEGEND'] = 'दंतकथा:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'समूह:';
 $mod_strings['LBL_MAP_GROUP'] = 'समूह';
 $mod_strings['LBL_MAP_TYPE'] = 'प्रकार';
-$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'को असाइन किया:';
+$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'को सौंपा गया:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'दिशा - निर्देश प्राप्त करें';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'गूगल मैप्स दृश्य';
 
@@ -108,7 +108,7 @@ $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'वैकल्पिक पता';
 $mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'फ्लेक्स संबंधित';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'पता (सरल, उपयोगकर्ता)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'कस्टम (कस्टम नियंत्रक तर्क)';
-$mod_strings['LBL_ENABLED'] = 'सक्षम है';
+$mod_strings['LBL_ENABLED'] = 'सक्रिय';
 $mod_strings['LBL_DISABLED'] = 'विकलांग';
 $mod_strings['LBL_DEFAULT'] = 'डिफॉल्ट:';
 $mod_strings['LBL_CONFIG_DEFAULT'] = 'डिफॉल्ट:';
