@@ -31,17 +31,17 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
     // System fields
-    'LBL_ASSIGNED_TO_ID' => 'Magtalaga ng nagagamit sa Id',
-    'LBL_ASSIGNED_TO_NAME' => 'Magtalaga sa',
-    'LBL_DATE_ENTERED' => 'Lumikha ng Petsa',
-    'LBL_DATE_MODIFIED' => 'Petsang binago',
+    'LBL_ASSIGNED_TO_ID' => 'Ang nagagamit sa Id ay nagtalaga',
+    'LBL_ASSIGNED_TO_NAME' => 'Magtakda sa',
+    'LBL_DATE_ENTERED' => 'Ang petsa ay lumikha',
+    'LBL_DATE_MODIFIED' => 'Ang petsa ay binago',
     'LBL_MODIFIED' => 'Binago kay',
-    'LBL_MODIFIED_NAME' => 'Binago sa pamamagitan ng pangalan',
+    'LBL_MODIFIED_NAME' => 'Sa pamamagitan ng pangalan ay binago',
     'LBL_CREATED' => 'Nilikha ni',
     'LBL_CREATED_USER' => 'Nililikha sa pamamagitan ng Gumagamit',
-    'LBL_MODIFIED_USER' => 'Binago sa pamamagitan ng gumagamit',
-    'LBL_DESCRIPTION' => 'Paglalarawan',
-    'LBL_DELETED' => 'Nabura',
+    'LBL_MODIFIED_USER' => 'Ang Binago sa pamamagitan ng gumagamit',
+    'LBL_DESCRIPTION' => 'Ang Paglalarawan',
+    'LBL_DELETED' => 'Ang Nabura',
 
     // Security groups
     'LBL_SECURITYGROUPS' => 'Mga grupong seguridad',
@@ -57,8 +57,8 @@ $mod_strings = [
 
     // Email opt-in labels
     'LBL_OPT_IN' => 'Ang Opt ay nasa loob',
-    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Ang Nakabinbin na Kumpirmasyon sa opt in, Kumpirmahin ang opt na hindi napadala',
-    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Nakabinbin Kumpirmahin ang opt in, Kumpirmahin ang opt in na ipinadala',
+    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Kumpirmahin ang opt in na nakabinbin, Kumpirmahin ang pag-opt in na hindi ipinadala',
+    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Kumpirmahin ang opt in na nakabinbin, Kumpirmahin ang pag-opt in na hindi ipinadala',
     'LBL_OPT_IN_CONFIRMED' => 'Ang sumali',
 
     // Subpanel titles
@@ -91,9 +91,9 @@ $mod_strings = [
     'LNK_LIST' => 'View Calendar Accounts',
 
     // Standard fields
-    'LBL_NAME' => 'Ang Pangalan',
-    'LBL_ID' => 'ID',
-    'LBL_TYPE' => 'Ang Klase',
+    'LBL_NAME' => 'Pangalan',
+    'LBL_ID' => 'Ang ID',
+    'LBL_TYPE' => 'Klase',
     'LBL_SOURCE' => 'Calendar Source',
 
     // OAuth2 Fields
@@ -162,9 +162,9 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Please select a calendar source first.',
 
     // Connection test messages
-    'LBL_CALENDAR' => 'Kalendaryo',
+    'LBL_CALENDAR' => 'Ang kalendaryo',
     'LBL_SUCCESSFUL' => 'Ang matagumpay',
-    'LBL_FAILED' => 'Pumalya',
+    'LBL_FAILED' => 'Nabigo',
     'LBL_CONNECTION_TEST' => 'Connection Test',
     'LBL_YES' => 'Oo',
     'LBL_NO' => 'Hindi',
