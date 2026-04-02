@@ -50,29 +50,29 @@ $mod_strings = array(
     'LNK_DOCUMENT_LIST' => 'Liste Documents',
 
     //vardef labels
-    'LBL_REVISION_NAME' => 'Numéro Version',
+    'LBL_REVISION_NAME' => 'Numéro de version',
     'LBL_FILENAME' => 'Fichier:',
     'LBL_MIME' => 'Type Mime',
     'LBL_REVISION' => 'Révision',
-    'LBL_DOCUMENT' => 'Document Connexe',
-    'LBL_LATEST_REVISION' => 'Derniére Version',
-    'LBL_CHANGE_LOG' => 'Journal Modifications',
-    'LBL_ACTIVE_DATE' => 'Date Publication',
-    'LBL_EXPIRATION_DATE' => 'Date Expiration',
-    'LBL_FILE_EXTENSION' => 'Extension Fichier',
+    'LBL_DOCUMENT' => 'Document relatif',
+    'LBL_LATEST_REVISION' => 'Derniére version',
+    'LBL_CHANGE_LOG' => 'Description des modifications:',
+    'LBL_ACTIVE_DATE' => 'Date de mise à disposition',
+    'LBL_EXPIRATION_DATE' => 'Date expiration',
+    'LBL_FILE_EXTENSION' => 'Extension du fichier',
 
-    'LBL_DOC_NAME' => 'Nom Document:',
-    'LBL_DOC_VERSION' => 'Version:',
+    'LBL_DOC_NAME' => 'Nom du Document:',
+    'LBL_DOC_VERSION' => 'Revision:',
 
     //document revisions.
     'LBL_REV_LIST_REVISION' => 'Révision',
     'LBL_REV_LIST_ENTERED' => 'Date Création',
-    'LBL_REV_LIST_CREATED' => 'Créé par',
+    'LBL_REV_LIST_CREATED' => 'Created by',
     'LBL_REV_LIST_LOG' => 'Journal Modifications',
     'LBL_REV_LIST_FILENAME' => 'Fichier',
 
     'LBL_CURRENT_DOC_VERSION' => 'Derniére Version:',
-    'LBL_SEARCH_FORM_TITLE' => 'Recherche Document',
+    'LBL_SEARCH_FORM_TITLE' => 'Rechercher Document',
     'LBL_REVISIONS' => 'Versions',
 
     //error messages
@@ -80,7 +80,7 @@ $mod_strings = array(
     'ERR_DOC_VERSION' => 'Version Document',
     'ERR_DELETE_CONFIRM' => 'Voulez-vous supprimer cette version du document?',
     'ERR_DELETE_LATEST_VERSION' => 'Vous n\'êtes pas autorisé à supprimer la dernière version d\'un document.',
-    'LNK_NEW_MAIL_MERGE' => 'Publipostage',
+    'LNK_NEW_MAIL_MERGE' => 'Fusion et Publipostage',
     'LBL_DOC_ID' => 'ID Document Source',
     'LBL_DOC_TYPE' => 'Source',
     'LBL_DOC_URL' => 'URL Document Source',
