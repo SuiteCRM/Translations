@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_DESCRIPTION' => 'Paghulagway',
+    'LBL_DESCRIPTION' => 'Deskrespyon',
     'LBL_NAME' => 'Pangalan',
-    'LBL_LIST_NAME' => 'Pangalan',
-    'LBL_EDIT_BUTTON' => 'Usba',
-    'LBL_REMOVE' => 'Tangtanga',
+    'LBL_LIST_NAME' => 'Pangan',
+    'LBL_EDIT_BUTTON' => 'I-Editon',
+    'LBL_REMOVE' => 'Remove',
     'LBL_GRP' => 'Grupo',
-    'LBL_ORD' => 'Sugo',
+    'LBL_ORD' => 'Order',
     'LBL_THUMBNAIL' => 'Thumbnail',
 );
