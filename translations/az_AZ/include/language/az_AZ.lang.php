@@ -396,7 +396,7 @@ $app_list_strings = array(
     'project_task_priority_options' => array(
         'High' => 'Yüksək',
         'Medium' => 'Orta',
-        'Low' => 'Aşağı',
+        'Low' => 'Low',
     ),
     'project_task_priority_default' => 'Orta',
 
@@ -480,7 +480,7 @@ $app_list_strings = array(
         'Calls' => 'Zəng',
 
         'AOS_Contracts' => 'Müqavilə',
-        'AOS_Invoices' => 'Faktura',
+        'AOS_Invoices' => 'Hesab-faktura',
         'AOS_Quotes' => 'Alıntı',
         'AOS_Products' => 'Məhsul',
     ),
@@ -501,7 +501,7 @@ $app_list_strings = array(
         'Prospects' => 'Hədəf',
 
         'AOS_Contracts' => 'Müqavilə',
-        'AOS_Invoices' => 'Faktura',
+        'AOS_Invoices' => 'Hesab-faktura',
         'AOS_Quotes' => 'Alıntı',
         'AOS_Products' => 'Məhsul',
 
@@ -1831,7 +1831,7 @@ $app_strings = array(
     'NTC_DELETE_CONFIRMATION_MULTIPLE' => 'Seçilmiş qeyd(lər) i silmək istəyirsiniz?',
     'NTC_TEMPLATE_IS_USED' => 'Şablon ən azı bir marketinq qeydində istifadə olunur. Siz hələdə silmək istəyirsinizmi?',
     'NTC_TEMPLATES_IS_USED' => 'Qeyd olunan şablonlar marketinq qeydlərində istifadə olunur. Siz hələdə silmək istəyirsinizmi?' . PHP_EOL,
-    'NTC_DELETE_CONFIRMATION' => 'Bu qeydləri silmək istədiyinizə əminsiniz?',
+    'NTC_DELETE_CONFIRMATION' => 'Bu qeydi silmək istəyirsinizmi?',
     'NTC_DELETE_CONFIRMATION_NUM' => 'Siz silmək istəyirsinizmi ',
     'NTC_UPDATE_CONFIRMATION_NUM' => 'Siz yükləmək istəyirsinizmi ',
     'NTC_DELETE_SELECTED_RECORDS' => ' seçilmiş qeyd(lər) i?',
@@ -2422,7 +2422,7 @@ $app_list_strings['countries_dom'] = array(
     'NORFOLK ISLAND' => 'NORFOLK ISLAND',
     'NORWAY' => 'NORVEÇ',
     'OMAN' => 'OMAN',
-    'OTHER' => 'Digər',
+    'OTHER' => 'OTHER',
     'PACIFIC ISLAND' => 'PACIFIC ISLAND',
     'PAKISTAN' => 'PAKISTAN',
     'PANAMA' => 'PANAMA',
