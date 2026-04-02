@@ -49,16 +49,16 @@ $mod_strings = array(
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Day wey dem create am',
-    'LBL_DATE_MODIFIED' => 'De day wey dem modify am',
+    'LBL_DATE_MODIFIED' => 'The day wey dem modify am',
     'LBL_MODIFIED' => 'Person wey modify am',
     'LBL_MODIFIED_NAME' => 'Na name dem use modify am',
     'LBL_CREATED' => 'Person wey create am',
-    'LBL_DESCRIPTION' => 'Na here dem go tell u as de thing be',
+    'LBL_DESCRIPTION' => 'Na for here you go sabi as the thing be',
     'LBL_DELETED' => 'Comot am',
-    'LBL_NAME' => 'Name',
+    'LBL_NAME' => 'Wetin be your name',
     'LBL_CREATED_USER' => 'Na person wey dey use am create am',
     'LBL_MODIFIED_USER' => 'Na person wey dey use am modify am',
-    'LBL_LIST_NAME' => 'Name',
+    'LBL_LIST_NAME' => 'Wetin be your name',
     'LBL_EDIT_BUTTON' => 'Edit',
     'LBL_REMOVE' => 'Comot am',
     'LBL_LIST_FORM_TITLE' => 'Pivot List',
@@ -82,7 +82,7 @@ $mod_strings = array(
     'LBL_AN_UNSUPPORTED_DB' => 'Sorry, Suite Spots are currently configured for MySQL and MS SQL only',
 
     //Analytics labels for accounts pivot
-    'LBL_AN_ACCOUNTS_ACCOUNT_NAME' => 'Name',
+    'LBL_AN_ACCOUNTS_ACCOUNT_NAME' => 'Wetin be your name',
     'LBL_AN_ACCOUNTS_ACCOUNT_TYPE' => 'Account Type',
     'LBL_AN_ACCOUNTS_ACCOUNT_INDUSTRY' => 'Industry',
     'LBL_AN_ACCOUNTS_ACCOUNT_BILLING_COUNTRY' => 'Billing Country',
@@ -130,7 +130,7 @@ $mod_strings = array(
 
     //Analytics labels for the activities pivot
     'LBL_AN_ACTIVITIES_TYPE' => 'Type',
-    'LBL_AN_ACTIVITIES_NAME' => 'Name',
+    'LBL_AN_ACTIVITIES_NAME' => 'Wetin be your name',
     'LBL_AN_ACTIVITIES_STATUS' => 'Status',
     'LBL_AN_ACTIVITIES_ASSIGNED_TO' => 'User wey dem give am to',
 
