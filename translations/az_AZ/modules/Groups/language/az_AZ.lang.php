@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_MODULE_NAME' => 'Qruplar',
     'LBL_GROUP_NAME' => 'Qrup Adı:',
-    'LBL_DESCRIPTION' => 'Açıqlama:',
+    'LBL_DESCRIPTION' => 'Açıqlama: ',
     'LBL_TEAM' => 'Komanda:',
     // ListView
     'LBL_LIST_TITLE' => 'Qruplar',
