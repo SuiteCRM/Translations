@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_NAME' => 'Töö nimi',
-    'LBL_EXECUTE_TIME' => 'Täitmisaeg',
-    'LBL_SCHEDULER_ID' => 'Planeerija',
+    'LBL_NAME' => 'Job Name',
+    'LBL_EXECUTE_TIME' => 'Execute Time',
+    'LBL_SCHEDULER_ID' => 'Scheduler',
     'LBL_STATUS' => 'Job Status',
-    'LBL_RESOLUTION' => 'Tulemus',
+    'LBL_RESOLUTION' => 'Result',
     'LBL_MESSAGE' => 'Sõnumid',
     'LBL_DATA' => 'Job Data',
     'LBL_REQUEUE' => 'Retry on failure',
