@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Mga Grupo',
+    'LBL_MODULE_NAME' => 'Ang Mga Grupo',
     'LBL_GROUP_NAME' => 'Pangalan ng Pangkat:',
-    'LBL_DESCRIPTION' => 'Paglalarawan:',
+    'LBL_DESCRIPTION' => 'Ang Paglalarawan:',
     'LBL_TEAM' => 'Koponan:',
     // ListView
-    'LBL_LIST_TITLE' => 'Mga Grupo',
+    'LBL_LIST_TITLE' => 'Ang Mga Grupo',
     // Links
     'LNK_ALL_GROUPS' => 'Lahat ng mga grupo',
     'LNK_NEW_GROUP' => 'Lumikha ng grupo',
