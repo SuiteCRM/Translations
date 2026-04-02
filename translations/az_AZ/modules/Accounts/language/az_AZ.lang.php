@@ -55,7 +55,7 @@ $mod_strings = array(
     // END Dashlet Categories
 
     'ERR_DELETE_RECORD' => 'Hesabı silmək üçün qeyd nömrəsini göstərməlisiniz.',
-    'LBL_ACCOUNT_INFORMATION' => '	İcmal', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_ACCOUNT_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_ACCOUNT_NAME' => 'Hesab Adı:',
     'LBL_ACCOUNT' => 'Hesab:',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Fəaliyyətlər',
@@ -85,7 +85,7 @@ $mod_strings = array(
     'LBL_DATE_MODIFIED' => 'Dəyişdirilmə Tarixi:',
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Hesablar',
     'LBL_DESCRIPTION_INFORMATION' => 'Məlumatın məzmunu',
-    'LBL_DESCRIPTION' => 'Açıqlama:',
+    'LBL_DESCRIPTION' => 'Açıqlama: ',
     'LBL_DUPLICATE' => 'İstifadəçi hesabının mümkün surəti',
     'LBL_EMAIL' => 'E-poçt Ünvanı:',
     'LBL_EMAIL_OPT_OUT' => 'E-poçtdan imtina:',
