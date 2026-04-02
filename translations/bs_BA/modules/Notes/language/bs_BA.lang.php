@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'ERR_DELETE_RECORD' => 'Morate navesti broj zapisa da obrišete račun.',
+    'ERR_DELETE_RECORD' => 'Morate označiti broj zapisa kako bi izbrisali kompaniju.',
     'LBL_ACCOUNT_ID' => 'ID klijenta:',
     'LBL_CASE_ID' => 'ID slučaja:',
     'LBL_CLOSE' => 'Zatvori:',
@@ -94,7 +94,7 @@ $mod_strings = array(
     'LBL_CREATED_BY' => 'Kreirao',
     'LBL_MODIFIED_BY' => 'Modifikovao-la',
     'LBL_SEND_ANYWAYS' => 'Ovaj email nema naslov. Ipak ga pošaljite?',
-    'LBL_NOTE_INFORMATION' => 'Pregled', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_NOTE_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_MY_NOTES_DASHLETNAME' => 'Moje bilješke',
     'LBL_EDITLAYOUT' => 'Uredi izgled' /*for 508 compliance fix*/,
     //For export labels
