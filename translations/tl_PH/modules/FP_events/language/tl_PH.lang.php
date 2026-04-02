@@ -43,19 +43,19 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
                 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Magtalaga ng nagagamit sa Id',
-    'LBL_ASSIGNED_TO_NAME' => 'Magtalaga sa',
-    'LBL_ID' => 'ID',
-    'LBL_DATE_ENTERED' => 'Lumikha ng Petsa',
-    'LBL_DATE_MODIFIED' => 'Petsang binago',
+    'LBL_ASSIGNED_TO_ID' => 'Ang nagagamit sa Id ay nagtalaga',
+    'LBL_ASSIGNED_TO_NAME' => 'Magtakda sa',
+    'LBL_ID' => 'Ang ID',
+    'LBL_DATE_ENTERED' => 'Ang petsa ay lumikha',
+    'LBL_DATE_MODIFIED' => 'Ang petsa ay binago',
     'LBL_MODIFIED' => 'Binago kay',
-    'LBL_MODIFIED_NAME' => 'Binago sa pamamagitan ng pangalan',
+    'LBL_MODIFIED_NAME' => 'Sa pamamagitan ng pangalan ay binago',
     'LBL_CREATED' => 'Nilikha ni',
-    'LBL_DESCRIPTION' => 'Paglalarawan',
-    'LBL_DELETED' => 'Nabura',
-    'LBL_NAME' => 'Ang Pangalan',
+    'LBL_DESCRIPTION' => 'Ang Paglalarawan',
+    'LBL_DELETED' => 'Ang Nabura',
+    'LBL_NAME' => 'Pangalan',
     'LBL_CREATED_USER' => 'Nililikha sa pamamagitan ng Gumagamit',
-    'LBL_MODIFIED_USER' => 'Binago sa pamamagitan ng gumagamit',
+    'LBL_MODIFIED_USER' => 'Ang Binago sa pamamagitan ng gumagamit',
     'LBL_LIST_NAME' => 'Ang Pangalan',
     'LBL_EDIT_BUTTON' => 'I-edit',
     'LBL_REMOVE' => 'Alisin',
@@ -75,7 +75,7 @@ $mod_strings = array(
     'LBL_BUDGET' => 'Badyet',
     'LBL_DATE' => 'Magsimula sa petsa',
     'LBL_DATE_END' => 'Petsa ng katapusan',
-    'LBL_DURATION' => 'Tagal',
+    'LBL_DURATION' => 'Ang Tagal',
     'LBL_INVITE_TEMPLATES' => 'Imbitasyon sa Email Template',
     'LBL_INVITE_PDF' => 'Magpadala ng mga imbitasyon',
     'LBL_EDITVIEW_PANEL1' => 'Mga detalye ng Event',
@@ -114,10 +114,10 @@ $mod_strings = array(
 
     'LBL_HOURS_ABBREV' => 'h',
     'LBL_MINSS_ABBREV' => 'm',
-    'LBL_FP_EVENTS_FP_EVENT_DELEGATES_1_FROM_FP_EVENT_DELEGATES_TITLE' => 'Mga Delegado',
+    'LBL_FP_EVENTS_FP_EVENT_DELEGATES_1_FROM_FP_EVENT_DELEGATES_TITLE' => 'Ang mga Delegado',
 
     // Attendance report
-    'LBL_CONTACT_NAME' => 'Ang Pangalan',
+    'LBL_CONTACT_NAME' => 'Pangalan',
     'LBL_ACCOUNT_NAME' => 'Kompanya',
     'LBL_SIGNATURE' => 'Paglagda',
     // contacts/leads/targets subpanels
