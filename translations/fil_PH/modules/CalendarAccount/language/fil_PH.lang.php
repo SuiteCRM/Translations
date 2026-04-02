@@ -34,23 +34,23 @@ $mod_strings = [
     'LBL_ASSIGNED_TO_ID' => 'Magtalaga ng Id para sa gumagamit',
     'LBL_ASSIGNED_TO_NAME' => 'Itinatalaga sa',
     'LBL_DATE_ENTERED' => 'Ang petsa ng pagkakalikha',
-    'LBL_DATE_MODIFIED' => 'Ang petsa ng pagkabago',
+    'LBL_DATE_MODIFIED' => 'Ang petsa ng pagbago',
     'LBL_MODIFIED' => 'Binago ni',
     'LBL_MODIFIED_NAME' => 'Ito ay ibinago sa pamamagitan ng pangalan',
     'LBL_CREATED' => 'Ito ay nalikha sa pamamagitan ng',
     'LBL_CREATED_USER' => 'Inilikha ng tagagamit',
     'LBL_MODIFIED_USER' => 'Binago sa pamamagitan ng tagagamit',
-    'LBL_DESCRIPTION' => 'Paglalarawan',
+    'LBL_DESCRIPTION' => 'Ang deskripsyon',
     'LBL_DELETED' => 'Ang pagkabura',
 
     // Security groups
-    'LBL_SECURITYGROUPS' => 'Grupo ng mga seguridad',
+    'LBL_SECURITYGROUPS' => 'Grupo ng mga seguriidad',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Grupo ng mga seguridad',
 
     // List view labels
-    'LBL_LIST_NAME' => 'Ang Pangalan',
+    'LBL_LIST_NAME' => 'Ang pangalan',
     'LBL_LIST_DELETE' => 'Tanggalin',
-    'LBL_EDIT_BUTTON' => 'I-edit',
+    'LBL_EDIT_BUTTON' => 'Ang i-edit',
     'LBL_REMOVE' => 'Tanggalin',
     'LBL_ASCENDING' => 'Pataas',
     'LBL_DESCENDING' => 'Pababa',
@@ -91,9 +91,9 @@ $mod_strings = [
     'LNK_LIST' => 'View Calendar Accounts',
 
     // Standard fields
-    'LBL_NAME' => 'Ang Pangalan',
+    'LBL_NAME' => 'Ang pangalan',
     'LBL_ID' => 'Ang ID',
-    'LBL_TYPE' => 'Ang Uri',
+    'LBL_TYPE' => 'Uri',
     'LBL_SOURCE' => 'Calendar Source',
 
     // OAuth2 Fields
