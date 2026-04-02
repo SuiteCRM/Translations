@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_DESCRIPTION' => 'Na here dem go tell u as de thing be',
-    'LBL_NAME' => 'Name',
-    'LBL_LIST_NAME' => 'Name',
+    'LBL_DESCRIPTION' => 'Na for here you go sabi as the thing be',
+    'LBL_NAME' => 'Wetin be your name',
+    'LBL_LIST_NAME' => 'Wetin be your name',
     'LBL_EDIT_BUTTON' => 'Edit',
-    'LBL_REMOVE' => 'Comot am',
+    'LBL_REMOVE' => 'Remove',
     'LBL_GRP' => 'Group',
     'LBL_ORD' => 'Order',
     'LBL_THUMBNAIL' => 'Thumbnail',
