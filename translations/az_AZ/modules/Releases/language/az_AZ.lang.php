@@ -65,5 +65,5 @@ $mod_strings = array(
             'Active' => 'Aktivdir',
             'Inactive' => 'Aktiv deyil',
         ),
-    'LBL_EDITLAYOUT' => 'Tərtibatı redaktə et' /*for 508 compliance fix*/,
+    'LBL_EDITLAYOUT' => 'Düzümü redaktə et' /*for 508 compliance fix*/,
 );
