@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'ලැයිස්තුව ඒකාබද්ධ කරන්න',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'සොයන්න වාර්තා සමග ඒකාබද්ධ කරන්න කිරීමට සොයන්න',
-    'LBL_AVAIL_FIELDS' => 'භාවිතයට ගත හැකි ෆීල්ඩ්ස්',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'පෙරහන් තත්වය',
     'LBL_MERGE_VALUE_OVER' => 'වටිනාකම වැඩි ඒකාබද්ධ කරන්න',
 
@@ -58,15 +58,15 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'ඒකාබද්ධ කරන්න සිදු',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'පී',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'ඒකාබද්ධ කරන්න සිදු',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'ඒකාබද්ධ කරන්න සුරකින්න',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'ඒකාබද්ධ කරන්න සුරකින්න',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => 'ඒකාබද්ධ වීමේ හමු වාර්තා',
     'LBL_SELECT_ERROR' => 'ඔබ ඉදිරියට යාමට පෙර ඔබ තෝරා ගත යුතුය.',
     'LBL_CHANGE_PARENT' => 'ප්රාථමික ලෙස සකසන්න',
-    'LBL_REMOVE_FROM_MERGE' => 'ඉවත් කරන්න',
+    'LBL_REMOVE_FROM_MERGE' => ' ඉවත් කරන්න',
     'LBL_DIFF_COL_VALUES' => 'අගය ප්රාථමික පේළිය පේළි ඒකාබද්ධ අගය වෙනස් තීර:',
     'LBL_SAME_COL_VALUES' => 'අගය සියලු පේළි පුරා සමාන වේ තීර:',
     'LBL_DELETE_MESSAGE' => 'මෙම ක්රියාව වාර්තා (ව) පහත සඳහන් මකා ඇත:',
