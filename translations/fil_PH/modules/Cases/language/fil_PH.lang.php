@@ -52,7 +52,7 @@ $mod_strings = array(
     'LBL_SUGGESTION_BOX' => 'Mga opinion',
     'LBL_NO_SUGGESTIONS' => 'Walang mga mungkahi',
     'LBL_RESOLUTION_BUTTON' => 'Resolusyon',
-    'LBL_SUGGESTION_BOX_STATUS' => 'Ang Katayuan',
+    'LBL_SUGGESTION_BOX_STATUS' => 'Katayuan',
     'LBL_SUGGESTION_BOX_TITLE' => 'Paksa',
     'LBL_SUGGESTION_BOX_REL' => 'Kabuluhan',
 
@@ -69,7 +69,7 @@ $mod_strings = array(
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Mga kaso',
     'LBL_DESCRIPTION' => 'Ang deskripsyon:',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Kasaysayan',
-    'LBL_INVITEE' => 'Mga kontak',
+    'LBL_INVITEE' => 'Mga Kontak',
     'LBL_MEMBER_OF' => 'Ang akawnt',
     'LBL_MODULE_NAME' => 'Mga kaso',
     'LBL_MODULE_TITLE' => 'Kaso: Bahay',
@@ -85,27 +85,27 @@ $mod_strings = array(
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Itinalaga sa gumagamit',
     'LBL_LIST_ACCOUNT_NAME' => 'Pangalan ng Akwant',
     'LBL_LIST_ASSIGNED' => 'Ini-assign sa',
-    'LBL_LIST_CLOSE' => 'Ang pagsasara',
+    'LBL_LIST_CLOSE' => 'Pagsara',
     'LBL_LIST_FORM_TITLE' => 'Listahan ng kaso',
     'LBL_LIST_LAST_MODIFIED' => 'Huling Binago',
     'LBL_LIST_MY_CASES' => 'Aking bukas na kaso',
     'LBL_LIST_NUMBER' => 'Num.',
     'LBL_LIST_PRIORITY' => 'Prayoridad',
-    'LBL_LIST_STATUS' => 'Ang Katayuan',
+    'LBL_LIST_STATUS' => 'Estado',
     'LBL_LIST_SUBJECT' => 'Ang paksa',
 
     'LNK_CASE_LIST' => 'Tumanaw ng mga kaso',
     'LNK_NEW_CASE' => 'Lumikha ng kaso',
     'LBL_LIST_DATE_CREATED' => 'Ang petsa ng pagkakalikha',
     'LBL_ASSIGNED_TO_NAME' => 'Itinatalaga sa',
-    'LBL_TYPE' => 'Ang Uri',
+    'LBL_TYPE' => 'Uri',
     'LBL_WORK_LOG' => 'Log ng gawain',
     'LNK_IMPORT_CASES' => 'Mag-import ng mga kaso',
 
     'LBL_CREATED_USER' => 'Nilikha ng gumagamit',
     'LBL_MODIFIED_USER' => 'Binago ng gumagamit',
     'LBL_PROJECT_SUBPANEL_TITLE' => 'Mga proyekto',
-    'LBL_CASE_INFORMATION' => 'Buod', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_CASE_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
     // SNIP
     'LBL_UPDATE_TEXT' => 'Mga update - teksto', //Field for Case updates with text only
