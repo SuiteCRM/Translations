@@ -44,11 +44,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
 
-    'LBL_NAME' => 'Ang Pangalan',
+    'LBL_NAME' => 'Pangalan',
     'LBL_NUMBER' => 'Numero:',
-    'LBL_STATUS' => 'Kalagayan:',
+    'LBL_STATUS' => 'Istado:',
     'LBL_PRIORITY' => 'Prayoridad:',
-    'LBL_DESCRIPTION' => 'Paglalarawan:',
+    'LBL_DESCRIPTION' => 'Ang Paglalarawan:',
     'LBL_RESOLUTION' => 'Ang Resolusyon',
     'LBL_LAST_MODIFIED' => 'Ang Huling Nabago',
     'LBL_ASSIGNED_TO_ID' => 'Itinalaga Kay:',
@@ -59,7 +59,7 @@ $mod_strings = array(
     'LBL_DATE_MODIFIED' => 'Huling binago:',
     'LBL_MODIFIED_BY' => 'Ang Huling Nabago ni:',
     'LBL_ASSIGNED_USER' => 'Magtalaga ng gagamit:',
-    'LBL_TYPE' => 'Uri:',
+    'LBL_TYPE' => 'Ang Uri:',
     'LBL_SUBJECT' => 'Paksa:',
 
     'LBL_EDIT_BUTTON' => 'I-edit',
