@@ -31,39 +31,39 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
     // System fields
-    'LBL_ASSIGNED_TO_ID' => 'Tilordnet brukerID',
-    'LBL_ASSIGNED_TO_NAME' => 'Tildelt til navn',
-    'LBL_DATE_ENTERED' => 'Dato opprettet',
-    'LBL_DATE_MODIFIED' => 'Dato endret',
-    'LBL_MODIFIED' => 'Endret av',
-    'LBL_MODIFIED_NAME' => 'Endret av navn',
-    'LBL_CREATED' => 'Opprettet av',
-    'LBL_CREATED_USER' => 'Opprettet av bruker',
-    'LBL_MODIFIED_USER' => 'Modifisert av bruker',
-    'LBL_DESCRIPTION' => 'Beskrivelse',
-    'LBL_DELETED' => 'Slettet',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
+    'LBL_DATE_ENTERED' => 'Date Created',
+    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_MODIFIED' => 'Modified By',
+    'LBL_MODIFIED_NAME' => 'Modified By Name',
+    'LBL_CREATED' => 'Created By',
+    'LBL_CREATED_USER' => 'Created by User',
+    'LBL_MODIFIED_USER' => 'Modified by User',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_DELETED' => 'Deleted',
 
     // Security groups
-    'LBL_SECURITYGROUPS' => 'Sikkerhetsgrupper',
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Sikkerhetsgrupper',
+    'LBL_SECURITYGROUPS' => 'Security Groups',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
 
     // List view labels
-    'LBL_LIST_NAME' => 'Navn',
-    'LBL_LIST_DELETE' => 'Slett',
-    'LBL_EDIT_BUTTON' => 'Rediger',
-    'LBL_REMOVE' => 'Fjern',
-    'LBL_ASCENDING' => 'Stigende',
-    'LBL_DESCENDING' => 'Fallende',
+    'LBL_LIST_NAME' => 'Name',
+    'LBL_LIST_DELETE' => 'Delete',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
 
     // Email opt-in labels
-    'LBL_OPT_IN' => 'Påmeldt',
-    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Venter bekreftelse på deltagelse, deltagelses bekreftelse er ikke sendt',
-    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Venter bekreftelse på deltagelse, deltagelses bekreftelse er sendt',
-    'LBL_OPT_IN_CONFIRMED' => 'Deltagelse ønsket',
+    'LBL_OPT_IN' => 'Delta',
+    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Ventende "Bekfretelse på deltagelse", bekreft deltagelse ikke sendt',
+    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Ventende "Bekfretelse på deltagelse", bekreft deltagelse sendt',
+    'LBL_OPT_IN_CONFIRMED' => 'Bekreftet deltagelse',
 
     // Subpanel titles
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Se på historikk',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktiviteter',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
 
@@ -91,7 +91,7 @@ $mod_strings = [
     'LNK_LIST' => 'View Calendar Accounts',
 
     // Standard fields
-    'LBL_NAME' => 'Navn',
+    'LBL_NAME' => 'Name',
     'LBL_ID' => 'ID',
     'LBL_TYPE' => 'Type',
     'LBL_SOURCE' => 'Calendar Source',
@@ -101,7 +101,7 @@ $mod_strings = [
     'LBL_CONNECT_OAUTH' => 'Connect OAuth',
 
     // Basic Auth Fields
-    'LBL_USERNAME' => 'Brukernavn',
+    'LBL_USERNAME' => 'Username',
     'LBL_PASSWORD' => 'Passord',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test Connection',
@@ -162,12 +162,12 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Please select a calendar source first.',
 
     // Connection test messages
-    'LBL_CALENDAR' => 'Kalender',
-    'LBL_SUCCESSFUL' => 'Vellykket',
-    'LBL_FAILED' => 'Feilet',
+    'LBL_CALENDAR' => 'Calendar',
+    'LBL_SUCCESSFUL' => 'Successful',
+    'LBL_FAILED' => 'Failed',
     'LBL_CONNECTION_TEST' => 'Connection Test',
-    'LBL_YES' => 'Ja',
-    'LBL_NO' => 'Nei',
+    'LBL_YES' => 'Yes',
+    'LBL_NO' => 'No',
     'LBL_FOUND_CALENDARS' => 'Found {count} calendars.',
     'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'An error occurred while processing the connection test response. Please check the logs for details.',
     'LBL_CONNECTION_TEST_HTTP_ERROR' => 'Connection test failed with HTTP status',
@@ -182,14 +182,14 @@ $mod_strings = [
 
     // Dialog labels
     'LBL_NOTIFICATION' => 'Notification',
-    'LBL_CONFIRM' => 'Bekreft:',
+    'LBL_CONFIRM' => 'Confirm',
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => 'I progresjon',
-    'LBL_SYNC_STATUS_SUCCESS' => 'Vellykket',
-    'LBL_SYNC_STATUS_WARNING' => 'Advarsel',
-    'LBL_SYNC_STATUS_ERROR' => 'Feil:',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => 'In Progress',
+    'LBL_SYNC_STATUS_SUCCESS' => 'Success',
+    'LBL_SYNC_STATUS_WARNING' => 'Warning',
+    'LBL_SYNC_STATUS_ERROR' => 'Error',
 
     // Sync message enum translations
     'LBL_SYNC_MSG_SYNC_COMPLETE' => 'All meetings synced.',
@@ -202,5 +202,5 @@ $mod_strings = [
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Calendar not found.',
 
     // Relationship labels
-    'LBL_MEETINGS' => 'Møter',
+    'LBL_MEETINGS' => 'Meetings',
 ];
