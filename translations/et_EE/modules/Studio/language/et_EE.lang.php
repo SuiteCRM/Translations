@@ -43,30 +43,30 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EDIT_LAYOUT' => 'Muuda paigutust',
+    'LBL_EDIT_LAYOUT' => 'Edit Layout',
     'LBL_EDIT_FIELDS' => 'Redigeeri kohaldatud välju',
-    'LBL_SELECT_FILE' => 'Vali fail',
-    'LBL_MODULE_TITLE' => 'Stuudio',
-    'LBL_TOOLBOX' => 'Tööriistakast',
+    'LBL_SELECT_FILE' => 'Select File',
+    'LBL_MODULE_TITLE' => 'Studio',
+    'LBL_TOOLBOX' => 'Toolbox',
     'LBL_SUITE_FIELDS_STAGE' => 'SuiteCRM Fields (click items to add to staging area)',
     'LBL_VIEW_SUITE_FIELDS' => 'Vaata SuiteCRM-i välju',
-    'LBL_FAILED_TO_SAVE' => 'Salvestamine ebaõnnestus',
+    'LBL_FAILED_TO_SAVE' => 'Failed To Save',
     'LBL_CONFIRM_UNSAVE' => 'Muudatusi ei salvestata. Kas oled kindel, et soovid jätkata?',
-    'LBL_PUBLISHING' => 'Avaldamine...',
-    'LBL_PUBLISHED' => 'Avaldatud',
-    'LBL_FAILED_PUBLISHED' => 'Avaldamine ebaõnnestus',
-    'LBL_DROP_HERE' => '[Aseta siia]',
+    'LBL_PUBLISHING' => 'Publishing...',
+    'LBL_PUBLISHED' => 'Published',
+    'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
+    'LBL_DROP_HERE' => '[Drop Here]',
 
 //CUSTOM FIELDS
     'LBL_NAME' => 'Nimi',
-    'LBL_LABEL' => 'Märgistus',
-    'LBL_MASS_UPDATE' => 'Üldine ajakohastamine',
+    'LBL_LABEL' => 'Label',
+    'LBL_MASS_UPDATE' => 'Mass Update',
     'LBL_DEFAULT_VALUE' => 'Vaikeväärtus',
-    'LBL_REQUIRED' => 'Kohustuslik',
-    'LBL_DATA_TYPE' => 'Tüüp',
+    'LBL_REQUIRED' => 'Required',
+    'LBL_DATA_TYPE' => 'Type',
 
 
-    'LBL_HISTORY' => 'Ajalugu',
+    'LBL_HISTORY' => 'History',
 
 //WIZARDS
 
@@ -87,60 +87,60 @@ $mod_strings = array(
 
 
 //Manager Backups History
-    'LBL_MB_DELETE' => 'Kustuta',
+    'LBL_MB_DELETE' => 'Delete',
 
 //EDIT DROP DOWNS
     'LBL_ED_CREATE_DROPDOWN' => 'Loo rippmenuu',
     'LBL_DROPDOWN_NAME' => 'Rippmenüü nimi:',
     'LBL_DROPDOWN_LANGUAGE' => 'Rippmenüü keel:',
-    'LBL_TABGROUP_LANGUAGE' => 'Keel:',
+    'LBL_TABGROUP_LANGUAGE' => 'Language:',
 
 //END WIZARDS
 
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => 'Kuva väärtus',
     'LBL_DD_DATABASEVALUE' => 'Andmebaasi väärtus',
-    'LBL_DD_ALL' => 'Kõik seotud',
+    'LBL_DD_ALL' => 'All',
 
 //BUTTONS
-    'LBL_BTN_SAVE' => 'Salvesta',
-    'LBL_BTN_CANCEL' => 'Tühista',
-    'LBL_BTN_SAVEPUBLISH' => 'Salvesta ja paigalda',
-    'LBL_BTN_HISTORY' => 'Ajalugu',
-    'LBL_BTN_ADDROWS' => 'Lisa ridu',
-    'LBL_BTN_UNDO' => 'Tagasi',
-    'LBL_BTN_REDO' => 'Tee ümber',
-    'LBL_BTN_ADDCUSTOMFIELD' => 'Lisa kohandatud väli',
+    'LBL_BTN_SAVE' => 'Save',
+    'LBL_BTN_CANCEL' => 'Cancel',
+    'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
+    'LBL_BTN_HISTORY' => 'History',
+    'LBL_BTN_ADDROWS' => 'Add Rows',
+    'LBL_BTN_UNDO' => 'Undo',
+    'LBL_BTN_REDO' => 'Redo',
+    'LBL_BTN_ADDCUSTOMFIELD' => 'Add Custom Field',
     'LBL_BTN_TABINDEX' => 'Edit Tabbing Order',
 
 //TABS
-    'LBL_MODULES' => 'Moodulid',
-    'LBL_MODULE_NAME' => 'Administratsioon',
-    'LBL_CONFIGURE_GROUP_TABS' => 'Konfigureeri grupeeritud moodulid',
+    'LBL_MODULES' => 'Modules',
+    'LBL_MODULE_NAME' => 'Administration',
+    'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
     'LBL_GROUP_TAB_WELCOME' => 'The filters below will be displayed in the More list in the module menu for users to use to view groups of modules within the menu. Drag and drop modules to and from the filters. Note: Empty filters will not be displayed in the menu.',
     'LBL_RENAME_TAB_WELCOME' => 'Click on any tab\'s Display Value in the table below to rename the tab.',
     'LBL_DELETE_MODULE' => 'Eemalda&nbsp;moodul<br />Grupist',
     'LBL_TAB_GROUP_LANGUAGE_HELP' => 'Select an available language, edit the Group labels and click Save & Deploy to apply the labels in the selected language.',
     'LBL_ADD_GROUP' => 'Lisa filter',
     'LBL_NEW_GROUP' => 'Uus grupp',
-    'LBL_RENAME_TABS' => 'Nimeta sakid ümber',
+    'LBL_RENAME_TABS' => 'Rename Modules',
 
 //ERRORS
-    'ERROR_INVALID_KEY_VALUE' => "Viga: Kehtetu võtmeväärtus: [&#39;]",
+    'ERROR_INVALID_KEY_VALUE' => "Error: Invalid Key Value: [']",
 
 //SUGAR PORTAL
-    'LBL_SAVE' => 'Salvesta' /*for 508 compliance fix*/,
-    'LBL_UNDO' => 'Tagasi' /*for 508 compliance fix*/,
-    'LBL_REDO' => 'Tee ümber' /*for 508 compliance fix*/,
+    'LBL_SAVE' => 'Save' /*for 508 compliance fix*/,
+    'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
+    'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Tekstisisene' /*for 508 compliance fix*/,
-    'LBL_DELETE' => 'Kustuta' /*for 508 compliance fix*/,
-    'LBL_ADD_FIELD' => 'Lisa väli' /*for 508 compliance fix*/,
+    'LBL_DELETE' => 'Delete' /*for 508 compliance fix*/,
+    'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Maksimeeri' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Minimeeri' /*for 508 compliance fix*/,
-    'LBL_PUBLISH' => 'Yayınla' /*for 508 compliance fix*/,
-    'LBL_ADDROWS' => 'Lisa ridu' /*for 508 compliance fix*/,
-    'LBL_ADDFIELD' => 'Lisa väli' /*for 508 compliance fix*/,
-    'LBL_EDIT' => 'Redigeeri' /*for 508 compliance fix*/,
+    'LBL_PUBLISH' => 'Publish' /*for 508 compliance fix*/,
+    'LBL_ADDROWS' => 'Add Rows' /*for 508 compliance fix*/,
+    'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
+    'LBL_EDIT' => 'Edit' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Vali keel, mida muuta.',
     'LBL_SINGULAR' => 'Ainsuse silt',
