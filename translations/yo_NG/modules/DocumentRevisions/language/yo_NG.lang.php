@@ -67,7 +67,7 @@ $mod_strings = array(
     //document revisions.
     'LBL_REV_LIST_REVISION' => 'Atunyewo',
     'LBL_REV_LIST_ENTERED' => 'Ojo ti a seda',
-    'LBL_REV_LIST_CREATED' => 'Siseda nipa',
+    'LBL_REV_LIST_CREATED' => 'Created by',
     'LBL_REV_LIST_LOG' => 'Yipada iti',
     'LBL_REV_LIST_FILENAME' => 'Faili',
 
