@@ -43,27 +43,27 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Utgaver',
+    'LBL_MODULE_NAME' => 'Releases',
     'LBL_MODULE_TITLE' => 'Utgaver: Hjem',
     'LBL_SEARCH_FORM_TITLE' => 'Utgave Søk',
     'LBL_LIST_FORM_TITLE' => 'Søk utsendelser',
     'LBL_NEW_FORM_TITLE' => 'Ny utsendelse',
-    'LBL_RELEASE' => 'Utgave:',
-    'LBL_LIST_NAME' => 'Utgave',
+    'LBL_RELEASE' => 'Release:',
+    'LBL_LIST_NAME' => 'Release',
     'LBL_NAME' => 'Versjon av utsendelse:',
-    'LBL_LIST_LIST_ORDER' => 'Sorter',
-    'LBL_LIST_ORDER' => 'Sortering:',
+    'LBL_LIST_LIST_ORDER' => 'Order',
+    'LBL_LIST_ORDER' => 'Order:',
     'LBL_LIST_STATUS' => 'Status',
-    'LBL_STATUS' => 'Status',
-    'LNK_NEW_RELEASE' => 'Søk utsendelser',
-    'NTC_DELETE_CONFIRMATION' => 'Er du sikker på at du vil slette denne oppføringen?',
+    'LBL_STATUS' => 'Status:',
+    'LNK_NEW_RELEASE' => 'Release List',
+    'NTC_DELETE_CONFIRMATION' => 'Are you sure you want to delete this record?',
     'ERR_DELETE_RECORD' => 'Du må oppgi et registreringsnummer for å slette denne utsendelsen.',
     'NTC_STATUS' => 'Sett status til Passiv for å fjerne denne utsendelsen fra Utsendelse-rullelisten',
     'NTC_LIST_ORDER' => 'Velg i hvilken rekkefølge som utsendelsen vil vises i Utsendelse-rullelisten',
     'release_status_dom' =>
         array(
-            'Active' => 'Aktiv',
-            'Inactive' => 'Inaktiv',
+            'Active' => 'Active',
+            'Inactive' => 'Inactive',
         ),
-    'LBL_EDITLAYOUT' => 'Rediger oppsett' /*for 508 compliance fix*/,
+    'LBL_EDITLAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
 );
