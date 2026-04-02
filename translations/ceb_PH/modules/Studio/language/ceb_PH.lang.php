@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EDIT_LAYOUT' => 'I-edit ang Plano',
+    'LBL_EDIT_LAYOUT' => 'I-edit ang Paghan-ay',
     'LBL_EDIT_FIELDS' => 'Editon Una ang Field',
     'LBL_SELECT_FILE' => 'Pilia ang File',
     'LBL_MODULE_TITLE' => 'Studyo',
@@ -59,11 +59,11 @@ $mod_strings = array(
 
 //CUSTOM FIELDS
     'LBL_NAME' => 'Pangalan',
-    'LBL_LABEL' => 'Label',
+    'LBL_LABEL' => 'Timaan',
     'LBL_MASS_UPDATE' => 'Mass update',
     'LBL_DEFAULT_VALUE' => 'Default nga Balyo',
     'LBL_REQUIRED' => 'Kinahanglan',
-    'LBL_DATA_TYPE' => 'Matang',
+    'LBL_DATA_TYPE' => 'Gusto',
 
 
     'LBL_HISTORY' => 'Kasaysayan',
@@ -104,7 +104,7 @@ $mod_strings = array(
 
 //BUTTONS
     'LBL_BTN_SAVE' => 'I-save',
-    'LBL_BTN_CANCEL' => 'Kansel',
+    'LBL_BTN_CANCEL' => 'Kancel',
     'LBL_BTN_SAVEPUBLISH' => 'I-save og tubag',
     'LBL_BTN_HISTORY' => 'Kasaysayan',
     'LBL_BTN_ADDROWS' => 'Dugangan og Rows',
@@ -129,17 +129,17 @@ $mod_strings = array(
     'ERROR_INVALID_KEY_VALUE' => "Mali: Inbalid ang Key Balyou",
 
 //SUGAR PORTAL
-    'LBL_SAVE' => 'I-save' /*for 508 compliance fix*/,
+    'LBL_SAVE' => 'Pag-save' /*for 508 compliance fix*/,
     'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
     'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Naas linya' /*for 508 compliance fix*/,
-    'LBL_DELETE' => 'Tangtanga' /*for 508 compliance fix*/,
+    'LBL_DELETE' => 'Papason' /*for 508 compliance fix*/,
     'LBL_ADD_FIELD' => 'Dugangan ug Lugar' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Pagamayon' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Pagamayon' /*for 508 compliance fix*/,
     'LBL_PUBLISH' => 'Imantala' /*for 508 compliance fix*/,
     'LBL_ADDROWS' => 'Dugangan og Rows' /*for 508 compliance fix*/,
-    'LBL_ADDFIELD' => 'Dugangan ug Lugar' /*for 508 compliance fix*/,
+    'LBL_ADDFIELD' => 'Dugangan og Field' /*for 508 compliance fix*/,
     'LBL_EDIT' => 'Usba' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Pilia ang linguahe para ma edit.',
