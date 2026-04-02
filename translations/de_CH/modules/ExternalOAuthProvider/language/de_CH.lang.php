@@ -44,18 +44,18 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
 
-    'LBL_ASSIGNED_TO_ID' => 'Zugewiesene Benutzer ID',
+    'LBL_ASSIGNED_TO_ID' => 'Zugewiesene Benutzer-ID',
     'LBL_ASSIGNED_TO_NAME' => 'Zugewiesen an',
-    'LBL_ID' => 'Id',
-    'LBL_DATE_ENTERED' => 'Erstellungsdatum',
+    'LBL_ID' => 'ID',
+    'LBL_DATE_ENTERED' => 'Datum erstellt',
     'LBL_DATE_MODIFIED' => 'Letzte Änderung',
     'LBL_MODIFIED' => 'Geändert von',
     'LBL_MODIFIED_NAME' => 'Geändert von Name',
-    'LBL_CREATED' => 'Erstellt von',
+    'LBL_CREATED' => 'Erstellt von:',
     'LBL_DESCRIPTION' => 'Beschreibung',
-    'LBL_DELETED' => 'Gelöscht',
+    'LBL_DELETED' => 'Deleted',
     'LBL_NAME' => 'Name',
-    'LBL_CREATED_USER' => 'Erstellt von Benutzer',
+    'LBL_CREATED_USER' => 'Erstellt von Benutzer:',
     'LBL_MODIFIED_USER' => 'Geändert von Benutzer',
     'LBL_LIST_NAME' => 'Name',
     'LBL_EDIT_BUTTON' => 'Bearbeiten',
@@ -68,7 +68,7 @@ $mod_strings = [
 
     'LNK_LIST' => 'Externe OAuth-Anbieter',
     'LBL_SEARCH_FORM_TITLE' => 'Externe OAuth-Anbieter durchsuchen',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Historie anzeigen',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Verlauf anzeigen',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktivitäten',
     'LBL_NEW_FORM_TITLE' => 'Neuer externer OAuth-Anbieter',
 
@@ -97,7 +97,7 @@ $mod_strings = [
 
     'LBL_EXTRA' => 'Zusätzliche Konfigurationen',
     'LBL_MAPPING' => 'Mapping Konfigurationen',
-    'LBL_OTHER' => 'Andere',
+    'LBL_OTHER' => 'Sonstige',
 
 
     'LNK_LIST_CREATE_NEW_PERSONAL' => 'New Personal OAuth Provider',
@@ -106,5 +106,5 @@ $mod_strings = [
     'LNK_LIST_OUTBOUND_EMAILS' => 'Ausgehende E-Mail-Konten',
     'LNK_LIST_EXTERNAL_OAUTH_CONNECTION' => 'Externe OAuth-Verbindungen',
 
-    'LBL_OWNER' => 'Eigentümer',
+    'LBL_OWNER' => 'Besitzer',
 ];
