@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     //Column header mapping
-    'action' => 'कार्य',
+    'action' => 'कार्रवाई',
     'date_modified' => 'अंतिम कार्रवाई की तिथि',
     'item_id' => 'आईडी',
     'item_summary' => 'नाम',
