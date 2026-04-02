@@ -59,7 +59,7 @@ $mod_strings = array(
     'LNK_NEW_LEAD' => 'Lumikha ng lead',
     'LNK_NEW_CASE' => 'Lumikha ng kaso',
     'LNK_NEW_NOTE' => 'Lumikha ng talaan o paglalakip',
-    'LNK_NEW_CALL' => 'Log Call',
+    'LNK_NEW_CALL' => 'Log ng Tawag',
     'LNK_NEW_EMAIL' => 'I-archieve ang email',
     'LNK_NEW_MEETING' => 'Iskedyul ng meeting',
     'LNK_NEW_TASK' => 'Gumawa ng gawain',
@@ -132,7 +132,7 @@ $mod_strings = array(
     'LBL_DASHLET_SEARCH' => 'Hanapin ang Suitecrm dashlet',
 
 //ABOUT page
-    'LBL_VERSION' => 'Ang Bersyon',
+    'LBL_VERSION' => 'Bersyon',
     'LBL_BUILD' => 'Magtayo',
 
     'LBL_SOURCE_SUGAR' => 'SugarCRM Inc - Tagapagbigay ng balangkas ng CE',
@@ -144,8 +144,8 @@ $mod_strings = array(
     'LBL_DASHLET_OPT_HEIGHT' => 'Dashlet Taas (sa pixels)',
     'LBL_DASHLET_SUITE_NEWS' => 'SuiteCRM News',
     'LBL_DASHLET_DISCOVER_SUITE' => 'Matuklasan ang SuiteCRM',
-    'LBL_BASIC_SEARCH' => 'Mabilis na nasala' /*for 508 compliance fix*/,
-    'LBL_ADVANCED_SEARCH' => 'Advanced na nasala' /*for 508 compliance fix*/,
+    'LBL_BASIC_SEARCH' => 'Mabilis na filter' /*for 508 compliance fix*/,
+    'LBL_ADVANCED_SEARCH' => 'Advanced na Filter' /*for 508 compliance fix*/,
     'LBL_TOUR_HOME' => 'Home icon',
     'LBL_TOUR_HOME_DESCRIPTION' => 'Mabilis na makarating sa iyong home page dashboard sa isang click.',
     'LBL_TOUR_MODULES' => 'Mga modyul',
@@ -209,7 +209,7 @@ $mod_strings = array(
     'LBL_CLOSE_BUTTON' => 'Ang pagsasara',
 
     'LBL_CREATE_NEW_RECORD' => 'Lumikha ng aktibidad',
-    'LBL_CREATE_CALL' => 'Log Call',
+    'LBL_CREATE_CALL' => 'Log ng Tawag',
     'LBL_CREATE_MEETING' => 'Iskedyul ng meeting',
 
     'LBL_GENERAL_TAB' => 'Mga detalye',
@@ -233,9 +233,9 @@ $mod_strings = array(
     'LBL_DATE' => 'Ang Petsa: ',
     'LBL_DURATION' => 'Panahon ng Itatagal: ',
     'LBL_NAME' => 'Pamagat: ',
-    'LBL_HOUR_ABBREV' => ' oras',
-    'LBL_HOURS_ABBREV' => ' oras',
-    'LBL_MINSS_ABBREV' => ' minuto ',
+    'LBL_HOUR_ABBREV' => 'oras',
+    'LBL_HOURS_ABBREV' => 'mga oras',
+    'LBL_MINSS_ABBREV' => 'mga minuto',
     'LBL_LOCATION' => 'Lokasyon:',
     'LBL_STATUS' => 'Katayuan:',
     'LBL_DESCRIPTION' => 'Deskripsyon: ',
