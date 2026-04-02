@@ -31,38 +31,38 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
     // System fields
-    'LBL_ASSIGNED_TO_ID' => 'ID broj dodeljenog korisnika',
-    'LBL_ASSIGNED_TO_NAME' => 'Dodeljen',
-    'LBL_DATE_ENTERED' => 'Datum kreiranja',
-    'LBL_DATE_MODIFIED' => 'Datum izmene',
-    'LBL_MODIFIED' => 'Izmenio',
-    'LBL_MODIFIED_NAME' => 'Promenio',
-    'LBL_CREATED' => 'Autor',
-    'LBL_CREATED_USER' => 'Autor je korisnik',
-    'LBL_MODIFIED_USER' => 'Promenio korisnik',
-    'LBL_DESCRIPTION' => 'Opis',
-    'LBL_DELETED' => 'Obrisan',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
+    'LBL_DATE_ENTERED' => 'Date Created',
+    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_MODIFIED' => 'Modified By',
+    'LBL_MODIFIED_NAME' => 'Modified By Name',
+    'LBL_CREATED' => 'Created By',
+    'LBL_CREATED_USER' => 'Created by User',
+    'LBL_MODIFIED_USER' => 'Modified by User',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_DELETED' => 'Deleted',
 
     // Security groups
-    'LBL_SECURITYGROUPS' => 'Sigurnosne grupe',
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Sigurnosne grupe',
+    'LBL_SECURITYGROUPS' => 'Security Groups',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
 
     // List view labels
-    'LBL_LIST_NAME' => 'Ime',
-    'LBL_LIST_DELETE' => 'Obriši',
-    'LBL_EDIT_BUTTON' => 'Izmeni',
-    'LBL_REMOVE' => 'Ukloni',
-    'LBL_ASCENDING' => 'Rastući',
-    'LBL_DESCENDING' => 'Opadajući',
+    'LBL_LIST_NAME' => 'Naziv',
+    'LBL_LIST_DELETE' => 'Delete',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
 
     // Email opt-in labels
-    'LBL_OPT_IN' => 'Saglasan/a',
+    'LBL_OPT_IN' => 'Saglasnost',
     'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Potvrda saglasnosti u toku, e-mail nije poslat',
     'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Potvrda saglasnosti u toku, e-mail poslat',
     'LBL_OPT_IN_CONFIRMED' => 'Saglasan/a',
 
     // Subpanel titles
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Pregled istorije',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktivnosti',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
@@ -91,9 +91,9 @@ $mod_strings = [
     'LNK_LIST' => 'View Calendar Accounts',
 
     // Standard fields
-    'LBL_NAME' => 'Ime',
-    'LBL_ID' => 'ID broj',
-    'LBL_TYPE' => 'Tip',
+    'LBL_NAME' => 'Naziv',
+    'LBL_ID' => 'ID',
+    'LBL_TYPE' => 'Type',
     'LBL_SOURCE' => 'Calendar Source',
 
     // OAuth2 Fields
@@ -101,8 +101,8 @@ $mod_strings = [
     'LBL_CONNECT_OAUTH' => 'Connect OAuth',
 
     // Basic Auth Fields
-    'LBL_USERNAME' => 'Korisničko ime',
-    'LBL_PASSWORD' => 'SMTP lozinka',
+    'LBL_USERNAME' => 'Username',
+    'LBL_PASSWORD' => 'Password',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test Connection',
 
@@ -162,12 +162,12 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Please select a calendar source first.',
 
     // Connection test messages
-    'LBL_CALENDAR' => 'Kalendar',
-    'LBL_SUCCESSFUL' => 'Uspešan',
-    'LBL_FAILED' => 'Neuspešno',
+    'LBL_CALENDAR' => 'Calendar',
+    'LBL_SUCCESSFUL' => 'Successful',
+    'LBL_FAILED' => 'Failed',
     'LBL_CONNECTION_TEST' => 'Connection Test',
-    'LBL_YES' => 'Da',
-    'LBL_NO' => 'Ne',
+    'LBL_YES' => 'Yes',
+    'LBL_NO' => 'No',
     'LBL_FOUND_CALENDARS' => 'Found {count} calendars.',
     'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'An error occurred while processing the connection test response. Please check the logs for details.',
     'LBL_CONNECTION_TEST_HTTP_ERROR' => 'Connection test failed with HTTP status',
@@ -182,14 +182,14 @@ $mod_strings = [
 
     // Dialog labels
     'LBL_NOTIFICATION' => 'Notification',
-    'LBL_CONFIRM' => 'Potvrdi',
+    'LBL_CONFIRM' => 'Confirm',
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => 'U toku',
-    'LBL_SYNC_STATUS_SUCCESS' => 'Uspešno',
-    'LBL_SYNC_STATUS_WARNING' => 'Upozorenje',
-    'LBL_SYNC_STATUS_ERROR' => 'Greška:',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => 'In Progress',
+    'LBL_SYNC_STATUS_SUCCESS' => 'Success',
+    'LBL_SYNC_STATUS_WARNING' => 'Warning',
+    'LBL_SYNC_STATUS_ERROR' => 'Error',
 
     // Sync message enum translations
     'LBL_SYNC_MSG_SYNC_COMPLETE' => 'All meetings synced.',
@@ -202,5 +202,5 @@ $mod_strings = [
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Calendar not found.',
 
     // Relationship labels
-    'LBL_MEETINGS' => 'Pregledaj sastanke',
+    'LBL_MEETINGS' => 'Meetings',
 ];
