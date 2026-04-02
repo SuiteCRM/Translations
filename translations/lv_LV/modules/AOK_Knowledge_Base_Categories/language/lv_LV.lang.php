@@ -43,23 +43,23 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Piešķirts lietotājam ar ID',
-    'LBL_ASSIGNED_TO_NAME' => 'Piešķirts lietotājam',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Izveidošanas datums',
-    'LBL_DATE_MODIFIED' => 'Modificēts',
+    'LBL_DATE_MODIFIED' => 'Date Modified',
     'LBL_MODIFIED' => 'Rediģēja',
-    'LBL_MODIFIED_ID' => 'Modificēja',
-    'LBL_MODIFIED_NAME' => 'Modificēja vārds',
-    'LBL_CREATED' => 'Izveidoja',
-    'LBL_CREATED_ID' => 'Izveidoja',
-    'LBL_DESCRIPTION' => 'Apraksts',
+    'LBL_MODIFIED_ID' => 'Modified By Id',
+    'LBL_MODIFIED_NAME' => 'Modified By Name',
+    'LBL_CREATED' => 'Created By',
+    'LBL_CREATED_ID' => 'Created By Id',
+    'LBL_DESCRIPTION' => 'Description',
     'LBL_DELETED' => 'Izdzēsts',
     'LBL_NAME' => 'Vārds:',
-    'LBL_CREATED_USER' => 'Izveidoja lietotājs',
-    'LBL_MODIFIED_USER' => 'Modificēja lietotājs',
+    'LBL_CREATED_USER' => 'Created by User',
+    'LBL_MODIFIED_USER' => 'Modified by User',
     'LBL_LIST_NAME' => 'Vārds:',
-    'LBL_EDIT_BUTTON' => 'Rediģēt',
+    'LBL_EDIT_BUTTON' => 'Edit',
     'LBL_REMOVE' => 'Izņemt',
     'LBL_LIST_FORM_TITLE' => 'KB Categories List',
     'LBL_MODULE_NAME' => 'KB Categories',
@@ -69,10 +69,10 @@ $mod_strings = array(
     'LNK_LIST' => 'View KB Categories',
     'LNK_IMPORT_AOK_KB_CATEGORIES' => 'Import KB Categories',
     'LBL_SEARCH_FORM_TITLE' => 'Search KB Categories',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Aplūkot vēsturi',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Darbības',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_AOK_KB_CATEGORIES_SUBPANEL_TITLE' => 'KB Categories',
     'LBL_NEW_FORM_TITLE' => 'New KB Categories',
 );
 
-$mod_strings['LBL_AOK_KB_TITLE'] = 'Zināšanu Bāze';
+$mod_strings['LBL_AOK_KB_TITLE'] = 'Knowledge Base';
