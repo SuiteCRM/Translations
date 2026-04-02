@@ -55,7 +55,7 @@ $mod_strings = array(
     // END Dashlet Categories
 
     'ERR_DELETE_RECORD' => 'اکاؤنٹ حذف کرنے کے لئے آپ کو ایک ریکارڈ نمبر کی وضاحت کرنا ضروری ہے.',
-    'LBL_ACCOUNT_INFORMATION' => 'جائزہ', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_ACCOUNT_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_ACCOUNT_NAME' => 'اکاؤنٹ کا نام:',
     'LBL_ACCOUNT' => 'اکاؤنٹ:',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'سرگرمیاں',
@@ -64,7 +64,7 @@ $mod_strings = array(
     'LBL_ANY_ADDRESS' => 'کوئی بھی پتہ:',
     'LBL_ANY_EMAIL' => 'کوئی بھی ای میل:',
     'LBL_ANY_PHONE' => 'کوئی بھی فون:',
-    'LBL_ASSIGNED_TO_NAME' => 'مقرر کردہ سے:',
+    'LBL_ASSIGNED_TO_NAME' => 'اس حوالے سے:',
     'LBL_ASSIGNED_TO_ID' => 'نامزد کردہ صارف:',
     'LBL_BILLING_ADDRESS_CITY' => 'بلنگ شہر:',
     'LBL_BILLING_ADDRESS_COUNTRY' => 'بلنگ ملک:',
@@ -139,7 +139,7 @@ $mod_strings = array(
     'LBL_SHIPPING_ADDRESS_STREET' => 'شپنگ گلی:',
     'LBL_SHIPPING_ADDRESS' => 'شپنگ کا پتہ:',
     'LBL_SIC_CODE' => 'ایس آۂی سی کوڈ:',
-    'LBL_STATE' => 'ریاست یا علاقہ:',
+    'LBL_STATE' => 'State/Region:',
     'LBL_TICKER_SYMBOL' => 'ٹکر کی علامت:',
     'LBL_TYPE' => 'قسم:',
     'LBL_WEBSITE' => 'ویب سائٹ:',
