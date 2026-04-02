@@ -43,22 +43,22 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Loma:',
-    'LBL_LANGUAGE' => 'Valoda:',
-    'LBL_MODULE_NAME' => 'Lomas',
-    'LBL_MODULE_TITLE' => 'Lomas',
+    'LBL_ROLE' => 'Role:',
+    'LBL_LANGUAGE' => 'Language:',
+    'LBL_MODULE_NAME' => 'Roles',
+    'LBL_MODULE_TITLE' => 'Roles: Home',
     'LBL_SEARCH_FORM_TITLE' => 'Lomu meklēšana',
     'LBL_LIST_FORM_TITLE' => 'Lomu saraksts',
-    'LNK_NEW_ROLE' => 'Izveidot lomu',
-    'LNK_ROLES' => 'Lomas',
+    'LNK_NEW_ROLE' => 'Create Role',
+    'LNK_ROLES' => 'Roles',
     'LBL_NAME' => 'Vārds:',
-    'LBL_DESCRIPTION' => 'Apraksts',
+    'LBL_DESCRIPTION' => 'Apraksts:',
     'LBL_ALLOWED_MODULES' => 'Atļautie moduļi:',
     'LBL_DISALLOWED_MODULES' => 'Neatļautie moduļi:',
     'LBL_ASSIGN_MODULES' => 'Rediģēt moduļus:',
-    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Lomas',
-    'LBL_USERS' => 'Lietotājs',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Roles',
+    'LBL_USERS' => 'Users',
 
-    'LBL_USERS_SUBPANEL_TITLE' => 'Lietotājs',
-    'LBL_MODULES' => 'Moduļi:',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
+    'LBL_MODULES' => 'Modules',
 );
