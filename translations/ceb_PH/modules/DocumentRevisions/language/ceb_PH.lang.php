@@ -46,28 +46,28 @@ $mod_strings = array(
     //module
     'LBL_MODULE_NAME' => 'Rebisyon sa Dokumento',
 
-    'LNK_NEW_DOCUMENT' => 'Pagbuhat og Dokumento',
+    'LNK_NEW_DOCUMENT' => 'Maghimo og Dokumento',
     'LNK_DOCUMENT_LIST' => 'Tan-awon ang mga Dokumento',
 
     //vardef labels
-    'LBL_REVISION_NAME' => 'Numero sa Rebisyon',
+    'LBL_REVISION_NAME' => 'Numero sa pag-usab',
     'LBL_FILENAME' => 'File:',
-    'LBL_MIME' => 'Tipo sa Mime',
+    'LBL_MIME' => 'Matang sa Mime',
     'LBL_REVISION' => 'Pag-usab',
-    'LBL_DOCUMENT' => 'Iglabot na Dokumento',
-    'LBL_LATEST_REVISION' => 'Kinaulahian na Rebisyon',
-    'LBL_CHANGE_LOG' => 'Usba ang Log',
+    'LBL_DOCUMENT' => 'Naay kalabotan nga Dokumento',
+    'LBL_LATEST_REVISION' => 'Kinaulahiang pag-usab',
+    'LBL_CHANGE_LOG' => 'Usbon ang log',
     'LBL_ACTIVE_DATE' => 'Petsa sa pagpublikar',
-    'LBL_EXPIRATION_DATE' => 'Petsa sa pagikspayr',
-    'LBL_FILE_EXTENSION' => 'Ekstensiyon sa File',
+    'LBL_EXPIRATION_DATE' => 'Petsa nga ma-ekspire',
+    'LBL_FILE_EXTENSION' => 'Ekstensiyon nga file',
 
-    'LBL_DOC_NAME' => 'Pangalan sa Dokumento:',
-    'LBL_DOC_VERSION' => 'Rebisyon:',
+    'LBL_DOC_NAME' => 'Pangan sa Dokumento:',
+    'LBL_DOC_VERSION' => 'Pag-usab:',
 
     //document revisions.
-    'LBL_REV_LIST_REVISION' => 'Pag-usab',
-    'LBL_REV_LIST_ENTERED' => 'Petsa nga gihimo',
-    'LBL_REV_LIST_CREATED' => 'Gibuhat ni',
+    'LBL_REV_LIST_REVISION' => 'Rebisyon',
+    'LBL_REV_LIST_ENTERED' => 'Petsa sa Pagbuhat',
+    'LBL_REV_LIST_CREATED' => 'Created by',
     'LBL_REV_LIST_LOG' => 'Usba ang Log',
     'LBL_REV_LIST_FILENAME' => 'File',
 
@@ -76,11 +76,11 @@ $mod_strings = array(
     'LBL_REVISIONS' => 'Mga Rebisyon',
 
     //error messages
-    'ERR_FILENAME' => 'Pangalan sa File',
+    'ERR_FILENAME' => 'Pangan sa File',
     'ERR_DOC_VERSION' => 'Bersiyon sa Dokumento',
     'ERR_DELETE_CONFIRM' => 'Ganahan ba ka papason ang rebisyon sa kini nga dokumento?',
     'ERR_DELETE_LATEST_VERSION' => 'Wala ka gitugotan nga papason ang kinaulahia nga rebisyon sa dokumento.',
-    'LNK_NEW_MAIL_MERGE' => 'Ang mail e merge',
+    'LNK_NEW_MAIL_MERGE' => 'Paglangkob sa Mail',
     'LBL_DOC_ID' => 'ID sa Kakuhaan sa Dokumento',
     'LBL_DOC_TYPE' => 'Kakuhaan',
     'LBL_DOC_URL' => 'URL sa Kakuhaan sa Dokumento',
