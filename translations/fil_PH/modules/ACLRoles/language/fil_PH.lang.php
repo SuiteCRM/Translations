@@ -46,8 +46,8 @@ $mod_strings = array(
     'LBL_MODULE_NAME' => 'Mga tungkulin',
     'LBL_MODULE_TITLE' => 'Mga tungkulin: Home',
     'LBL_ROLE' => 'Tungkulin',
-    'LBL_NAME' => 'Ang Pangalan',
-    'LBL_DESCRIPTION' => 'Paglalarawan',
+    'LBL_NAME' => 'Ang pangalan',
+    'LBL_DESCRIPTION' => 'Ang deskripsyon',
     'LIST_ROLES' => 'Listahan ng mga papel na ginagampanan',
     'LBL_USERS_SUBPANEL_TITLE' => 'Ang mga gumagamit',
     'LIST_ROLES_BY_USER' => 'Sa Pamamagitan ng Gumagamit naka lista ang mga tungkulin',
@@ -61,5 +61,5 @@ $mod_strings = array(
     'LBL_ALL' => 'Lahat',
     'LBL_DUPLICATE_OF' => 'Kopya Ng ',
 
-    'LBL_SECURITYGROUPS' => 'Grupo ng mga seguridad',
+    'LBL_SECURITYGROUPS' => 'Grupo ng mga seguriidad',
 );
