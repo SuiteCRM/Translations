@@ -104,7 +104,7 @@ $mod_strings = array(
 
 //BUTTONS
     'LBL_BTN_SAVE' => 'रखना',
-    'LBL_BTN_CANCEL' => 'रद्द करना',
+    'LBL_BTN_CANCEL' => 'रद्द करें',
     'LBL_BTN_SAVEPUBLISH' => 'सहेजें और तैनात करें',
     'LBL_BTN_HISTORY' => 'इतिहास',
     'LBL_BTN_ADDROWS' => 'पंक्तियाँ जोड़ें',
@@ -140,7 +140,7 @@ $mod_strings = array(
     'LBL_PUBLISH' => 'पब्लिश' /*for 508 compliance fix*/,
     'LBL_ADDROWS' => 'पंक्तियाँ जोड़ें' /*for 508 compliance fix*/,
     'LBL_ADDFIELD' => 'क्षेत्र जोड़ें' /*for 508 compliance fix*/,
-    'LBL_EDIT' => 'संशोधन करें' /*for 508 compliance fix*/,
+    'LBL_EDIT' => 'संपादित करें' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'संपादित करने के लिए भाषा का चयन करें.',
     'LBL_SINGULAR' => 'एकवचन लेबल',
