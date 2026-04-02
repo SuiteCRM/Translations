@@ -43,16 +43,16 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings['LBL_ASSIGNED_TO_ID'] = ' පවරා පරිශීලක අංකය';
-$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'පරිශීලක';
-$mod_strings['LBL_ID'] = ' හැඳුනුම්';
-$mod_strings['LBL_DATE_ENTERED'] = 'සෑදූ දිනය';
-$mod_strings['LBL_DATE_MODIFIED'] = ' නවීකරණය කරන ලද දිනය';
+$mod_strings['LBL_ASSIGNED_TO_NAME'] = ' පරිශීලක';
+$mod_strings['LBL_ID'] = 'හැඳුනුම්';
+$mod_strings['LBL_DATE_ENTERED'] = 'දිනය නිර්මාණය';
+$mod_strings['LBL_DATE_MODIFIED'] = 'නවීකරණය කරන ලද දිනය';
 $mod_strings['LBL_MODIFIED'] = ' වන විට නවීකරණය කරන ලද';
 $mod_strings['LBL_MODIFIED_NAME'] = ' නම වන විට නවීකරණය කරන ලද';
-$mod_strings['LBL_CREATED'] = 'සෑදුවේ';
+$mod_strings['LBL_CREATED'] = 'නිර්මාණය කළේ';
 $mod_strings['LBL_DESCRIPTION'] = 'විස්තරය';
 $mod_strings['LBL_DELETED'] = ' මකා දමන';
-$mod_strings['LBL_NAME'] = 'නම';
+$mod_strings['LBL_NAME'] = ' නම';
 $mod_strings['LBL_CREATED_USER'] = ' පරිශීලක විසින් නිර්මාණය';
 $mod_strings['LBL_MODIFIED_USER'] = ' පරිශීලක විසින් නවීකරණය කරන ලද';
 $mod_strings['LBL_LIST_NAME'] = 'නම';
@@ -65,13 +65,13 @@ $mod_strings['LNK_LIST'] = 'දැක්ම සලකුණු';
 $mod_strings['LNK_IMPORT_JJWG_MARKERS'] = 'ආනයන සලකුණු';
 $mod_strings['LBL_SEARCH_FORM_TITLE'] = 'සොයන්න සලකුණු';
 $mod_strings['LBL_HISTORY_SUBPANEL_TITLE'] = ' දැක්ම ඉතිහාසය';
-$mod_strings['LBL_ACTIVITIES_SUBPANEL_TITLE'] = ' කටයුතු';
+$mod_strings['LBL_ACTIVITIES_SUBPANEL_TITLE'] = 'කටයුතු';
 $mod_strings['LBL_NEW_FORM_TITLE'] = 'නව සලකුණු';
 $mod_strings['LBL_CITY'] = ' නගරය';
 $mod_strings['LBL_STATE'] = 'රජයේ';
-$mod_strings['LBL_COUNTRY'] = 'රට';
-$mod_strings['LBL_JJWG_MAPS_LAT'] = 'අක්ෂාංශ';
-$mod_strings['LBL_JJWG_MAPS_LNG'] = 'දේශාංශ';
+$mod_strings['LBL_COUNTRY'] = 'Country';
+$mod_strings['LBL_JJWG_MAPS_LAT'] = 'Latitude';
+$mod_strings['LBL_JJWG_MAPS_LNG'] = 'Longitude';
 $mod_strings['LBL_MARKER_IMAGE'] = 'මාකර් පිංතූර වර්ගය';
 $mod_strings['LBL_LIST_ASSIGNED_USER'] = 'කිරීම සඳහා පවරා';
 
@@ -79,4 +79,4 @@ $mod_strings['LBL_MARKER_MARKER_POSITION'] = 'මාකර් තත්ත්ව
 $mod_strings['LBL_MARKER_CLOSEST_MATCHING_ADDRESS'] = 'කිට්ටුම ගැලපීම් ෙමරට ලිපිනය:';
 $mod_strings['LBL_MARKER_MARKER_STATUS'] = 'වෙළඳ පොළ තත්ත්වය';
 $mod_strings['LBL_MARKER_EDIT_DESCRIPTION'] = 'ක්ලික් කරන්න සහ මාකර් ඇදගෙන යන්න.';
-$mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MAPS_TITLE'] = 'සිතියම්';
+$mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MAPS_TITLE'] = 'Maps';
