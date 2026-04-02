@@ -49,22 +49,22 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Fehlersuche',
     'LBL_LIST_FORM_TITLE' => 'Fehlerliste',
     'LBL_NEW_FORM_TITLE' => 'Neuer Fehler',
-    'LBL_SUBJECT' => 'Betreff:',
+    'LBL_SUBJECT' => 'Subject:',
     'LBL_NUMBER' => 'Nummer:',
-    'LBL_STATUS' => 'Status',
-    'LBL_PRIORITY' => 'Priorität:',
+    'LBL_STATUS' => 'Status:',
+    'LBL_PRIORITY' => 'Priority:',
     'LBL_DESCRIPTION' => 'Beschreibung:',
     'LBL_CONTACT_NAME' => 'Ansprechpartner:',
     'LBL_CONTACT_ROLE' => 'Rolle:',
     'LBL_LIST_NUMBER' => 'Nr.',
     'LBL_LIST_SUBJECT' => 'Betreff',
     'LBL_LIST_STATUS' => 'Status',
-    'LBL_LIST_PRIORITY' => 'Priorität',
+    'LBL_LIST_PRIORITY' => 'Priority',
     'LBL_LIST_RESOLUTION' => 'Lösung:',
-    'LBL_LIST_LAST_MODIFIED' => 'Zuletzt bearbeitet am',
+    'LBL_LIST_LAST_MODIFIED' => 'Änderungsdatum',
     'LBL_INVITEE' => 'Kontakte',
-    'LBL_TYPE' => 'Typ:',
-    'LBL_LIST_TYPE' => 'Typ',
+    'LBL_TYPE' => 'Type:',
+    'LBL_LIST_TYPE' => 'Typ:',
     'LBL_RESOLUTION' => 'Lösung:',
     'LBL_RELEASE' => 'Version:',
     'LNK_NEW_BUG' => 'Fehler melden',
@@ -79,11 +79,11 @@ $mod_strings = array(
     'LBL_SOURCE' => 'Quelle:',
     'LBL_PRODUCT_CATEGORY' => 'Kategorie:',
 
-    'LBL_CREATED_BY' => 'Erstellt von:',
+    'LBL_CREATED_BY' => 'Created by:',
     'LBL_MODIFIED_BY' => 'Zuletzt geändert von:',
 
-    'LBL_LIST_EMAIL_ADDRESS' => 'E-Mail Adresse',
-    'LBL_LIST_CONTACT_NAME' => 'Kontakt Name',
+    'LBL_LIST_EMAIL_ADDRESS' => 'E-Mail',
+    'LBL_LIST_CONTACT_NAME' => 'Kontakt:',
     'LBL_LIST_ACCOUNT_NAME' => 'Firmenname',
     'LBL_LIST_PHONE' => 'Telefon',
     'NTC_DELETE_CONFIRMATION' => 'Möchten Sie diesen Kontakt wirklich von diesem Fehler entfernen?',
@@ -99,6 +99,6 @@ $mod_strings = array(
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Zugewiesener Benutzer',
     'LBL_ASSIGNED_TO_NAME' => 'Zugewiesen an',
 
-    'LBL_BUG_INFORMATION' => 'Firmeninformation', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_BUG_INFORMATION' => 'Überblick', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
 );
