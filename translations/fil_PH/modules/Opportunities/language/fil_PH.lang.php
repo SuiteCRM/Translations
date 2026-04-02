@@ -50,9 +50,9 @@ $mod_strings = array(
     'LBL_OPPORTUNITY_NAME' => 'Pangalan ng oportunidad:',
     'LBL_OPPORTUNITY' => 'Oportunidad:',
     'LBL_NAME' => 'Pangalan ng Oportunidad',
-    'LBL_INVITEE' => 'Mga kontak',
+    'LBL_INVITEE' => 'Mga Kontak',
     'LBL_CURRENCIES' => 'Mga Pera',
-    'LBL_LIST_OPPORTUNITY_NAME' => 'Ang Pangalan',
+    'LBL_LIST_OPPORTUNITY_NAME' => 'Ang pangalan',
     'LBL_LIST_ACCOUNT_NAME' => 'Pangalan ng Akwant',
     'LBL_LIST_AMOUNT' => 'Halaga ng oportunidad',
     'LBL_LIST_AMOUNT_USDOLLAR' => 'Ang halaga',
@@ -103,7 +103,7 @@ $mod_strings = array(
     'LBL_CAMPAIGN_OPPORTUNITY' => 'Kampanya',
     'LBL_PROJECT_SUBPANEL_TITLE' => 'Mga proyekto',
     'LNK_IMPORT_OPPORTUNITIES' => 'I-import ang mga pagkakataon',
-    'LBL_EDITLAYOUT' => 'Baguhin ang layout' /*for 508 compliance fix*/,
+    'LBL_EDITLAYOUT' => 'I-edit ang layout' /*for 508 compliance fix*/,
 
     // SNIP
 
