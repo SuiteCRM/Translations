@@ -51,8 +51,8 @@ $mod_strings = array(
     'LBL_DATE_ENTERED' => 'Erstellungsdatum',
     'LBL_DATE_MODIFIED' => 'Letzte Änderung',
     'LBL_MODIFIED_USER_ID' => 'Veränderte Benutzer ID',
-    'LBL_CREATED_BY' => 'Erstellt von',
-    'LBL_DELETED' => 'Gelöscht',
+    'LBL_CREATED_BY' => 'Erstellt von:',
+    'LBL_DELETED' => 'Deleted',
     'LBL_CAMPAIGN' => 'Kampagne',
     'LBL_OPTOUT' => 'Keine E-Mails',
 
@@ -63,7 +63,7 @@ $mod_strings = array(
 
     'LBL_SUBPANEL_TRACKER_NAME' => 'Name',
     'LBL_SUBPANEL_TRACKER_URL' => 'URL',
-    'LBL_SUBPANEL_TRACKER_KEY' => 'Schlüssel',
+    'LBL_SUBPANEL_TRACKER_KEY' => 'Key',
     'LBL_EDIT_MESSAGE_URL' => 'URL für Kampagnen Mitteilung:',
     'LBL_EDIT_TRACKER_KEY' => 'Tracker-Schlüssel:',
     'LBL_EDIT_OPT_OUT' => 'Abmelde Link?',
