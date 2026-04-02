@@ -67,7 +67,7 @@ $mod_strings = array(
     //document revisions.
     'LBL_REV_LIST_REVISION' => 'Revizija',
     'LBL_REV_LIST_ENTERED' => 'Datum kreiranja',
-    'LBL_REV_LIST_CREATED' => 'Kreirao',
+    'LBL_REV_LIST_CREATED' => 'Created by',
     'LBL_REV_LIST_LOG' => 'Lista izmjena',
     'LBL_REV_LIST_FILENAME' => 'Fajl',
 
