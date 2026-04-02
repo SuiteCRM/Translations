@@ -64,7 +64,7 @@ $mod_strings = array(
 
     'ERR_ARCHIVE_EMAIL' => 'Error: Select emails to archive.',
     'ERR_DELETE_RECORD' => 'Error: You must specify a record number to delete the account.',
-    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Klijenti',
+    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Računi',
     'LBL_ADD_DASHLETS' => 'Dodaj SuiteCRM dashlete',
     'LBL_ADD_DOCUMENT' => 'Add Documents',
     'LBL_ADD_ENTRIES' => 'Add Entries',
@@ -114,7 +114,7 @@ $mod_strings = array(
     'LBL_REPLY_TO' => 'Reply To:',
     'LBL_HTML_BODY' => 'HTML Body',
     'LBL_INVITEE' => 'Primaoci',
-    'LBL_LEADS_SUBPANEL_TITLE' => 'Potencijalni kupac',
+    'LBL_LEADS_SUBPANEL_TITLE' => 'Vodi',
     'LBL_MESSAGE_SENT' => 'Poruka poslana',
     'LBL_MODIFIED_BY' => 'Modifikovao-la',
     'LBL_MODULE_NAME' => 'All Emails',
@@ -124,7 +124,7 @@ $mod_strings = array(
     'LBL_NONE' => 'Nijedan',
     'LBL_NOT_SENT' => 'Greška kod slanja',
     'LBL_NOTES_SUBPANEL_TITLE' => 'Prilozi',
-    'LBL_OPPORTUNITY_SUBPANEL_TITLE' => 'Poslovne prilike',
+    'LBL_OPPORTUNITY_SUBPANEL_TITLE' => 'Prilike',
     'LBL_PROJECT_SUBPANEL_TITLE' => 'Projekti',
     'LBL_PROJECT_TASK_SUBPANEL_TITLE' => 'Zadaci projekta',
     'LBL_RAW' => 'Raw Email',
@@ -173,7 +173,7 @@ $mod_strings = array(
     'LBL_LIST_RELATED_TO' => 'Povezano sa',
     'LBL_LIST_SUBJECT' => 'Naziv',
     'LBL_LIST_TO_ADDR' => 'Za',
-    'LBL_LIST_TYPE' => 'Tip',
+    'LBL_LIST_TYPE' => 'Vrsta',
 
     'WARNING_SETTINGS_NOT_CONF' => 'Warning: Your email settings are not configured to send email.',
 
@@ -200,7 +200,7 @@ $mod_strings = array(
     'LBL_LIST_BUG' => 'Bugovi',
     'LBL_LIST_CASE' => 'Slučajevi',
     'LBL_LIST_CONTACT' => 'Kontakti',
-    'LBL_LIST_LEAD' => 'Potencijalni kupac',
+    'LBL_LIST_LEAD' => 'Vodi',
     'LBL_LIST_TASK' => 'Zadaci',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Dodijeljeni korisnik',
 
