@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'ERR_DELETE_RECORD' => 'Es muß die Datensatznummer angegeben werden, um diesen Datensatz löschen zu können.',
+    'ERR_DELETE_RECORD' => 'Zum Löschen des Unternehmens muss eine Datensatznummer angegeben werden.',
     'LBL_TOOL_TIP_BOX_TITLE' => 'Wissensdatenbank-Vorschläge',
     'LBL_TOOL_TIP_TITLE' => 'Titel:',
     'LBL_TOOL_TIP_BODY' => 'Text: ',
@@ -53,17 +53,17 @@ $mod_strings = array(
     'LBL_NO_SUGGESTIONS' => 'Keine Vorschäge',
     'LBL_RESOLUTION_BUTTON' => 'Lösung:',
     'LBL_SUGGESTION_BOX_STATUS' => 'Status',
-    'LBL_SUGGESTION_BOX_TITLE' => 'Titel',
+    'LBL_SUGGESTION_BOX_TITLE' => 'Stellenbezeichnung',
     'LBL_SUGGESTION_BOX_REL' => 'Relevanz',
 
-    'LBL_ACCOUNT_ID' => 'Firma ID',
+    'LBL_ACCOUNT_ID' => 'Firmen ID',
     'LBL_ACCOUNT_NAME' => 'Firmenname:',
     'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Firmen',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktivitäten',
     'LBL_BUGS_SUBPANEL_TITLE' => 'Fehler',
     'LBL_CASE_NUMBER' => 'Fallnummer:',
     'LBL_CASE' => 'Fall:',
-    'LBL_CONTACT_NAME' => 'Ansprechpartner:',
+    'LBL_CONTACT_NAME' => 'Kontaktname:',
     'LBL_CONTACT_ROLE' => 'Rolle:',
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Kontakte',
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Fälle',
@@ -75,22 +75,22 @@ $mod_strings = array(
     'LBL_MODULE_TITLE' => 'Fälle: Startseite',
     'LBL_NEW_FORM_TITLE' => 'Neue Anfrage',
     'LBL_NUMBER' => 'Nummer:',
-    'LBL_PRIORITY' => 'Priorität:',
+    'LBL_PRIORITY' => 'Priority:',
     'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projekte',
     'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Dokumente',
-    'LBL_RESOLUTION' => 'Lösung:',
+    'LBL_RESOLUTION' => 'Resolution:',
     'LBL_SEARCH_FORM_TITLE' => 'Fälle suchen',
-    'LBL_STATUS' => 'Status',
-    'LBL_SUBJECT' => 'Betreff:',
+    'LBL_STATUS' => 'Status:',
+    'LBL_SUBJECT' => 'Subject:',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Zugewiesener Benutzer',
     'LBL_LIST_ACCOUNT_NAME' => 'Firmenname',
     'LBL_LIST_ASSIGNED' => 'Zugewiesen an',
-    'LBL_LIST_CLOSE' => 'Beenden',
+    'LBL_LIST_CLOSE' => 'Schliessen',
     'LBL_LIST_FORM_TITLE' => 'Fälle Liste',
-    'LBL_LIST_LAST_MODIFIED' => 'Zuletzt bearbeitet am',
+    'LBL_LIST_LAST_MODIFIED' => 'Änderungsdatum',
     'LBL_LIST_MY_CASES' => 'Meine offenen Fälle',
     'LBL_LIST_NUMBER' => 'Nr.',
-    'LBL_LIST_PRIORITY' => 'Priorität',
+    'LBL_LIST_PRIORITY' => 'Priority',
     'LBL_LIST_STATUS' => 'Status',
     'LBL_LIST_SUBJECT' => 'Betreff',
 
@@ -102,14 +102,14 @@ $mod_strings = array(
     'LBL_WORK_LOG' => 'Arbeitsprotokoll',
     'LNK_IMPORT_CASES' => 'Fälle importieren',
 
-    'LBL_CREATED_USER' => 'Erstellter Benutzer',
-    'LBL_MODIFIED_USER' => 'Geänderter Benutzer',
+    'LBL_CREATED_USER' => 'Created User',
+    'LBL_MODIFIED_USER' => 'Modified User',
     'LBL_PROJECT_SUBPANEL_TITLE' => 'Projekte',
-    'LBL_CASE_INFORMATION' => 'Firmeninformation', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_CASE_INFORMATION' => 'Überblick', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
     // SNIP
     'LBL_UPDATE_TEXT' => 'Aktualisieren von Text', //Field for Case updates with text only
-    'LBL_INTERNAL' => 'Internes Update',
+    'LBL_INTERNAL' => 'Internal Update',
     'LBL_AOP_CASE_UPDATES' => 'Fall Updates',
     'LBL_AOP_CASE_UPDATES_THREADED' => 'Konversationen zu Fall Aktualisierungen',
     'LBL_CASE_UPDATES_COLLAPSE_ALL' => 'Alle zuklappen',
@@ -125,7 +125,7 @@ $mod_strings = array(
     'LBL_SELECT_INTERNAL_CASE_DOCUMENT' => 'Internes CRM-Dokument',
     'LBL_SELECT_EXTERNAL_CASE_DOCUMENT' => 'Externe Datei',
     'LBL_CONTACT_CREATED_BY_NAME' => 'Erstellt von Kontakt',
-    'LBL_CONTACT_CREATED_BY' => 'Erstellt von',
+    'LBL_CONTACT_CREATED_BY' => 'Created by',
     'LBL_CASE_UPDATE_FORM' => 'Anhang-Formular aktualisieren', //Form for attachments on case updates
     'LBL_UNKNOWN_CONTACT' => 'Unbekannter Kontakt',
 );
