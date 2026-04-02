@@ -49,5 +49,5 @@ $mod_strings = array(
     'LBL_CREATED_BY' => 'Modifié Par',
     'LBL_LIST_DATE' => 'Date Modification',
     'LBL_AUDITED_FIELDS' => 'Champs audités dans ce module: ',
-    'LBL_CHANGE_LOG' => 'Journal Modifications',
+    'LBL_CHANGE_LOG' => 'Description des modifications:',
 );
