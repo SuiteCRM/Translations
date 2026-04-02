@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'کیا آپ واقعی یہ ریکارڈ ختم کرنا چاہتے ہیں؟',
 
     'LBL_EDIT_BUTTON' => 'ترمیم کیجئے  ',
-    'LBL_REMOVE' => 'ختم کر دیں',
+    'LBL_REMOVE' => 'نکال دیں',
 
 );
