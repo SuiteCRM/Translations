@@ -58,7 +58,7 @@ $mod_strings = array(
     'LBL_LEAD_SOURCE_BY_OUTCOME' => 'Lahat ng mga Oportunidad sa Lead Source ng outcome',
     'LBL_LEAD_SOURCE_FORM_DESC' => 'Ipinapakita ang mga halaga ng cumulative na pagkakataon sa pamamagitan ng piniling lead source para sa mga napiling gumagamit.',
     'LBL_LEAD_SOURCE_FORM_TITLE' => 'Lahat ng Mapaggagamitan ng Pinagmumulan ng Lead',
-    'LBL_LEAD_SOURCE_OTHER' => 'Iba pa',
+    'LBL_LEAD_SOURCE_OTHER' => 'At iba pa',
     'LBL_LEAD_SOURCES' => 'Lead Sources:',
     'LBL_MODULE_NAME' => 'Dashboard',
     'LBL_MODULE_TITLE' => 'Dashboard: Home',
@@ -81,7 +81,7 @@ $mod_strings = array(
     'LBL_YEAR_BY_OUTCOME' => 'Pipeline ayon sa buwan ayon sa outcome',
     'LBL_YEAR' => 'Taon:',
     'LNK_NEW_ACCOUNT' => 'Gumawa ng Account',
-    'LNK_NEW_CALL' => 'Log Call',
+    'LNK_NEW_CALL' => 'Log ng Tawag',
     'LNK_NEW_CASE' => 'Lumikha ng kaso',
     'LNK_NEW_CONTACT' => 'Gumawa ng kontak',
     'LNK_NEW_LEAD' => 'Lumikha ng lead',
@@ -91,7 +91,7 @@ $mod_strings = array(
     'LNK_NEW_TASK' => 'Gumawa ng gawain',
     'NTC_NO_LEGENDS' => 'Wala',
 
-    'LBL_TITLE' => 'Pamagat: ',
+    'LBL_TITLE' => 'Pamagat:',
     'LBL_MY_MODULES_USED_SIZE' => 'Na count ang Access',
 
     'LBL_CHART_PIPELINE_BY_SALES_STAGE' => 'Pipeline by Sales Stage',
