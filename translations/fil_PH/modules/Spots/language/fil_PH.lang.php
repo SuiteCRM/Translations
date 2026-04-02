@@ -45,21 +45,21 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_ASSIGNED_TO_ID' => 'Magtalaga ng Id para sa gumagamit',
     'LBL_ASSIGNED_TO_NAME' => 'Itinatalaga sa',
-    'LBL_SECURITYGROUPS' => 'Grupo ng mga seguridad',
+    'LBL_SECURITYGROUPS' => 'Grupo ng mga seguriidad',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Grupo ng mga seguridad',
     'LBL_ID' => 'Ang ID',
     'LBL_DATE_ENTERED' => 'Ang petsa ng pagkakalikha',
-    'LBL_DATE_MODIFIED' => 'Ang petsa ng pagkabago',
+    'LBL_DATE_MODIFIED' => 'Ang petsa ng pagbago',
     'LBL_MODIFIED' => 'Binago ni',
     'LBL_MODIFIED_NAME' => 'Ito ay ibinago sa pamamagitan ng pangalan',
     'LBL_CREATED' => 'Ito ay nalikha sa pamamagitan ng',
-    'LBL_DESCRIPTION' => 'Paglalarawan',
+    'LBL_DESCRIPTION' => 'Ang deskripsyon',
     'LBL_DELETED' => 'Ang pagkabura',
-    'LBL_NAME' => 'Ang Pangalan',
+    'LBL_NAME' => 'Ang pangalan',
     'LBL_CREATED_USER' => 'Inilikha ng tagagamit',
     'LBL_MODIFIED_USER' => 'Binago sa pamamagitan ng tagagamit',
-    'LBL_LIST_NAME' => 'Ang Pangalan',
-    'LBL_EDIT_BUTTON' => 'I-edit',
+    'LBL_LIST_NAME' => 'Ang pangalan',
+    'LBL_EDIT_BUTTON' => 'Ang i-edit',
     'LBL_REMOVE' => 'Tanggalin',
     'LBL_LIST_FORM_TITLE' => 'Listahan ng pivot',
     'LBL_MODULE_NAME' => 'Ang pivot',
@@ -82,16 +82,16 @@ $mod_strings = array(
     'LBL_AN_UNSUPPORTED_DB' => 'Paumanhin, ang Suite Spot ay kasalukuyang na -configure para sa MuSQL at MS SQL lamang',
 
     //Analytics labels for accounts pivot
-    'LBL_AN_ACCOUNTS_ACCOUNT_NAME' => 'Ang Pangalan',
+    'LBL_AN_ACCOUNTS_ACCOUNT_NAME' => 'Ang pangalan',
     'LBL_AN_ACCOUNTS_ACCOUNT_TYPE' => 'Uri ng akwant',
     'LBL_AN_ACCOUNTS_ACCOUNT_INDUSTRY' => 'Industriya',
     'LBL_AN_ACCOUNTS_ACCOUNT_BILLING_COUNTRY' => 'Bansa ng pagsingil',
 
     //Analytics labels for leads pivot
     'LBL_AN_LEADS_ASSIGNED_USER' => 'Itinalaga sa gumagamit',
-    'LBL_AN_LEADS_STATUS' => 'Ang Katayuan',
+    'LBL_AN_LEADS_STATUS' => 'Katayuan',
     'LBL_AN_LEADS_LEAD_SOURCE' => 'Pinagmulan ng lead',
-    'LBL_AN_LEADS_CAMPAIGN_NAME' => 'Pangalan ng Kampanya',
+    'LBL_AN_LEADS_CAMPAIGN_NAME' => 'Pangalan ng kampanya',
     'LBL_AN_LEADS_YEAR' => 'Taon',
     'LBL_AN_LEADS_QUARTER' => 'Quarter',
     'LBL_AN_LEADS_MONTH' => 'Buwan',
@@ -118,7 +118,7 @@ $mod_strings = array(
     //Analytics labels for service pivot
     'LBL_AN_SERVICE_ACCOUNT_NAME' => 'Pangalan ng Akwant',
     'LBL_AN_SERVICE_STATE' => 'Estado',
-    'LBL_AN_SERVICE_STATUS' => 'Ang Katayuan',
+    'LBL_AN_SERVICE_STATUS' => 'Katayuan',
     'LBL_AN_SERVICE_PRIORITY' => 'Prayoridad',
     'LBL_AN_SERVICE_CREATED_DAY' => 'Araw na nilikha',
     'LBL_AN_SERVICE_CREATED_WEEK' => 'Linggong pagkalikha',
@@ -129,14 +129,14 @@ $mod_strings = array(
     'LBL_AN_SERVICE_ASSIGNED_TO' => 'Itinalaga sa gumagamit',
 
     //Analytics labels for the activities pivot
-    'LBL_AN_ACTIVITIES_TYPE' => 'Ang Uri',
-    'LBL_AN_ACTIVITIES_NAME' => 'Ang Pangalan',
-    'LBL_AN_ACTIVITIES_STATUS' => 'Ang Katayuan',
+    'LBL_AN_ACTIVITIES_TYPE' => 'Uri',
+    'LBL_AN_ACTIVITIES_NAME' => 'Ang pangalan',
+    'LBL_AN_ACTIVITIES_STATUS' => 'Katayuan',
     'LBL_AN_ACTIVITIES_ASSIGNED_TO' => 'Itinalaga sa gumagamit',
 
     //Analytics labels for the marketing pivot
-    'LBL_AN_MARKETING_STATUS' => 'Ang Katayuan',
-    'LBL_AN_MARKETING_TYPE' => 'Ang Uri',
+    'LBL_AN_MARKETING_STATUS' => 'Katayuan',
+    'LBL_AN_MARKETING_TYPE' => 'Uri',
     'LBL_AN_MARKETING_BUDGET' => 'Badyet',
     'LBL_AN_MARKETING_EXPECTED_COST' => 'Inaasahang gastos',
     'LBL_AN_MARKETING_EXPECTED_REVENUE' => 'Ang kita na inaasahan',
@@ -147,7 +147,7 @@ $mod_strings = array(
     'LBL_AN_MARKETING_ACCOUNT_NAME' => 'Pangalan ng Akwant',
 
     //Analytics labels for the marketing activities pivot
-    'LBL_AN_MARKETINGACTIVITY_CAMPAIGN_NAME' => 'Pangalan ng Kampanya',
+    'LBL_AN_MARKETINGACTIVITY_CAMPAIGN_NAME' => 'Pangalan ng kampanya',
     'LBL_AN_MARKETINGACTIVITY_ACTIVITY_DATE' => 'Ppetsa ng aktibidad',
     'LBL_AN_MARKETINGACTIVITY_ACTIVITY_TYPE' => 'Uri ng aktibidad',
     'LBL_AN_MARKETINGACTIVITY_RELATED_TYPE' => 'Uri ng nauugnay',
