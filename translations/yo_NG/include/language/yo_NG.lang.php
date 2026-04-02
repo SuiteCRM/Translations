@@ -396,7 +396,7 @@ $app_list_strings = array(
     'project_task_priority_options' => array(
         'High' => 'Giga',
         'Medium' => 'Aarin',
-        'Low' => 'Kekere',
+        'Low' => 'Low',
     ),
     'project_task_priority_default' => 'Aarin',
 
@@ -2035,7 +2035,7 @@ Nikan adirẹsi Adirẹsi ni ao lo nigbati o ba n ṣiṣẹ pẹlu Awọn oluba
 
     //Collection Field
     'LBL_COLLECTION_NAME' => 'Oruko',
-    'LBL_COLLECTION_PRIMARY' => 'Akoko',
+    'LBL_COLLECTION_PRIMARY' => 'Akọbẹrẹ',
     'ERROR_MISSING_COLLECTION_SELECTION' => 'Empty required field',
 
     //MB -Fixed Bug #32812 -Max
