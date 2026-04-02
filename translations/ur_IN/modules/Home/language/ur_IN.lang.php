@@ -209,7 +209,7 @@ $mod_strings = array(
     'LBL_CLOSE_BUTTON' => 'بند کیجیے',
 
     'LBL_CREATE_NEW_RECORD' => 'Create Activity',
-    'LBL_CREATE_CALL' => 'لاگ ان کال',
+    'LBL_CREATE_CALL' => 'لاگ کال',
     'LBL_CREATE_MEETING' => 'تَرتيب کار اجلاس',
 
     'LBL_GENERAL_TAB' => 'تفصیلات',
