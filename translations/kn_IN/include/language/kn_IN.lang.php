@@ -140,7 +140,7 @@ $app_list_strings = array(
         'Documents' => 'ದಾಸ್ತವೇಜು',
         'Sync' => 'ಸಿಂಕ್ ಮಾಡಿ',
         'Users' => 'ಬಳಕೆದಾರ',
-        'SugarFavorites' => 'ಸೂಟ್ ಸಿ ಆರ್ ಎಂ ಮೆಚ್ಚಿನವುಗಳು',
+        'SugarFavorites' => 'SuiteCRM ಮೆಚ್ಚಿನವುಗಳು',
 
     ),
 
@@ -396,14 +396,14 @@ $app_list_strings = array(
     'project_task_priority_options' => array(
         'High' => 'ಹೆಚ್ಚು',
         'Medium' => 'ಮಧ್ಯಮ',
-        'Low' => 'ಕಡಿಮೆ',
+        'Low' => 'Low',
     ),
     'project_task_priority_default' => 'ಮಾಧ್ಯಮ',
 
     'project_task_status_options' => array(
         'Not Started' => 'ಪ್ರಾರಂಭಿಸಲಾಗಿಲ್ಲ',
         'In Progress' => 'ಪ್ರಗತಿಯಲ್ಲಿದೆ',
-        'Completed' => 'ಪೂರ್ಣಗೊಂಡಿದೆ',
+        'Completed' => 'ಮುಗಿಯಿತು',
         'Pending Input' => 'ಇನ್ಪುಟ್ ಬಾಕಿಯಿದೆ',
         'Deferred' => 'ಮುಂದೂಡಲಾಗಿದೆ',
     ),
@@ -792,15 +792,15 @@ $app_list_strings = array(
         2 => 'You must assign Only Checked Items when Direct Assigning items.',
     ),
     'dom_email_bool' => array(
-        'bool_true' => 'ಹೌದು',
+        'bool_true' => 'Yes',
         'bool_false' => 'ಇಲ್ಲ',
     ),
     'dom_int_bool' => array(
-        1 => 'ಹೌದು',
+        1 => 'Yes',
         0 => 'ಇಲ್ಲ',
     ),
     'dom_switch_bool' => array(
-        'on' => 'ಹೌದು',
+        'on' => 'Yes',
         'off' => 'ಇಲ್ಲ',
         '' => 'ಇಲ್ಲ',
     ),
@@ -974,7 +974,7 @@ $app_list_strings = array(
     ),
 
     'custom_fields_importable_dom' => array(
-        'true' => 'ಹೌದು',
+        'true' => 'Yes',
         'false' => 'ಇಲ್ಲ',
         'required' => 'Required',
     ),
@@ -1449,7 +1449,7 @@ $app_strings = array(
     'LBL_EMAIL_VIEW_RAW' => 'Display Raw Email',
     'LBL_EMAIL_VIEW_UNSUPPORTED' => 'This feature is unsupported when used with POP3.',
     'LBL_DEFAULT_LINK_TEXT' => 'Default link text.',
-    'LBL_EMAIL_YES' => 'ಹೌದು',
+    'LBL_EMAIL_YES' => 'Yes',
     'LBL_EMAIL_TEST_OUTBOUND_SETTINGS' => 'Send Test Email',
     'LBL_EMAIL_TEST_OUTBOUND_SETTINGS_SENT' => 'Test Email Sent',
     'LBL_EMAIL_MESSAGE_NO' => 'Message No',
@@ -1537,7 +1537,7 @@ $app_strings = array(
     'LBL_COMPOSE_EMAIL_BUTTON_KEY' => 'L',
     'LBL_COMPOSE_EMAIL_BUTTON_LABEL' => 'Compose Email',
     'LBL_COMPOSE_EMAIL_BUTTON_TITLE' => 'Compose Email',
-    'LBL_SEARCH_DROPDOWN_YES' => 'ಹೌದು',
+    'LBL_SEARCH_DROPDOWN_YES' => 'Yes',
     'LBL_SEARCH_DROPDOWN_NO' => 'ಇಲ್ಲ',
     'LBL_CONTACT_LIST' => 'Contact List',
     'LBL_CONTACT' => 'ಸಂಪರ್ಕ',
