@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_SALUTATION' => 'Salutation',
-    'LBL_NAME' => 'Ang Pangalan',
+    'LBL_NAME' => 'Ang pangalan',
     'LBL_FIRST_NAME' => 'Unang pangalan',
     'LBL_LAST_NAME' => 'Huling pangalan',
     'LBL_TITLE' => 'Paksa',
@@ -90,7 +90,7 @@ $mod_strings = array(
     'LBL_ANY_EMAIL' => 'Anumang email',
     'LBL_EMAIL_NON_PRIMARY' => 'Di-pangunahing E-mail',
     'LBL_PHOTO' => 'Larawan',
-    'LBL_EDIT_BUTTON' => 'I-edit',
+    'LBL_EDIT_BUTTON' => 'Ang i-edit',
     'LBL_REMOVE' => 'Tanggalin',
 
     //Lawful Basis labels
