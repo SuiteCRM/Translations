@@ -46,7 +46,7 @@ $mod_strings = array(
 
     'LBL_NAME' => 'Name',
     'LBL_NUMBER' => 'Nummer:',
-    'LBL_STATUS' => 'Status',
+    'LBL_STATUS' => 'Status:',
     'LBL_PRIORITY' => 'Priorität:',
     'LBL_DESCRIPTION' => 'Beschreibung:',
     'LBL_RESOLUTION' => 'Lösung:',
@@ -55,11 +55,11 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Benutzer:',
     'LBL_WORK_LOG' => 'Arbeitsprotokoll:',
     'LBL_CREATED_BY' => 'Erstellt von:',
-    'LBL_DATE_ENTERED' => 'Angelegt am:',
+    'LBL_DATE_ENTERED' => 'Erstellt:',
     'LBL_DATE_MODIFIED' => 'Letzte Änderung:',
     'LBL_MODIFIED_BY' => 'Zuletzt geändert von:',
     'LBL_ASSIGNED_USER' => 'Zugewiesener Benutzer:',
-    'LBL_TYPE' => 'Typ:',
+    'LBL_TYPE' => 'Type:',
     'LBL_SUBJECT' => 'Betreff:',
 
     'LBL_EDIT_BUTTON' => 'Bearbeiten',
