@@ -52,7 +52,7 @@ $mod_strings = array(
     //vardef labels
     'LBL_NAME' => 'Nom Document',
     'LBL_DESCRIPTION' => 'Description:',
-    'LBL_ASSIGNED_TO' => 'Assigné à:',
+    'LBL_ASSIGNED_TO' => 'Assigné à :',
     'LBL_CATEGORY' => 'Catégorie',
     'LBL_SUBCATEGORY' => 'Sous Catégorie',
     'LBL_STATUS' => 'Statut',
@@ -87,31 +87,31 @@ $mod_strings = array(
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'Liste Document',
     'LBL_LIST_DOCUMENT' => 'Document',
-    'LBL_LIST_CATEGORY' => 'Catégorie',
-    'LBL_LIST_SUBCATEGORY' => 'Sous Catégorie',
+    'LBL_LIST_CATEGORY' => 'Category',
+    'LBL_LIST_SUBCATEGORY' => 'Sub Category',
     'LBL_LIST_REVISION' => 'Révision',
     'LBL_LIST_LAST_REV_CREATOR' => 'Publié par',
     'LBL_LIST_LAST_REV_DATE' => 'Date Version',
     'LBL_LIST_VIEW_DOCUMENT' => 'Vue',
     'LBL_LIST_ACTIVE_DATE' => 'Date Publication',
     'LBL_LIST_EXP_DATE' => 'Date Expiration',
-    'LBL_LIST_STATUS' => 'Statut',
+    'LBL_LIST_STATUS' => 'Status',
 
     //document search form.
     'LBL_SF_CATEGORY' => 'Catégorie:',
-    'LBL_SF_SUBCATEGORY' => 'Sous Catégorie:',
+    'LBL_SF_SUBCATEGORY' => 'Sub Category:',
 
     'DEF_CREATE_LOG' => 'Document créé',
 
     //error messages
-    'ERR_DOC_NAME' => 'Nom Document',
+    'ERR_DOC_NAME' => 'Nom du document',
     'ERR_DOC_ACTIVE_DATE' => 'Date Publication',
     'ERR_FILENAME' => 'Nom Fichier',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'Nom Document',
+    'LBL_LIST_DOCUMENT_NAME' => 'Nom du document',
 
     'LBL_EDIT_BUTTON' => 'Modifier',
-    'LBL_REMOVE' => 'Retirer',
+    'LBL_REMOVE' => 'Supprimer',
 
 );
