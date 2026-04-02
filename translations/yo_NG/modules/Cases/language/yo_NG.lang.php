@@ -105,7 +105,7 @@ $mod_strings = array(
     'LBL_CREATED_USER' => 'Seda awon Onilo',
     'LBL_MODIFIED_USER' => 'Atunse nipa se onilo',
     'LBL_PROJECT_SUBPANEL_TITLE' => 'Awon Ise agbese',
-    'LBL_CASE_INFORMATION' => 'Isonisoki', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_CASE_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
     // SNIP
     'LBL_UPDATE_TEXT' => 'Updates - Text', //Field for Case updates with text only
