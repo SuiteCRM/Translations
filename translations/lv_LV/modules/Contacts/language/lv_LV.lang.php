@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'ERR_DELETE_RECORD' => 'Lai dzēstu kontaktpersonu, norādiet ieraksta numuru.',
     'LBL_ACCOUNT_ID' => 'Uzņēmuma ID:',
-    'LBL_ACCOUNT_NAME' => 'Account Name:',
+    'LBL_ACCOUNT_NAME' => 'Uzņēmuma nosaukums:',
     'LBL_CAMPAIGN' => 'Campaign:',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_ADDRESS_INFORMATION' => 'Address Information',
