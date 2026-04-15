@@ -52,17 +52,17 @@ $mod_strings = array(
     'LBL_RESOLUTION' => 'Oplossing',
     'LBL_LAST_MODIFIED' => 'Laatste wijziging',
     'LBL_ASSIGNED_TO_ID' => 'Toegewezen aan:',
-    'LBL_ASSIGNED_TO_NAME' => 'User:',
+    'LBL_ASSIGNED_TO_NAME' => 'Gebruiker:',
     'LBL_WORK_LOG' => 'Logbestand',
     'LBL_CREATED_BY' => 'Aangemaakt door:',
-    'LBL_DATE_ENTERED' => 'Date Created:',
+    'LBL_DATE_ENTERED' => 'Aanmaakdatum:',
     'LBL_DATE_MODIFIED' => 'Datum gewijzigd:',
     'LBL_MODIFIED_BY' => 'Laatste wijziging door:',
     'LBL_ASSIGNED_USER' => 'Toegewezen gebruiker:',
     'LBL_TYPE' => 'Type:',
     'LBL_SUBJECT' => 'Onderwerp:',
 
-    'LBL_EDIT_BUTTON' => 'Edit',
-    'LBL_REMOVE' => 'Remove',
+    'LBL_EDIT_BUTTON' => 'Bewerken',
+    'LBL_REMOVE' => 'Verwijderen',
 
 );
