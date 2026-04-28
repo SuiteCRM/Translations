@@ -33,14 +33,14 @@ $mod_strings = [
     // System fields
     'LBL_ASSIGNED_TO_ID' => 'Toegewezen gebruiker-Id',
     'LBL_ASSIGNED_TO_NAME' => 'Toegewezen aan',
-    'LBL_DATE_ENTERED' => 'Date Created',
+    'LBL_DATE_ENTERED' => 'Aangemaakt op',
     'LBL_DATE_MODIFIED' => 'Datum gewijzigd',
     'LBL_MODIFIED' => 'Gewijzigd door',
     'LBL_MODIFIED_NAME' => 'Gewijzigd door naam',
     'LBL_CREATED' => 'Aangemaakt door',
     'LBL_CREATED_USER' => 'Aangemaakt door gebruiker',
-    'LBL_MODIFIED_USER' => 'Modified by User',
-    'LBL_DESCRIPTION' => 'Description',
+    'LBL_MODIFIED_USER' => 'Gewijzigd door gebruiker',
+    'LBL_DESCRIPTION' => 'Omschrijving',
     'LBL_DELETED' => 'Verwijderd',
 
     // Security groups
@@ -49,9 +49,9 @@ $mod_strings = [
 
     // List view labels
     'LBL_LIST_NAME' => 'Naam',
-    'LBL_LIST_DELETE' => 'Delete',
-    'LBL_EDIT_BUTTON' => 'Edit',
-    'LBL_REMOVE' => 'Remove',
+    'LBL_LIST_DELETE' => 'Verwijderen',
+    'LBL_EDIT_BUTTON' => 'Bewerken',
+    'LBL_REMOVE' => 'Verwijderen',
     'LBL_ASCENDING' => 'Oplopend',
     'LBL_DESCENDING' => 'Aflopend',
 
@@ -63,7 +63,7 @@ $mod_strings = [
 
     // Subpanel titles
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Bekijk geschiedenis',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activiteiten',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Kalender Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Gesynchroniseerde vergaderingen',
 
@@ -101,8 +101,8 @@ $mod_strings = [
     'LBL_CONNECT_OAUTH' => 'Verbind OAuth',
 
     // Basic Auth Fields
-    'LBL_USERNAME' => 'Username',
-    'LBL_PASSWORD' => 'Password',
+    'LBL_USERNAME' => 'Gebruiker',
+    'LBL_PASSWORD' => 'Wachtwoord',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test verbinding',
 
@@ -163,11 +163,11 @@ $mod_strings = [
 
     // Connection test messages
     'LBL_CALENDAR' => 'Agenda',
-    'LBL_SUCCESSFUL' => 'Successful',
-    'LBL_FAILED' => 'Failed',
+    'LBL_SUCCESSFUL' => 'Geslaagd',
+    'LBL_FAILED' => 'Mislukt',
     'LBL_CONNECTION_TEST' => 'Verbinding Test',
-    'LBL_YES' => 'Yes',
-    'LBL_NO' => 'No',
+    'LBL_YES' => 'Ja',
+    'LBL_NO' => 'Nee',
     'LBL_FOUND_CALENDARS' => 'Gevonden {count} kalenders.',
     'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'Er is een fout opgetreden tijdens het verwerken van de verbinding test reactie. Controleer de logs voor meer informatie.',
     'LBL_CONNECTION_TEST_HTTP_ERROR' => 'Verbindingstest mislukt met HTTP-status',
@@ -182,12 +182,12 @@ $mod_strings = [
 
     // Dialog labels
     'LBL_NOTIFICATION' => 'Notificatie',
-    'LBL_CONFIRM' => 'Confirm',
+    'LBL_CONFIRM' => 'Bevestig',
     'LBL_ARE_YOU_SURE' => 'Weet u het zeker?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => 'In Progress',
-    'LBL_SYNC_STATUS_SUCCESS' => 'Success',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => 'In behandeling',
+    'LBL_SYNC_STATUS_SUCCESS' => 'Gelukt',
     'LBL_SYNC_STATUS_WARNING' => 'Waarschuwing',
     'LBL_SYNC_STATUS_ERROR' => 'Foutmelding',
 
@@ -202,5 +202,5 @@ $mod_strings = [
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Kalender niet gevonden.',
 
     // Relationship labels
-    'LBL_MEETINGS' => 'Meetings',
+    'LBL_MEETINGS' => 'Vergaderingen',
 ];
