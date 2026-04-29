@@ -57,7 +57,7 @@ $mod_strings = array(
     'LBL_CREATE_ROLE' => 'Nieuwe rol',
     'LBL_EDIT_VIEW_DIRECTIONS' => 'Dubbelklik op een cel om de waarde te wijzigen',
     'LBL_ACCESS_DEFAULT' => 'Niet ingesteld',
-    'LBL_ACTION_ADMIN' => 'Toegang-type',
+    'LBL_ACTION_ADMIN' => 'Toegangstype',
     'LBL_ALL' => 'Alle',
     'LBL_DUPLICATE_OF' => 'Duplicaat van ',
 
