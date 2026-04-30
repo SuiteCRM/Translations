@@ -43,26 +43,26 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Activities',
+    'LBL_MODULE_NAME' => 'Atividades',
     'LBL_MODULE_TITLE' => 'Atividades: Entrada',
     'LBL_SEARCH_FORM_TITLE' => 'Pesquisar atividades',
     'LBL_LIST_FORM_TITLE' => 'Lista de atividades',
-    'LBL_LIST_SUBJECT' => 'Subject',
-    'LBL_OVERVIEW' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_LIST_SUBJECT' => 'Assunto',
+    'LBL_OVERVIEW' => 'Visão geral', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_TASKS' => 'Tarefas', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_MEETINGS' => 'Reuniões', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_CALLS' => 'Telefonemas', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_EMAILS' => 'Emails', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_NOTES' => 'Notas', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_PRINT' => 'Imprimir', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
-    'LBL_MEETING_TYPE' => 'Meeting',
-    'LBL_CALL_TYPE' => 'Call',
+    'LBL_MEETING_TYPE' => 'Reunião',
+    'LBL_CALL_TYPE' => 'Chamada',
     'LBL_EMAIL_TYPE' => 'Email',
-    'LBL_NOTE_TYPE' => 'Note',
+    'LBL_NOTE_TYPE' => 'Nota',
     'LBL_DATA_TYPE_START' => 'Início:',
     'LBL_DATA_TYPE_SENT' => 'Enviado:',
     'LBL_DATA_TYPE_MODIFIED' => 'Alterado:',
-    'LBL_LIST_CONTACT' => 'Contact',
+    'LBL_LIST_CONTACT' => 'Contacto',
     'LBL_LIST_RELATED_TO' => 'Related to',
     'LBL_LIST_DATE' => 'Date',
     'LBL_LIST_CLOSE' => 'Fechar',
