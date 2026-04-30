@@ -49,15 +49,15 @@ $mod_strings = array(
     'LBL_DELETE_CONFIRM' => 'Er du sikker på at du vil slette det valgte lagrede filteret?',
     'LBL_DELETE_BUTTON_TITLE' => 'Slette denne lagrede Filteret',
     'LBL_SAVE_BUTTON_TITLE' => 'Lagre gjeldende filter',
-    'LBL_LIST_NAME' => 'Navn',
-    'LBL_LIST_MODULE' => 'Modul',
+    'LBL_LIST_NAME' => 'Name',
+    'LBL_LIST_MODULE' => 'Module',
     'LBL_ORDER_BY_COLUMNS' => 'Order by column:',
-    'LBL_DIRECTION' => 'Sorter:',
+    'LBL_DIRECTION' => 'Direction:',
     'LBL_SAVE_SEARCH_AS' => 'Lagre filter som:',
-    'LBL_ASCENDING' => 'Stigende',
-    'LBL_DESCENDING' => 'Fallende',
-    'LBL_MODIFY_CURRENT_FILTER' => 'Endre gjeldende filter',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
-    'LBL_CREATED_BY' => 'Opprettet av',
+    'LBL_CREATED_BY' => 'Created By',
 
 );
