@@ -1,0 +1,159 @@
+<?php
+/**
+ *
+ * SugarCRM Community Edition is a customer relationship management program developed by
+ * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
+ *
+ * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
+ * Copyright (C) 2011 - 2019 SalesAgility Ltd.
+ *
+ * This program is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU Affero General Public License version 3 as published by the
+ * Free Software Foundation with the addition of the following permission added
+ * to Section 15 as permitted in Section 7(a): FOR ANY PART OF THE COVERED WORK
+ * IN WHICH THE COPYRIGHT IS OWNED BY SUGARCRM, SUGARCRM DISCLAIMS THE WARRANTY
+ * OF NON INFRINGEMENT OF THIRD PARTY RIGHTS.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with
+ * this program; if not, see http://www.gnu.org/licenses or write to the Free
+ * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301 USA.
+ *
+ * You can contact SugarCRM, Inc. headquarters at 10050 North Wolfe Road,
+ * SW2-130, Cupertino, CA 95014, USA. or at email address contact@sugarcrm.com.
+ *
+ * The interactive user interfaces in modified source and object code versions
+ * of this program must display Appropriate Legal Notices, as required under
+ * Section 5 of the GNU Affero General Public License version 3.
+ *
+ * In accordance with Section 7(b) of the GNU Affero General Public License version 3,
+ * these Appropriate Legal Notices must retain the display of the "Powered by
+ * SugarCRM" logo and "Supercharged by SuiteCRM" logo. If the display of the logos is not
+ * reasonably feasible for technical reasons, the Appropriate Legal Notices must
+ * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
+ */
+
+if (!defined('sugarEntry') || !sugarEntry) {
+    die('Not A Valid Entry Point');
+}
+
+$mod_strings = array(
+    'LBL_SEND_DATE_TIME' => 'Дата отправки',
+    'LBL_SEND_ON' => 'Send On',
+    'LBL_IN_QUEUE' => 'In Process',
+    'LBL_IN_QUEUE_DATE' => 'Дата постановки в очередь',
+
+    'ERR_INT_ONLY_EMAIL_PER_RUN' => 'Используйте только целое значение для указания числа писем при пакетной рассылке',
+
+    'LBL_ATTACHMENT_AUDIT' => ' было отправлено. Оно не было продублировано локально для экономии дискового пространства.',
+    'LBL_CONFIGURE_SETTINGS' => 'Настройка параметров E-mail',
+    'LBL_CUSTOM_LOCATION' => 'Задаётся вручную',
+    'LBL_DEFAULT_LOCATION' => 'Стандартная',
+
+    'LBL_EMAIL_DEFAULT_DELETE_ATTACHMENTS' => 'Удалять связанные с удалёнными письмами примечания и вложения',
+    'LBL_EMAIL_WARNING_NOTIFICATIONS' => 'Уведомления по электронной почте',
+    'LBL_EMAIL_ENABLE_CONFIRM_OPT_IN' => 'Настройки подтверждений через эл. почту',
+    'LBL_EMAIL_ENABLE_SEND_OPT_IN' => 'Автоматически отправлять подтверждающее письмо',
+    'LBL_EMAIL_CONFIRM_OPT_IN_TEMPLATE_ID' => 'Шаблон письма подтверждения выбора',
+    'LBL_DRAFTS_POPUP' => 'Enable Drafts Popup',
+    'LBL_LEGACY_EMAIL_COMPOSE_BEHAVIOR' => 'Включить поведение на основе старой электронной почты',
+    'LBL_EMAIL_OUTBOUND_CONFIGURATION' => 'Параметры сервера исходящей почты',
+    'LBL_EMAILS_PER_RUN' => 'Number of emails processed/sent per batch:',
+    'LBL_CAMPAIGN_MAX_RETRIES' => 'Maximum send retries per recipient on failure:',
+    'LBL_CAMPAIGN_THRESHOLD' => 'Error threshold per batch (campaign pauses when reached, 0 to disable):',
+    'LBL_CAMPAIGN_MARKETING_RECORDS_PER_RUN' => 'Number of emails marketing records to process per run:',
+    'LBL_TRACKERS_ENABLED' => 'Trackers enabled:',
+    'LBL_TRACKER_LINKS_ENABLED' => 'Tracker Links Enabled',
+    'LBL_ID' => 'Id',
+    'LBL_LIST_CAMPAIGN' => 'Промоакция',
+    'LBL_LIST_FORM_TITLE' => 'Список',
+    'LBL_LIST_FROM_NAME' => 'Имя',
+    'LBL_LIST_IN_QUEUE' => 'In Process',
+    'LBL_LIST_MESSAGE_NAME' => 'Сообщение рассылки',
+    'LBL_LIST_RECIPIENT_EMAIL' => 'E-mail получателя',
+    'LBL_LIST_RECIPIENT_NAME' => 'Recipient Name',
+    'LBL_LIST_SEND_ATTEMPTS' => 'Попытки отправки',
+    'LBL_LIST_SEND_DATE_TIME' => 'Отправить',
+    'LBL_LIST_USER_NAME' => 'Логин',
+    'LBL_LOCATION_ONLY' => 'Место',
+    'LBL_LOCATION_TRACK' => 'Расположение файла трекера маркетинговых кампаний',
+    'LBL_CAMP_MESSAGE_COPY' => 'Keep copies of campaign messages:',
+    'LBL_CAMP_MESSAGE_COPY_DESC' => 'Would you like to store complete copies of <bold>EACH</bold> email message sent during all campaigns?  <bold>We recommend and default to no</bold>. Choosing no will store only the template that is sent and the needed variables to recreate the individual message.',
+    'LBL_MAIL_SENDTYPE' => 'Отправка почты с помощью:',
+    'LBL_MAIL_SMTPAUTH_REQ' => 'Использовать SMTP-аутентификацию:',
+    'LBL_MAIL_SMTPPASS' => 'Password:',
+    'LBL_MAIL_SMTPPORT' => 'SMTP Port:',
+    'LBL_MAIL_SMTPSERVER' => 'SMTP-сервер:',
+    'LBL_MAIL_SMTPUSER' => 'SMTP-пользователь:',
+    'LBL_CHOOSE_EMAIL_PROVIDER' => 'Выберите почтовую службу:',
+    'LBL_YAHOOMAIL_SMTPPASS' => 'Yahoo! - пароль:',
+    'LBL_YAHOOMAIL_SMTPUSER' => 'Yahoo! - учётная запись почты:',
+    'LBL_GMAIL_SMTPPASS' => 'Gmail - пароль:',
+    'LBL_GMAIL_SMTPUSER' => 'Gmail - адрес:',
+    'LBL_EXCHANGE_SMTPPASS' => 'Exchange - пароль:',
+    'LBL_EXCHANGE_SMTPUSER' => 'Exchange - логин:',
+    'LBL_EXCHANGE_SMTPPORT' => 'Exchange - порт сервера:',
+    'LBL_EXCHANGE_SMTPSERVER' => 'Exchange  - сервер:',
+    'LBL_EMAIL_LINK_TYPE' => 'Почтовый клиент',
+    'LBL_MARKETING_ID' => 'Маркетинг (ID)',
+    'LBL_LIST_MARKETING_NAME' => 'Marketing Name',
+    'LBL_MODULE_ID' => 'EmailMan',
+    'LBL_MODULE_NAME' => 'Настройка E-mail',
+    'LBL_MODULE_TITLE' => 'Управление очередью рассылок E-mail',
+    'LBL_NOTIFICATION_ON_DESC' => 'Отправлять уведомление при назначении ответственного',
+    'LBL_NOTIFY_FROMADDRESS' => '"От" (Адрес):',
+    'LBL_NOTIFY_FROMNAME' => '"От" имя отправителя:',
+    'LBL_NOTIFY_ON' => 'Отправление уведомлений',
+    'LBL_NOTIFY_TITLE' => 'Параметры E-mail',
+    'LBL_OUTBOUND_EMAIL_TITLE' => 'Параметры исходящей почты',
+    'LBL_RELATED_ID' => 'Related Id',
+    'LBL_RELATED_TYPE' => 'Related Type',
+    'LBL_SEARCH_FORM_TITLE' => 'Поиск очереди',
+    'TRACKING_ENTRIES_LOCATION_DEFAULT_VALUE' => 'Value of Config.php setting site_url',
+    'TXT_REMOVE_ME_ALT' => 'Для удаления себя из списка рассылки перейдите к',
+    'TXT_REMOVE_ME_CLICK' => 'нажмите здесь',
+    'TXT_REMOVE_ME' => 'Если вы настаиваете на удалении вашего адреса из списка рассылки нашей компании -  ',
+    'LBL_NOTIFY_SEND_FROM_ASSIGNING_USER' => 'Отправить уведомление с адреса электронной почты назначенного пользователя',
+
+    'LBL_SECURITY_TITLE' => 'Параметры безопасности E-mail',
+    'LBL_SECURITY_DESC' => 'Отметьте теги, которые НЕ будут разрешены во входящей почте и не будут отображаться в модуле "E-mail".',
+    'LBL_SECURITY_APPLET' => 'Тег апплета',
+    'LBL_SECURITY_BASE' => 'Базовый тег',
+    'LBL_SECURITY_EMBED' => 'Тег включения',
+    'LBL_SECURITY_FORM' => 'Тег формы',
+    'LBL_SECURITY_FRAME' => 'Тег фрейма',
+    'LBL_SECURITY_FRAMESET' => 'Тег набора фреймов',
+    'LBL_SECURITY_IFRAME' => 'Тег iFrame',
+    'LBL_SECURITY_IMPORT' => 'Тег импорта',
+    'LBL_SECURITY_LAYER' => 'Тег слоя',
+    'LBL_SECURITY_LINK' => 'Тег ссылки',
+    'LBL_SECURITY_OBJECT' => 'Тег объекта',
+    'LBL_SECURITY_OUTLOOK_DEFAULTS' => 'Выбрать минимальный уровень безопасности, установленный в Outlook по умолчанию (возможно некорректное отображение форматирования).',
+    'LBL_SECURITY_STYLE' => 'Тег стиля',
+    'LBL_SECURITY_TOGGLE_ALL' => 'Отметить все теги',
+    'LBL_SECURITY_XMP' => 'Тег Xmp',
+    'LBL_YES' => 'Да',
+    'LBL_NO' => 'Нет',
+    'LBL_PREPEND_TEST' => '[Тест]: ',
+    'LBL_SEND_ATTEMPTS' => 'Send Attempts',
+    'LBL_OUTGOING_SECTION_HELP' => 'Настройка параметров стандартного сервера исходящей почты.',
+    'LBL_ALLOW_DEFAULT_SELECTION' => "Пользователи могут отправлять в качестве идентификатора этой учетной записи:",
+    'LBL_ALLOW_DEFAULT_SELECTION_HELP' => 'При выборе данной опции все пользователи смогут отправлять электронную почту (включая автоматические уведомления о назначении записей)<br>с использованием указанного здесь стандартного сервера исходящей почты.<br>В противном случае каждому пользователю при настройке учётной записи электронной почты необходимо вручную ввести настройки сервера исходящей почты.',
+    'LBL_FROM_ADDRESS_HELP' => 'В поле <<b>От</b>> создаваемого письма будут указываться имя и электронный адрес назначающего пользователя. Данная функция может не работать, если SMTP-сервер не позволяет отправлять письма, в которых адрес отправителя отличается от адреса сервера.',
+    'LBL_HELP' => 'Help' /*for 508 compliance fix*/,
+    'LBL_OUTBOUND_EMAIL_ACCOUNT_VIEW' => 'View Outbound Email Accounts',
+    'LBL_SYSTEM_OUTBOUND_EMAIL_ACCOUNT' => 'System Outbound Email Account',
+    'LBL_ALLOW_SEND_AS_USER' => 'Пользователи могут отправлять сами:',
+    'LBL_ALLOW_SEND_AS_USER_DESC' => 'Если включено, <b>все</b> пользователи могут отправлять почту с помощью сервера исходящей почты, используя свой собственный основной адрес электронной почты как &quot;От:&quot; адрес.<br>Эта функция может не работать с SMTP серверами, которые не разрешают отправку с другого почтового аккаунта, отличного от аккаунта сервера.',
+    'LBL_EMAIL_IMPORT_CONFIGURATION' => 'Email Import Configuration',
+    'LBL_EMAIL_IMPORT_PER_RUN_THRESHOLD' => 'Threshold for Number of Emails Imported Per Run (per Mailbox)',
+    'LBL_EMAIL_IMPORT_PER_RUN_THRESHOLD_DESC' => 'Threshold of emails to import per run. Default is 25. Each run will go through each day in the mailbox within the set timeframe, from oldest to most recent. It will import all emails on each day until the total emails imported on this run exceeds the threshold. Once met, the job will stop and mark the last day imported, starting there on the next run.',
+    'LBL_EMAIL_IMPORT_TIMEFRAME_START' => 'Starting Point for New Mailbox Imports',
+    'LBL_EMAIL_IMPORT_TIMEFRAME_START_DESC' => 'Period of time from which emails will start being imported. For example, selecting 30 Days will start with emails from 30 days ago and move forward from there.',
+    'LBL_EMAIL_IMPORT_FETCH_UNREAD_ONLY' => 'Only fetch unread emails when importing',
+);
