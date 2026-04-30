@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_NAME' => 'Pangalan sa trabaho',
     'LBL_EXECUTE_TIME' => 'Paghuman sa Oras',
-    'LBL_SCHEDULER_ID' => 'Tig-iskedyul',
+    'LBL_SCHEDULER_ID' => 'Tig-eskedyul',
     'LBL_STATUS' => 'Estado sa Trabaho',
     'LBL_RESOLUTION' => 'Resulta',
     'LBL_MESSAGE' => 'Mga Mensahe',
