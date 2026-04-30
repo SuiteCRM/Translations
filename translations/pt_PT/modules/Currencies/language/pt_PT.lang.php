@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_MODULE_NAME' => 'Currencies',
     'LBL_LIST_FORM_TITLE' => 'Currencies',
-    'LBL_CURRENCY' => 'Moeda:',
+    'LBL_CURRENCY' => 'Moeda',
     'LBL_ADD' => 'Add',
     'LBL_MERGE' => 'Fundir',
     'LBL_MERGE_TXT' => 'Por favor, verifique as moedas que gostaria de relacionar com a moeda selecionada. Isto irá eliminar todas as moedas marcadas e qualquer valor a elas associado será atribuído à moeda selecionada.',
