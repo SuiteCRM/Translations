@@ -136,7 +136,7 @@ $mod_strings = array(
     'LBL_TEST_CONNECTION_SETTINGS' => 'Bağlantı ayarlarını sına',
     'LBL_TEST_SUCCESSFUL' => 'Bağlantı çalışıyor.',
     'LBL_TEST_WAIT_MESSAGE' => 'Lütfen biraz bekleyin...',
-    'LBL_WARN_IMAP_TITLE' => 'Gelen e-posta devre dışı',
+    'LBL_WARN_IMAP_TITLE' => 'Gelen e-posta kapalı',
     'LBL_WARN_IMAP' => 'Uyarılar:',
     'LBL_WARN_NO_IMAP' => 'IMAP c-client kitaplıkları PHP modülü ile etkinleştirilmemiş ya da derlenmemiş ise gelen e-posta düzgün <b>çalışamaz</b>. Lütfen bu sorunu çözmek için sistem yöneticiniz ile görüşün.',
 
