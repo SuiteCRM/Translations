@@ -49,5 +49,5 @@ $mod_strings = array(
     'LBL_CREATED_BY' => 'Gewijzigd door',
     'LBL_LIST_DATE' => 'Wijzigingsdatum',
     'LBL_AUDITED_FIELDS' => 'Velden gecontroleerd in deze module: ',
-    'LBL_CHANGE_LOG' => 'Change Log',
+    'LBL_CHANGE_LOG' => 'Logboek',
 );
