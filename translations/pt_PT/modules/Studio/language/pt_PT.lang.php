@@ -83,7 +83,7 @@ $mod_strings = array(
 
 // JS LABELS
     'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuilds javascript versions of language files',
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Remover versões javascript de ficheiros de linguagem, será reconstruído quando necessário.',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'A remover versões Javascript de ficheiros de linguagem. Será reconstruído quando necessário.',
 
 
 //Manager Backups History

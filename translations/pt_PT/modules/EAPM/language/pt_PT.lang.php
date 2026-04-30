@@ -51,7 +51,7 @@ $mod_strings = array(
     'LBL_MODIFIED' => 'Alterado por',
     'LBL_MODIFIED_NAME' => 'Alterado por (nome)',
     'LBL_CREATED' => 'Criado por',
-    'LBL_DESCRIPTION' => 'Descrição:',
+    'LBL_DESCRIPTION' => 'Descrição',
     'LBL_DELETED' => 'Eliminado',
     'LBL_NAME' => 'Nome de utilizador na App',
     'LBL_CREATED_USER' => 'Criado pelo utilizador',
@@ -97,7 +97,7 @@ $mod_strings = array(
     'LBL_OMIT_URL' => '(Omitir http:// ou https://)',
     'LBL_OAUTH_SAVE_NOTICE' => 'Clique em <b>Ligar</b> para ser direcionado para uma página para fornecer informações da sua conta e autorizar o acesso à conta pelo SuiteCRM. Após a ligação, será redirecionado para o CRM.',
     'LBL_BASIC_SAVE_NOTICE' => 'Clique em <b>Ligar</b> para ligar esta conta ao SuiteCRM.',
-    'LBL_ERR_POPUPS_DISABLED' => 'Por favor ative as janelas pop-up do seu navegador ou adicione uma exceção para o sítio "{0}" à lista de exceções, de forma a poder ligar-se.',
+    'LBL_ERR_POPUPS_DISABLED' => 'Por favor, ative as janelas flutuantes do seu navegador ou adicione, à lista de exceções, uma exceção para o sítio "{0}" de forma a poder ligar-se.',
 
     'LBL_API_OAUTHSECRET' => 'Chave secreta da API OAuth',
 );
