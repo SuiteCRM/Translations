@@ -704,8 +704,8 @@ $mod_strings = array(
     // 2FA
     'LBL_FACTOR_AUTH' => 'Authenticatie in twee stappen',
     'LBL_FACTOR_AUTH_DISABLE' => 'Authenticatie in twee stappen is uitgeschakeld voor deze gebruiker',
-    'LBL_DISABLED' => 'Disabled',
-    'LBL_ENABLED' => 'Enabled',
+    'LBL_DISABLED' => 'Uitgeschakeld',
+    'LBL_ENABLED' => 'Ingeschakeld',
     'LBL_ENABLE_2FA' => '2FA inschakelen',
     'LBL_2FA_CONFIG' => '
 Twee stappen Configuratie',
