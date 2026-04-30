@@ -40,7 +40,7 @@ $mod_strings = [
     'LBL_CREATED' => 'Criado por',
     'LBL_CREATED_USER' => 'Criado pelo utilizador',
     'LBL_MODIFIED_USER' => 'Alterado pelo utilizador',
-    'LBL_DESCRIPTION' => 'Descrição:',
+    'LBL_DESCRIPTION' => 'Descrição',
     'LBL_DELETED' => 'Eliminado',
 
     // Security groups
@@ -102,7 +102,7 @@ $mod_strings = [
 
     // Basic Auth Fields
     'LBL_USERNAME' => 'Username',
-    'LBL_PASSWORD' => 'Senha:',
+    'LBL_PASSWORD' => 'Senha',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test Connection',
 
