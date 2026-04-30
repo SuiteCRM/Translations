@@ -53,7 +53,7 @@ $mod_strings = array(
     'LBL_MODIFIED_USER_ID' => 'ترمیم شدہ صارف کی شناخت',
     'LBL_CREATED_BY' => 'کی طرف سے پیدا کردہ',
     'LBL_DELETED' => 'حذف کر دیا گیا',
-    'LBL_CAMPAIGN' => 'مہم',
+    'LBL_CAMPAIGN' => 'Campaign',
     'LBL_OPTOUT' => 'آپٹ آؤٹ',
 
     'LBL_MODULE_NAME' => 'مہم ٹریکرز',
@@ -67,6 +67,6 @@ $mod_strings = array(
     'LBL_EDIT_MESSAGE_URL' => 'مہم پیغام کیلئے یو آر ایل:',
     'LBL_EDIT_TRACKER_KEY' => 'ٹریکر کی کلید:',
     'LBL_EDIT_OPT_OUT' => 'آپٹ آؤٹ لنک?',
-    'LNK_CAMPAIGN_LIST' => 'مہمات',
+    'LNK_CAMPAIGN_LIST' => 'Campaigns',
     'LBL_EDIT_LAYOUT' => 'لے آؤٹ میں ترمیم کریں' /*for 508 compliance fix*/,
 );

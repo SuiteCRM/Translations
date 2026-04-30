@@ -43,20 +43,20 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'معرف المستخدم المكلف',
+    'LBL_ASSIGNED_TO_ID' => 'معرف المستخدم المُكلف',
     'LBL_ASSIGNED_TO_NAME' => 'أُسند إلى',
     'LBL_ID' => 'المُعرف',
     'LBL_DATE_ENTERED' => 'تاريخ الإنشاء',
     'LBL_DATE_MODIFIED' => 'تاريخ التعديل',
     'LBL_MODIFIED' => 'عُدل بواسطة',
-    'LBL_MODIFIED_NAME' => 'اسم من قام بالتعديل',
+    'LBL_MODIFIED_NAME' => 'قام بالتعديل',
     'LBL_CREATED' => 'أنشئ بواسطة',
     'LBL_DESCRIPTION' => 'النص',
     'LBL_HEADER' => 'ترويسة',
     'LBL_FOOTER' => 'تذييل',
     'LBL_DELETED' => 'محذوف',
     'LBL_NAME' => 'الاسم',
-    'LBL_CREATED_USER' => 'أنشئ بواسطة المستخدم',
+    'LBL_CREATED_USER' => 'تم الإنشاء بواسطة المستخدم',
     'LBL_MODIFIED_USER' => 'عُدل بواسطة المستخدم',
     'LBL_LIST_FORM_TITLE' => 'قائمة قوالب PDF',
     'LBL_MODULE_NAME' => 'قوالب PDF',

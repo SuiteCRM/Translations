@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LNK_NEW_CALL' => 'Log Call',
+    'LNK_NEW_CALL' => 'Log ng Tawag',
     'LNK_NEW_MEETING' => 'Iskedyul ng meeting',
     'LNK_NEW_TASK' => 'Gumawa ng gawain',
     'LNK_NEW_NOTE' => 'Lumikha ng talaan o paglalakip',

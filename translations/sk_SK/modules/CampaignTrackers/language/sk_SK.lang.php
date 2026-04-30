@@ -51,7 +51,7 @@ $mod_strings = array(
     'LBL_DATE_ENTERED' => 'Dátum vloženia',
     'LBL_DATE_MODIFIED' => 'Dátum úpravy',
     'LBL_MODIFIED_USER_ID' => 'Upravil užívateľ ID',
-    'LBL_CREATED_BY' => 'Vytvoril:',
+    'LBL_CREATED_BY' => 'Vytvoril',
     'LBL_DELETED' => 'Vymazaný',
     'LBL_CAMPAIGN' => 'Kampaň',
     'LBL_OPTOUT' => 'Opt-out',
@@ -61,7 +61,7 @@ $mod_strings = array(
     'LBL_EDIT_TRACKER_NAME' => 'Názov stopovača',
     'LBL_EDIT_TRACKER_URL' => 'URL stopovača',
 
-    'LBL_SUBPANEL_TRACKER_NAME' => 'Názov',
+    'LBL_SUBPANEL_TRACKER_NAME' => 'Meno',
     'LBL_SUBPANEL_TRACKER_URL' => 'URL',
     'LBL_SUBPANEL_TRACKER_KEY' => 'Kľúč',
     'LBL_EDIT_MESSAGE_URL' => 'URL pre kampaňovú správu',

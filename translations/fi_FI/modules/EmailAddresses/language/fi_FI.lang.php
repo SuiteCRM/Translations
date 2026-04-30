@@ -44,12 +44,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_EMAIL_ADDRESS_ID' => 'Tunnus',
-    'LBL_EMAIL_ADDRESS' => 'Sähköpostiosoite',
+    'LBL_EMAIL_ADDRESS' => 'Email Address',
     'LBL_EMAIL_ADDRESS_CAPS' => 'Email Address caps',
-    'LBL_INVALID_EMAIL' => 'virheellinen sähköpostiosoite',
-    'LBL_OPT_OUT' => 'Estä lähetys',
+    'LBL_INVALID_EMAIL' => 'Invalid Email',
+    'LBL_OPT_OUT' => 'Opted Out',
     'LBL_CONFIRM_OPT_IN' => 'Confirm Opt In',
     'LBL_DATE_CREATE' => 'Luonti pvm',
-    'LBL_DATE_MODIFIED' => 'Muokkaus pvm',
-    'LBL_DELETED' => 'Poista',
+    'LBL_DATE_MODIFIED' => 'Muokkauspvm',
+    'LBL_DELETED' => 'Delete',
 );

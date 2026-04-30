@@ -76,10 +76,10 @@ $mod_strings = array(
     'LBL_NEW_FORM_TITLE' => 'فروخت بنائیں',
     'ERR_DELETE_RECORD' => 'فروخت کو ختم کرنے کے لئے ایک ریکارڈ نمبر مخصوص ہونا ضروری ہے.',
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'فروخت',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'سرگرمیاں',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'تاریخ',
 
-    'LBL_CONTACTS_SUBPANEL_TITLE' => 'رابطے',
+    'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
     'LBL_ASSIGNED_TO_NAME' => 'صارف:',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'مقرر کردہ صارف',
     'LBL_ASSIGNED_TO_ID' => 'شناخت کو تفویض',

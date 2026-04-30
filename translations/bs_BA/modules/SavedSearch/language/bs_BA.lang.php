@@ -56,7 +56,7 @@ $mod_strings = array(
     'LBL_SAVE_SEARCH_AS' => 'Save filter as:',
     'LBL_ASCENDING' => 'Rastući',
     'LBL_DESCENDING' => 'Opadajući',
-    'LBL_MODIFY_CURRENT_FILTER' => 'Prilagodi trenutni filter',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
     'LBL_CREATED_BY' => 'Kreirao',
     'LBL_QUICK_FILTER' => 'Brzi filter',

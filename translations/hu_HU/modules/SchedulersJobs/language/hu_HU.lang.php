@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_NAME' => 'Munka név',
-    'LBL_EXECUTE_TIME' => 'Végrehajtás ideje',
-    'LBL_SCHEDULER_ID' => 'Ütemező',
+    'LBL_NAME' => 'Job Name',
+    'LBL_EXECUTE_TIME' => 'Execute Time',
+    'LBL_SCHEDULER_ID' => 'Scheduler',
     'LBL_STATUS' => 'Munka állapota',
-    'LBL_RESOLUTION' => 'Eredmény',
+    'LBL_RESOLUTION' => 'Result',
     'LBL_MESSAGE' => 'Üzenetek',
     'LBL_DATA' => 'Job Data',
     'LBL_REQUEUE' => 'Retry on failure',

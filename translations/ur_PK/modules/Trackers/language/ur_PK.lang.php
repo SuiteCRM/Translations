@@ -49,8 +49,8 @@ $mod_strings = array(
     'item_id' => 'شناخت',
     'item_summary' => 'نام',
     'module_name' => 'ڈیزائن کا نام',
-    'users' => 'صارفین',
+    'users' => 'Users',
 
     //Administration related labels
-    'LBL_MODULE_NAME' => 'سراغ گیر',
+    'LBL_MODULE_NAME' => 'Trackers',
 );

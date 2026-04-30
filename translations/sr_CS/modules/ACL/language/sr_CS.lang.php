@@ -43,15 +43,15 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Uloga',
-    'LBL_NAME' => 'Ime',
-    'LBL_DESCRIPTION' => 'Opis',
+    'LBL_ROLE' => 'Role',
+    'LBL_NAME' => 'Naziv',
+    'LBL_DESCRIPTION' => 'Description',
     'LIST_ROLES' => 'Izlistaj uloge',
-    'LBL_USERS_SUBPANEL_TITLE' => 'Korisnici',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
     'LIST_ROLES_BY_USER' => 'Lista uloga po korisniku',
     'LBL_ROLES_SUBPANEL_TITLE' => 'Korisničke uloge',
-    'LBL_SEARCH_FORM_TITLE' => 'Pretraga',
-    'LBL_NO_ACCESS' => 'Nemate pristup ovom delu. Kontaktirajte administratora vašeg sajta kako bi dobili mogućnost pristupa.',
+    'LBL_SEARCH_FORM_TITLE' => 'Search',
+    'LBL_NO_ACCESS' => 'You do not have access to this area. Contact your site administrator to obtain access.',
     'LBL_REDIRECT_TO_HOME' => 'Prebacivanje na Početnu stranicu za',
     'LBL_SECONDS' => 'sekundi',
     'LBL_ADDING' => 'Dodavanje za ',

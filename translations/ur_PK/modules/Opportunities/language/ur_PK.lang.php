@@ -43,15 +43,15 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'مواقعے',
+    'LBL_MODULE_NAME' => 'Opportunities',
     'LBL_MODULE_TITLE' => 'گھر کا موقع',
     'LBL_SEARCH_FORM_TITLE' => 'تلاش کا موقع',
     'LBL_LIST_FORM_TITLE' => 'فہرست کا موقع',
-    'LBL_OPPORTUNITY_NAME' => 'موقع کا نام:',
+    'LBL_OPPORTUNITY_NAME' => 'نام کا موقع:',
     'LBL_OPPORTUNITY' => 'موقع:',
     'LBL_NAME' => 'مواقع مناسب موضوع',
-    'LBL_INVITEE' => 'رابطے',
-    'LBL_CURRENCIES' => 'کرنسیاں',
+    'LBL_INVITEE' => 'Contacts',
+    'LBL_CURRENCIES' => 'Currencies',
     'LBL_LIST_OPPORTUNITY_NAME' => 'نام',
     'LBL_LIST_ACCOUNT_NAME' => 'اکاؤنٹ کا نام',
     'LBL_LIST_AMOUNT' => 'رقم کا موقع',
@@ -84,15 +84,15 @@ $mod_strings = array(
     'ERR_DELETE_RECORD' => 'محفوظ کیے گئے نمبر ایک مخصوص نمبر پر مشتمل ہوتے ہیں مٹانے کے موقع کے لئے.',
     'LBL_TOP_OPPORTUNITIES' => 'میری سب سے اوپر کلی ہوئی موقع',
     'OPPORTUNITY_REMOVE_PROJECT_CONFIRM' => 'کیا وہ یقینا یہی چاہتے ہیں کہ اس پروجیکٹ میں سے آپ تو موقع کو مٹا دے?',
-    'LBL_DEFAULT_SUBPANEL_TITLE' => 'مواقعے',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'سرگرمیاں',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Opportunities',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'تاریخ',
 
-    'LBL_LEADS_SUBPANEL_TITLE' => 'ممکنہ گاہک',
-    'LBL_CONTACTS_SUBPANEL_TITLE' => 'رابطے',
-    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'دستاویزات',
-    'LBL_PROJECTS_SUBPANEL_TITLE' => 'منصوبے',
-    'LBL_ASSIGNED_TO_NAME' => 'مقرر کردہ سے:',
+    'LBL_LEADS_SUBPANEL_TITLE' => 'Leads',
+    'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
+    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documents',
+    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projects',
+    'LBL_ASSIGNED_TO_NAME' => 'اس حوالے سے:',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'مقرر کردہ صارف',
     'LBL_MY_CLOSED_OPPORTUNITIES' => 'میرا بند کیا ہوا موقع',
     'LBL_TOTAL_OPPORTUNITIES' => 'مکمل موقع',
@@ -101,10 +101,10 @@ $mod_strings = array(
     'LBL_MODIFIED_NAME' => 'صارف کے نام کی طرف سے ترمیم',
     'LBL_CREATED_USER' => 'صارف بنائیں',
     'LBL_MODIFIED_USER' => 'صارف میں کچھ تبدیلیاں کرنا',
-    'LBL_CAMPAIGN_OPPORTUNITY' => 'مہمات',
-    'LBL_PROJECT_SUBPANEL_TITLE' => 'منصوبے',
+    'LBL_CAMPAIGN_OPPORTUNITY' => 'Campaigns',
+    'LBL_PROJECT_SUBPANEL_TITLE' => 'Projects',
     'LNK_IMPORT_OPPORTUNITIES' => 'موقع کو درآمد کرنا',
-    'LBL_EDITLAYOUT' => 'لے آؤٹ میں ترمیم کریں'
+    'LBL_EDITLAYOUT' => 'لے آوٹ میں تبدیل کرنا'
     /*for 508 compliance fix*/,
 
     // SNIP

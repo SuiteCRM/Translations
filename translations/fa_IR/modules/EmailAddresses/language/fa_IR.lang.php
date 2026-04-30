@@ -43,13 +43,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EMAIL_ADDRESS_ID' => 'شناسه',
-    'LBL_EMAIL_ADDRESS' => 'آدرس ایمیل',
+    'LBL_EMAIL_ADDRESS_ID' => 'ID',
+    'LBL_EMAIL_ADDRESS' => 'Email Address',
     'LBL_EMAIL_ADDRESS_CAPS' => 'Email Address caps',
-    'LBL_INVALID_EMAIL' => 'ایمیل نامعتبر',
+    'LBL_INVALID_EMAIL' => 'Invalid Email',
     'LBL_OPT_OUT' => 'انصراف داده',
     'LBL_CONFIRM_OPT_IN' => 'Confirm Opt In',
     'LBL_DATE_CREATE' => 'تاریخ ایجاد',
-    'LBL_DATE_MODIFIED' => 'تاریخ ویرایش',
+    'LBL_DATE_MODIFIED' => 'Date Modified',
     'LBL_DELETED' => 'حذف',
 );

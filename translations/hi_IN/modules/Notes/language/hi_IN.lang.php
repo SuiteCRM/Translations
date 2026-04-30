@@ -51,7 +51,7 @@ $mod_strings = array(
     'LBL_CONTACT_NAME' => 'संपर्कः',
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'नोट्स',
     'LBL_DESCRIPTION' => 'ध्यान दें',
-    'LBL_EMAIL_ADDRESS' => 'मेल पता:',
+    'LBL_EMAIL_ADDRESS' => 'ई-मेल पता:',
     'LBL_EMAIL_ATTACHMENT' => 'ईमेल संलग्नक',
     'LBL_FILE_MIME_TYPE' => 'माइम प्रकार',
     'LBL_FILE_URL' => 'फ़ाइल यूआरएल',
@@ -98,11 +98,11 @@ $mod_strings = array(
     'LBL_MY_NOTES_DASHLETNAME' => 'मेरे नोट्स',
     'LBL_EDITLAYOUT' => 'लेआउट संपादित करें' /*for 508 compliance fix*/,
     //For export labels
-    'LBL_FIRST_NAME' => 'पहला नाम:',
-    'LBL_LAST_NAME' => 'परिवार का नाम',
+    'LBL_FIRST_NAME' => 'प्रथम नाम',
+    'LBL_LAST_NAME' => 'अंतिम नाम',
     'LBL_DATE_ENTERED' => 'बनाया गया दिनांक',
     'LBL_DATE_MODIFIED' => 'तिथि संशोधित',
-    'LBL_DELETED' => 'हटाई गई',
+    'LBL_DELETED' => 'हटाए गए',
     'LBL_FILE_CONTENTS' => 'फ़ाइल सामग्री',
 
     'LBL_ASCENDING' => 'आरोही',

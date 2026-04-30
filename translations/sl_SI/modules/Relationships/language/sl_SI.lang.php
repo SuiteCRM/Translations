@@ -54,9 +54,9 @@ $mod_strings = array(
     'LBL_JOIN_TABLE' => 'Združi ime tabele',
     'LBL_JOIN_KEY_LHS' => 'Združi LHS ključ',
     'LBL_JOIN_KEY_RHS' => 'Združi RHS ključ',
-    'LBL_RELATIONSHIP_TYPE' => 'Tip razmerja',
+    'LBL_RELATIONSHIP_TYPE' => 'Relationship Type',
     'LBL_RELATIONSHIP_ROLE_COLUMN' => 'Ime vloge povezave',
     'LBL_RELATIONSHIP_ROLE_COLUMN_VALUE' => 'Vrednost vloge povezave',
     'LBL_REVERSE' => 'Obratno',
-    'LBL_DELETED' => 'Izbrisano',
+    'LBL_DELETED' => 'Deleted',
 );

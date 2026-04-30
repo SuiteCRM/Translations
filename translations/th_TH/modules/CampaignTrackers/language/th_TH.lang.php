@@ -48,12 +48,12 @@ $mod_strings = array(
     'LBL_TRACKER_URL' => 'ติดตาม URL',
     'LBL_TRACKER_NAME' => 'ติดตามชื่อ',
     'LBL_CAMPAIGN_ID' => 'แคมเปญไอดี',
-    'LBL_DATE_ENTERED' => 'วันที่ที่ป้อน',
+    'LBL_DATE_ENTERED' => 'Date Entered',
     'LBL_DATE_MODIFIED' => 'วันที่แก้ไข',
     'LBL_MODIFIED_USER_ID' => 'แก้ไขไอดีผู้ใช้',
     'LBL_CREATED_BY' => 'สร้างโดย',
     'LBL_DELETED' => 'ลบ',
-    'LBL_CAMPAIGN' => 'แคมเปญ',
+    'LBL_CAMPAIGN' => 'Campaign',
     'LBL_OPTOUT' => 'เลือกออก',
 
     'LBL_MODULE_NAME' => 'ตัวติดตามส่งเสริมการขาย',
@@ -63,10 +63,10 @@ $mod_strings = array(
 
     'LBL_SUBPANEL_TRACKER_NAME' => 'ชื่อ',
     'LBL_SUBPANEL_TRACKER_URL' => 'URL',
-    'LBL_SUBPANEL_TRACKER_KEY' => 'คีย์',
+    'LBL_SUBPANEL_TRACKER_KEY' => 'Key',
     'LBL_EDIT_MESSAGE_URL' => 'URL สำหรับข้อความส่งเสริมการขาย:',
     'LBL_EDIT_TRACKER_KEY' => 'คีย์การติดตาม:',
     'LBL_EDIT_OPT_OUT' => 'ยกเลิกการเชื่อมโยงหรือไม่',
-    'LNK_CAMPAIGN_LIST' => 'แคมเปญ',
+    'LNK_CAMPAIGN_LIST' => 'Campaigns',
     'LBL_EDIT_LAYOUT' => 'แก้ไขรูปแบบ' /*for 508 compliance fix*/,
 );

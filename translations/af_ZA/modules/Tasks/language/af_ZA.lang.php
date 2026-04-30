@@ -43,14 +43,14 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Take',
+    'LBL_MODULE_NAME' => 'Tasks',
     'LBL_MODULE_TITLE' => ' Tasks: Home',
     'LBL_SEARCH_FORM_TITLE' => ' Task Search',
     'LBL_LIST_FORM_TITLE' => ' Task List',
     'LBL_NEW_FORM_TITLE' => ' Create Task',
-    'LBL_LIST_CLOSE' => 'Maak toe',
-    'LBL_LIST_SUBJECT' => 'Onderwerp',
-    'LBL_LIST_CONTACT' => 'Kontak',
+    'LBL_LIST_CLOSE' => 'Close',
+    'LBL_LIST_SUBJECT' => 'Subject',
+    'LBL_LIST_CONTACT' => 'Contact',
     'LBL_LIST_PRIORITY' => 'Priority',
     'LBL_LIST_RELATED_TO' => 'Verwant tot',
     'LBL_LIST_DUE_DATE' => 'Due Date',
@@ -65,11 +65,11 @@ $mod_strings = array(
     'LBL_START_DATE' => 'Start Date:',
     'LBL_LIST_START_DATE' => 'Start Date',
     'LBL_START_TIME' => 'Start Time:',
-    'DATE_FORMAT' => '(jjjj-mm-dd)',
+    'DATE_FORMAT' => '(yyyy-mm-dd)',
     'LBL_DAYS_UNTIL_DUE_TASK' => 'This Task is Due in',
     'LBL_DAYS_OVERDUE' => 'This Task Is Overdue By ',
     'LBL_TASK_COMPLETED' => 'This Task is Completed',
-    'LBL_NONE' => 'Geen',
+    'LBL_NONE' => 'None',
     'LBL_CONTACT' => 'Contact:',
     'LBL_EMAIL_ADDRESS' => 'Email Address:',
     'LBL_PHONE' => 'Phone:',
@@ -93,7 +93,7 @@ $mod_strings = array(
     'LBL_PARENT_TYPE' => 'Parent Type:',
     'LBL_TASK_INFORMATION' => 'TASK OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_EDITLAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Notas',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Notes',
     //For export labels
     'LBL_DATE_DUE' => 'Date Due',
     'LBL_RELATED_TO' => 'Related to:',

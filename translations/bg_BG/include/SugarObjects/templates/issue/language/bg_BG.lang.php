@@ -44,25 +44,25 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
 
-    'LBL_NAME' => 'Име',
+    'LBL_NAME' => 'Name',
     'LBL_NUMBER' => 'Номер:',
-    'LBL_STATUS' => 'Статус:',
+    'LBL_STATUS' => 'Status:',
     'LBL_PRIORITY' => 'Степен на важност:',
-    'LBL_DESCRIPTION' => 'Описание:',
+    'LBL_DESCRIPTION' => 'Description:',
     'LBL_RESOLUTION' => 'Решение',
     'LBL_LAST_MODIFIED' => 'Последно модифициран',
     'LBL_ASSIGNED_TO_ID' => 'Отговорник:',
-    'LBL_ASSIGNED_TO_NAME' => 'Отговорник:',
+    'LBL_ASSIGNED_TO_NAME' => 'User:',
     'LBL_WORK_LOG' => 'Работен дневник на събития:',
     'LBL_CREATED_BY' => 'Създадено от:',
-    'LBL_DATE_ENTERED' => 'Създадено на:',
-    'LBL_DATE_MODIFIED' => 'Последно модифицирано:',
+    'LBL_DATE_ENTERED' => 'Date Created:',
+    'LBL_DATE_MODIFIED' => 'Date Modified:',
     'LBL_MODIFIED_BY' => 'Модифицирано от:',
     'LBL_ASSIGNED_USER' => 'Отговорник:',
-    'LBL_TYPE' => 'Тип:',
+    'LBL_TYPE' => 'Type:',
     'LBL_SUBJECT' => 'Относно:',
 
-    'LBL_EDIT_BUTTON' => 'Редактиране',
-    'LBL_REMOVE' => 'Изтрий',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
 
 );

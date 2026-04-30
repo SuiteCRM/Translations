@@ -116,7 +116,7 @@ $mod_strings = array(
     'LBL_TYPE' => 'Tip:',
     'LBL_WEBSITE' => 'Web stranica:',
 
-    'LNK_ACCOUNT_LIST' => 'Klijenti',
+    'LNK_ACCOUNT_LIST' => 'Računi',
     'LNK_NEW_ACCOUNT' => 'Kreirajte klijenta',
 
     'MSG_DUPLICATE' => 'Ovaj {0} zapis koje ćete kreirati može biti duplikat od {0} zapisa koji već postoji.{1} Zapisi koji sadrže slične nazive su navedeni ispod.<br>Kliknite Kreiraj {1} da nastavite kreirati ovaj novi {0}, ili odaberite postojeći {0} naveden ispod.',

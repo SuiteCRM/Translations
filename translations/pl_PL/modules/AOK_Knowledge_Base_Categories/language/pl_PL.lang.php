@@ -44,10 +44,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ASSIGNED_TO_ID' => 'ID przydzielonego użytkownika',
-    'LBL_ASSIGNED_TO_NAME' => 'Przypisano do',
+    'LBL_ASSIGNED_TO_NAME' => 'Przypisany Do',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Data utworzenia',
-    'LBL_DATE_MODIFIED' => 'Data Modyfikacji:',
+    'LBL_DATE_MODIFIED' => 'Data Modyfikacji',
     'LBL_MODIFIED' => 'Zmodyfikowane przez',
     'LBL_MODIFIED_ID' => 'Zmodyfikowane przez ID',
     'LBL_MODIFIED_NAME' => 'Nazwa użytkownika modyfikującego',
@@ -57,13 +57,13 @@ $mod_strings = array(
     'LBL_DELETED' => 'Usunięte',
     'LBL_NAME' => 'Nazwa',
     'LBL_CREATED_USER' => 'Utworzony przez Użytkownika',
-    'LBL_MODIFIED_USER' => 'Zmodyfikowany przez Użytkownika',
-    'LBL_LIST_NAME' => 'Nazwa',
+    'LBL_MODIFIED_USER' => 'Zmodyfikowany przez użytkownika',
+    'LBL_LIST_NAME' => 'Nazwa dokument',
     'LBL_EDIT_BUTTON' => 'Edytuj',
     'LBL_REMOVE' => 'Usuń',
     'LBL_LIST_FORM_TITLE' => 'Lista kategorii Bazy Wiedzy',
     'LBL_MODULE_NAME' => 'Kategorie Bazy Wiedzy',
-    'LBL_MODULE_TITLE' => 'Kategorie Bazy Wiedzy',
+    'LBL_MODULE_TITLE' => 'KB Categories',
     'LBL_HOMEPAGE_TITLE' => 'Moje kategorie Bazy Wiedzy',
     'LNK_NEW_RECORD' => 'Utwórz kategorie Bazy Wiedzy',
     'LNK_LIST' => 'Przeglądaj kategorie Bazy Wiedzy',
@@ -71,7 +71,7 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Szukaj kategorii Bazy Wiedzy',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Przeglądaj historię',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Działania',
-    'LBL_AOK_KB_CATEGORIES_SUBPANEL_TITLE' => 'Kategorie Bazy Wiedzy',
+    'LBL_AOK_KB_CATEGORIES_SUBPANEL_TITLE' => 'KB Categories',
     'LBL_NEW_FORM_TITLE' => 'Nowe kategorie Bazy Wiedzy',
 );
 

@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings['LBL_ASSIGNED_TO_ID'] = 'Доделено на Корисник ID';
 $mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Корисник ';
-$mod_strings['LBL_ID'] = 'ID';
+$mod_strings['LBL_ID'] = 'Број';
 $mod_strings['LBL_DATE_ENTERED'] = 'Дата на креирање';
 $mod_strings['LBL_DATE_MODIFIED'] = 'Дата на промена';
 $mod_strings['LBL_MODIFIED'] = 'Променето од';
@@ -64,12 +64,12 @@ $mod_strings['LNK_NEW_RECORD'] = 'Create Markers';
 $mod_strings['LNK_LIST'] = 'View Markers';
 $mod_strings['LNK_IMPORT_JJWG_MARKERS'] = 'Import Markers';
 $mod_strings['LBL_SEARCH_FORM_TITLE'] = 'Search Markers';
-$mod_strings['LBL_HISTORY_SUBPANEL_TITLE'] = 'Види историја';
+$mod_strings['LBL_HISTORY_SUBPANEL_TITLE'] = 'View History';
 $mod_strings['LBL_ACTIVITIES_SUBPANEL_TITLE'] = 'Активности';
 $mod_strings['LBL_NEW_FORM_TITLE'] = 'New Markers';
 $mod_strings['LBL_CITY'] = 'Град';
 $mod_strings['LBL_STATE'] = 'Состојба';
-$mod_strings['LBL_COUNTRY'] = 'Држава';
+$mod_strings['LBL_COUNTRY'] = 'Country';
 $mod_strings['LBL_JJWG_MAPS_LAT'] = 'Latitude';
 $mod_strings['LBL_JJWG_MAPS_LNG'] = 'Longitude';
 $mod_strings['LBL_MARKER_IMAGE'] = 'Marker Image Type';

@@ -50,7 +50,7 @@ $mod_strings = array(
     'LBL_CLIENT'=> 'Client',
     'LBL_TOKEN_IS_REVOKED'=> 'Révoqué',
     'LBL_ACCESS_TOKEN_TYPE'=> 'Type de jeton',
-    'LBL_ACCESS_TOKEN_EXPIRES'=> 'Expiration des jetons d\'accès',
+    'LBL_ACCESS_TOKEN_EXPIRES'=> 'Expiration du jeton d\'accès',
     'LBL_REFRESH_TOKEN_EXPIRES'=> 'Expiration des jetons d\'accès',
     'LBL_GRANT_TYPE'=> 'Type de subvention',
     'LBL_SCOPES'=> 'Scopes',
@@ -63,9 +63,9 @@ $mod_strings = array(
     'LNK_OAUTH2_TOKEN_LIST'=> 'Liste des jetons OAuth2',
     'LNK_OAUTH2_CLIENT_LIST' => 'Liste des clients OAuth2',
 
-    'LNK_NEW_OAUTH2_CLIENT' => 'Créer client OAuth2 ',
+    'LNK_NEW_OAUTH2_CLIENT' => 'Créer client OAuth2',
     'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'Nouveau mot de passe client',
-    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'Nouveau certificat du client',
+    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'Nouvelles informations clientèle',
     'LNK_NEW_OAUTH2_IMPLICIT_CLIENT' => 'Nouveau client tacite',
     'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'Nouvelle autorisation du client',
 

@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Distribucije',
+    'LBL_MODULE_NAME' => 'Releases',
     'LBL_MODULE_TITLE' => 'Releases: Home',
     'LBL_SEARCH_FORM_TITLE' => 'Release Search',
     'LBL_LIST_FORM_TITLE' => 'Release List',
@@ -51,12 +51,12 @@ $mod_strings = array(
     'LBL_RELEASE' => 'Release:',
     'LBL_LIST_NAME' => 'Izdanje',
     'LBL_NAME' => 'Release version:',
-    'LBL_LIST_LIST_ORDER' => 'Redoslijed',
-    'LBL_LIST_ORDER' => 'Narudžba:',
+    'LBL_LIST_LIST_ORDER' => 'Order',
+    'LBL_LIST_ORDER' => 'Order:',
     'LBL_LIST_STATUS' => 'Status',
     'LBL_STATUS' => 'Status:',
     'LNK_NEW_RELEASE' => 'Release List',
-    'NTC_DELETE_CONFIRMATION' => 'Jeste li sigurni želite li izbrisati ovaj zapis?',
+    'NTC_DELETE_CONFIRMATION' => 'Are you sure you want to delete this record?',
     'NTC_SNOOZE_CONFIRMATION' => 'Are you sure you want to snooze?',
     'ERR_DELETE_RECORD' => 'You must specify a record number to delete the release.',
     'NTC_STATUS' => 'Set status to Inactive to remove this release from the Release dropdown lists',
@@ -64,7 +64,7 @@ $mod_strings = array(
     'release_status_dom' =>
         array(
             'Active' => 'Aktivan',
-            'Inactive' => 'neaktivan',
+            'Inactive' => 'Inactive',
         ),
-    'LBL_EDITLAYOUT' => 'Uredi izgled' /*for 508 compliance fix*/,
+    'LBL_EDITLAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
 );

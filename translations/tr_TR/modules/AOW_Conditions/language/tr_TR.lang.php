@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 
 $mod_strings = array(
-    'LBL_ID' => 'Kod',
+    'LBL_ID' => 'Kimlik',
     'LBL_DATE_ENTERED' => 'Eklenme tarihi',
     'LBL_DATE_MODIFIED' => 'Değiştirilme tarihi',
     'LBL_MODIFIED' => 'Değiştiren',
@@ -54,14 +54,14 @@ $mod_strings = array(
     'LBL_CREATED' => 'Ekleyen',
     'LBL_DESCRIPTION' => 'Açıklama',
     'LBL_DELETED' => 'Silindi',
-    'LBL_NAME' => 'Ad',
+    'LBL_NAME' => 'İsim',
     'LBL_MODULE_NAME' => 'İş akışı koşulları',
     'LBL_MODULE_TITLE' => 'İş akışı koşulları',
     'LBL_MODULE_PATH' => 'Modül',
-    'LBL_FIELD' => 'Alan',
+    'LBL_FIELD' => 'Field',
     'LBL_OPERATOR' => 'İşlem',
     'LBL_VALUE_TYPE' => 'Tür',
     'LBL_VALUE' => 'Değer',
     'LBL_ORDER' => 'Sıra',
-    'LBL_AOW_WORKFLOW_ID' => 'İş akışı kodu',
+    'LBL_AOW_WORKFLOW_ID' => 'İş akışı kimliği',
 );

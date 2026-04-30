@@ -67,7 +67,7 @@ $app_list_strings = array(
         '' => '',
         'Accepted' => 'Potvrdený',
         'Duplicate' => 'Duplikovať',
-        'Closed' => 'Ukončený',
+        'Closed' => 'Zatvorený',
         'Out of Date' => 'Zastaraný',
         'Invalid' => 'Neplatný',
     ),

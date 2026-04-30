@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_BASIC' => 'Základní',
+    'LBL_BASIC' => 'ZÁKLADNÍ',
     'LBL_BASIC_SEARCH' => 'Rychlý filtr',
-    'LBL_ADVANCED_SEARCH' => 'Rozšířený filtr',
+    'LBL_ADVANCED_SEARCH' => 'Pokročilý filtr',
     'LBL_BASIC_TYPE' => 'Základní typ',
     'LBL_ADVANCED_TYPE' => 'Rozšířený typ',
     'LBL_SYSOPTS_2' => 'Jaký typ databáze bude použit pro SuiteCRM instanci, kterou chcete instalovat?',
@@ -223,15 +223,15 @@ $mod_strings = array(
     'LBL_CURL_REQUEST_MAIN_PAGE' => 'Curl Request on Main Page',
     'LBL_CURL_REQUEST_API_PAGE' => 'Curl Request on Api',
     'LBL_ERROR_DETAILS' => 'Error Details',
-    'LBL_ERROR' => 'Chyba:',
+    'LBL_ERROR' => 'Error',
     'LBL_WARNING_DETAILS' => 'Warning Details',
-    'LBL_WARNING' => 'Upozornění',
+    'LBL_WARNING' => 'Warning',
     'LBL_SYSTEM_CHECKS' => 'SYSTEM CHECKS',
     'LBL_CRON_INSTRUCTIONS_1' => 'In order to run SuiteCRM Schedulers, edit your web server users crontab file with this command:',
     'LBL_CRON_INSTRUCTIONS_2' => 'and add the following line to the crontab file:',
     'LBL_CRON_INSTRUCTIONS_3' => 'Měli byste to udělat pouze po dokončení instalace.',
     'LBL_CRON_CONFIGURATION' => 'CRON CONFIGURATION',
-    'LBL_SETUP_CRONTAB' => 'Nastavení Crontabu',
+    'LBL_SETUP_CRONTAB' => 'To Setup Crontab',
     'LBL_ROUTE_ACCESS_CHECK' => 'ROUTE ACCESS CHECK',
     'LBL_PHP_MEM_1' => 'Your PHP Memory Limit is ',
     'LBL_PHP_MEM_2' => '. This has to be a minimum of ',
@@ -397,7 +397,7 @@ $mod_strings = array(
     'LBL_ERRORS_FOUND' => ' Errors found: it is recommended that you resolve these before you proceed.',
     'LBL_ERRORS_AND_WARNINGS_FOUND' => 'Error(s) and Warning(s) found: It is recommended that you check and resolve these before you proceed.',
     'LBL_TITLE_WELCOME' => 'Vítejte v SuiteCRM ',
-    'LBL_WELCOME' => 'Vítejte na SuiteCRM',
+    'LBL_WELCOME' => 'Welcome to SuiteCRM',
     //welcome page variables
     'LBL_TITLE_ARE_YOU_READY' => 'Jste připraveni k instalaci?',
     'REQUIRED_SYS_COMP' => 'Požadované systémové komponenty',
@@ -478,7 +478,7 @@ Po přihlášení pomocí výše uvedeného hesla, může být vyžadována změ
     ),
     'advanced_password_forgot_password_email' => array(
         'subject' => 'Obnovit heslo k účtu',
-        'type' => 'systémový',
+        'type' => 'systém',
         'description' => "Tato šablona slouží k odesílání uživateli odkazu pro obnovení hesla.",
         'body' => '<div><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width="550" align=\"\&quot;\&quot;center\&quot;\&quot;\"><tbody><tr><td colspan=\"2\"><p>Nedávno jste požádal na $contact_user_pwd_last_changed o obnovení hesla k vašemu účtu. </p><p>Klikněte na níže uvedený odkaz pro obnovu hesla:</p><p> $contact_user_link_guid </p>  </td>         </tr><tr><td colspan=\"2\"></td>         </tr> </tbody></table> </div>',
         'txt_body' =>
@@ -494,7 +494,7 @@ $contact_user_link_guid',
 
     'two_factor_auth_email' => array(
         'subject' => 'Kód dvoufázového ověření',
-        'type' => 'systémový',
+        'type' => 'systém',
         'description' => "Tato šablona se používá k odesílání kódu pro dvoufaktorové ověřování uživateli.",
         'body' => '<div><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width="550" align=\"\&quot;\&quot;center\&quot;\&quot;\"><tbody><tr><td colspan=\"2\"><p>Kód dvoufaktorového ověření je <b>$code</b>.</p>  </td>         </tr><tr><td colspan=\"2\"></td>         </tr> </tbody></table> </div>',
         'txt_body' =>

@@ -66,8 +66,8 @@ $mod_strings = array(
 
     //document revisions.
     'LBL_REV_LIST_REVISION' => 'نظر ثانی',
-    'LBL_REV_LIST_ENTERED' => 'تاریخ کی تشکیل',
-    'LBL_REV_LIST_CREATED' => 'کی طرف سے بنایا گیا',
+    'LBL_REV_LIST_ENTERED' => 'تاریخ بنائی گئی ہے',
+    'LBL_REV_LIST_CREATED' => 'Created by',
     'LBL_REV_LIST_LOG' => 'لاگ ان کو تبدیل کریں',
     'LBL_REV_LIST_FILENAME' => 'فائل',
 

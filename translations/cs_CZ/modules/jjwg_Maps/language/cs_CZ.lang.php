@@ -72,7 +72,7 @@ $mod_strings['LNK_MAP_LIST'] = 'Seznam map';
 $mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Test geokódingu';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'Rychlá mapa s poloměrem';
 $mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'Žádný';
-$mod_strings['LBL_MAP_ADDRESS'] = 'Adresa:';
+$mod_strings['LBL_MAP_ADDRESS'] = 'Adresa';
 $mod_strings['LBL_MAP_PROCESS'] = 'Zpracuj to!';
 
 $mod_strings['LBL_MAP_LAST_STATUS'] = 'Stav posledního geokódu';
@@ -88,7 +88,7 @@ $mod_strings['LBL_APPROXIMATE'] = 'Přibližně';
 $mod_strings['LBL_EMPTY'] = 'Prázdný';
 
 $mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Celkem';
-$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Obnovit výchozí';
+$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Vynulovat';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = 'Tabulka níže ukazuje počet geokódováných objektů modulu, seskupených podle geokódováných odpovědí. Všimněte si, že výchozí mezní počet dotazů na Google Maps je 2500 žádostí za den. Tento modul bude ukládat do mezipaměti adresy geokodovacích informací během zpracování ke snížení celkového počtu potřebných požadavků.';
 
 $mod_strings['LBL_CRON_INSTRUCTIONS'] = 'Pro zpracování požadavků geokódování je doporučeno nastavit noční Cron-Úlohy. Pro tento účel byl vytvořen vlastní vstupní bod a lze k němu přistupovat bez autentizace. Adresa URL zobrazená dole je určena pro použití s úlohou administrativního plánovače. Více informací naleznete v dokumentaci.';
@@ -108,8 +108,8 @@ $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'Další adresa';
 $mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flexibilní vztah';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Adresa (jednoduchá, uživatelé)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'Vlastní (Vlastní logika řadiče)';
-$mod_strings['LBL_ENABLED'] = 'Aktivní';
-$mod_strings['LBL_DISABLED'] = 'Zablokováno';
+$mod_strings['LBL_ENABLED'] = 'Povoleno';
+$mod_strings['LBL_DISABLED'] = 'Zakázáno';
 $mod_strings['LBL_DEFAULT'] = 'Výchozí:';
 $mod_strings['LBL_CONFIG_DEFAULT'] = 'Výchozí:';
 
@@ -185,7 +185,7 @@ $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = "Důležitá poznámka: Vše
 Připomínáme, že soubor controller.php by neměl být používán k nastavení.";
 $mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Oblasti';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'Značky';
-$mod_strings['LBL_PARENT_ID'] = 'Rodičovské ID ';
+$mod_strings['LBL_PARENT_ID'] = 'Nadřazené ID';
 $mod_strings['LBL_JJWP_PARTNERS'] = 'JJWP partneři';
 $mod_strings['LBL_GET_GOOGLE_API_KEY'] = 'Získat klíč';
 $mod_strings['LBL_GOOGLE_API_KEY'] = 'Klíč Google Api';

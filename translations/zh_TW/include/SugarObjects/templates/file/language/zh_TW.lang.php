@@ -51,8 +51,8 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => '文件搜尋',
     //vardef labels
     'LBL_NAME' => '文件名稱',
-    'LBL_DESCRIPTION' => '描述',
-    'LBL_ASSIGNED_TO' => '負責人:',
+    'LBL_DESCRIPTION' => '說明:',
+    'LBL_ASSIGNED_TO' => 'Assigned to:',
     'LBL_CATEGORY' => '類別',
     'LBL_SUBCATEGORY' => '子類別',
     'LBL_STATUS' => '狀態',
@@ -80,7 +80,7 @@ $mod_strings = array(
     'LBL_SUBCATEGORY_VALUE' => '子類別',
     'LBL_DOC_STATUS' => '狀態:',
     'LBL_DET_TEMPLATE_TYPE' => '文件類型:',
-    'LBL_DOC_DESCRIPTION' => '描述:',
+    'LBL_DOC_DESCRIPTION' => '說明:',
     'LBL_DOC_ACTIVE_DATE' => '公佈日期:',
     'LBL_DOC_EXP_DATE' => '有效期:',
 
@@ -88,24 +88,24 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => '文件清單',
     'LBL_LIST_DOCUMENT' => '文件',
     'LBL_LIST_CATEGORY' => '類別',
-    'LBL_LIST_SUBCATEGORY' => '子類別',
-    'LBL_LIST_REVISION' => '版本',
+    'LBL_LIST_SUBCATEGORY' => 'Sub Category',
+    'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => '最新改版人',
     'LBL_LIST_LAST_REV_DATE' => '改版日期',
     'LBL_LIST_VIEW_DOCUMENT' => '查看',
-    'LBL_LIST_ACTIVE_DATE' => '公佈日期',
-    'LBL_LIST_EXP_DATE' => '有效期',
+    'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
+    'LBL_LIST_EXP_DATE' => 'Expiration Date',
     'LBL_LIST_STATUS' => '狀態',
 
     //document search form.
-    'LBL_SF_CATEGORY' => '類別:',
-    'LBL_SF_SUBCATEGORY' => '子類別',
+    'LBL_SF_CATEGORY' => 'Category:',
+    'LBL_SF_SUBCATEGORY' => 'Sub Category:',
 
     'DEF_CREATE_LOG' => '已創建文件',
 
     //error messages
     'ERR_DOC_NAME' => '文件名稱',
-    'ERR_DOC_ACTIVE_DATE' => '公佈日期',
+    'ERR_DOC_ACTIVE_DATE' => 'Publish Date',
     'ERR_FILENAME' => '文件名',
 
     //sub-panel vardefs.

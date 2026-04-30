@@ -87,31 +87,31 @@ $mod_strings = array(
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'Листа на документи',
     'LBL_LIST_DOCUMENT' => 'Документ',
-    'LBL_LIST_CATEGORY' => 'Категорија',
-    'LBL_LIST_SUBCATEGORY' => 'Подкатегорија',
-    'LBL_LIST_REVISION' => 'Ревизија',
+    'LBL_LIST_CATEGORY' => 'Category',
+    'LBL_LIST_SUBCATEGORY' => 'Sub Category',
+    'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => 'Објавено од',
     'LBL_LIST_LAST_REV_DATE' => 'Даум на ревизија',
     'LBL_LIST_VIEW_DOCUMENT' => 'Прегледај',
-    'LBL_LIST_ACTIVE_DATE' => 'Датум на објава',
-    'LBL_LIST_EXP_DATE' => 'Датум на истекување',
+    'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
+    'LBL_LIST_EXP_DATE' => 'Expiration Date',
     'LBL_LIST_STATUS' => 'Статус',
 
     //document search form.
-    'LBL_SF_CATEGORY' => 'Категорија:',
-    'LBL_SF_SUBCATEGORY' => 'Подкатегорија:',
+    'LBL_SF_CATEGORY' => 'Category:',
+    'LBL_SF_SUBCATEGORY' => 'Sub Category:',
 
     'DEF_CREATE_LOG' => 'Креиран документ',
 
     //error messages
-    'ERR_DOC_NAME' => 'Назив на документ',
-    'ERR_DOC_ACTIVE_DATE' => 'Датум на објава',
+    'ERR_DOC_NAME' => 'Document Name',
+    'ERR_DOC_ACTIVE_DATE' => 'Publish Date',
     'ERR_FILENAME' => 'Име на фајл',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'Назив на документ',
+    'LBL_LIST_DOCUMENT_NAME' => 'Document Name',
 
     'LBL_EDIT_BUTTON' => 'Промени ',
-    'LBL_REMOVE' => 'Отстрани',
+    'LBL_REMOVE' => 'Избриши',
 
 );

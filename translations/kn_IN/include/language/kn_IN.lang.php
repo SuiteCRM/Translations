@@ -140,7 +140,7 @@ $app_list_strings = array(
         'Documents' => 'ದಾಸ್ತವೇಜು',
         'Sync' => 'ಸಿಂಕ್ ಮಾಡಿ',
         'Users' => 'ಬಳಕೆದಾರ',
-        'SugarFavorites' => 'ಸೂಟ್ ಸಿ ಆರ್ ಎಂ ಮೆಚ್ಚಿನವುಗಳು',
+        'SugarFavorites' => 'SuiteCRM ಮೆಚ್ಚಿನವುಗಳು',
 
     ),
 
@@ -357,10 +357,10 @@ $app_list_strings = array(
         86400 => '1 day',
     ),
 
-    'task_priority_default' => 'ಮಧ್ಯಮ',
+    'task_priority_default' => 'ಮಾಧ್ಯಮ',
     'task_priority_dom' => array(
         'High' => 'ಹೆಚ್ಚು',
-        'Medium' => 'ಮಧ್ಯಮ',
+        'Medium' => 'ಮಾಧ್ಯಮ',
         'Low' => 'ಕಡಿಮೆ',
     ),
     'task_status_default' => 'ಪ್ರಾರಂಭಿಸಲಾಗಿಲ್ಲ',
@@ -407,7 +407,7 @@ $app_list_strings = array(
     'case_priority_default_key' => 'P2',
     'case_priority_dom' => array(
         'P1' => 'ಹೆಚ್ಚು',
-        'P2' => 'ಮಧ್ಯಮ',
+        'P2' => 'ಮಾಧ್ಯಮ',
         'P3' => 'ಕಡಿಮೆ',
     ),
     'user_type_dom' => array(
@@ -435,14 +435,14 @@ $app_list_strings = array(
     'project_task_priority_options' => array(
         'High' => 'ಹೆಚ್ಚು',
         'Medium' => 'ಮಧ್ಯಮ',
-        'Low' => 'ಕಡಿಮೆ',
+        'Low' => 'Low',
     ),
-    'project_task_priority_default' => 'ಮಧ್ಯಮ',
+    'project_task_priority_default' => 'ಮಾಧ್ಯಮ',
 
     'project_task_status_options' => array(
         'Not Started' => 'ಪ್ರಾರಂಭಿಸಲಾಗಿಲ್ಲ',
         'In Progress' => 'ಪ್ರಗತಿಯಲ್ಲಿದೆ',
-        'Completed' => 'ಪೂರ್ಣಗೊಂಡಿದೆ',
+        'Completed' => 'ಮುಗಿಯಿತು',
         'Pending Input' => 'ಇನ್ಪುಟ್ ಬಾಕಿಯಿದೆ',
         'Deferred' => 'ಮುಂದೂಡಲಾಗಿದೆ',
     ),
@@ -550,11 +550,11 @@ $app_list_strings = array(
         'AOS_Invoices' => 'ಇನ್ವಾಯ್ಸ್ಗಳು',
         'AOS_Contracts' => 'ಒಪ್ಪಂದಗಳು',
     ),
-    'issue_priority_default_key' => 'ಮಧ್ಯಮ',
+    'issue_priority_default_key' => 'ಮಾಧ್ಯಮ',
     'issue_priority_dom' => array(
         'Urgent' => 'ತುರ್ತು',
         'High' => 'ಹೆಚ್ಚು',
-        'Medium' => 'ಮಧ್ಯಮ',
+        'Medium' => 'ಮಾಧ್ಯಮ',
         'Low' => 'ಕಡಿಮೆ',
     ),
     'issue_resolution_default_key' => '',
@@ -576,11 +576,11 @@ $app_list_strings = array(
         'Rejected' => 'ತಿರಸ್ಕರಿಸಿದೆ',
     ),
 
-    'bug_priority_default_key' => 'ಮಧ್ಯಮ',
+    'bug_priority_default_key' => 'ಮಾಧ್ಯಮ',
     'bug_priority_dom' => array(
         'Urgent' => 'ತುರ್ತು',
         'High' => 'ಹೆಚ್ಚು',
-        'Medium' => 'ಮಧ್ಯಮ',
+        'Medium' => 'ಮಾಧ್ಯಮ',
         'Low' => 'ಕಡಿಮೆ',
     ),
     'bug_resolution_default_key' => '',
@@ -830,19 +830,19 @@ $app_list_strings = array(
         2 => 'You must assign Only Checked Items when Direct Assigning items.',
     ),
     'dom_email_bool' => array(
-        'bool_true' => 'ಹೌದು',
+        'bool_true' => 'Yes',
         'bool_false' => 'ಇಲ್ಲ',
     ),
     'dom_int_bool' => array(
-        1 => 'ಹೌದು',
+        1 => 'Yes',
         0 => 'ಇಲ್ಲ',
     ),
     'dom_int_bool_string' => array(
-        '1' => 'ಹೌದು',
+        '1' => 'Yes',
         '0' => 'ಇಲ್ಲ',
     ),
     'dom_switch_bool' => array(
-        'on' => 'ಹೌದು',
+        'on' => 'Yes',
         'off' => 'ಇಲ್ಲ',
         '' => 'ಇಲ್ಲ',
     ),
@@ -1035,7 +1035,7 @@ $app_list_strings = array(
     ),
 
     'custom_fields_importable_dom' => array(
-        'true' => 'ಹೌದು',
+        'true' => 'Yes',
         'false' => 'ಇಲ್ಲ',
         'required' => 'Required',
     ),
@@ -1050,7 +1050,7 @@ $app_list_strings = array(
 
     'projects_priority_options' => array(
         'high' => 'ಹೆಚ್ಚು',
-        'medium' => 'ಮಧ್ಯಮ',
+        'medium' => 'ಮಾಧ್ಯಮ',
         'low' => 'ಕಡಿಮೆ',
     ),
 
@@ -1487,7 +1487,7 @@ $app_strings = array(
     'LBL_EMAIL_VIEW_RAW' => 'Display Raw Email',
     'LBL_EMAIL_VIEW_UNSUPPORTED' => 'This feature is unsupported when used with POP3.',
     'LBL_DEFAULT_LINK_TEXT' => 'Default link text.',
-    'LBL_EMAIL_YES' => 'ಹೌದು',
+    'LBL_EMAIL_YES' => 'Yes',
     'LBL_EMAIL_TEST_OUTBOUND_SETTINGS' => 'Send Test Email',
     'LBL_EMAIL_TEST_OUTBOUND_SETTINGS_SENT' => 'Test Email Sent',
     'LBL_EMAIL_MESSAGE_NO' => 'Message No',
@@ -1582,7 +1582,7 @@ $app_strings = array(
     'LBL_COMPOSE_EMAIL_BUTTON_KEY' => 'L',
     'LBL_COMPOSE_EMAIL_BUTTON_LABEL' => 'Compose Email',
     'LBL_COMPOSE_EMAIL_BUTTON_TITLE' => 'Compose Email',
-    'LBL_SEARCH_DROPDOWN_YES' => 'ಹೌದು',
+    'LBL_SEARCH_DROPDOWN_YES' => 'Yes',
     'LBL_SEARCH_DROPDOWN_NO' => 'ಇಲ್ಲ',
     'LBL_CONTACT_LIST' => 'Contact List',
     'LBL_CONTACT' => 'ಸಂಪರ್ಕ',
@@ -2430,10 +2430,10 @@ $app_strings = array(
 
 $app_list_strings['moduleList']['Library'] = 'Library';
 $app_list_strings['moduleList']['EmailAddresses'] = 'ಮಿಂಚೆ ವಿಳಾಸ';
-$app_list_strings['project_priority_default'] = 'ಮಧ್ಯಮ';
+$app_list_strings['project_priority_default'] = 'ಮಾಧ್ಯಮ';
 $app_list_strings['project_priority_options'] = array(
     'High' => 'ಹೆಚ್ಚು',
-    'Medium' => 'ಮಧ್ಯಮ',
+    'Medium' => 'ಮಾಧ್ಯಮ',
     'Low' => 'ಕಡಿಮೆ',
 );
 
@@ -4074,7 +4074,7 @@ $app_strings['LBL_LINE_ITEMS_FIELD_CONFIG'] = 'Bad config';
 
 $app_strings['LBL_ACTION_SUCCESS'] = 'Action successful';
 
-$app_strings['LBL_YES'] = 'ಹೌದು';
+$app_strings['LBL_YES'] = 'Yes';
 $app_strings['LBL_NO'] = 'ಇಲ್ಲ';
 
 $app_list_strings['sort_order'] = [];
@@ -4162,7 +4162,7 @@ $app_strings['LBL_RELATED_TO'] = 'Related To';
 $app_strings['LBL_OUTBOUND_EMAIL_NAME_COMPOSE_LABEL'] = '{{fields.smtp_from_name}}';
 $app_strings['LBL_OUTBOUND_EMAIL_NAME_COMPOSE_SUB_LABEL'] = '{{fields.smtp_from_addr}}';
 $app_strings['LBL_SMALL'] = 'Small';
-$app_strings['LBL_MEDIUM'] = 'ಮಧ್ಯಮ';
+$app_strings['LBL_MEDIUM'] = 'ಮಾಧ್ಯಮ';
 $app_strings['LBL_NORMAL'] = 'Normal';
 $app_strings['LBL_LARGE'] = 'Large';
 $app_strings['LBL_HUGE'] = 'Huge';

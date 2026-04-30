@@ -44,12 +44,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_EMAIL_ADDRESS_ID' => 'ID',
-    'LBL_EMAIL_ADDRESS' => 'E-post:',
+    'LBL_EMAIL_ADDRESS' => 'Email Address',
     'LBL_EMAIL_ADDRESS_CAPS' => 'Tõstutundlikud e-postiaadressid',
-    'LBL_INVALID_EMAIL' => 'Kehtetu e-post:',
-    'LBL_OPT_OUT' => 'Väljavalitud',
+    'LBL_INVALID_EMAIL' => 'Invalid Email',
+    'LBL_OPT_OUT' => 'Opted Out',
     'LBL_CONFIRM_OPT_IN' => 'Kinnita tellimus',
     'LBL_DATE_CREATE' => 'Loomiskuupäev',
-    'LBL_DATE_MODIFIED' => 'Muutmiskuupäev',
-    'LBL_DELETED' => 'Kustuta',
+    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_DELETED' => 'Delete',
 );

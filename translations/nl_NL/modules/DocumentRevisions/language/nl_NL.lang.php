@@ -50,25 +50,25 @@ $mod_strings = array(
     'LNK_DOCUMENT_LIST' => 'Documentenlijst',
 
     //vardef labels
-    'LBL_REVISION_NAME' => 'Revisienummer',
-    'LBL_FILENAME' => 'Bestandsnaam',
-    'LBL_MIME' => 'Mime type',
+    'LBL_REVISION_NAME' => 'Revisie nummer',
+    'LBL_FILENAME' => 'Bestand:',
+    'LBL_MIME' => 'Mediatype',
     'LBL_REVISION' => 'Revisie',
     'LBL_DOCUMENT' => 'Gerelateerd document',
     'LBL_LATEST_REVISION' => 'Laatste revisie',
-    'LBL_CHANGE_LOG' => 'Wijzigingen log',
-    'LBL_ACTIVE_DATE' => 'Plaatsings datum',
-    'LBL_EXPIRATION_DATE' => 'Geldig tot',
+    'LBL_CHANGE_LOG' => 'Logboek',
+    'LBL_ACTIVE_DATE' => 'Publicatiedatum',
+    'LBL_EXPIRATION_DATE' => 'Vervaldatum',
     'LBL_FILE_EXTENSION' => 'Bestandsextensie',
 
-    'LBL_DOC_NAME' => 'Document naam:',
+    'LBL_DOC_NAME' => 'Documentnaam:',
     'LBL_DOC_VERSION' => 'Revisie:',
 
     //document revisions.
     'LBL_REV_LIST_REVISION' => 'Revisie',
-    'LBL_REV_LIST_ENTERED' => 'Datum aangemaakt',
+    'LBL_REV_LIST_ENTERED' => 'Aangemaakt op',
     'LBL_REV_LIST_CREATED' => 'Aangemaakt door',
-    'LBL_REV_LIST_LOG' => 'Wijzigingen log',
+    'LBL_REV_LIST_LOG' => 'Logboek',
     'LBL_REV_LIST_FILENAME' => 'Bestand',
 
     'LBL_CURRENT_DOC_VERSION' => 'Laatste revisie:',
@@ -80,7 +80,7 @@ $mod_strings = array(
     'ERR_DOC_VERSION' => 'Document versie',
     'ERR_DELETE_CONFIRM' => 'Wil je deze revisie van het document verwijderen?',
     'ERR_DELETE_LATEST_VERSION' => 'Je mag de laatste revisie van een document niet verwijderen.',
-    'LNK_NEW_MAIL_MERGE' => 'Mail merge',
+    'LNK_NEW_MAIL_MERGE' => 'Mail Samenvoegen',
     'LBL_DOC_ID' => 'Document bron ID',
     'LBL_DOC_TYPE' => 'Bron',
     'LBL_DOC_URL' => 'Document bron URL',

@@ -88,7 +88,7 @@ $mod_strings = array(
     'LNK_NEW_MEETING' => 'Make you Schedule Meeting',
     'LNK_NEW_NOTE' => 'Make you Create Note or Attachment',
     'LNK_NEW_OPPORTUNITY' => 'Create Opportunity',
-    'LNK_NEW_TASK' => 'Create Task',
+    'LNK_NEW_TASK' => 'Make you Create Task',
     'NTC_NO_LEGENDS' => 'None',
 
     'LBL_TITLE' => 'Title:',

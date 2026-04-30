@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ROLE' => 'Vai trò',
-    'LBL_NAME' => 'Tên',
+    'LBL_NAME' => 'tên',
     'LBL_DESCRIPTION' => 'Mô tả',
     'LIST_ROLES' => 'Danh sách vai trò',
     'LBL_USERS_SUBPANEL_TITLE' => 'Người dùng',

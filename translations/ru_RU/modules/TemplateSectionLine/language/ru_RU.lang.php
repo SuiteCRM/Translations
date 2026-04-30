@@ -44,11 +44,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_DESCRIPTION' => 'Описание',
-    'LBL_NAME' => 'Имя',
-    'LBL_LIST_NAME' => 'Имя',
-    'LBL_EDIT_BUTTON' => 'Правка',
-    'LBL_REMOVE' => 'Удалить',
-    'LBL_GRP' => 'Группировка',
-    'LBL_ORD' => 'Сортировка',
+    'LBL_NAME' => 'Название',
+    'LBL_LIST_NAME' => 'Название',
+    'LBL_EDIT_BUTTON' => 'Править',
+    'LBL_REMOVE' => 'Remove',
+    'LBL_GRP' => 'Групповая',
+    'LBL_ORD' => 'Order',
     'LBL_THUMBNAIL' => 'Эскиз',
 );

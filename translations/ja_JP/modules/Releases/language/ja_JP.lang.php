@@ -43,19 +43,19 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'リリース',
+    'LBL_MODULE_NAME' => 'Releases',
     'LBL_MODULE_TITLE' => 'リリース: ホーム',
     'LBL_SEARCH_FORM_TITLE' => 'リリース検索',
     'LBL_LIST_FORM_TITLE' => 'リリース一覧',
     'LBL_NEW_FORM_TITLE' => 'リリース作成',
-    'LBL_RELEASE' => 'リリース:',
-    'LBL_LIST_NAME' => 'リリース',
+    'LBL_RELEASE' => 'Release:',
+    'LBL_LIST_NAME' => 'Release',
     'LBL_NAME' => 'リリースバージョン:',
-    'LBL_LIST_LIST_ORDER' => '注文',
-    'LBL_LIST_ORDER' => '順番:',
-    'LBL_LIST_STATUS' => 'ステータス',
-    'LBL_STATUS' => 'ステータス:',
-    'LNK_NEW_RELEASE' => 'リリース一覧',
+    'LBL_LIST_LIST_ORDER' => 'Order',
+    'LBL_LIST_ORDER' => 'Order:',
+    'LBL_LIST_STATUS' => 'Status',
+    'LBL_STATUS' => 'Status:',
+    'LNK_NEW_RELEASE' => 'Release List',
     'NTC_DELETE_CONFIRMATION' => '本当にこのレコードを削除してよいですか?',
     'NTC_SNOOZE_CONFIRMATION' => '本当にスヌーズしますか？',
     'ERR_DELETE_RECORD' => 'リリースを削除するためにはレコード番号を指定してください。',
@@ -63,8 +63,8 @@ $mod_strings = array(
     'NTC_LIST_ORDER' => 'この順番はリリースドロップダウンリストの表示順に反映されます。',
     'release_status_dom' =>
         array(
-            'Active' => '有効なアカウント',
-            'Inactive' => '非アクティブ',
+            'Active' => '稼働中',
+            'Inactive' => 'Inactive',
         ),
-    'LBL_EDITLAYOUT' => 'レイアウト編集' /*for 508 compliance fix*/,
+    'LBL_EDITLAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
 );

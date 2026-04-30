@@ -66,8 +66,8 @@ $app_list_strings = array(
     $object_name . '_resolution_dom' => array(
         '' => '',
         'Accepted' => 'Apstiprināts',
-        'Duplicate' => 'Dublicēt',
-        'Closed' => 'Slēgts',
+        'Duplicate' => 'Duplicate',
+        'Closed' => 'Closed',
         'Out of Date' => 'Novecojis',
         'Invalid' => 'nederīgs',
     ),

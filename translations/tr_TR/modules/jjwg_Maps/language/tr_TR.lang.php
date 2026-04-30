@@ -85,7 +85,7 @@ $mod_strings['LBL_ZERO_RESULTS'] = 'Sonuç bulunamadı';
 $mod_strings['LBL_OK'] = 'Tamam';
 $mod_strings['LBL_INVALID_REQUEST'] = 'İstek geçersiz';
 $mod_strings['LBL_APPROXIMATE'] = 'Yaklaşık';
-$mod_strings['LBL_EMPTY'] = 'Boş';
+$mod_strings['LBL_EMPTY'] = 'Empty';
 
 $mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Toplam';
 $mod_strings['LBL_MODULE_RESET_HEADING'] = 'Sıfırla';

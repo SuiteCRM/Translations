@@ -112,6 +112,6 @@ $mod_strings = array(
     'LBL_LIST_DOCUMENT_NAME' => 'Document Name',
 
     'LBL_EDIT_BUTTON' => 'Edit ',
-    'LBL_REMOVE' => 'Verwyder',
+    'LBL_REMOVE' => 'Remove',
 
 );

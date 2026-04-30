@@ -42,19 +42,19 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_ASSIGNED_TO_ID'] = 'Magtalaga ng nagagamit sa Id';
-$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Magtalaga sa';
-$mod_strings['LBL_ID'] = 'ID';
-$mod_strings['LBL_DATE_ENTERED'] = 'Lumikha ng Petsa';
-$mod_strings['LBL_DATE_MODIFIED'] = 'Petsang binago';
+$mod_strings['LBL_ASSIGNED_TO_ID'] = 'Ang nagagamit sa Id ay nagtalaga';
+$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Magtakda sa';
+$mod_strings['LBL_ID'] = 'Ang ID';
+$mod_strings['LBL_DATE_ENTERED'] = 'Ang petsa ay lumikha';
+$mod_strings['LBL_DATE_MODIFIED'] = 'Ang petsa ay binago';
 $mod_strings['LBL_MODIFIED'] = 'Binago kay';
-$mod_strings['LBL_MODIFIED_NAME'] = 'Binago sa pamamagitan ng pangalan';
+$mod_strings['LBL_MODIFIED_NAME'] = 'Sa pamamagitan ng pangalan ay binago';
 $mod_strings['LBL_CREATED'] = 'Nilikha ni';
-$mod_strings['LBL_DESCRIPTION'] = 'Paglalarawan';
-$mod_strings['LBL_DELETED'] = 'Nabura';
+$mod_strings['LBL_DESCRIPTION'] = 'Ang Paglalarawan';
+$mod_strings['LBL_DELETED'] = 'Ang Nabura';
 $mod_strings['LBL_NAME'] = 'Tirahan';
 $mod_strings['LBL_CREATED_USER'] = 'Nililikha sa pamamagitan ng Gumagamit';
-$mod_strings['LBL_MODIFIED_USER'] = 'Binago sa pamamagitan ng gumagamit';
+$mod_strings['LBL_MODIFIED_USER'] = 'Ang Binago sa pamamagitan ng gumagamit';
 $mod_strings['LBL_LIST_NAME'] = 'Tirahan';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'Ang listahan ng cache address';
 $mod_strings['LBL_MODULE_NAME'] = 'I-address ang cache';

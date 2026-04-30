@@ -42,9 +42,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_ASSIGNED_TO_ID'] = 'पहचानकर्ता कुंजी:
-$मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_आईडी\']
-$मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_आईडी\']';
+$mod_strings['LBL_ASSIGNED_TO_ID'] = 'असाइन किया गया उपयोगकर्ता आईडी';
 $mod_strings['LBL_ASSIGNED_TO_NAME'] = 'को सौंपना';
 $mod_strings['LBL_ID'] = 'आईडी';
 $mod_strings['LBL_DATE_ENTERED'] = 'बनाया गया दिनांक';
@@ -52,8 +50,8 @@ $mod_strings['LBL_DATE_MODIFIED'] = 'तिथि संशोधित';
 $mod_strings['LBL_MODIFIED'] = 'द्वारा संशोधित';
 $mod_strings['LBL_MODIFIED_NAME'] = 'नाम से संशोधित';
 $mod_strings['LBL_CREATED'] = 'के द्वारा बनाई गई';
-$mod_strings['LBL_DESCRIPTION'] = 'विवरण';
-$mod_strings['LBL_DELETED'] = 'हटाई गई';
+$mod_strings['LBL_DESCRIPTION'] = 'विवरण ';
+$mod_strings['LBL_DELETED'] = 'हटाए गए';
 $mod_strings['LBL_NAME'] = 'पता';
 $mod_strings['LBL_CREATED_USER'] = 'उपयोगकर्ता द्वारा बनाया गया';
 $mod_strings['LBL_MODIFIED_USER'] = 'उपयोगकर्ता द्वारा संशोधित';

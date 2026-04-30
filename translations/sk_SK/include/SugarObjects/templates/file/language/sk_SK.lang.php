@@ -51,7 +51,7 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Vyhľadávanie dokumentov',
     //vardef labels
     'LBL_NAME' => 'Názov dokumentu',
-    'LBL_DESCRIPTION' => 'Popis',
+    'LBL_DESCRIPTION' => 'Popis:',
     'LBL_ASSIGNED_TO' => 'Priradené ku:',
     'LBL_CATEGORY' => 'Kategória',
     'LBL_SUBCATEGORY' => 'Pod kategória',
@@ -99,7 +99,7 @@ $mod_strings = array(
 
     //document search form.
     'LBL_SF_CATEGORY' => 'Kategória:',
-    'LBL_SF_SUBCATEGORY' => 'Pod kategória:',
+    'LBL_SF_SUBCATEGORY' => 'Pod kategórie:',
 
     'DEF_CREATE_LOG' => 'Dokument vytvorený',
 

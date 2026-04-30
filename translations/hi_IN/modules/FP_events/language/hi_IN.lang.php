@@ -43,9 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
                 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'पहचानकर्ता कुंजी:
-$मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_आईडी\']
-$मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_आईडी\']',
+    'LBL_ASSIGNED_TO_ID' => 'असाइन किया गया उपयोगकर्ता आईडी',
     'LBL_ASSIGNED_TO_NAME' => 'को सौंपना',
     'LBL_ID' => 'आईडी',
     'LBL_DATE_ENTERED' => 'बनाया गया दिनांक',
@@ -53,14 +51,14 @@ $मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_�
     'LBL_MODIFIED' => 'द्वारा संशोधित',
     'LBL_MODIFIED_NAME' => 'नाम से संशोधित',
     'LBL_CREATED' => 'के द्वारा बनाई गई',
-    'LBL_DESCRIPTION' => 'विवरण',
-    'LBL_DELETED' => 'हटाई गई',
+    'LBL_DESCRIPTION' => 'विवरण ',
+    'LBL_DELETED' => 'हटाए गए',
     'LBL_NAME' => 'नाम',
     'LBL_CREATED_USER' => 'उपयोगकर्ता द्वारा बनाया गया',
     'LBL_MODIFIED_USER' => 'उपयोगकर्ता द्वारा संशोधित',
     'LBL_LIST_NAME' => 'नाम',
-    'LBL_EDIT_BUTTON' => 'संशोधन करें',
-    'LBL_REMOVE' => 'हटाऐं',
+    'LBL_EDIT_BUTTON' => 'संपादित करें',
+    'LBL_REMOVE' => 'हटाएँ',
     'LBL_LIST_FORM_TITLE' => 'घटना सूची',
     'LBL_MODULE_NAME' => 'घटना',
     'LBL_MODULE_TITLE' => 'घटना',
@@ -88,7 +86,7 @@ $मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_�
     'LBL_SELECT_DELEGATES_TITLE' => 'प्रतिनिधियों का चयन करें:-',
     'LBL_SELECT_DELEGATES_TARGET_LIST' => 'लक्ष्य सूची',
     'LBL_SELECT_DELEGATES_TARGETS' => 'लक्ष्यों को ',
-    'LBL_SELECT_DELEGATES_CONTACTS' => 'संपर्कों',
+    'LBL_SELECT_DELEGATES_CONTACTS' => 'संपर्क',
     'LBL_SELECT_DELEGATES_LEADS' => 'नेतृत्व',
     'LBL_MANAGE_DELEGATES' => 'प्रतिनिधियों को प्रबंधित करें',
     'LBL_MANAGE_DELEGATES_TITLE' => 'प्रतिनिधियों को प्रबंधित करें:-',
@@ -109,8 +107,8 @@ $मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_�
     'LBL_ERROR_MSG_5' => 'अमान्य ईमेल टेम्प्लेट',
     'LBL_EMAIL_INVITE' => 'ईमेल आमंत्रण',
 
-    'LBL_FP_EVENTS_CONTACTS_FROM_CONTACTS_TITLE' => 'संपर्कों',
-    'LBL_FP_EVENT_LOCATIONS_FP_EVENTS_1_FROM_FP_EVENT_LOCATIONS_TITLE' => 'जगहे',
+    'LBL_FP_EVENTS_CONTACTS_FROM_CONTACTS_TITLE' => 'संपर्क',
+    'LBL_FP_EVENT_LOCATIONS_FP_EVENTS_1_FROM_FP_EVENT_LOCATIONS_TITLE' => 'स्थानों',
     'LBL_FP_EVENTS_LEADS_1_FROM_LEADS_TITLE' => 'नेतृत्व',
     'LBL_FP_EVENTS_PROSPECTS_1_FROM_PROSPECTS_TITLE' => 'लक्ष्यों को ',
 

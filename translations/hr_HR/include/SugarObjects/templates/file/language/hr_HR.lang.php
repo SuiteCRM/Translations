@@ -51,8 +51,8 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Pretraga dokumenata',
     //vardef labels
     'LBL_NAME' => 'Naziv dokumenta',
-    'LBL_DESCRIPTION' => 'Opis',
-    'LBL_ASSIGNED_TO' => 'Dodijeljeno:',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_ASSIGNED_TO' => 'Assigned to:',
     'LBL_CATEGORY' => 'Kategorija',
     'LBL_SUBCATEGORY' => 'Podkategorija',
     'LBL_STATUS' => 'Status',
@@ -80,38 +80,38 @@ $mod_strings = array(
     'LBL_SUBCATEGORY_VALUE' => 'Podkategorija:',
     'LBL_DOC_STATUS' => 'Status:',
     'LBL_DET_TEMPLATE_TYPE' => 'Tip dokumenta:',
-    'LBL_DOC_DESCRIPTION' => 'Opis',
+    'LBL_DOC_DESCRIPTION' => 'Opis:',
     'LBL_DOC_ACTIVE_DATE' => 'Datum objave:',
     'LBL_DOC_EXP_DATE' => 'Datum isteka:',
 
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'Lista dokumenata',
     'LBL_LIST_DOCUMENT' => 'Dokument',
-    'LBL_LIST_CATEGORY' => 'Kategorija',
-    'LBL_LIST_SUBCATEGORY' => 'Podkategorija',
-    'LBL_LIST_REVISION' => 'Revizja',
+    'LBL_LIST_CATEGORY' => 'Category',
+    'LBL_LIST_SUBCATEGORY' => 'Sub Category',
+    'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => 'Objavljeno od',
     'LBL_LIST_LAST_REV_DATE' => 'Datum revizije',
     'LBL_LIST_VIEW_DOCUMENT' => 'Pregledaj',
-    'LBL_LIST_ACTIVE_DATE' => 'Datum objave',
-    'LBL_LIST_EXP_DATE' => 'Datum isteka',
+    'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
+    'LBL_LIST_EXP_DATE' => 'Expiration Date',
     'LBL_LIST_STATUS' => 'Status',
 
     //document search form.
-    'LBL_SF_CATEGORY' => 'Kategorija:',
-    'LBL_SF_SUBCATEGORY' => 'Podkategorija:',
+    'LBL_SF_CATEGORY' => 'Category:',
+    'LBL_SF_SUBCATEGORY' => 'Sub Category:',
 
     'DEF_CREATE_LOG' => 'Dokument kreiran',
 
     //error messages
-    'ERR_DOC_NAME' => 'Naziv dokumenta',
-    'ERR_DOC_ACTIVE_DATE' => 'Datum objave',
+    'ERR_DOC_NAME' => 'Document Name',
+    'ERR_DOC_ACTIVE_DATE' => 'Publish Date',
     'ERR_FILENAME' => 'Naziv datoteke',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'Naziv dokumenta',
+    'LBL_LIST_DOCUMENT_NAME' => 'Document Name',
 
     'LBL_EDIT_BUTTON' => 'Uredi',
-    'LBL_REMOVE' => 'Ukloni',
+    'LBL_REMOVE' => 'Remove',
 
 );

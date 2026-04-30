@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_DESCRIPTION' => 'توضیحات',
+    'LBL_DESCRIPTION' => 'Description',
     'LBL_NAME' => 'نام',
     'LBL_LIST_NAME' => 'نام',
     'LBL_EDIT_BUTTON' => 'ویرایش',
-    'LBL_REMOVE' => 'حذف',
-    'LBL_GRP' => 'گروه',
-    'LBL_ORD' => 'ترتیب',
+    'LBL_REMOVE' => 'Remove',
+    'LBL_GRP' => 'Group',
+    'LBL_ORD' => 'Order',
     'LBL_THUMBNAIL' => 'Thumbnail',
 );

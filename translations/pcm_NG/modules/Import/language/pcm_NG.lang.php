@@ -109,7 +109,7 @@ $mod_strings = array(
     'LBL_MICROSOFT_OUTLOOK_HELP' => 'De custom mappings for Microsoft Outlook get hope on import file because say na im be comma-delimited (.csv). If your import file dey tab-delimited, de mappings no go  apply as u dey expect am.fit',
     'LBL_SALESFORCE' => 'Salesforce.com',
     'LBL_PUBLISH' => 'Publish',
-    'LBL_DELETE' => 'Commot',
+    'LBL_DELETE' => 'Delete ',
     'LBL_PUBLISHED_SOURCES' => 'If u wan use pre-set import settings, u go select from below:
 ',
     'LBL_UNPUBLISH' => 'Un-Publish',
@@ -236,7 +236,7 @@ $mod_strings = array(
     'LBL_ERROR_IMPORT_CACHE_NOT_WRITABLE' => 'Import cache directory wey de no dey write.',
     'LBL_ADD_FIELD_HELP' => 'Use dis option add value for field for all de records wey don create and/or wey don update. Select de field then put or select value for that field wey dey Default Value column.',
     'LBL_MISSING_HEADER_ROW' => 'No Header Row wey e don Find',
-    'LBL_CANCEL' => 'Clean am',
+    'LBL_CANCEL' => 'Cancel',
     'LBL_SELECT_DS_INSTRUCTION' => 'U don ready to begin import? Select de source for de data wey u go like to import.',
     'LBL_SELECT_UPLOAD_INSTRUCTION' => 'Select file for your computer wey contain de data wey u go like to import, or download de template make u get head start to dey create de import file.',
     'LBL_SELECT_PROPERTY_INSTRUCTION' => 'See how de first plenty rows of de import file appear wit de file properties wey e don detect. If e don detect header row, e go show for de top row of de table. View de import file properties so that u go fit change to de properties wey e don detect and to set extra properties. If u update de settings e go update de data wey appear  for de table.',

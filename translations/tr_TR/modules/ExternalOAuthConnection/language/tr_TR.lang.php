@@ -44,9 +44,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
 
-    'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kodu',
+    'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kimliği',
     'LBL_ASSIGNED_TO_NAME' => 'Atanmış kişi',
-    'LBL_ID' => 'Kod',
+    'LBL_ID' => 'Kimlik',
     'LBL_DATE_ENTERED' => 'Eklenme tarihi',
     'LBL_DATE_MODIFIED' => 'Değiştirilme tarihi',
     'LBL_MODIFIED' => 'Değiştiren',
@@ -54,11 +54,11 @@ $mod_strings = [
     'LBL_CREATED' => 'Ekleyen',
     'LBL_DESCRIPTION' => 'Açıklama',
     'LBL_DELETED' => 'Silindi',
-    'LBL_NAME' => 'Ad',
+    'LBL_NAME' => 'İsim',
     'LBL_CREATED_USER' => 'Ekleyen kullanıcı',
     'LBL_MODIFIED_USER' => 'Değiştiren kullanıcı',
-    'LBL_LIST_NAME' => 'Ad',
-    'LBL_EDIT_BUTTON' => 'Düzenle',
+    'LBL_LIST_NAME' => 'Paket Adı:',
+    'LBL_EDIT_BUTTON' => 'Değiştir',
     'LBL_REMOVE' => 'Sil',
     'LBL_LIST_FORM_TITLE' => 'Dış OAuth bağlantıları listesi',
     'LBL_MODULE_NAME' => 'Dış OAuth bağlantıları',
@@ -69,13 +69,13 @@ $mod_strings = [
     'LNK_LIST' => 'Dış OAuth bağlantıları',
     'LBL_SEARCH_FORM_TITLE' => 'Dış OAuth bağlantısı arama',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Geçmişi görüntüle',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'İşlemler',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Etkinlikler',
     'LBL_NEW_FORM_TITLE' => 'Dış OAuth bağlantısı ekle',
 
     'LBL_LIST_DELETE' => 'Sil',
     'LBL_TYPE' => 'Tür',
 
-    'LBL_CLIENT_ID' => 'İstemci kodu',
+    'LBL_CLIENT_ID' => 'İstemci kimliği',
     'LBL_CLIENT_SECRET' => 'İstemci parolası',
     'LBL_TOKEN_TYPE' => 'Kod türü',
     'LBL_EXPIRES_IN' => 'Geçerlilik sonu',
@@ -88,10 +88,10 @@ $mod_strings = [
 
     'LBL_EXTERNAL_OAUTH_PROVIDER' => 'Hizmet sağlayıcı',
     'LBL_EXTERNAL_OAUTH_PROVIDER_NAME' => 'Hizmet sağlayıcı',
-    'LBL_EXTERNAL_OAUTH_PROVIDER_ID' => 'Hizmet sağlayıcı kodu',
+    'LBL_EXTERNAL_OAUTH_PROVIDER_ID' => 'Hizmet sağlayıcı kimliği',
 
-    'LNK_LIST_CREATE_NEW_PERSONAL' => 'Yeni kişisel bağlantı',
-    'LNK_LIST_CREATE_NEW_GROUP' => 'Yeni grup bağlantısı',
+    'LNK_LIST_CREATE_NEW_PERSONAL' => 'Kişisel bağlantı ekle',
+    'LNK_LIST_CREATE_NEW_GROUP' => 'Grup bağlantısı ekle',
     'LNK_LIST_INBOUND_EMAILS' => 'Gelen e-posta hesapları',
     'LNK_LIST_OUTBOUND_EMAILS' => 'Giden e-posta hesapları',
     'LNK_LIST_EXTERNAL_OAUTH_PROVIDERS' => 'Dış OAuth hizmeti sağlayıcıları',

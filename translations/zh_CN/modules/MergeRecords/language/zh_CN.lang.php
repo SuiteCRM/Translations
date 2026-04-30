@@ -58,15 +58,15 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => '执行合并',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => '执行合并',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => '保存合并',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => '保存合并',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => '发现要合并的记录',
     'LBL_SELECT_ERROR' => '在继续之前，您必须进行选择。',
     'LBL_CHANGE_PARENT' => '设置主记录',
-    'LBL_REMOVE_FROM_MERGE' => '移除',
+    'LBL_REMOVE_FROM_MERGE' => '删除',
     'LBL_DIFF_COL_VALUES' => '在主记录行与合并行中，值不相同的列：',
     'LBL_SAME_COL_VALUES' => '在所有行中相似的列值',
     'LBL_DELETE_MESSAGE' => '此操作将删除下列记录：',

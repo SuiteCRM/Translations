@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_DESCRIPTION' => 'Opis',
-    'LBL_NAME' => 'Ime',
-    'LBL_LIST_NAME' => 'Ime',
-    'LBL_EDIT_BUTTON' => 'Uredi',
-    'LBL_REMOVE' => 'Odstrani',
-    'LBL_GRP' => 'Skupina',
-    'LBL_ORD' => 'vrstni red',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_NAME' => 'Name',
+    'LBL_LIST_NAME' => 'Name',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
+    'LBL_GRP' => 'Group',
+    'LBL_ORD' => 'Vrstni red',
     'LBL_THUMBNAIL' => 'Sličica',
 );

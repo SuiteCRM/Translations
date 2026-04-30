@@ -54,7 +54,7 @@ $mod_strings = array(
     'LBL_NAME' => 'Անվանում',
     'LBL_CREATED_USER' => 'Փոփոխված է օգտագործողի կողմից ',
     'LBL_MODIFIED_USER' => 'Փոփոխված է օգտագործողի կողմից',
-    'LBL_LIST_NAME' => 'Անվանում',
+    'LBL_LIST_NAME' => 'Name',
     'LBL_EDIT_BUTTON' => 'Խմբագրել',
     'LBL_REMOVE' => 'Հեռացնել',
 

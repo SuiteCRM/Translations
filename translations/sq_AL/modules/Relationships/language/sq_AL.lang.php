@@ -58,5 +58,5 @@ $mod_strings = array(
     'LBL_RELATIONSHIP_ROLE_COLUMN' => 'Emri i kolonës së rolit të lidhjes',
     'LBL_RELATIONSHIP_ROLE_COLUMN_VALUE' => 'vlera e kolonës së rolit të lidhjes',
     'LBL_REVERSE' => 'e kundërta',
-    'LBL_DELETED' => 'E fshirë',
+    'LBL_DELETED' => 'Deleted',
 );

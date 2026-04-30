@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Daftar Merge',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Langkah 1: Cari Pencarian Records untuk Merge Dengan',
-    'LBL_AVAIL_FIELDS' => 'Field yang tersedia',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'Filter Kondisi',
     'LBL_MERGE_VALUE_OVER' => 'Merge nilai dengan',
 
@@ -58,15 +58,15 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Lakukan Merge',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Lakukan Merge',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Simpan Merge',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Simpan Merge',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => 'Records Found Untuk Bergabung Dengan:',
     'LBL_SELECT_ERROR' => 'Anda harus membuat pilihan sebelum Anda dapat melanjutkan.',
     'LBL_CHANGE_PARENT' => 'Atur sebagai primer',
-    'LBL_REMOVE_FROM_MERGE' => 'Menghapus',
+    'LBL_REMOVE_FROM_MERGE' => 'Remove',
     'LBL_DIFF_COL_VALUES' => 'Kolom yang nilainya di baris utama berbeda dari penggabungan nilai dalam baris:',
     'LBL_SAME_COL_VALUES' => 'Kolom yang nilainya sama di semua baris:',
     'LBL_DELETE_MESSAGE' => 'Tindakan ini akan menghapus catatan berikut:',

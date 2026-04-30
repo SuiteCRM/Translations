@@ -44,21 +44,21 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
 
-    'LBL_ASSIGNED_TO_ID' => 'ID ответственного',
+    'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)',
     'LBL_ASSIGNED_TO_NAME' => 'Ответственное лицо',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Дата создания',
     'LBL_DATE_MODIFIED' => 'Дата изменения',
     'LBL_MODIFIED' => 'Изменено',
-    'LBL_MODIFIED_NAME' => 'Изменено (Имя)',
-    'LBL_CREATED' => 'Создано',
+    'LBL_MODIFIED_NAME' => 'Изменено',
+    'LBL_CREATED' => 'Кем создано',
     'LBL_DESCRIPTION' => 'Описание',
     'LBL_DELETED' => 'Удалено',
-    'LBL_NAME' => 'Имя',
+    'LBL_NAME' => 'Название',
     'LBL_CREATED_USER' => 'Создано',
     'LBL_MODIFIED_USER' => 'Изменено',
-    'LBL_LIST_NAME' => 'Имя',
-    'LBL_EDIT_BUTTON' => 'Правка',
+    'LBL_LIST_NAME' => 'Название',
+    'LBL_EDIT_BUTTON' => 'Править',
     'LBL_REMOVE' => 'Удалить',
     'LBL_LIST_FORM_TITLE' => 'External OAuth Connection List',
     'LBL_MODULE_NAME' => 'Внешние OAuth соединения',
@@ -72,7 +72,7 @@ $mod_strings = [
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
     'LBL_NEW_FORM_TITLE' => 'New External OAuth Connection',
 
-    'LBL_LIST_DELETE' => 'Удаление',
+    'LBL_LIST_DELETE' => 'Удалить',
     'LBL_TYPE' => 'Тип',
 
     'LBL_CLIENT_ID' => 'Client Id',
@@ -96,5 +96,5 @@ $mod_strings = [
     'LNK_LIST_OUTBOUND_EMAILS' => 'Серверы исходящей почты (SMTP)',
     'LNK_LIST_EXTERNAL_OAUTH_PROVIDERS' => 'Внешние OAuth провайдеры',
 
-    'LBL_OWNER' => 'Владелец',
+    'LBL_OWNER' => 'Owner',
 ];

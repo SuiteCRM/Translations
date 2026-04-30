@@ -43,9 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'पहचानकर्ता कुंजी:
-$मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_आईडी\']
-$मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_आईडी\']',
+    'LBL_ASSIGNED_TO_ID' => 'असाइन किया गया उपयोगकर्ता आईडी',
     'LBL_ASSIGNED_TO_NAME' => 'को सौंपना',
     'LBL_ID' => 'आईडी',
     'LBL_DATE_ENTERED' => 'बनाया गया दिनांक',
@@ -53,14 +51,14 @@ $मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_�
     'LBL_MODIFIED' => 'द्वारा संशोधित',
     'LBL_MODIFIED_NAME' => 'नाम से संशोधित',
     'LBL_CREATED' => 'के द्वारा बनाई गई',
-    'LBL_DESCRIPTION' => 'विवरण',
-    'LBL_DELETED' => 'हटाई गई',
+    'LBL_DESCRIPTION' => 'विवरण ',
+    'LBL_DELETED' => 'हटाए गए',
     'LBL_NAME' => 'नाम',
     'LBL_CREATED_USER' => 'उपयोगकर्ता द्वारा बनाया गया',
     'LBL_MODIFIED_USER' => 'उपयोगकर्ता द्वारा संशोधित',
     'LBL_LIST_NAME' => 'नाम',
-    'LBL_EDIT_BUTTON' => 'संशोधन करें',
-    'LBL_REMOVE' => 'हटाऐं',
+    'LBL_EDIT_BUTTON' => 'संपादित करें',
+    'LBL_REMOVE' => 'हटाएँ',
     'LBL_LIST_FORM_TITLE' => 'रिपोर्टों सूची',
     'LBL_MODULE_NAME' => 'रिपोर्टों',
     'LBL_MODULE_TITLE' => 'रिपोर्टों',
@@ -103,5 +101,5 @@ $मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_�
     'LBL_TOOLTIP_DRAG_DROP_ELEMS' => 'तत्वों को फ़ील्ड या स्थिति क्षेत्र में खींचें और छोड़ें',
     'LBL_MAIN_GROUPS' => 'मुख्य समूह:',
     'LBL_CHAR_UNNAMED_DEFAULT_TITLE' => 'अनाम चार्ट',
-    'LBL_REPORT' => 'प्रतिवेदन',
+    'LBL_REPORT' => 'विवरण दे',
 );

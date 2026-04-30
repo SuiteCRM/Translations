@@ -58,18 +58,18 @@ $mod_strings = [
     'LBL_DURATION_VALUE' => 'Valor da duração',
     'LBL_USER' => 'Utilizador associado',
 
-    'LBL_OAUTHTOKENS_SUBPANEL_TITLE' => 'Certificados OAuth2 ativos',
-    'LBL_TOKEN_ID' => 'Certificado',
+    'LBL_OAUTHTOKENS_SUBPANEL_TITLE' => 'Chaves OAuth2 ativas',
+    'LBL_TOKEN_ID' => 'Chave',
     'LBL_DATE_ENTERED' => 'Data de criação',
-    'LBL_ACCESS_TOKEN_EXPIRES' => 'Data de validade do certificado de acesso',
-    'LBL_REFRESH_TOKEN_EXPIRES' => 'Data de validade do certificado de renovação',
+    'LBL_ACCESS_TOKEN_EXPIRES' => 'Data de validade da chave de acesso',
+    'LBL_REFRESH_TOKEN_EXPIRES' => 'Validade da chave de renovação',
 
-    'LNK_OAUTH2_TOKEN_LIST'=> 'Listar certificados OAuth2',
+    'LNK_OAUTH2_TOKEN_LIST'=> 'Listar chaves OAuth2',
     'LNK_OAUTH2_CLIENT_LIST' => 'Listar clientes OAuth2',
 
     'LNK_NEW_OAUTH2_CLIENT' => 'Criar cliente OAuth2',
     'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'Nova senha de cliente',
-    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'Novo cliente de credenciais de cliente',
+    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'Novas credenciais de cliente',
     'LNK_NEW_OAUTH2_IMPLICIT_CLIENT' => 'Novo cliente implícito',
     'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'Nova autorização de cliente',
 

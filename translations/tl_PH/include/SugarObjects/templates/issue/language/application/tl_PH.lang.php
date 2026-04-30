@@ -67,7 +67,7 @@ $app_list_strings = array(
         '' => '',
         'Accepted' => 'Natanggap',
         'Duplicate' => 'Duplikado',
-        'Closed' => 'Sarado',
+        'Closed' => 'Sinarado',
         'Out of Date' => 'Luma',
         'Invalid' => 'Imbalido',
     ),

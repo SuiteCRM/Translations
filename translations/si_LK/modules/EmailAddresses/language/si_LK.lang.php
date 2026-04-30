@@ -43,13 +43,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EMAIL_ADDRESS_ID' => ' හැඳුනුම්',
-    'LBL_EMAIL_ADDRESS' => 'විද්යුත් තැපැල් ලිපිනය',
+    'LBL_EMAIL_ADDRESS_ID' => 'හැඳු.',
+    'LBL_EMAIL_ADDRESS' => 'වි-තැපැල් ලිපිනය',
     'LBL_EMAIL_ADDRESS_CAPS' => 'විද්යුත් තැපැල් ලිපිනය කැප්',
-    'LBL_INVALID_EMAIL' => 'වලංගු නොවන විද්යුත්',
-    'LBL_OPT_OUT' => 'මූලොපායක්',
+    'LBL_INVALID_EMAIL' => 'Invalid Email',
+    'LBL_OPT_OUT' => 'Opted Out',
     'LBL_CONFIRM_OPT_IN' => 'Confirm Opt In',
     'LBL_DATE_CREATE' => 'දිනය සාදන්න',
-    'LBL_DATE_MODIFIED' => ' නවීකරණය කරන ලද දිනය',
+    'LBL_DATE_MODIFIED' => 'නවීකරණය කරන ලද දිනය',
     'LBL_DELETED' => 'මකා',
 );

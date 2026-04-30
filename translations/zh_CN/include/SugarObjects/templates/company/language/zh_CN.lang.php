@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => '您确定要删除此项记录？',
 
     'LBL_EDIT_BUTTON' => '编辑',
-    'LBL_REMOVE' => '移除',
+    'LBL_REMOVE' => '删除',
 
 );

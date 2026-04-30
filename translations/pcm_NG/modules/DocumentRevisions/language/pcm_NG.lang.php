@@ -50,12 +50,12 @@ $mod_strings = array(
     'LNK_DOCUMENT_LIST' => 'View Documents',
 
     //vardef labels
-    'LBL_REVISION_NAME' => 'Revision No',
+    'LBL_REVISION_NAME' => 'Revision Number',
     'LBL_FILENAME' => 'File:',
     'LBL_MIME' => 'Mime Type',
     'LBL_REVISION' => 'Revision',
-    'LBL_DOCUMENT' => 'Document wey Related',
-    'LBL_LATEST_REVISION' => 'Una Latest Revision',
+    'LBL_DOCUMENT' => 'Related Document',
+    'LBL_LATEST_REVISION' => 'Latest Revision',
     'LBL_CHANGE_LOG' => 'Change Log',
     'LBL_ACTIVE_DATE' => 'Publish Date',
     'LBL_EXPIRATION_DATE' => 'Expiration date',
@@ -67,7 +67,7 @@ $mod_strings = array(
     //document revisions.
     'LBL_REV_LIST_REVISION' => 'Revision',
     'LBL_REV_LIST_ENTERED' => 'Day wey dem create am',
-    'LBL_REV_LIST_CREATED' => 'Who create am',
+    'LBL_REV_LIST_CREATED' => 'Created by',
     'LBL_REV_LIST_LOG' => 'Change Log',
     'LBL_REV_LIST_FILENAME' => 'File',
 

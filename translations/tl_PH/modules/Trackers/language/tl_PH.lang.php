@@ -44,10 +44,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     //Column header mapping
-    'action' => 'Ang Aksiyon',
+    'action' => 'Aksiyon',
     'date_modified' => 'Ang petsa sa huling aksyon',
     'item_id' => 'ID',
-    'item_summary' => 'Ang Pangalan',
+    'item_summary' => 'Pangalan',
     'module_name' => 'Pangalan ng Modyul',
     'users' => 'Ang mga gumagamit',
 

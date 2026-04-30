@@ -45,21 +45,21 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = [
 
     'LBL_ASSIGNED_TO_ID' => 'Id atribuit utilizatorului',
-    'LBL_ASSIGNED_TO_NAME' => 'Atribuit lui',
+    'LBL_ASSIGNED_TO_NAME' => 'Atrbuit lui',
     'LBL_ID' => 'ID-ul',
-    'LBL_DATE_ENTERED' => 'Data creării',
-    'LBL_DATE_MODIFIED' => 'Data modificării',
+    'LBL_DATE_ENTERED' => 'Data intrare',
+    'LBL_DATE_MODIFIED' => 'Data modificare',
     'LBL_MODIFIED' => 'Modificat de',
-    'LBL_MODIFIED_NAME' => 'Nume modificant',
+    'LBL_MODIFIED_NAME' => 'Modificat de Nume',
     'LBL_CREATED' => 'Creat de',
-    'LBL_DESCRIPTION' => 'Descriere',
+    'LBL_DESCRIPTION' => 'Descriere: ',
     'LBL_DELETED' => 'Șters',
-    'LBL_NAME' => 'Nume',
+    'LBL_NAME' => 'Nume: ',
     'LBL_CREATED_USER' => 'Creat de utilizator',
     'LBL_MODIFIED_USER' => 'Modificat de utilizator',
-    'LBL_LIST_NAME' => 'Nume',
-    'LBL_EDIT_BUTTON' => 'Editează',
-    'LBL_REMOVE' => 'Elimină',
+    'LBL_LIST_NAME' => 'Prenume',
+    'LBL_EDIT_BUTTON' => 'Editați',
+    'LBL_REMOVE' => 'Înlătură',
     'LBL_LIST_FORM_TITLE' => 'Listă de conexiuni OAuth externe',
     'LBL_MODULE_NAME' => 'Conexiuni OAuth externe',
     'LBL_MODULE_TITLE' => 'Conexiuni OAuth externe',
@@ -68,11 +68,11 @@ $mod_strings = [
 
     'LNK_LIST' => 'Conexiuni OAuth externe',
     'LBL_SEARCH_FORM_TITLE' => 'Caută conexiuni OAuth externe',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Vizualizare Istoric',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activități',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Vezi istoric',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activitati',
     'LBL_NEW_FORM_TITLE' => 'Nouă conexiune OAuth externă',
 
-    'LBL_LIST_DELETE' => 'Ștergere',
+    'LBL_LIST_DELETE' => 'Ștergeți',
     'LBL_TYPE' => 'Tip',
 
     'LBL_CLIENT_ID' => 'Id client',
@@ -96,5 +96,5 @@ $mod_strings = [
     'LNK_LIST_OUTBOUND_EMAILS' => 'Conturi de e-mail de ieșire',
     'LNK_LIST_EXTERNAL_OAUTH_PROVIDERS' => 'Furnizori externi OAuth',
 
-    'LBL_OWNER' => 'Proprietar',
+    'LBL_OWNER' => 'Propietar',
 ];

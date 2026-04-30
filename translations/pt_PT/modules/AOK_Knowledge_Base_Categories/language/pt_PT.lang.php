@@ -52,7 +52,7 @@ $mod_strings = array(
     'LBL_MODIFIED_ID' => 'Alterado por (ID)',
     'LBL_MODIFIED_NAME' => 'Alterado por (nome)',
     'LBL_CREATED' => 'Criado por',
-    'LBL_CREATED_ID' => 'ID do autor',
+    'LBL_CREATED_ID' => 'Created By Id',
     'LBL_DESCRIPTION' => 'Descrição',
     'LBL_DELETED' => 'Eliminado',
     'LBL_NAME' => 'Nome',
@@ -69,10 +69,10 @@ $mod_strings = array(
     'LNK_LIST' => 'Guias — Ver categorias',
     'LNK_IMPORT_AOK_KB_CATEGORIES' => 'Guias — Importar categorias',
     'LBL_SEARCH_FORM_TITLE' => 'Guias — Pesquisar categorias',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Ver histórico',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Atividades',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_AOK_KB_CATEGORIES_SUBPANEL_TITLE' => 'Guias — Categorias',
     'LBL_NEW_FORM_TITLE' => 'Guias — Novas categorias',
 );
 
-$mod_strings['LBL_AOK_KB_TITLE'] = 'Base de conhecimento';
+$mod_strings['LBL_AOK_KB_TITLE'] = 'Knowledge Base';

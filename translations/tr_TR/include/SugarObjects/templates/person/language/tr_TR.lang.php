@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_SALUTATION' => 'Hitap',
-    'LBL_NAME' => 'Ad',
+    'LBL_NAME' => 'İsim',
     'LBL_FIRST_NAME' => 'Ad',
     'LBL_LAST_NAME' => 'Soyad',
     'LBL_TITLE' => 'Başlık',
@@ -65,7 +65,7 @@ $mod_strings = array(
     'LBL_PRIMARY_ADDRESS_POSTALCODE' => 'Birincil posta kodu',
     'LBL_PRIMARY_ADDRESS_COUNTRY' => 'Birincil adres ülke:',
     'LBL_ALT_ADDRESS' => 'Diğer adres',
-    'LBL_ALT_ADDRESS_STREET' => 'Diğer adres',
+    'LBL_ALT_ADDRESS_STREET' => '1. diğer adres satırı',
     'LBL_ALT_ADDRESS_STREET_2' => '2. diğer adres satırı:',
     'LBL_ALT_ADDRESS_STREET_3' => '3. diğer adres satırı:',
     'LBL_ALT_ADDRESS_CITY' => 'Diğer ilçe',
@@ -90,7 +90,7 @@ $mod_strings = array(
     'LBL_ANY_EMAIL' => 'Herhangi bir e-posta',
     'LBL_EMAIL_NON_PRIMARY' => 'İkincil e-posta adresleri',
     'LBL_PHOTO' => 'Görsel',
-    'LBL_EDIT_BUTTON' => 'Düzenle',
+    'LBL_EDIT_BUTTON' => 'Değiştir',
     'LBL_REMOVE' => 'Sil',
 
     //Lawful Basis labels

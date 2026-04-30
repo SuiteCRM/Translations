@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ID' => 'Kod',
+    'LBL_ID' => 'Kimlik',
     'LBL_DATE_ENTERED' => 'Eklenme tarihi',
     'LBL_DATE_MODIFIED' => 'Değiştirilme tarihi',
     'LBL_MODIFIED' => 'Değiştiren',
@@ -54,7 +54,7 @@ $mod_strings = array(
     'LBL_NAME' => 'Ad',
     'LBL_CREATED_USER' => 'Ekleyen kullanıcı',
     'LBL_MODIFIED_USER' => 'Değiştiren kullanıcı',
-    'LBL_LIST_NAME' => 'Ad',
+    'LBL_LIST_NAME' => 'Paket Adı:',
     'LBL_EDIT_BUTTON' => 'Düzenle',
     'LBL_REMOVE' => 'Sil',
 

@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ID' => 'Kod',
+    'LBL_ID' => 'Kimlik',
     'LBL_MODULE_NAME' => 'Gruplar',
     'LBL_DATE_ENTERED' => 'Eklenme tarihi',
     'LBL_DATE_MODIFIED' => 'Değiştirilme tarihi',
@@ -63,7 +63,7 @@ $mod_strings = array(
     'LBL_TOTAL_AMT_USDOLLAR' => 'Toplam (varsayılan para birimi)',
     'LBL_GROUP_TOTAL_USDOLLAR' => 'Grup toplamı (varsayılan para birimi)',
     'LBL_SUBTOTAL_TAX_AMOUNT_USDOLLAR' => 'Ara toplam + vergi (varsayılan para birimi)',
-    'LBL_PARENT_ID' => 'Üst öge kodu',
+    'LBL_PARENT_ID' => 'Üst öge kimliği',
 
     'AOS_PRODUCT_QUOTES' => 'Ürün teklifleri',
 );

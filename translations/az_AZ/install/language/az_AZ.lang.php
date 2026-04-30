@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_BASIC' => 'Başlıca',
+    'LBL_BASIC' => 'BASIC',
     'LBL_BASIC_SEARCH' => 'Sürətli Filtirləmə',
     'LBL_ADVANCED_SEARCH' => 'Qabaqcıl Filtirləmə',
     'LBL_BASIC_TYPE' => 'Əsas növ',
@@ -320,7 +320,7 @@ $mod_strings = array(
     'LBL_ML_INSTALLED' => 'Quraşdırılma tarixi',
     'LBL_ML_NAME' => 'Ad',
     'LBL_ML_PUBLISHED' => 'Nəşr Tarixi',
-    'LBL_ML_TYPE' => 'Tip',
+    'LBL_ML_TYPE' => 'Növ',
     'LBL_ML_UNINSTALLABLE' => 'Silinəbilməz',
     'LBL_ML_VERSION' => 'Versiya',
     'LBL_MSSQL' => 'SQL Server',
@@ -649,7 +649,7 @@ Yüklənmiş faylı php.ini-də yükləmə_max_filesize direktivini üstələyir
     'LBL_DBCONF_TITLE_USER_INFO_LABEL' => 'İstifadəçi',
     'LBL_DBCONFIG_MSG3_LABEL' => 'Məlumat Bazası Adı',
     'LBL_DBCONFIG_MSG3' => 'Quraşdırmaq üzrə olduğunuz SuiteCRM nümunəsi üçün verilənləri ehtiva edən verilənlər bazasının adı.',
-    'LBL_DBCONFIG_MSG2_LABEL' => 'Host Adı',
+    'LBL_DBCONFIG_MSG2_LABEL' => 'Şəbəkə adı',
     'LBL_DBCONFIG_MSG2' => 'Verilənlər bazasının yerləşdiyi veb serverin və ya maşının (host) adı (məsələn, www.mydomain.com). Lokal olaraq quraşdırırsınızsa, performans səbəbi ilə \'127.0.0.1\' əvəzinə \'localhost\' istifadə etmək daha yaxşıdır.',
     'LBL_DBCONFIG_B_MSG1_LABEL' => '', // this label dynamically needed in install/installConfig.php:293
     'LBL_DBCONFIG_B_MSG1' => 'SuiteCRM verilənlər bazasını qurmaq üçün verilənlər bazası cədvəlləri və istifadəçiləri yarada bilən və verilənlər bazasına yaza bilən verilənlər bazası administratorunun istifadəçi adı və parolu lazımdır.',

@@ -58,5 +58,5 @@ $mod_strings = array(
     'LBL_RELATIONSHIP_ROLE_COLUMN' => 'Pangalan sa Bahin sa Relasyon nga Kolumna',
     'LBL_RELATIONSHIP_ROLE_COLUMN_VALUE' => 'Balyo sa Bahin sa Relasyon nga Kolumna',
     'LBL_REVERSE' => 'Bali',
-    'LBL_DELETED' => 'Gitangtang',
+    'LBL_DELETED' => 'Gipapas',
 );

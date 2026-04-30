@@ -58,12 +58,12 @@ $mod_strings = array(
     'LBL_DROP_HERE' => '[Ibagsak Dito]',
 
 //CUSTOM FIELDS
-    'LBL_NAME' => 'Ang Pangalan',
-    'LBL_LABEL' => 'Tatak',
+    'LBL_NAME' => 'Pangalan',
+    'LBL_LABEL' => 'Ang Tatak',
     'LBL_MASS_UPDATE' => 'Maramihang Updeyt',
     'LBL_DEFAULT_VALUE' => 'Default na Halaga',
     'LBL_REQUIRED' => 'Kinakailangan',
-    'LBL_DATA_TYPE' => 'Ang Klase',
+    'LBL_DATA_TYPE' => 'Klase',
 
 
     'LBL_HISTORY' => 'Kasaysayan',
@@ -79,7 +79,7 @@ $mod_strings = array(
     'LBL_SW_EDIT_GROUPTABS' => 'Isaayos ang mga pangkat ng tab',
     'LBL_SW_EDIT_PORTAL' => 'I-edit ang portal',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => 'Kumpunihin ang pasadyang mga field',
-    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Ilipat ang mga pasadyang patlang',
+    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Ilipat ang mga pasadyang field',
 
 // JS LABELS
     'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Muling itayo ang javascript na mga bersyon ng mga payl ng lenggwahe',
@@ -116,14 +116,14 @@ $mod_strings = array(
 //TABS
     'LBL_MODULES' => 'Mga module',
     'LBL_MODULE_NAME' => 'Administrasyon',
-    'LBL_CONFIGURE_GROUP_TABS' => 'Isaayos ang mga modyul sa menu ng pagsala',
+    'LBL_CONFIGURE_GROUP_TABS' => 'Isaayos ang mga module menu filter',
     'LBL_GROUP_TAB_WELCOME' => 'Ang mga filter sa ibaba ay ipapakita sa listahan ng marami sa menu ng modyul para sa mga gumagamit para gamitin upang tingnan ang mga grupo ng mga modyul sa loob ng menu. I-drag at i-drop ang mga modyul sa at mula sa mga filter. Tandaan: Ang mga walang lamang filter ay hindi maipapakita sa menu.',
     'LBL_RENAME_TAB_WELCOME' => 'Pindutin sa anumang pagpapakita ng halaga ng tab sa ibabang lamesa para pangalanang muli ang tab.',
     'LBL_DELETE_MODULE' => 'Alisin&nbsp;ang&nbsp;modyul<br />mula&nbsp;sa&nbsp;filter',
     'LBL_TAB_GROUP_LANGUAGE_HELP' => 'Pumili ng magagamit na lenggwahe, mag edit ng mga llabel ng grupo at pindutin ang Save at Lumawak para i-apply ang mga label sa napiling lenggwahe.',
     'LBL_ADD_GROUP' => 'Magdagdag ng filter',
     'LBL_NEW_GROUP' => 'Bagong grupo',
-    'LBL_RENAME_TABS' => 'Ang pangalan ng mga modyul ay palitan',
+    'LBL_RENAME_TABS' => 'Palitan ang pangalan ng mga module',
 
 //ERRORS
     'ERROR_INVALID_KEY_VALUE' => "Mali: Hindi wasto ang Key Value: [']",
@@ -140,7 +140,7 @@ $mod_strings = array(
     'LBL_PUBLISH' => 'Ilathala' /*for 508 compliance fix*/,
     'LBL_ADDROWS' => 'Magdagdag ng mga Hanay' /*for 508 compliance fix*/,
     'LBL_ADDFIELD' => 'Magdagdag ng patlang' /*for 508 compliance fix*/,
-    'LBL_EDIT' => 'I-edit' /*for 508 compliance fix*/,
+    'LBL_EDIT' => 'Mag-edit' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Pumili ng lenggwahe para mag edit.',
     'LBL_SINGULAR' => 'Isahang label',

@@ -43,15 +43,15 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Peran',
-    'LBL_NAME' => 'Nama',
-    'LBL_DESCRIPTION' => 'Deskripsi',
+    'LBL_ROLE' => 'Role',
+    'LBL_NAME' => 'Nama ',
+    'LBL_DESCRIPTION' => 'Description',
     'LIST_ROLES' => 'Daftar Peran',
-    'LBL_USERS_SUBPANEL_TITLE' => 'Pengguna',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
     'LIST_ROLES_BY_USER' => 'Daftar Peran Berdasarkan Pengguna',
     'LBL_ROLES_SUBPANEL_TITLE' => 'Peran user',
-    'LBL_SEARCH_FORM_TITLE' => 'Cari',
-    'LBL_NO_ACCESS' => 'Anda tidak memiliki akses terhadap area ini. Hubungi administrator untuk mengetahui cara akses terhadap area ini.',
+    'LBL_SEARCH_FORM_TITLE' => 'Search',
+    'LBL_NO_ACCESS' => 'You do not have access to this area. Contact your site administrator to obtain access.',
     'LBL_REDIRECT_TO_HOME' => 'Alihkan ke Beranda di',
     'LBL_SECONDS' => 'detik',
     'LBL_ADDING' => 'Menambahkan untuk',

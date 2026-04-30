@@ -43,10 +43,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings['LBL_ASSIGNED_TO_ID'] = 'ID przydzielonego użytkownika';
-$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Przypisano do';
+$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Przypisany Do';
 $mod_strings['LBL_ID'] = 'ID';
 $mod_strings['LBL_DATE_ENTERED'] = 'Data utworzenia';
-$mod_strings['LBL_DATE_MODIFIED'] = 'Data Modyfikacji:';
+$mod_strings['LBL_DATE_MODIFIED'] = 'Data Modyfikacji';
 $mod_strings['LBL_MODIFIED'] = 'Zmodyfikowane przez';
 $mod_strings['LBL_MODIFIED_NAME'] = 'Nazwa użytkownika modyfikującego';
 $mod_strings['LBL_CREATED'] = 'Utworzone przez';
@@ -54,7 +54,7 @@ $mod_strings['LBL_DESCRIPTION'] = 'Opis';
 $mod_strings['LBL_DELETED'] = 'Usunięte';
 $mod_strings['LBL_NAME'] = 'Adres';
 $mod_strings['LBL_CREATED_USER'] = 'Utworzony przez Użytkownika';
-$mod_strings['LBL_MODIFIED_USER'] = 'Zmodyfikowany przez Użytkownika';
+$mod_strings['LBL_MODIFIED_USER'] = 'Zmodyfikowany przez użytkownika';
 $mod_strings['LBL_LIST_NAME'] = 'Adres';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'Lista pamięci podręcznej adresów';
 $mod_strings['LBL_MODULE_NAME'] = 'Pamięć podręczna adresów';
@@ -69,4 +69,4 @@ $mod_strings['LBL_NEW_FORM_TITLE'] = 'Nowa pamięć podręczna adresów';
 $mod_strings['LBL_LAT'] = 'Szerokości geograficznej';
 $mod_strings['LBL_LNG'] = 'Długość geograficzna';
 $mod_strings['LBL_CURRENT_USER_FILTER'] = 'Moje elementy';
-$mod_strings['LBL_ASSIGNED_TO'] = 'Użytkownik Przypisany';
+$mod_strings['LBL_ASSIGNED_TO'] = 'Przypisany użytkownik';

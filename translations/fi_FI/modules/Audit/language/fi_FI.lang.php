@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_FIELD_NAME' => 'Kenttä',
+    'LBL_FIELD_NAME' => 'Field',
     'LBL_OLD_NAME' => 'Vanha arvo',
     'LBL_NEW_VALUE' => 'Uusi arvo',
     'LBL_CREATED_BY' => 'Muuttaja',
     'LBL_LIST_DATE' => 'Muutos pvm',
     'LBL_AUDITED_FIELDS' => 'Moduulin auditoidut kentät: ',
-    'LBL_CHANGE_LOG' => 'Muutoshistoria',
+    'LBL_CHANGE_LOG' => 'Change Log',
 );

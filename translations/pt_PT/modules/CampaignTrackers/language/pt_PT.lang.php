@@ -53,7 +53,7 @@ $mod_strings = array(
     'LBL_MODIFIED_USER_ID' => 'Alterado por (ID de utilizador)',
     'LBL_CREATED_BY' => 'Criado por',
     'LBL_DELETED' => 'Eliminado',
-    'LBL_CAMPAIGN' => 'Campanha',
+    'LBL_CAMPAIGN' => 'Campaign',
     'LBL_OPTOUT' => 'Pediu exclusão',
 
     'LBL_MODULE_NAME' => 'Rasteradores de campanhas',
@@ -62,11 +62,11 @@ $mod_strings = array(
     'LBL_EDIT_TRACKER_URL' => 'URL de rastreador:',
 
     'LBL_SUBPANEL_TRACKER_NAME' => 'Nome',
-    'LBL_SUBPANEL_TRACKER_URL' => 'URL:',
-    'LBL_SUBPANEL_TRACKER_KEY' => 'Chave',
+    'LBL_SUBPANEL_TRACKER_URL' => 'URL',
+    'LBL_SUBPANEL_TRACKER_KEY' => 'Key',
     'LBL_EDIT_MESSAGE_URL' => 'URL da mensagem da campanha:',
     'LBL_EDIT_TRACKER_KEY' => 'Chave do rastreador:',
     'LBL_EDIT_OPT_OUT' => 'Hiperligação para exclusão?',
-    'LNK_CAMPAIGN_LIST' => 'Campanhas',
+    'LNK_CAMPAIGN_LIST' => 'Campaigns',
     'LBL_EDIT_LAYOUT' => 'Editar esquema' /*for 508 compliance fix*/,
 );

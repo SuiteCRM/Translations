@@ -52,9 +52,9 @@ $mod_strings = array(
     //vardef labels
     'LBL_REVISION_NAME' => 'رقم المراجعة',
     'LBL_FILENAME' => 'الملف:',
-    'LBL_MIME' => 'صيغة الملف (Mime)',
+    'LBL_MIME' => 'نوع mime',
     'LBL_REVISION' => 'مراجعة',
-    'LBL_DOCUMENT' => 'وثيقة ذات صلة',
+    'LBL_DOCUMENT' => 'الوثيقة ذات الصلة',
     'LBL_LATEST_REVISION' => 'أحدث مُراجعة',
     'LBL_CHANGE_LOG' => 'سجل التغييرات',
     'LBL_ACTIVE_DATE' => 'تاريخ النشر',
@@ -62,12 +62,12 @@ $mod_strings = array(
     'LBL_FILE_EXTENSION' => 'إمتداد نوع الملف',
 
     'LBL_DOC_NAME' => 'اسم الوثيقة:',
-    'LBL_DOC_VERSION' => 'المراجعة:',
+    'LBL_DOC_VERSION' => 'مراجعة:',
 
     //document revisions.
     'LBL_REV_LIST_REVISION' => 'مراجعة',
     'LBL_REV_LIST_ENTERED' => 'تاريخ الإنشاء',
-    'LBL_REV_LIST_CREATED' => 'أنشئ بواسطة',
+    'LBL_REV_LIST_CREATED' => 'Created by',
     'LBL_REV_LIST_LOG' => 'سجل التغييرات',
     'LBL_REV_LIST_FILENAME' => 'الملف',
 

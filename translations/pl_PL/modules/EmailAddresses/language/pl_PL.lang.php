@@ -43,13 +43,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EMAIL_ADDRESS_ID' => 'ID',
-    'LBL_EMAIL_ADDRESS' => 'Adres e-mail',
+    'LBL_EMAIL_ADDRESS_ID' => 'Identyfikator',
+    'LBL_EMAIL_ADDRESS' => 'E-mail',
     'LBL_EMAIL_ADDRESS_CAPS' => 'Adresy e-mail wrażliwe na wielkość liter',
-    'LBL_INVALID_EMAIL' => 'Niepoprawny adres e-mail',
+    'LBL_INVALID_EMAIL' => 'Nieprawidłowy email',
     'LBL_OPT_OUT' => 'Brak zgody na przetwarzanie danych osobowych',
     'LBL_CONFIRM_OPT_IN' => 'Potwierdź zgodę',
     'LBL_DATE_CREATE' => 'Data utworzenia',
-    'LBL_DATE_MODIFIED' => 'Data Modyfikacji:',
+    'LBL_DATE_MODIFIED' => 'Data Modyfikacji',
     'LBL_DELETED' => 'Usuń',
 );

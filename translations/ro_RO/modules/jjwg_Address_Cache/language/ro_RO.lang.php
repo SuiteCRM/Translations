@@ -43,14 +43,14 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings['LBL_ASSIGNED_TO_ID'] = 'Id atribuit utilizatorului';
-$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Atribuit lui';
+$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Atrbuit lui';
 $mod_strings['LBL_ID'] = 'ID-ul';
-$mod_strings['LBL_DATE_ENTERED'] = 'Data creării';
-$mod_strings['LBL_DATE_MODIFIED'] = 'Data modificării';
+$mod_strings['LBL_DATE_ENTERED'] = 'Data intrare';
+$mod_strings['LBL_DATE_MODIFIED'] = 'Data modificare';
 $mod_strings['LBL_MODIFIED'] = 'Modificat de';
-$mod_strings['LBL_MODIFIED_NAME'] = 'Nume modificant';
+$mod_strings['LBL_MODIFIED_NAME'] = 'Modificat de Nume';
 $mod_strings['LBL_CREATED'] = 'Creat de';
-$mod_strings['LBL_DESCRIPTION'] = 'Descriere';
+$mod_strings['LBL_DESCRIPTION'] = 'Descriere: ';
 $mod_strings['LBL_DELETED'] = 'Șters';
 $mod_strings['LBL_NAME'] = 'Adresă';
 $mod_strings['LBL_CREATED_USER'] = 'Creat de utilizator';
@@ -63,8 +63,8 @@ $mod_strings['LBL_HOMEPAGE_TITLE'] = 'Adresa mea cache';
 $mod_strings['LNK_NEW_RECORD'] = 'Crează o adresă cache';
 $mod_strings['LNK_LIST'] = 'Vezi adresa cache';
 $mod_strings['LBL_SEARCH_FORM_TITLE'] = 'Caută adresa cache';
-$mod_strings['LBL_HISTORY_SUBPANEL_TITLE'] = 'Vizualizare Istoric';
-$mod_strings['LBL_ACTIVITIES_SUBPANEL_TITLE'] = 'Activități';
+$mod_strings['LBL_HISTORY_SUBPANEL_TITLE'] = 'Vezi istoric';
+$mod_strings['LBL_ACTIVITIES_SUBPANEL_TITLE'] = 'Activitati';
 $mod_strings['LBL_NEW_FORM_TITLE'] = 'Nouă adresă cache';
 $mod_strings['LBL_LAT'] = 'Latitudine';
 $mod_strings['LBL_LNG'] = 'Longitudine';

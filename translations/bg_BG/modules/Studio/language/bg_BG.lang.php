@@ -43,30 +43,30 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EDIT_LAYOUT' => 'Редактиране на подредби',
+    'LBL_EDIT_LAYOUT' => 'Edit Layout',
     'LBL_EDIT_FIELDS' => 'Редактиране на потребителски полета',
-    'LBL_SELECT_FILE' => 'Избиране на файл',
-    'LBL_MODULE_TITLE' => 'Студио',
-    'LBL_TOOLBOX' => 'Инструменти',
+    'LBL_SELECT_FILE' => 'Select File',
+    'LBL_MODULE_TITLE' => 'Studio',
+    'LBL_TOOLBOX' => 'Toolbox',
     'LBL_SUITE_FIELDS_STAGE' => 'SuiteCRM Fields (click items to add to staging area)',
     'LBL_VIEW_SUITE_FIELDS' => 'View SuiteCRM Fields',
-    'LBL_FAILED_TO_SAVE' => 'Запазването е неуспешно',
+    'LBL_FAILED_TO_SAVE' => 'Failed To Save',
     'LBL_CONFIRM_UNSAVE' => 'Промените няма да бъдат съхранени. Сигурни ли сте, че искате да продължите?',
     'LBL_PUBLISHING' => 'В процес на публикуване ...',
-    'LBL_PUBLISHED' => 'Стартирал',
-    'LBL_FAILED_PUBLISHED' => 'Публикуването е неуспешно',
-    'LBL_DROP_HERE' => '[Поставете тук]',
+    'LBL_PUBLISHED' => 'Published',
+    'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
+    'LBL_DROP_HERE' => '[Drop Here]',
 
 //CUSTOM FIELDS
-    'LBL_NAME' => 'Име',
-    'LBL_LABEL' => 'Етикет',
-    'LBL_MASS_UPDATE' => 'Масова актуализация',
-    'LBL_DEFAULT_VALUE' => 'Стойност по подразбиране',
-    'LBL_REQUIRED' => 'Задължително',
-    'LBL_DATA_TYPE' => 'Тип',
+    'LBL_NAME' => 'Name',
+    'LBL_LABEL' => 'Label',
+    'LBL_MASS_UPDATE' => 'Mass Update',
+    'LBL_DEFAULT_VALUE' => 'Default Value',
+    'LBL_REQUIRED' => 'Required',
+    'LBL_DATA_TYPE' => 'Type',
 
 
-    'LBL_HISTORY' => 'История',
+    'LBL_HISTORY' => 'History',
 
 //WIZARDS
 
@@ -87,60 +87,60 @@ $mod_strings = array(
 
 
 //Manager Backups History
-    'LBL_MB_DELETE' => 'Изтриване',
+    'LBL_MB_DELETE' => 'Изтрий',
 
 //EDIT DROP DOWNS
     'LBL_ED_CREATE_DROPDOWN' => 'Създаване на падащо меню',
     'LBL_DROPDOWN_NAME' => 'Име:',
     'LBL_DROPDOWN_LANGUAGE' => 'Език:',
-    'LBL_TABGROUP_LANGUAGE' => 'Език:',
+    'LBL_TABGROUP_LANGUAGE' => 'Language:',
 
 //END WIZARDS
 
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => 'Етикет',
     'LBL_DD_DATABASEVALUE' => 'Име на полето',
-    'LBL_DD_ALL' => 'Всички записи',
+    'LBL_DD_ALL' => 'Всички',
 
 //BUTTONS
-    'LBL_BTN_SAVE' => 'Съхрани',
-    'LBL_BTN_CANCEL' => 'Отмени',
-    'LBL_BTN_SAVEPUBLISH' => 'Съхрани и публикувай',
-    'LBL_BTN_HISTORY' => 'История',
-    'LBL_BTN_ADDROWS' => 'Добавяне на редове',
-    'LBL_BTN_UNDO' => 'Върни',
+    'LBL_BTN_SAVE' => 'Save',
+    'LBL_BTN_CANCEL' => 'Cancel',
+    'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
+    'LBL_BTN_HISTORY' => 'History',
+    'LBL_BTN_ADDROWS' => 'Add Rows',
+    'LBL_BTN_UNDO' => 'Undo',
     'LBL_BTN_REDO' => 'Redo',
-    'LBL_BTN_ADDCUSTOMFIELD' => 'Добавяне на потребителско поле',
+    'LBL_BTN_ADDCUSTOMFIELD' => 'Add Custom Field',
     'LBL_BTN_TABINDEX' => 'Редактиране на подредба на табулатори',
 
 //TABS
-    'LBL_MODULES' => 'Модули',
-    'LBL_MODULE_NAME' => 'Административен',
-    'LBL_CONFIGURE_GROUP_TABS' => 'Конфигурация на групови табулатори',
+    'LBL_MODULES' => 'Modules',
+    'LBL_MODULE_NAME' => 'Administration',
+    'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
     'LBL_GROUP_TAB_WELCOME' => 'Подредбата на груповите табулатори от тази страница ще бъде приложена в случай, че потребител избере да ползва "Групирани модули" вместо опцията по подразбиране "Модули" за параметъра "Навигация" в Персонални настройки>Подредба на екрана.',
     'LBL_RENAME_TAB_WELCOME' => 'За преименуване, натиснете върху заглавието на табулатора от списъка долу.',
     'LBL_DELETE_MODULE' => '&nbsp;Премахни&nbsp;модул',
     'LBL_TAB_GROUP_LANGUAGE_HELP' => 'За да настройте етикетите на табулаторите за други налични езици, изберете език, редактирйте етикетите и кликнете върху Съхрани и публикувай да направи промени за този език.',
     'LBL_ADD_GROUP' => 'Добавяне на група',
     'LBL_NEW_GROUP' => 'Нов групов табулатор',
-    'LBL_RENAME_TABS' => 'Преименуване на табулатори',
+    'LBL_RENAME_TABS' => 'Rename Modules',
 
 //ERRORS
-    'ERROR_INVALID_KEY_VALUE' => "Грешка: Невалидна стойност на key: [&#39;]",
+    'ERROR_INVALID_KEY_VALUE' => "Error: Invalid Key Value: [']",
 
 //SUGAR PORTAL
-    'LBL_SAVE' => 'Съхрани' /*for 508 compliance fix*/,
-    'LBL_UNDO' => 'Върни' /*for 508 compliance fix*/,
+    'LBL_SAVE' => 'Save' /*for 508 compliance fix*/,
+    'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
     'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Inline' /*for 508 compliance fix*/,
-    'LBL_DELETE' => 'Изтриване' /*for 508 compliance fix*/,
-    'LBL_ADD_FIELD' => 'Добавяне на поле' /*for 508 compliance fix*/,
+    'LBL_DELETE' => 'Изтрий' /*for 508 compliance fix*/,
+    'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Maximize' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Minimize' /*for 508 compliance fix*/,
-    'LBL_PUBLISH' => 'Публикуване' /*for 508 compliance fix*/,
-    'LBL_ADDROWS' => 'Добавяне на редове' /*for 508 compliance fix*/,
-    'LBL_ADDFIELD' => 'Добавяне на поле' /*for 508 compliance fix*/,
-    'LBL_EDIT' => 'Редактиране' /*for 508 compliance fix*/,
+    'LBL_PUBLISH' => 'Publish' /*for 508 compliance fix*/,
+    'LBL_ADDROWS' => 'Add Rows' /*for 508 compliance fix*/,
+    'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
+    'LBL_EDIT' => 'Edit' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Select the language to edit.',
     'LBL_SINGULAR' => 'Singular Label',

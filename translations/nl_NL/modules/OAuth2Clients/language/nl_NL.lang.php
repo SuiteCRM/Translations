@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = [
-    'LBL_MODULE_NAME' => 'OAuth2-clients',
+    'LBL_MODULE_NAME' => 'OAuth2 clients',
     'LBL_MODULE_TITLE' => 'OAuth2-clients',
     'LBL_MODULE_ID' => 'OAuth2-clients',
     'LBL_IS_CONFIDENTIAL' => 'Is vertrouwelijk',
@@ -64,7 +64,7 @@ $mod_strings = [
     'LBL_ACCESS_TOKEN_EXPIRES' => 'Toegangstoken verloopt',
     'LBL_REFRESH_TOKEN_EXPIRES' => 'Vernieuwen tokens verloopt',
 
-    'LNK_OAUTH2_TOKEN_LIST'=> 'Maak een lijst van OAuth2-tokens',
+    'LNK_OAUTH2_TOKEN_LIST'=> 'Lijst van OAuth2-tokens',
     'LNK_OAUTH2_CLIENT_LIST' => 'Lijst van OAuth2 Clients',
 
     'LNK_NEW_OAUTH2_CLIENT' => 'Maak een OAuth2 Client',

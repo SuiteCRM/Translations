@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_NAME' => 'Nome da Tarefa',
-    'LBL_EXECUTE_TIME' => 'Tempo de execução',
+    'LBL_NAME' => 'Job Name',
+    'LBL_EXECUTE_TIME' => 'Execute Time',
     'LBL_SCHEDULER_ID' => 'Agendador',
     'LBL_STATUS' => 'Situação do trabalho',
-    'LBL_RESOLUTION' => 'Resultados',
+    'LBL_RESOLUTION' => 'Result',
     'LBL_MESSAGE' => 'Mensagens',
     'LBL_DATA' => 'Dados do trabalho',
     'LBL_REQUEUE' => 'Repetir em caso de falha',

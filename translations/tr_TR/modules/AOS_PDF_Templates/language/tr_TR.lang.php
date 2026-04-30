@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kodu',
+    'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kimliği',
     'LBL_ASSIGNED_TO_NAME' => 'Atanmış kişi',
-    'LBL_ID' => 'Kod',
+    'LBL_ID' => 'Kimlik',
     'LBL_DATE_ENTERED' => 'Eklenme tarihi',
     'LBL_DATE_MODIFIED' => 'Değiştirilme tarihi',
     'LBL_MODIFIED' => 'Değiştiren',
@@ -55,7 +55,7 @@ $mod_strings = array(
     'LBL_HEADER' => 'Üst bilgi',
     'LBL_FOOTER' => 'Alt bilgi',
     'LBL_DELETED' => 'Silindi',
-    'LBL_NAME' => 'Ad',
+    'LBL_NAME' => 'İsim',
     'LBL_CREATED_USER' => 'Ekleyen kullanıcı',
     'LBL_MODIFIED_USER' => 'Değiştiren kullanıcı',
     'LBL_LIST_FORM_TITLE' => 'PDF kalıpları listesi',
@@ -66,7 +66,7 @@ $mod_strings = array(
     'LNK_LIST' => 'PDF kalıplarını görüntüle',
     'LBL_SEARCH_FORM_TITLE' => 'PDF kalıbı arama',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Geçmişi görüntüle',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'İşlemler',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Etkinlikler',
     'LBL_NEW_FORM_TITLE' => 'PDF kalıbı ekle',
     'LBL_TYPE' => 'Tür',
     'LBL_ACTIVE' => 'Etkin',

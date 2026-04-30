@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Llista de Combinacions',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Cerca registres a fusionar amb',
-    'LBL_AVAIL_FIELDS' => 'Camps Disponibles',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'Condició de Filtrat',
     'LBL_MERGE_VALUE_OVER' => 'Combinar valors sobre',
 
@@ -58,10 +58,10 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Realitzar Combinació',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Realitzar Combinació',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Desar Combinació',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Desar Combinació',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => 'Registres Trobats amb els que Combinar:',
     'LBL_SELECT_ERROR' => 'Ha de realitzar una selecció abans de continuar.',

@@ -61,7 +61,7 @@ $mod_strings = array(
     'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Magsagawa ng pagsamahin',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'I-save ang ipinagsama',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'I-save ang ipinagsama',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'I-save ang pinagsama',
 
     'LBL_STEP2_FORM_TITLE' => 'Natagpuan ang mga rekord upang pagsamahin sa',
     'LBL_SELECT_ERROR' => 'Dapat ka muna pumili bago ka maaring magpatuloy.',

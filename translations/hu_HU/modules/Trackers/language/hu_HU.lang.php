@@ -44,13 +44,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     //Column header mapping
-    'action' => 'Akció',
-    'date_modified' => 'Utolsó művelet időpontja',
+    'action' => 'Action',
+    'date_modified' => 'Date of Last Action',
     'item_id' => 'ID',
-    'item_summary' => 'Név',
-    'module_name' => 'Modul neve',
-    'users' => 'Felhasználók',
+    'item_summary' => 'Elnevezés',
+    'module_name' => 'Module Name',
+    'users' => 'Users',
 
     //Administration related labels
-    'LBL_MODULE_NAME' => 'Követők',
+    'LBL_MODULE_NAME' => 'Trackers',
 );

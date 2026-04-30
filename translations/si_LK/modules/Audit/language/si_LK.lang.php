@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_FIELD_NAME' => 'ක්ෂේත්ර',
+    'LBL_FIELD_NAME' => 'Field',
     'LBL_OLD_NAME' => 'පරණ අගය',
     'LBL_NEW_VALUE' => 'නව අගය',
     'LBL_CREATED_BY' => 'වෙනස් කළේ',
     'LBL_LIST_DATE' => 'වෙනස් දිනය',
     'LBL_AUDITED_FIELDS' => 'ක්ෂේත්ර ෙමම ෙම විගණනය: ',
-    'LBL_CHANGE_LOG' => 'වෙනස් ලොග්',
+    'LBL_CHANGE_LOG' => 'Change Log',
 );

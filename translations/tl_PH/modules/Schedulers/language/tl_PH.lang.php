@@ -82,9 +82,9 @@ $mod_strings = array(
     'LBL_ON_THE' => 'Sa ',
     'LBL_RANGE' => 'sa',
     'LBL_AND' => ' at ',
-    'LBL_MINUTES' => ' mga minuto ',
-    'LBL_HOUR' => ' mga oras',
-    'LBL_HOUR_SING' => ' oras',
+    'LBL_MINUTES' => 'mga minuto',
+    'LBL_HOUR' => 'mga Oras',
+    'LBL_HOUR_SING' => 'oras',
     'LBL_OFTEN' => ' Nang madalas hangga\'t maaari.',
     'LBL_MIN_MARK' => ' marka ng minuto',
 
@@ -122,7 +122,7 @@ $mod_strings = array(
     'LBL_WARN_NO_CURL' => 'Ang sistemang ito ay walang cURL na mga librerya na gumana/na-compile sa PHP na modyul (--kasama-curl=/daan/patungo/curl_librerya). Pakikontak ang iyong administrador para lutasin ang isyung ito. Kapag walang paggana ng cURL, ang tagapag-iskedyul ay hindi makatuhog sa kanyang trabaho.',
     'LBL_BASIC_OPTIONS' => 'Pangunahing Setup',
     'LBL_ADV_OPTIONS' => 'Advanced na mga pagpipilian',
-    'LBL_TOGGLE_ADV' => 'Ipakita ang mga pinahusay na pagpipilian',
+    'LBL_TOGGLE_ADV' => 'Ipakita ang mga paunang pagpipilian',
     'LBL_TOGGLE_BASIC' => 'Ipakita ang pangunahing mga pagpipilian',
 // Links
     'LNK_LIST_SCHEDULER' => 'Ang tagapag iskedyul',

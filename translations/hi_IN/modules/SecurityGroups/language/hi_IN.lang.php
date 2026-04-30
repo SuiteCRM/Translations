@@ -44,9 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ALL_MODULES' => 'सब',//rost fix
-    'LBL_ASSIGNED_TO_ID' => 'पहचानकर्ता कुंजी:
-$मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_आईडी\']
-$मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_आईडी\']',
+    'LBL_ASSIGNED_TO_ID' => 'असाइन किया गया उपयोगकर्ता आईडी',
     'LBL_ASSIGNED_TO_NAME' => 'को सौंपना',
     'LBL_ID' => 'आईडी',
     'LBL_DATE_ENTERED' => 'बनाया गया दिनांक',
@@ -54,8 +52,8 @@ $मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_�
     'LBL_MODIFIED' => 'द्वारा संशोधित',
     'LBL_MODIFIED_NAME' => 'नाम से संशोधित',
     'LBL_CREATED' => 'के द्वारा बनाई गई',
-    'LBL_DESCRIPTION' => 'विवरण',
-    'LBL_DELETED' => 'हटाई गई',
+    'LBL_DESCRIPTION' => 'विवरण ',
+    'LBL_DELETED' => 'हटाए गए',
     'LBL_NONINHERITABLE' => 'वंशानुगत नहीं',
     'LBL_LIST_NONINHERITABLE' => 'वंशानुगत नहीं',
     'LBL_NAME' => 'नाम',
@@ -98,13 +96,13 @@ $मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_�
 
     'LBL_DEFAULT_GROUP_TITLE' => 'नए रिकॉर्ड के लिए डिफ़ॉल्ट समूह',
     'LBL_ADD_BUTTON_LABEL' => 'जोड़ें',
-    'LBL_REMOVE_BUTTON_LABEL' => 'हटाऐं',
+    'LBL_REMOVE_BUTTON_LABEL' => 'हटाएँ',
     'LBL_GROUP' => 'समूह:',
     'LBL_MODULE' => 'मोड्यूल:',
 
     'LBL_MASS_ASSIGN' => 'सुरक्षा समूह: सामूहिक असाइनमेंट',
     'LBL_ASSIGN' => 'नियुक्त',
-    'LBL_REMOVE' => 'हटाऐं',
+    'LBL_REMOVE' => 'हटाएँ',
     'LBL_ASSIGN_CONFIRM' => 'क्या आप वाकई इस समूह को जोड़ना चाहते हैं? ',
     'LBL_REMOVE_CONFIRM' => 'क्या आप वाकई इस समूह को हटाना चाहते हैं? ',
     'LBL_CONFIRM_END' => ' चयनित रिकॉर्ड(रिकॉर्ड)?',

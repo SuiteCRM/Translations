@@ -44,13 +44,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     //Column header mapping
-    'action' => 'عملکرد',
-    'date_modified' => 'تاریخ آخرین عملکرد',
-    'item_id' => 'شناسه',
+    'action' => 'Action',
+    'date_modified' => 'Date of Last Action',
+    'item_id' => 'ID',
     'item_summary' => 'نام',
-    'module_name' => 'نام ماژول',
+    'module_name' => 'Module Name',
     'users' => 'کاربرها',
 
     //Administration related labels
-    'LBL_MODULE_NAME' => 'ردیاب',
+    'LBL_MODULE_NAME' => 'Trackers',
 );

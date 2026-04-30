@@ -43,13 +43,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'निवास',
+    'LBL_MODULE_NAME' => 'घर',
     'LBL_NEW_FORM_TITLE' => 'नया संपर्क',
     'LBL_FIRST_NAME' => 'पहला नाम:',
     'LBL_LAST_NAME' => 'अंतिम नाम:',
-    'LBL_LIST_LAST_NAME' => 'परिवार का नाम',
+    'LBL_LIST_LAST_NAME' => 'अंतिम नाम',
     'LBL_PHONE' => 'फ़ोन:',
-    'LBL_EMAIL_ADDRESS' => 'मेल पता:',
+    'LBL_EMAIL_ADDRESS' => 'ई-मेल पता:',
     'LBL_MY_PIPELINE_FORM_TITLE' => 'मेरी पाइपलाइन',
     'LBL_PIPELINE_FORM_TITLE' => 'बिक्री चरण द्वारा पाइपलाइन',
     'LBL_RGraph_PIPELINE_FORM_TITLE' => 'बिक्री चरण द्वारा पाइपलाइन',
@@ -73,7 +73,7 @@ $mod_strings = array(
     'LBL_ADD_DASHLETS' => 'सुइटसीआरएम डैशलेट जोड़ें',
     'LBL_WEBSITE_TITLE' => 'वेबसाइट',
     'LBL_RSS_TITLE' => 'समाचार फ़ीड',
-    'LBL_CLOSE_DASHLETS' => 'बंद करें',
+    'LBL_CLOSE_DASHLETS' => 'बंद',
     'LBL_OPTIONS' => 'विकल्प',
     // dashlet search fields
     'LBL_TODAY' => 'आज',
@@ -92,7 +92,7 @@ $mod_strings = array(
     'LBL_THIS_YEAR' => 'इस साल',
 
     'LBL_MODULES' => 'मॉड्यूल',
-    'LBL_CHARTS' => 'चार्ट्स',
+    'LBL_CHARTS' => 'चार्ट',
     'LBL_TOOLS' => 'उपकरण',
     'LBL_WEB' => 'वेब',
     'LBL_SEARCH_RESULTS' => 'Search Results',
@@ -101,7 +101,7 @@ $mod_strings = array(
     'dashlet_categories_dom' => array(
         'Module Views' => 'मॉड्यूल दृश्य',
         'Portal' => 'पोर्टल',
-        'Charts' => 'चार्ट्स',
+        'Charts' => 'चार्ट',
         'Tools' => 'उपकरण',
         'Miscellaneous' => 'विविध'
     ),
@@ -122,7 +122,7 @@ $mod_strings = array(
 
     // Default out-of-box names for tabs
     'LBL_HOME_PAGE_1_NAME' => 'मेरा सुइटसीआरएम',
-    'LBL_CLOSE_SITEMAP' => 'बंद करें',
+    'LBL_CLOSE_SITEMAP' => 'बंद',
 
     'LBL_SEARCH' => 'खोजें',
     'LBL_CLEAR' => 'साफ़ करें',
@@ -144,7 +144,7 @@ $mod_strings = array(
     'LBL_DASHLET_OPT_HEIGHT' => 'डैशलेट ऊंचाई (पिक्सेल में)',
     'LBL_DASHLET_SUITE_NEWS' => 'सुइटसीआरएम न्यूज़',
     'LBL_DASHLET_DISCOVER_SUITE' => 'सुइटसीआरएम खोजें',
-    'LBL_BASIC_SEARCH' => 'त्वरित फ़िल्टर ' /*for 508 compliance fix*/,
+    'LBL_BASIC_SEARCH' => 'त्वरित फ़िल्टर' /*for 508 compliance fix*/,
     'LBL_ADVANCED_SEARCH' => 'आधुनिक फ़िल्टर ' /*for 508 compliance fix*/,
     'LBL_TOUR_HOME' => 'होम आइकन',
     'LBL_TOUR_HOME_DESCRIPTION' => 'एक क्लिक में तुरंत अपने होम पेज डैशबोर्ड पर वापस जाएँ।',
@@ -205,8 +205,8 @@ $mod_strings = array(
     'LBL_DELETE_BUTTON' => 'हटाएं',
     'LBL_APPLY_BUTTON' => 'लागू करें',
     'LBL_SEND_INVITES' => 'आमंत्रण सहेजें और भेजें',
-    'LBL_CANCEL_BUTTON' => 'रद्द करना',
-    'LBL_CLOSE_BUTTON' => 'बंद करें',
+    'LBL_CANCEL_BUTTON' => 'रद्द करें',
+    'LBL_CLOSE_BUTTON' => 'बंद',
 
     'LBL_CREATE_NEW_RECORD' => 'गतिविधि बनाएँ',
     'LBL_CREATE_CALL' => 'कॉल लॉग करें',
@@ -252,7 +252,7 @@ $mod_strings = array(
     'LBL_ELASTIC_SEARCH_DEFAULT' => 'आपके खोज मापदंड से मेल खाने वाला कोई परिणाम नहीं। अपनी खोज को विस्तृत करने का प्रयास करें.',
 
     // Portal Labels
-    'LBL_AOP_DISABLED' => 'AOP is disabled, please enable via settings',
+    'LBL_AOP_DISABLED' => 'AOP निष्क्रिय है, कृपया सेटिंग्स के माध्यम से इसे सक्रिय करें',
     'LBL_CREATE_PORTAL_USER_FAILED' => 'पोर्टल उपयोगकर्ता बनाने में विफल',
     'LBL_ENABLE_PORTAL_USER_FAILED' => 'पोर्टल उपयोगकर्ता को सक्षम करने में विफल',
     'LBL_DISABLE_PORTAL_USER_FAILED' => 'पोर्टल उपयोगकर्ता को अक्षम करने में विफल',

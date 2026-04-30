@@ -43,15 +43,15 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Função:',
-    'LBL_LANGUAGE' => 'Idioma:',
+    'LBL_ROLE' => 'Role:',
+    'LBL_LANGUAGE' => 'Language:',
     'LBL_MODULE_NAME' => 'Funções',
-    'LBL_MODULE_TITLE' => 'Funções: entrada',
+    'LBL_MODULE_TITLE' => 'Roles: Home',
     'LBL_SEARCH_FORM_TITLE' => 'Pesquisar funções',
     'LBL_LIST_FORM_TITLE' => 'Lista de funções',
-    'LNK_NEW_ROLE' => 'Criar função',
+    'LNK_NEW_ROLE' => 'Create Role',
     'LNK_ROLES' => 'Funções',
-    'LBL_NAME' => 'Nome:',
+    'LBL_NAME' => 'Name:',
     'LBL_DESCRIPTION' => 'Descrição:',
     'LBL_ALLOWED_MODULES' => 'Módulos permitidos:',
     'LBL_DISALLOWED_MODULES' => 'Módulos proibidos:',
@@ -60,5 +60,5 @@ $mod_strings = array(
     'LBL_USERS' => 'Utilizadores',
 
     'LBL_USERS_SUBPANEL_TITLE' => 'Utilizadores',
-    'LBL_MODULES' => 'Módulos',
+    'LBL_MODULES' => 'Modules',
 );

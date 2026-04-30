@@ -56,8 +56,8 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Tildelt til:',
     'LBL_RATING' => 'Bedømmelse',
     'LBL_ASSIGNED_TO' => 'Tildelt til:',
-    'LBL_ASSIGNED_USER' => 'Tildelt til:',
-    'LBL_ASSIGNED_TO_ID' => 'Tildelt til:',
+    'LBL_ASSIGNED_USER' => 'Assigned to:',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned to:',
     'LBL_BILLING_ADDRESS_CITY' => 'Faktura By:',
     'LBL_BILLING_ADDRESS_COUNTRY' => 'Faktura Land:',
     'LBL_BILLING_ADDRESS_POSTALCODE' => 'Faktura Postnr:',
@@ -97,7 +97,7 @@ $mod_strings = array(
     'LBL_PHONE_FAX' => 'Fax:',
     'LBL_PHONE_OFFICE' => 'Arbejdstelefon:',
     'LBL_PHONE' => 'Telefon:',
-    'LBL_EMAIL_ADDRESS' => 'Email',
+    'LBL_EMAIL_ADDRESS' => 'Email Address',
     'LBL_EMAIL_ADDRESSES' => 'Email adresser',
     'LBL_POSTAL_CODE' => 'Postnr:',
     'LBL_SAVE_ACCOUNT' => 'Gem kunde',
@@ -116,7 +116,7 @@ $mod_strings = array(
     'LBL_TYPE' => 'Type:',
     'LBL_WEBSITE' => 'Hjemmeside:',
 
-    'LNK_ACCOUNT_LIST' => 'Kunder',
+    'LNK_ACCOUNT_LIST' => 'Accounts',
     'LNK_NEW_ACCOUNT' => 'Opret kunde',
 
     'MSG_DUPLICATE' => 'Du er ved at oprette en duplet kunde. Du kan enten vælge en kunde fra nedenstående liste eller du kan klikke på gem og oprette kunden.',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'Er du sikker på, at du vil slette denne post?',
 
     'LBL_EDIT_BUTTON' => 'Rediger',
-    'LBL_REMOVE' => 'Fjern',
+    'LBL_REMOVE' => 'Remove',
 
 );

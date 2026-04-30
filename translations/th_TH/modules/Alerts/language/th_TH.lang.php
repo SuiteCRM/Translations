@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ASSIGNED_TO_ID' => 'Id ผู้รับผิดชอบ',
-    'LBL_ASSIGNED_TO_NAME' => 'ผู้รับผิดชอบ',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_ID' => 'ไอดี',
     'LBL_DATE_ENTERED' => 'วันที่สร้าง',
     'LBL_DATE_MODIFIED' => 'วันที่แก้ไข',
@@ -57,11 +57,11 @@ $mod_strings = array(
     'LBL_CREATED_USER' => 'สร้างโดยผู้ใช้งาน',
     'LBL_MODIFIED_USER' => 'แก้ไข โดยผู้ใช้',
     'LBL_LIST_NAME' => 'ชื่อ',
-    'LBL_EDIT_BUTTON' => 'แก้ไข',
-    'LBL_REMOVE' => 'ลบออก',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
     'LBL_LIST_FORM_TITLE' => 'รายการการแจ้งเตือน',
     'LBL_MODULE_NAME' => 'แจ้งเตือน',
-    'LBL_MODULE_TITLE' => 'แจ้งเตือน',
+    'LBL_MODULE_TITLE' => 'Alert',
     'LBL_HOMEPAGE_TITLE' => 'การแจ้งเตือนของฉัน',
     'LNK_NEW_RECORD' => 'สร้างการแจ้งเตือน',
     'LNK_LIST' => 'ดูการแจ้งเตือน',
@@ -72,5 +72,5 @@ $mod_strings = array(
     'LBL_IS_READ' => 'ถูกอ่าน',
     'LBL_DATE_START' => 'วันที่เริ่ม',
 
-    'LBL_TYPE' => 'ประเภท',
+    'LBL_TYPE' => 'Type',
 );

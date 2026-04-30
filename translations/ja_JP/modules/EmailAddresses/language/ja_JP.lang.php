@@ -47,9 +47,9 @@ $mod_strings = array(
     'LBL_EMAIL_ADDRESS' => 'メールアドレス',
     'LBL_EMAIL_ADDRESS_CAPS' => 'Eメールアドレス(大文字)',
     'LBL_INVALID_EMAIL' => '無効なEメール',
-    'LBL_OPT_OUT' => 'メール不可',
+    'LBL_OPT_OUT' => 'Opted Out',
     'LBL_CONFIRM_OPT_IN' => 'オプトインの確認',
     'LBL_DATE_CREATE' => '作成日付',
-    'LBL_DATE_MODIFIED' => '更新日',
-    'LBL_DELETED' => '削除',
+    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_DELETED' => 'Delete',
 );

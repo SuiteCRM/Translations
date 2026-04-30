@@ -43,16 +43,16 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Грешки',
+    'LBL_MODULE_NAME' => 'Bug-ови',
     'LBL_MODULE_TITLE' => 'Bug Tracker: Home',
-    'LBL_MODULE_ID' => 'Грешки',
+    'LBL_MODULE_ID' => 'Bug-ови',
     'LBL_SEARCH_FORM_TITLE' => 'Bug Search',
     'LBL_LIST_FORM_TITLE' => 'Bug List',
     'LBL_NEW_FORM_TITLE' => 'New Bug',
-    'LBL_SUBJECT' => 'Предмет:',
-    'LBL_NUMBER' => 'Број:',
-    'LBL_STATUS' => 'Состојба:',
-    'LBL_PRIORITY' => 'Приоритет:',
+    'LBL_SUBJECT' => 'Subject:',
+    'LBL_NUMBER' => 'Number:',
+    'LBL_STATUS' => 'Status:',
+    'LBL_PRIORITY' => 'Priority:',
     'LBL_DESCRIPTION' => 'Опис:',
     'LBL_CONTACT_NAME' => 'Име на контактот:',
     'LBL_CONTACT_ROLE' => 'Улога:',
@@ -60,8 +60,8 @@ $mod_strings = array(
     'LBL_LIST_SUBJECT' => 'Наслов',
     'LBL_LIST_STATUS' => 'Статус',
     'LBL_LIST_PRIORITY' => 'Приоритет',
-    'LBL_LIST_RESOLUTION' => 'Решение',
-    'LBL_LIST_LAST_MODIFIED' => 'Последно изменет',
+    'LBL_LIST_RESOLUTION' => 'Resolution',
+    'LBL_LIST_LAST_MODIFIED' => 'Last Modified',
     'LBL_INVITEE' => 'Контакти',
     'LBL_TYPE' => 'Тип:',
     'LBL_LIST_TYPE' => 'Тип',
@@ -75,12 +75,12 @@ $mod_strings = array(
     'LBL_FOUND_IN_RELEASE' => 'Found in Release:',
     'LBL_FIXED_IN_RELEASE' => 'Fixed in Release:',
     'LBL_LIST_FIXED_IN_RELEASE' => 'Fixed in Release',
-    'LBL_WORK_LOG' => 'Работни записи:',
+    'LBL_WORK_LOG' => 'Work Log:',
     'LBL_SOURCE' => 'Source:',
-    'LBL_PRODUCT_CATEGORY' => 'Категорија:',
+    'LBL_PRODUCT_CATEGORY' => 'Category:',
 
-    'LBL_CREATED_BY' => 'Креирано од:',
-    'LBL_MODIFIED_BY' => 'Последно пременет од:',
+    'LBL_CREATED_BY' => 'Created by:',
+    'LBL_MODIFIED_BY' => 'Last Modified by:',
 
     'LBL_LIST_EMAIL_ADDRESS' => 'Е-Мејл Адреса',
     'LBL_LIST_CONTACT_NAME' => 'Име на контактот',
@@ -100,6 +100,6 @@ $mod_strings = array(
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Доделен корисник',
     'LBL_ASSIGNED_TO_NAME' => 'Доделено на',
 
-    'LBL_BUG_INFORMATION' => 'Преглед', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_BUG_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
 );

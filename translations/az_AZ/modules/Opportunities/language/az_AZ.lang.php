@@ -75,7 +75,7 @@ $mod_strings = array(
     'LBL_LEAD_SOURCE' => 'Aparıcı Mənbə:',
     'LBL_SALES_STAGE' => 'Satış mərhələsi:',
     'LBL_PROBABILITY' => 'Ehtimal (%):',
-    'LBL_DESCRIPTION' => 'Açıqlama:',
+    'LBL_DESCRIPTION' => 'Açıqlama: ',
     'LBL_DUPLICATE' => 'Possible Duplicate Opportunity',
     'MSG_DUPLICATE' => 'The opportunity record you are about to create might be a duplicate of a opportunity record that already exists. Opportunity records containing similar names are listed below.<br>Click Save to continue creating this new opportunity, or click Cancel to return to the module without creating the opportunity.',
     'LBL_NEW_FORM_TITLE' => 'Fürsət Yarat',
@@ -104,7 +104,7 @@ $mod_strings = array(
     'LBL_CAMPAIGN_OPPORTUNITY' => 'Kampaniyalar',
     'LBL_PROJECT_SUBPANEL_TITLE' => 'Layihələr',
     'LNK_IMPORT_OPPORTUNITIES' => 'Import Opportunities',
-    'LBL_EDITLAYOUT' => 'Tərtibatı redaktə et'
+    'LBL_EDITLAYOUT' => 'Düzümü redaktə et'
     /*for 508 compliance fix*/,
 
     // SNIP

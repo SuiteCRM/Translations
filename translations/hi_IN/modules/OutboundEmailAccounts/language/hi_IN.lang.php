@@ -43,9 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'पहचानकर्ता कुंजी:
-$मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_आईडी\']
-$मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_आईडी\']',
+    'LBL_ASSIGNED_TO_ID' => 'असाइन किया गया उपयोगकर्ता आईडी',
     'LBL_ASSIGNED_TO_NAME' => 'को सौंपना',
     'LBL_ID' => 'आईडी',
     'LBL_DATE_ENTERED' => 'बनाया गया दिनांक',
@@ -53,14 +51,14 @@ $मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_�
     'LBL_MODIFIED' => 'द्वारा संशोधित',
     'LBL_MODIFIED_NAME' => 'नाम से संशोधित',
     'LBL_CREATED' => 'के द्वारा बनाई गई',
-    'LBL_DESCRIPTION' => 'विवरण',
-    'LBL_DELETED' => 'हटाई गई',
+    'LBL_DESCRIPTION' => 'विवरण ',
+    'LBL_DELETED' => 'हटाए गए',
     'LBL_NAME' => 'नाम',
     'LBL_CREATED_USER' => 'उपयोगकर्ता द्वारा बनाया गया',
     'LBL_MODIFIED_USER' => 'उपयोगकर्ता द्वारा संशोधित',
     'LBL_LIST_NAME' => 'नाम',
-    'LBL_EDIT_BUTTON' => 'संशोधन करें',
-    'LBL_REMOVE' => 'हटाऐं',
+    'LBL_EDIT_BUTTON' => 'संपादित करें',
+    'LBL_REMOVE' => 'हटाएँ',
     'LBL_LIST_FORM_TITLE' => 'आउटबाउंड ईमेल खातों की सूची',
     'LBL_MODULE_NAME' => 'आउटबाउंड ईमेल खाते',
     'LBL_MODULE_TITLE' => 'आउटबाउंड ईमेल खाते',
@@ -81,7 +79,7 @@ $मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_�
     'LBL_PASSWORD' => 'पासवर्ड',
     'LBL_SMTP_SERVERNAME' => 'SMTP सर्वर नाम',
     'LBL_SMTP_AUTH' => 'एसएमटीपी प्रमाणीकरण',
-    'LBL_SMTP_PORT' => 'SMTP पोर्ट',
+    'LBL_SMTP_PORT' => 'एसएमटीपी पोर्ट',
     'LBL_SMTP_PROTOCOL' => 'एसएमटीपी प्रोटोकॉल',
     'LBL_EDITVIEW_PANEL1' => 'खाता सेटिंग',
     'LBL_OUTBOUND_CONFIGURATION' => 'आउटबाउंड कॉन्फ़िगरेशन',
@@ -120,7 +118,7 @@ $मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_�
     'LBL_OWNER' => 'मालिक',
     'LBL_OWNER_NAME' => 'मालिक',
     'LBL_IS_DEFAULT' => 'डिफॉल्ट',
-    'LBL_IS_PERSONAL' => 'Is Personal',
+    'LBL_IS_PERSONAL' => 'यह व्यक्तिगत है',
     'LBL_SET_AS_DEFAULT_BUTTON' => 'डिफ़ॉल्ट के रूप में सेट करें',
 
     'LBL_AUTH_TYPE' => 'प्रमाणीकरण प्रकार',

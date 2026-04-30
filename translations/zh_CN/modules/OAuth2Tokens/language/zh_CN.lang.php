@@ -60,7 +60,7 @@ $mod_strings = array(
     'LBL_USER' => '关联的用户',
     'LBL_IS_ACTIVE' => '仅显示活跃的 token',
 
-    'LNK_OAUTH2_TOKEN_LIST'=> '列出 oauth2 令牌',
+    'LNK_OAUTH2_TOKEN_LIST'=> '列出OAuth2令牌',
     'LNK_OAUTH2_CLIENT_LIST' => '列出Oauth2 客户端',
 
     'LNK_NEW_OAUTH2_CLIENT' => '创建OAuth2客户端',

@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Gruplar',
+    'LBL_MODULE_NAME' => 'Groups',
     'LBL_GROUP_NAME' => 'Grup adı:',
     'LBL_DESCRIPTION' => 'Açıklama:',
     'LBL_TEAM' => 'Takım:',
     // ListView
-    'LBL_LIST_TITLE' => 'Gruplar',
+    'LBL_LIST_TITLE' => 'Groups',
     // Links
     'LNK_ALL_GROUPS' => 'Tüm gruplar',
     'LNK_NEW_GROUP' => 'Grup ekle',

@@ -56,8 +56,8 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Vastuuhenkilö:',
     'LBL_RATING' => 'Luokitus',
     'LBL_ASSIGNED_TO' => 'Kohdennettu hlölle:',
-    'LBL_ASSIGNED_USER' => 'Kohdennettu hlölle:',
-    'LBL_ASSIGNED_TO_ID' => 'Kohdennettu hlölle:',
+    'LBL_ASSIGNED_USER' => 'Assigned to:',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned to:',
     'LBL_BILLING_ADDRESS_CITY' => 'Laskutusosoite Kaupunki/kunta:',
     'LBL_BILLING_ADDRESS_COUNTRY' => 'Laskutusosoite Maa:',
     'LBL_BILLING_ADDRESS_POSTALCODE' => 'Laskutusosoite Postinumero:',
@@ -97,7 +97,7 @@ $mod_strings = array(
     'LBL_PHONE_FAX' => 'Puhelinfaksi:',
     'LBL_PHONE_OFFICE' => 'Toimiston puhelin:',
     'LBL_PHONE' => 'Puhelin:',
-    'LBL_EMAIL_ADDRESS' => 'Sähköpostiosoite',
+    'LBL_EMAIL_ADDRESS' => 'Email Address',
     'LBL_EMAIL_ADDRESSES' => 'Sähköpostiosoite/osoitteet',
     'LBL_POSTAL_CODE' => 'Postinumero:',
     'LBL_SAVE_ACCOUNT' => 'Tallenna asiakas',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'Haluatko varmasti poistaa tietueen?',
 
     'LBL_EDIT_BUTTON' => 'Muokkaa  ',
-    'LBL_REMOVE' => 'Poista',
+    'LBL_REMOVE' => 'Remove',
 
 );

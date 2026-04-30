@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_NAME' => 'ジョブ名：',
-    'LBL_EXECUTE_TIME' => '実行時間',
-    'LBL_SCHEDULER_ID' => 'スケジューラー',
+    'LBL_NAME' => 'Job Name',
+    'LBL_EXECUTE_TIME' => 'Execute Time',
+    'LBL_SCHEDULER_ID' => 'Scheduler',
     'LBL_STATUS' => 'ジョブの状態',
-    'LBL_RESOLUTION' => '結果',
+    'LBL_RESOLUTION' => 'Result',
     'LBL_MESSAGE' => 'メッセージ',
     'LBL_DATA' => 'ジョブデータ',
     'LBL_REQUEUE' => '失敗時のリトライ',

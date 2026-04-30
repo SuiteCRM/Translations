@@ -46,7 +46,7 @@ $mod_strings = array(
     'LBL_EDIT_LAYOUT' => 'لے آؤٹ میں ترمیم کریں',
     'LBL_EDIT_FIELDS' => 'Edit Custom Fields',
     'LBL_SELECT_FILE' => 'Select File',
-    'LBL_MODULE_TITLE' => 'سٹوڈیو',
+    'LBL_MODULE_TITLE' => 'وہ جگہ جہاں سے ٹی وی اور ریڈیو کے پروگرام نشر ھوتے ہیں',
     'LBL_TOOLBOX' => 'Toolbox',
     'LBL_SUITE_FIELDS_STAGE' => 'سویٹ کروم کی فیڈ تمثیل علاقے میں درج کرنے کے لئے کلک کریں',
     'LBL_VIEW_SUITE_FIELDS' => 'View SuiteCRM Fields',
@@ -115,7 +115,7 @@ $mod_strings = array(
 
 //TABS
     'LBL_MODULES' => 'ماڈیولز',
-    'LBL_MODULE_NAME' => 'انتظامیہ',
+    'LBL_MODULE_NAME' => 'Administration',
     'LBL_CONFIGURE_GROUP_TABS' => 'ماڈیول مینو فلٹرز کو تشکیل دیں',
     'LBL_GROUP_TAB_WELCOME' => 'نیچے فلٹر دکھائی دیا جائے گا اور زیادہ فہرست ماڈل میں صارف کے یوزر کے لیے استعمال کریں اور دیکھیں گروپ کے ماڈل مینیو میں ماڈل کو کھیچے اور ڈالے فلٹر میں درج کرلی کے خالی فلٹر مینیو میں دکھائی نہیں دیئے جائیں گے.',
     'LBL_RENAME_TAB_WELCOME' => 'دکھائی دینے والے ٹیپ کی قیمت پر کلک کریں اور نیچے اسٹیپ کا نام تبدیل کریں.',

@@ -43,22 +43,22 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Imong Role:',
+    'LBL_ROLE' => 'Role:',
     'LBL_LANGUAGE' => 'Lingwahe:',
     'LBL_MODULE_NAME' => 'Imong Role',
     'LBL_MODULE_TITLE' => 'Mga papel: Home',
     'LBL_SEARCH_FORM_TITLE' => 'Pagpangita sa Bahin',
     'LBL_LIST_FORM_TITLE' => 'Lista sa Bahin',
-    'LNK_NEW_ROLE' => 'Maghimo og papel',
-    'LNK_ROLES' => 'Imong Role',
+    'LNK_NEW_ROLE' => 'Pagbuhat og Bahin',
+    'LNK_ROLES' => 'Mga Bahin',
     'LBL_NAME' => 'Pangalan:',
-    'LBL_DESCRIPTION' => 'Deskripsyon:',
+    'LBL_DESCRIPTION' => 'Ang deskripsyon:',
     'LBL_ALLOWED_MODULES' => 'Gitugotan na mga Modyul: ',
     'LBL_DISALLOWED_MODULES' => 'Wala gitugotan na mga Modyul: ',
     'LBL_ASSIGN_MODULES' => 'I-edit ang mga Modyul: ',
-    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Imong Role',
-    'LBL_USERS' => 'Tig gamit',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Mga Bahin',
+    'LBL_USERS' => 'Mga Tiggamit',
 
-    'LBL_USERS_SUBPANEL_TITLE' => 'Tig gamit',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Mga Tiggamit',
     'LBL_MODULES' => 'Mga Modyul',
 );

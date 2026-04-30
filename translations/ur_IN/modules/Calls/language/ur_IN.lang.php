@@ -113,8 +113,8 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_ASSIGNED_TO_ID' => 'مقرر کردہ صارف',
     'NOTICE_DURATION_TIME' => 'Duration time must be greater than 0',
-    'LBL_CALL_INFORMATION' => 'جائزہ', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
-    'LBL_REMOVE' => 'ختم کر دیں',
+    'LBL_CALL_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_REMOVE' => 'نکال دیں',
     'LBL_ACCEPT_STATUS' => 'Accept Status',
     'LBL_ACCEPT_LINK' => 'Accept Link',
 

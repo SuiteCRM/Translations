@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Rekeninge',
+    'LBL_MODULE_NAME' => 'Accounts',
     'LBL_MODULE_TITLE' => 'Accounts: Home',
     'LBL_SEARCH_FORM_TITLE' => 'Account Search',
     'LBL_LIST_FORM_TITLE' => 'Account List',
@@ -51,7 +51,7 @@ $mod_strings = array(
     'LNK_NEW_CONTACT' => 'Create Contact',
     'LNK_NEW_ACCOUNT' => 'Create Account',
     'LNK_NEW_OPPORTUNITY' => 'Create Opportunity',
-    'LNK_NEW_CASE' => 'Skep \'n geval',
+    'LNK_NEW_CASE' => 'Create Case',
     'LNK_NEW_NOTE' => 'Create Note or Attachment',
     'LNK_NEW_CALL' => 'Log Call',
     'LNK_NEW_EMAIL' => 'Argiveer Epos',

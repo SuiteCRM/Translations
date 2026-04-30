@@ -66,8 +66,8 @@ $app_list_strings = array(
     $object_name . '_resolution_dom' => array(
         '' => '',
         'Accepted' => 'Aanvaar',
-        'Duplicate' => 'Duplikaat',
-        'Closed' => 'Gesluit',
+        'Duplicate' => 'Duplicate',
+        'Closed' => 'Closed',
         'Out of Date' => 'Verouderd',
         'Invalid' => 'Ongeldig',
     ),

@@ -54,7 +54,7 @@ $mod_strings = array(
     'LBL_ASSIGNED_USER_ID' => 'Ini-assign sa:',
     'LBL_MODIFIED_USER_ID' => 'Binago ng gumagamit ng Id:',
     'LBL_CREATED_BY' => 'Nilikha sa pamamagitan ng:',
-    'LBL_NAME' => 'Ang Pangalan:',
+    'LBL_NAME' => 'Pangalan:',
     'LBL_STATUS' => 'Katayuan:',
     'LBL_DATE_DUE' => 'Nakatakdang petsa:',
     'LBL_TIME_DUE' => 'Nakatakdang Oras:',
@@ -81,15 +81,15 @@ $mod_strings = array(
     'LBL_DELETED' => 'Binura:',
     'LBL_IMPORT_PROJECT_TASKS' => 'Import Project Tasks',
 
-    'LBL_LIST_NAME' => 'Ang Pangalan',
+    'LBL_LIST_NAME' => 'Ang pangalan',
     'LBL_LIST_PARENT_NAME' => 'Ang proyekto',
     'LBL_SEARCH_FORM_TITLE' => 'Project Task Search',
     'LBL_LIST_PERCENT_COMPLETE' => '%Kompleto',
-    'LBL_LIST_STATUS' => 'Ang Katayuan',
+    'LBL_LIST_STATUS' => 'Estado',
     'LBL_LIST_ASSIGNED_USER_ID' => 'Ini-assign sa',
     'LBL_LIST_DATE_DUE' => 'Petsang nakatakda',
     'LBL_LIST_PRIORITY' => 'Prayoridad',
-    'LBL_LIST_CLOSE' => 'Ang pagsasara',
+    'LBL_LIST_CLOSE' => 'Pagsara',
     'LBL_PROJECT_NAME' => 'Pangalan ng Proyekto',
     'LBL_LIST_FORM_TITLE' => 'Project Task List',
 
@@ -107,8 +107,8 @@ $mod_strings = array(
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Kasaysayan',
 
     'LBL_ASSIGNED_USER_NAME' => 'Ini-assign sa',
-    'LBL_PARENT_NAME' => 'Pangalan ng Proyekto',
-    'LBL_EDITLAYOUT' => 'Baguhin ang layout' /*for 508 compliance fix*/,
+    'LBL_PARENT_NAME' => 'Pangalan ng proyekto',
+    'LBL_EDITLAYOUT' => 'I-edit ang layout' /*for 508 compliance fix*/,
     'LBL_PANEL_TIMELINE' => 'Timeline',
 
     'LBL_SUBTASK' => 'Sub-task',

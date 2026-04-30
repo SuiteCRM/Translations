@@ -45,8 +45,8 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_ASSIGNED_TO_ID' => 'Toegewezen gebruiker-Id',
     'LBL_ASSIGNED_TO_NAME' => 'Toegewezen aan',
-    'LBL_ID' => 'Id',
-    'LBL_DATE_ENTERED' => 'Datum aangemaakt',
+    'LBL_ID' => 'ID',
+    'LBL_DATE_ENTERED' => 'Aangemaakt op',
     'LBL_DATE_MODIFIED' => 'Datum gewijzigd',
     'LBL_MODIFIED' => 'Gewijzigd door',
     'LBL_MODIFIED_NAME' => 'Gewijzigd door naam',
@@ -96,7 +96,7 @@ $mod_strings = array(
     'LBL_MARGIN_HEADER' => 'Rand koptekst',
     'LBL_MARGIN_FOOTER' => 'Rand voettekst',
     'LBL_EDITVIEW_PANEL1' => 'Randen',
-    'LBL_DETAILVIEW_PANEL1' => 'Randen',
+    'LBL_DETAILVIEW_PANEL1' => 'Marges',
     'LBL_PAGE_SIZE' => 'Paginagrootte',
     'LBL_ORIENTATION' => 'Oriëntatie',
 );

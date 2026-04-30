@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_FIELD_NAME' => 'Polje',
+    'LBL_FIELD_NAME' => 'Field',
     'LBL_OLD_NAME' => 'Stara vrednost',
     'LBL_NEW_VALUE' => 'Nova vrednost',
     'LBL_CREATED_BY' => 'Spremenil',
     'LBL_LIST_DATE' => 'Datum spremembe',
     'LBL_AUDITED_FIELDS' => 'Polja za pregled v modulu: ',
-    'LBL_CHANGE_LOG' => 'Spremeni dnevnik (log)',
+    'LBL_CHANGE_LOG' => 'Change Log',
 );

@@ -54,9 +54,9 @@ $mod_strings = array(
     'LBL_JOIN_TABLE' => 'Join Table nimi',
     'LBL_JOIN_KEY_LHS' => 'Join Key LHS',
     'LBL_JOIN_KEY_RHS' => 'Join Key RHS',
-    'LBL_RELATIONSHIP_TYPE' => 'Seose tüüp',
+    'LBL_RELATIONSHIP_TYPE' => 'Relationship Type',
     'LBL_RELATIONSHIP_ROLE_COLUMN' => 'Relationship Role Column nimi',
     'LBL_RELATIONSHIP_ROLE_COLUMN_VALUE' => 'Relationship Role Column väärtus',
     'LBL_REVERSE' => 'Tühistamine',
-    'LBL_DELETED' => 'Kustutatud',
+    'LBL_DELETED' => 'Deleted',
 );

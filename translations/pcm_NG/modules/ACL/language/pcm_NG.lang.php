@@ -44,8 +44,8 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ROLE' => 'Role',
-    'LBL_NAME' => 'Name',
-    'LBL_DESCRIPTION' => 'Na here dem go tell u as de thing be',
+    'LBL_NAME' => 'Wetin be your name',
+    'LBL_DESCRIPTION' => 'Na for here you go sabi as the thing be',
     'LIST_ROLES' => 'Roles wey dey de list',
     'LBL_USERS_SUBPANEL_TITLE' => 'Users',
     'LIST_ROLES_BY_USER' => 'List Roles By User',

@@ -44,8 +44,8 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings['LBL_ASSIGNED_TO_ID'] = 'Toegewezen gebruiker-Id';
 $mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Toegewezen aan';
-$mod_strings['LBL_ID'] = 'Id';
-$mod_strings['LBL_DATE_ENTERED'] = 'Datum aangemaakt';
+$mod_strings['LBL_ID'] = 'ID';
+$mod_strings['LBL_DATE_ENTERED'] = 'Aangemaakt op';
 $mod_strings['LBL_DATE_MODIFIED'] = 'Datum gewijzigd';
 $mod_strings['LBL_MODIFIED'] = 'Gewijzigd door';
 $mod_strings['LBL_MODIFIED_NAME'] = 'Gewijzigd door naam';

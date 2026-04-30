@@ -46,30 +46,30 @@ $mod_strings = array(
     //module
     'LBL_MODULE_NAME' => 'Revisão do documento',
 
-    'LNK_NEW_DOCUMENT' => 'Criar documento',
+    'LNK_NEW_DOCUMENT' => 'Create Document',
     'LNK_DOCUMENT_LIST' => 'Ver documentos',
 
     //vardef labels
-    'LBL_REVISION_NAME' => 'Número da revisão',
-    'LBL_FILENAME' => 'Nome do ficheiro',
-    'LBL_MIME' => 'Tipo de Mime',
+    'LBL_REVISION_NAME' => 'Revision Number',
+    'LBL_FILENAME' => 'Ficheiro:',
+    'LBL_MIME' => 'Mime Type',
     'LBL_REVISION' => 'Revisão',
     'LBL_DOCUMENT' => 'Documento relacionado',
-    'LBL_LATEST_REVISION' => 'Última Revisão',
+    'LBL_LATEST_REVISION' => 'Latest Revision',
     'LBL_CHANGE_LOG' => 'Historial de alterações',
-    'LBL_ACTIVE_DATE' => 'Data da Publicação',
+    'LBL_ACTIVE_DATE' => 'Data de publicação',
     'LBL_EXPIRATION_DATE' => 'Data de validade',
     'LBL_FILE_EXTENSION' => 'Extensão de ficheiro',
 
-    'LBL_DOC_NAME' => 'Nome do documento:',
-    'LBL_DOC_VERSION' => 'Revisão:',
+    'LBL_DOC_NAME' => 'Document Name:',
+    'LBL_DOC_VERSION' => 'Revision:',
 
     //document revisions.
     'LBL_REV_LIST_REVISION' => 'Revisão',
     'LBL_REV_LIST_ENTERED' => 'Data de criação',
-    'LBL_REV_LIST_CREATED' => 'Criado por',
+    'LBL_REV_LIST_CREATED' => 'Created by',
     'LBL_REV_LIST_LOG' => 'Historial de alterações',
-    'LBL_REV_LIST_FILENAME' => 'Ficheiro',
+    'LBL_REV_LIST_FILENAME' => 'Nome do ficheiro',
 
     'LBL_CURRENT_DOC_VERSION' => 'Última revisão:',
     'LBL_SEARCH_FORM_TITLE' => 'Pesquisar documentos',

@@ -43,18 +43,18 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings['LBL_ASSIGNED_TO_ID'] = 'Gi-assign nga User Id';
-$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Gigahin kang';
-$mod_strings['LBL_ID'] = 'ID';
+$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Gigahin sa';
+$mod_strings['LBL_ID'] = 'Mga Aksyon sa WorkFlow';
 $mod_strings['LBL_DATE_ENTERED'] = 'Petsa nga gihimo';
 $mod_strings['LBL_DATE_MODIFIED'] = 'Petsa nga gi-usab';
-$mod_strings['LBL_MODIFIED'] = 'Giusab Ni';
+$mod_strings['LBL_MODIFIED'] = 'Ubsonunon Ni';
 $mod_strings['LBL_MODIFIED_NAME'] = 'Giusab pinaagi sa pangan';
 $mod_strings['LBL_CREATED'] = 'Gihimo Ni';
-$mod_strings['LBL_DESCRIPTION'] = 'Paghulagway';
-$mod_strings['LBL_DELETED'] = 'Gitangtang';
+$mod_strings['LBL_DESCRIPTION'] = 'Deskrespyon';
+$mod_strings['LBL_DELETED'] = 'Gipapas';
 $mod_strings['LBL_NAME'] = 'Adres';
 $mod_strings['LBL_CREATED_USER'] = 'Gihimo ni User';
-$mod_strings['LBL_MODIFIED_USER'] = 'Giusab ni User';
+$mod_strings['LBL_MODIFIED_USER'] = 'Ginag-o ni User';
 $mod_strings['LBL_LIST_NAME'] = 'Adres';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'Listahan sa address Cache';
 $mod_strings['LBL_MODULE_NAME'] = 'Cache sa Puloy-anan';
@@ -63,7 +63,7 @@ $mod_strings['LBL_HOMEPAGE_TITLE'] = 'Akong Address Cache';
 $mod_strings['LNK_NEW_RECORD'] = 'Maghimo ug Address Cache';
 $mod_strings['LNK_LIST'] = 'Tan-aw ug Address Cache';
 $mod_strings['LBL_SEARCH_FORM_TITLE'] = 'Mangita ug Address Cache';
-$mod_strings['LBL_HISTORY_SUBPANEL_TITLE'] = 'Tan-awon ang Kasaysayan';
+$mod_strings['LBL_HISTORY_SUBPANEL_TITLE'] = 'Tanawon ang Kasaysayan';
 $mod_strings['LBL_ACTIVITIES_SUBPANEL_TITLE'] = 'Mga Aktibidad';
 $mod_strings['LBL_NEW_FORM_TITLE'] = 'Bag-ong Address Cache';
 $mod_strings['LBL_LAT'] = 'Latid';

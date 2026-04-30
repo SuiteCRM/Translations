@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_FIELD_NAME' => 'Nama Field',
+    'LBL_FIELD_NAME' => 'Field',
     'LBL_OLD_NAME' => 'Nilai yang lama',
     'LBL_NEW_VALUE' => 'Nilai yang baru',
     'LBL_CREATED_BY' => 'Diubah oleh',
     'LBL_LIST_DATE' => 'Tanggal diubah',
     'LBL_AUDITED_FIELDS' => 'Field yang diaudit di modul ini: ',
-    'LBL_CHANGE_LOG' => 'Log Perubahan',
+    'LBL_CHANGE_LOG' => 'Change Log',
 );

@@ -61,8 +61,8 @@ $mod_strings = array(
     'LBL_ASCENDING' => 'Aufsteigend',
     'LBL_DESCENDING' => 'Absteigend',
     // Emails
-    'LBL_OPT_IN' => 'Opt-in',
-    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Einwilligung ausstehend, Bestätigung (Opt-in) nicht gesendet',
-    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Einwilligung ausstehend, Bestätigung (Opt-in) gesendet',
+    'LBL_OPT_IN' => 'Einwilligung',
+    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Einwilligung ausstehend, Bestätigung der Einwilligung nicht gesendet',
+    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Einwilligung ausstehend, Bestätigung der Einwilligung gesendet',
     'LBL_OPT_IN_CONFIRMED' => 'Einwilligung bestätigt',
 );

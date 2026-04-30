@@ -44,25 +44,25 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
 
-    'LBL_NAME' => '이름',
+    'LBL_NAME' => 'Name',
     'LBL_NUMBER' => '번호:',
-    'LBL_STATUS' => '상태:',
+    'LBL_STATUS' => 'Status:',
     'LBL_PRIORITY' => '우선순위:',
     'LBL_DESCRIPTION' => '상세설명:',
     'LBL_RESOLUTION' => '해결',
     'LBL_LAST_MODIFIED' => '최종변경일',
     'LBL_ASSIGNED_TO_ID' => '담당자:',
-    'LBL_ASSIGNED_TO_NAME' => '사용자:',
+    'LBL_ASSIGNED_TO_NAME' => '담당유저:',
     'LBL_WORK_LOG' => '워크로그:',
     'LBL_CREATED_BY' => '등록자:',
-    'LBL_DATE_ENTERED' => '작성일:',
+    'LBL_DATE_ENTERED' => 'Date Created:',
     'LBL_DATE_MODIFIED' => '변경일:',
     'LBL_MODIFIED_BY' => '최종편집일:',
     'LBL_ASSIGNED_USER' => '담당자:',
-    'LBL_TYPE' => '종류:',
+    'LBL_TYPE' => '유형:',
     'LBL_SUBJECT' => '제목:',
 
-    'LBL_EDIT_BUTTON' => '편집',
-    'LBL_REMOVE' => '삭제',
+    'LBL_EDIT_BUTTON' => '수정',
+    'LBL_REMOVE' => '제거',
 
 );

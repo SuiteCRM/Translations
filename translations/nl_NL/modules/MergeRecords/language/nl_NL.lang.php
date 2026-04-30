@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Lijst samenvoegen',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => '<b>Stap 1:</b> Zoek records om samen te voegen ',
-    'LBL_AVAIL_FIELDS' => 'Beschikbare velden',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'Filter conditie',
     'LBL_MERGE_VALUE_OVER' => 'Waarde samenvoegen op',
 
@@ -58,15 +58,15 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Samenvoegen',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Samenvoegen',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Samengevoegde items opslaan',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Samengevoegde items opslaan',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => 'Items gevonden om samen te voegen:',
     'LBL_SELECT_ERROR' => 'U moet eerst een selectie maken voordat u doorgaat.',
     'LBL_CHANGE_PARENT' => 'Stel als primair in',
-    'LBL_REMOVE_FROM_MERGE' => 'Verwijder',
+    'LBL_REMOVE_FROM_MERGE' => 'Remove',
     'LBL_DIFF_COL_VALUES' => 'Kolommen waarvan de waarde in het primaire item verschilt van de waarde in samen te voegen item:',
     'LBL_SAME_COL_VALUES' => 'Kolommen waarvan alle waarden hetzelfde zijn:',
     'LBL_DELETE_MESSAGE' => 'Deze actie zal de volgende items verwijderen:',

@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_NAME' => 'Názov práce',
     'LBL_EXECUTE_TIME' => 'Čas spustenia',
-    'LBL_SCHEDULER_ID' => 'Automatické plánovač',
+    'LBL_SCHEDULER_ID' => 'Plánovač',
     'LBL_STATUS' => 'Stav práce',
     'LBL_RESOLUTION' => 'Výsledok',
     'LBL_MESSAGE' => 'Správy',

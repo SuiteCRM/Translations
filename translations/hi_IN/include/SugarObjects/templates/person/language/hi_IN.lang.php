@@ -55,7 +55,7 @@ $mod_strings = array(
     'LBL_OFFICE_PHONE' => 'कार्यालय फ़ोन',
     'LBL_OTHER_PHONE' => 'अन्य फ़ोन',
     'LBL_FAX_PHONE' => 'फेक्स',
-    'LBL_EMAIL_ADDRESS' => 'ईमेल पता',
+    'LBL_EMAIL_ADDRESS' => 'ईमेल पता(ते)',
     'LBL_PRIMARY_ADDRESS' => 'प्राथमिक पता',
     'LBL_PRIMARY_ADDRESS_STREET' => 'प्राथमिक पता',
     'LBL_PRIMARY_ADDRESS_STREET_2' => 'प्राथमिक पता पंक्ति 2:',
@@ -88,10 +88,10 @@ $mod_strings = array(
     'LBL_WORK_PHONE' => 'कार्यालय का फ़ोन',
     'LNK_IMPORT_VCARD' => 'वीकार्ड से बनाएं',
     'LBL_ANY_EMAIL' => 'कोई भी ईमेल',
-    'LBL_EMAIL_NON_PRIMARY' => 'गैर प्राथमिक ई-मेल',
+    'LBL_EMAIL_NON_PRIMARY' => 'गैर-प्राथमिक ईमेल',
     'LBL_PHOTO' => 'फोटो',
-    'LBL_EDIT_BUTTON' => 'संशोधन करें',
-    'LBL_REMOVE' => 'हटाऐं',
+    'LBL_EDIT_BUTTON' => 'संपादित करें',
+    'LBL_REMOVE' => 'हटाएँ',
 
     //Lawful Basis labels
     'LBL_LAWFUL_BASIS' => 'वैध आधार',

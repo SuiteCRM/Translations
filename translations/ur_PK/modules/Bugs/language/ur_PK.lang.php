@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'مسئلے',
+    'LBL_MODULE_NAME' => 'Bugs',
     'LBL_MODULE_TITLE' => 'غلطیا ڈھونڈنے والا گھر',
-    'LBL_MODULE_ID' => 'مسئلے',
+    'LBL_MODULE_ID' => 'Bugs',
     'LBL_SEARCH_FORM_TITLE' => 'غلطیاں تلاش کرنا',
     'LBL_LIST_FORM_TITLE' => 'غلطیوں کی فہرست',
     'LBL_NEW_FORM_TITLE' => 'نئي غلطی',
@@ -62,7 +62,7 @@ $mod_strings = array(
     'LBL_LIST_PRIORITY' => 'ترجیح',
     'LBL_LIST_RESOLUTION' => 'قرارداد',
     'LBL_LIST_LAST_MODIFIED' => 'آخری ردوبدل',
-    'LBL_INVITEE' => 'رابطے',
+    'LBL_INVITEE' => 'Contacts',
     'LBL_TYPE' => 'قسم:',
     'LBL_LIST_TYPE' => 'قسم',
     'LBL_RESOLUTION' => 'ہمت:',
@@ -90,16 +90,16 @@ $mod_strings = array(
     'NTC_SNOOZE_CONFIRMATION' => 'Are you sure you want to snooze?',
 
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'غلطیا ڈھونڈنے والا',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'سرگرمیاں',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'تاریخ',
-    'LBL_CONTACTS_SUBPANEL_TITLE' => 'رابطے',
-    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'کهاتے',
-    'LBL_CASES_SUBPANEL_TITLE' => 'معاملے',
-    'LBL_PROJECTS_SUBPANEL_TITLE' => 'منصوبے',
-    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'دستاویزات',
+    'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
+    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Accounts',
+    'LBL_CASES_SUBPANEL_TITLE' => 'Cases',
+    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projects',
+    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documents',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'مقرر کردہ صارف',
     'LBL_ASSIGNED_TO_NAME' => 'کے لئے تفویض',
 
-    'LBL_BUG_INFORMATION' => 'جائزہ', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_BUG_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
 );

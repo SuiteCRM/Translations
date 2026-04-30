@@ -44,25 +44,25 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
 
-    'LBL_NAME' => 'Ime',
+    'LBL_NAME' => 'Name',
     'LBL_NUMBER' => 'Številka:',
-    'LBL_STATUS' => 'Stanje:',
+    'LBL_STATUS' => 'Status:',
     'LBL_PRIORITY' => 'Prioriteta:',
-    'LBL_DESCRIPTION' => 'Opis:',
+    'LBL_DESCRIPTION' => 'Description:',
     'LBL_RESOLUTION' => 'Rešitev',
     'LBL_LAST_MODIFIED' => 'Zadnje spremenjeno',
     'LBL_ASSIGNED_TO_ID' => 'Dodeljeno:',
-    'LBL_ASSIGNED_TO_NAME' => 'Dodeljeno:',
+    'LBL_ASSIGNED_TO_NAME' => 'User:',
     'LBL_WORK_LOG' => 'Delovni dnevnik:',
     'LBL_CREATED_BY' => 'Ustvaril:',
-    'LBL_DATE_ENTERED' => 'Datum vnosa:',
-    'LBL_DATE_MODIFIED' => 'Datum spremembe:',
+    'LBL_DATE_ENTERED' => 'Date Created:',
+    'LBL_DATE_MODIFIED' => 'Date Modified:',
     'LBL_MODIFIED_BY' => 'Nazadnje spremenil:',
     'LBL_ASSIGNED_USER' => 'Dodeljeno uporabniku:',
-    'LBL_TYPE' => 'Tip:',
+    'LBL_TYPE' => 'Type:',
     'LBL_SUBJECT' => 'Zadeva:',
 
-    'LBL_EDIT_BUTTON' => 'Uredi',
-    'LBL_REMOVE' => 'Odstrani',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
 
 );

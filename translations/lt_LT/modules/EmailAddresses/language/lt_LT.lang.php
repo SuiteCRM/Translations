@@ -46,10 +46,10 @@ $mod_strings = array(
     'LBL_EMAIL_ADDRESS_ID' => 'ID',
     'LBL_EMAIL_ADDRESS' => 'El. paštas:',
     'LBL_EMAIL_ADDRESS_CAPS' => 'El. pašto adreso caps',
-    'LBL_INVALID_EMAIL' => 'Neteisingas adresas',
-    'LBL_OPT_OUT' => 'Atsisakė',
+    'LBL_INVALID_EMAIL' => 'Neteisingas pašto adresas',
+    'LBL_OPT_OUT' => 'Nesiųsti',
     'LBL_CONFIRM_OPT_IN' => 'Confirm Opt In',
     'LBL_DATE_CREATE' => 'Sukūrimo data',
-    'LBL_DATE_MODIFIED' => 'Redagavimo data',
+    'LBL_DATE_MODIFIED' => 'Redaguota',
     'LBL_DELETED' => 'Ištrinti',
 );

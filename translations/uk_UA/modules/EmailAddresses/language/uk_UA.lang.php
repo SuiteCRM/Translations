@@ -46,10 +46,10 @@ $mod_strings = array(
     'LBL_EMAIL_ADDRESS_ID' => 'ID',
     'LBL_EMAIL_ADDRESS' => 'Адреса електронної пошти',
     'LBL_EMAIL_ADDRESS_CAPS' => 'Поштова адреса великими літерами',
-    'LBL_INVALID_EMAIL' => 'Невірна електронна адреса',
-    'LBL_OPT_OUT' => 'Ті, що відписалися',
+    'LBL_INVALID_EMAIL' => 'Невірна електронна пошта',
+    'LBL_OPT_OUT' => 'Opted Out',
     'LBL_CONFIRM_OPT_IN' => 'Підтвердити дозвіл на маркетингове листування',
     'LBL_DATE_CREATE' => 'Дата створення',
     'LBL_DATE_MODIFIED' => 'Дата зміни',
-    'LBL_DELETED' => 'Видалення',
+    'LBL_DELETED' => 'Delete',
 );

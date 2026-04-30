@@ -48,7 +48,7 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Sale Search',
     'LBL_LIST_FORM_TITLE' => 'Sale List',
     'LBL_NAME' => 'Sale Name',
-    'LBL_LIST_SALE_NAME' => 'Naam',
+    'LBL_LIST_SALE_NAME' => 'Name',
     'LBL_LIST_ACCOUNT_NAME' => 'Account Name',
     'LBL_LIST_AMOUNT' => 'Amount',
     'LBL_LIST_DATE_CLOSED' => 'Maak toe',
@@ -76,10 +76,10 @@ $mod_strings = array(
     'LBL_NEW_FORM_TITLE' => 'Create Sale',
     'ERR_DELETE_RECORD' => 'A record number must be specified to delete the sale.',
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Sale',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktiwiteite',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'History',
 
-    'LBL_CONTACTS_SUBPANEL_TITLE' => 'Kontakte',
+    'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
     'LBL_ASSIGNED_TO_NAME' => 'User:',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigned User',
     'LBL_ASSIGNED_TO_ID' => 'Assigned to ID',
@@ -87,7 +87,7 @@ $mod_strings = array(
     'LBL_SALE_INFORMATION' => 'Sale Information',
     'LBL_CURRENCY_NAME' => 'Currency Name',
     'LBL_CURRENCY_SYMBOL' => 'Currency Symbol',
-    'LBL_EDIT_BUTTON' => 'Wysig',
-    'LBL_REMOVE' => 'Verwyder',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
 
 );

@@ -91,7 +91,7 @@ $mod_strings = array(
     'LBL_EMAIL_NON_PRIMARY' => 'غیر پرائمری ای میل',
     'LBL_PHOTO' => 'تصویر',
     'LBL_EDIT_BUTTON' => 'ردوبدل',
-    'LBL_REMOVE' => 'ختم کر دیں',
+    'LBL_REMOVE' => 'نکال دیں',
 
     //Lawful Basis labels
     'LBL_LAWFUL_BASIS' => 'Lawful Basis',

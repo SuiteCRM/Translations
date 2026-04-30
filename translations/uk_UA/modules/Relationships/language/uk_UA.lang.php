@@ -54,9 +54,9 @@ $mod_strings = array(
     'LBL_JOIN_TABLE' => 'Приєднати назву таблиці',
     'LBL_JOIN_KEY_LHS' => 'Приєднати ключ LHS',
     'LBL_JOIN_KEY_RHS' => 'Приєднати ключ RHS ',
-    'LBL_RELATIONSHIP_TYPE' => 'Тип зв&#039;язку',
+    'LBL_RELATIONSHIP_TYPE' => 'Relationship Type',
     'LBL_RELATIONSHIP_ROLE_COLUMN' => 'Назва колонки ролі зв&#039;язку',
     'LBL_RELATIONSHIP_ROLE_COLUMN_VALUE' => 'Значення колонки ролі зв&#039;язку',
     'LBL_REVERSE' => 'Навпаки',
-    'LBL_DELETED' => 'Видалено',
+    'LBL_DELETED' => 'Deleted',
 );

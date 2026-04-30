@@ -94,7 +94,7 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Itinatalaga sa',
     'LBL_DATE' => 'I-start ang petsa at oras',
     'LBL_CREATE_MEETING' => 'Iskedyul ng meeting',
-    'LBL_CREATE_CALL' => 'Log Call',
+    'LBL_CREATE_CALL' => 'Log ng Tawag',
     'LBL_HOURS_ABBREV' => 'h',
     'LBL_MINS_ABBREV' => 'm',
 
@@ -113,13 +113,13 @@ $mod_strings = array(
     'LBL_ERROR_LOADING' => 'Naka-error habang naglo-load',
     'LBL_GOTO_DATE' => 'Pumunta sa petsa',
     'NOTICE_DURATION_TIME' => 'Ang agwat ng oras ay dapat mas malaki sa 0',
-    'LBL_STYLE_BASIC' => 'Pangunahin', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_STYLE_BASIC' => 'BASIC', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_STYLE_ADVANCED' => 'Ang advans', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
     'LBL_NO_USER' => 'Walang tugma para sa field: naka-assign sa',
     'LBL_SUBJECT' => 'Ang paksa',
     'LBL_DURATION' => 'Agwat',
-    'LBL_STATUS' => 'Ang Katayuan',
+    'LBL_STATUS' => 'Katayuan',
     'LBL_PRIORITY' => 'Prayoridad',
 
     'LBL_SETTINGS_TITLE' => 'Ang mga setting',

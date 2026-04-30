@@ -49,17 +49,17 @@ $mod_strings = [
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Дата створення',
     'LBL_DATE_MODIFIED' => 'Дата зміни',
-    'LBL_MODIFIED' => 'Змінено',
-    'LBL_MODIFIED_NAME' => 'Змінено користувачем',
+    'LBL_MODIFIED' => 'Ким змінено',
+    'LBL_MODIFIED_NAME' => 'Змінено користувачем (за іменем)',
     'LBL_CREATED' => 'Ким створено',
     'LBL_DESCRIPTION' => 'Опис',
-    'LBL_DELETED' => 'Видалено',
+    'LBL_DELETED' => 'Deleted',
     'LBL_NAME' => 'Назва',
-    'LBL_CREATED_USER' => 'Створено користувачем',
-    'LBL_MODIFIED_USER' => 'Змінено користувачем',
+    'LBL_CREATED_USER' => 'Created by User',
+    'LBL_MODIFIED_USER' => 'Modified by User',
     'LBL_LIST_NAME' => 'Назва',
-    'LBL_EDIT_BUTTON' => 'Правка',
-    'LBL_REMOVE' => 'Видалити',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
     'LBL_LIST_FORM_TITLE' => 'Сторонні постачальники OAuth',
     'LBL_MODULE_NAME' => 'Сторонні постачальники OAuth',
     'LBL_MODULE_TITLE' => 'Сторонні постачальники OAuth',
@@ -68,12 +68,12 @@ $mod_strings = [
 
     'LNK_LIST' => 'Сторонні постачальники OAuth',
     'LBL_SEARCH_FORM_TITLE' => 'Шукати постачальника OAuth',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Історія',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Заходи',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_NEW_FORM_TITLE' => 'Новий сторонній постачальник OAuth',
 
-    'LBL_LIST_DELETE' => 'Видалення',
-    'LBL_TYPE' => 'Тип',
+    'LBL_LIST_DELETE' => 'Delete',
+    'LBL_TYPE' => 'Type',
     'LBL_CONNECTOR' => 'Конектор',
     'LBL_REDIRECT_URI' => 'URI перенаправлення',
     'LBL_REDIRECT_URI_TYPE' => 'Redirect URI Type',
@@ -97,7 +97,7 @@ $mod_strings = [
 
     'LBL_EXTRA' => 'Додаткові налаштування',
     'LBL_MAPPING' => 'Відображення налаштувань',
-    'LBL_OTHER' => 'Інший',
+    'LBL_OTHER' => 'Інше',
 
 
     'LNK_LIST_CREATE_NEW_PERSONAL' => 'Новий особистий постачальник',
@@ -106,5 +106,5 @@ $mod_strings = [
     'LNK_LIST_OUTBOUND_EMAILS' => 'Облікові записи вихідної електронної пошти',
     'LNK_LIST_EXTERNAL_OAUTH_CONNECTION' => 'Зовнішні OAuth підключення',
 
-    'LBL_OWNER' => 'Власник',
+    'LBL_OWNER' => 'Owner',
 ];

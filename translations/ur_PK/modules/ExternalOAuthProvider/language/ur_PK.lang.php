@@ -47,15 +47,15 @@ $mod_strings = [
     'LBL_ASSIGNED_TO_ID' => 'مقرر کردہ صارف کی شناخت',
     'LBL_ASSIGNED_TO_NAME' => 'کے لئے تفویض',
     'LBL_ID' => 'شناخت',
-    'LBL_DATE_ENTERED' => 'تاریخ کی تشکیل',
+    'LBL_DATE_ENTERED' => 'تاریخ بنائی گئی ہے',
     'LBL_DATE_MODIFIED' => 'تاریخ میں ترمیم',
     'LBL_MODIFIED' => 'کسی کی طرف سے ترمیم',
-    'LBL_MODIFIED_NAME' => 'نام کی طرف سے ترمیم',
+    'LBL_MODIFIED_NAME' => 'نام سے ترمیم',
     'LBL_CREATED' => 'کی طرف سے پیدا کردہ',
     'LBL_DESCRIPTION' => 'تفصیل',
     'LBL_DELETED' => 'حذف کر دیا گیا',
     'LBL_NAME' => 'نام',
-    'LBL_CREATED_USER' => 'صارف کی طرف سے پیدا کردہ',
+    'LBL_CREATED_USER' => 'صارف کی طرف سے پیدا شدہ',
     'LBL_MODIFIED_USER' => 'صارف کی طرف سے ترمیم',
     'LBL_LIST_NAME' => 'نام',
     'LBL_EDIT_BUTTON' => 'ردوبدل',
@@ -69,7 +69,7 @@ $mod_strings = [
     'LNK_LIST' => 'External OAuth Providers',
     'LBL_SEARCH_FORM_TITLE' => 'Search External OAuth Providers',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'تاریخ دیکھیں',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'سرگرمیاں',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_NEW_FORM_TITLE' => 'New External OAuth Provider',
 
     'LBL_LIST_DELETE' => 'ختم کریں',
@@ -97,7 +97,7 @@ $mod_strings = [
 
     'LBL_EXTRA' => 'Extra configurations',
     'LBL_MAPPING' => 'Mapping configurations',
-    'LBL_OTHER' => 'دیگر',
+    'LBL_OTHER' => 'Other',
 
 
     'LNK_LIST_CREATE_NEW_PERSONAL' => 'New Personal Provider',

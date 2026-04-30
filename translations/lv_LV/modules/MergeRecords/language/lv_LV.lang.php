@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Sapludināšanas saraksts',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Meklēt ierakstus sapludināšanai',
-    'LBL_AVAIL_FIELDS' => 'Pieejamie lauki',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'Filtrs',
     'LBL_MERGE_VALUE_OVER' => 'Sapludināt, pārrakstot vērtību',
 
@@ -58,10 +58,10 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Sapludināt',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Sapludināt',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Saglabāt',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Saglabāt',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => 'Atrastie ieraksti sapludināšanai ar:',
     'LBL_SELECT_ERROR' => 'Jums ir jāizvēlas ierakstu, lai turpinātu.',

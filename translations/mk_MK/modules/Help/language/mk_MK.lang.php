@@ -43,19 +43,19 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Кориснички сметки',
+    'LBL_MODULE_NAME' => 'Корисници',
     'LBL_MODULE_TITLE' => 'Корисници: Домашна страна',
     'LBL_SEARCH_FORM_TITLE' => 'Пребарај Корисник',
     'LBL_LIST_FORM_TITLE' => 'Листа на Корисници',
     'LBL_NEW_FORM_TITLE' => 'Креирај сметка',
     'LNK_NEW_CONTACT' => 'Креирај контакт',
-    'LNK_NEW_ACCOUNT' => 'Креирај сметка',
+    'LNK_NEW_ACCOUNT' => 'Креирај Корисник',
     'LNK_NEW_OPPORTUNITY' => 'Креирај можност',
-    'LNK_NEW_CASE' => 'Креирај случај',
+    'LNK_NEW_CASE' => 'Create Case',
     'LNK_NEW_NOTE' => 'Креирај Забелешка или Додај Прилог',
     'LNK_NEW_CALL' => 'Евидентирај повик',
-    'LNK_NEW_EMAIL' => 'Архивирај Еmail порака',
-    'LNK_NEW_MEETING' => 'Закажи состанок',
+    'LNK_NEW_EMAIL' => 'Archive Email',
+    'LNK_NEW_MEETING' => 'Schedule Meeting',
     'LNK_NEW_TASK' => 'Креирај задача',
-    'ERR_DELETE_RECORD' => 'При бришење на налогот, морате да наведете број на записот.',
+    'ERR_DELETE_RECORD' => 'При бришење на корисникот, морате да наведете број на налогот.',
 );

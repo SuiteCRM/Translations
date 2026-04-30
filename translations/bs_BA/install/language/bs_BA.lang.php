@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_BASIC' => 'Osnovni',
+    'LBL_BASIC' => 'BASIC',
     'LBL_BASIC_SEARCH' => 'Brzi filter',
     'LBL_ADVANCED_SEARCH' => 'Napredni filter',
     'LBL_BASIC_TYPE' => 'Osnovni Tip',
@@ -319,7 +319,7 @@ $mod_strings = array(
     'LBL_ML_INSTALLED' => 'Date Installed',
     'LBL_ML_NAME' => 'Ime',
     'LBL_ML_PUBLISHED' => 'Date Published',
-    'LBL_ML_TYPE' => 'Tip',
+    'LBL_ML_TYPE' => 'Vrsta',
     'LBL_ML_UNINSTALLABLE' => 'Uninstallable',
     'LBL_ML_VERSION' => 'Verzija',
     'LBL_MSSQL' => 'SQL Server',

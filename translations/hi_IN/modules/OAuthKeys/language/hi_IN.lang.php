@@ -45,9 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_CONSKEY' => 'उपभोक्ता कुंजी',
     'LBL_CONSSECRET' => 'उपभोक्ता रहस्य',
-    'LBL_ASSIGNED_TO_ID' => 'पहचानकर्ता कुंजी:
-$मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_आईडी\']
-$मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_आईडी\']',
+    'LBL_ASSIGNED_TO_ID' => 'असाइन किया गया उपयोगकर्ता आईडी',
     'LBL_ASSIGNED_TO_NAME' => 'उपयोगकर्ता',
     'LBL_ID' => 'आईडी',
     'LBL_DATE_ENTERED' => 'बनाया गया दिनांक',
@@ -57,8 +55,8 @@ $मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_�
     'LBL_MODIFIED_NAME' => 'नाम से संशोधित',
     'LBL_CREATED' => 'के द्वारा बनाई गई',
     'LBL_CREATED_ID' => 'आईडी द्वारा बनाया गया',
-    'LBL_DESCRIPTION' => 'विवरण',
-    'LBL_DELETED' => 'हटाई गई',
+    'LBL_DESCRIPTION' => 'विवरण ',
+    'LBL_DELETED' => 'हटाए गए',
     'LBL_NAME' => 'उपभोक्ता कुंजी नाम',
     'LBL_CREATED_USER' => 'उपयोगकर्ता द्वारा बनाया गया',
     'LBL_MODIFIED_USER' => 'उपयोगकर्ता द्वारा संशोधित',

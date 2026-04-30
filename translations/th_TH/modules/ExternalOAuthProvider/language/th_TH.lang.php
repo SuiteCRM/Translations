@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = [
 
     'LBL_ASSIGNED_TO_ID' => 'Id ผู้รับผิดชอบ',
-    'LBL_ASSIGNED_TO_NAME' => 'ผู้รับผิดชอบ',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_ID' => 'ไอดี',
     'LBL_DATE_ENTERED' => 'วันที่สร้าง',
     'LBL_DATE_MODIFIED' => 'วันที่แก้ไข',
@@ -58,8 +58,8 @@ $mod_strings = [
     'LBL_CREATED_USER' => 'สร้างโดยผู้ใช้งาน',
     'LBL_MODIFIED_USER' => 'แก้ไข โดยผู้ใช้',
     'LBL_LIST_NAME' => 'ชื่อ',
-    'LBL_EDIT_BUTTON' => 'แก้ไข',
-    'LBL_REMOVE' => 'ลบออก',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
     'LBL_LIST_FORM_TITLE' => 'External OAuth Provider List',
     'LBL_MODULE_NAME' => 'External OAuth Providers',
     'LBL_MODULE_TITLE' => 'External OAuth Providers',
@@ -72,8 +72,8 @@ $mod_strings = [
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'กิจกรรม',
     'LBL_NEW_FORM_TITLE' => 'New External OAuth Provider',
 
-    'LBL_LIST_DELETE' => 'ลบ',
-    'LBL_TYPE' => 'ประเภท',
+    'LBL_LIST_DELETE' => 'Delete',
+    'LBL_TYPE' => 'Type',
     'LBL_CONNECTOR' => 'ตัวเชื่อมต่อ',
     'LBL_REDIRECT_URI' => 'Redirect URI',
     'LBL_REDIRECT_URI_TYPE' => 'Redirect URI Type',
@@ -97,14 +97,14 @@ $mod_strings = [
 
     'LBL_EXTRA' => 'Extra configurations',
     'LBL_MAPPING' => 'Mapping configurations',
-    'LBL_OTHER' => 'อื่นๆ',
+    'LBL_OTHER' => 'Other',
 
 
     'LNK_LIST_CREATE_NEW_PERSONAL' => 'ผู้ให้บริการส่วนบุคคลรายใหม่',
     'LNK_LIST_CREATE_NEW_GROUP' => 'ผู้ให้บริการกลุ่มใหม่',
     'LNK_LIST_INBOUND_EMAILS' => 'บัญชีอีเมลขาเข้า',
-    'LNK_LIST_OUTBOUND_EMAILS' => 'บัญชีอีเมล์ขาออก',
+    'LNK_LIST_OUTBOUND_EMAILS' => 'Outbound Email Accounts',
     'LNK_LIST_EXTERNAL_OAUTH_CONNECTION' => 'External OAuth Connections',
 
-    'LBL_OWNER' => 'เจ้าของ',
+    'LBL_OWNER' => 'Owner',
 ];

@@ -51,8 +51,8 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Cerca de Documents',
     //vardef labels
     'LBL_NAME' => 'Nom de Document',
-    'LBL_DESCRIPTION' => 'Descripció',
-    'LBL_ASSIGNED_TO' => 'Assignat a:',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_ASSIGNED_TO' => 'Assigned to:',
     'LBL_CATEGORY' => 'Categoría',
     'LBL_SUBCATEGORY' => 'Subcategoría',
     'LBL_STATUS' => 'Estat',
@@ -80,36 +80,36 @@ $mod_strings = array(
     'LBL_SUBCATEGORY_VALUE' => 'Subcategoría:',
     'LBL_DOC_STATUS' => 'Estat:',
     'LBL_DET_TEMPLATE_TYPE' => 'Tipus de Document:',
-    'LBL_DOC_DESCRIPTION' => 'Descripció:',
+    'LBL_DOC_DESCRIPTION' => 'Descripció: ',
     'LBL_DOC_ACTIVE_DATE' => 'Data de Publicació:',
     'LBL_DOC_EXP_DATE' => 'Data de Caducitat:',
 
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'Llista de Documents',
     'LBL_LIST_DOCUMENT' => 'Document',
-    'LBL_LIST_CATEGORY' => 'Categoría',
-    'LBL_LIST_SUBCATEGORY' => 'Subcategoría',
-    'LBL_LIST_REVISION' => 'Versió',
+    'LBL_LIST_CATEGORY' => 'Category',
+    'LBL_LIST_SUBCATEGORY' => 'Sub Category',
+    'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => 'Publicat Per',
     'LBL_LIST_LAST_REV_DATE' => 'Data de Versió',
     'LBL_LIST_VIEW_DOCUMENT' => 'Veure',
-    'LBL_LIST_ACTIVE_DATE' => 'Data de Publicació',
-    'LBL_LIST_EXP_DATE' => 'Data de Caducitat',
-    'LBL_LIST_STATUS' => 'Estat',
+    'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
+    'LBL_LIST_EXP_DATE' => 'Expiration Date',
+    'LBL_LIST_STATUS' => 'Status',
 
     //document search form.
-    'LBL_SF_CATEGORY' => 'Categoria:',
-    'LBL_SF_SUBCATEGORY' => 'Subcategoría:',
+    'LBL_SF_CATEGORY' => 'Category:',
+    'LBL_SF_SUBCATEGORY' => 'Sub Category:',
 
     'DEF_CREATE_LOG' => 'Document Creat',
 
     //error messages
-    'ERR_DOC_NAME' => 'Nom de Document',
-    'ERR_DOC_ACTIVE_DATE' => 'Data de Publicació',
+    'ERR_DOC_NAME' => 'Document Name',
+    'ERR_DOC_ACTIVE_DATE' => 'Publish Date',
     'ERR_FILENAME' => 'Nom d\'Arxiu',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'Nom de Document',
+    'LBL_LIST_DOCUMENT_NAME' => 'Document Name',
 
     'LBL_EDIT_BUTTON' => 'Editar',
     'LBL_REMOVE' => 'Eliminar',

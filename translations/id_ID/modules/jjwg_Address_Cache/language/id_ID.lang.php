@@ -42,19 +42,19 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_ASSIGNED_TO_ID'] = 'ID Pengguna yang ditugaskan';
+$mod_strings['LBL_ASSIGNED_TO_ID'] = 'Assigned User Id';
 $mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Ditugaskan kepada';
 $mod_strings['LBL_ID'] = 'ID';
 $mod_strings['LBL_DATE_ENTERED'] = 'Tanggal Dibuat';
 $mod_strings['LBL_DATE_MODIFIED'] = 'Tanggal diubah';
-$mod_strings['LBL_MODIFIED'] = 'Diubah Oleh';
+$mod_strings['LBL_MODIFIED'] = 'Modified By';
 $mod_strings['LBL_MODIFIED_NAME'] = 'Modifikasi berdasarkan Nama';
-$mod_strings['LBL_CREATED'] = 'Dibuat Oleh';
-$mod_strings['LBL_DESCRIPTION'] = 'Deskripsi';
-$mod_strings['LBL_DELETED'] = 'Hapus';
+$mod_strings['LBL_CREATED'] = 'Created By';
+$mod_strings['LBL_DESCRIPTION'] = 'Description';
+$mod_strings['LBL_DELETED'] = 'Deleted';
 $mod_strings['LBL_NAME'] = 'Alamat';
-$mod_strings['LBL_CREATED_USER'] = 'Dibuat oleh Pemakai';
-$mod_strings['LBL_MODIFIED_USER'] = 'Modifikasi oleh Pemakai';
+$mod_strings['LBL_CREATED_USER'] = 'Dibuat oleh Pengguna';
+$mod_strings['LBL_MODIFIED_USER'] = 'Modified by User';
 $mod_strings['LBL_LIST_NAME'] = 'Alamat';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'Daftar Tembolok Alamat';
 $mod_strings['LBL_MODULE_NAME'] = 'Alamat Cache';
@@ -63,8 +63,8 @@ $mod_strings['LBL_HOMEPAGE_TITLE'] = 'Tembolok Alamat Saya';
 $mod_strings['LNK_NEW_RECORD'] = 'Buat Tembolok Alamat';
 $mod_strings['LNK_LIST'] = 'Tampilkan Tembolok Alamat';
 $mod_strings['LBL_SEARCH_FORM_TITLE'] = 'Cari Tembolok Alamat';
-$mod_strings['LBL_HISTORY_SUBPANEL_TITLE'] = 'Lihat Histori';
-$mod_strings['LBL_ACTIVITIES_SUBPANEL_TITLE'] = 'Aktivitas';
+$mod_strings['LBL_HISTORY_SUBPANEL_TITLE'] = 'View History';
+$mod_strings['LBL_ACTIVITIES_SUBPANEL_TITLE'] = 'Activities';
 $mod_strings['LBL_NEW_FORM_TITLE'] = 'Tembolok Alamat Baru';
 $mod_strings['LBL_LAT'] = 'Garis Lintang';
 $mod_strings['LBL_LNG'] = 'Garis Bujur';

@@ -108,8 +108,8 @@ $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'Alternative Address';
 $mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex Relate';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Address (Simple, Users)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'Custom (Custom Controller Logic)';
-$mod_strings['LBL_ENABLED'] = 'فعال کیجیے';
-$mod_strings['LBL_DISABLED'] = 'غیر فعال کیا ہوا';
+$mod_strings['LBL_ENABLED'] = 'فعال کیجئے';
+$mod_strings['LBL_DISABLED'] = 'غیر فعال';
 $mod_strings['LBL_DEFAULT'] = 'Default:';
 $mod_strings['LBL_CONFIG_DEFAULT'] = 'Default:';
 

@@ -43,19 +43,19 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings['LBL_ASSIGNED_TO_ID'] = '负责人ID';
-$mod_strings['LBL_ASSIGNED_TO_NAME'] = '用户名';
-$mod_strings['LBL_ID'] = '编号';
+$mod_strings['LBL_ASSIGNED_TO_NAME'] = '用户';
+$mod_strings['LBL_ID'] = 'ID';
 $mod_strings['LBL_DATE_ENTERED'] = '创建日期';
 $mod_strings['LBL_DATE_MODIFIED'] = '修改日期';
 $mod_strings['LBL_MODIFIED'] = '修改人';
-$mod_strings['LBL_MODIFIED_NAME'] = '修改人';
+$mod_strings['LBL_MODIFIED_NAME'] = '修改人姓名';
 $mod_strings['LBL_CREATED'] = '创建人';
 $mod_strings['LBL_DESCRIPTION'] = '说明';
 $mod_strings['LBL_DELETED'] = '已删除';
 $mod_strings['LBL_NAME'] = '名称';
 $mod_strings['LBL_CREATED_USER'] = '创建人';
 $mod_strings['LBL_MODIFIED_USER'] = '修改人';
-$mod_strings['LBL_LIST_NAME'] = '名称';
+$mod_strings['LBL_LIST_NAME'] = '追踪器';
 $mod_strings['LBL_LIST_FORM_TITLE'] = '区域列表';
 $mod_strings['LBL_MODULE_NAME'] = '地图-区域';
 $mod_strings['LBL_MODULE_TITLE'] = '地图-区域';
@@ -70,7 +70,7 @@ $mod_strings['LBL_CITY'] = '城市';
 $mod_strings['LBL_STATE'] = '省份';
 $mod_strings['LBL_COUNTRY'] = '国家';
 $mod_strings['LBL_COORDINATES'] = '坐标';
-$mod_strings['LBL_LIST_ASSIGNED_USER'] = '用户名';
+$mod_strings['LBL_LIST_ASSIGNED_USER'] = '用户';
 $mod_strings['LBL_AREA_MAP'] = '区域地图';
 
 $mod_strings['LBL_AREA_EDIT_TITLE'] = '区域创建说明';

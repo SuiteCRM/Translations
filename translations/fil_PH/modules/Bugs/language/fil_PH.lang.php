@@ -58,13 +58,13 @@ $mod_strings = array(
     'LBL_CONTACT_ROLE' => 'Tungkulin:',
     'LBL_LIST_NUMBER' => 'Num.',
     'LBL_LIST_SUBJECT' => 'Ang paksa',
-    'LBL_LIST_STATUS' => 'Ang Katayuan',
+    'LBL_LIST_STATUS' => 'Estado',
     'LBL_LIST_PRIORITY' => 'Prayoridad',
     'LBL_LIST_RESOLUTION' => 'Resolusyon',
     'LBL_LIST_LAST_MODIFIED' => 'Huling Binago',
-    'LBL_INVITEE' => 'Mga kontak',
+    'LBL_INVITEE' => 'Mga Kontak',
     'LBL_TYPE' => 'Uri:',
-    'LBL_LIST_TYPE' => 'Ang Uri',
+    'LBL_LIST_TYPE' => 'Uri',
     'LBL_RESOLUTION' => 'Resolusyon:',
     'LBL_RELEASE' => 'Ang release:',
     'LNK_NEW_BUG' => 'Ulatbng bug',
@@ -100,6 +100,6 @@ $mod_strings = array(
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Itinalaga sa gumagamit',
     'LBL_ASSIGNED_TO_NAME' => 'Itinatalaga sa',
 
-    'LBL_BUG_INFORMATION' => 'Buod', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_BUG_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
 );

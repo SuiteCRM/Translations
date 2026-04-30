@@ -56,8 +56,8 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Korisnik:',
     'LBL_RATING' => 'Ocjena',
     'LBL_ASSIGNED_TO' => 'Dodijeljeno:',
-    'LBL_ASSIGNED_USER' => 'Dodijeljeno:',
-    'LBL_ASSIGNED_TO_ID' => 'Dodijeljeno:',
+    'LBL_ASSIGNED_USER' => 'Assigned to:',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned to:',
     'LBL_BILLING_ADDRESS_CITY' => 'Grad za naplatu:',
     'LBL_BILLING_ADDRESS_COUNTRY' => 'Država za naplatu:',
     'LBL_BILLING_ADDRESS_POSTALCODE' => 'Poštanski broj za naplatu:',
@@ -97,7 +97,7 @@ $mod_strings = array(
     'LBL_PHONE_FAX' => 'Telefon faks',
     'LBL_PHONE_OFFICE' => 'Uredski telefon',
     'LBL_PHONE' => 'Telefon:',
-    'LBL_EMAIL_ADDRESS' => 'Adresa e-pošte',
+    'LBL_EMAIL_ADDRESS' => 'Email Address',
     'LBL_EMAIL_ADDRESSES' => 'Adresa(e) e-pošte',
     'LBL_POSTAL_CODE' => 'Poštanski broj:',
     'LBL_SAVE_ACCOUNT' => 'Spremi tvrtku',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'Jeste li sigurni želite li izbrisati ovaj zapis?',
 
     'LBL_EDIT_BUTTON' => 'Uredi',
-    'LBL_REMOVE' => 'Ukloni',
+    'LBL_REMOVE' => 'Remove',
 
 );

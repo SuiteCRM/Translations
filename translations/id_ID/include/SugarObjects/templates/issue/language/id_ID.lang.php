@@ -44,25 +44,25 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
 
-    'LBL_NAME' => 'Nama',
+    'LBL_NAME' => 'Nama ',
     'LBL_NUMBER' => 'Nomor:',
-    'LBL_STATUS' => 'Status',
+    'LBL_STATUS' => 'Status:',
     'LBL_PRIORITY' => 'Prioritas',
-    'LBL_DESCRIPTION' => 'Deskripsi',
+    'LBL_DESCRIPTION' => 'Description:',
     'LBL_RESOLUTION' => 'Resolusi',
     'LBL_LAST_MODIFIED' => 'Terakhir diubah',
     'LBL_ASSIGNED_TO_ID' => 'Ditugaskan:',
-    'LBL_ASSIGNED_TO_NAME' => 'Pengguna:',
+    'LBL_ASSIGNED_TO_NAME' => 'User:',
     'LBL_WORK_LOG' => 'Log Kerja:',
     'LBL_CREATED_BY' => 'Dibuat oleh',
-    'LBL_DATE_ENTERED' => 'Tanggal Dibuat:',
-    'LBL_DATE_MODIFIED' => 'Tanggal Diubah:',
+    'LBL_DATE_ENTERED' => 'Date Created:',
+    'LBL_DATE_MODIFIED' => 'Date Modified:',
     'LBL_MODIFIED_BY' => 'Terakhir diubah oleh',
     'LBL_ASSIGNED_USER' => 'User yang di-assign:',
-    'LBL_TYPE' => 'Tipe:',
+    'LBL_TYPE' => 'Jenis:',
     'LBL_SUBJECT' => 'Subjek',
 
-    'LBL_EDIT_BUTTON' => 'Ubah',
-    'LBL_REMOVE' => 'Menghapus',
+    'LBL_EDIT_BUTTON' => 'Sunting',
+    'LBL_REMOVE' => 'Remove',
 
 );

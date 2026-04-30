@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_NAME' => 'Nama Pekerjaan',
-    'LBL_EXECUTE_TIME' => 'Waktu dijalankan',
+    'LBL_EXECUTE_TIME' => 'Execute Time',
     'LBL_SCHEDULER_ID' => 'Penjadwal',
     'LBL_STATUS' => 'Status Pekerjaan',
     'LBL_RESOLUTION' => 'Hasil',

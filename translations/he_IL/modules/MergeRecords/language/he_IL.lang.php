@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'רשימת מיזוג',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'חפש רשומות לביצוע מיזוג',
-    'LBL_AVAIL_FIELDS' => 'שדות אפשריים',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'התניות למסננים',
     'LBL_MERGE_VALUE_OVER' => 'מזג ערך על',
 
@@ -58,10 +58,10 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'בצע מיזוג',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'בצע מיזוג',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'שמור מיזוג',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'שמור מיזוג',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => 'נמצאו רשומות למיזוג עם:',
     'LBL_SELECT_ERROR' => 'עליך לבצע בחירה לפני שיהיה ניתן להמשיך',

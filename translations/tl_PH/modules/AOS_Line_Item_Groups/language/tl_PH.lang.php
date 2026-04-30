@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ID' => 'ID',
+    'LBL_ID' => 'Ang ID',
     'LBL_MODULE_NAME' => 'Mga Grupo',
-    'LBL_DATE_ENTERED' => 'Lumikha ng Petsa',
-    'LBL_DATE_MODIFIED' => 'Petsang binago',
-    'LBL_DESCRIPTION' => 'Paglalarawan',
-    'LBL_DELETED' => 'Nabura',
+    'LBL_DATE_ENTERED' => 'Ang petsa ay lumikha',
+    'LBL_DATE_MODIFIED' => 'Ang petsa ay binago',
+    'LBL_DESCRIPTION' => 'Ang Paglalarawan',
+    'LBL_DELETED' => 'Ang Nabura',
     'LBL_NAME' => 'Pangalan ng Grupo',
     'LBL_TOTAL_AMT' => 'Kabuuan',
     'LBL_DISCOUNT_AMOUNT' => 'Diskawnt',

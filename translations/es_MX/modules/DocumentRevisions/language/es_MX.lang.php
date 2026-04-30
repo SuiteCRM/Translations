@@ -46,33 +46,33 @@ $mod_strings = array(
     //module
     'LBL_MODULE_NAME' => 'Versión del documento',
 
-    'LNK_NEW_DOCUMENT' => 'Nuevo documento',
+    'LNK_NEW_DOCUMENT' => 'Crear un documento',
     'LNK_DOCUMENT_LIST' => 'Lista de documentos',
 
     //vardef labels
-    'LBL_REVISION_NAME' => 'Número de versión',
+    'LBL_REVISION_NAME' => 'Revision Number',
     'LBL_FILENAME' => 'Archivo:',
-    'LBL_MIME' => 'Tipo MIME',
-    'LBL_REVISION' => 'Versión',
-    'LBL_DOCUMENT' => 'Documento relacionado',
-    'LBL_LATEST_REVISION' => 'Última versión',
-    'LBL_CHANGE_LOG' => 'Registro de cambios',
-    'LBL_ACTIVE_DATE' => 'Fecha de publicación',
-    'LBL_EXPIRATION_DATE' => 'Fecha de expiración',
-    'LBL_FILE_EXTENSION' => 'Extensión de archivo',
+    'LBL_MIME' => 'Mime Type',
+    'LBL_REVISION' => 'Revision',
+    'LBL_DOCUMENT' => 'Related Document',
+    'LBL_LATEST_REVISION' => 'Latest Revision',
+    'LBL_CHANGE_LOG' => 'Change Log',
+    'LBL_ACTIVE_DATE' => 'Publish Date',
+    'LBL_EXPIRATION_DATE' => 'Expiration Date',
+    'LBL_FILE_EXTENSION' => 'File Extension',
 
-    'LBL_DOC_NAME' => 'Nombre del documento:',
-    'LBL_DOC_VERSION' => 'Versión:',
+    'LBL_DOC_NAME' => 'Document Name:',
+    'LBL_DOC_VERSION' => 'Revision:',
 
     //document revisions.
-    'LBL_REV_LIST_REVISION' => 'Versión',
-    'LBL_REV_LIST_ENTERED' => 'Fecha de creación',
-    'LBL_REV_LIST_CREATED' => 'Creado por',
-    'LBL_REV_LIST_LOG' => 'Registro de cambios',
+    'LBL_REV_LIST_REVISION' => 'Revision',
+    'LBL_REV_LIST_ENTERED' => 'Fecha de Creación',
+    'LBL_REV_LIST_CREATED' => 'Created by',
+    'LBL_REV_LIST_LOG' => 'Change Log',
     'LBL_REV_LIST_FILENAME' => 'Archivo',
 
     'LBL_CURRENT_DOC_VERSION' => 'Última versión:',
-    'LBL_SEARCH_FORM_TITLE' => 'Búsqueda de documentos',
+    'LBL_SEARCH_FORM_TITLE' => 'Documentos : buscar',
     'LBL_REVISIONS' => 'Versiones',
 
     //error messages
@@ -80,7 +80,7 @@ $mod_strings = array(
     'ERR_DOC_VERSION' => 'Versión de documento',
     'ERR_DELETE_CONFIRM' => '¿Desea eliminar esta versión del documento?',
     'ERR_DELETE_LATEST_VERSION' => 'No tiene permisos para eliminar la última versión de un documento',
-    'LNK_NEW_MAIL_MERGE' => 'Combinar correspondencia',
+    'LNK_NEW_MAIL_MERGE' => 'Mail Merge',
     'LBL_DOC_ID' => 'ID de origen del documento',
     'LBL_DOC_TYPE' => 'Origen',
     'LBL_DOC_URL' => 'URL de origen del documento',

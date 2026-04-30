@@ -44,10 +44,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_DESCRIPTION' => 'Açıklama',
-    'LBL_NAME' => 'Ad',
-    'LBL_LIST_NAME' => 'Ad',
-    'LBL_EDIT_BUTTON' => 'Düzenle',
-    'LBL_REMOVE' => 'Sil',
+    'LBL_NAME' => 'İsim',
+    'LBL_LIST_NAME' => 'Paket Adı:',
+    'LBL_EDIT_BUTTON' => 'Değiştir',
+    'LBL_REMOVE' => 'Remove',
     'LBL_GRP' => 'Grup',
     'LBL_ORD' => 'Sıra',
     'LBL_THUMBNAIL' => 'Küçük görsel',

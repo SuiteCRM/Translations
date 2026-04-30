@@ -44,8 +44,8 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings['LBL_ASSIGNED_TO_ID'] = 'Toegewezen gebruiker-Id';
 $mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Gebruiker';
-$mod_strings['LBL_ID'] = 'Id';
-$mod_strings['LBL_DATE_ENTERED'] = 'Datum aangemaakt';
+$mod_strings['LBL_ID'] = 'ID';
+$mod_strings['LBL_DATE_ENTERED'] = 'Aangemaakt op';
 $mod_strings['LBL_DATE_MODIFIED'] = 'Datum gewijzigd';
 $mod_strings['LBL_MODIFIED'] = 'Gewijzigd door';
 $mod_strings['LBL_MODIFIED_NAME'] = 'Gewijzigd door naam';
@@ -76,7 +76,7 @@ $mod_strings['LBL_AREA_MAP'] = 'Gebiedskaart';
 $mod_strings['LBL_AREA_EDIT_TITLE'] = 'Aanmaken gebiedsinstructies:';
 $mod_strings['LBL_AREA_EDIT_DESC_1'] = 'Klik links op de map, in de richting van de klok, voor het maken van markeerpunten voor het te selecteren gebied.';
 $mod_strings['LBL_AREA_EDIT_DESC_2'] = 'Klik op het eerste markeerpunt om het polygoon gebied te sluiten.';
-$mod_strings['LBL_AREA_EDIT_RESET'] = 'Opnieuw instellen';
+$mod_strings['LBL_AREA_EDIT_RESET'] = 'Reset';
 $mod_strings['LBL_AREA_EDIT_USE_AREA_COORDINATES'] = 'Gebruik gebied coordinaten';
 $mod_strings['LBL_AREA_EDIT_COORDINATE_RESULTS'] = 'Coordinaat Resultaten (lng,lat,elv):';
 $mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_MAPS_TITLE'] = 'Kaarten';

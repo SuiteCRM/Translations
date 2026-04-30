@@ -43,13 +43,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'معرف المستخدم المكلف',
+    'LBL_ASSIGNED_TO_ID' => 'معرف المستخدم المُكلف',
     'LBL_ASSIGNED_TO_NAME' => 'مستخدم SuiteCRM',
     'LBL_ID' => 'المُعرف',
     'LBL_DATE_ENTERED' => 'تاريخ الإنشاء',
     'LBL_DATE_MODIFIED' => 'تاريخ التعديل',
     'LBL_MODIFIED' => 'عُدل بواسطة',
-    'LBL_MODIFIED_NAME' => 'اسم من قام بالتعديل',
+    'LBL_MODIFIED_NAME' => 'قام بالتعديل',
     'LBL_CREATED' => 'أنشئ بواسطة',
     'LBL_DESCRIPTION' => 'الوصف',
     'LBL_DELETED' => 'محذوف',

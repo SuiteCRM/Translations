@@ -435,7 +435,7 @@ $app_list_strings = array(
     'project_task_priority_options' => array(
         'High' => 'Giga',
         'Medium' => 'Aarin',
-        'Low' => 'Kekere',
+        'Low' => 'Low',
     ),
     'project_task_priority_default' => 'Aarin',
 
@@ -1853,7 +1853,7 @@ Nikan adirẹsi Adirẹsi ni ao lo nigbati o ba n ṣiṣẹ pẹlu Awọn oluba
 
     'LBL_ALL_SCHEDULERS' => 'All Schedulers',
     'LBL_LEGACY_SCHEDULERS' => 'Legacy Schedulers',
-    'LBL_SCHEDULERS' => 'Awon Iseto',
+    'LBL_SCHEDULERS' => 'Awon apere',
     'LBL_RUN_LEGACY_SCHEDULERS' => 'Running Legacy Schedulers',
     'LBL_LEGACY_SCHEDULERS_RUN_SUCCESSFULLY' => 'Legacy Schedulers run successfully!',
     'LBL_RUN_SCHEDULERS' => 'Running Schedulers',
@@ -2153,7 +2153,7 @@ Nikan adirẹsi Adirẹsi ni ao lo nigbati o ba n ṣiṣẹ pẹlu Awọn oluba
 
     //Collection Field
     'LBL_COLLECTION_NAME' => 'Oruko',
-    'LBL_COLLECTION_PRIMARY' => 'Akoko',
+    'LBL_COLLECTION_PRIMARY' => 'Akọbẹrẹ',
     'ERROR_MISSING_COLLECTION_SELECTION' => 'Empty required field',
 
     //MB -Fixed Bug #32812 -Max

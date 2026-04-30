@@ -71,8 +71,8 @@ $mod_strings['LNK_MAP_LIST'] = 'List Maps';
 
 $mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Geocoding Test';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'Quick Radius Map';
-$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = '--None--';
-$mod_strings['LBL_MAP_ADDRESS'] = 'Адреса';
+$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'None';
+$mod_strings['LBL_MAP_ADDRESS'] = 'Address';
 $mod_strings['LBL_MAP_PROCESS'] = 'Process It!';
 
 $mod_strings['LBL_MAP_LAST_STATUS'] = 'Last Geocode Status';
@@ -88,7 +88,7 @@ $mod_strings['LBL_APPROXIMATE'] = 'Approximate';
 $mod_strings['LBL_EMPTY'] = 'Празно';
 
 $mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Вкупно';
-$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Ресет';
+$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Reset';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = 'The table shown belown shows the number of module objects geocoded, grouped by geocoding response. Keep in mind that the standard Google Maps usage limit is 2500 requests per day . This module will cache the addresses geocoding information during processing to reduce the overall number of requests needed.';
 
 $mod_strings['LBL_CRON_INSTRUCTIONS'] = 'To process the geocoding requests it is recommended to setup a nightly Cron-Job. A custom entry point has been created for this purpose and can be accessed without authentication. The URL shown below is meant to be used with an Administrative Scheduled Task. Please see the documentation for more information.';
@@ -108,8 +108,8 @@ $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'Alternative Address';
 $mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex Relate';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Address (Simple, Users)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'Custom (Custom Controller Logic)';
-$mod_strings['LBL_ENABLED'] = 'Вклучено';
-$mod_strings['LBL_DISABLED'] = 'Исклучено';
+$mod_strings['LBL_ENABLED'] = 'Enabled';
+$mod_strings['LBL_DISABLED'] = 'Disabled';
 $mod_strings['LBL_DEFAULT'] = 'Default:';
 $mod_strings['LBL_CONFIG_DEFAULT'] = 'Default:';
 

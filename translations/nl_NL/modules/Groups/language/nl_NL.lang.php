@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Groepen',
-    'LBL_GROUP_NAME' => 'Groepsnaam:',
-    'LBL_DESCRIPTION' => 'Omschrijving:',
+    'LBL_MODULE_NAME' => 'Groups',
+    'LBL_GROUP_NAME' => 'Group Name:',
+    'LBL_DESCRIPTION' => 'Omschrijving: ',
     'LBL_TEAM' => 'Team:',
     // ListView
-    'LBL_LIST_TITLE' => 'Groepen',
+    'LBL_LIST_TITLE' => 'Groups',
     // Links
     'LNK_ALL_GROUPS' => 'Alle groepen',
     'LNK_NEW_GROUP' => 'Nieuwe groep',

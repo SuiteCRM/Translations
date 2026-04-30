@@ -51,8 +51,8 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'جستجوی سند',
     //vardef labels
     'LBL_NAME' => 'نام سند',
-    'LBL_DESCRIPTION' => 'توضیحات',
-    'LBL_ASSIGNED_TO' => 'اختصاص داده شده به:',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_ASSIGNED_TO' => 'Assigned to:',
     'LBL_CATEGORY' => 'دسته',
     'LBL_SUBCATEGORY' => 'زیر شاخه',
     'LBL_STATUS' => 'وضعیت',
@@ -80,36 +80,36 @@ $mod_strings = array(
     'LBL_SUBCATEGORY_VALUE' => 'زیر شاخه:',
     'LBL_DOC_STATUS' => 'وضعیت',
     'LBL_DET_TEMPLATE_TYPE' => 'نوع سند:',
-    'LBL_DOC_DESCRIPTION' => 'توضیحات:',
+    'LBL_DOC_DESCRIPTION' => 'توضیحات: ',
     'LBL_DOC_ACTIVE_DATE' => 'تاریخ نشر:',
     'LBL_DOC_EXP_DATE' => 'تاریخ انقضا:',
 
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'لیست اسناد',
     'LBL_LIST_DOCUMENT' => 'سند',
-    'LBL_LIST_CATEGORY' => 'دسته',
-    'LBL_LIST_SUBCATEGORY' => 'زیر شاخه',
-    'LBL_LIST_REVISION' => 'تجدید نظر',
+    'LBL_LIST_CATEGORY' => 'Category',
+    'LBL_LIST_SUBCATEGORY' => 'Sub Category',
+    'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => 'منتشر شده توسط',
     'LBL_LIST_LAST_REV_DATE' => 'تاریخ تجدید نظر',
     'LBL_LIST_VIEW_DOCUMENT' => 'مشاهده',
-    'LBL_LIST_ACTIVE_DATE' => 'تاریخ نشر',
-    'LBL_LIST_EXP_DATE' => 'تاریخ انقضا',
-    'LBL_LIST_STATUS' => 'وضعیت',
+    'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
+    'LBL_LIST_EXP_DATE' => 'Expiration Date',
+    'LBL_LIST_STATUS' => 'Status',
 
     //document search form.
-    'LBL_SF_CATEGORY' => 'دسته:',
-    'LBL_SF_SUBCATEGORY' => 'زیر شاخه:',
+    'LBL_SF_CATEGORY' => 'Category:',
+    'LBL_SF_SUBCATEGORY' => 'Sub Category:',
 
     'DEF_CREATE_LOG' => 'سند ایجاد شده',
 
     //error messages
-    'ERR_DOC_NAME' => 'نام سند',
-    'ERR_DOC_ACTIVE_DATE' => 'تاریخ نشر',
+    'ERR_DOC_NAME' => 'Document Name',
+    'ERR_DOC_ACTIVE_DATE' => 'Publish Date',
     'ERR_FILENAME' => 'نام فایل',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'نام سند',
+    'LBL_LIST_DOCUMENT_NAME' => 'Document Name',
 
     'LBL_EDIT_BUTTON' => 'ویرایش ',
     'LBL_REMOVE' => 'حذف',

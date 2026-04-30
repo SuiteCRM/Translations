@@ -54,7 +54,7 @@ $mod_strings = array(
     'LBL_NAME' => 'Tên',
     'LBL_CREATED_USER' => 'Tạo bởi người dùng',
     'LBL_MODIFIED_USER' => 'Sửa bởi người dùng',
-    'LBL_LIST_NAME' => 'Tên',
+    'LBL_LIST_NAME' => 'tên',
     'LBL_EDIT_BUTTON' => 'Sửa',
     'LBL_REMOVE' => 'Xóa bỏ',
 

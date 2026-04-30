@@ -90,7 +90,7 @@ $mod_strings = array(
 
     'LBL_LEADS_SUBPANEL_TITLE' => 'მოსამზადებელი პროცესი',
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'კონტაქტები',
-    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'დოკუმენტი',
+    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'დოკუმენტები',
     'LBL_PROJECTS_SUBPANEL_TITLE' => 'პროექტები',
     'LBL_ASSIGNED_TO_NAME' => 'Assigned to:',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigned User',

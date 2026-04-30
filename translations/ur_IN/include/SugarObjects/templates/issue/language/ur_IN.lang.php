@@ -63,6 +63,6 @@ $mod_strings = array(
     'LBL_SUBJECT' => 'موضوع:',
 
     'LBL_EDIT_BUTTON' => 'ردوبدل',
-    'LBL_REMOVE' => 'ختم کر دیں',
+    'LBL_REMOVE' => 'نکال دیں',
 
 );

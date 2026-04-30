@@ -44,14 +44,14 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ASSIGNED_TO_ID' => '负责人ID',
-    'LBL_ASSIGNED_TO_NAME' => '负责人',
-    'LBL_ID' => '编号',
+    'LBL_ASSIGNED_TO_NAME' => '分配给',
+    'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => '创建日期',
     'LBL_DATE_MODIFIED' => '修改日期',
     'LBL_MODIFIED' => '修改人',
-    'LBL_MODIFIED_NAME' => '修改人',
+    'LBL_MODIFIED_NAME' => '修改人姓名',
     'LBL_CREATED' => '创建人',
-    'LBL_DESCRIPTION' => '正文',
+    'LBL_DESCRIPTION' => '说明',
     'LBL_HEADER' => '页眉',
     'LBL_FOOTER' => '页脚',
     'LBL_DELETED' => '已删除',

@@ -48,7 +48,7 @@ $mod_strings = array(
     'LBL_DESCRIPTION' => 'Тайлбар:',
     'LBL_TEAM' => 'Баг:',
     // ListView
-    'LBL_LIST_TITLE' => 'Груп',
+    'LBL_LIST_TITLE' => 'Групууд',
     // Links
     'LNK_ALL_GROUPS' => 'Бүх групууд',
     'LNK_NEW_GROUP' => 'Груп үүсгэх',

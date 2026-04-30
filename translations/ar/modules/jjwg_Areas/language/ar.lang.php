@@ -42,18 +42,18 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_ASSIGNED_TO_ID'] = 'معرف المستخدم المكلف';
+$mod_strings['LBL_ASSIGNED_TO_ID'] = 'معرف المستخدم المُكلف';
 $mod_strings['LBL_ASSIGNED_TO_NAME'] = 'مُستخدم';
 $mod_strings['LBL_ID'] = 'المُعرف';
 $mod_strings['LBL_DATE_ENTERED'] = 'تاريخ الإنشاء';
 $mod_strings['LBL_DATE_MODIFIED'] = 'تاريخ التعديل';
 $mod_strings['LBL_MODIFIED'] = 'عُدل بواسطة';
-$mod_strings['LBL_MODIFIED_NAME'] = 'اسم من قام بالتعديل';
+$mod_strings['LBL_MODIFIED_NAME'] = 'قام بالتعديل';
 $mod_strings['LBL_CREATED'] = 'أنشئ بواسطة';
 $mod_strings['LBL_DESCRIPTION'] = 'الوصف';
 $mod_strings['LBL_DELETED'] = 'محذوف';
 $mod_strings['LBL_NAME'] = 'الاسم';
-$mod_strings['LBL_CREATED_USER'] = 'أنشئ بواسطة المستخدم';
+$mod_strings['LBL_CREATED_USER'] = 'تم الإنشاء بواسطة المستخدم';
 $mod_strings['LBL_MODIFIED_USER'] = 'عُدل بواسطة المستخدم';
 $mod_strings['LBL_LIST_NAME'] = 'الاسم';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'قائمة المناطق';

@@ -51,8 +51,8 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'दस्तावेज़ खोज',
     //vardef labels
     'LBL_NAME' => 'दस्तावेज़ का नाम',
-    'LBL_DESCRIPTION' => 'विवरण',
-    'LBL_ASSIGNED_TO' => 'को असाइन किया:',
+    'LBL_DESCRIPTION' => 'विवरण ',
+    'LBL_ASSIGNED_TO' => 'को सौंपा गया:',
     'LBL_CATEGORY' => 'श्रेणी',
     'LBL_SUBCATEGORY' => 'उप श्रेणी',
     'LBL_STATUS' => 'स्थिति',
@@ -94,7 +94,7 @@ $mod_strings = array(
     'LBL_LIST_LAST_REV_DATE' => 'पुनरीक्षण तिथि',
     'LBL_LIST_VIEW_DOCUMENT' => 'देखें',
     'LBL_LIST_ACTIVE_DATE' => 'प्रकाशित तिथि',
-    'LBL_LIST_EXP_DATE' => 'समय सीमा समाप्ति दिनांक',
+    'LBL_LIST_EXP_DATE' => 'समाप्ति तिथि',
     'LBL_LIST_STATUS' => 'स्थिति',
 
     //document search form.
@@ -112,6 +112,6 @@ $mod_strings = array(
     'LBL_LIST_DOCUMENT_NAME' => 'दस्तावेज़ का नाम',
 
     'LBL_EDIT_BUTTON' => 'संपादन करना ',
-    'LBL_REMOVE' => 'हटाऐं',
+    'LBL_REMOVE' => 'हटाएँ',
 
 );

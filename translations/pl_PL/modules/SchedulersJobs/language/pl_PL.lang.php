@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_NAME' => 'Nazwa pracy',
-    'LBL_EXECUTE_TIME' => 'Czas Wykonania',
-    'LBL_SCHEDULER_ID' => 'Zadania cykliczne',
+    'LBL_NAME' => 'Job Name',
+    'LBL_EXECUTE_TIME' => 'Czas wykonania',
+    'LBL_SCHEDULER_ID' => 'Zadanie cykliczne',
     'LBL_STATUS' => 'Status Zadania',
     'LBL_RESOLUTION' => 'Rezultat',
     'LBL_MESSAGE' => 'Wiadomości',

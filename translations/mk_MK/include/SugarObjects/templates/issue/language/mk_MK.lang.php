@@ -46,7 +46,7 @@ $mod_strings = array(
 
     'LBL_NAME' => 'Име',
     'LBL_NUMBER' => 'Број:',
-    'LBL_STATUS' => 'Состојба:',
+    'LBL_STATUS' => 'Status:',
     'LBL_PRIORITY' => 'Приоритет:',
     'LBL_DESCRIPTION' => 'Опис:',
     'LBL_RESOLUTION' => 'Решение',
@@ -63,6 +63,6 @@ $mod_strings = array(
     'LBL_SUBJECT' => 'Предмет:',
 
     'LBL_EDIT_BUTTON' => 'Промени',
-    'LBL_REMOVE' => 'Отстрани',
+    'LBL_REMOVE' => 'Избриши',
 
 );

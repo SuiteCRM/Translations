@@ -43,20 +43,20 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Makuha na',
+    'LBL_MODULE_NAME' => 'Mga Gigawas',
     'LBL_MODULE_TITLE' => 'Mga Pagbuhi: Panimalay',
     'LBL_SEARCH_FORM_TITLE' => 'Pagbuhi sa Pagpangita',
     'LBL_LIST_FORM_TITLE' => 'Lista sa Igawas',
     'LBL_NEW_FORM_TITLE' => 'Bag-o nga Gawas',
     'LBL_RELEASE' => 'Igawas:',
-    'LBL_LIST_NAME' => 'Buhian',
+    'LBL_LIST_NAME' => 'Igawas',
     'LBL_NAME' => 'Bersyon sa Gigawas:',
-    'LBL_LIST_LIST_ORDER' => 'Sugo',
+    'LBL_LIST_LIST_ORDER' => 'Order',
     'LBL_LIST_ORDER' => 'Sugo:',
-    'LBL_LIST_STATUS' => 'Estado',
+    'LBL_LIST_STATUS' => 'Mga estado',
     'LBL_STATUS' => 'Estado:',
     'LNK_NEW_RELEASE' => 'Lista sa Igawas',
-    'NTC_DELETE_CONFIRMATION' => 'Sigurado ka ba sa pagwagtang niining rekord?',
+    'NTC_DELETE_CONFIRMATION' => 'Sigurado ka ba sa pagtangtang niining rekord?',
     'NTC_SNOOZE_CONFIRMATION' => 'Are you sure you want to snooze?',
     'ERR_DELETE_RECORD' => 'Dapat hingalan nimo ang numero sa rekord para mapapas ang gigawas.',
     'NTC_STATUS' => 'I-set ang estado ngadto sa dili aktibo para matangtang ang kini na gigawas gikan sa Gigawas na dropdown na mga lista',
@@ -64,7 +64,7 @@ $mod_strings = array(
     'release_status_dom' =>
         array(
             'Active' => 'Aktib',
-            'Inactive' => 'Dili aktibo',
+            'Inactive' => 'Dili Aktib',
         ),
-    'LBL_EDITLAYOUT' => 'I-edit ang Plano' /*for 508 compliance fix*/,
+    'LBL_EDITLAYOUT' => 'I-edit ang Layout' /*for 508 compliance fix*/,
 );

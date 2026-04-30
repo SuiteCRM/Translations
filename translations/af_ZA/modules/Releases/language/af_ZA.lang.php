@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Vrystellings',
+    'LBL_MODULE_NAME' => 'Releases',
     'LBL_MODULE_TITLE' => 'Releases: Home',
     'LBL_SEARCH_FORM_TITLE' => 'Release Search',
     'LBL_LIST_FORM_TITLE' => 'Release List',
@@ -63,8 +63,8 @@ $mod_strings = array(
     'NTC_LIST_ORDER' => 'Set the order this release will appear in the Release dropdown lists',
     'release_status_dom' =>
         array(
-            'Active' => 'Aktief',
-            'Inactive' => 'Onaktief',
+            'Active' => 'Active',
+            'Inactive' => 'Inactive',
         ),
     'LBL_EDITLAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
 );

@@ -45,10 +45,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = [
 
     'LBL_ASSIGNED_TO_ID' => 'ID przydzielonego użytkownika',
-    'LBL_ASSIGNED_TO_NAME' => 'Przypisano do',
+    'LBL_ASSIGNED_TO_NAME' => 'Przypisany Do',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Data utworzenia',
-    'LBL_DATE_MODIFIED' => 'Data Modyfikacji:',
+    'LBL_DATE_MODIFIED' => 'Data Modyfikacji',
     'LBL_MODIFIED' => 'Zmodyfikowane przez',
     'LBL_MODIFIED_NAME' => 'Nazwa użytkownika modyfikującego',
     'LBL_CREATED' => 'Utworzone przez',
@@ -56,8 +56,8 @@ $mod_strings = [
     'LBL_DELETED' => 'Usunięte',
     'LBL_NAME' => 'Nazwa',
     'LBL_CREATED_USER' => 'Utworzony przez Użytkownika',
-    'LBL_MODIFIED_USER' => 'Zmodyfikowany przez Użytkownika',
-    'LBL_LIST_NAME' => 'Nazwa',
+    'LBL_MODIFIED_USER' => 'Zmodyfikowany przez użytkownika',
+    'LBL_LIST_NAME' => 'Nazwa dokument',
     'LBL_EDIT_BUTTON' => 'Edytuj',
     'LBL_REMOVE' => 'Usuń',
     'LBL_LIST_FORM_TITLE' => 'Lista zewnętrznych dostawców OAuth',
@@ -102,7 +102,7 @@ $mod_strings = [
 
     'LNK_LIST_CREATE_NEW_PERSONAL' => 'Nowy osobisty dostawca',
     'LNK_LIST_CREATE_NEW_GROUP' => 'Nowy dostawca grupy',
-    'LNK_LIST_INBOUND_EMAILS' => 'Konto e-mail poczty przychodzącej',
+    'LNK_LIST_INBOUND_EMAILS' => 'Konta e-mail poczty przychodzącej',
     'LNK_LIST_OUTBOUND_EMAILS' => 'Konta poczty wychodzącej',
     'LNK_LIST_EXTERNAL_OAUTH_CONNECTION' => 'Zewnętrzne połączenia OAuth',
 

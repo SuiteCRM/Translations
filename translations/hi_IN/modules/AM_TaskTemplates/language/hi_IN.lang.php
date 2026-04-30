@@ -43,9 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'पहचानकर्ता कुंजी:
-$मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_आईडी\']
-$मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_आईडी\']',
+    'LBL_ASSIGNED_TO_ID' => 'असाइन किया गया उपयोगकर्ता आईडी',
     'LBL_ASSIGNED_TO_NAME' => 'को सौंपना',
     'LBL_ID' => 'आईडी',
     'LBL_DATE_ENTERED' => 'बनाया गया दिनांक',
@@ -55,14 +53,14 @@ $मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_�
     'LBL_MODIFIED_NAME' => 'नाम से संशोधित',
     'LBL_CREATED' => 'के द्वारा बनाई गई',
     'LBL_CREATED_ID' => 'आईडी द्वारा बनाया गया',
-    'LBL_DESCRIPTION' => 'विवरण',
-    'LBL_DELETED' => 'हटाई गई',
+    'LBL_DESCRIPTION' => 'विवरण ',
+    'LBL_DELETED' => 'हटाए गए',
     'LBL_NAME' => 'कार्य का नाम',
     'LBL_CREATED_USER' => 'उपयोगकर्ता द्वारा बनाया गया',
     'LBL_MODIFIED_USER' => 'उपयोगकर्ता द्वारा संशोधित',
     'LBL_LIST_NAME' => 'नाम',
-    'LBL_EDIT_BUTTON' => 'संशोधन करें',
-    'LBL_REMOVE' => 'हटाऐं',
+    'LBL_EDIT_BUTTON' => 'संपादित करें',
+    'LBL_REMOVE' => 'हटाएँ',
     'LBL_LIST_FORM_TITLE' => 'प्रोजेक्ट कार्य टेम्पलेट सूची',
     'LBL_MODULE_NAME' => 'प्रोजेक्ट कार्य टेम्पलेट्स',
     'LBL_MODULE_TITLE' => 'प्रोजेक्ट कार्य टेम्पलेट्स',

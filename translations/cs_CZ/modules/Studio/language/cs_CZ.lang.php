@@ -43,23 +43,23 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EDIT_LAYOUT' => 'Úprava rozvržení',
+    'LBL_EDIT_LAYOUT' => 'Edit Layout',
     'LBL_EDIT_FIELDS' => 'Úprava zakázkových polí',
-    'LBL_SELECT_FILE' => 'Vybrat soubor',
+    'LBL_SELECT_FILE' => 'Select File',
     'LBL_MODULE_TITLE' => 'Studio',
-    'LBL_TOOLBOX' => 'Nástroje',
+    'LBL_TOOLBOX' => 'Toolbox',
     'LBL_SUITE_FIELDS_STAGE' => 'SuiteCRM pole (kliknutím na položku přidáte do shomaždiště)',
     'LBL_VIEW_SUITE_FIELDS' => 'Zobrazit SuiteCRM pole',
-    'LBL_FAILED_TO_SAVE' => 'Uložení se nezdařilo',
+    'LBL_FAILED_TO_SAVE' => 'Failed To Save',
     'LBL_CONFIRM_UNSAVE' => 'Jakékoliv změny nebudou uloženy. Opravdu chcete pokračovat?',
-    'LBL_PUBLISHING' => 'Publikuji...',
+    'LBL_PUBLISHING' => 'Publikování...',
     'LBL_PUBLISHED' => 'Zveřejněno',
     'LBL_FAILED_PUBLISHED' => 'Zveřejnění selhalo',
     'LBL_DROP_HERE' => '[Pustit zde]',
 
 //CUSTOM FIELDS
-    'LBL_NAME' => 'Jméno',
-    'LBL_LABEL' => 'Popis',
+    'LBL_NAME' => 'Název',
+    'LBL_LABEL' => 'Label',
     'LBL_MASS_UPDATE' => 'Hromadná aktualizace',
     'LBL_DEFAULT_VALUE' => 'Výchozí hodnota',
     'LBL_REQUIRED' => 'Povinné',
@@ -79,11 +79,11 @@ $mod_strings = array(
     'LBL_SW_EDIT_GROUPTABS' => 'Konfigurovat skupiny záložek',
     'LBL_SW_EDIT_PORTAL' => 'Upravit web',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => 'Opravit vlastní políčka',
-    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Přestěhovat příslušná pole',
+    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrate Custom Fields',
 
 // JS LABELS
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Vytvořit znovu javascript verze jazykových souborů',
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Odstranění javascript verze jazykových souborů, v případě potřeby bude vytvořeno.',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuilds javascript versions of language files',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Removing javascript versions of language files, will rebuild when needed.',
 
 
 //Manager Backups History
@@ -100,46 +100,46 @@ $mod_strings = array(
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => 'Zobrazit hodnotu',
     'LBL_DD_DATABASEVALUE' => 'Databázová hodnota',
-    'LBL_DD_ALL' => 'Všechno',
+    'LBL_DD_ALL' => 'All',
 
 //BUTTONS
     'LBL_BTN_SAVE' => 'Uložit',
     'LBL_BTN_CANCEL' => 'Zrušit',
     'LBL_BTN_SAVEPUBLISH' => 'Uložit a nasadit',
     'LBL_BTN_HISTORY' => 'Historie',
-    'LBL_BTN_ADDROWS' => 'Přidat řádky',
-    'LBL_BTN_UNDO' => 'Zpět',
-    'LBL_BTN_REDO' => 'Znova',
-    'LBL_BTN_ADDCUSTOMFIELD' => 'Přidat vlastní pole',
+    'LBL_BTN_ADDROWS' => 'Add Rows',
+    'LBL_BTN_UNDO' => 'Undo',
+    'LBL_BTN_REDO' => 'Redo',
+    'LBL_BTN_ADDCUSTOMFIELD' => 'Add Custom Field',
     'LBL_BTN_TABINDEX' => 'Upravit pořadí záložek',
 
 //TABS
-    'LBL_MODULES' => 'Moduly',
+    'LBL_MODULES' => 'Modules',
     'LBL_MODULE_NAME' => 'Administrace',
-    'LBL_CONFIGURE_GROUP_TABS' => 'Konfigurovat skupiny záložek',
+    'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
     'LBL_GROUP_TAB_WELCOME' => 'Záložky a seskupené podzáložky se zobrazí pro uživatele, kteří se rozhodnou pro zobrazení Skupinových modulů v navigačním panelu. Drag and drop moduly z záložkových-boxů jsou potom určeny pro konfiguraci, které podzáložky se objevují v jednotlivých kartách. Prázdné Skupiny záložek nebudou zobrazeny v navigačním panelu.',
     'LBL_RENAME_TAB_WELCOME' => 'Pro přejmenování záložky klikněte na libovolnou zobrazovanou hodnotu v tabulce.',
     'LBL_DELETE_MODULE' => 'Odebrat&nbsp;modul<br />z&nbsp;filtru',
     'LBL_TAB_GROUP_LANGUAGE_HELP' => 'Provybrání záložek pro změnu jazyka, vyberte jazyk, editujte názvy a klikněte na Ulož a zapracuj, pro zavedení změn v překladu.',
     'LBL_ADD_GROUP' => 'Přidat skupinu',
     'LBL_NEW_GROUP' => 'Nová skupina',
-    'LBL_RENAME_TABS' => 'Přejmenovat záložky',
+    'LBL_RENAME_TABS' => 'Rename Modules',
 
 //ERRORS
     'ERROR_INVALID_KEY_VALUE' => "Chyba: Neplatná klíčová hodnota: [']",
 
 //SUGAR PORTAL
     'LBL_SAVE' => 'Uložit' /*for 508 compliance fix*/,
-    'LBL_UNDO' => 'Zpět' /*for 508 compliance fix*/,
-    'LBL_REDO' => 'Znova' /*for 508 compliance fix*/,
+    'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
+    'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'V řádku' /*for 508 compliance fix*/,
     'LBL_DELETE' => 'Smazat' /*for 508 compliance fix*/,
-    'LBL_ADD_FIELD' => 'Přidat pole' /*for 508 compliance fix*/,
+    'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Maximalizovat' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Minimalizovat' /*for 508 compliance fix*/,
-    'LBL_PUBLISH' => 'Zveřejnit' /*for 508 compliance fix*/,
-    'LBL_ADDROWS' => 'Přidat řádky' /*for 508 compliance fix*/,
-    'LBL_ADDFIELD' => 'Přidat pole' /*for 508 compliance fix*/,
+    'LBL_PUBLISH' => 'Publikovat' /*for 508 compliance fix*/,
+    'LBL_ADDROWS' => 'Add Rows' /*for 508 compliance fix*/,
+    'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_EDIT' => 'Upravit' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Vyberte jazyk, který chcete upravit.',

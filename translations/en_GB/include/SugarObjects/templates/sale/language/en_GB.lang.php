@@ -80,7 +80,7 @@ $mod_strings = array(
     'LBL_HISTORY_SUBPANEL_TITLE' => 'History',
 
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
-    'LBL_ASSIGNED_TO_NAME' => 'User:',
+    'LBL_ASSIGNED_TO_NAME' => 'Users:',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigned User',
     'LBL_ASSIGNED_TO_ID' => 'Assigned to ID',
     'LBL_MODIFIED_NAME' => 'Modified by User Name',

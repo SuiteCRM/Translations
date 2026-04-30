@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Klijenti',
+    'LBL_MODULE_NAME' => 'Računi',
     'LBL_MODULE_TITLE' => 'Klijenti: Početno',
     'LBL_SEARCH_FORM_TITLE' => 'Pretraga klijenata',
     'LBL_LIST_FORM_TITLE' => 'Lista klijenata',

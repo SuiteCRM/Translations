@@ -58,12 +58,12 @@ $mod_strings = array(
     'LBL_DROP_HERE' => '[Dito i-drop]',
 
 //CUSTOM FIELDS
-    'LBL_NAME' => 'Ang Pangalan',
+    'LBL_NAME' => 'Ang pangalan',
     'LBL_LABEL' => 'Ang label',
     'LBL_MASS_UPDATE' => 'Mass Update',
     'LBL_DEFAULT_VALUE' => 'I-default ang halaga',
     'LBL_REQUIRED' => 'Kinakailangan',
-    'LBL_DATA_TYPE' => 'Ang Uri',
+    'LBL_DATA_TYPE' => 'Uri',
 
 
     'LBL_HISTORY' => 'Kasaysayan',
@@ -93,7 +93,7 @@ $mod_strings = array(
     'LBL_ED_CREATE_DROPDOWN' => 'Lumikha ng Drop Down',
     'LBL_DROPDOWN_NAME' => 'Pangalan ng dropdown:',
     'LBL_DROPDOWN_LANGUAGE' => 'Linggwaheng dropdown:',
-    'LBL_TABGROUP_LANGUAGE' => 'Ang Linggwahe:',
+    'LBL_TABGROUP_LANGUAGE' => 'Linggwahe:',
 
 //END WIZARDS
 
@@ -126,7 +126,7 @@ $mod_strings = array(
     'LBL_RENAME_TABS' => 'Palitan ng pangalan ang mga modyul',
 
 //ERRORS
-    'ERROR_INVALID_KEY_VALUE' => "May mali: Hindi balido ang halaga ng susi:[']",
+    'ERROR_INVALID_KEY_VALUE' => "May mali: Hindi balido ang Key Value: [']",
 
 //SUGAR PORTAL
     'LBL_SAVE' => 'I-seyb' /*for 508 compliance fix*/,

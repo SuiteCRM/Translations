@@ -44,25 +44,25 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
 
-    'LBL_NAME' => 'Navn',
+    'LBL_NAME' => 'Name',
     'LBL_NUMBER' => 'Nummer:',
-    'LBL_STATUS' => 'Status',
+    'LBL_STATUS' => 'Status:',
     'LBL_PRIORITY' => 'Prioritet:',
     'LBL_DESCRIPTION' => 'Beskrivelse:',
     'LBL_RESOLUTION' => 'Forslag',
     'LBL_LAST_MODIFIED' => 'Sist endret',
     'LBL_ASSIGNED_TO_ID' => 'Tildelt:',
-    'LBL_ASSIGNED_TO_NAME' => 'Bruker:',
+    'LBL_ASSIGNED_TO_NAME' => 'User:',
     'LBL_WORK_LOG' => 'Arbeidslogg:',
     'LBL_CREATED_BY' => 'Opprettet av:',
-    'LBL_DATE_ENTERED' => 'Dato opprettet:',
-    'LBL_DATE_MODIFIED' => 'Date endret:',
+    'LBL_DATE_ENTERED' => 'Date Created:',
+    'LBL_DATE_MODIFIED' => 'Date Modified:',
     'LBL_MODIFIED_BY' => 'Sist endret av:',
     'LBL_ASSIGNED_USER' => 'Tildelt bruker:',
     'LBL_TYPE' => 'Type:',
     'LBL_SUBJECT' => 'Emne:',
 
-    'LBL_EDIT_BUTTON' => 'Rediger',
-    'LBL_REMOVE' => 'Fjern',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
 
 );

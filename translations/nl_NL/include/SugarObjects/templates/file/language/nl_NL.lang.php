@@ -80,7 +80,7 @@ $mod_strings = array(
     'LBL_SUBCATEGORY_VALUE' => 'Sub-categorie:',
     'LBL_DOC_STATUS' => 'Status:',
     'LBL_DET_TEMPLATE_TYPE' => 'Documenttype:',
-    'LBL_DOC_DESCRIPTION' => 'Omschrijving:',
+    'LBL_DOC_DESCRIPTION' => 'Omschrijving: ',
     'LBL_DOC_ACTIVE_DATE' => 'Plaatsings datum:',
     'LBL_DOC_EXP_DATE' => 'Geldig tot:',
 
@@ -88,30 +88,30 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Document lijst',
     'LBL_LIST_DOCUMENT' => 'Document',
     'LBL_LIST_CATEGORY' => 'Categorie',
-    'LBL_LIST_SUBCATEGORY' => 'Sub-categorie',
+    'LBL_LIST_SUBCATEGORY' => 'Sub Categorie',
     'LBL_LIST_REVISION' => 'Revisie',
     'LBL_LIST_LAST_REV_CREATOR' => 'Gepubliceerd door',
     'LBL_LIST_LAST_REV_DATE' => 'Revisie datum',
     'LBL_LIST_VIEW_DOCUMENT' => 'Bekijk',
-    'LBL_LIST_ACTIVE_DATE' => 'Plaatsings datum',
-    'LBL_LIST_EXP_DATE' => 'Geldig tot',
+    'LBL_LIST_ACTIVE_DATE' => 'Publiceer datum',
+    'LBL_LIST_EXP_DATE' => 'Vervaldatum',
     'LBL_LIST_STATUS' => 'Status',
 
     //document search form.
-    'LBL_SF_CATEGORY' => 'Productcategorie',
-    'LBL_SF_SUBCATEGORY' => 'Sub-categorie:',
+    'LBL_SF_CATEGORY' => 'Categorie:',
+    'LBL_SF_SUBCATEGORY' => 'Sub Categorie:',
 
     'DEF_CREATE_LOG' => 'Document aangemaakt',
 
     //error messages
     'ERR_DOC_NAME' => 'Document naam',
-    'ERR_DOC_ACTIVE_DATE' => 'Plaatsings datum',
+    'ERR_DOC_ACTIVE_DATE' => 'Publicatie datum',
     'ERR_FILENAME' => 'Bestandsnaam',
 
     //sub-panel vardefs.
     'LBL_LIST_DOCUMENT_NAME' => 'Document naam',
 
     'LBL_EDIT_BUTTON' => 'Bewerken ',
-    'LBL_REMOVE' => 'Verwijder',
+    'LBL_REMOVE' => 'Verwijderen',
 
 );

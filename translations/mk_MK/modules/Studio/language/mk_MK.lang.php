@@ -46,7 +46,7 @@ $mod_strings = array(
     'LBL_EDIT_LAYOUT' => 'Промени Изглед',
     'LBL_EDIT_FIELDS' => 'Промени Полиња по желба',
     'LBL_SELECT_FILE' => 'Одберете документ',
-    'LBL_MODULE_TITLE' => 'Студио',
+    'LBL_MODULE_TITLE' => 'Studio',
     'LBL_TOOLBOX' => 'Алатки',
     'LBL_SUITE_FIELDS_STAGE' => 'SuiteCRM полиња (со кликање на елементите, ги поставувате во делот за поставување)',
     'LBL_VIEW_SUITE_FIELDS' => 'Погледни SuiteCRM Полиња',
@@ -55,14 +55,14 @@ $mod_strings = array(
     'LBL_PUBLISHING' => 'Објава...',
     'LBL_PUBLISHED' => 'Објавено',
     'LBL_FAILED_PUBLISHED' => 'Грешка во објава',
-    'LBL_DROP_HERE' => '[ Пушти овде]',
+    'LBL_DROP_HERE' => '[Drop Here]',
 
 //CUSTOM FIELDS
     'LBL_NAME' => 'Име',
     'LBL_LABEL' => 'Етикета',
-    'LBL_MASS_UPDATE' => 'Масовно ажурирање',
+    'LBL_MASS_UPDATE' => 'Масовно Ажурирање',
     'LBL_DEFAULT_VALUE' => 'Основна вредност',
-    'LBL_REQUIRED' => 'Потребно',
+    'LBL_REQUIRED' => 'Required',
     'LBL_DATA_TYPE' => 'Тип',
 
 
@@ -100,10 +100,10 @@ $mod_strings = array(
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => 'Прикажи вредност',
     'LBL_DD_DATABASEVALUE' => 'Вредност на база',
-    'LBL_DD_ALL' => 'Сите',
+    'LBL_DD_ALL' => 'All',
 
 //BUTTONS
-    'LBL_BTN_SAVE' => 'Зачувај',
+    'LBL_BTN_SAVE' => 'Save',
     'LBL_BTN_CANCEL' => 'Откажи',
     'LBL_BTN_SAVEPUBLISH' => 'Сочувај и Примени',
     'LBL_BTN_HISTORY' => 'Историја',
@@ -115,7 +115,7 @@ $mod_strings = array(
 
 //TABS
     'LBL_MODULES' => 'Модули',
-    'LBL_MODULE_NAME' => 'Администрација',
+    'LBL_MODULE_NAME' => 'Administration',
     'LBL_CONFIGURE_GROUP_TABS' => 'Конфигурирај филтри од менито на Модули',
     'LBL_GROUP_TAB_WELCOME' => 'The filters below will be displayed in the More list in the module menu for users to use to view groups of modules within the menu. Drag and drop modules to and from the filters. Note: Empty filters will not be displayed in the menu.',
     'LBL_RENAME_TAB_WELCOME' => 'Click on any tab\'s Display Value in the table below to rename the tab.',
@@ -129,7 +129,7 @@ $mod_strings = array(
     'ERROR_INVALID_KEY_VALUE' => "Грешка: Погрешна вредност на клучот: [']",
 
 //SUGAR PORTAL
-    'LBL_SAVE' => 'Зачувај' /*for 508 compliance fix*/,
+    'LBL_SAVE' => 'Save' /*for 508 compliance fix*/,
     'LBL_UNDO' => 'Чекор назад' /*for 508 compliance fix*/,
     'LBL_REDO' => 'Чекор напред' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Во линија' /*for 508 compliance fix*/,

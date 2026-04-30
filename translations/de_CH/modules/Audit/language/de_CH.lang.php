@@ -49,5 +49,5 @@ $mod_strings = array(
     'LBL_CREATED_BY' => 'Geändert von',
     'LBL_LIST_DATE' => 'Änderungs Datum',
     'LBL_AUDITED_FIELDS' => 'Auditierte Felder in diesem Modul ',
-    'LBL_CHANGE_LOG' => 'Änderungs-Log:',
+    'LBL_CHANGE_LOG' => 'Änderungsprotokoll',
 );

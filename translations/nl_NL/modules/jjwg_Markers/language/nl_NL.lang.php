@@ -44,8 +44,8 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings['LBL_ASSIGNED_TO_ID'] = 'Toegewezen gebruiker-Id';
 $mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Gebruiker';
-$mod_strings['LBL_ID'] = 'Id';
-$mod_strings['LBL_DATE_ENTERED'] = 'Datum aangemaakt';
+$mod_strings['LBL_ID'] = 'ID';
+$mod_strings['LBL_DATE_ENTERED'] = 'Aangemaakt op';
 $mod_strings['LBL_DATE_MODIFIED'] = 'Datum gewijzigd';
 $mod_strings['LBL_MODIFIED'] = 'Gewijzigd door';
 $mod_strings['LBL_MODIFIED_NAME'] = 'Gewijzigd door naam';
@@ -57,8 +57,8 @@ $mod_strings['LBL_CREATED_USER'] = 'Aangemaakt door gebruiker';
 $mod_strings['LBL_MODIFIED_USER'] = 'Gewijzigd door gebruiker';
 $mod_strings['LBL_LIST_NAME'] = 'Naam';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'Markeerpunten lijst';
-$mod_strings['LBL_MODULE_NAME'] = 'Markeerpunten';
-$mod_strings['LBL_MODULE_TITLE'] = 'Markeerpunten';
+$mod_strings['LBL_MODULE_NAME'] = 'Markeringen';
+$mod_strings['LBL_MODULE_TITLE'] = 'Markeringen';
 $mod_strings['LBL_HOMEPAGE_TITLE'] = 'Mijn Markeerpunten';
 $mod_strings['LNK_NEW_RECORD'] = 'Aanmaken Markeerpunten';
 $mod_strings['LNK_LIST'] = 'Overzicht Markeerpunten';

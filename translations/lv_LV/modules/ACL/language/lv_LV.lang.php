@@ -43,15 +43,15 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Loma',
+    'LBL_ROLE' => 'Role',
     'LBL_NAME' => 'Vārds:',
-    'LBL_DESCRIPTION' => 'Apraksts',
+    'LBL_DESCRIPTION' => 'Description',
     'LIST_ROLES' => 'Lomu saraksts',
-    'LBL_USERS_SUBPANEL_TITLE' => 'Lietotājs',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
     'LIST_ROLES_BY_USER' => 'Rādīt lomas pēc lietotāja',
     'LBL_ROLES_SUBPANEL_TITLE' => 'Lietotāja lomas',
-    'LBL_SEARCH_FORM_TITLE' => 'Meklēšana',
-    'LBL_NO_ACCESS' => 'Jums nav piekļuves tiesību šim apgabalam. Sazinieties ar vietnes administratoru, lai iegūtu piekļuvi.',
+    'LBL_SEARCH_FORM_TITLE' => 'Search',
+    'LBL_NO_ACCESS' => 'You do not have access to this area. Contact your site administrator to obtain access.',
     'LBL_REDIRECT_TO_HOME' => 'Novirzīt uz sākuma lapu',
     'LBL_SECONDS' => 'sekundes',
     'LBL_ADDING' => 'Pievienot pie',

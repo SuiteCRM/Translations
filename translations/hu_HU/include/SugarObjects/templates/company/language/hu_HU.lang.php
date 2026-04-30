@@ -56,8 +56,8 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Felhasználó:',
     'LBL_RATING' => 'Minősítés:',
     'LBL_ASSIGNED_TO' => 'Felelős:',
-    'LBL_ASSIGNED_USER' => 'Felelős:',
-    'LBL_ASSIGNED_TO_ID' => 'Felelős:',
+    'LBL_ASSIGNED_USER' => 'Hozzárendelve:',
+    'LBL_ASSIGNED_TO_ID' => 'Hozzárendelve:',
     'LBL_BILLING_ADDRESS_CITY' => 'Számlázási cím, város:',
     'LBL_BILLING_ADDRESS_COUNTRY' => 'Számlázási ország:',
     'LBL_BILLING_ADDRESS_POSTALCODE' => 'Számlázási irányítószám:',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'Biztos benne, hogy törli ezt a rekordot?',
 
     'LBL_EDIT_BUTTON' => 'Módosítás',
-    'LBL_REMOVE' => 'Sil',
+    'LBL_REMOVE' => 'Eltávolítás',
 
 );

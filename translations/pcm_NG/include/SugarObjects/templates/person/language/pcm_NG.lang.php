@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_SALUTATION' => 'Greeting',
-    'LBL_NAME' => 'Name',
+    'LBL_NAME' => 'Wetin be your name',
     'LBL_FIRST_NAME' => 'Name wey come first',
     'LBL_LAST_NAME' => 'Name wey last',
     'LBL_TITLE' => 'Title',

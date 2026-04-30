@@ -47,8 +47,8 @@ $mod_strings = array(
     'LBL_NAME' => 'Ad',
     'LBL_LIST_NAME' => 'Ad',
     'LBL_EDIT_BUTTON' => 'Redaktə et',
-    'LBL_REMOVE' => 'Sil',
+    'LBL_REMOVE' => 'Remove',
     'LBL_GRP' => 'Qrup',
-    'LBL_ORD' => 'Sifariş',
+    'LBL_ORD' => 'Sıra',
     'LBL_THUMBNAIL' => 'Miniatür',
 );

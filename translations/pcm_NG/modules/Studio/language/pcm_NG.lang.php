@@ -58,7 +58,7 @@ $mod_strings = array(
     'LBL_DROP_HERE' => '[Put am hia]',
 
 //CUSTOM FIELDS
-    'LBL_NAME' => 'Name',
+    'LBL_NAME' => 'Wetin be your name',
     'LBL_LABEL' => 'Label',
     'LBL_MASS_UPDATE' => 'Different update',
     'LBL_DEFAULT_VALUE' => 'Default Value',
@@ -104,7 +104,7 @@ $mod_strings = array(
 
 //BUTTONS
     'LBL_BTN_SAVE' => 'Save',
-    'LBL_BTN_CANCEL' => 'Clean am',
+    'LBL_BTN_CANCEL' => 'Cancel',
     'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
     'LBL_BTN_HISTORY' => 'History',
     'LBL_BTN_ADDROWS' => 'Add Rows',
@@ -133,7 +133,7 @@ $mod_strings = array(
     'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
     'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Inline' /*for 508 compliance fix*/,
-    'LBL_DELETE' => 'Commot' /*for 508 compliance fix*/,
+    'LBL_DELETE' => 'Delete ' /*for 508 compliance fix*/,
     'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Maximize' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Minimize' /*for 508 compliance fix*/,

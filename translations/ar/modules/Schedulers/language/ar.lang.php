@@ -155,7 +155,7 @@ $mod_strings = array(
 
     'LBL_RUNMASSEMAILCAMPAIGN' => 'التنفيذ الليلي لحملات البريد الإلكتروني الجماعية',
     'LBL_POLLMONITOREDINBOXESFORBOUNCEDCAMPAIGNEMAILS' => 'تشغيل المعالجة الليلية للبريد الإلكتروني المرتد للحملات',
-    'LBL_PRUNEDATABASE' => 'تنظيف قاعدة البيانات بداية الشهر',
+    'LBL_PRUNEDATABASE' => 'تنظيف قاعدة البيانات بأول الشهر',
     'LBL_TRIMTRACKER' => 'تنظيف جداول التعقب',
     'LBL_TRIMSUGARFEEDS' => 'تنظيف جداول موجزات نظام SuiteCRM',
     'LBL_SENDEMAILREMINDERS' => 'تنفيذ إرسال رسائل التذكير بالبريد الإلكتروني',

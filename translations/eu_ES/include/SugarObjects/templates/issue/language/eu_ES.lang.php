@@ -44,25 +44,25 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
 
-    'LBL_NAME' => 'Izena',
+    'LBL_NAME' => 'Name',
     'LBL_NUMBER' => 'Zenbakia',
-    'LBL_STATUS' => 'Egoera',
+    'LBL_STATUS' => 'Status:',
     'LBL_PRIORITY' => 'Lehentasuna',
-    'LBL_DESCRIPTION' => 'Deskribapena',
+    'LBL_DESCRIPTION' => 'Deskribapena:',
     'LBL_RESOLUTION' => 'Erabakia',
     'LBL_LAST_MODIFIED' => 'Aldatua',
     'LBL_ASSIGNED_TO_ID' => 'Nori esleitua',
-    'LBL_ASSIGNED_TO_NAME' => 'Esleitua izan da',
+    'LBL_ASSIGNED_TO_NAME' => 'User:',
     'LBL_WORK_LOG' => 'Lan-erregistroa',
     'LBL_CREATED_BY' => 'Sortzailea:',
-    'LBL_DATE_ENTERED' => 'Sortua',
-    'LBL_DATE_MODIFIED' => 'Aldatua',
+    'LBL_DATE_ENTERED' => 'Date Created:',
+    'LBL_DATE_MODIFIED' => 'Date Modified:',
     'LBL_MODIFIED_BY' => 'Aldatzailea',
     'LBL_ASSIGNED_USER' => 'Assigned User:',
-    'LBL_TYPE' => 'Mota',
+    'LBL_TYPE' => 'Type:',
     'LBL_SUBJECT' => 'Gaia',
 
-    'LBL_EDIT_BUTTON' => 'Editatu',
-    'LBL_REMOVE' => 'Kendu',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
 
 );

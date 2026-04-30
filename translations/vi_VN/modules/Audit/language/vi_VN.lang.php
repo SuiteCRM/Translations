@@ -49,5 +49,5 @@ $mod_strings = array(
     'LBL_CREATED_BY' => 'Thay đổi bởi',
     'LBL_LIST_DATE' => 'Ngày thay đổi',
     'LBL_AUDITED_FIELDS' => 'Lĩnh vực kiểm toán trong module này: ',
-    'LBL_CHANGE_LOG' => 'Log Thay đổi',
+    'LBL_CHANGE_LOG' => 'Change Log',
 );

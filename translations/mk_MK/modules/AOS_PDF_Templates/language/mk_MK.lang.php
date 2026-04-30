@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_ASSIGNED_TO_ID' => 'Доделено на Корисник ID',
     'LBL_ASSIGNED_TO_NAME' => 'Доделено на',
-    'LBL_ID' => 'ID',
+    'LBL_ID' => 'Број',
     'LBL_DATE_ENTERED' => 'Дата на креирање',
     'LBL_DATE_MODIFIED' => 'Дата на промена',
     'LBL_MODIFIED' => 'Променето од',
@@ -65,7 +65,7 @@ $mod_strings = array(
     'LNK_NEW_RECORD' => 'Create PDF Template',
     'LNK_LIST' => 'View PDF Templates',
     'LBL_SEARCH_FORM_TITLE' => 'Search PDF Templates',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Види историја',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Активности',
     'LBL_NEW_FORM_TITLE' => 'New PDF Template',
     'LBL_TYPE' => 'Тип',

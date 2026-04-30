@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_TRACKER_NAME' => 'Pangalan ng mga tagapagsubaybay',
     'LBL_CAMPAIGN_ID' => 'Id ng kampanya',
     'LBL_DATE_ENTERED' => 'Petsa nakapasok',
-    'LBL_DATE_MODIFIED' => 'Ang petsa ng pagkabago',
+    'LBL_DATE_MODIFIED' => 'Ang petsa ng pagbago',
     'LBL_MODIFIED_USER_ID' => 'Nabago na user Id',
     'LBL_CREATED_BY' => 'Ito ay nalikha sa pamamagitan ng',
     'LBL_DELETED' => 'Ang pagkabura',
@@ -61,7 +61,7 @@ $mod_strings = array(
     'LBL_EDIT_TRACKER_NAME' => 'Pangalan ng taga-track:',
     'LBL_EDIT_TRACKER_URL' => 'URL ng Taga-track:',
 
-    'LBL_SUBPANEL_TRACKER_NAME' => 'Ang Pangalan',
+    'LBL_SUBPANEL_TRACKER_NAME' => 'Ang pangalan',
     'LBL_SUBPANEL_TRACKER_URL' => 'URL',
     'LBL_SUBPANEL_TRACKER_KEY' => 'Susi',
     'LBL_EDIT_MESSAGE_URL' => 'URL para sa mensahe ng kampanya:',

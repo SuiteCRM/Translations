@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_FIELD_NAME' => 'Alan',
+    'LBL_FIELD_NAME' => 'Field',
     'LBL_OLD_NAME' => 'Eski değer',
     'LBL_NEW_VALUE' => 'Yeni değer',
     'LBL_CREATED_BY' => 'Değiştiren',

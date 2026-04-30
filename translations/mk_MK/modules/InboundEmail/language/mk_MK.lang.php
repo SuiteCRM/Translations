@@ -75,14 +75,14 @@ $mod_strings = array(
     'LBL_FROM_ADDR_DESC' => 'The email address provided here might not appear in the &quot;From&quot; address section of the email sent due to restrictions imposed by the mail service provider. In these circumstances, the email address defined in the outgoing mail server will be used.', // as long as XTemplate doesn't support output escaping, transform quotes to html-entities right here (bug #48913)
     'LBL_FROM_NAME' => '"From" Name',
     'LBL_GROUP_QUEUE' => 'Assign To Group',
-    'LBL_HOME' => 'Почетна',
+    'LBL_HOME' => 'Home',
     'LBL_LIST_MAILBOX_TYPE' => 'Mail Account Usage',
     'LBL_LIST_NAME' => 'Име:',
     'LBL_LIST_GLOBAL_PERSONAL' => 'Тип',
     'LBL_LIST_SERVER_URL' => 'Mail Server',
     'LBL_SERVER_ADDRESS' => 'Server Address',
     'LBL_LIST_STATUS' => 'Статус',
-    'LBL_LOGIN' => 'Име на Корисник',
+    'LBL_LOGIN' => 'Име на корисник',
     'LBL_USERNAME' => 'Име на Корисник',
     'LBL_MAILBOX_DEFAULT' => 'INBOX',
     'LBL_MAILBOX_SSL' => 'Користи SSL',
@@ -106,7 +106,7 @@ $mod_strings = array(
     'LBL_BOUNCE_MODULE_NAME' => 'Bounce Handling Mailbox',
     'LBL_MODULE_TITLE' => 'Inbound Email Accounts',
     'LBL_NAME' => 'Име',
-    'LBL_NONE' => '--None--',
+    'LBL_NONE' => 'None',
     'LBL_ONLY_SINCE_NO' => 'No. Check against all emails on mail server.',
     'LBL_ONLY_SINCE_YES' => 'Yes.',
     'LBL_PASSWORD' => 'Лозинка',
@@ -135,7 +135,7 @@ $mod_strings = array(
     'LBL_TEST_SETTINGS' => 'Тестирајте ги подесувањата',
     'LBL_TEST_CONNECTION_SETTINGS' => 'Test Connection Settings',
     'LBL_TEST_SUCCESSFUL' => 'Конекцијата е успешно воспоставена.',
-    'LBL_TEST_WAIT_MESSAGE' => 'Ве молиме почекајте...',
+    'LBL_TEST_WAIT_MESSAGE' => 'One moment please...',
     'LBL_WARN_IMAP_TITLE' => 'Inbound Email Disabled',
     'LBL_WARN_IMAP' => 'Warnings:',
     'LBL_WARN_NO_IMAP' => 'Inbound Email <b>cannot</b> function without the IMAP c-client libraries enabled/compiled with the PHP module. Please contact your administrator to resolve this issue.',
@@ -146,14 +146,14 @@ $mod_strings = array(
     'LNK_LIST_CREATE_NEW_BOUNCE' => 'New Bounce Handling Account',
     'LNK_LIST_MAILBOXES' => 'Inbound Email Accounts',
     'LNK_LIST_OUTBOUND_EMAILS' => 'Outbound Email Accounts',
-    'LNK_LIST_SCHEDULER' => 'Организатори',
+    'LNK_LIST_SCHEDULER' => 'Schedulers',
     'LNK_SEED_QUEUES' => 'Seed Queues From Teams',
     'LBL_GROUPFOLDER_ID' => 'Group Folder Id',
 
     'LBL_ALLOW_OUTBOUND_GROUP_USAGE' => 'Allow users to send emails using the "From" Name and Address as the reply to address',
     'LBL_ALLOW_OUTBOUND_GROUP_USAGE_DESC' => 'When this option is selected, the From Name and From Email Address associated with this group mail account will appear as an option for the From field when composing emails for users that have access to the group mail account.',
     'LBL_STATUS_ACTIVE' => 'Активен',
-    'LBL_STATUS_INACTIVE' => 'Неактивен',
+    'LBL_STATUS_INACTIVE' => 'Inactive',
     'LBL_IS_PERSONAL' => 'Personal',
     'LBL_IS_GROUP' => 'група',
     'LBL_ENABLE_AUTO_IMPORT' => 'Import Emails Automatically',
@@ -164,7 +164,7 @@ $mod_strings = array(
     'LBL_LIST_TITLE_MY_SENT' => 'Sent Email',
     'LBL_LIST_TITLE_MY_ARCHIVES' => 'Archived Emails',
     'LNK_MY_DRAFTS' => 'Drafts',
-    'LNK_MY_INBOX' => 'e-пошта',
+    'LNK_MY_INBOX' => 'Email',
     'LNK_VIEW_MY_INBOX' => 'View Email',
     'LNK_QUICK_REPLY' => 'Одговори',
     'LNK_SENT_EMAIL_LIST' => 'Пратени мејлови',
@@ -182,7 +182,7 @@ $mod_strings = array(
     'LBL_CASE_CONFIGURATION' => 'Case Configuration',
     'LBL_GROUP_CONFIGURATION' => 'Group Configuration',
 
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Безбедносни групи',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
 
 
     'LBL_OUTBOUND_EMAIL_ACCOUNT' => 'Outbound Email Account',
@@ -213,10 +213,10 @@ $mod_strings = array(
 
     'LBL_TYPE' => 'Тип',
     'LBL_AUTH_TYPE' => 'Auth Type',
-    'LBL_IS_DEFAULT' => 'Стандардно',
+    'LBL_IS_DEFAULT' => 'Default',
     'LBL_SIGNATURE' => 'Потпис',
 
-    'LBL_OWNER_NAME' => 'Сопственик',
+    'LBL_OWNER_NAME' => 'Owner',
 
     'LBL_SET_AS_DEFAULT_BUTTON' => 'Set as default',
 

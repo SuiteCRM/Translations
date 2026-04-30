@@ -43,13 +43,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'الأدوار الوظيفية',
+    'LBL_MODULE_NAME' => 'الأدوار',
     'LBL_MODULE_TITLE' => 'الأدوار الوظيفية: الصفحة الرئيسية',
     'LBL_ROLE' => 'الدور الوظيفي',
     'LBL_NAME' => 'الاسم',
     'LBL_DESCRIPTION' => 'الوصف',
     'LIST_ROLES' => 'قائمة الأدوار الوظيفية',
-    'LBL_USERS_SUBPANEL_TITLE' => 'المستخدمون',
+    'LBL_USERS_SUBPANEL_TITLE' => 'المُستخدمون',
     'LIST_ROLES_BY_USER' => 'الأدوار الوظيفية حسب المُستخدم',
     'LBL_LIST_FORM_TITLE' => 'الأدوار الوظيفية',
     'LBL_ROLES_SUBPANEL_TITLE' => 'الأدوار الوظيفية للمُستخدم',

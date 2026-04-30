@@ -43,18 +43,18 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Zugewiesene Benutzer ID',
+    'LBL_ASSIGNED_TO_ID' => 'Zugewiesene Benutzer-ID',
     'LBL_ASSIGNED_TO_NAME' => 'Zugewiesen an',
-    'LBL_ID' => 'Id',
-    'LBL_DATE_ENTERED' => 'Erstellungsdatum',
+    'LBL_ID' => 'ID',
+    'LBL_DATE_ENTERED' => 'Datum erstellt',
     'LBL_DATE_MODIFIED' => 'Letzte Änderung',
     'LBL_MODIFIED' => 'Geändert von',
     'LBL_MODIFIED_NAME' => 'Geändert von Name',
-    'LBL_CREATED' => 'Erstellt von',
+    'LBL_CREATED' => 'Erstellt von:',
     'LBL_DESCRIPTION' => 'Beschreibung',
-    'LBL_DELETED' => 'Gelöscht',
+    'LBL_DELETED' => 'Deleted',
     'LBL_NAME' => 'Name',
-    'LBL_CREATED_USER' => 'Erstellt von Benutzer',
+    'LBL_CREATED_USER' => 'Erstellt von Benutzer:',
     'LBL_MODIFIED_USER' => 'Geändert von Benutzer',
     'LBL_LIST_NAME' => 'Name',
     'LBL_EDIT_BUTTON' => 'Bearbeiten',
@@ -66,13 +66,13 @@ $mod_strings = array(
     'LNK_NEW_RECORD' => 'Fall Updates erstellen',
     'LNK_LIST' => 'Fall Updates anzeigen',
     'LBL_SEARCH_FORM_TITLE' => 'Fall Updates suchen',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Historie anzeigen',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Verlauf anzeigen',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktivitäten',
     'LBL_NEW_FORM_TITLE' => 'Neue Fall Updates',
     'LBL_CASE_NAME' => 'Anfrage',
     'LBL_CONTACT_NAME' => 'Kontakt',
     'LBL_INTERNAL' => 'Internes Update',
     'LBL_AOP_CASE_ATTACHMENTS' => 'Anlagen: ',
-    'LBL_AUTHOR' => 'Autor',
-    'LBL_SOURCE' => 'Quelle'
+    'LBL_AUTHOR' => 'Author',
+    'LBL_SOURCE' => 'Source'
 );

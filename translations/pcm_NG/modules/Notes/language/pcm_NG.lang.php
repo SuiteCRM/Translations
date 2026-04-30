@@ -94,14 +94,14 @@ $mod_strings = array(
     'LBL_CREATED_BY' => 'Person wey create am',
     'LBL_MODIFIED_BY' => 'Person wey modify am',
     'LBL_SEND_ANYWAYS' => 'This email no get any subject. You still wan send/save am like that?',
-    'LBL_NOTE_INFORMATION' => 'Overview', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_NOTE_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_MY_NOTES_DASHLETNAME' => 'My Notes',
     'LBL_EDITLAYOUT' => 'Make you Edit Layout' /*for 508 compliance fix*/,
     //For export labels
     'LBL_FIRST_NAME' => 'Name wey come first',
     'LBL_LAST_NAME' => 'Name wey last',
     'LBL_DATE_ENTERED' => 'Day wey dem create am',
-    'LBL_DATE_MODIFIED' => 'De day wey dem modify am',
+    'LBL_DATE_MODIFIED' => 'The day wey dem modify am',
     'LBL_DELETED' => 'Comot am',
     'LBL_FILE_CONTENTS' => 'File Contents',
 

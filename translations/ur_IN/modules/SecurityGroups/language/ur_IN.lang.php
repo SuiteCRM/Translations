@@ -96,13 +96,13 @@ $mod_strings = array(
 
     'LBL_DEFAULT_GROUP_TITLE' => 'Default Groups for New Records',
     'LBL_ADD_BUTTON_LABEL' => 'شامل کریں',
-    'LBL_REMOVE_BUTTON_LABEL' => 'ختم کر دیں',
+    'LBL_REMOVE_BUTTON_LABEL' => 'نکال دیں',
     'LBL_GROUP' => 'Group:',
     'LBL_MODULE' => 'Module:',
 
     'LBL_MASS_ASSIGN' => 'Security Groups: Mass Assign',
     'LBL_ASSIGN' => 'Assign',
-    'LBL_REMOVE' => 'ختم کر دیں',
+    'LBL_REMOVE' => 'نکال دیں',
     'LBL_ASSIGN_CONFIRM' => 'Are you sure that you want to add this group to the ',
     'LBL_REMOVE_CONFIRM' => 'Are you sure that you want to remove this group from the ',
     'LBL_CONFIRM_END' => ' منتخب کردہ ریکارڈ (ز)؟',

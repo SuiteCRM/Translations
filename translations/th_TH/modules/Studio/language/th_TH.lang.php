@@ -43,30 +43,30 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EDIT_LAYOUT' => 'แก้ไขรูปแบบ',
+    'LBL_EDIT_LAYOUT' => 'Edit Layout',
     'LBL_EDIT_FIELDS' => 'แก้ไขฟิลด์ที่กำหนดเอง',
-    'LBL_SELECT_FILE' => 'เลือกไฟล์',
-    'LBL_MODULE_TITLE' => 'สตูดิโอ',
+    'LBL_SELECT_FILE' => 'Select File',
+    'LBL_MODULE_TITLE' => 'Studio',
     'LBL_TOOLBOX' => 'กล่องเครื่องมือ',
     'LBL_SUITE_FIELDS_STAGE' => 'ฟิลด์ SuiteCRM (คลิกที่รายการเพื่อเพิ่มพื้นที่จัดเตรียม)',
     'LBL_VIEW_SUITE_FIELDS' => 'ดูฟิลด์ SuiteCRM',
     'LBL_FAILED_TO_SAVE' => 'การบันทึกล้มเหลว',
     'LBL_CONFIRM_UNSAVE' => 'การเปลี่ยนแปลงใดๆ จะไม่ได้บันทึกไว้ คุณแน่ใจหรือไม่ว่าต้องการดำเนินการต่อ',
     'LBL_PUBLISHING' => 'กำลังเผยแพร่ ...',
-    'LBL_PUBLISHED' => 'เผยแพร่',
+    'LBL_PUBLISHED' => 'Published',
     'LBL_FAILED_PUBLISHED' => 'การเผยแพร่ล้มเหลว',
-    'LBL_DROP_HERE' => '[วางที่นี่]',
+    'LBL_DROP_HERE' => '[Drop Here]',
 
 //CUSTOM FIELDS
     'LBL_NAME' => 'ชื่อ',
-    'LBL_LABEL' => 'ป้ายชื่อ',
-    'LBL_MASS_UPDATE' => 'การอัพเดตโดยรวม',
+    'LBL_LABEL' => 'Label',
+    'LBL_MASS_UPDATE' => 'Mass Update',
     'LBL_DEFAULT_VALUE' => 'ค่าเริ่มต้น',
-    'LBL_REQUIRED' => 'จำเป็น',
-    'LBL_DATA_TYPE' => 'ประเภท',
+    'LBL_REQUIRED' => 'Required',
+    'LBL_DATA_TYPE' => 'Type',
 
 
-    'LBL_HISTORY' => 'ประวัติ',
+    'LBL_HISTORY' => 'History',
 
 //WIZARDS
 
@@ -87,7 +87,7 @@ $mod_strings = array(
 
 
 //Manager Backups History
-    'LBL_MB_DELETE' => 'ลบ',
+    'LBL_MB_DELETE' => 'Delete',
 
 //EDIT DROP DOWNS
     'LBL_ED_CREATE_DROPDOWN' => 'สร้าง Drop Down',
@@ -103,10 +103,10 @@ $mod_strings = array(
     'LBL_DD_ALL' => 'ทั้งหมด',
 
 //BUTTONS
-    'LBL_BTN_SAVE' => 'บันทึก',
-    'LBL_BTN_CANCEL' => 'ยกเลิก',
+    'LBL_BTN_SAVE' => 'Save',
+    'LBL_BTN_CANCEL' => 'Cancel',
     'LBL_BTN_SAVEPUBLISH' => 'บันทึกและปรับใช้',
-    'LBL_BTN_HISTORY' => 'ประวัติ',
+    'LBL_BTN_HISTORY' => 'History',
     'LBL_BTN_ADDROWS' => 'เพิ่มแถว',
     'LBL_BTN_UNDO' => 'Undo',
     'LBL_BTN_REDO' => 'Redo',
@@ -114,8 +114,8 @@ $mod_strings = array(
     'LBL_BTN_TABINDEX' => 'แก้ไขลำดับแท็บ',
 
 //TABS
-    'LBL_MODULES' => 'โมดูล',
-    'LBL_MODULE_NAME' => 'ผู้ดูแลระบบ',
+    'LBL_MODULES' => 'Modules',
+    'LBL_MODULE_NAME' => 'Administration',
     'LBL_CONFIGURE_GROUP_TABS' => 'กำหนดค่าตัวกรองเมนูโมดูล',
     'LBL_GROUP_TAB_WELCOME' => 'ตัวกรองด้านล่างจะปรากฏในรายการเพิ่มเติมในเมนูโมดูลสำหรับผู้ใช้ที่จะใช้เพื่อดูกลุ่มของโมดูลภายในเมนู ลากและวางโมดูลจากและไปยังตัวกรอง หมายเหตุ: ฟิลเตอร์ว่างเปล่าจะไม่ปรากฏในเมนู',
     'LBL_RENAME_TAB_WELCOME' => 'คลิกที่ค่าที่แสดงของแท็บในตารางด้านล่างเพื่อเปลี่ยนชื่อแท็บ',
@@ -129,18 +129,18 @@ $mod_strings = array(
     'ERROR_INVALID_KEY_VALUE' => "ข้อผิดพลาด: ค่าคีย์ไม่ถูกต้อง: [']",
 
 //SUGAR PORTAL
-    'LBL_SAVE' => 'บันทึก' /*for 508 compliance fix*/,
+    'LBL_SAVE' => 'Save' /*for 508 compliance fix*/,
     'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
     'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Inline' /*for 508 compliance fix*/,
-    'LBL_DELETE' => 'ลบ' /*for 508 compliance fix*/,
-    'LBL_ADD_FIELD' => 'เพิ่มเขตข้อมูล' /*for 508 compliance fix*/,
+    'LBL_DELETE' => 'Delete' /*for 508 compliance fix*/,
+    'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'มากสุด' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'น้อยสุด' /*for 508 compliance fix*/,
     'LBL_PUBLISH' => 'เผยแพร่' /*for 508 compliance fix*/,
     'LBL_ADDROWS' => 'เพิ่มแถว' /*for 508 compliance fix*/,
-    'LBL_ADDFIELD' => 'เพิ่มเขตข้อมูล' /*for 508 compliance fix*/,
-    'LBL_EDIT' => 'แก้ไข' /*for 508 compliance fix*/,
+    'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
+    'LBL_EDIT' => 'Edit' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'เลือกภาษาที่ต้องการแก้ไข',
     'LBL_SINGULAR' => 'ป้ายเอกพจน์',

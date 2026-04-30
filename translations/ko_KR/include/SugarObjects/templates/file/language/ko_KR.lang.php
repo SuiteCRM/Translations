@@ -51,7 +51,7 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => '자료 검색',
     //vardef labels
     'LBL_NAME' => '문서명',
-    'LBL_DESCRIPTION' => '상세',
+    'LBL_DESCRIPTION' => '설명',
     'LBL_ASSIGNED_TO' => '담당자:',
     'LBL_CATEGORY' => '카테고리',
     'LBL_SUBCATEGORY' => '서브 카테고리',
@@ -80,38 +80,38 @@ $mod_strings = array(
     'LBL_SUBCATEGORY_VALUE' => '서브카테고리:',
     'LBL_DOC_STATUS' => '상태:',
     'LBL_DET_TEMPLATE_TYPE' => '자료종류:',
-    'LBL_DOC_DESCRIPTION' => '상세설명:',
+    'LBL_DOC_DESCRIPTION' => '설명',
     'LBL_DOC_ACTIVE_DATE' => '개정일:',
     'LBL_DOC_EXP_DATE' => '만료일:',
 
     //document list view.
     'LBL_LIST_FORM_TITLE' => '자료리스트',
     'LBL_LIST_DOCUMENT' => '자료 리스트',
-    'LBL_LIST_CATEGORY' => '카테고리',
-    'LBL_LIST_SUBCATEGORY' => '서브 카테고리',
-    'LBL_LIST_REVISION' => '개정판',
+    'LBL_LIST_CATEGORY' => 'Category',
+    'LBL_LIST_SUBCATEGORY' => 'Sub Category',
+    'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => '발행자',
     'LBL_LIST_LAST_REV_DATE' => '개정일',
     'LBL_LIST_VIEW_DOCUMENT' => '표시',
-    'LBL_LIST_ACTIVE_DATE' => '개정일',
-    'LBL_LIST_EXP_DATE' => '만료일',
+    'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
+    'LBL_LIST_EXP_DATE' => 'Expiration Date',
     'LBL_LIST_STATUS' => '상태',
 
     //document search form.
-    'LBL_SF_CATEGORY' => '카테고리:',
-    'LBL_SF_SUBCATEGORY' => '서브카테고리:',
+    'LBL_SF_CATEGORY' => 'Category:',
+    'LBL_SF_SUBCATEGORY' => 'Sub Category:',
 
     'DEF_CREATE_LOG' => '자료작성로그',
 
     //error messages
     'ERR_DOC_NAME' => '문서명',
-    'ERR_DOC_ACTIVE_DATE' => '개정일',
+    'ERR_DOC_ACTIVE_DATE' => 'Publish Date',
     'ERR_FILENAME' => '파일명',
 
     //sub-panel vardefs.
     'LBL_LIST_DOCUMENT_NAME' => '문서명',
 
     'LBL_EDIT_BUTTON' => '편집  ',
-    'LBL_REMOVE' => '삭제',
+    'LBL_REMOVE' => '제거',
 
 );

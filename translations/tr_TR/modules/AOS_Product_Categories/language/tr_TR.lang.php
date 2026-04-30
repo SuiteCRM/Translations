@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kodu',
+    'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kimliği',
     'LBL_ASSIGNED_TO_NAME' => 'Atanmış kişi',
-    'LBL_ID' => 'Kod',
+    'LBL_ID' => 'Kimlik',
     'LBL_DATE_ENTERED' => 'Eklenme tarihi',
     'LBL_DATE_MODIFIED' => 'Değiştirilme tarihi',
     'LBL_MODIFIED' => 'Değiştiren',
@@ -53,11 +53,11 @@ $mod_strings = array(
     'LBL_CREATED' => 'Ekleyen',
     'LBL_DESCRIPTION' => 'Açıklama',
     'LBL_DELETED' => 'Silindi',
-    'LBL_NAME' => 'Ad',
+    'LBL_NAME' => 'İsim',
     'LBL_CREATED_USER' => 'Ekleyen kullanıcı',
     'LBL_MODIFIED_USER' => 'Değiştiren kullanıcı',
-    'LBL_LIST_NAME' => 'Ad',
-    'LBL_EDIT_BUTTON' => 'Düzenle',
+    'LBL_LIST_NAME' => 'Paket Adı:',
+    'LBL_EDIT_BUTTON' => 'Değiştir',
     'LBL_REMOVE' => 'Sil',
     'LBL_LIST_FORM_TITLE' => 'Ürün kategorileri listesi',
     'LBL_MODULE_NAME' => 'Ürün kategorileri',
@@ -67,13 +67,13 @@ $mod_strings = array(
     'LNK_LIST' => 'Ürün kategorilerini görüntüle',
     'LBL_SEARCH_FORM_TITLE' => 'Ürün kategorisi arama',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Geçmişi görüntüle',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'İşlemler',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Etkinlikler',
     'LBL_NEW_FORM_TITLE' => 'Yeni ürün kategorileri',
     'LBL_PARENT_CATEGORY' => 'Üst kategori',
     'LBL_IS_PARENT' => "Üst kategori",
     'LBL_SUB_CATEGORIES' => "Alt kategoriler",
     'LBL_PRODUCT_CATEGORYS_NAME' => "Üst kategori",
-    'LBL_PARENT_CATEGORY_ID' => "Üst kategori kodu",
+    'LBL_PARENT_CATEGORY_ID' => "Üst kategori kimliği",
 
     'LBL_AOS_PRODUCT_CATEGORIES_AOS_PRODUCTS_FROM_AOS_PRODUCTS_TITLE' => 'Ürün kategorileri: Ürün başlığından ürün',
 );

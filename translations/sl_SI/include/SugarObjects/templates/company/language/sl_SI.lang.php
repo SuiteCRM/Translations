@@ -56,8 +56,8 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Dodeljeno:',
     'LBL_RATING' => 'Ocena',
     'LBL_ASSIGNED_TO' => 'Dodeljeno:',
-    'LBL_ASSIGNED_USER' => 'Dodeljeno:',
-    'LBL_ASSIGNED_TO_ID' => 'Dodeljeno:',
+    'LBL_ASSIGNED_USER' => 'Assigned to:',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned to:',
     'LBL_BILLING_ADDRESS_CITY' => 'Mesto:',
     'LBL_BILLING_ADDRESS_COUNTRY' => 'Regija:',
     'LBL_BILLING_ADDRESS_POSTALCODE' => 'Poštna številka:',
@@ -97,7 +97,7 @@ $mod_strings = array(
     'LBL_PHONE_FAX' => 'Telefon, Fax:',
     'LBL_PHONE_OFFICE' => 'Telefon pisarna:',
     'LBL_PHONE' => 'Telefon:',
-    'LBL_EMAIL_ADDRESS' => 'E-poštni naslov',
+    'LBL_EMAIL_ADDRESS' => 'Email Address',
     'LBL_EMAIL_ADDRESSES' => 'E-poštni naslov(i)',
     'LBL_POSTAL_CODE' => 'Poštna številka:',
     'LBL_SAVE_ACCOUNT' => 'Shrani Partnerja',
@@ -116,7 +116,7 @@ $mod_strings = array(
     'LBL_TYPE' => 'Tip:',
     'LBL_WEBSITE' => 'Spletna stran:',
 
-    'LNK_ACCOUNT_LIST' => 'Računi',
+    'LNK_ACCOUNT_LIST' => 'Accounts',
     'LNK_NEW_ACCOUNT' => 'Ustvari partnerja',
 
     'MSG_DUPLICATE' => 'Podvajate Partnerja. Lahko izberete partnerja iz spodnjega seznama, ali pa kliknite Shrani za podvojitev Partnerja',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'Ste prepričani, da želite izbrisati ta vnos?',
 
     'LBL_EDIT_BUTTON' => 'Uredi',
-    'LBL_REMOVE' => 'Odstrani',
+    'LBL_REMOVE' => 'Remove',
 
 );

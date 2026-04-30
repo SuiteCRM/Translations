@@ -46,19 +46,19 @@ $mod_strings = array(
     //module
     'LBL_MODULE_NAME' => '文档版本',
 
-    'LNK_NEW_DOCUMENT' => '创建文档',
+    'LNK_NEW_DOCUMENT' => 'Create Document',
     'LNK_DOCUMENT_LIST' => '查看文档',
 
     //vardef labels
     'LBL_REVISION_NAME' => '版本号',
-    'LBL_FILENAME' => '文件名',
+    'LBL_FILENAME' => '文件',
     'LBL_MIME' => 'Mime 类型',
     'LBL_REVISION' => '版本',
     'LBL_DOCUMENT' => '关联的文档',
     'LBL_LATEST_REVISION' => '最新版本',
     'LBL_CHANGE_LOG' => '更改日志',
     'LBL_ACTIVE_DATE' => '发布日期',
-    'LBL_EXPIRATION_DATE' => '到期日期',
+    'LBL_EXPIRATION_DATE' => 'Expiration Date',
     'LBL_FILE_EXTENSION' => '文件扩展名',
 
     'LBL_DOC_NAME' => '文档名称',
@@ -67,12 +67,12 @@ $mod_strings = array(
     //document revisions.
     'LBL_REV_LIST_REVISION' => '版本',
     'LBL_REV_LIST_ENTERED' => '创建日期',
-    'LBL_REV_LIST_CREATED' => '创建人',
+    'LBL_REV_LIST_CREATED' => 'Created by',
     'LBL_REV_LIST_LOG' => '更改日志',
     'LBL_REV_LIST_FILENAME' => '文件',
 
     'LBL_CURRENT_DOC_VERSION' => '最新版本',
-    'LBL_SEARCH_FORM_TITLE' => '搜索',
+    'LBL_SEARCH_FORM_TITLE' => 'Document Search',
     'LBL_REVISIONS' => '版本',
 
     //error messages

@@ -46,8 +46,8 @@ $mod_strings = array(
     //Column header mapping
     'action' => '動作',
     'date_modified' => '上次操作日期',
-    'item_id' => '編號',
-    'item_summary' => '名稱',
+    'item_id' => 'ID',
+    'item_summary' => '名稱:',
     'module_name' => '模組名稱',
     'users' => '使用者',
 

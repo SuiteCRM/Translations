@@ -47,13 +47,13 @@ $mod_strings = array(
 
     'LBL_ADMINISTRATION_MAIN' => 'Connector instellingen',
     'LBL_AVAILABLE' => 'Beschikbaar',
-    'LBL_BACK' => '<Terug',
+    'LBL_BACK' => '< Vorige',
     'LBL_CONFIRM_CONTINUE_SAVE' => 'Sommige verplichte velden zijn niet ingevuld. Toch doorgaan?',
     'LBL_CONNECTOR_FIELDS' => 'Connector velden',
     'LBL_DATA' => 'Data',
     'LBL_DEFAULT' => 'Standaard',
-    'LBL_DISABLED' => 'Gedeactiveerd',
-    'LBL_ENABLED' => 'Geactiveerd',
+    'LBL_DISABLED' => 'Uitgeschakeld',
+    'LBL_ENABLED' => 'Ingeschakeld',
     'LBL_EXTERNAL' => 'Sta gebruikers toe om met deze connector, externe account records te maken.',
     'LBL_EXTERNAL_SET_PROPERTIES' => 'Om deze connector te gebruiken, moeten de eigenschappen ook in de Connector Instelling pagina ingesteld worden.',
     'LBL_MERGE' => 'Samenvoegen',
@@ -67,7 +67,7 @@ $mod_strings = array(
     'LBL_MODIFY_SEARCH_TITLE' => 'Beheer connector zoeken',
     'LBL_MODIFY_SEARCH' => 'Zoeken',
     'LBL_MODIFY_SEARCH_DESC' => 'Stel per module in op welke velden gezocht kan worden.',
-    'LBL_MODULE_NAME' => 'Connector instellingen',
+    'LBL_MODULE_NAME' => 'Connectors',
     'LBL_NO_PROPERTIES' => 'Deze connector heeft geen instelbare eigenschappen.',
     'LBL_SAVE' => 'Opslaan',
     'LBL_SUMMARY' => 'Samenvatting',
@@ -84,6 +84,6 @@ $mod_strings = array(
     'ERROR_NO_SEARCHDEFS_MAPPING' => 'Fout: Er zijn geen zoekvelden gedefinieerd voor deze module. Contacteer de beheer.',
     'ERROR_NO_DISPLAYABLE_MAPPED_FIELDS' => 'Fout: Er zijn geen velden gedefinieerd om te tonen in de zoekresultaten. Contacteer de beheerder.',
     'LBL_INFO_INLINE' => 'Informatie' /*for 508 compliance fix*/,
-    'LBL_CLOSE' => 'Sluiten' /*for 508 compliance fix*/,
+    'LBL_CLOSE' => 'Sluit' /*for 508 compliance fix*/,
 
 );

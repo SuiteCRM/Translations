@@ -65,7 +65,7 @@ $mod_strings = array(
 
     'LNK_NEW_OAUTH2_CLIENT' => 'Creare client OAuth2',
     'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'Client parolă nouă',
-    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'Client nou cu autentificare proprie',
+    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'Client de autentificare client nou',
     'LNK_NEW_OAUTH2_IMPLICIT_CLIENT' => 'Client implicit nou',
     'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'Client de autorizare nou',
 

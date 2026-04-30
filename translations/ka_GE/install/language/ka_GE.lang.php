@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_BASIC' => 'საბაზო',
+    'LBL_BASIC' => 'BASIC',
     'LBL_BASIC_SEARCH' => 'სწარფი ფილტრი',
     'LBL_ADVANCED_SEARCH' => 'Advanced Filter',
     'LBL_BASIC_TYPE' => 'Basic Type',
@@ -479,7 +479,7 @@ $mod_strings = array(
     'LBL_WELCOME_CHOOSE_LANGUAGE' => '<b>Choose your language</b>',
     'LBL_WELCOME_SETUP_WIZARD' => 'Setup Wizard',
     'LBL_WIZARD_TITLE' => 'SuiteCRM Setup Wizard: ',
-    'LBL_YES' => 'დიახ',
+    'LBL_YES' => 'Yes',
 
     'LBL_PATCHES_TITLE' => 'Install Latest Patches',
     'LBL_MODULE_TITLE' => 'Install Language Packs',

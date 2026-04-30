@@ -54,7 +54,7 @@ $mod_strings = array(
     'LBL_NAME' => 'Ime',
     'LBL_CREATED_USER' => 'Autor je korisnik',
     'LBL_MODIFIED_USER' => 'Promenio korisnik',
-    'LBL_LIST_NAME' => 'Ime',
+    'LBL_LIST_NAME' => 'Naziv',
     'LBL_EDIT_BUTTON' => 'Izmeni',
     'LBL_REMOVE' => 'Ukloni',
 

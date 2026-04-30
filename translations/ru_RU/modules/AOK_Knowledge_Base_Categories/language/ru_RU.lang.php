@@ -43,27 +43,27 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'ID ответственного',
+    'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)',
     'LBL_ASSIGNED_TO_NAME' => 'Ответственное лицо',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Дата создания',
     'LBL_DATE_MODIFIED' => 'Дата изменения',
     'LBL_MODIFIED' => 'Изменено',
     'LBL_MODIFIED_ID' => 'Изменено(ID)',
-    'LBL_MODIFIED_NAME' => 'Изменено (Имя)',
-    'LBL_CREATED' => 'Создано',
+    'LBL_MODIFIED_NAME' => 'Изменено',
+    'LBL_CREATED' => 'Кем создано',
     'LBL_CREATED_ID' => 'Создано(ID)',
     'LBL_DESCRIPTION' => 'Описание',
     'LBL_DELETED' => 'Удалено',
-    'LBL_NAME' => 'Имя',
+    'LBL_NAME' => 'Название',
     'LBL_CREATED_USER' => 'Создано',
     'LBL_MODIFIED_USER' => 'Изменено',
-    'LBL_LIST_NAME' => 'Имя',
-    'LBL_EDIT_BUTTON' => 'Правка',
+    'LBL_LIST_NAME' => 'Название',
+    'LBL_EDIT_BUTTON' => 'Править',
     'LBL_REMOVE' => 'Удалить',
     'LBL_LIST_FORM_TITLE' => 'Категории базы знаний',
     'LBL_MODULE_NAME' => 'Категории базы знаний',
-    'LBL_MODULE_TITLE' => 'Категории базы знаний',
+    'LBL_MODULE_TITLE' => 'KB Categories',
     'LBL_HOMEPAGE_TITLE' => 'Мои категории базы знаний',
     'LNK_NEW_RECORD' => 'Создать категорию',
     'LNK_LIST' => 'Категории',
@@ -71,8 +71,8 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Поиск категорий',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'История',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
-    'LBL_AOK_KB_CATEGORIES_SUBPANEL_TITLE' => 'Категории базы знаний',
+    'LBL_AOK_KB_CATEGORIES_SUBPANEL_TITLE' => 'KB Categories',
     'LBL_NEW_FORM_TITLE' => 'Новая категория',
 );
 
-$mod_strings['LBL_AOK_KB_TITLE'] = 'База знаний';
+$mod_strings['LBL_AOK_KB_TITLE'] = 'Knowledge Base';

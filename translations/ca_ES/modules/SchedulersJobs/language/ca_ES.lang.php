@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_NAME' => 'Nom del treball',
-    'LBL_EXECUTE_TIME' => 'Hora d\'execució',
-    'LBL_SCHEDULER_ID' => 'Planificador',
+    'LBL_NAME' => 'Job Name',
+    'LBL_EXECUTE_TIME' => 'Execute Time',
+    'LBL_SCHEDULER_ID' => 'Scheduler',
     'LBL_STATUS' => 'Estat del treball',
-    'LBL_RESOLUTION' => 'Resultat',
+    'LBL_RESOLUTION' => 'Result',
     'LBL_MESSAGE' => 'Missatges',
     'LBL_DATA' => 'Dades del treball',
     'LBL_REQUEUE' => 'Torna-ho a intentar en cas de fallida',

@@ -82,7 +82,7 @@ $mod_strings = array(
     'LBL_CONTACT_INFORMATION' => 'Information Contact',
     'LBL_ADDRESS_INFORMATION' => 'Adresse(s)',
     'LBL_ASSIGNED_TO_NAME' => 'Utilisateur',
-    'LBL_OTHER_EMAIL_ADDRESS' => 'Email Autre:',
+    'LBL_OTHER_EMAIL_ADDRESS' => 'Email autre:',
     'LBL_ASSISTANT' => 'Assistant',
     'LBL_ASSISTANT_PHONE' => 'Téléphone Assistant',
     'LBL_WORK_PHONE' => 'Téléphone Bureau',
@@ -90,8 +90,8 @@ $mod_strings = array(
     'LBL_ANY_EMAIL' => 'Tous les Emails',
     'LBL_EMAIL_NON_PRIMARY' => 'Emails Secondaires',
     'LBL_PHOTO' => 'Photo',
-    'LBL_EDIT_BUTTON' => 'Editer',
-    'LBL_REMOVE' => 'Retirer',
+    'LBL_EDIT_BUTTON' => 'Modifer',
+    'LBL_REMOVE' => 'Supprimer',
 
     //Lawful Basis labels
     'LBL_LAWFUL_BASIS' => 'Base Légale',

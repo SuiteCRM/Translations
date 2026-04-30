@@ -45,12 +45,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     //Column header mapping
     'action' => 'Action',
-    'date_modified' => 'Date dernière action',
+    'date_modified' => 'Date of Last Action',
     'item_id' => 'ID',
     'item_summary' => 'Nom',
-    'module_name' => 'Nom du module',
+    'module_name' => 'Module Name',
     'users' => 'Utilisateurs',
 
     //Administration related labels
-    'LBL_MODULE_NAME' => 'Tracker(s)',
+    'LBL_MODULE_NAME' => 'Suivis',
 );

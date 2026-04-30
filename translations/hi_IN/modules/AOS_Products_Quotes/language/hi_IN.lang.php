@@ -43,9 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'पहचानकर्ता कुंजी:
-$मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_आईडी\']
-$मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_आईडी\']',
+    'LBL_ASSIGNED_TO_ID' => 'असाइन किया गया उपयोगकर्ता आईडी',
     'LBL_ASSIGNED_TO_NAME' => 'को सौंपना',
     'LBL_ID' => 'आईडी',
     'LBL_DATE_ENTERED' => 'बनाया गया दिनांक',
@@ -54,7 +52,7 @@ $मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_�
     'LBL_MODIFIED_NAME' => 'नाम से संशोधित',
     'LBL_CREATED' => 'के द्वारा बनाई गई',
     'LBL_DESCRIPTION' => 'ध्यान दें',
-    'LBL_DELETED' => 'हटाई गई',
+    'LBL_DELETED' => 'हटाए गए',
     'LBL_NAME' => 'नाम',
     'LBL_CREATED_USER' => 'उपयोगकर्ता द्वारा बनाया गया',
     'LBL_MODIFIED_USER' => 'उपयोगकर्ता द्वारा संशोधित',
@@ -76,7 +74,7 @@ $मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_�
     'LBL_PRODUCT_DISCOUNT' => 'छूट',
     'LBL_PRODUCT_DISCOUNT_AMOUNT' => 'छूट राशि',
     'LBL_PART_NUMBER' => 'भाग संख्या',
-    'LBL_PRODUCT_DESCRIPTION' => 'विवरण',
+    'LBL_PRODUCT_DESCRIPTION' => 'विवरण ',
     'LBL_DISCOUNT' => 'छूट का प्रकार',
     'LBL_VAT_AMT' => 'कर राशि',
     'LBL_VAT' => 'कर',
@@ -103,5 +101,5 @@ $मॉड_स्ट्रिंग्स [लेबल_असाइन_टू_�
     'LBL_AOS_CONTRACTS' => 'अनुबंध',
     'LBL_AOS_INVOICES' => 'बीजक',
     'LBL_AOS_PRODUCTS' => 'उत्पादों',
-    'LBL_AOS_QUOTES' => 'कोट्स',
+    'LBL_AOS_QUOTES' => 'उद्धरण',
 );

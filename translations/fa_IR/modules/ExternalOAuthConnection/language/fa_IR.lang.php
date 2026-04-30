@@ -44,18 +44,18 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
 
-    'LBL_ASSIGNED_TO_ID' => 'شناسه کاربر تخصیص یافته',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
     'LBL_ASSIGNED_TO_NAME' => 'اختصاص داده شده به',
-    'LBL_ID' => 'شناسه',
-    'LBL_DATE_ENTERED' => 'تاریخ ایجاد',
-    'LBL_DATE_MODIFIED' => 'تاریخ ویرایش',
-    'LBL_MODIFIED' => 'ویرایش کننده',
+    'LBL_ID' => 'ID',
+    'LBL_DATE_ENTERED' => 'Date Created',
+    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_MODIFIED' => 'Modified By',
     'LBL_MODIFIED_NAME' => 'نام ویرایش کننده',
-    'LBL_CREATED' => 'ایجاد کننده',
-    'LBL_DESCRIPTION' => 'توضیحات',
+    'LBL_CREATED' => 'Created By',
+    'LBL_DESCRIPTION' => 'Description',
     'LBL_DELETED' => 'حذف شده',
     'LBL_NAME' => 'نام',
-    'LBL_CREATED_USER' => 'کاربر ایجاد کننده',
+    'LBL_CREATED_USER' => 'Created by User',
     'LBL_MODIFIED_USER' => 'کاربر ویرایش کننده',
     'LBL_LIST_NAME' => 'نام',
     'LBL_EDIT_BUTTON' => 'ویرایش',
@@ -68,7 +68,7 @@ $mod_strings = [
 
     'LNK_LIST' => 'External OAuth Connections',
     'LBL_SEARCH_FORM_TITLE' => 'Search External OAuth Connections',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'مشاهده تاریخچه',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'فعالیت‌ها',
     'LBL_NEW_FORM_TITLE' => 'New External OAuth Connection',
 
@@ -96,5 +96,5 @@ $mod_strings = [
     'LNK_LIST_OUTBOUND_EMAILS' => 'حساب ایمیل خارجی',
     'LNK_LIST_EXTERNAL_OAUTH_PROVIDERS' => 'External OAuth Providers',
 
-    'LBL_OWNER' => 'مالک',
+    'LBL_OWNER' => 'Owner',
 ];

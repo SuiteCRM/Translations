@@ -53,7 +53,7 @@ $mod_strings = array(
     'LBL_MODIFIED_USER_ID' => 'معرف المستخدم المعدل',
     'LBL_CREATED_BY' => 'أنشئ بواسطة',
     'LBL_DELETED' => 'محذوف',
-    'LBL_CAMPAIGN' => 'حملات',
+    'LBL_CAMPAIGN' => 'الحملات',
     'LBL_OPTOUT' => 'رفض الاشتراك',
 
     'LBL_MODULE_NAME' => 'متعقبات الحملات',
@@ -62,7 +62,7 @@ $mod_strings = array(
     'LBL_EDIT_TRACKER_URL' => 'رابط المتعقب:',
 
     'LBL_SUBPANEL_TRACKER_NAME' => 'الاسم',
-    'LBL_SUBPANEL_TRACKER_URL' => 'الرابط (URL)',
+    'LBL_SUBPANEL_TRACKER_URL' => 'الرابط',
     'LBL_SUBPANEL_TRACKER_KEY' => 'المفتاح',
     'LBL_EDIT_MESSAGE_URL' => 'رابط رسالة الحملة:',
     'LBL_EDIT_TRACKER_KEY' => 'مفتاح المتعقب:',

@@ -43,18 +43,18 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'معرف المستخدم المكلف',
+    'LBL_ASSIGNED_TO_ID' => 'معرف المستخدم المُكلف',
     'LBL_ASSIGNED_TO_NAME' => 'أُسند إلى',
     'LBL_ID' => 'المُعرف',
     'LBL_DATE_ENTERED' => 'تاريخ الإنشاء',
     'LBL_DATE_MODIFIED' => 'تاريخ التعديل',
     'LBL_MODIFIED' => 'عُدل بواسطة',
-    'LBL_MODIFIED_NAME' => 'اسم من قام بالتعديل',
+    'LBL_MODIFIED_NAME' => 'قام بالتعديل',
     'LBL_CREATED' => 'أنشئ بواسطة',
-    'LBL_DESCRIPTION' => 'ملاحظة',
+    'LBL_DESCRIPTION' => 'الملاحظة',
     'LBL_DELETED' => 'محذوف',
     'LBL_NAME' => 'الاسم',
-    'LBL_CREATED_USER' => 'أنشئ بواسطة المستخدم',
+    'LBL_CREATED_USER' => 'تم الإنشاء بواسطة المستخدم',
     'LBL_MODIFIED_USER' => 'عُدل بواسطة المستخدم',
     'LBL_LIST_FORM_TITLE' => 'قائمة عروض أسعار المنتجات',
     'LBL_MODULE_NAME' => 'بنود متسلسلة',
@@ -86,7 +86,7 @@ $mod_strings = array(
 
     'LBL_SERVICE_MODULE_NAME' => 'الخدمات',
     'LBL_LIST_NUM' => 'الرقم',
-    'LBL_PARENT_ID' => 'مُعرف الأساس',
+    'LBL_PARENT_ID' => 'معرف الأصل',
     'LBL_GROUP_NAME' => 'المجموعة',
     'LBL_PRODUCT_COST_PRICE_USDOLLAR' => 'سعر التكلفة (العملة الافتراضية)',
     'LBL_PRODUCT_LIST_PRICE_USDOLLAR' => 'سعر قائمة الأسعار (العملة الافتراضية)',

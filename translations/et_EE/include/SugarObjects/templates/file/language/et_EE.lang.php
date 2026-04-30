@@ -51,8 +51,8 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Dokumendi otsing',
     //vardef labels
     'LBL_NAME' => 'Dokumendi nimi',
-    'LBL_DESCRIPTION' => 'Kirjeldus',
-    'LBL_ASSIGNED_TO' => 'Vastutaja:',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_ASSIGNED_TO' => 'Assigned to:',
     'LBL_CATEGORY' => 'Kategooria',
     'LBL_SUBCATEGORY' => 'Alamkategooria',
     'LBL_STATUS' => 'Olek',
@@ -80,38 +80,38 @@ $mod_strings = array(
     'LBL_SUBCATEGORY_VALUE' => 'Alamkategooria:',
     'LBL_DOC_STATUS' => 'Olek:',
     'LBL_DET_TEMPLATE_TYPE' => 'Dokumendi tüüp:',
-    'LBL_DOC_DESCRIPTION' => 'Kirjeldus:',
+    'LBL_DOC_DESCRIPTION' => 'Description:',
     'LBL_DOC_ACTIVE_DATE' => 'Avaldamiskuupäev:',
     'LBL_DOC_EXP_DATE' => 'Aegumiskuupäev:',
 
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'Dokumendi loend',
     'LBL_LIST_DOCUMENT' => 'Dokument',
-    'LBL_LIST_CATEGORY' => 'Kategooria',
-    'LBL_LIST_SUBCATEGORY' => 'Alamkategooria',
-    'LBL_LIST_REVISION' => 'Revisjon',
+    'LBL_LIST_CATEGORY' => 'Category',
+    'LBL_LIST_SUBCATEGORY' => 'Sub Category',
+    'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => 'Avaldatud',
     'LBL_LIST_LAST_REV_DATE' => 'Revisjoni kuupäev',
     'LBL_LIST_VIEW_DOCUMENT' => 'Vaata',
-    'LBL_LIST_ACTIVE_DATE' => 'Avaldamiskuupäev',
-    'LBL_LIST_EXP_DATE' => 'Aegumiskuupäev',
-    'LBL_LIST_STATUS' => 'Olek',
+    'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
+    'LBL_LIST_EXP_DATE' => 'Expiration Date',
+    'LBL_LIST_STATUS' => 'Status',
 
     //document search form.
-    'LBL_SF_CATEGORY' => 'Kategooria:',
-    'LBL_SF_SUBCATEGORY' => 'Alamkategooria:',
+    'LBL_SF_CATEGORY' => 'Category:',
+    'LBL_SF_SUBCATEGORY' => 'Sub Category:',
 
     'DEF_CREATE_LOG' => 'Dokument on loodud',
 
     //error messages
-    'ERR_DOC_NAME' => 'Dokumendi nimi',
-    'ERR_DOC_ACTIVE_DATE' => 'Avaldamiskuupäev',
+    'ERR_DOC_NAME' => 'Document Name',
+    'ERR_DOC_ACTIVE_DATE' => 'Publish Date',
     'ERR_FILENAME' => 'Faili nimi',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'Dokumendi nimi',
+    'LBL_LIST_DOCUMENT_NAME' => 'Document Name',
 
     'LBL_EDIT_BUTTON' => 'Muuda ',
-    'LBL_REMOVE' => 'Eemalda',
+    'LBL_REMOVE' => 'Remove',
 
 );

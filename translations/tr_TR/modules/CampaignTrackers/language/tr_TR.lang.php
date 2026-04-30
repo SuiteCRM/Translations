@@ -43,14 +43,14 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ID' => 'Kod',
+    'LBL_ID' => 'Kimlik',
     'LBL_TRACKER_KEY' => 'İzleyici anahtarı',
     'LBL_TRACKER_URL' => 'İzleyici adresi',
     'LBL_TRACKER_NAME' => 'İzleyici adı',
-    'LBL_CAMPAIGN_ID' => 'Kampanya kodu',
-    'LBL_DATE_ENTERED' => 'Yazılma tarihi',
+    'LBL_CAMPAIGN_ID' => 'Kampanya kimliği',
+    'LBL_DATE_ENTERED' => 'Eklenme tarihi',
     'LBL_DATE_MODIFIED' => 'Değiştirilme tarihi',
-    'LBL_MODIFIED_USER_ID' => 'Değiştiren kullanıcı kodu',
+    'LBL_MODIFIED_USER_ID' => 'Değiştiren kullanıcı kimliği',
     'LBL_CREATED_BY' => 'Ekleyen',
     'LBL_DELETED' => 'Silindi',
     'LBL_CAMPAIGN' => 'Kampanya',
@@ -63,7 +63,7 @@ $mod_strings = array(
 
     'LBL_SUBPANEL_TRACKER_NAME' => 'Ad',
     'LBL_SUBPANEL_TRACKER_URL' => 'Adres',
-    'LBL_SUBPANEL_TRACKER_KEY' => 'Anahtar',
+    'LBL_SUBPANEL_TRACKER_KEY' => 'Key',
     'LBL_EDIT_MESSAGE_URL' => 'Kampanya iletisinin adresi:',
     'LBL_EDIT_TRACKER_KEY' => 'İzleyici anahtarı:',
     'LBL_EDIT_OPT_OUT' => 'Abonelikten ayrılma bağlantısı?',

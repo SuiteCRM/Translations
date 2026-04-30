@@ -43,30 +43,30 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EDIT_LAYOUT' => 'Redaguoti išdėstymą',
+    'LBL_EDIT_LAYOUT' => 'Redaguoti Išdėstymą',
     'LBL_EDIT_FIELDS' => 'Redaguoti nestandartinius laukus',
-    'LBL_SELECT_FILE' => 'Pasirinkti failą',
-    'LBL_MODULE_TITLE' => 'Studija',
-    'LBL_TOOLBOX' => 'Įrankių dėžė',
+    'LBL_SELECT_FILE' => 'Pasirinkite failą',
+    'LBL_MODULE_TITLE' => 'Studio',
+    'LBL_TOOLBOX' => 'Toolbox',
     'LBL_SUITE_FIELDS_STAGE' => 'SuiteCRM Fields (click items to add to staging area)',
     'LBL_VIEW_SUITE_FIELDS' => 'View SuiteCRM Fields',
-    'LBL_FAILED_TO_SAVE' => 'Nepavyko išsaugoti',
+    'LBL_FAILED_TO_SAVE' => 'Failed To Save',
     'LBL_CONFIRM_UNSAVE' => 'Bet koks pakeitimai bus neišsaugoti. Ar tikrai norite tęsti?',
-    'LBL_PUBLISHING' => 'Skelbiama ...',
-    'LBL_PUBLISHED' => 'Paskelbtas',
-    'LBL_FAILED_PUBLISHED' => 'Nepavyko paskelbti',
-    'LBL_DROP_HERE' => '[Mesti čia]',
+    'LBL_PUBLISHING' => 'Publishing...',
+    'LBL_PUBLISHED' => 'Paskelbta',
+    'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
+    'LBL_DROP_HERE' => '[Drop Here]',
 
 //CUSTOM FIELDS
     'LBL_NAME' => 'Vardas',
     'LBL_LABEL' => 'Etiketė',
-    'LBL_MASS_UPDATE' => 'Masinis atnaujinimas',
-    'LBL_DEFAULT_VALUE' => 'Numatyta reikšmė',
+    'LBL_MASS_UPDATE' => 'Mass Update',
+    'LBL_DEFAULT_VALUE' => 'Default Value',
     'LBL_REQUIRED' => 'Reikiamas',
     'LBL_DATA_TYPE' => 'Tipas:',
 
 
-    'LBL_HISTORY' => 'Istorija',
+    'LBL_HISTORY' => 'History',
 
 //WIZARDS
 
@@ -79,21 +79,21 @@ $mod_strings = array(
     'LBL_SW_EDIT_GROUPTABS' => 'Nustatyti grupės korteles',
     'LBL_SW_EDIT_PORTAL' => 'Redaguoti portalą',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => 'Taisyti nestandartinį lauką',
-    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Perkelti nestandartinius laukus',
+    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrate Custom Fields',
 
 // JS LABELS
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Atstatyti javascript kalbų failus',
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Pašalinamos javascript kalbų failai, bus atstatyta, kai prireiks.',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuilds javascript versions of language files',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Removing javascript versions of language files, will rebuild when needed.',
 
 
 //Manager Backups History
-    'LBL_MB_DELETE' => 'Ištrinti',
+    'LBL_MB_DELETE' => 'Trinti',
 
 //EDIT DROP DOWNS
     'LBL_ED_CREATE_DROPDOWN' => 'Sukurti iššokantį sąrašą',
     'LBL_DROPDOWN_NAME' => 'Iššokančio sąrašo pavadinimas:',
     'LBL_DROPDOWN_LANGUAGE' => 'Iššokančio sąrašo kalba:',
-    'LBL_TABGROUP_LANGUAGE' => 'Kalba:',
+    'LBL_TABGROUP_LANGUAGE' => 'Language:',
 
 //END WIZARDS
 
@@ -103,43 +103,43 @@ $mod_strings = array(
     'LBL_DD_ALL' => 'Visi susiję',
 
 //BUTTONS
-    'LBL_BTN_SAVE' => 'Saugoti',
-    'LBL_BTN_CANCEL' => 'Atšaukti',
-    'LBL_BTN_SAVEPUBLISH' => 'Saugoti ir išdėstyti',
-    'LBL_BTN_HISTORY' => 'Istorija',
-    'LBL_BTN_ADDROWS' => 'Pridėti eilutes',
-    'LBL_BTN_UNDO' => 'Atstatyti',
-    'LBL_BTN_REDO' => 'Sutaisyti',
-    'LBL_BTN_ADDCUSTOMFIELD' => 'Pridėti nestandartinį lauką',
+    'LBL_BTN_SAVE' => 'Išsaugoti',
+    'LBL_BTN_CANCEL' => 'Cancel',
+    'LBL_BTN_SAVEPUBLISH' => 'Išsaugoti ir išdėstyti',
+    'LBL_BTN_HISTORY' => 'History',
+    'LBL_BTN_ADDROWS' => 'Pridėti eilių',
+    'LBL_BTN_UNDO' => 'Panaikinti',
+    'LBL_BTN_REDO' => 'Atstatyti',
+    'LBL_BTN_ADDCUSTOMFIELD' => 'Add Custom Field',
     'LBL_BTN_TABINDEX' => 'Redaguoti tabuliatorius seką',
 
 //TABS
-    'LBL_MODULES' => 'Moduliai:',
+    'LBL_MODULES' => 'Moduliai',
     'LBL_MODULE_NAME' => 'Administravimas',
-    'LBL_CONFIGURE_GROUP_TABS' => 'Konfigūruoti grupių korteles',
+    'LBL_CONFIGURE_GROUP_TABS' => 'Konfigūruoti kortelių grupes',
     'LBL_GROUP_TAB_WELCOME' => 'Grupės kortelės išdėstymas bus naudojamas, kai vartotojas pasirinks grupės kortelę vietoj nuolatinio modulio kortelės esantį Mano klientai.',
     'LBL_RENAME_TAB_WELCOME' => 'Kad pervadinti, paspauskite ant kortelės rodomos reikšmės.',
     'LBL_DELETE_MODULE' => 'Ištrinti modulį<br />iš&nbsp;grupės',
     'LBL_TAB_GROUP_LANGUAGE_HELP' => 'Paspauskite Saugoti ir išdėstyti norėdami priskirti Grupių pavadinimus pasirinktai kalbai.',
     'LBL_ADD_GROUP' => 'Pridėti filtrą',
     'LBL_NEW_GROUP' => 'Nauja grupė',
-    'LBL_RENAME_TABS' => 'Pervadinti korteles',
+    'LBL_RENAME_TABS' => 'Rename Modules',
 
 //ERRORS
-    'ERROR_INVALID_KEY_VALUE' => "Klaida: Neteisinga rakto reikšmė: [']",
+    'ERROR_INVALID_KEY_VALUE' => "Klaida: Neteisinga rakto Reikšmė: [&#39;]",
 
 //SUGAR PORTAL
-    'LBL_SAVE' => 'Saugoti' /*for 508 compliance fix*/,
+    'LBL_SAVE' => 'Išsaugoti' /*for 508 compliance fix*/,
     'LBL_UNDO' => 'Atstatyti' /*for 508 compliance fix*/,
     'LBL_REDO' => 'Sutaisyti' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Pagal' /*for 508 compliance fix*/,
     'LBL_DELETE' => 'Ištrinti' /*for 508 compliance fix*/,
-    'LBL_ADD_FIELD' => 'Pridėti lauką' /*for 508 compliance fix*/,
+    'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Padidinti' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Sumažinti' /*for 508 compliance fix*/,
-    'LBL_PUBLISH' => 'Paskelbti' /*for 508 compliance fix*/,
+    'LBL_PUBLISH' => 'Publish' /*for 508 compliance fix*/,
     'LBL_ADDROWS' => 'Pridėti eilutes' /*for 508 compliance fix*/,
-    'LBL_ADDFIELD' => 'Pridėti lauką' /*for 508 compliance fix*/,
+    'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_EDIT' => 'Redaguoti' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Pasirinkite kalbą redaguoti.',

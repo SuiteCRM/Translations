@@ -51,7 +51,7 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Pagpangita sa Dokumento',
     //vardef labels
     'LBL_NAME' => 'Pangalan sa Dokumento',
-    'LBL_DESCRIPTION' => 'Paghulagway',
+    'LBL_DESCRIPTION' => 'Deskrespyon',
     'LBL_ASSIGNED_TO' => 'Gi-assign sa:',
     'LBL_CATEGORY' => 'Kategorya',
     'LBL_SUBCATEGORY' => 'Sub nga Kategoriya',
@@ -88,18 +88,18 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Lista sa Dokumento',
     'LBL_LIST_DOCUMENT' => 'Dokumento',
     'LBL_LIST_CATEGORY' => 'Kategorya',
-    'LBL_LIST_SUBCATEGORY' => 'Sub nga Kategoriya',
-    'LBL_LIST_REVISION' => 'Pag-usab',
+    'LBL_LIST_SUBCATEGORY' => 'Sub na Kategoriya',
+    'LBL_LIST_REVISION' => 'Rebisyon',
     'LBL_LIST_LAST_REV_CREATOR' => 'Gipublikar Ni',
     'LBL_LIST_LAST_REV_DATE' => 'Petsa sa Rebisyon',
     'LBL_LIST_VIEW_DOCUMENT' => 'Tan-awa',
-    'LBL_LIST_ACTIVE_DATE' => 'Petsa sa pagpublikar',
-    'LBL_LIST_EXP_DATE' => 'Petsa sa pagikspayr',
-    'LBL_LIST_STATUS' => 'Estado',
+    'LBL_LIST_ACTIVE_DATE' => 'Petsa sa Pagpublikar',
+    'LBL_LIST_EXP_DATE' => 'Petsa nga ma-ekspire',
+    'LBL_LIST_STATUS' => 'Mga estado',
 
     //document search form.
     'LBL_SF_CATEGORY' => 'Kategoriya:',
-    'LBL_SF_SUBCATEGORY' => 'Sub na Kategoriya:',
+    'LBL_SF_SUBCATEGORY' => 'Sub na Kategorya:',
 
     'DEF_CREATE_LOG' => 'Nabuhat na Dokumento',
 
@@ -112,6 +112,6 @@ $mod_strings = array(
     'LBL_LIST_DOCUMENT_NAME' => 'Pangalan sa Dokumento',
 
     'LBL_EDIT_BUTTON' => 'Usbon ',
-    'LBL_REMOVE' => 'Tangtanga',
+    'LBL_REMOVE' => 'Tangtangon',
 
 );
