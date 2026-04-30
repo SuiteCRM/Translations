@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ASSIGNED_TO_ID' => 'Id ผู้รับผิดชอบ',
-    'LBL_ASSIGNED_TO_NAME' => 'ผู้รับผิดชอบ',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_ID' => 'ไอดี',
     'LBL_DATE_ENTERED' => 'วันที่สร้าง',
     'LBL_DATE_MODIFIED' => 'วันที่แก้ไข',
@@ -57,8 +57,8 @@ $mod_strings = array(
     'LBL_CREATED_USER' => 'สร้างโดยผู้ใช้งาน',
     'LBL_MODIFIED_USER' => 'แก้ไข โดยผู้ใช้',
     'LBL_LIST_NAME' => 'ชื่อ',
-    'LBL_EDIT_BUTTON' => 'แก้ไข',
-    'LBL_REMOVE' => 'ลบออก',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
     'LBL_LIST_FORM_TITLE' => 'รายการเหตุการณ์ Index',
     'LBL_MODULE_NAME' => 'ดัชนีเหตุการณ์',
     'LBL_MODULE_TITLE' => 'ดัชนีเหตุการณ์',
@@ -69,9 +69,9 @@ $mod_strings = array(
     'LBL_HISTORY_SUBPANEL_TITLE' => 'ดูประวัติ',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'กิจกรรม',
     'LBL_NEW_FORM_TITLE' => 'เหตุการณ์ Index ใหม่',
-    'LBL_ERROR' => 'ข้อผิดพลาด',
-    'LBL_SUCCESS' => 'สำเร็จ',
-    'LBL_RECORD_MODULE' => 'สำเร็จ',
+    'LBL_ERROR' => 'Error',
+    'LBL_SUCCESS' => 'Success',
+    'LBL_RECORD_MODULE' => 'Success',
 
     'LBL_RECORD_ID' => 'บันทึกไอดี',
 );

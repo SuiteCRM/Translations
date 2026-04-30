@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_BASIC_SEARCH' => 'Rychlý filtr',
-    'LBL_ADVANCED_SEARCH' => 'Rozšířený filtr',
+    'LBL_ADVANCED_SEARCH' => 'Pokročilý filtr',
     'LBL_BASIC_TYPE' => 'Základní typ',
     'LBL_ADVANCED_TYPE' => 'Rozšířený typ',
     'LBL_SYSOPTS_2' => 'Jaký typ databáze bude použit pro SuiteCRM instanci, kterou chcete instalovat?',
@@ -400,7 +400,7 @@ Po přihlášení pomocí výše uvedeného hesla, může být vyžadována změ
     ),
     'advanced_password_forgot_password_email' => array(
         'subject' => 'Obnovit heslo k účtu',
-        'type' => 'systémový',
+        'type' => 'systém',
         'description' => "Tato šablona slouží k odesílání uživateli odkazu pro obnovení hesla.",
         'body' => '<div><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width="550" align=\"\&quot;\&quot;center\&quot;\&quot;\"><tbody><tr><td colspan=\"2\"><p>Nedávno jste požádal na $contact_user_pwd_last_changed o obnovení hesla k vašemu účtu. </p><p>Klikněte na níže uvedený odkaz pro obnovu hesla:</p><p> $contact_user_link_guid </p>  </td>         </tr><tr><td colspan=\"2\"></td>         </tr> </tbody></table> </div>',
         'txt_body' =>
@@ -416,7 +416,7 @@ $contact_user_link_guid',
 
     'two_factor_auth_email' => array(
         'subject' => 'Kód dvoufázového ověření',
-        'type' => 'systémový',
+        'type' => 'systém',
         'description' => "Tato šablona se používá k odesílání kódu pro dvoufaktorové ověřování uživateli.",
         'body' => '<div><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width="550" align=\"\&quot;\&quot;center\&quot;\&quot;\"><tbody><tr><td colspan=\"2\"><p>Kód dvoufaktorového ověření je <b>$code</b>.</p>  </td>         </tr><tr><td colspan=\"2\"></td>         </tr> </tbody></table> </div>',
         'txt_body' =>

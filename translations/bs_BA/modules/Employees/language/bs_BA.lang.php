@@ -57,7 +57,7 @@ $mod_strings = array(
     'LBL_LIST_NAME' => 'Ime',
     'LBL_LIST_LAST_NAME' => 'Prezime',
     'LBL_LIST_EMPLOYEE_NAME' => 'Employee Name',
-    'LBL_LIST_DEPARTMENT' => 'Odsjek',
+    'LBL_LIST_DEPARTMENT' => 'Odjel',
     'LBL_LIST_REPORTS_TO_NAME' => 'Nadređeni',
     'LBL_LIST_EMAIL' => 'Email',
     'LBL_LIST_USER_NAME' => 'Korisničko ime',
@@ -103,7 +103,7 @@ $mod_strings = array(
     'ERR_LAST_ADMIN_2' => '" is the last employee with administrator access. At least one employee must be an administrator.',
     'LNK_NEW_EMPLOYEE' => 'Create Employee',
     'LNK_EMPLOYEE_LIST' => 'View Employees',
-    'ERR_DELETE_RECORD' => 'Morate navesti broj zapisa da obrišete račun.',
+    'ERR_DELETE_RECORD' => 'Morate označiti broj zapisa kako bi izbrisali kompaniju.',
     'LBL_LIST_EMPLOYEE_STATUS' => 'Employee Status',
 
     'LBL_SUITE_LOGIN' => 'Is User',

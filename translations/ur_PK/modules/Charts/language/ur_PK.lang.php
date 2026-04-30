@@ -58,9 +58,9 @@ $mod_strings = array(
     'LBL_LEAD_SOURCE_BY_OUTCOME' => 'تمام مواقع نتائج کی طرف سے اور لیڈ سورس کی طرف سے',
     'LBL_LEAD_SOURCE_FORM_DESC' => 'منتخب صارفین کے لئے منتخب لیڈ سورس کے مجموعی موقع کی مقدار دکھاتا ہے.',
     'LBL_LEAD_SOURCE_FORM_TITLE' => 'تمام مواقع لیڈ سورس کی طرف سے',
-    'LBL_LEAD_SOURCE_OTHER' => 'دیگر',
+    'LBL_LEAD_SOURCE_OTHER' => 'Other',
     'LBL_LEAD_SOURCES' => 'لیڈ سورس:',
-    'LBL_MODULE_NAME' => 'ڈیش بورڈ',
+    'LBL_MODULE_NAME' => 'Dashboard',
     'LBL_MODULE_TITLE' => 'ڈیش بورڈ: ہوم',
     'LBL_MONTH_BY_OUTCOME_DESC' => 'موقع کی مجموعی مقدار ایک مہینہ میں صارف کے منتخب کرنے کے نتیجے سے جہاں پر توقع تھی وہاں پر تاریخ کو بند کردیا گیا ایک مخصوص تاریخ کے اندر نتائج کی بنیاد ہے خط کے بیچنے والا سٹیج بند ہوگیا ہوں نقصان یا کسی اور کی مت میں.',
     'LBL_OPP_SIZE' => 'موقع کے سائز میں',
@@ -89,9 +89,9 @@ $mod_strings = array(
     'LNK_NEW_NOTE' => 'نوٹ یا منسلک بنائیں',
     'LNK_NEW_OPPORTUNITY' => 'موزوں وقت پیدا کرنا',
     'LNK_NEW_TASK' => 'ٹاسک بنائیں',
-    'NTC_NO_LEGENDS' => 'کوئی بھی نہیں',
+    'NTC_NO_LEGENDS' => 'کوئی نہیں',
 
-    'LBL_TITLE' => 'عنوان: ',
+    'LBL_TITLE' => 'عنوان:',
     'LBL_MY_MODULES_USED_SIZE' => 'رسائی کا شمار',
 
     'LBL_CHART_PIPELINE_BY_SALES_STAGE' => 'Pipeline by Sales Stage',

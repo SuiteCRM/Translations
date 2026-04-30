@@ -51,8 +51,8 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Ang paghahanap ng dokumento',
     //vardef labels
     'LBL_NAME' => 'Pangalan ng dokumento',
-    'LBL_DESCRIPTION' => 'Paglalarawan',
-    'LBL_ASSIGNED_TO' => 'Itinalaga kay:',
+    'LBL_DESCRIPTION' => 'Ang Paglalarawan',
+    'LBL_ASSIGNED_TO' => 'Ang Itinalaga kay:',
     'LBL_CATEGORY' => 'Kategorya',
     'LBL_SUBCATEGORY' => 'Ang pangalawang kategorya',
     'LBL_STATUS' => 'Kalagayan',
@@ -80,22 +80,22 @@ $mod_strings = array(
     'LBL_SUBCATEGORY_VALUE' => 'Ang pangalawang kategorya:',
     'LBL_DOC_STATUS' => 'Kalagayan:',
     'LBL_DET_TEMPLATE_TYPE' => 'Ang uri ng dokumento:',
-    'LBL_DOC_DESCRIPTION' => 'Paglalarawan:',
+    'LBL_DOC_DESCRIPTION' => 'Ang Paglalarawan:',
     'LBL_DOC_ACTIVE_DATE' => 'Ang petsa ay i-publish:',
     'LBL_DOC_EXP_DATE' => 'Ang Pagtapos ng Petsa:',
 
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'Ang Listahan ng Dokumento',
     'LBL_LIST_DOCUMENT' => 'Dokumento',
-    'LBL_LIST_CATEGORY' => 'Kategorya',
+    'LBL_LIST_CATEGORY' => 'Ang Kategorya',
     'LBL_LIST_SUBCATEGORY' => 'Ang pangalawang kategorya',
     'LBL_LIST_REVISION' => 'Ang pagbabago',
     'LBL_LIST_LAST_REV_CREATOR' => 'Inilathala Ni',
     'LBL_LIST_LAST_REV_DATE' => 'Petsa ng Pagbabago',
     'LBL_LIST_VIEW_DOCUMENT' => 'Tanawin',
     'LBL_LIST_ACTIVE_DATE' => 'Ang petsa ay i-publish',
-    'LBL_LIST_EXP_DATE' => 'Petsa ng Pag-expire',
-    'LBL_LIST_STATUS' => 'Kalagayan',
+    'LBL_LIST_EXP_DATE' => 'Ang Petsa ng Pag-expire',
+    'LBL_LIST_STATUS' => 'Ang Estado',
 
     //document search form.
     'LBL_SF_CATEGORY' => 'Ang kategorya:',

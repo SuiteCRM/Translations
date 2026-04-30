@@ -43,13 +43,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Роль:',
+    'LBL_ROLE' => 'Role:',
     'LBL_LANGUAGE' => 'Язык системы:',
     'LBL_MODULE_NAME' => 'Роли',
-    'LBL_MODULE_TITLE' => 'Роли - Главная',
+    'LBL_MODULE_TITLE' => 'Roles: Home',
     'LBL_SEARCH_FORM_TITLE' => 'Поиск роли',
     'LBL_LIST_FORM_TITLE' => 'Список ролей',
-    'LNK_NEW_ROLE' => 'Создать роль',
+    'LNK_NEW_ROLE' => 'Create Role',
     'LNK_ROLES' => 'Роли',
     'LBL_NAME' => 'Название:',
     'LBL_DESCRIPTION' => 'Описание:',

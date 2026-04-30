@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'ERR_DELETE_RECORD' => 'Navedite broj zapisa kako bi izbrisali kontakt.',
     'LBL_ACCOUNT_ID' => 'ID klijenta:',
-    'LBL_ACCOUNT_NAME' => 'Ime klijenta:',
+    'LBL_ACCOUNT_NAME' => 'Naziv klijenta:',
     'LBL_CAMPAIGN' => 'Kampanja:',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktivnosti',
     'LBL_ADDRESS_INFORMATION' => 'Podaci o adresi',
@@ -61,14 +61,14 @@ $mod_strings = array(
     'LBL_ANY_ADDRESS' => 'Bilo koja adresa:',
     'LBL_ANY_EMAIL' => 'Bilo koji email:',
     'LBL_ANY_PHONE' => 'Bilo koji telefon:',
-    'LBL_ASSIGNED_TO_NAME' => 'Dodijeljeno korisniku:',
+    'LBL_ASSIGNED_TO_NAME' => 'Dodijeljeno:',
     'LBL_ASSIGNED_TO_ID' => 'Dodijeljeni korisnik',
     'LBL_ASSISTANT_PHONE' => 'Telefon pomoćnika:',
     'LBL_ASSISTANT' => 'Asistent:',
     'LBL_BIRTHDATE' => 'Datum rođenja:',
     'LBL_CITY' => 'Grad:',
     'LBL_CAMPAIGN_ID' => 'ID kampanje',
-    'LBL_CONTACT_INFORMATION' => 'Pregled', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_CONTACT_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_CONTACT_NAME' => 'Ime kontakta:',
     'LBL_CONTACT_OPP_FORM_TITLE' => 'Kontakt-prodajna prilika:',
     'LBL_CONTACT_ROLE' => 'Uloga:',
@@ -96,7 +96,7 @@ $mod_strings = array(
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Historija',
     'LBL_HOME_PHONE' => 'Početno:',
     'LBL_ID' => 'ID:',
-    'LBL_IMPORT_VCARD' => 'Uvoz vCard',
+    'LBL_IMPORT_VCARD' => 'Import vCard',
     'LBL_VCARD' => 'vCard',
     'LBL_IMPORT_VCARDTEXT' => 'Automatski kreirajte novi kontakt pomoću uvoza vCard iz Vaše sistemske datoteke.',
     'LBL_INVALID_EMAIL' => 'Neispravan email:',
@@ -171,8 +171,8 @@ $mod_strings = array(
     'NTC_OPPORTUNITY_REQUIRES_ACCOUNT' => 'Kreiranje prodajne prilike zahtjeva klijenta.\n Molimo vas kreirajte novog klijenta ili odaberite postojećeg.',
     'NTC_REMOVE_CONFIRMATION' => 'Jeste li sigurni želite li ukloniti ovaj kontakt iz slučaja?',
 
-    'LBL_LEADS_SUBPANEL_TITLE' => 'Potencijalni kupac',
-    'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Poslovne prilike',
+    'LBL_LEADS_SUBPANEL_TITLE' => 'Vodi',
+    'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Prilike',
     'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Dokumenti',
     'LBL_COPY_ADDRESS_CHECKED_PRIMARY' => 'Kopiraj u primarnu adresu',
     'LBL_COPY_ADDRESS_CHECKED_ALT' => 'Kopiraj u ostale adrese',
@@ -186,7 +186,7 @@ $mod_strings = array(
     'LBL_LIST_CITY' => 'Grad',
     'LBL_LIST_STATE' => 'Entitet/Kanton',
     'LBL_HOMEPAGE_TITLE' => 'Moji kontakti',
-    'LBL_OPPORTUNITIES' => 'Poslovne prilike',
+    'LBL_OPPORTUNITIES' => 'Prilike',
 
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Kontakti',
     'LBL_PROJECT_SUBPANEL_TITLE' => 'Projekti',
@@ -197,7 +197,7 @@ $mod_strings = array(
 
     'LBL_FP_EVENTS_CONTACTS_FROM_FP_EVENTS_TITLE' => 'Događaji',
 
-    'LBL_AOP_CASE_UPDATES' => 'Ažuriranja slučajeva',
+    'LBL_AOP_CASE_UPDATES' => 'Ažuriranja slučaja',
     'LBL_CREATE_PORTAL_USER' => 'Kreiraj Portal koisnika',
     'LBL_ENABLE_PORTAL_USER' => 'Omogući korisnika portala',
     'LBL_DISABLE_PORTAL_USER' => 'Onemogući korisnika portala',
@@ -214,7 +214,7 @@ $mod_strings = array(
 
     'LBL_AOS_CONTRACTS' => 'Ugovori',
     'LBL_AOS_INVOICES' => 'Fakture',
-    'LBL_AOS_QUOTES' => 'Ponude',
+    'LBL_AOS_QUOTES' => 'Citati',
     'LBL_PROJECT_CONTACTS_1_FROM_PROJECT_TITLE' => 'Kontakti projekta iz naslova projekta',
 
     'LBL_LIST_INVITE_STATUS' => 'Status pozivnice',

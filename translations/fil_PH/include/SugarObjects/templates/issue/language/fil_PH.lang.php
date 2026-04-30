@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
 
-    'LBL_NAME' => 'Ang Pangalan',
+    'LBL_NAME' => 'Ang pangalan',
     'LBL_NUMBER' => 'Numero:',
     'LBL_STATUS' => 'Katayuan:',
     'LBL_PRIORITY' => 'Prayoridad:',
@@ -62,7 +62,7 @@ $mod_strings = array(
     'LBL_TYPE' => 'Uri:',
     'LBL_SUBJECT' => 'Paksa:',
 
-    'LBL_EDIT_BUTTON' => 'I-edit',
+    'LBL_EDIT_BUTTON' => 'Ang i-edit',
     'LBL_REMOVE' => 'Tanggalin',
 
 );

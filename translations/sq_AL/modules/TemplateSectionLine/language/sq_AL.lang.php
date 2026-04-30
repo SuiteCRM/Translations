@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_DESCRIPTION' => 'Përshkrim',
-    'LBL_NAME' => 'Emri',
-    'LBL_LIST_NAME' => 'Emri',
-    'LBL_EDIT_BUTTON' => 'Ndrysho',
-    'LBL_REMOVE' => 'Largo',
-    'LBL_GRP' => 'Grup',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_NAME' => 'Name',
+    'LBL_LIST_NAME' => 'Name',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
+    'LBL_GRP' => 'Group',
     'LBL_ORD' => 'Order',
     'LBL_THUMBNAIL' => 'Thumbnail',
 );

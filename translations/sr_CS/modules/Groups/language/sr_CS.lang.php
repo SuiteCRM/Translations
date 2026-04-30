@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Grupe',
-    'LBL_GROUP_NAME' => 'Naziv grupe:',
-    'LBL_DESCRIPTION' => 'Opis:',
-    'LBL_TEAM' => 'Tim:',
+    'LBL_MODULE_NAME' => 'Groups',
+    'LBL_GROUP_NAME' => 'Group Name:',
+    'LBL_DESCRIPTION' => 'Description:',
+    'LBL_TEAM' => 'Team:',
     // ListView
-    'LBL_LIST_TITLE' => 'Grupe',
+    'LBL_LIST_TITLE' => 'Groups',
     // Links
     'LNK_ALL_GROUPS' => 'Sve grupe',
     'LNK_NEW_GROUP' => 'Kreiraj grupu',

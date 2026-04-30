@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'マージ一覧',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'ステップ 1: マージするレコードを選択してください',
-    'LBL_AVAIL_FIELDS' => '使用可能なフィールド',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => '絞込み条件',
     'LBL_MERGE_VALUE_OVER' => '上書きする値',
 
@@ -58,15 +58,15 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'マージの実行',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'マージの実行',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'マージの保存',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'マージの保存',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => 'マージするレコードを検出:',
     'LBL_SELECT_ERROR' => '進む前に選択をして下さい。',
     'LBL_CHANGE_PARENT' => '主レコードに設定',
-    'LBL_REMOVE_FROM_MERGE' => '削除',
+    'LBL_REMOVE_FROM_MERGE' => 'Remove',
     'LBL_DIFF_COL_VALUES' => '最初の行とマージする行で異なる値を持つカラム:',
     'LBL_SAME_COL_VALUES' => 'すべての行に渡って同一の値を持つカラム:',
     'LBL_DELETE_MESSAGE' => '実行すると以下のレコードを削除します。:',

@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Lista de Combinaciones',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Búsqueda de Registros con los que Combinar',
-    'LBL_AVAIL_FIELDS' => 'Campos Disponibles',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'Condición de Filtrado',
     'LBL_MERGE_VALUE_OVER' => 'Combinar valores sobre',
 

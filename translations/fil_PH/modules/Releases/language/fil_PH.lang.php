@@ -53,7 +53,7 @@ $mod_strings = array(
     'LBL_NAME' => 'Pakawalan ang bersyon:',
     'LBL_LIST_LIST_ORDER' => 'Order',
     'LBL_LIST_ORDER' => 'Order:',
-    'LBL_LIST_STATUS' => 'Ang Katayuan',
+    'LBL_LIST_STATUS' => 'Estado',
     'LBL_STATUS' => 'Katayuan:',
     'LNK_NEW_RELEASE' => 'Listahan ng release',
     'NTC_DELETE_CONFIRMATION' => 'Sigurado ka bang na gusto mong burahin ang ulat na ito?',
@@ -65,5 +65,5 @@ $mod_strings = array(
             'Active' => 'Aktibo',
             'Inactive' => 'Hindi aktibo',
         ),
-    'LBL_EDITLAYOUT' => 'Baguhin ang layout' /*for 508 compliance fix*/,
+    'LBL_EDITLAYOUT' => 'I-edit ang layout' /*for 508 compliance fix*/,
 );

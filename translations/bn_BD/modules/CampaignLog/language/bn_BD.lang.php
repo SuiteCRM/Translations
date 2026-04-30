@@ -56,7 +56,7 @@ $mod_strings = array(
     'LBL_MODULE_NAME' => 'প্রচারণার লগ',
     'LBL_LIST_RECIPIENT_EMAIL' => 'Recipient Email',
     'LBL_LIST_RECIPIENT_NAME' => 'Recipient Name',
-    'LBL_ARCHIVED' => 'আর্কাইভ করা',
+    'LBL_ARCHIVED' => 'সংরক্ষণাগার',
     'LBL_HITS' => 'Hits',
 
     'LBL_CAMPAIGN_NAME' => 'নাম:',

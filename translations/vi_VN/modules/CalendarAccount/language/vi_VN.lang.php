@@ -37,18 +37,18 @@ $mod_strings = [
     'LBL_DATE_MODIFIED' => 'Ngày chỉnh sửa',
     'LBL_MODIFIED' => 'Được sửa bởi',
     'LBL_MODIFIED_NAME' => 'Chỉnh sửa bởi Tên',
-    'LBL_CREATED' => 'Khởi tạo bởi',
+    'LBL_CREATED' => 'Được tạo bởi',
     'LBL_CREATED_USER' => 'Tạo bởi người dùng',
     'LBL_MODIFIED_USER' => 'Sửa bởi người dùng',
     'LBL_DESCRIPTION' => 'Mô tả',
     'LBL_DELETED' => 'Đã xóa',
 
     // Security groups
-    'LBL_SECURITYGROUPS' => 'Nhóm bảo mật',
+    'LBL_SECURITYGROUPS' => 'S Platform',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Nhóm bảo mật',
 
     // List view labels
-    'LBL_LIST_NAME' => 'Tên',
+    'LBL_LIST_NAME' => 'tên',
     'LBL_LIST_DELETE' => 'Xóa',
     'LBL_EDIT_BUTTON' => 'Sửa',
     'LBL_REMOVE' => 'Xóa bỏ',
@@ -59,7 +59,7 @@ $mod_strings = [
     'LBL_OPT_IN' => 'Chọn tham gia',
     'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Đang chờ xác nhận chọn tham gia, xác nhận chọn tham gia không được gửi',
     'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Đang chờ xác nhận chọn tham gia, xác nhận chọn tham gia đã được gửi',
-    'LBL_OPT_IN_CONFIRMED' => 'Chọn tham gia',
+    'LBL_OPT_IN_CONFIRMED' => 'Đã chọn tham gia',
 
     // Subpanel titles
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Xem lịch sử',
@@ -91,7 +91,7 @@ $mod_strings = [
     'LNK_LIST' => 'View Calendar Accounts',
 
     // Standard fields
-    'LBL_NAME' => 'Tên',
+    'LBL_NAME' => 'tên',
     'LBL_ID' => 'ID',
     'LBL_TYPE' => 'Loại',
     'LBL_SOURCE' => 'Calendar Source',
@@ -162,11 +162,11 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Please select a calendar source first.',
 
     // Connection test messages
-    'LBL_CALENDAR' => 'Lịch',
+    'LBL_CALENDAR' => 'Calendar',
     'LBL_SUCCESSFUL' => 'Thành công',
     'LBL_FAILED' => 'Thất bại',
     'LBL_CONNECTION_TEST' => 'Connection Test',
-    'LBL_YES' => 'Có',
+    'LBL_YES' => 'Yes',
     'LBL_NO' => 'Không',
     'LBL_FOUND_CALENDARS' => 'Found {count} calendars.',
     'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'An error occurred while processing the connection test response. Please check the logs for details.',
@@ -186,7 +186,7 @@ $mod_strings = [
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => 'Đang tiến hành',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => 'In Progress',
     'LBL_SYNC_STATUS_SUCCESS' => 'Thành công',
     'LBL_SYNC_STATUS_WARNING' => 'Cảnh báo',
     'LBL_SYNC_STATUS_ERROR' => 'Lỗi',

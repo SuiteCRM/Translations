@@ -39,7 +39,7 @@ $mod_strings = [
     'LBL_USER' => 'Authorizing user',
     'LBL_OAUTH_AUTHORIZE_AND_SAVE' => 'Authorize',
     'LBL_OAUTH_AUTHORIZE_ONCE' => 'Authorize Once',
-    'LBL_OAUTH_ABORT' => 'Elutasít',
+    'LBL_OAUTH_ABORT' => 'Decline',
     'LBL_OAUTH_CLIENT' => 'Client:',
     'LBL_OAUTH_WHO_IS_REQUESTING' => 'Who is requesting (Client):',
     'LBL_AUTH_CODE_EXPIRES' => 'Auth Code Expires',
@@ -73,7 +73,7 @@ $mod_strings = [
     'LBL_OAUTH2_GRANT_USER_DATA_ACCESS' => 'Personal user data',
     'LBL_OAUTH2_GRANT_USER_DATA_ACCESS_DESC' => 'Grants access to personal user data such as name and email address',
     'LBL_OAUTH_AUTHORIZING_WILL_REDIRECT' => 'Authorizing will redirect to:',
-    'LBL_OAUTH_NOTE' => 'Jegyzet:',
+    'LBL_OAUTH_NOTE' => 'Note:',
     'LBL_OAUTH_CLIENT_INFO_DESCRIPTION' => 'wants to access your account',
     'LBL_OAUTH_CLIENT_INFO' => 'Client Information',
 ];

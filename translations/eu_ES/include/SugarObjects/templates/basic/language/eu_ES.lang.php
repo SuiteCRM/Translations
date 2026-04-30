@@ -54,7 +54,7 @@ $mod_strings = array(
     'LBL_NAME' => 'Izena',
     'LBL_CREATED_USER' => 'Erabiltzaileak sortua',
     'LBL_MODIFIED_USER' => 'Erabiltzaileak aldatua',
-    'LBL_LIST_NAME' => 'Izena',
+    'LBL_LIST_NAME' => 'Name',
     'LBL_EDIT_BUTTON' => 'Editatu',
     'LBL_REMOVE' => 'Kendu',
 

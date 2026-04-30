@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Lista de Fusões',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Passo 1: Encontrar registros de pesquisa para mesclar',
-    'LBL_AVAIL_FIELDS' => 'Campos disponíveis',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'Condição do Filtro',
     'LBL_MERGE_VALUE_OVER' => 'Mesclar valor sobre',
 
@@ -58,10 +58,10 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Executar a Fusão',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Executar a Fusão',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Salvar a Fusão',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Salvar a Fusão',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => 'Registros encontrados para Juntar com:',
     'LBL_SELECT_ERROR' => 'Deverá fazer a seleção antes de prosseguir',

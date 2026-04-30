@@ -43,22 +43,22 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'תפקיד:',
-    'LBL_LANGUAGE' => 'שפה:',
-    'LBL_MODULE_NAME' => 'תפקיד',
-    'LBL_MODULE_TITLE' => 'תפקידים:בית',
+    'LBL_ROLE' => 'Role:',
+    'LBL_LANGUAGE' => 'Language:',
+    'LBL_MODULE_NAME' => 'Roles',
+    'LBL_MODULE_TITLE' => 'Roles: Home',
     'LBL_SEARCH_FORM_TITLE' => 'חיפוש תפקידים',
     'LBL_LIST_FORM_TITLE' => 'רשימת תפקידים',
-    'LNK_NEW_ROLE' => 'ליצור תפקיד',
-    'LNK_ROLES' => 'תפקיד',
-    'LBL_NAME' => 'שם:',
-    'LBL_DESCRIPTION' => 'תיאור:',
+    'LNK_NEW_ROLE' => 'Create Role',
+    'LNK_ROLES' => 'Roles',
+    'LBL_NAME' => 'Name:',
+    'LBL_DESCRIPTION' => 'Description:',
     'LBL_ALLOWED_MODULES' => 'מודלים מורשים:',
     'LBL_DISALLOWED_MODULES' => 'מודלים לא מורשים:',
     'LBL_ASSIGN_MODULES' => 'ערוך מודלים:',
-    'LBL_DEFAULT_SUBPANEL_TITLE' => 'תפקיד',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Roles',
     'LBL_USERS' => 'משתמשים',
 
     'LBL_USERS_SUBPANEL_TITLE' => 'משתמשים',
-    'LBL_MODULES' => 'מודולים',
+    'LBL_MODULES' => 'Modules',
 );

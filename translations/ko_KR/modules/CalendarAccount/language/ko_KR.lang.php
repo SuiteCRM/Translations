@@ -33,27 +33,27 @@ $mod_strings = [
     // System fields
     'LBL_ASSIGNED_TO_ID' => '담당자 Id',
     'LBL_ASSIGNED_TO_NAME' => '담당자',
-    'LBL_DATE_ENTERED' => '입력일',
-    'LBL_DATE_MODIFIED' => '편집일',
+    'LBL_DATE_ENTERED' => '작성일',
+    'LBL_DATE_MODIFIED' => '수정일',
     'LBL_MODIFIED' => '수정자',
-    'LBL_MODIFIED_NAME' => '이름으로 변경됨',
+    'LBL_MODIFIED_NAME' => 'Modified By Name',
     'LBL_CREATED' => '생성됨',
     'LBL_CREATED_USER' => '사용자로 생성됨',
-    'LBL_MODIFIED_USER' => '변경유저',
-    'LBL_DESCRIPTION' => '상세',
+    'LBL_MODIFIED_USER' => '사용자로 수정됨',
+    'LBL_DESCRIPTION' => '설명',
     'LBL_DELETED' => '삭제됨',
 
     // Security groups
-    'LBL_SECURITYGROUPS' => '보안 그룹',
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => '보안 그룹',
+    'LBL_SECURITYGROUPS' => 'Security Groups',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
 
     // List view labels
-    'LBL_LIST_NAME' => '이름',
+    'LBL_LIST_NAME' => 'Name',
     'LBL_LIST_DELETE' => '삭제',
-    'LBL_EDIT_BUTTON' => '편집',
-    'LBL_REMOVE' => '삭제',
-    'LBL_ASCENDING' => '오름차순',
-    'LBL_DESCENDING' => '내림차순',
+    'LBL_EDIT_BUTTON' => '수정',
+    'LBL_REMOVE' => '제거',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
 
     // Email opt-in labels
     'LBL_OPT_IN' => '가입하기',
@@ -62,8 +62,8 @@ $mod_strings = [
     'LBL_OPT_IN_CONFIRMED' => '동의 체크한',
 
     // Subpanel titles
-    'LBL_HISTORY_SUBPANEL_TITLE' => '이력 표시',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => '영업활동',
+    'LBL_HISTORY_SUBPANEL_TITLE' => '이력 보기',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => '활동내역',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
 
@@ -91,9 +91,9 @@ $mod_strings = [
     'LNK_LIST' => 'View Calendar Accounts',
 
     // Standard fields
-    'LBL_NAME' => '이름',
+    'LBL_NAME' => 'Name',
     'LBL_ID' => 'ID',
-    'LBL_TYPE' => '종류',
+    'LBL_TYPE' => '유형',
     'LBL_SOURCE' => 'Calendar Source',
 
     // OAuth2 Fields
@@ -101,8 +101,8 @@ $mod_strings = [
     'LBL_CONNECT_OAUTH' => 'Connect OAuth',
 
     // Basic Auth Fields
-    'LBL_USERNAME' => '사용자 이름',
-    'LBL_PASSWORD' => '패스워드:',
+    'LBL_USERNAME' => 'Username',
+    'LBL_PASSWORD' => '비밀번호',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test Connection',
 
@@ -162,12 +162,12 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Please select a calendar source first.',
 
     // Connection test messages
-    'LBL_CALENDAR' => '스케쥴관리',
-    'LBL_SUCCESSFUL' => '성공',
+    'LBL_CALENDAR' => '일정',
+    'LBL_SUCCESSFUL' => 'Successful',
     'LBL_FAILED' => '실패함',
     'LBL_CONNECTION_TEST' => 'Connection Test',
     'LBL_YES' => '예',
-    'LBL_NO' => '아니오',
+    'LBL_NO' => 'No',
     'LBL_FOUND_CALENDARS' => 'Found {count} calendars.',
     'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'An error occurred while processing the connection test response. Please check the logs for details.',
     'LBL_CONNECTION_TEST_HTTP_ERROR' => 'Connection test failed with HTTP status',
@@ -182,13 +182,13 @@ $mod_strings = [
 
     // Dialog labels
     'LBL_NOTIFICATION' => 'Notification',
-    'LBL_CONFIRM' => '확인',
+    'LBL_CONFIRM' => 'Confirm',
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => '진행중',
-    'LBL_SYNC_STATUS_SUCCESS' => '성공',
-    'LBL_SYNC_STATUS_WARNING' => '경고:',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => '처리중',
+    'LBL_SYNC_STATUS_SUCCESS' => 'Success',
+    'LBL_SYNC_STATUS_WARNING' => 'Warning',
     'LBL_SYNC_STATUS_ERROR' => '오류',
 
     // Sync message enum translations
@@ -202,5 +202,5 @@ $mod_strings = [
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Calendar not found.',
 
     // Relationship labels
-    'LBL_MEETINGS' => '미팅리스트',
+    'LBL_MEETINGS' => '회의 목록',
 ];

@@ -43,15 +43,15 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Rôle',
+    'LBL_ROLE' => 'Role',
     'LBL_NAME' => 'Nom',
     'LBL_DESCRIPTION' => 'Description',
     'LIST_ROLES' => 'Liste des Rôles',
     'LBL_USERS_SUBPANEL_TITLE' => 'Utilisateurs',
     'LIST_ROLES_BY_USER' => 'Liste des Rôles par Utilisateur',
     'LBL_ROLES_SUBPANEL_TITLE' => 'Rôles des Utilisateurs',
-    'LBL_SEARCH_FORM_TITLE' => 'Rechercher',
-    'LBL_NO_ACCESS' => 'Vous n&#39;avez pas accès à cette zone. Veuillez contacter votre adminisatrateur si vous pensez que vous devriez avoir accès.',
+    'LBL_SEARCH_FORM_TITLE' => 'Search',
+    'LBL_NO_ACCESS' => 'You do not have access to this area. Contact your site administrator to obtain access.',
     'LBL_REDIRECT_TO_HOME' => 'Redirigé vers la page d&#39;accueil dans',
     'LBL_SECONDS' => 'secondes',
     'LBL_ADDING' => 'Ajouter pour',

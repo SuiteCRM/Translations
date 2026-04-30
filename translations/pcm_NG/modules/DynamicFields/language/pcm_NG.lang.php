@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LNK_NEW_CALL' => 'Log Call',
     'LNK_NEW_MEETING' => 'Make you Schedule Meeting',
-    'LNK_NEW_TASK' => 'Create Task',
+    'LNK_NEW_TASK' => 'Make you Create Task',
     'LNK_NEW_NOTE' => 'Make you Create Note or Attachment',
     'LNK_NEW_EMAIL' => 'Make you Archive Email',
     'LNK_CALL_LIST' => 'Calls',

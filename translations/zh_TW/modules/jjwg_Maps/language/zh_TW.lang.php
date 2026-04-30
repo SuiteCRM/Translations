@@ -42,10 +42,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_MAP'] = '地圖';
-$mod_strings['LBL_MODULE_NAME'] = '地圖';
+$mod_strings['LBL_MAP'] = 'Map';
+$mod_strings['LBL_MODULE_NAME'] = 'Maps';
 $mod_strings['LBL_MODULE_TITLE'] = '地圖: 首頁';
-$mod_strings['LBL_MODULE_ID'] = '地圖';
+$mod_strings['LBL_MODULE_ID'] = 'Maps';
 $mod_strings['LBL_LIST_FORM_TITLE'] = '地圖清單';
 $mod_strings['LBL_MAP_CUSTOM_MARKER'] = '自訂標記';
 $mod_strings['LBL_MAP_CUSTOM_AREA'] = '自訂區域';
@@ -61,57 +61,57 @@ $mod_strings['LBL_MAP_LEGEND'] = '圖例:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = '群組:';
 $mod_strings['LBL_MAP_GROUP'] = '群組';
 $mod_strings['LBL_MAP_TYPE'] = '類型:';
-$mod_strings['LBL_MAP_ASSIGNED_TO'] = '負責人:';
+$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Assigned to:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = '取得路線';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'Google Maps 檢視';
 
 $mod_strings['LNK_NEW_MAP'] = '添加新地圖';
-$mod_strings['LNK_NEW_RECORD'] = '添加新地圖';
+$mod_strings['LNK_NEW_RECORD'] = 'Add New Map';
 $mod_strings['LNK_MAP_LIST'] = '查看地圖';
 
-$mod_strings['LBL_MAP_ADDRESS_TEST'] = '地理編碼測試';
+$mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Geocoding Test';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = '快速查看地圖';
-$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = '無';
-$mod_strings['LBL_MAP_ADDRESS'] = '地址';
+$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'None';
+$mod_strings['LBL_MAP_ADDRESS'] = 'Address';
 $mod_strings['LBL_MAP_PROCESS'] = '執行！';
 
 $mod_strings['LBL_MAP_LAST_STATUS'] = '上次的地理編碼狀態';
 $mod_strings['LBL_GEOCODED_COUNTS'] = '模組地理編碼計數';
 $mod_strings['LBL_CRON_URL'] = 'Cron URL:';
-$mod_strings['LBL_MODULE_HEADING'] = '模組';
+$mod_strings['LBL_MODULE_HEADING'] = 'Module';
 
 $mod_strings['LBL_N/A'] = '不適用';
 $mod_strings['LBL_ZERO_RESULTS'] = '沒有符合結果';
-$mod_strings['LBL_OK'] = '確定';
+$mod_strings['LBL_OK'] = 'Ok';
 $mod_strings['LBL_INVALID_REQUEST'] = '不合法的請求';
 $mod_strings['LBL_APPROXIMATE'] = '近似';
-$mod_strings['LBL_EMPTY'] = '空';
+$mod_strings['LBL_EMPTY'] = 'Empty';
 
 $mod_strings['LBL_MODULE_TOTAL_HEADING'] = '總計';
-$mod_strings['LBL_MODULE_RESET_HEADING'] = '重置';
+$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Reset';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = '以下表格顯示已地理編碼的模組物件數目，按地理編碼回應分群。請記住，標準Google Maps限制一天最多2500則要求(request)。這個模組會將地址的地理編碼資訊建立Cache，以減少所需要的要求總數。';
 
 $mod_strings['LBL_CRON_INSTRUCTIONS'] = '為了處理地理編碼要求，建議你設定一個夜間作業的 Cron-Job。為此目的，一個自訂的進入點會被創立並且可不經驗證進行存取。以下URL是為了管理用途的排程任務。請參閱文件以了解更多資訊。';
 $mod_strings['LBL_EXPORT_ADDRESS_URL'] = '匯出 URLs';
 $mod_strings['LBL_EXPORT_INSTRUCTIONS'] = '可使用以下連結來匯出完整的地址供地理編碼使用。然後線上或離線批次地使用編碼工具來處理地理編碼。當你完成地理編碼後，將這些資訊導入到地址Cache模組以供你的地圖使用。請注意，地址Cache模組是可選的。所有的地理編碼資訊會儲存在相對應模組中。';
-$mod_strings['LBL_ADDRESS_CACHE'] = '地址快取';
+$mod_strings['LBL_ADDRESS_CACHE'] = 'Address Cache';
 $mod_strings['LBL_ADD_TO_TARGET_LIST'] = '添加到目標清單';
-$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = '處理中...';
+$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Processing...';
 
 
 $mod_strings['LBL_CONFIG_TITLE'] = '配置設定';
 $mod_strings['LBL_CONFIG_SAVED'] = '設定已成功儲存！';
-$mod_strings['LBL_BILLING_ADDRESS'] = '帳單地址';
-$mod_strings['LBL_SHIPPING_ADDRESS'] = '裝運地址';
+$mod_strings['LBL_BILLING_ADDRESS'] = 'Billing Address';
+$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Shipping Address';
 $mod_strings['LBL_PRIMARY_ADDRESS'] = '關鍵聯繫地址';
 $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = '替代地址';
-$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = '彈性關聯';
+$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex Relate';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = '地址 (簡單, 使用者)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = '自訂 (自訂控制器邏輯)';
 $mod_strings['LBL_ENABLED'] = '開啟';
 $mod_strings['LBL_DISABLED'] = '已停用';
 $mod_strings['LBL_DEFAULT'] = '預設:';
-$mod_strings['LBL_CONFIG_DEFAULT'] = '預設:';
+$mod_strings['LBL_CONFIG_DEFAULT'] = 'Default:';
 
 $mod_strings['LBL_CONFIG_VALID_GEOCODE_MODULES'] = '有效的地理編碼模組:';
 $mod_strings['LBL_CONFIG_VALID_GEOCODE_TABLES'] = '有效的地理編碼表:';
@@ -182,9 +182,9 @@ $mod_strings['LBL_CONFIG_MAP_CLUSTER_GRID_SIZE_DESC'] = "'map_clusterer_grid_siz
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_TITLE'] = "地圖標示叢集最大縮放:";
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_DESC'] = "'map_clusterer_max_zoom' 用來設定，當縮放最大到哪個等級時，叢集將不會被使用。";
 $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = "重要提示: 所有儲存的設定皆可在類別 'jjwg' 的 'config' 表格中找到。注意，自訂的 controller.php 檔案不該再用於覆蓋設定。";
-$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = '區域';
+$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Areas';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = '標記';
-$mod_strings['LBL_PARENT_ID'] = '父記錄ID';
+$mod_strings['LBL_PARENT_ID'] = 'Parent ID';
 $mod_strings['LBL_JJWP_PARTNERS'] = 'JJWP 合作夥伴';
 $mod_strings['LBL_GET_GOOGLE_API_KEY'] = '取得金鑰';
 $mod_strings['LBL_GOOGLE_API_KEY'] = 'Google API 金鑰';

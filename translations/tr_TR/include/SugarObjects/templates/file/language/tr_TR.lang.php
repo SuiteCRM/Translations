@@ -95,7 +95,7 @@ $mod_strings = array(
     'LBL_LIST_VIEW_DOCUMENT' => 'Görünüm',
     'LBL_LIST_ACTIVE_DATE' => 'Yayınlanma tarihi',
     'LBL_LIST_EXP_DATE' => 'Son geçerlilik tarihi',
-    'LBL_LIST_STATUS' => 'Durum',
+    'LBL_LIST_STATUS' => 'Durum:',
 
     //document search form.
     'LBL_SF_CATEGORY' => 'Kategori:',

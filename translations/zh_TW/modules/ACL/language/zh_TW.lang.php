@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => '角色',
+    'LBL_ROLE' => 'Role',
     'LBL_NAME' => '名稱',
-    'LBL_DESCRIPTION' => '描述',
+    'LBL_DESCRIPTION' => '說明:',
     'LIST_ROLES' => '角色列表',
     'LBL_USERS_SUBPANEL_TITLE' => '使用者',
     'LIST_ROLES_BY_USER' => '根據使用者列出角色',

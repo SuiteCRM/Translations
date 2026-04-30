@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_DESCRIPTION' => 'Նկարագրություն',
-    'LBL_NAME' => 'Անվանում',
-    'LBL_LIST_NAME' => 'Անվանում',
-    'LBL_EDIT_BUTTON' => 'Խմբագրել',
-    'LBL_REMOVE' => 'Հեռացնել',
-    'LBL_GRP' => 'Խումբ',
-    'LBL_ORD' => 'Պատվեր',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_NAME' => 'Name',
+    'LBL_LIST_NAME' => 'Name',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
+    'LBL_GRP' => 'Group',
+    'LBL_ORD' => 'Order',
     'LBL_THUMBNAIL' => 'Մանրապատկեր',
 );

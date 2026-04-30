@@ -50,10 +50,10 @@ $mod_strings = array(
     'LBL_DATE_MODIFIED' => 'Ngày chỉnh sửa',
     'LBL_MODIFIED' => 'Được sửa bởi',
     'LBL_MODIFIED_NAME' => 'Chỉnh sửa bởi Tên',
-    'LBL_CREATED' => 'Khởi tạo bởi',
+    'LBL_CREATED' => 'Được tạo bởi',
     'LBL_DESCRIPTION' => 'Ghi chú',
     'LBL_DELETED' => 'Đã xóa',
-    'LBL_NAME' => 'Tên',
+    'LBL_NAME' => 'tên',
     'LBL_CREATED_USER' => 'Tạo bởi người dùng',
     'LBL_MODIFIED_USER' => 'Sửa bởi người dùng',
     'LBL_LIST_FORM_TITLE' => 'Danh sách báo giá sản phẩm',
@@ -81,7 +81,7 @@ $mod_strings = array(
     'LBL_PRODUCT_TOTAL_PRICE' => 'Tổng giá',
     'LBL_PRODUCT_NOTE' => 'Ghi chú',
     'Quote' => '',
-    'LBL_FLEX_RELATE' => 'Liên quan đến',
+    'LBL_FLEX_RELATE' => 'Related to',
     'LBL_PRODUCT' => 'Sản phẩm',
 
     'LBL_SERVICE_MODULE_NAME' => 'Dịch vụ',
@@ -100,6 +100,6 @@ $mod_strings = array(
 
     'LBL_AOS_CONTRACTS' => 'Hợp đồng',
     'LBL_AOS_INVOICES' => 'Hóa đơn',
-    'LBL_AOS_PRODUCTS' => 'Sản phẩm',
+    'LBL_AOS_PRODUCTS' => 'Products',
     'LBL_AOS_QUOTES' => 'Báo giá',
 );

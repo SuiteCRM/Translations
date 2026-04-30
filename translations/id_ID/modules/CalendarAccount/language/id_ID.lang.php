@@ -31,39 +31,39 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
     // System fields
-    'LBL_ASSIGNED_TO_ID' => 'ID Pengguna yang ditugaskan',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
     'LBL_ASSIGNED_TO_NAME' => 'Ditugaskan kepada',
     'LBL_DATE_ENTERED' => 'Tanggal Dibuat',
     'LBL_DATE_MODIFIED' => 'Tanggal diubah',
-    'LBL_MODIFIED' => 'Diubah Oleh',
+    'LBL_MODIFIED' => 'Modified By',
     'LBL_MODIFIED_NAME' => 'Modifikasi berdasarkan Nama',
-    'LBL_CREATED' => 'Dibuat Oleh',
-    'LBL_CREATED_USER' => 'Dibuat oleh Pemakai',
-    'LBL_MODIFIED_USER' => 'Modifikasi oleh Pemakai',
-    'LBL_DESCRIPTION' => 'Deskripsi',
-    'LBL_DELETED' => 'Hapus',
+    'LBL_CREATED' => 'Created By',
+    'LBL_CREATED_USER' => 'Dibuat oleh Pengguna',
+    'LBL_MODIFIED_USER' => 'Modified by User',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_DELETED' => 'Deleted',
 
     // Security groups
     'LBL_SECURITYGROUPS' => 'Grup Keamanan',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Grup Keamanan',
 
     // List view labels
-    'LBL_LIST_NAME' => 'Nama',
-    'LBL_LIST_DELETE' => 'Hapus',
-    'LBL_EDIT_BUTTON' => 'Ubah',
-    'LBL_REMOVE' => 'Menghapus',
-    'LBL_ASCENDING' => 'Naik',
-    'LBL_DESCENDING' => 'Turun',
+    'LBL_LIST_NAME' => 'Nama ',
+    'LBL_LIST_DELETE' => 'Delete',
+    'LBL_EDIT_BUTTON' => 'Sunting',
+    'LBL_REMOVE' => 'Remove',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
 
     // Email opt-in labels
     'LBL_OPT_IN' => 'Ikut Serta',
-    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Menunggu Konfirmasi ikut serta, Konfirmasi pilih tidak terkirim',
-    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Menunggu Konfirmasi ikut serta, Konfirmasi pilih di kirim',
-    'LBL_OPT_IN_CONFIRMED' => 'Memilih masuk',
+    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Menunggu Konfirmasi ikut serta, Konfirmasi tidak terkirim',
+    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Menunggu Konfirmasi ikut serta, Konfirmasi terkirim',
+    'LBL_OPT_IN_CONFIRMED' => 'Berhasil ikut serta',
 
     // Subpanel titles
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Lihat Histori',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktivitas',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
 
@@ -91,9 +91,9 @@ $mod_strings = [
     'LNK_LIST' => 'View Calendar Accounts',
 
     // Standard fields
-    'LBL_NAME' => 'Nama',
+    'LBL_NAME' => 'Nama ',
     'LBL_ID' => 'ID',
-    'LBL_TYPE' => 'Tipe',
+    'LBL_TYPE' => 'Type',
     'LBL_SOURCE' => 'Calendar Source',
 
     // OAuth2 Fields
@@ -101,7 +101,7 @@ $mod_strings = [
     'LBL_CONNECT_OAUTH' => 'Connect OAuth',
 
     // Basic Auth Fields
-    'LBL_USERNAME' => 'Nama Pengguna',
+    'LBL_USERNAME' => 'Username',
     'LBL_PASSWORD' => 'Kata sandi',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test Connection',
@@ -162,12 +162,12 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Please select a calendar source first.',
 
     // Connection test messages
-    'LBL_CALENDAR' => 'Kalender',
-    'LBL_SUCCESSFUL' => 'Berhasil',
-    'LBL_FAILED' => 'Gagal',
+    'LBL_CALENDAR' => 'Calendar',
+    'LBL_SUCCESSFUL' => 'Successful',
+    'LBL_FAILED' => 'Failed',
     'LBL_CONNECTION_TEST' => 'Connection Test',
     'LBL_YES' => 'Ya',
-    'LBL_NO' => 'Tidak',
+    'LBL_NO' => 'No',
     'LBL_FOUND_CALENDARS' => 'Found {count} calendars.',
     'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'An error occurred while processing the connection test response. Please check the logs for details.',
     'LBL_CONNECTION_TEST_HTTP_ERROR' => 'Connection test failed with HTTP status',
@@ -186,8 +186,8 @@ $mod_strings = [
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => 'Dalam Penyelesaian',
-    'LBL_SYNC_STATUS_SUCCESS' => 'Sukses',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => 'In Progress',
+    'LBL_SYNC_STATUS_SUCCESS' => 'Success',
     'LBL_SYNC_STATUS_WARNING' => 'Peringatan',
     'LBL_SYNC_STATUS_ERROR' => 'Kesalahan',
 
@@ -202,5 +202,5 @@ $mod_strings = [
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Calendar not found.',
 
     // Relationship labels
-    'LBL_MEETINGS' => 'Rapat',
+    'LBL_MEETINGS' => 'Meetings',
 ];

@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'Ви дійсно хочете видалити цей запис?',
 
     'LBL_EDIT_BUTTON' => 'Редагувати  ',
-    'LBL_REMOVE' => 'Видалити',
+    'LBL_REMOVE' => 'Remove',
 
 );

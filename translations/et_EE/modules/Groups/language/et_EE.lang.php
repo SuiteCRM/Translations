@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Grupid',
-    'LBL_GROUP_NAME' => 'Grupi nimi:',
-    'LBL_DESCRIPTION' => 'Kirjeldus:',
-    'LBL_TEAM' => 'Meeskond:',
+    'LBL_MODULE_NAME' => 'Groups',
+    'LBL_GROUP_NAME' => 'Group Name:',
+    'LBL_DESCRIPTION' => 'Description:',
+    'LBL_TEAM' => 'Team:',
     // ListView
-    'LBL_LIST_TITLE' => 'Grupid',
+    'LBL_LIST_TITLE' => 'Groups',
     // Links
     'LNK_ALL_GROUPS' => 'Kõik grupid',
     'LNK_NEW_GROUP' => 'Loo grupp',

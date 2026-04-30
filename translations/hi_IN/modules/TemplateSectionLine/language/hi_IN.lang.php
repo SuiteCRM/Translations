@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_DESCRIPTION' => 'विवरण',
+    'LBL_DESCRIPTION' => 'विवरण ',
     'LBL_NAME' => 'नाम',
     'LBL_LIST_NAME' => 'नाम',
-    'LBL_EDIT_BUTTON' => 'संशोधन करें',
-    'LBL_REMOVE' => 'हटाऐं',
+    'LBL_EDIT_BUTTON' => 'संपादित करें',
+    'LBL_REMOVE' => 'हटाएँ',
     'LBL_GRP' => 'समूह',
     'LBL_ORD' => 'आदेश',
     'LBL_THUMBNAIL' => 'थंबनेल',

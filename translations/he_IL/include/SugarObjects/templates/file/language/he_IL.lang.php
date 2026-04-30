@@ -51,8 +51,8 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'חיפוש מסמך',
     //vardef labels
     'LBL_NAME' => 'שם מסמך',
-    'LBL_DESCRIPTION' => 'תאור',
-    'LBL_ASSIGNED_TO' => 'מנה שם משתמש:',
+    'LBL_DESCRIPTION' => 'תיאור',
+    'LBL_ASSIGNED_TO' => 'הקצה ל:',
     'LBL_CATEGORY' => 'קטגוריה',
     'LBL_SUBCATEGORY' => 'קטרורית משנה',
     'LBL_STATUS' => 'סטטוס',
@@ -80,36 +80,36 @@ $mod_strings = array(
     'LBL_SUBCATEGORY_VALUE' => 'קטגורית משנה:',
     'LBL_DOC_STATUS' => 'סטטוס:',
     'LBL_DET_TEMPLATE_TYPE' => 'סוג מסמך:',
-    'LBL_DOC_DESCRIPTION' => 'תיאור:',
+    'LBL_DOC_DESCRIPTION' => 'Description:',
     'LBL_DOC_ACTIVE_DATE' => 'פורסם בתאריך:',
     'LBL_DOC_EXP_DATE' => 'תאריך תפוגה:',
 
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'רשימת מסמכים',
     'LBL_LIST_DOCUMENT' => 'מסמך',
-    'LBL_LIST_CATEGORY' => 'קטגוריה',
-    'LBL_LIST_SUBCATEGORY' => 'קטרורית משנה',
-    'LBL_LIST_REVISION' => 'בדיקה מחדש',
+    'LBL_LIST_CATEGORY' => 'Category',
+    'LBL_LIST_SUBCATEGORY' => 'Sub Category',
+    'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => 'פורסם על ידי',
     'LBL_LIST_LAST_REV_DATE' => 'תאריך בדיקה מחדש',
     'LBL_LIST_VIEW_DOCUMENT' => 'צפיה',
-    'LBL_LIST_ACTIVE_DATE' => 'תאריך פרסום',
-    'LBL_LIST_EXP_DATE' => 'תאריך תפוגה:',
-    'LBL_LIST_STATUS' => 'סטטוס',
+    'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
+    'LBL_LIST_EXP_DATE' => 'Expiration Date',
+    'LBL_LIST_STATUS' => 'Status',
 
     //document search form.
-    'LBL_SF_CATEGORY' => 'קטגוריה:',
-    'LBL_SF_SUBCATEGORY' => 'קטגורית משנה:',
+    'LBL_SF_CATEGORY' => 'Category:',
+    'LBL_SF_SUBCATEGORY' => 'Sub Category:',
 
     'DEF_CREATE_LOG' => 'מסמך נוצר',
 
     //error messages
-    'ERR_DOC_NAME' => 'שם מסמך',
-    'ERR_DOC_ACTIVE_DATE' => 'תאריך פרסום',
+    'ERR_DOC_NAME' => 'Document Name',
+    'ERR_DOC_ACTIVE_DATE' => 'Publish Date',
     'ERR_FILENAME' => 'שם קובץ',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'שם מסמך',
+    'LBL_LIST_DOCUMENT_NAME' => 'Document Name',
 
     'LBL_EDIT_BUTTON' => 'עריכה',
     'LBL_REMOVE' => 'הסר',

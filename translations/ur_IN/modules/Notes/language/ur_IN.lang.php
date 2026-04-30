@@ -94,7 +94,7 @@ $mod_strings = array(
     'LBL_CREATED_BY' => 'کی طرف سے پیدا کیا ہوا',
     'LBL_MODIFIED_BY' => 'ترمیم کردہ',
     'LBL_SEND_ANYWAYS' => 'This email has no subject. Send/save anyway?',
-    'LBL_NOTE_INFORMATION' => 'جائزہ', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_NOTE_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_MY_NOTES_DASHLETNAME' => 'My Notes',
     'LBL_EDITLAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
     //For export labels

@@ -44,25 +44,25 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
 
-    'LBL_NAME' => 'නම',
+    'LBL_NAME' => ' නම',
     'LBL_NUMBER' => 'අංකය:',
-    'LBL_STATUS' => 'තත්වය:',
+    'LBL_STATUS' => 'තත්ත්වය:',
     'LBL_PRIORITY' => 'ප්රමුඛතාව:',
-    'LBL_DESCRIPTION' => 'විස්තරය:',
+    'LBL_DESCRIPTION' => 'Description:',
     'LBL_RESOLUTION' => 'යෝජනාව',
     'LBL_LAST_MODIFIED' => 'අවසන් වරට සංස්කරණය',
     'LBL_ASSIGNED_TO_ID' => ' කිරීම සඳහා පවරා:',
-    'LBL_ASSIGNED_TO_NAME' => 'පරිශීලක:',
+    'LBL_ASSIGNED_TO_NAME' => 'User:',
     'LBL_WORK_LOG' => 'වැඩ ලොග්:',
     'LBL_CREATED_BY' => 'සෑදුවේ:',
-    'LBL_DATE_ENTERED' => 'සෑදූ දිනය:',
-    'LBL_DATE_MODIFIED' => 'දිනය නවීකරණය කරන ලද:',
+    'LBL_DATE_ENTERED' => 'දිනය නිර්මාණය කරන ලද්දේ:',
+    'LBL_DATE_MODIFIED' => 'Date Modified:',
     'LBL_MODIFIED_BY' => 'පසුගිය විසින් නවීකරණය කරන ලද:',
     'LBL_ASSIGNED_USER' => 'පවරා පරිශීලක:',
-    'LBL_TYPE' => ' වර්ගය:',
+    'LBL_TYPE' => 'Type:',
     'LBL_SUBJECT' => 'විෂය:',
 
-    'LBL_EDIT_BUTTON' => 'සංස්කරණය',
-    'LBL_REMOVE' => 'ඉවත් කරන්න',
+    'LBL_EDIT_BUTTON' => '  සංස්කරණය',
+    'LBL_REMOVE' => ' ඉවත් කරන්න',
 
 );

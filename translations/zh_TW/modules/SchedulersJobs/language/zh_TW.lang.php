@@ -44,10 +44,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_NAME' => '名稱',
-    'LBL_EXECUTE_TIME' => '執行時間',
-    'LBL_SCHEDULER_ID' => '排程程序',
+    'LBL_EXECUTE_TIME' => 'Execute Time',
+    'LBL_SCHEDULER_ID' => 'Scheduler',
     'LBL_STATUS' => '狀態',
-    'LBL_RESOLUTION' => '結果',
+    'LBL_RESOLUTION' => 'Result',
     'LBL_MESSAGE' => '消息',
     'LBL_DATA' => '數據',
     'LBL_REQUEUE' => '失敗重試',

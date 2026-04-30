@@ -94,9 +94,9 @@ $mod_strings = array(
     'LBL_CREATED_BY' => 'Müəllif',
     'LBL_MODIFIED_BY' => 'Redaktə etdi',
     'LBL_SEND_ANYWAYS' => 'Bu e-poçt\'un mövzusu yoxdur. Yenə də göndər/yadda saxla?',
-    'LBL_NOTE_INFORMATION' => '	İcmal', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_NOTE_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_MY_NOTES_DASHLETNAME' => 'My Notes',
-    'LBL_EDITLAYOUT' => 'Tərtibatı redaktə et' /*for 508 compliance fix*/,
+    'LBL_EDITLAYOUT' => 'Düzümü redaktə et' /*for 508 compliance fix*/,
     //For export labels
     'LBL_FIRST_NAME' => 'Ad',
     'LBL_LAST_NAME' => 'Soyad',

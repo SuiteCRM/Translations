@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_FIELD_NAME' => 'ฟิลด์',
+    'LBL_FIELD_NAME' => 'Field',
     'LBL_OLD_NAME' => 'ค่าเดิม',
     'LBL_NEW_VALUE' => 'ค่าใหม่',
     'LBL_CREATED_BY' => 'เปลี่ยนแปลงโดย',
     'LBL_LIST_DATE' => 'วันที่เปลี่ยน',
     'LBL_AUDITED_FIELDS' => 'ฟิลด์การตรวจสอบในโมดูลนี้: ',
-    'LBL_CHANGE_LOG' => 'บันทึกการเปลี่ยนแปลง',
+    'LBL_CHANGE_LOG' => 'Change Log',
 );

@@ -56,8 +56,8 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'ผู้ใช้งาน',
     'LBL_RATING' => 'เรตติ้ง',
     'LBL_ASSIGNED_TO' => 'กำหนดให้:',
-    'LBL_ASSIGNED_USER' => 'กำหนดให้:',
-    'LBL_ASSIGNED_TO_ID' => 'กำหนดให้:',
+    'LBL_ASSIGNED_USER' => 'Assigned to:',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned to:',
     'LBL_BILLING_ADDRESS_CITY' => 'เรียกเก็บเงินที่เมือง:',
     'LBL_BILLING_ADDRESS_COUNTRY' => 'ประเทศเรียกเก็บเงิน:',
     'LBL_BILLING_ADDRESS_POSTALCODE' => 'รหัสไปรษณีย์เรียกเก็บเงิน:',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'คุณแน่ใจไหมที่ต้องการจะลบบันทึกนี้?',
 
     'LBL_EDIT_BUTTON' => 'แก้ไข  ',
-    'LBL_REMOVE' => 'ลบออก',
+    'LBL_REMOVE' => 'Remove',
 
 );

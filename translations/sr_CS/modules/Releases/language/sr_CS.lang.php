@@ -43,27 +43,27 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Izdanja',
+    'LBL_MODULE_NAME' => 'Releases',
     'LBL_MODULE_TITLE' => 'Izdanja: Početna strana',
     'LBL_SEARCH_FORM_TITLE' => 'Pretraga izdanja',
     'LBL_LIST_FORM_TITLE' => 'Lista izdanja',
     'LBL_NEW_FORM_TITLE' => 'Novo izdanje',
-    'LBL_RELEASE' => 'Izdanje:',
-    'LBL_LIST_NAME' => 'Izdanje',
+    'LBL_RELEASE' => 'Release:',
+    'LBL_LIST_NAME' => 'Release',
     'LBL_NAME' => 'Verzija izdanja:',
-    'LBL_LIST_LIST_ORDER' => 'Redosled',
-    'LBL_LIST_ORDER' => 'Porudžbina:',
+    'LBL_LIST_LIST_ORDER' => 'Order',
+    'LBL_LIST_ORDER' => 'Order:',
     'LBL_LIST_STATUS' => 'Status',
     'LBL_STATUS' => 'Status:',
-    'LNK_NEW_RELEASE' => 'Lista izdanja',
-    'NTC_DELETE_CONFIRMATION' => 'Da li ste sigurni da želite da obrišete ovaj zapis?',
+    'LNK_NEW_RELEASE' => 'Release List',
+    'NTC_DELETE_CONFIRMATION' => 'Are you sure you want to delete this record?',
     'ERR_DELETE_RECORD' => 'Morate navesti odgovarajući broj zapisa da bi obrisali izdanje.',
     'NTC_STATUS' => 'Podesi status na Neaktivno da bi se ovo izdanje uklonilo iz padajuće liste Izdanja',
     'NTC_LIST_ORDER' => 'Postavi redosled po kome će se ovo izdanje prikazati u padajućoj listi Izdanja',
     'release_status_dom' =>
         array(
-            'Active' => 'Aktivan',
-            'Inactive' => 'Neaktivan',
+            'Active' => 'Active',
+            'Inactive' => 'Inactive',
         ),
-    'LBL_EDITLAYOUT' => 'Izmeni izgled' /*for 508 compliance fix*/,
+    'LBL_EDITLAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
 );

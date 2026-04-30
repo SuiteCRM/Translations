@@ -71,7 +71,7 @@ $mod_strings['LNK_MAP_LIST'] = 'Listă de hărți';
 
 $mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Test Geocode-are';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'Hartă cu rază rapidă';
-$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'Nimeni';
+$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'Nimic';
 $mod_strings['LBL_MAP_ADDRESS'] = 'Adresă';
 $mod_strings['LBL_MAP_PROCESS'] = 'Procesează-l!';
 
@@ -88,7 +88,7 @@ $mod_strings['LBL_APPROXIMATE'] = 'Aproximare';
 $mod_strings['LBL_EMPTY'] = 'Gol';
 
 $mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Total';
-$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Resetează';
+$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Reseteaza';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = 'Tabelul de mai jos arată numărul de obiecte Geocode, grupate după răspuns. Rețineți că limita standard de utilizare Google Maps este de 2500 de cereri pe zi. Acest modul va salva informațiile de geocodificare a adreselor în timpul procesării pentru a reduce numărul total de cereri necesare.';
 
 $mod_strings['LBL_CRON_INSTRUCTIONS'] = 'Pentru a procesa cererile de geocodare este recomandat să configurați un Cron-Job. A fost creat un punct de intrare personalizat în acest scop și poate fi accesat fără autentificare. URL-ul indicat mai jos este destinat utilizării cu o sarcină administrativă programată. Vă rugăm să consultați documentația pentru mai multe informații.';
@@ -103,13 +103,13 @@ $mod_strings['LBL_CONFIG_TITLE'] = 'Setări de configurare';
 $mod_strings['LBL_CONFIG_SAVED'] = 'Setări salvate cu succes!';
 $mod_strings['LBL_BILLING_ADDRESS'] = 'Adresa de facturare';
 $mod_strings['LBL_SHIPPING_ADDRESS'] = 'Adresa livrare';
-$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Adresă Principală';
+$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Adresa principală';
 $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'Adresă alternativă';
-$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Asociază Flexibilă';
+$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Relaționare flexibilă';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Adresă (Simplu, Utilizatori)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'Personalizat (Custom Controller Logic)';
-$mod_strings['LBL_ENABLED'] = 'Accesibil';
-$mod_strings['LBL_DISABLED'] = 'Inaccesibil';
+$mod_strings['LBL_ENABLED'] = 'Activat';
+$mod_strings['LBL_DISABLED'] = 'Dezactivat';
 $mod_strings['LBL_DEFAULT'] = 'Implicit:';
 $mod_strings['LBL_CONFIG_DEFAULT'] = 'Implicit:';
 

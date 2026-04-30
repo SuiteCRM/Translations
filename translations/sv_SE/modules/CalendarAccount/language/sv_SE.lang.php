@@ -32,28 +32,28 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = [
     // System fields
     'LBL_ASSIGNED_TO_ID' => 'Tilldelat användar-id',
-    'LBL_ASSIGNED_TO_NAME' => 'Tilldelad till',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_DATE_ENTERED' => 'Datum Skapad',
-    'LBL_DATE_MODIFIED' => 'Modifierad datum',
-    'LBL_MODIFIED' => 'Ändrad Av',
-    'LBL_MODIFIED_NAME' => 'Ändrad av Namn',
-    'LBL_CREATED' => 'Skapad Av',
-    'LBL_CREATED_USER' => 'Skapad av Användare',
-    'LBL_MODIFIED_USER' => 'Ändrad av Användare',
-    'LBL_DESCRIPTION' => 'Beskrivning',
-    'LBL_DELETED' => 'Raderad',
+    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_MODIFIED' => 'Modified By',
+    'LBL_MODIFIED_NAME' => 'Modified By Name',
+    'LBL_CREATED' => 'Created By',
+    'LBL_CREATED_USER' => 'Created by User',
+    'LBL_MODIFIED_USER' => 'Modified by User',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_DELETED' => 'Deleted',
 
     // Security groups
-    'LBL_SECURITYGROUPS' => 'Säkerhetsgrupper',
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Säkerhetsgrupper',
+    'LBL_SECURITYGROUPS' => 'Security Groups',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
 
     // List view labels
     'LBL_LIST_NAME' => 'Namn',
-    'LBL_LIST_DELETE' => 'Radera',
+    'LBL_LIST_DELETE' => 'Delete',
     'LBL_EDIT_BUTTON' => 'Redigera',
-    'LBL_REMOVE' => 'Ta bort',
-    'LBL_ASCENDING' => 'Stigande',
-    'LBL_DESCENDING' => 'Fallande',
+    'LBL_REMOVE' => 'Remove',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
 
     // Email opt-in labels
     'LBL_OPT_IN' => 'Anmäl dig',
@@ -62,8 +62,8 @@ $mod_strings = [
     'LBL_OPT_IN_CONFIRMED' => 'Acceptera',
 
     // Subpanel titles
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Visa historik',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktiviteter',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
 
@@ -93,7 +93,7 @@ $mod_strings = [
     // Standard fields
     'LBL_NAME' => 'Namn',
     'LBL_ID' => 'ID',
-    'LBL_TYPE' => 'Typ',
+    'LBL_TYPE' => 'Type',
     'LBL_SOURCE' => 'Calendar Source',
 
     // OAuth2 Fields
@@ -101,8 +101,8 @@ $mod_strings = [
     'LBL_CONNECT_OAUTH' => 'Connect OAuth',
 
     // Basic Auth Fields
-    'LBL_USERNAME' => 'Användarnamn',
-    'LBL_PASSWORD' => 'Lösenord',
+    'LBL_USERNAME' => 'Username',
+    'LBL_PASSWORD' => 'Password',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test Connection',
 
@@ -162,9 +162,9 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Please select a calendar source first.',
 
     // Connection test messages
-    'LBL_CALENDAR' => 'Kalender',
-    'LBL_SUCCESSFUL' => 'Framgångsrikt',
-    'LBL_FAILED' => 'Misslyckad',
+    'LBL_CALENDAR' => 'Calendar',
+    'LBL_SUCCESSFUL' => 'Successful',
+    'LBL_FAILED' => 'Failed',
     'LBL_CONNECTION_TEST' => 'Connection Test',
     'LBL_YES' => 'Ja',
     'LBL_NO' => 'Nej',
@@ -182,12 +182,12 @@ $mod_strings = [
 
     // Dialog labels
     'LBL_NOTIFICATION' => 'Notification',
-    'LBL_CONFIRM' => 'Bekräfta:',
+    'LBL_CONFIRM' => 'Confirm',
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => 'Under Pågående',
-    'LBL_SYNC_STATUS_SUCCESS' => 'Genomfört',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => 'Pågående',
+    'LBL_SYNC_STATUS_SUCCESS' => 'Success',
     'LBL_SYNC_STATUS_WARNING' => 'Varning',
     'LBL_SYNC_STATUS_ERROR' => 'Fel',
 
@@ -202,5 +202,5 @@ $mod_strings = [
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Calendar not found.',
 
     // Relationship labels
-    'LBL_MEETINGS' => 'Möten',
+    'LBL_MEETINGS' => 'Meetings',
 ];

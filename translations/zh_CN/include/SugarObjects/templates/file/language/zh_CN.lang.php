@@ -94,24 +94,24 @@ $mod_strings = array(
     'LBL_LIST_LAST_REV_DATE' => '改版日期',
     'LBL_LIST_VIEW_DOCUMENT' => '查看',
     'LBL_LIST_ACTIVE_DATE' => '发布日期',
-    'LBL_LIST_EXP_DATE' => '到期日期',
+    'LBL_LIST_EXP_DATE' => 'Expiration Date',
     'LBL_LIST_STATUS' => '状态',
 
     //document search form.
-    'LBL_SF_CATEGORY' => '产品类别',
+    'LBL_SF_CATEGORY' => '类别',
     'LBL_SF_SUBCATEGORY' => '子类别',
 
     'DEF_CREATE_LOG' => '文档已创建',
 
     //error messages
-    'ERR_DOC_NAME' => '名称',
+    'ERR_DOC_NAME' => '文档名称',
     'ERR_DOC_ACTIVE_DATE' => '发布日期',
     'ERR_FILENAME' => '文件名',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => '名称',
+    'LBL_LIST_DOCUMENT_NAME' => '文档名称',
 
     'LBL_EDIT_BUTTON' => '编辑',
-    'LBL_REMOVE' => '移除',
+    'LBL_REMOVE' => '删除',
 
 );

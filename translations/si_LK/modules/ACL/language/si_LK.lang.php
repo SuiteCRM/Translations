@@ -43,15 +43,15 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'කාර්යභාරය',
-    'LBL_NAME' => 'නම',
+    'LBL_ROLE' => 'Role',
+    'LBL_NAME' => ' නම',
     'LBL_DESCRIPTION' => 'විස්තරය',
     'LIST_ROLES' => 'ලැයිස්තුව භූමිකා',
-    'LBL_USERS_SUBPANEL_TITLE' => 'පරිශීලකයන්',
+    'LBL_USERS_SUBPANEL_TITLE' => 'පරිශිලකයින්',
     'LIST_ROLES_BY_USER' => 'පරිශීලක වන විට ලැයිස්තුගත භූමිකා',
     'LBL_ROLES_SUBPANEL_TITLE' => 'පරිශීලක භූමිකා',
-    'LBL_SEARCH_FORM_TITLE' => 'ගවේෂණය',
-    'LBL_NO_ACCESS' => 'ඔබ මෙම ප්රදේශයේ ප්රවේශ නැහැ. ප්රවේශ ලබා ගැනීම සඳහා ඔබේ වෙබ් අඩවිය පරිපාලක අමතන්න.',
+    'LBL_SEARCH_FORM_TITLE' => 'සොයන්න',
+    'LBL_NO_ACCESS' => 'You do not have access to this area. Contact your site administrator to obtain access.',
     'LBL_REDIRECT_TO_HOME' => 'මුල් පිටුව වෙත යළි යොමු',
     'LBL_SECONDS' => 'තත්පර',
     'LBL_ADDING' => 'සඳහා එකතු කරමින්',

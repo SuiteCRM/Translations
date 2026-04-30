@@ -50,14 +50,14 @@ $mod_strings = array(
     'LBL_DELETE_BUTTON_TITLE' => 'Kustuta see salvestatud filter',
     'LBL_SAVE_BUTTON_TITLE' => 'Salvesta praegune filter',
     'LBL_LIST_NAME' => 'Nimi',
-    'LBL_LIST_MODULE' => 'Moodul',
+    'LBL_LIST_MODULE' => 'Module',
     'LBL_ORDER_BY_COLUMNS' => 'Order by column:',
-    'LBL_DIRECTION' => 'Suund:',
+    'LBL_DIRECTION' => 'Direction:',
     'LBL_SAVE_SEARCH_AS' => 'Salvesta filter kui:',
-    'LBL_ASCENDING' => 'Kasvavalt',
-    'LBL_DESCENDING' => 'Kahanevalt',
-    'LBL_MODIFY_CURRENT_FILTER' => 'Muuda praegust filtrit',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
-    'LBL_CREATED_BY' => 'Loodud',
+    'LBL_CREATED_BY' => 'Created By',
 
 );

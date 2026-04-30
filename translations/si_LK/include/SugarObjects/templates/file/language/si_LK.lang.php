@@ -80,38 +80,38 @@ $mod_strings = array(
     'LBL_SUBCATEGORY_VALUE' => 'උප ප්රවර්ගය:',
     'LBL_DOC_STATUS' => 'තත්වය:',
     'LBL_DET_TEMPLATE_TYPE' => 'ලිපි වර්ගය:',
-    'LBL_DOC_DESCRIPTION' => 'විස්තරය:',
+    'LBL_DOC_DESCRIPTION' => 'Description:',
     'LBL_DOC_ACTIVE_DATE' => 'දිනය ප්රකාශයට පත් කරනු ලබයි:',
     'LBL_DOC_EXP_DATE' => 'කල්පිරෙන දිනය:',
 
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'ලේඛන ලැයිස්තු',
     'LBL_LIST_DOCUMENT' => 'ලේඛන',
-    'LBL_LIST_CATEGORY' => 'වර්ගය',
-    'LBL_LIST_SUBCATEGORY' => 'උප ප්රවර්ගය',
-    'LBL_LIST_REVISION' => 'සංශෝධනය',
+    'LBL_LIST_CATEGORY' => 'ප්‍රවර්ගය',
+    'LBL_LIST_SUBCATEGORY' => 'Sub Category',
+    'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => 'විසින් පළ',
     'LBL_LIST_LAST_REV_DATE' => 'සංශෝධනය දිනය',
     'LBL_LIST_VIEW_DOCUMENT' => 'දැක්ම',
-    'LBL_LIST_ACTIVE_DATE' => 'දිනය ප්රකාශයට පත් කරනු ලබයි',
-    'LBL_LIST_EXP_DATE' => 'කල්පිරෙන දිනය',
-    'LBL_LIST_STATUS' => 'තත්වය',
+    'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
+    'LBL_LIST_EXP_DATE' => 'Expiration Date',
+    'LBL_LIST_STATUS' => 'තත්ත්වය',
 
     //document search form.
-    'LBL_SF_CATEGORY' => 'වර්ගය:',
-    'LBL_SF_SUBCATEGORY' => 'උප ප්රවර්ගය:',
+    'LBL_SF_CATEGORY' => 'Category:',
+    'LBL_SF_SUBCATEGORY' => 'Sub Category:',
 
     'DEF_CREATE_LOG' => 'ලේඛන නිර්මාණය',
 
     //error messages
-    'ERR_DOC_NAME' => 'ලේඛන නම',
-    'ERR_DOC_ACTIVE_DATE' => 'දිනය ප්රකාශයට පත් කරනු ලබයි',
+    'ERR_DOC_NAME' => 'Document Name',
+    'ERR_DOC_ACTIVE_DATE' => 'Publish Date',
     'ERR_FILENAME' => 'ගොනුවේ නම',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'ලේඛන නම',
+    'LBL_LIST_DOCUMENT_NAME' => 'Document Name',
 
     'LBL_EDIT_BUTTON' => 'සංස්කරණය ',
-    'LBL_REMOVE' => 'ඉවත් කරන්න',
+    'LBL_REMOVE' => ' ඉවත් කරන්න',
 
 );

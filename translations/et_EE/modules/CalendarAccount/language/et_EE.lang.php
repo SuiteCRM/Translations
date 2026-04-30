@@ -31,29 +31,29 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
     // System fields
-    'LBL_ASSIGNED_TO_ID' => 'Määratud kasutaja Id',
-    'LBL_ASSIGNED_TO_NAME' => 'Vastutaja',
-    'LBL_DATE_ENTERED' => 'Loomiskuupäev',
-    'LBL_DATE_MODIFIED' => 'Muutmiskuupäev',
-    'LBL_MODIFIED' => 'Muutja',
-    'LBL_MODIFIED_NAME' => 'Muutja nime järgi',
-    'LBL_CREATED' => 'Loodud',
-    'LBL_CREATED_USER' => 'Looja',
-    'LBL_MODIFIED_USER' => 'Muutja',
-    'LBL_DESCRIPTION' => 'Kirjeldus',
-    'LBL_DELETED' => 'Kustutatud',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
+    'LBL_DATE_ENTERED' => 'Date Created',
+    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_MODIFIED' => 'Modified By',
+    'LBL_MODIFIED_NAME' => 'Modified By Name',
+    'LBL_CREATED' => 'Created By',
+    'LBL_CREATED_USER' => 'Created by User',
+    'LBL_MODIFIED_USER' => 'Modified by User',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_DELETED' => 'Deleted',
 
     // Security groups
-    'LBL_SECURITYGROUPS' => 'Turvagrupid',
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Turvagrupid',
+    'LBL_SECURITYGROUPS' => 'Security Groups',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
 
     // List view labels
     'LBL_LIST_NAME' => 'Nimi',
-    'LBL_LIST_DELETE' => 'Kustuta',
-    'LBL_EDIT_BUTTON' => 'Redigeeri',
-    'LBL_REMOVE' => 'Eemalda',
-    'LBL_ASCENDING' => 'Kasvavalt',
-    'LBL_DESCENDING' => 'Kahanevalt',
+    'LBL_LIST_DELETE' => 'Delete',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
 
     // Email opt-in labels
     'LBL_OPT_IN' => 'Liitu kampaaniaga',
@@ -62,8 +62,8 @@ $mod_strings = [
     'LBL_OPT_IN_CONFIRMED' => 'Nõusolek antud',
 
     // Subpanel titles
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Vaata ajalugu',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Tegevused',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
 
@@ -93,7 +93,7 @@ $mod_strings = [
     // Standard fields
     'LBL_NAME' => 'Nimi',
     'LBL_ID' => 'ID',
-    'LBL_TYPE' => 'Tüüp',
+    'LBL_TYPE' => 'Type',
     'LBL_SOURCE' => 'Calendar Source',
 
     // OAuth2 Fields
@@ -101,8 +101,8 @@ $mod_strings = [
     'LBL_CONNECT_OAUTH' => 'Connect OAuth',
 
     // Basic Auth Fields
-    'LBL_USERNAME' => 'Kasutajanimi',
-    'LBL_PASSWORD' => 'Parool',
+    'LBL_USERNAME' => 'Username',
+    'LBL_PASSWORD' => 'Password',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test Connection',
 
@@ -162,12 +162,12 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Please select a calendar source first.',
 
     // Connection test messages
-    'LBL_CALENDAR' => 'Kalender',
-    'LBL_SUCCESSFUL' => 'Edukas',
-    'LBL_FAILED' => 'Ebaõnnestus',
+    'LBL_CALENDAR' => 'Calendar',
+    'LBL_SUCCESSFUL' => 'Successful',
+    'LBL_FAILED' => 'Failed',
     'LBL_CONNECTION_TEST' => 'Connection Test',
-    'LBL_YES' => 'Jah',
-    'LBL_NO' => 'Ei',
+    'LBL_YES' => 'Yes',
+    'LBL_NO' => 'No',
     'LBL_FOUND_CALENDARS' => 'Found {count} calendars.',
     'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'An error occurred while processing the connection test response. Please check the logs for details.',
     'LBL_CONNECTION_TEST_HTTP_ERROR' => 'Connection test failed with HTTP status',
@@ -182,14 +182,14 @@ $mod_strings = [
 
     // Dialog labels
     'LBL_NOTIFICATION' => 'Notification',
-    'LBL_CONFIRM' => 'Kinnita',
+    'LBL_CONFIRM' => 'Confirm',
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => 'Töös',
-    'LBL_SYNC_STATUS_SUCCESS' => 'Korras',
-    'LBL_SYNC_STATUS_WARNING' => 'Hoiatus',
-    'LBL_SYNC_STATUS_ERROR' => 'Hata:',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => 'In Progress',
+    'LBL_SYNC_STATUS_SUCCESS' => 'Success',
+    'LBL_SYNC_STATUS_WARNING' => 'Warning',
+    'LBL_SYNC_STATUS_ERROR' => 'Error',
 
     // Sync message enum translations
     'LBL_SYNC_MSG_SYNC_COMPLETE' => 'All meetings synced.',
@@ -202,5 +202,5 @@ $mod_strings = [
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Calendar not found.',
 
     // Relationship labels
-    'LBL_MEETINGS' => 'Vaata kohtumisi',
+    'LBL_MEETINGS' => 'Meetings',
 ];

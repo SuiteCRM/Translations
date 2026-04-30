@@ -50,13 +50,13 @@ $mod_strings = array(
     'LBL_DELETE_BUTTON_TITLE' => 'Delete this Saved Filter',
     'LBL_SAVE_BUTTON_TITLE' => 'שמירת חיפוש נוכחי',
     'LBL_LIST_NAME' => 'שם',
-    'LBL_LIST_MODULE' => 'מודל',
+    'LBL_LIST_MODULE' => 'Module',
     'LBL_ORDER_BY_COLUMNS' => 'Order by column:',
-    'LBL_DIRECTION' => 'הכוונה:',
+    'LBL_DIRECTION' => 'Direction:',
     'LBL_SAVE_SEARCH_AS' => 'Save filter as:',
-    'LBL_ASCENDING' => 'בסדר עולה',
-    'LBL_DESCENDING' => 'סדר יורד',
-    'LBL_MODIFY_CURRENT_FILTER' => 'עדכון חיפוש נוכחי',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
     'LBL_CREATED_BY' => 'נוצר ע"י',
 

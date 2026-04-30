@@ -45,28 +45,28 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_EDIT_LAYOUT' => 'Sunting Tata Letak',
     'LBL_EDIT_FIELDS' => 'Edit Custom Fields',
-    'LBL_SELECT_FILE' => 'Pilih File',
+    'LBL_SELECT_FILE' => 'Select File',
     'LBL_MODULE_TITLE' => 'Studio',
     'LBL_TOOLBOX' => 'Kotak Alat',
     'LBL_SUITE_FIELDS_STAGE' => 'SuiteCRM Fields (click items to add to staging area)',
     'LBL_VIEW_SUITE_FIELDS' => 'View SuiteCRM Fields',
-    'LBL_FAILED_TO_SAVE' => 'Gagal Menyimpan',
+    'LBL_FAILED_TO_SAVE' => 'Failed To Save',
     'LBL_CONFIRM_UNSAVE' => 'Setiap perubahan yang belum disimpan akan Hilang. Apakah Anda yakin ingin melanjutkan? ',
     'LBL_PUBLISHING' => 'Dipublish...',
-    'LBL_PUBLISHED' => 'Ditampilkan',
-    'LBL_FAILED_PUBLISHED' => 'Gagal untuk dipublish',
-    'LBL_DROP_HERE' => '[Drop Di sini]',
+    'LBL_PUBLISHED' => 'Published',
+    'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
+    'LBL_DROP_HERE' => '[Letakkan Disini]',
 
 //CUSTOM FIELDS
-    'LBL_NAME' => 'Nama',
+    'LBL_NAME' => 'Nama ',
     'LBL_LABEL' => 'Label',
-    'LBL_MASS_UPDATE' => 'Update Masal',
-    'LBL_DEFAULT_VALUE' => 'Nilai Default',
-    'LBL_REQUIRED' => 'Dibutuhkan',
-    'LBL_DATA_TYPE' => 'Tipe',
+    'LBL_MASS_UPDATE' => 'Mass Update',
+    'LBL_DEFAULT_VALUE' => 'Default Value',
+    'LBL_REQUIRED' => 'Wajib',
+    'LBL_DATA_TYPE' => 'Type',
 
 
-    'LBL_HISTORY' => 'Histori',
+    'LBL_HISTORY' => 'History',
 
 //WIZARDS
 
@@ -79,43 +79,43 @@ $mod_strings = array(
     'LBL_SW_EDIT_GROUPTABS' => 'Konfigurasi Grup Tabs',
     'LBL_SW_EDIT_PORTAL' => 'Edit Portal',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => 'Perbaikan Custom Fields',
-    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrasi Custom Fields',
+    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrate Custom Fields',
 
 // JS LABELS
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuild versi javascript dari file bahasa',
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Menghapus versi javascript dari file bahasa, akan di-rebuild jika diperlukan.',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuilds javascript versions of language files',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Removing javascript versions of language files, will rebuild when needed.',
 
 
 //Manager Backups History
-    'LBL_MB_DELETE' => 'Hapus',
+    'LBL_MB_DELETE' => 'Delete',
 
 //EDIT DROP DOWNS
     'LBL_ED_CREATE_DROPDOWN' => 'Buat Drop Down',
     'LBL_DROPDOWN_NAME' => 'Nama Dropdown:',
     'LBL_DROPDOWN_LANGUAGE' => 'Bahasa Dropdown:',
-    'LBL_TABGROUP_LANGUAGE' => 'Bahasa Grup Tab:',
+    'LBL_TABGROUP_LANGUAGE' => 'Language:',
 
 //END WIZARDS
 
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => 'Tampilkan Nilai',
     'LBL_DD_DATABASEVALUE' => 'Database Nilai',
-    'LBL_DD_ALL' => 'Semua',
+    'LBL_DD_ALL' => 'All',
 
 //BUTTONS
-    'LBL_BTN_SAVE' => 'Simpan [Alt+S]',
+    'LBL_BTN_SAVE' => 'Save',
     'LBL_BTN_CANCEL' => 'Batal',
-    'LBL_BTN_SAVEPUBLISH' => 'Simpan & Sebarkan',
-    'LBL_BTN_HISTORY' => 'Histori',
-    'LBL_BTN_ADDROWS' => 'Tambah Baris',
-    'LBL_BTN_UNDO' => 'Batal',
-    'LBL_BTN_REDO' => 'Kembalikan',
-    'LBL_BTN_ADDCUSTOMFIELD' => 'Tambah Bidang Kustom',
+    'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
+    'LBL_BTN_HISTORY' => 'History',
+    'LBL_BTN_ADDROWS' => 'Add Rows',
+    'LBL_BTN_UNDO' => 'Undo',
+    'LBL_BTN_REDO' => 'Redo',
+    'LBL_BTN_ADDCUSTOMFIELD' => 'Add Custom Field',
     'LBL_BTN_TABINDEX' => 'Edit Tabbing Order',
 
 //TABS
-    'LBL_MODULES' => 'Modul',
-    'LBL_MODULE_NAME' => 'Administrasi',
+    'LBL_MODULES' => 'Modules',
+    'LBL_MODULE_NAME' => 'Administration',
     'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
     'LBL_GROUP_TAB_WELCOME' => 'Tab dan grup subtab akan ditampilkan untuk pengguna yang memilih untuk melihat Group Modules pada panel navigasi. Drag and drop modul dari kotak Tab untuk mengubah subtabs yang muncul di bawah tab. Grup tab yang kosong tidak akan ditampilkan pada panel navigasi.',
     'LBL_RENAME_TAB_WELCOME' => 'Klik pada setiap Tab\'s Diplay value untuk mengubah nama tab. ',
@@ -123,24 +123,24 @@ $mod_strings = array(
     'LBL_TAB_GROUP_LANGUAGE_HELP' => 'Untuk set label Grup Tab untuk bahasa lainnya yang tersedia, pilih bahasa, edit label dan klik Save & Deploy untuk membuat perubahan bahasa tersebut.',
     'LBL_ADD_GROUP' => 'Tambah Filter',
     'LBL_NEW_GROUP' => 'Grup Baru',
-    'LBL_RENAME_TABS' => 'mengubah nama tab',
+    'LBL_RENAME_TABS' => 'Rename Modules',
 
 //ERRORS
-    'ERROR_INVALID_KEY_VALUE' => "Error: Nilai Tidak Valid: [&#39;]",
+    'ERROR_INVALID_KEY_VALUE' => "Error: Invalid Key Value: [']",
 
 //SUGAR PORTAL
-    'LBL_SAVE' => 'Simpan [Alt+S]' /*for 508 compliance fix*/,
-    'LBL_UNDO' => 'Batal' /*for 508 compliance fix*/,
-    'LBL_REDO' => 'Kembalikan' /*for 508 compliance fix*/,
+    'LBL_SAVE' => 'Save' /*for 508 compliance fix*/,
+    'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
+    'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Inline' /*for 508 compliance fix*/,
-    'LBL_DELETE' => 'Hapus' /*for 508 compliance fix*/,
-    'LBL_ADD_FIELD' => 'Tambah Field' /*for 508 compliance fix*/,
+    'LBL_DELETE' => 'Delete' /*for 508 compliance fix*/,
+    'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Maksimalkan' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Minimalkan' /*for 508 compliance fix*/,
-    'LBL_PUBLISH' => 'Mempublikasi' /*for 508 compliance fix*/,
-    'LBL_ADDROWS' => 'Tambah Baris' /*for 508 compliance fix*/,
-    'LBL_ADDFIELD' => 'Tambah Field' /*for 508 compliance fix*/,
-    'LBL_EDIT' => 'Ubah' /*for 508 compliance fix*/,
+    'LBL_PUBLISH' => 'Publish' /*for 508 compliance fix*/,
+    'LBL_ADDROWS' => 'Add Rows' /*for 508 compliance fix*/,
+    'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
+    'LBL_EDIT' => 'Sunting' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Pilih bahasa yang akan diedit.',
     'LBL_SINGULAR' => 'Singular Label',

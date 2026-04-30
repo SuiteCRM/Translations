@@ -39,7 +39,7 @@
  */
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID'                                                               => 'معرف المستخدم المكلف',
+    'LBL_ASSIGNED_TO_ID'                                                               => 'معرف المستخدم المُكلف',
     'LBL_ASSIGNED_TO_NAME'                                                             => 'أُسند إلى',
     'LBL_SECURITYGROUPS'                                                               => 'المجموعات الأمنية',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE'                                                => 'المجموعات الأمنية',
@@ -48,13 +48,13 @@ $mod_strings = array(
     'LBL_DATE_MODIFIED'                                                                => 'تاريخ التعديل',
     'LBL_MODIFIED'                                                                     => 'عُدل بواسطة',
     'LBL_MODIFIED_ID'                                                                  => 'عدل بواسطة المعرف',
-    'LBL_MODIFIED_NAME'                                                                => 'اسم من قام بالتعديل',
+    'LBL_MODIFIED_NAME'                                                                => 'قام بالتعديل',
     'LBL_CREATED'                                                                      => 'أنشئ بواسطة',
     'LBL_CREATED_ID'                                                                   => 'أنشئ بواسطة المعرف',
     'LBL_DESCRIPTION'                                                                  => 'الوصف',
     'LBL_DELETED'                                                                      => 'محذوف',
     'LBL_NAME'                                                                         => 'الاسم',
-    'LBL_CREATED_USER'                                                                 => 'أنشئ بواسطة المستخدم',
+    'LBL_CREATED_USER'                                                                 => 'تم الإنشاء بواسطة المستخدم',
     'LBL_MODIFIED_USER'                                                                => 'عُدل بواسطة المستخدم',
     'LBL_LIST_NAME'                                                                    => 'الاسم',
     'LBL_EDIT_BUTTON'                                                                  => 'حرر',
@@ -75,7 +75,7 @@ $mod_strings = array(
     'LBL_TYPE'                                                                         => 'النوع',
     'LBL_HAPPINESS_QUESTION'                                                           => 'سؤال السعادة',
     'LBL_SURVEYS_SURVEYQUESTIONS_FROM_SURVEYS_TITLE'                                   => 'الاستطلاعات',
-    'LBL_SURVEYQUESTIONS_SURVEYQUESTIONRESPONSES_FROM_SURVEYQUESTIONRESPONSES_TITLE'   => 'ردود أسئلة الاستطلاع',
-    'LBL_SURVEYQUESTIONS_SURVEYQUESTIONRESPONSES_1_FROM_SURVEYQUESTIONRESPONSES_TITLE' => 'ردود أسئلة الاستطلاع',
+    'LBL_SURVEYQUESTIONS_SURVEYQUESTIONRESPONSES_FROM_SURVEYQUESTIONRESPONSES_TITLE'   => 'أجوبة أسئلة الاستطلاع',
+    'LBL_SURVEYQUESTIONS_SURVEYQUESTIONRESPONSES_1_FROM_SURVEYQUESTIONRESPONSES_TITLE' => 'أجوبة أسئلة الاستطلاع',
     'LBL_SURVEYQUESTIONS_SURVEYQUESTIONOPTIONS_FROM_SURVEYQUESTIONOPTIONS_TITLE'       => 'خيارات أسئلة الاستطلاع',
 );

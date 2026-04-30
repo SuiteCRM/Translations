@@ -52,12 +52,12 @@ $mod_strings = [
     'LBL_MODIFIED' => 'Zmenil',
     'LBL_MODIFIED_NAME' => 'Zmenil podľa mena',
     'LBL_CREATED' => 'Vytvoril:',
-    'LBL_DESCRIPTION' => 'Popis',
+    'LBL_DESCRIPTION' => 'Popis:',
     'LBL_DELETED' => 'Vymazaný',
-    'LBL_NAME' => 'Názov',
+    'LBL_NAME' => 'Meno:',
     'LBL_CREATED_USER' => 'Vytvorené užívateľom',
     'LBL_MODIFIED_USER' => 'Zmenil užívateľ',
-    'LBL_LIST_NAME' => 'Názov',
+    'LBL_LIST_NAME' => 'Meno',
     'LBL_EDIT_BUTTON' => 'Upraviť',
     'LBL_REMOVE' => 'Odstrániť',
     'LBL_LIST_FORM_TITLE' => 'External OAuth Provider List',
@@ -97,7 +97,7 @@ $mod_strings = [
 
     'LBL_EXTRA' => 'Extra configurations',
     'LBL_MAPPING' => 'Mapping configurations',
-    'LBL_OTHER' => 'Iný',
+    'LBL_OTHER' => 'Ostatní',
 
 
     'LNK_LIST_CREATE_NEW_PERSONAL' => 'New Personal OAuth Provider',

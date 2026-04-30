@@ -44,13 +44,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     //Column header mapping
-    'action' => 'Veprim',
-    'date_modified' => 'Data e veprimit të fundit',
+    'action' => 'Action',
+    'date_modified' => 'Date of Last Action',
     'item_id' => 'ID',
-    'item_summary' => 'Emri',
-    'module_name' => 'Emri i modulës',
-    'users' => 'përdoruesit',
+    'item_summary' => 'Name',
+    'module_name' => 'Module Name',
+    'users' => 'Users',
 
     //Administration related labels
-    'LBL_MODULE_NAME' => 'Gjurmuesit',
+    'LBL_MODULE_NAME' => 'Trackers',
 );

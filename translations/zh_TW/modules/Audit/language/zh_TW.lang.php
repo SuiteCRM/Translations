@@ -49,5 +49,5 @@ $mod_strings = array(
     'LBL_CREATED_BY' => '更改人',
     'LBL_LIST_DATE' => '更改日期',
     'LBL_AUDITED_FIELDS' => '該模組所審計的欄位: ',
-    'LBL_CHANGE_LOG' => '修改日誌',
+    'LBL_CHANGE_LOG' => '更改日誌',
 );

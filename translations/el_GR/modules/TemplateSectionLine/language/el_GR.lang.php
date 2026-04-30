@@ -47,8 +47,8 @@ $mod_strings = array(
     'LBL_NAME' => 'Όνομα',
     'LBL_LIST_NAME' => 'Όνομα',
     'LBL_EDIT_BUTTON' => 'Επεξεργασία',
-    'LBL_REMOVE' => 'Αφαίρεση',
-    'LBL_GRP' => 'Ομάδα χρήστη',
-    'LBL_ORD' => 'Ιεραρχία',
+    'LBL_REMOVE' => 'Remove',
+    'LBL_GRP' => 'Γκρουπ',
+    'LBL_ORD' => 'Σειρά',
     'LBL_THUMBNAIL' => 'Thumbnail',
 );

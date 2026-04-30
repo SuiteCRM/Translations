@@ -73,7 +73,7 @@ $mod_strings = [
     'LBL_OAUTH2_GRANT_USER_DATA_ACCESS' => 'Personal user data',
     'LBL_OAUTH2_GRANT_USER_DATA_ACCESS_DESC' => 'Grants access to personal user data such as name and email address',
     'LBL_OAUTH_AUTHORIZING_WILL_REDIRECT' => 'Authorizing will redirect to:',
-    'LBL_OAUTH_NOTE' => 'Ghi chú:',
+    'LBL_OAUTH_NOTE' => 'Note:',
     'LBL_OAUTH_CLIENT_INFO_DESCRIPTION' => 'wants to access your account',
     'LBL_OAUTH_CLIENT_INFO' => 'Client Information',
 ];

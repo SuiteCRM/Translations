@@ -54,7 +54,7 @@ $mod_strings = array(
     'LBL_NAME' => 'Nama',
     'LBL_CREATED_USER' => 'Dibuat oleh Pemakai',
     'LBL_MODIFIED_USER' => 'Modifikasi oleh Pemakai',
-    'LBL_LIST_NAME' => 'Nama',
+    'LBL_LIST_NAME' => 'Nama ',
     'LBL_EDIT_BUTTON' => 'Ubah',
     'LBL_REMOVE' => 'Menghapus',
 

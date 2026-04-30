@@ -46,6 +46,6 @@ $connector_strings = array(
     //Vardef labels
     'LBL_LICENSING_INFO' => '<table border="0" cellspacing="1"><tr><th valign="top" width="35%" class="dataLabel">Informação da aplicação Twitter </th></tr> <tr><td width="35%" class="dataLabel">Terá de criar uma conta e aplicação Twitter Developer. <a href=https://dev.twitter.com/> Registe-se aqui</a></td></tr></table>',
     //Configuration labels
-    'consumer_key' => 'Chave do cliente',
-    'consumer_secret' => 'Chave secreta do cliente',
+    'consumer_key' => 'Chave do consumidor',
+    'consumer_secret' => 'Chave secreta do consumidor',
 );

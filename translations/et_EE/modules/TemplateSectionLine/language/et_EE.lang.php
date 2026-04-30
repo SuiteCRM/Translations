@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_DESCRIPTION' => 'Kirjeldus',
+    'LBL_DESCRIPTION' => 'Description',
     'LBL_NAME' => 'Nimi',
     'LBL_LIST_NAME' => 'Nimi',
-    'LBL_EDIT_BUTTON' => 'Redigeeri',
-    'LBL_REMOVE' => 'Eemalda',
-    'LBL_GRP' => 'Grupp',
-    'LBL_ORD' => 'Tellimus',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
+    'LBL_GRP' => 'Group',
+    'LBL_ORD' => 'Order',
     'LBL_THUMBNAIL' => 'Pisipilt',
 );

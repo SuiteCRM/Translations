@@ -63,7 +63,7 @@ $mod_strings = array(
     'LBL_MASS_UPDATE' => 'Masovno ažuriranje',
     'LBL_DEFAULT_VALUE' => 'Zadana vrijednost',
     'LBL_REQUIRED' => 'Obavezno',
-    'LBL_DATA_TYPE' => 'Tip',
+    'LBL_DATA_TYPE' => 'Vrsta',
 
 
     'LBL_HISTORY' => 'Historija',

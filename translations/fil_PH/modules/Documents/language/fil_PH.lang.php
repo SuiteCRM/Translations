@@ -46,19 +46,19 @@ $mod_strings = array(
     //module
     'LBL_MODULE_NAME' => 'Mga dokumento',
     'LBL_MODULE_TITLE' => 'Mga dokumento: Home',
-    'LNK_NEW_DOCUMENT' => 'Lumikha ng Dokumento',
+    'LNK_NEW_DOCUMENT' => 'Maglikha ng Dokumento',
     'LNK_DOCUMENT_LIST' => 'Tingnan ang mga dokumento',
     'LBL_DOC_REV_HEADER' => 'Rebisyon ng mga dokumento',
     'LBL_SEARCH_FORM_TITLE' => 'Paghahanap ng dokumento',
     //vardef labels
     'LBL_NAME' => 'Pangalan ng dokumento',
-    'LBL_DESCRIPTION' => 'Paglalarawan',
+    'LBL_DESCRIPTION' => 'Ang deskripsyon',
     'LBL_CATEGORY' => 'Kategorya',
     'LBL_SUBCATEGORY' => 'Sub katergorya',
-    'LBL_STATUS' => 'Ang Katayuan',
+    'LBL_STATUS' => 'Katayuan',
     'LBL_CREATED_BY' => 'Inilikha sa pamamagitan ng',
     'LBL_DATE_ENTERED' => 'Ang petsa ng pagkakalikha',
-    'LBL_DATE_MODIFIED' => 'Ang petsa ng pagkabago',
+    'LBL_DATE_MODIFIED' => 'Ang petsa ng pagbago',
     'LBL_DELETED' => 'Ang pagkabura',
     'LBL_MODIFIED' => 'Tukuyin sa pamamagitan ng ID',
     'LBL_MODIFIED_USER' => 'Binago ni',
@@ -73,11 +73,11 @@ $mod_strings = array(
     'LBL_MIME' => 'Uri ng Mime',
     'LBL_REVISION' => 'Rebisyon',
     'LBL_DOCUMENT' => 'Kaugnay na dokumento',
-    'LBL_LATEST_REVISION' => 'Pinakamabagong rebisyon',
+    'LBL_LATEST_REVISION' => 'Pinakabagong rebisyon',
     'LBL_CHANGE_LOG' => 'Baguhin ang log',
     'LBL_ACTIVE_DATE' => 'Ilathala ang petsa',
     'LBL_EXPIRATION_DATE' => 'Petsa ng pagkawalang-bisa',
-    'LBL_FILE_EXTENSION' => 'Extensyon ng File',
+    'LBL_FILE_EXTENSION' => 'Ekstensyon ng File',
     'LBL_LAST_REV_MIME_TYPE' => 'Huling rebisyon ng uri ng MIME',
     'LBL_CAT_OR_SUBCAT_UNSPEC' => 'Hindi natukoy',
     'LBL_HOMEPAGE_TITLE' => 'Ang aking mga dokumento',
@@ -103,21 +103,21 @@ $mod_strings = array(
     'LBL_DET_RELATED_DOCUMENT_VERSION' => "Rebisyon nauugnay sa dokumento:",
     'LBL_DET_IS_TEMPLATE' => 'Template? :',
     'LBL_DET_TEMPLATE_TYPE' => 'Uri ng dokumento:',
-    'LBL_DOC_DESCRIPTION' => 'Ang deskripsyon:',
-    'LBL_DOC_ACTIVE_DATE' => 'Petsa na nailathala:',
+    'LBL_DOC_DESCRIPTION' => 'Deskripsyon:',
+    'LBL_DOC_ACTIVE_DATE' => 'Petsa ng paglathala:',
     'LBL_DOC_EXP_DATE' => 'Petsa ng pagkawalang-bisa:',
 
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'Listahan ng dokumento',
     'LBL_LIST_DOCUMENT' => 'Dokumento',
-    'LBL_LIST_SUBCATEGORY' => 'Sub katergorya',
+    'LBL_LIST_SUBCATEGORY' => 'Sub Kategorya',
     'LBL_LIST_REVISION' => 'Rebisyon',
-    'LBL_LIST_LAST_REV_CREATOR' => 'Petsa na nailathala',
+    'LBL_LIST_LAST_REV_CREATOR' => 'Inilathala Ni',
     'LBL_LIST_LAST_REV_DATE' => 'Petsa ng rebisyon',
     'LBL_LIST_VIEW_DOCUMENT' => 'Tingnan',
-    'LBL_LIST_ACTIVE_DATE' => 'Ilathala ang petsa',
+    'LBL_LIST_ACTIVE_DATE' => 'Petsa ng paglathala',
     'LBL_LIST_EXP_DATE' => 'Petsa ng pagkawalang-bisa',
-    'LBL_LIST_STATUS' => 'Ang Katayuan',
+    'LBL_LIST_STATUS' => 'Estado',
     'LBL_LINKED_ID' => 'Naka-link na Id',
     'LBL_SELECTED_REVISION_ID' => 'Id ng napiling rebisyon',
     'LBL_LATEST_REVISION_ID' => 'Id ng pinakamabagong rebisyon',
@@ -126,9 +126,9 @@ $mod_strings = array(
 
     //document search form.
     'LBL_SF_CATEGORY' => 'Kategorya:',
-    'LBL_SF_SUBCATEGORY' => 'Sub Kategorya:',
+    'LBL_SF_SUBCATEGORY' => 'Sub kategorya:',
 
-    'DEF_CREATE_LOG' => 'Nilikhang dokumento',
+    'DEF_CREATE_LOG' => 'Nailikha na ang Dokumento',
 
     //error messages
     'ERR_DOC_NAME' => 'Pangalan ng dokumento',
@@ -141,13 +141,13 @@ $mod_strings = array(
     'ERR_MISSING_FILE' => 'Itong dokumento ay nawala ang isang file, malamang dahil sa isang error sa panahon ng pag-upload. Mangyaring subukan ulit sa pag-upload ng file o  kontakin ang iyong tagapangasiwa.',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'Ang Pangalan',
+    'LBL_LIST_DOCUMENT_NAME' => 'Ang pangalan',
     'LBL_LIST_IS_TEMPLATE' => 'Template?',
     'LBL_LIST_TEMPLATE_TYPE' => 'Uri ng dokumento',
     'LBL_LAST_REV_CREATE_DATE' => 'Huling rebisyon sa petsa ng paglikha',
     'LBL_CONTRACTS' => 'Mga kontrata',
     'LBL_CREATED_USER' => 'Nilikha ng gumagamit',
-    'LBL_DOCUMENT_INFORMATION' => 'Buod', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_DOCUMENT_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_DOC_ID' => 'ID ng dokumentong pinagkukunan',
     'LBL_DOC_TYPE' => 'Pinagkukunan',
     'LBL_DOC_TYPE_POPUP' => 'Piliin ang pinagmukanan kung alin dokumentong ito ay ma i-upload<br> at mula saan ito magagamit.',

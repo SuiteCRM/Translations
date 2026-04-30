@@ -43,15 +43,15 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Rol',
-    'LBL_NAME' => 'Izena',
-    'LBL_DESCRIPTION' => 'Deskribapena',
+    'LBL_ROLE' => 'Role',
+    'LBL_NAME' => 'Name',
+    'LBL_DESCRIPTION' => 'Description',
     'LIST_ROLES' => 'Rolak zerredatu',
-    'LBL_USERS_SUBPANEL_TITLE' => 'Erabiltzaileak',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
     'LIST_ROLES_BY_USER' => 'Rolak Erabiltzaileen arabera zerrendatu',
     'LBL_ROLES_SUBPANEL_TITLE' => 'Erabiltzaile-rolak',
-    'LBL_SEARCH_FORM_TITLE' => 'Bilaketa',
-    'LBL_NO_ACCESS' => 'Ez duzu baimenik eremu honetan sartzeko. Mesedez, jarri harremanetan zure web gunearen administratzailearekin sarbidea izan beharko zenukeela uste baduzu.',
+    'LBL_SEARCH_FORM_TITLE' => 'Search',
+    'LBL_NO_ACCESS' => 'You do not have access to this area. Contact your site administrator to obtain access.',
     'LBL_REDIRECT_TO_HOME' => 'Redirect to Home in',
     'LBL_SECONDS' => 'segunduak',
     'LBL_ADDING' => 'Adding for ',

@@ -56,8 +56,8 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Användare:',
     'LBL_RATING' => 'Värdering',
     'LBL_ASSIGNED_TO' => 'Tilldelad till:',
-    'LBL_ASSIGNED_USER' => 'Tilldelad till:',
-    'LBL_ASSIGNED_TO_ID' => 'Tilldelad till:',
+    'LBL_ASSIGNED_USER' => 'Assigned to:',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned to:',
     'LBL_BILLING_ADDRESS_CITY' => 'Fakturaadress ort:',
     'LBL_BILLING_ADDRESS_COUNTRY' => 'Fakturaadress land:',
     'LBL_BILLING_ADDRESS_POSTALCODE' => 'Fakturaadress postnummer:',
@@ -97,7 +97,7 @@ $mod_strings = array(
     'LBL_PHONE_FAX' => 'Telefon fax:',
     'LBL_PHONE_OFFICE' => 'Kontorstelefon:',
     'LBL_PHONE' => 'Telefon:',
-    'LBL_EMAIL_ADDRESS' => 'E-postadress',
+    'LBL_EMAIL_ADDRESS' => 'Email Address',
     'LBL_EMAIL_ADDRESSES' => 'E-postadress(er)',
     'LBL_POSTAL_CODE' => 'Postnummer:',
     'LBL_SAVE_ACCOUNT' => 'Spara företag',
@@ -116,7 +116,7 @@ $mod_strings = array(
     'LBL_TYPE' => 'Typ:',
     'LBL_WEBSITE' => 'Hemsida:',
 
-    'LNK_ACCOUNT_LIST' => 'Företag',
+    'LNK_ACCOUNT_LIST' => 'Konton',
     'LNK_NEW_ACCOUNT' => 'Skapa företag',
 
     'MSG_DUPLICATE' => 'Skapande av detta företag kan möjligen generera en dublett av ett redan existerande företag. Du kan antingen välja ett företag från listan nedan eller klicka på Skapa företag för att fortsätta skapandet av ett nytt företag med den tidigare angivna informationen.',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'Är du säker på att du vill ta bort posten?',
 
     'LBL_EDIT_BUTTON' => 'Redigera',
-    'LBL_REMOVE' => 'Ta bort',
+    'LBL_REMOVE' => 'Remove',
 
 );

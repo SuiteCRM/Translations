@@ -54,9 +54,9 @@ $mod_strings = array(
     'LBL_JOIN_TABLE' => 'Име на Join Table',
     'LBL_JOIN_KEY_LHS' => 'Join Key LHS',
     'LBL_JOIN_KEY_RHS' => 'Join Key RHS',
-    'LBL_RELATIONSHIP_TYPE' => 'Тип връзка',
+    'LBL_RELATIONSHIP_TYPE' => 'Relationship Type',
     'LBL_RELATIONSHIP_ROLE_COLUMN' => 'Име на колона',
     'LBL_RELATIONSHIP_ROLE_COLUMN_VALUE' => 'Стойност на колона',
     'LBL_REVERSE' => 'Reverse',
-    'LBL_DELETED' => 'Изтрити',
+    'LBL_DELETED' => 'Deleted',
 );

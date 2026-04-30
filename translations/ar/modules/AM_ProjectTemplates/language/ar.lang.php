@@ -43,17 +43,17 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'معرف المستخدم المكلف',
+    'LBL_ASSIGNED_TO_ID' => 'معرف المستخدم المُكلف',
     'LBL_ASSIGNED_TO_NAME' => 'مدير المشروع',
     'LBL_ID' => 'المُعرف',
     'LBL_DATE_ENTERED' => 'تاريخ الإنشاء',
     'LBL_DATE_MODIFIED' => 'تاريخ التعديل',
     'LBL_MODIFIED' => 'عُدل بواسطة',
-    'LBL_MODIFIED_NAME' => 'اسم من قام بالتعديل',
+    'LBL_MODIFIED_NAME' => 'قام بالتعديل',
     'LBL_CREATED' => 'أنشئ بواسطة',
     'LBL_DELETED' => 'محذوف',
     'LBL_NAME' => 'اسم القالب',
-    'LBL_CREATED_USER' => 'أنشئ بواسطة المستخدم',
+    'LBL_CREATED_USER' => 'تم الإنشاء بواسطة المستخدم',
     'LBL_MODIFIED_USER' => 'عُدل بواسطة المستخدم',
     'LBL_LIST_NAME' => 'الاسم',
     'LBL_EDIT_BUTTON' => 'حرر',
@@ -76,7 +76,7 @@ $mod_strings = array(
     'LBL_CREATE_PROJECT_TITLE' => 'إنشاء مشروع جديد من هذا القالب؟',
     'LBL_AM_TASKTEMPLATES_AM_PROJECTTEMPLATES_FROM_AM_TASKTEMPLATES_TITLE' => 'قوالب المهام',
     'LBL_AM_PROJECTTEMPLATES_USERS_1_TITLE' => 'المستخدمون',
-    'LBL_AM_PROJECTTEMPLATES_CONTACTS_1_TITLE' => 'جهات الإتصال',
+    'LBL_AM_PROJECTTEMPLATES_CONTACTS_1_TITLE' => 'جهات الاتصال',
     'LBL_AM_PROJECTTEMPLATES_RESOURCES_TITLE' => 'اختر الموارد',
     'LBL_NEW_PROJECT_CREATED' => 'تم إنشاء مشروع جديد',
     'LBL_NEW_PROJECT' => 'إنشاء مشروع',
@@ -122,7 +122,7 @@ $mod_strings = array(
     'LBL_TOOLTIP_TITLE' => 'تلميح',
     'LBL_TOOLTIP_TEXT' => 'نسخ كافة المهام مع المستخدمين المكلفين',
 
-    'LBL_EMAIL' => 'البريد الالكتروني',
+    'LBL_EMAIL' => 'بريد إلكتروني',
     'LBL_PHONE' => 'هاتف المكتب:',
     'LBL_ADD_BUTTON' => 'إضافة',
     'LBL_ADD_INVITEE' => 'إضافة مورد',

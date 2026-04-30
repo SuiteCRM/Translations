@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_NAME' => 'Työn nimi',
-    'LBL_EXECUTE_TIME' => 'Suoritusaika',
-    'LBL_SCHEDULER_ID' => 'Ajastin',
+    'LBL_NAME' => 'Job Name',
+    'LBL_EXECUTE_TIME' => 'Execute Time',
+    'LBL_SCHEDULER_ID' => 'Scheduler',
     'LBL_STATUS' => 'Työn tila',
-    'LBL_RESOLUTION' => 'Tulos',
+    'LBL_RESOLUTION' => 'Result',
     'LBL_MESSAGE' => 'Viestit',
     'LBL_DATA' => 'Job Data',
     'LBL_REQUEUE' => 'Yritä uudelleen epäonnistuessa',

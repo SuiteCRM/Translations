@@ -48,9 +48,9 @@ $mod_strings = [
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Güvenlik grupları',
 
     // List view labels
-    'LBL_LIST_NAME' => 'Ad',
+    'LBL_LIST_NAME' => 'Paket Adı:',
     'LBL_LIST_DELETE' => 'Sil',
-    'LBL_EDIT_BUTTON' => 'Düzenle',
+    'LBL_EDIT_BUTTON' => 'Değiştir',
     'LBL_REMOVE' => 'Sil',
     'LBL_ASCENDING' => 'Artan',
     'LBL_DESCENDING' => 'Azalan',
@@ -63,7 +63,7 @@ $mod_strings = [
 
     // Subpanel titles
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Geçmişi görüntüle',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'İşlemler',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Etkinlikler',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Takvim hesapları',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Eşitlenmiş toplantılar',
 
@@ -91,7 +91,7 @@ $mod_strings = [
     'LNK_LIST' => 'Takvim hesaplarını görüntüle',
 
     // Standard fields
-    'LBL_NAME' => 'Ad',
+    'LBL_NAME' => 'İsim',
     'LBL_ID' => 'Kimlik',
     'LBL_TYPE' => 'Tür',
     'LBL_SOURCE' => 'Takvim kaynağı',
@@ -102,7 +102,7 @@ $mod_strings = [
 
     // Basic Auth Fields
     'LBL_USERNAME' => 'Kullanıcı adı',
-    'LBL_PASSWORD' => 'Parola',
+    'LBL_PASSWORD' => 'Şifre',
     'LBL_SERVER_URL' => 'Sunucu adresi',
     'LBL_TEST_CONNECTION' => 'Bağlantıyı sına',
 
@@ -162,7 +162,7 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Lütfen önce bir takvim kaynağı seçin.',
 
     // Connection test messages
-    'LBL_CALENDAR' => 'Takvim',
+    'LBL_CALENDAR' => 'Calendar',
     'LBL_SUCCESSFUL' => 'Tamamlandı',
     'LBL_FAILED' => 'Tamamlanamadı',
     'LBL_CONNECTION_TEST' => 'Bağlantı sınaması',
@@ -182,14 +182,14 @@ $mod_strings = [
 
     // Dialog labels
     'LBL_NOTIFICATION' => 'Bildirim',
-    'LBL_CONFIRM' => 'Onayla',
+    'LBL_CONFIRM' => 'Confirm',
     'LBL_ARE_YOU_SURE' => 'Emin misiniz?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => 'İşleniyor',
-    'LBL_SYNC_STATUS_SUCCESS' => 'Başarılı',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => 'Sürüyor',
+    'LBL_SYNC_STATUS_SUCCESS' => 'Success',
     'LBL_SYNC_STATUS_WARNING' => 'Uyarı',
-    'LBL_SYNC_STATUS_ERROR' => 'Hata',
+    'LBL_SYNC_STATUS_ERROR' => 'Hata:',
 
     // Sync message enum translations
     'LBL_SYNC_MSG_SYNC_COMPLETE' => 'Tüm toplantılar eşitlenmiş.',

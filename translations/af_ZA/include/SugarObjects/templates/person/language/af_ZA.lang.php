@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_SALUTATION' => 'Salutation',
-    'LBL_NAME' => 'Naam',
+    'LBL_NAME' => 'Name',
     'LBL_FIRST_NAME' => 'First Name',
     'LBL_LAST_NAME' => 'Van',
     'LBL_TITLE' => 'Titel',
@@ -81,7 +81,7 @@ $mod_strings = array(
     'LBL_COUNTRY' => 'Country',
     'LBL_CONTACT_INFORMATION' => 'Contact Information',
     'LBL_ADDRESS_INFORMATION' => 'Address(es)',
-    'LBL_ASSIGNED_TO_NAME' => 'Gebruiker',
+    'LBL_ASSIGNED_TO_NAME' => 'User',
     'LBL_OTHER_EMAIL_ADDRESS' => 'Other Email:',
     'LBL_ASSISTANT' => 'Assistant',
     'LBL_ASSISTANT_PHONE' => 'Assistant Phone',
@@ -90,8 +90,8 @@ $mod_strings = array(
     'LBL_ANY_EMAIL' => 'Any Email',
     'LBL_EMAIL_NON_PRIMARY' => 'Non Primary E-mails',
     'LBL_PHOTO' => 'Photo',
-    'LBL_EDIT_BUTTON' => 'Wysig',
-    'LBL_REMOVE' => 'Verwyder',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
 
     //Lawful Basis labels
     'LBL_LAWFUL_BASIS' => 'Lawful Basis',

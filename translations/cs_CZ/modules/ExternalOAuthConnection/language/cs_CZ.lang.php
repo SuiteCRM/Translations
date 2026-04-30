@@ -54,12 +54,12 @@ $mod_strings = [
     'LBL_CREATED' => 'Vytvořeno',
     'LBL_DESCRIPTION' => 'Popis',
     'LBL_DELETED' => 'Vymazáno',
-    'LBL_NAME' => 'Jméno',
-    'LBL_CREATED_USER' => 'Vytvořeno uživatelem',
+    'LBL_NAME' => 'Název',
+    'LBL_CREATED_USER' => 'Vytvořeno dle Uživatele',
     'LBL_MODIFIED_USER' => 'Změněno Uživatelem',
-    'LBL_LIST_NAME' => 'Jméno',
+    'LBL_LIST_NAME' => 'Název',
     'LBL_EDIT_BUTTON' => 'Upravit',
-    'LBL_REMOVE' => 'Odebrat',
+    'LBL_REMOVE' => 'Odstranit',
     'LBL_LIST_FORM_TITLE' => 'External OAuth Connection List',
     'LBL_MODULE_NAME' => 'External OAuth Connections',
     'LBL_MODULE_TITLE' => 'External OAuth Connections',
@@ -68,7 +68,7 @@ $mod_strings = [
 
     'LNK_LIST' => 'External OAuth Connections',
     'LBL_SEARCH_FORM_TITLE' => 'Search External OAuth Connections',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Historie',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Zobrazit historii',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktivity',
     'LBL_NEW_FORM_TITLE' => 'New External OAuth Connection',
 
@@ -96,5 +96,5 @@ $mod_strings = [
     'LNK_LIST_OUTBOUND_EMAILS' => 'Odchozí e-mailové účty',
     'LNK_LIST_EXTERNAL_OAUTH_PROVIDERS' => 'External OAuth Providers',
 
-    'LBL_OWNER' => 'Majitel',
+    'LBL_OWNER' => 'Owner',
 ];

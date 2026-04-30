@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Liste der Zusammenführungen ',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Datensätze für die Zusammenführung finden',
-    'LBL_AVAIL_FIELDS' => 'Verfügbare Felder',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'Filterbedingungen',
     'LBL_MERGE_VALUE_OVER' => 'Führe Werte zusammen über',
 
@@ -58,15 +58,15 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Zusammenführung durchführen',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Zusammenführung durchführen',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Zusammenführung speichern',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Zusammenführung speichern',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => 'Gefundene Datensätze für die Zusammenführung',
     'LBL_SELECT_ERROR' => 'Sie müssen eine Auswahl treffen, bevor Sie fortfahren können.',
     'LBL_CHANGE_PARENT' => 'Als primär setzen',
-    'LBL_REMOVE_FROM_MERGE' => 'Entfernen',
+    'LBL_REMOVE_FROM_MERGE' => 'Löschen',
     'LBL_DIFF_COL_VALUES' => 'Spalten, deren Werte sich in den primären Zeilen von den Werten in den zusammenzuführenden Zeilen unterscheiden:',
     'LBL_SAME_COL_VALUES' => 'Spalten mit gleichem Wert in allen Zeilen:',
     'LBL_DELETE_MESSAGE' => 'Diese Aktion wird folgende Einträge löschen:',

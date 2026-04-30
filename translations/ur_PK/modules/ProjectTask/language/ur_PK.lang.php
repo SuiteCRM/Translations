@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'منصوبے کے کام',
+    'LBL_MODULE_NAME' => 'Project Tasks',
     'LBL_MODULE_TITLE' => 'Project Task: Home',
 
     'LBL_ID' => 'Id:',
@@ -82,7 +82,7 @@ $mod_strings = array(
     'LBL_IMPORT_PROJECT_TASKS' => 'Import Project Tasks',
 
     'LBL_LIST_NAME' => 'نام',
-    'LBL_LIST_PARENT_NAME' => 'منصوبہ',
+    'LBL_LIST_PARENT_NAME' => 'Project',
     'LBL_SEARCH_FORM_TITLE' => 'Project Task Search',
     'LBL_LIST_PERCENT_COMPLETE' => '% مکمل',
     'LBL_LIST_STATUS' => 'حیثیت',
@@ -96,19 +96,19 @@ $mod_strings = array(
     'LNK_NEW_PROJECT' => 'منصوبہ بنائیں',
     'LNK_PROJECT_LIST' => 'Project List',
     'LNK_NEW_PROJECT_TASK' => 'Create Project Task',
-    'LNK_PROJECT_TASK_LIST' => 'منصوبے کے کام',
+    'LNK_PROJECT_TASK_LIST' => 'Project Tasks',
 
     'LBL_LIST_MY_PROJECT_TASKS' => 'My Project Tasks',
-    'LBL_DEFAULT_SUBPANEL_TITLE' => 'منصوبے کے کام',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Project Tasks',
     'LBL_NEW_FORM_TITLE' => 'New Project Task',
 
     'LBL_HISTORY_TITLE' => 'تاریخ',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'سرگرمیاں',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'تاریخ',
 
     'LBL_ASSIGNED_USER_NAME' => 'مقرر کرنا',
     'LBL_PARENT_NAME' => 'پروجیکٹ کا نام',
-    'LBL_EDITLAYOUT' => 'لے آؤٹ میں ترمیم کریں' /*for 508 compliance fix*/,
+    'LBL_EDITLAYOUT' => 'لے آوٹ میں تبدیل کرنا' /*for 508 compliance fix*/,
     'LBL_PANEL_TIMELINE' => 'Timeline',
 
     'LBL_SUBTASK' => 'Sub-Task',

@@ -44,18 +44,18 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
 
-    'LBL_ASSIGNED_TO_ID' => 'معرف المستخدم المكلف',
+    'LBL_ASSIGNED_TO_ID' => 'معرف المستخدم المُكلف',
     'LBL_ASSIGNED_TO_NAME' => 'أُسند إلى',
     'LBL_ID' => 'المُعرف',
     'LBL_DATE_ENTERED' => 'تاريخ الإنشاء',
     'LBL_DATE_MODIFIED' => 'تاريخ التعديل',
     'LBL_MODIFIED' => 'عُدل بواسطة',
-    'LBL_MODIFIED_NAME' => 'اسم من قام بالتعديل',
+    'LBL_MODIFIED_NAME' => 'قام بالتعديل',
     'LBL_CREATED' => 'أنشئ بواسطة',
     'LBL_DESCRIPTION' => 'الوصف',
     'LBL_DELETED' => 'محذوف',
     'LBL_NAME' => 'الاسم',
-    'LBL_CREATED_USER' => 'أنشئ بواسطة المستخدم',
+    'LBL_CREATED_USER' => 'تم الإنشاء بواسطة المستخدم',
     'LBL_MODIFIED_USER' => 'عُدل بواسطة المستخدم',
     'LBL_LIST_NAME' => 'الاسم',
     'LBL_EDIT_BUTTON' => 'حرر',
@@ -72,7 +72,7 @@ $mod_strings = [
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'الأنشطة',
     'LBL_NEW_FORM_TITLE' => 'موفر اذون خارجي جديد',
 
-    'LBL_LIST_DELETE' => 'احذف',
+    'LBL_LIST_DELETE' => 'حذف',
     'LBL_TYPE' => 'النوع',
     'LBL_CONNECTOR' => 'موصل',
     'LBL_REDIRECT_URI' => 'رابط إعادة التوجيه',

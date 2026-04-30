@@ -31,29 +31,29 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
     // System fields
-    'LBL_ASSIGNED_TO_ID' => 'Piešķirts lietotājam ar ID',
-    'LBL_ASSIGNED_TO_NAME' => 'Piešķirts lietotājam',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_DATE_ENTERED' => 'Izveidošanas datums',
-    'LBL_DATE_MODIFIED' => 'Modificēts',
+    'LBL_DATE_MODIFIED' => 'Date Modified',
     'LBL_MODIFIED' => 'Rediģēja',
-    'LBL_MODIFIED_NAME' => 'Modificēja vārds',
-    'LBL_CREATED' => 'Izveidoja',
-    'LBL_CREATED_USER' => 'Izveidoja lietotājs',
-    'LBL_MODIFIED_USER' => 'Modificēja lietotājs',
-    'LBL_DESCRIPTION' => 'Apraksts',
+    'LBL_MODIFIED_NAME' => 'Modified By Name',
+    'LBL_CREATED' => 'Created By',
+    'LBL_CREATED_USER' => 'Created by User',
+    'LBL_MODIFIED_USER' => 'Modified by User',
+    'LBL_DESCRIPTION' => 'Description',
     'LBL_DELETED' => 'Izdzēsts',
 
     // Security groups
-    'LBL_SECURITYGROUPS' => 'Drošības grupas',
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Drošības grupas',
+    'LBL_SECURITYGROUPS' => 'Security Groups',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
 
     // List view labels
     'LBL_LIST_NAME' => 'Vārds:',
-    'LBL_LIST_DELETE' => 'Dzēsts',
-    'LBL_EDIT_BUTTON' => 'Rediģēt',
+    'LBL_LIST_DELETE' => 'Delete',
+    'LBL_EDIT_BUTTON' => 'Edit',
     'LBL_REMOVE' => 'Izņemt',
-    'LBL_ASCENDING' => 'Augoši',
-    'LBL_DESCENDING' => 'Dilstoši',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
 
     // Email opt-in labels
     'LBL_OPT_IN' => 'Opt In',
@@ -62,8 +62,8 @@ $mod_strings = [
     'LBL_OPT_IN_CONFIRMED' => 'Opted in',
 
     // Subpanel titles
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Aplūkot vēsturi',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Darbības',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
 
@@ -101,8 +101,8 @@ $mod_strings = [
     'LBL_CONNECT_OAUTH' => 'Connect OAuth',
 
     // Basic Auth Fields
-    'LBL_USERNAME' => 'Lietotājvārds',
-    'LBL_PASSWORD' => 'Parole',
+    'LBL_USERNAME' => 'Username',
+    'LBL_PASSWORD' => 'Password',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test Connection',
 
@@ -162,9 +162,9 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Please select a calendar source first.',
 
     // Connection test messages
-    'LBL_CALENDAR' => 'Kalendārs',
-    'LBL_SUCCESSFUL' => 'Veiksmīgi',
-    'LBL_FAILED' => 'Beidzies ar kļūdu',
+    'LBL_CALENDAR' => 'Calendar',
+    'LBL_SUCCESSFUL' => 'Successful',
+    'LBL_FAILED' => 'Failed',
     'LBL_CONNECTION_TEST' => 'Connection Test',
     'LBL_YES' => 'Yes',
     'LBL_NO' => 'No',
@@ -182,14 +182,14 @@ $mod_strings = [
 
     // Dialog labels
     'LBL_NOTIFICATION' => 'Notification',
-    'LBL_CONFIRM' => 'Apstiprināt',
+    'LBL_CONFIRM' => 'Confirm',
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => 'Izveidē',
-    'LBL_SYNC_STATUS_SUCCESS' => 'Veiksmīgi',
-    'LBL_SYNC_STATUS_WARNING' => 'Brīdinājums',
-    'LBL_SYNC_STATUS_ERROR' => 'Kļūda',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => 'In Progress',
+    'LBL_SYNC_STATUS_SUCCESS' => 'Success',
+    'LBL_SYNC_STATUS_WARNING' => 'Warning',
+    'LBL_SYNC_STATUS_ERROR' => 'Error',
 
     // Sync message enum translations
     'LBL_SYNC_MSG_SYNC_COMPLETE' => 'All meetings synced.',
@@ -202,5 +202,5 @@ $mod_strings = [
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Calendar not found.',
 
     // Relationship labels
-    'LBL_MEETINGS' => 'Tikšanās',
+    'LBL_MEETINGS' => 'Meetings',
 ];

@@ -46,7 +46,7 @@ $mod_strings = array(
     //Column header mapping
     'action' => 'Acțiune',
     'date_modified' => 'Data ultimei acțiuni',
-    'item_id' => 'ID-ul',
+    'item_id' => 'ID',
     'item_summary' => 'Nume',
     'module_name' => 'Nume Modul',
     'users' => 'Utilizatori',

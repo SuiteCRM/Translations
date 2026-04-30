@@ -51,8 +51,8 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Iskanje dokumentov',
     //vardef labels
     'LBL_NAME' => 'Ime dokumenta',
-    'LBL_DESCRIPTION' => 'Opis',
-    'LBL_ASSIGNED_TO' => 'Dodeljeno:',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_ASSIGNED_TO' => 'Assigned to:',
     'LBL_CATEGORY' => 'Kategorija',
     'LBL_SUBCATEGORY' => 'Podkategorija',
     'LBL_STATUS' => 'Stanje',
@@ -80,38 +80,38 @@ $mod_strings = array(
     'LBL_SUBCATEGORY_VALUE' => 'Podkategorija:',
     'LBL_DOC_STATUS' => 'Stanje:',
     'LBL_DET_TEMPLATE_TYPE' => 'Tip Dokumenta:',
-    'LBL_DOC_DESCRIPTION' => 'Opis:',
+    'LBL_DOC_DESCRIPTION' => 'Description:',
     'LBL_DOC_ACTIVE_DATE' => 'Datum objave:',
     'LBL_DOC_EXP_DATE' => 'Datum veljavnosti (do):',
 
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'Seznam Dokumentov',
     'LBL_LIST_DOCUMENT' => 'Dokument',
-    'LBL_LIST_CATEGORY' => 'Kategorija',
-    'LBL_LIST_SUBCATEGORY' => 'Podkategorija',
-    'LBL_LIST_REVISION' => 'Revizija',
+    'LBL_LIST_CATEGORY' => 'Category',
+    'LBL_LIST_SUBCATEGORY' => 'Sub Category',
+    'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => 'Objavil',
     'LBL_LIST_LAST_REV_DATE' => 'Datum revizije',
     'LBL_LIST_VIEW_DOCUMENT' => 'Pogled',
-    'LBL_LIST_ACTIVE_DATE' => 'Datum objave',
-    'LBL_LIST_EXP_DATE' => 'Datum veljavnosti (do)',
-    'LBL_LIST_STATUS' => 'Stanje',
+    'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
+    'LBL_LIST_EXP_DATE' => 'Expiration Date',
+    'LBL_LIST_STATUS' => 'Status',
 
     //document search form.
-    'LBL_SF_CATEGORY' => 'Kategorija:',
-    'LBL_SF_SUBCATEGORY' => 'Podkategorija:',
+    'LBL_SF_CATEGORY' => 'Category:',
+    'LBL_SF_SUBCATEGORY' => 'Sub Category:',
 
     'DEF_CREATE_LOG' => 'Dokument ustvarjen',
 
     //error messages
-    'ERR_DOC_NAME' => 'Ime dokumenta',
-    'ERR_DOC_ACTIVE_DATE' => 'Datum objave',
+    'ERR_DOC_NAME' => 'Document Name',
+    'ERR_DOC_ACTIVE_DATE' => 'Publish Date',
     'ERR_FILENAME' => 'Ime datoteke',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'Ime dokumenta',
+    'LBL_LIST_DOCUMENT_NAME' => 'Document Name',
 
     'LBL_EDIT_BUTTON' => 'Uredi',
-    'LBL_REMOVE' => 'Odstrani',
+    'LBL_REMOVE' => 'Remove',
 
 );

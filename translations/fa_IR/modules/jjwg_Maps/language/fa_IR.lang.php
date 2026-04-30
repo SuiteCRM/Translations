@@ -42,10 +42,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_MAP'] = 'نقشه';
-$mod_strings['LBL_MODULE_NAME'] = 'نقشه ها';
+$mod_strings['LBL_MAP'] = 'Map';
+$mod_strings['LBL_MODULE_NAME'] = 'Maps';
 $mod_strings['LBL_MODULE_TITLE'] = 'نقشه‌ها: صفحه اصلی';
-$mod_strings['LBL_MODULE_ID'] = 'نقشه ها';
+$mod_strings['LBL_MODULE_ID'] = 'Maps';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'لیست نقشه های';
 $mod_strings['LBL_MAP_CUSTOM_MARKER'] = 'نشانگر سفارشی';
 $mod_strings['LBL_MAP_CUSTOM_AREA'] = 'منطقه سفارشی';
@@ -59,59 +59,59 @@ $mod_strings['LBL_UNIT_TYPE'] = 'نوع واحد:';
 $mod_strings['LBL_MAP_DISPLAY'] = 'نمایش نقشه';
 $mod_strings['LBL_MAP_LEGEND'] = 'شرح:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'گروه‌ها:';
-$mod_strings['LBL_MAP_GROUP'] = 'گروه';
+$mod_strings['LBL_MAP_GROUP'] = 'Group';
 $mod_strings['LBL_MAP_TYPE'] = 'نوع';
-$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'اختصاص داده شده به:';
+$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Assigned to:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'دریافت مسیرها';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'مشاهده نقشه های گوگل';
 
 $mod_strings['LNK_NEW_MAP'] = 'اضافه کردن نقشه جدید';
-$mod_strings['LNK_NEW_RECORD'] = 'اضافه کردن نقشه جدید';
+$mod_strings['LNK_NEW_RECORD'] = 'Add New Map';
 $mod_strings['LNK_MAP_LIST'] = 'List Maps';
 
-$mod_strings['LBL_MAP_ADDRESS_TEST'] = 'تست Geocoding';
+$mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Geocoding Test';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'Quick Radius Map';
 $mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'هیچ‌کدام';
-$mod_strings['LBL_MAP_ADDRESS'] = 'آدرس';
+$mod_strings['LBL_MAP_ADDRESS'] = 'Address';
 $mod_strings['LBL_MAP_PROCESS'] = 'این روند!';
 
 $mod_strings['LBL_MAP_LAST_STATUS'] = 'Last Geocode Status';
 $mod_strings['LBL_GEOCODED_COUNTS'] = 'Module Geocoded Counts';
 $mod_strings['LBL_CRON_URL'] = 'Cron URL:';
-$mod_strings['LBL_MODULE_HEADING'] = 'ماژول';
+$mod_strings['LBL_MODULE_HEADING'] = 'Module';
 
 $mod_strings['LBL_N/A'] = 'N/A';
 $mod_strings['LBL_ZERO_RESULTS'] = 'Zero Results';
 $mod_strings['LBL_OK'] = 'باشه';
 $mod_strings['LBL_INVALID_REQUEST'] = 'Invalid Request';
 $mod_strings['LBL_APPROXIMATE'] = 'Approximate';
-$mod_strings['LBL_EMPTY'] = 'خالی';
+$mod_strings['LBL_EMPTY'] = 'Empty';
 
-$mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'مجموع';
-$mod_strings['LBL_MODULE_RESET_HEADING'] = 'تنظیم مجدد';
+$mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Total';
+$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Reset';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = 'The table shown belown shows the number of module objects geocoded, grouped by geocoding response. Keep in mind that the standard Google Maps usage limit is 2500 requests per day . This module will cache the addresses geocoding information during processing to reduce the overall number of requests needed.';
 
 $mod_strings['LBL_CRON_INSTRUCTIONS'] = 'To process the geocoding requests it is recommended to setup a nightly Cron-Job. A custom entry point has been created for this purpose and can be accessed without authentication. The URL shown below is meant to be used with an Administrative Scheduled Task. Please see the documentation for more information.';
 $mod_strings['LBL_EXPORT_ADDRESS_URL'] = 'Export URLs';
 $mod_strings['LBL_EXPORT_INSTRUCTIONS'] = 'با استفاده از لینک های زیر آدرس کامل نیاز به اطلاعات geocodeing صادرات. سپس استفاده از ابزار geocoding دسته آنلاین و یا آفلاین به geocode آدرس. هنگامی که شما به پایان رسید geocoding، آدرس ها را وارد ماژول آدرس کش با نقشه های خود را مورد استفاده قرار گیرد. توجه داشته باشید که آدرس کش ماژول اختیاری است. تمام اطلاعات geocoding در ماژول نماینده ذخیره می شود.';
-$mod_strings['LBL_ADDRESS_CACHE'] = 'حافظه موقت آدرس';
+$mod_strings['LBL_ADDRESS_CACHE'] = 'Address Cache';
 $mod_strings['LBL_ADD_TO_TARGET_LIST'] = 'افزودن به ليست هدف';
 $mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'در حال پردازش...';
 
 
 $mod_strings['LBL_CONFIG_TITLE'] = 'تنظیمات پیکربندی';
 $mod_strings['LBL_CONFIG_SAVED'] = 'Settings Saved Successfully!';
-$mod_strings['LBL_BILLING_ADDRESS'] = 'آدرس صورت‌حساب';
-$mod_strings['LBL_SHIPPING_ADDRESS'] = 'آدرس ارسال کالا';
+$mod_strings['LBL_BILLING_ADDRESS'] = 'Billing Address';
+$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Shipping Address';
 $mod_strings['LBL_PRIMARY_ADDRESS'] = 'آدرس اصلی';
 $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'Alternative Address';
 $mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex Relate';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Address (Simple, Users)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'Custom (Custom Controller Logic)';
-$mod_strings['LBL_ENABLED'] = 'فعال شده';
-$mod_strings['LBL_DISABLED'] = 'غیرفعال شده';
+$mod_strings['LBL_ENABLED'] = 'Enabled';
+$mod_strings['LBL_DISABLED'] = 'Disabled';
 $mod_strings['LBL_DEFAULT'] = 'پیشفرض:';
-$mod_strings['LBL_CONFIG_DEFAULT'] = 'پیشفرض:';
+$mod_strings['LBL_CONFIG_DEFAULT'] = 'Default:';
 
 $mod_strings['LBL_CONFIG_VALID_GEOCODE_MODULES'] = 'Valid Geocode Modules:';
 $mod_strings['LBL_CONFIG_VALID_GEOCODE_TABLES'] = 'جداول Geocode معتبر:';
@@ -182,9 +182,9 @@ $mod_strings['LBL_CONFIG_MAP_CLUSTER_GRID_SIZE_DESC'] = "'map_clusterer_grid_siz
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_TITLE'] = "Map Markers Clusterer Max Zoom:";
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_DESC'] = "'map_clusterer_max_zoom' is used to set the maximum zoom level at which clustering will not be applied.";
 $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = "Important Note: All saved settings can be found in the 'config' table under category 'jjwg'. Note, a custom controller.php file should no longer be used to override settings.";
-$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'مناطق';
+$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Areas';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'نشانگرها';
-$mod_strings['LBL_PARENT_ID'] = 'شناسه والد';
+$mod_strings['LBL_PARENT_ID'] = 'Parent ID';
 $mod_strings['LBL_JJWP_PARTNERS'] = 'JJWP Partners';
 $mod_strings['LBL_GET_GOOGLE_API_KEY'] = 'Get A Key';
 $mod_strings['LBL_GOOGLE_API_KEY'] = 'Google Api Key';

@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_DESCRIPTION' => 'Deskribapena',
-    'LBL_NAME' => 'Izena',
-    'LBL_LIST_NAME' => 'Izena',
-    'LBL_EDIT_BUTTON' => 'Editatu',
-    'LBL_REMOVE' => 'Kendu',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_NAME' => 'Name',
+    'LBL_LIST_NAME' => 'Name',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
     'LBL_GRP' => 'Group',
-    'LBL_ORD' => 'Ordena',
+    'LBL_ORD' => 'Order',
     'LBL_THUMBNAIL' => 'Thumbnail',
 );

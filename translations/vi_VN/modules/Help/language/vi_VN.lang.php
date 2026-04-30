@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_MODULE_NAME' => 'Tài khoản',
     'LBL_MODULE_TITLE' => 'Tài khoản: Trang chính',
-    'LBL_SEARCH_FORM_TITLE' => 'Tìm kiếm Khách hàng',
+    'LBL_SEARCH_FORM_TITLE' => 'Account Search',
     'LBL_LIST_FORM_TITLE' => 'Danh sách khách hàng',
     'LBL_NEW_FORM_TITLE' => 'Tạo Account',
     'LNK_NEW_CONTACT' => 'Tạo thông tin Liên hệ',
@@ -54,7 +54,7 @@ $mod_strings = array(
     'LNK_NEW_CASE' => 'Tạo Vụ việc',
     'LNK_NEW_NOTE' => 'Tạo Ghi chú hoặc Đính kèm',
     'LNK_NEW_CALL' => 'Log Cuộc gọi',
-    'LNK_NEW_EMAIL' => 'Lưu trữ Email',
+    'LNK_NEW_EMAIL' => 'Archive Email',
     'LNK_NEW_MEETING' => 'Lịch họp',
     'LNK_NEW_TASK' => 'Tạo Tác vụ',
     'ERR_DELETE_RECORD' => 'Một số hồ sơ phải được xác định để xoá tài khoản này.',

@@ -51,7 +51,7 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Paghahanap ng dokumento',
     //vardef labels
     'LBL_NAME' => 'Pangalan ng dokumento',
-    'LBL_DESCRIPTION' => 'Paglalarawan',
+    'LBL_DESCRIPTION' => 'Ang deskripsyon',
     'LBL_ASSIGNED_TO' => 'Ini-assign sa:',
     'LBL_CATEGORY' => 'Kategorya',
     'LBL_SUBCATEGORY' => 'Sub katergorya',
@@ -80,7 +80,7 @@ $mod_strings = array(
     'LBL_SUBCATEGORY_VALUE' => 'Sub Kategorya:',
     'LBL_DOC_STATUS' => 'Katayuan:',
     'LBL_DET_TEMPLATE_TYPE' => 'Uri ng dokumento:',
-    'LBL_DOC_DESCRIPTION' => 'Ang deskripsyon:',
+    'LBL_DOC_DESCRIPTION' => 'Deskripsyon:',
     'LBL_DOC_ACTIVE_DATE' => 'Petsa na nailathala:',
     'LBL_DOC_EXP_DATE' => 'Petsa ng pagkawalang-bisa:',
 
@@ -88,18 +88,18 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Listahan ng dokumento',
     'LBL_LIST_DOCUMENT' => 'Dokumento',
     'LBL_LIST_CATEGORY' => 'Kategorya',
-    'LBL_LIST_SUBCATEGORY' => 'Sub katergorya',
+    'LBL_LIST_SUBCATEGORY' => 'Sub Kategorya',
     'LBL_LIST_REVISION' => 'Rebisyon',
     'LBL_LIST_LAST_REV_CREATOR' => 'Petsa na nailathala',
     'LBL_LIST_LAST_REV_DATE' => 'Petsa ng rebisyon',
     'LBL_LIST_VIEW_DOCUMENT' => 'Tingnan',
-    'LBL_LIST_ACTIVE_DATE' => 'Ilathala ang petsa',
+    'LBL_LIST_ACTIVE_DATE' => 'Petsa ng paglathala',
     'LBL_LIST_EXP_DATE' => 'Petsa ng pagkawalang-bisa',
-    'LBL_LIST_STATUS' => 'Ang Katayuan',
+    'LBL_LIST_STATUS' => 'Estado',
 
     //document search form.
     'LBL_SF_CATEGORY' => 'Kategorya:',
-    'LBL_SF_SUBCATEGORY' => 'Sub Kategorya:',
+    'LBL_SF_SUBCATEGORY' => 'Sub kategorya:',
 
     'DEF_CREATE_LOG' => 'Nilikhang dokumento',
 

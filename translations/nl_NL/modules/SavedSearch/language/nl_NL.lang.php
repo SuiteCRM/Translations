@@ -51,12 +51,12 @@ $mod_strings = array(
     'LBL_SAVE_BUTTON_TITLE' => 'Het huidige filter opslaan',
     'LBL_LIST_NAME' => 'Naam',
     'LBL_LIST_MODULE' => 'Module',
-    'LBL_ORDER_BY_COLUMNS' => 'Order by column:',
-    'LBL_DIRECTION' => 'Richting:',
+    'LBL_ORDER_BY_COLUMNS' => 'Sorteren op kolom:',
+    'LBL_DIRECTION' => 'Direction:',
     'LBL_SAVE_SEARCH_AS' => 'Filter opslaan als:',
     'LBL_ASCENDING' => 'Oplopend',
     'LBL_DESCENDING' => 'Aflopend',
-    'LBL_MODIFY_CURRENT_FILTER' => 'Huidig filter wijzigen',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
     'LBL_CREATED_BY' => 'Aangemaakt door',
 

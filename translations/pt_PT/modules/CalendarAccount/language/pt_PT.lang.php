@@ -40,16 +40,16 @@ $mod_strings = [
     'LBL_CREATED' => 'Criado por',
     'LBL_CREATED_USER' => 'Criado pelo utilizador',
     'LBL_MODIFIED_USER' => 'Alterado pelo utilizador',
-    'LBL_DESCRIPTION' => 'Descrição',
+    'LBL_DESCRIPTION' => 'Descrição:',
     'LBL_DELETED' => 'Eliminado',
 
     // Security groups
-    'LBL_SECURITYGROUPS' => 'Grupos de segurança',
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Grupos de segurança',
+    'LBL_SECURITYGROUPS' => 'Security Groups',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
 
     // List view labels
     'LBL_LIST_NAME' => 'Nome',
-    'LBL_LIST_DELETE' => 'Eliminar',
+    'LBL_LIST_DELETE' => 'Delete',
     'LBL_EDIT_BUTTON' => 'Editar',
     'LBL_REMOVE' => 'Remover',
     'LBL_ASCENDING' => 'Ascendente',
@@ -57,13 +57,13 @@ $mod_strings = [
 
     // Email opt-in labels
     'LBL_OPT_IN' => 'Consentir',
-    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Confirmação do consentimento pendente, confirmação não enviada',
-    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Confirmação do consentimento pendente, confirmação já enviada',
-    'LBL_OPT_IN_CONFIRMED' => 'Consentiu comunicações',
+    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Confirmação de consentimento pendente, confirmação de consentimento não enviada',
+    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Confirmação de consentimento pendente, confirmação de consentimento enviada',
+    'LBL_OPT_IN_CONFIRMED' => 'Consentiu',
 
     // Subpanel titles
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Ver histórico',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Atividades',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
 
@@ -101,8 +101,8 @@ $mod_strings = [
     'LBL_CONNECT_OAUTH' => 'Connect OAuth',
 
     // Basic Auth Fields
-    'LBL_USERNAME' => 'Nome de utilizador',
-    'LBL_PASSWORD' => 'Senha',
+    'LBL_USERNAME' => 'Username',
+    'LBL_PASSWORD' => 'Senha:',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test Connection',
 
@@ -120,21 +120,21 @@ $mod_strings = [
     'LBL_AUTH_ACTIONS' => 'Authentication Actions',
 
     // Panel Labels
-    'LBL_SYNC_STATUS' => 'Sync Status',
+    'LBL_SYNC_STATUS' => 'Estado da sincronização',
 
     // Connection Status Fields
     'LBL_LAST_CONNECTION_STATUS' => 'Test successful',
     'LBL_LAST_CONNECTION_TEST' => 'Last Connection Test',
     'LBL_LAST_SYNC_ATTEMPT_DATE' => 'Last Sync Attempt',
-    'LBL_LAST_SYNC_ATTEMPT_STATUS' => 'Sync Status',
+    'LBL_LAST_SYNC_ATTEMPT_STATUS' => 'Estado da sincronização',
     'LBL_LAST_SYNC_ATTEMPT_MESSAGE' => 'Sync Message',
-    'LBL_LAST_SYNC_DATE' => 'Last Sync Date',
-    'LBL_EXTERNAL_CALENDAR_ID' => 'External Calendar ID',
+    'LBL_LAST_SYNC_DATE' => 'Última data de sincronização',
+    'LBL_EXTERNAL_CALENDAR_ID' => 'ID do calendário externo',
     'LBL_DUPLICATE_EXTERNAL_CALENDAR' => 'This external calendar is already connected to account',
 
     // Sync Actions
-    'LBL_SYNC_NOW' => 'Sync Now',
-    'LBL_SYNC_NOW_TITLE' => 'Synchronize this calendar account now',
+    'LBL_SYNC_NOW' => 'Sincronizar agora',
+    'LBL_SYNC_NOW_TITLE' => 'Sincronizar agora esta conta de calendário',
     'LBL_SYNC_NOW_CONFIRM' => 'Are you sure you want to sync this calendar account now?',
     'LBL_NO_ACCOUNT_ID' => 'No calendar account ID provided',
     'LBL_SYNCING' => 'Syncing...',
@@ -162,12 +162,12 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Please select a calendar source first.',
 
     // Connection test messages
-    'LBL_CALENDAR' => 'Calendário',
-    'LBL_SUCCESSFUL' => 'Com sucesso',
-    'LBL_FAILED' => 'Falhou',
+    'LBL_CALENDAR' => 'Calendar',
+    'LBL_SUCCESSFUL' => 'Successful',
+    'LBL_FAILED' => 'Failed',
     'LBL_CONNECTION_TEST' => 'Connection Test',
-    'LBL_YES' => 'Sim',
-    'LBL_NO' => 'Não',
+    'LBL_YES' => 'Yes',
+    'LBL_NO' => 'No',
     'LBL_FOUND_CALENDARS' => 'Found {count} calendars.',
     'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'An error occurred while processing the connection test response. Please check the logs for details.',
     'LBL_CONNECTION_TEST_HTTP_ERROR' => 'Connection test failed with HTTP status',
@@ -182,12 +182,12 @@ $mod_strings = [
 
     // Dialog labels
     'LBL_NOTIFICATION' => 'Notification',
-    'LBL_CONFIRM' => 'Confirmar',
+    'LBL_CONFIRM' => 'Confirm',
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => 'Em curso',
-    'LBL_SYNC_STATUS_SUCCESS' => 'Sucesso',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => 'Em andamento',
+    'LBL_SYNC_STATUS_SUCCESS' => 'Success',
     'LBL_SYNC_STATUS_WARNING' => 'Alerta',
     'LBL_SYNC_STATUS_ERROR' => 'Erro',
 
@@ -197,10 +197,10 @@ $mod_strings = [
     'LBL_SYNC_MSG_MEETINGS_FAILED' => 'Some meetings failed to sync. Check logs.',
     'LBL_SYNC_MSG_SYNC_PARTIAL' => 'Some meetings synced. More pending due to limits.',
     'LBL_SYNC_MSG_SYNC_ERROR' => 'Sync error. Check logs.',
-    'LBL_SYNC_MSG_TOKEN_EXPIRED' => 'Authentication token expired.',
+    'LBL_SYNC_MSG_TOKEN_EXPIRED' => 'Chave de autenticação expirada.',
     'LBL_SYNC_MSG_CONNECTION_ERROR' => 'Connection error.',
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Calendar not found.',
 
     // Relationship labels
-    'LBL_MEETINGS' => 'Reuniões',
+    'LBL_MEETINGS' => 'Meetings',
 ];

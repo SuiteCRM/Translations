@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'معرف المستخدم المكلف',
+    'LBL_ASSIGNED_TO_ID' => 'معرف المستخدم المُكلف',
     'LBL_ASSIGNED_TO_NAME' => 'أُسند إلى',
     'LBL_SECURITYGROUPS' => 'المجموعات الأمنية',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'المجموعات الأمنية',
@@ -51,12 +51,12 @@ $mod_strings = array(
     'LBL_DATE_ENTERED' => 'تاريخ الإنشاء',
     'LBL_DATE_MODIFIED' => 'تاريخ التعديل',
     'LBL_MODIFIED' => 'عُدل بواسطة',
-    'LBL_MODIFIED_NAME' => 'اسم من قام بالتعديل',
+    'LBL_MODIFIED_NAME' => 'قام بالتعديل',
     'LBL_CREATED' => 'أنشئ بواسطة',
     'LBL_DESCRIPTION' => 'الوصف',
     'LBL_DELETED' => 'محذوف',
     'LBL_NAME' => 'الاسم',
-    'LBL_CREATED_USER' => 'أنشئ بواسطة المستخدم',
+    'LBL_CREATED_USER' => 'تم الإنشاء بواسطة المستخدم',
     'LBL_MODIFIED_USER' => 'عُدل بواسطة المستخدم',
     'LBL_LIST_NAME' => 'الاسم',
     'LBL_EDIT_BUTTON' => 'حرر',
@@ -94,9 +94,9 @@ $mod_strings = array(
     'LBL_AN_LEADS_CAMPAIGN_NAME' => 'اسم الحملة',
     'LBL_AN_LEADS_YEAR' => 'سنة',
     'LBL_AN_LEADS_QUARTER' => 'الربع',
-    'LBL_AN_LEADS_MONTH' => 'الشهر',
+    'LBL_AN_LEADS_MONTH' => 'شهر',
     'LBL_AN_LEADS_WEEK' => 'الأسبوع',
-    'LBL_AN_LEADS_DAY' => 'اليوم',
+    'LBL_AN_LEADS_DAY' => 'يوم',
 
     //Analytics labels for sales pivot
     'LBL_AN_SALES_ACCOUNT_NAME' => 'اسم الحساب',
@@ -113,13 +113,13 @@ $mod_strings = array(
     'LBL_AN_SALES_WEEK' => 'Sales Week',
     'LBL_AN_SALES_DAY' => 'Sales Day',
     'LBL_AN_SALES_YEAR' => 'Sales Year',
-    'LBL_AN_SALES_CAMPAIGN' => 'حملات',
+    'LBL_AN_SALES_CAMPAIGN' => 'الحملة',
 
     //Analytics labels for service pivot
     'LBL_AN_SERVICE_ACCOUNT_NAME' => 'اسم الحساب',
-    'LBL_AN_SERVICE_STATE' => 'المحافظة',
+    'LBL_AN_SERVICE_STATE' => 'ولاية',
     'LBL_AN_SERVICE_STATUS' => 'الحالة',
-    'LBL_AN_SERVICE_PRIORITY' => 'الأولوية',
+    'LBL_AN_SERVICE_PRIORITY' => 'أولوية',
     'LBL_AN_SERVICE_CREATED_DAY' => 'Created Day',
     'LBL_AN_SERVICE_CREATED_WEEK' => 'Created Week',
     'LBL_AN_SERVICE_CREATED_MONTH' => 'Created Month',
@@ -150,7 +150,7 @@ $mod_strings = array(
     'LBL_AN_MARKETINGACTIVITY_CAMPAIGN_NAME' => 'اسم الحملة',
     'LBL_AN_MARKETINGACTIVITY_ACTIVITY_DATE' => 'تاريخ الحدث',
     'LBL_AN_MARKETINGACTIVITY_ACTIVITY_TYPE' => 'نوع الحدث',
-    'LBL_AN_MARKETINGACTIVITY_RELATED_TYPE' => 'نوع المتعلق',
+    'LBL_AN_MARKETINGACTIVITY_RELATED_TYPE' => 'نوع ذي الصلة',
     'LBL_AN_MARKETINGACTIVITY_RELATED_ID' => 'Related ID',
 
     //Analytics labels for the quotes pivot

@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_MODULE_NAME' => 'OAuth2 Token',
-    'LBL_MODULE_TITLE' => 'OAuth2 Token',
+    'LBL_MODULE_TITLE' => 'OAuth2 Tokens',
     'LBL_MODULE_ID'=> 'OAuth2 Token',
     'LBL_TOKEN_ID'=> 'Token ID',
     'LBL_CLIENT'=> 'Cliente',

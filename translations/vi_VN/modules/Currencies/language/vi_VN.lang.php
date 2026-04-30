@@ -43,8 +43,8 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Tiền tệ',
-    'LBL_LIST_FORM_TITLE' => 'Tiền tệ',
+    'LBL_MODULE_NAME' => 'Currencies',
+    'LBL_LIST_FORM_TITLE' => 'Currencies',
     'LBL_CURRENCY' => 'Tiền tệ',
     'LBL_ADD' => 'Thêm',
     'LBL_MERGE' => 'Hợp nhất',
@@ -59,10 +59,10 @@ $mod_strings = array(
     'LBL_LIST_RATE' => 'Tỷ lệ chuyển đổi',
     'LBL_LIST_RATE_HELP' => 'Một tỷ lệ chuyển đổi 0,5 Euro có nghĩa là USD = 5 10 Euro.',
     'LBL_LIST_STATUS' => 'Tình trạng',
-    'LNK_NEW_CONTACT' => 'Khách hàng mới',
-    'LNK_NEW_ACCOUNT' => 'Khách hàng mới',
-    'LNK_NEW_OPPORTUNITY' => 'Cơ hội mới',
-    'LNK_NEW_CASE' => 'Vụ việc mới',
+    'LNK_NEW_CONTACT' => 'New Contact',
+    'LNK_NEW_ACCOUNT' => 'New Account',
+    'LNK_NEW_OPPORTUNITY' => 'New Opportunity',
+    'LNK_NEW_CASE' => 'New Case',
     'LNK_NEW_NOTE' => 'Tạo Ghi chú hoặc Đính kèm',
     'LNK_NEW_CALL' => 'Cuộc gọi mới',
     'LNK_NEW_EMAIL' => 'Email mới',
@@ -73,8 +73,8 @@ $mod_strings = array(
     'currency_status_dom' =>
         array(
             'Active' => 'Đang hoạt động',
-            'Inactive' => 'Không hoạt động',
+            'Inactive' => 'Inactive',
         ),
-    'LBL_CREATED_BY' => 'Khởi tạo bởi',
+    'LBL_CREATED_BY' => 'Được tạo bởi',
     'LBL_EDIT_LAYOUT' => 'Sửa khung' /*for 508 compliance fix*/,
 );

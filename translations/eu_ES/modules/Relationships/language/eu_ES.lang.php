@@ -54,9 +54,9 @@ $mod_strings = array(
     'LBL_JOIN_TABLE' => 'Join taularen izena',
     'LBL_JOIN_KEY_LHS' => 'LHS Join-aren kodea',
     'LBL_JOIN_KEY_RHS' => 'RHS Join-aren kodea',
-    'LBL_RELATIONSHIP_TYPE' => 'Harreman-mota',
+    'LBL_RELATIONSHIP_TYPE' => 'Relationship Type',
     'LBL_RELATIONSHIP_ROLE_COLUMN' => 'Harreman-rolaren zutabearen izena',
     'LBL_RELATIONSHIP_ROLE_COLUMN_VALUE' => 'Harreman-rolaren zutabearen balioa',
     'LBL_REVERSE' => 'Inbertitu',
-    'LBL_DELETED' => 'Ezabatua',
+    'LBL_DELETED' => 'Deleted',
 );

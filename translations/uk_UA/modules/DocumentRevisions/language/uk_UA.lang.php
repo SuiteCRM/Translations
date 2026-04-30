@@ -46,33 +46,33 @@ $mod_strings = array(
     //module
     'LBL_MODULE_NAME' => 'Ревізії документа',
 
-    'LNK_NEW_DOCUMENT' => 'Створити документ',
+    'LNK_NEW_DOCUMENT' => 'Create Document',
     'LNK_DOCUMENT_LIST' => 'Документи',
 
     //vardef labels
-    'LBL_REVISION_NAME' => 'Номер ревізії',
+    'LBL_REVISION_NAME' => 'Revision Number',
     'LBL_FILENAME' => 'Файл:',
-    'LBL_MIME' => 'Тип MIME',
-    'LBL_REVISION' => 'Версія',
+    'LBL_MIME' => 'Mime Type',
+    'LBL_REVISION' => 'Revision',
     'LBL_DOCUMENT' => 'Відповідний документ',
-    'LBL_LATEST_REVISION' => 'Остання ревізія',
-    'LBL_CHANGE_LOG' => 'Історія змін',
-    'LBL_ACTIVE_DATE' => 'Дата публікації',
-    'LBL_EXPIRATION_DATE' => 'Термін дії',
-    'LBL_FILE_EXTENSION' => 'Розширення файлу',
+    'LBL_LATEST_REVISION' => 'Latest Revision',
+    'LBL_CHANGE_LOG' => 'Журнал змін',
+    'LBL_ACTIVE_DATE' => 'Publish Date',
+    'LBL_EXPIRATION_DATE' => 'Expiration Date',
+    'LBL_FILE_EXTENSION' => 'File Extension',
 
-    'LBL_DOC_NAME' => 'Назва документу:',
-    'LBL_DOC_VERSION' => 'Ревізія:',
+    'LBL_DOC_NAME' => 'Document Name:',
+    'LBL_DOC_VERSION' => 'Revision:',
 
     //document revisions.
-    'LBL_REV_LIST_REVISION' => 'Версія',
+    'LBL_REV_LIST_REVISION' => 'Revision',
     'LBL_REV_LIST_ENTERED' => 'Дата створення',
-    'LBL_REV_LIST_CREATED' => 'Створено',
-    'LBL_REV_LIST_LOG' => 'Історія змін',
-    'LBL_REV_LIST_FILENAME' => 'Файл',
+    'LBL_REV_LIST_CREATED' => 'Created by',
+    'LBL_REV_LIST_LOG' => 'Журнал змін',
+    'LBL_REV_LIST_FILENAME' => 'File',
 
     'LBL_CURRENT_DOC_VERSION' => 'Остання ревізія:',
-    'LBL_SEARCH_FORM_TITLE' => 'Знайти документ',
+    'LBL_SEARCH_FORM_TITLE' => 'Document Search',
     'LBL_REVISIONS' => 'Версії',
 
     //error messages
@@ -80,7 +80,7 @@ $mod_strings = array(
     'ERR_DOC_VERSION' => 'Ревізія документа',
     'ERR_DELETE_CONFIRM' => 'Ви хочете видалити цю ревізію документа?',
     'ERR_DELETE_LATEST_VERSION' => 'Ви не маєте права видаляти останню ревізію документа.',
-    'LNK_NEW_MAIL_MERGE' => 'Об&#039;єднання пошти',
+    'LNK_NEW_MAIL_MERGE' => 'Mail Merge',
     'LBL_DOC_ID' => 'ID джерела документа',
     'LBL_DOC_TYPE' => 'Джерело',
     'LBL_DOC_URL' => 'URL джерела документа',

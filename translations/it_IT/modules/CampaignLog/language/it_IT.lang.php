@@ -52,7 +52,7 @@ $mod_strings = array(
     'LBL_ACTIVITY_DATE' => 'Data Attività',
     'LBL_RELATED_ID' => 'ID Correlato',
     'LBL_RELATED_TYPE' => 'Tipo Relazione',
-    'LBL_DELETED' => 'Cancellata',
+    'LBL_DELETED' => 'Eliminato',
     'LBL_MODULE_NAME' => 'Log Campagna',
     'LBL_LIST_RECIPIENT_EMAIL' => 'Email Destinatario',
     'LBL_LIST_RECIPIENT_NAME' => 'Nome Destinatario',
@@ -65,8 +65,8 @@ $mod_strings = array(
     'LBL_INVITEE' => 'Contatti',
     'LBL_LIST_CAMPAIGN_NAME' => 'Campagna',
     'LBL_LIST_STATUS' => 'Stato',
-    'LBL_LIST_TYPE' => 'Gruppo/Personale',
-    'LBL_LIST_END_DATE' => 'Data di Fine',
+    'LBL_LIST_TYPE' => 'Tipo',
+    'LBL_LIST_END_DATE' => 'End Date',
     'LBL_DATE_ENTERED' => 'Data di inserimento',
     'LBL_DATE_MODIFIED' => 'Data Modifica',
     'LBL_MODIFIED' => 'Modificato da:',
@@ -96,6 +96,6 @@ $mod_strings = array(
     'LBL_CAMPAIGNS' => 'Campagne',
     'LBL_LIST_MARKETING_NAME' => 'Marketing',
 
-    'LBL_MARKETING_ID' => 'Marketing',
+    'LBL_MARKETING_ID' => 'ID Marketing',
     'LBL_RELATED_NAME' => 'Nome associato',
 );

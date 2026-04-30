@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_DESCRIPTION' => '描述',
+    'LBL_DESCRIPTION' => '說明:',
     'LBL_NAME' => '名稱',
     'LBL_LIST_NAME' => '名稱',
-    'LBL_EDIT_BUTTON' => '編輯',
-    'LBL_REMOVE' => '刪除',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
     'LBL_GRP' => '群組',
-    'LBL_ORD' => '排序',
+    'LBL_ORD' => 'Order',
     'LBL_THUMBNAIL' => '縮圖',
 );

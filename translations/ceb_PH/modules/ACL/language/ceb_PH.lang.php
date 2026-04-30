@@ -45,9 +45,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_ROLE' => 'Imong Role',
     'LBL_NAME' => 'Pangalan',
-    'LBL_DESCRIPTION' => 'Paghulagway',
+    'LBL_DESCRIPTION' => 'Deskrespyon',
     'LIST_ROLES' => 'Listahan sa mga papel',
-    'LBL_USERS_SUBPANEL_TITLE' => 'Tig gamit',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Mga Tiggamit',
     'LIST_ROLES_BY_USER' => 'Listahan sa mga papel base sa tiggamitan',
     'LBL_ROLES_SUBPANEL_TITLE' => 'Mga papel sa tiggamitan',
     'LBL_SEARCH_FORM_TITLE' => 'Pangitaa',

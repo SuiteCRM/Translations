@@ -51,7 +51,7 @@ $mod_strings = [
     'LBL_LIST_NAME' => 'نام',
     'LBL_LIST_DELETE' => 'ختم کیجیے',
     'LBL_EDIT_BUTTON' => 'ردوبدل',
-    'LBL_REMOVE' => 'ختم کر دیں',
+    'LBL_REMOVE' => 'نکال دیں',
     'LBL_ASCENDING' => 'صعودی',
     'LBL_DESCENDING' => 'نزولی',
 

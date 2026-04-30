@@ -44,25 +44,25 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
 
-    'LBL_NAME' => 'Ime',
+    'LBL_NAME' => 'Naziv',
     'LBL_NUMBER' => 'Broj:',
     'LBL_STATUS' => 'Status:',
     'LBL_PRIORITY' => 'Prioritet:',
-    'LBL_DESCRIPTION' => 'Opis:',
+    'LBL_DESCRIPTION' => 'Description:',
     'LBL_RESOLUTION' => 'Rezolucija',
     'LBL_LAST_MODIFIED' => 'Poslednja izmena',
     'LBL_ASSIGNED_TO_ID' => 'Dodeljeno:',
-    'LBL_ASSIGNED_TO_NAME' => 'Dodeljeno:',
+    'LBL_ASSIGNED_TO_NAME' => 'User:',
     'LBL_WORK_LOG' => 'Dnevnik rada:',
     'LBL_CREATED_BY' => 'Autor:',
-    'LBL_DATE_ENTERED' => 'Datum kreiranja:',
-    'LBL_DATE_MODIFIED' => 'Datum izmene:',
+    'LBL_DATE_ENTERED' => 'Date Created:',
+    'LBL_DATE_MODIFIED' => 'Date Modified:',
     'LBL_MODIFIED_BY' => 'Poslednja izmena od strane:',
     'LBL_ASSIGNED_USER' => 'Dodeljeni korisnik:',
-    'LBL_TYPE' => 'Tip:',
+    'LBL_TYPE' => 'Type:',
     'LBL_SUBJECT' => 'Naslov:',
 
-    'LBL_EDIT_BUTTON' => 'Izmeni',
-    'LBL_REMOVE' => 'Ukloni',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
 
 );

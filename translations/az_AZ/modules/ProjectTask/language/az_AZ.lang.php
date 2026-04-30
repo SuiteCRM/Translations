@@ -108,7 +108,7 @@ $mod_strings = array(
 
     'LBL_ASSIGNED_USER_NAME' => 'Təyin edilmişdir',
     'LBL_PARENT_NAME' => 'Layihə Adı',
-    'LBL_EDITLAYOUT' => 'Tərtibatı redaktə et' /*for 508 compliance fix*/,
+    'LBL_EDITLAYOUT' => 'Düzümü redaktə et' /*for 508 compliance fix*/,
     'LBL_PANEL_TIMELINE' => 'Zaman qrafiki',
 
     'LBL_SUBTASK' => 'Sub-Task',

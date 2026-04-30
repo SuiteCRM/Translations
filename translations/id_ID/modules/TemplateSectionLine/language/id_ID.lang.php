@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_DESCRIPTION' => 'Deskripsi',
-    'LBL_NAME' => 'Nama',
-    'LBL_LIST_NAME' => 'Nama',
-    'LBL_EDIT_BUTTON' => 'Ubah',
-    'LBL_REMOVE' => 'Menghapus',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_NAME' => 'Nama ',
+    'LBL_LIST_NAME' => 'Nama ',
+    'LBL_EDIT_BUTTON' => 'Sunting',
+    'LBL_REMOVE' => 'Remove',
     'LBL_GRP' => 'Grup',
-    'LBL_ORD' => 'Pesanan',
+    'LBL_ORD' => 'Order',
     'LBL_THUMBNAIL' => 'Thumbnail',
 );

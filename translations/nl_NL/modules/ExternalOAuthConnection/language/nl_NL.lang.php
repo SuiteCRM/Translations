@@ -46,8 +46,8 @@ $mod_strings = [
 
     'LBL_ASSIGNED_TO_ID' => 'Toegewezen gebruiker-Id',
     'LBL_ASSIGNED_TO_NAME' => 'Toegewezen aan',
-    'LBL_ID' => 'Id',
-    'LBL_DATE_ENTERED' => 'Datum aangemaakt',
+    'LBL_ID' => 'ID',
+    'LBL_DATE_ENTERED' => 'Aangemaakt op',
     'LBL_DATE_MODIFIED' => 'Datum gewijzigd',
     'LBL_MODIFIED' => 'Gewijzigd door',
     'LBL_MODIFIED_NAME' => 'Gewijzigd door naam',
@@ -58,7 +58,7 @@ $mod_strings = [
     'LBL_CREATED_USER' => 'Aangemaakt door gebruiker',
     'LBL_MODIFIED_USER' => 'Gewijzigd door gebruiker',
     'LBL_LIST_NAME' => 'Naam',
-    'LBL_EDIT_BUTTON' => 'Wijzigen',
+    'LBL_EDIT_BUTTON' => 'Bewerk',
     'LBL_REMOVE' => 'Verwijder',
     'LBL_LIST_FORM_TITLE' => 'Externe OAuth Connectie Lijst',
     'LBL_MODULE_NAME' => 'Externe OAuth verbindingen',
@@ -72,7 +72,7 @@ $mod_strings = [
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activiteiten',
     'LBL_NEW_FORM_TITLE' => 'Nieuwe externe OAuth verbinding',
 
-    'LBL_LIST_DELETE' => 'Verwijderen',
+    'LBL_LIST_DELETE' => 'Verwijder',
     'LBL_TYPE' => 'Type',
 
     'LBL_CLIENT_ID' => 'Client Id',
@@ -90,8 +90,8 @@ $mod_strings = [
     'LBL_EXTERNAL_OAUTH_PROVIDER_NAME' => 'Provider',
     'LBL_EXTERNAL_OAUTH_PROVIDER_ID' => 'Provider Id',
 
-    'LNK_LIST_CREATE_NEW_PERSONAL' => 'New Personal OAuth Connection',
-    'LNK_LIST_CREATE_NEW_GROUP' => 'New Group OAuth Connection',
+    'LNK_LIST_CREATE_NEW_PERSONAL' => 'Nieuwe persoonlijke OAuth verbinding',
+    'LNK_LIST_CREATE_NEW_GROUP' => 'Nieuwe Groep OAuth Verbinding',
     'LNK_LIST_INBOUND_EMAILS' => 'Inkomende Email Accounts',
     'LNK_LIST_OUTBOUND_EMAILS' => 'Uitgaande e-mailaccounts',
     'LNK_LIST_EXTERNAL_OAUTH_PROVIDERS' => 'Externe OAuth Providers',

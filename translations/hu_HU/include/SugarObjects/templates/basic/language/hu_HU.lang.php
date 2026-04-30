@@ -54,7 +54,7 @@ $mod_strings = array(
     'LBL_NAME' => 'Név',
     'LBL_CREATED_USER' => 'Felhasználó által létrehozva',
     'LBL_MODIFIED_USER' => 'Felhasználó által módosítva',
-    'LBL_LIST_NAME' => 'Név',
+    'LBL_LIST_NAME' => 'Elnevezés',
     'LBL_EDIT_BUTTON' => 'Szerkesztés',
     'LBL_REMOVE' => 'Sil',
 

@@ -57,7 +57,7 @@ $mod_strings = array(
     'LBL_RATING' => 'Évaluation',
     'LBL_ASSIGNED_TO' => 'Assigné à:',
     'LBL_ASSIGNED_USER' => 'Assigné à:',
-    'LBL_ASSIGNED_TO_ID' => 'Assigné à:',
+    'LBL_ASSIGNED_TO_ID' => 'Assigné à :',
     'LBL_BILLING_ADDRESS_CITY' => 'Ville Facturation:',
     'LBL_BILLING_ADDRESS_COUNTRY' => 'Pays Facturation:',
     'LBL_BILLING_ADDRESS_POSTALCODE' => 'Code Postal Facturation:',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'Voulez-vous vraiment supprimer cet enregistrement?',
 
     'LBL_EDIT_BUTTON' => 'Modifier',
-    'LBL_REMOVE' => 'Retirer',
+    'LBL_REMOVE' => 'Supprimer',
 
 );

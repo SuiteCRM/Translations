@@ -46,37 +46,37 @@ $mod_strings = array(
     //module
     'LBL_MODULE_NAME' => 'ලේඛන සංශෝධනය',
 
-    'LNK_NEW_DOCUMENT' => 'ලේඛන නිර්මාණය',
+    'LNK_NEW_DOCUMENT' => 'ලේඛනය සාදන්න',
     'LNK_DOCUMENT_LIST' => 'දැක්ම ලේඛන',
 
     //vardef labels
-    'LBL_REVISION_NAME' => 'සංශෝධනය අංකය',
-    'LBL_FILENAME' => 'ගොනුව:',
-    'LBL_MIME' => 'MIME ශෛලිය',
-    'LBL_REVISION' => 'සංශෝධනය',
-    'LBL_DOCUMENT' => 'සබැඳි ලේඛන',
-    'LBL_LATEST_REVISION' => 'නවතම සංශෝධනය',
-    'LBL_CHANGE_LOG' => 'වෙනස් ලොග්',
-    'LBL_ACTIVE_DATE' => 'දිනය ප්රකාශයට පත් කරනු ලබයි',
-    'LBL_EXPIRATION_DATE' => 'කල්පිරෙන දිනය',
-    'LBL_FILE_EXTENSION' => 'ගොනුව ව්යාප්ති',
+    'LBL_REVISION_NAME' => 'Revision Number',
+    'LBL_FILENAME' => 'File:',
+    'LBL_MIME' => 'Mime Type',
+    'LBL_REVISION' => 'Revision',
+    'LBL_DOCUMENT' => 'Related Document',
+    'LBL_LATEST_REVISION' => 'Latest Revision',
+    'LBL_CHANGE_LOG' => 'Change Log',
+    'LBL_ACTIVE_DATE' => 'Publish Date',
+    'LBL_EXPIRATION_DATE' => 'Expiration Date',
+    'LBL_FILE_EXTENSION' => 'File Extension',
 
-    'LBL_DOC_NAME' => 'ලේඛන නම:',
-    'LBL_DOC_VERSION' => 'සංශෝධනය:',
+    'LBL_DOC_NAME' => 'Document Name:',
+    'LBL_DOC_VERSION' => 'Revision:',
 
     //document revisions.
-    'LBL_REV_LIST_REVISION' => 'සංශෝධනය',
+    'LBL_REV_LIST_REVISION' => 'Revision',
     'LBL_REV_LIST_ENTERED' => 'සෑදූ දිනය',
-    'LBL_REV_LIST_CREATED' => 'සෑදුවේ',
-    'LBL_REV_LIST_LOG' => 'වෙනස් ලොග්',
-    'LBL_REV_LIST_FILENAME' => 'ගොනුව',
+    'LBL_REV_LIST_CREATED' => 'Created by',
+    'LBL_REV_LIST_LOG' => 'Change Log',
+    'LBL_REV_LIST_FILENAME' => 'File',
 
     'LBL_CURRENT_DOC_VERSION' => 'නවතම සංශෝධනය:',
-    'LBL_SEARCH_FORM_TITLE' => 'ලේඛන සොයන්න',
+    'LBL_SEARCH_FORM_TITLE' => 'Document Search',
     'LBL_REVISIONS' => 'සංශෝධනය මඟින්',
 
     //error messages
-    'ERR_FILENAME' => 'ගොනුවේ නම',
+    'ERR_FILENAME' => 'File Name',
     'ERR_DOC_VERSION' => 'ලේඛන සංස්කරණය',
     'ERR_DELETE_CONFIRM' => 'ඔබ මෙම ලියවිල්ල සංශෝධනය ඉවත් කිරීමට අවශ්යද?',
     'ERR_DELETE_LATEST_VERSION' => 'ඔබ ලියවිල්ලක් නවතම සංශෝධනය ඉවත් කිරීමට ඉඩ දෙනු නොලැබේ.',

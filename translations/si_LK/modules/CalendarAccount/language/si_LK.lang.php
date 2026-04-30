@@ -33,11 +33,11 @@ $mod_strings = [
     // System fields
     'LBL_ASSIGNED_TO_ID' => ' පවරා පරිශීලක අංකය',
     'LBL_ASSIGNED_TO_NAME' => ' පවරා',
-    'LBL_DATE_ENTERED' => 'සෑදූ දිනය',
-    'LBL_DATE_MODIFIED' => ' නවීකරණය කරන ලද දිනය',
+    'LBL_DATE_ENTERED' => 'දිනය නිර්මාණය',
+    'LBL_DATE_MODIFIED' => 'නවීකරණය කරන ලද දිනය',
     'LBL_MODIFIED' => ' වන විට නවීකරණය කරන ලද',
     'LBL_MODIFIED_NAME' => ' නම වන විට නවීකරණය කරන ලද',
-    'LBL_CREATED' => 'සෑදුවේ',
+    'LBL_CREATED' => 'නිර්මාණය කළේ',
     'LBL_CREATED_USER' => ' පරිශීලක විසින් නිර්මාණය',
     'LBL_MODIFIED_USER' => ' පරිශීලක විසින් නවීකරණය කරන ලද',
     'LBL_DESCRIPTION' => 'විස්තරය',
@@ -50,10 +50,10 @@ $mod_strings = [
     // List view labels
     'LBL_LIST_NAME' => 'නම',
     'LBL_LIST_DELETE' => 'මකා',
-    'LBL_EDIT_BUTTON' => 'සංස්කරණය',
-    'LBL_REMOVE' => 'ඉවත් කරන්න',
-    'LBL_ASCENDING' => 'යද්දි',
-    'LBL_DESCENDING' => 'බැස',
+    'LBL_EDIT_BUTTON' => '  සංස්කරණය',
+    'LBL_REMOVE' => ' ඉවත් කරන්න',
+    'LBL_ASCENDING' => 'ආරෝහණ',
+    'LBL_DESCENDING' => 'අවරෝහණ',
 
     // Email opt-in labels
     'LBL_OPT_IN' => 'Opt In',
@@ -63,7 +63,7 @@ $mod_strings = [
 
     // Subpanel titles
     'LBL_HISTORY_SUBPANEL_TITLE' => ' දැක්ම ඉතිහාසය',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => ' කටයුතු',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'කටයුතු',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
 
@@ -91,8 +91,8 @@ $mod_strings = [
     'LNK_LIST' => 'View Calendar Accounts',
 
     // Standard fields
-    'LBL_NAME' => 'නම',
-    'LBL_ID' => ' හැඳුනුම්',
+    'LBL_NAME' => ' නම',
+    'LBL_ID' => 'හැඳුනුම්',
     'LBL_TYPE' => 'වර්ගය',
     'LBL_SOURCE' => 'Calendar Source',
 
@@ -101,8 +101,8 @@ $mod_strings = [
     'LBL_CONNECT_OAUTH' => 'Connect OAuth',
 
     // Basic Auth Fields
-    'LBL_USERNAME' => 'පරිශීලක නාමය',
-    'LBL_PASSWORD' => 'මුරපදය',
+    'LBL_USERNAME' => 'Username',
+    'LBL_PASSWORD' => 'Password',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test Connection',
 
@@ -162,12 +162,12 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Please select a calendar source first.',
 
     // Connection test messages
-    'LBL_CALENDAR' => 'දින දර්ශනය',
-    'LBL_SUCCESSFUL' => 'සාර්ථක',
+    'LBL_CALENDAR' => 'දින දසුන',
+    'LBL_SUCCESSFUL' => 'Successful',
     'LBL_FAILED' => 'අසමත් විය',
     'LBL_CONNECTION_TEST' => 'Connection Test',
     'LBL_YES' => 'ඔව්',
-    'LBL_NO' => 'නැත',
+    'LBL_NO' => 'නැහැ',
     'LBL_FOUND_CALENDARS' => 'Found {count} calendars.',
     'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'An error occurred while processing the connection test response. Please check the logs for details.',
     'LBL_CONNECTION_TEST_HTTP_ERROR' => 'Connection test failed with HTTP status',
@@ -182,14 +182,14 @@ $mod_strings = [
 
     // Dialog labels
     'LBL_NOTIFICATION' => 'Notification',
-    'LBL_CONFIRM' => 'තහවුරු කරන්න',
+    'LBL_CONFIRM' => 'Confirm',
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
     'LBL_SYNC_STATUS_IN_PROGRESS' => 'ප්රගතියේ',
-    'LBL_SYNC_STATUS_SUCCESS' => 'සාර්ථකත්වය',
-    'LBL_SYNC_STATUS_WARNING' => 'අවවාදයයි',
-    'LBL_SYNC_STATUS_ERROR' => ' දෝෂ',
+    'LBL_SYNC_STATUS_SUCCESS' => 'Success',
+    'LBL_SYNC_STATUS_WARNING' => 'Warning',
+    'LBL_SYNC_STATUS_ERROR' => 'Error',
 
     // Sync message enum translations
     'LBL_SYNC_MSG_SYNC_COMPLETE' => 'All meetings synced.',
@@ -202,5 +202,5 @@ $mod_strings = [
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Calendar not found.',
 
     // Relationship labels
-    'LBL_MEETINGS' => 'රැස්වීම්',
+    'LBL_MEETINGS' => 'Meetings',
 ];

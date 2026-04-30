@@ -50,29 +50,29 @@ $mod_strings = array(
     'LNK_DOCUMENT_LIST' => 'Xem Tài liệu',
 
     //vardef labels
-    'LBL_REVISION_NAME' => 'Số Bản sửa',
-    'LBL_FILENAME' => 'Tập tin:',
-    'LBL_MIME' => 'Loại Mime',
-    'LBL_REVISION' => 'Bản sửa',
-    'LBL_DOCUMENT' => 'Tài liệu liên quan',
-    'LBL_LATEST_REVISION' => 'Bản điều chỉnh cuối',
-    'LBL_CHANGE_LOG' => 'Log Thay đổi',
-    'LBL_ACTIVE_DATE' => 'Ngày phát hành',
-    'LBL_EXPIRATION_DATE' => 'Ngày hết hạn',
-    'LBL_FILE_EXTENSION' => 'Tập tin mở rộng',
+    'LBL_REVISION_NAME' => 'Revision Number',
+    'LBL_FILENAME' => 'File:',
+    'LBL_MIME' => 'Mime Type',
+    'LBL_REVISION' => 'Revision',
+    'LBL_DOCUMENT' => 'Related Document',
+    'LBL_LATEST_REVISION' => 'Latest Revision',
+    'LBL_CHANGE_LOG' => 'Change Log',
+    'LBL_ACTIVE_DATE' => 'Publish Date',
+    'LBL_EXPIRATION_DATE' => 'Expiration Date',
+    'LBL_FILE_EXTENSION' => 'File Extension',
 
-    'LBL_DOC_NAME' => 'Tên Tài liệu:',
-    'LBL_DOC_VERSION' => 'Phiên bản:',
+    'LBL_DOC_NAME' => 'Document Name:',
+    'LBL_DOC_VERSION' => 'Revision:',
 
     //document revisions.
-    'LBL_REV_LIST_REVISION' => 'Bản sửa',
+    'LBL_REV_LIST_REVISION' => 'Revision',
     'LBL_REV_LIST_ENTERED' => 'Ngày tạo',
-    'LBL_REV_LIST_CREATED' => 'Được tạo bởi',
-    'LBL_REV_LIST_LOG' => 'Log Thay đổi',
+    'LBL_REV_LIST_CREATED' => 'Created by',
+    'LBL_REV_LIST_LOG' => 'Change Log',
     'LBL_REV_LIST_FILENAME' => 'Tập tin',
 
     'LBL_CURRENT_DOC_VERSION' => 'Phiên bản mới nhất:',
-    'LBL_SEARCH_FORM_TITLE' => 'Tìm kiếm Tài liệu',
+    'LBL_SEARCH_FORM_TITLE' => 'Document Search',
     'LBL_REVISIONS' => 'Bản sửa',
 
     //error messages

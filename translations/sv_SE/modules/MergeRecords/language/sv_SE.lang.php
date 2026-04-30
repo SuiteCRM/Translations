@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Slå ihop Lister',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Steg 1: Hitta söka poster att slå ihop med',
-    'LBL_AVAIL_FIELDS' => 'Tillgängliga ält',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'Filter Villkor',
     'LBL_MERGE_VALUE_OVER' => 'Slå ihop värden över',
 
@@ -58,15 +58,15 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Utför ihopslagning',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Utför ihopslagning',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Spara ihopslagning',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Spara ihopslagning',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => 'Hittade uppgifter att slå ihop med:',
     'LBL_SELECT_ERROR' => 'Du måste göra en val innan du kan fortsätta.',
     'LBL_CHANGE_PARENT' => 'Sätt som första val',
-    'LBL_REMOVE_FROM_MERGE' => 'Ta bort',
+    'LBL_REMOVE_FROM_MERGE' => 'Remove',
     'LBL_DIFF_COL_VALUES' => 'Värdet i valda kolumnrader skiljer ifrån ihopslagna rader:',
     'LBL_SAME_COL_VALUES' => 'Kolumner vars värden är lika över alla rader:',
     'LBL_DELETE_MESSAGE' => 'Denna handling kommer att ta bort följande uppgift(er):',

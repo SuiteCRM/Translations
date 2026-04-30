@@ -47,11 +47,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 //to translate, only modify the right value in each key/value pair
 $app_list_strings = array(
 //e.g. auf Deutsch 'Contacts'=>'Contakten',
-    'language_pack_name' => 'US English',
+    'language_pack_name' => 'ՈS Ǝuƃlᴉsɥ',
     'moduleList' => array(
         'Home' => 'ǝɯoH',
         'ResourceCalendar' => 'ɹɐpuǝꞁɐƆ ǝɔɹnosǝᴚ',
-        'Contacts' => 'Contacts',
+        'Contacts' => 'Ɔouʇɐɔʇs',
         'Accounts' => 'Accounts',
         'Alerts' => 'sʇɹǝꞁⱯ',
         'Opportunities' => 'sǝᴉʇᴉunʇɹoddO',

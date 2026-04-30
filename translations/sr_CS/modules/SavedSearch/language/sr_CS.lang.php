@@ -49,15 +49,15 @@ $mod_strings = array(
     'LBL_DELETE_CONFIRM' => 'Da li ste sigurni da želite da izbrišete izabrani filter?',
     'LBL_DELETE_BUTTON_TITLE' => 'Izbriši ovaj filter',
     'LBL_SAVE_BUTTON_TITLE' => 'Sačuvaj trenutni filter',
-    'LBL_LIST_NAME' => 'Ime',
-    'LBL_LIST_MODULE' => 'Modul',
+    'LBL_LIST_NAME' => 'Naziv',
+    'LBL_LIST_MODULE' => 'Module',
     'LBL_ORDER_BY_COLUMNS' => 'Order by column:',
-    'LBL_DIRECTION' => 'Smer:',
+    'LBL_DIRECTION' => 'Direction:',
     'LBL_SAVE_SEARCH_AS' => 'Sačuvaj filter kao:',
-    'LBL_ASCENDING' => 'Rastući',
-    'LBL_DESCENDING' => 'Opadajući',
-    'LBL_MODIFY_CURRENT_FILTER' => 'Izmeni trenutni filter',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
-    'LBL_CREATED_BY' => 'Autor',
+    'LBL_CREATED_BY' => 'Created By',
 
 );

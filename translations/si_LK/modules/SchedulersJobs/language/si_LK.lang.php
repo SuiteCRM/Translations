@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_NAME' => 'රැකියා නම',
-    'LBL_EXECUTE_TIME' => 'වේලාව ක්රියාත්මක',
-    'LBL_SCHEDULER_ID' => 'කාර්ය සටහන්',
+    'LBL_NAME' => 'Job Name',
+    'LBL_EXECUTE_TIME' => 'Execute Time',
+    'LBL_SCHEDULER_ID' => 'Scheduler',
     'LBL_STATUS' => 'Job Status',
-    'LBL_RESOLUTION' => 'ප්රතිඵල',
+    'LBL_RESOLUTION' => 'Result',
     'LBL_MESSAGE' => 'Messages',
     'LBL_DATA' => 'Job Data',
     'LBL_REQUEUE' => 'Retry on failure',

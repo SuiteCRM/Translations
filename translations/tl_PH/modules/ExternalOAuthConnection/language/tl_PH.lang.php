@@ -44,19 +44,19 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
 
-    'LBL_ASSIGNED_TO_ID' => 'Magtalaga ng nagagamit sa Id',
-    'LBL_ASSIGNED_TO_NAME' => 'Magtalaga sa',
-    'LBL_ID' => 'ID',
-    'LBL_DATE_ENTERED' => 'Lumikha ng Petsa',
-    'LBL_DATE_MODIFIED' => 'Petsang binago',
+    'LBL_ASSIGNED_TO_ID' => 'Ang nagagamit sa Id ay nagtalaga',
+    'LBL_ASSIGNED_TO_NAME' => 'Magtakda sa',
+    'LBL_ID' => 'Ang ID',
+    'LBL_DATE_ENTERED' => 'Ang petsa ay lumikha',
+    'LBL_DATE_MODIFIED' => 'Ang petsa ay binago',
     'LBL_MODIFIED' => 'Binago kay',
-    'LBL_MODIFIED_NAME' => 'Binago sa pamamagitan ng pangalan',
+    'LBL_MODIFIED_NAME' => 'Sa pamamagitan ng pangalan ay binago',
     'LBL_CREATED' => 'Nilikha ni',
-    'LBL_DESCRIPTION' => 'Paglalarawan',
-    'LBL_DELETED' => 'Nabura',
-    'LBL_NAME' => 'Ang Pangalan',
+    'LBL_DESCRIPTION' => 'Ang Paglalarawan',
+    'LBL_DELETED' => 'Ang Nabura',
+    'LBL_NAME' => 'Pangalan',
     'LBL_CREATED_USER' => 'Nililikha sa pamamagitan ng Gumagamit',
-    'LBL_MODIFIED_USER' => 'Binago sa pamamagitan ng gumagamit',
+    'LBL_MODIFIED_USER' => 'Ang Binago sa pamamagitan ng gumagamit',
     'LBL_LIST_NAME' => 'Ang Pangalan',
     'LBL_EDIT_BUTTON' => 'I-edit',
     'LBL_REMOVE' => 'Alisin',
@@ -73,7 +73,7 @@ $mod_strings = [
     'LBL_NEW_FORM_TITLE' => 'New External OAuth Connection',
 
     'LBL_LIST_DELETE' => 'Alisin',
-    'LBL_TYPE' => 'Ang Klase',
+    'LBL_TYPE' => 'Klase',
 
     'LBL_CLIENT_ID' => 'Client Id',
     'LBL_CLIENT_SECRET' => 'Client Secret',

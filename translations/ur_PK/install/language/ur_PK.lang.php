@@ -52,7 +52,7 @@ $mod_strings = array(
     'LBL_SYSOPTS_DB_TITLE' => 'ڈیٹا بیس کی قسم',
     'LBL_SYSOPTS_ERRS_TITLE' => 'مہربانی کر کےآگے بڑھنے سے پہلے مندرجہ ذیل غلطیوں کو حل کریں:',
     'ERR_DB_VERSION_FAILURE' => 'ڈیٹا بیس ورژن چیک کرنے میں ناکامی کا سامنا ہے.',
-    'DEFAULT_CHARSET' => 'یوٹی ٹی ایف-8',
+    'DEFAULT_CHARSET' => 'UTF-8',
     'ERR_ADMIN_USER_NAME_BLANK' => 'صارف کا نام فراہم کریں سویٹ سی آرایم ایڈمن صارف کے لئے. ',
     'ERR_ADMIN_PASS_BLANK' => 'پاس ورڈ فراہم کریں سویٹ سی آرایم ایڈمن صارف کے لئے. ',
 
@@ -243,7 +243,7 @@ $mod_strings = array(
 
     'LBL_LOCALE_NAME_FIRST' => 'ڈیوڈ',
     'LBL_LOCALE_NAME_LAST' => 'لیونگسٹون',
-    'LBL_LOCALE_NAME_SALUTATION' => 'ڈاکٹر.',
+    'LBL_LOCALE_NAME_SALUTATION' => 'Dr.',
 
     'LBL_ML_ACTION' => 'عمل',
     'LBL_ML_DESCRIPTION' => 'تفصیل',
@@ -259,7 +259,7 @@ $mod_strings = array(
     'LBL_MYSQL' => 'میرا ایس کیو ایل',
     'LBL_MYSQLI' => 'میثقل (میسقلی ایکسٹینشن)',
     'LBL_NEXT' => 'اگے',
-    'LBL_NO' => 'نہيں',
+    'LBL_NO' => 'No',
     'LBL_PERFORM_ADMIN_PASSWORD' => 'مالک کے طور پر ویب سائٹ کو راز دی',
     'LBL_PERFORM_CONFIG_PHP' => 'سائٹنگ ترتیب دینے کی دستاویز بنے',
     'LBL_PERFORM_CREATE_DB_1' => '<b>ڈیٹا بیس بنانے کے لیے</b> ',
@@ -402,7 +402,7 @@ $mod_strings = array(
     'LBL_WELCOME_CHOOSE_LANGUAGE' => '<b>اپنی مطلوبہ زبان کو درج کریں</b>',
     'LBL_WELCOME_SETUP_WIZARD' => 'تنصیبی مددگار',
     'LBL_WIZARD_TITLE' => 'سوتیکرم سیٹ اپ وزرڈ: ',
-    'LBL_YES' => 'جی ہاں',
+    'LBL_YES' => 'Yes',
 
     'LBL_PATCHES_TITLE' => 'جدید نسب جوڑنا',
     'LBL_MODULE_TITLE' => 'زبان پیک کو نصب کرنا',
@@ -476,7 +476,7 @@ $contact_user_link_guid',
     'LBL_SMTPTYPE_GMAIL' => 'جی میل',
     'LBL_SMTPTYPE_YAHOO' => 'یاہو میل',
     'LBL_SMTPTYPE_EXCHANGE' => 'میکروسوفٹ کا تبادلہ',
-    'LBL_SMTPTYPE_OTHER' => 'دیگر',
+    'LBL_SMTPTYPE_OTHER' => 'Other',
     'LBL_MAIL_SMTP_SETTINGS' => 'سمتپ سرور سپکفکٹوں',
     'LBL_MAIL_SMTPSERVER' => 'سمتپ سرور:',
     'LBL_MAIL_SMTPPORT' => 'ایس ایم ٹی پی پورٹ:',
@@ -567,9 +567,9 @@ $contact_user_link_guid',
     'LBL_OLD_PHP_OK' => 'میں رسک سے واقف ہوں اور اپنی خواہش کے مطابق جاری رکھنا چاہتا ہوں.',
 
     'LBL_DBCONF_TITLE_USER_INFO_LABEL' => 'صارف',
-    'LBL_DBCONFIG_MSG3_LABEL' => 'دیتا بیس نام',
+    'LBL_DBCONFIG_MSG3_LABEL' => 'ڈیٹا بیس کا نام',
     'LBL_DBCONFIG_MSG3' => 'ڈیٹابیس کا نام جو سوٹ سی آر ایم کا ڈیٹ رکھتا ہے آپ انسٹال کرنے کے بارے میں ہیں.',
-    'LBL_DBCONFIG_MSG2_LABEL' => 'مہمان کا نام',
+    'LBL_DBCONFIG_MSG2_LABEL' => 'میزبان کا نام',
     'LBL_DBCONFIG_MSG2' => 'اس ویب سرور کا نام اور مشین (میزبان) جس میں ڈیٹا بیس رکھا جاتا ہے(جیسے www.mydomain.com).کارکردگی کے وجوہات کے لئے.',
     'LBL_DBCONFIG_B_MSG1_LABEL' => '', // this label dynamically needed in install/installConfig.php:293
     'LBL_DBCONFIG_B_MSG1' => 'وہ ڈیٹا بیس کے منتظم کا صارف نام اور پاسورڈ جو ڈیٹا بیس میزیں تشکیل دے سکتا ہے جور سیربین ضرورت پڑنے پر ڈیٹا بیس میں لکھتے ہیں سوٹ کو استعمال کرتے ہے.'

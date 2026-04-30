@@ -53,7 +53,7 @@ $mod_strings = array(
     'LBL_DATE_RANGE_TO' => 'sa',
     'LBL_DATE_RANGE' => 'Ang saklaw ng petsa ay',
     'LBL_DATE_START' => 'Petsa ng Pagsisimula:',
-    'LBL_EDIT' => 'I-edit',
+    'LBL_EDIT' => 'Mag-edit',
     'LBL_LEAD_SOURCE_BY_OUTCOME_DESC' => 'Pinapakita ang mga bilang ng oportunidad na kumulatibo sa pangunahing pinagkukunang napagpilian sa kinalabasan para sa mga gumagamit na napagpilian. Ang kinalibasan ay nakabasi sa kung ang mga antas sa pagtitinda ay Napinalong Malapitan, Nawala nang Malapitan, o anumang iba pang halaga.',
     'LBL_LEAD_SOURCE_BY_OUTCOME' => 'Lahat ng mga Oportunidad Sa Nangungunang Pinagkukunan Sa Kinalalabasan',
     'LBL_LEAD_SOURCE_FORM_DESC' => 'Ipinapakita ang mga bilang ng oportunidad na kumulatibo sa pinagkukunang nangunguna na napagpilian para sa mga gumagamit na napagpilian.',
@@ -80,7 +80,7 @@ $mod_strings = array(
     'LBL_USERS' => 'Mga Gumagamit:',
     'LBL_YEAR_BY_OUTCOME' => 'Pipelayn Sa Buwan Sa Pamamagitan ng Kinalalabasan',
     'LBL_YEAR' => 'Taon:',
-    'LNK_NEW_ACCOUNT' => 'Gumawa ng Account',
+    'LNK_NEW_ACCOUNT' => 'Lumikha ng Akawnt',
     'LNK_NEW_CALL' => 'I-log ang Tawag',
     'LNK_NEW_CASE' => 'Gumawa ng kaso',
     'LNK_NEW_CONTACT' => 'Gumawa ng Kontak',
@@ -91,7 +91,7 @@ $mod_strings = array(
     'LNK_NEW_TASK' => 'Gumawa ng Gawain',
     'NTC_NO_LEGENDS' => 'Wala',
 
-    'LBL_TITLE' => 'Pamagat: ',
+    'LBL_TITLE' => 'Pamagat:',
     'LBL_MY_MODULES_USED_SIZE' => 'Bilang ng Pag-aakses',
 
     'LBL_CHART_PIPELINE_BY_SALES_STAGE' => 'Pipeline by Sales Stage',

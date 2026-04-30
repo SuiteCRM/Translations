@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Listahan sa Baligya',
     'LBL_NAME' => 'Pangan sa Baligya',
     'LBL_LIST_SALE_NAME' => 'Pangalan',
-    'LBL_LIST_ACCOUNT_NAME' => 'Ngalan sa Account',
+    'LBL_LIST_ACCOUNT_NAME' => 'Pangan sa Account',
     'LBL_LIST_AMOUNT' => 'Kantidad',
     'LBL_LIST_DATE_CLOSED' => 'Sirado',
     'LBL_LIST_SALE_STAGE' => 'Baligya na Stage',
@@ -70,7 +70,7 @@ $mod_strings = array(
     'LBL_LEAD_SOURCE' => 'Unang Source:',
     'LBL_SALES_STAGE' => 'Bantawan sa mga baligya:',
     'LBL_PROBABILITY' => 'Kalagmitan (%):',
-    'LBL_DESCRIPTION' => 'Deskripsyon:',
+    'LBL_DESCRIPTION' => 'Ang deskripsyon:',
     'LBL_DUPLICATE' => 'Posible nga Kopya sa Baligya',
     'MSG_DUPLICATE' => 'Ang baligya nga rekord nga imong buhaton kay tingalig pareho sa baligya nga rekord nga naa na. Ang mga rekords nga adunay kapareho og pangan kay gilista sa ubos.<br>Pislita ang Save para magpadayon sa paghimo og bag-o nga baligya, o pislita ang Cancel para mabalik sa modyul og dili magpadayon sa pagbuhat sa baligya.',
     'LBL_NEW_FORM_TITLE' => 'Pagbuhat og Baligya',
@@ -87,7 +87,7 @@ $mod_strings = array(
     'LBL_SALE_INFORMATION' => 'Impormasyon sa pagbaligya',
     'LBL_CURRENCY_NAME' => 'Pangan sa kwarta',
     'LBL_CURRENCY_SYMBOL' => 'Simbolo sa Salapi',
-    'LBL_EDIT_BUTTON' => 'Usba',
-    'LBL_REMOVE' => 'Tangtanga',
+    'LBL_EDIT_BUTTON' => 'I-Editon',
+    'LBL_REMOVE' => 'Tangtangon',
 
 );

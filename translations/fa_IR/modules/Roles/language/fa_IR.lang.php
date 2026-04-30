@@ -43,16 +43,16 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'نقش:',
-    'LBL_LANGUAGE' => 'زبان:',
+    'LBL_ROLE' => 'نقش: ',
+    'LBL_LANGUAGE' => 'زبان: ',
     'LBL_MODULE_NAME' => 'نقش‌ها',
-    'LBL_MODULE_TITLE' => 'نقش‌ها: صفحه اصلی',
+    'LBL_MODULE_TITLE' => 'Roles: Home',
     'LBL_SEARCH_FORM_TITLE' => 'جستجوی نقش',
     'LBL_LIST_FORM_TITLE' => 'لیست نقش‌ها',
-    'LNK_NEW_ROLE' => 'ایجاد نقش',
+    'LNK_NEW_ROLE' => 'Create Role',
     'LNK_ROLES' => 'نقش‌ها',
-    'LBL_NAME' => 'نام:',
-    'LBL_DESCRIPTION' => 'توضیحات:',
+    'LBL_NAME' => 'نام: ',
+    'LBL_DESCRIPTION' => 'توضیحات: ',
     'LBL_ALLOWED_MODULES' => 'ماژول‌های مجاز:',
     'LBL_DISALLOWED_MODULES' => 'ماژول‌های غیرمجاز:',
     'LBL_ASSIGN_MODULES' => 'ویرایش ماژول‌ها:',
@@ -60,5 +60,5 @@ $mod_strings = array(
     'LBL_USERS' => 'کاربرها',
 
     'LBL_USERS_SUBPANEL_TITLE' => 'کاربرها',
-    'LBL_MODULES' => 'ماژولها',
+    'LBL_MODULES' => 'Modules',
 );

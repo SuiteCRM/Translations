@@ -52,21 +52,21 @@ $mod_strings = array(
     'LBL_VIEW_SUITE_FIELDS' => 'Προβολή Πεδίων SuiteCRM',
     'LBL_FAILED_TO_SAVE' => 'Αποτυχία Αποθήκευσης',
     'LBL_CONFIRM_UNSAVE' => 'Οποιεσδήποτε αλλαγές δεν θα αποθηκευτούν. Είστε σίγουροι ότι θέλετε να συνεχίσετε;',
-    'LBL_PUBLISHING' => 'Δημοσίευση...',
-    'LBL_PUBLISHED' => 'Δημοσιεύτηκε',
+    'LBL_PUBLISHING' => 'Publishing...',
+    'LBL_PUBLISHED' => 'Δημοσίευση',
     'LBL_FAILED_PUBLISHED' => 'Αποτυχία Δημοσίευσης',
-    'LBL_DROP_HERE' => '[Πτώση Εδώ]',
+    'LBL_DROP_HERE' => '[Απόθεση Εδώ]',
 
 //CUSTOM FIELDS
     'LBL_NAME' => 'Όνομα',
-    'LBL_LABEL' => 'Ετικέτα',
-    'LBL_MASS_UPDATE' => 'Μαζική ενημέρωση',
-    'LBL_DEFAULT_VALUE' => 'Προκαθορισμένη Αξία',
-    'LBL_REQUIRED' => 'Απαιτείται',
-    'LBL_DATA_TYPE' => 'Τύπος',
+    'LBL_LABEL' => 'Label',
+    'LBL_MASS_UPDATE' => 'Μαζική Ενημέρωση',
+    'LBL_DEFAULT_VALUE' => 'Προκαθορισμένη Τιμή',
+    'LBL_REQUIRED' => 'Υποχρεωτικό',
+    'LBL_DATA_TYPE' => 'Type',
 
 
-    'LBL_HISTORY' => 'Ιστορικό',
+    'LBL_HISTORY' => 'History',
 
 //WIZARDS
 
@@ -79,11 +79,11 @@ $mod_strings = array(
     'LBL_SW_EDIT_GROUPTABS' => 'Διαμόρφωση Γκρουπ Καρτελών',
     'LBL_SW_EDIT_PORTAL' => 'Επεξεργασία Portal',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => 'Επιδιόρθωση Προσαρμοσμένων Πεδίων',
-    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Μετεγκατάσταση Πρόσθετων Πεδίων',
+    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Μετεγκατάσταση Προσαρμοσμένων Πεδίων',
 
 // JS LABELS
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Ανοικοδόμηση εκδόσεων javascript των αρχείων γλώσσας',
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Κατάργηση των εκδόσεων javascript των αρχείων γλώσσας, θα ανοικοδομήσουν όταν χρειάζεται.',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuilds javascript versions of language files',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Removing javascript versions of language files, will rebuild when needed.',
 
 
 //Manager Backups History
@@ -93,23 +93,23 @@ $mod_strings = array(
     'LBL_ED_CREATE_DROPDOWN' => 'Δημιουργία ενός Αναπτυσσόμενου',
     'LBL_DROPDOWN_NAME' => 'Αναπτυσσόμενο Όνομα:',
     'LBL_DROPDOWN_LANGUAGE' => 'Αναπτυσσόμενη Γλώσσα:',
-    'LBL_TABGROUP_LANGUAGE' => 'Γλώσσα:',
+    'LBL_TABGROUP_LANGUAGE' => 'Language:',
 
 //END WIZARDS
 
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => 'Εμφάνιση Αξίας',
     'LBL_DD_DATABASEVALUE' => 'Αξία Βάσης Δεδομένων',
-    'LBL_DD_ALL' => 'Όλα',
+    'LBL_DD_ALL' => 'Όλες',
 
 //BUTTONS
-    'LBL_BTN_SAVE' => 'Αποθήκευση',
-    'LBL_BTN_CANCEL' => 'Άκυρο',
+    'LBL_BTN_SAVE' => 'Save',
+    'LBL_BTN_CANCEL' => 'Ακύρωση',
     'LBL_BTN_SAVEPUBLISH' => 'Αποθήκευση & Ανάπτυξη',
-    'LBL_BTN_HISTORY' => 'Ιστορικό',
+    'LBL_BTN_HISTORY' => 'History',
     'LBL_BTN_ADDROWS' => 'Προσθήκη Γραμμών',
-    'LBL_BTN_UNDO' => 'Αναίρεση',
-    'LBL_BTN_REDO' => 'Ξανά',
+    'LBL_BTN_UNDO' => 'Undo',
+    'LBL_BTN_REDO' => 'Ακύρωση αναίρεσης',
     'LBL_BTN_ADDCUSTOMFIELD' => 'Προσθήκη Προσαρμοσμένου Πεδίου',
     'LBL_BTN_TABINDEX' => 'Επεξεργασία Σειράς Καρτελών',
 
@@ -126,20 +126,20 @@ $mod_strings = array(
     'LBL_RENAME_TABS' => 'Μετονομασία Ενοτήτων',
 
 //ERRORS
-    'ERROR_INVALID_KEY_VALUE' => "Λάθος: Άκυρη Αξία Κλειδιού: [&#39;]",
+    'ERROR_INVALID_KEY_VALUE' => "Error: Invalid Key Value: [']",
 
 //SUGAR PORTAL
-    'LBL_SAVE' => 'Αποθήκευση' /*for 508 compliance fix*/,
-    'LBL_UNDO' => 'Αναίρεση' /*for 508 compliance fix*/,
-    'LBL_REDO' => 'Ξανά' /*for 508 compliance fix*/,
+    'LBL_SAVE' => 'Save' /*for 508 compliance fix*/,
+    'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
+    'LBL_REDO' => 'Ακύρωση αναίρεσης' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Ευθύγραμμο' /*for 508 compliance fix*/,
     'LBL_DELETE' => 'Διαγραφή' /*for 508 compliance fix*/,
-    'LBL_ADD_FIELD' => 'Προσθήκη Πεδίου' /*for 508 compliance fix*/,
+    'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Μεγιστοποίηση' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Ελαχιστοποίηση' /*for 508 compliance fix*/,
     'LBL_PUBLISH' => 'Δημοσίευση' /*for 508 compliance fix*/,
     'LBL_ADDROWS' => 'Προσθήκη Γραμμών' /*for 508 compliance fix*/,
-    'LBL_ADDFIELD' => 'Προσθήκη Πεδίου' /*for 508 compliance fix*/,
+    'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_EDIT' => 'Επεξεργασία' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Επιλογή γλώσσας για επεξεργασία.',

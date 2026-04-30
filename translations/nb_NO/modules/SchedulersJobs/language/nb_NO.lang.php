@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_NAME' => 'Jobbnavn',
-    'LBL_EXECUTE_TIME' => 'Avslutningstid',
-    'LBL_SCHEDULER_ID' => 'Planlegger',
+    'LBL_NAME' => 'Job Name',
+    'LBL_EXECUTE_TIME' => 'Execute Time',
+    'LBL_SCHEDULER_ID' => 'Scheduler',
     'LBL_STATUS' => 'Jobbstatus',
-    'LBL_RESOLUTION' => 'Resultat',
+    'LBL_RESOLUTION' => 'Result',
     'LBL_MESSAGE' => 'Meldinger',
     'LBL_DATA' => 'Jobbdata',
     'LBL_REQUEUE' => 'Prøv igjen ved feil',

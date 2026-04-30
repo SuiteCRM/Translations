@@ -46,7 +46,7 @@ $mod_strings = array(
     //module
     'LBL_MODULE_NAME' => 'Dokumentong rebisyon',
 
-    'LNK_NEW_DOCUMENT' => 'Lumikha ng Dokumento',
+    'LNK_NEW_DOCUMENT' => 'Maglikha ng Dokumento',
     'LNK_DOCUMENT_LIST' => 'Tingnan ang mga dokumento',
 
     //vardef labels
@@ -55,11 +55,11 @@ $mod_strings = array(
     'LBL_MIME' => 'Uri ng Mime',
     'LBL_REVISION' => 'Rebisyon',
     'LBL_DOCUMENT' => 'Kaugnay na dokumento',
-    'LBL_LATEST_REVISION' => 'Pinakamabagong rebisyon',
+    'LBL_LATEST_REVISION' => 'Pinakabagong rebisyon',
     'LBL_CHANGE_LOG' => 'Baguhin ang log',
     'LBL_ACTIVE_DATE' => 'Ilathala ang petsa',
     'LBL_EXPIRATION_DATE' => 'Petsa ng pagkawalang-bisa',
-    'LBL_FILE_EXTENSION' => 'Extensyon ng File',
+    'LBL_FILE_EXTENSION' => 'Ekstensyon ng File',
 
     'LBL_DOC_NAME' => 'Pangalan ng dokumento:',
     'LBL_DOC_VERSION' => 'Rebisyon:',
@@ -67,7 +67,7 @@ $mod_strings = array(
     //document revisions.
     'LBL_REV_LIST_REVISION' => 'Rebisyon',
     'LBL_REV_LIST_ENTERED' => 'Ang petsa ng pagkakalikha',
-    'LBL_REV_LIST_CREATED' => 'Inilikha sa pamamagitan ng',
+    'LBL_REV_LIST_CREATED' => 'Created by',
     'LBL_REV_LIST_LOG' => 'Baguhin ang log',
     'LBL_REV_LIST_FILENAME' => 'Ang payl',
 

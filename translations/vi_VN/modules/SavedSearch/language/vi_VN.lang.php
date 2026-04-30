@@ -49,15 +49,15 @@ $mod_strings = array(
     'LBL_DELETE_CONFIRM' => 'Bạn có chắc bạn muốn xoá bộ lọc đã lưu đã chọn?',
     'LBL_DELETE_BUTTON_TITLE' => 'Xoá bộ lọc đã lưu này',
     'LBL_SAVE_BUTTON_TITLE' => 'Lưu bộ lọc hiện tại',
-    'LBL_LIST_NAME' => 'Tên',
+    'LBL_LIST_NAME' => 'tên',
     'LBL_LIST_MODULE' => 'Chức năng',
     'LBL_ORDER_BY_COLUMNS' => 'Order by column:',
-    'LBL_DIRECTION' => 'Phương hướng:',
+    'LBL_DIRECTION' => 'Direction:',
     'LBL_SAVE_SEARCH_AS' => 'Lưu các bộ lọc như là:',
     'LBL_ASCENDING' => 'tăng dần',
     'LBL_DESCENDING' => 'Giảm dần',
-    'LBL_MODIFY_CURRENT_FILTER' => 'Sửa đổi bộ lọc hiện tại',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
-    'LBL_CREATED_BY' => 'Khởi tạo bởi',
+    'LBL_CREATED_BY' => 'Được tạo bởi',
 
 );

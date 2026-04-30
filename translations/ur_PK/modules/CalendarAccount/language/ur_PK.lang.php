@@ -33,18 +33,18 @@ $mod_strings = [
     // System fields
     'LBL_ASSIGNED_TO_ID' => 'مقرر کردہ صارف کی شناخت',
     'LBL_ASSIGNED_TO_NAME' => 'کے لئے تفویض',
-    'LBL_DATE_ENTERED' => 'تاریخ کی تشکیل',
+    'LBL_DATE_ENTERED' => 'تاریخ بنائی گئی ہے',
     'LBL_DATE_MODIFIED' => 'تاریخ میں ترمیم',
     'LBL_MODIFIED' => 'کسی کی طرف سے ترمیم',
-    'LBL_MODIFIED_NAME' => 'نام کی طرف سے ترمیم',
+    'LBL_MODIFIED_NAME' => 'نام سے ترمیم',
     'LBL_CREATED' => 'کی طرف سے پیدا کردہ',
-    'LBL_CREATED_USER' => 'صارف کی طرف سے پیدا کردہ',
+    'LBL_CREATED_USER' => 'صارف کی طرف سے پیدا شدہ',
     'LBL_MODIFIED_USER' => 'صارف کی طرف سے ترمیم',
     'LBL_DESCRIPTION' => 'تفصیل',
     'LBL_DELETED' => 'حذف کر دیا گیا',
 
     // Security groups
-    'LBL_SECURITYGROUPS' => 'سیکورٹی گروپ',
+    'LBL_SECURITYGROUPS' => 'سیکورٹی گروپس',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'سیکورٹی گروپ',
 
     // List view labels
@@ -63,7 +63,7 @@ $mod_strings = [
 
     // Subpanel titles
     'LBL_HISTORY_SUBPANEL_TITLE' => 'تاریخ دیکھیں',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'سرگرمیاں',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
 
@@ -162,12 +162,12 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Please select a calendar source first.',
 
     // Connection test messages
-    'LBL_CALENDAR' => 'کیلنڈر',
+    'LBL_CALENDAR' => 'Calendar',
     'LBL_SUCCESSFUL' => 'کامیاب',
     'LBL_FAILED' => 'ناکام',
     'LBL_CONNECTION_TEST' => 'Connection Test',
-    'LBL_YES' => 'جی ہاں',
-    'LBL_NO' => 'نہيں',
+    'LBL_YES' => 'Yes',
+    'LBL_NO' => 'No',
     'LBL_FOUND_CALENDARS' => 'Found {count} calendars.',
     'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'An error occurred while processing the connection test response. Please check the logs for details.',
     'LBL_CONNECTION_TEST_HTTP_ERROR' => 'Connection test failed with HTTP status',
@@ -186,7 +186,7 @@ $mod_strings = [
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => 'پیش رفت میں',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => 'In Progress',
     'LBL_SYNC_STATUS_SUCCESS' => 'کامیابی',
     'LBL_SYNC_STATUS_WARNING' => 'انتباہ',
     'LBL_SYNC_STATUS_ERROR' => 'غلطی',
@@ -202,5 +202,5 @@ $mod_strings = [
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Calendar not found.',
 
     // Relationship labels
-    'LBL_MEETINGS' => 'ملاقات',
+    'LBL_MEETINGS' => 'Meetings',
 ];

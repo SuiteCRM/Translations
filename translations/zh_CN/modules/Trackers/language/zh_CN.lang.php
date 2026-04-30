@@ -46,10 +46,10 @@ $mod_strings = array(
     //Column header mapping
     'action' => '动作',
     'date_modified' => '最近执行日期',
-    'item_id' => '编号',
-    'item_summary' => '名称',
-    'module_name' => '模块名称',
-    'users' => '用户',
+    'item_id' => 'ID',
+    'item_summary' => '追踪器',
+    'module_name' => '模块名',
+    'users' => '多个用户',
 
     //Administration related labels
     'LBL_MODULE_NAME' => '追踪器',

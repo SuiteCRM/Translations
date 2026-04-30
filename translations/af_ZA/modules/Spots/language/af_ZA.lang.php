@@ -55,12 +55,12 @@ $mod_strings = array(
     'LBL_CREATED' => 'Created By',
     'LBL_DESCRIPTION' => 'Beskrywing',
     'LBL_DELETED' => 'Geskrap',
-    'LBL_NAME' => 'Naam',
+    'LBL_NAME' => 'Name',
     'LBL_CREATED_USER' => 'Geskep deur Gebruiker',
     'LBL_MODIFIED_USER' => 'Verander deur gebruiker',
-    'LBL_LIST_NAME' => 'Naam',
-    'LBL_EDIT_BUTTON' => 'Wysig',
-    'LBL_REMOVE' => 'Verwyder',
+    'LBL_LIST_NAME' => 'Name',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
     'LBL_LIST_FORM_TITLE' => 'Pivot List',
     'LBL_MODULE_NAME' => 'Pivot',
     'LBL_MODULE_TITLE' => 'Pivot',
@@ -69,7 +69,7 @@ $mod_strings = array(
     'LNK_LIST' => 'View Pivot',
     'LBL_SEARCH_FORM_TITLE' => 'Search Pivot',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktiwiteite',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_NEW_FORM_TITLE' => 'New Pivot',
     'LBL_CONFIG' => 'Config',
     'LBL_TYPE' => 'Area for Analysis',
@@ -82,7 +82,7 @@ $mod_strings = array(
     'LBL_AN_UNSUPPORTED_DB' => 'Sorry, Suite Spots are currently configured for MySQL and MS SQL only',
 
     //Analytics labels for accounts pivot
-    'LBL_AN_ACCOUNTS_ACCOUNT_NAME' => 'Naam',
+    'LBL_AN_ACCOUNTS_ACCOUNT_NAME' => 'Name',
     'LBL_AN_ACCOUNTS_ACCOUNT_TYPE' => 'Account Type',
     'LBL_AN_ACCOUNTS_ACCOUNT_INDUSTRY' => 'Industry',
     'LBL_AN_ACCOUNTS_ACCOUNT_BILLING_COUNTRY' => 'Billing Country',
@@ -113,7 +113,7 @@ $mod_strings = array(
     'LBL_AN_SALES_WEEK' => 'Sales Week',
     'LBL_AN_SALES_DAY' => 'Sales Day',
     'LBL_AN_SALES_YEAR' => 'Sales Year',
-    'LBL_AN_SALES_CAMPAIGN' => 'Veldtog',
+    'LBL_AN_SALES_CAMPAIGN' => 'Campaign',
 
     //Analytics labels for service pivot
     'LBL_AN_SERVICE_ACCOUNT_NAME' => 'Account Name',
@@ -130,16 +130,16 @@ $mod_strings = array(
 
     //Analytics labels for the activities pivot
     'LBL_AN_ACTIVITIES_TYPE' => 'Type',
-    'LBL_AN_ACTIVITIES_NAME' => 'Naam',
+    'LBL_AN_ACTIVITIES_NAME' => 'Name',
     'LBL_AN_ACTIVITIES_STATUS' => 'Status',
     'LBL_AN_ACTIVITIES_ASSIGNED_TO' => 'Assigned User',
 
     //Analytics labels for the marketing pivot
     'LBL_AN_MARKETING_STATUS' => 'Status',
     'LBL_AN_MARKETING_TYPE' => 'Type',
-    'LBL_AN_MARKETING_BUDGET' => 'Begroting',
+    'LBL_AN_MARKETING_BUDGET' => 'Budget',
     'LBL_AN_MARKETING_EXPECTED_COST' => 'Expected Cost',
-    'LBL_AN_MARKETING_EXPECTED_REVENUE' => 'Verwagte inkomste',
+    'LBL_AN_MARKETING_EXPECTED_REVENUE' => 'Expected Revenue',
     'LBL_AN_MARKETING_OPPORTUNITY_NAME' => 'Geleentheid naam',
     'LBL_AN_MARKETING_OPPORTUNITY_AMOUNT' => 'Opportunity Amount',
     'LBL_AN_MARKETING_OPPORTUNITY_SALES_STAGE' => 'Opportunity Sales Stage',

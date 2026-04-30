@@ -43,15 +43,15 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Роля',
-    'LBL_NAME' => 'Име',
-    'LBL_DESCRIPTION' => 'Описание',
+    'LBL_ROLE' => 'Role',
+    'LBL_NAME' => 'Name',
+    'LBL_DESCRIPTION' => 'Description',
     'LIST_ROLES' => 'Списък с роли',
-    'LBL_USERS_SUBPANEL_TITLE' => 'Потребители',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
     'LIST_ROLES_BY_USER' => 'Списък роли на потребител',
     'LBL_ROLES_SUBPANEL_TITLE' => 'Потребителски роли',
-    'LBL_SEARCH_FORM_TITLE' => 'Търси',
-    'LBL_NO_ACCESS' => 'Не разполагате с необходимите права за достъп. Моля, свържете се със системния администратор.',
+    'LBL_SEARCH_FORM_TITLE' => 'Search',
+    'LBL_NO_ACCESS' => 'You do not have access to this area. Contact your site administrator to obtain access.',
     'LBL_REDIRECT_TO_HOME' => 'Redirect to Home in',
     'LBL_SECONDS' => 'seconds',
     'LBL_ADDING' => 'Добавяне на ',

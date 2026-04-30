@@ -43,16 +43,16 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ASSIGNED_TO_ID' => 'Υπεύθυνος Χρήστης Α/Α ',
-    'LBL_ASSIGNED_TO_NAME' => 'Υπεύθυνος',
-    'LBL_ID' => 'Α/Α',
-    'LBL_DATE_ENTERED' => 'Date Entered',
+    'LBL_ASSIGNED_TO_ID' => 'Ταυτότητα Ανατεθειμένου Χειριστή',
+    'LBL_ASSIGNED_TO_NAME' => 'Ανατέθηκε σε',
+    'LBL_ID' => 'Ταυτότητα',
+    'LBL_DATE_ENTERED' => 'Ημ/νία καταχώρησης',
     'LBL_DATE_MODIFIED' => 'Ημ/νία Τροποποίησης',
-    'LBL_MODIFIED' => 'Τροποποιήθηκε από',
-    'LBL_MODIFIED_ID' => 'Τροποποιήθηκε από Id:',
-    'LBL_MODIFIED_NAME' => 'Τροποποίηση ανά Όνομα',
-    'LBL_CREATED' => 'Δημιουργήθηκε από',
-    'LBL_CREATED_ID' => 'Δημιουργήθηκε από Id',
+    'LBL_MODIFIED' => 'Τροποποιήθηκε Από',
+    'LBL_MODIFIED_ID' => 'Modified By Id',
+    'LBL_MODIFIED_NAME' => 'Τροποποιήθηκε Από Όνομα',
+    'LBL_CREATED' => 'Δημιουργήθηκε Από',
+    'LBL_CREATED_ID' => 'Created By Id',
     'LBL_DESCRIPTION' => 'Περιγραφή',
     'LBL_DELETED' => 'Διαγράφηκε',
     'LBL_NAME' => 'Όνομα',
@@ -60,7 +60,7 @@ $mod_strings = array(
     'LBL_MODIFIED_USER' => 'τροποποίηση από',
     'LBL_LIST_NAME' => 'Όνομα',
     'LBL_EDIT_BUTTON' => 'Επεξεργασία',
-    'LBL_REMOVE' => 'Αφαίρεση',
+    'LBL_REMOVE' => 'Remove',
     'LBL_LIST_FORM_TITLE' => 'Λίστα Κατηγοριών ΓΒ',
     'LBL_MODULE_NAME' => 'Κατηγορίες ΓΒ',
     'LBL_MODULE_TITLE' => 'Κατηγορίες ΓΒ',
@@ -69,10 +69,10 @@ $mod_strings = array(
     'LNK_LIST' => 'Εμφάνιση Κατηγοριών ΓΒ',
     'LNK_IMPORT_AOK_KB_CATEGORIES' => 'Εισαγωγή Κατηγοριών ΓΒ',
     'LBL_SEARCH_FORM_TITLE' => 'Αναζήτηση Κατηγοριών ΓΒ',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Προβολή Ιστορικού',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Δραστηριότητες',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_AOK_KB_CATEGORIES_SUBPANEL_TITLE' => 'Κατηγορίες ΓΒ',
     'LBL_NEW_FORM_TITLE' => 'Νέες Κατηγορίες ΓΒ',
 );
 
-$mod_strings['LBL_AOK_KB_TITLE'] = 'Γνωσιολογική βάση';
+$mod_strings['LBL_AOK_KB_TITLE'] = 'Βάση Γνώσεων';

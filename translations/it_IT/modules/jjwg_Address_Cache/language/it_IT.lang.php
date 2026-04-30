@@ -42,16 +42,16 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_ASSIGNED_TO_ID'] = 'Id utente assegnato';
-$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Assegnato a';
+$mod_strings['LBL_ASSIGNED_TO_ID'] = 'Id Utente Assegnato';
+$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Assegnato a:';
 $mod_strings['LBL_ID'] = 'ID';
-$mod_strings['LBL_DATE_ENTERED'] = 'Data di Creazione';
+$mod_strings['LBL_DATE_ENTERED'] = 'Data Creazione';
 $mod_strings['LBL_DATE_MODIFIED'] = 'Data Modifica';
-$mod_strings['LBL_MODIFIED'] = 'Modificato da';
+$mod_strings['LBL_MODIFIED'] = 'Modificato Da';
 $mod_strings['LBL_MODIFIED_NAME'] = 'Modificato da Nome';
 $mod_strings['LBL_CREATED'] = 'Creato da';
 $mod_strings['LBL_DESCRIPTION'] = 'Descrizione';
-$mod_strings['LBL_DELETED'] = 'Cancellata';
+$mod_strings['LBL_DELETED'] = 'Eliminato';
 $mod_strings['LBL_NAME'] = 'Indirizzo';
 $mod_strings['LBL_CREATED_USER'] = 'Creato dall\'utente';
 $mod_strings['LBL_MODIFIED_USER'] = 'Modificato dall\'utente';
@@ -63,7 +63,7 @@ $mod_strings['LBL_HOMEPAGE_TITLE'] = 'La Mia Cache Indirizzi';
 $mod_strings['LNK_NEW_RECORD'] = 'Crea Cache Indirizzi';
 $mod_strings['LNK_LIST'] = 'Cache Indirizzi';
 $mod_strings['LBL_SEARCH_FORM_TITLE'] = 'Cerca Cache Indirizzi';
-$mod_strings['LBL_HISTORY_SUBPANEL_TITLE'] = 'Visualizza Cronologia';
+$mod_strings['LBL_HISTORY_SUBPANEL_TITLE'] = 'Vedi log cambiamenti';
 $mod_strings['LBL_ACTIVITIES_SUBPANEL_TITLE'] = 'Attività';
 $mod_strings['LBL_NEW_FORM_TITLE'] = 'Nuova Cache Indirizzi';
 $mod_strings['LBL_LAT'] = 'Latitudine';

@@ -46,37 +46,37 @@ $mod_strings = array(
     //module
     'LBL_MODULE_NAME' => 'Revisi Dokumen',
 
-    'LNK_NEW_DOCUMENT' => 'Membuat dokumen',
+    'LNK_NEW_DOCUMENT' => 'Create Document',
     'LNK_DOCUMENT_LIST' => 'Lihat Dokumen',
 
     //vardef labels
-    'LBL_REVISION_NAME' => 'Nomor Revisi',
-    'LBL_FILENAME' => 'Nama File',
+    'LBL_REVISION_NAME' => 'Revision Number',
+    'LBL_FILENAME' => 'File:',
     'LBL_MIME' => 'Tipe Mime',
-    'LBL_REVISION' => 'Revisi',
-    'LBL_DOCUMENT' => 'Dokumen Terkait',
-    'LBL_LATEST_REVISION' => 'Revisi Terbaru',
-    'LBL_CHANGE_LOG' => 'Log Perubahan',
-    'LBL_ACTIVE_DATE' => 'Tanggal Terbit',
-    'LBL_EXPIRATION_DATE' => 'Tanggal Kadaluarsa',
-    'LBL_FILE_EXTENSION' => 'Ekstensi File',
+    'LBL_REVISION' => 'Revision',
+    'LBL_DOCUMENT' => 'Related Document',
+    'LBL_LATEST_REVISION' => 'Latest Revision',
+    'LBL_CHANGE_LOG' => 'Change Log',
+    'LBL_ACTIVE_DATE' => 'Publish Date',
+    'LBL_EXPIRATION_DATE' => 'Expiration Date',
+    'LBL_FILE_EXTENSION' => 'Ekstensi Berkas',
 
-    'LBL_DOC_NAME' => 'Nama Dokumen:',
-    'LBL_DOC_VERSION' => 'Revisi:',
+    'LBL_DOC_NAME' => 'Document Name:',
+    'LBL_DOC_VERSION' => 'Revision:',
 
     //document revisions.
-    'LBL_REV_LIST_REVISION' => 'Revisi',
+    'LBL_REV_LIST_REVISION' => 'Revision',
     'LBL_REV_LIST_ENTERED' => 'Tanggal Dibuat',
-    'LBL_REV_LIST_CREATED' => 'Dibuat oleh',
-    'LBL_REV_LIST_LOG' => 'Log Perubahan',
-    'LBL_REV_LIST_FILENAME' => 'Arsip',
+    'LBL_REV_LIST_CREATED' => 'Created by',
+    'LBL_REV_LIST_LOG' => 'Change Log',
+    'LBL_REV_LIST_FILENAME' => 'File',
 
     'LBL_CURRENT_DOC_VERSION' => 'Revisi terbaru:',
-    'LBL_SEARCH_FORM_TITLE' => 'Pencarian dokumen',
+    'LBL_SEARCH_FORM_TITLE' => 'Document Search',
     'LBL_REVISIONS' => 'Revisi',
 
     //error messages
-    'ERR_FILENAME' => 'Nama File',
+    'ERR_FILENAME' => 'File Name',
     'ERR_DOC_VERSION' => 'Versi Dokumen',
     'ERR_DELETE_CONFIRM' => 'Apakah Anda ingin menghapus revisi dokumen ini?',
     'ERR_DELETE_LATEST_VERSION' => 'Anda tidak diizinkan untuk menghapus revisi terbaru dokumen.',

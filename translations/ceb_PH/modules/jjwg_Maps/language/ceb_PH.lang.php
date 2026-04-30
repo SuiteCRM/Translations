@@ -60,8 +60,8 @@ $mod_strings['LBL_MAP_DISPLAY'] = 'Ipakita nga Mapa';
 $mod_strings['LBL_MAP_LEGEND'] = 'Sugilanon:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'Mga Grupo:';
 $mod_strings['LBL_MAP_GROUP'] = 'Grupo';
-$mod_strings['LBL_MAP_TYPE'] = 'Matang';
-$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Gi-assign sa:';
+$mod_strings['LBL_MAP_TYPE'] = 'Klase';
+$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Gigahin sa:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'Pagkuha ug mga Direksyon';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'Pagtan-aw sa mga Mapa sa Google';
 
@@ -78,7 +78,7 @@ $mod_strings['LBL_MAP_PROCESS'] = 'Iproseso Kini!';
 $mod_strings['LBL_MAP_LAST_STATUS'] = 'Katapusang Istado sa Geocode';
 $mod_strings['LBL_GEOCODED_COUNTS'] = 'Mga inihap nga Modyul nga Geocoded';
 $mod_strings['LBL_CRON_URL'] = 'Cron URL:';
-$mod_strings['LBL_MODULE_HEADING'] = 'Mga Module';
+$mod_strings['LBL_MODULE_HEADING'] = 'Modyul';
 
 $mod_strings['LBL_N/A'] = 'N/A';
 $mod_strings['LBL_ZERO_RESULTS'] = 'Zero Results';
@@ -88,7 +88,7 @@ $mod_strings['LBL_APPROXIMATE'] = 'Approximate';
 $mod_strings['LBL_EMPTY'] = 'Walay sulod';
 
 $mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Kinatibuk-an';
-$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Usbon';
+$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Sugdan Pagbalik';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = 'Ang table nga gipakita sa ubos nagpakita sa numero sa mga modyul nga butang nga na-geocode, gipundok sa geocoding nga tubag. Ibutang sa hunahuna nga ang sukdanan sa limitadong paggamit sa mga Mapa sa Google kay 2500 ra ka mga hangyo kada adlaw. Kini nga modyul mo-cache sa mga impormasyon sa puloy-anan nga geocoding sa panahon sa pagproseso aron sa pagmenos sa kinatibuk-ang numero sa mga hangyo nga gikinahanglan.';
 
 $mod_strings['LBL_CRON_INSTRUCTIONS'] = 'Aron sa pagproseso sa mga hangyo sa geocoding girekomendar nga i-setup ug kada-gabii nga Cron-Trabaho. Ang kustom nga pagsulod sa punto nabuhat para niini nga katuyoan ug mahimo nga ma-access nga walay kamatuoran. Ang URL nga gipakita sa ubos gituyong gamiton uban sa usa ka Pagdumala sa mga Tahas sa Iskedyul. Palehug sa pagtan-aw sa dokumentasyon para sa dugang nga impormasyon.';
@@ -103,13 +103,13 @@ $mod_strings['LBL_CONFIG_TITLE'] = 'Mga Pagpahimutang sa Pagsumpo';
 $mod_strings['LBL_CONFIG_SAVED'] = 'Ang mga Pagpahimutang Naluwas nga Magmalampuson!';
 $mod_strings['LBL_BILLING_ADDRESS'] = 'Puloy-anan kung asa ipadala ang Bill';
 $mod_strings['LBL_SHIPPING_ADDRESS'] = 'Puloy-anan kung asa Ipadala';
-$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Nahauna nga Adres';
+$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Panguna nga Address';
 $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'Alternatibo ng Puloy-anan';
 $mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Paglambigit';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Puloy-anan (Simple, Mga Tiggamit)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'Kustom (Kustom nga Kontroler sa Lohika)';
-$mod_strings['LBL_ENABLED'] = 'Gipagana';
-$mod_strings['LBL_DISABLED'] = 'Wala paganaha';
+$mod_strings['LBL_ENABLED'] = 'Mapagana';
+$mod_strings['LBL_DISABLED'] = 'Wala Gipagana';
 $mod_strings['LBL_DEFAULT'] = 'Sinugdanan:';
 $mod_strings['LBL_CONFIG_DEFAULT'] = 'Sinugdanan:';
 
@@ -184,7 +184,7 @@ $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_DESC'] = "ang 'map_clust
 $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = "Importanteng Pahimangno: Tanang naluwas nga mga pagpahimutang makita sa table sa 'config' nga anaa sa ilalum sa kategorya sa 'jjwg'. Pahimangno, ang kustom controller.php nga file dili na kinahanglan nga gamiton aron sa mga pagpahimutang sa pagsalikway.";
 $mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Mga Lugar';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'Mga Markahan';
-$mod_strings['LBL_PARENT_ID'] = 'Ginikanan ID';
+$mod_strings['LBL_PARENT_ID'] = 'ID sa Ginikanan';
 $mod_strings['LBL_JJWP_PARTNERS'] = 'Mga Partner sa JJWP';
 $mod_strings['LBL_GET_GOOGLE_API_KEY'] = 'Pagkuha ug Yawi';
 $mod_strings['LBL_GOOGLE_API_KEY'] = 'Yawi sa Api sa Google';

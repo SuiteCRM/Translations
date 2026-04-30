@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'รายการการรวม',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'ค้นหาบันทึกการค้นหาที่จะรวมกับ',
-    'LBL_AVAIL_FIELDS' => 'ฟิลด์ที่พร้อมใช้',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'เงื่อนไขการกรอง',
     'LBL_MERGE_VALUE_OVER' => 'รวมค่ามากกว่า',
 
@@ -66,7 +66,7 @@ $mod_strings = array(
     'LBL_STEP2_FORM_TITLE' => 'พบบันทึกที่จะรวมกับ',
     'LBL_SELECT_ERROR' => 'คุณต้องทำการเลือกก่อนที่จะดำเนินการต่อ',
     'LBL_CHANGE_PARENT' => 'ตั้งเป็นหลัก',
-    'LBL_REMOVE_FROM_MERGE' => 'ลบออก',
+    'LBL_REMOVE_FROM_MERGE' => 'Remove',
     'LBL_DIFF_COL_VALUES' => 'คอลัมน์ที่มีค่าในแถวแรกแตกต่างจากค่าในการรวมแถว:',
     'LBL_SAME_COL_VALUES' => 'คอลัมน์ที่มีค่าใกล้เคียงกันในทุกแถว:',
     'LBL_DELETE_MESSAGE' => 'การดำเนินการนี้จะลบบันทึก(s) ต่อไปนี้:',

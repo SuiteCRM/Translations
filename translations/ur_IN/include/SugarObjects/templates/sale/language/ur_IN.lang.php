@@ -88,6 +88,6 @@ $mod_strings = array(
     'LBL_CURRENCY_NAME' => 'Currency Name',
     'LBL_CURRENCY_SYMBOL' => 'کرنسی کی علامت',
     'LBL_EDIT_BUTTON' => 'ردوبدل',
-    'LBL_REMOVE' => 'ختم کر دیں',
+    'LBL_REMOVE' => 'نکال دیں',
 
 );

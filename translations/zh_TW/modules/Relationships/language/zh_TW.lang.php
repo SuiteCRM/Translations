@@ -54,9 +54,9 @@ $mod_strings = array(
     'LBL_JOIN_TABLE' => '連接表名稱',
     'LBL_JOIN_KEY_LHS' => '連接索引LHS',
     'LBL_JOIN_KEY_RHS' => '連接索引RHS',
-    'LBL_RELATIONSHIP_TYPE' => '關係類型',
+    'LBL_RELATIONSHIP_TYPE' => 'Relationship Type',
     'LBL_RELATIONSHIP_ROLE_COLUMN' => '關係角色行名稱',
     'LBL_RELATIONSHIP_ROLE_COLUMN_VALUE' => '關係角色行數值',
     'LBL_REVERSE' => '相反',
-    'LBL_DELETED' => '刪除',
+    'LBL_DELETED' => '已刪除',
 );

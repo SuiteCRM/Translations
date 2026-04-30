@@ -104,14 +104,14 @@ $mod_strings = array(
     'DEF_CREATE_LOG' => 'Dokument vytvořen',
 
     //error messages
-    'ERR_DOC_NAME' => 'Jméno dokumentu',
+    'ERR_DOC_NAME' => 'Název dokumentu',
     'ERR_DOC_ACTIVE_DATE' => 'Datum zveřejnění',
     'ERR_FILENAME' => 'Název souboru',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'Jméno dokumentu',
+    'LBL_LIST_DOCUMENT_NAME' => 'Název dokumentu',
 
     'LBL_EDIT_BUTTON' => 'Upravit ',
-    'LBL_REMOVE' => 'Odebrat',
+    'LBL_REMOVE' => 'Odstranit',
 
 );

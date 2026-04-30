@@ -35,35 +35,35 @@ $mod_strings = [
     'LBL_ASSIGNED_TO_NAME' => 'Відповідальна особа',
     'LBL_DATE_ENTERED' => 'Дата створення',
     'LBL_DATE_MODIFIED' => 'Дата зміни',
-    'LBL_MODIFIED' => 'Змінено',
-    'LBL_MODIFIED_NAME' => 'Змінено користувачем',
+    'LBL_MODIFIED' => 'Ким змінено',
+    'LBL_MODIFIED_NAME' => 'Змінено користувачем (за іменем)',
     'LBL_CREATED' => 'Ким створено',
-    'LBL_CREATED_USER' => 'Створено користувачем',
-    'LBL_MODIFIED_USER' => 'Змінено користувачем',
+    'LBL_CREATED_USER' => 'Created by User',
+    'LBL_MODIFIED_USER' => 'Modified by User',
     'LBL_DESCRIPTION' => 'Опис',
-    'LBL_DELETED' => 'Видалено',
+    'LBL_DELETED' => 'Deleted',
 
     // Security groups
-    'LBL_SECURITYGROUPS' => 'Групи Користувачів',
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Групи Користувачів',
+    'LBL_SECURITYGROUPS' => 'Групи безпеки',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Групи безпеки',
 
     // List view labels
     'LBL_LIST_NAME' => 'Назва',
-    'LBL_LIST_DELETE' => 'Видалення',
-    'LBL_EDIT_BUTTON' => 'Правка',
-    'LBL_REMOVE' => 'Видалити',
+    'LBL_LIST_DELETE' => 'Delete',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
     'LBL_ASCENDING' => 'За зростанням',
     'LBL_DESCENDING' => 'За спаданням',
 
     // Email opt-in labels
-    'LBL_OPT_IN' => 'Дати дозвіл на маркетингове листування',
-    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Очікується підтвердження дозволу на маркетингове листування, підтвердження не відправлено',
-    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Очікується підтвердження дозволу на маркетингове листування, підтвердження відправлено',
+    'LBL_OPT_IN' => 'Дозвіл на маркетингове листування',
+    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Очікує підтвердження дозволу на маркетингове листування, підтвердження не відправлено',
+    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Очікує підтвердження дозволу на маркетингове листування, підтвердження відправлено',
     'LBL_OPT_IN_CONFIRMED' => 'Дозвіл на маркетингове листування отримано',
 
     // Subpanel titles
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Історія',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Заходи',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
 
@@ -93,7 +93,7 @@ $mod_strings = [
     // Standard fields
     'LBL_NAME' => 'Назва',
     'LBL_ID' => 'ID',
-    'LBL_TYPE' => 'Тип',
+    'LBL_TYPE' => 'Type',
     'LBL_SOURCE' => 'Calendar Source',
 
     // OAuth2 Fields
@@ -102,7 +102,7 @@ $mod_strings = [
 
     // Basic Auth Fields
     'LBL_USERNAME' => 'Ім\'я користувача',
-    'LBL_PASSWORD' => 'Пароль',
+    'LBL_PASSWORD' => 'Password',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test Connection',
 
@@ -162,12 +162,12 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Please select a calendar source first.',
 
     // Connection test messages
-    'LBL_CALENDAR' => 'Календар',
-    'LBL_SUCCESSFUL' => 'Успішно встановлений',
-    'LBL_FAILED' => 'Невдало',
+    'LBL_CALENDAR' => 'Calendar',
+    'LBL_SUCCESSFUL' => 'Successful',
+    'LBL_FAILED' => 'Failed',
     'LBL_CONNECTION_TEST' => 'Connection Test',
     'LBL_YES' => 'Так',
-    'LBL_NO' => 'Ні',
+    'LBL_NO' => 'No',
     'LBL_FOUND_CALENDARS' => 'Found {count} calendars.',
     'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'An error occurred while processing the connection test response. Please check the logs for details.',
     'LBL_CONNECTION_TEST_HTTP_ERROR' => 'Connection test failed with HTTP status',
@@ -186,8 +186,8 @@ $mod_strings = [
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => 'У процесі',
-    'LBL_SYNC_STATUS_SUCCESS' => 'Успішно',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => 'In Progress',
+    'LBL_SYNC_STATUS_SUCCESS' => 'Success',
     'LBL_SYNC_STATUS_WARNING' => 'Попередження',
     'LBL_SYNC_STATUS_ERROR' => 'Помилка',
 
@@ -202,5 +202,5 @@ $mod_strings = [
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Calendar not found.',
 
     // Relationship labels
-    'LBL_MEETINGS' => 'Зустрічі',
+    'LBL_MEETINGS' => 'Meetings',
 ];

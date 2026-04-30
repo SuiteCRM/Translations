@@ -43,15 +43,15 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => '役割',
-    'LBL_NAME' => '名前',
-    'LBL_DESCRIPTION' => '詳細',
+    'LBL_ROLE' => 'Role',
+    'LBL_NAME' => '名称',
+    'LBL_DESCRIPTION' => 'Description',
     'LIST_ROLES' => '役割一覧',
-    'LBL_USERS_SUBPANEL_TITLE' => 'ユーザー',
+    'LBL_USERS_SUBPANEL_TITLE' => 'ユーザ',
     'LIST_ROLES_BY_USER' => 'ユーザー別役割一覧',
     'LBL_ROLES_SUBPANEL_TITLE' => 'ユーザーの役割',
-    'LBL_SEARCH_FORM_TITLE' => '検索',
-    'LBL_NO_ACCESS' => 'このエリアにアクセスできません。アクセス権を取得するには管理者に連絡してください。',
+    'LBL_SEARCH_FORM_TITLE' => 'Search',
+    'LBL_NO_ACCESS' => 'You do not have access to this area. Contact your site administrator to obtain access.',
     'LBL_REDIRECT_TO_HOME' => 'Homeへリダイレクト',
     'LBL_SECONDS' => '秒',
     'LBL_ADDING' => '以下に追加',

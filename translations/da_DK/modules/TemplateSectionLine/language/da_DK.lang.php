@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_DESCRIPTION' => 'Beskrivelse',
-    'LBL_NAME' => 'Navn',
-    'LBL_LIST_NAME' => 'Navn',
-    'LBL_EDIT_BUTTON' => 'Rediger',
-    'LBL_REMOVE' => 'Fjern',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_NAME' => 'Name',
+    'LBL_LIST_NAME' => 'Name',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
     'LBL_GRP' => 'Gruppe',
-    'LBL_ORD' => 'Rækkefølge',
+    'LBL_ORD' => 'Order',
     'LBL_THUMBNAIL' => 'Miniaturebillede',
 );

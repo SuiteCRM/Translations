@@ -43,20 +43,20 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'मौक़े ',
+    'LBL_MODULE_NAME' => 'अवसर',
     'LBL_MODULE_TITLE' => 'अवसर: घर',
     'LBL_SEARCH_FORM_TITLE' => 'अवसर खोज',
     'LBL_LIST_FORM_TITLE' => 'अवसर सूची',
     'LBL_OPPORTUNITY_NAME' => 'अवसर का नाम:',
     'LBL_OPPORTUNITY' => 'अवसर:',
     'LBL_NAME' => 'अवसर का नाम',
-    'LBL_INVITEE' => 'संपर्कों',
+    'LBL_INVITEE' => 'संपर्क',
     'LBL_CURRENCIES' => 'मुद्राओं',
     'LBL_LIST_OPPORTUNITY_NAME' => 'नाम',
-    'LBL_LIST_ACCOUNT_NAME' => 'खाते का नाम',
+    'LBL_LIST_ACCOUNT_NAME' => 'खाता नाम',
     'LBL_LIST_AMOUNT' => 'अवसर राशि',
     'LBL_LIST_AMOUNT_USDOLLAR' => 'रकम',
-    'LBL_LIST_DATE_CLOSED' => 'बंद करें',
+    'LBL_LIST_DATE_CLOSED' => 'बंद',
     'LBL_LIST_SALES_STAGE' => 'बिक्री चरण',
     'LBL_ACCOUNT_ID' => 'खाता आईडी',
     'LBL_CURRENCY_NAME' => 'मुद्रा का नाम',
@@ -83,15 +83,15 @@ $mod_strings = array(
     'ERR_DELETE_RECORD' => 'अवसर को हटाने के लिए एक रिकॉर्ड संख्या निर्दिष्ट की जानी चाहिए।',
     'LBL_TOP_OPPORTUNITIES' => 'मेरे शीर्ष खुले अवसर',
     'OPPORTUNITY_REMOVE_PROJECT_CONFIRM' => 'क्या आप वाकई इस अवसर को प्रोजेक्ट से हटाना चाहते हैं?',
-    'LBL_DEFAULT_SUBPANEL_TITLE' => 'मौक़े ',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'अवसर',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'गतिविधियाँ',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'इतिहास',
 
     'LBL_LEADS_SUBPANEL_TITLE' => 'नेतृत्व',
-    'LBL_CONTACTS_SUBPANEL_TITLE' => 'संपर्कों',
+    'LBL_CONTACTS_SUBPANEL_TITLE' => 'संपर्क',
     'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'दस्तावेज',
     'LBL_PROJECTS_SUBPANEL_TITLE' => 'परियोजना ',
-    'LBL_ASSIGNED_TO_NAME' => 'को असाइन किया:',
+    'LBL_ASSIGNED_TO_NAME' => 'को सौंपा गया:',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'निर्दिष्ट उपयोगकर्ता',
     'LBL_MY_CLOSED_OPPORTUNITIES' => 'मेरे बंद अवसर',
     'LBL_TOTAL_OPPORTUNITIES' => 'कुल अवसर',
@@ -108,5 +108,5 @@ $mod_strings = array(
     // SNIP
 
     'LBL_AOS_CONTRACTS' => 'अनुबंध',
-    'LBL_AOS_QUOTES' => 'कोट्स',
+    'LBL_AOS_QUOTES' => 'उद्धरण',
 );

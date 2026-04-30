@@ -52,7 +52,7 @@ $mod_strings = array(
     //vardef labels
     'LBL_NAME' => 'Όνομα εγγράφου',
     'LBL_DESCRIPTION' => 'Περιγραφή',
-    'LBL_ASSIGNED_TO' => 'Υπεύθυνος:',
+    'LBL_ASSIGNED_TO' => 'Ανατέθηκε σε:',
     'LBL_CATEGORY' => 'Κατηγορία',
     'LBL_SUBCATEGORY' => 'Υπο-Κατηγορία',
     'LBL_STATUS' => 'Κατάσταση',
@@ -80,38 +80,38 @@ $mod_strings = array(
     'LBL_SUBCATEGORY_VALUE' => 'Υπό-Κατηγορία:',
     'LBL_DOC_STATUS' => 'Κατάσταση:',
     'LBL_DET_TEMPLATE_TYPE' => 'Τύπος Εγγράφου:',
-    'LBL_DOC_DESCRIPTION' => 'Περιγραφή:',
+    'LBL_DOC_DESCRIPTION' => 'Description:',
     'LBL_DOC_ACTIVE_DATE' => 'Ημερομηνία Ενεργοποίησης:',
     'LBL_DOC_EXP_DATE' => 'Ημερομηνία Λήξης:',
 
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'Λίστα Εγγράφων',
     'LBL_LIST_DOCUMENT' => 'Έγγραφο',
-    'LBL_LIST_CATEGORY' => 'Κατηγορία',
-    'LBL_LIST_SUBCATEGORY' => 'Υπο-Κατηγορία',
-    'LBL_LIST_REVISION' => 'Έκδοση',
+    'LBL_LIST_CATEGORY' => 'Category',
+    'LBL_LIST_SUBCATEGORY' => 'Υπό-Κατηγορία',
+    'LBL_LIST_REVISION' => 'Αναθεώρηση',
     'LBL_LIST_LAST_REV_CREATOR' => 'Δημοσιεύθηκε Από',
     'LBL_LIST_LAST_REV_DATE' => 'Ημερομηνία Αναθεώρησης',
     'LBL_LIST_VIEW_DOCUMENT' => 'Προβολή',
-    'LBL_LIST_ACTIVE_DATE' => 'Ημ/νία δημοσίευσης',
-    'LBL_LIST_EXP_DATE' => 'Ημ/νία λήξης',
+    'LBL_LIST_ACTIVE_DATE' => 'Ημερομηνία Ενεργοποίησης',
+    'LBL_LIST_EXP_DATE' => 'Ημερομηνία Λήξης',
     'LBL_LIST_STATUS' => 'Κατάσταση',
 
     //document search form.
-    'LBL_SF_CATEGORY' => 'Κατηγορία:',
+    'LBL_SF_CATEGORY' => 'Category:',
     'LBL_SF_SUBCATEGORY' => 'Υπό-Κατηγορία:',
 
     'DEF_CREATE_LOG' => 'Δημιουργία Εγγράφου',
 
     //error messages
-    'ERR_DOC_NAME' => 'Όνομα εγγράφου',
-    'ERR_DOC_ACTIVE_DATE' => 'Ημ/νία δημοσίευσης',
+    'ERR_DOC_NAME' => 'Document Name',
+    'ERR_DOC_ACTIVE_DATE' => 'Ημερομηνία Ενεργοποίησης',
     'ERR_FILENAME' => 'Όνομα',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'Όνομα εγγράφου',
+    'LBL_LIST_DOCUMENT_NAME' => 'Document Name',
 
     'LBL_EDIT_BUTTON' => 'Επεξεργασία',
-    'LBL_REMOVE' => 'Αφαίρεση',
+    'LBL_REMOVE' => 'Remove',
 
 );

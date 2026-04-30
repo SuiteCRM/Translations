@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_FIELD_NAME' => 'Поле',
+    'LBL_FIELD_NAME' => 'Field',
     'LBL_OLD_NAME' => 'Предишна стойност',
     'LBL_NEW_VALUE' => 'Нова стойност',
     'LBL_CREATED_BY' => 'Променено от',
     'LBL_LIST_DATE' => 'Променено на',
     'LBL_AUDITED_FIELDS' => 'Полета в този модул, чиято промяна се записва в базата: ',
-    'LBL_CHANGE_LOG' => 'Дневник на промените за записа',
+    'LBL_CHANGE_LOG' => 'Change Log',
 );

@@ -46,21 +46,21 @@ $mod_strings = array(
     'LBL_EDIT_LAYOUT' => 'تحرير التصميم',
     'LBL_EDIT_FIELDS' => 'تحرير الحقول المخصصة',
     'LBL_SELECT_FILE' => 'حدد ملف',
-    'LBL_MODULE_TITLE' => 'ستديو',
+    'LBL_MODULE_TITLE' => 'الاستديو',
     'LBL_TOOLBOX' => 'صندوق الأدوات',
     'LBL_SUITE_FIELDS_STAGE' => 'حقول SuiteCRM (انقر على العناصر للإضافة إلى منطقة التجهيز)',
     'LBL_VIEW_SUITE_FIELDS' => 'عرض حقول SuiteCRM',
     'LBL_FAILED_TO_SAVE' => 'فشل في الحفظ',
     'LBL_CONFIRM_UNSAVE' => 'سيتم إلغاء حفظ أي تغييرات. هل أنت متأكد من أنك تريد المتابعة؟',
     'LBL_PUBLISHING' => 'جاري النشر...',
-    'LBL_PUBLISHED' => 'تم النشر',
+    'LBL_PUBLISHED' => 'تم نشره',
     'LBL_FAILED_PUBLISHED' => 'فشل في النشر',
-    'LBL_DROP_HERE' => '[أسقطه هنا]',
+    'LBL_DROP_HERE' => '[أضفه هنا]',
 
 //CUSTOM FIELDS
     'LBL_NAME' => 'الاسم',
     'LBL_LABEL' => 'التسمية',
-    'LBL_MASS_UPDATE' => 'تحديث شامل',
+    'LBL_MASS_UPDATE' => 'تحديث جماعي',
     'LBL_DEFAULT_VALUE' => 'القيمة الافتراضية',
     'LBL_REQUIRED' => 'إلزامي',
     'LBL_DATA_TYPE' => 'النوع',
@@ -87,7 +87,7 @@ $mod_strings = array(
 
 
 //Manager Backups History
-    'LBL_MB_DELETE' => 'احذف',
+    'LBL_MB_DELETE' => 'حذف',
 
 //EDIT DROP DOWNS
     'LBL_ED_CREATE_DROPDOWN' => 'إنشاء قائمة منسدلة',
@@ -114,7 +114,7 @@ $mod_strings = array(
     'LBL_BTN_TABINDEX' => 'تعديل ترتيب التبويب',
 
 //TABS
-    'LBL_MODULES' => 'نظام فرعي',
+    'LBL_MODULES' => 'الوحدات',
     'LBL_MODULE_NAME' => 'إدارة',
     'LBL_CONFIGURE_GROUP_TABS' => 'تهيئة معطيات الفرز لقوائم الوحدة',
     'LBL_GROUP_TAB_WELCOME' => 'محددات الفرز أدناه سيتم عرضها في قائمة المزيد في قائمة الوحدة للمستخدمين لاستخدامها لعرض مجموعات الوحدات داخل القائمة. سحب وإسقاط الوحدات إلى الفلاتر ومنها. ملاحظة: الفلاتر الفارغة لن يتم عرضها في القائمة.',
@@ -133,7 +133,7 @@ $mod_strings = array(
     'LBL_UNDO' => 'تراجع' /*for 508 compliance fix*/,
     'LBL_REDO' => 'إعادة' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'داخلي' /*for 508 compliance fix*/,
-    'LBL_DELETE' => 'احذف' /*for 508 compliance fix*/,
+    'LBL_DELETE' => 'حذف' /*for 508 compliance fix*/,
     'LBL_ADD_FIELD' => 'إضافة حقل' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'تكبير' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'تصغير' /*for 508 compliance fix*/,

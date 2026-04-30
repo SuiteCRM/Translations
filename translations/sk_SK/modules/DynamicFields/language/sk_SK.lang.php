@@ -44,12 +44,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LNK_NEW_CALL' => 'Naplánovať hovor',
-    'LNK_NEW_MEETING' => 'Harmonogram rokovaní',
-    'LNK_NEW_TASK' => 'Vytvoriť úlohu',
-    'LNK_NEW_NOTE' => 'Vytvoriť poznámku alebo prílohu',
+    'LNK_NEW_MEETING' => 'Harmonogram stretnutia',
+    'LNK_NEW_TASK' => 'Vytvoriť Úlohu',
+    'LNK_NEW_NOTE' => 'Vytvoriť poznámku, alebo pridať prílohu',
     'LNK_NEW_EMAIL' => 'Archivovať Email',
     'LNK_CALL_LIST' => 'Hovory',
-    'LNK_MEETING_LIST' => 'Schódzky/Mítingy',
+    'LNK_MEETING_LIST' => 'Schôdzky',
     'LNK_TASK_LIST' => 'Úlohy',
     'LNK_NOTE_LIST' => 'Poznámky',
     'LBL_ADD_FIELD' => 'Pridať pole:',

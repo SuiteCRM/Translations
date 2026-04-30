@@ -131,13 +131,13 @@ $app_list_strings = array(
         'Bugs' => 'Chyba',
         'KBDocuments' => 'KBDocument',
         'Feeds' => 'RSS',
-        'iFrames' => 'Portál',
+        'iFrames' => 'Můj web',
         'TimePeriods' => 'Časový interval',
         'Project' => 'Projekty',
         'ProjectTask' => 'Úkol projektu',
         'Prospects' => 'Cíl',
         'Campaigns' => 'Kampaň',
-        'Documents' => 'Dokument',
+        'Documents' => 'Dokumenty',
         'Sync' => 'Synchronizace',
         'Users' => 'Uživatel',
         'SugarFavorites' => 'SuiteCRM Oblíbené',
@@ -212,7 +212,7 @@ $app_list_strings = array(
         'Trade Show' => 'Obchodní výstava',
         'Web Site' => 'Webové stránky',
         'Word of mouth' => 'Ústně',
-        'Email' => 'E-mail',
+        'Email' => 'Email',
         'Campaign' => 'Kampaň',
         'Other' => 'Jiné',
     ),
@@ -285,7 +285,7 @@ $app_list_strings = array(
         'Call' => 'Hovor',
         'Meeting' => 'Schůzky',
         'Task' => 'Úkol',
-        'Email' => 'E-mail',
+        'Email' => 'Email',
         'Note' => 'Poznámky',
     ),
     'salutation_dom' => array(
@@ -326,7 +326,7 @@ $app_list_strings = array(
     ),
     'task_status_default' => 'Nezapočato',
     'task_status_dom' => array(
-        'Not Started' => 'Nezapočato',
+        'Not Started' => 'Nezahájeno',
         'In Progress' => 'V procesu',
         'Completed' => 'Dokončeno',
         'Pending Input' => 'Čekající vstup',
@@ -376,14 +376,14 @@ $app_list_strings = array(
         'Administrator' => 'Administrátor',
     ),
     'user_status_dom' => array(
-        'Active' => 'Aktivní emailové účty',
+        'Active' => 'Aktivní',
         'Inactive' => 'Neaktivní',
     ),
     'user_factor_auth_interface_dom' => array(
         'FactorAuthEmailCode' => 'E-mailový kód',
     ),
     'employee_status_dom' => array(
-        'Active' => 'Aktivní emailové účty',
+        'Active' => 'Aktivní',
         'Terminated' => 'Ukončeno',
         'Leave of Absence' => 'Nepřítomnost',
     ),
@@ -396,16 +396,16 @@ $app_list_strings = array(
     'project_task_priority_options' => array(
         'High' => 'Vysoká',
         'Medium' => 'Střední',
-        'Low' => 'Nízká',
+        'Low' => 'Low',
     ),
     'project_task_priority_default' => 'Střední',
 
     'project_task_status_options' => array(
-        'Not Started' => 'Nezapočato',
+        'Not Started' => 'Nezahájeno',
         'In Progress' => 'V procesu',
         'Completed' => 'Dokončeno',
         'Pending Input' => 'Čekající vstup',
-        'Deferred' => 'Odloženo',
+        'Deferred' => 'Zpožděno',
     ),
     'project_task_utilization_options' => array(
         '0' => 'žádný',
@@ -431,7 +431,7 @@ $app_list_strings = array(
 
     'activity_status_type_dom' => array(
         '' => '--žádné--',
-        'active' => 'Aktivní emailové účty',
+        'active' => 'Aktivní',
         'inactive' => 'Neaktivní',
     ),
 
@@ -447,7 +447,7 @@ $app_list_strings = array(
         'Contacts' => 'Kontakt', // cn (11/22/2005) added to support Emails
 
         'Bugs' => 'Chyba',
-        'Project' => 'Projekty',
+        'Project' => 'Projekt',
 
         'Prospects' => 'Cíl',
         'ProjectTask' => 'Úkol projektu',
@@ -467,10 +467,10 @@ $app_list_strings = array(
         'Opportunities' => 'Příležitost',
         'Campaigns' => 'Kampaň',
         'Tasks' => 'Úkol',
-        'Emails' => 'E-mail',
+        'Emails' => 'Email',
 
         'Bugs' => 'Chyba',
-        'Project' => 'Projekty',
+        'Project' => 'Projekt',
         'ProjectTask' => 'Úkol projektu',
         'Prospects' => 'Cíl',
         'Cases' => 'Případ',
@@ -495,7 +495,7 @@ $app_list_strings = array(
         'Cases' => 'Případ',
         'Leads' => 'Iniciativa',
 
-        'Project' => 'Projekty',
+        'Project' => 'Projekt',
         'ProjectTask' => 'Úkol projektu',
 
         'Prospects' => 'Cíl',
@@ -522,7 +522,7 @@ $app_list_strings = array(
     'issue_resolution_dom' => array(
         '' => '',
         'Accepted' => 'Přijato',
-        'Duplicate' => 'Duplikovat',
+        'Duplicate' => 'Kopírovat',
         'Closed' => 'Uzavřeno',
         'Out of Date' => 'Neaktuální',
         'Invalid' => 'Neplatné',
@@ -548,7 +548,7 @@ $app_list_strings = array(
     'bug_resolution_dom' => array(
         '' => '',
         'Accepted' => 'Přijato',
-        'Duplicate' => 'Duplikovat',
+        'Duplicate' => 'Kopírovat',
         'Fixed' => 'Opraveno',
         'Out of Date' => 'Neaktuální',
         'Invalid' => 'Neplatné',
@@ -579,7 +579,7 @@ $app_list_strings = array(
         'Internal' => 'Vnitřní',
         'Forum' => 'Fórum',
         'Web' => 'Web',
-        'InboundEmail' => 'E-mail',
+        'InboundEmail' => 'Email',
     ),
 
     'product_category_default_key' => '',
@@ -596,7 +596,7 @@ $app_list_strings = array(
         'Currencies' => 'Měny',
         'Dashboard' => 'Nástěnka',
         'Documents' => 'Dokumenty',
-        'Emails' => 'Email',
+        'Emails' => 'Pošta',
         'Feeds' => 'Feedy',
         'Forecasts' => 'Předpověď',
         'Help' => 'Nápověda',
@@ -618,7 +618,7 @@ $app_list_strings = array(
     'campaign_status_dom' => array(
         '' => '',
         'Planning' => 'Plánování',
-        'Active' => 'Aktivní emailové účty',
+        'Active' => 'Aktivní',
         'Inactive' => 'Neaktivní',
         'Complete' => 'Kompletní',
         //'In Queue' => 'In Queue',
@@ -628,7 +628,7 @@ $app_list_strings = array(
         '' => '',
         'Telesales' => 'Prodej po telefonu',
         'Mail' => 'Pošta',
-        'Email' => 'E-mail',
+        'Email' => 'Email',
         'Print' => 'Tisk',
         'Web' => 'Web',
         'Radio' => 'Rádio',
@@ -725,24 +725,24 @@ $app_list_strings = array(
     ],
 
     'dom_external_oauth_connection_types' => [
-        'personal' => 'Osobní',
+        'personal' => 'Personal',
         'group' => 'Skupina',
     ],
 
     'dom_external_oauth_provider_types' => [
-        'personal' => 'Osobní',
+        'personal' => 'Personal',
         'group' => 'Skupina',
     ],
 
     'dom_outbound_email_account_types' => [
-        'user' => 'Osobní',
+        'user' => 'Personal',
         'group' => 'Skupina',
         'system' => 'Správa',
         'system-override' => 'System Override',
     ],
 
     'dom_inbound_email_account_status' => [
-        'Active' => 'Aktivní emailové účty',
+        'Active' => 'Aktivní',
         'Inactive' => 'Neaktivní',
     ],
 
@@ -773,16 +773,16 @@ $app_list_strings = array(
     ),
 
     'dom_email_server_type' => array(
-        '' => '--žádné--',
+        '' => '--Žádné--',
         'imap' => 'IMAP',
     ),
     'dom_mailbox_type' => array(/*''           => '--None Specified--',*/
-        'pick' => '--žádné--',
+        'pick' => '--Žádné--',
         'createcase' => 'Přidat případ',
         'bounce' => 'Nedoručené emaily',
     ),
     'dom_email_distribution' => array(
-        '' => '--žádné--',
+        '' => '--Žádné--',
         'direct' => 'Přímé přirazení',
         'roundRobin' => 'Round-Robin',
         'leastBusy' => 'Nejméně vytížený',
@@ -832,7 +832,7 @@ $app_list_strings = array(
     ),
 
     'scheduler_status_dom' => array(
-        'Active' => 'Aktivní emailové účty',
+        'Active' => 'Aktivní',
         'Inactive' => 'Neaktivní',
     ),
 
@@ -843,7 +843,7 @@ $app_list_strings = array(
     'document_category_dom' => array(
         '' => '',
         'Marketing' => 'Marketing',
-        'Knowledege Base' => 'Základní znalost',
+        'Knowledege Base' => 'Znalostní báze',
         'Sales' => 'Prodej',
     ),
 
@@ -861,7 +861,7 @@ $app_list_strings = array(
     ),
 
     'document_status_dom' => array(
-        'Active' => 'Aktivní emailové účty',
+        'Active' => 'Aktivní',
         'Draft' => 'Koncept',
         'FAQ' => 'Často kladené dotazy',
         'Expired' => 'Vypršelo',
@@ -942,7 +942,7 @@ $app_list_strings = array(
     ),
     'email_marketing_status_dom' => array(
         '' => '',
-        'active' => 'Aktivní emailové účty',
+        'active' => 'Aktivní',
         'inactive' => 'Neaktivní',
     ),
 
@@ -994,7 +994,7 @@ $app_list_strings = array(
     ),
 
     'projects_status_options' => array(
-        'notstarted' => 'Nezapočato',
+        'notstarted' => 'Nezahájeno',
         'inprogress' => 'V procesu',
         'completed' => 'Dokončeno',
     ),
@@ -1015,7 +1015,7 @@ $app_list_strings = array(
         'pieWedgeName' => 'sekce',
     ),
     'release_status_dom' => array(
-        'Active' => 'Aktivní emailové účty',
+        'Active' => 'Aktivní',
         'Inactive' => 'Neaktivní',
     ),
     'email_settings_for_ssl' => array(
@@ -1052,7 +1052,7 @@ $app_list_strings = array(
     ),
     'dashlet_auto_refresh_options_admin' => array(
         '-1' => 'Nikdy',
-        '30' => 'Každých 30 sekund',
+        '30' => 'Každých 30 vteřin',
         '60' => 'Každou 1 minutu',
         '180' => 'Každé 3 minuty',
         '300' => 'Každých 5 minut',
@@ -1106,7 +1106,7 @@ $app_strings = array(
     'LBL_MOREDETAIL' => 'Více podrobností' /*for 508 compliance fix*/,
     'LBL_EDIT_INLINE' => 'Editovat zde' /*for 508 compliance fix*/,
     'LBL_VIEW_INLINE' => 'Zobrazit' /*for 508 compliance fix*/,
-    'LBL_BASIC_SEARCH' => 'Hledání' /*for 508 compliance fix*/,
+    'LBL_BASIC_SEARCH' => 'Filtr' /*for 508 compliance fix*/,
     'LBL_Blank' => ' ' /*for 508 compliance fix*/,
     'LBL_ID_FF_ADD' => 'Přidat' /*for 508 compliance fix*/,
     'LBL_ID_FF_ADD_EMAIL' => 'Přidat e-mailovou adresu' /*for 508 compliance fix*/,
@@ -1142,7 +1142,7 @@ $app_strings = array(
     'NTC_OVERWRITE_ADDRESS_PHONE_CONFIRM' => 'Tento záznam nyní obsahuje hodnoty v polích Telefon do práce a Adresu. Pro přepsání těchto hodnot následujícím Telefonem do práce a Adresou Firmy, které jste zvolili, klikněte na "OK". Pro zachování současných hodnot, klikněte na "Zrušit".',
     'LBL_DROP_HERE' => '[Pustit zde]',
     'LBL_EMAIL_ACCOUNTS_GMAIL_DEFAULTS' => 'Předvyplnit Gmail&#153; výchozí',
-    'LBL_EMAIL_ACCOUNTS_NAME' => 'Jméno',
+    'LBL_EMAIL_ACCOUNTS_NAME' => 'Název',
     'LBL_EMAIL_ACCOUNTS_OUTBOUND' => 'Vlastnosti serveru odchozí pošty',
     'LBL_EMAIL_ACCOUNTS_SMTPPASS' => 'SMTP heslo',
     'LBL_EMAIL_ACCOUNTS_SMTPPORT' => 'SMTP port',
@@ -1163,14 +1163,14 @@ $app_strings = array(
     'LBL_EMAIL_ADDRESS_BOOK_ADD_BCC' => 'Skrytá kopie:',
     'LBL_EMAIL_ADDRESS_BOOK_ADRRESS_TYPE' => 'Komu/Kopie/Skrytá',
     'LBL_EMAIL_ADDRESS_BOOK_EMAIL_ADDR' => 'Emailová adresa',
-    'LBL_EMAIL_ADDRESS_BOOK_FILTER' => 'Hledání',
+    'LBL_EMAIL_ADDRESS_BOOK_FILTER' => 'Filtr',
     'LBL_EMAIL_ADDRESS_BOOK_NAME' => 'Jméno',
     'LBL_EMAIL_ADDRESS_BOOK_NOT_FOUND' => 'Žádné adresy nenalezeny',
     'LBL_EMAIL_ADDRESS_BOOK_SAVE_AND_ADD' => 'Uložit a přidat do adresáře',
     'LBL_EMAIL_ADDRESS_BOOK_SELECT_TITLE' => 'Vyberte příjemce e-mailu',
     'LBL_EMAIL_ADDRESS_BOOK_TITLE' => 'Adresář',
     'LBL_EMAIL_REMOVE_SMTP_WARNING' => 'Varování! Odchozí účet, který se pokoušíte smazat je propojen s existujícím příchozím účtem. Opravdu chcete pokračovat?',
-    'LBL_EMAIL_ADDRESSES' => 'E-mail',
+    'LBL_EMAIL_ADDRESSES' => 'Email',
     'LBL_EMAIL_ADDRESS_PRIMARY' => 'Emailová adresa',
     'LBL_EMAIL_ADDRESS_OPT_IN' => 'Potvrdil jste, že vaše e-mailová adresa je přihlášen k odběru: ',
     'LBL_EMAIL_ADDRESS_OPT_IN_ERR' => 'E-mailovou adresu nelze potvrdit',
@@ -1193,7 +1193,7 @@ $app_strings = array(
     'LBL_EMAIL_CLOSE' => 'Zavřít',
     'LBL_EMAIL_COFFEE_BREAK' => 'Kontrola nových emailů <br /><br />Velké emailové účty mohou trvat dlouho.',
 
-    'LBL_EMAIL_COMPOSE' => 'E-mail',
+    'LBL_EMAIL_COMPOSE' => 'Email',
     'LBL_EMAIL_COMPOSE_ERR_NO_RECIPIENTS' => 'Zadejte příjemce tohoto e-mailu.',
     'LBL_EMAIL_COMPOSE_NO_BODY' => 'Tělo emailu je prázdné. Přesto odeslat?',
     'LBL_EMAIL_COMPOSE_NO_SUBJECT' => 'Email nemá předmět. Přesto odeslat?',
@@ -1394,7 +1394,7 @@ $app_strings = array(
     'LBL_EMAIL_SEARCH_NO_RESULTS' => 'Žádné výsledky neodpovídají vašim kritériím vyhledávání.',
     'LBL_EMAIL_SEARCH_RESULTS_TITLE' => 'Výsledky vyhledávání',
 
-    'LBL_EMAIL_SELECT' => 'Označit',
+    'LBL_EMAIL_SELECT' => 'Vybrat',
 
     'LBL_EMAIL_SEND' => 'Odeslat',
     'LBL_EMAIL_SENDING_EMAIL' => 'Odesílání emailu',
@@ -1459,7 +1459,7 @@ $app_strings = array(
     'LBL_LINK_NONE' => 'Žádný',
     'LBL_LINK_ALL' => 'Všechno',
     'LBL_LINK_RECORDS' => 'Záznamy',
-    'LBL_LINK_SELECT' => 'Označit',
+    'LBL_LINK_SELECT' => 'Vybrat',
     'LBL_LINK_ACTIONS' => 'AKCE',
     'LBL_CLOSE_ACTIVITY_HEADER' => 'Potvrdit',
     'LBL_CLOSE_ACTIVITY_CONFIRM' => 'Chcete uzavřít tento #module#?',
@@ -1498,7 +1498,7 @@ $app_strings = array(
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktivity',
     'LBL_ACCUMULATED_HISTORY_BUTTON_KEY' => 'H',
     'LBL_ACCUMULATED_HISTORY_BUTTON_LABEL' => 'Zobrazit shrnutí',
-    'LBL_ACCUMULATED_HISTORY_BUTTON_TITLE' => 'Zobrazit shrnutí',
+    'LBL_ACCUMULATED_HISTORY_BUTTON_TITLE' => 'View Summary',
     'LBL_ADD_BUTTON' => 'Přidat',
     'LBL_ADD_DOCUMENT' => 'Přidat dokument',
     'LBL_ADD_TO_PROSPECT_LIST_BUTTON_KEY' => 'L',
@@ -1536,32 +1536,32 @@ $app_strings = array(
     'LBL_OPEN_ITEMS' => 'Open Items:',
     'LBL_COMPOSE_EMAIL_BUTTON_KEY' => 'L',
     'LBL_COMPOSE_EMAIL_BUTTON_LABEL' => 'Nová zpráva',
-    'LBL_COMPOSE_EMAIL_BUTTON_TITLE' => 'Nová zpráva',
+    'LBL_COMPOSE_EMAIL_BUTTON_TITLE' => 'Compose Email',
     'LBL_SEARCH_DROPDOWN_YES' => 'Ano',
     'LBL_SEARCH_DROPDOWN_NO' => 'Ne',
     'LBL_CONTACT_LIST' => 'Seznam kontaktů',
     'LBL_CONTACT' => 'Kontakt',
     'LBL_CONTACTS' => 'Kontakty',
     'LBL_CONTRACT' => 'Smlouva',
-    'LBL_CONTRACTS' => 'Kontrakty',
-    'LBL_COUNTRY' => 'Země:',
+    'LBL_CONTRACTS' => 'Smlouvy',
+    'LBL_COUNTRY' => 'Kraj:',
     'LBL_CREATE_BUTTON_LABEL' => 'Přidat',
-    'LBL_CREATED_BY_USER' => 'Vytvořeno uživatelem',
-    'LBL_CREATED_USER' => 'Vytvořeno uživatelem',
+    'LBL_CREATED_BY_USER' => 'Vytvořeno dle Uživatele',
+    'LBL_CREATED_USER' => 'Vytvořeno dle Uživatele',
     'LBL_CREATED' => 'Vytvořil',
     'LBL_CURRENT_USER_FILTER' => 'My Items:',
     'LBL_CURRENCY' => 'Měna:',
     'LBL_DOCUMENTS' => 'Dokumenty',
-    'LBL_DATE_ENTERED' => 'Datum zadání:',
+    'LBL_DATE_ENTERED' => 'Datum vytvoření:',
     'LBL_DATE_MODIFIED' => 'Datum změny:',
     'LBL_EDIT_BUTTON' => 'Upravit',
-    'LBL_DUPLICATE_BUTTON' => 'Duplikovat',
+    'LBL_DUPLICATE_BUTTON' => 'Kopírovat',
     'LBL_DELETE_BUTTON' => 'Smazat',
     'LBL_DELETE' => 'Smazat',
     'LBL_DELETED' => 'Vymazáno',
     'LBL_DIRECT_REPORTS' => 'Přímé Reporty',
-    'LBL_DONE_BUTTON_LABEL' => 'Dokončeno',
-    'LBL_DONE_BUTTON_TITLE' => 'Dokončeno',
+    'LBL_DONE_BUTTON_LABEL' => 'Hotovo',
+    'LBL_DONE_BUTTON_TITLE' => 'Hotovo',
     'LBL_FAVORITES' => 'Oblíbené položky',
     'LBL_VCARD' => 'vCard',
     'LBL_EMPTY_VCARD' => 'Prosím vyberte soubor vCard',
@@ -1570,11 +1570,11 @@ $app_strings = array(
     'LBL_VCARD_ERROR_DEFAULT' => 'Došlo k chybě nahrávání souboru vCard. Pro více informací navštivte sugarcrm.log',
     'LBL_IMPORT_VCARD' => 'VCard import:',
     'LBL_IMPORT_VCARD_BUTTON_LABEL' => 'Importovat vCard',
-    'LBL_IMPORT_VCARD_BUTTON_TITLE' => 'Importovat vCard',
+    'LBL_IMPORT_VCARD_BUTTON_TITLE' => 'Import vCard',
     'LBL_VIEW_BUTTON' => 'Zobrazit',
     'LBL_EMAIL_PDF_BUTTON_LABEL' => 'Odeslat jako PDF',
-    'LBL_EMAIL_PDF_BUTTON_TITLE' => 'Odeslat jako PDF',
-    'LBL_EMAILS' => 'Email',
+    'LBL_EMAIL_PDF_BUTTON_TITLE' => 'Email as PDF',
+    'LBL_EMAILS' => 'Pošta',
     'LBL_EMPLOYEES' => 'Zaměstnanci',
     'LBL_ENTER_DATE' => 'Vložit datum',
     'LBL_EXPORT' => 'Exportovat',
@@ -1596,12 +1596,12 @@ $app_strings = array(
     'LBL_THEME' => 'Motiv:',
     'LBL_FOUND_IN_RELEASE' => 'Nalezeno ve vydání',
     'LBL_FIXED_IN_RELEASE' => 'Opraveno ve vydání',
-    'LBL_LIST_ACCOUNT_NAME' => 'Jméno klienta',
+    'LBL_LIST_ACCOUNT_NAME' => 'Název Firmy',
     'LBL_LIST_ASSIGNED_USER' => 'Uživatel',
     'LBL_LIST_CONTACT_NAME' => 'Název kontaktu',
     'LBL_LIST_CONTACT_ROLE' => 'Role kontaktu',
     'LBL_LIST_DATE_ENTERED' => 'Datum vytvoření',
-    'LBL_LIST_EMAIL' => 'E-mail',
+    'LBL_LIST_EMAIL' => 'Email',
     'LBL_LIST_NAME' => 'Jméno',
     'LBL_LIST_OF' => 'z',
     'LBL_LIST_PHONE' => 'Telefon',
@@ -1640,7 +1640,7 @@ $app_strings = array(
     'LBL_NEW_BUTTON_LABEL' => 'Přidat',
     'LBL_NEW_BUTTON_TITLE' => 'Přidat',
     'LBL_NEXT_BUTTON_LABEL' => 'Další',
-    'LBL_NONE' => '--žádné--',
+    'LBL_NONE' => '--Žádné--',
     'LBL_NOTES' => 'Poznámky',
     'LBL_OPPORTUNITIES' => 'Příležitosti',
     'LBL_OPPORTUNITY_NAME' => 'Název příležitosti',
@@ -1673,29 +1673,29 @@ $app_strings = array(
     'LBL_REPORTS_TO' => 'Reporty k',
     'LBL_REQUIRED_SYMBOL' => '*',
     'LBL_REQUIRED_TITLE' => 'Označuje povinné pole',
-    'LBL_EMAIL_DONE_BUTTON_LABEL' => 'Dokončeno',
+    'LBL_EMAIL_DONE_BUTTON_LABEL' => 'Hotovo',
     'LBL_FULL_FORM_BUTTON_KEY' => 'L',
     'LBL_FULL_FORM_BUTTON_LABEL' => 'Celý formulář',
-    'LBL_FULL_FORM_BUTTON_TITLE' => 'Celý formulář',
+    'LBL_FULL_FORM_BUTTON_TITLE' => 'Full Form',
     'LBL_SAVE_NEW_BUTTON_LABEL' => 'Uložit & Přidat nový',
-    'LBL_SAVE_NEW_BUTTON_TITLE' => 'Uložit & Přidat nový',
+    'LBL_SAVE_NEW_BUTTON_TITLE' => 'Save & Create New',
     'LBL_SAVE_OBJECT' => 'Uložení {0}',
     'LBL_SEARCH_BUTTON_KEY' => 'Q',
     'LBL_SEARCH_BUTTON_LABEL' => 'Hledat',
-    'LBL_SEARCH_BUTTON_TITLE' => 'Hledat',
-    'LBL_FILTER' => 'Hledání',
-    'LBL_SEARCH' => 'Hledat',
+    'LBL_SEARCH_BUTTON_TITLE' => 'Search',
+    'LBL_FILTER' => 'Filtr',
+    'LBL_SEARCH' => 'Search',
     'LBL_SEARCH_ALT' => '',
     'LBL_SEARCH_MORE' => 'více',
     'LBL_UPLOAD_IMAGE_FILE_INVALID' => 'Neplatný formát souboru, lze odeslat pouze soubor s obrázkem.',
     'LBL_SELECT_BUTTON_KEY' => 'T',
-    'LBL_SELECT_BUTTON_LABEL' => 'Označit',
-    'LBL_SELECT_BUTTON_TITLE' => 'Označit',
+    'LBL_SELECT_BUTTON_LABEL' => 'Vybrat',
+    'LBL_SELECT_BUTTON_TITLE' => 'Vybrat',
     'LBL_BROWSE_DOCUMENTS_BUTTON_LABEL' => 'Procházet dokumenty',
-    'LBL_BROWSE_DOCUMENTS_BUTTON_TITLE' => 'Procházet dokumenty',
+    'LBL_BROWSE_DOCUMENTS_BUTTON_TITLE' => 'Browse Documents',
     'LBL_SELECT_CONTACT_BUTTON_KEY' => 'T',
     'LBL_SELECT_CONTACT_BUTTON_LABEL' => 'Označit kontakt',
-    'LBL_SELECT_CONTACT_BUTTON_TITLE' => 'Označit kontakt',
+    'LBL_SELECT_CONTACT_BUTTON_TITLE' => 'Select Contact',
     'LBL_SELECT_REPORTS_BUTTON_LABEL' => 'VYBRAT Z reportů',
     'LBL_SELECT_REPORTS_BUTTON_TITLE' => 'Vybrat reporty',
     'LBL_SELECT_USER_BUTTON_KEY' => 'U',
@@ -1710,7 +1710,7 @@ $app_strings = array(
     'LBL_ACCESSKEY_CLEAR_COLLECTION_LABEL' => 'Vyprázdnit výběr',
     'LBL_ACCESSKEY_SELECT_FILE_KEY' => 'F',
     'LBL_ACCESSKEY_SELECT_FILE_TITLE' => 'Vybrat soubor',
-    'LBL_ACCESSKEY_SELECT_FILE_LABEL' => 'Vybrat soubor',
+    'LBL_ACCESSKEY_SELECT_FILE_LABEL' => 'Select File',
     'LBL_ACCESSKEY_CLEAR_FILE_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_FILE_TITLE' => 'Vyprázdnit soubor',
     'LBL_ACCESSKEY_CLEAR_FILE_LABEL' => 'Vyprázdnit soubor',
@@ -1723,7 +1723,7 @@ $app_strings = array(
     'LBL_ACCESSKEY_CLEAR_USERS_LABEL' => 'Vyprázdnit uživatele',
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_KEY' => 'A',
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_TITLE' => 'Zvolit účet',
-    'LBL_ACCESSKEY_SELECT_ACCOUNTS_LABEL' => 'Zvolit účet',
+    'LBL_ACCESSKEY_SELECT_ACCOUNTS_LABEL' => 'Select Account',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_TITLE' => 'Vyprázdnit Firmu',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_LABEL' => 'Vyprázdnit Firmu',
@@ -1734,8 +1734,8 @@ $app_strings = array(
     'LBL_ACCESSKEY_CLEAR_CAMPAIGNS_TITLE' => 'Vyprázdnit kampaň',
     'LBL_ACCESSKEY_CLEAR_CAMPAIGNS_LABEL' => 'Vyprázdnit kampaň',
     'LBL_ACCESSKEY_SELECT_CONTACTS_KEY' => 'C',
-    'LBL_ACCESSKEY_SELECT_CONTACTS_TITLE' => 'Označit kontakt',
-    'LBL_ACCESSKEY_SELECT_CONTACTS_LABEL' => 'Označit kontakt',
+    'LBL_ACCESSKEY_SELECT_CONTACTS_TITLE' => 'Select Contact',
+    'LBL_ACCESSKEY_SELECT_CONTACTS_LABEL' => 'Select Contact',
     'LBL_ACCESSKEY_CLEAR_CONTACTS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_CONTACTS_TITLE' => 'Vyprázdnit kontakt',
     'LBL_ACCESSKEY_CLEAR_CONTACTS_LABEL' => 'Vyprázdnit kontakt',
@@ -1758,7 +1758,7 @@ $app_strings = array(
     'LBL_STATUS_UPDATED' => 'Váš Stav pro tuto událost byl aktualizován!',
     'LBL_STATUS' => 'Stav:',
     'LBL_STREET' => 'Ulice',
-    'LBL_SUBJECT' => 'Předmět',
+    'LBL_SUBJECT' => 'Subject',
 
     'LBL_INBOUNDEMAIL_ID' => 'Vstupní ID e-mailu',
 
@@ -1775,7 +1775,7 @@ $app_strings = array(
     'LBL_SCENARIO_PROJECT_DESCRIPTION' => 'Tento scénář usnadňuje správu projektu a souvisejících položek',
 
     'LBL_SYNC' => 'Synchronizace',
-    'LBL_TABGROUP_ALL' => 'Všechno',
+    'LBL_TABGROUP_ALL' => 'All',
     'LBL_TABGROUP_ACTIVITIES' => 'Aktivity',
     'LBL_TABGROUP_COLLABORATION' => 'Kolaborace',
     'LBL_TABGROUP_MARKETING' => 'Marketing',
@@ -1785,11 +1785,11 @@ $app_strings = array(
     'LBL_TASKS' => 'Úkoly',
     'LBL_THOUSANDS_SYMBOL' => ' tis',
     'LBL_TRACK_EMAIL_BUTTON_LABEL' => 'Archivovat zprávu',
-    'LBL_TRACK_EMAIL_BUTTON_TITLE' => 'Archivovat zprávu',
+    'LBL_TRACK_EMAIL_BUTTON_TITLE' => 'Archive Email',
     'LBL_UNDELETE_BUTTON_LABEL' => 'Obnovit',
-    'LBL_UNDELETE_BUTTON_TITLE' => 'Obnovit',
-    'LBL_UNDELETE_BUTTON' => 'Obnovit',
-    'LBL_UNDELETE' => 'Obnovit',
+    'LBL_UNDELETE_BUTTON_TITLE' => 'Undelete',
+    'LBL_UNDELETE_BUTTON' => 'Undelete',
+    'LBL_UNDELETE' => 'Undelete',
     'LBL_UNSYNC' => 'Zrušit synchronizaci',
     'LBL_UPDATE' => 'Aktualizovat',
     'LBL_USER_LIST' => 'Seznam uživatelů',
@@ -1838,7 +1838,7 @@ $app_strings = array(
     'NTC_LOGIN_MESSAGE' => 'Vložte prosím Vaše uživatelské jméno a heslo:',
     'NTC_NO_ITEMS_DISPLAY' => 'žádný',
     'NTC_REMOVE_CONFIRMATION' => 'Opravdu chcete odebrat tento vztah? Pouze vztah bude odstraněn. Záznam nebude smazán.',
-    'NTC_REQUIRED' => 'Označuje povinné pole',
+    'NTC_REQUIRED' => 'Indicates required field',
     'NTC_TIME_FORMAT' => '(24:00)',
     'NTC_WELCOME' => 'Vítáme uživatele',
     'NTC_YEAR_FORMAT' => '(yyyy)',
@@ -1863,7 +1863,7 @@ $app_strings = array(
     'LBL_SEARCH_CRITERIA' => 'Vyhledávací kritéria',
     'LBL_SAVED_VIEWS' => 'Uložené zobrazení',
     'LBL_PROCESSING_REQUEST' => 'Zpracovávání...',
-    'LBL_REQUEST_PROCESSED' => 'Dokončeno',
+    'LBL_REQUEST_PROCESSED' => 'Hotovo',
     'LBL_AJAX_FAILURE' => 'Selhání AJAXu',
     'LBL_MERGE_DUPLICATES' => 'Sloučit kopie',
     'LBL_SAVED_FILTER_SHORTCUT' => 'Moje filtry',
@@ -1872,11 +1872,11 @@ $app_strings = array(
     'LBL_LISTVIEW' => 'Zobrazení seznamu',
     'LBL_EDITVIEW' => 'Upravit zobrazení',
     'LBL_BILLING_STREET' => 'Ulice:',
-    'LBL_SHIPPING_STREET' => 'Ulice:',
+    'LBL_SHIPPING_STREET' => 'Street:',
     'LBL_SEARCHFORM' => 'Vyhledávací formulář',
     'LBL_SAVED_SEARCH_ERROR' => 'Doplňte prosím jméno náhledu.',
     'LBL_DISPLAY_LOG' => 'Zobrazit log',
-    'ERROR_JS_ALERT_SYSTEM_CLASS' => 'Správa',
+    'ERROR_JS_ALERT_SYSTEM_CLASS' => 'System',
     'ERROR_JS_ALERT_TIMEOUT_TITLE' => 'Překročení časového limitu relace ',
     'ERROR_JS_ALERT_TIMEOUT_MSG_1' => 'Váš časový limit vyprší za 2 minuty. Uložte, prosím, Vaši práci.',
     'ERROR_JS_ALERT_TIMEOUT_MSG_2' => 'Váš časový limit vypršel.',
@@ -1904,7 +1904,7 @@ $app_strings = array(
     // contextMenu strings
     'LBL_ADD_TO_FAVORITES' => 'Přidat k oblíbeným',
     'LBL_CREATE_CONTACT' => 'Přidat kontakt',
-    'LBL_CREATE_CASE' => 'Přidat případ',
+    'LBL_CREATE_CASE' => 'Vytvořit případ',
     'LBL_CREATE_NOTE' => 'Přidat poznámku',
     'LBL_CREATE_OPPORTUNITY' => 'Vytvořit příležitost',
     'LBL_SCHEDULE_CALL' => 'Zaznamenat hovor',
@@ -1937,10 +1937,10 @@ $app_strings = array(
     'ERR_SMARTY_UNEQUAL_RELATED_FIELD_PARAMETERS' => 'Chyba: Odlišný počet argumentů pro &#039;klíčové&#034; a &#034;kopírované&#034; elementy v poli displayParams',
 
     /* MySugar Framework (for Home and Dashboard) */
-    'LBL_DASHLET_CONFIGURE_GENERAL' => 'Obecné',
+    'LBL_DASHLET_CONFIGURE_GENERAL' => 'General',
     'LBL_DASHLET_CONFIGURE_FILTERS' => 'Filtry',
     'LBL_DASHLET_CONFIGURE_MY_ITEMS_ONLY' => 'Pouze mé položky',
-    'LBL_DASHLET_CONFIGURE_TITLE' => 'Titul',
+    'LBL_DASHLET_CONFIGURE_TITLE' => 'Nadpis',
     'LBL_DASHLET_CONFIGURE_DISPLAY_ROWS' => 'Počet řádků',
 
     // MySugar status strings
@@ -1960,7 +1960,7 @@ $app_strings = array(
     'LBL_RELOAD_PAGE' => 'Prosím <a href="javascript: window.location.reload()">obnovte okno</a> pro použití tohoto SuiteCRM Dashletu.',
     'LBL_ADD_DASHLETS' => 'Přidat Dashlety',
     'LBL_CLOSE_DASHLETS' => 'Zavřít',
-    'LBL_OPTIONS' => 'Volby',
+    'LBL_OPTIONS' => 'Možnosti',
     'LBL_1_COLUMN' => '1 sloupec',
     'LBL_2_COLUMN' => '2 sloupce',
     'LBL_3_COLUMN' => '3 sloupce',
@@ -2021,7 +2021,7 @@ $app_strings = array(
     'LBL_CHOOSE_START_AND_END_ENTRIES' => 'Vyberte obojí, počáteční i koncový rozsah vstupů',
 
     //jchi #  20776
-    'LBL_DROPDOWN_LIST_ALL' => 'Všechno',
+    'LBL_DROPDOWN_LIST_ALL' => 'All',
 
     //Connector
     'ERR_CONNECTOR_FILL_BEANS_SIZE_MISMATCH' => 'Chyba: Délka pole bean parametrů neodpovídá délce pole výsledků.',
@@ -2032,7 +2032,7 @@ $app_strings = array(
     'LBL_FASTCGI_LOGGING' => 'Pro optimální běh pod IIS/FastCGI sapi, nastavte v souboru php.ini hodnotu fastcgi.logging na 0.',
 
     //Collection Field
-    'LBL_COLLECTION_NAME' => 'Jméno',
+    'LBL_COLLECTION_NAME' => 'Název',
     'LBL_COLLECTION_PRIMARY' => 'Primární',
     'ERROR_MISSING_COLLECTION_SELECTION' => 'Povinné pole je prázdné',
 
@@ -2105,7 +2105,7 @@ $app_strings = array(
     'LBL_NOTIFICATIONS_NONE' => 'Žádná aktuální oznámení',
     'LBL_ALT_SORT_DESC' => 'Seřazeno sestupně',
     'LBL_ALT_SORT_ASC' => 'Seřazeno vzestupně',
-    'LBL_ALT_SORT' => 'Řazení',
+    'LBL_ALT_SORT' => 'Seřadit',
     'LBL_ALT_SHOW_OPTIONS' => 'Zobrazit možnosti',
     'LBL_ALT_HIDE_OPTIONS' => 'Skrýt možnosti',
     'LBL_ALT_MOVE_COLUMN_LEFT' => 'Přesunout vybranou položku do seznamu vlevo',
@@ -2134,8 +2134,8 @@ $app_strings = array(
     'LBL_EDIT_BUTTON_LABEL' => 'Upravit',
     'LBL_EDIT_BUTTON_TITLE' => 'Upravit',
     'LBL_DUPLICATE_BUTTON_KEY' => 'U',
-    'LBL_DUPLICATE_BUTTON_LABEL' => 'Duplikovat',
-    'LBL_DUPLICATE_BUTTON_TITLE' => 'Duplikovat',
+    'LBL_DUPLICATE_BUTTON_LABEL' => 'Kopírovat',
+    'LBL_DUPLICATE_BUTTON_TITLE' => 'Kopírovat',
     'LBL_DELETE_BUTTON_KEY' => 'D',
     'LBL_DELETE_BUTTON_LABEL' => 'Smazat',
     'LBL_DELETE_BUTTON_TITLE' => 'Smazat',
@@ -2178,7 +2178,7 @@ $app_strings = array(
     'LBL_HIDDEN' => 'Skryté',
     'ERR_EMPTY_COLUMNS_LIST' => 'Je vyžadován alespoň jeden prvek',
 
-    'LBL_FILTER_HEADER_TITLE' => 'Hledání',
+    'LBL_FILTER_HEADER_TITLE' => 'Filtr',
 
     'LBL_CATEGORY' => 'Kategorie',
     'LBL_LIST_CATEGORY' => 'Kategorie',
@@ -2210,7 +2210,7 @@ $app_strings = array(
     'LBL_PRIMARY_GROUP' => "Primární skupina",
 
     // footer
-    'LBL_SUITE_TOP' => 'Zpět na začátek',
+    'LBL_SUITE_TOP' => 'Back to top',
     'LBL_SUITE_SUPERCHARGED' => 'Provozováno na SuiteCRM',
     'LBL_SUITE_POWERED_BY' => 'Powered by SugarCRM',
     'LBL_SUITE_DESC1' => 'SuiteCRM has been written and assembled by <a href="https://suitecrm.com/">SuiteCRM Ltd</a>. The Program is provided AS IS, without warranty. Licensed under AGPLv3.',
@@ -2253,12 +2253,12 @@ $app_list_strings['lawful_basis_source_dom'] = array(
     'website' => 'WWW stránky',
     'phone' => 'Telefon',
     'given_to_user' => 'Dané uživateli',
-    'email' => 'E-mail',
+    'email' => 'Email',
     'third_party' => 'Třetí strana',
 );
 //End GDPR lawful basis source options
 
-$app_list_strings['moduleList']['KBDocuments'] = 'Základní znalost';
+$app_list_strings['moduleList']['KBDocuments'] = 'Znalostní báze';
 
 $app_list_strings['countries_dom'] = array(
     '' => '',
@@ -2422,7 +2422,7 @@ $app_list_strings['countries_dom'] = array(
     'NORFOLK ISLAND' => 'Norfolk',
     'NORWAY' => 'Norsko',
     'OMAN' => 'Omán',
-    'OTHER' => 'Ostatní',
+    'OTHER' => 'OTHER',
     'PACIFIC ISLAND' => 'PACIFICKÉ OSTROVY',
     'PAKISTAN' => 'Pákistán',
     'PANAMA' => 'Panama',
@@ -2932,7 +2932,7 @@ $app_list_strings['token_status'] = array(
 $app_list_strings ['emailTemplates_type_list'] = array(
     '' => '',
     'campaign' => 'Kampaň',
-    'email' => 'E-mail',
+    'email' => 'Email',
     'event' => 'Událost',
 );
 
@@ -2944,13 +2944,13 @@ $app_list_strings ['emailTemplates_type_list_campaigns'] = array(
 $app_list_strings ['emailTemplates_type_list_no_workflow'] = array(
     '' => '',
     'campaign' => 'Kampaň',
-    'email' => 'E-mail',
+    'email' => 'Email',
     'event' => 'Událost',
-    'system' => 'Správa',
+    'system' => 'System',
 );
 
 // knowledge base
-$app_list_strings['moduleList']['AOK_KnowledgeBase'] = 'Základní znalost';
+$app_list_strings['moduleList']['AOK_KnowledgeBase'] = 'Znalostní báze';
 $app_list_strings['moduleList']['AOK_Knowledge_Base_Categories'] = 'Kategorie znalostní databáze';
 $app_list_strings['aok_status_list']['Draft'] = 'Koncept';
 $app_list_strings['aok_status_list']['Expired'] = 'Vypršelo';
@@ -3001,7 +3001,7 @@ $app_list_strings['case_status_dom'] =
         'Closed_Closed' => 'Uzavřeno',
         'Open_Pending Input' => 'Čekající vstup',
         'Closed_Rejected' => 'Zamítnuto',
-        'Closed_Duplicate' => 'Duplikovat',
+        'Closed_Duplicate' => 'Kopírovat',
     );
 $app_list_strings['contact_portal_user_type_dom'] =
     array(
@@ -3044,7 +3044,7 @@ $app_list_strings['aor_format_options']['d.m.Y'] = 'd.m.R';
 $app_list_strings['aor_format_options']['Ymd'] = 'Rmd';
 $app_list_strings['aor_format_options']['Y-m'] = 'R-m';
 $app_list_strings['aor_format_options']['Y'] = 'R';
-$app_list_strings['aor_condition_operator_list']['And'] = 'a';
+$app_list_strings['aor_condition_operator_list']['And'] = 'And';
 $app_list_strings['aor_condition_operator_list']['OR'] = 'NEBO';
 $app_list_strings['aor_condition_type_list']['Value'] = 'Hodnota';
 $app_list_strings['aor_condition_type_list']['Field'] = 'Pole';
@@ -3086,9 +3086,9 @@ $app_list_strings['aor_chart_types']['grouped_bar'] = 'Seskupený pruh';
 $app_list_strings['aor_scheduled_report_schedule_types']['monthly'] = 'Měsíčně';
 $app_list_strings['aor_scheduled_report_schedule_types']['weekly'] = 'Týdně';
 $app_list_strings['aor_scheduled_report_schedule_types']['daily'] = 'Denně';
-$app_list_strings['aor_scheduled_reports_status_dom']['active'] = 'Aktivní emailové účty';
+$app_list_strings['aor_scheduled_reports_status_dom']['active'] = 'Aktivní';
 $app_list_strings['aor_scheduled_reports_status_dom']['inactive'] = 'Neaktivní';
-$app_list_strings['aor_email_type_list']['Email Address'] = 'E-mail';
+$app_list_strings['aor_email_type_list']['Email Address'] = 'Email';
 $app_list_strings['aor_email_type_list']['Specify User'] = 'Uživatel';
 $app_list_strings['aor_email_type_list']['Users'] = 'Uživatelé';
 $app_list_strings['aor_assign_options']['all'] = 'Všichni Uživatelé';
@@ -3099,7 +3099,7 @@ $app_list_strings['date_time_period_list']['yesterday'] = 'Včera';
 $app_list_strings['date_time_period_list']['this_week'] = 'Tento týden';
 $app_list_strings['date_time_period_list']['last_week'] = 'Minulý týden';
 $app_list_strings['date_time_period_list']['last_month'] = 'Minulý měsíc';
-$app_list_strings['date_time_period_list']['this_month'] = 'Aktuální měsíc';
+$app_list_strings['date_time_period_list']['this_month'] = 'Tento měsíc';
 $app_list_strings['date_time_period_list']['this_quarter'] = 'Aktuální čtvrtletí';
 $app_list_strings['date_time_period_list']['last_quarter'] = 'Minulé čtvrtletí';
 $app_list_strings['date_time_period_list']['this_year'] = 'Tento rok';
@@ -3118,11 +3118,11 @@ $app_strings['LBL_CRON_WEEKLY'] = 'Týdně';
 $app_strings['LBL_CRON_MONTHLY'] = 'Měsíčně';
 
 //aos
-$app_list_strings['moduleList']['AOS_Contracts'] = 'Kontrakty';
+$app_list_strings['moduleList']['AOS_Contracts'] = 'Smlouvy';
 $app_list_strings['moduleList']['AOS_Invoices'] = 'Faktury';
 $app_list_strings['moduleList']['AOS_PDF_Templates'] = 'PDF - šablony';
 $app_list_strings['moduleList']['AOS_Product_Categories'] = 'Produkty - Kategorie';
-$app_list_strings['moduleList']['AOS_Products'] = 'Produkty';
+$app_list_strings['moduleList']['AOS_Products'] = 'Products';
 $app_list_strings['moduleList']['AOS_Products_Quotes'] = 'Položky řádku';
 $app_list_strings['moduleList']['AOS_Line_Item_Groups'] = 'Řada skupiny položek';
 $app_list_strings['moduleList']['AOS_Quotes'] = 'Nabídky';
@@ -3182,18 +3182,18 @@ $app_list_strings['product_category_dom']['Laptops'] = 'Laptopy';
 $app_list_strings['product_category_dom']['Desktops'] = 'Desktopy';
 $app_list_strings['product_category_dom'][''] = '';
 $app_list_strings['product_type_dom']['Good'] = 'Dobrý';
-$app_list_strings['product_type_dom']['Service'] = 'Služba';
+$app_list_strings['product_type_dom']['Service'] = 'Service';
 $app_list_strings['product_quote_parent_type_dom']['AOS_Quotes'] = 'Nabídky';
 $app_list_strings['product_quote_parent_type_dom']['AOS_Invoices'] = 'Faktury';
-$app_list_strings['product_quote_parent_type_dom']['AOS_Contracts'] = 'Kontrakty';
+$app_list_strings['product_quote_parent_type_dom']['AOS_Contracts'] = 'Smlouvy';
 $app_list_strings['pdf_template_type_dom']['AOS_Quotes'] = 'Nabídky';
 $app_list_strings['pdf_template_type_dom']['AOS_Invoices'] = 'Faktury';
-$app_list_strings['pdf_template_type_dom']['AOS_Contracts'] = 'Kontrakty';
+$app_list_strings['pdf_template_type_dom']['AOS_Contracts'] = 'Smlouvy';
 $app_list_strings['pdf_template_type_dom']['Accounts'] = 'Firmy';
 $app_list_strings['pdf_template_type_dom']['Contacts'] = 'Kontakty';
 $app_list_strings['pdf_template_type_dom']['Leads'] = 'Iniciativy';
 $app_list_strings['pdf_template_sample_dom'][''] = '';
-$app_list_strings['contract_status_list']['Not Started'] = 'Nezapočato';
+$app_list_strings['contract_status_list']['Not Started'] = 'Nezahájeno';
 $app_list_strings['contract_status_list']['In Progress'] = 'V procesu';
 $app_list_strings['contract_status_list']['Signed'] = 'Podepsáno';
 $app_list_strings['contract_type_list']['Type'] = 'Typ';
@@ -3206,46 +3206,46 @@ $app_list_strings['moduleList']['AOW_WorkFlow'] = 'Workflow';
 $app_list_strings['moduleList']['AOW_Conditions'] = 'Podmínky workflow';
 $app_list_strings['moduleList']['AOW_Processed'] = 'Procesní audit';
 $app_list_strings['moduleList']['AOW_Actions'] = 'Akce workflow';
-$app_list_strings['aow_status_list']['Active'] = 'Aktivní emailové účty';
+$app_list_strings['aow_status_list']['Active'] = 'Aktivní';
 $app_list_strings['aow_status_list']['Inactive'] = 'Neaktivní';
-$app_list_strings['aow_operator_list']['Equal_To'] = 'Rovná se';
-$app_list_strings['aow_operator_list']['Not_Equal_To'] = 'Nerovná se';
+$app_list_strings['aow_operator_list']['Equal_To'] = 'Equal To';
+$app_list_strings['aow_operator_list']['Not_Equal_To'] = 'Not Equal To';
 $app_list_strings['aow_operator_list']['Greater_Than'] = 'Větší než';
 $app_list_strings['aow_operator_list']['Less_Than'] = 'Menší než';
-$app_list_strings['aow_operator_list']['Greater_Than_or_Equal_To'] = 'Větší nebo rovno';
-$app_list_strings['aow_operator_list']['Less_Than_or_Equal_To'] = 'Menší nebo rovno';
+$app_list_strings['aow_operator_list']['Greater_Than_or_Equal_To'] = 'Greater Than or Equal To';
+$app_list_strings['aow_operator_list']['Less_Than_or_Equal_To'] = 'Less Than or Equal To';
 $app_list_strings['aow_operator_list']['Contains'] = 'Obsahuje';
 $app_list_strings['aow_operator_list']['Starts_With'] = 'Začíná s';
-$app_list_strings['aow_operator_list']['Ends_With'] = 'Končí na';
+$app_list_strings['aow_operator_list']['Ends_With'] = 'Ends With';
 $app_list_strings['aow_operator_list']['is_null'] = 'Je Null';
 $app_list_strings['aow_process_status_list']['Complete'] = 'Kompletní';
 $app_list_strings['aow_process_status_list']['Running'] = 'Běžící';
 $app_list_strings['aow_process_status_list']['Pending'] = 'Čekající';
 $app_list_strings['aow_process_status_list']['Failed'] = 'Selhalo';
-$app_list_strings['aow_condition_operator_list']['And'] = 'a';
+$app_list_strings['aow_condition_operator_list']['And'] = 'And';
 $app_list_strings['aow_condition_operator_list']['OR'] = 'NEBO';
-$app_list_strings['aow_condition_type_list']['Value'] = 'Hodnota';
-$app_list_strings['aow_condition_type_list']['Field'] = 'Pole';
+$app_list_strings['aow_condition_type_list']['Value'] = 'Value';
+$app_list_strings['aow_condition_type_list']['Field'] = 'Field';
 $app_list_strings['aow_condition_type_list']['Any_Change'] = 'Změna';
 $app_list_strings['aow_condition_type_list']['SecurityGroup'] = 'V bezpečnostní skupině';
 $app_list_strings['aow_condition_type_list']['Date'] = 'Datum';
-$app_list_strings['aow_condition_type_list']['Multi'] = 'Jeden z';
-$app_list_strings['aow_action_type_list']['Value'] = 'Hodnota';
-$app_list_strings['aow_action_type_list']['Field'] = 'Pole';
+$app_list_strings['aow_condition_type_list']['Multi'] = 'One of';
+$app_list_strings['aow_action_type_list']['Value'] = 'Value';
+$app_list_strings['aow_action_type_list']['Field'] = 'Field';
 $app_list_strings['aow_action_type_list']['Date'] = 'Datum';
 $app_list_strings['aow_action_type_list']['Round_Robin'] = 'Round Robin';
 $app_list_strings['aow_action_type_list']['Least_Busy'] = 'Nejméně zaneprázdněný';
-$app_list_strings['aow_action_type_list']['Random'] = 'Náhodně';
-$app_list_strings['aow_rel_action_type_list']['Value'] = 'Hodnota';
-$app_list_strings['aow_rel_action_type_list']['Field'] = 'Pole';
+$app_list_strings['aow_action_type_list']['Random'] = 'Random';
+$app_list_strings['aow_rel_action_type_list']['Value'] = 'Value';
+$app_list_strings['aow_rel_action_type_list']['Field'] = 'Field';
 $app_list_strings['aow_date_type_list'][''] = '';
 $app_list_strings['aow_date_type_list']['minute'] = 'Minuty';
 $app_list_strings['aow_date_type_list']['hour'] = 'Hodiny';
 $app_list_strings['aow_date_type_list']['day'] = 'Dny';
-$app_list_strings['aow_date_type_list']['week'] = 'Týdny';
-$app_list_strings['aow_date_type_list']['month'] = 'Měsíce';
+$app_list_strings['aow_date_type_list']['week'] = 'Weeks';
+$app_list_strings['aow_date_type_list']['month'] = 'Months';
 $app_list_strings['aow_date_type_list']['year'] = 'Years';
-$app_list_strings['aow_date_type_list']['business_hours'] = 'Otevírací hodiny';
+$app_list_strings['aow_date_type_list']['business_hours'] = 'Business Hours';
 $app_list_strings['aow_date_options']['now'] = 'Nyní';
 $app_list_strings['aow_date_options']['today'] = 'Dnes';
 $app_list_strings['aow_date_options']['field'] = 'Toto pole';
@@ -3255,12 +3255,12 @@ $app_list_strings['aow_date_operator']['minus'] = '-';
 $app_list_strings['aow_assign_options']['all'] = 'Všichni Uživatelé';
 $app_list_strings['aow_assign_options']['role'] = 'Všichni Uživatelé role';
 $app_list_strings['aow_assign_options']['security_group'] = 'Všichni Uživatelé v Bezpečnostní skupině';
-$app_list_strings['aow_email_type_list']['Email Address'] = 'E-mail';
+$app_list_strings['aow_email_type_list']['Email Address'] = 'Email';
 $app_list_strings['aow_email_type_list']['Record Email'] = 'Zaznamenat email';
 $app_list_strings['aow_email_type_list']['Related Field'] = 'Související pole';
 $app_list_strings['aow_email_type_list']['Specify User'] = 'Uživatel';
 $app_list_strings['aow_email_type_list']['Users'] = 'Uživatelé';
-$app_list_strings['aow_email_to_list']['to'] = 'Příjemce';
+$app_list_strings['aow_email_to_list']['to'] = 'To';
 $app_list_strings['aow_email_to_list']['cc'] = 'Kopie';
 $app_list_strings['aow_email_to_list']['bcc'] = 'Skrytá kopie';
 $app_list_strings['aow_run_on_list']['All_Records'] = 'Všechny záznamy';
@@ -3287,7 +3287,7 @@ $app_strings['LBL_MAP'] = 'Mapa';
 $app_strings['LBL_JJWG_MAPS_LNG'] = 'Zeměpisná délka';
 $app_strings['LBL_JJWG_MAPS_LAT'] = 'Zeměpisná šířka';
 $app_strings['LBL_JJWG_MAPS_GEOCODE_STATUS'] = 'Stav Geocode';
-$app_strings['LBL_JJWG_MAPS_ADDRESS'] = 'Adresa:';
+$app_strings['LBL_JJWG_MAPS_ADDRESS'] = 'Adresa';
 
 $app_list_strings['moduleList']['jjwg_Maps'] = 'Mapy';
 $app_list_strings['moduleList']['jjwg_Markers'] = 'Mapy - značky';
@@ -3314,7 +3314,7 @@ $app_list_strings['map_relate_type_list']['Cases'] = 'Případ';
 $app_list_strings['map_relate_type_list']['Leads'] = 'Iniciativa';
 $app_list_strings['map_relate_type_list']['Meetings'] = 'Schůzky';
 $app_list_strings['map_relate_type_list']['Opportunities'] = 'Příležitost';
-$app_list_strings['map_relate_type_list']['Project'] = 'Projekty';
+$app_list_strings['map_relate_type_list']['Project'] = 'Projekt';
 $app_list_strings['map_relate_type_list']['Prospects'] = 'Cíl';
 
 $app_list_strings['marker_image_list']['accident'] = 'Nehoda';
@@ -3415,7 +3415,7 @@ $app_list_strings['marker_image_list']['laundromat'] = 'Prádelna';
 $app_list_strings['marker_image_list']['left'] = 'Vlevo';
 $app_list_strings['marker_image_list']['left_then_down'] = 'Vlevo Poté Dolů';
 $app_list_strings['marker_image_list']['left_then_up'] = 'Vlevo Poté Nahoru';
-$app_list_strings['marker_image_list']['library'] = 'Knihovna';
+$app_list_strings['marker_image_list']['library'] = 'Library';
 $app_list_strings['marker_image_list']['lighthouse'] = 'Maják';
 $app_list_strings['marker_image_list']['liquor'] = 'Alkohol';
 $app_list_strings['marker_image_list']['lock'] = 'Zámek';
@@ -3581,7 +3581,7 @@ $app_strings['FACEBOOK_USER_C'] = 'Facebook';
 $app_strings['TWITTER_USER_C'] = 'Twitter';
 $app_strings['LBL_PANEL_SOCIAL_FEED'] = 'Podrobnosti sociální stránky';
 
-$app_strings['LBL_SUBPANEL_FILTER_LABEL'] = 'Hledání';
+$app_strings['LBL_SUBPANEL_FILTER_LABEL'] = 'Filtr';
 
 $app_strings['LBL_COLLECTION_TYPE'] = 'Typ';
 
@@ -3602,7 +3602,7 @@ $app_list_strings['collection_temp_list'] = array(
     'Meetings' => 'Schůzky',
     'Calls' => 'Hovory',
     'Notes' => 'Poznámky',
-    'Emails' => 'Email'
+    'Emails' => 'Pošta'
 );
 
 $app_list_strings['moduleList']['TemplateEditor'] = 'Editor části šablony';
@@ -3614,7 +3614,7 @@ $app_list_strings['spots_areas'] = array(
     'getSalesSpotsData' => 'Prodej',
     'getAccountsSpotsData' => 'Firmy',
     'getLeadsSpotsData' => 'Iniciativy',
-    'getServiceSpotsData' => 'Služba',
+    'getServiceSpotsData' => 'Service',
     'getMarketingSpotsData' => 'Marketing',
     'getMarketingActivitySpotsData' => 'Marketingové aktivity',
     'getActivitiesSpotsData' => 'Aktivity',
@@ -3623,7 +3623,7 @@ $app_list_strings['spots_areas'] = array(
 
 $app_list_strings['moduleList']['Spots'] = 'Přehledy';
 
-$app_list_strings['moduleList']['AOBH_BusinessHours'] = 'Otevírací hodiny';
+$app_list_strings['moduleList']['AOBH_BusinessHours'] = 'Business Hours';
 $app_list_strings['business_hours_list']['0'] = '00:00';
 $app_list_strings['business_hours_list']['1'] = '01:00';
 $app_list_strings['business_hours_list']['2'] = '02:00';
@@ -3697,7 +3697,7 @@ $app_strings['LBL_OPT_IN_INVALID'] = 'Neplatné';
 
 /** @see SugarEmailAddress */
 $app_list_strings['email_settings_opt_in_dom'] = array(
-    'not-opt-in' => 'Zablokováno',
+    'not-opt-in' => 'Vypnuto',
     'opt-in' => 'Opt In',
     'confirmed-opt-in' => 'Potvrzené Opt In'
 );
@@ -3731,7 +3731,7 @@ $app_list_strings['oauth2_grant_type_dom'] = array(
 $app_list_strings['oauth2_duration_units'] = [
     'minute' => 'minuty',
     'hour' => 'hodiny',
-    'day' => 'dny',
+    'day' => 'days',
     'week' => 'týdny',
     'month' => 'měsíce',
 ];
@@ -3743,7 +3743,7 @@ $app_list_strings['search_controllers'] = [
 
 // Calendar Account Types dropdown
 $app_list_strings['calendar_account_types'] = [
-    'personal' => 'Osobní',
+    'personal' => 'Personal',
     'shared' => 'Sdíleno',
     'group' => 'Skupina',
 ];
@@ -3759,7 +3759,7 @@ $app_list_strings['calendar_connection_status_list'] = [
 $app_list_strings['sync_attempt_status_list'] = [
     '' => '',
     'in_progress' => 'V procesu',
-    'success' => 'Úspěšně',
+    'success' => 'Success',
     'warning' => 'Upozornění',
     'error' => 'Chyba:',
 ];
@@ -3800,15 +3800,15 @@ $app_strings['IMAP_HANDLER_ERROR_NO_TEST_SET'] = 'Testovací nastavení neexistu
 $app_strings['IMAP_HANDLER_ERROR_NO_KEY'] = 'Klíč nenalezen.';
 $app_strings['IMAP_HANDLER_ERROR_KEY_SAVE'] = 'Chyba při ukládání klíče.';
 $app_strings['IMAP_HANDLER_ERROR_UNKNOWN'] = 'Neznámá chyba';
-$app_strings['LBL_SEARCH_TITLE']                   = 'Hledat';
+$app_strings['LBL_SEARCH_TITLE']                   = 'Search';
 $app_strings['LBL_SEARCH_TEXT_FIELD_TITLE_ATTR']   = 'Vstupní vyhledávací kritéria';
-$app_strings['LBL_SEARCH_SUBMIT_FIELD_TITLE_ATTR'] = 'Hledat';
-$app_strings['LBL_SEARCH_SUBMIT_FIELD_VALUE']      = 'Hledat';
+$app_strings['LBL_SEARCH_SUBMIT_FIELD_TITLE_ATTR'] = 'Search';
+$app_strings['LBL_SEARCH_SUBMIT_FIELD_VALUE']      = 'Search';
 $app_strings['LBL_SEARCH_QUERY']                   = 'Vyhledávací dotaz: ';
 $app_strings['LBL_SEARCH_RESULTS_PER_PAGE']        = 'Results per module: ';
 $app_strings['LBL_SEARCH_ENGINE']                  = 'Engine: ';
 $app_strings['LBL_SEARCH_TOTAL'] = 'Celkem výsledů: ';
-$app_strings['LBL_SEARCH_PREV'] = 'Předchozí';
+$app_strings['LBL_SEARCH_PREV'] = 'Previous';
 $app_strings['LBL_SEARCH_NEXT'] = 'Další';
 $app_strings['LBL_SEARCH_PAGE'] = 'Strana ';
 $app_strings['LBL_SEARCH_OF'] = ' z ';
@@ -3833,7 +3833,7 @@ $app_strings['WARN_OAUTH_TOKEN_SESSION_EXPIRED'] = 'Your IMAP OAuth session has 
 $app_strings['ERR_OAUTH_CONNECTION_ERROR'] = 'Not able to connect using OAuth login. For connection: ';
 
 $app_strings['LBL_KEY'] = 'Klíč';
-$app_strings['LBL_VALUE'] = 'Hodnota';
+$app_strings['LBL_VALUE'] = 'Value';
 $app_strings['LBL_OPTIONAL'] = 'Optional';
 $app_strings['LBL_OPTIONAL_CONNECTION_STRING'] = 'Optional. Set to use a specific connection string';
 $app_strings['LBL_OUTBOUND_ACCOUNT'] = 'Outbound Account';

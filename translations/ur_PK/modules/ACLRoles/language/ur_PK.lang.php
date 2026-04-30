@@ -43,15 +43,15 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'کردار',
+    'LBL_MODULE_NAME' => 'Roles',
     'LBL_MODULE_TITLE' => 'کرداریں: ہوم',
     'LBL_ROLE' => 'کردار',
     'LBL_NAME' => 'نام',
     'LBL_DESCRIPTION' => 'تفصیل',
     'LIST_ROLES' => 'فہرست کے کردار',
-    'LBL_USERS_SUBPANEL_TITLE' => 'صارفین',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
     'LIST_ROLES_BY_USER' => 'صارف کی طرف سے رولز کی فہرست',
-    'LBL_LIST_FORM_TITLE' => 'کردار',
+    'LBL_LIST_FORM_TITLE' => 'Roles',
     'LBL_ROLES_SUBPANEL_TITLE' => 'صارف کا کردار',
     'LBL_SEARCH_FORM_TITLE' => 'تلاش کریں',
     'LBL_CREATE_ROLE' => 'کردار بنائیں',
@@ -61,5 +61,5 @@ $mod_strings = array(
     'LBL_ALL' => 'سب',
     'LBL_DUPLICATE_OF' => 'ہم شکل کا ',
 
-    'LBL_SECURITYGROUPS' => 'سیکورٹی گروپ',
+    'LBL_SECURITYGROUPS' => 'سیکورٹی گروپس',
 );

@@ -65,7 +65,7 @@ $app_list_strings = array(
         'Meetings' => 'Встречи',
         'Tasks' => 'Задачи',
         'Calendar' => 'Календарь',
-        'Leads' => 'Предварительные контакты',
+        'Leads' => 'Предварит. контакты',
         'Currencies' => 'Валюта',
         'Activities' => 'Мероприятия',
         'Bugs' => 'Ошибки',
@@ -78,7 +78,7 @@ $app_list_strings = array(
         'ProjectTask' => 'Проектные задачи',
         'Campaigns' => 'Маркет. кампании',
         'CampaignLog' => 'Журнал маркет. кампании',
-        'Documents' => 'Документы',
+        'Documents' => 'Documents',
         'DocumentRevisions' => 'История',
         'Connectors' => 'Подключения',
         'Roles' => 'Роли',
@@ -100,7 +100,7 @@ $app_list_strings = array(
         'Trackers' => 'Трекеры',
         'TrackerSessions' => 'Сессии трекера',
         'TrackerQueries' => 'Запросы трекера',
-        'FAQ' => 'ЧаВо',
+        'FAQ' => 'FAQ',
         'Newsletters' => 'Бюллетени',
         'SugarFeed' => 'Лента событий',
         'SugarFavorites' => 'Избранное',
@@ -125,13 +125,13 @@ $app_list_strings = array(
         'EmailTemplates' => 'Шаблон E-mail',
         'Meetings' => 'Встреча',
         'Tasks' => 'Задача',
-        'Calendar' => 'Календарь',
+        'Calendar' => 'Calendar',
         'Leads' => 'Предварит. контакт',
         'Activities' => 'Мероприятие',
         'Bugs' => 'Ошибка',
         'KBDocuments' => 'База знаний',
-        'Feeds' => 'RSS-ленты',
-        'iFrames' => 'Мои сайты',
+        'Feeds' => 'RSS',
+        'iFrames' => 'My Sites',
         'TimePeriods' => 'Периоды времени',
         'Project' => 'Проект',
         'ProjectTask' => 'Проектная задача',
@@ -212,14 +212,14 @@ $app_list_strings = array(
         'Trade Show' => 'Спец.выставка',
         'Web Site' => 'Веб-сайт',
         'Word of mouth' => 'Разговор',
-        'Email' => 'Отправить E-mail',
-        'Campaign' => 'Маркет. кампания',
+        'Email' => 'E-mail',
+        'Campaign' => 'Промоакция',
         'Other' => 'Другое',
     ),
     'opportunity_type_dom' => array(
         '' => '',
-        'Existing Business' => 'Существующий бизнес',
-        'New Business' => 'Новый бизнес',
+        'Existing Business' => 'Existing Business',
+        'New Business' => 'New Business',
     ),
     'roi_type_dom' => array(
         'Revenue' => 'Доход',
@@ -282,11 +282,11 @@ $app_list_strings = array(
             'Closed Lost' => '0',
         ),
     'activity_dom' => array(
-        'Call' => 'Звонок',
+        'Call' => 'Call',
         'Meeting' => 'Встреча',
         'Task' => 'Задача',
-        'Email' => 'Отправить E-mail',
-        'Note' => 'Заметка',
+        'Email' => 'E-mail',
+        'Note' => 'Note',
     ),
     'salutation_dom' => array(
         '' => '',
@@ -318,11 +318,11 @@ $app_list_strings = array(
         86400 => 'за 1 день',
     ),
 
-    'task_priority_default' => 'Средний',
+    'task_priority_default' => 'Medium',
     'task_priority_dom' => array(
-        'High' => 'Высокий',
-        'Medium' => 'Средний',
-        'Low' => 'Низкий',
+        'High' => 'High',
+        'Medium' => 'Medium',
+        'Low' => 'Low',
     ),
     'task_status_default' => 'Проект',
     'task_status_dom' => array(
@@ -348,8 +348,8 @@ $app_list_strings = array(
     'call_status_default' => 'Planned',
     'call_status_dom' => array(
         'Planned' => 'Planned',
-        'Held' => 'Состоялась',
-        'Not Held' => 'Не состоялась',
+        'Held' => 'Held',
+        'Not Held' => 'Not Held',
     ),
     'call_direction_default' => 'Outbound',
     'call_direction_dom' => array(
@@ -359,7 +359,7 @@ $app_list_strings = array(
     'lead_status_dom' => array(
         '' => '',
         'New' => 'Новый',
-        'Assigned' => 'Назначено',
+        'Assigned' => 'Назначенный',
         'In Process' => 'Выполняется..',
         'Converted' => 'Преобразован',
         'Recycled' => 'Повторный',
@@ -367,23 +367,23 @@ $app_list_strings = array(
     ),
     'case_priority_default_key' => 'P2',
     'case_priority_dom' => array(
-        'P1' => 'Высокий',
-        'P2' => 'Средний',
-        'P3' => 'Низкий',
+        'P1' => 'High',
+        'P2' => 'Medium',
+        'P3' => 'Low',
     ),
     'user_type_dom' => array(
         'RegularUser' => 'Обычный пользователь',
         'Administrator' => 'Администратор',
     ),
     'user_status_dom' => array(
-        'Active' => 'Активен',
+        'Active' => 'Active',
         'Inactive' => 'Не активна',
     ),
     'user_factor_auth_interface_dom' => array(
         'FactorAuthEmailCode' => 'Код из эл. письма',
     ),
     'employee_status_dom' => array(
-        'Active' => 'Активен',
+        'Active' => 'Active',
         'Terminated' => 'Уволен',
         'Leave of Absence' => 'В отпуске',
     ),
@@ -394,18 +394,18 @@ $app_list_strings = array(
         'AOL' => 'AOL',
     ),
     'project_task_priority_options' => array(
-        'High' => 'Высокий',
-        'Medium' => 'Средний',
-        'Low' => 'Низкий',
+        'High' => 'High',
+        'Medium' => 'Medium',
+        'Low' => 'Low',
     ),
-    'project_task_priority_default' => 'Средний',
+    'project_task_priority_default' => 'Medium',
 
     'project_task_status_options' => array(
         'Not Started' => 'Проект',
-        'In Progress' => 'В процессе...',
-        'Completed' => 'Завершена',
+        'In Progress' => 'В процессе исполнения',
+        'Completed' => 'Completed',
         'Pending Input' => 'Ожидание решения',
-        'Deferred' => 'Отложена',
+        'Deferred' => 'Deferred',
     ),
     'project_task_utilization_options' => array(
         '0' => 'Нет установленных пакетов',
@@ -416,13 +416,13 @@ $app_list_strings = array(
     ),
 
     'project_status_dom' => array(
-        'Draft' => 'Набросок',
+        'Draft' => 'Черновик',
         'In Review' => 'На рассмотрении',
         'Underway' => 'Реализуется',
         'On_Hold' => 'Приостановлен',
-        'Completed' => 'Завершена',
+        'Completed' => 'Completed',
     ),
-    'project_status_default' => 'Набросок',
+    'project_status_default' => 'Черновик',
 
     'project_duration_units_dom' => array(
         'Days' => 'дней',
@@ -431,8 +431,8 @@ $app_list_strings = array(
 
     'activity_status_type_dom' => array(
         '' => '--не выбрано--',
-        'active' => 'Активен',
-        'inactive' => 'Не активна',
+        'active' => 'Active',
+        'inactive' => 'Неактивен',
     ),
 
     // Note:  do not translate record_type_default_key
@@ -446,18 +446,18 @@ $app_list_strings = array(
         'Leads' => 'Предварит. контакт',
         'Contacts' => 'Контакт', // cn (11/22/2005) added to support Emails
 
-        'Bugs' => 'Ошибка',
+        'Bugs' => 'Bug',
         'Project' => 'Проект',
 
         'Prospects' => 'Адресат',
-        'ProjectTask' => 'Проектная задача',
+        'ProjectTask' => 'Project Task',
 
         'Tasks' => 'Задача',
 
         'AOS_Contracts' => 'Договор',
         'AOS_Invoices' => 'Счёт',
         'AOS_Quotes' => 'Предложение',
-        'AOS_Products' => 'Товар',
+        'AOS_Products' => 'Продукция',
 
     ),
 
@@ -465,24 +465,24 @@ $app_list_strings = array(
         'Accounts' => 'Контрагент',
         'Contacts' => 'Контакт',
         'Opportunities' => 'Сделка',
-        'Campaigns' => 'Маркет. кампания',
+        'Campaigns' => 'Промоакция',
         'Tasks' => 'Задача',
-        'Emails' => 'Отправить E-mail',
+        'Emails' => 'E-mail',
 
-        'Bugs' => 'Ошибка',
+        'Bugs' => 'Bug',
         'Project' => 'Проект',
-        'ProjectTask' => 'Проектная задача',
+        'ProjectTask' => 'Project Task',
         'Prospects' => 'Адресат',
         'Cases' => 'Обращение',
         'Leads' => 'Предварит. контакт',
 
         'Meetings' => 'Встреча',
-        'Calls' => 'Звонок',
+        'Calls' => 'Call',
 
         'AOS_Contracts' => 'Договор',
         'AOS_Invoices' => 'Счёт',
         'AOS_Quotes' => 'Предложение',
-        'AOS_Products' => 'Товар',
+        'AOS_Products' => 'Продукция',
     ),
 
     'parent_type_display' => array(
@@ -491,19 +491,19 @@ $app_list_strings = array(
         'Tasks' => 'Задача',
         'Opportunities' => 'Сделка',
 
-        'Bugs' => 'Ошибка',
+        'Bugs' => 'Bug',
         'Cases' => 'Обращение',
         'Leads' => 'Предварит. контакт',
 
         'Project' => 'Проект',
-        'ProjectTask' => 'Проектная задача',
+        'ProjectTask' => 'Project Task',
 
         'Prospects' => 'Адресат',
 
         'AOS_Contracts' => 'Договор',
         'AOS_Invoices' => 'Счёт',
         'AOS_Quotes' => 'Предложение',
-        'AOS_Products' => 'Товар',
+        'AOS_Products' => 'Продукция',
 
     ),
     'parent_line_items' => array(
@@ -511,12 +511,12 @@ $app_list_strings = array(
         'AOS_Invoices' => 'Счета',
         'AOS_Contracts' => 'Договоры',
     ),
-    'issue_priority_default_key' => 'Средний',
+    'issue_priority_default_key' => 'Medium',
     'issue_priority_dom' => array(
         'Urgent' => 'Неотложный',
-        'High' => 'Высокий',
-        'Medium' => 'Средний',
-        'Low' => 'Низкий',
+        'High' => 'High',
+        'Medium' => 'Medium',
+        'Low' => 'Low',
     ),
     'issue_resolution_default_key' => '',
     'issue_resolution_dom' => array(
@@ -524,25 +524,25 @@ $app_list_strings = array(
         'Accepted' => 'Принято',
         'Duplicate' => 'Дублировать',
         'Closed' => 'Закрыто',
-        'Out of Date' => 'Устарело',
-        'Invalid' => 'Параметры не настроены',
+        'Out of Date' => 'Out of Date',
+        'Invalid' => 'Недействительно',
     ),
 
     'issue_status_default_key' => 'Новый',
     'issue_status_dom' => array(
         'New' => 'Новый',
-        'Assigned' => 'Назначено',
+        'Assigned' => 'Назначенный',
         'Closed' => 'Закрыто',
         'Pending' => 'Ожидание решения',
         'Rejected' => 'Отклонённое',
     ),
 
-    'bug_priority_default_key' => 'Средний',
+    'bug_priority_default_key' => 'Medium',
     'bug_priority_dom' => array(
-        'Urgent' => 'Неотложный',
-        'High' => 'Высокий',
-        'Medium' => 'Средний',
-        'Low' => 'Низкий',
+        'Urgent' => 'Urgent',
+        'High' => 'High',
+        'Medium' => 'Medium',
+        'Low' => 'Low',
     ),
     'bug_resolution_default_key' => '',
     'bug_resolution_dom' => array(
@@ -550,26 +550,26 @@ $app_list_strings = array(
         'Accepted' => 'Принято',
         'Duplicate' => 'Дублировать',
         'Fixed' => 'Исправлено',
-        'Out of Date' => 'Устарело',
-        'Invalid' => 'Параметры не настроены',
+        'Out of Date' => 'Out of Date',
+        'Invalid' => 'Недействительно',
         'Later' => 'Отложено',
     ),
     'bug_status_default_key' => 'Новый',
     'bug_status_dom' => array(
         'New' => 'Новый',
-        'Assigned' => 'Назначено',
+        'Assigned' => 'Назначенный',
         'Closed' => 'Закрыто',
         'Pending' => 'Ожидание решения',
         'Rejected' => 'Отклонённое',
     ),
-    'bug_type_default_key' => 'Ошибка',
+    'bug_type_default_key' => 'Bug',
     'bug_type_dom' => array(
         'Defect' => 'Ошибка',
         'Feature' => 'Особенность',
     ),
     'case_type_dom' => array(
         'Administration' => 'Администрирование',
-        'Product' => 'Товар',
+        'Product' => 'Продукция',
         'User' => 'Пользователь',
     ),
 
@@ -579,7 +579,7 @@ $app_list_strings = array(
         'Internal' => 'Внутренний',
         'Forum' => 'Форум',
         'Web' => 'Веб',
-        'InboundEmail' => 'Отправить E-mail',
+        'InboundEmail' => 'E-mail',
     ),
 
     'product_category_default_key' => '',
@@ -588,28 +588,28 @@ $app_list_strings = array(
         'Accounts' => 'Контрагенты',
         'Activities' => 'Мероприятия',
         'Bugs' => 'Ошибки',
-        'Calendar' => 'Календарь',
+        'Calendar' => 'Calendar',
         'Calls' => 'Звонки',
         'Campaigns' => 'Маркет. кампании',
         'Cases' => 'Обращения',
         'Contacts' => 'Контакты',
-        'Currencies' => 'Валюта',
-        'Dashboard' => 'Диаграммы',
-        'Documents' => 'Документы',
+        'Currencies' => 'Currencies',
+        'Dashboard' => 'Dashboard',
+        'Documents' => 'Documents',
         'Emails' => 'E-mail',
         'Feeds' => 'RSS-ленты',
         'Forecasts' => 'Прогнозы',
         'Help' => 'Помощь',
         'Home' => 'Главная',
-        'Leads' => 'Предварительные контакты',
+        'Leads' => 'Предварит. контакты',
         'Meetings' => 'Встречи',
-        'Notes' => 'Описание',
+        'Notes' => 'Заметки',
         'Opportunities' => 'Сделки',
         'Outlook Plugin' => 'Outlook-плагин',
         'Projects' => 'Проекты',
         'Quotes' => 'Предложения',
-        'Releases' => 'Версии',
-        'RSS' => 'RSS-ленты',
+        'Releases' => 'Releases',
+        'RSS' => 'RSS',
         'Studio' => 'Студия',
         'Upgrade' => 'Обновление',
         'Users' => 'Пользователи',
@@ -618,8 +618,8 @@ $app_list_strings = array(
     'campaign_status_dom' => array(
         '' => '',
         'Planning' => 'Планируется',
-        'Active' => 'Активен',
-        'Inactive' => 'Не активна',
+        'Active' => 'Active',
+        'Inactive' => 'Неактивен',
         'Complete' => 'Готово',
         //'In Queue' => 'In Queue',
         //'Sending' => 'Sending',
@@ -628,9 +628,9 @@ $app_list_strings = array(
         '' => '',
         'Telesales' => 'Продажи по телефону',
         'Mail' => 'Почтовая рассылка',
-        'Email' => 'Отправить E-mail',
+        'Email' => 'Рассылка E-mail',
         'Print' => 'Печатать...',
-        'Web' => 'Веб',
+        'Web' => 'Web',
         'Radio' => 'Радио',
         'Television' => 'Телевидение',
         'NewsLetter' => 'Информационный бюллетень',
@@ -726,24 +726,24 @@ $app_list_strings = array(
 
     'dom_external_oauth_connection_types' => [
         'personal' => 'Персональная',
-        'group' => 'Группировка',
+        'group' => 'Групповая',
     ],
 
     'dom_external_oauth_provider_types' => [
         'personal' => 'Персональная',
-        'group' => 'Группировка',
+        'group' => 'Групповая',
     ],
 
     'dom_outbound_email_account_types' => [
         'user' => 'Персональная',
-        'group' => 'Группировка',
+        'group' => 'Групповая',
         'system' => 'Система',
         'system-override' => 'System Override',
     ],
 
     'dom_inbound_email_account_status' => [
-        'Active' => 'Активен',
-        'Inactive' => 'Не активна',
+        'Active' => 'Active',
+        'Inactive' => 'Неактивен',
     ],
 
     'dom_email_body_filtering_option' => [
@@ -754,9 +754,9 @@ $app_list_strings = array(
     'dom_email_types' => array(
         'out' => 'Отправлено',
         'archived' => 'Архив',
-        'draft' => 'Набросок',
-        'inbound' => 'Входящий',
-        'campaign' => 'Маркет. кампания',
+        'draft' => 'Черновик',
+        'inbound' => 'Inbound',
+        'campaign' => 'Промоакция',
     ),
     'dom_email_status' => array(
         'archived' => 'Архив',
@@ -764,7 +764,7 @@ $app_list_strings = array(
         'draft' => 'Черновик',
         'read' => 'Прочитано',
         'replied' => 'Дан ответ',
-        'sent' => 'Отправлено',
+        'sent' => 'Sent',
         'send_error' => 'Ошибка отправки',
         'unread' => 'Не прочитано',
     ),
@@ -777,7 +777,7 @@ $app_list_strings = array(
         'imap' => 'IMAP',
     ),
     'dom_mailbox_type' => array(/*''           => '--None Specified--',*/
-        'pick' => '--не выбрано--',
+        'pick' => 'Нет',
         'createcase' => 'Создать обращение',
         'bounce' => 'Обработка возврата',
     ),
@@ -825,25 +825,25 @@ $app_list_strings = array(
     'schedulers_times_dom' => array(
         'not run' => 'Время запуска прошло, не выполняем.',
         'ready' => 'Готово',
-        'in progress' => 'В процессе...',
+        'in progress' => 'В процессе исполнения',
         'failed' => 'Неудачно',
-        'completed' => 'Завершена',
+        'completed' => 'Completed',
         'no curl' => 'Не запускалось: cURL не доступен',
     ),
 
     'scheduler_status_dom' => array(
-        'Active' => 'Активен',
-        'Inactive' => 'Не активна',
+        'Active' => 'Active',
+        'Inactive' => 'Неактивен',
     ),
 
     'scheduler_period_dom' => array(
         'min' => 'минут',
-        'hour' => 'часов',
+        'hour' => 'Часов',
     ),
     'document_category_dom' => array(
         '' => '',
-        'Marketing' => 'Параметры рассылки',
-        'Knowledege Base' => 'База знаний',
+        'Marketing' => 'Маркетинг',
+        'Knowledege Base' => 'Knowledge Base',
         'Sales' => 'Продажи',
     ),
 
@@ -855,17 +855,17 @@ $app_list_strings = array(
 
     'document_subcategory_dom' => array(
         '' => '',
-        'Marketing Collateral' => 'Маркетинг',
-        'Product Brochures' => 'Брошюры товаров',
-        'FAQ' => 'ЧаВо',
+        'Marketing Collateral' => 'Marketing Collateral',
+        'Product Brochures' => 'Product Brochures',
+        'FAQ' => 'FAQ',
     ),
 
     'document_status_dom' => array(
-        'Active' => 'Активен',
-        'Draft' => 'Набросок',
-        'FAQ' => 'ЧаВо',
-        'Expired' => 'Просрочен',
-        'Under Review' => 'На рассмотрении',
+        'Active' => 'Active',
+        'Draft' => 'Черновик',
+        'FAQ' => 'FAQ',
+        'Expired' => 'Expired',
+        'Under Review' => 'Under Review',
         'Pending' => 'Ожидание решения',
     ),
     'document_template_type_dom' => array(
@@ -883,7 +883,7 @@ $app_list_strings = array(
     'dom_meeting_accept_status' => array(
         'accept' => 'Принято',
         'decline' => 'Отклонено',
-        'tentative' => 'Под вопросом',
+        'tentative' => 'Tentative',
         'none' => 'Нет',
     ),
     'duration_intervals' => array(
@@ -893,10 +893,10 @@ $app_list_strings = array(
         '45' => '45',
     ),
     'repeat_type_dom' => array(
-        '' => 'Нет',
+        '' => '--не выбрано--',
         'Daily' => 'Ежедневно',
-        'Weekly' => 'Неделям',
-        'Monthly' => 'Месяцам',
+        'Weekly' => 'Еженедельно',
+        'Monthly' => 'Ежемесячно',
         'Yearly' => 'Ежегодно',
     ),
 
@@ -909,7 +909,7 @@ $app_list_strings = array(
     ),
 
     'duration_dom' => array(
-        '' => 'Нет',
+        '' => '--не выбрано--',
         '900' => '15 минут',
         '1800' => '30 минут',
         '2700' => '45 минут',
@@ -942,8 +942,8 @@ $app_list_strings = array(
     ),
     'email_marketing_status_dom' => array(
         '' => '',
-        'active' => 'Активен',
-        'inactive' => 'Не активна',
+        'active' => 'Active',
+        'inactive' => 'Неактивен',
     ),
 
     'campainglog_activity_type_dom' => array(
@@ -964,7 +964,7 @@ $app_list_strings = array(
         'Contacts' => 'Контакты',
         'Users' => 'Пользователи',
         'Prospects' => 'Адресаты',
-        'Leads' => 'Предварительные контакты',
+        'Leads' => 'Предварит. контакты',
         'Accounts' => 'Контрагенты',
     ),
     'merge_operators_dom' => array(
@@ -988,15 +988,15 @@ $app_list_strings = array(
     ),
 
     'projects_priority_options' => array(
-        'high' => 'Высокий',
-        'medium' => 'Средний',
-        'low' => 'Низкий',
+        'high' => 'High',
+        'medium' => 'Medium',
+        'low' => 'Low',
     ),
 
     'projects_status_options' => array(
         'notstarted' => 'Проект',
-        'inprogress' => 'В процессе...',
-        'completed' => 'Завершена',
+        'inprogress' => 'В процессе исполнения',
+        'completed' => 'Completed',
     ),
     // strings to pass to Flash charts
     'chart_strings' => array(
@@ -1015,8 +1015,8 @@ $app_list_strings = array(
         'pieWedgeName' => 'секции',
     ),
     'release_status_dom' => array(
-        'Active' => 'Активен',
-        'Inactive' => 'Не активна',
+        'Active' => 'Active',
+        'Inactive' => 'Неактивен',
     ),
     'email_settings_for_ssl' => array(
         '0' => '',
@@ -1026,7 +1026,7 @@ $app_list_strings = array(
     'import_enclosure_options' => array(
         '\'' => 'Одинарная кавычка (&#39;)',
         '"' => 'Двойная кавычка (&#34;)',
-        '' => 'Нет',
+        '' => '--не выбрано--',
         'other' => 'Другое:',
     ),
     'import_delimeter_options' => array(
@@ -1036,7 +1036,7 @@ $app_list_strings = array(
         '.' => '.',
         ':' => ':',
         '|' => '|',
-        'other' => 'Другое:',
+        'other' => 'Other:',
     ),
     'link_target_dom' => array(
         '_blank' => 'Новой странице',
@@ -1052,11 +1052,11 @@ $app_list_strings = array(
     ),
     'dashlet_auto_refresh_options_admin' => array(
         '-1' => 'Никогда',
-        '30' => 'Каждые 30 секунд',
-        '60' => 'Каждую минуту',
-        '180' => 'Каждые 3 минуты',
-        '300' => 'Каждые 5 минут',
-        '600' => 'Каждые 10 минут',
+        '30' => 'Every 30 seconds',
+        '60' => 'Every 1 minute',
+        '180' => 'Every 3 minutes',
+        '300' => 'Every 5 minutes',
+        '600' => 'Every 10 minutes',
     ),
     'date_range_search_dom' => array(
         '=' => 'Равно',
@@ -1076,13 +1076,13 @@ $app_list_strings = array(
         'between' => 'Между',
     ),
     'numeric_range_search_dom' => array(
-        '=' => 'Равно',
+        '=' => 'Equals',
         'not_equal' => 'Не равно',
         'greater_than' => 'Больше',
         'greater_than_equals' => 'Больше или равно',
         'less_than' => 'Меньше',
         'less_than_equals' => 'Меньше или равно',
-        'between' => 'Между',
+        'between' => 'Is Between',
     ),
     'lead_conv_activity_opt' => array(
         'copy' => 'Копировать',
@@ -1105,8 +1105,8 @@ $app_strings = array(
     'LBL_TOUR_TAKE_TOUR' => 'Начать знакомство с системой',
     'LBL_MOREDETAIL' => 'Подробнее' /*for 508 compliance fix*/,
     'LBL_EDIT_INLINE' => 'Редактирование в тексте' /*for 508 compliance fix*/,
-    'LBL_VIEW_INLINE' => 'Просмотр' /*for 508 compliance fix*/,
-    'LBL_BASIC_SEARCH' => 'Фильтры' /*for 508 compliance fix*/,
+    'LBL_VIEW_INLINE' => 'Отображать' /*for 508 compliance fix*/,
+    'LBL_BASIC_SEARCH' => 'Фильтр' /*for 508 compliance fix*/,
     'LBL_Blank' => ' ' /*for 508 compliance fix*/,
     'LBL_ID_FF_ADD' => 'Добавить' /*for 508 compliance fix*/,
     'LBL_ID_FF_ADD_EMAIL' => 'Добавить адрес эл. почты' /*for 508 compliance fix*/,
@@ -1121,11 +1121,11 @@ $app_strings = array(
     'LBL_ADD' => 'Добавить' /*for 508 compliance fix*/,
     'LBL_COMPANY_LOGO' => 'Логотип' /*for 508 compliance fix*/,
     'LBL_CONNECTORS_POPUPS' => 'Подключения',
-    'LBL_CLOSEINLINE' => 'Закрыть',
-    'LBL_VIEWINLINE' => 'Просмотр',
+    'LBL_CLOSEINLINE' => 'Закрытие',
+    'LBL_VIEWINLINE' => 'Отображать',
     'LBL_INFOINLINE' => 'Детали',
     'LBL_PRINT' => 'Печатать...',
-    'LBL_HELP' => 'Помощь',
+    'LBL_HELP' => 'Help',
     'LBL_ID_FF_SELECT' => 'Обзор',
     'DEFAULT' => 'ОСНОВНОЙ',
     'LBL_SORT' => 'Сортировка',
@@ -1142,13 +1142,13 @@ $app_strings = array(
     'NTC_OVERWRITE_ADDRESS_PHONE_CONFIRM' => 'Поля с адресными и телефонными данными текущего контрагента уже содержат значения. Для перезаписи  существующих данных данными выбранного контрагента нажмите кнопку "OK". Для сохранения текущих значений нажмите кнопку "Отмена".',
     'LBL_DROP_HERE' => '[Переместить сюда]',
     'LBL_EMAIL_ACCOUNTS_GMAIL_DEFAULTS' => 'Установить параметры Gmail&#153;',
-    'LBL_EMAIL_ACCOUNTS_NAME' => 'Имя',
+    'LBL_EMAIL_ACCOUNTS_NAME' => 'Название',
     'LBL_EMAIL_ACCOUNTS_OUTBOUND' => 'Параметры сервера исходящей почты',
     'LBL_EMAIL_ACCOUNTS_SMTPPASS' => 'Пароль',
     'LBL_EMAIL_ACCOUNTS_SMTPPORT' => 'SMTP-порт',
     'LBL_EMAIL_ACCOUNTS_SMTPSERVER' => 'Сервер исходящей почты',
     'LBL_EMAIL_ACCOUNTS_SMTPUSER' => 'SMTP-логин',
-    'LBL_EMAIL_ACCOUNTS_SMTPDEFAULT' => 'По умолчанию',
+    'LBL_EMAIL_ACCOUNTS_SMTPDEFAULT' => 'Стандартная',
     'LBL_EMAIL_WARNING_MISSING_USER_CREDS' => 'Внимание: отсутствует логин и пароль для сервера исходящей почты.',
     'LBL_OAUTH_CONNECTION_NOT_SET' => 'Пожалуйста, установите внешнее соединение OAuth.',
     'LBL_EMAIL_PASSWORD_NOT_SET' => 'Внимание: Пароль не был установлен.',
@@ -1162,22 +1162,22 @@ $app_strings = array(
     'LBL_EMAIL_ADDRESS_BOOK_ADD_CC' => 'Копия:',
     'LBL_EMAIL_ADDRESS_BOOK_ADD_BCC' => 'Скрытая копия:',
     'LBL_EMAIL_ADDRESS_BOOK_ADRRESS_TYPE' => 'Кому/Копия/Скрытая копия',
-    'LBL_EMAIL_ADDRESS_BOOK_EMAIL_ADDR' => 'Адрес E-mail',
-    'LBL_EMAIL_ADDRESS_BOOK_FILTER' => 'Фильтры',
-    'LBL_EMAIL_ADDRESS_BOOK_NAME' => 'Имя',
+    'LBL_EMAIL_ADDRESS_BOOK_EMAIL_ADDR' => 'E-mail',
+    'LBL_EMAIL_ADDRESS_BOOK_FILTER' => 'Фильтр',
+    'LBL_EMAIL_ADDRESS_BOOK_NAME' => 'Название',
     'LBL_EMAIL_ADDRESS_BOOK_NOT_FOUND' => 'Адреса не обнаружены',
     'LBL_EMAIL_ADDRESS_BOOK_SAVE_AND_ADD' => 'Сохранить и добавить в адресную книгу',
     'LBL_EMAIL_ADDRESS_BOOK_SELECT_TITLE' => 'Выбор получателей',
     'LBL_EMAIL_ADDRESS_BOOK_TITLE' => 'Адресная книга',
     'LBL_EMAIL_REMOVE_SMTP_WARNING' => 'Внимание! Удаляемые настройки сервера исходящей почты связаны с существующей учётной записью. Все равно продолжить?',
-    'LBL_EMAIL_ADDRESSES' => 'Отправить E-mail',
-    'LBL_EMAIL_ADDRESS_PRIMARY' => 'Адрес E-mail',
+    'LBL_EMAIL_ADDRESSES' => 'E-mail',
+    'LBL_EMAIL_ADDRESS_PRIMARY' => 'Адрес электронной почты',
     'LBL_EMAIL_ADDRESS_OPT_IN' => 'Вы подтвердили, что ваш адрес электронной почты был выбран: ',
     'LBL_EMAIL_ADDRESS_OPT_IN_ERR' => 'Невозможно подтвердить адрес электронной почты',
     'LBL_EMAIL_ARCHIVE_TO_SUITE' => 'Импорт в SuiteCRM',
     'LBL_EMAIL_ASSIGNMENT' => 'Назначение',
     'LBL_EMAIL_ATTACH_FILE_TO_EMAIL' => 'Добавить вложение',
-    'LBL_EMAIL_ATTACHMENT' => 'Добавить вложение',
+    'LBL_EMAIL_ATTACHMENT' => 'Attach',
     'LBL_EMAIL_ATTACHMENTS' => 'Вложения',
     'LBL_EMAIL_ATTACHMENTS2' => 'Добавить документы SuiteCRM',
     'LBL_EMAIL_ATTACHMENTS3' => 'Вложения шаблона',
@@ -1190,10 +1190,10 @@ $app_strings = array(
     'LBL_EMAIL_CHECK' => 'Проверить почту',
     'LBL_EMAIL_CHECKING_NEW' => 'Проверка новых E-mail',
     'LBL_EMAIL_CHECKING_DESC' => 'Пожалуйста, подождите...<br><br>Если это первая проверка почтовой учётной записи, то она может занять некоторое время.',
-    'LBL_EMAIL_CLOSE' => 'Закрыть',
+    'LBL_EMAIL_CLOSE' => 'Закрытие',
     'LBL_EMAIL_COFFEE_BREAK' => 'Обработка почтовых ящиков большого объёма занимает значительное время. Пожалуйста, подождите.',
 
-    'LBL_EMAIL_COMPOSE' => 'Отправить E-mail',
+    'LBL_EMAIL_COMPOSE' => 'E-mail',
     'LBL_EMAIL_COMPOSE_ERR_NO_RECIPIENTS' => 'Письмо не содержит получателей.',
     'LBL_EMAIL_COMPOSE_NO_BODY' => 'Тело письма пустое. Все равно отправить?',
     'LBL_EMAIL_COMPOSE_NO_SUBJECT' => 'Не указана тема письма. Все равно отправить?',
@@ -1210,7 +1210,7 @@ $app_strings = array(
     'LBL_EMAIL_MULT_GROUP_FOLDER_ACCOUNTS_EMPTY' => 'Пусто',
     'LBL_EMAIL_DATE_SENT_BY_SENDER' => 'Отправлено',
     'LBL_EMAIL_DATE_TODAY' => 'Сегодня',
-    'LBL_EMAIL_DELETE' => 'Удаление',
+    'LBL_EMAIL_DELETE' => 'Удалить',
     'LBL_EMAIL_DELETE_CONFIRM' => 'Удалить выбранные сообщения?',
     'LBL_EMAIL_DELETE_SUCCESS' => 'Письма успешно удалены.',
     'LBL_EMAIL_DELETING_MESSAGE' => 'Удаление сообщения',
@@ -1284,7 +1284,7 @@ $app_strings = array(
     'LBL_EMAIL_DOWNLOAD_STATUS' => 'Загружено [[count]] из [[total]] писем',
     'LBL_EMAIL_FROM' => 'От',
     'LBL_EMAIL_GROUP' => 'Групповая',
-    'LBL_EMAIL_UPPER_CASE_GROUP' => 'Группировка',
+    'LBL_EMAIL_UPPER_CASE_GROUP' => 'Групповая',
     'LBL_EMAIL_HOME_FOLDER' => 'Главная',
     'LBL_EMAIL_IE_DELETE' => 'Удаление учётной записи',
     'LBL_EMAIL_IE_DELETE_SIGNATURE' => 'Удаление подписи',
@@ -1294,7 +1294,7 @@ $app_strings = array(
     'LBL_EMAIL_IMPORTING_EMAIL' => 'Импортирование E-mail',
     'LBL_EMAIL_IMPORT_EMAIL' => 'Импорт писем в SuiteCRM',
     'LBL_EMAIL_IMPORT_SETTINGS' => 'Параметры импорта',
-    'LBL_EMAIL_INVALID' => 'Параметры не настроены',
+    'LBL_EMAIL_INVALID' => 'Недействительно',
     'LBL_EMAIL_LOADING' => 'Загрузка ...',
     'LBL_EMAIL_MARK' => 'Пометить',
     'LBL_EMAIL_MARK_FLAGGED' => 'как ВАЖНОЕ',
@@ -1310,7 +1310,7 @@ $app_strings = array(
     'LBL_EMAIL_MENU_SYNCHRONIZE' => 'Синхронизировать',
     'LBL_EMAIL_MENU_CLEAR_CACHE' => 'Очистить кэш',
     'LBL_EMAIL_MENU_REMOVE' => 'Удалить',
-    'LBL_EMAIL_MENU_RENAME_FOLDER' => 'Переименовать папку',
+    'LBL_EMAIL_MENU_RENAME_FOLDER' => 'Rename Folder',
     'LBL_EMAIL_MENU_RENAMING_FOLDER' => 'Переименование папки',
     'LBL_EMAIL_MENU_MAKE_SELECTION' => 'Сделайте необходимый выбор перед выполнением данной операции',
 
@@ -1337,15 +1337,15 @@ $app_strings = array(
     'LBL_EMAIL_OPEN_ALL' => 'Открыть в отдельной вкладке',
     'LBL_EMAIL_OPTIONS' => 'Параметры',
     'LBL_EMAIL_QUICK_COMPOSE' => 'Быстрое создание E-mail',
-    'LBL_EMAIL_OPT_OUT' => 'Адресаты, отписавшиеся от рассылки',
+    'LBL_EMAIL_OPT_OUT' => 'Не писать',
     'LBL_EMAIL_OPT_OUT_AND_INVALID' => 'Не писать/Неверный адрес',
     'LBL_EMAIL_PERFORMING_TASK' => 'Выполнение задачи',
     'LBL_EMAIL_PRIMARY' => 'Основной ',
     'LBL_EMAIL_PRINT' => 'Печатать...',
 
-    'LBL_EMAIL_QC_BUGS' => 'Ошибка',
+    'LBL_EMAIL_QC_BUGS' => 'Bug',
     'LBL_EMAIL_QC_CASES' => 'Обращение',
-    'LBL_EMAIL_QC_LEADS' => 'Предварит. контакт',
+    'LBL_EMAIL_QC_LEADS' => 'Предв. контакт',
     'LBL_EMAIL_QC_CONTACTS' => 'Контакт',
     'LBL_EMAIL_QC_TASKS' => 'Задача',
     'LBL_EMAIL_QC_OPPORTUNITIES' => 'Сделка',
@@ -1444,7 +1444,7 @@ $app_strings = array(
     'LBL_EMAIL_TEMPLATE_EDIT_PLAIN_TEXT' => 'Шаблон письма пуст',
     'LBL_EMAIL_TEMPLATES' => 'Выбор шаблона',
     'LBL_EMAIL_TO' => 'Кому:',
-    'LBL_EMAIL_VIEW' => 'Просмотр',
+    'LBL_EMAIL_VIEW' => 'Отображать',
     'LBL_EMAIL_VIEW_HEADERS' => 'Заголовок E-mail',
     'LBL_EMAIL_VIEW_RAW' => 'Исходный текст E-mail',
     'LBL_EMAIL_VIEW_UNSUPPORTED' => 'Данная возможность не поддерживается при использовании POP3.',
@@ -1456,7 +1456,7 @@ $app_strings = array(
     'LBL_EMAIL_IMPORT_SUCCESS' => 'Импорт успешно завершён',
     'LBL_EMAIL_IMPORT_FAIL' => 'Импорт не удался, поскольку сообщение было либо импортировано ранее, либо оно было удалено с сервера',
 
-    'LBL_LINK_NONE' => 'Нет',
+    'LBL_LINK_NONE' => '--не выбрано--',
     'LBL_LINK_ALL' => 'Все',
     'LBL_LINK_RECORDS' => 'Записи',
     'LBL_LINK_SELECT' => 'Обзор',
@@ -1498,7 +1498,7 @@ $app_strings = array(
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Мероприятия',
     'LBL_ACCUMULATED_HISTORY_BUTTON_KEY' => 'И',
     'LBL_ACCUMULATED_HISTORY_BUTTON_LABEL' => 'Краткий отчёт',
-    'LBL_ACCUMULATED_HISTORY_BUTTON_TITLE' => 'Краткий отчёт',
+    'LBL_ACCUMULATED_HISTORY_BUTTON_TITLE' => 'View Summary',
     'LBL_ADD_BUTTON' => 'Добавить',
     'LBL_ADD_DOCUMENT' => 'Добавить документ',
     'LBL_ADD_TO_PROSPECT_LIST_BUTTON_KEY' => 'L',
@@ -1511,7 +1511,7 @@ $app_strings = array(
     'LBL_ARCHIVE' => 'Архивация',
     'LBL_ASSIGNED_TO_USER' => 'Назначить пользователю',
     'LBL_ASSIGNED_TO' => 'Ответственное лицо:',
-    'LBL_BACK' => 'Назад',
+    'LBL_BACK' => 'Back',
     'LBL_BILLING_ADDRESS' => 'Расчётный адрес',
     'LBL_QUICK_CREATE' => 'Создать ',
     'LBL_BROWSER_TITLE' => 'SuiteCRM - Open Source CRM',
@@ -1525,18 +1525,18 @@ $app_strings = array(
     'LBL_CHANGE_PASSWORD' => 'Изменить пароль',
     'LBL_CHARSET' => 'utf-8',
     'LBL_CHECKALL' => 'Проверить все',
-    'LBL_CITY' => 'Город',
+    'LBL_CITY' => 'City',
     'LBL_CLEAR_BUTTON_LABEL' => 'Очистить',
     'LBL_CLEAR_BUTTON_TITLE' => 'Очистить',
     'LBL_CLEARALL' => 'Очистить все',
-    'LBL_CLOSE_BUTTON_TITLE' => 'Закрыть',
+    'LBL_CLOSE_BUTTON_TITLE' => 'Закрытие',
     'LBL_CLOSE_AND_CREATE_BUTTON_LABEL' => 'Закрыть и создать копию',
-    'LBL_CLOSE_AND_CREATE_BUTTON_TITLE' => 'Закрыть и создать копию',
+    'LBL_CLOSE_AND_CREATE_BUTTON_TITLE' => 'Close and Create New',
     'LBL_CLOSE_AND_CREATE_BUTTON_KEY' => 'C',
     'LBL_OPEN_ITEMS' => 'Open Items:',
     'LBL_COMPOSE_EMAIL_BUTTON_KEY' => 'L',
     'LBL_COMPOSE_EMAIL_BUTTON_LABEL' => 'Создать E-mail',
-    'LBL_COMPOSE_EMAIL_BUTTON_TITLE' => 'Создать E-mail',
+    'LBL_COMPOSE_EMAIL_BUTTON_TITLE' => 'Новое письмо',
     'LBL_SEARCH_DROPDOWN_YES' => 'Да',
     'LBL_SEARCH_DROPDOWN_NO' => 'Нет',
     'LBL_CONTACT_LIST' => 'Список контактов',
@@ -1544,24 +1544,24 @@ $app_strings = array(
     'LBL_CONTACTS' => 'Контакты',
     'LBL_CONTRACT' => 'Договор',
     'LBL_CONTRACTS' => 'Договоры',
-    'LBL_COUNTRY' => 'Страна:',
+    'LBL_COUNTRY' => 'Country:',
     'LBL_CREATE_BUTTON_LABEL' => 'Создать',
     'LBL_CREATED_BY_USER' => 'Создано',
     'LBL_CREATED_USER' => 'Создано',
     'LBL_CREATED' => 'Создано',
     'LBL_CURRENT_USER_FILTER' => 'My Items:',
-    'LBL_CURRENCY' => 'Валюта:',
-    'LBL_DOCUMENTS' => 'Документы',
-    'LBL_DATE_ENTERED' => 'Дата создания:',
-    'LBL_DATE_MODIFIED' => 'Дата изменения:',
-    'LBL_EDIT_BUTTON' => 'Правка',
+    'LBL_CURRENCY' => 'Currency:',
+    'LBL_DOCUMENTS' => 'Documents',
+    'LBL_DATE_ENTERED' => 'Date Created:',
+    'LBL_DATE_MODIFIED' => 'Date Modified:',
+    'LBL_EDIT_BUTTON' => 'Редактировать',
     'LBL_DUPLICATE_BUTTON' => 'Дублировать',
-    'LBL_DELETE_BUTTON' => 'Удаление',
-    'LBL_DELETE' => 'Удаление',
+    'LBL_DELETE_BUTTON' => 'Удалить',
+    'LBL_DELETE' => 'Удалить',
     'LBL_DELETED' => 'Удалено',
     'LBL_DIRECT_REPORTS' => 'Подчинённые',
-    'LBL_DONE_BUTTON_LABEL' => 'Готово',
-    'LBL_DONE_BUTTON_TITLE' => 'Готово',
+    'LBL_DONE_BUTTON_LABEL' => 'Done',
+    'LBL_DONE_BUTTON_TITLE' => 'Done',
     'LBL_FAVORITES' => 'Избранное',
     'LBL_VCARD' => 'Визитная карточка (vCard)',
     'LBL_EMPTY_VCARD' => 'Пожалуйста, укажите файл vCard',
@@ -1570,12 +1570,12 @@ $app_strings = array(
     'LBL_VCARD_ERROR_DEFAULT' => 'При загрузке файла vCard произошла ошибка. Подробная информация содержится в файле suitecrm.log.',
     'LBL_IMPORT_VCARD' => 'Импорт из vCard:',
     'LBL_IMPORT_VCARD_BUTTON_LABEL' => 'Импортирование vCard',
-    'LBL_IMPORT_VCARD_BUTTON_TITLE' => 'Импортирование vCard',
-    'LBL_VIEW_BUTTON' => 'Просмотр',
+    'LBL_IMPORT_VCARD_BUTTON_TITLE' => 'Import vCard',
+    'LBL_VIEW_BUTTON' => 'Отображать',
     'LBL_EMAIL_PDF_BUTTON_LABEL' => 'Отправить в формате PDF',
-    'LBL_EMAIL_PDF_BUTTON_TITLE' => 'Отправить в формате PDF',
+    'LBL_EMAIL_PDF_BUTTON_TITLE' => 'Email as PDF',
     'LBL_EMAILS' => 'E-mail',
-    'LBL_EMPLOYEES' => 'Сотрудники',
+    'LBL_EMPLOYEES' => 'Employees',
     'LBL_ENTER_DATE' => 'Укажите дату',
     'LBL_EXPORT' => 'Экспорт',
     'LBL_FAVORITES_FILTER' => 'My Favorites:',
@@ -1587,7 +1587,7 @@ $app_strings = array(
     'LBL_LAST_VIEWED' => 'Последние просмотры',
     'LBL_LEADS' => 'Предварительные контакты',
     'LBL_LESS' => 'меньше',
-    'LBL_CAMPAIGN' => 'Маркетинговая кампания:',
+    'LBL_CAMPAIGN' => 'Campaign:',
     'LBL_CAMPAIGNS' => 'Маркет. кампании',
     'LBL_CAMPAIGNLOG' => 'Журнал маркет. кампании',
     'LBL_CAMPAIGN_CONTACT' => 'Маркет. кампании',
@@ -1596,13 +1596,13 @@ $app_strings = array(
     'LBL_THEME' => 'Тема:',
     'LBL_FOUND_IN_RELEASE' => 'Обнаружено в версии',
     'LBL_FIXED_IN_RELEASE' => 'Исправлено в версии',
-    'LBL_LIST_ACCOUNT_NAME' => 'Контрагент',
+    'LBL_LIST_ACCOUNT_NAME' => 'Account Name',
     'LBL_LIST_ASSIGNED_USER' => 'Пользователь',
     'LBL_LIST_CONTACT_NAME' => 'Контактное лицо',
     'LBL_LIST_CONTACT_ROLE' => 'Контактная роль',
     'LBL_LIST_DATE_ENTERED' => 'Дата создания',
-    'LBL_LIST_EMAIL' => 'Отправить E-mail',
-    'LBL_LIST_NAME' => 'Имя',
+    'LBL_LIST_EMAIL' => 'E-mail',
+    'LBL_LIST_NAME' => 'Название',
     'LBL_LIST_OF' => 'из',
     'LBL_LIST_PHONE' => 'Тел.',
     'LBL_LIST_RELATED_TO' => 'Относится к',
@@ -1614,13 +1614,13 @@ $app_strings = array(
 
     'LBL_LOCALE_NAME_EXAMPLE_FIRST' => 'Афиноген',
     'LBL_LOCALE_NAME_EXAMPLE_LAST' => 'Пупкин',
-    'LBL_LOCALE_NAME_EXAMPLE_SALUTATION' => 'Гн.',
+    'LBL_LOCALE_NAME_EXAMPLE_SALUTATION' => 'доц.',
     'LBL_LOCALE_NAME_EXAMPLE_TITLE' => 'Обращение',
-    'LBL_CANCEL' => 'Отмена',
+    'LBL_CANCEL' => 'Отказаться',
     'LBL_VERIFY' => 'Проверить',
     'LBL_RESEND' => 'Отправить заново',
     'LBL_PROFILE' => 'Профиль',
-    'LBL_MAILMERGE' => 'Слияние',
+    'LBL_MAILMERGE' => 'Mail Merge',
     'LBL_MASS_UPDATE' => 'Массовое обновление',
     'LBL_NO_MASS_UPDATE_FIELDS_AVAILABLE' => 'Не найдены обновляемые поля',
     'LBL_OPT_OUT_FLAG_PRIMARY' => 'Не писать на E-mail:',
@@ -1632,16 +1632,16 @@ $app_strings = array(
     'LBL_MODIFIED_BY_USER' => 'Изменено',
     'LBL_MODIFIED_USER' => 'Изменено',
     'LBL_MODIFIED' => 'Изменено',
-    'LBL_MODIFIED_NAME' => 'Изменено (Имя)',
+    'LBL_MODIFIED_NAME' => 'Изменено',
     'LBL_MORE' => 'Дополнительные поля>>',
     'LBL_MY_ACCOUNT' => 'Мои настройки',
-    'LBL_NAME' => 'Имя',
+    'LBL_NAME' => 'Название',
     'LBL_NEW_BUTTON_KEY' => 'N',
     'LBL_NEW_BUTTON_LABEL' => 'Создать',
     'LBL_NEW_BUTTON_TITLE' => 'Создать',
-    'LBL_NEXT_BUTTON_LABEL' => 'Вперёд',
+    'LBL_NEXT_BUTTON_LABEL' => 'Далее',
     'LBL_NONE' => '--не выбрано--',
-    'LBL_NOTES' => 'Описание',
+    'LBL_NOTES' => 'Заметки',
     'LBL_OPPORTUNITIES' => 'Сделки',
     'LBL_OPPORTUNITY_NAME' => 'Сделка',
     'LBL_OPPORTUNITY' => 'Сделка',
@@ -1651,13 +1651,13 @@ $app_strings = array(
     'LBL_PANEL_ADVANCED' => 'БОЛЬШЕ ИНФОРМАЦИИ',
     'LBL_PARENT_TYPE' => 'Тип родителя',
     'LBL_PERCENTAGE_SYMBOL' => '%',
-    'LBL_POSTAL_CODE' => 'Индекс:',
+    'LBL_POSTAL_CODE' => 'Postal Code:',
     'LBL_PRIMARY_ADDRESS_CITY' => 'Основной адрес - город:',
-    'LBL_PRIMARY_ADDRESS_COUNTRY' => 'Основной адрес - страна:',
+    'LBL_PRIMARY_ADDRESS_COUNTRY' => 'Primary Address Country:',
     'LBL_PRIMARY_ADDRESS_POSTALCODE' => 'Основной адрес - индекс:',
     'LBL_PRIMARY_ADDRESS_STATE' => 'Основной адрес - область:',
-    'LBL_PRIMARY_ADDRESS_STREET_2' => 'Основной адрес - улица 2:',
-    'LBL_PRIMARY_ADDRESS_STREET_3' => 'Основной адрес - улица 3:',
+    'LBL_PRIMARY_ADDRESS_STREET_2' => 'Primary Address Street 2:',
+    'LBL_PRIMARY_ADDRESS_STREET_3' => 'Primary Address Street 3:',
     'LBL_PRIMARY_ADDRESS_STREET' => 'Основной адрес - улица:',
     'LBL_PRIMARY_ADDRESS' => 'Основной адрес:',
 
@@ -1673,17 +1673,17 @@ $app_strings = array(
     'LBL_REPORTS_TO' => 'Руководитель',
     'LBL_REQUIRED_SYMBOL' => '*',
     'LBL_REQUIRED_TITLE' => 'Поля, обязательные для заполнения',
-    'LBL_EMAIL_DONE_BUTTON_LABEL' => 'Готово',
+    'LBL_EMAIL_DONE_BUTTON_LABEL' => 'Done',
     'LBL_FULL_FORM_BUTTON_KEY' => 'L',
     'LBL_FULL_FORM_BUTTON_LABEL' => 'Показать все поля формы',
-    'LBL_FULL_FORM_BUTTON_TITLE' => 'Показать все поля формы',
+    'LBL_FULL_FORM_BUTTON_TITLE' => 'Full Form',
     'LBL_SAVE_NEW_BUTTON_LABEL' => 'Сохранить и создать новую',
-    'LBL_SAVE_NEW_BUTTON_TITLE' => 'Сохранить и создать новую',
+    'LBL_SAVE_NEW_BUTTON_TITLE' => 'Save & Create New',
     'LBL_SAVE_OBJECT' => 'Сохранить {0}',
     'LBL_SEARCH_BUTTON_KEY' => 'Q',
     'LBL_SEARCH_BUTTON_LABEL' => 'Найти',
     'LBL_SEARCH_BUTTON_TITLE' => 'Найти',
-    'LBL_FILTER' => 'Фильтры',
+    'LBL_FILTER' => 'Фильтр',
     'LBL_SEARCH' => 'Найти',
     'LBL_SEARCH_ALT' => '',
     'LBL_SEARCH_MORE' => 'далее',
@@ -1692,7 +1692,7 @@ $app_strings = array(
     'LBL_SELECT_BUTTON_LABEL' => 'Обзор',
     'LBL_SELECT_BUTTON_TITLE' => 'Обзор',
     'LBL_BROWSE_DOCUMENTS_BUTTON_LABEL' => 'Обзор документов',
-    'LBL_BROWSE_DOCUMENTS_BUTTON_TITLE' => 'Обзор документов',
+    'LBL_BROWSE_DOCUMENTS_BUTTON_TITLE' => 'Browse Documents',
     'LBL_SELECT_CONTACT_BUTTON_KEY' => 'T',
     'LBL_SELECT_CONTACT_BUTTON_LABEL' => 'Выбрать контакт',
     'LBL_SELECT_CONTACT_BUTTON_TITLE' => 'Выбрать контакт',
@@ -1700,7 +1700,7 @@ $app_strings = array(
     'LBL_SELECT_REPORTS_BUTTON_TITLE' => 'Выбрать отчёт',
     'LBL_SELECT_USER_BUTTON_KEY' => 'П',
     'LBL_SELECT_USER_BUTTON_LABEL' => 'Выбрать пользователя',
-    'LBL_SELECT_USER_BUTTON_TITLE' => 'Выбрать пользователя',
+    'LBL_SELECT_USER_BUTTON_TITLE' => 'Select User',
     // Clear buttons take up too many keys, lets default the relate and collection ones to be empty
     'LBL_ACCESSKEY_CLEAR_RELATE_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_RELATE_TITLE' => 'Очистить выделение',
@@ -1716,11 +1716,11 @@ $app_strings = array(
     'LBL_ACCESSKEY_CLEAR_FILE_LABEL' => 'Очистить файл',
 
     'LBL_ACCESSKEY_SELECT_USERS_KEY' => 'П',
-    'LBL_ACCESSKEY_SELECT_USERS_TITLE' => 'Выбрать пользователя',
-    'LBL_ACCESSKEY_SELECT_USERS_LABEL' => 'Выбрать пользователя',
+    'LBL_ACCESSKEY_SELECT_USERS_TITLE' => 'Select User',
+    'LBL_ACCESSKEY_SELECT_USERS_LABEL' => 'Select User',
     'LBL_ACCESSKEY_CLEAR_USERS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_USERS_TITLE' => 'Удалить пользователя',
-    'LBL_ACCESSKEY_CLEAR_USERS_LABEL' => 'Удалить пользователя',
+    'LBL_ACCESSKEY_CLEAR_USERS_LABEL' => 'Clear User',
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_KEY' => 'A',
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_TITLE' => 'Выбор контрагента',
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_LABEL' => 'Выбор контрагента',
@@ -1754,17 +1754,17 @@ $app_strings = array(
     'LBL_SERVER_PEAK_MEMORY_USAGE' => 'Пиковое потребление памяти сервером: {0} ({1})',
     'LBL_SHIPPING_ADDRESS' => 'Отгрузочный адрес',
     'LBL_SHOW' => 'Показать',
-    'LBL_STATE' => 'Состояние:',
+    'LBL_STATE' => 'State:',
     'LBL_STATUS_UPDATED' => 'Ваш статус для этого события был обновлён!',
     'LBL_STATUS' => 'Статус:',
     'LBL_STREET' => 'Улица',
-    'LBL_SUBJECT' => 'Ошибка',
+    'LBL_SUBJECT' => 'Тема',
 
     'LBL_INBOUNDEMAIL_ID' => 'ID входящего E-mail',
 
     'LBL_SCENARIO_SALES' => 'Продажи',
-    'LBL_SCENARIO_MARKETING' => 'Параметры рассылки',
-    'LBL_SCENARIO_FINANCE' => 'Финансы',
+    'LBL_SCENARIO_MARKETING' => 'Маркетинг',
+    'LBL_SCENARIO_FINANCE' => 'Finance',
     'LBL_SCENARIO_SERVICE' => 'Услуги',
     'LBL_SCENARIO_PROJECT' => 'Проекты',
 
@@ -1778,7 +1778,7 @@ $app_strings = array(
     'LBL_TABGROUP_ALL' => 'Все',
     'LBL_TABGROUP_ACTIVITIES' => 'Мероприятия',
     'LBL_TABGROUP_COLLABORATION' => 'Совместная работа',
-    'LBL_TABGROUP_MARKETING' => 'Параметры рассылки',
+    'LBL_TABGROUP_MARKETING' => 'Маркетинг',
     'LBL_TABGROUP_OTHER' => 'Другое',
     'LBL_TABGROUP_SALES' => 'Продажи',
     'LBL_TABGROUP_SUPPORT' => 'Поддержка',
@@ -1787,9 +1787,9 @@ $app_strings = array(
     'LBL_TRACK_EMAIL_BUTTON_LABEL' => 'Отправить E-mail в архив',
     'LBL_TRACK_EMAIL_BUTTON_TITLE' => 'Отправить E-mail в архив',
     'LBL_UNDELETE_BUTTON_LABEL' => 'Восстановить',
-    'LBL_UNDELETE_BUTTON_TITLE' => 'Восстановить',
-    'LBL_UNDELETE_BUTTON' => 'Восстановить',
-    'LBL_UNDELETE' => 'Восстановить',
+    'LBL_UNDELETE_BUTTON_TITLE' => 'Undelete',
+    'LBL_UNDELETE_BUTTON' => 'Undelete',
+    'LBL_UNDELETE' => 'Undelete',
     'LBL_UNSYNC' => 'Рассинхронизация',
     'LBL_UPDATE' => 'Обновить',
     'LBL_USER_LIST' => 'Выбор пользователей',
@@ -1804,17 +1804,17 @@ $app_strings = array(
     'LBL_ADVANCED_SEARCH' => 'Расширенный фильтр',
     'LBL_QUICK_FILTER' => 'Быстрый фильтр',
     'LNK_SEARCH_NONFTS_VIEW_ALL' => 'Отобразить всё',
-    'LNK_CLOSE' => 'Закрыть',
+    'LNK_CLOSE' => 'Закрытие',
     'LBL_MODIFY_CURRENT_FILTER' => 'Выбранный фильтр',
     'LNK_SAVED_VIEWS' => 'Параметры макета',
-    'LNK_DELETE' => 'Удаление',
-    'LNK_EDIT' => 'Правка',
+    'LNK_DELETE' => 'Удалить',
+    'LNK_EDIT' => 'Править',
     'LNK_GET_LATEST' => 'Получить последнюю версию',
     'LNK_GET_LATEST_TOOLTIP' => 'Заменить последней версией',
-    'LNK_HELP' => 'Помощь',
+    'LNK_HELP' => 'Help',
     'LNK_CREATE' => 'Создать',
     'LNK_LIST_END' => 'Прекратить',
-    'LNK_LIST_NEXT' => 'Вперёд',
+    'LNK_LIST_NEXT' => 'Далее',
     'LNK_LIST_PREVIOUS' => 'Пред.',
     'LNK_LIST_RETURN' => 'Вернуться к списку',
     'LNK_LIST_START' => 'Вперёд',
@@ -1831,14 +1831,14 @@ $app_strings = array(
     'NTC_DELETE_CONFIRMATION_MULTIPLE' => 'Вы действительно хотите удалить выбранные(ую) записи(ь)?',
     'NTC_TEMPLATE_IS_USED' => 'Данный шаблон используется как минимум в одной рассылке. Вы действительно хотите его удалить?',
     'NTC_TEMPLATES_IS_USED' => 'Эти шаблоны используются в e-mail маркетинге. Вы уверены, что хотите их удалить?' . PHP_EOL,
-    'NTC_DELETE_CONFIRMATION' => 'Вы действительно хотите удалить эту запись?',
+    'NTC_DELETE_CONFIRMATION' => 'Are you sure you want to delete this record?',
     'NTC_DELETE_CONFIRMATION_NUM' => 'Вы действительно хотите удалить ',
     'NTC_UPDATE_CONFIRMATION_NUM' => 'Вы действительно хотите обновить ',
     'NTC_DELETE_SELECTED_RECORDS' => ' выбранные записи?',
     'NTC_LOGIN_MESSAGE' => 'Пожалуйста, введите Ваш логин и пароль.',
     'NTC_NO_ITEMS_DISPLAY' => 'Нет установленных пакетов',
     'NTC_REMOVE_CONFIRMATION' => 'Вы действительно хотите удалить эту связь? (При удалении связей данные не удаляются)',
-    'NTC_REQUIRED' => 'Поля, обязательные для заполнения',
+    'NTC_REQUIRED' => '-  поля, обязательные для заполнения',
     'NTC_TIME_FORMAT' => '(24:00)',
     'NTC_WELCOME' => 'Добро пожаловать',
     'NTC_YEAR_FORMAT' => '(гггг) ',
@@ -1852,7 +1852,7 @@ $app_strings = array(
     'LBL_MANAGE_SUBSCRIPTIONS' => 'Управление подписками',
     'LBL_MANAGE_SUBSCRIPTIONS_FOR' => 'Управление подписками для ',
     // Ajax status strings
-    'LBL_LOADING' => 'Загрузка ...',
+    'LBL_LOADING' => 'Загрузка...',
     'LBL_SEARCHING' => 'Поиск...',
     'LBL_SAVING_LAYOUT' => 'Сохранение макета...',
     'LBL_SAVED_LAYOUT' => 'Макет сохранён',
@@ -1863,7 +1863,7 @@ $app_strings = array(
     'LBL_SEARCH_CRITERIA' => 'Критерии поиска',
     'LBL_SAVED_VIEWS' => 'Сохраненные представления',
     'LBL_PROCESSING_REQUEST' => 'Добавление...',
-    'LBL_REQUEST_PROCESSED' => 'Готово',
+    'LBL_REQUEST_PROCESSED' => 'Done',
     'LBL_AJAX_FAILURE' => 'Ошибка Ajax',
     'LBL_MERGE_DUPLICATES' => 'Объединить',
     'LBL_SAVED_FILTER_SHORTCUT' => 'Мои фильтры',
@@ -1872,7 +1872,7 @@ $app_strings = array(
     'LBL_LISTVIEW' => 'Форма списка',
     'LBL_EDITVIEW' => 'Форма редактирования',
     'LBL_BILLING_STREET' => 'Улица:',
-    'LBL_SHIPPING_STREET' => 'Улица:',
+    'LBL_SHIPPING_STREET' => 'Street:',
     'LBL_SEARCHFORM' => 'Форма поиска',
     'LBL_SAVED_SEARCH_ERROR' => 'Пожалуйста, укажите название сохраняемого условия.',
     'LBL_DISPLAY_LOG' => 'Показать журнал',
@@ -1882,7 +1882,7 @@ $app_strings = array(
     'ERROR_JS_ALERT_TIMEOUT_MSG_2' => 'Время вашей сессии истекло.',
     'MSG_JS_ALERT_MTG_REMINDER_AGENDA' => "\nAgenda: ",
     'MSG_JS_ALERT_MTG_REMINDER_MEETING' => 'Встреча',
-    'MSG_JS_ALERT_MTG_REMINDER_CALL' => 'Звонок',
+    'MSG_JS_ALERT_MTG_REMINDER_CALL' => 'Call',
     'MSG_JS_ALERT_MTG_REMINDER_TIME' => 'Время: ',
     'MSG_JS_ALERT_MTG_REMINDER_LOC' => 'Место: ',
     'MSG_JS_ALERT_MTG_REMINDER_DESC' => 'Описание: ',
@@ -1924,7 +1924,7 @@ $app_strings = array(
     'LBL_ADD_ALL_LEAD_FIELDS' => 'Добавить все поля',
     'LBL_RESET_ALL_LEAD_FIELDS' => 'Удалить все поля',
     'LBL_REMOVE_ALL_LEAD_FIELDS' => 'Удалить все поля',
-    'LBL_NEXT_BTN' => 'Вперёд',
+    'LBL_NEXT_BTN' => 'Далее',
     'LBL_ONLY_IMAGE_ATTACHMENT' => 'Возможно добавить только графическое вложение',
     'LBL_TRAINING' => 'Support Forum',
     'ERR_MSSQL_DB_CONTEXT' => 'Состояние БД изменилось:',
@@ -1959,14 +1959,14 @@ $app_strings = array(
 
     'LBL_RELOAD_PAGE' => 'Пожалуйста, <a href="javascript: window.location.reload()">обновите эту страницу</a> для использования этого дашлета.',
     'LBL_ADD_DASHLETS' => 'Добавить дашлет',
-    'LBL_CLOSE_DASHLETS' => 'Закрыть',
-    'LBL_OPTIONS' => 'Параметры',
+    'LBL_CLOSE_DASHLETS' => 'Закрытие',
+    'LBL_OPTIONS' => 'Options',
     'LBL_1_COLUMN' => '1 колонка',
     'LBL_2_COLUMN' => '2 колонки',
     'LBL_3_COLUMN' => '3 колонки',
     'LBL_PAGE_NAME' => 'Название страницы',
 
-    'LBL_SEARCH_RESULTS' => 'Результаты поиска',
+    'LBL_SEARCH_RESULTS' => 'Search Results',
     'LBL_SEARCH_MODULES' => 'Модули',
     'LBL_SEARCH_TOOLS' => 'Разное',
     'LBL_SEARCH_HELP_TITLE' => 'Настройка отображения результатов поиска и управление сохранёнными условиями поиска',
@@ -2032,7 +2032,7 @@ $app_strings = array(
     'LBL_FASTCGI_LOGGING' => 'Для оптимального использования IIS / FastCGI SAPI, установите параметр fastcgi.logging в файле php.ini равным 0.',
 
     //Collection Field
-    'LBL_COLLECTION_NAME' => 'Имя',
+    'LBL_COLLECTION_NAME' => 'Название',
     'LBL_COLLECTION_PRIMARY' => 'Основной ',
     'ERROR_MISSING_COLLECTION_SELECTION' => 'Не заполнено требуемое поле',
 
@@ -2054,8 +2054,8 @@ $app_strings = array(
     'LBL_NEXT_YEAR' => 'след. год',
 
     //Datetimecombo fields
-    'LBL_HOURS' => 'часов',
-    'LBL_MINUTES' => 'минут',
+    'LBL_HOURS' => 'Часов',
+    'LBL_MINUTES' => 'мин.',
     'LBL_MERIDIEM' => 'пополудни',
     'LBL_DATE' => 'Дата',
     'LBL_DASHLET_CONFIGURE_AUTOREFRESH' => 'Автообновление:',
@@ -2109,7 +2109,7 @@ $app_strings = array(
     'LBL_NOTIFICATIONS_NONE' => 'Уведомления отсутствуют',
     'LBL_ALT_SORT_DESC' => 'Нисходящая сортировка',
     'LBL_ALT_SORT_ASC' => 'Восходящая сортировка',
-    'LBL_ALT_SORT' => 'Сортировка',
+    'LBL_ALT_SORT' => 'Sort',
     'LBL_ALT_SHOW_OPTIONS' => 'Показать параметры',
     'LBL_ALT_HIDE_OPTIONS' => 'Скрыть параметры',
     'LBL_ALT_MOVE_COLUMN_LEFT' => 'Перемещение выбранного элемента в левую колонку',
@@ -2135,22 +2135,22 @@ $app_strings = array(
 
     //508 used Access Keys
     'LBL_EDIT_BUTTON_KEY' => 'i',
-    'LBL_EDIT_BUTTON_LABEL' => 'Правка',
-    'LBL_EDIT_BUTTON_TITLE' => 'Правка',
+    'LBL_EDIT_BUTTON_LABEL' => 'Править',
+    'LBL_EDIT_BUTTON_TITLE' => 'Править',
     'LBL_DUPLICATE_BUTTON_KEY' => 'u',
     'LBL_DUPLICATE_BUTTON_LABEL' => 'Дублировать',
     'LBL_DUPLICATE_BUTTON_TITLE' => 'Дублировать',
     'LBL_DELETE_BUTTON_KEY' => 'd',
-    'LBL_DELETE_BUTTON_LABEL' => 'Удаление',
-    'LBL_DELETE_BUTTON_TITLE' => 'Удаление',
+    'LBL_DELETE_BUTTON_LABEL' => 'Удалить',
+    'LBL_DELETE_BUTTON_TITLE' => 'Удалить',
     'LBL_BULK_ACTION_BUTTON_LABEL' => 'BULK ACTION',
     'LBL_BULK_ACTION_BUTTON_LABEL_MOBILE' => 'Действие',
     'LBL_SAVE_BUTTON_KEY' => 'a',
     'LBL_SAVE_BUTTON_LABEL' => 'Сохранить',
     'LBL_SAVE_BUTTON_TITLE' => 'Сохранить',
     'LBL_CANCEL_BUTTON_KEY' => 'l',
-    'LBL_CANCEL_BUTTON_LABEL' => 'Отмена',
-    'LBL_CANCEL_BUTTON_TITLE' => 'Отмена',
+    'LBL_CANCEL_BUTTON_LABEL' => 'Отказаться',
+    'LBL_CANCEL_BUTTON_TITLE' => 'Отказаться',
     'LBL_FIRST_INPUT_EDIT_VIEW_KEY' => '7',
     'LBL_ADV_SEARCH_LNK_KEY' => '8',
     'LBL_FIRST_INPUT_SEARCH_KEY' => '9',
@@ -2162,7 +2162,7 @@ $app_strings = array(
     'LBL_ACCOUNT_PRODUCT_SALE_PRICE' => 'Цена за единицу',
     'LBL_EMAIL_CHECK_INTERVAL_DOM' => array(
         '-1' => 'Вручную',
-        '5' => 'Каждые 5 минут',
+        '5' => 'Every 5 minutes',
         '15' => 'Каждые 15 минут',
         '30' => 'Каждые 30 минут',
         '60' => 'Каждый час',
@@ -2182,7 +2182,7 @@ $app_strings = array(
     'LBL_HIDDEN' => 'Скрытые поля',
     'ERR_EMPTY_COLUMNS_LIST' => 'По крайней мере один элемент обязательным',
 
-    'LBL_FILTER_HEADER_TITLE' => 'Фильтры',
+    'LBL_FILTER_HEADER_TITLE' => 'Фильтр',
 
     'LBL_CATEGORY' => 'Категория',
     'LBL_LIST_CATEGORY' => 'Категория',
@@ -2230,12 +2230,12 @@ $app_strings = array(
 );
 
 $app_list_strings['moduleList']['Library'] = 'Библиотека';
-$app_list_strings['moduleList']['EmailAddresses'] = 'Адрес E-mail';
-$app_list_strings['project_priority_default'] = 'Средний';
+$app_list_strings['moduleList']['EmailAddresses'] = 'Адрес электронной почты';
+$app_list_strings['project_priority_default'] = 'Medium';
 $app_list_strings['project_priority_options'] = array(
-    'High' => 'Высокий',
-    'Medium' => 'Средний',
-    'Low' => 'Низкий',
+    'High' => 'High',
+    'Medium' => 'Medium',
+    'Low' => 'Low',
 );
 
 //GDPR lawful basis options
@@ -2255,14 +2255,14 @@ $app_list_strings['lawful_basis_dom'] = array(
 $app_list_strings['lawful_basis_source_dom'] = array(
     '' => '',
     'website' => 'Веб-сайт',
-    'phone' => 'Тел.',
+    'phone' => 'Телефон',
     'given_to_user' => 'Предоставить пользователю',
-    'email' => 'Отправить E-mail',
+    'email' => 'Электронная почта',
     'third_party' => 'Третья сторона',
 );
 //End GDPR lawful basis source options
 
-$app_list_strings['moduleList']['KBDocuments'] = 'База знаний';
+$app_list_strings['moduleList']['KBDocuments'] = 'Knowledge Base';
 
 $app_list_strings['countries_dom'] = array(
     '' => '',
@@ -2426,7 +2426,7 @@ $app_list_strings['countries_dom'] = array(
     'NORFOLK ISLAND' => 'НОРФОЛКСКИЕ ОСТРОВА',
     'NORWAY' => 'НОРВЕГИЯ',
     'OMAN' => 'ОМАН',
-    'OTHER' => 'Другое',
+    'OTHER' => 'РАЗНОЕ',
     'PACIFIC ISLAND' => 'МАРИАНСКИЕ ОСТРОВА',
     'PAKISTAN' => 'ПАКИСТАН',
     'PANAMA' => 'ПАНАМА',
@@ -2529,7 +2529,7 @@ $app_list_strings['charset_dom'] = array(
     'KOI8-R' => 'KOI8-R (Русская кириллица)',
     'KOI8-U' => 'KOI8-U (Украинская кириллица)',
     'SJIS' => 'SJIS (MS японский)',
-    'UTF-8' => 'utf-8',
+    'UTF-8' => 'UTF-8',
 );
 
 $app_list_strings['timezone_dom'] = array(
@@ -2912,7 +2912,7 @@ $app_list_strings['timezone_dom'] = array(
 );
 
 $app_list_strings['eapm_list'] = array(
-    'Sugar' => 'SuiteCRM',
+    'Sugar' => 'Suite',
     'WebEx' => 'WebEx',
     'GoToMeeting' => 'GoToMeeting',
     'IBMSmartCloud' => 'IBM SmartCloud',
@@ -2930,35 +2930,35 @@ $app_list_strings['eapm_list_documents'] = array(
 $app_list_strings['token_status'] = array(
     1 => 'Токен запроса',
     2 => 'Доступ к модулю',
-    3 => 'Параметры не настроены',
+    3 => 'Недействительно',
 );
 
 $app_list_strings ['emailTemplates_type_list'] = array(
     '' => '',
-    'campaign' => 'Маркет. кампания',
-    'email' => 'Отправить E-mail',
+    'campaign' => 'Промоакция',
+    'email' => 'E-mail',
     'event' => 'Событие',
 );
 
 $app_list_strings ['emailTemplates_type_list_campaigns'] = array(
     '' => '',
-    'campaign' => 'Маркет. кампания',
+    'campaign' => 'Промоакция',
 );
 
 $app_list_strings ['emailTemplates_type_list_no_workflow'] = array(
     '' => '',
-    'campaign' => 'Маркет. кампания',
-    'email' => 'Отправить E-mail',
+    'campaign' => 'Промоакция',
+    'email' => 'E-mail',
     'event' => 'Событие',
     'system' => 'Система',
 );
 
 // knowledge base
-$app_list_strings['moduleList']['AOK_KnowledgeBase'] = 'База знаний';
+$app_list_strings['moduleList']['AOK_KnowledgeBase'] = 'Knowledge Base';
 $app_list_strings['moduleList']['AOK_Knowledge_Base_Categories'] = 'KB - категории';
-$app_list_strings['aok_status_list']['Draft'] = 'Набросок';
-$app_list_strings['aok_status_list']['Expired'] = 'Просрочен';
-$app_list_strings['aok_status_list']['In_Review'] = 'На рассмотрении';
+$app_list_strings['aok_status_list']['Draft'] = 'Черновик';
+$app_list_strings['aok_status_list']['Expired'] = 'Expired';
+$app_list_strings['aok_status_list']['In_Review'] = 'In Review';
 //$app_list_strings['aok_status_list']['Published'] = 'Published';
 $app_list_strings['aok_status_list']['published_private'] = 'Не опубликована';
 $app_list_strings['aok_status_list']['published_public'] = 'Опубликована';
@@ -3001,7 +3001,7 @@ $app_list_strings['case_status_default_key'] = 'Open_New';
 $app_list_strings['case_status_dom'] =
     array(
         'Open_New' => 'Новый',
-        'Open_Assigned' => 'Назначено',
+        'Open_Assigned' => 'Назначенный',
         'Closed_Closed' => 'Закрыто',
         'Open_Pending Input' => 'Ожидание решения',
         'Closed_Rejected' => 'Отклонённое',
@@ -3015,8 +3015,8 @@ $app_list_strings['contact_portal_user_type_dom'] =
 $app_list_strings['dom_email_distribution_for_auto_create'] = array(
     'AOPDefault' => 'По умолчанию',
     'singleUser' => 'Указанный пользователь',
-    'roundRobin' => 'В цикле',
-    'leastBusy' => 'Наименее занятой',
+    'roundRobin' => 'Round-Robin',
+    'leastBusy' => 'Least-Busy',
     'random' => 'Случайный',
 );
 
@@ -3057,9 +3057,9 @@ $app_list_strings['aor_condition_type_list']['Multi'] = 'Мультивыбор'
 $app_list_strings['aor_condition_type_list']['Period'] = 'Период';
 $app_list_strings['aor_condition_type_list']['CurrentUserID'] = 'Текущий пользователь';
 $app_list_strings['aor_date_type_list'][''] = '';
-$app_list_strings['aor_date_type_list']['minute'] = 'минут';
-$app_list_strings['aor_date_type_list']['hour'] = 'часов';
-$app_list_strings['aor_date_type_list']['day'] = 'дней';
+$app_list_strings['aor_date_type_list']['minute'] = 'мин.';
+$app_list_strings['aor_date_type_list']['hour'] = 'Часов';
+$app_list_strings['aor_date_type_list']['day'] = 'Дней';
 $app_list_strings['aor_date_type_list']['week'] = 'недель';
 $app_list_strings['aor_date_type_list']['month'] = 'Месяцев';
 $app_list_strings['aor_date_type_list']['business_hours'] = 'График работы';
@@ -3087,12 +3087,12 @@ $app_list_strings['aor_chart_types']['pie'] = 'Круговая диаграмм
 $app_list_strings['aor_chart_types']['radar'] = 'Лепестковая диаграмма';
 $app_list_strings['aor_chart_types']['stacked_bar'] = 'Гистограмма с накоплением';
 $app_list_strings['aor_chart_types']['grouped_bar'] = 'Гистограмма с группировкой';
-$app_list_strings['aor_scheduled_report_schedule_types']['monthly'] = 'Месяцам';
-$app_list_strings['aor_scheduled_report_schedule_types']['weekly'] = 'Неделям';
+$app_list_strings['aor_scheduled_report_schedule_types']['monthly'] = 'Ежемесячно';
+$app_list_strings['aor_scheduled_report_schedule_types']['weekly'] = 'Еженедельно';
 $app_list_strings['aor_scheduled_report_schedule_types']['daily'] = 'Ежедневно';
-$app_list_strings['aor_scheduled_reports_status_dom']['active'] = 'Активен';
-$app_list_strings['aor_scheduled_reports_status_dom']['inactive'] = 'Не активна';
-$app_list_strings['aor_email_type_list']['Email Address'] = 'Отправить E-mail';
+$app_list_strings['aor_scheduled_reports_status_dom']['active'] = 'Active';
+$app_list_strings['aor_scheduled_reports_status_dom']['inactive'] = 'Неактивен';
+$app_list_strings['aor_email_type_list']['Email Address'] = 'Email';
 $app_list_strings['aor_email_type_list']['Specify User'] = 'Пользователь';
 $app_list_strings['aor_email_type_list']['Users'] = 'Пользователи';
 $app_list_strings['aor_assign_options']['all'] = 'ВСЕ пользователи';
@@ -3118,8 +3118,8 @@ $app_strings['LBL_CRON_DAY'] = 'День';
 $app_strings['LBL_CRON_MONTH'] = 'Месяц';
 $app_strings['LBL_CRON_DOW'] = 'День недели';
 $app_strings['LBL_CRON_DAILY'] = 'Ежедневно';
-$app_strings['LBL_CRON_WEEKLY'] = 'Неделям';
-$app_strings['LBL_CRON_MONTHLY'] = 'Месяцам';
+$app_strings['LBL_CRON_WEEKLY'] = 'Еженедельно';
+$app_strings['LBL_CRON_MONTHLY'] = 'Ежемесячно';
 
 //aos
 $app_list_strings['moduleList']['AOS_Contracts'] = 'Договоры';
@@ -3142,7 +3142,7 @@ $app_list_strings['aos_quotes_type_dom']['Prospect'] = 'Потенциальны
 $app_list_strings['aos_quotes_type_dom']['Reseller'] = 'Реселлер';
 $app_list_strings['aos_quotes_type_dom']['Other'] = 'Другое';
 $app_list_strings['template_ddown_c_list'][''] = '';
-$app_list_strings['quote_stage_dom']['Draft'] = 'Набросок';
+$app_list_strings['quote_stage_dom']['Draft'] = 'Черновик';
 $app_list_strings['quote_stage_dom']['Negotiation'] = 'Согласование';
 $app_list_strings['quote_stage_dom']['Delivered'] = 'Поставлено';
 $app_list_strings['quote_stage_dom']['On Hold'] = 'Приостановлен';
@@ -3198,7 +3198,7 @@ $app_list_strings['pdf_template_type_dom']['Contacts'] = 'Контакты';
 $app_list_strings['pdf_template_type_dom']['Leads'] = 'Предварительные контакты';
 $app_list_strings['pdf_template_sample_dom'][''] = '';
 $app_list_strings['contract_status_list']['Not Started'] = 'Проект';
-$app_list_strings['contract_status_list']['In Progress'] = 'В процессе...';
+$app_list_strings['contract_status_list']['In Progress'] = 'В процессе';
 $app_list_strings['contract_status_list']['Signed'] = 'Подписан';
 $app_list_strings['contract_type_list']['Type'] = 'Тип';
 $app_strings['LBL_PRINT_AS_PDF'] = 'Сохранить в PDF';
@@ -3210,8 +3210,8 @@ $app_list_strings['moduleList']['AOW_WorkFlow'] = 'Процессы';
 $app_list_strings['moduleList']['AOW_Conditions'] = 'Условия';
 $app_list_strings['moduleList']['AOW_Processed'] = 'Контроль процессов';
 $app_list_strings['moduleList']['AOW_Actions'] = 'Действия';
-$app_list_strings['aow_status_list']['Active'] = 'Активен';
-$app_list_strings['aow_status_list']['Inactive'] = 'Не активна';
+$app_list_strings['aow_status_list']['Active'] = 'Active';
+$app_list_strings['aow_status_list']['Inactive'] = 'Неактивен';
 $app_list_strings['aow_operator_list']['Equal_To'] = 'Равно';
 $app_list_strings['aow_operator_list']['Not_Equal_To'] = 'НЕ равно';
 $app_list_strings['aow_operator_list']['Greater_Than'] = 'Больше';
@@ -3222,7 +3222,7 @@ $app_list_strings['aow_operator_list']['Contains'] = 'Содержит';
 $app_list_strings['aow_operator_list']['Starts_With'] = 'Начинается с';
 $app_list_strings['aow_operator_list']['Ends_With'] = 'Оканчивается на';
 $app_list_strings['aow_operator_list']['is_null'] = 'Без даты';
-$app_list_strings['aow_process_status_list']['Complete'] = 'Готово';
+$app_list_strings['aow_process_status_list']['Complete'] = 'Завершена';
 $app_list_strings['aow_process_status_list']['Running'] = 'Выполняется';
 $app_list_strings['aow_process_status_list']['Pending'] = 'Ожидание решения';
 $app_list_strings['aow_process_status_list']['Failed'] = 'Неудачно';
@@ -3243,9 +3243,9 @@ $app_list_strings['aow_action_type_list']['Random'] = 'Случайный';
 $app_list_strings['aow_rel_action_type_list']['Value'] = 'Значение';
 $app_list_strings['aow_rel_action_type_list']['Field'] = 'Поле';
 $app_list_strings['aow_date_type_list'][''] = '';
-$app_list_strings['aow_date_type_list']['minute'] = 'минут';
-$app_list_strings['aow_date_type_list']['hour'] = 'часов';
-$app_list_strings['aow_date_type_list']['day'] = 'дней';
+$app_list_strings['aow_date_type_list']['minute'] = 'мин.';
+$app_list_strings['aow_date_type_list']['hour'] = 'Часов';
+$app_list_strings['aow_date_type_list']['day'] = 'Дней';
 $app_list_strings['aow_date_type_list']['week'] = 'недель';
 $app_list_strings['aow_date_type_list']['month'] = 'Месяцев';
 $app_list_strings['aow_date_type_list']['year'] = 'Years';
@@ -3259,12 +3259,12 @@ $app_list_strings['aow_date_operator']['minus'] = '-';
 $app_list_strings['aow_assign_options']['all'] = 'ВСЕ пользователи';
 $app_list_strings['aow_assign_options']['role'] = 'ВСЕ пользователи из Роли';
 $app_list_strings['aow_assign_options']['security_group'] = 'ВСЕ пользователи из Группы';
-$app_list_strings['aow_email_type_list']['Email Address'] = 'Отправить E-mail';
+$app_list_strings['aow_email_type_list']['Email Address'] = 'Электронная почта';
 $app_list_strings['aow_email_type_list']['Record Email'] = 'Отобранной записи';
 $app_list_strings['aow_email_type_list']['Related Field'] = 'Связанной записи';
 $app_list_strings['aow_email_type_list']['Specify User'] = 'Пользователь';
 $app_list_strings['aow_email_type_list']['Users'] = 'Пользователи';
-$app_list_strings['aow_email_to_list']['to'] = 'Кому:';
+$app_list_strings['aow_email_to_list']['to'] = 'Адресат';
 $app_list_strings['aow_email_to_list']['cc'] = 'Копия';
 $app_list_strings['aow_email_to_list']['bcc'] = 'Скрытая копия';
 $app_list_strings['aow_run_on_list']['All_Records'] = 'Всех записей';
@@ -3279,8 +3279,8 @@ $app_list_strings['moduleList']['AM_ProjectTemplates'] = 'Проекты - ша�
 $app_list_strings['moduleList']['AM_TaskTemplates'] = 'Шаблоны проектных задач';
 $app_list_strings['relationship_type_list']['FS'] = 'Окончание-Начало';
 $app_list_strings['relationship_type_list']['SS'] = 'Начало-Окончание';
-$app_list_strings['duration_unit_dom']['Days'] = 'дней';
-$app_list_strings['duration_unit_dom']['Hours'] = 'часов';
+$app_list_strings['duration_unit_dom']['Days'] = 'Дней';
+$app_list_strings['duration_unit_dom']['Hours'] = 'Часов';
 $app_strings['LBL_GANTT_BUTTON_LABEL'] = 'Диаграмма Ганта';
 $app_strings['LBL_DETAIL_BUTTON_LABEL'] = 'Показать подробности';
 $app_strings['LBL_CREATE_PROJECT'] = 'Создать проект';
@@ -3585,7 +3585,7 @@ $app_strings['FACEBOOK_USER_C'] = 'Facebook';
 $app_strings['TWITTER_USER_C'] = 'Twitter';
 $app_strings['LBL_PANEL_SOCIAL_FEED'] = 'Подробности';
 
-$app_strings['LBL_SUBPANEL_FILTER_LABEL'] = 'Фильтры';
+$app_strings['LBL_SUBPANEL_FILTER_LABEL'] = 'Фильтр';
 
 $app_strings['LBL_COLLECTION_TYPE'] = 'Тип';
 
@@ -3605,7 +3605,7 @@ $app_list_strings['collection_temp_list'] = array(
     'Tasks' => 'Задачи',
     'Meetings' => 'Встречи',
     'Calls' => 'Звонки',
-    'Notes' => 'Описание',
+    'Notes' => 'Заметки',
     'Emails' => 'E-mail'
 );
 
@@ -3619,7 +3619,7 @@ $app_list_strings['spots_areas'] = array(
     'getAccountsSpotsData' => 'Контрагенты',
     'getLeadsSpotsData' => 'Предварительные контакты',
     'getServiceSpotsData' => 'Услуги',
-    'getMarketingSpotsData' => 'Параметры рассылки',
+    'getMarketingSpotsData' => 'Маркетинг',
     'getMarketingActivitySpotsData' => 'Marketing Activity',
     'getActivitiesSpotsData' => 'Мероприятия',
     'getQuotesSpotsData' => 'Предложения'
@@ -3671,7 +3671,7 @@ $app_list_strings['moduleList']['Surveys'] = 'Анкеты';
 $app_list_strings['moduleList']['SurveyQuestionResponses'] = 'Ответы на вопросы анкеты';
 $app_list_strings['moduleList']['SurveyQuestions'] = 'Вопросы анкеты';
 $app_list_strings['moduleList']['SurveyQuestionOptions'] = 'Параметры вопроса анкеты';
-$app_list_strings['survey_status_list']['Draft'] = 'Набросок';
+$app_list_strings['survey_status_list']['Draft'] = 'Черновик';
 $app_list_strings['survey_status_list']['Public'] = 'Опубликована';
 $app_list_strings['survey_status_list']['Closed'] = 'Закрыто';
 $app_list_strings['surveys_question_type']['Text'] = 'Текст';
@@ -3684,7 +3684,7 @@ $app_list_strings['surveys_question_type']['Matrix'] = 'Матрица';
 $app_list_strings['surveys_question_type']['DateTime'] = 'Дата и время';
 $app_list_strings['surveys_question_type']['Date'] = 'Дата';
 $app_list_strings['surveys_question_type']['Scale'] = 'Шкала';
-$app_list_strings['surveys_question_type']['Rating'] = 'Рейтинг';
+$app_list_strings['surveys_question_type']['Rating'] = 'Рейтинг:';
 $app_list_strings['surveys_matrix_options'][0] = 'Удовлетворены';
 $app_list_strings['surveys_matrix_options'][1] = 'Ни так, ни эдак';
 $app_list_strings['surveys_matrix_options'][2] = 'Неудовлетворены';
@@ -3696,12 +3696,12 @@ $app_strings['LBL_OPT_IN_PENDING_EMAIL_FAILED'] = 'Подтверждающее 
 $app_strings['LBL_OPT_IN_PENDING_EMAIL_SENT'] = 'Ваш выбор ожидает подтверждения, подтверждение отправлено';
 $app_strings['LBL_OPT_IN'] = 'Выбранный';
 $app_strings['LBL_OPT_IN_CONFIRMED'] = 'Выбор подтверждён';
-$app_strings['LBL_OPT_IN_OPT_OUT'] = 'Адресаты, отписавшиеся от рассылки';
-$app_strings['LBL_OPT_IN_INVALID'] = 'Параметры не настроены';
+$app_strings['LBL_OPT_IN_OPT_OUT'] = 'Кол-во отписок';
+$app_strings['LBL_OPT_IN_INVALID'] = 'Недействительно';
 
 /** @see SugarEmailAddress */
 $app_list_strings['email_settings_opt_in_dom'] = array(
-    'not-opt-in' => 'Заблокирован',
+    'not-opt-in' => 'Выкл.',
     'opt-in' => 'Выбрать среди',
     'confirmed-opt-in' => 'Выбор подтверждён'
 );
@@ -3749,7 +3749,7 @@ $app_list_strings['search_controllers'] = [
 $app_list_strings['calendar_account_types'] = [
     'personal' => 'Персональная',
     'shared' => 'Сводный',
-    'group' => 'Группировка',
+    'group' => 'Групповая',
 ];
 
 // Calendar Connection Status dropdown
@@ -3762,8 +3762,8 @@ $app_list_strings['calendar_connection_status_list'] = [
 // Calendar Sync Attempt Status dropdown
 $app_list_strings['sync_attempt_status_list'] = [
     '' => '',
-    'in_progress' => 'В процессе...',
-    'success' => 'Готово',
+    'in_progress' => 'В процессе исполнения',
+    'success' => 'Success',
     'warning' => 'Предупреждение',
     'error' => 'Ошибка',
 ];
@@ -3813,7 +3813,7 @@ $app_strings['LBL_SEARCH_RESULTS_PER_PAGE']        = 'Results per module: ';
 $app_strings['LBL_SEARCH_ENGINE']                  = 'Движок: ';
 $app_strings['LBL_SEARCH_TOTAL'] = 'Всего результатов: ';
 $app_strings['LBL_SEARCH_PREV'] = 'Пред.';
-$app_strings['LBL_SEARCH_NEXT'] = 'Вперёд';
+$app_strings['LBL_SEARCH_NEXT'] = 'Далее';
 $app_strings['LBL_SEARCH_PAGE'] = 'Страница ';
 $app_strings['LBL_SEARCH_OF'] = ' из ';
 $app_strings['LBL_USE_ADVANCED_SEARCH'] = 'Использовать расширенный поиск';

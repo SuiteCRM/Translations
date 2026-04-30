@@ -67,7 +67,7 @@ $app_list_strings = array(
         'Calendar' => 'Kalendaryo',
         'Leads' => 'Pamunuan',
         'Currencies' => 'Ang mga halaga',
-        'Activities' => 'Ang mga gawain',
+        'Activities' => 'Mga gawain',
         'Bugs' => 'Mga mali',
         'Feeds' => 'RSS',
         'iFrames' => 'Ang aking mga sayt',
@@ -78,7 +78,7 @@ $app_list_strings = array(
         'ProjectTask' => 'Ang mga gawain sa proyekto',
         'Campaigns' => 'Ang mga kampanya',
         'CampaignLog' => 'Ang talaan ng mga kampanya',
-        'Documents' => 'Ang mga dokumento',
+        'Documents' => 'Anga mga Dokumento',
         'DocumentRevisions' => 'Ang pagpapalit ng bersyon ng dokumento',
         'Connectors' => 'Ang mga Konekonekta',
         'Roles' => 'Ang mga gagampanan',
@@ -86,7 +86,7 @@ $app_list_strings = array(
         'Sync' => 'Pagpapareho',
         'Users' => 'Ang mga gumagamit',
         'Employees' => 'Ang mga empleyado',
-        'Administration' => 'Administrasyon',
+        'Administration' => 'Pangangasiwa',
         'ACLRoles' => 'Ang mga gagampanan',
         'InboundEmail' => 'Ang paparating na email',
         'Releases' => 'Ang pagpapakawala',
@@ -125,21 +125,21 @@ $app_list_strings = array(
         'EmailTemplates' => 'Ang Template ng Email',
         'Meetings' => 'Ang Pag-uusapan',
         'Tasks' => 'Ang Gawain',
-        'Calendar' => 'Kalendaryo',
+        'Calendar' => 'Ang kalendaryo',
         'Leads' => 'Pamunuan',
         'Activities' => 'Aktibidad',
         'Bugs' => 'Ang mali',
         'KBDocuments' => 'KBDocument',
         'Feeds' => 'RSS',
-        'iFrames' => 'Ang aking mga sayt',
+        'iFrames' => 'Ang aking mga site',
         'TimePeriods' => 'Ang Oras ng Panahon',
         'Project' => 'Proyekto',
         'ProjectTask' => 'Ang Gawain sa Proyekto',
         'Prospects' => 'Pinatatamaan',
         'Campaigns' => 'Kampanya',
         'Documents' => 'Dokumento',
-        'Sync' => 'Pagpapareho',
-        'Users' => 'Ang gumagamit',
+        'Sync' => 'Pagtugma',
+        'Users' => 'Ang Tagagamit',
         'SugarFavorites' => 'Ang mga Paborito ng SuiteCRM',
 
     ),
@@ -153,15 +153,15 @@ $app_list_strings = array(
     //e.g. en français 'Analyst'=>'Analyste',
     'account_type_dom' => array(
         '' => '',
-        'Analyst' => 'Pagsusuri',
-        'Competitor' => 'Kakompentsya',
-        'Customer' => 'Kustomer',
+        'Analyst' => 'Ang Pagsusuri',
+        'Competitor' => 'Ang Kakompentsya',
+        'Customer' => 'Ang mamimili',
         'Integrator' => 'Integerator',
         'Investor' => 'Namumuhunan',
         'Partner' => 'Ang Kapareha',
-        'Press' => 'Pindutin',
-        'Prospect' => 'Paghahanap',
-        'Reseller' => 'Taga-benta',
+        'Press' => 'Pumindot',
+        'Prospect' => 'Ang Paghahanap',
+        'Reseller' => 'Ang Taga-benta',
         'Other' => 'Mga iba pa',
     ),
     //e.g. en español 'Apparel'=>'Ropa',
@@ -212,7 +212,7 @@ $app_list_strings = array(
         'Trade Show' => 'Ipakita ang palitan',
         'Web Site' => 'Web sayt',
         'Word of mouth' => 'Bali-balita',
-        'Email' => 'Email',
+        'Email' => 'Ang Email',
         'Campaign' => 'Kampanya',
         'Other' => 'Mga iba pa',
     ),
@@ -283,9 +283,9 @@ $app_list_strings = array(
         ),
     'activity_dom' => array(
         'Call' => 'Tawag',
-        'Meeting' => 'Ang Pag-uusapan',
-        'Task' => 'Ang Gawain',
-        'Email' => 'Email',
+        'Meeting' => 'Ang pagpupulong',
+        'Task' => 'Gawain',
+        'Email' => 'Ang Email',
         'Note' => 'Paalala',
     ),
     'salutation_dom' => array(
@@ -329,7 +329,7 @@ $app_list_strings = array(
         'Not Started' => 'Hindi pag nagsisimula',
         'In Progress' => 'Sa pagpapaproseso',
         'Completed' => 'Nakumpleto',
-        'Pending Input' => 'Nakabinbing input',
+        'Pending Input' => 'Ang Nakabinbing input',
         'Deferred' => 'Ipinagpaliban',
     ),
     'meeting_status_default' => 'Binalak',
@@ -396,7 +396,7 @@ $app_list_strings = array(
     'project_task_priority_options' => array(
         'High' => 'Mataas',
         'Medium' => 'Katamtaman',
-        'Low' => 'Mababa',
+        'Low' => 'Low',
     ),
     'project_task_priority_default' => 'Katamtaman',
 
@@ -404,8 +404,8 @@ $app_list_strings = array(
         'Not Started' => 'Hindi pag nagsisimula',
         'In Progress' => 'Sa pagpapaproseso',
         'Completed' => 'Nakumpleto',
-        'Pending Input' => 'Nakabinbing input',
-        'Deferred' => 'Ipinagpaliban',
+        'Pending Input' => 'Ang Nakabinbing input',
+        'Deferred' => 'Ipagpaliban',
     ),
     'project_task_utilization_options' => array(
         '0' => 'wala',
@@ -416,13 +416,13 @@ $app_list_strings = array(
     ),
 
     'project_status_dom' => array(
-        'Draft' => 'Plano',
+        'Draft' => 'Ang Plano',
         'In Review' => 'Sa Pagsusuri',
         'Underway' => 'Isinasagawa',
         'On_Hold' => 'Nasa hawakan',
         'Completed' => 'Nakumpleto',
     ),
-    'project_status_default' => 'Plano',
+    'project_status_default' => 'Ang Plano',
 
     'project_duration_units_dom' => array(
         'Days' => 'Ang mga araw',
@@ -440,19 +440,19 @@ $app_list_strings = array(
     'record_type_default_key' => 'Ang mga Akawnt',
     'record_type_display' => array(
         '' => '',
-        'Accounts' => 'Akawnt',
-        'Opportunities' => 'Oportunidad',
+        'Accounts' => 'Ang account',
+        'Opportunities' => 'Ang oportunidad',
         'Cases' => 'Ang kaso',
         'Leads' => 'Pamunuan',
         'Contacts' => 'Kontak', // cn (11/22/2005) added to support Emails
 
         'Bugs' => 'Ang mali',
-        'Project' => 'Proyekto',
+        'Project' => 'Ang proyekto',
 
         'Prospects' => 'Pinatatamaan',
         'ProjectTask' => 'Ang Gawain sa Proyekto',
 
-        'Tasks' => 'Ang Gawain',
+        'Tasks' => 'Gawain',
 
         'AOS_Contracts' => 'Kontrata',
         'AOS_Invoices' => 'Invoice',
@@ -462,21 +462,21 @@ $app_list_strings = array(
     ),
 
     'record_type_display_notes' => array(
-        'Accounts' => 'Akawnt',
+        'Accounts' => 'Ang account',
         'Contacts' => 'Kontak',
-        'Opportunities' => 'Oportunidad',
+        'Opportunities' => 'Ang oportunidad',
         'Campaigns' => 'Kampanya',
-        'Tasks' => 'Ang Gawain',
-        'Emails' => 'Email',
+        'Tasks' => 'Gawain',
+        'Emails' => 'Ang Email',
 
         'Bugs' => 'Ang mali',
-        'Project' => 'Proyekto',
+        'Project' => 'Ang proyekto',
         'ProjectTask' => 'Ang Gawain sa Proyekto',
         'Prospects' => 'Pinatatamaan',
         'Cases' => 'Ang kaso',
         'Leads' => 'Pamunuan',
 
-        'Meetings' => 'Ang Pag-uusapan',
+        'Meetings' => 'Ang pagpupulong',
         'Calls' => 'Tawag',
 
         'AOS_Contracts' => 'Kontrata',
@@ -486,16 +486,16 @@ $app_list_strings = array(
     ),
 
     'parent_type_display' => array(
-        'Accounts' => 'Akawnt',
+        'Accounts' => 'Ang account',
         'Contacts' => 'Kontak',
-        'Tasks' => 'Ang Gawain',
-        'Opportunities' => 'Oportunidad',
+        'Tasks' => 'Gawain',
+        'Opportunities' => 'Ang oportunidad',
 
         'Bugs' => 'Ang mali',
         'Cases' => 'Ang kaso',
         'Leads' => 'Pamunuan',
 
-        'Project' => 'Proyekto',
+        'Project' => 'Ang proyekto',
         'ProjectTask' => 'Ang Gawain sa Proyekto',
 
         'Prospects' => 'Pinatatamaan',
@@ -522,18 +522,18 @@ $app_list_strings = array(
     'issue_resolution_dom' => array(
         '' => '',
         'Accepted' => 'Natanggap',
-        'Duplicate' => 'Duplikado',
-        'Closed' => 'Sarado',
-        'Out of Date' => 'Luma',
-        'Invalid' => 'Imbalido',
+        'Duplicate' => 'Kopyahin',
+        'Closed' => 'Sinarado',
+        'Out of Date' => 'Ang petsa ay wala na',
+        'Invalid' => 'Hindi wasto',
     ),
 
     'issue_status_default_key' => 'Bago',
     'issue_status_dom' => array(
         'New' => 'Bago',
         'Assigned' => 'Ang naitalaga',
-        'Closed' => 'Sarado',
-        'Pending' => 'Nakabinbin',
+        'Closed' => 'Sinarado',
+        'Pending' => 'Ang Nakabinbin',
         'Rejected' => 'Tinanggihan',
     ),
 
@@ -548,18 +548,18 @@ $app_list_strings = array(
     'bug_resolution_dom' => array(
         '' => '',
         'Accepted' => 'Natanggap',
-        'Duplicate' => 'Duplikado',
+        'Duplicate' => 'Kopyahin',
         'Fixed' => 'Nakapirme',
-        'Out of Date' => 'Luma',
-        'Invalid' => 'Imbalido',
+        'Out of Date' => 'Ang petsa ay wala na',
+        'Invalid' => 'Hindi wasto',
         'Later' => 'Mamaya',
     ),
     'bug_status_default_key' => 'Bago',
     'bug_status_dom' => array(
         'New' => 'Bago',
         'Assigned' => 'Ang naitalaga',
-        'Closed' => 'Sarado',
-        'Pending' => 'Nakabinbin',
+        'Closed' => 'Sinarado',
+        'Pending' => 'Ang Nakabinbin',
         'Rejected' => 'Tinanggihan',
     ),
     'bug_type_default_key' => 'Ang mali',
@@ -568,9 +568,9 @@ $app_list_strings = array(
         'Feature' => 'Ang tampok',
     ),
     'case_type_dom' => array(
-        'Administration' => 'Administrasyon',
+        'Administration' => 'Pangangasiwa',
         'Product' => 'Produkto',
-        'User' => 'Ang gumagamit',
+        'User' => 'Ang Tagagamit',
     ),
 
     'source_default_key' => '',
@@ -579,24 +579,24 @@ $app_list_strings = array(
         'Internal' => 'Panloob',
         'Forum' => 'Talakayan',
         'Web' => 'Sapot',
-        'InboundEmail' => 'Email',
+        'InboundEmail' => 'Ang Email',
     ),
 
     'product_category_default_key' => '',
     'product_category_dom' => array(
         '' => '',
         'Accounts' => 'Ang mga Akawnt',
-        'Activities' => 'Ang mga gawain',
-        'Bugs' => 'Mga mali',
-        'Calendar' => 'Kalendaryo',
+        'Activities' => 'Mga gawain',
+        'Bugs' => 'Ang mga mali',
+        'Calendar' => 'Ang kalendaryo',
         'Calls' => 'Ang mga tawag',
-        'Campaigns' => 'Ang mga kampanya',
+        'Campaigns' => 'Mga kampanya',
         'Cases' => 'Ang mga kaso',
         'Contacts' => 'Ang mga koneksyon',
-        'Currencies' => 'Ang mga halaga',
-        'Dashboard' => 'Harapan ng loob',
-        'Documents' => 'Ang mga dokumento',
-        'Emails' => 'Ang mga email',
+        'Currencies' => 'Mga halaga',
+        'Dashboard' => 'Ang dashboard',
+        'Documents' => 'Anga mga Dokumento',
+        'Emails' => 'Mga email',
         'Feeds' => 'Ang mga feed',
         'Forecasts' => 'Mga Pagtataya',
         'Help' => 'Tulong',
@@ -608,7 +608,7 @@ $app_list_strings = array(
         'Outlook Plugin' => 'Tanaw ang plugin',
         'Projects' => 'Ang mga proyekto',
         'Quotes' => 'Ang mga Panipi',
-        'Releases' => 'Ang pagpapakawala',
+        'Releases' => 'Mga pagpapalabas',
         'RSS' => 'RSS',
         'Studio' => 'Estudyo',
         'Upgrade' => 'Palakasin',
@@ -628,7 +628,7 @@ $app_list_strings = array(
         '' => '',
         'Telesales' => 'Mga telesale',
         'Mail' => 'Ang sulat',
-        'Email' => 'Email',
+        'Email' => 'Ang Email',
         'Print' => 'Imprinta',
         'Web' => 'Sapot',
         'Radio' => 'Radyo',
@@ -754,13 +754,13 @@ $app_list_strings = array(
     'dom_email_types' => array(
         'out' => 'Naipadala',
         'archived' => 'Sinupan',
-        'draft' => 'Plano',
-        'inbound' => 'Papasok',
+        'draft' => 'Ang Plano',
+        'inbound' => 'Ang papasok',
         'campaign' => 'Kampanya',
     ),
     'dom_email_status' => array(
-        'archived' => 'Sinupan',
-        'closed' => 'Sarado',
+        'archived' => 'Naka-archive',
+        'closed' => 'Sinarado',
         'draft' => 'Nasa draft',
         'read' => 'Basahin',
         'replied' => 'Nagreplayd',
@@ -769,7 +769,7 @@ $app_list_strings = array(
         'unread' => 'Hindi binasa',
     ),
     'dom_email_archived_status' => array(
-        'archived' => 'Sinupan',
+        'archived' => 'Naka-archive',
     ),
 
     'dom_email_server_type' => array(
@@ -849,24 +849,24 @@ $app_list_strings = array(
 
     'email_category_dom' => array(
         '' => '',
-        'Archived' => 'Sinupan',
+        'Archived' => 'Naka-archive',
         // TODO: add more categories here...
     ),
 
     'document_subcategory_dom' => array(
         '' => '',
-        'Marketing Collateral' => 'Pinsala sa pamimili',
-        'Product Brochures' => 'Mga Brochure ng Produkto',
+        'Marketing Collateral' => 'Ang pinsala sa kalakal',
+        'Product Brochures' => 'Ang produktong mga pulyeto',
         'FAQ' => 'FAQ',
     ),
 
     'document_status_dom' => array(
         'Active' => 'Gawing aktibo',
-        'Draft' => 'Plano',
+        'Draft' => 'Ang Plano',
         'FAQ' => 'FAQ',
         'Expired' => 'Nag-expire na',
         'Under Review' => 'Nasa ilalim ng pagsusuri',
-        'Pending' => 'Nakabinbin',
+        'Pending' => 'Ang Nakabinbin',
     ),
     'document_template_type_dom' => array(
         '' => '',
@@ -895,8 +895,8 @@ $app_list_strings = array(
     'repeat_type_dom' => array(
         '' => 'Wala',
         'Daily' => 'Arawaraw',
-        'Weekly' => 'Linggohan',
-        'Monthly' => 'Buwanan',
+        'Weekly' => 'Linggo-linggo',
+        'Monthly' => 'Buwan-buwan',
         'Yearly' => 'Taon-taon',
     ),
 
@@ -1105,7 +1105,7 @@ $app_strings = array(
     'LBL_TOUR_TAKE_TOUR' => 'Kunin ng paglalakbay',
     'LBL_MOREDETAIL' => 'Marami pang detalye' /*for 508 compliance fix*/,
     'LBL_EDIT_INLINE' => 'Baguhin ang Inline' /*for 508 compliance fix*/,
-    'LBL_VIEW_INLINE' => 'Tanawin' /*for 508 compliance fix*/,
+    'LBL_VIEW_INLINE' => 'Tingnan' /*for 508 compliance fix*/,
     'LBL_BASIC_SEARCH' => 'Salain' /*for 508 compliance fix*/,
     'LBL_Blank' => ' ' /*for 508 compliance fix*/,
     'LBL_ID_FF_ADD' => 'Idagdag' /*for 508 compliance fix*/,
@@ -1118,14 +1118,14 @@ $app_strings = array(
     'LBL_ID_FF_REMOVE_EMAIL' => 'Tanggalin ang Email Address' /*for 508 compliance fix*/,
     'LBL_ID_FF_OPT_OUT' => 'Ang Opt ay Nasa labas',
     'LBL_ID_FF_INVALID' => 'Gawing hindi wasto',
-    'LBL_ADD' => 'Idagdag' /*for 508 compliance fix*/,
+    'LBL_ADD' => 'Magdagdag' /*for 508 compliance fix*/,
     'LBL_COMPANY_LOGO' => 'Logo ng kompanya' /*for 508 compliance fix*/,
     'LBL_CONNECTORS_POPUPS' => 'Ang mga konektor sa mga popup',
     'LBL_CLOSEINLINE' => 'Sarado',
-    'LBL_VIEWINLINE' => 'Tanawin',
+    'LBL_VIEWINLINE' => 'Tingnan',
     'LBL_INFOINLINE' => 'Info',
-    'LBL_PRINT' => 'Imprinta',
-    'LBL_HELP' => 'Tulong',
+    'LBL_PRINT' => 'I-print',
+    'LBL_HELP' => 'Saklolo',
     'LBL_ID_FF_SELECT' => 'Pumili',
     'DEFAULT' => 'Saligan',
     'LBL_SORT' => 'Pagkakasunod',
@@ -1148,7 +1148,7 @@ $app_strings = array(
     'LBL_EMAIL_ACCOUNTS_SMTPPORT' => 'Ang port ng SMTP',
     'LBL_EMAIL_ACCOUNTS_SMTPSERVER' => 'Ang serber ng SMTP',
     'LBL_EMAIL_ACCOUNTS_SMTPUSER' => 'Ang username ng SMTP',
-    'LBL_EMAIL_ACCOUNTS_SMTPDEFAULT' => 'Default ',
+    'LBL_EMAIL_ACCOUNTS_SMTPDEFAULT' => 'Naka-default',
     'LBL_EMAIL_WARNING_MISSING_USER_CREDS' => 'Babala: Nawawala ang username at password para sa paparating ng account para sa sulat.',
     'LBL_OAUTH_CONNECTION_NOT_SET' => 'Please set an External OAuth Connection.',
     'LBL_EMAIL_PASSWORD_NOT_SET' => 'Warning: A password has not been set.',
@@ -1157,7 +1157,7 @@ $app_strings = array(
     'LBL_EMAIL_ACCOUNTS_OUTBOUND_SUBTITLE' => 'Maglaan ng impormasyon ng serber para sa SMTP na sulat para magamit sa papalabas na email sa sulat ng mga account.',
 
     'LBL_EMAIL_ADDRESS_BOOK_ADD' => 'Tapos na',
-    'LBL_EMAIL_ADDRESS_BOOK_CLEAR' => 'Malinis',
+    'LBL_EMAIL_ADDRESS_BOOK_CLEAR' => 'Linisin',
     'LBL_EMAIL_ADDRESS_BOOK_ADD_TO' => 'Para: ',
     'LBL_EMAIL_ADDRESS_BOOK_ADD_CC' => 'Cc:',
     'LBL_EMAIL_ADDRESS_BOOK_ADD_BCC' => 'Bcc:',
@@ -1170,8 +1170,8 @@ $app_strings = array(
     'LBL_EMAIL_ADDRESS_BOOK_SELECT_TITLE' => 'Pumili ng email ng mga taga tanggap',
     'LBL_EMAIL_ADDRESS_BOOK_TITLE' => 'Libro ng padalahan',
     'LBL_EMAIL_REMOVE_SMTP_WARNING' => 'Babala! Ang papalabas na account na iyong sinusubukang burahin ay kasama sa umiiral na papasok na account. Ikaw ba ay sigurado na gusto mong mag patuloy?',
-    'LBL_EMAIL_ADDRESSES' => 'Email',
-    'LBL_EMAIL_ADDRESS_PRIMARY' => 'Ang email na padalahan',
+    'LBL_EMAIL_ADDRESSES' => 'Ang Email',
+    'LBL_EMAIL_ADDRESS_PRIMARY' => 'Ang Email na padalahan',
     'LBL_EMAIL_ADDRESS_OPT_IN' => 'You have confirmed that your email address has been opted in: ',
     'LBL_EMAIL_ADDRESS_OPT_IN_ERR' => 'Unable to confirm email address',
     'LBL_EMAIL_ARCHIVE_TO_SUITE' => 'I-angkat sa SuiteCRM',
@@ -1268,7 +1268,7 @@ $app_strings = array(
         '.gif',
         ''
     ),
-    'LBL_EMAIL_FOLDERS_ADD' => 'Idagdag',
+    'LBL_EMAIL_FOLDERS_ADD' => 'Magdagdag',
     'LBL_EMAIL_FOLDERS_ADD_DIALOG_TITLE' => 'Magdagdag ng bagong polder',
     'LBL_EMAIL_FOLDERS_RENAME_DIALOG_TITLE' => 'Baguhin ang pangalan ng polder',
     'LBL_EMAIL_FOLDERS_ADD_NEW_FOLDER' => 'I-seyb',
@@ -1343,7 +1343,7 @@ $app_strings = array(
     'LBL_EMAIL_PRIMARY' => 'Pangunahin',
     'LBL_EMAIL_PRINT' => 'Imprinta',
 
-    'LBL_EMAIL_QC_BUGS' => 'Ang mali',
+    'LBL_EMAIL_QC_BUGS' => 'Bug',
     'LBL_EMAIL_QC_CASES' => 'Ang kaso',
     'LBL_EMAIL_QC_LEADS' => 'Pamunuan',
     'LBL_EMAIL_QC_CONTACTS' => 'Kontak',
@@ -1494,11 +1494,11 @@ $app_strings = array(
     'ERR_DB_VERSION' => 'Ang mga {0} Payl ng SuiteCRM ay Maaaring Lamang Gamitin Kasama ang Isang {1} na Database ng SuiteCRM.',
 
     'LBL_ACCOUNT' => 'Akawnt',
-    'LBL_ACCOUNTS' => 'Ang mga Akawnt',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Ang mga gawain',
+    'LBL_ACCOUNTS' => 'Mga akawnt',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Mga gawain',
     'LBL_ACCUMULATED_HISTORY_BUTTON_KEY' => 'H',
     'LBL_ACCUMULATED_HISTORY_BUTTON_LABEL' => 'Tignan ang buod',
-    'LBL_ACCUMULATED_HISTORY_BUTTON_TITLE' => 'Tignan ang buod',
+    'LBL_ACCUMULATED_HISTORY_BUTTON_TITLE' => 'Tignan ang ubod',
     'LBL_ADD_BUTTON' => 'Idagdag',
     'LBL_ADD_DOCUMENT' => 'Idagdag sa Dokumento',
     'LBL_ADD_TO_PROSPECT_LIST_BUTTON_KEY' => 'L',
@@ -1541,17 +1541,17 @@ $app_strings = array(
     'LBL_SEARCH_DROPDOWN_NO' => 'Hindi',
     'LBL_CONTACT_LIST' => 'Listahan ng mga Ugnayan',
     'LBL_CONTACT' => 'Kontak',
-    'LBL_CONTACTS' => 'Ang mga koneksyon',
+    'LBL_CONTACTS' => 'Mga talaan',
     'LBL_CONTRACT' => 'Kontrata',
-    'LBL_CONTRACTS' => 'Ang mga kontrak',
+    'LBL_CONTRACTS' => 'Mga kontrata',
     'LBL_COUNTRY' => 'Bansa:',
     'LBL_CREATE_BUTTON_LABEL' => 'Nilikha',
     'LBL_CREATED_BY_USER' => 'Nililikha sa pamamagitan ng Gumagamit',
-    'LBL_CREATED_USER' => 'Nililikha sa pamamagitan ng Gumagamit',
+    'LBL_CREATED_USER' => 'Nilikha sa pamamagitin ng Gumagamit',
     'LBL_CREATED' => 'Ginawa sa pamamagitan',
     'LBL_CURRENT_USER_FILTER' => 'Ang mga item:',
     'LBL_CURRENCY' => 'Ang Halaga:',
-    'LBL_DOCUMENTS' => 'Ang mga dokumento',
+    'LBL_DOCUMENTS' => 'Anga mga Dokumento',
     'LBL_DATE_ENTERED' => 'Petsa ng Pagkagawa:',
     'LBL_DATE_MODIFIED' => 'Huling binago:',
     'LBL_EDIT_BUTTON' => 'I-edit',
@@ -1560,8 +1560,8 @@ $app_strings = array(
     'LBL_DELETE' => 'Alisin',
     'LBL_DELETED' => 'Nabura',
     'LBL_DIRECT_REPORTS' => 'Mga direktang ulat',
-    'LBL_DONE_BUTTON_LABEL' => 'Tapos na',
-    'LBL_DONE_BUTTON_TITLE' => 'Tapos na',
+    'LBL_DONE_BUTTON_LABEL' => 'Natapos na',
+    'LBL_DONE_BUTTON_TITLE' => 'Natapos na',
     'LBL_FAVORITES' => 'Mga paborito',
     'LBL_VCARD' => 'vCard',
     'LBL_EMPTY_VCARD' => 'Pakiusap ilagay ang vCard file',
@@ -1585,7 +1585,7 @@ $app_strings = array(
     'LBL_IMPORT' => 'Angkat',
     'LBL_IMPORT_STARTED' => 'I-angkat ang Nasimulan: ',
     'LBL_LAST_VIEWED' => 'MakaIlan lang Nakita',
-    'LBL_LEADS' => 'Pamunuan',
+    'LBL_LEADS' => 'Ang mga pamunuan',
     'LBL_LESS' => 'Ang mas mababa',
     'LBL_CAMPAIGN' => 'Kampanya:',
     'LBL_CAMPAIGNS' => 'Ang mga kampanya',
@@ -1596,13 +1596,13 @@ $app_strings = array(
     'LBL_THEME' => 'Ang tema:',
     'LBL_FOUND_IN_RELEASE' => 'Pagpapalaya na Itatag',
     'LBL_FIXED_IN_RELEASE' => 'Naayos Sa Pagpakawala',
-    'LBL_LIST_ACCOUNT_NAME' => 'Pangalan ng akwant',
-    'LBL_LIST_ASSIGNED_USER' => 'Ang gumagamit',
+    'LBL_LIST_ACCOUNT_NAME' => 'Pangalan ng account',
+    'LBL_LIST_ASSIGNED_USER' => 'Ang user',
     'LBL_LIST_CONTACT_NAME' => 'Kontak na Pangalan',
     'LBL_LIST_CONTACT_ROLE' => 'Kontak ng Tungkulin',
     'LBL_LIST_DATE_ENTERED' => 'Lumikha ng Petsa',
     'LBL_LIST_EMAIL' => 'Email',
-    'LBL_LIST_NAME' => 'Ang Pangalan',
+    'LBL_LIST_NAME' => 'Pangalan',
     'LBL_LIST_OF' => 'ng',
     'LBL_LIST_PHONE' => 'Telepono',
     'LBL_LIST_RELATED_TO' => 'Para sa kaugnayan',
@@ -1635,7 +1635,7 @@ $app_strings = array(
     'LBL_MODIFIED_NAME' => 'Binago sa pamamagitan ng pangalan',
     'LBL_MORE' => 'Higit pa',
     'LBL_MY_ACCOUNT' => 'Ang mga setting',
-    'LBL_NAME' => 'Ang Pangalan',
+    'LBL_NAME' => 'Pangalan',
     'LBL_NEW_BUTTON_KEY' => 'N',
     'LBL_NEW_BUTTON_LABEL' => 'Nilikha',
     'LBL_NEW_BUTTON_TITLE' => 'Nilikha',
@@ -1673,7 +1673,7 @@ $app_strings = array(
     'LBL_REPORTS_TO' => 'Ang mga ulat',
     'LBL_REQUIRED_SYMBOL' => '*',
     'LBL_REQUIRED_TITLE' => 'Ang field ay pinahihiwatig ang mga kinakailangan',
-    'LBL_EMAIL_DONE_BUTTON_LABEL' => 'Tapos na',
+    'LBL_EMAIL_DONE_BUTTON_LABEL' => 'Natapos na',
     'LBL_FULL_FORM_BUTTON_KEY' => 'L',
     'LBL_FULL_FORM_BUTTON_LABEL' => 'Buong anyo',
     'LBL_FULL_FORM_BUTTON_TITLE' => 'Buong anyo',
@@ -1759,7 +1759,7 @@ $app_strings = array(
     'LBL_ACCESSKEY_CLEAR_USERS_LABEL' => 'Malinaw sa Gumagamit',
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_KEY' => 'A',
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_TITLE' => 'Pumili ng account',
-    'LBL_ACCESSKEY_SELECT_ACCOUNTS_LABEL' => 'Pumili ng account',
+    'LBL_ACCESSKEY_SELECT_ACCOUNTS_LABEL' => 'Pumili ng akawnt',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_TITLE' => 'Clear Account',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_LABEL' => 'Clear Account',
@@ -1824,7 +1824,7 @@ $app_strings = array(
     'LBL_TRACK_EMAIL_BUTTON_TITLE' => 'Email na Nasinup',
     'LBL_UNDELETE_BUTTON_LABEL' => 'Hindi nabura',
     'LBL_UNDELETE_BUTTON_TITLE' => 'Hindi nabura',
-    'LBL_UNDELETE_BUTTON' => 'Hindi nabura',
+    'LBL_UNDELETE_BUTTON' => 'Hindi na bura',
     'LBL_UNDELETE' => 'Hindi nabura',
     'LBL_UNSYNC' => 'Huwag i-sync',
     'LBL_UPDATE' => 'I-upadate',
@@ -1874,7 +1874,7 @@ $app_strings = array(
     'NTC_LOGIN_MESSAGE' => 'Paki enter ang iyong login at password.',
     'NTC_NO_ITEMS_DISPLAY' => 'wala',
     'NTC_REMOVE_CONFIRMATION' => 'Sigurado kaba na gusto mo tanggaling etong relasyon? Isa sa relasyon ang aalisin. Ang rekord ay hindi kayang mabura.',
-    'NTC_REQUIRED' => 'Ang field ay pinahihiwatig ang mga kinakailangan',
+    'NTC_REQUIRED' => 'Kinakailangan ng Patlang ang mga Ipinahiwatig',
     'NTC_TIME_FORMAT' => '(24:00)',
     'NTC_WELCOME' => 'Walang anuman',
     'NTC_YEAR_FORMAT' => '(yyy)',
@@ -1888,7 +1888,7 @@ $app_strings = array(
     'LBL_MANAGE_SUBSCRIPTIONS' => 'Nangasiwa ang mga Suskripsyon',
     'LBL_MANAGE_SUBSCRIPTIONS_FOR' => 'Mamahala sa mga Subskripsyon para sa ',
     // Ajax status strings
-    'LBL_LOADING' => 'Nag loload...',
+    'LBL_LOADING' => 'Nag-lo-load...',
     'LBL_SEARCHING' => 'Magsaliksik...',
     'LBL_SAVING_LAYOUT' => 'Nagse-seyb sa Layout ...',
     'LBL_SAVED_LAYOUT' => 'Ang pagkakaayos ay sini-seyb.',
@@ -1899,7 +1899,7 @@ $app_strings = array(
     'LBL_SEARCH_CRITERIA' => 'Pagsasaliksik sa Pamantayan',
     'LBL_SAVED_VIEWS' => 'I-save ang mga Natanaw',
     'LBL_PROCESSING_REQUEST' => 'Pino-proseso...',
-    'LBL_REQUEST_PROCESSED' => 'Tapos na',
+    'LBL_REQUEST_PROCESSED' => 'Natapos na',
     'LBL_AJAX_FAILURE' => 'Pagkabigong Ajax',
     'LBL_MERGE_DUPLICATES' => 'Pagsamahin',
     'LBL_SAVED_FILTER_SHORTCUT' => 'Ang aking mga sinala',
@@ -2069,7 +2069,7 @@ maaari mong palitan ang iyong pagsasaliksik sa "Mga Mansanas%" Kung saan magtutu
     'LBL_FASTCGI_LOGGING' => 'Pinakamainam ang paggamit ng karanasan sa IIS/FastCGI sapi, i-set fastcgi. i-pag-log sa 0 sa iyong php.ini file.',
 
     //Collection Field
-    'LBL_COLLECTION_NAME' => 'Ang Pangalan',
+    'LBL_COLLECTION_NAME' => 'Pangalan',
     'LBL_COLLECTION_PRIMARY' => 'Pangunahin',
     'ERROR_MISSING_COLLECTION_SELECTION' => 'Ang kinakailangang patlang ay walang laman',
 
@@ -2221,7 +2221,7 @@ i-click Kanselahin upang bumalik sa modyul nang hindi nililikha ang {0}.',
     'LBL_FILTER_HEADER_TITLE' => 'Salain',
 
     'LBL_CATEGORY' => 'Kategorya',
-    'LBL_LIST_CATEGORY' => 'Kategorya',
+    'LBL_LIST_CATEGORY' => 'Uri',
     'ERR_FACTOR_TPL_INVALID' => 'Imbalido ang mensahe sa Awtentikasyon ng Paktor, mangyaring kontakin ang iyong administrador.',
     'LBL_SUBTHEMES' => 'Istilo',
     'LBL_SUBTHEME_OPTIONS_DAWN' => 'Madaling Araw',
@@ -2250,7 +2250,7 @@ i-click Kanselahin upang bumalik sa modyul nang hindi nililikha ang {0}.',
     'LBL_PRIMARY_GROUP' => "Pangunahing Pangkat",
 
     // footer
-    'LBL_SUITE_TOP' => 'Balik sa itaas',
+    'LBL_SUITE_TOP' => 'Balik sa una',
     'LBL_SUITE_SUPERCHARGED' => 'Pina-supercharge ng SuiteCRM',
     'LBL_SUITE_POWERED_BY' => 'Pinapatakbo Ng SugarCRM',
     'LBL_SUITE_DESC1' => 'SuiteCRM has been written and assembled by <a href="https://suitecrm.com/">SuiteCRM Ltd</a>. The Program is provided AS IS, without warranty. Licensed under AGPLv3.',
@@ -2293,7 +2293,7 @@ $app_list_strings['lawful_basis_source_dom'] = array(
     'website' => 'Website',
     'phone' => 'Telepono',
     'given_to_user' => 'Given to User',
-    'email' => 'Email',
+    'email' => 'Ang Email',
     'third_party' => 'Third Party',
 );
 //End GDPR lawful basis source options
@@ -3030,8 +3030,8 @@ $app_list_strings ['emailTemplates_type_list_no_workflow'] = array(
 $app_list_strings['moduleList']['AOK_KnowledgeBase'] = 'Base sa kaalaman';
 $app_list_strings['moduleList']['AOK_Knowledge_Base_Categories'] = 'KB - Mga Kategorya';
 $app_list_strings['aok_status_list']['Draft'] = 'Plano';
-$app_list_strings['aok_status_list']['Expired'] = 'Nag-expire na';
-$app_list_strings['aok_status_list']['In_Review'] = 'Sa Pagsusuri';
+$app_list_strings['aok_status_list']['Expired'] = 'Mawawalang bisa';
+$app_list_strings['aok_status_list']['In_Review'] = 'Muling tignan';
 //$app_list_strings['aok_status_list']['Published'] = 'Published';
 $app_list_strings['aok_status_list']['published_private'] = 'Pribado';
 $app_list_strings['aok_status_list']['published_public'] = 'Publiko';
@@ -3068,14 +3068,14 @@ $app_list_strings['case_state_default_key'] = 'Buksan';
 $app_list_strings['case_state_dom'] =
     array(
         'Open' => 'Buksan',
-        'Closed' => 'Sarado',
+        'Closed' => 'Sinarado',
     );
 $app_list_strings['case_status_default_key'] = 'Open_New';
 $app_list_strings['case_status_dom'] =
     array(
         'Open_New' => 'Bago',
         'Open_Assigned' => 'Ang naitalaga',
-        'Closed_Closed' => 'Sarado',
+        'Closed_Closed' => 'Sinarado',
         'Open_Pending Input' => 'Nakabinbing input',
         'Closed_Rejected' => 'Tinanggihan',
         'Closed_Duplicate' => 'Duplikado',
@@ -3088,8 +3088,8 @@ $app_list_strings['contact_portal_user_type_dom'] =
 $app_list_strings['dom_email_distribution_for_auto_create'] = array(
     'AOPDefault' => 'Default ng Sistema',
     'singleUser' => 'Isang Gumagamit',
-    'roundRobin' => 'Ang Paikot-Robin',
-    'leastBusy' => 'Masyado-Abala',
+    'roundRobin' => 'Paikot-Robin',
+    'leastBusy' => 'Kaliitliitan-Abala',
     'random' => 'Random',
 );
 
@@ -3101,12 +3101,12 @@ $app_list_strings['moduleList']['AOR_Fields'] = 'Iulat ang mga Patlang';
 $app_list_strings['moduleList']['AOR_Scheduled_Reports'] = 'Naka-iskedyul na mga Ulat';
 $app_list_strings['aor_operator_list']['Equal_To'] = 'Katumbas Sa';
 $app_list_strings['aor_operator_list']['Not_Equal_To'] = 'Hindi Katumbas Sa';
-$app_list_strings['aor_operator_list']['Greater_Than'] = 'Mahigit sa';
-$app_list_strings['aor_operator_list']['Less_Than'] = 'Mas mababa sa';
+$app_list_strings['aor_operator_list']['Greater_Than'] = 'Mas Higit Sa';
+$app_list_strings['aor_operator_list']['Less_Than'] = 'Mas Mababa sa';
 $app_list_strings['aor_operator_list']['Greater_Than_or_Equal_To'] = 'Mas Higit Pa o Katumbas Sa';
 $app_list_strings['aor_operator_list']['Less_Than_or_Equal_To'] = 'Mas Mababa o Katumbas Sa';
-$app_list_strings['aor_operator_list']['Contains'] = 'Mga nilalaman';
-$app_list_strings['aor_operator_list']['Starts_With'] = 'Nagsisimula Sasa';
+$app_list_strings['aor_operator_list']['Contains'] = 'Ang mga nilalaman';
+$app_list_strings['aor_operator_list']['Starts_With'] = 'Magsimula sa';
 $app_list_strings['aor_operator_list']['Ends_With'] = 'Nagtatapos Sa';
 $app_list_strings['aor_format_options'][''] = '';
 $app_list_strings['aor_format_options']['Y-m-d'] = 'Ang Y-m-d';
@@ -3142,8 +3142,8 @@ $app_list_strings['aor_date_operator']['now'] = '';
 $app_list_strings['aor_date_operator']['plus'] = '+';
 $app_list_strings['aor_date_operator']['minus'] = '-';
 $app_list_strings['aor_sort_operator'][''] = '';
-$app_list_strings['aor_sort_operator']['ASC'] = 'Pataas';
-$app_list_strings['aor_sort_operator']['DESC'] = 'Pababa';
+$app_list_strings['aor_sort_operator']['ASC'] = 'Ang pataas';
+$app_list_strings['aor_sort_operator']['DESC'] = 'Ang pababa';
 $app_list_strings['aor_function_list'][''] = '';
 $app_list_strings['aor_function_list']['COUNT'] = 'Ang Bilang';
 $app_list_strings['aor_function_list']['MIN'] = 'Ang pinakamaliit';
@@ -3166,7 +3166,7 @@ $app_list_strings['aor_scheduled_report_schedule_types']['daily'] = 'Arawaraw';
 $app_list_strings['aor_scheduled_reports_status_dom']['active'] = 'Gawing aktibo';
 $app_list_strings['aor_scheduled_reports_status_dom']['inactive'] = 'Huwag gawing aktibo';
 $app_list_strings['aor_email_type_list']['Email Address'] = 'Email';
-$app_list_strings['aor_email_type_list']['Specify User'] = 'Ang gumagamit';
+$app_list_strings['aor_email_type_list']['Specify User'] = 'Ang Tagagamit';
 $app_list_strings['aor_email_type_list']['Users'] = 'Ang mga gumagamit';
 $app_list_strings['aor_assign_options']['all'] = 'Ang lahat ng gumagamit';
 $app_list_strings['aor_assign_options']['role'] = 'Ang lahat ng gumagamit ng role';
@@ -3209,7 +3209,7 @@ $app_list_strings['aos_quotes_type_dom']['Competitor'] = 'Kakompentsya';
 $app_list_strings['aos_quotes_type_dom']['Customer'] = 'Kustomer';
 $app_list_strings['aos_quotes_type_dom']['Integrator'] = 'Integerator';
 $app_list_strings['aos_quotes_type_dom']['Investor'] = 'Namumuhunan';
-$app_list_strings['aos_quotes_type_dom']['Partner'] = 'Ang Kapareha';
+$app_list_strings['aos_quotes_type_dom']['Partner'] = 'Kapareha';
 $app_list_strings['aos_quotes_type_dom']['Press'] = 'Pindutin';
 $app_list_strings['aos_quotes_type_dom']['Prospect'] = 'Paghahanap';
 $app_list_strings['aos_quotes_type_dom']['Reseller'] = 'Taga-benta';
@@ -3221,7 +3221,7 @@ $app_list_strings['quote_stage_dom']['Delivered'] = 'Naihatid';
 $app_list_strings['quote_stage_dom']['On Hold'] = 'Nasa hawakan';
 $app_list_strings['quote_stage_dom']['Confirmed'] = 'Kumpirmado';
 $app_list_strings['quote_stage_dom']['Closed Accepted'] = 'Saradong Tinanggap';
-$app_list_strings['quote_stage_dom']['Closed Lost'] = 'Isanara na pagkatalo';
+$app_list_strings['quote_stage_dom']['Closed Lost'] = 'Isarado ang Talo';
 $app_list_strings['quote_stage_dom']['Closed Dead'] = 'Saradong Patay';
 $app_list_strings['quote_term_dom']['Net 15'] = 'Nett 15';
 $app_list_strings['quote_term_dom']['Net 30'] = 'Nett 30';
@@ -3242,7 +3242,7 @@ $app_list_strings['aos_invoices_type_dom']['Competitor'] = 'Kakompentsya';
 $app_list_strings['aos_invoices_type_dom']['Customer'] = 'Kustomer';
 $app_list_strings['aos_invoices_type_dom']['Integrator'] = 'Integerator';
 $app_list_strings['aos_invoices_type_dom']['Investor'] = 'Namumuhunan';
-$app_list_strings['aos_invoices_type_dom']['Partner'] = 'Ang Kapareha';
+$app_list_strings['aos_invoices_type_dom']['Partner'] = 'Kapareha';
 $app_list_strings['aos_invoices_type_dom']['Press'] = 'Pindutin';
 $app_list_strings['aos_invoices_type_dom']['Prospect'] = 'Paghahanap';
 $app_list_strings['aos_invoices_type_dom']['Reseller'] = 'Taga-benta';
@@ -3287,18 +3287,18 @@ $app_list_strings['aow_status_list']['Active'] = 'Gawing aktibo';
 $app_list_strings['aow_status_list']['Inactive'] = 'Huwag gawing aktibo';
 $app_list_strings['aow_operator_list']['Equal_To'] = 'Katumbas Sa';
 $app_list_strings['aow_operator_list']['Not_Equal_To'] = 'Hindi Katumbas Sa';
-$app_list_strings['aow_operator_list']['Greater_Than'] = 'Mahigit sa';
-$app_list_strings['aow_operator_list']['Less_Than'] = 'Mas mababa sa';
+$app_list_strings['aow_operator_list']['Greater_Than'] = 'Mas Higit Sa';
+$app_list_strings['aow_operator_list']['Less_Than'] = 'Mas Mababa sa';
 $app_list_strings['aow_operator_list']['Greater_Than_or_Equal_To'] = 'Mas Higit Pa o Katumbas Sa';
 $app_list_strings['aow_operator_list']['Less_Than_or_Equal_To'] = 'Mas Mababa o Katumbas Sa';
-$app_list_strings['aow_operator_list']['Contains'] = 'Mga nilalaman';
-$app_list_strings['aow_operator_list']['Starts_With'] = 'Nagsisimula Sasa';
+$app_list_strings['aow_operator_list']['Contains'] = 'Ang mga nilalaman';
+$app_list_strings['aow_operator_list']['Starts_With'] = 'Magsimula sa';
 $app_list_strings['aow_operator_list']['Ends_With'] = 'Nagtatapos Sa';
 $app_list_strings['aow_operator_list']['is_null'] = 'Ay Null';
 $app_list_strings['aow_process_status_list']['Complete'] = 'Kumpleto';
 $app_list_strings['aow_process_status_list']['Running'] = 'Tumatakbo';
 $app_list_strings['aow_process_status_list']['Pending'] = 'Nakabinbin';
-$app_list_strings['aow_process_status_list']['Failed'] = 'Pumalya';
+$app_list_strings['aow_process_status_list']['Failed'] = 'Nabigo';
 $app_list_strings['aow_condition_operator_list']['And'] = 'At';
 $app_list_strings['aow_condition_operator_list']['OR'] = 'OR';
 $app_list_strings['aow_condition_type_list']['Value'] = 'Halaga';
@@ -3308,7 +3308,7 @@ $app_list_strings['aow_condition_type_list']['SecurityGroup'] = 'Ang seguridad n
 $app_list_strings['aow_condition_type_list']['Date'] = 'Petsa';
 $app_list_strings['aow_condition_type_list']['Multi'] = 'Isa sa';
 $app_list_strings['aow_action_type_list']['Value'] = 'Halaga';
-$app_list_strings['aow_action_type_list']['Field'] = 'Patlang';
+$app_list_strings['aow_action_type_list']['Field'] = 'Lupain';
 $app_list_strings['aow_action_type_list']['Date'] = 'Petsa';
 $app_list_strings['aow_action_type_list']['Round_Robin'] = 'Pagikot ng robin';
 $app_list_strings['aow_action_type_list']['Least_Busy'] = 'Hindi gaanong abala';
@@ -3335,7 +3335,7 @@ $app_list_strings['aow_assign_options']['security_group'] = 'Ang mga gumagamit n
 $app_list_strings['aow_email_type_list']['Email Address'] = 'Email';
 $app_list_strings['aow_email_type_list']['Record Email'] = 'Ang talaan ng email';
 $app_list_strings['aow_email_type_list']['Related Field'] = 'Ang kaugnay na larangan';
-$app_list_strings['aow_email_type_list']['Specify User'] = 'Ang gumagamit';
+$app_list_strings['aow_email_type_list']['Specify User'] = 'Ang Tagagamit';
 $app_list_strings['aow_email_type_list']['Users'] = 'Ang mga gumagamit';
 $app_list_strings['aow_email_to_list']['to'] = 'Para';
 $app_list_strings['aow_email_to_list']['cc'] = 'Cc';
@@ -3392,7 +3392,7 @@ $app_list_strings['map_relate_type_list']['Leads'] = 'Pamunuan';
 $app_list_strings['map_relate_type_list']['Meetings'] = 'Ang Pag-uusapan';
 $app_list_strings['map_relate_type_list']['Opportunities'] = 'Oportunidad';
 $app_list_strings['map_relate_type_list']['Project'] = 'Proyekto';
-$app_list_strings['map_relate_type_list']['Prospects'] = 'Pinatatamaan';
+$app_list_strings['map_relate_type_list']['Prospects'] = 'Sinasapul';
 
 $app_list_strings['marker_image_list']['accident'] = 'Disgrasya';
 $app_list_strings['marker_image_list']['administration'] = 'Administrasyon';
@@ -3434,8 +3434,8 @@ $app_list_strings['marker_image_list']['cluster_5'] = 'Ika-5 na Kumpol';
 $app_list_strings['marker_image_list']['coffee'] = 'Kape';
 $app_list_strings['marker_image_list']['community_centre'] = 'Sentro ng Komunidad';
 $app_list_strings['marker_image_list']['company'] = 'Kompanya';
-$app_list_strings['marker_image_list']['conference'] = 'Pagpupulong';
-$app_list_strings['marker_image_list']['construction'] = 'Konstruksiyon';
+$app_list_strings['marker_image_list']['conference'] = 'Panayam';
+$app_list_strings['marker_image_list']['construction'] = 'Konstrukasyon';
 $app_list_strings['marker_image_list']['convenience'] = 'Kaluwagan';
 $app_list_strings['marker_image_list']['court'] = 'Korte';
 $app_list_strings['marker_image_list']['cruise'] = 'Ang cruise';
@@ -3663,7 +3663,7 @@ $app_strings['LBL_PANEL_SOCIAL_FEED'] = 'Ang Sosyal na mga Detalye sa Feed';
 
 $app_strings['LBL_SUBPANEL_FILTER_LABEL'] = 'Salain';
 
-$app_strings['LBL_COLLECTION_TYPE'] = 'Ang Klase';
+$app_strings['LBL_COLLECTION_TYPE'] = 'Klase';
 
 $app_strings['LBL_ADD_TAB'] = 'Idagdag sa tab';
 $app_strings['LBL_EDIT_TAB'] = 'I-edit ang mga tabs';
@@ -3750,7 +3750,7 @@ $app_list_strings['moduleList']['SurveyQuestions'] = 'Mga tanong sa pagsisiyasat
 $app_list_strings['moduleList']['SurveyQuestionOptions'] = 'Mga pagpipilian ng tanong sa pagsisiyasat';
 $app_list_strings['survey_status_list']['Draft'] = 'Plano';
 $app_list_strings['survey_status_list']['Public'] = 'Publiko';
-$app_list_strings['survey_status_list']['Closed'] = 'Sarado';
+$app_list_strings['survey_status_list']['Closed'] = 'Sinarado';
 $app_list_strings['surveys_question_type']['Text'] = 'I-text';
 $app_list_strings['surveys_question_type']['Textbox'] = 'Kahon ng teksto';
 $app_list_strings['surveys_question_type']['Checkbox'] = 'Tsekbox';
@@ -3774,7 +3774,7 @@ $app_strings['LBL_OPT_IN_PENDING_EMAIL_SENT'] = 'Nakabinbin Kumpirmahin ang opt 
 $app_strings['LBL_OPT_IN'] = 'Ang sumali';
 $app_strings['LBL_OPT_IN_CONFIRMED'] = 'Kumpirmahin ang pumili sa';
 $app_strings['LBL_OPT_IN_OPT_OUT'] = 'Nagpasyang sumali';
-$app_strings['LBL_OPT_IN_INVALID'] = 'Imbalido';
+$app_strings['LBL_OPT_IN_INVALID'] = 'Hindi wasto';
 
 /** @see SugarEmailAddress */
 $app_list_strings['email_settings_opt_in_dom'] = array(
@@ -3833,7 +3833,7 @@ $app_list_strings['calendar_account_types'] = [
 $app_list_strings['calendar_connection_status_list'] = [
     'never_tested' => 'Never Tested',
     'success' => 'Nakakonekta',
-    'failed' => 'Pumalya',
+    'failed' => 'Nabigo',
 ];
 
 // Calendar Sync Attempt Status dropdown

@@ -32,13 +32,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = [
     // System fields
     'LBL_ASSIGNED_TO_ID' => 'Identifiant de l\'utilisateur assigné',
-    'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_DATE_ENTERED' => 'Date de création',
     'LBL_DATE_MODIFIED' => 'Date de modification',
     'LBL_MODIFIED' => 'Modifié par',
-    'LBL_MODIFIED_NAME' => 'Modifié par',
+    'LBL_MODIFIED_NAME' => 'Modifié par (Nom)',
     'LBL_CREATED' => 'Créé par',
-    'LBL_CREATED_USER' => 'Créé par',
+    'LBL_CREATED_USER' => 'Créé par l\'utilisateur',
     'LBL_MODIFIED_USER' => 'Modifié par l\'utilisateur',
     'LBL_DESCRIPTION' => 'Description',
     'LBL_DELETED' => 'Supprimé',
@@ -52,17 +52,17 @@ $mod_strings = [
     'LBL_LIST_DELETE' => 'Supprimer',
     'LBL_EDIT_BUTTON' => 'Modifier',
     'LBL_REMOVE' => 'Supprimer',
-    'LBL_ASCENDING' => 'Croissant',
-    'LBL_DESCENDING' => 'Décroissant',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
 
     // Email opt-in labels
     'LBL_OPT_IN' => 'Consentement',
-    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Dans l\'attente de la confirmation opt-in, Confirmation opt-in non envoyée',
-    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Dans l\'attente de la confirmation opt-in, Confirmation opt-in envoyée',
-    'LBL_OPT_IN_CONFIRMED' => 'Activé',
+    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Dans l\'attente de la confirmation de consentement, confirmation de consentement non envoyée',
+    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'Dans l\'attente de la confirmation de consentement, confirmation de consentement envoyée',
+    'LBL_OPT_IN_CONFIRMED' => 'Validé',
 
     // Subpanel titles
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Voir l&#39;Historique',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Afficher l\'historique',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activités',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
@@ -102,7 +102,7 @@ $mod_strings = [
 
     // Basic Auth Fields
     'LBL_USERNAME' => 'Nom d\'utilisateur',
-    'LBL_PASSWORD' => 'Mot de passe',
+    'LBL_PASSWORD' => 'Password',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test Connection',
 
@@ -163,10 +163,10 @@ $mod_strings = [
 
     // Connection test messages
     'LBL_CALENDAR' => 'Calendrier',
-    'LBL_SUCCESSFUL' => 'Réussi',
-    'LBL_FAILED' => 'Echec',
+    'LBL_SUCCESSFUL' => 'Successful',
+    'LBL_FAILED' => 'Failed',
     'LBL_CONNECTION_TEST' => 'Connection Test',
-    'LBL_YES' => 'Oui',
+    'LBL_YES' => 'Yes',
     'LBL_NO' => 'Non',
     'LBL_FOUND_CALENDARS' => 'Found {count} calendars.',
     'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'An error occurred while processing the connection test response. Please check the logs for details.',
@@ -182,12 +182,12 @@ $mod_strings = [
 
     // Dialog labels
     'LBL_NOTIFICATION' => 'Notification',
-    'LBL_CONFIRM' => 'Confirmation',
+    'LBL_CONFIRM' => 'Confirm',
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => 'En traitement',
-    'LBL_SYNC_STATUS_SUCCESS' => 'Succès',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => 'En cours',
+    'LBL_SYNC_STATUS_SUCCESS' => 'Success',
     'LBL_SYNC_STATUS_WARNING' => 'Avertissement',
     'LBL_SYNC_STATUS_ERROR' => 'Erreur',
 

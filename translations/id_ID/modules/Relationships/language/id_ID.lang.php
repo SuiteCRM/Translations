@@ -54,9 +54,9 @@ $mod_strings = array(
     'LBL_JOIN_TABLE' => 'Nama Join Table',
     'LBL_JOIN_KEY_LHS' => 'Kunci Gabungan LHS',
     'LBL_JOIN_KEY_RHS' => 'Kunci Gabungan RHS',
-    'LBL_RELATIONSHIP_TYPE' => 'Tipe Hubungan',
+    'LBL_RELATIONSHIP_TYPE' => 'Relationship Type',
     'LBL_RELATIONSHIP_ROLE_COLUMN' => 'Nama kolom Relationship Role',
     'LBL_RELATIONSHIP_ROLE_COLUMN_VALUE' => 'Nilai Kolom Relationship Role',
     'LBL_REVERSE' => 'Terbalik',
-    'LBL_DELETED' => 'Hapus',
+    'LBL_DELETED' => 'Deleted',
 );

@@ -53,14 +53,14 @@ $mod_strings = array(
     'LBL_MODIFIED' => 'द्वारा संशोधित',
     'LBL_MODIFIED_NAME' => 'नाम से संशोधित',
     'LBL_CREATED' => 'के द्वारा बनाई गई',
-    'LBL_DESCRIPTION' => 'विवरण',
-    'LBL_DELETED' => 'हटाई गई',
+    'LBL_DESCRIPTION' => 'विवरण ',
+    'LBL_DELETED' => 'हटाए गए',
     'LBL_NAME' => 'नाम',
     'LBL_CREATED_USER' => 'उपयोगकर्ता द्वारा बनाया गया',
     'LBL_MODIFIED_USER' => 'उपयोगकर्ता द्वारा संशोधित',
     'LBL_LIST_NAME' => 'नाम',
-    'LBL_EDIT_BUTTON' => 'संशोधन करें',
-    'LBL_REMOVE' => 'हटाऐं',
+    'LBL_EDIT_BUTTON' => 'संपादित करें',
+    'LBL_REMOVE' => 'हटाएँ',
     'LBL_LIST_FORM_TITLE' => 'पिवट सूची',
     'LBL_MODULE_NAME' => 'प्रधान आधार',
     'LBL_MODULE_TITLE' => 'प्रधान आधार',
@@ -99,7 +99,7 @@ $mod_strings = array(
     'LBL_AN_LEADS_DAY' => 'दिन',
 
     //Analytics labels for sales pivot
-    'LBL_AN_SALES_ACCOUNT_NAME' => 'खाते का नाम',
+    'LBL_AN_SALES_ACCOUNT_NAME' => 'खाता नाम',
     'LBL_AN_SALES_OPPORTUNITY_NAME' => 'अवसर का नाम',
     'LBL_AN_SALES_ASSIGNED_USER' => 'निर्दिष्ट उपयोगकर्ता',
     'LBL_AN_SALES_OPPORTUNITY_TYPE' => 'अवसर प्रकार',
@@ -116,7 +116,7 @@ $mod_strings = array(
     'LBL_AN_SALES_CAMPAIGN' => 'अभियान',
 
     //Analytics labels for service pivot
-    'LBL_AN_SERVICE_ACCOUNT_NAME' => 'खाते का नाम',
+    'LBL_AN_SERVICE_ACCOUNT_NAME' => 'खाता नाम',
     'LBL_AN_SERVICE_STATE' => 'राज्य',
     'LBL_AN_SERVICE_STATUS' => 'स्थिति',
     'LBL_AN_SERVICE_PRIORITY' => 'प्राथमिकता',
@@ -144,7 +144,7 @@ $mod_strings = array(
     'LBL_AN_MARKETING_OPPORTUNITY_AMOUNT' => 'अवसर राशि',
     'LBL_AN_MARKETING_OPPORTUNITY_SALES_STAGE' => 'अवसर बिक्री चरण',
     'LBL_AN_MARKETING_OPPORTUNITY_ASSIGNED_TO' => 'अवसर आवंटित किया गया',
-    'LBL_AN_MARKETING_ACCOUNT_NAME' => 'खाते का नाम',
+    'LBL_AN_MARKETING_ACCOUNT_NAME' => 'खाता नाम',
 
     //Analytics labels for the marketing activities pivot
     'LBL_AN_MARKETINGACTIVITY_CAMPAIGN_NAME' => 'अभियान का नाम',
@@ -158,7 +158,7 @@ $mod_strings = array(
     'LBL_AN_QUOTES_OPPORTUNITY_TYPE' => 'अवसर का प्रकार',
     'LBL_AN_QUOTES_OPPORTUNITY_LEAD_SOURCE' => 'अवसर लीड स्रोत',
     'LBL_AN_QUOTES_OPPORTUNITY_SALES_STAGE' => 'अवसर बिक्री चरण',
-    'LBL_AN_QUOTES_ACCOUNT_NAME' => 'खाते का नाम',
+    'LBL_AN_QUOTES_ACCOUNT_NAME' => 'खाता नाम',
     'LBL_AN_QUOTES_CONTACT_NAME' => 'संपर्क नाम',
     'LBL_AN_QUOTES_ITEM_NAME' => 'आइटम का नाम',
     'LBL_AN_QUOTES_ITEM_TYPE' => 'वस्तु का प्रकार',

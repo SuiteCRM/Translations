@@ -38,20 +38,20 @@ $mod_strings = [
     'LBL_MODIFIED' => 'Změnil',
     'LBL_MODIFIED_NAME' => 'Změněno dle Jména',
     'LBL_CREATED' => 'Vytvořeno',
-    'LBL_CREATED_USER' => 'Vytvořeno uživatelem',
+    'LBL_CREATED_USER' => 'Vytvořeno dle Uživatele',
     'LBL_MODIFIED_USER' => 'Změněno Uživatelem',
     'LBL_DESCRIPTION' => 'Popis',
     'LBL_DELETED' => 'Vymazáno',
 
     // Security groups
-    'LBL_SECURITYGROUPS' => 'Skupiny zabezpečení',
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Skupiny zabezpečení',
+    'LBL_SECURITYGROUPS' => 'Security Groups',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
 
     // List view labels
-    'LBL_LIST_NAME' => 'Jméno',
+    'LBL_LIST_NAME' => 'Název',
     'LBL_LIST_DELETE' => 'Smazat',
     'LBL_EDIT_BUTTON' => 'Upravit',
-    'LBL_REMOVE' => 'Odebrat',
+    'LBL_REMOVE' => 'Odstranit',
     'LBL_ASCENDING' => 'Vzestupně',
     'LBL_DESCENDING' => 'Sestupně',
 
@@ -62,7 +62,7 @@ $mod_strings = [
     'LBL_OPT_IN_CONFIRMED' => 'Opted In',
 
     // Subpanel titles
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Historie',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Zobrazit historii',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktivity',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
@@ -91,7 +91,7 @@ $mod_strings = [
     'LNK_LIST' => 'View Calendar Accounts',
 
     // Standard fields
-    'LBL_NAME' => 'Jméno',
+    'LBL_NAME' => 'Název',
     'LBL_ID' => 'ID',
     'LBL_TYPE' => 'Typ',
     'LBL_SOURCE' => 'Calendar Source',
@@ -163,7 +163,7 @@ $mod_strings = [
 
     // Connection test messages
     'LBL_CALENDAR' => 'Kalendář',
-    'LBL_SUCCESSFUL' => 'Úspěšný',
+    'LBL_SUCCESSFUL' => 'Successful',
     'LBL_FAILED' => 'Selhalo',
     'LBL_CONNECTION_TEST' => 'Connection Test',
     'LBL_YES' => 'Ano',
@@ -187,9 +187,9 @@ $mod_strings = [
 
     // Sync status enum translations
     'LBL_SYNC_STATUS_IN_PROGRESS' => 'V procesu',
-    'LBL_SYNC_STATUS_SUCCESS' => 'Úspěšně',
-    'LBL_SYNC_STATUS_WARNING' => 'Upozornění',
-    'LBL_SYNC_STATUS_ERROR' => 'Chyba:',
+    'LBL_SYNC_STATUS_SUCCESS' => 'Success',
+    'LBL_SYNC_STATUS_WARNING' => 'Warning',
+    'LBL_SYNC_STATUS_ERROR' => 'Error',
 
     // Sync message enum translations
     'LBL_SYNC_MSG_SYNC_COMPLETE' => 'All meetings synced.',

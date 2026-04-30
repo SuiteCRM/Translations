@@ -44,13 +44,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     //Column header mapping
-    'action' => 'Darbība',
-    'date_modified' => 'Pēdējās darbības datums',
+    'action' => 'Action',
+    'date_modified' => 'Date of Last Action',
     'item_id' => 'ID',
     'item_summary' => 'Vārds:',
-    'module_name' => 'Moduļa nosaukums',
-    'users' => 'Lietotājs',
+    'module_name' => 'Module Name',
+    'users' => 'Users',
 
     //Administration related labels
-    'LBL_MODULE_NAME' => 'Sekotājs',
+    'LBL_MODULE_NAME' => 'Trackers',
 );

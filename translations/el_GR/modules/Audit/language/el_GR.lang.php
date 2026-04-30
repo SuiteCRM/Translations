@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_FIELD_NAME' => 'Πεδίο',
+    'LBL_FIELD_NAME' => 'Field',
     'LBL_OLD_NAME' => 'Παλαιά τιμή',
     'LBL_NEW_VALUE' => 'Νέα τιμή',
     'LBL_CREATED_BY' => 'Άλλαξε από',
     'LBL_LIST_DATE' => 'Ημ/νία αλλαγής',
     'LBL_AUDITED_FIELDS' => 'Πεδία που αναζητήθηκαν: ',
-    'LBL_CHANGE_LOG' => 'Ημερολόγιο αλλαγών',
+    'LBL_CHANGE_LOG' => 'Αλλαγή Σύνδεσης:',
 );

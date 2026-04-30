@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EMAIL_ADDRESS_ID' => '编号',
+    'LBL_EMAIL_ADDRESS_ID' => 'ID',
     'LBL_EMAIL_ADDRESS' => 'Email 地址',
     'LBL_EMAIL_ADDRESS_CAPS' => '邮件地址帽',
-    'LBL_INVALID_EMAIL' => '退信，无效的邮箱',
-    'LBL_OPT_OUT' => '选择退出',
+    'LBL_INVALID_EMAIL' => 'Invalid Email',
+    'LBL_OPT_OUT' => '退订',
     'LBL_CONFIRM_OPT_IN' => '确认参与',
     'LBL_DATE_CREATE' => '创建日期',
     'LBL_DATE_MODIFIED' => '修改日期',

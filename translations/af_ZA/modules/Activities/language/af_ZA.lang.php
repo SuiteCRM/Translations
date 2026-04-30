@@ -43,29 +43,29 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Aktiwiteite',
+    'LBL_MODULE_NAME' => 'Activities',
     'LBL_MODULE_TITLE' => 'Activities: Home',
     'LBL_SEARCH_FORM_TITLE' => 'Activities Search',
     'LBL_LIST_FORM_TITLE' => 'Activities List',
-    'LBL_LIST_SUBJECT' => 'Onderwerp',
-    'LBL_OVERVIEW' => 'Oorsig', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_LIST_SUBJECT' => 'Subject',
+    'LBL_OVERVIEW' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_TASKS' => 'TASKS', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_MEETINGS' => 'MEETINGS', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_CALLS' => 'CALLS', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_EMAILS' => 'EMAILS', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_NOTES' => 'NOTES', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_PRINT' => 'PRINT', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
-    'LBL_MEETING_TYPE' => 'Vergadering',
-    'LBL_CALL_TYPE' => 'Oproep',
-    'LBL_EMAIL_TYPE' => 'Epos',
-    'LBL_NOTE_TYPE' => 'Nota',
+    'LBL_MEETING_TYPE' => 'Meeting',
+    'LBL_CALL_TYPE' => 'Call',
+    'LBL_EMAIL_TYPE' => 'Email',
+    'LBL_NOTE_TYPE' => 'Note',
     'LBL_DATA_TYPE_START' => 'Start:',
     'LBL_DATA_TYPE_SENT' => 'Sent:',
     'LBL_DATA_TYPE_MODIFIED' => 'Modified:',
-    'LBL_LIST_CONTACT' => 'Kontak',
+    'LBL_LIST_CONTACT' => 'Contact',
     'LBL_LIST_RELATED_TO' => 'Verwant tot',
     'LBL_LIST_DATE' => 'Datum',
-    'LBL_LIST_CLOSE' => 'Maak toe',
+    'LBL_LIST_CLOSE' => 'Close',
     'LBL_SUBJECT' => 'Subject:',
     'LBL_STATUS' => 'Status:',
     'LBL_LOCATION' => 'Location:',
@@ -114,5 +114,5 @@ $mod_strings = array(
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Open Activities',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigned User',
 
-    'LBL_ACCEPT' => 'Aanvaar' /*for 508 compliance fix*/,
+    'LBL_ACCEPT' => 'Accept' /*for 508 compliance fix*/,
 );

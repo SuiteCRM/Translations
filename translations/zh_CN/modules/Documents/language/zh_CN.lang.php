@@ -46,12 +46,12 @@ $mod_strings = array(
     //module
     'LBL_MODULE_NAME' => '文档',
     'LBL_MODULE_TITLE' => '文档',
-    'LNK_NEW_DOCUMENT' => '创建文档',
+    'LNK_NEW_DOCUMENT' => 'Create Document',
     'LNK_DOCUMENT_LIST' => '查看文档',
     'LBL_DOC_REV_HEADER' => '文档版本',
-    'LBL_SEARCH_FORM_TITLE' => '搜索',
+    'LBL_SEARCH_FORM_TITLE' => 'Document Search',
     //vardef labels
-    'LBL_NAME' => '名称',
+    'LBL_NAME' => '文档名称',
     'LBL_DESCRIPTION' => '说明',
     'LBL_CATEGORY' => '类别',
     'LBL_SUBCATEGORY' => '子类别',
@@ -66,7 +66,7 @@ $mod_strings = array(
     'LBL_REVISIONS' => '版本',
     'LBL_RELATED_DOCUMENT_ID' => '关联的文档ID',
     'LBL_RELATED_DOCUMENT_REVISION_ID' => '关联的文档版本ID',
-    'LBL_IS_TEMPLATE' => '模板',
+    'LBL_IS_TEMPLATE' => '是否是模板',
     'LBL_TEMPLATE_TYPE' => '文档类型',
     'LBL_ASSIGNED_TO_NAME' => '负责人',
     'LBL_REVISION_NAME' => '版本号',
@@ -76,21 +76,21 @@ $mod_strings = array(
     'LBL_LATEST_REVISION' => '最新版本',
     'LBL_CHANGE_LOG' => '更改日志',
     'LBL_ACTIVE_DATE' => '发布日期',
-    'LBL_EXPIRATION_DATE' => '到期日期',
+    'LBL_EXPIRATION_DATE' => 'Expiration Date',
     'LBL_FILE_EXTENSION' => '文件扩展名',
     'LBL_LAST_REV_MIME_TYPE' => '最新版本的 Mime 类型',
     'LBL_CAT_OR_SUBCAT_UNSPEC' => '未指定',
     'LBL_HOMEPAGE_TITLE' => '文档',
     //quick search
-    'LBL_NEW_FORM_TITLE' => '新建',
+    'LBL_NEW_FORM_TITLE' => 'New Document',
     //document edit and detail view
     'LBL_DOC_NAME' => '文档名称',
     'LBL_FILENAME' => '文件名',
-    'LBL_LIST_FILENAME' => '文件名',
+    'LBL_LIST_FILENAME' => '文件',
     'LBL_DOC_VERSION' => '版本',
-    'LBL_FILE_UPLOAD' => '文件名',
+    'LBL_FILE_UPLOAD' => '文件',
 
-    'LBL_CATEGORY_VALUE' => '产品类别',
+    'LBL_CATEGORY_VALUE' => '类别',
     'LBL_LIST_CATEGORY' => '类别',
     'LBL_SUBCATEGORY_VALUE' => '子类别',
     'LBL_DOC_STATUS' => '状态',
@@ -105,7 +105,7 @@ $mod_strings = array(
     'LBL_DET_TEMPLATE_TYPE' => '文档类型',
     'LBL_DOC_DESCRIPTION' => '说明',
     'LBL_DOC_ACTIVE_DATE' => '发布日期',
-    'LBL_DOC_EXP_DATE' => '到期日期',
+    'LBL_DOC_EXP_DATE' => 'Expiration Date:',
 
     //document list view.
     'LBL_LIST_FORM_TITLE' => '文档列表',
@@ -113,10 +113,10 @@ $mod_strings = array(
     'LBL_LIST_SUBCATEGORY' => '子类别',
     'LBL_LIST_REVISION' => '版本',
     'LBL_LIST_LAST_REV_CREATOR' => '版本创建人',
-    'LBL_LIST_LAST_REV_DATE' => '改版日期',
-    'LBL_LIST_VIEW_DOCUMENT' => '查看',
+    'LBL_LIST_LAST_REV_DATE' => 'Revision Date',
+    'LBL_LIST_VIEW_DOCUMENT' => '视图',
     'LBL_LIST_ACTIVE_DATE' => '发布日期',
-    'LBL_LIST_EXP_DATE' => '到期日期',
+    'LBL_LIST_EXP_DATE' => 'Expiration Date',
     'LBL_LIST_STATUS' => '状态',
     'LBL_LINKED_ID' => '链接ID',
     'LBL_SELECTED_REVISION_ID' => '选择的版本ID',
@@ -125,29 +125,29 @@ $mod_strings = array(
     'LBL_FILE_URL' => '文件 URL',
 
     //document search form.
-    'LBL_SF_CATEGORY' => '产品类别',
+    'LBL_SF_CATEGORY' => '类别',
     'LBL_SF_SUBCATEGORY' => '子类别',
 
     'DEF_CREATE_LOG' => '文档已创建',
 
     //error messages
-    'ERR_DOC_NAME' => '名称',
+    'ERR_DOC_NAME' => '文档名称',
     'ERR_DOC_ACTIVE_DATE' => '发布日期',
     'ERR_FILENAME' => '文件名',
     'ERR_DOC_VERSION' => '版本',
-    'ERR_DELETE_CONFIRM' => '您确定要删除？',
+    'ERR_DELETE_CONFIRM' => 'Do you want to delete this document revision?',
     'ERR_DELETE_LATEST_VERSION' => '您不能删除文档的最新版本。',
     'LNK_NEW_MAIL_MERGE' => '邮件合并',
     'ERR_MISSING_FILE' => '可能是由于上传时出错，本文档缺少文件。 请重试上传文件或联系管理员。',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => '名称',
+    'LBL_LIST_DOCUMENT_NAME' => '追踪器',
     'LBL_LIST_IS_TEMPLATE' => '模板',
     'LBL_LIST_TEMPLATE_TYPE' => '文档类型',
     'LBL_LAST_REV_CREATE_DATE' => '最新版本创建日期',
     'LBL_CONTRACTS' => '合同',
     'LBL_CREATED_USER' => '创建人',
-    'LBL_DOCUMENT_INFORMATION' => '客户信息', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_DOCUMENT_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_DOC_ID' => '文档源ID',
     'LBL_DOC_TYPE' => '类型',
     'LBL_DOC_TYPE_POPUP' => '选择此文档的来源。',

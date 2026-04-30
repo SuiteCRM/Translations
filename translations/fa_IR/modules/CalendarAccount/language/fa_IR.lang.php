@@ -31,21 +31,21 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
     // System fields
-    'LBL_ASSIGNED_TO_ID' => 'شناسه کاربر تخصیص یافته',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
     'LBL_ASSIGNED_TO_NAME' => 'اختصاص داده شده به',
-    'LBL_DATE_ENTERED' => 'تاریخ ایجاد',
-    'LBL_DATE_MODIFIED' => 'تاریخ ویرایش',
-    'LBL_MODIFIED' => 'ویرایش کننده',
+    'LBL_DATE_ENTERED' => 'Date Created',
+    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_MODIFIED' => 'Modified By',
     'LBL_MODIFIED_NAME' => 'نام ویرایش کننده',
-    'LBL_CREATED' => 'ایجاد کننده',
-    'LBL_CREATED_USER' => 'کاربر ایجاد کننده',
+    'LBL_CREATED' => 'Created By',
+    'LBL_CREATED_USER' => 'Created by User',
     'LBL_MODIFIED_USER' => 'کاربر ویرایش کننده',
-    'LBL_DESCRIPTION' => 'توضیحات',
+    'LBL_DESCRIPTION' => 'Description',
     'LBL_DELETED' => 'حذف شده',
 
     // Security groups
-    'LBL_SECURITYGROUPS' => 'گروه های امنیتی',
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'گروه های امنیتی',
+    'LBL_SECURITYGROUPS' => 'Security Groups',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
 
     // List view labels
     'LBL_LIST_NAME' => 'نام',
@@ -53,7 +53,7 @@ $mod_strings = [
     'LBL_EDIT_BUTTON' => 'ویرایش',
     'LBL_REMOVE' => 'حذف',
     'LBL_ASCENDING' => 'صعودی',
-    'LBL_DESCENDING' => 'نزولی',
+    'LBL_DESCENDING' => 'Descending',
 
     // Email opt-in labels
     'LBL_OPT_IN' => 'عضویت',
@@ -62,7 +62,7 @@ $mod_strings = [
     'LBL_OPT_IN_CONFIRMED' => 'عضو شد',
 
     // Subpanel titles
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'مشاهده تاریخچه',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'فعالیت‌ها',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
@@ -92,7 +92,7 @@ $mod_strings = [
 
     // Standard fields
     'LBL_NAME' => 'نام',
-    'LBL_ID' => 'شناسه',
+    'LBL_ID' => 'ID',
     'LBL_TYPE' => 'نوع',
     'LBL_SOURCE' => 'Calendar Source',
 
@@ -101,8 +101,8 @@ $mod_strings = [
     'LBL_CONNECT_OAUTH' => 'Connect OAuth',
 
     // Basic Auth Fields
-    'LBL_USERNAME' => 'نام کاربری',
-    'LBL_PASSWORD' => 'کلمه عبور',
+    'LBL_USERNAME' => 'Username',
+    'LBL_PASSWORD' => 'Password',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test Connection',
 
@@ -163,8 +163,8 @@ $mod_strings = [
 
     // Connection test messages
     'LBL_CALENDAR' => 'تقویم',
-    'LBL_SUCCESSFUL' => 'موفق',
-    'LBL_FAILED' => 'انجام نشد',
+    'LBL_SUCCESSFUL' => 'Successful',
+    'LBL_FAILED' => 'ناموفق',
     'LBL_CONNECTION_TEST' => 'Connection Test',
     'LBL_YES' => 'بله',
     'LBL_NO' => 'خير',
@@ -182,14 +182,14 @@ $mod_strings = [
 
     // Dialog labels
     'LBL_NOTIFICATION' => 'Notification',
-    'LBL_CONFIRM' => 'تایید',
+    'LBL_CONFIRM' => 'Confirm',
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => 'در حال انجام',
-    'LBL_SYNC_STATUS_SUCCESS' => 'موفق',
-    'LBL_SYNC_STATUS_WARNING' => 'هشدار',
-    'LBL_SYNC_STATUS_ERROR' => 'خطا',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => 'در حال پردازش',
+    'LBL_SYNC_STATUS_SUCCESS' => 'Success',
+    'LBL_SYNC_STATUS_WARNING' => 'Warning',
+    'LBL_SYNC_STATUS_ERROR' => 'Error',
 
     // Sync message enum translations
     'LBL_SYNC_MSG_SYNC_COMPLETE' => 'All meetings synced.',
@@ -202,5 +202,5 @@ $mod_strings = [
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Calendar not found.',
 
     // Relationship labels
-    'LBL_MEETINGS' => 'جلسات',
+    'LBL_MEETINGS' => 'جلسه‌ها',
 ];

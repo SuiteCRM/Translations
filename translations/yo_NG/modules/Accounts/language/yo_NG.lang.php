@@ -55,7 +55,7 @@ $mod_strings = array(
     // END Dashlet Categories
 
     'ERR_DELETE_RECORD' => 'You must specify a record number in order to delete the account.',
-    'LBL_ACCOUNT_INFORMATION' => 'Isonisoki', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_ACCOUNT_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_ACCOUNT_NAME' => 'Oruko Akkant:',
     'LBL_ACCOUNT' => 'Account:',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Akitiyan',
@@ -139,7 +139,7 @@ $mod_strings = array(
     'LBL_SHIPPING_ADDRESS_STREET' => 'Ita oko oju omi:',
     'LBL_SHIPPING_ADDRESS' => 'Adiresi ifi oko oju omi se nkan iranse:',
     'LBL_SIC_CODE' => 'SIC Code:',
-    'LBL_STATE' => 'Ipinle tabi Agbegbe:',
+    'LBL_STATE' => 'State/Region:',
     'LBL_TICKER_SYMBOL' => 'Ticker Symbol:',
     'LBL_TYPE' => 'Iru:',
     'LBL_WEBSITE' => 'Website:',

@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Καταλογος συγχωνευσεων',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => 'Find Search Records to Merge With',
-    'LBL_AVAIL_FIELDS' => 'Διαθέσιμα πεδία',
+    'LBL_AVAIL_FIELDS' => 'Available Fields',
     'LBL_FILTER_COND' => 'Filter Condition',
     'LBL_MERGE_VALUE_OVER' => 'Συγχώνευση πάνω από',
 
@@ -58,15 +58,15 @@ $mod_strings = array(
 
     'LBL_PERFORM_MERGE_BUTTON_TITLE' => 'Συγχώνευση',
     'LBL_PERFORM_MERGE_BUTTON_KEY' => 'P',
-    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Συγχώνευση',
+    'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Αποθήκευση συγχώνευσης',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Αποθήκευση συγχώνευσης',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
 
     'LBL_STEP2_FORM_TITLE' => 'Εγγραφές που βρέθηκαν για συγχώνευση:',
     'LBL_SELECT_ERROR' => 'Πρέπει να επιλέξετε κάποιες εγγραφές προκειμένου να προχωρήσετε.',
     'LBL_CHANGE_PARENT' => 'Ορισμός ως κύριας',
-    'LBL_REMOVE_FROM_MERGE' => 'Αφαίρεση',
+    'LBL_REMOVE_FROM_MERGE' => 'Remove',
     'LBL_DIFF_COL_VALUES' => 'Στήλες των οποίων οι τιμές της κύριας γραμμής είναι διαφορετικές από τις υπόλοιπες στήλες προς συγχώνευση:',
     'LBL_SAME_COL_VALUES' => 'Στήλες των οποίων οι τιμές είναι παρόμοιες σε όλες τις γραμμές:',
     'LBL_DELETE_MESSAGE' => 'Η κίνηση αυτή θα διαγράψει τις ακόλουθες εγγραφές:',

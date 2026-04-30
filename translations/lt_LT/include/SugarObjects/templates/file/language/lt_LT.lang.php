@@ -51,7 +51,7 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Dokumentų paieška',
     //vardef labels
     'LBL_NAME' => 'Dokumento pavadinimas',
-    'LBL_DESCRIPTION' => 'Aprašymas',
+    'LBL_DESCRIPTION' => 'Aprašymas:',
     'LBL_ASSIGNED_TO' => 'Priskirtas:',
     'LBL_CATEGORY' => 'Kategorija',
     'LBL_SUBCATEGORY' => 'Subkategorija',
@@ -80,36 +80,36 @@ $mod_strings = array(
     'LBL_SUBCATEGORY_VALUE' => 'Subkategorija:',
     'LBL_DOC_STATUS' => 'Būsena:',
     'LBL_DET_TEMPLATE_TYPE' => 'Dokumento tipas:',
-    'LBL_DOC_DESCRIPTION' => 'Aprašymas:',
+    'LBL_DOC_DESCRIPTION' => 'Description:',
     'LBL_DOC_ACTIVE_DATE' => 'Paskelbimo data:',
     'LBL_DOC_EXP_DATE' => 'Pasibaigimo data:',
 
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'Dokumentų sąrašas',
     'LBL_LIST_DOCUMENT' => 'Dokumentas',
-    'LBL_LIST_CATEGORY' => 'Kategorija',
-    'LBL_LIST_SUBCATEGORY' => 'Subkategorija',
-    'LBL_LIST_REVISION' => 'Versija',
+    'LBL_LIST_CATEGORY' => 'Kategorija:',
+    'LBL_LIST_SUBCATEGORY' => 'Sub Category',
+    'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => 'Paskelbė',
     'LBL_LIST_LAST_REV_DATE' => 'Versijos data:',
     'LBL_LIST_VIEW_DOCUMENT' => 'Rodymas',
     'LBL_LIST_ACTIVE_DATE' => 'Publikavimo data',
-    'LBL_LIST_EXP_DATE' => 'Pasibaigimo data',
-    'LBL_LIST_STATUS' => 'Statusas',
+    'LBL_LIST_EXP_DATE' => 'Pasibaigimo datą',
+    'LBL_LIST_STATUS' => 'Statusas:',
 
     //document search form.
-    'LBL_SF_CATEGORY' => 'Kategorija:',
-    'LBL_SF_SUBCATEGORY' => 'Subkategorija:',
+    'LBL_SF_CATEGORY' => 'Category:',
+    'LBL_SF_SUBCATEGORY' => 'Sub Category:',
 
     'DEF_CREATE_LOG' => 'Dokumentas sukurtas',
 
     //error messages
-    'ERR_DOC_NAME' => 'Dokumento pavadinimas',
+    'ERR_DOC_NAME' => 'Document Name',
     'ERR_DOC_ACTIVE_DATE' => 'Publikavimo data',
     'ERR_FILENAME' => 'Failo pavadinimas',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'Dokumento pavadinimas',
+    'LBL_LIST_DOCUMENT_NAME' => 'Document Name',
 
     'LBL_EDIT_BUTTON' => 'Redaguoti',
     'LBL_REMOVE' => 'Išmesti',

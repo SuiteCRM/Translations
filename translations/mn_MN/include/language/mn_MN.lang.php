@@ -51,7 +51,7 @@ $app_list_strings = array(
     'moduleList' => array(
         'Home' => 'Нүүр',
         'ResourceCalendar' => 'Нөөцийн календар',
-        'Contacts' => 'Харилцагч',
+        'Contacts' => 'Харилцагчид',
         'Accounts' => 'Байгууллагууд',
         'Alerts' => 'Анхааруулга',
         'Opportunities' => 'Боломжууд /Opp/',
@@ -396,7 +396,7 @@ $app_list_strings = array(
     'project_task_priority_options' => array(
         'High' => 'Өндөр',
         'Medium' => 'Дундаж',
-        'Low' => 'Бага',
+        'Low' => 'Low',
     ),
     'project_task_priority_default' => 'Дундаж',
 
@@ -592,7 +592,7 @@ $app_list_strings = array(
         'Calls' => 'Дуудлагууд',
         'Campaigns' => 'Компанит ажлууд',
         'Cases' => 'Кейсүүд',
-        'Contacts' => 'Харилцагч',
+        'Contacts' => 'Харилцагчид',
         'Currencies' => 'Вальют',
         'Dashboard' => 'Хянах самбар',
         'Documents' => 'Баримтууд',
@@ -755,7 +755,7 @@ $app_list_strings = array(
         'out' => 'Илгээсэн',
         'archived' => 'Архивлагдсан',
         'draft' => 'Ноорог',
-        'inbound' => 'Ирсэн дуудлага',
+        'inbound' => 'Ирсэн мэйл',
         'campaign' => 'Компанит ажил',
     ),
     'dom_email_status' => array(
@@ -856,7 +856,7 @@ You must assign Only Checked Items when Direct Assigning items.',
 
     'document_subcategory_dom' => array(
         '' => '',
-        'Marketing Collateral' => 'Маркетинг сурталчилгааны материал',
+        'Marketing Collateral' => 'Маркетинг',
         'Product Brochures' => 'Барааны Танилцуулга Боршур',
         'FAQ' => 'Асуулт&Хариулт',
     ),
@@ -962,7 +962,7 @@ You must assign Only Checked Items when Direct Assigning items.',
     ),
 
     'campainglog_target_type_dom' => array(
-        'Contacts' => 'Харилцагч',
+        'Contacts' => 'Харилцагчид',
         'Users' => 'Хэрэглэгчид',
         'Prospects' => 'Зорилт',
         'Leads' => 'Сонирхогчид',
@@ -1116,7 +1116,7 @@ No results matching your search criteria. Try broadening your search.',
     'LBL_DELETE_INLINE' => 'Устгах' /*for 508 compliance fix*/,
     'LBL_ID_FF_CLEAR' => 'Цэвэрлэх' /*for 508 compliance fix*/,
     'LBL_ID_FF_VCARD' => 'vCard' /*for 508 compliance fix*/,
-    'LBL_ID_FF_REMOVE' => 'Устгах' /*for 508 compliance fix*/,
+    'LBL_ID_FF_REMOVE' => 'Хасах' /*for 508 compliance fix*/,
     'LBL_ID_FF_REMOVE_EMAIL' => 'Е-Майл хаяг хасах' /*for 508 compliance fix*/,
     'LBL_ID_FF_OPT_OUT' => 'Хасах',
     'LBL_ID_FF_INVALID' => 'Хүчингүй болгох',
@@ -1164,7 +1164,7 @@ No results matching your search criteria. Try broadening your search.',
     'LBL_EMAIL_ADDRESS_BOOK_ADD_CC' => 'Cc:',
     'LBL_EMAIL_ADDRESS_BOOK_ADD_BCC' => 'Bcc:',
     'LBL_EMAIL_ADDRESS_BOOK_ADRRESS_TYPE' => 'To/Cc/Bcc',
-    'LBL_EMAIL_ADDRESS_BOOK_EMAIL_ADDR' => 'Мэйл хаяг',
+    'LBL_EMAIL_ADDRESS_BOOK_EMAIL_ADDR' => 'Мэйл Хаяг',
     'LBL_EMAIL_ADDRESS_BOOK_FILTER' => 'Шүүлтүүр',
     'LBL_EMAIL_ADDRESS_BOOK_NAME' => 'Нэр',
     'LBL_EMAIL_ADDRESS_BOOK_NOT_FOUND' => 'Мэйл хаяг алга',
@@ -1173,7 +1173,7 @@ No results matching your search criteria. Try broadening your search.',
     'LBL_EMAIL_ADDRESS_BOOK_TITLE' => 'Хаягийн дэвтэр',
     'LBL_EMAIL_REMOVE_SMTP_WARNING' => 'Анхаар! Таны устгах гэсэн мэйл илгээх хаягтай уягдсан байна. Та устгах үйлдэл хийхдээ илтгэлтэй байна уу?',
     'LBL_EMAIL_ADDRESSES' => 'Е-мэйл',
-    'LBL_EMAIL_ADDRESS_PRIMARY' => 'Мэйл хаяг',
+    'LBL_EMAIL_ADDRESS_PRIMARY' => 'Мэйл Хаяг',
     'LBL_EMAIL_ADDRESS_OPT_IN' => 'Та майл хүлээж авахыг зөвшөөрсөн байна: ',
     'LBL_EMAIL_ADDRESS_OPT_IN_ERR' => 'Таны мэйл хаягыг батлагаажуулж чадахгүй байна',
     'LBL_EMAIL_ARCHIVE_TO_SUITE' => 'SuiteCRM-д оруулах',
@@ -1543,7 +1543,7 @@ No results matching your search criteria. Try broadening your search.',
     'LBL_SEARCH_DROPDOWN_NO' => 'Үгүй',
     'LBL_CONTACT_LIST' => 'Харилцагчийн жагсаалт',
     'LBL_CONTACT' => 'Харилцагч',
-    'LBL_CONTACTS' => 'Харилцагч',
+    'LBL_CONTACTS' => 'Харилцагчид',
     'LBL_CONTRACT' => 'Гэрээ',
     'LBL_CONTRACTS' => 'Гэрээ',
     'LBL_COUNTRY' => 'Улс:',
@@ -1598,7 +1598,7 @@ No results matching your search criteria. Try broadening your search.',
     'LBL_THEME' => 'Хэлбэр:',
     'LBL_FOUND_IN_RELEASE' => 'Found In Release',
     'LBL_FIXED_IN_RELEASE' => 'Fixed In Release',
-    'LBL_LIST_ACCOUNT_NAME' => 'Харилцагчийн Нэр',
+    'LBL_LIST_ACCOUNT_NAME' => 'Байгууллагын Нэр',
     'LBL_LIST_ASSIGNED_USER' => 'Хэрэглэгч',
     'LBL_LIST_CONTACT_NAME' => 'Харилцагчийн Нэр',
     'LBL_LIST_CONTACT_ROLE' => 'Харилцагчийн Үүрэг',
@@ -1725,7 +1725,7 @@ No results matching your search criteria. Try broadening your search.',
     'LBL_ACCESSKEY_CLEAR_USERS_LABEL' => 'Хэрэглэгч Арилгах',
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_KEY' => 'A',
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_TITLE' => 'Аккаунт сонго',
-    'LBL_ACCESSKEY_SELECT_ACCOUNTS_LABEL' => 'Аккаунт сонго',
+    'LBL_ACCESSKEY_SELECT_ACCOUNTS_LABEL' => 'Аккаунтыг Сонгох',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_TITLE' => 'Аккаунт Хоослох',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_LABEL' => 'Аккаунт Хоослох',
@@ -1804,7 +1804,7 @@ No results matching your search criteria. Try broadening your search.',
     'LNK_ADVANCED_FILTER' => 'Дэвшмэл филтер',
     'LNK_BASIC_FILTER' => 'Түргэн филтерр',
     'LBL_ADVANCED_SEARCH' => 'Дэвшмэл филтер',
-    'LBL_QUICK_FILTER' => 'Түргэн филтерр',
+    'LBL_QUICK_FILTER' => 'Түргэн филтер',
     'LNK_SEARCH_NONFTS_VIEW_ALL' => 'Бүгдийг Харуул',
     'LNK_CLOSE' => 'Хаах',
     'LBL_MODIFY_CURRENT_FILTER' => 'Одоох шүүлтийг өөрчлөх',
@@ -1865,7 +1865,7 @@ No results matching your search criteria. Try broadening your search.',
     'LBL_SEARCH_CRITERIA' => 'Хайлт хийх шүүлт',
     'LBL_SAVED_VIEWS' => 'Хадгалсан үзэх хэлбэр',
     'LBL_PROCESSING_REQUEST' => 'Боловсруулж байна...',
-    'LBL_REQUEST_PROCESSED' => 'Дуусгах',
+    'LBL_REQUEST_PROCESSED' => 'Дууссан',
     'LBL_AJAX_FAILURE' => 'Ajax -ийн алдаа',
     'LBL_MERGE_DUPLICATES' => 'Нэгтгэх',
     'LBL_SAVED_FILTER_SHORTCUT' => 'Миний шүүлт',
@@ -1942,7 +1942,7 @@ No results matching your search criteria. Try broadening your search.',
     'LBL_DASHLET_CONFIGURE_GENERAL' => 'Ерөнхий',
     'LBL_DASHLET_CONFIGURE_FILTERS' => 'Шүүлт',
     'LBL_DASHLET_CONFIGURE_MY_ITEMS_ONLY' => 'Зөвхөн миний зүйлс',
-    'LBL_DASHLET_CONFIGURE_TITLE' => 'Нэр',
+    'LBL_DASHLET_CONFIGURE_TITLE' => 'Самбарын нэр',
     'LBL_DASHLET_CONFIGURE_DISPLAY_ROWS' => 'Үзэгдэх мөр',
 
     // MySugar status strings
@@ -3187,13 +3187,13 @@ $app_list_strings['product_category_dom'][''] = '';
 $app_list_strings['product_type_dom']['Good'] = 'Сайн';
 $app_list_strings['product_type_dom']['Service'] = 'Үйлчилгээ';
 $app_list_strings['product_quote_parent_type_dom']['AOS_Quotes'] = 'Үнийн Санал';
-$app_list_strings['product_quote_parent_type_dom']['AOS_Invoices'] = 'Нэхэмжлэх';
+$app_list_strings['product_quote_parent_type_dom']['AOS_Invoices'] = 'Нэхэмжлэл';
 $app_list_strings['product_quote_parent_type_dom']['AOS_Contracts'] = 'Гэрээ';
 $app_list_strings['pdf_template_type_dom']['AOS_Quotes'] = 'Үнийн Санал';
-$app_list_strings['pdf_template_type_dom']['AOS_Invoices'] = 'Нэхэмжлэх';
+$app_list_strings['pdf_template_type_dom']['AOS_Invoices'] = 'Нэхэмжлэл';
 $app_list_strings['pdf_template_type_dom']['AOS_Contracts'] = 'Гэрээ';
 $app_list_strings['pdf_template_type_dom']['Accounts'] = 'Байгууллагууд';
-$app_list_strings['pdf_template_type_dom']['Contacts'] = 'Харилцагч';
+$app_list_strings['pdf_template_type_dom']['Contacts'] = 'Харилцагчид';
 $app_list_strings['pdf_template_type_dom']['Leads'] = 'Сонирхогчид';
 $app_list_strings['pdf_template_sample_dom'][''] = '';
 $app_list_strings['contract_status_list']['Not Started'] = 'Эхлээгүй';
@@ -3303,7 +3303,7 @@ $app_list_strings['map_unit_type_list']['mi'] = 'Милээр';
 $app_list_strings['map_unit_type_list']['km'] = 'Километер';
 
 $app_list_strings['map_module_type_list']['Accounts'] = 'Байгууллагууд';
-$app_list_strings['map_module_type_list']['Contacts'] = 'Харилцагч';
+$app_list_strings['map_module_type_list']['Contacts'] = 'Харилцагчид';
 $app_list_strings['map_module_type_list']['Cases'] = 'Кейсүүд';
 $app_list_strings['map_module_type_list']['Leads'] = 'Сонирхогчид';
 $app_list_strings['map_module_type_list']['Meetings'] = 'Уулзалтууд';
@@ -3360,7 +3360,7 @@ $app_list_strings['marker_image_list']['cluster_5'] = 'Кластер 5';
 $app_list_strings['marker_image_list']['coffee'] = 'Кафе';
 $app_list_strings['marker_image_list']['community_centre'] = 'Нийтийн төв';
 $app_list_strings['marker_image_list']['company'] = 'Компани';
-$app_list_strings['marker_image_list']['conference'] = 'Конференц';
+$app_list_strings['marker_image_list']['conference'] = 'Конференци';
 $app_list_strings['marker_image_list']['construction'] = 'Барилга';
 $app_list_strings['marker_image_list']['convenience'] = 'Дэлгүүр';
 $app_list_strings['marker_image_list']['court'] = 'Шүүх';
@@ -3580,8 +3580,8 @@ $app_list_strings['moduleList']['ExternalOAuthConnection'] = 'External OAuth Con
 $app_list_strings['moduleList']['ExternalOAuthProvider'] = 'External OAuth Provider';
 
 //social
-$app_strings['FACEBOOK_USER_C'] = 'Facebook';
-$app_strings['TWITTER_USER_C'] = 'Twitter';
+$app_strings['FACEBOOK_USER_C'] = 'Фэйсбүүк';
+$app_strings['TWITTER_USER_C'] = 'Твиттер';
 $app_strings['LBL_PANEL_SOCIAL_FEED'] = 'Social Feed Details';
 
 $app_strings['LBL_SUBPANEL_FILTER_LABEL'] = 'Шүүлтүүр';

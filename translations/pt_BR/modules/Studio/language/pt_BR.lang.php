@@ -43,27 +43,27 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EDIT_LAYOUT' => 'Editar Layout',
+    'LBL_EDIT_LAYOUT' => 'Edit Layout',
     'LBL_EDIT_FIELDS' => 'Editar Campos Customizados',
-    'LBL_SELECT_FILE' => 'Selecionar Arquivo',
+    'LBL_SELECT_FILE' => 'Select File',
     'LBL_MODULE_TITLE' => 'Studio',
-    'LBL_TOOLBOX' => 'Caixa de Ferramentas',
+    'LBL_TOOLBOX' => 'Toolbox',
     'LBL_SUITE_FIELDS_STAGE' => 'Campos SuiteCRM (clique nos itens para adicionar à área de armazenamento)',
     'LBL_VIEW_SUITE_FIELDS' => 'Exibir Campos do SuiteCRM',
-    'LBL_FAILED_TO_SAVE' => 'Falha ao salvar',
+    'LBL_FAILED_TO_SAVE' => 'Failed To Save',
     'LBL_CONFIRM_UNSAVE' => 'Nenhuma alteração será salva. Tem certeza que deseja continuar?',
     'LBL_PUBLISHING' => 'Publicando...',
     'LBL_PUBLISHED' => 'Publicado',
-    'LBL_FAILED_PUBLISHED' => 'Falha ao Publicar',
-    'LBL_DROP_HERE' => '[Soltar Aqui]',
+    'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
+    'LBL_DROP_HERE' => '[Solte Aqui]',
 
 //CUSTOM FIELDS
-    'LBL_NAME' => 'Nome',
-    'LBL_LABEL' => 'Rótulo',
+    'LBL_NAME' => 'Name',
+    'LBL_LABEL' => 'Label',
     'LBL_MASS_UPDATE' => 'Atualização em massa',
-    'LBL_DEFAULT_VALUE' => 'Valor Padrão',
-    'LBL_REQUIRED' => 'Obrigatório',
-    'LBL_DATA_TYPE' => 'Tipo',
+    'LBL_DEFAULT_VALUE' => 'Default Value',
+    'LBL_REQUIRED' => 'Required',
+    'LBL_DATA_TYPE' => 'Type',
 
 
     'LBL_HISTORY' => 'Histórico',
@@ -79,68 +79,68 @@ $mod_strings = array(
     'LBL_SW_EDIT_GROUPTABS' => 'Configurar Agrupamento de Guias',
     'LBL_SW_EDIT_PORTAL' => 'Editar Portal',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => 'Reparar Campos Customizados',
-    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrar Campos Customizados',
+    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrate Custom Fields',
 
 // JS LABELS
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Reconstruir versões javascript de arquivos de linguagem',
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Remover vesões javascript de arquivos de linguagem, será reconstruído quando necessário.',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuilds javascript versions of language files',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Removing javascript versions of language files, will rebuild when needed.',
 
 
 //Manager Backups History
-    'LBL_MB_DELETE' => 'Excluir',
+    'LBL_MB_DELETE' => 'Delete',
 
 //EDIT DROP DOWNS
     'LBL_ED_CREATE_DROPDOWN' => 'Criar um Dropdown',
     'LBL_DROPDOWN_NAME' => 'Nome do Dropdown:',
     'LBL_DROPDOWN_LANGUAGE' => 'Idioma do Dropdown:',
-    'LBL_TABGROUP_LANGUAGE' => 'Idioma:',
+    'LBL_TABGROUP_LANGUAGE' => 'Language:',
 
 //END WIZARDS
 
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => 'Valor exibido',
     'LBL_DD_DATABASEVALUE' => 'Valor da Base de Dados',
-    'LBL_DD_ALL' => 'Todos',
+    'LBL_DD_ALL' => 'All',
 
 //BUTTONS
     'LBL_BTN_SAVE' => 'Salvar',
-    'LBL_BTN_CANCEL' => 'Cancelar',
-    'LBL_BTN_SAVEPUBLISH' => 'Salvar & Implementar',
+    'LBL_BTN_CANCEL' => 'Cancel',
+    'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
     'LBL_BTN_HISTORY' => 'Histórico',
-    'LBL_BTN_ADDROWS' => 'Adicionar Linhas',
-    'LBL_BTN_UNDO' => 'Desfazer',
-    'LBL_BTN_REDO' => 'Refazer',
-    'LBL_BTN_ADDCUSTOMFIELD' => 'Adicionar Campo Customizado',
+    'LBL_BTN_ADDROWS' => 'Add Rows',
+    'LBL_BTN_UNDO' => 'Undo',
+    'LBL_BTN_REDO' => 'Redo',
+    'LBL_BTN_ADDCUSTOMFIELD' => 'Add Custom Field',
     'LBL_BTN_TABINDEX' => 'Editar Ordem dos Tabuladores',
 
 //TABS
-    'LBL_MODULES' => 'Módulos',
+    'LBL_MODULES' => 'Modules',
     'LBL_MODULE_NAME' => 'Administração',
-    'LBL_CONFIGURE_GROUP_TABS' => 'Configurar os Filtros do Menu de Módulos',
+    'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
     'LBL_GROUP_TAB_WELCOME' => 'Os grupos abaixo será exibida na barra de navegação para os Usuários que escolhem para ler módulos agrupados. Arrastar e soltar os módulos para os Grupos pretendidos. Nota: Os grupos vazios não serão exibidas na barra de navegação.',
     'LBL_RENAME_TAB_WELCOME' => 'Clique em qualquer tabulação Exibir Valor na tabela abaixo para renomear o tabulador.',
     'LBL_DELETE_MODULE' => 'Remover&nbsp;módulo<br />do&nbsp;filtro',
     'LBL_TAB_GROUP_LANGUAGE_HELP' => 'Selecione um idioma disponível, edite os rótulos de Grupo e clique em Salvar & implementar para aplicar os rótulos no idioma selecionado.',
     'LBL_ADD_GROUP' => 'Adicionar filtro',
     'LBL_NEW_GROUP' => 'Novo Grupo',
-    'LBL_RENAME_TABS' => 'Renomear Módulos',
+    'LBL_RENAME_TABS' => 'Rename Modules',
 
 //ERRORS
-    'ERROR_INVALID_KEY_VALUE' => "Erro: Valor-Chave Inválido: [&#39;]",
+    'ERROR_INVALID_KEY_VALUE' => "Error: Invalid Key Value: [']",
 
 //SUGAR PORTAL
     'LBL_SAVE' => 'Salvar' /*for 508 compliance fix*/,
-    'LBL_UNDO' => 'Desfazer' /*for 508 compliance fix*/,
-    'LBL_REDO' => 'Refazer' /*for 508 compliance fix*/,
+    'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
+    'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Inline' /*for 508 compliance fix*/,
-    'LBL_DELETE' => 'Excluir' /*for 508 compliance fix*/,
-    'LBL_ADD_FIELD' => 'Adicionar Campo' /*for 508 compliance fix*/,
+    'LBL_DELETE' => 'Delete' /*for 508 compliance fix*/,
+    'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Maximizar' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Minimizar' /*for 508 compliance fix*/,
-    'LBL_PUBLISH' => 'publicar' /*for 508 compliance fix*/,
-    'LBL_ADDROWS' => 'Adicionar Linhas' /*for 508 compliance fix*/,
-    'LBL_ADDFIELD' => 'Adicionar Campo' /*for 508 compliance fix*/,
-    'LBL_EDIT' => 'Editar' /*for 508 compliance fix*/,
+    'LBL_PUBLISH' => 'Publish' /*for 508 compliance fix*/,
+    'LBL_ADDROWS' => 'Add Rows' /*for 508 compliance fix*/,
+    'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
+    'LBL_EDIT' => 'Edit' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Selecione o idioma a editar.',
     'LBL_SINGULAR' => 'Rótulo Singular',

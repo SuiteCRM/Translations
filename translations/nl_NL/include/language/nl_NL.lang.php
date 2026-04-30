@@ -51,8 +51,8 @@ $app_list_strings = array(
     'moduleList' => array(
         'Home' => 'Start',
         'ResourceCalendar' => 'Bron agenda',
-        'Contacts' => 'Contacten',
-        'Accounts' => 'Relaties',
+        'Contacts' => 'Contactpersonen',
+        'Accounts' => 'Organisaties',
         'Alerts' => 'Waarschuwingen',
         'Opportunities' => 'Kansen',
         'Cases' => 'Verzoeken',
@@ -65,7 +65,7 @@ $app_list_strings = array(
         'Meetings' => 'Afspraken',
         'Tasks' => 'Taken',
         'Calendar' => 'Agenda',
-        'Leads' => 'Leads',
+        'Leads' => 'Kansen',
         'Currencies' => 'Valuta',
         'Activities' => 'Activiteiten',
         'Bugs' => 'Fouten',
@@ -86,7 +86,7 @@ $app_list_strings = array(
         'Sync' => 'Synchroniseer',
         'Users' => 'Gebruikers',
         'Employees' => 'Personeel',
-        'Administration' => 'Beheer',
+        'Administration' => 'Administratie',
         'ACLRoles' => 'Rollen',
         'InboundEmail' => 'Inkomende E-mail',
         'Releases' => 'Uitgave',
@@ -100,7 +100,7 @@ $app_list_strings = array(
         'Trackers' => 'Traceerbare URL"s',
         'TrackerSessions' => 'Tracker Sessies',
         'TrackerQueries' => 'Tracker queries',
-        'FAQ' => 'Veel voorkomende vragen',
+        'FAQ' => 'Veelgestelde vragen (FAQ)',
         'Newsletters' => 'Nieuwsbrief',
         'SugarFeed' => 'SuiteCRM feed',
         'SugarFavorites' => 'SuiteCRM Favorieten',
@@ -109,7 +109,7 @@ $app_list_strings = array(
         'OAuthTokens' => 'OAuth Tokens',
         'OAuth2Clients' => 'OAuth Clients',
         'OAuth2Tokens' => 'OAuth Tokens',
-        'OAuth2AuthCodes' => 'OAuth Authorization Codes',
+        'OAuth2AuthCodes' => 'OAuth Autorisatie code',
     ),
 
     'moduleListSingular' => array(
@@ -131,14 +131,14 @@ $app_list_strings = array(
         'Bugs' => 'Bugs',
         'KBDocuments' => 'Kennisbank',
         'Feeds' => 'RSS',
-        'iFrames' => 'Portal',
+        'iFrames' => 'Mijn sites',
         'TimePeriods' => 'Tijd Perioden',
         'Project' => 'Project',
         'ProjectTask' => 'Project Taken',
         'Prospects' => 'Doelen',
         'Campaigns' => 'Campagnes',
         'Documents' => 'Document',
-        'Sync' => 'Synchroniseer',
+        'Sync' => 'Synchroniseren',
         'Users' => 'Gebruiker',
         'SugarFavorites' => 'SuiteCRM Favorieten',
 
@@ -162,7 +162,7 @@ $app_list_strings = array(
         'Press' => 'Pers',
         'Prospect' => 'Prospect',
         'Reseller' => 'Wederverkoper',
-        'Other' => 'Anders',
+        'Other' => 'Overige',
     ),
     //e.g. en español 'Apparel'=>'Ropa',
     'industry_dom' => array(
@@ -196,14 +196,14 @@ $app_list_strings = array(
         'Telecommunications' => 'Telecommunicatie',
         'Transportation' => 'Transport',
         'Utilities' => 'Nutsbedrijven',
-        'Other' => 'Anders',
+        'Other' => 'Overige',
     ),
-    'lead_source_default_key' => 'Self Generated',
+    'lead_source_default_key' => 'Zelf gegenereerd',
     'lead_source_dom' => array(
         '' => '',
         'Cold Call' => 'Koude acquisitie',
         'Existing Customer' => 'Bestaande klant',
-        'Self Generated' => 'Self Generated',
+        'Self Generated' => 'Zelf gegenereerd',
         'Employee' => 'Werknemer',
         'Partner' => 'Partner',
         'Public Relations' => 'PR',
@@ -212,14 +212,14 @@ $app_list_strings = array(
         'Trade Show' => 'Beurs',
         'Web Site' => 'Website',
         'Word of mouth' => 'Mond tot mond',
-        'Email' => 'E-mails',
-        'Campaign' => 'Campagnes',
-        'Other' => 'Anders',
+        'Email' => 'E-mail',
+        'Campaign' => 'Campagne',
+        'Other' => 'Overige',
     ),
     'opportunity_type_dom' => array(
         '' => '',
-        'Existing Business' => 'Bestaand bedrijf',
-        'New Business' => 'Nieuw bedrijf',
+        'Existing Business' => 'Bestaande business',
+        'New Business' => 'Nieuwe business',
     ),
     'roi_type_dom' => array(
         'Revenue' => 'Opbrengst',
@@ -230,24 +230,24 @@ $app_list_strings = array(
     ),
     //Note:  do not translate opportunity_relationship_type_default_key
 //       it is the key for the default opportunity_relationship_type_dom value
-    'opportunity_relationship_type_default_key' => 'Primary Decision Maker',
+    'opportunity_relationship_type_default_key' => 'Primaire besluitvormer',
     'opportunity_relationship_type_dom' => array(
         '' => '',
-        'Primary Decision Maker' => 'Primary Decision Maker',
+        'Primary Decision Maker' => 'Primaire besluitvormer',
         'Business Decision Maker' => 'Zakelijke besluitvormer',
         'Business Evaluator' => 'Zakelijke evaluatie',
         'Technical Decision Maker' => 'Technisch besluitvormer',
         'Technical Evaluator' => 'Technische Evaluatie',
         'Executive Sponsor' => 'Sponsor',
         'Influencer' => 'Beinvloeder',
-        'Other' => 'Anders',
+        'Other' => 'Overige',
     ),
     //Note:  do not translate case_relationship_type_default_key
 //       it is the key for the default case_relationship_type_dom value
-    'case_relationship_type_default_key' => 'Primary Contact',
+    'case_relationship_type_default_key' => 'Primaire contactpersoon',
     'case_relationship_type_dom' => array(
         '' => '',
-        'Primary Contact' => 'Primary Contact',
+        'Primary Contact' => 'Primaire contactpersoon',
         'Alternate Contact' => 'Alternatief Contactpersoon',
     ),
     'payment_terms' => array(
@@ -255,9 +255,9 @@ $app_list_strings = array(
         'Net 15' => '15 dagen',
         'Net 30' => '30 dagen',
     ),
-    'sales_stage_default_key' => 'Prospecting',
+    'sales_stage_default_key' => 'Klantwerving',
     'sales_stage_dom' => array(
-        'Prospecting' => 'Prospecting',
+        'Prospecting' => 'Klantwerving',
         'Qualification' => 'Kwalificatie',
         'Needs Analysis' => 'Behoefte analyse',
         'Value Proposition' => 'Maken van propositie',
@@ -282,10 +282,10 @@ $app_list_strings = array(
             'Closed Lost' => '0',
         ),
     'activity_dom' => array(
-        'Call' => 'Telefoongesprekken',
+        'Call' => 'Telefoongesprek',
         'Meeting' => 'Afspraak',
-        'Task' => 'Taken',
-        'Email' => 'E-mails',
+        'Task' => 'Taak',
+        'Email' => 'E-mail',
         'Note' => 'Notitie',
     ),
     'salutation_dom' => array(
@@ -299,7 +299,7 @@ $app_list_strings = array(
     ),
 
     'redirect_uri_type_dom' => [
-        'pretty_url' => 'Pretty URL (/ep/)',
+        'pretty_url' => 'Best URL (/ep/)',
         'query_string' => 'Query String (index.php?entryPoint=)'
     ],
 
@@ -318,10 +318,10 @@ $app_list_strings = array(
         86400 => '1 dag ervoor',
     ),
 
-    'task_priority_default' => 'Gemiddeld',
+    'task_priority_default' => 'Middel',
     'task_priority_dom' => array(
         'High' => 'Hoog',
-        'Medium' => 'Gemiddeld',
+        'Medium' => 'Middel',
         'Low' => 'Laag',
     ),
     'task_status_default' => 'Niet gestart',
@@ -329,7 +329,7 @@ $app_list_strings = array(
         'Not Started' => 'Niet gestart',
         'In Progress' => 'In Bewerking',
         'Completed' => 'Compleet',
-        'Pending Input' => 'In afwachting van',
+        'Pending Input' => 'Wacht op invoer',
         'Deferred' => 'Uitgestelt',
     ),
     'meeting_status_default' => 'Gepland',
@@ -342,14 +342,14 @@ $app_list_strings = array(
         'WebEx' => 'WebEx',
     ),
     'meeting_type_dom' => array(
-        'Other' => 'Anders',
+        'Other' => 'Overige',
         'Sugar' => 'SuiteCRM',
     ),
     'call_status_default' => 'Gepland',
     'call_status_dom' => array(
         'Planned' => 'Gepland',
         'Held' => 'Gehouden',
-        'Not Held' => 'Niet Gehouden',
+        'Not Held' => 'Niet gehouden',
     ),
     'call_direction_default' => 'Uitgaand',
     'call_direction_dom' => array(
@@ -368,7 +368,7 @@ $app_list_strings = array(
     'case_priority_default_key' => 'P2',
     'case_priority_dom' => array(
         'P1' => 'Hoog',
-        'P2' => 'Gemiddeld',
+        'P2' => 'Middel',
         'P3' => 'Laag',
     ),
     'user_type_dom' => array(
@@ -395,17 +395,17 @@ $app_list_strings = array(
     ),
     'project_task_priority_options' => array(
         'High' => 'Hoog',
-        'Medium' => 'Gemiddeld',
+        'Medium' => 'Middel',
         'Low' => 'Laag',
     ),
-    'project_task_priority_default' => 'Gemiddeld',
+    'project_task_priority_default' => 'Middel',
 
     'project_task_status_options' => array(
         'Not Started' => 'Niet gestart',
-        'In Progress' => 'In Bewerking',
-        'Completed' => 'Compleet',
-        'Pending Input' => 'In afwachting van',
-        'Deferred' => 'Uitgestelt',
+        'In Progress' => 'In behandeling',
+        'Completed' => 'Voltooid',
+        'Pending Input' => 'Wacht op invoer',
+        'Deferred' => 'Uitgesteld',
     ),
     'project_task_utilization_options' => array(
         '0' => 'geen',
@@ -420,7 +420,7 @@ $app_list_strings = array(
         'In Review' => 'Wacht op review',
         'Underway' => 'Onderweg',
         'On_Hold' => 'In de wacht',
-        'Completed' => 'Compleet',
+        'Completed' => 'Voltooid',
     ),
     'project_status_default' => 'Concept',
 
@@ -437,73 +437,73 @@ $app_list_strings = array(
 
     // Note:  do not translate record_type_default_key
     //        it is the key for the default record_type_module value
-    'record_type_default_key' => 'Relaties',
+    'record_type_default_key' => 'Organisaties',
     'record_type_display' => array(
         '' => '',
-        'Accounts' => 'Opdrachtgever',
+        'Accounts' => 'Organisatie',
         'Opportunities' => 'Kans',
         'Cases' => 'Verzoek',
         'Leads' => 'Lead',
         'Contacts' => 'Contactpersoon', // cn (11/22/2005) added to support Emails
 
-        'Bugs' => 'Bugs',
+        'Bugs' => 'Fout',
         'Project' => 'Project',
 
-        'Prospects' => 'Doelen',
-        'ProjectTask' => 'Project Taken',
+        'Prospects' => 'Doel',
+        'ProjectTask' => 'Projecttaak',
 
-        'Tasks' => 'Taken',
+        'Tasks' => 'Taak',
 
         'AOS_Contracts' => 'Contract',
         'AOS_Invoices' => 'Factuur',
         'AOS_Quotes' => 'Offerte',
-        'AOS_Products' => 'Producten',
+        'AOS_Products' => 'Product',
 
     ),
 
     'record_type_display_notes' => array(
-        'Accounts' => 'Opdrachtgever',
+        'Accounts' => 'Organisatie',
         'Contacts' => 'Contactpersoon',
         'Opportunities' => 'Kans',
-        'Campaigns' => 'Campagnes',
-        'Tasks' => 'Taken',
-        'Emails' => 'E-mails',
+        'Campaigns' => 'Campagne',
+        'Tasks' => 'Taak',
+        'Emails' => 'E-mail',
 
-        'Bugs' => 'Bugs',
+        'Bugs' => 'Fout',
         'Project' => 'Project',
-        'ProjectTask' => 'Project Taken',
-        'Prospects' => 'Doelen',
+        'ProjectTask' => 'Projecttaak',
+        'Prospects' => 'Doel',
         'Cases' => 'Verzoek',
         'Leads' => 'Lead',
 
         'Meetings' => 'Afspraak',
-        'Calls' => 'Telefoongesprekken',
+        'Calls' => 'Telefoongesprek',
 
         'AOS_Contracts' => 'Contract',
         'AOS_Invoices' => 'Factuur',
         'AOS_Quotes' => 'Offerte',
-        'AOS_Products' => 'Producten',
+        'AOS_Products' => 'Product',
     ),
 
     'parent_type_display' => array(
-        'Accounts' => 'Opdrachtgever',
+        'Accounts' => 'Organisatie',
         'Contacts' => 'Contactpersoon',
-        'Tasks' => 'Taken',
+        'Tasks' => 'Taak',
         'Opportunities' => 'Kans',
 
-        'Bugs' => 'Bugs',
+        'Bugs' => 'Fout',
         'Cases' => 'Verzoek',
         'Leads' => 'Lead',
 
         'Project' => 'Project',
-        'ProjectTask' => 'Project Taken',
+        'ProjectTask' => 'Projecttaak',
 
-        'Prospects' => 'Doelen',
+        'Prospects' => 'Doel',
 
         'AOS_Contracts' => 'Contract',
         'AOS_Invoices' => 'Factuur',
         'AOS_Quotes' => 'Offerte',
-        'AOS_Products' => 'Producten',
+        'AOS_Products' => 'Product',
 
     ),
     'parent_line_items' => array(
@@ -511,20 +511,20 @@ $app_list_strings = array(
         'AOS_Invoices' => 'Facturen',
         'AOS_Contracts' => 'Contracten',
     ),
-    'issue_priority_default_key' => 'Gemiddeld',
+    'issue_priority_default_key' => 'Middel',
     'issue_priority_dom' => array(
         'Urgent' => 'Dringend',
         'High' => 'Hoog',
-        'Medium' => 'Gemiddeld',
+        'Medium' => 'Middel',
         'Low' => 'Laag',
     ),
     'issue_resolution_default_key' => '',
     'issue_resolution_dom' => array(
         '' => '',
-        'Accepted' => 'Accepteer',
-        'Duplicate' => 'Dupliceren',
+        'Accepted' => 'Geaccepteerd',
+        'Duplicate' => 'Duplicaat',
         'Closed' => 'Gesloten',
-        'Out of Date' => 'Verlopen',
+        'Out of Date' => 'Verouderd',
         'Invalid' => 'Ongeldig',
     ),
 
@@ -533,24 +533,24 @@ $app_list_strings = array(
         'New' => 'Nieuw',
         'Assigned' => 'Toegewezen',
         'Closed' => 'Gesloten',
-        'Pending' => 'Wachtend',
+        'Pending' => 'Lopende',
         'Rejected' => 'Afgewezen',
     ),
 
-    'bug_priority_default_key' => 'Gemiddeld',
+    'bug_priority_default_key' => 'Middel',
     'bug_priority_dom' => array(
-        'Urgent' => 'Dringend',
+        'Urgent' => 'Urgent',
         'High' => 'Hoog',
-        'Medium' => 'Gemiddeld',
+        'Medium' => 'Middel',
         'Low' => 'Laag',
     ),
     'bug_resolution_default_key' => '',
     'bug_resolution_dom' => array(
         '' => '',
-        'Accepted' => 'Accepteer',
-        'Duplicate' => 'Dupliceren',
+        'Accepted' => 'Geaccepteerd',
+        'Duplicate' => 'Duplicaat',
         'Fixed' => 'Opgelost',
-        'Out of Date' => 'Verlopen',
+        'Out of Date' => 'Verouderd',
         'Invalid' => 'Ongeldig',
         'Later' => 'Later',
     ),
@@ -559,17 +559,17 @@ $app_list_strings = array(
         'New' => 'Nieuw',
         'Assigned' => 'Toegewezen',
         'Closed' => 'Gesloten',
-        'Pending' => 'Wachtend',
+        'Pending' => 'Lopende',
         'Rejected' => 'Afgewezen',
     ),
-    'bug_type_default_key' => 'Bugs',
+    'bug_type_default_key' => 'Fout',
     'bug_type_dom' => array(
         'Defect' => 'Gebroken',
         'Feature' => 'Uitbreiding',
     ),
     'case_type_dom' => array(
-        'Administration' => 'Beheer',
-        'Product' => 'Producten',
+        'Administration' => 'Administratie',
+        'Product' => 'Product',
         'User' => 'Gebruiker',
     ),
 
@@ -579,36 +579,36 @@ $app_list_strings = array(
         'Internal' => 'Intern',
         'Forum' => 'Discussieforums',
         'Web' => 'Web',
-        'InboundEmail' => 'E-mails',
+        'InboundEmail' => 'E-mail',
     ),
 
     'product_category_default_key' => '',
     'product_category_dom' => array(
         '' => '',
-        'Accounts' => 'Relaties',
+        'Accounts' => 'Organisaties',
         'Activities' => 'Activiteiten',
         'Bugs' => 'Fouten',
         'Calendar' => 'Agenda',
         'Calls' => 'Telefoongesprekken',
         'Campaigns' => 'Campagnes',
         'Cases' => 'Verzoeken',
-        'Contacts' => 'Contacten',
+        'Contacts' => 'Contactpersonen',
         'Currencies' => 'Valuta',
-        'Dashboard' => 'Controlepaneel',
+        'Dashboard' => 'Dashboard',
         'Documents' => 'Documenten',
         'Emails' => 'E-mails',
         'Feeds' => 'Feed',
         'Forecasts' => 'Vooruitzichten',
         'Help' => 'Hulp',
         'Home' => 'Start',
-        'Leads' => 'Leads',
+        'Leads' => 'Kansen',
         'Meetings' => 'Afspraken',
         'Notes' => 'Notities',
         'Opportunities' => 'Kansen',
         'Outlook Plugin' => 'Outlook plugin',
         'Projects' => 'Projecten',
         'Quotes' => 'Offertes',
-        'Releases' => 'Uitgave',
+        'Releases' => 'Releases',
         'RSS' => 'RSS',
         'Studio' => 'Studio',
         'Upgrade' => 'Upgrade',
@@ -628,9 +628,9 @@ $app_list_strings = array(
         '' => '',
         'Telesales' => 'Telesales',
         'Mail' => 'E-mail',
-        'Email' => 'E-mails',
+        'Email' => 'E-mail',
         'Print' => 'Afdrukken',
-        'Web' => 'Web',
+        'Web' => 'Internet',
         'Radio' => 'Radio',
         'Television' => 'Televisie',
         'NewsLetter' => 'Nieuwsbrief',
@@ -725,17 +725,17 @@ $app_list_strings = array(
     ],
 
     'dom_external_oauth_connection_types' => [
-        'personal' => 'Persoonlijke',
+        'personal' => 'Persoonlijk',
         'group' => 'Groep',
     ],
 
     'dom_external_oauth_provider_types' => [
-        'personal' => 'Persoonlijke',
+        'personal' => 'Persoonlijk',
         'group' => 'Groep',
     ],
 
     'dom_outbound_email_account_types' => [
-        'user' => 'Persoonlijke',
+        'user' => 'Persoonlijk',
         'group' => 'Groep',
         'system' => 'Systeembeheer',
         'system-override' => 'Systeem overschrijven',
@@ -756,7 +756,7 @@ $app_list_strings = array(
         'archived' => 'Gearchiveerd',
         'draft' => 'Concept',
         'inbound' => 'Inkomend',
-        'campaign' => 'Campagnes',
+        'campaign' => 'Campagne',
     ),
     'dom_email_status' => array(
         'archived' => 'Gearchiveerd',
@@ -825,9 +825,9 @@ $app_list_strings = array(
     'schedulers_times_dom' => array(
         'not run' => 'De starttijd ligt in het verleden, taak niet uitgevoerd.',
         'ready' => 'Gereed',
-        'in progress' => 'In Bewerking',
+        'in progress' => 'In behandeling',
         'failed' => 'Mislukt',
-        'completed' => 'Compleet',
+        'completed' => 'Voltooid',
         'no curl' => 'Niet Uitgevoerd: Geen cURL beschikbaar',
     ),
 
@@ -842,8 +842,8 @@ $app_list_strings = array(
     ),
     'document_category_dom' => array(
         '' => '',
-        'Marketing' => 'verzendinstelling',
-        'Knowledege Base' => 'Kennisbank',
+        'Marketing' => 'Marketing',
+        'Knowledege Base' => 'Kennisbank ',
         'Sales' => 'Verkoop',
     ),
 
@@ -855,18 +855,18 @@ $app_list_strings = array(
 
     'document_subcategory_dom' => array(
         '' => '',
-        'Marketing Collateral' => 'Marketing organisatie',
-        'Product Brochures' => 'Product brochures',
-        'FAQ' => 'Veel voorkomende vragen',
+        'Marketing Collateral' => 'Marketing bijkomstigheden',
+        'Product Brochures' => 'Productbrochures',
+        'FAQ' => 'Veelgestelde vragen (FAQ)',
     ),
 
     'document_status_dom' => array(
         'Active' => 'Actief',
         'Draft' => 'Concept',
-        'FAQ' => 'Veel voorkomende vragen',
+        'FAQ' => 'Veelgestelde vragen (FAQ)',
         'Expired' => 'Verlopen',
-        'Under Review' => 'Ter controle',
-        'Pending' => 'Wachtend',
+        'Under Review' => 'Wordt beoordeeld',
+        'Pending' => 'In afwachting',
     ),
     'document_template_type_dom' => array(
         '' => '',
@@ -881,7 +881,7 @@ $app_list_strings = array(
         'tentative' => 'Voorlopig',
     ),
     'dom_meeting_accept_status' => array(
-        'accept' => 'Accepteer',
+        'accept' => 'Geaccepteerd',
         'decline' => 'Weiger',
         'tentative' => 'Voorlopig',
         'none' => 'Geen',
@@ -961,11 +961,11 @@ $app_list_strings = array(
     ),
 
     'campainglog_target_type_dom' => array(
-        'Contacts' => 'Contacten',
+        'Contacts' => 'Contactpersonen',
         'Users' => 'Gebruikers',
         'Prospects' => 'Doelen',
         'Leads' => 'Leads',
-        'Accounts' => 'Relaties',
+        'Accounts' => 'Organisaties',
     ),
     'merge_operators_dom' => array(
         'like' => 'Bevat',
@@ -989,14 +989,14 @@ $app_list_strings = array(
 
     'projects_priority_options' => array(
         'high' => 'Hoog',
-        'medium' => 'Gemiddeld',
+        'medium' => 'Middel',
         'low' => 'Laag',
     ),
 
     'projects_status_options' => array(
         'notstarted' => 'Niet gestart',
-        'inprogress' => 'In Bewerking',
-        'completed' => 'Compleet',
+        'inprogress' => 'In behandeling',
+        'completed' => 'Voltooid',
     ),
     // strings to pass to Flash charts
     'chart_strings' => array(
@@ -1011,7 +1011,7 @@ $app_list_strings = array(
         'horizontalbarchart' => 'Horizontale Staafdiagram',
         'linechart' => 'Lijndiagram',
         'noData' => 'Data niet beschikbaar',
-        'print' => 'Afdrukken',
+        'print' => 'Druk af',
         'pieWedgeName' => 'secties',
     ),
     'release_status_dom' => array(
@@ -1036,7 +1036,7 @@ $app_list_strings = array(
         '.' => '.',
         ':' => ':',
         '|' => '|',
-        'other' => 'Ander:',
+        'other' => 'Overige:',
     ),
     'link_target_dom' => array(
         '_blank' => 'Nieuw window',
@@ -1053,10 +1053,10 @@ $app_list_strings = array(
     'dashlet_auto_refresh_options_admin' => array(
         '-1' => 'Nooit',
         '30' => 'Elke 30 seconden',
-        '60' => 'Iedere 1 minuut',
-        '180' => 'Iedere 3 minuten',
-        '300' => 'Iedere 5 minuten',
-        '600' => 'Iedere 10 minuten',
+        '60' => 'Elke 1 minuut',
+        '180' => 'Elke 3 minuten',
+        '300' => 'Elke 5 minuten',
+        '600' => 'Elke 10 minuten',
     ),
     'date_range_search_dom' => array(
         '=' => 'Gelijk',
@@ -1076,7 +1076,7 @@ $app_list_strings = array(
         'between' => 'Is tussen',
     ),
     'numeric_range_search_dom' => array(
-        '=' => 'Gelijk',
+        '=' => 'Gelijk aan',
         'not_equal' => 'Is niet gelijk',
         'greater_than' => 'Groter dan',
         'greater_than_equals' => 'groter dan of gelijk aan',
@@ -1118,14 +1118,14 @@ $app_strings = array(
     'LBL_ID_FF_REMOVE_EMAIL' => 'Emailadres verwijderen' /*for 508 compliance fix*/,
     'LBL_ID_FF_OPT_OUT' => 'Afgemeld',
     'LBL_ID_FF_INVALID' => 'Ongeldig maken',
-    'LBL_ADD' => 'Toevoegen' /*for 508 compliance fix*/,
+    'LBL_ADD' => 'Voeg toe' /*for 508 compliance fix*/,
     'LBL_COMPANY_LOGO' => 'Bedrijfslogo' /*for 508 compliance fix*/,
     'LBL_CONNECTORS_POPUPS' => 'Verbindingslijnen Popups',
-    'LBL_CLOSEINLINE' => 'Sluiten',
+    'LBL_CLOSEINLINE' => 'Sluit',
     'LBL_VIEWINLINE' => 'Bekijk',
     'LBL_INFOINLINE' => 'Informatie',
-    'LBL_PRINT' => 'Afdrukken',
-    'LBL_HELP' => 'Hulp',
+    'LBL_PRINT' => 'Druk af',
+    'LBL_HELP' => 'Help',
     'LBL_ID_FF_SELECT' => 'Selecteer',
     'DEFAULT' => 'Basis',
     'LBL_SORT' => 'Sorteer',
@@ -1157,12 +1157,12 @@ $app_strings = array(
     'LBL_EMAIL_ACCOUNTS_OUTBOUND_SUBTITLE' => 'Geef SMTP-mailserver informatie in voor gebruik van uitgaande e-mail in Mail Accounts.',
 
     'LBL_EMAIL_ADDRESS_BOOK_ADD' => 'Klaar',
-    'LBL_EMAIL_ADDRESS_BOOK_CLEAR' => 'Wissen',
+    'LBL_EMAIL_ADDRESS_BOOK_CLEAR' => 'Wis',
     'LBL_EMAIL_ADDRESS_BOOK_ADD_TO' => 'Aan:',
     'LBL_EMAIL_ADDRESS_BOOK_ADD_CC' => 'Cc:',
     'LBL_EMAIL_ADDRESS_BOOK_ADD_BCC' => 'Bcc',
     'LBL_EMAIL_ADDRESS_BOOK_ADRRESS_TYPE' => 'Aan/Cc/Bcc',
-    'LBL_EMAIL_ADDRESS_BOOK_EMAIL_ADDR' => 'E-mail',
+    'LBL_EMAIL_ADDRESS_BOOK_EMAIL_ADDR' => 'E-mailadres',
     'LBL_EMAIL_ADDRESS_BOOK_FILTER' => 'Filter',
     'LBL_EMAIL_ADDRESS_BOOK_NAME' => 'Naam',
     'LBL_EMAIL_ADDRESS_BOOK_NOT_FOUND' => 'Geen adres gevonden',
@@ -1170,14 +1170,14 @@ $app_strings = array(
     'LBL_EMAIL_ADDRESS_BOOK_SELECT_TITLE' => 'Selecteer e-mail items',
     'LBL_EMAIL_ADDRESS_BOOK_TITLE' => 'Adresboek',
     'LBL_EMAIL_REMOVE_SMTP_WARNING' => 'Let op! De uitgaande account die u probeert te verwijderen is gekoppeld aan een bestaande inkomende account. Weet u zeker dat u wilt doorgaan?',
-    'LBL_EMAIL_ADDRESSES' => 'E-mails',
-    'LBL_EMAIL_ADDRESS_PRIMARY' => 'E-mail',
+    'LBL_EMAIL_ADDRESSES' => 'E-mail',
+    'LBL_EMAIL_ADDRESS_PRIMARY' => 'E-mailadres',
     'LBL_EMAIL_ADDRESS_OPT_IN' => 'U heeft bevestigd dat uw mailadres gebruikt mag worden: ',
     'LBL_EMAIL_ADDRESS_OPT_IN_ERR' => 'Bevestigen van emailadres mislukt',
     'LBL_EMAIL_ARCHIVE_TO_SUITE' => 'Importeer in SuiteCRM',
     'LBL_EMAIL_ASSIGNMENT' => 'Taak',
     'LBL_EMAIL_ATTACH_FILE_TO_EMAIL' => 'Toevoegen',
-    'LBL_EMAIL_ATTACHMENT' => 'Toevoegen',
+    'LBL_EMAIL_ATTACHMENT' => 'Bijvoegen',
     'LBL_EMAIL_ATTACHMENTS' => 'Van locale computer',
     'LBL_EMAIL_ATTACHMENTS2' => 'Van SuiteCRM documenten',
     'LBL_EMAIL_ATTACHMENTS3' => 'Sjabloon toevoegen',
@@ -1190,10 +1190,10 @@ $app_strings = array(
     'LBL_EMAIL_CHECK' => 'Haal e-mail',
     'LBL_EMAIL_CHECKING_NEW' => 'Controleren op nieuw e-mail',
     'LBL_EMAIL_CHECKING_DESC' => 'Een moment a.u.b... <br><br>De eerste keer kan dit even duren.',
-    'LBL_EMAIL_CLOSE' => 'Sluiten',
+    'LBL_EMAIL_CLOSE' => 'Sluit',
     'LBL_EMAIL_COFFEE_BREAK' => 'Controleren op nieuw e-mail. <br><br>Grote e-mails kunnen even duren.',
 
-    'LBL_EMAIL_COMPOSE' => 'E-mails',
+    'LBL_EMAIL_COMPOSE' => 'E-mail',
     'LBL_EMAIL_COMPOSE_ERR_NO_RECIPIENTS' => 'Vul a.u.b. minstens een ontvanger in.',
     'LBL_EMAIL_COMPOSE_NO_BODY' => 'Deze e-mail heeft geen body. Toch verzenden?',
     'LBL_EMAIL_COMPOSE_NO_SUBJECT' => 'Deze e-mail heeft geen onderwerp. Toch verzenden?',
@@ -1210,7 +1210,7 @@ $app_strings = array(
     'LBL_EMAIL_MULT_GROUP_FOLDER_ACCOUNTS_EMPTY' => 'Leeg',
     'LBL_EMAIL_DATE_SENT_BY_SENDER' => 'Datum verzonden door verzender',
     'LBL_EMAIL_DATE_TODAY' => 'Vandaag',
-    'LBL_EMAIL_DELETE' => 'Verwijderen',
+    'LBL_EMAIL_DELETE' => 'Verwijder',
     'LBL_EMAIL_DELETE_CONFIRM' => 'Verwijder geselecteerde berichten?',
     'LBL_EMAIL_DELETE_SUCCESS' => 'E-mail verwijderd.',
     'LBL_EMAIL_DELETING_MESSAGE' => 'E-mail verwijderen...',
@@ -1268,7 +1268,7 @@ $app_strings = array(
         '.gif',
         ''
     ),
-    'LBL_EMAIL_FOLDERS_ADD' => 'Toevoegen',
+    'LBL_EMAIL_FOLDERS_ADD' => 'Voeg toe',
     'LBL_EMAIL_FOLDERS_ADD_DIALOG_TITLE' => 'Nieuwe map toevoegen',
     'LBL_EMAIL_FOLDERS_RENAME_DIALOG_TITLE' => 'Map hernoemen',
     'LBL_EMAIL_FOLDERS_ADD_NEW_FOLDER' => 'Opslaan',
@@ -1310,7 +1310,7 @@ $app_strings = array(
     'LBL_EMAIL_MENU_SYNCHRONIZE' => 'Synchroniseer',
     'LBL_EMAIL_MENU_CLEAR_CACHE' => 'Cache bestanden verwijderen',
     'LBL_EMAIL_MENU_REMOVE' => 'Verwijder',
-    'LBL_EMAIL_MENU_RENAME_FOLDER' => 'Map hernoemen',
+    'LBL_EMAIL_MENU_RENAME_FOLDER' => 'Hernoem map',
     'LBL_EMAIL_MENU_RENAMING_FOLDER' => 'Map hernoemen...',
     'LBL_EMAIL_MENU_MAKE_SELECTION' => 'Maak a.u.b. een selectie voordat u deze aktie uitvoert.',
 
@@ -1337,17 +1337,17 @@ $app_strings = array(
     'LBL_EMAIL_OPEN_ALL' => 'Open meerdere berichten',
     'LBL_EMAIL_OPTIONS' => 'Opties',
     'LBL_EMAIL_QUICK_COMPOSE' => 'Snel samenstellen',
-    'LBL_EMAIL_OPT_OUT' => 'Afgemeld',
+    'LBL_EMAIL_OPT_OUT' => 'Opted out',
     'LBL_EMAIL_OPT_OUT_AND_INVALID' => 'Niet deelnemer en ongeldig',
     'LBL_EMAIL_PERFORMING_TASK' => 'Taak uitvoeren...',
     'LBL_EMAIL_PRIMARY' => 'Primaire',
-    'LBL_EMAIL_PRINT' => 'Afdrukken',
+    'LBL_EMAIL_PRINT' => 'Druk af',
 
-    'LBL_EMAIL_QC_BUGS' => 'Bugs',
+    'LBL_EMAIL_QC_BUGS' => 'Fout',
     'LBL_EMAIL_QC_CASES' => 'Verzoek',
-    'LBL_EMAIL_QC_LEADS' => 'Lead',
-    'LBL_EMAIL_QC_CONTACTS' => 'Contactpersoon',
-    'LBL_EMAIL_QC_TASKS' => 'Taken',
+    'LBL_EMAIL_QC_LEADS' => 'Kans',
+    'LBL_EMAIL_QC_CONTACTS' => 'Contactpersonen',
+    'LBL_EMAIL_QC_TASKS' => 'Taak',
     'LBL_EMAIL_QC_OPPORTUNITIES' => 'Kans',
     'LBL_EMAIL_QUICK_CREATE' => 'Snel aanmaken',
 
@@ -1396,7 +1396,7 @@ $app_strings = array(
 
     'LBL_EMAIL_SELECT' => 'Selecteer',
 
-    'LBL_EMAIL_SEND' => 'Verzenden',
+    'LBL_EMAIL_SEND' => 'Verzend',
     'LBL_EMAIL_SENDING_EMAIL' => 'E-mail versturen',
 
     'LBL_EMAIL_SETTINGS' => 'Instellingen',
@@ -1405,7 +1405,7 @@ $app_strings = array(
     'LBL_EMAIL_SETTINGS_CHECK_INTERVAL' => 'Checken op nieuwe e-mail',
     'LBL_EMAIL_SETTINGS_FROM_ADDR' => 'Van adres',
     'LBL_EMAIL_SETTINGS_FROM_TO_EMAIL_ADDR' => 'E-mail adres voor test bericht:',
-    'LBL_EMAIL_SETTINGS_FROM_ADDR_NOT_SET' => 'From address and/or From name not set',
+    'LBL_EMAIL_SETTINGS_FROM_ADDR_NOT_SET' => 'Van adres en/of van naam niet ingesteld',
     'LBL_EMAIL_SETTINGS_FROM_NAME' => 'From name',
     'LBL_EMAIL_SETTINGS_REPLY_TO_ADDR' => 'Antwoord aan adres',
     'LBL_EMAIL_SETTINGS_FULL_SYNC' => 'Synchroniseer alle e-mail accounts',
@@ -1435,7 +1435,7 @@ $app_strings = array(
     'LBL_SMTPTYPE_GMAIL' => 'Gmail',
     'LBL_SMTPTYPE_YAHOO' => 'Yahoo mail',
     'LBL_SMTPTYPE_EXCHANGE' => 'Microsoft Exchange',
-    'LBL_SMTPTYPE_OTHER' => 'Anders',
+    'LBL_SMTPTYPE_OTHER' => 'Overige',
     'LBL_EMAIL_SPACER_MAIL_SERVER' => '[ Mappen op afstand ]',
     'LBL_EMAIL_SPACER_LOCAL_FOLDER' => '[ SuiteCRM mappen ]',
     'LBL_EMAIL_SUBJECT' => 'Onderwerp',
@@ -1493,8 +1493,8 @@ $app_strings = array(
     'ERR_DB_FAIL' => 'Database fout. Kijk voor details in de error log van SuiteCRM',
     'ERR_DB_VERSION' => 'SuiteCRM {0} bestanden mogen alleen worden gebruikt met een SuiteCRM {1} database.',
 
-    'LBL_ACCOUNT' => 'Opdrachtgever',
-    'LBL_ACCOUNTS' => 'Relaties',
+    'LBL_ACCOUNT' => 'Organisatie',
+    'LBL_ACCOUNTS' => 'Organisaties',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activiteiten',
     'LBL_ACCUMULATED_HISTORY_BUTTON_KEY' => 'H',
     'LBL_ACCUMULATED_HISTORY_BUTTON_LABEL' => 'Bekijk samenvatting',
@@ -1526,25 +1526,25 @@ $app_strings = array(
     'LBL_CHARSET' => 'UTF-8',
     'LBL_CHECKALL' => 'Controleer alles',
     'LBL_CITY' => 'Plaats',
-    'LBL_CLEAR_BUTTON_LABEL' => 'Wissen',
-    'LBL_CLEAR_BUTTON_TITLE' => 'Wissen',
+    'LBL_CLEAR_BUTTON_LABEL' => 'Wis',
+    'LBL_CLEAR_BUTTON_TITLE' => 'Wis',
     'LBL_CLEARALL' => 'Wis alles',
-    'LBL_CLOSE_BUTTON_TITLE' => 'Sluiten',
+    'LBL_CLOSE_BUTTON_TITLE' => 'Sluit',
     'LBL_CLOSE_AND_CREATE_BUTTON_LABEL' => 'Sluiten en nieuwe maken',
     'LBL_CLOSE_AND_CREATE_BUTTON_TITLE' => 'Sluiten en nieuwe maken',
     'LBL_CLOSE_AND_CREATE_BUTTON_KEY' => 'C',
-    'LBL_OPEN_ITEMS' => 'Open Items:',
-    'LBL_COMPOSE_EMAIL_BUTTON_KEY' => 'Lijst',
+    'LBL_OPEN_ITEMS' => 'Open items:',
+    'LBL_COMPOSE_EMAIL_BUTTON_KEY' => 'L',
     'LBL_COMPOSE_EMAIL_BUTTON_LABEL' => 'E-mail opstellen',
     'LBL_COMPOSE_EMAIL_BUTTON_TITLE' => 'E-mail opstellen',
     'LBL_SEARCH_DROPDOWN_YES' => 'Ja',
     'LBL_SEARCH_DROPDOWN_NO' => 'Nee',
     'LBL_CONTACT_LIST' => 'Contactpersonen',
     'LBL_CONTACT' => 'Contactpersoon',
-    'LBL_CONTACTS' => 'Contacten',
+    'LBL_CONTACTS' => 'Contactpersonen',
     'LBL_CONTRACT' => 'Contract',
     'LBL_CONTRACTS' => 'Contracten',
-    'LBL_COUNTRY' => 'Land',
+    'LBL_COUNTRY' => 'Land:',
     'LBL_CREATE_BUTTON_LABEL' => 'Maak aan',
     'LBL_CREATED_BY_USER' => 'Aangemaakt door gebruiker',
     'LBL_CREATED_USER' => 'Aangemaakt door gebruiker',
@@ -1552,16 +1552,16 @@ $app_strings = array(
     'LBL_CURRENT_USER_FILTER' => 'My Items:',
     'LBL_CURRENCY' => 'Valuta:',
     'LBL_DOCUMENTS' => 'Documenten',
-    'LBL_DATE_ENTERED' => 'Ingevoerd:',
+    'LBL_DATE_ENTERED' => 'Aangemaakt op:',
     'LBL_DATE_MODIFIED' => 'Datum gewijzigd:',
-    'LBL_EDIT_BUTTON' => 'Wijzigen',
+    'LBL_EDIT_BUTTON' => 'Bewerk',
     'LBL_DUPLICATE_BUTTON' => 'Dupliceren',
-    'LBL_DELETE_BUTTON' => 'Verwijderen',
-    'LBL_DELETE' => 'Verwijderen',
+    'LBL_DELETE_BUTTON' => 'Verwijder',
+    'LBL_DELETE' => 'Verwijder',
     'LBL_DELETED' => 'Verwijderd',
     'LBL_DIRECT_REPORTS' => 'Rapporteert aan',
-    'LBL_DONE_BUTTON_LABEL' => 'Klaar',
-    'LBL_DONE_BUTTON_TITLE' => 'Klaar',
+    'LBL_DONE_BUTTON_LABEL' => 'Gereed',
+    'LBL_DONE_BUTTON_TITLE' => 'Gereed',
     'LBL_FAVORITES' => 'Favorieten',
     'LBL_VCARD' => 'vCard',
     'LBL_EMPTY_VCARD' => 'Selecteer a.u.n een vCard bestand',
@@ -1575,33 +1575,33 @@ $app_strings = array(
     'LBL_EMAIL_PDF_BUTTON_LABEL' => 'E-mail als PDF',
     'LBL_EMAIL_PDF_BUTTON_TITLE' => 'E-mail als PDF',
     'LBL_EMAILS' => 'E-mails',
-    'LBL_EMPLOYEES' => 'Personeel',
+    'LBL_EMPLOYEES' => 'Werknemers',
     'LBL_ENTER_DATE' => 'Geef datum',
     'LBL_EXPORT' => 'Exporteren',
-    'LBL_FAVORITES_FILTER' => 'My Favorites:',
+    'LBL_FAVORITES_FILTER' => 'Mijn favorieten:',
     'LBL_GO_BUTTON_LABEL' => 'Ga',
     'LBL_HIDE' => 'Verberg',
-    'LBL_ID' => 'Id',
+    'LBL_ID' => 'ID',
     'LBL_IMPORT' => 'Importeer',
     'LBL_IMPORT_STARTED' => 'Importeren gestart: ',
     'LBL_LAST_VIEWED' => 'Laatst bekeken',
     'LBL_LEADS' => 'Leads',
     'LBL_LESS' => 'minder',
-    'LBL_CAMPAIGN' => 'Campagnes:',
+    'LBL_CAMPAIGN' => 'Campagne:',
     'LBL_CAMPAIGNS' => 'Campagnes',
     'LBL_CAMPAIGNLOG' => 'Campagnes Log',
     'LBL_CAMPAIGN_CONTACT' => 'Campagnes',
-    'LBL_CAMPAIGN_ID' => 'campaign_id',
+    'LBL_CAMPAIGN_ID' => 'campagne_id',
     'LBL_CAMPAIGN_NONE' => 'Geen',
     'LBL_THEME' => 'Thema:',
     'LBL_FOUND_IN_RELEASE' => 'Gevonden in release',
     'LBL_FIXED_IN_RELEASE' => 'Gefixt in release',
-    'LBL_LIST_ACCOUNT_NAME' => 'Organisatie naam',
+    'LBL_LIST_ACCOUNT_NAME' => 'Organisatienaam',
     'LBL_LIST_ASSIGNED_USER' => 'Gebruiker',
     'LBL_LIST_CONTACT_NAME' => 'Naam contactpersoon',
     'LBL_LIST_CONTACT_ROLE' => 'Rol contactpersoon',
-    'LBL_LIST_DATE_ENTERED' => 'Datum aangemaakt',
-    'LBL_LIST_EMAIL' => 'E-mails',
+    'LBL_LIST_DATE_ENTERED' => 'Aangemaakt op',
+    'LBL_LIST_EMAIL' => 'E-mail',
     'LBL_LIST_NAME' => 'Naam',
     'LBL_LIST_OF' => 'van',
     'LBL_LIST_PHONE' => 'Telefoon',
@@ -1616,11 +1616,11 @@ $app_strings = array(
     'LBL_LOCALE_NAME_EXAMPLE_LAST' => 'Janssen',
     'LBL_LOCALE_NAME_EXAMPLE_SALUTATION' => 'Dr.',
     'LBL_LOCALE_NAME_EXAMPLE_TITLE' => 'CEO',
-    'LBL_CANCEL' => 'Annuleren',
+    'LBL_CANCEL' => 'Annuleer',
     'LBL_VERIFY' => 'Verifieer',
     'LBL_RESEND' => 'Verstuur opnieuw',
     'LBL_PROFILE' => 'Profiel',
-    'LBL_MAILMERGE' => 'Mail merge',
+    'LBL_MAILMERGE' => 'Mail Samenvoegen',
     'LBL_MASS_UPDATE' => 'Massa update',
     'LBL_NO_MASS_UPDATE_FIELDS_AVAILABLE' => 'Er zijn geen velden beschikbaar voor de mass update opdracht',
     'LBL_OPT_OUT_FLAG_PRIMARY' => 'Opt-out primaire e-mailadres',
@@ -1638,7 +1638,7 @@ $app_strings = array(
     'LBL_NAME' => 'Naam',
     'LBL_NEW_BUTTON_KEY' => 'N',
     'LBL_NEW_BUTTON_LABEL' => 'Nieuw',
-    'LBL_NEW_BUTTON_TITLE' => 'Nieuw',
+    'LBL_NEW_BUTTON_TITLE' => 'Maak aan',
     'LBL_NEXT_BUTTON_LABEL' => 'Volgende',
     'LBL_NONE' => '--Geen--',
     'LBL_NOTES' => 'Notities',
@@ -1651,19 +1651,19 @@ $app_strings = array(
     'LBL_PANEL_ADVANCED' => 'Meer informatie',
     'LBL_PARENT_TYPE' => 'Parent type',
     'LBL_PERCENTAGE_SYMBOL' => '%',
-    'LBL_POSTAL_CODE' => 'Postcode',
+    'LBL_POSTAL_CODE' => 'Postcode:',
     'LBL_PRIMARY_ADDRESS_CITY' => 'Plaats:',
-    'LBL_PRIMARY_ADDRESS_COUNTRY' => 'Land:',
+    'LBL_PRIMARY_ADDRESS_COUNTRY' => 'Primair adres land:',
     'LBL_PRIMARY_ADDRESS_POSTALCODE' => 'Postcode:',
     'LBL_PRIMARY_ADDRESS_STATE' => 'Primair provincie:',
-    'LBL_PRIMARY_ADDRESS_STREET_2' => 'Primair adres 2:',
-    'LBL_PRIMARY_ADDRESS_STREET_3' => 'Primair adres 3:',
+    'LBL_PRIMARY_ADDRESS_STREET_2' => 'Primair adres straat 2:',
+    'LBL_PRIMARY_ADDRESS_STREET_3' => 'Primair adres straat 3:',
     'LBL_PRIMARY_ADDRESS_STREET' => 'Straat + Huisnummer:',
     'LBL_PRIMARY_ADDRESS' => 'Hoofdadres:',
 
     'LBL_PROSPECTS' => 'Prospecten',
     'LBL_PRODUCTS' => 'Producten',
-    'LBL_PROJECT_TASKS' => 'Project taak',
+    'LBL_PROJECT_TASKS' => 'Projecttaken',
     'LBL_PROJECTS' => 'Projecten',
     'LBL_QUOTES' => 'Offertes',
 
@@ -1673,12 +1673,12 @@ $app_strings = array(
     'LBL_REPORTS_TO' => 'Leidinggevende',
     'LBL_REQUIRED_SYMBOL' => '*',
     'LBL_REQUIRED_TITLE' => 'Vereist een verplicht veld',
-    'LBL_EMAIL_DONE_BUTTON_LABEL' => 'Klaar',
-    'LBL_FULL_FORM_BUTTON_KEY' => 'Lijst',
+    'LBL_EMAIL_DONE_BUTTON_LABEL' => 'Gereed',
+    'LBL_FULL_FORM_BUTTON_KEY' => 'L',
     'LBL_FULL_FORM_BUTTON_LABEL' => 'Volledig formulier',
-    'LBL_FULL_FORM_BUTTON_TITLE' => 'Volledig formulier',
+    'LBL_FULL_FORM_BUTTON_TITLE' => 'Volledig Formulier',
     'LBL_SAVE_NEW_BUTTON_LABEL' => 'Opslaan en nieuwe aanmaken',
-    'LBL_SAVE_NEW_BUTTON_TITLE' => 'Opslaan en nieuwe aanmaken',
+    'LBL_SAVE_NEW_BUTTON_TITLE' => 'Opslaan en nieuwe maken',
     'LBL_SAVE_OBJECT' => 'Opslaan {0}',
     'LBL_SEARCH_BUTTON_KEY' => 'Sluit',
     'LBL_SEARCH_BUTTON_LABEL' => 'Zoeken',
@@ -1692,7 +1692,7 @@ $app_strings = array(
     'LBL_SELECT_BUTTON_LABEL' => 'Selecteer',
     'LBL_SELECT_BUTTON_TITLE' => 'Selecteer',
     'LBL_BROWSE_DOCUMENTS_BUTTON_LABEL' => 'Bladeren in documenten',
-    'LBL_BROWSE_DOCUMENTS_BUTTON_TITLE' => 'Bladeren in documenten',
+    'LBL_BROWSE_DOCUMENTS_BUTTON_TITLE' => 'Blader door documenten',
     'LBL_SELECT_CONTACT_BUTTON_KEY' => 'T',
     'LBL_SELECT_CONTACT_BUTTON_LABEL' => 'Selecteer contactpersoon',
     'LBL_SELECT_CONTACT_BUTTON_TITLE' => 'Selecteer contactpersoon',
@@ -1720,13 +1720,13 @@ $app_strings = array(
     'LBL_ACCESSKEY_SELECT_USERS_LABEL' => 'Selecteer gebruiker',
     'LBL_ACCESSKEY_CLEAR_USERS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_USERS_TITLE' => 'Wissen gebruiker',
-    'LBL_ACCESSKEY_CLEAR_USERS_LABEL' => 'Wissen gebruiker',
+    'LBL_ACCESSKEY_CLEAR_USERS_LABEL' => 'Wis gebruiker',
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_KEY' => 'A',
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_TITLE' => 'Kies een relatie',
-    'LBL_ACCESSKEY_SELECT_ACCOUNTS_LABEL' => 'Kies een relatie',
+    'LBL_ACCESSKEY_SELECT_ACCOUNTS_LABEL' => 'Selecteer organisatie',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_TITLE' => 'Account wissen',
-    'LBL_ACCESSKEY_CLEAR_ACCOUNTS_LABEL' => 'Account wissen',
+    'LBL_ACCESSKEY_CLEAR_ACCOUNTS_LABEL' => 'Organisatie wissen',
     'LBL_ACCESSKEY_SELECT_CAMPAIGNS_KEY' => 'M',
     'LBL_ACCESSKEY_SELECT_CAMPAIGNS_TITLE' => 'Selecteer campagne',
     'LBL_ACCESSKEY_SELECT_CAMPAIGNS_LABEL' => 'Selecteer campagne',
@@ -1738,7 +1738,7 @@ $app_strings = array(
     'LBL_ACCESSKEY_SELECT_CONTACTS_LABEL' => 'Selecteer contactpersoon',
     'LBL_ACCESSKEY_CLEAR_CONTACTS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_CONTACTS_TITLE' => 'Contact wissen',
-    'LBL_ACCESSKEY_CLEAR_CONTACTS_LABEL' => 'Contact wissen',
+    'LBL_ACCESSKEY_CLEAR_CONTACTS_LABEL' => 'Contactpersoon wissen',
     'LBL_ACCESSKEY_SELECT_TEAMSET_KEY' => 'Z',
     'LBL_ACCESSKEY_SELECT_TEAMSET_TITLE' => 'Team selecteren',
     'LBL_ACCESSKEY_SELECT_TEAMSET_LABEL' => 'Team selecteren',
@@ -1763,8 +1763,8 @@ $app_strings = array(
     'LBL_INBOUNDEMAIL_ID' => 'Inkomend e-mail Id',
 
     'LBL_SCENARIO_SALES' => 'Verkoop',
-    'LBL_SCENARIO_MARKETING' => 'verzendinstelling',
-    'LBL_SCENARIO_FINANCE' => 'Financieel',
+    'LBL_SCENARIO_MARKETING' => 'Marketing',
+    'LBL_SCENARIO_FINANCE' => 'Financiën',
     'LBL_SCENARIO_SERVICE' => 'Dienst',
     'LBL_SCENARIO_PROJECT' => 'Projectmanagement',
 
@@ -1775,17 +1775,17 @@ $app_strings = array(
     'LBL_SCENARIO_PROJECT_DESCRIPTION' => 'Dit scenario vergamekelijkt het beheer van aan het project aanverwante items',
 
     'LBL_SYNC' => 'Synchroniseer',
-    'LBL_TABGROUP_ALL' => 'Alles',
+    'LBL_TABGROUP_ALL' => 'Alle',
     'LBL_TABGROUP_ACTIVITIES' => 'Activiteiten',
     'LBL_TABGROUP_COLLABORATION' => 'Samenwerking',
-    'LBL_TABGROUP_MARKETING' => 'verzendinstelling',
-    'LBL_TABGROUP_OTHER' => 'Anders',
+    'LBL_TABGROUP_MARKETING' => 'Marketing',
+    'LBL_TABGROUP_OTHER' => 'Overige',
     'LBL_TABGROUP_SALES' => 'Verkoop',
     'LBL_TABGROUP_SUPPORT' => 'Ondersteuning',
     'LBL_TASKS' => 'Taken',
     'LBL_THOUSANDS_SYMBOL' => 'K',
     'LBL_TRACK_EMAIL_BUTTON_LABEL' => 'E-mail archiveren',
-    'LBL_TRACK_EMAIL_BUTTON_TITLE' => 'E-mail archiveren',
+    'LBL_TRACK_EMAIL_BUTTON_TITLE' => 'Archiveer e-mail',
     'LBL_UNDELETE_BUTTON_LABEL' => 'Verwijderen ongedaan maken',
     'LBL_UNDELETE_BUTTON_TITLE' => 'Verwijderen ongedaan maken',
     'LBL_UNDELETE_BUTTON' => 'Verwijderen ongedaan maken',
@@ -1802,17 +1802,17 @@ $app_strings = array(
     'LNK_ADVANCED_FILTER' => 'Geavanceerd filter',
     'LNK_BASIC_FILTER' => 'Snelfilter',
     'LBL_ADVANCED_SEARCH' => 'Geavanceerd filter',
-    'LBL_QUICK_FILTER' => 'Snelfilter',
+    'LBL_QUICK_FILTER' => 'Snel filteren',
     'LNK_SEARCH_NONFTS_VIEW_ALL' => 'Toon alles',
-    'LNK_CLOSE' => 'Sluiten',
+    'LNK_CLOSE' => 'Sluit',
     'LBL_MODIFY_CURRENT_FILTER' => 'Huidig filter wijzigen',
     'LNK_SAVED_VIEWS' => 'Lay-out opties',
-    'LNK_DELETE' => 'Verwijderen',
-    'LNK_EDIT' => 'Wijzigen',
+    'LNK_DELETE' => 'Verwijder',
+    'LNK_EDIT' => 'Bewerk',
     'LNK_GET_LATEST' => 'Haal nieuwste',
     'LNK_GET_LATEST_TOOLTIP' => 'Vervang met laatste versie',
-    'LNK_HELP' => 'Hulp',
-    'LNK_CREATE' => 'Nieuw',
+    'LNK_HELP' => 'Help',
+    'LNK_CREATE' => 'Maak aan',
     'LNK_LIST_END' => 'Eind',
     'LNK_LIST_NEXT' => 'Volgende',
     'LNK_LIST_PREVIOUS' => 'Vorige',
@@ -1820,7 +1820,7 @@ $app_strings = array(
     'LNK_LIST_START' => 'Start',
     'LNK_LOAD_SIGNED' => 'Teken',
     'LNK_LOAD_SIGNED_TOOLTIP' => 'Vervang met ondertekend document',
-    'LNK_PRINT' => 'Afdrukken',
+    'LNK_PRINT' => 'Druk af',
     'LNK_BACKTOTOP' => 'Terug naar boven',
     'LNK_REMOVE' => 'Verwijder',
     'LNK_RESUME' => 'Vervolg',
@@ -1831,14 +1831,14 @@ $app_strings = array(
     'NTC_DELETE_CONFIRMATION_MULTIPLE' => 'Weet je zeker dat je de geselecteerde records wilt verwijderen?',
     'NTC_TEMPLATE_IS_USED' => 'Het sjabloon wordt gebruikt in ten minste één e-mail marketing. Weet u zeker dat u het wilt verwijderen?',
     'NTC_TEMPLATES_IS_USED' => 'De volgende sjablonen gebruiken in e-mailmarketing records. Weet u zeker dat u wilt verwijderen?' . PHP_EOL,
-    'NTC_DELETE_CONFIRMATION' => 'Weet u zeker dat u dit record wilt verwijderen?',
+    'NTC_DELETE_CONFIRMATION' => 'Weet je zeker dat je dit item wilt verwijderen?',
     'NTC_DELETE_CONFIRMATION_NUM' => 'Weet u zeker dat u deze items wilt verwijderen?',
     'NTC_UPDATE_CONFIRMATION_NUM' => 'Weet u zeker dat u deze items wilt updaten?',
     'NTC_DELETE_SELECTED_RECORDS' => ' geselecteerde record(s)?',
     'NTC_LOGIN_MESSAGE' => 'Eerst inloggen a.u.b.',
     'NTC_NO_ITEMS_DISPLAY' => 'geen',
     'NTC_REMOVE_CONFIRMATION' => 'Weet je zeker dat je deze Relatie wilt verwijderen?',
-    'NTC_REQUIRED' => 'Vereist een verplicht veld',
+    'NTC_REQUIRED' => 'Geeft verplicht veld aan',
     'NTC_TIME_FORMAT' => '(24:00)',
     'NTC_WELCOME' => 'Welkom',
     'NTC_YEAR_FORMAT' => '(jjjj)',
@@ -1852,7 +1852,7 @@ $app_strings = array(
     'LBL_MANAGE_SUBSCRIPTIONS' => 'Beheren aanmeldingen nieuwsbrieven',
     'LBL_MANAGE_SUBSCRIPTIONS_FOR' => 'Aanmeldingen beheren voor ',
     // Ajax status strings
-    'LBL_LOADING' => 'Laden...',
+    'LBL_LOADING' => 'Laden ...',
     'LBL_SEARCHING' => 'Zoeken...',
     'LBL_SAVING_LAYOUT' => 'Layout opslaan ...',
     'LBL_SAVED_LAYOUT' => 'Layout is opgeslagen.',
@@ -1863,7 +1863,7 @@ $app_strings = array(
     'LBL_SEARCH_CRITERIA' => 'Zoekcriteria',
     'LBL_SAVED_VIEWS' => 'Opgeslagen weergaven',
     'LBL_PROCESSING_REQUEST' => 'Verwerken...',
-    'LBL_REQUEST_PROCESSED' => 'Klaar',
+    'LBL_REQUEST_PROCESSED' => 'Gereed',
     'LBL_AJAX_FAILURE' => 'Ajax programma fout',
     'LBL_MERGE_DUPLICATES' => 'Samenvoegen',
     'LBL_SAVED_FILTER_SHORTCUT' => 'Mijn Filters',
@@ -1876,20 +1876,20 @@ $app_strings = array(
     'LBL_SEARCHFORM' => 'Zoeken',
     'LBL_SAVED_SEARCH_ERROR' => 'Geef alstublieft een naam voor deze view.',
     'LBL_DISPLAY_LOG' => 'Laat log zien',
-    'ERROR_JS_ALERT_SYSTEM_CLASS' => 'Systeembeheer',
+    'ERROR_JS_ALERT_SYSTEM_CLASS' => 'Systeem',
     'ERROR_JS_ALERT_TIMEOUT_TITLE' => 'Sessie timeout',
     'ERROR_JS_ALERT_TIMEOUT_MSG_1' => 'Uw sessie zal over 2 minuten verlopen! Sla a.u.b. uw werk op.',
     'ERROR_JS_ALERT_TIMEOUT_MSG_2' => 'Uw sessie is verlopen',
     'MSG_JS_ALERT_MTG_REMINDER_AGENDA' => "\nAgenda: ",
     'MSG_JS_ALERT_MTG_REMINDER_MEETING' => 'Afspraak',
-    'MSG_JS_ALERT_MTG_REMINDER_CALL' => 'Telefoongesprekken',
+    'MSG_JS_ALERT_MTG_REMINDER_CALL' => 'Telefoongesprek',
     'MSG_JS_ALERT_MTG_REMINDER_TIME' => 'Tijd: ',
     'MSG_JS_ALERT_MTG_REMINDER_LOC' => 'Locatie: ',
     'MSG_JS_ALERT_MTG_REMINDER_DESC' => 'Omschrijving: ',
     'MSG_JS_ALERT_MTG_REMINDER_STATUS' => 'Status: ',
     'MSG_JS_ALERT_MTG_REMINDER_RELATED_TO' => 'Gerelateerd aan: ',
-    'MSG_JS_ALERT_MTG_REMINDER_CALL_MSG' => "\nClick OK to view this call or click Cancel to dismiss this message.",
-    'MSG_JS_ALERT_MTG_REMINDER_MEETING_MSG' => "\nClick OK to view this meeting or click Cancel to dismiss this message.",
+    'MSG_JS_ALERT_MTG_REMINDER_CALL_MSG' => "\nKlik OK om deze oproep te bekijken of klik op Annuleren om dit bericht te negeren.",
+    'MSG_JS_ALERT_MTG_REMINDER_MEETING_MSG' => "\nKlik op OK om deze vergadering te bekijken of klik op Annuleren om dit bericht te negeren.",
     'MSG_JS_ALERT_MTG_REMINDER_NO_EVENT_NAME' => 'Evenement',
     'MSG_JS_ALERT_MTG_REMINDER_NO_DESCRIPTION' => 'Gebeurtenis is niet ingesteld.',
     'MSG_JS_ALERT_MTG_REMINDER_NO_LOCATION' => 'Locatie niet ingesteld.',
@@ -1950,8 +1950,8 @@ $app_strings = array(
     'LBL_REMOVE_DASHLET_CONFIRM' => 'Weet u zeker dat u deze SuiteCRM Dashlet wilt verwijderen?',
     'LBL_REMOVING_DASHLET' => 'Bezig met het verwijderen van een SuiteCRM Dashlet ...',
     'LBL_REMOVED_DASHLET' => 'SuiteCRM Dashlet verwijderd',
-    'LBL_MAX_DASHLET_COLUMNS' => "Maximum of %s columns can be displayed.",
-    'LBL_RETRIEVING_XML_DATA' => "There was a problem retrieving the XML data:\n",
+    'LBL_MAX_DASHLET_COLUMNS' => "Maximaal aantal %s kolommen kunnen worden weergegeven.",
+    'LBL_RETRIEVING_XML_DATA' => "Er was een probleem bij het ophalen van de XML-gegevens:\n",
 
     // MySugar Menu Options
 
@@ -1959,7 +1959,7 @@ $app_strings = array(
 
     'LBL_RELOAD_PAGE' => '<a href="javascript: window.location.reload()">Vernieuw dit scherm</a> om deze SuiteCRM Dashlet te gebruiken.',
     'LBL_ADD_DASHLETS' => 'Dashlet toevoegen',
-    'LBL_CLOSE_DASHLETS' => 'Sluiten',
+    'LBL_CLOSE_DASHLETS' => 'Sluit',
     'LBL_OPTIONS' => 'Opties',
     'LBL_1_COLUMN' => '1 kolom',
     'LBL_2_COLUMN' => '2 kolommen',
@@ -2021,7 +2021,7 @@ $app_strings = array(
     'LBL_CHOOSE_START_AND_END_ENTRIES' => 'Kies a.u.b. een start en eind bereik',
 
     //jchi #  20776
-    'LBL_DROPDOWN_LIST_ALL' => 'Alles',
+    'LBL_DROPDOWN_LIST_ALL' => 'Alle',
 
     //Connector
     'ERR_CONNECTOR_FILL_BEANS_SIZE_MISMATCH' => 'Fout: De Array count van de bean parameter komt niet overeen met de Array count van het resultaat.',
@@ -2129,22 +2129,22 @@ $app_strings = array(
 
     //508 used Access Keys
     'LBL_EDIT_BUTTON_KEY' => 'i',
-    'LBL_EDIT_BUTTON_LABEL' => 'Wijzigen',
-    'LBL_EDIT_BUTTON_TITLE' => 'Wijzigen',
+    'LBL_EDIT_BUTTON_LABEL' => 'Bewerk',
+    'LBL_EDIT_BUTTON_TITLE' => 'Bewerk',
     'LBL_DUPLICATE_BUTTON_KEY' => 'u',
-    'LBL_DUPLICATE_BUTTON_LABEL' => 'Dupliceren',
-    'LBL_DUPLICATE_BUTTON_TITLE' => 'Dupliceren',
+    'LBL_DUPLICATE_BUTTON_LABEL' => 'Dupliceer',
+    'LBL_DUPLICATE_BUTTON_TITLE' => 'Dupliceer',
     'LBL_DELETE_BUTTON_KEY' => 'D',
-    'LBL_DELETE_BUTTON_LABEL' => 'Verwijderen',
-    'LBL_DELETE_BUTTON_TITLE' => 'Verwijderen',
-    'LBL_BULK_ACTION_BUTTON_LABEL' => 'BULK ACTION',
+    'LBL_DELETE_BUTTON_LABEL' => 'Verwijder',
+    'LBL_DELETE_BUTTON_TITLE' => 'Verwijder',
+    'LBL_BULK_ACTION_BUTTON_LABEL' => 'BULK ACTIE',
     'LBL_BULK_ACTION_BUTTON_LABEL_MOBILE' => 'Actie',
     'LBL_SAVE_BUTTON_KEY' => 'S',
     'LBL_SAVE_BUTTON_LABEL' => 'Opslaan',
     'LBL_SAVE_BUTTON_TITLE' => 'Opslaan',
     'LBL_CANCEL_BUTTON_KEY' => 'X',
-    'LBL_CANCEL_BUTTON_LABEL' => 'Annuleren',
-    'LBL_CANCEL_BUTTON_TITLE' => 'Annuleren',
+    'LBL_CANCEL_BUTTON_LABEL' => 'Annuleer',
+    'LBL_CANCEL_BUTTON_TITLE' => 'Annuleer',
     'LBL_FIRST_INPUT_EDIT_VIEW_KEY' => '7',
     'LBL_ADV_SEARCH_LNK_KEY' => '8',
     'LBL_FIRST_INPUT_SEARCH_KEY' => '9',
@@ -2156,7 +2156,7 @@ $app_strings = array(
     'LBL_ACCOUNT_PRODUCT_SALE_PRICE' => 'Verkoop prijs',
     'LBL_EMAIL_CHECK_INTERVAL_DOM' => array(
         '-1' => 'Handmatig',
-        '5' => 'Iedere 5 minuten',
+        '5' => 'Elke 5 minuten',
         '15' => 'Elke 15 minuten',
         '30' => 'Elke 30 minuten',
         '60' => 'Elk uur',
@@ -2196,7 +2196,7 @@ $app_strings = array(
     'LBL_CONFIRM_APPLY_EMAIL_TEMPLATE_BODY' => 'Deze actie zal het berichtveld overschrijven, wilt u doorgaan?',
 
     'LBL_CONFIRM_OPT_IN_TITLE' => 'Bevestigde Opt-In',
-    'LBL_OPT_IN_TITLE' => 'Inschrijven',
+    'LBL_OPT_IN_TITLE' => 'Opt-in',
     'LBL_CONFIRM_OPT_IN_DATE' => 'Bevestig Opt-In datum',
     'LBL_CONFIRM_OPT_IN_SENT_DATE' => 'Bevestig Opt-In verzonden datum',
     'LBL_CONFIRM_OPT_IN_FAIL_DATE' => 'Bevestigde Opt-In fail datum',
@@ -2211,9 +2211,9 @@ $app_strings = array(
     'LBL_SUITE_TOP' => 'Terug naar boven',
     'LBL_SUITE_SUPERCHARGED' => 'Supercharged door SuiteCRM',
     'LBL_SUITE_POWERED_BY' => 'Powered door SugarCRM',
-    'LBL_SUITE_DESC1' => 'SuiteCRM has been written and assembled by <a href="https://suitecrm.com/">SuiteCRM Ltd</a>. The Program is provided AS IS, without warranty. Licensed under AGPLv3.',
+    'LBL_SUITE_DESC1' => 'SuiteCRM is geschreven en samengesteld door <a href="https://suitecrm.com/">SuiteCRM Ltd</a>. Het programma wordt geleverd AS IS, zonder garantie. Licentie verkregen onder AGPLv3.',
     'LBL_SUITE_DESC2' => 'Dit programma is vrije software; u kunt het herdistribueren en/of aanpassen onder de voorwaarden van de GNU Affero General Public License, versie 3, zoals gepubliceerd door de Free Software Foundation, met inbegrip van de aanvullende machtiging uiteengezet in de koptekst van de bron-code.',
-    'LBL_SUITE_DESC3' => 'SuiteCRM is a trademark of SuiteCRM Ltd<. All other company and product names may be trademarks of the respective companies with which they are associated.',
+    'LBL_SUITE_DESC3' => 'SuiteCRM is een handelsmerk van SuiteCRM Ltd<. Alle andere bedrijfs- en productnamen kunnen handelsmerken zijn van de betreffende bedrijven waarmee ze verbonden zijn.',
     'LBL_GENERATE_PASSWORD_BUTTON_TITLE' => 'Reset wachtwoord',
     'LBL_SEND_CONFIRM_OPT_IN_EMAIL' => 'Verzenden opt-in email bevestigen',
     'LBL_CONFIRM_OPT_IN_ONLY_FOR_PERSON' => 'Opt-In E-mail verzenden alleen voor Accounts/contactpersonen/Leads/vooruitzichten bevestigen',
@@ -2224,11 +2224,11 @@ $app_strings = array(
 );
 
 $app_list_strings['moduleList']['Library'] = 'Bibliotheek';
-$app_list_strings['moduleList']['EmailAddresses'] = 'E-mail';
-$app_list_strings['project_priority_default'] = 'Gemiddeld';
+$app_list_strings['moduleList']['EmailAddresses'] = 'E-mailadres';
+$app_list_strings['project_priority_default'] = 'Middel';
 $app_list_strings['project_priority_options'] = array(
     'High' => 'Hoog',
-    'Medium' => 'Gemiddeld',
+    'Medium' => 'Middel',
     'Low' => 'Laag',
 );
 
@@ -2251,12 +2251,12 @@ $app_list_strings['lawful_basis_source_dom'] = array(
     'website' => 'Website',
     'phone' => 'Telefoon',
     'given_to_user' => 'Gegeven aan de gebruiker',
-    'email' => 'E-mails',
+    'email' => 'E-mail',
     'third_party' => 'Derde partij',
 );
 //End GDPR lawful basis source options
 
-$app_list_strings['moduleList']['KBDocuments'] = 'Kennisbank';
+$app_list_strings['moduleList']['KBDocuments'] = 'Kennisbank ';
 
 $app_list_strings['countries_dom'] = array(
     '' => '',
@@ -2420,7 +2420,7 @@ $app_list_strings['countries_dom'] = array(
     'NORFOLK ISLAND' => 'NORFOLK ISLAND',
     'NORWAY' => 'NOORWEGEN',
     'OMAN' => 'OMAN',
-    'OTHER' => 'OVERIGE',
+    'OTHER' => 'ANDERE',
     'PACIFIC ISLAND' => 'PACIFIC EILAND',
     'PAKISTAN' => 'PAKISTAN',
     'PANAMA' => 'PANAMA',
@@ -2929,30 +2929,30 @@ $app_list_strings['token_status'] = array(
 
 $app_list_strings ['emailTemplates_type_list'] = array(
     '' => '',
-    'campaign' => 'Campagnes',
-    'email' => 'E-mails',
+    'campaign' => 'Campagne',
+    'email' => 'E-mail',
     'event' => 'Evenement',
 );
 
 $app_list_strings ['emailTemplates_type_list_campaigns'] = array(
     '' => '',
-    'campaign' => 'Campagnes',
+    'campaign' => 'Campagne',
 );
 
 $app_list_strings ['emailTemplates_type_list_no_workflow'] = array(
     '' => '',
-    'campaign' => 'Campagnes',
-    'email' => 'E-mails',
+    'campaign' => 'Campagne',
+    'email' => 'E-mail',
     'event' => 'Evenement',
-    'system' => 'Systeembeheer',
+    'system' => 'Systeem',
 );
 
 // knowledge base
-$app_list_strings['moduleList']['AOK_KnowledgeBase'] = 'Kennisbank';
+$app_list_strings['moduleList']['AOK_KnowledgeBase'] = 'Kennisbank ';
 $app_list_strings['moduleList']['AOK_Knowledge_Base_Categories'] = 'KB-Categorieën';
 $app_list_strings['aok_status_list']['Draft'] = 'Concept';
 $app_list_strings['aok_status_list']['Expired'] = 'Verlopen';
-$app_list_strings['aok_status_list']['In_Review'] = 'Wacht op review';
+$app_list_strings['aok_status_list']['In_Review'] = 'In Behandeling';
 //$app_list_strings['aok_status_list']['Published'] = 'Published';
 $app_list_strings['aok_status_list']['published_private'] = 'Prive';
 $app_list_strings['aok_status_list']['published_public'] = 'Openbare';
@@ -2965,8 +2965,8 @@ $app_list_strings['fp_event_invite_status_dom']['Invited'] = 'Uitgenodigd';
 $app_list_strings['fp_event_invite_status_dom']['Not Invited'] = 'Niet uitgenodigd';
 $app_list_strings['fp_event_invite_status_dom']['Attended'] = 'Bijwonen';
 $app_list_strings['fp_event_invite_status_dom']['Not Attended'] = 'Niet deelgenomen';
-$app_list_strings['fp_event_status_dom']['Accepted'] = 'Accepteer';
-$app_list_strings['fp_event_status_dom']['Declined'] = 'Weiger';
+$app_list_strings['fp_event_status_dom']['Accepted'] = 'Geaccepteerd';
+$app_list_strings['fp_event_status_dom']['Declined'] = 'Afgewezen';
 $app_list_strings['fp_event_status_dom']['No Response'] = 'Geen Antwoord';
 
 $app_strings['LBL_STATUS_EVENT'] = 'Status uitnodiging';
@@ -2976,7 +2976,7 @@ $app_strings['LBL_LISTVIEW_OPTION_ENTIRE'] = 'Complete lijst';
 $app_strings['LBL_LISTVIEW_NONE'] = 'geen';
 
 //aod
-$app_list_strings['moduleList']['AOD_IndexEvent'] = 'Index Event';
+$app_list_strings['moduleList']['AOD_IndexEvent'] = 'Indexeer evenement';
 $app_list_strings['moduleList']['AOD_Index'] = 'Indexeer';
 
 $app_list_strings['moduleList']['AOP_Case_Events'] = 'Verzoeken gebeurtenissen';
@@ -2997,9 +2997,9 @@ $app_list_strings['case_status_dom'] =
         'Open_New' => 'Nieuw',
         'Open_Assigned' => 'Toegewezen',
         'Closed_Closed' => 'Gesloten',
-        'Open_Pending Input' => 'In afwachting van',
+        'Open_Pending Input' => 'Wacht op invoer',
         'Closed_Rejected' => 'Afgewezen',
-        'Closed_Duplicate' => 'Dupliceren',
+        'Closed_Duplicate' => 'Duplicaat',
     );
 $app_list_strings['contact_portal_user_type_dom'] =
     array(
@@ -3009,8 +3009,8 @@ $app_list_strings['contact_portal_user_type_dom'] =
 $app_list_strings['dom_email_distribution_for_auto_create'] = array(
     'AOPDefault' => 'Standaardinstelling',
     'singleUser' => 'Enige Gebruiker',
-    'roundRobin' => 'Round-robin',
-    'leastBusy' => 'Minst druk',
+    'roundRobin' => 'Round-Robin',
+    'leastBusy' => 'Minst bezet',
     'random' => 'Willekeurig',
 );
 
@@ -3023,7 +3023,7 @@ $app_list_strings['moduleList']['AOR_Scheduled_Reports'] = 'Geplande rapporten';
 $app_list_strings['aor_operator_list']['Equal_To'] = 'Gelijk aan';
 $app_list_strings['aor_operator_list']['Not_Equal_To'] = 'Niet gelijk aan';
 $app_list_strings['aor_operator_list']['Greater_Than'] = 'Groter dan';
-$app_list_strings['aor_operator_list']['Less_Than'] = 'Kleiner dan';
+$app_list_strings['aor_operator_list']['Less_Than'] = 'Minder dan';
 $app_list_strings['aor_operator_list']['Greater_Than_or_Equal_To'] = 'Groter dan of gelijk aan';
 $app_list_strings['aor_operator_list']['Less_Than_or_Equal_To'] = 'Kleiner dan of gelijk aan';
 $app_list_strings['aor_operator_list']['Contains'] = 'Bevat';
@@ -3042,7 +3042,7 @@ $app_list_strings['aor_format_options']['d.m.Y'] = 'd.m.Y';
 $app_list_strings['aor_format_options']['Ymd'] = 'Jmd';
 $app_list_strings['aor_format_options']['Y-m'] = 'Y-m';
 $app_list_strings['aor_format_options']['Y'] = 'Y';
-$app_list_strings['aor_condition_operator_list']['And'] = 'En';
+$app_list_strings['aor_condition_operator_list']['And'] = 'EN';
 $app_list_strings['aor_condition_operator_list']['OR'] = 'OF';
 $app_list_strings['aor_condition_type_list']['Value'] = 'Waarde';
 $app_list_strings['aor_condition_type_list']['Field'] = 'Veld';
@@ -3072,7 +3072,7 @@ $app_list_strings['aor_function_list']['MAX'] = 'Maximum';
 $app_list_strings['aor_function_list']['SUM'] = 'Som';
 $app_list_strings['aor_function_list']['AVG'] = 'Gemiddelde';
 $app_list_strings['aor_total_options'][''] = '';
-$app_list_strings['aor_total_options']['COUNT'] = 'Tellen';
+$app_list_strings['aor_total_options']['COUNT'] = 'Aantal';
 $app_list_strings['aor_total_options']['SUM'] = 'Som';
 $app_list_strings['aor_total_options']['AVG'] = 'Gemiddelde';
 $app_list_strings['aor_chart_types']['bar'] = 'Staaf diagram';
@@ -3086,7 +3086,7 @@ $app_list_strings['aor_scheduled_report_schedule_types']['weekly'] = 'Wekelijks'
 $app_list_strings['aor_scheduled_report_schedule_types']['daily'] = 'Dagelijks';
 $app_list_strings['aor_scheduled_reports_status_dom']['active'] = 'Actief';
 $app_list_strings['aor_scheduled_reports_status_dom']['inactive'] = 'Inactief';
-$app_list_strings['aor_email_type_list']['Email Address'] = 'E-mails';
+$app_list_strings['aor_email_type_list']['Email Address'] = 'E-mail';
 $app_list_strings['aor_email_type_list']['Specify User'] = 'Gebruiker';
 $app_list_strings['aor_email_type_list']['Users'] = 'Gebruikers';
 $app_list_strings['aor_assign_options']['all'] = 'Alle gebruikers';
@@ -3096,7 +3096,7 @@ $app_list_strings['date_time_period_list']['today'] = 'Vandaag';
 $app_list_strings['date_time_period_list']['yesterday'] = 'Gisteren';
 $app_list_strings['date_time_period_list']['this_week'] = 'Deze week';
 $app_list_strings['date_time_period_list']['last_week'] = 'Vorige week';
-$app_list_strings['date_time_period_list']['last_month'] = 'Afgelopen maand';
+$app_list_strings['date_time_period_list']['last_month'] = 'Vorige Maand';
 $app_list_strings['date_time_period_list']['this_month'] = 'Deze maand';
 $app_list_strings['date_time_period_list']['this_quarter'] = 'Aankomend kwartaal';
 $app_list_strings['date_time_period_list']['last_quarter'] = 'Afgelopen kwartaal';
@@ -3134,7 +3134,7 @@ $app_list_strings['aos_quotes_type_dom']['Partner'] = 'Partner';
 $app_list_strings['aos_quotes_type_dom']['Press'] = 'Pers';
 $app_list_strings['aos_quotes_type_dom']['Prospect'] = 'Prospect';
 $app_list_strings['aos_quotes_type_dom']['Reseller'] = 'Wederverkoper';
-$app_list_strings['aos_quotes_type_dom']['Other'] = 'Anders';
+$app_list_strings['aos_quotes_type_dom']['Other'] = 'Overige';
 $app_list_strings['template_ddown_c_list'][''] = '';
 $app_list_strings['quote_stage_dom']['Draft'] = 'Concept';
 $app_list_strings['quote_stage_dom']['Negotiation'] = 'Onderhandelingen';
@@ -3142,7 +3142,7 @@ $app_list_strings['quote_stage_dom']['Delivered'] = 'Uitgeleverd';
 $app_list_strings['quote_stage_dom']['On Hold'] = 'In de wacht';
 $app_list_strings['quote_stage_dom']['Confirmed'] = 'Bevestigd';
 $app_list_strings['quote_stage_dom']['Closed Accepted'] = 'Gesloten geaccepteerde';
-$app_list_strings['quote_stage_dom']['Closed Lost'] = 'Verloren';
+$app_list_strings['quote_stage_dom']['Closed Lost'] = 'Gesloten verloren';
 $app_list_strings['quote_stage_dom']['Closed Dead'] = 'Gesloten niet meer actief';
 $app_list_strings['quote_term_dom']['Net 15'] = '15 dagen';
 $app_list_strings['quote_term_dom']['Net 30'] = '30 dagen';
@@ -3167,7 +3167,7 @@ $app_list_strings['aos_invoices_type_dom']['Partner'] = 'Partner';
 $app_list_strings['aos_invoices_type_dom']['Press'] = 'Pers';
 $app_list_strings['aos_invoices_type_dom']['Prospect'] = 'Prospect';
 $app_list_strings['aos_invoices_type_dom']['Reseller'] = 'Wederverkoper';
-$app_list_strings['aos_invoices_type_dom']['Other'] = 'Anders';
+$app_list_strings['aos_invoices_type_dom']['Other'] = 'Overige';
 $app_list_strings['invoice_status_dom']['Paid'] = 'Betaald';
 $app_list_strings['invoice_status_dom']['Unpaid'] = 'Onbetaald';
 $app_list_strings['invoice_status_dom']['Cancelled'] = 'Geannuleerd';
@@ -3187,12 +3187,12 @@ $app_list_strings['product_quote_parent_type_dom']['AOS_Contracts'] = 'Contracte
 $app_list_strings['pdf_template_type_dom']['AOS_Quotes'] = 'Offertes';
 $app_list_strings['pdf_template_type_dom']['AOS_Invoices'] = 'Facturen';
 $app_list_strings['pdf_template_type_dom']['AOS_Contracts'] = 'Contracten';
-$app_list_strings['pdf_template_type_dom']['Accounts'] = 'Relaties';
-$app_list_strings['pdf_template_type_dom']['Contacts'] = 'Contacten';
+$app_list_strings['pdf_template_type_dom']['Accounts'] = 'Organisaties';
+$app_list_strings['pdf_template_type_dom']['Contacts'] = 'Contactpersonen';
 $app_list_strings['pdf_template_type_dom']['Leads'] = 'Leads';
 $app_list_strings['pdf_template_sample_dom'][''] = '';
 $app_list_strings['contract_status_list']['Not Started'] = 'Niet gestart';
-$app_list_strings['contract_status_list']['In Progress'] = 'In Bewerking';
+$app_list_strings['contract_status_list']['In Progress'] = 'In behandeling';
 $app_list_strings['contract_status_list']['Signed'] = 'Ondertekend';
 $app_list_strings['contract_type_list']['Type'] = 'Type';
 $app_strings['LBL_PRINT_AS_PDF'] = 'Printen als PDF';
@@ -3214,20 +3214,20 @@ $app_list_strings['aow_operator_list']['Greater_Than_or_Equal_To'] = 'Groter dan
 $app_list_strings['aow_operator_list']['Less_Than_or_Equal_To'] = 'Kleiner dan of gelijk aan';
 $app_list_strings['aow_operator_list']['Contains'] = 'Bevat';
 $app_list_strings['aow_operator_list']['Starts_With'] = 'Begint met';
-$app_list_strings['aow_operator_list']['Ends_With'] = 'Eindigt met';
+$app_list_strings['aow_operator_list']['Ends_With'] = 'Eindigt op';
 $app_list_strings['aow_operator_list']['is_null'] = 'Is null';
 $app_list_strings['aow_process_status_list']['Complete'] = 'Voltooid';
 $app_list_strings['aow_process_status_list']['Running'] = 'Lopend';
-$app_list_strings['aow_process_status_list']['Pending'] = 'Wachtend';
+$app_list_strings['aow_process_status_list']['Pending'] = 'In afwachting';
 $app_list_strings['aow_process_status_list']['Failed'] = 'Mislukt';
-$app_list_strings['aow_condition_operator_list']['And'] = 'En';
+$app_list_strings['aow_condition_operator_list']['And'] = 'EN';
 $app_list_strings['aow_condition_operator_list']['OR'] = 'OF';
 $app_list_strings['aow_condition_type_list']['Value'] = 'Waarde';
 $app_list_strings['aow_condition_type_list']['Field'] = 'Veld';
 $app_list_strings['aow_condition_type_list']['Any_Change'] = 'Elke wijziging';
 $app_list_strings['aow_condition_type_list']['SecurityGroup'] = 'In autorisatiegroep';
 $app_list_strings['aow_condition_type_list']['Date'] = 'Datum';
-$app_list_strings['aow_condition_type_list']['Multi'] = 'Een van ';
+$app_list_strings['aow_condition_type_list']['Multi'] = 'Een van';
 $app_list_strings['aow_action_type_list']['Value'] = 'Waarde';
 $app_list_strings['aow_action_type_list']['Field'] = 'Veld';
 $app_list_strings['aow_action_type_list']['Date'] = 'Datum';
@@ -3243,17 +3243,17 @@ $app_list_strings['aow_date_type_list']['day'] = 'Dagen';
 $app_list_strings['aow_date_type_list']['week'] = 'Weken';
 $app_list_strings['aow_date_type_list']['month'] = 'Maanden';
 $app_list_strings['aow_date_type_list']['year'] = 'Jaren';
-$app_list_strings['aow_date_type_list']['business_hours'] = 'Kantoor uren';
+$app_list_strings['aow_date_type_list']['business_hours'] = 'Kantooruren';
 $app_list_strings['aow_date_options']['now'] = 'Nu';
 $app_list_strings['aow_date_options']['today'] = 'Vandaag';
 $app_list_strings['aow_date_options']['field'] = 'Dit veld';
 $app_list_strings['aow_date_operator']['now'] = '';
 $app_list_strings['aow_date_operator']['plus'] = '+';
 $app_list_strings['aow_date_operator']['minus'] = '-';
-$app_list_strings['aow_assign_options']['all'] = 'Alle gebruikers';
-$app_list_strings['aow_assign_options']['role'] = 'Alle gebruikers in rol';
-$app_list_strings['aow_assign_options']['security_group'] = 'Alle gebruikers in SecurityGroup';
-$app_list_strings['aow_email_type_list']['Email Address'] = 'E-mails';
+$app_list_strings['aow_assign_options']['all'] = 'ALLE gebruikers';
+$app_list_strings['aow_assign_options']['role'] = 'ALLE gebruikers in rol';
+$app_list_strings['aow_assign_options']['security_group'] = 'ALLE gebruikers in de beveiligingsgroep';
+$app_list_strings['aow_email_type_list']['Email Address'] = 'E-mail';
 $app_list_strings['aow_email_type_list']['Record Email'] = 'Registreer E-mail';
 $app_list_strings['aow_email_type_list']['Related Field'] = 'Gerelateerd veld';
 $app_list_strings['aow_email_type_list']['Specify User'] = 'Gebruiker';
@@ -3297,8 +3297,8 @@ $app_list_strings['moduleList']['jjwp_Partners'] = 'JJWP Partners';
 $app_list_strings['map_unit_type_list']['mi'] = 'Mijlen';
 $app_list_strings['map_unit_type_list']['km'] = 'Kilometer';
 
-$app_list_strings['map_module_type_list']['Accounts'] = 'Relaties';
-$app_list_strings['map_module_type_list']['Contacts'] = 'Contacten';
+$app_list_strings['map_module_type_list']['Accounts'] = 'Organisaties';
+$app_list_strings['map_module_type_list']['Contacts'] = 'Contactpersonen';
 $app_list_strings['map_module_type_list']['Cases'] = 'Verzoeken';
 $app_list_strings['map_module_type_list']['Leads'] = 'Leads';
 $app_list_strings['map_module_type_list']['Meetings'] = 'Afspraken';
@@ -3306,17 +3306,17 @@ $app_list_strings['map_module_type_list']['Opportunities'] = 'Kansen';
 $app_list_strings['map_module_type_list']['Project'] = 'Projecten';
 $app_list_strings['map_module_type_list']['Prospects'] = 'Doelen';
 
-$app_list_strings['map_relate_type_list']['Accounts'] = 'Opdrachtgever';
-$app_list_strings['map_relate_type_list']['Contacts'] = 'Contactpersoon';
+$app_list_strings['map_relate_type_list']['Accounts'] = 'Organisatie';
+$app_list_strings['map_relate_type_list']['Contacts'] = 'Contactpersonen';
 $app_list_strings['map_relate_type_list']['Cases'] = 'Verzoek';
 $app_list_strings['map_relate_type_list']['Leads'] = 'Lead';
 $app_list_strings['map_relate_type_list']['Meetings'] = 'Afspraak';
 $app_list_strings['map_relate_type_list']['Opportunities'] = 'Kans';
 $app_list_strings['map_relate_type_list']['Project'] = 'Project';
-$app_list_strings['map_relate_type_list']['Prospects'] = 'Doelen';
+$app_list_strings['map_relate_type_list']['Prospects'] = 'Doel';
 
 $app_list_strings['marker_image_list']['accident'] = 'Ongeluk';
-$app_list_strings['marker_image_list']['administration'] = 'Beheer';
+$app_list_strings['marker_image_list']['administration'] = 'Administratie';
 $app_list_strings['marker_image_list']['agriculture'] = 'Landbouw';
 $app_list_strings['marker_image_list']['aircraft_small'] = 'Vliegtuig klein';
 $app_list_strings['marker_image_list']['airplane_tourism'] = 'Vliegtuig toerisme';
@@ -3356,7 +3356,7 @@ $app_list_strings['marker_image_list']['coffee'] = 'Koffie';
 $app_list_strings['marker_image_list']['community_centre'] = 'Buurthuis';
 $app_list_strings['marker_image_list']['company'] = 'Bedrijf';
 $app_list_strings['marker_image_list']['conference'] = 'Conferentie';
-$app_list_strings['marker_image_list']['construction'] = 'Bouw';
+$app_list_strings['marker_image_list']['construction'] = 'Constructie';
 $app_list_strings['marker_image_list']['convenience'] = 'Gemak';
 $app_list_strings['marker_image_list']['court'] = 'Rechtbank';
 $app_list_strings['marker_image_list']['cruise'] = 'Cruise';
@@ -3561,7 +3561,7 @@ $app_strings['LBL_RESCHEDULE_REASON'] = 'Reden:';
 $app_strings['LBL_RESCHEDULE_ERROR1'] = 'Selecteer een geldige datum';
 $app_strings['LBL_RESCHEDULE_ERROR2'] = 'Selecteer reden';
 
-$app_strings['LBL_RESCHEDULE_PANEL'] = 'Opnieuw plannen';
+$app_strings['LBL_RESCHEDULE_PANEL'] = 'Afspraak verzetten';
 $app_strings['LBL_RESCHEDULE_HISTORY'] = 'Bel pogingen geschiedenis';
 $app_strings['LBL_RESCHEDULE_COUNT'] = '\'Bel pogingen';
 
@@ -3593,7 +3593,7 @@ $app_strings['LBL_DELETE_DASHBOARD2'] = 'Dashboard?';
 $app_strings['LBL_ADD_DASHBOARD_PAGE'] = 'Aanmaken Dashboard pagina';
 $app_strings['LBL_DELETE_DASHBOARD_PAGE'] = 'Verwijder huidige Dashboard pagina';
 $app_strings['LBL_RENAME_DASHBOARD_PAGE'] = 'Hernoem Dashboard pagina';
-$app_strings['LBL_SUITE_DASHBOARD_ACTIONS'] = 'Acties';
+$app_strings['LBL_SUITE_DASHBOARD_ACTIONS'] = 'ACTIES';
 
 $app_list_strings['collection_temp_list'] = array(
     'Tasks' => 'Taken',
@@ -3610,18 +3610,18 @@ $app_strings['LBL_LOADING_ERROR_INLINE_EDITING'] = "Er was een fout bij het lade
 //SuiteSpots
 $app_list_strings['spots_areas'] = array(
     'getSalesSpotsData' => 'Verkoop',
-    'getAccountsSpotsData' => 'Relaties',
+    'getAccountsSpotsData' => 'Organisaties',
     'getLeadsSpotsData' => 'Leads',
     'getServiceSpotsData' => 'Dienst',
-    'getMarketingSpotsData' => 'verzendinstelling',
-    'getMarketingActivitySpotsData' => 'Marketing Activity',
+    'getMarketingSpotsData' => 'Marketing',
+    'getMarketingActivitySpotsData' => 'Marketing activiteit',
     'getActivitiesSpotsData' => 'Activiteiten',
     'getQuotesSpotsData' => 'Offertes'
 );
 
-$app_list_strings['moduleList']['Spots'] = 'Spots';
+$app_list_strings['moduleList']['Spots'] = 'Grafieken';
 
-$app_list_strings['moduleList']['AOBH_BusinessHours'] = 'Kantoor uren';
+$app_list_strings['moduleList']['AOBH_BusinessHours'] = 'Kantooruren';
 $app_list_strings['business_hours_list']['0'] = '0:00  uur';
 $app_list_strings['business_hours_list']['1'] = '01:00 uur';
 $app_list_strings['business_hours_list']['2'] = '02:00 uur';
@@ -3666,43 +3666,43 @@ $app_list_strings['moduleList']['SurveyQuestionResponses'] = 'Enquête vraag ant
 $app_list_strings['moduleList']['SurveyQuestions'] = 'Enquête vragen';
 $app_list_strings['moduleList']['SurveyQuestionOptions'] = 'Enquête vraag opties';
 $app_list_strings['survey_status_list']['Draft'] = 'Concept';
-$app_list_strings['survey_status_list']['Public'] = 'Openbare';
+$app_list_strings['survey_status_list']['Public'] = 'Openbaar';
 $app_list_strings['survey_status_list']['Closed'] = 'Gesloten';
 $app_list_strings['surveys_question_type']['Text'] = 'Tekst';
 $app_list_strings['surveys_question_type']['Textbox'] = 'TekstBox';
 $app_list_strings['surveys_question_type']['Checkbox'] = 'Selecteer box';
-$app_list_strings['surveys_question_type']['Radio'] = 'Radio';
+$app_list_strings['surveys_question_type']['Radio'] = 'Keuzerondje';
 $app_list_strings['surveys_question_type']['Dropdown'] = 'Dropdown';
 $app_list_strings['surveys_question_type']['Multiselect'] = 'MultiSelect';
 $app_list_strings['surveys_question_type']['Matrix'] = 'Matrix';
 $app_list_strings['surveys_question_type']['DateTime'] = 'DateTime';
 $app_list_strings['surveys_question_type']['Date'] = 'Datum';
 $app_list_strings['surveys_question_type']['Scale'] = 'Schaal';
-$app_list_strings['surveys_question_type']['Rating'] = 'Score';
+$app_list_strings['surveys_question_type']['Rating'] = 'Beoordeling';
 $app_list_strings['surveys_matrix_options'][0] = 'Tevreden';
 $app_list_strings['surveys_matrix_options'][1] = 'Tevreden noch ontevreden';
 $app_list_strings['surveys_matrix_options'][2] = 'Ontevreden';
 
-$app_list_strings['moduleList']['CalendarAccount'] = 'Calendar Accounts';
+$app_list_strings['moduleList']['CalendarAccount'] = 'Kalender Accounts';
 
-$app_strings['LBL_OPT_IN_PENDING_EMAIL_NOT_SENT'] = 'Nog in afwachting van bevestigde opt-in, bevestigde opt-in niet verzonden';
+$app_strings['LBL_OPT_IN_PENDING_EMAIL_NOT_SENT'] = 'Nog in afwachting van bevestigde opt-in, opt-in bevestiging niet verzonden';
 $app_strings['LBL_OPT_IN_PENDING_EMAIL_FAILED'] = 'Verzenden van bevestigs Opt-In E-mail is mislukt';
-$app_strings['LBL_OPT_IN_PENDING_EMAIL_SENT'] = 'In afwachting van bevestigen opt-in, opt-bevestigen in verzonden';
-$app_strings['LBL_OPT_IN'] = 'Inschrijven';
+$app_strings['LBL_OPT_IN_PENDING_EMAIL_SENT'] = 'In afwachting van bevestigen opt-in, opt-in bevestiging verzonden';
+$app_strings['LBL_OPT_IN'] = 'Opted-in';
 $app_strings['LBL_OPT_IN_CONFIRMED'] = 'Bevestigde Opt-In';
-$app_strings['LBL_OPT_IN_OPT_OUT'] = 'Afgemeld';
+$app_strings['LBL_OPT_IN_OPT_OUT'] = 'Opted out';
 $app_strings['LBL_OPT_IN_INVALID'] = 'Ongeldig';
 
 /** @see SugarEmailAddress */
 $app_list_strings['email_settings_opt_in_dom'] = array(
-    'not-opt-in' => 'Gedeactiveerd',
-    'opt-in' => 'Inschrijven',
+    'not-opt-in' => 'Uitgeschakeld',
+    'opt-in' => 'Opt-in',
     'confirmed-opt-in' => 'Bevestigde Opt-In'
 );
 
 $app_list_strings['email_confirmed_opt_in_dom'] = array(
     'not-opt-in' => 'Niet aanmelden',
-    'opt-in' => 'Inschrijven',
+    'opt-in' => 'Opt-in',
     'confirmed-opt-in' => 'Bevestigde Opt-In'
 );
 
@@ -3741,14 +3741,14 @@ $app_list_strings['search_controllers'] = [
 
 // Calendar Account Types dropdown
 $app_list_strings['calendar_account_types'] = [
-    'personal' => 'Persoonlijke',
+    'personal' => 'Persoonlijk',
     'shared' => 'Gedeeld',
     'group' => 'Groep',
 ];
 
 // Calendar Connection Status dropdown
 $app_list_strings['calendar_connection_status_list'] = [
-    'never_tested' => 'Never Tested',
+    'never_tested' => 'Nooit getest',
     'success' => 'Verbonden',
     'failed' => 'Mislukt',
 ];
@@ -3756,19 +3756,19 @@ $app_list_strings['calendar_connection_status_list'] = [
 // Calendar Sync Attempt Status dropdown
 $app_list_strings['sync_attempt_status_list'] = [
     '' => '',
-    'in_progress' => 'In Bewerking',
-    'success' => 'Succesvol',
+    'in_progress' => 'In behandeling',
+    'success' => 'Geslaagd',
     'warning' => 'Waarschuwing',
     'error' => 'Foutmelding',
 ];
 
 $app_list_strings['sync_attempt_message_list'] = [
     '' => '',
-    'sync_complete' => 'All meetings synced.',
-    'up_to_date' => 'No new meetings to sync.',
-    'meetings_failed' => 'Some meetings failed to sync. Check logs.',
-    'sync_partial' => 'Some meetings synced. More pending due to limits.',
-    'sync_failed' => 'No meetings synced. Check logs.',
+    'sync_complete' => 'Alle vergaderingen gesynchroniseerd.',
+    'up_to_date' => 'Geen nieuwe vergaderingen om te synchroniseren.',
+    'meetings_failed' => 'Sommige vergaderingen konden niet worden gesynchroniseerd. Controleer logs.',
+    'sync_partial' => 'Sommige vergaderingen gesynchroniseerd. Meer in behandeling vanwege beperkingen.',
+    'sync_failed' => 'Geen vergaderingen gesynchroniseerd. Controleer logs.',
 ];
 
 $app_strings['LBL_DEFAULT_API_ERROR_TITLE'] = 'JSON API fout';
@@ -3803,7 +3803,7 @@ $app_strings['LBL_SEARCH_TEXT_FIELD_TITLE_ATTR']   = 'Voer zoekcriteria in';
 $app_strings['LBL_SEARCH_SUBMIT_FIELD_TITLE_ATTR'] = 'Zoeken';
 $app_strings['LBL_SEARCH_SUBMIT_FIELD_VALUE']      = 'Zoeken';
 $app_strings['LBL_SEARCH_QUERY']                   = 'Zoekopdracht: ';
-$app_strings['LBL_SEARCH_RESULTS_PER_PAGE']        = 'Results per module: ';
+$app_strings['LBL_SEARCH_RESULTS_PER_PAGE']        = 'Resultaten per module: ';
 $app_strings['LBL_SEARCH_ENGINE']                  = 'Zoekmachine: ';
 $app_strings['LBL_SEARCH_TOTAL'] = 'Aantal resultaten: ';
 $app_strings['LBL_SEARCH_PREV'] = 'Vorige';
@@ -3828,7 +3828,7 @@ $app_strings['LBL_VALUE_SET_PLACEHOLDER'] = 'Waarde ingesteld. Voer nieuwe waard
 $app_strings['ERR_IMAP_OAUTH_CONNECTION_ERROR'] = 'Niet in staat om verbinding te maken met OAuth login met inkomende e-mail server. Voor verbinding: ';
 $app_strings['WARN_OAUTH_TOKEN_SESSION_EXPIRED'] = 'Uw IMAP OAuth sessie is verlopen, gelieve opnieuw in te loggen in de verbinding: ';
 
-$app_strings['ERR_OAUTH_CONNECTION_ERROR'] = 'Not able to connect using OAuth login. For connection: ';
+$app_strings['ERR_OAUTH_CONNECTION_ERROR'] = 'Niet in staat om verbinding te maken met OAuth inlog. Voor verbinding: ';
 
 $app_strings['LBL_KEY'] = 'Id';
 $app_strings['LBL_VALUE'] = 'Waarde';
@@ -3841,12 +3841,12 @@ $app_strings['LBL_FROM_SYSTEM'] = 'Verzenden vanaf systeem';
 $app_strings['LBL_SIGNATURE'] = 'Handtekening';
 
 $app_list_strings['email_import_timeframe_start_dom'] = [
-    '-1 year' => '1 Year',
-    '-6 months' => '6 Months',
-    '-3 months' => '3 Months',
-    '-30 days' => '30 Days',
-    '-15 days' => '15 Days',
-    '-5 days' => '5 Days',
-    '-1 days' => '1 Day',
-    '0 days' => '0 Days',
+    '-1 year' => '1 jaar',
+    '-6 months' => '6 maanden',
+    '-3 months' => '3 maanden',
+    '-30 days' => '30 dagen',
+    '-15 days' => '15 dagen',
+    '-5 days' => '5 dagen',
+    '-1 days' => '1 dag',
+    '0 days' => '0 Dagen',
 ];

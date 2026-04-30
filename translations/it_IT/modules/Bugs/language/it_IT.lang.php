@@ -61,10 +61,10 @@ $mod_strings = array(
     'LBL_LIST_STATUS' => 'Stato',
     'LBL_LIST_PRIORITY' => 'Priorità',
     'LBL_LIST_RESOLUTION' => 'Risoluzione',
-    'LBL_LIST_LAST_MODIFIED' => 'Ultima Modifica',
+    'LBL_LIST_LAST_MODIFIED' => 'Ultima modifica',
     'LBL_INVITEE' => 'Contatti',
-    'LBL_TYPE' => 'Tipologia:',
-    'LBL_LIST_TYPE' => 'Gruppo/Personale',
+    'LBL_TYPE' => 'Tipo:',
+    'LBL_LIST_TYPE' => 'Tipo',
     'LBL_RESOLUTION' => 'Soluzione:',
     'LBL_RELEASE' => 'Release:',
     'LNK_NEW_BUG' => 'Report sui Errori',
@@ -80,7 +80,7 @@ $mod_strings = array(
     'LBL_PRODUCT_CATEGORY' => 'Categoria:',
 
     'LBL_CREATED_BY' => 'Creato da:',
-    'LBL_MODIFIED_BY' => 'Ultima modifica fatta da:',
+    'LBL_MODIFIED_BY' => 'Modificato da:',
 
     'LBL_LIST_EMAIL_ADDRESS' => 'Indirizzo Email',
     'LBL_LIST_CONTACT_NAME' => 'Contatto',
@@ -92,13 +92,13 @@ $mod_strings = array(
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Attività',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Cronologia',
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contatti',
-    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Aziende',
+    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Accounts',
     'LBL_CASES_SUBPANEL_TITLE' => 'Reclami',
     'LBL_PROJECTS_SUBPANEL_TITLE' => 'Progetti',
     'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documenti',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Utente Assegnato',
-    'LBL_ASSIGNED_TO_NAME' => 'Assegnato a',
+    'LBL_ASSIGNED_TO_NAME' => 'Assegnato a:',
 
-    'LBL_BUG_INFORMATION' => 'Informazioni', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_BUG_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
 );

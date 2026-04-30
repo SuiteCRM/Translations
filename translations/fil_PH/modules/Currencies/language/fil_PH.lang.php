@@ -58,7 +58,7 @@ $mod_strings = array(
     'LBL_UPDATE' => 'I-update',
     'LBL_LIST_RATE' => 'Conversion Rate',
     'LBL_LIST_RATE_HELP' => 'Ang Conversion Rate ng 0.5 para sa Euro ay nangangahulugan ng 10 USD = 5 Euro.',
-    'LBL_LIST_STATUS' => 'Ang Katayuan',
+    'LBL_LIST_STATUS' => 'Estado',
     'LNK_NEW_CONTACT' => 'Bagong kontak',
     'LNK_NEW_ACCOUNT' => 'Bagong akwant',
     'LNK_NEW_OPPORTUNITY' => 'Bagong oportunidad',

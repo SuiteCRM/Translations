@@ -71,7 +71,7 @@ $mod_strings['LNK_MAP_LIST'] = 'نقشے کی فہرست';
 
 $mod_strings['LBL_MAP_ADDRESS_TEST'] = 'جیو کوڈنگ کی جانچ پڑ';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'فوری ریڈیوس نقشہ';
-$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'کوئی بھی نہیں';
+$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'کوئی نہیں';
 $mod_strings['LBL_MAP_ADDRESS'] = 'پتہ';
 $mod_strings['LBL_MAP_PROCESS'] = 'یہ عمل کرو!';
 
@@ -88,7 +88,7 @@ $mod_strings['LBL_APPROXIMATE'] = 'Approximate';
 $mod_strings['LBL_EMPTY'] = 'خالی';
 
 $mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'حاصل جمع';
-$mod_strings['LBL_MODULE_RESET_HEADING'] = 'دوبارہ سیٹ کریں';
+$mod_strings['LBL_MODULE_RESET_HEADING'] = 'ری سیٹ کریں';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = 'دکھایا گیا ٹیبل بیلوڈنگ ردعمل کے ذریعہ جیوڈڈڈ ماڈیول اشیاء کی تعداد دکھاتا ہے. ذہن معیاری گوگل نقشہ جات کے استعمال کی حد فی دن 2500 درخواستوں ہے کہ ذہن میں رکھیں. اس ماڈیول کی ضروریات کی مجموعی تعداد کو کم کرنے کے لئے پروسیسنگ کے دوران پتے جیو کوڈنگ کی معلومات کو کیش کرے گی.';
 
 $mod_strings['LBL_CRON_INSTRUCTIONS'] = 'جیو کوڈنگ کی درخواستوں کو عمل کرنے کے لئے یہ رات کو کلون ملازمت سیٹ کرنے کے لئے سفارش کی جاتی ہے. اس مقصد کے لئے اپنی مرضی کے اندراج نقطہ بنائے گئے ہیں اور تصدیق کے بغیر رسائی حاصل کی جاسکتی ہے. مندرجہ ذیل دکھایا گیا ہے جس کا مطلب ایڈمنسٹریشنل شیڈول شدہ ٹاسک کے ساتھ استعمال ہوتا ہے. مزید معلومات کے لئے دستاویزات ملاحظہ کریں.';

@@ -43,30 +43,30 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EDIT_LAYOUT' => 'Rediger oppsett',
+    'LBL_EDIT_LAYOUT' => 'Edit Layout',
     'LBL_EDIT_FIELDS' => 'Endre tilpassede felter',
-    'LBL_SELECT_FILE' => 'Velg fil',
+    'LBL_SELECT_FILE' => 'Select File',
     'LBL_MODULE_TITLE' => 'Studio',
-    'LBL_TOOLBOX' => 'Verktøykasse',
+    'LBL_TOOLBOX' => 'Toolbox',
     'LBL_SUITE_FIELDS_STAGE' => 'SuiteCRM-felter (klikk på ting for å legge til i klargjøringsområdet)',
     'LBL_VIEW_SUITE_FIELDS' => 'Vis SuiteCRM-felter',
-    'LBL_FAILED_TO_SAVE' => 'Mislykkes i å lagre',
+    'LBL_FAILED_TO_SAVE' => 'Failed To Save',
     'LBL_CONFIRM_UNSAVE' => 'Eventuelle forandringer vil forsvinne. Er du sikker på at du vil fortsette?',
-    'LBL_PUBLISHING' => 'Publiserer...',
-    'LBL_PUBLISHED' => 'Publisert',
-    'LBL_FAILED_PUBLISHED' => 'Mislykkes i å publisere',
-    'LBL_DROP_HERE' => '[Slipp her]',
+    'LBL_PUBLISHING' => 'Publishing...',
+    'LBL_PUBLISHED' => 'Published',
+    'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
+    'LBL_DROP_HERE' => '[Drop Here]',
 
 //CUSTOM FIELDS
-    'LBL_NAME' => 'Navn',
-    'LBL_LABEL' => 'Etikett',
-    'LBL_MASS_UPDATE' => 'Masseoppdatering',
-    'LBL_DEFAULT_VALUE' => 'Standardverdi',
-    'LBL_REQUIRED' => 'Nødvendig',
+    'LBL_NAME' => 'Name',
+    'LBL_LABEL' => 'Label',
+    'LBL_MASS_UPDATE' => 'Mass Update',
+    'LBL_DEFAULT_VALUE' => 'Default Value',
+    'LBL_REQUIRED' => 'Required',
     'LBL_DATA_TYPE' => 'Type',
 
 
-    'LBL_HISTORY' => 'Historie',
+    'LBL_HISTORY' => 'History',
 
 //WIZARDS
 
@@ -79,15 +79,15 @@ $mod_strings = array(
     'LBL_SW_EDIT_GROUPTABS' => 'Konfigurér gruppeetiketter',
     'LBL_SW_EDIT_PORTAL' => 'Endre portal',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => 'Reparér tilpassede felter',
-    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Flytt tilpassede felter',
+    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrate Custom Fields',
 
 // JS LABELS
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Gjenoppbygger javascript-versjoner av språkfiler',
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Fjerner javascript-versjoner av språkfiler, men kan gjenopprettes hvis ønskelig.',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuilds javascript versions of language files',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Removing javascript versions of language files, will rebuild when needed.',
 
 
 //Manager Backups History
-    'LBL_MB_DELETE' => 'Slett',
+    'LBL_MB_DELETE' => 'Delete',
 
 //EDIT DROP DOWNS
     'LBL_ED_CREATE_DROPDOWN' => 'Opprett en rulleliste',
@@ -100,47 +100,47 @@ $mod_strings = array(
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => 'Visningsverdi',
     'LBL_DD_DATABASEVALUE' => 'Databaseverdi',
-    'LBL_DD_ALL' => 'Alle',
+    'LBL_DD_ALL' => 'All',
 
 //BUTTONS
-    'LBL_BTN_SAVE' => 'Lagre',
-    'LBL_BTN_CANCEL' => 'Avbryt',
-    'LBL_BTN_SAVEPUBLISH' => 'Lagre & ta i bruk',
-    'LBL_BTN_HISTORY' => 'Historie',
-    'LBL_BTN_ADDROWS' => 'Leg til rader',
-    'LBL_BTN_UNDO' => 'Åpne',
-    'LBL_BTN_REDO' => 'Gjenopprett',
-    'LBL_BTN_ADDCUSTOMFIELD' => 'Legg til tilpasset felt',
+    'LBL_BTN_SAVE' => 'Save',
+    'LBL_BTN_CANCEL' => 'Cancel',
+    'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
+    'LBL_BTN_HISTORY' => 'History',
+    'LBL_BTN_ADDROWS' => 'Add Rows',
+    'LBL_BTN_UNDO' => 'Undo',
+    'LBL_BTN_REDO' => 'Redo',
+    'LBL_BTN_ADDCUSTOMFIELD' => 'Add Custom Field',
     'LBL_BTN_TABINDEX' => 'Endre tabbing-rekkefølgen',
 
 //TABS
-    'LBL_MODULES' => 'Moduler',
-    'LBL_MODULE_NAME' => 'Administrasjon',
-    'LBL_CONFIGURE_GROUP_TABS' => 'Konfigurér gruppeetiketter',
+    'LBL_MODULES' => 'Modules',
+    'LBL_MODULE_NAME' => 'Administration',
+    'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
     'LBL_GROUP_TAB_WELCOME' => 'Gruppeetikett-oppsettet vil bli brukt når en bruker velger Grupperte etiketter istedet for vanlige Moduletiketter i Min konto>Oppsettmuligheter.',
     'LBL_RENAME_TAB_WELCOME' => 'Klikk på en hvilken som helst etiketts visningsverdi i tabellen under for å omdøpe etiketten.',
     'LBL_DELETE_MODULE' => 'Fjerne&nbsp;modul<br />fra&nbsp;filter',
     'LBL_TAB_GROUP_LANGUAGE_HELP' => 'Velg et tilgjengelig språk, rediger grupp-etiketter og klikk lagre & distribuer for å bruke etikettene i det valgte språket.',
     'LBL_ADD_GROUP' => 'Legg til filter',
     'LBL_NEW_GROUP' => 'Ny gruppe',
-    'LBL_RENAME_TABS' => 'Lag nytt navn på overskriftene',
+    'LBL_RENAME_TABS' => 'Rename Modules',
 
 //ERRORS
-    'ERROR_INVALID_KEY_VALUE' => "Feil: Ugyldig nøkkelverdi: [&#39;]",
+    'ERROR_INVALID_KEY_VALUE' => "Error: Invalid Key Value: [']",
 
 //SUGAR PORTAL
-    'LBL_SAVE' => 'Lagre' /*for 508 compliance fix*/,
-    'LBL_UNDO' => 'Åpne' /*for 508 compliance fix*/,
-    'LBL_REDO' => 'Gjenopprett' /*for 508 compliance fix*/,
+    'LBL_SAVE' => 'Save' /*for 508 compliance fix*/,
+    'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
+    'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Innebygd' /*for 508 compliance fix*/,
-    'LBL_DELETE' => 'Slett' /*for 508 compliance fix*/,
-    'LBL_ADD_FIELD' => 'Legg til felt' /*for 508 compliance fix*/,
+    'LBL_DELETE' => 'Delete' /*for 508 compliance fix*/,
+    'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Maksimer' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Minimer' /*for 508 compliance fix*/,
-    'LBL_PUBLISH' => 'publisér' /*for 508 compliance fix*/,
-    'LBL_ADDROWS' => 'Leg til rader' /*for 508 compliance fix*/,
-    'LBL_ADDFIELD' => 'Legg til felt' /*for 508 compliance fix*/,
-    'LBL_EDIT' => 'Rediger' /*for 508 compliance fix*/,
+    'LBL_PUBLISH' => 'Publish' /*for 508 compliance fix*/,
+    'LBL_ADDROWS' => 'Add Rows' /*for 508 compliance fix*/,
+    'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
+    'LBL_EDIT' => 'Edit' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Velg språket du vil redigere',
     'LBL_SINGULAR' => 'Entallsetikett',

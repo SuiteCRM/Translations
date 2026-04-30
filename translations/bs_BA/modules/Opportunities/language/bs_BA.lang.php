@@ -63,7 +63,7 @@ $mod_strings = array(
     'LBL_CURRENCY_SYMBOL' => 'Simbol valute',
 
     'UPDATE' => 'Prodajna prilika - ažuriranje valute',
-    'LBL_ACCOUNT_NAME' => 'Ime klijenta:',
+    'LBL_ACCOUNT_NAME' => 'Naziv klijenta:',
     'LBL_AMOUNT' => 'Iznos prodajne prilike:',
     'LBL_AMOUNT_USDOLLAR' => 'Iznos:',
     'LBL_CURRENCY' => 'Valuta:',
@@ -87,11 +87,11 @@ $mod_strings = array(
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktivnosti',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Historija',
 
-    'LBL_LEADS_SUBPANEL_TITLE' => 'Potencijalni kupac',
+    'LBL_LEADS_SUBPANEL_TITLE' => 'Vodi',
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Kontakti',
     'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Dokumenti',
     'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projekti',
-    'LBL_ASSIGNED_TO_NAME' => 'Dodijeljeno korisniku:',
+    'LBL_ASSIGNED_TO_NAME' => 'Dodijeljeno:',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Dodijeljeni korisnik',
     'LBL_MY_CLOSED_OPPORTUNITIES' => 'Moje zatvorene prodajne prilike',
     'LBL_TOTAL_OPPORTUNITIES' => 'Ukupno prodajne prilike',
@@ -108,5 +108,5 @@ $mod_strings = array(
     // SNIP
 
     'LBL_AOS_CONTRACTS' => 'Ugovori',
-    'LBL_AOS_QUOTES' => 'Ponude',
+    'LBL_AOS_QUOTES' => 'Citati',
 );

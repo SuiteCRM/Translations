@@ -52,7 +52,7 @@ $app_list_strings = array(
         'Home' => 'Acasă',
         'ResourceCalendar' => 'Calendar Resurse',
         'Contacts' => 'Contacte',
-        'Accounts' => 'Conturi',
+        'Accounts' => 'Companii',
         'Alerts' => 'Alerte',
         'Opportunities' => 'Oportunităţi',
         'Cases' => 'Cazuri',
@@ -65,9 +65,9 @@ $app_list_strings = array(
         'Meetings' => 'Întâlniri',
         'Tasks' => 'Sarcini',
         'Calendar' => 'Calendar',
-        'Leads' => 'Piste',
+        'Leads' => 'Conversii',
         'Currencies' => 'Valute',
-        'Activities' => 'Activități',
+        'Activities' => 'Activitati',
         'Bugs' => 'Defecte',
         'Feeds' => 'RSS',
         'iFrames' => 'Sit-urile Mele',
@@ -131,7 +131,7 @@ $app_list_strings = array(
         'Bugs' => 'Defecte',
         'KBDocuments' => 'Bază de cunoștințe',
         'Feeds' => 'RSS',
-        'iFrames' => 'Sit-urile Mele',
+        'iFrames' => 'Sit-urile mele',
         'TimePeriods' => 'Perioadă Timp',
         'Project' => 'Proiect',
         'ProjectTask' => 'Sarcină Proiect',
@@ -162,7 +162,7 @@ $app_list_strings = array(
         'Press' => 'Presă',
         'Prospect' => 'Prospect',
         'Reseller' => 'Revânzător',
-        'Other' => 'Altele',
+        'Other' => 'Alta',
     ),
     //e.g. en español 'Apparel'=>'Ropa',
     'industry_dom' => array(
@@ -196,7 +196,7 @@ $app_list_strings = array(
         'Telecommunications' => 'Telecomunicații',
         'Transportation' => 'Transporturi',
         'Utilities' => 'Utilităţi',
-        'Other' => 'Altele',
+        'Other' => 'Alta',
     ),
     'lead_source_default_key' => 'Autogenerat',
     'lead_source_dom' => array(
@@ -214,7 +214,7 @@ $app_list_strings = array(
         'Word of mouth' => 'Recomandare',
         'Email' => 'Email',
         'Campaign' => 'Campanie',
-        'Other' => 'Altele',
+        'Other' => 'Alta',
     ),
     'opportunity_type_dom' => array(
         '' => '',
@@ -240,7 +240,7 @@ $app_list_strings = array(
         'Technical Evaluator' => 'Evaluator tehnic',
         'Executive Sponsor' => 'Sponsor executiv',
         'Influencer' => 'Factor influent',
-        'Other' => 'Altele',
+        'Other' => 'Alta',
     ),
     //Note:  do not translate case_relationship_type_default_key
 //       it is the key for the default case_relationship_type_dom value
@@ -286,7 +286,7 @@ $app_list_strings = array(
         'Meeting' => 'Întâlnire',
         'Task' => 'Sarcină',
         'Email' => 'Email',
-        'Note' => 'Notă',
+        'Note' => 'Descriere',
     ),
     'salutation_dom' => array(
         '' => '',
@@ -320,9 +320,9 @@ $app_list_strings = array(
 
     'task_priority_default' => 'Medie',
     'task_priority_dom' => array(
-        'High' => 'Ridicată',
+        'High' => 'Ridicat',
         'Medium' => 'Medie',
-        'Low' => 'Scăzut',
+        'Low' => 'Scăzută',
     ),
     'task_status_default' => 'Neîncepută',
     'task_status_dom' => array(
@@ -342,7 +342,7 @@ $app_list_strings = array(
         'WebEx' => 'WebEx',
     ),
     'meeting_type_dom' => array(
-        'Other' => 'Altele',
+        'Other' => 'Alta',
         'Sugar' => 'SuiteCRM',
     ),
     'call_status_default' => 'Planificat',
@@ -358,8 +358,8 @@ $app_list_strings = array(
     ),
     'lead_status_dom' => array(
         '' => '',
-        'New' => 'Nou',
-        'Assigned' => 'Atribuit',
+        'New' => 'Nouă',
+        'Assigned' => 'Atribuită',
         'In Process' => 'În procesare',
         'Converted' => 'Convertit',
         'Recycled' => 'Reciclată',
@@ -367,9 +367,9 @@ $app_list_strings = array(
     ),
     'case_priority_default_key' => 'P2',
     'case_priority_dom' => array(
-        'P1' => 'Ridicată',
+        'P1' => 'Ridicat',
         'P2' => 'Medie',
-        'P3' => 'Scăzut',
+        'P3' => 'Scăzută',
     ),
     'user_type_dom' => array(
         'RegularUser' => 'Utilizator normal',
@@ -394,17 +394,17 @@ $app_list_strings = array(
         'AOL' => 'AOL',
     ),
     'project_task_priority_options' => array(
-        'High' => 'Ridicată',
+        'High' => 'Ridicat',
         'Medium' => 'Medie',
-        'Low' => 'Scăzut',
+        'Low' => 'Low',
     ),
     'project_task_priority_default' => 'Medie',
 
     'project_task_status_options' => array(
         'Not Started' => 'Neîncepută',
-        'In Progress' => 'În Curs',
-        'Completed' => 'Finalizată',
-        'Pending Input' => 'În Aşteptare Input',
+        'In Progress' => 'În curs',
+        'Completed' => 'Finalizat',
+        'Pending Input' => 'În Aşteptare',
         'Deferred' => 'Amânată',
     ),
     'project_task_utilization_options' => array(
@@ -420,7 +420,7 @@ $app_list_strings = array(
         'In Review' => 'În Revizuire',
         'Underway' => 'În Curs',
         'On_Hold' => 'În Aşteptare',
-        'Completed' => 'Finalizată',
+        'Completed' => 'Finalizat',
     ),
     'project_status_default' => 'Schiță',
 
@@ -437,19 +437,19 @@ $app_list_strings = array(
 
     // Note:  do not translate record_type_default_key
     //        it is the key for the default record_type_module value
-    'record_type_default_key' => 'Conturi',
+    'record_type_default_key' => 'Companii',
     'record_type_display' => array(
         '' => '',
         'Accounts' => 'Cont',
         'Opportunities' => 'Oportunitate',
         'Cases' => 'Caz',
-        'Leads' => 'Pistă',
+        'Leads' => 'Conversie',
         'Contacts' => 'Contact', // cn (11/22/2005) added to support Emails
 
-        'Bugs' => 'Defecte',
+        'Bugs' => 'Defect',
         'Project' => 'Proiect',
 
-        'Prospects' => 'Ţintă',
+        'Prospects' => 'Țintă',
         'ProjectTask' => 'Sarcină Proiect',
 
         'Tasks' => 'Sarcină',
@@ -469,19 +469,19 @@ $app_list_strings = array(
         'Tasks' => 'Sarcină',
         'Emails' => 'Email',
 
-        'Bugs' => 'Defecte',
+        'Bugs' => 'Defect',
         'Project' => 'Proiect',
         'ProjectTask' => 'Sarcină Proiect',
-        'Prospects' => 'Ţintă',
+        'Prospects' => 'Țintă',
         'Cases' => 'Caz',
-        'Leads' => 'Pistă',
+        'Leads' => 'Conversie',
 
         'Meetings' => 'Întâlnire',
         'Calls' => 'Apel',
 
         'AOS_Contracts' => 'Contract',
         'AOS_Invoices' => 'Factură',
-        'AOS_Quotes' => 'Întrebare',
+        'AOS_Quotes' => 'Întrebare/Cerere De ofertă',
         'AOS_Products' => 'Produs',
     ),
 
@@ -491,18 +491,18 @@ $app_list_strings = array(
         'Tasks' => 'Sarcină',
         'Opportunities' => 'Oportunitate',
 
-        'Bugs' => 'Defecte',
+        'Bugs' => 'Defect',
         'Cases' => 'Caz',
-        'Leads' => 'Pistă',
+        'Leads' => 'Conversie',
 
         'Project' => 'Proiect',
         'ProjectTask' => 'Sarcină Proiect',
 
-        'Prospects' => 'Ţintă',
+        'Prospects' => 'Țintă',
 
         'AOS_Contracts' => 'Contract',
         'AOS_Invoices' => 'Factură',
-        'AOS_Quotes' => 'Întrebare',
+        'AOS_Quotes' => 'Cerere de ofertă',
         'AOS_Products' => 'Produs',
 
     ),
@@ -514,24 +514,24 @@ $app_list_strings = array(
     'issue_priority_default_key' => 'Medie',
     'issue_priority_dom' => array(
         'Urgent' => 'Urgent',
-        'High' => 'Ridicată',
+        'High' => 'Ridicat',
         'Medium' => 'Medie',
-        'Low' => 'Scăzut',
+        'Low' => 'Scăzută',
     ),
     'issue_resolution_default_key' => '',
     'issue_resolution_dom' => array(
         '' => '',
         'Accepted' => 'Acceptat',
-        'Duplicate' => 'Duplicat',
+        'Duplicate' => 'Duplicare',
         'Closed' => 'Închis',
-        'Out of Date' => 'Depăşit',
+        'Out of Date' => 'Expirat',
         'Invalid' => 'Invalid',
     ),
 
-    'issue_status_default_key' => 'Nou',
+    'issue_status_default_key' => 'Nouă',
     'issue_status_dom' => array(
-        'New' => 'Nou',
-        'Assigned' => 'Atribuit',
+        'New' => 'Nouă',
+        'Assigned' => 'Atribuită',
         'Closed' => 'Închis',
         'Pending' => 'În așteptare',
         'Rejected' => 'Respins',
@@ -540,29 +540,29 @@ $app_list_strings = array(
     'bug_priority_default_key' => 'Medie',
     'bug_priority_dom' => array(
         'Urgent' => 'Urgent',
-        'High' => 'Ridicată',
+        'High' => 'Ridicat',
         'Medium' => 'Medie',
-        'Low' => 'Scăzut',
+        'Low' => 'Scăzută',
     ),
     'bug_resolution_default_key' => '',
     'bug_resolution_dom' => array(
         '' => '',
         'Accepted' => 'Acceptat',
-        'Duplicate' => 'Duplicat',
+        'Duplicate' => 'Duplicare',
         'Fixed' => 'Corectat',
-        'Out of Date' => 'Depăşit',
+        'Out of Date' => 'Expirat',
         'Invalid' => 'Invalid',
         'Later' => 'Amânat',
     ),
-    'bug_status_default_key' => 'Nou',
+    'bug_status_default_key' => 'Nouă',
     'bug_status_dom' => array(
-        'New' => 'Nou',
-        'Assigned' => 'Atribuit',
+        'New' => 'Nouă',
+        'Assigned' => 'Atribuită',
         'Closed' => 'Închis',
         'Pending' => 'În așteptare',
         'Rejected' => 'Respins',
     ),
-    'bug_type_default_key' => 'Defecte',
+    'bug_type_default_key' => 'Defect',
     'bug_type_dom' => array(
         'Defect' => 'Defect',
         'Feature' => 'Recomandare',
@@ -587,7 +587,7 @@ $app_list_strings = array(
         '' => '',
         'Accounts' => 'Conturi',
         'Activities' => 'Activități',
-        'Bugs' => 'Defecte',
+        'Bugs' => 'Erori',
         'Calendar' => 'Calendar',
         'Calls' => 'Apeluri',
         'Campaigns' => 'Campanii',
@@ -601,14 +601,14 @@ $app_list_strings = array(
         'Forecasts' => 'Prognoză',
         'Help' => 'Ajutor',
         'Home' => 'Acasă',
-        'Leads' => 'Piste',
-        'Meetings' => 'Întâlniri',
-        'Notes' => 'Note',
-        'Opportunities' => 'Oportunităţi',
+        'Leads' => 'Conversii',
+        'Meetings' => 'Intalniri',
+        'Notes' => 'Observații',
+        'Opportunities' => 'Oportunități',
         'Outlook Plugin' => 'Plugin Outlook',
         'Projects' => 'Proiecte',
         'Quotes' => 'Oferte',
-        'Releases' => 'Versiuni',
+        'Releases' => 'Lansări',
         'RSS' => 'RSS',
         'Studio' => 'Studio',
         'Upgrade' => 'Actualizare',
@@ -755,7 +755,7 @@ $app_list_strings = array(
         'out' => 'Trimis',
         'archived' => 'Arhivat',
         'draft' => 'Schiță',
-        'inbound' => 'Intrare',
+        'inbound' => 'Intrat',
         'campaign' => 'Campanie',
     ),
     'dom_email_status' => array(
@@ -792,15 +792,15 @@ $app_list_strings = array(
         2 => 'Trebuie să atribuiți doar articole verificate când se atribuie direct articole.',
     ),
     'dom_email_bool' => array(
-        'bool_true' => 'Da',
+        'bool_true' => 'Yes',
         'bool_false' => 'Nu',
     ),
     'dom_int_bool' => array(
-        1 => 'Da',
+        1 => 'Yes',
         0 => 'Nu',
     ),
     'dom_switch_bool' => array(
-        'on' => 'Da',
+        'on' => 'Yes',
         'off' => 'Nu',
         '' => 'Nu',
     ),
@@ -825,9 +825,9 @@ $app_list_strings = array(
     'schedulers_times_dom' => array(
         'not run' => 'Nu se execută',
         'ready' => 'Pregătit',
-        'in progress' => 'În Curs',
+        'in progress' => 'În curs',
         'failed' => 'Eşuat',
-        'completed' => 'Finalizată',
+        'completed' => 'Finalizat',
         'no curl' => 'Nu se execută: cURL indisponibil',
     ),
 
@@ -855,7 +855,7 @@ $app_list_strings = array(
 
     'document_subcategory_dom' => array(
         '' => '',
-        'Marketing Collateral' => 'Documente de marketing',
+        'Marketing Collateral' => 'Documente de Marketing',
         'Product Brochures' => 'Broşuri de Produse',
         'FAQ' => 'Întrebări Frecvente',
     ),
@@ -893,7 +893,7 @@ $app_list_strings = array(
         '45' => '45',
     ),
     'repeat_type_dom' => array(
-        '' => 'Nimeni',
+        '' => 'Gol',
         'Daily' => 'Zilnic',
         'Weekly' => 'Săptămânal',
         'Monthly' => 'Lunar',
@@ -909,7 +909,7 @@ $app_list_strings = array(
     ),
 
     'duration_dom' => array(
-        '' => 'Nimeni',
+        '' => 'Gol',
         '900' => '15 minute',
         '1800' => '30 minute',
         '2700' => '45 minute',
@@ -964,7 +964,7 @@ $app_list_strings = array(
         'Contacts' => 'Contacte',
         'Users' => 'Utilizatori',
         'Prospects' => 'Ținte',
-        'Leads' => 'Piste',
+        'Leads' => 'Conversie',
         'Accounts' => 'Conturi',
     ),
     'merge_operators_dom' => array(
@@ -974,7 +974,7 @@ $app_list_strings = array(
     ),
 
     'custom_fields_importable_dom' => array(
-        'true' => 'Da',
+        'true' => 'Yes',
         'false' => 'Nu',
         'required' => 'Necesar',
     ),
@@ -988,15 +988,15 @@ $app_list_strings = array(
     ),
 
     'projects_priority_options' => array(
-        'high' => 'Ridicată',
+        'high' => 'Ridicat',
         'medium' => 'Medie',
-        'low' => 'Scăzut',
+        'low' => 'Scăzută',
     ),
 
     'projects_status_options' => array(
         'notstarted' => 'Neîncepută',
-        'inprogress' => 'În Curs',
-        'completed' => 'Finalizată',
+        'inprogress' => 'În curs',
+        'completed' => 'Finalizat',
     ),
     // strings to pass to Flash charts
     'chart_strings' => array(
@@ -1011,7 +1011,7 @@ $app_list_strings = array(
         'horizontalbarchart' => 'Linie orizontala Grafic',
         'linechart' => 'Grafic Liniar',
         'noData' => 'Datele nu sunt disponibile',
-        'print' => 'Imprimare',
+        'print' => 'Tipăriți',
         'pieWedgeName' => 'secțiuni',
     ),
     'release_status_dom' => array(
@@ -1026,7 +1026,7 @@ $app_list_strings = array(
     'import_enclosure_options' => array(
         '\'' => 'Citat simplu (\')',
         '"' => 'Citat dublu (")',
-        '' => 'Nimeni',
+        '' => 'Gol',
         'other' => 'Altul:',
     ),
     'import_delimeter_options' => array(
@@ -1106,7 +1106,7 @@ $app_strings = array(
     'LBL_MOREDETAIL' => 'Mai multe detalii' /*for 508 compliance fix*/,
     'LBL_EDIT_INLINE' => 'Editare în linie' /*for 508 compliance fix*/,
     'LBL_VIEW_INLINE' => 'Vizualizează' /*for 508 compliance fix*/,
-    'LBL_BASIC_SEARCH' => 'Cauta' /*for 508 compliance fix*/,
+    'LBL_BASIC_SEARCH' => 'Filtru' /*for 508 compliance fix*/,
     'LBL_Blank' => ' ' /*for 508 compliance fix*/,
     'LBL_ID_FF_ADD' => 'Adăugați' /*for 508 compliance fix*/,
     'LBL_ID_FF_ADD_EMAIL' => 'Adăugați Adresă Email' /*for 508 compliance fix*/,
@@ -1121,10 +1121,10 @@ $app_strings = array(
     'LBL_ADD' => 'Adăugați' /*for 508 compliance fix*/,
     'LBL_COMPANY_LOGO' => 'Logo companie' /*for 508 compliance fix*/,
     'LBL_CONNECTORS_POPUPS' => 'Conectori pop-up',
-    'LBL_CLOSEINLINE' => 'Inchide',
-    'LBL_VIEWINLINE' => 'Vizualizează',
+    'LBL_CLOSEINLINE' => 'Închideţi',
+    'LBL_VIEWINLINE' => 'Vizualizați',
     'LBL_INFOINLINE' => 'Informații',
-    'LBL_PRINT' => 'Imprimare',
+    'LBL_PRINT' => 'Tipăriți',
     'LBL_HELP' => 'Ajutor',
     'LBL_ID_FF_SELECT' => 'Selectează',
     'DEFAULT' => 'Elementar',
@@ -1162,8 +1162,8 @@ $app_strings = array(
     'LBL_EMAIL_ADDRESS_BOOK_ADD_CC' => 'Cc:',
     'LBL_EMAIL_ADDRESS_BOOK_ADD_BCC' => 'Bcc:',
     'LBL_EMAIL_ADDRESS_BOOK_ADRRESS_TYPE' => 'Către/Cc/Bcc',
-    'LBL_EMAIL_ADDRESS_BOOK_EMAIL_ADDR' => 'Email',
-    'LBL_EMAIL_ADDRESS_BOOK_FILTER' => 'Cauta',
+    'LBL_EMAIL_ADDRESS_BOOK_EMAIL_ADDR' => 'Adresă Email',
+    'LBL_EMAIL_ADDRESS_BOOK_FILTER' => 'Filtru',
     'LBL_EMAIL_ADDRESS_BOOK_NAME' => 'Nume',
     'LBL_EMAIL_ADDRESS_BOOK_NOT_FOUND' => 'Nicio Adresă Găsită',
     'LBL_EMAIL_ADDRESS_BOOK_SAVE_AND_ADD' => 'Salvați & Adăugați la Listă de Adrese',
@@ -1190,7 +1190,7 @@ $app_strings = array(
     'LBL_EMAIL_CHECK' => 'Verifică Mail',
     'LBL_EMAIL_CHECKING_NEW' => 'Căutare pentru nou email',
     'LBL_EMAIL_CHECKING_DESC' => 'Un moment vă rog...<br><br>Dacă aceasta este prima verificare pentru contul de poștă electronică, aceasta poate dura ceva timp.',
-    'LBL_EMAIL_CLOSE' => 'Inchide',
+    'LBL_EMAIL_CLOSE' => 'Închideţi',
     'LBL_EMAIL_COFFEE_BREAK' => 'Verificarea pentru e-mail noi.<br><br>Conturile mari mail poate lua o cantitate considerabilă de timp.',
 
     'LBL_EMAIL_COMPOSE' => 'Email',
@@ -1210,7 +1210,7 @@ $app_strings = array(
     'LBL_EMAIL_MULT_GROUP_FOLDER_ACCOUNTS_EMPTY' => 'Gol',
     'LBL_EMAIL_DATE_SENT_BY_SENDER' => 'Dată Trimitere după Expeditor',
     'LBL_EMAIL_DATE_TODAY' => 'Astăzi',
-    'LBL_EMAIL_DELETE' => 'Ștergere',
+    'LBL_EMAIL_DELETE' => 'Ştergeți',
     'LBL_EMAIL_DELETE_CONFIRM' => 'Stergeți mesajele selectate?',
     'LBL_EMAIL_DELETE_SUCCESS' => 'Email șters cu succes.',
     'LBL_EMAIL_DELETING_MESSAGE' => 'Se Șterge Mesaj',
@@ -1309,7 +1309,7 @@ $app_strings = array(
     'LBL_EMAIL_MENU_EMPTY_TRASH' => 'Curata gunoi',
     'LBL_EMAIL_MENU_SYNCHRONIZE' => 'Sincronizează',
     'LBL_EMAIL_MENU_CLEAR_CACHE' => 'Șterge fișierele cache',
-    'LBL_EMAIL_MENU_REMOVE' => 'Elimină',
+    'LBL_EMAIL_MENU_REMOVE' => 'Șterge',
     'LBL_EMAIL_MENU_RENAME_FOLDER' => 'Redenumește folder',
     'LBL_EMAIL_MENU_RENAMING_FOLDER' => 'Redenumire folder',
     'LBL_EMAIL_MENU_MAKE_SELECTION' => 'Vă rugăm să faceți o selecție înainte de a încerca această operațiune.',
@@ -1337,16 +1337,16 @@ $app_strings = array(
     'LBL_EMAIL_OPEN_ALL' => 'Deschisă mai multor mesaje',
     'LBL_EMAIL_OPTIONS' => 'Opțiuni',
     'LBL_EMAIL_QUICK_COMPOSE' => 'Compuneți rapid',
-    'LBL_EMAIL_OPT_OUT' => 'Dezabonat',
+    'LBL_EMAIL_OPT_OUT' => 'A renunțat',
     'LBL_EMAIL_OPT_OUT_AND_INVALID' => 'A renunțat și este invalid',
     'LBL_EMAIL_PERFORMING_TASK' => 'Efectuarea activității',
     'LBL_EMAIL_PRIMARY' => 'Primar',
-    'LBL_EMAIL_PRINT' => 'Imprimare',
+    'LBL_EMAIL_PRINT' => 'Tipăriți',
 
     'LBL_EMAIL_QC_BUGS' => 'Defecte',
     'LBL_EMAIL_QC_CASES' => 'Caz',
-    'LBL_EMAIL_QC_LEADS' => 'Pistă',
-    'LBL_EMAIL_QC_CONTACTS' => 'Contact',
+    'LBL_EMAIL_QC_LEADS' => 'Conversie',
+    'LBL_EMAIL_QC_CONTACTS' => 'Contat',
     'LBL_EMAIL_QC_TASKS' => 'Sarcină',
     'LBL_EMAIL_QC_OPPORTUNITIES' => 'Oportunitate',
     'LBL_EMAIL_QUICK_CREATE' => 'Creare rapidă',
@@ -1355,7 +1355,7 @@ $app_strings = array(
     'LBL_EMAIL_RELATE_TO' => 'Relaționați',
     'LBL_EMAIL_VIEW_RELATIONSHIPS' => 'Vizualizeaza Relatiile',
     'LBL_EMAIL_RECORD' => 'Înregistrare e-mail',
-    'LBL_EMAIL_REMOVE' => 'Elimină',
+    'LBL_EMAIL_REMOVE' => 'Șterge',
     'LBL_EMAIL_REPLY' => 'Răspuns',
     'LBL_EMAIL_REPLY_ALL' => 'Răspunde tuturor',
     'LBL_EMAIL_REPLY_TO' => 'Răspuns la',
@@ -1368,7 +1368,7 @@ $app_strings = array(
 
     'LBL_EMAIL_RULES_TITLE' => 'Reguli de management',
 
-    'LBL_EMAIL_SAVE' => 'Salvați',
+    'LBL_EMAIL_SAVE' => 'Salvează',
     'LBL_EMAIL_SAVE_AND_REPLY' => 'Salvează & Răspunde',
     'LBL_EMAIL_SAVE_DRAFT' => 'Salvați schiță',
     'LBL_EMAIL_DRAFT_SAVED' => 'Proiectul a fost salvat',
@@ -1456,7 +1456,7 @@ $app_strings = array(
     'LBL_EMAIL_IMPORT_SUCCESS' => 'Import trecut',
     'LBL_EMAIL_IMPORT_FAIL' => 'Importul a eșuat deoarece fie mesajul este deja importat sau șters de pe server',
 
-    'LBL_LINK_NONE' => 'Nimeni',
+    'LBL_LINK_NONE' => 'Gol',
     'LBL_LINK_ALL' => 'Toate',
     'LBL_LINK_RECORDS' => 'Înregistrări',
     'LBL_LINK_SELECT' => 'Selectează',
@@ -1529,18 +1529,18 @@ $app_strings = array(
     'LBL_CLEAR_BUTTON_LABEL' => 'Curăță',
     'LBL_CLEAR_BUTTON_TITLE' => 'Curăță',
     'LBL_CLEARALL' => 'Anulează tot',
-    'LBL_CLOSE_BUTTON_TITLE' => 'Inchide',
+    'LBL_CLOSE_BUTTON_TITLE' => 'Închideți',
     'LBL_CLOSE_AND_CREATE_BUTTON_LABEL' => 'Închide și creează nou',
     'LBL_CLOSE_AND_CREATE_BUTTON_TITLE' => 'Închide și creează nou',
     'LBL_CLOSE_AND_CREATE_BUTTON_KEY' => 'C',
     'LBL_OPEN_ITEMS' => 'Deschideți Itemi:',
-    'LBL_COMPOSE_EMAIL_BUTTON_KEY' => 'L',
+    'LBL_COMPOSE_EMAIL_BUTTON_KEY' => 'F',
     'LBL_COMPOSE_EMAIL_BUTTON_LABEL' => 'Compune email',
-    'LBL_COMPOSE_EMAIL_BUTTON_TITLE' => 'Compune email',
+    'LBL_COMPOSE_EMAIL_BUTTON_TITLE' => 'Compuneți Email',
     'LBL_SEARCH_DROPDOWN_YES' => 'Da',
     'LBL_SEARCH_DROPDOWN_NO' => 'Nu',
     'LBL_CONTACT_LIST' => 'Lista de contacte',
-    'LBL_CONTACT' => 'Contact',
+    'LBL_CONTACT' => 'Contat',
     'LBL_CONTACTS' => 'Contacte',
     'LBL_CONTRACT' => 'Contract',
     'LBL_CONTRACTS' => 'Contracte',
@@ -1552,12 +1552,12 @@ $app_strings = array(
     'LBL_CURRENT_USER_FILTER' => 'Doar ce este al meu:',
     'LBL_CURRENCY' => 'Monedă:',
     'LBL_DOCUMENTS' => 'Documente',
-    'LBL_DATE_ENTERED' => 'Data înregistrării:',
-    'LBL_DATE_MODIFIED' => 'Dată Modificare:',
+    'LBL_DATE_ENTERED' => 'Creat:',
+    'LBL_DATE_MODIFIED' => 'Dată modificare:',
     'LBL_EDIT_BUTTON' => 'Editează',
-    'LBL_DUPLICATE_BUTTON' => 'Duplicat',
-    'LBL_DELETE_BUTTON' => 'Ștergere',
-    'LBL_DELETE' => 'Ștergere',
+    'LBL_DUPLICATE_BUTTON' => 'Copiază',
+    'LBL_DELETE_BUTTON' => 'Ștergeți',
+    'LBL_DELETE' => 'Ștergeți',
     'LBL_DELETED' => 'Șters',
     'LBL_DIRECT_REPORTS' => 'Se raportează direct',
     'LBL_DONE_BUTTON_LABEL' => 'Efectuat',
@@ -1570,7 +1570,7 @@ $app_strings = array(
     'LBL_VCARD_ERROR_DEFAULT' => 'Eroare la încărcarea fișierului vCard. Consultați suitecrm.log pentru detalii.',
     'LBL_IMPORT_VCARD' => 'Importați vCard:',
     'LBL_IMPORT_VCARD_BUTTON_LABEL' => 'Importați vCard',
-    'LBL_IMPORT_VCARD_BUTTON_TITLE' => 'Importați vCard',
+    'LBL_IMPORT_VCARD_BUTTON_TITLE' => 'Importă vCard',
     'LBL_VIEW_BUTTON' => 'Vizualizează',
     'LBL_EMAIL_PDF_BUTTON_LABEL' => 'Trimite prin email ca PDF',
     'LBL_EMAIL_PDF_BUTTON_TITLE' => 'Trimite prin email ca PDF',
@@ -1585,18 +1585,18 @@ $app_strings = array(
     'LBL_IMPORT' => 'Importă',
     'LBL_IMPORT_STARTED' => 'Import pornit: ',
     'LBL_LAST_VIEWED' => 'Accesate recent',
-    'LBL_LEADS' => 'Piste',
+    'LBL_LEADS' => 'Conversii',
     'LBL_LESS' => 'mai puțin',
     'LBL_CAMPAIGN' => 'Campanie:',
     'LBL_CAMPAIGNS' => 'Campanii',
     'LBL_CAMPAIGNLOG' => 'Jurnal campanii',
     'LBL_CAMPAIGN_CONTACT' => 'Campanii',
     'LBL_CAMPAIGN_ID' => 'campaign_id',
-    'LBL_CAMPAIGN_NONE' => 'Nimeni',
+    'LBL_CAMPAIGN_NONE' => 'Nimic',
     'LBL_THEME' => 'Tema:',
     'LBL_FOUND_IN_RELEASE' => 'Gasite in lansare',
     'LBL_FIXED_IN_RELEASE' => 'Rezolvate in lansare',
-    'LBL_LIST_ACCOUNT_NAME' => 'Nume Cont',
+    'LBL_LIST_ACCOUNT_NAME' => 'Nume cont',
     'LBL_LIST_ASSIGNED_USER' => 'Utilizator',
     'LBL_LIST_CONTACT_NAME' => 'Denumire contact',
     'LBL_LIST_CONTACT_ROLE' => 'Rol contact',
@@ -1614,13 +1614,13 @@ $app_strings = array(
 
     'LBL_LOCALE_NAME_EXAMPLE_FIRST' => 'Ion',
     'LBL_LOCALE_NAME_EXAMPLE_LAST' => 'Popescu',
-    'LBL_LOCALE_NAME_EXAMPLE_SALUTATION' => 'Dr.',
+    'LBL_LOCALE_NAME_EXAMPLE_SALUTATION' => 'Dl.',
     'LBL_LOCALE_NAME_EXAMPLE_TITLE' => 'Cod Monkey excepțional',
     'LBL_CANCEL' => 'Anulați',
     'LBL_VERIFY' => 'Verificați',
     'LBL_RESEND' => 'Retrimite',
     'LBL_PROFILE' => 'Profil',
-    'LBL_MAILMERGE' => 'Îmbinare corespondență',
+    'LBL_MAILMERGE' => 'Preluare email',
     'LBL_MASS_UPDATE' => 'Actualizare în masă',
     'LBL_NO_MASS_UPDATE_FIELDS_AVAILABLE' => 'Nu există câmpuri disponibile pentru operațiunea de modificare în masă',
     'LBL_OPT_OUT_FLAG_PRIMARY' => 'Renunța la e-mail principal',
@@ -1638,11 +1638,11 @@ $app_strings = array(
     'LBL_NAME' => 'Nume',
     'LBL_NEW_BUTTON_KEY' => 'N',
     'LBL_NEW_BUTTON_LABEL' => 'Creați',
-    'LBL_NEW_BUTTON_TITLE' => 'Creați',
+    'LBL_NEW_BUTTON_TITLE' => 'Creează',
     'LBL_NEXT_BUTTON_LABEL' => 'Următor',
-    'LBL_NONE' => '-- Niciunul --',
+    'LBL_NONE' => '-- Neselectat --',
     'LBL_NOTES' => 'Note',
-    'LBL_OPPORTUNITIES' => 'Oportunităţi',
+    'LBL_OPPORTUNITIES' => 'Oportunități',
     'LBL_OPPORTUNITY_NAME' => 'Nume oportunitate',
     'LBL_OPPORTUNITY' => 'Oportunitate',
     'LBL_OR' => 'SAU',
@@ -1653,7 +1653,7 @@ $app_strings = array(
     'LBL_PERCENTAGE_SYMBOL' => '%',
     'LBL_POSTAL_CODE' => 'Cod poștal:',
     'LBL_PRIMARY_ADDRESS_CITY' => 'Adresă principală - Oraș:',
-    'LBL_PRIMARY_ADDRESS_COUNTRY' => 'Adresă principală - Țară:',
+    'LBL_PRIMARY_ADDRESS_COUNTRY' => 'Adresă Principală - Țară:',
     'LBL_PRIMARY_ADDRESS_POSTALCODE' => 'Adresă principală - Cod Poștal:',
     'LBL_PRIMARY_ADDRESS_STATE' => 'Adresă principală - Județ:',
     'LBL_PRIMARY_ADDRESS_STREET_2' => 'Adresă principală - Strada 2:',
@@ -1669,21 +1669,21 @@ $app_strings = array(
 
     'LBL_RELATED' => 'Legat de',
     'LBL_RELATED_RECORDS' => 'Înregistrări asociate',
-    'LBL_REMOVE' => 'Elimină',
+    'LBL_REMOVE' => 'Șterge',
     'LBL_REPORTS_TO' => 'Raportează lui',
     'LBL_REQUIRED_SYMBOL' => '*',
     'LBL_REQUIRED_TITLE' => 'Câmpuri obligatorii',
     'LBL_EMAIL_DONE_BUTTON_LABEL' => 'Efectuat',
-    'LBL_FULL_FORM_BUTTON_KEY' => 'L',
+    'LBL_FULL_FORM_BUTTON_KEY' => 'F',
     'LBL_FULL_FORM_BUTTON_LABEL' => 'Formular complet',
     'LBL_FULL_FORM_BUTTON_TITLE' => 'Formular complet',
     'LBL_SAVE_NEW_BUTTON_LABEL' => 'Salvați & Creați Nou',
-    'LBL_SAVE_NEW_BUTTON_TITLE' => 'Salvați & Creați Nou',
+    'LBL_SAVE_NEW_BUTTON_TITLE' => 'Salvați & creați nou',
     'LBL_SAVE_OBJECT' => 'Salvați {0}',
     'LBL_SEARCH_BUTTON_KEY' => 'Q',
     'LBL_SEARCH_BUTTON_LABEL' => 'Caută',
     'LBL_SEARCH_BUTTON_TITLE' => 'Caută',
-    'LBL_FILTER' => 'Cauta',
+    'LBL_FILTER' => 'Filtru',
     'LBL_SEARCH' => 'Caută',
     'LBL_SEARCH_ALT' => '',
     'LBL_SEARCH_MORE' => 'mai mult',
@@ -1710,7 +1710,7 @@ $app_strings = array(
     'LBL_ACCESSKEY_CLEAR_COLLECTION_LABEL' => 'Anulează selecția',
     'LBL_ACCESSKEY_SELECT_FILE_KEY' => 'F',
     'LBL_ACCESSKEY_SELECT_FILE_TITLE' => 'Selectaţi fişierul',
-    'LBL_ACCESSKEY_SELECT_FILE_LABEL' => 'Selectaţi fişierul',
+    'LBL_ACCESSKEY_SELECT_FILE_LABEL' => 'Selectează fișier',
     'LBL_ACCESSKEY_CLEAR_FILE_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_FILE_TITLE' => 'Curăță fișier',
     'LBL_ACCESSKEY_CLEAR_FILE_LABEL' => 'Curăță fișier',
@@ -1723,7 +1723,7 @@ $app_strings = array(
     'LBL_ACCESSKEY_CLEAR_USERS_LABEL' => 'Curăță utilizatorul',
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_KEY' => 'A',
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_TITLE' => 'Selectați Cont',
-    'LBL_ACCESSKEY_SELECT_ACCOUNTS_LABEL' => 'Selectați Cont',
+    'LBL_ACCESSKEY_SELECT_ACCOUNTS_LABEL' => 'Selectați cont',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_TITLE' => 'Curata cont',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_LABEL' => 'Curata cont',
@@ -1754,9 +1754,9 @@ $app_strings = array(
     'LBL_SERVER_PEAK_MEMORY_USAGE' => 'Cel mai înalt vârf de memorie utilizată de server: {0} ({1})',
     'LBL_SHIPPING_ADDRESS' => 'Adresa livrare',
     'LBL_SHOW' => 'Arata',
-    'LBL_STATE' => 'Stare:',
+    'LBL_STATE' => 'Județul:',
     'LBL_STATUS_UPDATED' => 'Starea dumneavoastră pentru acest eveniment a fost actualizată!',
-    'LBL_STATUS' => 'Status:',
+    'LBL_STATUS' => 'Status',
     'LBL_STREET' => 'Stradă',
     'LBL_SUBJECT' => 'Subiect',
 
@@ -1764,7 +1764,7 @@ $app_strings = array(
 
     'LBL_SCENARIO_SALES' => 'Vânzări',
     'LBL_SCENARIO_MARKETING' => 'Marketing',
-    'LBL_SCENARIO_FINANCE' => 'Finanţe',
+    'LBL_SCENARIO_FINANCE' => 'Finanțe',
     'LBL_SCENARIO_SERVICE' => 'Service',
     'LBL_SCENARIO_PROJECT' => 'Management de proiect',
 
@@ -1801,14 +1801,14 @@ $app_strings = array(
     'LNK_ABOUT' => 'Despre',
     'LNK_ADVANCED_FILTER' => 'Filtru Avansat',
     'LNK_BASIC_FILTER' => 'Filtru Rapid',
-    'LBL_ADVANCED_SEARCH' => 'Filtru Avansat',
-    'LBL_QUICK_FILTER' => 'Filtru Rapid',
+    'LBL_ADVANCED_SEARCH' => 'Filtru avansat',
+    'LBL_QUICK_FILTER' => 'Filtru rapid',
     'LNK_SEARCH_NONFTS_VIEW_ALL' => 'Arata toate',
-    'LNK_CLOSE' => 'Inchide',
+    'LNK_CLOSE' => 'Închideți',
     'LBL_MODIFY_CURRENT_FILTER' => 'Modifică filtru curent',
     'LNK_SAVED_VIEWS' => 'Opțiuni aspect',
-    'LNK_DELETE' => 'Ștergere',
-    'LNK_EDIT' => 'Editează',
+    'LNK_DELETE' => 'Ștergeți',
+    'LNK_EDIT' => 'Editați',
     'LNK_GET_LATEST' => 'Cele mai recente',
     'LNK_GET_LATEST_TOOLTIP' => 'Înlocuiește cu ultima versiune',
     'LNK_HELP' => 'Ajutor',
@@ -1820,9 +1820,9 @@ $app_strings = array(
     'LNK_LIST_START' => 'Început',
     'LNK_LOAD_SIGNED' => 'Semnează',
     'LNK_LOAD_SIGNED_TOOLTIP' => 'Înlocuiește cu documentul semnat',
-    'LNK_PRINT' => 'Imprimare',
+    'LNK_PRINT' => 'Tipăriți',
     'LNK_BACKTOTOP' => 'Înapoi la început',
-    'LNK_REMOVE' => 'Elimină',
+    'LNK_REMOVE' => 'Înlăturați',
     'LNK_RESUME' => 'Continuă',
     'LNK_VIEW_CHANGE_LOG' => 'Jurnal de modificări',
 
@@ -1831,12 +1831,12 @@ $app_strings = array(
     'NTC_DELETE_CONFIRMATION_MULTIPLE' => 'Sunteți sigur(ă) că vreți să ștergeți înregistrările selectate?',
     'NTC_TEMPLATE_IS_USED' => 'Șablon este folosit în cel puțin o înregistrare de email marketing. Sunteți sigur că doriți să-l ștergeți?',
     'NTC_TEMPLATES_IS_USED' => 'Următoarele șabloane sunt folosite în înregistrările e-mail marketing. Sunteți sigur că doriți să le ștergeți?' . PHP_EOL,
-    'NTC_DELETE_CONFIRMATION' => 'Sunteţi sigur(ă) că vreţi să ştergeţi înregistrarea selectată?',
+    'NTC_DELETE_CONFIRMATION' => 'Sunteți sigur că doriți să ștergeți această înregistrare?',
     'NTC_DELETE_CONFIRMATION_NUM' => 'Sunteți sigur ca vreți sa ștergeți ',
     'NTC_UPDATE_CONFIRMATION_NUM' => 'Sunteți siguri ca vreți sa actualizați ',
     'NTC_DELETE_SELECTED_RECORDS' => ' înregistrare (înregistrării) selectate?',
     'NTC_LOGIN_MESSAGE' => 'Autentificați-vă.',
-    'NTC_NO_ITEMS_DISPLAY' => 'niciunul',
+    'NTC_NO_ITEMS_DISPLAY' => 'nimic',
     'NTC_REMOVE_CONFIRMATION' => 'Sunteți sigur că doriți să eliminați această relație? Numai relația va fi eliminată. Înregistrarea nu va fi ștearsă.',
     'NTC_REQUIRED' => 'Câmpuri obligatorii',
     'NTC_TIME_FORMAT' => '(24:00)',
@@ -1863,7 +1863,7 @@ $app_strings = array(
     'LBL_SEARCH_CRITERIA' => 'Criterii de căutare',
     'LBL_SAVED_VIEWS' => 'Vizualizări salvate',
     'LBL_PROCESSING_REQUEST' => 'Procesare...',
-    'LBL_REQUEST_PROCESSED' => 'Efectuat',
+    'LBL_REQUEST_PROCESSED' => 'Terminat',
     'LBL_AJAX_FAILURE' => 'Solicitare Ajax eșuată',
     'LBL_MERGE_DUPLICATES' => 'Fuziune',
     'LBL_SAVED_FILTER_SHORTCUT' => 'Filtrele mele',
@@ -1959,7 +1959,7 @@ $app_strings = array(
 
     'LBL_RELOAD_PAGE' => 'Vă rugăm <a href="javascript: window.location.reload()">reîncărcați fereastra </a> pentru a folosi acest Dashlet SuiteCrm.',
     'LBL_ADD_DASHLETS' => 'Adăugați Dashlet-uri',
-    'LBL_CLOSE_DASHLETS' => 'Inchide',
+    'LBL_CLOSE_DASHLETS' => 'Închideți',
     'LBL_OPTIONS' => 'Opțiuni',
     'LBL_1_COLUMN' => '1 coloana',
     'LBL_2_COLUMN' => '2 coloane',
@@ -2132,13 +2132,13 @@ $app_strings = array(
     //508 used Access Keys
     'LBL_EDIT_BUTTON_KEY' => 'E',
     'LBL_EDIT_BUTTON_LABEL' => 'Editează',
-    'LBL_EDIT_BUTTON_TITLE' => 'Editează',
+    'LBL_EDIT_BUTTON_TITLE' => 'Editați',
     'LBL_DUPLICATE_BUTTON_KEY' => 'U',
-    'LBL_DUPLICATE_BUTTON_LABEL' => 'Duplicat',
-    'LBL_DUPLICATE_BUTTON_TITLE' => 'Duplicat',
+    'LBL_DUPLICATE_BUTTON_LABEL' => 'Duplicare',
+    'LBL_DUPLICATE_BUTTON_TITLE' => 'Duplicare',
     'LBL_DELETE_BUTTON_KEY' => 'D',
-    'LBL_DELETE_BUTTON_LABEL' => 'Ștergere',
-    'LBL_DELETE_BUTTON_TITLE' => 'Ștergere',
+    'LBL_DELETE_BUTTON_LABEL' => 'Ștergeți',
+    'LBL_DELETE_BUTTON_TITLE' => 'Ștergeți',
     'LBL_BULK_ACTION_BUTTON_LABEL' => 'BULK ACTION',
     'LBL_BULK_ACTION_BUTTON_LABEL_MOBILE' => 'Acţiune',
     'LBL_SAVE_BUTTON_KEY' => 'S',
@@ -2154,11 +2154,11 @@ $app_strings = array(
     'ERR_CONNECTOR_NOT_ARRAY' => 'conectorul matrice în {0} a fost definit incorect sau este gol și nu a putut fi folosit.',
     'ERR_SUHOSIN' => 'Încărcarea fluxului este blocat de Suhosin, vă rugăm să adaugați &quot;upload&quot; la suhosin.executor.include.whitelist (Vezi suitecrm.log pentru mai multe informații)',
     'ERR_BAD_RESPONSE_FROM_SERVER' => 'Răspuns greșit de la server',
-    'LBL_ACCOUNT_PRODUCT_QUOTE_LINK' => 'Întrebare',
+    'LBL_ACCOUNT_PRODUCT_QUOTE_LINK' => 'Ofertă',
     'LBL_ACCOUNT_PRODUCT_SALE_PRICE' => 'Preț de vânzare',
     'LBL_EMAIL_CHECK_INTERVAL_DOM' => array(
         '-1' => 'Manual',
-        '5' => 'Fiecare 5 minute',
+        '5' => 'La fiecare 5 minute',
         '15' => 'La fiecare 15 minute',
         '30' => 'La fiecare 30 de minute',
         '60' => 'În fiecare oră',
@@ -2178,7 +2178,7 @@ $app_strings = array(
     'LBL_HIDDEN' => 'Ascuns',
     'ERR_EMPTY_COLUMNS_LIST' => 'Cel puțin un element necesar',
 
-    'LBL_FILTER_HEADER_TITLE' => 'Cauta',
+    'LBL_FILTER_HEADER_TITLE' => 'Filtru',
 
     'LBL_CATEGORY' => 'Categorie',
     'LBL_LIST_CATEGORY' => 'Categorie',
@@ -2226,11 +2226,11 @@ $app_strings = array(
 );
 
 $app_list_strings['moduleList']['Library'] = 'Librărie';
-$app_list_strings['moduleList']['EmailAddresses'] = 'Email';
+$app_list_strings['moduleList']['EmailAddresses'] = 'Adresă Email';
 $app_list_strings['project_priority_default'] = 'Medie';
 $app_list_strings['project_priority_options'] = array(
-    'High' => 'Ridicată',
-    'Medium' => 'Medie',
+    'High' => 'Ridicat',
+    'Medium' => 'Mediu',
     'Low' => 'Scăzut',
 );
 
@@ -2258,7 +2258,7 @@ $app_list_strings['lawful_basis_source_dom'] = array(
 );
 //End GDPR lawful basis source options
 
-$app_list_strings['moduleList']['KBDocuments'] = 'Bază de Cunoștințe';
+$app_list_strings['moduleList']['KBDocuments'] = 'Bază de cunoștințe';
 
 $app_list_strings['countries_dom'] = array(
     '' => '',
@@ -2938,19 +2938,19 @@ $app_list_strings ['emailTemplates_type_list'] = array(
 
 $app_list_strings ['emailTemplates_type_list_campaigns'] = array(
     '' => '',
-    'campaign' => 'Campanie',
+    'campaign' => 'Campanii',
 );
 
 $app_list_strings ['emailTemplates_type_list_no_workflow'] = array(
     '' => '',
-    'campaign' => 'Campanie',
+    'campaign' => 'Campanii',
     'email' => 'Email',
     'event' => 'Eveniment',
     'system' => 'Sistem',
 );
 
 // knowledge base
-$app_list_strings['moduleList']['AOK_KnowledgeBase'] = 'Bază de Cunoștințe';
+$app_list_strings['moduleList']['AOK_KnowledgeBase'] = 'Bază de cunoștințe';
 $app_list_strings['moduleList']['AOK_Knowledge_Base_Categories'] = 'Categorii KB';
 $app_list_strings['aok_status_list']['Draft'] = 'Schiță';
 $app_list_strings['aok_status_list']['Expired'] = 'Expirat';
@@ -2997,9 +2997,9 @@ $app_list_strings['case_status_default_key'] = 'Open_New';
 $app_list_strings['case_status_dom'] =
     array(
         'Open_New' => 'Nou',
-        'Open_Assigned' => 'Atribuit',
+        'Open_Assigned' => 'Atribuită',
         'Closed_Closed' => 'Închis',
-        'Open_Pending Input' => 'În Aşteptare Input',
+        'Open_Pending Input' => 'Intrare în așteptare',
         'Closed_Rejected' => 'Respins',
         'Closed_Duplicate' => 'Duplicat',
     );
@@ -3012,7 +3012,7 @@ $app_list_strings['dom_email_distribution_for_auto_create'] = array(
     'AOPDefault' => 'Sistem implicit',
     'singleUser' => 'Singur Utilizator',
     'roundRobin' => 'Pe rând',
-    'leastBusy' => 'Cel Mai Puțin Ocupat',
+    'leastBusy' => 'Cel mai liber',
     'random' => 'Aleator',
 );
 
@@ -3025,7 +3025,7 @@ $app_list_strings['moduleList']['AOR_Scheduled_Reports'] = 'Rapoarte Programate'
 $app_list_strings['aor_operator_list']['Equal_To'] = 'Egal cu';
 $app_list_strings['aor_operator_list']['Not_Equal_To'] = 'Nu este egal cu';
 $app_list_strings['aor_operator_list']['Greater_Than'] = 'Mai Mare Decât';
-$app_list_strings['aor_operator_list']['Less_Than'] = 'Mai Puţin de';
+$app_list_strings['aor_operator_list']['Less_Than'] = 'Mai puțin de';
 $app_list_strings['aor_operator_list']['Greater_Than_or_Equal_To'] = 'Mai mare sau egal cu';
 $app_list_strings['aor_operator_list']['Less_Than_or_Equal_To'] = 'Mai mic sau egal cu';
 $app_list_strings['aor_operator_list']['Contains'] = 'Conține';
@@ -3048,7 +3048,7 @@ $app_list_strings['aor_condition_operator_list']['And'] = 'Și';
 $app_list_strings['aor_condition_operator_list']['OR'] = 'SAU';
 $app_list_strings['aor_condition_type_list']['Value'] = 'Valoare';
 $app_list_strings['aor_condition_type_list']['Field'] = 'Câmp';
-$app_list_strings['aor_condition_type_list']['Date'] = 'Data';
+$app_list_strings['aor_condition_type_list']['Date'] = 'Dată';
 $app_list_strings['aor_condition_type_list']['Multi'] = 'Unul din';
 $app_list_strings['aor_condition_type_list']['Period'] = 'Perioada';
 $app_list_strings['aor_condition_type_list']['CurrentUserID'] = 'Utilizatorul curent';
@@ -3074,7 +3074,7 @@ $app_list_strings['aor_function_list']['MAX'] = 'Maxim';
 $app_list_strings['aor_function_list']['SUM'] = 'Suma';
 $app_list_strings['aor_function_list']['AVG'] = 'Medie';
 $app_list_strings['aor_total_options'][''] = '';
-$app_list_strings['aor_total_options']['COUNT'] = 'Număra';
+$app_list_strings['aor_total_options']['COUNT'] = 'Numără';
 $app_list_strings['aor_total_options']['SUM'] = 'Suma';
 $app_list_strings['aor_total_options']['AVG'] = 'Medie';
 $app_list_strings['aor_chart_types']['bar'] = 'Grafic cu bare';
@@ -3098,8 +3098,8 @@ $app_list_strings['date_time_period_list']['today'] = 'Astăzi';
 $app_list_strings['date_time_period_list']['yesterday'] = 'Ieri';
 $app_list_strings['date_time_period_list']['this_week'] = 'Săptămâna curentă';
 $app_list_strings['date_time_period_list']['last_week'] = 'Săptămâna trecută';
-$app_list_strings['date_time_period_list']['last_month'] = 'Ultima Luna';
-$app_list_strings['date_time_period_list']['this_month'] = 'Aceasta Luna';
+$app_list_strings['date_time_period_list']['last_month'] = 'Luna Trecută';
+$app_list_strings['date_time_period_list']['this_month'] = 'Luna Curentă';
 $app_list_strings['date_time_period_list']['this_quarter'] = 'Acest trimestru';
 $app_list_strings['date_time_period_list']['last_quarter'] = 'Ultimul trimestru';
 $app_list_strings['date_time_period_list']['this_year'] = 'Anul curent';
@@ -3141,7 +3141,7 @@ $app_list_strings['template_ddown_c_list'][''] = '';
 $app_list_strings['quote_stage_dom']['Draft'] = 'Schiță';
 $app_list_strings['quote_stage_dom']['Negotiation'] = 'Negociere';
 $app_list_strings['quote_stage_dom']['Delivered'] = 'Trimisă';
-$app_list_strings['quote_stage_dom']['On Hold'] = 'În Aşteptare';
+$app_list_strings['quote_stage_dom']['On Hold'] = 'În așteptare';
 $app_list_strings['quote_stage_dom']['Confirmed'] = 'Confirmată';
 $app_list_strings['quote_stage_dom']['Closed Accepted'] = 'Acceptată';
 $app_list_strings['quote_stage_dom']['Closed Lost'] = 'Pierdut și închis';
@@ -3182,7 +3182,7 @@ $app_list_strings['product_category_dom']['Laptops'] = 'Laptop-uri';
 $app_list_strings['product_category_dom']['Desktops'] = 'Calculatoare';
 $app_list_strings['product_category_dom'][''] = '';
 $app_list_strings['product_type_dom']['Good'] = 'Bunuri';
-$app_list_strings['product_type_dom']['Service'] = 'Service';
+$app_list_strings['product_type_dom']['Service'] = 'Servicii';
 $app_list_strings['product_quote_parent_type_dom']['AOS_Quotes'] = 'Oferte';
 $app_list_strings['product_quote_parent_type_dom']['AOS_Invoices'] = 'Facturi';
 $app_list_strings['product_quote_parent_type_dom']['AOS_Contracts'] = 'Contracte';
@@ -3191,10 +3191,10 @@ $app_list_strings['pdf_template_type_dom']['AOS_Invoices'] = 'Facturi';
 $app_list_strings['pdf_template_type_dom']['AOS_Contracts'] = 'Contracte';
 $app_list_strings['pdf_template_type_dom']['Accounts'] = 'Conturi';
 $app_list_strings['pdf_template_type_dom']['Contacts'] = 'Contacte';
-$app_list_strings['pdf_template_type_dom']['Leads'] = 'Piste';
+$app_list_strings['pdf_template_type_dom']['Leads'] = 'Conversii, piste';
 $app_list_strings['pdf_template_sample_dom'][''] = '';
 $app_list_strings['contract_status_list']['Not Started'] = 'Neîncepută';
-$app_list_strings['contract_status_list']['In Progress'] = 'În Curs';
+$app_list_strings['contract_status_list']['In Progress'] = 'În curs';
 $app_list_strings['contract_status_list']['Signed'] = 'Semnat';
 $app_list_strings['contract_type_list']['Type'] = 'Tip';
 $app_strings['LBL_PRINT_AS_PDF'] = 'Tipărește în PDF';
@@ -3209,9 +3209,9 @@ $app_list_strings['moduleList']['AOW_Actions'] = 'Acțiuni flux de lucru';
 $app_list_strings['aow_status_list']['Active'] = 'Activ';
 $app_list_strings['aow_status_list']['Inactive'] = 'Inactiv';
 $app_list_strings['aow_operator_list']['Equal_To'] = 'Egal cu';
-$app_list_strings['aow_operator_list']['Not_Equal_To'] = 'Nu este egal cu';
-$app_list_strings['aow_operator_list']['Greater_Than'] = 'Mai Mare Decât';
-$app_list_strings['aow_operator_list']['Less_Than'] = 'Mai Puţin de';
+$app_list_strings['aow_operator_list']['Not_Equal_To'] = 'Nu este egal Cu';
+$app_list_strings['aow_operator_list']['Greater_Than'] = 'Mai mare decât';
+$app_list_strings['aow_operator_list']['Less_Than'] = 'Mai puțin de';
 $app_list_strings['aow_operator_list']['Greater_Than_or_Equal_To'] = 'Mai mare sau egal cu';
 $app_list_strings['aow_operator_list']['Less_Than_or_Equal_To'] = 'Mai mic sau egal cu';
 $app_list_strings['aow_operator_list']['Contains'] = 'Conține';
@@ -3221,18 +3221,18 @@ $app_list_strings['aow_operator_list']['is_null'] = 'Este nul';
 $app_list_strings['aow_process_status_list']['Complete'] = 'Completă';
 $app_list_strings['aow_process_status_list']['Running'] = 'Proces in lucru';
 $app_list_strings['aow_process_status_list']['Pending'] = 'În așteptare';
-$app_list_strings['aow_process_status_list']['Failed'] = 'Eşuat';
+$app_list_strings['aow_process_status_list']['Failed'] = 'Eșuat';
 $app_list_strings['aow_condition_operator_list']['And'] = 'Și';
 $app_list_strings['aow_condition_operator_list']['OR'] = 'SAU';
 $app_list_strings['aow_condition_type_list']['Value'] = 'Valoare';
 $app_list_strings['aow_condition_type_list']['Field'] = 'Câmp';
 $app_list_strings['aow_condition_type_list']['Any_Change'] = 'Orice modificare';
 $app_list_strings['aow_condition_type_list']['SecurityGroup'] = 'În Grupul de securitate';
-$app_list_strings['aow_condition_type_list']['Date'] = 'Data';
+$app_list_strings['aow_condition_type_list']['Date'] = 'Dată';
 $app_list_strings['aow_condition_type_list']['Multi'] = 'Unul din';
 $app_list_strings['aow_action_type_list']['Value'] = 'Valoare';
 $app_list_strings['aow_action_type_list']['Field'] = 'Câmp';
-$app_list_strings['aow_action_type_list']['Date'] = 'Data';
+$app_list_strings['aow_action_type_list']['Date'] = 'Dată';
 $app_list_strings['aow_action_type_list']['Round_Robin'] = 'Pe rând';
 $app_list_strings['aow_action_type_list']['Least_Busy'] = 'Cel mai puțin ocupat';
 $app_list_strings['aow_action_type_list']['Random'] = 'Aleator';
@@ -3248,7 +3248,7 @@ $app_list_strings['aow_date_type_list']['year'] = 'Ani';
 $app_list_strings['aow_date_type_list']['business_hours'] = 'Programul de lucru';
 $app_list_strings['aow_date_options']['now'] = 'Acum';
 $app_list_strings['aow_date_options']['today'] = 'Astăzi';
-$app_list_strings['aow_date_options']['field'] = 'Acest câmp';
+$app_list_strings['aow_date_options']['field'] = 'Acest Câmp';
 $app_list_strings['aow_date_operator']['now'] = '';
 $app_list_strings['aow_date_operator']['plus'] = '+';
 $app_list_strings['aow_date_operator']['minus'] = '-';
@@ -3302,20 +3302,20 @@ $app_list_strings['map_unit_type_list']['km'] = 'Kilometri';
 $app_list_strings['map_module_type_list']['Accounts'] = 'Conturi';
 $app_list_strings['map_module_type_list']['Contacts'] = 'Contacte';
 $app_list_strings['map_module_type_list']['Cases'] = 'Cazuri';
-$app_list_strings['map_module_type_list']['Leads'] = 'Piste';
+$app_list_strings['map_module_type_list']['Leads'] = 'Conversii';
 $app_list_strings['map_module_type_list']['Meetings'] = 'Întâlniri';
-$app_list_strings['map_module_type_list']['Opportunities'] = 'Oportunităţi';
+$app_list_strings['map_module_type_list']['Opportunities'] = 'Oportunități';
 $app_list_strings['map_module_type_list']['Project'] = 'Proiecte';
 $app_list_strings['map_module_type_list']['Prospects'] = 'Ținte';
 
 $app_list_strings['map_relate_type_list']['Accounts'] = 'Cont';
-$app_list_strings['map_relate_type_list']['Contacts'] = 'Contact';
+$app_list_strings['map_relate_type_list']['Contacts'] = 'Contat';
 $app_list_strings['map_relate_type_list']['Cases'] = 'Caz';
-$app_list_strings['map_relate_type_list']['Leads'] = 'Pistă';
+$app_list_strings['map_relate_type_list']['Leads'] = 'Conversie';
 $app_list_strings['map_relate_type_list']['Meetings'] = 'Întâlnire';
 $app_list_strings['map_relate_type_list']['Opportunities'] = 'Oportunitate';
 $app_list_strings['map_relate_type_list']['Project'] = 'Proiect';
-$app_list_strings['map_relate_type_list']['Prospects'] = 'Ţintă';
+$app_list_strings['map_relate_type_list']['Prospects'] = 'Țintă';
 
 $app_list_strings['marker_image_list']['accident'] = 'Accident';
 $app_list_strings['marker_image_list']['administration'] = 'Administrare';
@@ -3358,7 +3358,7 @@ $app_list_strings['marker_image_list']['coffee'] = 'Cafea';
 $app_list_strings['marker_image_list']['community_centre'] = 'Centru Comunitar';
 $app_list_strings['marker_image_list']['company'] = 'Companie';
 $app_list_strings['marker_image_list']['conference'] = 'Conferință';
-$app_list_strings['marker_image_list']['construction'] = 'Construcţii';
+$app_list_strings['marker_image_list']['construction'] = 'Construcții';
 $app_list_strings['marker_image_list']['convenience'] = 'Convenience';
 $app_list_strings['marker_image_list']['court'] = 'Curte';
 $app_list_strings['marker_image_list']['cruise'] = 'Croazieră';
@@ -3581,7 +3581,7 @@ $app_strings['FACEBOOK_USER_C'] = 'Facebook';
 $app_strings['TWITTER_USER_C'] = 'Twitter';
 $app_strings['LBL_PANEL_SOCIAL_FEED'] = 'Detalii flux social';
 
-$app_strings['LBL_SUBPANEL_FILTER_LABEL'] = 'Cauta';
+$app_strings['LBL_SUBPANEL_FILTER_LABEL'] = 'Filtru';
 
 $app_strings['LBL_COLLECTION_TYPE'] = 'Tip';
 
@@ -3612,12 +3612,12 @@ $app_strings['LBL_LOADING_ERROR_INLINE_EDITING'] = "A apărut o eroare la încă
 //SuiteSpots
 $app_list_strings['spots_areas'] = array(
     'getSalesSpotsData' => 'Vânzări',
-    'getAccountsSpotsData' => 'Conturi',
-    'getLeadsSpotsData' => 'Piste',
+    'getAccountsSpotsData' => 'Companii',
+    'getLeadsSpotsData' => 'Conversii, piste',
     'getServiceSpotsData' => 'Service',
     'getMarketingSpotsData' => 'Marketing',
     'getMarketingActivitySpotsData' => 'Activitate marketing',
-    'getActivitiesSpotsData' => 'Activități',
+    'getActivitiesSpotsData' => 'Activitati',
     'getQuotesSpotsData' => 'Oferte'
 );
 
@@ -3678,9 +3678,9 @@ $app_list_strings['surveys_question_type']['Dropdown'] = 'Listă Derulantă';
 $app_list_strings['surveys_question_type']['Multiselect'] = 'Selecție multiplă';
 $app_list_strings['surveys_question_type']['Matrix'] = 'Matrix';
 $app_list_strings['surveys_question_type']['DateTime'] = 'DataOra';
-$app_list_strings['surveys_question_type']['Date'] = 'Data';
+$app_list_strings['surveys_question_type']['Date'] = 'Dată';
 $app_list_strings['surveys_question_type']['Scale'] = 'Dimensiune';
-$app_list_strings['surveys_question_type']['Rating'] = 'Evaluare';
+$app_list_strings['surveys_question_type']['Rating'] = 'Notă';
 $app_list_strings['surveys_matrix_options'][0] = 'Îndeplinite';
 $app_list_strings['surveys_matrix_options'][1] = 'Nici mulțumit, nici nemulțumit';
 $app_list_strings['surveys_matrix_options'][2] = 'Nesatisfăcut';
@@ -3690,14 +3690,14 @@ $app_list_strings['moduleList']['CalendarAccount'] = 'Calendar Accounts';
 $app_strings['LBL_OPT_IN_PENDING_EMAIL_NOT_SENT'] = 'În așteptare cerere confirmare, Confirmare opțiune nu a fost trimisă';
 $app_strings['LBL_OPT_IN_PENDING_EMAIL_FAILED'] = 'Confirmarea opțiunii în trimiterea e-mailului a eșuat';
 $app_strings['LBL_OPT_IN_PENDING_EMAIL_SENT'] = 'În așteptare cerere confirmare, Confirmare opțiune trimisă';
-$app_strings['LBL_OPT_IN'] = 'Optat în';
+$app_strings['LBL_OPT_IN'] = 'Utilizatorul s-a înscris';
 $app_strings['LBL_OPT_IN_CONFIRMED'] = 'Confirmat de înscriere';
-$app_strings['LBL_OPT_IN_OPT_OUT'] = 'Dezabonat';
+$app_strings['LBL_OPT_IN_OPT_OUT'] = 'Șters';
 $app_strings['LBL_OPT_IN_INVALID'] = 'Invalid';
 
 /** @see SugarEmailAddress */
 $app_list_strings['email_settings_opt_in_dom'] = array(
-    'not-opt-in' => 'Inaccesibil',
+    'not-opt-in' => 'Dezactivat',
     'opt-in' => 'Opt In',
     'confirmed-opt-in' => 'Confirmat de înscriere'
 );
@@ -3752,13 +3752,13 @@ $app_list_strings['calendar_account_types'] = [
 $app_list_strings['calendar_connection_status_list'] = [
     'never_tested' => 'Never Tested',
     'success' => 'Validare acces',
-    'failed' => 'Eşuat',
+    'failed' => 'Eșuat',
 ];
 
 // Calendar Sync Attempt Status dropdown
 $app_list_strings['sync_attempt_status_list'] = [
     '' => '',
-    'in_progress' => 'În Curs',
+    'in_progress' => 'În curs',
     'success' => 'Succes',
     'warning' => 'Avertizare',
     'error' => 'Eroare',

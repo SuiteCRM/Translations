@@ -43,23 +43,23 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'หน้าที่',
+    'LBL_MODULE_NAME' => 'บทบาท',
     'LBL_MODULE_TITLE' => 'หน้าที่: หน้าแรก',
     'LBL_ROLE' => 'บทบาท',
     'LBL_NAME' => 'ชื่อ',
     'LBL_DESCRIPTION' => 'รายละเอียด',
     'LIST_ROLES' => 'แสดงบทบาท',
-    'LBL_USERS_SUBPANEL_TITLE' => 'ผู้ใช้งาน',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
     'LIST_ROLES_BY_USER' => 'แสดงบทบาทตามผู้ใช้',
-    'LBL_LIST_FORM_TITLE' => 'หน้าที่',
+    'LBL_LIST_FORM_TITLE' => 'บทบาท',
     'LBL_ROLES_SUBPANEL_TITLE' => 'บทบาทผู้ใช้',
     'LBL_SEARCH_FORM_TITLE' => 'ค้นหา',
     'LBL_CREATE_ROLE' => 'สร้างหน้าที่',
     'LBL_EDIT_VIEW_DIRECTIONS' => 'คลิกสองครั้งที่เซลล์เพื่อเปลี่ยนแปลงค่า',
-    'LBL_ACCESS_DEFAULT' => 'ไม่ตั้งค่า',
-    'LBL_ACTION_ADMIN' => 'ชนิดการเข้าถึง',
+    'LBL_ACCESS_DEFAULT' => 'Not Set',
+    'LBL_ACTION_ADMIN' => 'Access Type',
     'LBL_ALL' => 'ทั้งหมด',
     'LBL_DUPLICATE_OF' => 'ซ้ำกับ ',
 
-    'LBL_SECURITYGROUPS' => 'กลุ่มความปลอดภัย',
+    'LBL_SECURITYGROUPS' => 'Security Groups',
 );

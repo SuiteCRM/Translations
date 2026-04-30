@@ -99,7 +99,7 @@ $mod_strings = array(
     'LBL_MINS_ABBREV' => 'm',
 
 
-    'LBL_YES' => 'Yes',
+    'LBL_YES' => 'হাঁ',
     'LBL_NO' => 'না',
     'LBL_SETTINGS' => 'Settings',
     'LBL_CREATE_NEW_RECORD' => 'Create Activity',

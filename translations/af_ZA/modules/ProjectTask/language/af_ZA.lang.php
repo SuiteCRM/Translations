@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Projek Take',
+    'LBL_MODULE_NAME' => 'Project Tasks',
     'LBL_MODULE_TITLE' => 'Project Task: Home',
 
     'LBL_ID' => 'Id:',
@@ -81,29 +81,29 @@ $mod_strings = array(
     'LBL_DELETED' => 'Deleted:',
     'LBL_IMPORT_PROJECT_TASKS' => 'Import Project Tasks',
 
-    'LBL_LIST_NAME' => 'Naam',
-    'LBL_LIST_PARENT_NAME' => 'Projek',
+    'LBL_LIST_NAME' => 'Name',
+    'LBL_LIST_PARENT_NAME' => 'Project',
     'LBL_SEARCH_FORM_TITLE' => 'Project Task Search',
     'LBL_LIST_PERCENT_COMPLETE' => '% Complete',
     'LBL_LIST_STATUS' => 'Status',
     'LBL_LIST_ASSIGNED_USER_ID' => 'Assigned To',
     'LBL_LIST_DATE_DUE' => 'Date Due',
     'LBL_LIST_PRIORITY' => 'Priority',
-    'LBL_LIST_CLOSE' => 'Maak toe',
+    'LBL_LIST_CLOSE' => 'Close',
     'LBL_PROJECT_NAME' => 'Project Name',
     'LBL_LIST_FORM_TITLE' => 'Project Task List',
 
     'LNK_NEW_PROJECT' => 'Create Project',
     'LNK_PROJECT_LIST' => 'Project List',
     'LNK_NEW_PROJECT_TASK' => 'Create Project Task',
-    'LNK_PROJECT_TASK_LIST' => 'Projek Take',
+    'LNK_PROJECT_TASK_LIST' => 'Project Tasks',
 
     'LBL_LIST_MY_PROJECT_TASKS' => 'My Project Tasks',
-    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Projek Take',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Project Tasks',
     'LBL_NEW_FORM_TITLE' => 'New Project Task',
 
     'LBL_HISTORY_TITLE' => 'History',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktiwiteite',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'History',
 
     'LBL_ASSIGNED_USER_NAME' => 'Assigned To',
@@ -113,8 +113,8 @@ $mod_strings = array(
 
     'LBL_SUBTASK' => 'Sub-Task',
     'LBL_LAG' => 'Lag',
-    'LBL_DAYS' => 'Dae',
-    'LBL_HOURS' => 'Ure',
+    'LBL_DAYS' => 'Days',
+    'LBL_HOURS' => 'Hours',
     'LBL_RELATIONSHIP_TYPE' => 'Relationship Type',
 
     'LBL_ASCENDING' => 'Ascending',

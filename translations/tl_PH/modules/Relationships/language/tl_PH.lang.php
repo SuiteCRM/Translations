@@ -58,5 +58,5 @@ $mod_strings = array(
     'LBL_RELATIONSHIP_ROLE_COLUMN' => 'Pangalan ng Kolumn ng Papel sa Relasyon',
     'LBL_RELATIONSHIP_ROLE_COLUMN_VALUE' => 'Halaga ng Kolumn ng Papel sa Relasyon',
     'LBL_REVERSE' => 'Baliktad',
-    'LBL_DELETED' => 'Nabura',
+    'LBL_DELETED' => 'Ang Nabura',
 );

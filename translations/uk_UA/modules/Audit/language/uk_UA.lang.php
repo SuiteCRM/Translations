@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_FIELD_NAME' => 'Поле',
+    'LBL_FIELD_NAME' => 'Field',
     'LBL_OLD_NAME' => 'Старе значення',
     'LBL_NEW_VALUE' => 'Нове значення',
     'LBL_CREATED_BY' => 'Змінено користувачем',
     'LBL_LIST_DATE' => 'Дата зміни',
     'LBL_AUDITED_FIELDS' => 'Поля, контрольовані в цьому модулі: ',
-    'LBL_CHANGE_LOG' => 'Історія змін',
+    'LBL_CHANGE_LOG' => 'Журнал змін',
 );

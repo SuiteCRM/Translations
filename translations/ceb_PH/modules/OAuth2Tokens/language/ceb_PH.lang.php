@@ -66,7 +66,7 @@ $mod_strings = array(
     
     'LNK_NEW_OAUTH2_CLIENT' => 'Himo ug Oauth2 nga kliyente',
     'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'Bag-ong password nga Kliyente',
-    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'Mga Kredensyal nga kliyente sa bag-ong kliyente',
+    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'Kredensyal na kliyente sa bag-ong kliyente',
     'LNK_NEW_OAUTH2_IMPLICIT_CLIENT' => 'Bag-ong implicit nga kliyente',
     'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'Bag-ong kliyente sa awtorisasyon',
 

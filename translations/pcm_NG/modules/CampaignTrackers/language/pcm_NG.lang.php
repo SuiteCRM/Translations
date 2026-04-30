@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_TRACKER_NAME' => 'Tracker Name',
     'LBL_CAMPAIGN_ID' => 'Campaign Id',
     'LBL_DATE_ENTERED' => 'Date wey e Enter',
-    'LBL_DATE_MODIFIED' => 'De day wey dem modify am',
+    'LBL_DATE_MODIFIED' => 'The day wey dem modify am',
     'LBL_MODIFIED_USER_ID' => 'Modified User Id',
     'LBL_CREATED_BY' => 'Person wey create am',
     'LBL_DELETED' => 'Comot am',
@@ -61,7 +61,7 @@ $mod_strings = array(
     'LBL_EDIT_TRACKER_NAME' => 'Tracker Name:',
     'LBL_EDIT_TRACKER_URL' => 'Tracker URL:',
 
-    'LBL_SUBPANEL_TRACKER_NAME' => 'Name',
+    'LBL_SUBPANEL_TRACKER_NAME' => 'Wetin be your name',
     'LBL_SUBPANEL_TRACKER_URL' => 'URL',
     'LBL_SUBPANEL_TRACKER_KEY' => 'Key',
     'LBL_EDIT_MESSAGE_URL' => 'URL for Campaign Message:',

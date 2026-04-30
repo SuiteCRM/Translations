@@ -56,8 +56,8 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Օգտագործող.',
     'LBL_RATING' => 'Վարկանիշ',
     'LBL_ASSIGNED_TO' => 'Կատարող',
-    'LBL_ASSIGNED_USER' => 'Կատարող',
-    'LBL_ASSIGNED_TO_ID' => 'Կատարող',
+    'LBL_ASSIGNED_USER' => 'Assigned to:',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned to:',
     'LBL_BILLING_ADDRESS_CITY' => 'Վճարման հասցե - քաղաք․',
     'LBL_BILLING_ADDRESS_COUNTRY' => 'Վճարման հասցե - երկիր․',
     'LBL_BILLING_ADDRESS_POSTALCODE' => 'Վճարման հասցե - ինդեքս․',
@@ -97,7 +97,7 @@ $mod_strings = array(
     'LBL_PHONE_FAX' => 'Հեռ․ ֆաքս',
     'LBL_PHONE_OFFICE' => 'Հեռախոս:',
     'LBL_PHONE' => 'Հեռ․',
-    'LBL_EMAIL_ADDRESS' => 'էլ-փոստի հասցե',
+    'LBL_EMAIL_ADDRESS' => 'Email Address',
     'LBL_EMAIL_ADDRESSES' => 'էլ-փոստի հասցե(ներ)',
     'LBL_POSTAL_CODE' => 'Փոստային ինդեքս',
     'LBL_SAVE_ACCOUNT' => 'Պահպանել հաշիվը',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'Դուք համոզվա՞ծ եք, որ ցանկանում եք ջնջել այս գրառումը։',
 
     'LBL_EDIT_BUTTON' => 'Խմբագրել',
-    'LBL_REMOVE' => 'Հեռացնել',
+    'LBL_REMOVE' => 'Remove',
 
 );

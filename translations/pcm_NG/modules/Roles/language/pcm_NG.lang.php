@@ -57,7 +57,7 @@ $mod_strings = array(
     'LBL_DISALLOWED_MODULES' => 'Disallowed Modules:',
     'LBL_ASSIGN_MODULES' => 'Edit Modules:',
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Roles dem',
-    'LBL_USERS' => 'Users',
+    'LBL_USERS' => 'Users dem',
 
     'LBL_USERS_SUBPANEL_TITLE' => 'Users',
     'LBL_MODULES' => 'Modules',

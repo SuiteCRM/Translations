@@ -32,28 +32,28 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = [
     // System fields
     'LBL_ASSIGNED_TO_ID' => 'Felelős felhasználó ID',
-    'LBL_ASSIGNED_TO_NAME' => 'Hozzárendelve',
-    'LBL_DATE_ENTERED' => 'Létrehozás dátuma',
+    'LBL_ASSIGNED_TO_NAME' => 'Felelős',
+    'LBL_DATE_ENTERED' => 'Létrehozva',
     'LBL_DATE_MODIFIED' => 'Módosítás dátuma',
-    'LBL_MODIFIED' => 'Módosította',
-    'LBL_MODIFIED_NAME' => 'Módosító név',
+    'LBL_MODIFIED' => 'Modified By',
+    'LBL_MODIFIED_NAME' => 'Modified By Name',
     'LBL_CREATED' => 'Létrehozta',
     'LBL_CREATED_USER' => 'Felhasználó által létrehozva',
     'LBL_MODIFIED_USER' => 'Felhasználó által módosítva',
-    'LBL_DESCRIPTION' => 'Leírás',
-    'LBL_DELETED' => 'Törölve',
+    'LBL_DESCRIPTION' => 'Üzenet tartalma',
+    'LBL_DELETED' => 'Deleted',
 
     // Security groups
-    'LBL_SECURITYGROUPS' => 'Biztonsági Csoportok',
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Biztonsági Csoportok',
+    'LBL_SECURITYGROUPS' => 'Security Groups',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
 
     // List view labels
-    'LBL_LIST_NAME' => 'Név',
+    'LBL_LIST_NAME' => 'Elnevezés',
     'LBL_LIST_DELETE' => 'Törlés',
     'LBL_EDIT_BUTTON' => 'Szerkesztés',
-    'LBL_REMOVE' => 'Sil',
+    'LBL_REMOVE' => 'Eltávolítás',
     'LBL_ASCENDING' => 'Növekvő',
-    'LBL_DESCENDING' => 'Csökkenő',
+    'LBL_DESCENDING' => 'Descending',
 
     // Email opt-in labels
     'LBL_OPT_IN' => 'Feliratkozás',
@@ -63,7 +63,7 @@ $mod_strings = [
 
     // Subpanel titles
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Előzmény Megtekintése',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Tevékenységek',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
 
@@ -75,7 +75,7 @@ $mod_strings = [
     'LNK_LIST_CREATE_NEW_PERSONAL' => 'Create Personal Calendar Account',
     'LNK_LIST_INBOUND_EMAILS' => 'Inbound Emails',
     'LNK_LIST_OUTBOUND_EMAILS' => 'Outbound Emails',
-    'LNK_LIST_EXTERNAL_OAUTH_PROVIDERS' => 'Külső OAuth szolgáltatók',
+    'LNK_LIST_EXTERNAL_OAUTH_PROVIDERS' => 'External OAuth Providers',
     'LNK_LIST_EXTERNAL_OAUTH_CONNECTIONS' => 'Külső OAuth kapcsolatok',
 
     // Basic module labels
@@ -93,7 +93,7 @@ $mod_strings = [
     // Standard fields
     'LBL_NAME' => 'Név',
     'LBL_ID' => 'ID',
-    'LBL_TYPE' => 'Típus',
+    'LBL_TYPE' => 'Type',
     'LBL_SOURCE' => 'Calendar Source',
 
     // OAuth2 Fields
@@ -162,12 +162,12 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Please select a calendar source first.',
 
     // Connection test messages
-    'LBL_CALENDAR' => 'Naptár',
-    'LBL_SUCCESSFUL' => 'Sikeres',
-    'LBL_FAILED' => 'Sikertelen',
+    'LBL_CALENDAR' => 'Calendar',
+    'LBL_SUCCESSFUL' => 'Successful',
+    'LBL_FAILED' => 'Failed',
     'LBL_CONNECTION_TEST' => 'Connection Test',
-    'LBL_YES' => 'Igen',
-    'LBL_NO' => 'Nem',
+    'LBL_YES' => 'Yes',
+    'LBL_NO' => 'No',
     'LBL_FOUND_CALENDARS' => 'Found {count} calendars.',
     'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'An error occurred while processing the connection test response. Please check the logs for details.',
     'LBL_CONNECTION_TEST_HTTP_ERROR' => 'Connection test failed with HTTP status',
@@ -182,13 +182,13 @@ $mod_strings = [
 
     // Dialog labels
     'LBL_NOTIFICATION' => 'Notification',
-    'LBL_CONFIRM' => 'Megerősítés',
+    'LBL_CONFIRM' => 'Confirm',
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => 'Folyamatban',
-    'LBL_SYNC_STATUS_SUCCESS' => 'Sikeres',
-    'LBL_SYNC_STATUS_WARNING' => 'Figyelmeztetés',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => 'In Progress',
+    'LBL_SYNC_STATUS_SUCCESS' => 'Success',
+    'LBL_SYNC_STATUS_WARNING' => 'Warning',
     'LBL_SYNC_STATUS_ERROR' => 'Hiba',
 
     // Sync message enum translations
@@ -202,5 +202,5 @@ $mod_strings = [
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Calendar not found.',
 
     // Relationship labels
-    'LBL_MEETINGS' => 'Találkozók',
+    'LBL_MEETINGS' => 'Meetings',
 ];

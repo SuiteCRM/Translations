@@ -51,8 +51,8 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Pencarian dokumen',
     //vardef labels
     'LBL_NAME' => 'Nama Dokumen',
-    'LBL_DESCRIPTION' => 'Deskripsi',
-    'LBL_ASSIGNED_TO' => 'Menugaskan ke:',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_ASSIGNED_TO' => 'Ditugaskan Untuk:',
     'LBL_CATEGORY' => 'Kategori',
     'LBL_SUBCATEGORY' => 'Sub Kategori',
     'LBL_STATUS' => 'Status',
@@ -80,38 +80,38 @@ $mod_strings = array(
     'LBL_SUBCATEGORY_VALUE' => 'Sub Kategori:',
     'LBL_DOC_STATUS' => 'Status',
     'LBL_DET_TEMPLATE_TYPE' => 'Tipe Dokumen:',
-    'LBL_DOC_DESCRIPTION' => 'Deskripsi',
+    'LBL_DOC_DESCRIPTION' => 'Description:',
     'LBL_DOC_ACTIVE_DATE' => 'Tanggal Terbit:',
     'LBL_DOC_EXP_DATE' => 'Tanggal Kadaluarsa:',
 
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'Daftar Dokumen',
     'LBL_LIST_DOCUMENT' => 'Dokumen',
-    'LBL_LIST_CATEGORY' => 'Kategori',
-    'LBL_LIST_SUBCATEGORY' => 'Sub Kategori',
-    'LBL_LIST_REVISION' => 'Revisi',
+    'LBL_LIST_CATEGORY' => 'Category',
+    'LBL_LIST_SUBCATEGORY' => 'Sub Category',
+    'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => 'Ditampilkan Oleh',
     'LBL_LIST_LAST_REV_DATE' => 'Tanggal Revisi',
     'LBL_LIST_VIEW_DOCUMENT' => 'Lihat',
-    'LBL_LIST_ACTIVE_DATE' => 'Tanggal Terbit',
-    'LBL_LIST_EXP_DATE' => 'Tanggal Kadaluarsa',
+    'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
+    'LBL_LIST_EXP_DATE' => 'Expiration Date',
     'LBL_LIST_STATUS' => 'Status',
 
     //document search form.
-    'LBL_SF_CATEGORY' => 'Katagori',
-    'LBL_SF_SUBCATEGORY' => 'Sub Kategori:',
+    'LBL_SF_CATEGORY' => 'Category:',
+    'LBL_SF_SUBCATEGORY' => 'Sub Category:',
 
     'DEF_CREATE_LOG' => 'Dokumen Telah Dibuat',
 
     //error messages
-    'ERR_DOC_NAME' => 'Nama Dokumen',
-    'ERR_DOC_ACTIVE_DATE' => 'Tanggal Terbit',
+    'ERR_DOC_NAME' => 'Document Name',
+    'ERR_DOC_ACTIVE_DATE' => 'Publish Date',
     'ERR_FILENAME' => 'Nama File',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'Nama Dokumen',
+    'LBL_LIST_DOCUMENT_NAME' => 'Document Name',
 
     'LBL_EDIT_BUTTON' => 'Ubah',
-    'LBL_REMOVE' => 'Menghapus',
+    'LBL_REMOVE' => 'Remove',
 
 );

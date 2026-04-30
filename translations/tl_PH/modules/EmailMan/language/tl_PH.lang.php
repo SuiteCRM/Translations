@@ -52,7 +52,7 @@ $mod_strings = array(
     'LBL_ATTACHMENT_AUDIT' => ' ay ipinadala. Hindi ito lokal na dinuplikado para makatipid sa paggamit ng disk.',
     'LBL_CONFIGURE_SETTINGS' => 'I-configure ang Settings sa Email',
     'LBL_CUSTOM_LOCATION' => 'Ang tinukoy ay gamitin',
-    'LBL_DEFAULT_LOCATION' => 'Default ',
+    'LBL_DEFAULT_LOCATION' => 'Defowlt',
 
     'LBL_EMAIL_DEFAULT_DELETE_ATTACHMENTS' => 'Burahin ang may kaparehong notes at mga naka-attach na may buradong emails',
     'LBL_EMAIL_WARNING_NOTIFICATIONS' => 'Email warning notifications',
@@ -79,7 +79,7 @@ $mod_strings = array(
     'LBL_CAMP_MESSAGE_COPY_DESC' => 'Gusto mo bang maglagay ng kumpletong kopya ng <bold>BAWAT</bold> napadalang mensahe na email sa panahon ng lahat ng mga kampanya? <bold>Inirekomenda namin at i-default sa hindi</bold>. Ang pagpili ng hindi ay makakatago lamang ng template na naipadala at ang kinakailangan na mga variable para makagawa ulit ng indibidwal na mensahe.',
     'LBL_MAIL_SENDTYPE' => 'Ang paglipat ng mensahe sa ahente:',
     'LBL_MAIL_SMTPAUTH_REQ' => 'Gumamit ng Awtentikasyon sa SMTP:',
-    'LBL_MAIL_SMTPPASS' => 'Ang Password:',
+    'LBL_MAIL_SMTPPASS' => 'Password:',
     'LBL_MAIL_SMTPPORT' => 'Ang port ng SMTP:',
     'LBL_MAIL_SMTPSERVER' => 'Mail Server ng SMTP:',
     'LBL_MAIL_SMTPUSER' => 'Username:',

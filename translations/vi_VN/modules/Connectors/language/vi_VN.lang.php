@@ -47,7 +47,7 @@ $mod_strings = array(
 
     'LBL_ADMINISTRATION_MAIN' => 'Cài đặt kết nối',
     'LBL_AVAILABLE' => 'Có sẵn',
-    'LBL_BACK' => 'Quay lại',
+    'LBL_BACK' => '< Back',
     'LBL_CONFIRM_CONTINUE_SAVE' => 'Một số các trường được yêu cầu đã được để trống. Tiến hành lưu các thay đổi không?',
     'LBL_CONNECTOR_FIELDS' => 'Các trường kết nối',
     'LBL_DATA' => 'Dữ liệu',
@@ -67,10 +67,10 @@ $mod_strings = array(
     'LBL_MODIFY_SEARCH_TITLE' => 'Quản lý Tìm kiếm trình kết nối',
     'LBL_MODIFY_SEARCH' => 'Tìm kiếm',
     'LBL_MODIFY_SEARCH_DESC' => 'Chọn các trường kết nối để sử dung cho việc tìm kiếm dữ liệu cho mỗi module.',
-    'LBL_MODULE_NAME' => 'Kết nối',
+    'LBL_MODULE_NAME' => 'Connectors',
     'LBL_NO_PROPERTIES' => 'Không có thuộc tính nào được cấu hình cho trình kết nối này.',
     'LBL_SAVE' => 'Lưu',
-    'LBL_SUMMARY' => 'Tóm tắt',
+    'LBL_SUMMARY' => 'Summary',
     'LBL_STEP1' => 'Tìm kiếm và xem dữ liệu',
     'LBL_STEP2' => 'Hợp nhất các bản ghi với',
     'LBL_TEST_SOURCE' => 'Kiểm tra kết nối',
@@ -83,7 +83,7 @@ $mod_strings = array(
     'ERROR_NO_SEARCHDEFS_MAPPED' => 'Lỗi: Không có kết nối nào được kích hoạt để xác định các trường tìm kiếm.',
     'ERROR_NO_SEARCHDEFS_MAPPING' => 'Lỗi: Không có trường tìm kiếm được xác định cho module và trình kết nối. Hãy liên hệ với quản trị hệ thống.',
     'ERROR_NO_DISPLAYABLE_MAPPED_FIELDS' => 'Lỗi: Không có trường module được ánh xạ để hiển thị trong kết quả. Hãy liên hệ với quản trị hệ thống.',
-    'LBL_INFO_INLINE' => 'Thông tin' /*for 508 compliance fix*/,
+    'LBL_INFO_INLINE' => 'Info' /*for 508 compliance fix*/,
     'LBL_CLOSE' => 'Đóng' /*for 508 compliance fix*/,
 
 );

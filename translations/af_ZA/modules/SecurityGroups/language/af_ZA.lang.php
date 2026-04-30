@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ALL_MODULES' => 'Alle',//rost fix
+    'LBL_ALL_MODULES' => 'All',//rost fix
     'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
     'LBL_ASSIGNED_TO_NAME' => 'Toegewys aan',
     'LBL_ID' => 'ID',
@@ -56,7 +56,7 @@ $mod_strings = array(
     'LBL_DELETED' => 'Geskrap',
     'LBL_NONINHERITABLE' => 'Not Inheritable',
     'LBL_LIST_NONINHERITABLE' => 'Not Inheritable',
-    'LBL_NAME' => 'Naam',
+    'LBL_NAME' => 'Name',
     'LBL_CREATED_USER' => 'Geskep deur Gebruiker',
     'LBL_MODIFIED_USER' => 'Verander deur gebruiker',
     'LBL_LIST_FORM_TITLE' => 'Security Groups',
@@ -66,12 +66,12 @@ $mod_strings = array(
     'LNK_LIST' => 'Lysaansig',
     'LBL_SEARCH_FORM_TITLE' => 'Search Security Groups Management',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'History',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktiwiteite',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups Management',
-    'LBL_USERS' => 'Gebruikers',
-    'LBL_USERS_SUBPANEL_TITLE' => 'Gebruikers',
-    'LBL_ROLES_SUBPANEL_TITLE' => 'Rolle',
-    'LBL_ROLES' => 'Rolle',
+    'LBL_USERS' => 'Users',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
+    'LBL_ROLES_SUBPANEL_TITLE' => 'Roles',
+    'LBL_ROLES' => 'Roles',
 
     'LBL_CONFIGURE_SETTINGS' => 'Configure',
     'LBL_ADDITIVE' => 'Additive Rights',
@@ -95,20 +95,20 @@ $mod_strings = array(
     'LBL_FILTER_USER_LIST_DESC' => "Non-admin users can only assign to users in the same group(s)",
 
     'LBL_DEFAULT_GROUP_TITLE' => 'Default Groups for New Records',
-    'LBL_ADD_BUTTON_LABEL' => 'Voeg by',
-    'LBL_REMOVE_BUTTON_LABEL' => 'Verwyder',
+    'LBL_ADD_BUTTON_LABEL' => 'Add',
+    'LBL_REMOVE_BUTTON_LABEL' => 'Remove',
     'LBL_GROUP' => 'Group:',
     'LBL_MODULE' => 'Module:',
 
     'LBL_MASS_ASSIGN' => 'Security Groups: Mass Assign',
     'LBL_ASSIGN' => 'Assign',
-    'LBL_REMOVE' => 'Verwyder',
+    'LBL_REMOVE' => 'Remove',
     'LBL_ASSIGN_CONFIRM' => 'Are you sure that you want to add this group to the ',
     'LBL_REMOVE_CONFIRM' => 'Are you sure that you want to remove this group from the ',
     'LBL_CONFIRM_END' => ' geselekteerde rekord(s)?',
 
     'LBL_SECURITYGROUP_USER_FORM_TITLE' => 'SecurityGroup/User',
-    'LBL_USER_NAME' => 'Gebruikernaam',
+    'LBL_USER_NAME' => 'User Name',
     'LBL_SECURITYGROUP_NAME' => 'SecurityGroup Name',
     'LBL_HOMEPAGE_TITLE' => 'Group Messages',
     'LBL_TITLE' => 'Titel',

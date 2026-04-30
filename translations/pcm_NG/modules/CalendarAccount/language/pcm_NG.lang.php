@@ -34,13 +34,13 @@ $mod_strings = [
     'LBL_ASSIGNED_TO_ID' => 'User id wey dem give',
     'LBL_ASSIGNED_TO_NAME' => 'Dem give am',
     'LBL_DATE_ENTERED' => 'Day wey dem create am',
-    'LBL_DATE_MODIFIED' => 'De day wey dem modify am',
+    'LBL_DATE_MODIFIED' => 'The day wey dem modify am',
     'LBL_MODIFIED' => 'Person wey modify am',
     'LBL_MODIFIED_NAME' => 'Na name dem use modify am',
     'LBL_CREATED' => 'Person wey create am',
     'LBL_CREATED_USER' => 'Na person wey dey use am create am',
     'LBL_MODIFIED_USER' => 'Na person wey dey use am modify am',
-    'LBL_DESCRIPTION' => 'Na here dem go tell u as de thing be',
+    'LBL_DESCRIPTION' => 'Na for here you go sabi as the thing be',
     'LBL_DELETED' => 'Comot am',
 
     // Security groups
@@ -48,7 +48,7 @@ $mod_strings = [
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
 
     // List view labels
-    'LBL_LIST_NAME' => 'Name',
+    'LBL_LIST_NAME' => 'Wetin be your name',
     'LBL_LIST_DELETE' => 'Commot',
     'LBL_EDIT_BUTTON' => 'Edit',
     'LBL_REMOVE' => 'Comot am',
@@ -91,7 +91,7 @@ $mod_strings = [
     'LNK_LIST' => 'View Calendar Accounts',
 
     // Standard fields
-    'LBL_NAME' => 'Name',
+    'LBL_NAME' => 'Wetin be your name',
     'LBL_ID' => 'ID',
     'LBL_TYPE' => 'Type',
     'LBL_SOURCE' => 'Calendar Source',

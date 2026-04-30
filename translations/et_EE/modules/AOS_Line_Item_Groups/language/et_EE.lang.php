@@ -45,13 +45,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_ID' => 'ID',
     'LBL_MODULE_NAME' => 'Grupid',
-    'LBL_DATE_ENTERED' => 'Loomiskuupäev',
-    'LBL_DATE_MODIFIED' => 'Muutmiskuupäev',
-    'LBL_DESCRIPTION' => 'Kirjeldus',
-    'LBL_DELETED' => 'Kustutatud',
-    'LBL_NAME' => 'Grupi nimi',
-    'LBL_TOTAL_AMT' => 'Kokku',
-    'LBL_DISCOUNT_AMOUNT' => 'Allahindlus',
+    'LBL_DATE_ENTERED' => 'Date Created',
+    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_DELETED' => 'Deleted',
+    'LBL_NAME' => 'Group Name',
+    'LBL_TOTAL_AMT' => 'Total',
+    'LBL_DISCOUNT_AMOUNT' => 'Discount',
     'LBL_SUBTOTAL_AMOUNT' => 'Vahesumma',
     'LBL_TAX_AMOUNT' => 'Maks',
     'LBL_SUBTOTAL_TAX_AMOUNT' => 'Vahesumma + Maksud',
@@ -65,5 +65,5 @@ $mod_strings = array(
     'LBL_SUBTOTAL_TAX_AMOUNT_USDOLLAR' => 'Vahesumma + Maksud (Põhivaluutas)',
     'LBL_PARENT_ID' => 'Peamine ID',
 
-    'AOS_PRODUCT_QUOTES' => 'Toodete hinnapakkumised',
+    'AOS_PRODUCT_QUOTES' => 'Product Quotes',
 );

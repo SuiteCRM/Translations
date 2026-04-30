@@ -31,13 +31,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
     // System fields
-    'LBL_ASSIGNED_TO_ID' => 'ID ответственного',
+    'LBL_ASSIGNED_TO_ID' => 'Ответственный(ая)',
     'LBL_ASSIGNED_TO_NAME' => 'Ответственное лицо',
     'LBL_DATE_ENTERED' => 'Дата создания',
     'LBL_DATE_MODIFIED' => 'Дата изменения',
     'LBL_MODIFIED' => 'Изменено',
-    'LBL_MODIFIED_NAME' => 'Изменено (Имя)',
-    'LBL_CREATED' => 'Создано',
+    'LBL_MODIFIED_NAME' => 'Изменено',
+    'LBL_CREATED' => 'Кем создано',
     'LBL_CREATED_USER' => 'Создано',
     'LBL_MODIFIED_USER' => 'Изменено',
     'LBL_DESCRIPTION' => 'Описание',
@@ -48,9 +48,9 @@ $mod_strings = [
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Группы пользователей',
 
     // List view labels
-    'LBL_LIST_NAME' => 'Имя',
-    'LBL_LIST_DELETE' => 'Удаление',
-    'LBL_EDIT_BUTTON' => 'Правка',
+    'LBL_LIST_NAME' => 'Название',
+    'LBL_LIST_DELETE' => 'Удалить',
+    'LBL_EDIT_BUTTON' => 'Править',
     'LBL_REMOVE' => 'Удалить',
     'LBL_ASCENDING' => 'Восходящая',
     'LBL_DESCENDING' => 'Нисходящая',
@@ -91,7 +91,7 @@ $mod_strings = [
     'LNK_LIST' => 'View Calendar Accounts',
 
     // Standard fields
-    'LBL_NAME' => 'Имя',
+    'LBL_NAME' => 'Название',
     'LBL_ID' => 'ID',
     'LBL_TYPE' => 'Тип',
     'LBL_SOURCE' => 'Calendar Source',
@@ -162,8 +162,8 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Please select a calendar source first.',
 
     // Connection test messages
-    'LBL_CALENDAR' => 'Календарь',
-    'LBL_SUCCESSFUL' => 'успешно установлен',
+    'LBL_CALENDAR' => 'Calendar',
+    'LBL_SUCCESSFUL' => 'Successful',
     'LBL_FAILED' => 'Неудачно',
     'LBL_CONNECTION_TEST' => 'Connection Test',
     'LBL_YES' => 'Да',
@@ -182,12 +182,12 @@ $mod_strings = [
 
     // Dialog labels
     'LBL_NOTIFICATION' => 'Notification',
-    'LBL_CONFIRM' => 'Подтверждение',
+    'LBL_CONFIRM' => 'Confirm',
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => 'В процессе...',
-    'LBL_SYNC_STATUS_SUCCESS' => 'Готово',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => 'В процессе исполнения',
+    'LBL_SYNC_STATUS_SUCCESS' => 'Success',
     'LBL_SYNC_STATUS_WARNING' => 'Предупреждение',
     'LBL_SYNC_STATUS_ERROR' => 'Ошибка',
 

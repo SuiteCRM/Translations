@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_FIELD_NAME' => 'Felt',
+    'LBL_FIELD_NAME' => 'Field',
     'LBL_OLD_NAME' => 'Gammel verdi',
     'LBL_NEW_VALUE' => 'Ny verdi',
     'LBL_CREATED_BY' => 'Endret av',
     'LBL_LIST_DATE' => 'Endret dato',
     'LBL_AUDITED_FIELDS' => 'Felt redigert i denne modulen: ',
-    'LBL_CHANGE_LOG' => 'Endre log:',
+    'LBL_CHANGE_LOG' => 'Change Log',
 );

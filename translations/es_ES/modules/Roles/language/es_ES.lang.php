@@ -46,10 +46,10 @@ $mod_strings = array(
     'LBL_ROLE' => 'Rol:',
     'LBL_LANGUAGE' => 'Idioma:',
     'LBL_MODULE_NAME' => 'Roles',
-    'LBL_MODULE_TITLE' => 'Roles: Inicio',
+    'LBL_MODULE_TITLE' => 'Roles: Home',
     'LBL_SEARCH_FORM_TITLE' => 'Búsqueda de Roles',
     'LBL_LIST_FORM_TITLE' => 'Lista de Roles',
-    'LNK_NEW_ROLE' => 'Nuevo Rol',
+    'LNK_NEW_ROLE' => 'Create Role',
     'LNK_ROLES' => 'Roles',
     'LBL_NAME' => 'Nombre:',
     'LBL_DESCRIPTION' => 'Descripción:',
@@ -60,5 +60,5 @@ $mod_strings = array(
     'LBL_USERS' => 'Usuarios',
 
     'LBL_USERS_SUBPANEL_TITLE' => 'Usuarios',
-    'LBL_MODULES' => 'Módulos',
+    'LBL_MODULES' => 'Modules',
 );

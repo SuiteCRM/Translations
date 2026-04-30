@@ -44,22 +44,22 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
 
-    'LBL_ASSIGNED_TO_ID' => 'Dodeljeno Id-ju',
-    'LBL_ASSIGNED_TO_NAME' => 'Dodeljeno',
+    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
     'LBL_ID' => 'ID',
-    'LBL_DATE_ENTERED' => 'Ustvarjeno dne',
-    'LBL_DATE_MODIFIED' => 'Datum spremembe',
-    'LBL_MODIFIED' => 'Spremenil',
-    'LBL_MODIFIED_NAME' => 'Spremeni ime',
-    'LBL_CREATED' => 'Ustvaril',
-    'LBL_DESCRIPTION' => 'Opis',
-    'LBL_DELETED' => 'Izbrisano',
-    'LBL_NAME' => 'Ime',
-    'LBL_CREATED_USER' => 'Ustvaril uporabnik',
-    'LBL_MODIFIED_USER' => 'Spremenil uporabnik',
-    'LBL_LIST_NAME' => 'Ime',
-    'LBL_EDIT_BUTTON' => 'Uredi',
-    'LBL_REMOVE' => 'Odstrani',
+    'LBL_DATE_ENTERED' => 'Date Created',
+    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_MODIFIED' => 'Modified By',
+    'LBL_MODIFIED_NAME' => 'Modified By Name',
+    'LBL_CREATED' => 'Created By',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_DELETED' => 'Deleted',
+    'LBL_NAME' => 'Name',
+    'LBL_CREATED_USER' => 'Created by User',
+    'LBL_MODIFIED_USER' => 'Modified by User',
+    'LBL_LIST_NAME' => 'Name',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
     'LBL_LIST_FORM_TITLE' => 'External OAuth Provider List',
     'LBL_MODULE_NAME' => 'External OAuth Providers',
     'LBL_MODULE_TITLE' => 'External OAuth Providers',
@@ -68,12 +68,12 @@ $mod_strings = [
 
     'LNK_LIST' => 'External OAuth Providers',
     'LBL_SEARCH_FORM_TITLE' => 'Search External OAuth Providers',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Poglej zgodovino',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktivnosti',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_NEW_FORM_TITLE' => 'New External OAuth Provider',
 
-    'LBL_LIST_DELETE' => 'Briši',
-    'LBL_TYPE' => 'Tip',
+    'LBL_LIST_DELETE' => 'Delete',
+    'LBL_TYPE' => 'Type',
     'LBL_CONNECTOR' => 'Connector',
     'LBL_REDIRECT_URI' => 'Redirect URI',
     'LBL_REDIRECT_URI_TYPE' => 'Redirect URI Type',
@@ -97,7 +97,7 @@ $mod_strings = [
 
     'LBL_EXTRA' => 'Extra configurations',
     'LBL_MAPPING' => 'Mapping configurations',
-    'LBL_OTHER' => 'Drugo',
+    'LBL_OTHER' => 'Other',
 
 
     'LNK_LIST_CREATE_NEW_PERSONAL' => 'New Personal OAuth Provider',
@@ -106,5 +106,5 @@ $mod_strings = [
     'LNK_LIST_OUTBOUND_EMAILS' => 'Outbound Email Accounts',
     'LNK_LIST_EXTERNAL_OAUTH_CONNECTION' => 'External OAuth Connections',
 
-    'LBL_OWNER' => 'Lastnik',
+    'LBL_OWNER' => 'Owner',
 ];

@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
 
 
-    'LBL_RE' => 'ر ی:',
+    'LBL_RE' => 'RE:',
 
     'ERR_BAD_LOGIN_PASSWORD' => 'لاگ ان یا پاسورڈ غلط',
     'ERR_INI_ZLIB' => 'عارضی طور پر Zlib کمپریشن بند نہیں کر سکا. "ٹیسٹ کی ترتیبات" ناکام ہوسکتی ہے.',
@@ -75,7 +75,7 @@ $mod_strings = array(
     'LBL_FROM_ADDR_DESC' => 'یہاں فراہم کردہ ای میل ایڈریس میں ظاہر نہیں ہوسکتا ہے " سے" ای میل کا ایڈریس سیکشن میل سروس فراہم کنندہ کی طرف سے نافذ ہونے والے پابندیوں کی وجہ سے بھیجا جاتا ہے. آؤٹ لک میل سرور میں بیان کردہ ای میل پتہ استعمال کیا جائے گا.', // as long as XTemplate doesn't support output escaping, transform quotes to html-entities right here (bug #48913)
     'LBL_FROM_NAME' => 'نام "سے"',
     'LBL_GROUP_QUEUE' => 'گروپ کو تفویض کریں',
-    'LBL_HOME' => 'شروع',
+    'LBL_HOME' => 'Home',
     'LBL_LIST_MAILBOX_TYPE' => 'میل اکاؤنٹ کا استعمال',
     'LBL_LIST_NAME' => 'نام:',
     'LBL_LIST_GLOBAL_PERSONAL' => 'قسم',
@@ -85,7 +85,7 @@ $mod_strings = array(
     'LBL_LOGIN' => 'صارف کا نام',
     'LBL_USERNAME' => 'صارف کا نام',
     'LBL_MAILBOX_DEFAULT' => 'ان باکس',
-    'LBL_MAILBOX_SSL' => 'ایس ایس ایل استعمال کریں',
+    'LBL_MAILBOX_SSL' => 'SSL استعمال کریں',
     'LBL_MAILBOX_TYPE' => 'ممکن اقدامات',
     'LBL_DISTRIBUTION_METHOD' => 'تقسیم کا طریقہ',
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'نیا کیس خود کار طریقے سے جواب دیں سانچہ',
@@ -104,15 +104,15 @@ $mod_strings = array(
     'LBL_CREATE_CASE_HELP' => 'آنے والے ای میلز سے سویٹ آر آر ایم میں کیس ریکارڈز کو خود بخود بنانے کیلئے منتخب کریں.',
     'LBL_MODULE_NAME' => 'گروپ میل اکاؤنٹ',
     'LBL_BOUNCE_MODULE_NAME' => 'ہینڈلنگ میل باکس باؤنس',
-    'LBL_MODULE_TITLE' => 'ان باؤنڈ ای میل',
+    'LBL_MODULE_TITLE' => 'Inbound Email',
     'LBL_NAME' => 'نام',
-    'LBL_NONE' => 'کوئی بھی نہیں',
+    'LBL_NONE' => 'کوئی نہیں',
     'LBL_ONLY_SINCE_NO' => 'نہیں. میل میل سرور پر تمام ای میلز کے خلاف چیک کریں.',
     'LBL_ONLY_SINCE_YES' => 'جی ہاں.',
     'LBL_PASSWORD' => 'پاس ورڈ',
     'LBL_EMAIL_PASSWORD' => 'پاس ورڈ',
     'LBL_POP3_SUCCESS' => 'آپ کے POP3 ٹیسٹ کنکشن کامیاب رہا.',
-    'LBL_POPUP_TITLE' => 'ماحول کی جانچ پڑتال',
+    'LBL_POPUP_TITLE' => 'ٹیسٹ کی ترتیبات',
     'LBL_SELECT_SUBSCRIBED_FOLDERS' => 'سبسکرائب شدہ فولڈر منتخب کریں',
     'LBL_SELECT_TRASH_FOLDERS' => 'ٹریش فولڈر کا انتخاب کریں',
     'LBL_SELECT_SENT_FOLDERS' => 'بھیجے گئے فولڈر کو منتخب کریں',
@@ -146,7 +146,7 @@ $mod_strings = array(
     'LNK_LIST_CREATE_NEW_BOUNCE' => 'New Bounce Handling Email Account',
     'LNK_LIST_MAILBOXES' => 'Inbound Email Accounts',
     'LNK_LIST_OUTBOUND_EMAILS' => 'اوٹ بانڈ ای میل کا اکاؤنٹ',
-    'LNK_LIST_SCHEDULER' => 'زمان بند',
+    'LNK_LIST_SCHEDULER' => 'Schedulers',
     'LNK_SEED_QUEUES' => 'ٹیموں سے بیج کی قطاریں',
     'LBL_GROUPFOLDER_ID' => 'گروپ فولڈر کی شناخت',
 
@@ -164,7 +164,7 @@ $mod_strings = array(
     'LBL_LIST_TITLE_MY_SENT' => 'بھيجا ہوا ای میل',
     'LBL_LIST_TITLE_MY_ARCHIVES' => 'محفوظ شدہ ای میلز',
     'LNK_MY_DRAFTS' => 'دستکاری',
-    'LNK_MY_INBOX' => 'ای میل',
+    'LNK_MY_INBOX' => 'Email',
     'LNK_VIEW_MY_INBOX' => 'ای میل دیکھیں',
     'LNK_QUICK_REPLY' => 'جواب دینا ردعمل پیش کرنا',
     'LNK_SENT_EMAIL_LIST' => 'بھیجیں ای میل',
@@ -172,7 +172,7 @@ $mod_strings = array(
     'LBL_TYPE_DIFFERENT' => 'External OAuth Connection type must be the SAME as the Inbound Email Account type',
 
     'LBL_MODIFIED_BY' => 'کسی کی طرف سے ترمیم',
-    'LBL_SERVICE' => 'خدمت',
+    'LBL_SERVICE' => 'خدمات دینا',
     'LBL_STORED_OPTIONS' => 'محفوظ کردہ اختیارات',
     'LBL_GROUP_ID' => 'گروپ کی شناخت',
 
@@ -213,7 +213,7 @@ $mod_strings = array(
 
     'LBL_TYPE' => 'قسم',
     'LBL_AUTH_TYPE' => 'Auth Type',
-    'LBL_IS_DEFAULT' => 'پہلے سے طے شدہ ',
+    'LBL_IS_DEFAULT' => 'طے شدہ',
     'LBL_SIGNATURE' => 'علامت',
 
     'LBL_OWNER_NAME' => 'مالک',

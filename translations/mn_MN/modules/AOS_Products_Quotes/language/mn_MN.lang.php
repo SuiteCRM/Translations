@@ -99,7 +99,7 @@ $mod_strings = array(
     'LBL_PRODUCT_ID' => 'Product ID',
 
     'LBL_AOS_CONTRACTS' => 'Гэрээ',
-    'LBL_AOS_INVOICES' => 'Нэхэмжлэх',
+    'LBL_AOS_INVOICES' => 'Нэхэмжлэл',
     'LBL_AOS_PRODUCTS' => 'Бүтээгдэхүүн',
     'LBL_AOS_QUOTES' => 'Үнийн Санал',
 );

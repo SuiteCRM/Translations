@@ -75,8 +75,8 @@ $mod_strings = array(
     'MSG_DUPLICATE' => 'Eklemekte olduğunuz satış kaydı, var olan bir satış kaydına benziyor. Benzer adın bulunduğu satış kayıtlarını aşağıda görebilirsiniz.<br>Kaydet üzerine tıklayarak satışı ekleyebilir ya da İptal üzerine tıklayarak satışı eklemeden modüle geri dönebilirsiniz.',
     'LBL_NEW_FORM_TITLE' => 'Satış ekle',
     'ERR_DELETE_RECORD' => 'Silinecek kayıdın satış numarası belirtilmelidir.',
-    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Satış',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'İşlemler',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Sale',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Etkinlikler',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Tarihçe',
 
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Kişiler',
@@ -87,7 +87,7 @@ $mod_strings = array(
     'LBL_SALE_INFORMATION' => 'Satış bilgileri',
     'LBL_CURRENCY_NAME' => 'Para birimi adı',
     'LBL_CURRENCY_SYMBOL' => 'Para birimi simgesi',
-    'LBL_EDIT_BUTTON' => 'Düzenle',
+    'LBL_EDIT_BUTTON' => 'Değiştir',
     'LBL_REMOVE' => 'Sil',
 
 );

@@ -61,7 +61,7 @@ $mod_strings['LBL_MAP_LEGEND'] = 'Legenda:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'Skupiny:';
 $mod_strings['LBL_MAP_GROUP'] = 'Skupina';
 $mod_strings['LBL_MAP_TYPE'] = 'Typ';
-$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Priradené ku:';
+$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Pridelený k';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'Získať trasu';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'Zobrazenie máp Google';
 
@@ -96,14 +96,14 @@ $mod_strings['LBL_EXPORT_ADDRESS_URL'] = 'Export URL';
 $mod_strings['LBL_EXPORT_INSTRUCTIONS'] = 'Použite nižšie uvedené odkazy na export úplných adries potrebných pre geokódy. Potom použite online alebo offline nástroj geokódovania na geokódovanie adries. Keď ste skončili geokódovanie, importujte adresy do modulu medzipamäte adries pre použitie s vašimi mapami. Všimnite si, že modul medzipamäte adries je voliteľný. Všetky geokódové informácie sú uložené v reprezentatívnom module.';
 $mod_strings['LBL_ADDRESS_CACHE'] = 'Medzipamäť adries';
 $mod_strings['LBL_ADD_TO_TARGET_LIST'] = 'Pridať zoznam cieľov';
-$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Spracovanie ..';
+$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Processing...';
 
 
 $mod_strings['LBL_CONFIG_TITLE'] = 'Konfiguračné nastavenia';
 $mod_strings['LBL_CONFIG_SAVED'] = 'Nastavenia úspešne uložené!';
 $mod_strings['LBL_BILLING_ADDRESS'] = 'Fakturačná adresa';
 $mod_strings['LBL_SHIPPING_ADDRESS'] = 'Adresa dodania';
-$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Hlavná adresa';
+$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Primárna adresa';
 $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'Ďalšia adresa';
 $mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Uvedenie Flexu';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Adresa (jednoduchá, užívatelia)';

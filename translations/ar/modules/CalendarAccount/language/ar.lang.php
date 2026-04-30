@@ -31,14 +31,14 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
     // System fields
-    'LBL_ASSIGNED_TO_ID' => 'معرف المستخدم المكلف',
+    'LBL_ASSIGNED_TO_ID' => 'معرف المستخدم المُكلف',
     'LBL_ASSIGNED_TO_NAME' => 'أُسند إلى',
     'LBL_DATE_ENTERED' => 'تاريخ الإنشاء',
     'LBL_DATE_MODIFIED' => 'تاريخ التعديل',
     'LBL_MODIFIED' => 'عُدل بواسطة',
-    'LBL_MODIFIED_NAME' => 'اسم من قام بالتعديل',
+    'LBL_MODIFIED_NAME' => 'قام بالتعديل',
     'LBL_CREATED' => 'أنشئ بواسطة',
-    'LBL_CREATED_USER' => 'أنشئ بواسطة المستخدم',
+    'LBL_CREATED_USER' => 'تم الإنشاء بواسطة المستخدم',
     'LBL_MODIFIED_USER' => 'عُدل بواسطة المستخدم',
     'LBL_DESCRIPTION' => 'الوصف',
     'LBL_DELETED' => 'محذوف',
@@ -49,7 +49,7 @@ $mod_strings = [
 
     // List view labels
     'LBL_LIST_NAME' => 'الاسم',
-    'LBL_LIST_DELETE' => 'احذف',
+    'LBL_LIST_DELETE' => 'حذف',
     'LBL_EDIT_BUTTON' => 'حرر',
     'LBL_REMOVE' => 'إزالة',
     'LBL_ASCENDING' => 'تصاعدي',
@@ -102,7 +102,7 @@ $mod_strings = [
 
     // Basic Auth Fields
     'LBL_USERNAME' => 'اسم المستخدم',
-    'LBL_PASSWORD' => 'كلمة المرور',
+    'LBL_PASSWORD' => 'كلمة السر',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test Connection',
 
@@ -202,5 +202,5 @@ $mod_strings = [
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Calendar not found.',
 
     // Relationship labels
-    'LBL_MEETINGS' => 'اجتماعات',
+    'LBL_MEETINGS' => 'الاجتماعات',
 ];

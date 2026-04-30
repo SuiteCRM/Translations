@@ -42,10 +42,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_MAP'] = 'Mapa';
-$mod_strings['LBL_MODULE_NAME'] = 'Mape';
+$mod_strings['LBL_MAP'] = 'Map';
+$mod_strings['LBL_MODULE_NAME'] = 'Maps';
 $mod_strings['LBL_MODULE_TITLE'] = 'Mape: Početna';
-$mod_strings['LBL_MODULE_ID'] = 'Mape';
+$mod_strings['LBL_MODULE_ID'] = 'Maps';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'Lista mapa';
 $mod_strings['LBL_MAP_CUSTOM_MARKER'] = 'Prilagođen marker';
 $mod_strings['LBL_MAP_CUSTOM_AREA'] = 'Prilagođena oblast';
@@ -59,59 +59,59 @@ $mod_strings['LBL_UNIT_TYPE'] = 'Tip jedinice:';
 $mod_strings['LBL_MAP_DISPLAY'] = 'Prikaz mape';
 $mod_strings['LBL_MAP_LEGEND'] = 'Legenda:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'Grupe:';
-$mod_strings['LBL_MAP_GROUP'] = 'Grupa';
-$mod_strings['LBL_MAP_TYPE'] = 'Tip';
-$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Dodeljeno:';
+$mod_strings['LBL_MAP_GROUP'] = 'Group';
+$mod_strings['LBL_MAP_TYPE'] = 'Type';
+$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Assigned to:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'Uzmi uputstva';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'Pogled na Google mape';
 
 $mod_strings['LNK_NEW_MAP'] = 'Dodaj novu mapu';
-$mod_strings['LNK_NEW_RECORD'] = 'Dodaj novu mapu';
+$mod_strings['LNK_NEW_RECORD'] = 'Add New Map';
 $mod_strings['LNK_MAP_LIST'] = 'Izlistaj mape';
 
-$mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Geokod test';
+$mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Geocoding Test';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'Brza radijus mapa';
-$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'Nijedna';
-$mod_strings['LBL_MAP_ADDRESS'] = 'Adresa';
+$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'None';
+$mod_strings['LBL_MAP_ADDRESS'] = 'Address';
 $mod_strings['LBL_MAP_PROCESS'] = 'Obradi!';
 
 $mod_strings['LBL_MAP_LAST_STATUS'] = 'Poslednji Geokod status';
 $mod_strings['LBL_GEOCODED_COUNTS'] = 'Modul brojeva geokodiranja';
 $mod_strings['LBL_CRON_URL'] = 'Cron URL:';
-$mod_strings['LBL_MODULE_HEADING'] = 'Modul';
+$mod_strings['LBL_MODULE_HEADING'] = 'Module';
 
 $mod_strings['LBL_N/A'] = 'N/A';
 $mod_strings['LBL_ZERO_RESULTS'] = 'Zero Results';
-$mod_strings['LBL_OK'] = 'U redu';
+$mod_strings['LBL_OK'] = 'Ok';
 $mod_strings['LBL_INVALID_REQUEST'] = 'Invalid Request';
 $mod_strings['LBL_APPROXIMATE'] = 'Approximate';
-$mod_strings['LBL_EMPTY'] = 'Prazno';
+$mod_strings['LBL_EMPTY'] = 'Empty';
 
-$mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Ukupno';
-$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Resetuj';
+$mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Total';
+$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Reset';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = 'Donja tabela prikazuje broj geokodovanih modul objekata, grupisanih po geokod odgovoru. Imajte u vidu da upotreba standardnih Google mapa ima limit od 2500 zahteva dnevno. Ovaj modul će keširati informacije geokodovanja adresa u toku obrade da bi smanjio ukupan broj potrebnih zahteva.';
 
 $mod_strings['LBL_CRON_INSTRUCTIONS'] = 'Za procesiranje zahteva geokodiranja preporučuje se da se uspostavi jedan noćni Cron-Job. Jedna namenska pristupna tačka je kreirana za tu svrhu i može joj se pristupiti bez autentikacije. Dole prikazani URL je namenjen za korišćenje sa administratorski raspoređenim zadatkom. Molim pogledajte dokumentaciju za više informacija.';
 $mod_strings['LBL_EXPORT_ADDRESS_URL'] = 'Izvezi URL-ove';
 $mod_strings['LBL_EXPORT_INSTRUCTIONS'] = 'Koristite donje linkove za izvoz punih adresa potrebnih za geokod informacije. Onda koristite onlajn ili oflajn paketni geokodni alat da biste geokodovali adrese. Kada ste završili geokodiranje, importujte adrese u Adresni Keš modul koji ćete koristiti sa vašim mapama. Adresni keš modul je opcionalan. Sve geokodne informacije su pohranjene u reprezentativnom modulu.';
-$mod_strings['LBL_ADDRESS_CACHE'] = 'Keš memorija adresa';
+$mod_strings['LBL_ADDRESS_CACHE'] = 'Address Cache';
 $mod_strings['LBL_ADD_TO_TARGET_LIST'] = 'Dodaj u ciljnu listu';
-$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Obrađuje se...';
+$mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Processing...';
 
 
 $mod_strings['LBL_CONFIG_TITLE'] = 'Konfiguraciona podešavanja';
 $mod_strings['LBL_CONFIG_SAVED'] = 'Podešavanja uspešno sačuvana!';
-$mod_strings['LBL_BILLING_ADDRESS'] = 'Adresa naplate';
-$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Adresa dostave';
-$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Primarna adresa';
+$mod_strings['LBL_BILLING_ADDRESS'] = 'Billing Address';
+$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Shipping Address';
+$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Primary Address';
 $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'Alternativna adresa';
 $mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex Relate';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Adresa (obična, korisnici)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'Prilagođeno (prilagođena logika kontrolera)';
-$mod_strings['LBL_ENABLED'] = 'Omogućeno';
-$mod_strings['LBL_DISABLED'] = 'Onemogućeno';
+$mod_strings['LBL_ENABLED'] = 'Enabled';
+$mod_strings['LBL_DISABLED'] = 'Disabled';
 $mod_strings['LBL_DEFAULT'] = 'Podrazumevano:';
-$mod_strings['LBL_CONFIG_DEFAULT'] = 'Podrazumevano:';
+$mod_strings['LBL_CONFIG_DEFAULT'] = 'Default:';
 
 $mod_strings['LBL_CONFIG_VALID_GEOCODE_MODULES'] = 'Validni geokod moduli:';
 $mod_strings['LBL_CONFIG_VALID_GEOCODE_TABLES'] = 'Validne geokod tabele:';
@@ -182,9 +182,9 @@ $mod_strings['LBL_CONFIG_MAP_CLUSTER_GRID_SIZE_DESC'] = "'veličina_mreže_klast
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_TITLE'] = "Klasterer markera mape max zum:";
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_DESC'] = "'klasterer_mape_max_zum' se koristi da bi se setovao maksimalni zum nivo na kojem neće biti primenjeno klasterovanje.";
 $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = "Važna napomena: Sva sačuvana podešavanja se mogu naći u 'config' tabeli pod kategorijom 'jjwg'. Imajte u vidu da posebna controller.php datoteka ne treba više da se koristi da bi se promenila podešavanja.";
-$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Oblasti';
+$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Areas';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'Markeri';
-$mod_strings['LBL_PARENT_ID'] = 'ID nadređenog';
+$mod_strings['LBL_PARENT_ID'] = 'Parent ID';
 $mod_strings['LBL_JJWP_PARTNERS'] = 'JJWP Partners';
 $mod_strings['LBL_GET_GOOGLE_API_KEY'] = 'Uzmi ključ';
 $mod_strings['LBL_GOOGLE_API_KEY'] = 'Google Api ključ';

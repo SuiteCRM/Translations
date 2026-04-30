@@ -43,13 +43,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EMAIL_ADDRESS_ID' => 'זיהוי',
-    'LBL_EMAIL_ADDRESS' => 'כתובת דואר אלקטרוני',
+    'LBL_EMAIL_ADDRESS_ID' => 'מזהה',
+    'LBL_EMAIL_ADDRESS' => 'Email Address',
     'LBL_EMAIL_ADDRESS_CAPS' => 'Email Address caps',
-    'LBL_INVALID_EMAIL' => 'כתובת דואר לא חוקית',
-    'LBL_OPT_OUT' => 'נבחר',
+    'LBL_INVALID_EMAIL' => 'Invalid Email',
+    'LBL_OPT_OUT' => 'Opted Out',
     'LBL_CONFIRM_OPT_IN' => 'Confirm Opt In',
     'LBL_DATE_CREATE' => 'נוצר בתאריך',
-    'LBL_DATE_MODIFIED' => 'תאריך שינוי',
-    'LBL_DELETED' => 'למחוק',
+    'LBL_DATE_MODIFIED' => 'התאריך שונה',
+    'LBL_DELETED' => 'Delete',
 );

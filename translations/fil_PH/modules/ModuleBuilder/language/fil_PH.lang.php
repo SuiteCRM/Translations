@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_LOADING' => 'Nag-loload' /*for 508 compliance fix*/,
-    'LBL_HIDEOPTIONS' => 'Itago ang mga opsyon' /*for 508 compliance fix*/,
+    'LBL_HIDEOPTIONS' => 'Itago ang mga pagpipilian' /*for 508 compliance fix*/,
     'LBL_DELETE' => 'Tanggalin' /*for 508 compliance fix*/,
     'help' => array(
         'package' => array(
@@ -325,7 +325,7 @@ Maaari mong muling i-order ang mga module sa pamamagitan ng pag-drag sa kanilang
 
     ),
 //HOME
-    'LBL_HOME_EDIT_DROPDOWNS' => 'Dropdown editor',
+    'LBL_HOME_EDIT_DROPDOWNS' => 'Dropdown Editor',
 
 //STUDIO2
     'LBL_MODULEBUILDER' => 'Module builder',
@@ -340,9 +340,9 @@ Maaari mong muling i-order ang mga module sa pamamagitan ng pag-drag sa kanilang
     'LBL_DEPLOY_FAILED' => 'May maling naganap sa panahon ng proseo ng pag-deploy, ang iyong package ay hindi naka-install ng maayos',
     'LBL_AVAILABLE_SUBPANELS' => 'Mga magaganit na subpanel',
     'LBL_ADVANCED' => 'Ang advans',
-    'LBL_ADVANCED_SEARCH' => 'Advanced na nasala',
+    'LBL_ADVANCED_SEARCH' => 'Advanced na Filter',
     'LBL_BASIC' => 'Pangunahin',
-    'LBL_BASIC_SEARCH' => 'Mabilis na nasala',
+    'LBL_BASIC_SEARCH' => 'Mabilis na filter',
     'LBL_CURRENT_LAYOUT' => 'Layout',
     'LBL_CURRENCY' => 'Pera',
     'LBL_DASHLET' => 'SuiteCRM dashlet',
@@ -376,7 +376,7 @@ Maaari mong muling i-order ang mga module sa pamamagitan ng pag-drag sa kanilang
     'LBL_SELECT_FILE' => 'Pumili ng file',
     'LBL_SUBPANELS' => 'Mga subpanel',
     'LBL_SUBPANEL' => 'Subpanel',
-    'LBL_SUBPANEL_TITLE' => 'Pamagat: ',
+    'LBL_SUBPANEL_TITLE' => 'Pamagat:',
     'LBL_SEARCH_FORMS' => 'Ang salaan',
     'LBL_SEARCH' => 'Paghahanap',
     'LBL_SEARCH_BUTTON' => 'Paghahanap',
@@ -394,7 +394,7 @@ Maaari mong muling i-order ang mga module sa pamamagitan ng pag-drag sa kanilang
     'LBL_TABDEF_TYPE_OPTION_HELP' => 'Pumili ng Panel na magkaroon ng panel displey sa loob ng view na layout. Piliin ang Tab upang magkaroon ng panel na ito na ipinakita sa loob nag nagkahiwalay na tab at layout. Kung ang Tab ay tinukoy para sa panel, kasunod ang mga panel na itinakdang i-displey tulad ng panel ay ipinakita sa loob ng tab.<br/> Ang bagong Tab ay magsimula para sa susunkd na panel kung saan ang susunod na Tab ay mapili. Kung ang Tab ay naoili para panel naunang naoiling panel, ang unang panel ay kinakailangan maging Tab.',
     'LBL_TABDEF_COLLAPSE' => 'Pagbagsak',
     'LBL_TABDEF_COLLAPSE_HELP' => 'Pumili upang gawing state default ang panel na itong gumuho.',
-    'LBL_DROPDOWN_TITLE_NAME' => 'Ang Pangalan',
+    'LBL_DROPDOWN_TITLE_NAME' => 'Ang pangalan',
     'LBL_DROPDOWN_LANGUAGE' => 'Lengwahe',
     'LBL_DROPDOWN_ITEMS' => 'Maglista ng mga aytem',
     'LBL_DROPDOWN_ITEM_NAME' => 'Pangalan ng aytem',
@@ -415,9 +415,9 @@ Maaari mong muling i-order ang mga module sa pamamagitan ng pag-drag sa kanilang
     'LBL_CUSTOM_RELATIONSHIPS' => '*, mga relasyon ns nilikha sa Studio',
     'LBL_RELATIONSHIPS' => 'Mga relasyon',
     'LBL_RELATIONSHIP_EDIT' => 'I-edit ang relasyon',
-    'LBL_REL_NAME' => 'Ang Pangalan',
-    'LBL_REL_LABEL' => 'Ang label',
-    'LBL_REL_TYPE' => 'Ang Uri',
+    'LBL_REL_NAME' => 'Ang pangalan',
+    'LBL_REL_LABEL' => 'Label',
+    'LBL_REL_TYPE' => 'Uri',
     'LBL_RHS_MODULE' => 'Nauugnay na modyul',
     'LBL_NO_RELS' => 'Walang relasyon',
     'LBL_RELATIONSHIP_ROLE_ENTRIES' => 'Opsyonal na kondisyon',
@@ -442,12 +442,12 @@ Maaari mong muling i-order ang mga module sa pamamagitan ng pag-drag sa kanilang
     'LBL_QUESTION_DASHLET' => 'Pumili ng dashlet layout upang i-edit.',
     'LBL_QUESTION_POPUP' => 'Pumili ng popup layout upang i-edit.',
 //CUSTOM FIELDS
-    'LBL_NAME' => 'Ang Pangalan',
+    'LBL_NAME' => 'Ang pangalan',
     'LBL_LABELS' => 'Mga label',
     'LBL_MASS_UPDATE' => 'Mass Update',
     'LBL_DEFAULT_VALUE' => 'I-default ang halaga',
     'LBL_REQUIRED' => 'Kinakailangan',
-    'LBL_DATA_TYPE' => 'Ang Uri',
+    'LBL_DATA_TYPE' => 'Uri',
     'LBL_HCUSTOM' => 'CUSTOM',
     'LBL_HDEFAULT' => 'DEFAULT',
     'LBL_LANGUAGE' => 'Ang Linggwahe:',
@@ -469,7 +469,7 @@ Maaari mong muling i-order ang mga module sa pamamagitan ng pag-drag sa kanilang
 //WIZARDS
 
 //LIST VIEW EDITOR
-    'LBL_DEFAULT' => 'Default ',
+    'LBL_DEFAULT' => 'Default',
     'LBL_HIDDEN' => 'Nakatago',
     'LBL_AVAILABLE' => 'Mayroon',
     'LBL_LISTVIEW_DESCRIPTION' => 'Mayroong tatlong hanay naka-displey sa ibaba. Ang <b>Default</b> hanay ay naglalaman ng mga patlang na ipinapakita sa list view sa pamamagitan ng default. Ang <b>Additional</b>hanay ay naglalaman ng mga patlang na ang gumagamit ay maaring pumili na gamitin para sa paglikha ng custom view. Ang <b>Available</b>hanay ay ipinapakita sng nga patlang na magagamit para sayo bilang isang admin upang idagdag sa Default o karagdagang mga hanay na gagamitin para sa gumagamit.',

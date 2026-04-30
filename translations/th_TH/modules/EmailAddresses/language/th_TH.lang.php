@@ -43,13 +43,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EMAIL_ADDRESS_ID' => 'ไอดี',
+    'LBL_EMAIL_ADDRESS_ID' => 'ID',
     'LBL_EMAIL_ADDRESS' => 'อีเมล',
     'LBL_EMAIL_ADDRESS_CAPS' => 'ที่อยู่อีเมลแฝง',
     'LBL_INVALID_EMAIL' => 'อีเมลไม่ถูกต้อง',
-    'LBL_OPT_OUT' => 'คัดออก',
+    'LBL_OPT_OUT' => 'Opted Out',
     'LBL_CONFIRM_OPT_IN' => 'Confirm Opt In',
     'LBL_DATE_CREATE' => 'วันที่สร้าง',
     'LBL_DATE_MODIFIED' => 'วันที่แก้ไข',
-    'LBL_DELETED' => 'ลบ',
+    'LBL_DELETED' => 'Delete',
 );

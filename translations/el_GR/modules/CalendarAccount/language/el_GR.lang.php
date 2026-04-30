@@ -31,27 +31,27 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
     // System fields
-    'LBL_ASSIGNED_TO_ID' => 'Υπεύθυνος Χρήστης Α/Α ',
-    'LBL_ASSIGNED_TO_NAME' => 'Υπεύθυνος',
-    'LBL_DATE_ENTERED' => 'Date Entered',
+    'LBL_ASSIGNED_TO_ID' => 'Ταυτότητα Ανατεθειμένου Χειριστή',
+    'LBL_ASSIGNED_TO_NAME' => 'Ανατέθηκε σε',
+    'LBL_DATE_ENTERED' => 'Ημ/νία καταχώρησης',
     'LBL_DATE_MODIFIED' => 'Ημ/νία Τροποποίησης',
-    'LBL_MODIFIED' => 'Τροποποιήθηκε από',
-    'LBL_MODIFIED_NAME' => 'Τροποποίηση ανά Όνομα',
-    'LBL_CREATED' => 'Δημιουργήθηκε από',
+    'LBL_MODIFIED' => 'Τροποποιήθηκε Από',
+    'LBL_MODIFIED_NAME' => 'Τροποποιήθηκε Από Όνομα',
+    'LBL_CREATED' => 'Δημιουργήθηκε Από',
     'LBL_CREATED_USER' => 'Δημιουργήθηκε από',
     'LBL_MODIFIED_USER' => 'τροποποίηση από',
     'LBL_DESCRIPTION' => 'Περιγραφή',
     'LBL_DELETED' => 'Διαγράφηκε',
 
     // Security groups
-    'LBL_SECURITYGROUPS' => 'Ομάδες Ασφάλειας',
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Ομάδες Ασφάλειας',
+    'LBL_SECURITYGROUPS' => 'Security Groups',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
 
     // List view labels
     'LBL_LIST_NAME' => 'Όνομα',
     'LBL_LIST_DELETE' => 'Διαγραφή',
     'LBL_EDIT_BUTTON' => 'Επεξεργασία',
-    'LBL_REMOVE' => 'Αφαίρεση',
+    'LBL_REMOVE' => 'Remove',
     'LBL_ASCENDING' => 'Αύξουσα',
     'LBL_DESCENDING' => 'Φθίνουσα',
 
@@ -62,8 +62,8 @@ $mod_strings = [
     'LBL_OPT_IN_CONFIRMED' => 'Συμμετέχει',
 
     // Subpanel titles
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Προβολή Ιστορικού',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Δραστηριότητες',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
 
@@ -92,8 +92,8 @@ $mod_strings = [
 
     // Standard fields
     'LBL_NAME' => 'Όνομα',
-    'LBL_ID' => 'Α/Α',
-    'LBL_TYPE' => 'Τύπος',
+    'LBL_ID' => 'Ταυτότητα',
+    'LBL_TYPE' => 'Type',
     'LBL_SOURCE' => 'Calendar Source',
 
     // OAuth2 Fields
@@ -102,7 +102,7 @@ $mod_strings = [
 
     // Basic Auth Fields
     'LBL_USERNAME' => 'Όνομα χρήστη',
-    'LBL_PASSWORD' => 'Κωδικός Πρόσβασης',
+    'LBL_PASSWORD' => 'Κωδικός',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test Connection',
 
@@ -164,10 +164,10 @@ $mod_strings = [
     // Connection test messages
     'LBL_CALENDAR' => 'Ημερολόγιο',
     'LBL_SUCCESSFUL' => 'Επιτυχημένη',
-    'LBL_FAILED' => 'Απέτυχε',
+    'LBL_FAILED' => 'Failed',
     'LBL_CONNECTION_TEST' => 'Connection Test',
-    'LBL_YES' => 'Ναι',
-    'LBL_NO' => 'Όχι',
+    'LBL_YES' => 'Ναί',
+    'LBL_NO' => 'κανένα',
     'LBL_FOUND_CALENDARS' => 'Found {count} calendars.',
     'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'An error occurred while processing the connection test response. Please check the logs for details.',
     'LBL_CONNECTION_TEST_HTTP_ERROR' => 'Connection test failed with HTTP status',
@@ -187,8 +187,8 @@ $mod_strings = [
 
     // Sync status enum translations
     'LBL_SYNC_STATUS_IN_PROGRESS' => 'Σε εξέλιξη',
-    'LBL_SYNC_STATUS_SUCCESS' => 'Επιτυχία',
-    'LBL_SYNC_STATUS_WARNING' => 'Προειδοποίηση',
+    'LBL_SYNC_STATUS_SUCCESS' => 'Success',
+    'LBL_SYNC_STATUS_WARNING' => 'Warning',
     'LBL_SYNC_STATUS_ERROR' => 'Λάθος',
 
     // Sync message enum translations
@@ -202,5 +202,5 @@ $mod_strings = [
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Calendar not found.',
 
     // Relationship labels
-    'LBL_MEETINGS' => 'Συναντήσεις',
+    'LBL_MEETINGS' => 'Meetings',
 ];

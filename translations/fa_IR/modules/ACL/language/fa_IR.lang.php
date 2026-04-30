@@ -43,15 +43,15 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'نقش',
+    'LBL_ROLE' => 'Role',
     'LBL_NAME' => 'نام',
-    'LBL_DESCRIPTION' => 'توضیحات',
+    'LBL_DESCRIPTION' => 'Description',
     'LIST_ROLES' => 'نقش‌ها را لیست کن',
     'LBL_USERS_SUBPANEL_TITLE' => 'کاربرها',
     'LIST_ROLES_BY_USER' => 'نقش‌ها را با توجه به کاربر لیست کن',
     'LBL_ROLES_SUBPANEL_TITLE' => 'نقش‌های کاربر',
-    'LBL_SEARCH_FORM_TITLE' => 'جستجو',
-    'LBL_NO_ACCESS' => 'شما به این ناحیه دسترسی ندارید. جهت بدست آوردن دسترسی با مدیر سایت خود تماس بگیرید.',
+    'LBL_SEARCH_FORM_TITLE' => 'Search',
+    'LBL_NO_ACCESS' => 'You do not have access to this area. Contact your site administrator to obtain access.',
     'LBL_REDIRECT_TO_HOME' => 'تغییر مسیر به صفحه اصلی در',
     'LBL_SECONDS' => 'ثانیه',
     'LBL_ADDING' => 'افزودن برای ',

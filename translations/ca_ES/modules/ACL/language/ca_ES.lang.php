@@ -43,15 +43,15 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Rol',
-    'LBL_NAME' => 'Nom',
-    'LBL_DESCRIPTION' => 'Descripció',
+    'LBL_ROLE' => 'Role',
+    'LBL_NAME' => 'Name',
+    'LBL_DESCRIPTION' => 'Description',
     'LIST_ROLES' => 'Llistar Rols',
-    'LBL_USERS_SUBPANEL_TITLE' => 'Usuaris',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
     'LIST_ROLES_BY_USER' => 'Llistar Rols per Usuaris',
     'LBL_ROLES_SUBPANEL_TITLE' => 'Rols d\'Usuari',
-    'LBL_SEARCH_FORM_TITLE' => 'Cerca',
-    'LBL_NO_ACCESS' => 'No té accés a aquesta àrea. Contacti amb l\'Administrador del seu lloc web per obtenir-lo.',
+    'LBL_SEARCH_FORM_TITLE' => 'Search',
+    'LBL_NO_ACCESS' => 'You do not have access to this area. Contact your site administrator to obtain access.',
     'LBL_REDIRECT_TO_HOME' => 'Redirigint a l\'inici en',
     'LBL_SECONDS' => 'segons',
     'LBL_ADDING' => 'Afegint per a ',

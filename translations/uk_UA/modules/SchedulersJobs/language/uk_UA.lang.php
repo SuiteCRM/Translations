@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_NAME' => 'Завдання',
-    'LBL_EXECUTE_TIME' => 'Час виконання',
-    'LBL_SCHEDULER_ID' => 'Планувальник',
+    'LBL_NAME' => 'Job Name',
+    'LBL_EXECUTE_TIME' => 'Execute Time',
+    'LBL_SCHEDULER_ID' => 'Scheduler',
     'LBL_STATUS' => 'Статус роботи',
     'LBL_RESOLUTION' => 'Результат',
     'LBL_MESSAGE' => 'Повідомлення',

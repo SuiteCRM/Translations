@@ -40,8 +40,8 @@ $mod_strings = [
     'LBL_CREATED' => 'के द्वारा बनाई गई',
     'LBL_CREATED_USER' => 'उपयोगकर्ता द्वारा बनाया गया',
     'LBL_MODIFIED_USER' => 'उपयोगकर्ता द्वारा संशोधित',
-    'LBL_DESCRIPTION' => 'विवरण',
-    'LBL_DELETED' => 'हटाई गई',
+    'LBL_DESCRIPTION' => 'विवरण ',
+    'LBL_DELETED' => 'हटाए गए',
 
     // Security groups
     'LBL_SECURITYGROUPS' => 'सुरक्षा समूह',
@@ -50,8 +50,8 @@ $mod_strings = [
     // List view labels
     'LBL_LIST_NAME' => 'नाम',
     'LBL_LIST_DELETE' => 'हटाएं',
-    'LBL_EDIT_BUTTON' => 'संशोधन करें',
-    'LBL_REMOVE' => 'हटाऐं',
+    'LBL_EDIT_BUTTON' => 'संपादित करें',
+    'LBL_REMOVE' => 'हटाएँ',
     'LBL_ASCENDING' => 'आरोही',
     'LBL_DESCENDING' => 'अवरोही',
 
@@ -162,7 +162,7 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'कृपया पहले कैलेंडर स्रोत का चयन करें।',
 
     // Connection test messages
-    'LBL_CALENDAR' => 'कैलेंडर',
+    'LBL_CALENDAR' => 'पंचांग',
     'LBL_SUCCESSFUL' => 'सफल',
     'LBL_FAILED' => 'असफल',
     'LBL_CONNECTION_TEST' => 'कनेक्शन परीक्षण',
@@ -189,7 +189,7 @@ $mod_strings = [
     'LBL_SYNC_STATUS_IN_PROGRESS' => 'प्रगति में',
     'LBL_SYNC_STATUS_SUCCESS' => 'सफलता',
     'LBL_SYNC_STATUS_WARNING' => 'चेतावनी',
-    'LBL_SYNC_STATUS_ERROR' => 'गलती',
+    'LBL_SYNC_STATUS_ERROR' => 'त्रुटि',
 
     // Sync message enum translations
     'LBL_SYNC_MSG_SYNC_COMPLETE' => 'सभी मीटिंग सिंक्रनाइज़ हो गईं।',

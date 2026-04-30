@@ -64,7 +64,7 @@ $mod_strings = array(
     'LBL_LIST_LAST_MODIFIED' => 'Zadnja izmjena',
     'LBL_INVITEE' => 'Kontakti',
     'LBL_TYPE' => 'Tip:',
-    'LBL_LIST_TYPE' => 'Tip',
+    'LBL_LIST_TYPE' => 'Vrsta',
     'LBL_RESOLUTION' => 'Rješenje:',
     'LBL_RELEASE' => 'Release:',
     'LNK_NEW_BUG' => 'Prijavi bug',
@@ -92,13 +92,13 @@ $mod_strings = array(
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktivnosti',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Historija',
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Kontakti',
-    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Klijenti',
+    'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Računi',
     'LBL_CASES_SUBPANEL_TITLE' => 'Slučajevi',
     'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projekti',
     'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Dokumenti',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Dodijeljeni korisnik',
     'LBL_ASSIGNED_TO_NAME' => 'Dodijeljeno korisniku',
 
-    'LBL_BUG_INFORMATION' => 'Pregled', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_BUG_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
 );

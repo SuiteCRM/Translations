@@ -54,7 +54,7 @@ $mod_strings = array(
     'LBL_ASSIGNED_USER_ID' => 'Atanmış kişi:',
     'LBL_MODIFIED_USER_ID' => 'Değiştiren kullanıcı kimliği:',
     'LBL_CREATED_BY' => 'Ekleyen:',
-    'LBL_NAME' => 'Ad:',
+    'LBL_NAME' => 'İsim:',
     'LBL_STATUS' => 'Durum:',
     'LBL_DATE_DUE' => 'Tamamlanma tarihi:',
     'LBL_TIME_DUE' => 'Tamamlanma saati:',
@@ -81,11 +81,11 @@ $mod_strings = array(
     'LBL_DELETED' => 'Silindi:',
     'LBL_IMPORT_PROJECT_TASKS' => 'Proje görevlerini içe aktar',
 
-    'LBL_LIST_NAME' => 'Ad',
+    'LBL_LIST_NAME' => 'Paket Adı:',
     'LBL_LIST_PARENT_NAME' => 'Proje',
     'LBL_SEARCH_FORM_TITLE' => 'Proje görevi ara',
     'LBL_LIST_PERCENT_COMPLETE' => 'Tamamlanma oranı',
-    'LBL_LIST_STATUS' => 'Durum',
+    'LBL_LIST_STATUS' => 'Durum:',
     'LBL_LIST_ASSIGNED_USER_ID' => 'Atanmış kişi',
     'LBL_LIST_DATE_DUE' => 'Tamamlanma tarihi',
     'LBL_LIST_PRIORITY' => 'Öncelik',
@@ -102,8 +102,8 @@ $mod_strings = array(
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Proje görevleri',
     'LBL_NEW_FORM_TITLE' => 'Yeni proje görevi',
 
-    'LBL_HISTORY_TITLE' => 'Tarihçe',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'İşlemler',
+    'LBL_HISTORY_TITLE' => 'Geçmiş',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Etkinlikler',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Tarihçe',
 
     'LBL_ASSIGNED_USER_NAME' => 'Atanmış kişi',

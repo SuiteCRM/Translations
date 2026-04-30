@@ -66,8 +66,8 @@ $app_list_strings = array(
     $object_name . '_resolution_dom' => array(
         '' => '',
         'Accepted' => '受領',
-        'Duplicate' => '複製',
-        'Closed' => '完了',
+        'Duplicate' => 'Duplicate',
+        'Closed' => 'Closed',
         'Out of Date' => '期限切れ',
         'Invalid' => '無効',
     ),

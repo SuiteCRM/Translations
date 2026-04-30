@@ -50,14 +50,14 @@ $mod_strings = array(
     'LBL_DELETE_BUTTON_TITLE' => 'Delete this Saved Filter',
     'LBL_SAVE_BUTTON_TITLE' => 'Save the current filter',
     'LBL_LIST_NAME' => 'Vārds:',
-    'LBL_LIST_MODULE' => 'Modulis',
+    'LBL_LIST_MODULE' => 'Module',
     'LBL_ORDER_BY_COLUMNS' => 'Order by column:',
-    'LBL_DIRECTION' => 'Secība:',
+    'LBL_DIRECTION' => 'Direction:',
     'LBL_SAVE_SEARCH_AS' => 'Save filter as:',
-    'LBL_ASCENDING' => 'Augoši',
-    'LBL_DESCENDING' => 'Dilstoši',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
     'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
-    'LBL_CREATED_BY' => 'Izveidoja',
+    'LBL_CREATED_BY' => 'Created By',
 
 );

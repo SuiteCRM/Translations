@@ -43,15 +43,15 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Roli',
-    'LBL_NAME' => 'Emri',
-    'LBL_DESCRIPTION' => 'Përshkrim',
+    'LBL_ROLE' => 'Role',
+    'LBL_NAME' => 'Name',
+    'LBL_DESCRIPTION' => 'Description',
     'LIST_ROLES' => 'Rëndit rolet',
-    'LBL_USERS_SUBPANEL_TITLE' => 'përdoruesit',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Users',
     'LIST_ROLES_BY_USER' => 'Rëndit role sipas përdoruesve',
     'LBL_ROLES_SUBPANEL_TITLE' => 'Rolet e përdoruesve',
-    'LBL_SEARCH_FORM_TITLE' => 'Kërkim',
-    'LBL_NO_ACCESS' => 'Nuk keni qasje për këtë sipërfaqe. Kontakoni administratorin e faqes për të siguruar qasje',
+    'LBL_SEARCH_FORM_TITLE' => 'Search',
+    'LBL_NO_ACCESS' => 'You do not have access to this area. Contact your site administrator to obtain access.',
     'LBL_REDIRECT_TO_HOME' => 'Rikthe tek ballina në',
     'LBL_SECONDS' => 'sekonda',
     'LBL_ADDING' => 'Shtim për',

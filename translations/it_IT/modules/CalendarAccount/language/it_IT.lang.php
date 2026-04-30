@@ -31,25 +31,25 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
     // System fields
-    'LBL_ASSIGNED_TO_ID' => 'Id utente assegnato',
-    'LBL_ASSIGNED_TO_NAME' => 'Assegnato a',
-    'LBL_DATE_ENTERED' => 'Data di Creazione',
+    'LBL_ASSIGNED_TO_ID' => 'Id Utente Assegnato',
+    'LBL_ASSIGNED_TO_NAME' => 'Assegnato a:',
+    'LBL_DATE_ENTERED' => 'Data Creazione',
     'LBL_DATE_MODIFIED' => 'Data Modifica',
-    'LBL_MODIFIED' => 'Modificato da',
+    'LBL_MODIFIED' => 'Modificato Da',
     'LBL_MODIFIED_NAME' => 'Modificato da Nome',
     'LBL_CREATED' => 'Creato da',
     'LBL_CREATED_USER' => 'Creato dall\'utente',
     'LBL_MODIFIED_USER' => 'Modificato dall\'utente',
     'LBL_DESCRIPTION' => 'Descrizione',
-    'LBL_DELETED' => 'Cancellata',
+    'LBL_DELETED' => 'Eliminato',
 
     // Security groups
     'LBL_SECURITYGROUPS' => 'Gruppi di Sicurezza',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Gruppi di Sicurezza',
 
     // List view labels
-    'LBL_LIST_NAME' => 'Nome',
-    'LBL_LIST_DELETE' => 'Elimina',
+    'LBL_LIST_NAME' => 'Nome Contatto',
+    'LBL_LIST_DELETE' => 'Cancella',
     'LBL_EDIT_BUTTON' => 'Modifica',
     'LBL_REMOVE' => 'Cancella',
     'LBL_ASCENDING' => 'Crescente',
@@ -62,7 +62,7 @@ $mod_strings = [
     'LBL_OPT_IN_CONFIRMED' => 'Iscritto',
 
     // Subpanel titles
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Visualizza Cronologia',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Vedi log cambiamenti',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Attività',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
@@ -93,7 +93,7 @@ $mod_strings = [
     // Standard fields
     'LBL_NAME' => 'Nome',
     'LBL_ID' => 'ID',
-    'LBL_TYPE' => 'Gruppo/Personale',
+    'LBL_TYPE' => 'Tipo',
     'LBL_SOURCE' => 'Calendar Source',
 
     // OAuth2 Fields
@@ -166,7 +166,7 @@ $mod_strings = [
     'LBL_SUCCESSFUL' => 'Riuscito',
     'LBL_FAILED' => 'Fallito',
     'LBL_CONNECTION_TEST' => 'Connection Test',
-    'LBL_YES' => 'Si',
+    'LBL_YES' => 'Sì',
     'LBL_NO' => 'No',
     'LBL_FOUND_CALENDARS' => 'Found {count} calendars.',
     'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'An error occurred while processing the connection test response. Please check the logs for details.',

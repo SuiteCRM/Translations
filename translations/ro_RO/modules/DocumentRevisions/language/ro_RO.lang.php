@@ -46,37 +46,37 @@ $mod_strings = array(
     //module
     'LBL_MODULE_NAME' => 'Revizii de documente',
 
-    'LNK_NEW_DOCUMENT' => 'Nou document',
+    'LNK_NEW_DOCUMENT' => 'Creează document',
     'LNK_DOCUMENT_LIST' => 'Documente',
 
     //vardef labels
-    'LBL_REVISION_NAME' => 'Număr revizie',
+    'LBL_REVISION_NAME' => 'Revizuire număr',
     'LBL_FILENAME' => 'Fișier:',
     'LBL_MIME' => 'Tip Mime',
     'LBL_REVISION' => 'Revizie',
     'LBL_DOCUMENT' => 'Document asociat',
-    'LBL_LATEST_REVISION' => 'Ultima revizie',
-    'LBL_CHANGE_LOG' => 'Jurnalul de modificări',
+    'LBL_LATEST_REVISION' => 'Ultima Revizie',
+    'LBL_CHANGE_LOG' => 'Schimba Log',
     'LBL_ACTIVE_DATE' => 'Dată Publicare',
-    'LBL_EXPIRATION_DATE' => 'Data expirării',
-    'LBL_FILE_EXTENSION' => 'Extensie fișier',
+    'LBL_EXPIRATION_DATE' => 'Data expirarii',
+    'LBL_FILE_EXTENSION' => 'Extensia fișierului',
 
     'LBL_DOC_NAME' => 'Nume Document:',
-    'LBL_DOC_VERSION' => 'Revizie:',
+    'LBL_DOC_VERSION' => 'Revizie',
 
     //document revisions.
     'LBL_REV_LIST_REVISION' => 'Revizie',
-    'LBL_REV_LIST_ENTERED' => 'Data creării',
-    'LBL_REV_LIST_CREATED' => 'Creat de',
+    'LBL_REV_LIST_ENTERED' => 'Creat la',
+    'LBL_REV_LIST_CREATED' => 'Created by',
     'LBL_REV_LIST_LOG' => 'Jurnalul de modificări',
-    'LBL_REV_LIST_FILENAME' => 'Fișier',
+    'LBL_REV_LIST_FILENAME' => 'Nume fișier',
 
     'LBL_CURRENT_DOC_VERSION' => 'Ultima revizie:',
-    'LBL_SEARCH_FORM_TITLE' => 'Caută documente',
+    'LBL_SEARCH_FORM_TITLE' => 'Căutare document',
     'LBL_REVISIONS' => 'Revizii',
 
     //error messages
-    'ERR_FILENAME' => 'Nume fișier',
+    'ERR_FILENAME' => 'Numele fișierului',
     'ERR_DOC_VERSION' => 'Versiune document',
     'ERR_DELETE_CONFIRM' => 'Doriți să ștergeți această revizuire a documentului?',
     'ERR_DELETE_LATEST_VERSION' => 'Nu aveți permisiunea de a șterge ultima revizuire a unui document.',

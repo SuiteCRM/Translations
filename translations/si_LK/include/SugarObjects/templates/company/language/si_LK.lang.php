@@ -97,7 +97,7 @@ $mod_strings = array(
     'LBL_PHONE_FAX' => 'දුරකථන ෆැක්ස්:',
     'LBL_PHONE_OFFICE' => 'කාර්යාලය දුරකථන:',
     'LBL_PHONE' => 'දුරකතන:',
-    'LBL_EMAIL_ADDRESS' => 'විද්යුත් තැපැල් ලිපිනය',
+    'LBL_EMAIL_ADDRESS' => 'වි-තැපැල් ලිපිනය',
     'LBL_EMAIL_ADDRESSES' => 'විද්යුත් තැපැල් ලිපිනය (හෝ ලිපින)',
     'LBL_POSTAL_CODE' => 'තැපැල් කේතය:',
     'LBL_SAVE_ACCOUNT' => 'ගිණුම සුරකින්න',
@@ -116,7 +116,7 @@ $mod_strings = array(
     'LBL_TYPE' => ' වර්ගය:',
     'LBL_WEBSITE' => 'වෙබ් අඩවිය:',
 
-    'LNK_ACCOUNT_LIST' => 'ගිණුම්',
+    'LNK_ACCOUNT_LIST' => 'Accounts',
     'LNK_NEW_ACCOUNT' => 'ගිණුම තනන්න',
 
     'MSG_DUPLICATE' => 'ඔබ නිර්මාණය කිරීමට නියමිත ගිණුම වාර්තා දැනටමත් පවතින බව ගිණුමක් වාර්තා අනුපිටපතක් විය හැකිය. සමාන නම් සහිත ගිණුම වාර්තා පහත ලැයිස්තු ගත කර ඇත. මෙම නව ගිණුම නිර්මාණය කිරීම දිගටම ගිණුමක් නිර්මාණය කරන්න, හෝ පහත ලැයිස්තු ගත කර, දැනට පවතින ගිණුමක් තෝරා ක්ලික් කරන්න <br>.',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => ' ඔබ මෙම වාර්තාව මැකීමට අවශ්ය බව ඔබට විශ්වාසද?',
 
     'LBL_EDIT_BUTTON' => 'සංස්කරණය',
-    'LBL_REMOVE' => 'ඉවත් කරන්න',
+    'LBL_REMOVE' => ' ඉවත් කරන්න',
 
 );

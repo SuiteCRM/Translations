@@ -44,12 +44,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     //Column header mapping
-    'action' => 'Գործողություն',
-    'date_modified' => 'Վերջին գործողության ամսաթիվը',
+    'action' => 'Action',
+    'date_modified' => 'Date of Last Action',
     'item_id' => 'ID',
-    'item_summary' => 'Անվանում',
-    'module_name' => 'Մոդուլի անվանումը',
-    'users' => 'Օգտագործողներ',
+    'item_summary' => 'Name',
+    'module_name' => 'Module Name',
+    'users' => 'Users',
 
     //Administration related labels
     'LBL_MODULE_NAME' => 'Trackers',

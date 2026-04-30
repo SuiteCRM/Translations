@@ -69,7 +69,7 @@ $mod_strings = array(
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Cases',
     'LBL_DESCRIPTION' => 'Na here you go sabi as the thing be:',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'History',
-    'LBL_INVITEE' => 'Contacts',
+    'LBL_INVITEE' => 'Contacts dem',
     'LBL_MEMBER_OF' => 'Account',
     'LBL_MODULE_NAME' => 'Cases',
     'LBL_MODULE_TITLE' => 'Cases: Home',
@@ -105,7 +105,7 @@ $mod_strings = array(
     'LBL_CREATED_USER' => 'Created User',
     'LBL_MODIFIED_USER' => 'Modified User',
     'LBL_PROJECT_SUBPANEL_TITLE' => 'Projects dem',
-    'LBL_CASE_INFORMATION' => 'Overview', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_CASE_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
     // SNIP
     'LBL_UPDATE_TEXT' => 'Updates - Text', //Field for Case updates with text only

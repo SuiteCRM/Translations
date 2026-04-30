@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'کهاتے',
+    'LBL_MODULE_NAME' => 'Accounts',
     'LBL_MODULE_TITLE' => 'اکاؤنٹس: ہوم',
     'LBL_SEARCH_FORM_TITLE' => 'اکاؤنٹ تلاش کریں',
     'LBL_LIST_FORM_TITLE' => 'اکاؤنٹ کی فہرست',

@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Grupas',
-    'LBL_GROUP_NAME' => 'Grupas nosaukums:',
-    'LBL_DESCRIPTION' => 'Apraksts',
-    'LBL_TEAM' => 'Darba grupa:',
+    'LBL_MODULE_NAME' => 'Groups',
+    'LBL_GROUP_NAME' => 'Group Name:',
+    'LBL_DESCRIPTION' => 'Apraksts:',
+    'LBL_TEAM' => 'Team:',
     // ListView
-    'LBL_LIST_TITLE' => 'Grupas',
+    'LBL_LIST_TITLE' => 'Groups',
     // Links
     'LNK_ALL_GROUPS' => 'Visas grupas',
     'LNK_NEW_GROUP' => 'Izveidot grupu',

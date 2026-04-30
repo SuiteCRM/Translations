@@ -33,27 +33,27 @@ $mod_strings = [
     // System fields
     'LBL_ASSIGNED_TO_ID' => 'Atsakingo Vartotojo Id',
     'LBL_ASSIGNED_TO_NAME' => 'Priskirtas',
-    'LBL_DATE_ENTERED' => 'Sukurta',
-    'LBL_DATE_MODIFIED' => 'Redagavimo data',
+    'LBL_DATE_ENTERED' => 'Sukūrimo data',
+    'LBL_DATE_MODIFIED' => 'Redaguota',
     'LBL_MODIFIED' => 'Redagavo',
     'LBL_MODIFIED_NAME' => 'Redaguotojo vardas',
     'LBL_CREATED' => 'Sukūrė',
-    'LBL_CREATED_USER' => 'Sukūrė vartotojas',
-    'LBL_MODIFIED_USER' => 'Redagavo vartotojas',
-    'LBL_DESCRIPTION' => 'Aprašymas',
-    'LBL_DELETED' => 'Ištrintas',
+    'LBL_CREATED_USER' => 'Sukūrė',
+    'LBL_MODIFIED_USER' => 'Redagavo',
+    'LBL_DESCRIPTION' => 'Aprašymas:',
+    'LBL_DELETED' => 'Ištrinta',
 
     // Security groups
-    'LBL_SECURITYGROUPS' => 'Apsaugotos grupės',
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Apsaugotos grupės',
+    'LBL_SECURITYGROUPS' => 'Security Groups',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
 
     // List view labels
     'LBL_LIST_NAME' => 'Vardas',
-    'LBL_LIST_DELETE' => 'Ištrinti',
+    'LBL_LIST_DELETE' => 'Trinti',
     'LBL_EDIT_BUTTON' => 'Redaguoti',
     'LBL_REMOVE' => 'Išmesti',
-    'LBL_ASCENDING' => 'Didėjimo tvarka',
-    'LBL_DESCENDING' => 'Mažėjimo tvarka',
+    'LBL_ASCENDING' => 'Ascending',
+    'LBL_DESCENDING' => 'Descending',
 
     // Email opt-in labels
     'LBL_OPT_IN' => 'Pasirinkimas',
@@ -62,8 +62,8 @@ $mod_strings = [
     'LBL_OPT_IN_CONFIRMED' => 'Patvirtintas',
 
     // Subpanel titles
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Peržiūros istorija',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Įvykiai',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Rodyti istoriją',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Priminimai',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
 
@@ -101,8 +101,8 @@ $mod_strings = [
     'LBL_CONNECT_OAUTH' => 'Connect OAuth',
 
     // Basic Auth Fields
-    'LBL_USERNAME' => 'Vartotojo vardas',
-    'LBL_PASSWORD' => 'Slaptažodis',
+    'LBL_USERNAME' => 'Username',
+    'LBL_PASSWORD' => 'SMTP slaptažodis:',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test Connection',
 
@@ -162,9 +162,9 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Please select a calendar source first.',
 
     // Connection test messages
-    'LBL_CALENDAR' => 'Kalendorius',
-    'LBL_SUCCESSFUL' => 'Sėkmingas',
-    'LBL_FAILED' => 'Nepavyko',
+    'LBL_CALENDAR' => 'Calendar',
+    'LBL_SUCCESSFUL' => 'Successful',
+    'LBL_FAILED' => 'Failed',
     'LBL_CONNECTION_TEST' => 'Connection Test',
     'LBL_YES' => 'Yes',
     'LBL_NO' => '--Tuščia--',
@@ -182,13 +182,13 @@ $mod_strings = [
 
     // Dialog labels
     'LBL_NOTIFICATION' => 'Notification',
-    'LBL_CONFIRM' => 'Patvirtinti',
+    'LBL_CONFIRM' => 'Confirm',
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
     'LBL_SYNC_STATUS_IN_PROGRESS' => 'Progrese',
-    'LBL_SYNC_STATUS_SUCCESS' => 'Sėkmingai',
-    'LBL_SYNC_STATUS_WARNING' => 'Perspėjimas:',
+    'LBL_SYNC_STATUS_SUCCESS' => 'Success',
+    'LBL_SYNC_STATUS_WARNING' => 'Warning',
     'LBL_SYNC_STATUS_ERROR' => 'Klaida:',
 
     // Sync message enum translations
@@ -202,5 +202,5 @@ $mod_strings = [
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Calendar not found.',
 
     // Relationship labels
-    'LBL_MEETINGS' => 'Susitikimai',
+    'LBL_MEETINGS' => 'Meetings',
 ];

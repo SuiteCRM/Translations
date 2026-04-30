@@ -44,8 +44,8 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ROLE' => 'Tungkulin',
-    'LBL_NAME' => 'Ang Pangalan',
-    'LBL_DESCRIPTION' => 'Paglalarawan',
+    'LBL_NAME' => 'Ang pangalan',
+    'LBL_DESCRIPTION' => 'Ang deskripsyon',
     'LIST_ROLES' => 'Listahan ng mga papel na ginagampanan',
     'LBL_USERS_SUBPANEL_TITLE' => 'Ang mga gumagamit',
     'LIST_ROLES_BY_USER' => 'Sa Pamamagitan ng Gumagamit naka lista ang mga tungkulin',

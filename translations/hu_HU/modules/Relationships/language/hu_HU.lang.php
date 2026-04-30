@@ -54,9 +54,9 @@ $mod_strings = array(
     'LBL_JOIN_TABLE' => 'Join táblázat neve',
     'LBL_JOIN_KEY_LHS' => 'Join kulcs LHS',
     'LBL_JOIN_KEY_RHS' => 'Join kulcs RHS',
-    'LBL_RELATIONSHIP_TYPE' => 'Összefüggés típusa',
+    'LBL_RELATIONSHIP_TYPE' => 'Relationship Type',
     'LBL_RELATIONSHIP_ROLE_COLUMN' => 'Összefüggés szerepkör oszlop neve',
     'LBL_RELATIONSHIP_ROLE_COLUMN_VALUE' => 'Összefüggés szerepkör oszlop érték',
     'LBL_REVERSE' => 'Fordított',
-    'LBL_DELETED' => 'Törölve',
+    'LBL_DELETED' => 'Deleted',
 );

@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LNK_NEW_CALL' => 'Journal d\'appel',
+    'LNK_NEW_CALL' => 'Enregistrer un appel',
     'LNK_NEW_MEETING' => 'Organiser une réunion',
-    'LNK_NEW_TASK' => 'Créer Tâche',
+    'LNK_NEW_TASK' => 'Planifier une tâche',
     'LNK_NEW_NOTE' => 'Créer une note ou une pièce jointe',
     'LNK_NEW_EMAIL' => 'Archiver E-mail',
     'LNK_CALL_LIST' => 'Appels',

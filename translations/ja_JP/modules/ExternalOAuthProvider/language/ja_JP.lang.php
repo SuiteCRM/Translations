@@ -45,21 +45,21 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = [
 
     'LBL_ASSIGNED_TO_ID' => 'アサインされたユーザーID',
-    'LBL_ASSIGNED_TO_NAME' => 'アサイン先',
+    'LBL_ASSIGNED_TO_NAME' => '担当ユーザー名',
     'LBL_ID' => 'ID',
-    'LBL_DATE_ENTERED' => '作成日',
-    'LBL_DATE_MODIFIED' => '更新日',
-    'LBL_MODIFIED' => '更新者',
-    'LBL_MODIFIED_NAME' => '更新者',
-    'LBL_CREATED' => '作成者',
-    'LBL_DESCRIPTION' => '詳細',
-    'LBL_DELETED' => '削除済み',
-    'LBL_NAME' => '名前',
-    'LBL_CREATED_USER' => 'ユーザーが作成',
-    'LBL_MODIFIED_USER' => 'ユーザーが更新',
-    'LBL_LIST_NAME' => '名前',
-    'LBL_EDIT_BUTTON' => '編集',
-    'LBL_REMOVE' => '削除',
+    'LBL_DATE_ENTERED' => 'Date Created',
+    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_MODIFIED' => 'Modified By',
+    'LBL_MODIFIED_NAME' => 'Modified By Name',
+    'LBL_CREATED' => 'Created By',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_DELETED' => 'Deleted',
+    'LBL_NAME' => '名称',
+    'LBL_CREATED_USER' => 'ユーザが作成',
+    'LBL_MODIFIED_USER' => 'ユーザが更新',
+    'LBL_LIST_NAME' => '名称',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_REMOVE' => 'Remove',
     'LBL_LIST_FORM_TITLE' => 'External OAuth Provider List',
     'LBL_MODULE_NAME' => '外部OAuthプロバイダ',
     'LBL_MODULE_TITLE' => '外部OAuthプロバイダ',
@@ -68,12 +68,12 @@ $mod_strings = [
 
     'LNK_LIST' => '外部OAuthプロバイダ',
     'LBL_SEARCH_FORM_TITLE' => 'Search External OAuth Providers',
-    'LBL_HISTORY_SUBPANEL_TITLE' => '履歴',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => '活動',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_NEW_FORM_TITLE' => 'New External OAuth Provider',
 
-    'LBL_LIST_DELETE' => '削除',
-    'LBL_TYPE' => 'タイプ',
+    'LBL_LIST_DELETE' => 'Delete',
+    'LBL_TYPE' => 'Type',
     'LBL_CONNECTOR' => 'Connector',
     'LBL_REDIRECT_URI' => 'Redirect URI',
     'LBL_REDIRECT_URI_TYPE' => 'Redirect URI Type',
@@ -97,7 +97,7 @@ $mod_strings = [
 
     'LBL_EXTRA' => '追加構成',
     'LBL_MAPPING' => 'マッピングの構成',
-    'LBL_OTHER' => 'その他',
+    'LBL_OTHER' => 'Other',
 
 
     'LNK_LIST_CREATE_NEW_PERSONAL' => '新しいOAuthプロバイダ',
@@ -106,5 +106,5 @@ $mod_strings = [
     'LNK_LIST_OUTBOUND_EMAILS' => '送信メール アカウント',
     'LNK_LIST_EXTERNAL_OAUTH_CONNECTION' => '外部OAuth接続',
 
-    'LBL_OWNER' => 'オーナー',
+    'LBL_OWNER' => 'Owner',
 ];

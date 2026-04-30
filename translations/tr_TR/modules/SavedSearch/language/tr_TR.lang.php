@@ -49,14 +49,14 @@ $mod_strings = array(
     'LBL_DELETE_CONFIRM' => 'Seçilmiş kaydedilmiş süzgeci silmek istediğinize emin misiniz?',
     'LBL_DELETE_BUTTON_TITLE' => 'Bu kaydedilmiş süzgeci sil',
     'LBL_SAVE_BUTTON_TITLE' => 'Geçerli süzgeci kaydet',
-    'LBL_LIST_NAME' => 'Ad',
+    'LBL_LIST_NAME' => 'Paket Adı:',
     'LBL_LIST_MODULE' => 'Modül',
     'LBL_ORDER_BY_COLUMNS' => 'Sütuna göre sırala:',
     'LBL_DIRECTION' => 'Yön:',
     'LBL_SAVE_SEARCH_AS' => 'Süzgeci farklı kaydet:',
     'LBL_ASCENDING' => 'Artan',
     'LBL_DESCENDING' => 'Azalan',
-    'LBL_MODIFY_CURRENT_FILTER' => 'Geçerli süzgeci düzenle',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
     'LBL_CREATED_BY' => 'Ekleyen',
 

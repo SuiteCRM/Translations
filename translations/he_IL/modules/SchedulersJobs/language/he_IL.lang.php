@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_NAME' => 'שם הגוב',
-    'LBL_EXECUTE_TIME' => 'זמן ביצוע',
-    'LBL_SCHEDULER_ID' => 'יומן',
+    'LBL_NAME' => 'Job Name',
+    'LBL_EXECUTE_TIME' => 'Execute Time',
+    'LBL_SCHEDULER_ID' => 'מתזמן ארועים',
     'LBL_STATUS' => 'מצב עבודה',
     'LBL_RESOLUTION' => 'Result',
     'LBL_MESSAGE' => 'הודעות',

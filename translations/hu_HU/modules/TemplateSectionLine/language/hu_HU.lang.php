@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_DESCRIPTION' => 'Leírás',
+    'LBL_DESCRIPTION' => 'Üzenet tartalma',
     'LBL_NAME' => 'Név',
-    'LBL_LIST_NAME' => 'Név',
+    'LBL_LIST_NAME' => 'Elnevezés',
     'LBL_EDIT_BUTTON' => 'Szerkesztés',
-    'LBL_REMOVE' => 'Sil',
-    'LBL_GRP' => 'Csoport',
-    'LBL_ORD' => 'Sorrend',
+    'LBL_REMOVE' => 'Remove',
+    'LBL_GRP' => 'Group',
+    'LBL_ORD' => 'Order',
     'LBL_THUMBNAIL' => 'Bélyegkép',
 );

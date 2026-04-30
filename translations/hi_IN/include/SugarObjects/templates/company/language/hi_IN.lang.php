@@ -56,8 +56,8 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'उपयोगकर्ता:',
     'LBL_RATING' => 'दर',
     'LBL_ASSIGNED_TO' => 'को असाइन किया:',
-    'LBL_ASSIGNED_USER' => 'को असाइन किया:',
-    'LBL_ASSIGNED_TO_ID' => 'को असाइन किया:',
+    'LBL_ASSIGNED_USER' => 'को सौंपा गया:',
+    'LBL_ASSIGNED_TO_ID' => 'को सौंपा गया:',
     'LBL_BILLING_ADDRESS_CITY' => 'बिलिंग शहर:',
     'LBL_BILLING_ADDRESS_COUNTRY' => 'बिलिंग देश:',
     'LBL_BILLING_ADDRESS_POSTALCODE' => 'बिलिंग डाक कोड:',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'क्या आप वाकई यह रिकॉर्ड हटाना चाहते हैं?',
 
     'LBL_EDIT_BUTTON' => 'संपादन करना  ',
-    'LBL_REMOVE' => 'हटाऐं',
+    'LBL_REMOVE' => 'हटाएँ',
 
 );
