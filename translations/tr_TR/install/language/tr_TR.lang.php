@@ -86,7 +86,7 @@ $mod_strings = array(
     'ERR_CHECKSYS_ENV_NOT_WRITABLE' => '.env dosyası veya içinde bulunduğu klasör yazılabilir değil.',
     'ERR_CHECKSYS_JSON_NOT_AVAILABLE' => "SuiteCRM uygulaması tarafından gerek duyulan JSON İşleme Kitaplıkları bulunamadı. PHP sürümünüze bağlı olarak, php.ini dosyasında eklentileri satırlarının başındaki yorum karakterlerini kaldırarak satırları etkinleştirmeniz ya da PHP sürümünüze bağlı olarak PHP kopyasını doğru binary dosyası ile yeniden derlemeniz gerekebilir. Ayrıntılı bilgi almak için kullandığınız PHP sürümünün belgelerine bakabilirsiniz.",
     'LBL_CHECKSYS_OVERRIDE_CONFIG' => 'Yapılandırma değişikliği',
-    'ERR_CHECKSYS_SAFE_MODE' => 'Safe Mode açık (php.ini dosyasından devre dışı bırakmak isteyebilirsiniz)',
+    'ERR_CHECKSYS_SAFE_MODE' => 'Safe Mode açık (php.ini dosyasından kapatmak isteyebilirsiniz)',
     'ERR_CHECKSYS_ZLIB' => 'ZLib desteği bulunamadı: zlib sıkıştırma kullanıldığında SuiteCRM başarımı önemli ölçüde artar.',
     'ERR_CHECKSYS_ZIP' => 'ZIP arşivi desteği bulunamadı: ZIP arşivi dosyalarının SuiteCRM tarafından işlenebilmesi için ZIP arşivi desteği gereklidir.',
     'ERR_CHECKSYS_PCRE' => 'PCRE kitaplığı bulunamadı: Perl biçemindeki kurallı ifade eşleştirmelerinin SuiteCRM tarafından işlenebilmesi için PCRE kitaplığı gereklidir.',
@@ -269,12 +269,12 @@ $mod_strings = array(
     'LBL_DBCONF_TITLE_PSWD_INFO_LABEL' => 'Parola',
     'LBL_DISABLED_DESCRIPTION_2' => 'Bu değişiklik yapıldıktan sonra, kurulum işlemini başlatmak için aşağıdan "Başlat" üzerine tıklayabilirsiniz. Kurulum tamamlandıktan sonra \'installer_locked\' değerini \'true\' olarak değiştirmeniz istenecek',
     'LBL_DISABLED_DESCRIPTION_3' => 'After this change has been made, please revisit / reload this page to continue.',
-    'LBL_DISABLED_DESCRIPTION' => 'Kurucu zaten bir kez çalıştırılmış olduğundan, güvenlik önlemi olarak, ikinci kez çalıştırılması devre dışı bırakılmış. Kurucuyu yeniden çalıştırmak istediğinizden kesinlikle eminseniz, config.php dosyasını açarak \'installer_locked\' değişkenini bularak (ya da ekleyerek) \'false\' olarak ayarlayın Satır şu şekilde görünmelidir:',
+    'LBL_DISABLED_DESCRIPTION' => 'Kurucu zaten bir kez çalıştırılmış olduğundan, güvenlik önlemi olarak, ikinci kez çalıştırılması engellenmiş. Kurucuyu yeniden çalıştırmak istediğinizden kesinlikle eminseniz, config.php dosyasını açtıktan sonra \'installer_locked\' değişkenini bularak (ya da ekleyerek) \'false\' olarak ayarlayın Satır şu şekilde görünmelidir:',
     'LBL_DISABLED_HELP_1' => 'Kurulum yardımı için, lütfen SuiteCRM',
     'LBL_DISABLED_HELP_LNK' => 'https://community.suitecrm.com',
     'LBL_DISABLED_HELP_2' => 'Destek forumları',
     'LBL_APP_NOT_INSTALLED' => 'SuiteCRM kurulmamış. Başlamak için bir SuiteCRM kopyası olmalıdır. Lütfen önce kurulumu yapın.',
-    'LBL_DISABLED_TITLE_2' => 'SuiteCRM kurulumu devre dışı bırakılmış',
+    'LBL_DISABLED_TITLE_2' => 'SuiteCRM kurulumu engellenmiş',
     'LBL_HELP' => 'Yardım',
     'LBL_INSTALL' => 'Kur',
     'LBL_INSTALL_TYPE_TITLE' => 'Kurulum seçenekleri',
@@ -590,7 +590,7 @@ $contact_user_link_guid',
 
     //Scenario selection of modules
     'LBL_WIZARD_SCENARIO_TITLE' => 'Senaryo seçimi',
-    'LBL_WIZARD_SCENARIO_DESC' => 'Bu ayar görüntülenecek modüllerin kullanım amacınıza uygun şekilde düzenlenmesini sağlar. Modüller kurulumdan sonra yönetim bölümünden etkinleştirilebilir.',
+    'LBL_WIZARD_SCENARIO_DESC' => 'Bu ayar görüntülenecek modüllerin kullanım amacınıza uygun şekilde düzenlenmesini sağlar. Modüller kurulumdan sonra yönetim bölümünden açılabilir.',
     'LBL_WIZARD_SCENARIO_EMPTY' => 'Yapılandırma dosyasında (config.php) belirtilmiş bir senaryo yok',
 
 
