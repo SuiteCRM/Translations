@@ -52,14 +52,14 @@ $mod_strings = array(
     'LBL_LIST_NAME' => 'Naam',
     'LBL_LIST_MODULE' => 'Module',
     'LBL_ORDER_BY_COLUMNS' => 'Sorteren op kolom',
-    'LBL_DIRECTION' => 'Direction',
+    'LBL_DIRECTION' => 'Richting',
     'LBL_SAVE_SEARCH_AS' => 'Filter opslaan als:',
     'LBL_ASCENDING' => 'Oplopend',
     'LBL_DESCENDING' => 'Aflopend',
     'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
     'LBL_CREATED_BY' => 'Aangemaakt door',
-    'LBL_QUICK_FILTER' => 'Quick Filter',
+    'LBL_QUICK_FILTER' => 'Snel filteren',
 
 
 );
