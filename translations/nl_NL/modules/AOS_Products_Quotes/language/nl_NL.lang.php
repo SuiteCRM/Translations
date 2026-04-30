@@ -85,7 +85,7 @@ $mod_strings = array(
     'LBL_PRODUCT' => 'Product',
 
     'LBL_SERVICE_MODULE_NAME' => 'Diensten',
-    'LBL_LIST_NUM' => 'Aantal',
+    'LBL_LIST_NUM' => 'Nummer',
     'LBL_PARENT_ID' => 'Bovenliggend ID',
     'LBL_GROUP_NAME' => 'Groep',
     'LBL_PRODUCT_COST_PRICE_USDOLLAR' => 'Kostprijs (standaard valuta)',
