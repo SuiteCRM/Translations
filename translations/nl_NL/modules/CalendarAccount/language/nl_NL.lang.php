@@ -49,22 +49,22 @@ $mod_strings = [
 
     // List view labels
     'LBL_LIST_NAME' => 'Naam',
-    'LBL_LIST_DELETE' => 'Verwijderen',
-    'LBL_EDIT_BUTTON' => 'Bewerken',
-    'LBL_REMOVE' => 'Verwijderen',
+    'LBL_LIST_DELETE' => 'Verwijder',
+    'LBL_EDIT_BUTTON' => 'Bewerk',
+    'LBL_REMOVE' => 'Verwijder',
     'LBL_ASCENDING' => 'Oplopend',
     'LBL_DESCENDING' => 'Aflopend',
 
     // Email opt-in labels
-    'LBL_OPT_IN' => 'Inschrijven',
-    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Nog in afwachting van bevestigde opt-in, bevestigde opt-in niet verzonden',
-    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'In afwachting van bevestigen opt-in, opt-bevestigen verzonden',
-    'LBL_OPT_IN_CONFIRMED' => 'Inschrijven',
+    'LBL_OPT_IN' => 'Opt-in',
+    'LBL_OPT_IN_PENDING_EMAIL_NOT_SENT' => 'Nog in afwachting van bevestigde opt-in, opt-in bevestiging niet verzonden',
+    'LBL_OPT_IN_PENDING_EMAIL_SENT' => 'In afwachting van bevestigen opt-in, opt-in bevestiging verzonden',
+    'LBL_OPT_IN_CONFIRMED' => 'Opted-in',
 
     // Subpanel titles
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Bekijk geschiedenis',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activiteiten',
-    'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Kalender Accounts',
+    'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Kalender organisaties',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Gesynchroniseerde vergaderingen',
 
     // Import links
@@ -79,8 +79,8 @@ $mod_strings = [
     'LNK_LIST_EXTERNAL_OAUTH_CONNECTIONS' => 'Externe OAuth verbindingen',
 
     // Basic module labels
-    'LBL_MODULE_NAME' => 'Kalender Accounts',
-    'LBL_MODULE_TITLE' => 'Kalender Accounts',
+    'LBL_MODULE_NAME' => 'Kalender organisaties',
+    'LBL_MODULE_TITLE' => 'Kalender organisaties',
     'LBL_LIST_FORM_TITLE' => 'Kalender Accounts Lijst',
     'LBL_SEARCH_FORM_TITLE' => 'Kalender accounts zoeken',
     'LBL_NEW_FORM_TITLE' => 'Nieuwe Kalender Account',
@@ -101,7 +101,7 @@ $mod_strings = [
     'LBL_CONNECT_OAUTH' => 'Verbind OAuth',
 
     // Basic Auth Fields
-    'LBL_USERNAME' => 'Gebruiker',
+    'LBL_USERNAME' => 'Gebruikersnaam',
     'LBL_PASSWORD' => 'Wachtwoord',
     'LBL_SERVER_URL' => 'Server URL',
     'LBL_TEST_CONNECTION' => 'Test verbinding',
@@ -189,18 +189,18 @@ $mod_strings = [
     'LBL_SYNC_STATUS_IN_PROGRESS' => 'In behandeling',
     'LBL_SYNC_STATUS_SUCCESS' => 'Gelukt',
     'LBL_SYNC_STATUS_WARNING' => 'Waarschuwing',
-    'LBL_SYNC_STATUS_ERROR' => 'Foutmelding',
+    'LBL_SYNC_STATUS_ERROR' => 'Fout',
 
     // Sync message enum translations
-    'LBL_SYNC_MSG_SYNC_COMPLETE' => 'Alle vergaderingen gesynchroniseerd.',
-    'LBL_SYNC_MSG_UP_TO_DATE' => 'Geen nieuwe vergaderingen om te synchroniseren.',
-    'LBL_SYNC_MSG_MEETINGS_FAILED' => 'Sommige vergaderingen konden niet worden gesynchroniseerd. Controleer logs.',
-    'LBL_SYNC_MSG_SYNC_PARTIAL' => 'Sommige vergaderingen gesynchroniseerd. Meer in behandeling vanwege beperkingen.',
+    'LBL_SYNC_MSG_SYNC_COMPLETE' => 'Alle afspraken gesynchroniseerd.',
+    'LBL_SYNC_MSG_UP_TO_DATE' => 'Geen nieuwe afspraken om te synchroniseren.',
+    'LBL_SYNC_MSG_MEETINGS_FAILED' => 'Sommige afspraken konden niet worden gesynchroniseerd. Controleer logs.',
+    'LBL_SYNC_MSG_SYNC_PARTIAL' => 'Sommige afspraken gesynchroniseerd. Meer in behandeling vanwege beperkingen.',
     'LBL_SYNC_MSG_SYNC_ERROR' => 'Synchronisatiefout. Controleer logs.',
     'LBL_SYNC_MSG_TOKEN_EXPIRED' => 'Authenticatietoken is verlopen.',
     'LBL_SYNC_MSG_CONNECTION_ERROR' => 'Verbindingsfout.',
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Kalender niet gevonden.',
 
     // Relationship labels
-    'LBL_MEETINGS' => 'Vergaderingen',
+    'LBL_MEETINGS' => 'Afspraken',
 ];
