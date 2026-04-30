@@ -73,6 +73,6 @@ $mod_strings = array(
     'LBL_CONTACT_NAME' => 'Contactpersonen',
     'LBL_INTERNAL' => 'Intern bijwerken',
     'LBL_AOP_CASE_ATTACHMENTS' => 'Bijlagen:',
-    'LBL_AUTHOR' => 'Author',
-    'LBL_SOURCE' => 'Source'
+    'LBL_AUTHOR' => 'Auteur',
+    'LBL_SOURCE' => 'Bron'
 );
