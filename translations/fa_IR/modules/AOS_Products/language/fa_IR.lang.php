@@ -1,0 +1,90 @@
+<?php
+/**
+ *
+ * SugarCRM Community Edition is a customer relationship management program developed by
+ * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
+ *
+ * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
+ * Copyright (C) 2011 - 2019 SalesAgility Ltd.
+ *
+ * This program is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU Affero General Public License version 3 as published by the
+ * Free Software Foundation with the addition of the following permission added
+ * to Section 15 as permitted in Section 7(a): FOR ANY PART OF THE COVERED WORK
+ * IN WHICH THE COPYRIGHT IS OWNED BY SUGARCRM, SUGARCRM DISCLAIMS THE WARRANTY
+ * OF NON INFRINGEMENT OF THIRD PARTY RIGHTS.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with
+ * this program; if not, see http://www.gnu.org/licenses or write to the Free
+ * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301 USA.
+ *
+ * You can contact SugarCRM, Inc. headquarters at 10050 North Wolfe Road,
+ * SW2-130, Cupertino, CA 95014, USA. or at email address contact@sugarcrm.com.
+ *
+ * The interactive user interfaces in modified source and object code versions
+ * of this program must display Appropriate Legal Notices, as required under
+ * Section 5 of the GNU Affero General Public License version 3.
+ *
+ * In accordance with Section 7(b) of the GNU Affero General Public License version 3,
+ * these Appropriate Legal Notices must retain the display of the "Powered by
+ * SugarCRM" logo and "Supercharged by SuiteCRM" logo. If the display of the logos is not
+ * reasonably feasible for technical reasons, the Appropriate Legal Notices must
+ * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
+ */
+
+if (!defined('sugarEntry') || !sugarEntry) {
+    die('Not A Valid Entry Point');
+}
+
+$mod_strings = array(
+    'LBL_ASSIGNED_TO_ID' => 'Assigned User Id',
+    'LBL_ASSIGNED_TO_NAME' => 'اختصاص داده شده به',
+    'LBL_ID' => 'ID',
+    'LBL_DATE_ENTERED' => 'Date Created',
+    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_MODIFIED' => 'Modified By',
+    'LBL_MODIFIED_NAME' => 'نام ویرایش کننده',
+    'LBL_CREATED' => 'Created By',
+    'LBL_DESCRIPTION' => 'Description',
+    'LBL_DELETED' => 'حذف شده',
+    'LBL_NAME' => 'نام کالا',
+    'LBL_CREATED_USER' => 'Created by User',
+    'LBL_MODIFIED_USER' => 'کاربر ویرایش کننده',
+    'LBL_LIST_FORM_TITLE' => 'لیست کالا ها',
+    'LBL_MODULE_NAME' => 'Products',
+    'LBL_MODULE_TITLE' => 'محصولات: صفحه اصلی',
+    'LBL_HOMEPAGE_TITLE' => 'کالا های من',
+    'LNK_NEW_RECORD' => 'ایجاد کالا',
+    'LNK_LIST' => 'مشاهده کالا ها',
+    'LBL_SEARCH_FORM_TITLE' => 'جستجو در محصولات',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'فعالیت‌ها',
+    'LBL_NEW_FORM_TITLE' => 'محصول جدید',
+    'LBL_MAINCODE' => 'کد کالا',
+    'VALUE' => 'Product Name',
+    'LBL_PART_NUMBER' => 'Part Number',
+    'LBL_CATEGORY' => 'Category',
+    'LBL_TYPE' => 'نوع محصول',
+    'LBL_COST' => 'هزینه',
+    'LBL_PRICE' => 'قیمت',
+    'LBL_URL' => 'URL',
+    'LBL_CONTACT' => 'Contact',
+    'LBL_PRODUCT_IMAGE' => 'تصویر کالا',
+    'LBL_IMAGE_UPLOAD_FAIL' => 'خطا: فایل ارسالی بیش از حداکثر اندازه فایل: حداکثر اندازه فایل: ',
+    'LBL_AOS_PRODUCT_CATEGORYS_NAME' => 'شاخه کالا',
+    'LBL_AOS_PRODUCT_CATEGORY' => 'شناسه شاخه کالا',
+    'LBL_AOS_PRODUCT_CATEGORIES' => 'Product Categories',
+    'LBL_COST_USDOLLAR' => 'هزینه (ارز پیش فرض)',
+    'LBL_PRICE_USDOLLAR' => 'قیمت (پیش فرض ارز)',
+    'LBL_FILE_URL' => 'URL فایل',
+    'LBL_CUSTOMERS_PURCHASED_PRODUCTS_SUBPANEL_TITLE' => 'خریداری شده ها',
+    'LBL_PRODUCTS_PURCHASES' => 'Purchases',
+    'LBL_AOS_QUOTE_NAME' => 'Quote',
+    'LBL_ACCOUNT_NAME' => 'حساب',
+);
