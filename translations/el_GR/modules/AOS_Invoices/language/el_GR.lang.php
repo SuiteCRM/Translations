@@ -1,0 +1,203 @@
+<?php
+/**
+ *
+ * SugarCRM Community Edition is a customer relationship management program developed by
+ * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
+ *
+ * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
+ * Copyright (C) 2011 - 2019 SalesAgility Ltd.
+ *
+ * This program is free software; you can redistribute it and/or modify it under
+ * the terms of the GNU Affero General Public License version 3 as published by the
+ * Free Software Foundation with the addition of the following permission added
+ * to Section 15 as permitted in Section 7(a): FOR ANY PART OF THE COVERED WORK
+ * IN WHICH THE COPYRIGHT IS OWNED BY SUGARCRM, SUGARCRM DISCLAIMS THE WARRANTY
+ * OF NON INFRINGEMENT OF THIRD PARTY RIGHTS.
+ *
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more
+ * details.
+ *
+ * You should have received a copy of the GNU Affero General Public License along with
+ * this program; if not, see http://www.gnu.org/licenses or write to the Free
+ * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
+ * 02110-1301 USA.
+ *
+ * You can contact SugarCRM, Inc. headquarters at 10050 North Wolfe Road,
+ * SW2-130, Cupertino, CA 95014, USA. or at email address contact@sugarcrm.com.
+ *
+ * The interactive user interfaces in modified source and object code versions
+ * of this program must display Appropriate Legal Notices, as required under
+ * Section 5 of the GNU Affero General Public License version 3.
+ *
+ * In accordance with Section 7(b) of the GNU Affero General Public License version 3,
+ * these Appropriate Legal Notices must retain the display of the "Powered by
+ * SugarCRM" logo and "Supercharged by SuiteCRM" logo. If the display of the logos is not
+ * reasonably feasible for technical reasons, the Appropriate Legal Notices must
+ * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
+ */
+
+if (!defined('sugarEntry') || !sugarEntry) {
+    die('Not A Valid Entry Point');
+}
+
+$mod_strings = array(
+    'LBL_ASSIGNED_TO_ID' => 'Ταυτότητα Ανατεθειμένου Χειριστή',
+    'LBL_ASSIGNED_TO_NAME' => 'Ανατέθηκε σε',
+    'LBL_ID' => 'Ταυτότητα',
+    'LBL_DATE_ENTERED' => 'Ημ/νία καταχώρησης',
+    'LBL_DATE_MODIFIED' => 'Ημ/νία Τροποποίησης',
+    'LBL_MODIFIED' => 'Τροποποιήθηκε Από',
+    'LBL_MODIFIED_NAME' => 'Τροποποιήθηκε Από Όνομα',
+    'LBL_CREATED' => 'Δημιουργήθηκε Από',
+    'LBL_DESCRIPTION' => 'Περιγραφή',
+    'LBL_DELETED' => 'Διαγράφηκε',
+    'LBL_NAME' => 'Τίτλος:',
+    'LBL_CREATED_USER' => 'Δημιουργήθηκε από',
+    'LBL_MODIFIED_USER' => 'τροποποίηση από',
+    'ERR_DELETE_RECORD' => 'Πρέπει να προσδιορίσετε αριθμό εγγραφής για να διαγράψετε αυτόν τον λογαριασμό.',
+    'LBL_ACCOUNT_NAME' => 'Τίτλος:',
+    'LBL_ACCOUNT' => 'Company:',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
+    'LBL_ADDRESS_INFORMATION' => 'Πληροφορίες Διεύθυνσης',
+    'LBL_ANNUAL_REVENUE' => 'Annual Revenue:',
+    'LBL_ANY_ADDRESS' => 'Οποιαδήποτε Διεύθυνση:',
+    'LBL_ANY_EMAIL' => 'Any Email:',
+    'LBL_ANY_PHONE' => 'Any Phone:',
+    'LBL_RATING' => 'Rating',
+    'LBL_ASSIGNED_USER' => 'Χειριστή',
+    'LBL_BILLING_ADDRESS_CITY' => 'Billing City:',
+    'LBL_BILLING_ADDRESS_COUNTRY' => 'Billing Country:',
+    'LBL_BILLING_ADDRESS_POSTALCODE' => 'Billing Postal Code:',
+    'LBL_BILLING_ADDRESS_STATE' => 'Billing State:',
+    'LBL_BILLING_ADDRESS_STREET_2' => 'Billing Street 2',
+    'LBL_BILLING_ADDRESS_STREET_3' => 'Billing Street 3',
+    'LBL_BILLING_ADDRESS_STREET_4' => 'Billing Street 4',
+    'LBL_BILLING_ADDRESS_STREET' => 'Billing Street:',
+    'LBL_BILLING_ADDRESS' => 'Billing Address:',
+    'LBL_ACCOUNT_INFORMATION' => 'Επισκόπηση',
+    'LBL_CITY' => 'City:',
+    'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
+    'LBL_COUNTRY' => 'Χώρα',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Λογαριασμοί',
+    'LBL_DUPLICATE' => 'Possible Duplicate Account',
+    'LBL_EMAIL' => 'Ηλεκτρονικό ταχυδρομείο:',
+    'LBL_EMPLOYEES' => 'Employees:',
+    'LBL_FAX' => 'Φαξ:',
+    'LBL_INDUSTRY' => 'Industry:',
+    'LBL_LIST_ACCOUNT_NAME' => 'Όνομα Λογαριασμού',
+    'LBL_LIST_CITY' => 'City',
+    'LBL_LIST_EMAIL_ADDRESS' => 'Διευθύνσεις Email',
+    'LBL_LIST_PHONE' => 'Τηλέφωνο:',
+    'LBL_LIST_STATE' => 'State',
+    'LBL_MEMBER_OF' => 'Member of:',
+    'LBL_MEMBER_ORG_SUBPANEL_TITLE' => 'Member Organizations',
+    'LBL_OTHER_EMAIL_ADDRESS' => 'Other Email:',
+    'LBL_OTHER_PHONE' => 'Other Phone:',
+    'LBL_OWNERSHIP' => 'Ownership:',
+    'LBL_PARENT_ACCOUNT_ID' => 'Parent Account ID',
+    'LBL_PHONE_ALT' => 'Alternate Phone:',
+    'LBL_PHONE_FAX' => 'Phone Fax:',
+    'LBL_PHONE_OFFICE' => 'Phone Office:',
+    'LBL_PHONE' => 'Phone:',
+    'LBL_POSTAL_CODE' => 'Τ.Κ:',
+    'LBL_SAVE_ACCOUNT' => 'Save Account',
+    'LBL_SHIPPING_ADDRESS_CITY' => 'Shipping City:',
+    'LBL_SHIPPING_ADDRESS_COUNTRY' => 'Shipping Country:',
+    'LBL_SHIPPING_ADDRESS_POSTALCODE' => 'Shipping Postal Code:',
+    'LBL_SHIPPING_ADDRESS_STATE' => 'Shipping State:',
+    'LBL_SHIPPING_ADDRESS_STREET_2' => 'Shipping Street 2',
+    'LBL_SHIPPING_ADDRESS_STREET_3' => 'Shipping Street 3',
+    'LBL_SHIPPING_ADDRESS_STREET_4' => 'Shipping Street 4',
+    'LBL_SHIPPING_ADDRESS_STREET' => 'Shipping Street:',
+    'LBL_SHIPPING_ADDRESS' => 'Shipping Address:',
+    'LBL_STATE' => 'Περιοχή:',
+    'LBL_TICKER_SYMBOL' => 'Σύμβολο τηλετύπων:',
+    'LBL_TYPE' => 'Type:',
+    'LBL_WEBSITE' => 'Website:',
+    'LNK_ACCOUNT_LIST' => 'Λογαριασμοί',
+    'LNK_NEW_ACCOUNT' => 'Δημιουργία Λογαριασμού',
+    'MSG_DUPLICATE' => 'Η δημιουργία αυτού του λογαριασμού ενδεχομένως να δημιουργήσει αντίγραφο λογαριασμού. Μπορείτε είτε να δημιουργήσετε ένα λογαριασμό από την παρακάτω λίστα είτε να πιέσετε στην Αποθήκευση για τη δημιουργία νέου λογαριασμού με τα προεισαγμένα δεδομένα.',
+    'MSG_SHOW_DUPLICATES' => 'Η δημιουργία αυτού του λογαριασμού ενδεχομένως να δημιουργήσει αντίγραφο λογαριασμού. Μπορείτε είτε να πατήσετε στην Αποθήκευση για τη δημιουργία νέου λογαριασμού με τα προεισαγμένα δεδομένα είτε να πατήσετε Ακύρωση.',
+    'NTC_DELETE_CONFIRMATION' => 'Είστε βέβαιοι ότι θέλετε να διαγράψετε αυτή την εγγραφή;',
+    'LBL_LIST_FORM_TITLE' => 'Λίστα Τιμολογίων',
+    'LBL_MODULE_NAME' => 'Invoices',
+    'LBL_MODULE_TITLE' => 'Τιμολόγια: Αρχική',
+    'LBL_HOMEPAGE_TITLE' => 'Τα Τιμολόγια μου',
+    'LNK_NEW_RECORD' => 'Δημιουργία Τιμολογίου',
+    'LNK_LIST' => 'Προβολή Τιμολογίων',
+    'LBL_SEARCH_FORM_TITLE' => 'Αναζήτηση Τιμολογίων',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_NEW_FORM_TITLE' => 'Νέο Τιμολόγιο',
+    'LBL_TERMS_C' => 'Όροι',
+    'LBL_APPROVAL_ISSUE' => 'Θέματα Έγκρισης',
+    'LBL_APPROVAL_STATUS' => 'Κατάσταση Έγκρισης',
+    'LBL_BILLING_ACCOUNT' => 'Λογαριασμό',
+    'LBL_BILLING_CONTACT' => 'Επαφή',
+    'LBL_EXPIRATION' => 'Έγκυρο Εώς',
+    'LBL_INVOICE_NUMBER' => 'Αριθμός Τιμολογίου',
+    'LBL_OPPORTUNITY' => 'Όνομα Ευκαιρίας',
+    'LBL_TEMPLATE_DDOWN_C' => 'Πρότυπα Τιμολογίου',
+    'LBL_STAGE' => 'Στάδιο Προσφοράς',
+    'LBL_TERM' => 'Όροι Πληρωμής',
+    'LBL_SUBTOTAL_AMOUNT' => 'Subtotal',
+    'LBL_DISCOUNT_AMOUNT' => 'Discount',
+    'LBL_TAX_AMOUNT' => 'Tax',
+    'LBL_SHIPPING_AMOUNT' => 'Ναυτιλία',
+    'LBL_TOTAL_AMT' => 'Total',
+    'VALUE' => 'Τίτλος:',
+    'LBL_EMAIL_ADDRESSES' => 'Διεύθυνσεις Email',
+    'LBL_LINE_ITEMS' => 'Line Items',
+    'LBL_GRAND_TOTAL' => 'Grand Total',
+    'LBL_QUOTE_NUMBER' => 'Αριθμός Προσφοράς',
+    'LBL_QUOTE_DATE' => 'Ημερομηνία Προσφοράς',
+    'LBL_INVOICE_DATE' => 'Ημερομηνία Τιμολογίου',
+    'LBL_DUE_DATE' => 'Ημ/νία λήξης',
+    'LBL_STATUS' => 'Κατάσταση',
+    'LBL_INVOICE_STATUS' => 'Κατάσταση Τιμολογίου',
+    'LBL_PRODUCT_QUANITY' => 'Quantity',
+    'LBL_PRODUCT_NAME' => 'Προϊόν',
+    'LBL_PART_NUMBER' => 'Part Number',
+    'LBL_PRODUCT_NOTE' => 'Σημείωση',
+    'LBL_PRODUCT_DESCRIPTION' => 'Περιγραφή',
+    'LBL_LIST_PRICE' => 'Λίστα',
+    'LBL_DISCOUNT_AMT' => 'Discount',
+    'LBL_UNIT_PRICE' => 'Sale Price',
+    'LBL_TOTAL_PRICE' => 'Total',
+    'LBL_VAT' => 'Tax', //VAT
+    'LBL_VAT_AMT' => 'Tax Amount', //VAT
+    'LBL_ADD_PRODUCT_LINE' => 'Add Product Line',
+    'LBL_SERVICE_NAME' => 'Service',
+    'LBL_SERVICE_LIST_PRICE' => 'Λίστα',
+    'LBL_SERVICE_PRICE' => 'Sale Price',
+    'LBL_SERVICE_DISCOUNT' => 'Discount',
+    'LBL_ADD_SERVICE_LINE' => 'Add Service Line ',
+    'LBL_REMOVE_PRODUCT_LINE' => 'Remove',
+    'LBL_PRINT_AS_PDF' => 'Print as PDF',
+    'LBL_EMAIL_INVOICE' => 'Αποστολή Τιμολογίου με Email',
+    'LBL_LIST_NUM' => 'Αριθ',
+    'LBL_PDF_NAME' => 'Invoice',
+    'LBL_EMAIL_NAME' => 'Τιμολόγιο για',
+    'LBL_NO_TEMPLATE' => 'ΣΦΑΛΜΑ\nΔεν βρέθηκαν πρότυπα. Εάν δεν εχετε δημιουργήσει ένα πρότυπο Τιμολογίου, πηγαίνετε στην ενότητα Πρότυπα PDF και δημιουργήστε ένα',
+    'LBL_SUBTOTAL_TAX_AMOUNT' => 'Υποσύνολο + Φόρος',//pre shipping
+    'LBL_EMAIL_PDF' => 'PDF μέσω e-mail',
+    'LBL_ADD_GROUP' => 'Add Group',
+    'LBL_DELETE_GROUP' => 'Delete Group',
+    'LBL_GROUP_NAME' => 'Group Name',
+    'LBL_GROUP_TOTAL' => 'Group Total',
+    'LBL_SHIPPING_TAX' => 'Shipping Tax',
+    'LBL_SHIPPING_TAX_AMT' => 'Shipping Tax',
+    'LBL_IMPORT_LINE_ITEMS' => 'Εισαγωγή Στοιχείων Γραμμής',
+    'LBL_SUBTOTAL_AMOUNT_USDOLLAR' => 'Subtotal (Default Currency)',
+    'LBL_DISCOUNT_AMOUNT_USDOLLAR' => 'Discount (Default Currency)',
+    'LBL_TAX_AMOUNT_USDOLLAR' => 'Tax (Default Currency)',
+    'LBL_SHIPPING_AMOUNT_USDOLLAR' => 'Shipping (Default Currency)',
+    'LBL_TOTAL_AMT_USDOLLAR' => 'Total (Default Currency)',
+    'LBL_SHIPPING_TAX_AMT_USDOLLAR' => 'Shipping Tax (Default Currency)',
+    'LBL_GRAND_TOTAL_USDOLLAR' => 'Grand Total (Default Currency)',
+    'LBL_INVOICE_TO' => 'Τιμολόγιο προς',
+    'LBL_AOS_LINE_ITEM_GROUPS' => 'Line Item Groups',
+    'LBL_AOS_PRODUCT_QUOTES' => 'Προσφορές Προϊόντος',
+    'LBL_AOS_QUOTES_AOS_INVOICES' => 'Προσφορές: Τιμολόγια',
+);
