@@ -117,7 +117,7 @@ $mod_strings = array(
 
     'LBL_OWNER' => 'Owner',
     'LBL_OWNER_NAME' => 'Owner',
-    'LBL_IS_DEFAULT' => 'Default',
+    'LBL_IS_DEFAULT' => 'Standaard',
     'LBL_IS_PERSONAL' => 'Is persoonlijk',
     'LBL_SET_AS_DEFAULT_BUTTON' => 'Instellen als standaard',
 
