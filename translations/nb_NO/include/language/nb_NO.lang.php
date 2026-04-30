@@ -51,8 +51,8 @@ $app_list_strings = array(
     'moduleList' => array(
         'Home' => 'Hjem',
         'ResourceCalendar' => 'Ressurskalender',
-        'Contacts' => 'Kontakter',
-        'Accounts' => 'Kunder',
+        'Contacts' => 'Contacts',
+        'Accounts' => 'Accounts',
         'Alerts' => 'Varsler',
         'Opportunities' => 'Salgsmuligheter',
         'Cases' => 'Kundestøtte',
@@ -65,20 +65,20 @@ $app_list_strings = array(
         'Meetings' => 'Møter',
         'Tasks' => 'Oppgaver',
         'Calendar' => 'Kalender',
-        'Leads' => 'Ledetråder',
+        'Leads' => 'Leads',
         'Currencies' => 'Valuta',
-        'Activities' => 'Aktiviteter',
+        'Activities' => 'Activities',
         'Bugs' => 'Feil',
         'Feeds' => 'RSS',
         'iFrames' => 'Portal',
         'TimePeriods' => 'Tidsperioder',
         'ContractTypes' => 'Kontrakttyper',
         'Schedulers' => 'Planleggere',
-        'Project' => 'Prosjekter',
+        'Project' => 'Projects',
         'ProjectTask' => 'Prosjektoppgaver',
         'Campaigns' => 'Kampanjer',
         'CampaignLog' => 'Kampanje logg',
-        'Documents' => 'Dokumenter',
+        'Documents' => 'Documents',
         'DocumentRevisions' => 'Dokumentversjoner',
         'Connectors' => 'Knyttinger',
         'Roles' => 'Roller',
@@ -86,8 +86,8 @@ $app_list_strings = array(
         'Sync' => 'Synk',
         'Users' => 'Brukere',
         'Employees' => 'Ansatte',
-        'Administration' => 'Administrasjon',
-        'ACLRoles' => 'Roller',
+        'Administration' => 'Administration',
+        'ACLRoles' => 'Roles',
         'InboundEmail' => 'Innkommende e-post',
         'Releases' => 'Utgaver',
         'Prospects' => 'Mål',
@@ -100,7 +100,7 @@ $app_list_strings = array(
         'Trackers' => 'Trackere',
         'TrackerSessions' => 'Sporing sesjon',
         'TrackerQueries' => 'Tracker forespørsler',
-        'FAQ' => 'Ofte stillede spørgsmål',
+        'FAQ' => 'FAQ',
         'Newsletters' => 'Nyhetsbrev',
         'SugarFeed' => 'SutieCRM nyhetsstrøm',
         'SugarFavorites' => 'SuiteCRM Favoritter',
@@ -108,12 +108,12 @@ $app_list_strings = array(
         'OAuthKeys' => 'OAuth konsumentnøkler',
         'OAuthTokens' => 'OAuthsumboler',
         'OAuth2Clients' => 'OAuth-klienter',
-        'OAuth2Tokens' => 'OAuthsumboler',
+        'OAuth2Tokens' => 'OAuth Tokens',
         'OAuth2AuthCodes' => 'OAuth Authorization Codes',
     ),
 
     'moduleListSingular' => array(
-        'Home' => 'Hjem',
+        'Home' => 'Home',
         'Dashboard' => 'Oversikt',
         'Contacts' => 'Kontakt',
         'Accounts' => 'Kunde',
@@ -125,22 +125,22 @@ $app_list_strings = array(
         'EmailTemplates' => 'Mal for e-post:',
         'Meetings' => 'Møter',
         'Tasks' => 'Oppgaver',
-        'Calendar' => 'Kalender',
+        'Calendar' => 'Calendar',
         'Leads' => 'Ledetråder',
         'Activities' => 'Aktiviteter',
         'Bugs' => 'Feil',
         'KBDocuments' => 'Kunnskapsbase',
         'Feeds' => 'RSS',
-        'iFrames' => 'Portal',
+        'iFrames' => 'My Sites',
         'TimePeriods' => 'Tidsperioder',
         'Project' => 'Prosjekt',
         'ProjectTask' => 'Prosjektoppgaver',
         'Prospects' => 'Mål',
         'Campaigns' => 'Kampanje',
-        'Documents' => 'Dokument',
-        'Sync' => 'Synk',
-        'Users' => 'Bruker',
-        'SugarFavorites' => 'SuiteCRM Favoritter',
+        'Documents' => 'Document',
+        'Sync' => 'Sync',
+        'Users' => 'User',
+        'SugarFavorites' => 'SuiteCRM Favorites',
 
     ),
 
@@ -153,16 +153,16 @@ $app_list_strings = array(
     //e.g. en français 'Analyst'=>'Analyste',
     'account_type_dom' => array(
         '' => '',
-        'Analyst' => 'Analytiker',
-        'Competitor' => 'Konkurrent',
-        'Customer' => 'Kunde',
+        'Analyst' => 'Analyst',
+        'Competitor' => 'Competitor',
+        'Customer' => 'Customer',
         'Integrator' => 'Integrator',
         'Investor' => 'Investor',
         'Partner' => 'Partner',
-        'Press' => 'Presse',
-        'Prospect' => 'Prospekt',
-        'Reseller' => 'Distributør',
-        'Other' => 'Annen',
+        'Press' => 'Press',
+        'Prospect' => 'Prospect',
+        'Reseller' => 'Reseller',
+        'Other' => 'Other',
     ),
     //e.g. en español 'Apparel'=>'Ropa',
     'industry_dom' => array(
@@ -196,7 +196,7 @@ $app_list_strings = array(
         'Telecommunications' => 'Telekommunikasjon',
         'Transportation' => 'Transport',
         'Utilities' => 'Verktøy',
-        'Other' => 'Annen',
+        'Other' => 'Other',
     ),
     'lead_source_default_key' => 'Self Generated',
     'lead_source_dom' => array(
@@ -212,14 +212,14 @@ $app_list_strings = array(
         'Trade Show' => 'Messe',
         'Web Site' => 'Nettside',
         'Word of mouth' => 'Rykte',
-        'Email' => 'E-post',
-        'Campaign' => 'Kampanje',
-        'Other' => 'Annen',
+        'Email' => 'Email',
+        'Campaign' => 'Campaign',
+        'Other' => 'Other',
     ),
     'opportunity_type_dom' => array(
         '' => '',
-        'Existing Business' => 'Foreliggende virksomhet',
-        'New Business' => 'Ny virksomhet',
+        'Existing Business' => 'Existing Business',
+        'New Business' => 'New Business',
     ),
     'roi_type_dom' => array(
         'Revenue' => 'Inntekter',
@@ -240,7 +240,7 @@ $app_list_strings = array(
         'Technical Evaluator' => 'Teknisk ekspert',
         'Executive Sponsor' => 'Ledelse',
         'Influencer' => 'Person med innflytelse',
-        'Other' => 'Annen',
+        'Other' => 'Other',
     ),
     //Note:  do not translate case_relationship_type_default_key
 //       it is the key for the default case_relationship_type_dom value
@@ -282,11 +282,11 @@ $app_list_strings = array(
             'Closed Lost' => '0',
         ),
     'activity_dom' => array(
-        'Call' => 'Oppringninger',
-        'Meeting' => 'Møter',
-        'Task' => 'Oppgaver',
-        'Email' => 'E-post',
-        'Note' => 'Notat',
+        'Call' => 'Call',
+        'Meeting' => 'Meeting',
+        'Task' => 'Task',
+        'Email' => 'Email',
+        'Note' => 'Note',
     ),
     'salutation_dom' => array(
         '' => '',
@@ -318,18 +318,18 @@ $app_list_strings = array(
         86400 => '1 dag før',
     ),
 
-    'task_priority_default' => 'Media',
+    'task_priority_default' => 'Medium',
     'task_priority_dom' => array(
-        'High' => 'Høy',
-        'Medium' => 'Media',
-        'Low' => 'Lav',
+        'High' => 'High',
+        'Medium' => 'Medium',
+        'Low' => 'Low',
     ),
     'task_status_default' => 'Ikke påbegynt',
     'task_status_dom' => array(
-        'Not Started' => 'Ikke påbegynt',
+        'Not Started' => 'Not Started',
         'In Progress' => 'I progresjon',
         'Completed' => 'Fullført',
-        'Pending Input' => 'Venter på opplysninger',
+        'Pending Input' => 'Pending Input',
         'Deferred' => 'Utsatt',
     ),
     'meeting_status_default' => 'Planned',
@@ -342,14 +342,14 @@ $app_list_strings = array(
         'WebEx' => 'WebEx',
     ),
     'meeting_type_dom' => array(
-        'Other' => 'Annen',
+        'Other' => 'Other',
         'Sugar' => 'SuiteCRM',
     ),
     'call_status_default' => 'Planned',
     'call_status_dom' => array(
         'Planned' => 'Planned',
-        'Held' => 'Avholdt',
-        'Not Held' => 'Ikke Avholdt',
+        'Held' => 'Held',
+        'Not Held' => 'Not Held',
     ),
     'call_direction_default' => 'Outbound',
     'call_direction_dom' => array(
@@ -358,8 +358,8 @@ $app_list_strings = array(
     ),
     'lead_status_dom' => array(
         '' => '',
-        'New' => 'Ny',
-        'Assigned' => 'Tildelt',
+        'New' => 'New',
+        'Assigned' => 'Assigned',
         'In Process' => 'I kø?',
         'Converted' => 'Omgjort',
         'Recycled' => 'Gjenbrukt',
@@ -367,23 +367,23 @@ $app_list_strings = array(
     ),
     'case_priority_default_key' => 'P2',
     'case_priority_dom' => array(
-        'P1' => 'Høy',
-        'P2' => 'Media',
-        'P3' => 'Lav',
+        'P1' => 'High',
+        'P2' => 'Medium',
+        'P3' => 'Low',
     ),
     'user_type_dom' => array(
         'RegularUser' => 'Vanlig bruker',
         'Administrator' => 'Aministrator',
     ),
     'user_status_dom' => array(
-        'Active' => 'Aktiv',
+        'Active' => 'Active',
         'Inactive' => 'Inaktiv',
     ),
     'user_factor_auth_interface_dom' => array(
         'FactorAuthEmailCode' => 'E-post kode',
     ),
     'employee_status_dom' => array(
-        'Active' => 'Aktiv',
+        'Active' => 'Active',
         'Terminated' => 'Avsluttet',
         'Leave of Absence' => 'Permisjon',
     ),
@@ -394,18 +394,18 @@ $app_list_strings = array(
         'AOL' => 'AOL',
     ),
     'project_task_priority_options' => array(
-        'High' => 'Høy',
-        'Medium' => 'Media',
-        'Low' => 'Lav',
+        'High' => 'High',
+        'Medium' => 'Medium',
+        'Low' => 'Low',
     ),
-    'project_task_priority_default' => 'Media',
+    'project_task_priority_default' => 'Medium',
 
     'project_task_status_options' => array(
-        'Not Started' => 'Ikke påbegynt',
-        'In Progress' => 'I progresjon',
-        'Completed' => 'Fullført',
-        'Pending Input' => 'Venter på opplysninger',
-        'Deferred' => 'Utsatt',
+        'Not Started' => 'Not Started',
+        'In Progress' => 'In Progress',
+        'Completed' => 'Completed',
+        'Pending Input' => 'Pending Input',
+        'Deferred' => 'Deferred',
     ),
     'project_task_utilization_options' => array(
         '0' => 'ingen',
@@ -416,13 +416,13 @@ $app_list_strings = array(
     ),
 
     'project_status_dom' => array(
-        'Draft' => 'Utkast',
+        'Draft' => 'Draft',
         'In Review' => 'Til vurdering',
         'Underway' => 'Underveis',
         'On_Hold' => 'På Vent',
-        'Completed' => 'Fullført',
+        'Completed' => 'Completed',
     ),
-    'project_status_default' => 'Utkast',
+    'project_status_default' => 'Draft',
 
     'project_duration_units_dom' => array(
         'Days' => 'dager',
@@ -431,79 +431,79 @@ $app_list_strings = array(
 
     'activity_status_type_dom' => array(
         '' => '--Ingen--',
-        'active' => 'Aktiv',
-        'inactive' => 'Inaktiv',
+        'active' => 'Active',
+        'inactive' => 'Inactive',
     ),
 
     // Note:  do not translate record_type_default_key
     //        it is the key for the default record_type_module value
-    'record_type_default_key' => 'Kunder',
+    'record_type_default_key' => 'Accounts',
     'record_type_display' => array(
         '' => '',
-        'Accounts' => 'Kunde',
-        'Opportunities' => 'Salgsmuligheter',
-        'Cases' => 'Kundestøtte',
-        'Leads' => 'Ledetråder',
-        'Contacts' => 'Kontakt', // cn (11/22/2005) added to support Emails
+        'Accounts' => 'Account',
+        'Opportunities' => 'Opportunity',
+        'Cases' => 'Case',
+        'Leads' => 'Lead',
+        'Contacts' => 'Contact', // cn (11/22/2005) added to support Emails
 
-        'Bugs' => 'Feil',
-        'Project' => 'Prosjekt',
+        'Bugs' => 'Bug',
+        'Project' => 'Project',
 
-        'Prospects' => 'Mål',
-        'ProjectTask' => 'Prosjektoppgaver',
+        'Prospects' => 'Target',
+        'ProjectTask' => 'Project Task',
 
-        'Tasks' => 'Oppgaver',
+        'Tasks' => 'Task',
 
         'AOS_Contracts' => 'Kontrakt',
         'AOS_Invoices' => 'Faktura',
         'AOS_Quotes' => 'Tilbud',
-        'AOS_Products' => 'Produkt',
+        'AOS_Products' => 'Product',
 
     ),
 
     'record_type_display_notes' => array(
-        'Accounts' => 'Kunde',
-        'Contacts' => 'Kontakt',
-        'Opportunities' => 'Salgsmuligheter',
-        'Campaigns' => 'Kampanje',
-        'Tasks' => 'Oppgaver',
-        'Emails' => 'E-post',
+        'Accounts' => 'Account',
+        'Contacts' => 'Contact',
+        'Opportunities' => 'Opportunity',
+        'Campaigns' => 'Campaign',
+        'Tasks' => 'Task',
+        'Emails' => 'Email',
 
-        'Bugs' => 'Feil',
-        'Project' => 'Prosjekt',
-        'ProjectTask' => 'Prosjektoppgaver',
-        'Prospects' => 'Mål',
-        'Cases' => 'Kundestøtte',
-        'Leads' => 'Ledetråder',
+        'Bugs' => 'Bug',
+        'Project' => 'Project',
+        'ProjectTask' => 'Project Task',
+        'Prospects' => 'Target',
+        'Cases' => 'Case',
+        'Leads' => 'Lead',
 
-        'Meetings' => 'Møter',
-        'Calls' => 'Oppringninger',
+        'Meetings' => 'Meeting',
+        'Calls' => 'Call',
 
-        'AOS_Contracts' => 'Kontrakt',
-        'AOS_Invoices' => 'Faktura',
-        'AOS_Quotes' => 'Tilbud',
-        'AOS_Products' => 'Produkt',
+        'AOS_Contracts' => 'Contract',
+        'AOS_Invoices' => 'Invoice',
+        'AOS_Quotes' => 'Quote',
+        'AOS_Products' => 'Product',
     ),
 
     'parent_type_display' => array(
-        'Accounts' => 'Kunde',
-        'Contacts' => 'Kontakt',
-        'Tasks' => 'Oppgaver',
-        'Opportunities' => 'Salgsmuligheter',
+        'Accounts' => 'Account',
+        'Contacts' => 'Contact',
+        'Tasks' => 'Task',
+        'Opportunities' => 'Opportunity',
 
-        'Bugs' => 'Feil',
-        'Cases' => 'Kundestøtte',
-        'Leads' => 'Ledetråder',
+        'Bugs' => 'Bug',
+        'Cases' => 'Case',
+        'Leads' => 'Lead',
 
-        'Project' => 'Prosjekt',
-        'ProjectTask' => 'Prosjektoppgaver',
+        'Project' => 'Project',
+        'ProjectTask' => 'Project Task',
 
-        'Prospects' => 'Mål',
+        'Prospects' => 'Target',
 
-        'AOS_Contracts' => 'Kontrakt',
-        'AOS_Invoices' => 'Faktura',
-        'AOS_Quotes' => 'Tilbud',
-        'AOS_Products' => 'Produkt',
+        'AOS_Contracts' => 'Contract',
+        'AOS_Invoices' => 'Invoice',
+        'AOS_Quotes' => 'Quote',
+        'AOS_Products' => 'Product',
 
     ),
     'parent_line_items' => array(
@@ -511,66 +511,66 @@ $app_list_strings = array(
         'AOS_Invoices' => 'Fakturaer',
         'AOS_Contracts' => 'Kontrakter',
     ),
-    'issue_priority_default_key' => 'Media',
+    'issue_priority_default_key' => 'Medium',
     'issue_priority_dom' => array(
         'Urgent' => 'Haster',
-        'High' => 'Høy',
-        'Medium' => 'Media',
-        'Low' => 'Lav',
+        'High' => 'High',
+        'Medium' => 'Medium',
+        'Low' => 'Low',
     ),
     'issue_resolution_default_key' => '',
     'issue_resolution_dom' => array(
         '' => '',
-        'Accepted' => 'Godkjent',
-        'Duplicate' => 'Duplikat',
-        'Closed' => 'Avsluttet',
-        'Out of Date' => 'Foreldet',
-        'Invalid' => 'Ugyldig',
+        'Accepted' => 'Accepted',
+        'Duplicate' => 'Duplicate',
+        'Closed' => 'Closed',
+        'Out of Date' => 'Out of Date',
+        'Invalid' => 'Invalid',
     ),
 
-    'issue_status_default_key' => 'Ny',
+    'issue_status_default_key' => 'New',
     'issue_status_dom' => array(
-        'New' => 'Ny',
-        'Assigned' => 'Tildelt',
-        'Closed' => 'Avsluttet',
-        'Pending' => 'Avventes',
-        'Rejected' => 'Avslått',
+        'New' => 'New',
+        'Assigned' => 'Assigned',
+        'Closed' => 'Closed',
+        'Pending' => 'Pending',
+        'Rejected' => 'Rejected',
     ),
 
-    'bug_priority_default_key' => 'Media',
+    'bug_priority_default_key' => 'Medium',
     'bug_priority_dom' => array(
-        'Urgent' => 'Haster',
-        'High' => 'Høy',
-        'Medium' => 'Media',
-        'Low' => 'Lav',
+        'Urgent' => 'Urgent',
+        'High' => 'High',
+        'Medium' => 'Medium',
+        'Low' => 'Low',
     ),
     'bug_resolution_default_key' => '',
     'bug_resolution_dom' => array(
         '' => '',
-        'Accepted' => 'Godkjent',
-        'Duplicate' => 'Duplikat',
+        'Accepted' => 'Accepted',
+        'Duplicate' => 'Duplicate',
         'Fixed' => 'Fastsatt',
-        'Out of Date' => 'Foreldet',
-        'Invalid' => 'Ugyldig',
+        'Out of Date' => 'Out of Date',
+        'Invalid' => 'Invalid',
         'Later' => 'Utsatt',
     ),
-    'bug_status_default_key' => 'Ny',
+    'bug_status_default_key' => 'New',
     'bug_status_dom' => array(
-        'New' => 'Ny',
-        'Assigned' => 'Tildelt',
-        'Closed' => 'Avsluttet',
-        'Pending' => 'Avventes',
-        'Rejected' => 'Avslått',
+        'New' => 'New',
+        'Assigned' => 'Assigned',
+        'Closed' => 'Closed',
+        'Pending' => 'Pending',
+        'Rejected' => 'Rejected',
     ),
-    'bug_type_default_key' => 'Feil',
+    'bug_type_default_key' => 'Bug',
     'bug_type_dom' => array(
         'Defect' => 'Defekt',
         'Feature' => 'Ønsket funksjon',
     ),
     'case_type_dom' => array(
-        'Administration' => 'Administrasjon',
-        'Product' => 'Produkt',
-        'User' => 'Bruker',
+        'Administration' => 'Administration',
+        'Product' => 'Product',
+        'User' => 'User',
     ),
 
     'source_default_key' => '',
@@ -579,47 +579,47 @@ $app_list_strings = array(
         'Internal' => 'Intern',
         'Forum' => 'Forum',
         'Web' => 'Nett',
-        'InboundEmail' => 'E-post',
+        'InboundEmail' => 'Email',
     ),
 
     'product_category_default_key' => '',
     'product_category_dom' => array(
         '' => '',
-        'Accounts' => 'Kunder',
-        'Activities' => 'Aktiviteter',
-        'Bugs' => 'Feil',
-        'Calendar' => 'Kalender',
-        'Calls' => 'Oppringninger',
-        'Campaigns' => 'Kampanjer',
-        'Cases' => 'Kundestøtte',
-        'Contacts' => 'Kontakter',
-        'Currencies' => 'Valuta',
-        'Dashboard' => 'Oversikt',
-        'Documents' => 'Dokumenter',
-        'Emails' => 'E-post',
+        'Accounts' => 'Accounts',
+        'Activities' => 'Activities',
+        'Bugs' => 'Bugs',
+        'Calendar' => 'Calendar',
+        'Calls' => 'Calls',
+        'Campaigns' => 'Campaigns',
+        'Cases' => 'Cases',
+        'Contacts' => 'Contacts',
+        'Currencies' => 'Currencies',
+        'Dashboard' => 'Dashboard',
+        'Documents' => 'Documents',
+        'Emails' => 'Emails',
         'Feeds' => 'Nyhetsmating',
         'Forecasts' => 'Forventninger',
         'Help' => 'Hjelp',
-        'Home' => 'Hjem',
-        'Leads' => 'Ledetråder',
-        'Meetings' => 'Møter',
-        'Notes' => 'Notater:',
-        'Opportunities' => 'Salgsmuligheter',
+        'Home' => 'Home',
+        'Leads' => 'Leads',
+        'Meetings' => 'Meetings',
+        'Notes' => 'Notes',
+        'Opportunities' => 'Opportunities',
         'Outlook Plugin' => 'Outlook plugin',
-        'Projects' => 'Prosjekter',
-        'Quotes' => 'Tilbud',
-        'Releases' => 'Utgaver',
+        'Projects' => 'Projects',
+        'Quotes' => 'Quotes',
+        'Releases' => 'Releases',
         'RSS' => 'RSS',
         'Studio' => 'Studio',
         'Upgrade' => 'Oppgradering',
-        'Users' => 'Brukere',
+        'Users' => 'Users',
     ),
     /*Added entries 'Queued' and 'Sending' for 4.0 release..*/
     'campaign_status_dom' => array(
         '' => '',
         'Planning' => 'Planlegging',
-        'Active' => 'Aktiv',
-        'Inactive' => 'Inaktiv',
+        'Active' => 'Active',
+        'Inactive' => 'Inactive',
         'Complete' => 'Fullført',
         //'In Queue' => 'In Queue',
         //'Sending' => 'Sending',
@@ -628,9 +628,9 @@ $app_list_strings = array(
         '' => '',
         'Telesales' => 'Telefonsalg',
         'Mail' => 'Post',
-        'Email' => 'E-post',
+        'Email' => 'Email',
         'Print' => 'Annonsering i avis/magasin',
-        'Web' => 'Nett',
+        'Web' => 'Web',
         'Radio' => 'Radio',
         'Television' => 'TV',
         'NewsLetter' => 'Nyhetsbrev',
@@ -669,7 +669,7 @@ $app_list_strings = array(
         '2' => 'Feb',
         '3' => 'Mar',
         '4' => 'Apr',
-        '5' => 'Mai',
+        '5' => 'May',
         '6' => 'Jun',
         '7' => 'Jul',
         '8' => 'Aug',
@@ -725,25 +725,25 @@ $app_list_strings = array(
     ],
 
     'dom_external_oauth_connection_types' => [
-        'personal' => 'Personlig',
-        'group' => 'Gruppe',
+        'personal' => 'Personal',
+        'group' => 'Group',
     ],
 
     'dom_external_oauth_provider_types' => [
-        'personal' => 'Personlig',
-        'group' => 'Gruppe',
+        'personal' => 'Personal',
+        'group' => 'Group',
     ],
 
     'dom_outbound_email_account_types' => [
-        'user' => 'Personlig',
-        'group' => 'Gruppe',
+        'user' => 'Personal',
+        'group' => 'Group',
         'system' => 'Systemadministrasjon',
         'system-override' => 'System Override',
     ],
 
     'dom_inbound_email_account_status' => [
-        'Active' => 'Aktiv',
-        'Inactive' => 'Inaktiv',
+        'Active' => 'Active',
+        'Inactive' => 'Inactive',
     ],
 
     'dom_email_body_filtering_option' => [
@@ -754,35 +754,35 @@ $app_list_strings = array(
     'dom_email_types' => array(
         'out' => 'Sendt',
         'archived' => 'Arkivert',
-        'draft' => 'Utkast',
-        'inbound' => 'Inn',
-        'campaign' => 'Kampanje',
+        'draft' => 'Draft',
+        'inbound' => 'Inbound',
+        'campaign' => 'Campaign',
     ),
     'dom_email_status' => array(
-        'archived' => 'Arkivert',
-        'closed' => 'Avsluttet',
+        'archived' => 'Archived',
+        'closed' => 'Closed',
         'draft' => 'Kladd',
         'read' => 'Lest',
         'replied' => 'Svart',
-        'sent' => 'Sendt',
+        'sent' => 'Sent',
         'send_error' => 'Mislykket sending',
         'unread' => 'Ulest',
     ),
     'dom_email_archived_status' => array(
-        'archived' => 'Arkivert',
+        'archived' => 'Archived',
     ),
 
     'dom_email_server_type' => array(
-        '' => '--Ingen--',
+        '' => '--None--',
         'imap' => 'IMAP',
     ),
     'dom_mailbox_type' => array(/*''           => '--None Specified--',*/
-        'pick' => '--Ingen--',
+        'pick' => '--None--',
         'createcase' => 'Ny sak (kundestøtte)',
         'bounce' => 'Håndtering av returnerte meldinger',
     ),
     'dom_email_distribution' => array(
-        '' => '--Ingen--',
+        '' => '--None--',
         'direct' => 'Tildel',
         'roundRobin' => 'Rundgang',
         'leastBusy' => 'Minst opptatt',
@@ -792,17 +792,17 @@ $app_list_strings = array(
         2 => 'Du må benytte, Kun merkede elementer når du Direkte tildeler elementer.',
     ),
     'dom_email_bool' => array(
-        'bool_true' => 'Ja',
-        'bool_false' => 'Nei',
+        'bool_true' => 'Yes',
+        'bool_false' => 'No',
     ),
     'dom_int_bool' => array(
-        1 => 'Ja',
-        0 => 'Nei',
+        1 => 'Yes',
+        0 => 'No',
     ),
     'dom_switch_bool' => array(
-        'on' => 'Ja',
-        'off' => 'Nei',
-        '' => 'Nei',
+        'on' => 'Yes',
+        'off' => 'No',
+        '' => 'No',
     ),
 
     'dom_email_link_type' => array(
@@ -825,48 +825,48 @@ $app_list_strings = array(
     'schedulers_times_dom' => array(
         'not run' => 'Kjøretid over, men jobb ikke utført',
         'ready' => 'Klar',
-        'in progress' => 'I progresjon',
+        'in progress' => 'In Progress',
         'failed' => 'Feilet',
-        'completed' => 'Fullført',
+        'completed' => 'Completed',
         'no curl' => 'Ikke kjørt: ingen cURL tilgjengelig',
     ),
 
     'scheduler_status_dom' => array(
-        'Active' => 'Aktiv',
-        'Inactive' => 'Inaktiv',
+        'Active' => 'Active',
+        'Inactive' => 'Inactive',
     ),
 
     'scheduler_period_dom' => array(
         'min' => 'minutter',
-        'hour' => 'timer',
+        'hour' => 'Hours',
     ),
     'document_category_dom' => array(
         '' => '',
-        'Marketing' => 'Markedsføring',
-        'Knowledege Base' => 'Kunnskapsbase',
-        'Sales' => 'Salg',
+        'Marketing' => 'Marketing',
+        'Knowledege Base' => 'Knowledge Base',
+        'Sales' => 'Sales',
     ),
 
     'email_category_dom' => array(
         '' => '',
-        'Archived' => 'Arkivert',
+        'Archived' => 'Archived',
         // TODO: add more categories here...
     ),
 
     'document_subcategory_dom' => array(
         '' => '',
-        'Marketing Collateral' => 'Markedsføringshjelpemidler',
-        'Product Brochures' => 'Produktark',
-        'FAQ' => 'Ofte stillede spørgsmål',
+        'Marketing Collateral' => 'Marketing Collateral',
+        'Product Brochures' => 'Product Brochures',
+        'FAQ' => 'FAQ',
     ),
 
     'document_status_dom' => array(
-        'Active' => 'Aktiv',
-        'Draft' => 'Utkast',
-        'FAQ' => 'Ofte stillede spørgsmål',
-        'Expired' => 'Utløpt',
-        'Under Review' => 'Under vurdering',
-        'Pending' => 'Avventes',
+        'Active' => 'Active',
+        'Draft' => 'Draft',
+        'FAQ' => 'FAQ',
+        'Expired' => 'Expired',
+        'Under Review' => 'Under Review',
+        'Pending' => 'Pending',
     ),
     'document_template_type_dom' => array(
         '' => '',
@@ -881,9 +881,9 @@ $app_list_strings = array(
         'tentative' => 'Foreløpig',
     ),
     'dom_meeting_accept_status' => array(
-        'accept' => 'Godkjent',
+        'accept' => 'Accepted',
         'decline' => 'Avslått',
-        'tentative' => 'Foreløpig',
+        'tentative' => 'Tentative',
         'none' => 'Ingen',
     ),
     'duration_intervals' => array(
@@ -893,10 +893,10 @@ $app_list_strings = array(
         '45' => '45',
     ),
     'repeat_type_dom' => array(
-        '' => 'Ingen',
+        '' => 'None',
         'Daily' => 'Daglig',
-        'Weekly' => 'Ukentlig',
-        'Monthly' => 'Månedlig',
+        'Weekly' => 'Weekly',
+        'Monthly' => 'Monthly',
         'Yearly' => 'Årlig',
     ),
 
@@ -909,7 +909,7 @@ $app_list_strings = array(
     ),
 
     'duration_dom' => array(
-        '' => 'Ingen',
+        '' => 'None',
         '900' => '15 minutter før',
         '1800' => '30 minutter før',
         '2700' => '45 minutter',
@@ -942,8 +942,8 @@ $app_list_strings = array(
     ),
     'email_marketing_status_dom' => array(
         '' => '',
-        'active' => 'Aktiv',
-        'inactive' => 'Inaktiv',
+        'active' => 'Active',
+        'inactive' => 'Inactive',
     ),
 
     'campainglog_activity_type_dom' => array(
@@ -961,11 +961,11 @@ $app_list_strings = array(
     ),
 
     'campainglog_target_type_dom' => array(
-        'Contacts' => 'Kontakter',
-        'Users' => 'Brukere',
-        'Prospects' => 'Mål',
-        'Leads' => 'Ledetråder',
-        'Accounts' => 'Kunder',
+        'Contacts' => 'Contacts',
+        'Users' => 'Users',
+        'Prospects' => 'Targets',
+        'Leads' => 'Leads',
+        'Accounts' => 'Accounts',
     ),
     'merge_operators_dom' => array(
         'like' => 'Inneholder',
@@ -974,8 +974,8 @@ $app_list_strings = array(
     ),
 
     'custom_fields_importable_dom' => array(
-        'true' => 'Ja',
-        'false' => 'Nei',
+        'true' => 'Yes',
+        'false' => 'No',
         'required' => 'Nødvendig',
     ),
 
@@ -988,15 +988,15 @@ $app_list_strings = array(
     ),
 
     'projects_priority_options' => array(
-        'high' => 'Høy',
-        'medium' => 'Media',
-        'low' => 'Lav',
+        'high' => 'High',
+        'medium' => 'Medium',
+        'low' => 'Low',
     ),
 
     'projects_status_options' => array(
-        'notstarted' => 'Ikke påbegynt',
-        'inprogress' => 'I progresjon',
-        'completed' => 'Fullført',
+        'notstarted' => 'Not Started',
+        'inprogress' => 'In Progress',
+        'completed' => 'Completed',
     ),
     // strings to pass to Flash charts
     'chart_strings' => array(
@@ -1011,12 +1011,12 @@ $app_list_strings = array(
         'horizontalbarchart' => 'Horisontalt stolpediagram',
         'linechart' => 'Linjediagram',
         'noData' => 'Data ikke tilgjengelig',
-        'print' => 'Annonsering i avis/magasin',
+        'print' => 'Print',
         'pieWedgeName' => 'avdelinger',
     ),
     'release_status_dom' => array(
-        'Active' => 'Aktiv',
-        'Inactive' => 'Inaktiv',
+        'Active' => 'Active',
+        'Inactive' => 'Inactive',
     ),
     'email_settings_for_ssl' => array(
         '0' => '',
@@ -1026,7 +1026,7 @@ $app_list_strings = array(
     'import_enclosure_options' => array(
         '\'' => 'Singel anførselstegn (&#39;)',
         '"' => 'Dobbel anførselstegn (&#34;)',
-        '' => 'Ingen',
+        '' => 'None',
         'other' => 'Andre:',
     ),
     'import_delimeter_options' => array(
@@ -1036,7 +1036,7 @@ $app_list_strings = array(
         '.' => '.',
         ':' => ':',
         '|' => '|',
-        'other' => 'Andre:',
+        'other' => 'Other:',
     ),
     'link_target_dom' => array(
         '_blank' => 'Nytt vindu',
@@ -1052,11 +1052,11 @@ $app_list_strings = array(
     ),
     'dashlet_auto_refresh_options_admin' => array(
         '-1' => 'Aldri',
-        '30' => 'Hvert 30. sekund',
-        '60' => 'Hvert 1 minutt',
-        '180' => 'Hvert 3 minutt',
-        '300' => 'Hvert 5 minutt',
-        '600' => 'Hvert 10 minutt',
+        '30' => 'Every 30 seconds',
+        '60' => 'Every 1 minute',
+        '180' => 'Every 3 minutes',
+        '300' => 'Every 5 minutes',
+        '600' => 'Every 10 minutes',
     ),
     'date_range_search_dom' => array(
         '=' => 'Er lik',
@@ -1076,13 +1076,13 @@ $app_list_strings = array(
         'between' => 'Er imellom',
     ),
     'numeric_range_search_dom' => array(
-        '=' => 'Er lik',
+        '=' => 'Equals',
         'not_equal' => 'Er ikke lik',
         'greater_than' => 'Større enn',
         'greater_than_equals' => 'Større enn eller lik',
         'less_than' => 'Mindre enn',
         'less_than_equals' => 'Mindre enn eller lik',
-        'between' => 'Er imellom',
+        'between' => 'Is Between',
     ),
     'lead_conv_activity_opt' => array(
         'copy' => 'Kopi',
@@ -1105,8 +1105,8 @@ $app_strings = array(
     'LBL_TOUR_TAKE_TOUR' => 'Få en guidet tur',
     'LBL_MOREDETAIL' => 'Flere detaljer' /*for 508 compliance fix*/,
     'LBL_EDIT_INLINE' => 'Rediger innebygd' /*for 508 compliance fix*/,
-    'LBL_VIEW_INLINE' => 'Vis' /*for 508 compliance fix*/,
-    'LBL_BASIC_SEARCH' => 'Søk' /*for 508 compliance fix*/,
+    'LBL_VIEW_INLINE' => 'View' /*for 508 compliance fix*/,
+    'LBL_BASIC_SEARCH' => 'Filter' /*for 508 compliance fix*/,
     'LBL_Blank' => ' ' /*for 508 compliance fix*/,
     'LBL_ID_FF_ADD' => 'Legg til' /*for 508 compliance fix*/,
     'LBL_ID_FF_ADD_EMAIL' => 'Legg til e-postadresse' /*for 508 compliance fix*/,
@@ -1114,18 +1114,18 @@ $app_strings = array(
     'LBL_DELETE_INLINE' => 'Slett' /*for 508 compliance fix*/,
     'LBL_ID_FF_CLEAR' => 'Fjern innhold' /*for 508 compliance fix*/,
     'LBL_ID_FF_VCARD' => 'vCard' /*for 508 compliance fix*/,
-    'LBL_ID_FF_REMOVE' => 'Fjern' /*for 508 compliance fix*/,
+    'LBL_ID_FF_REMOVE' => 'Remove' /*for 508 compliance fix*/,
     'LBL_ID_FF_REMOVE_EMAIL' => 'Fjern e-postadresse' /*for 508 compliance fix*/,
     'LBL_ID_FF_OPT_OUT' => 'Avmeldt',
     'LBL_ID_FF_INVALID' => 'Gjør ugyldig',
-    'LBL_ADD' => 'Legg til' /*for 508 compliance fix*/,
+    'LBL_ADD' => 'Add' /*for 508 compliance fix*/,
     'LBL_COMPANY_LOGO' => 'Bedriftslogo' /*for 508 compliance fix*/,
     'LBL_CONNECTORS_POPUPS' => 'Knyttingssprettoppvinduer',
-    'LBL_CLOSEINLINE' => 'Avslutt',
-    'LBL_VIEWINLINE' => 'Vis',
+    'LBL_CLOSEINLINE' => 'Close',
+    'LBL_VIEWINLINE' => 'View',
     'LBL_INFOINLINE' => 'Informasjon',
-    'LBL_PRINT' => 'Annonsering i avis/magasin',
-    'LBL_HELP' => 'Hjelp',
+    'LBL_PRINT' => 'Print',
+    'LBL_HELP' => 'Help',
     'LBL_ID_FF_SELECT' => 'Velg',
     'DEFAULT' => 'Grunnleggende',
     'LBL_SORT' => 'Sorter',
@@ -1142,13 +1142,13 @@ $app_strings = array(
     'NTC_OVERWRITE_ADDRESS_PHONE_CONFIRM' => 'Du har for øyeblikket verdier i telefonnummer- og adresse feltene i skjemaet ditt. For å overskrive disse verdiene med telefonnummer/adresse fra kontoen du har valgt, klikk \"OK\". For å beholde de nåvärende verdiene, klikk \"Cancel\".',
     'LBL_DROP_HERE' => '[Slipp her]',
     'LBL_EMAIL_ACCOUNTS_GMAIL_DEFAULTS' => 'Startverdier for Gmail',
-    'LBL_EMAIL_ACCOUNTS_NAME' => 'Navn',
+    'LBL_EMAIL_ACCOUNTS_NAME' => 'Name',
     'LBL_EMAIL_ACCOUNTS_OUTBOUND' => 'Utgående e-postserver',
     'LBL_EMAIL_ACCOUNTS_SMTPPASS' => 'SMTP-passord',
     'LBL_EMAIL_ACCOUNTS_SMTPPORT' => 'SMTP port:',
     'LBL_EMAIL_ACCOUNTS_SMTPSERVER' => 'SMTP-server',
     'LBL_EMAIL_ACCOUNTS_SMTPUSER' => 'SMTP Brukernavn',
-    'LBL_EMAIL_ACCOUNTS_SMTPDEFAULT' => 'Auto- opprett',
+    'LBL_EMAIL_ACCOUNTS_SMTPDEFAULT' => 'Default',
     'LBL_EMAIL_WARNING_MISSING_USER_CREDS' => 'Advarsel: Mangler brukernavn og passord for utgående e-post konto.',
     'LBL_OAUTH_CONNECTION_NOT_SET' => 'Please set an External OAuth Connection.',
     'LBL_EMAIL_PASSWORD_NOT_SET' => 'Warning: A password has not been set.',
@@ -1157,32 +1157,32 @@ $app_strings = array(
     'LBL_EMAIL_ACCOUNTS_OUTBOUND_SUBTITLE' => 'Angi SMTP e-postserver  for utgående e-post fra e-postkontoer.',
 
     'LBL_EMAIL_ADDRESS_BOOK_ADD' => 'Ferdig',
-    'LBL_EMAIL_ADDRESS_BOOK_CLEAR' => 'Fjern innhold',
+    'LBL_EMAIL_ADDRESS_BOOK_CLEAR' => 'Clear',
     'LBL_EMAIL_ADDRESS_BOOK_ADD_TO' => 'Til:',
     'LBL_EMAIL_ADDRESS_BOOK_ADD_CC' => 'Kopi:',
     'LBL_EMAIL_ADDRESS_BOOK_ADD_BCC' => 'Blindkopi:',
     'LBL_EMAIL_ADDRESS_BOOK_ADRRESS_TYPE' => 'Til/Kopi/Blindkopi',
-    'LBL_EMAIL_ADDRESS_BOOK_EMAIL_ADDR' => 'E-postadresse:',
-    'LBL_EMAIL_ADDRESS_BOOK_FILTER' => 'Søk',
-    'LBL_EMAIL_ADDRESS_BOOK_NAME' => 'Navn',
+    'LBL_EMAIL_ADDRESS_BOOK_EMAIL_ADDR' => 'Email Address',
+    'LBL_EMAIL_ADDRESS_BOOK_FILTER' => 'Filter',
+    'LBL_EMAIL_ADDRESS_BOOK_NAME' => 'Name',
     'LBL_EMAIL_ADDRESS_BOOK_NOT_FOUND' => 'Fant ingen adresser',
     'LBL_EMAIL_ADDRESS_BOOK_SAVE_AND_ADD' => 'Lagre og legg til i adressebok',
     'LBL_EMAIL_ADDRESS_BOOK_SELECT_TITLE' => 'Velg adresser',
     'LBL_EMAIL_ADDRESS_BOOK_TITLE' => 'Adresser',
     'LBL_EMAIL_REMOVE_SMTP_WARNING' => 'Advarsel! Den utgående kontoen du prøver å slette er knyttet til en eksisterende innkommende konto. Er du sikker på at du vil fortsette?',
-    'LBL_EMAIL_ADDRESSES' => 'E-post',
-    'LBL_EMAIL_ADDRESS_PRIMARY' => 'E-postadresse:',
+    'LBL_EMAIL_ADDRESSES' => 'Email',
+    'LBL_EMAIL_ADDRESS_PRIMARY' => 'Email Address',
     'LBL_EMAIL_ADDRESS_OPT_IN' => 'Du har bekreftet påmeldingen av din e-post: ',
     'LBL_EMAIL_ADDRESS_OPT_IN_ERR' => 'Kan ikke bekrefte e-postadressen',
     'LBL_EMAIL_ARCHIVE_TO_SUITE' => 'Importer til SuiteCRM',
     'LBL_EMAIL_ASSIGNMENT' => 'Tildeling',
     'LBL_EMAIL_ATTACH_FILE_TO_EMAIL' => 'Filvedlegg til e-post',
-    'LBL_EMAIL_ATTACHMENT' => 'Filvedlegg til e-post',
+    'LBL_EMAIL_ATTACHMENT' => 'Attach',
     'LBL_EMAIL_ATTACHMENTS' => 'Vedlegg filer',
     'LBL_EMAIL_ATTACHMENTS2' => 'Fra SuiteCRM-dokumenter',
     'LBL_EMAIL_ATTACHMENTS3' => 'Malvedlegg',
     'LBL_EMAIL_ATTACHMENTS_FILE' => 'Filnavn',
-    'LBL_EMAIL_ATTACHMENTS_DOCUMENT' => 'Dokument',
+    'LBL_EMAIL_ATTACHMENTS_DOCUMENT' => 'Document',
     'LBL_EMAIL_BCC' => 'Blindkopi',
     'LBL_EMAIL_CANCEL' => 'Avbryt',
     'LBL_EMAIL_CC' => 'Kopi',
@@ -1190,10 +1190,10 @@ $app_strings = array(
     'LBL_EMAIL_CHECK' => 'Sjekk e-post',
     'LBL_EMAIL_CHECKING_NEW' => 'Let etter ny e-post',
     'LBL_EMAIL_CHECKING_DESC' => 'Leter etter nye e-postmeldinger. <br><br>Hvis det er første gangen du utfører denne handlingen, kan det ta litt tid.',
-    'LBL_EMAIL_CLOSE' => 'Avslutt',
+    'LBL_EMAIL_CLOSE' => 'Close',
     'LBL_EMAIL_COFFEE_BREAK' => 'Leter etter nye e-postmedlinger. <br><br>Store e-postkontoer kan ta lengre tid å laste opp.',
 
-    'LBL_EMAIL_COMPOSE' => 'E-post',
+    'LBL_EMAIL_COMPOSE' => 'Email',
     'LBL_EMAIL_COMPOSE_ERR_NO_RECIPIENTS' => 'Angi mottager(e) av denne meldingen.',
     'LBL_EMAIL_COMPOSE_NO_BODY' => 'Meldingen inneholder ikke brødtekst. Vil du sende likevel?',
     'LBL_EMAIL_COMPOSE_NO_SUBJECT' => 'Meldingen mangler emne. Vil du sende likevel?',
@@ -1210,7 +1210,7 @@ $app_strings = array(
     'LBL_EMAIL_MULT_GROUP_FOLDER_ACCOUNTS_EMPTY' => 'Tom',
     'LBL_EMAIL_DATE_SENT_BY_SENDER' => 'Dato aendt av avsender',
     'LBL_EMAIL_DATE_TODAY' => 'I dag',
-    'LBL_EMAIL_DELETE' => 'Slett',
+    'LBL_EMAIL_DELETE' => 'Delete',
     'LBL_EMAIL_DELETE_CONFIRM' => 'Vil du slette valgte meldinger?',
     'LBL_EMAIL_DELETE_SUCCESS' => 'E-post ble slettet.',
     'LBL_EMAIL_DELETING_MESSAGE' => 'Sletter melding',
@@ -1268,7 +1268,7 @@ $app_strings = array(
         '.gif',
         ''
     ),
-    'LBL_EMAIL_FOLDERS_ADD' => 'Legg til',
+    'LBL_EMAIL_FOLDERS_ADD' => 'Add',
     'LBL_EMAIL_FOLDERS_ADD_DIALOG_TITLE' => 'Legg til ny mappe',
     'LBL_EMAIL_FOLDERS_RENAME_DIALOG_TITLE' => 'Endre mappenavn',
     'LBL_EMAIL_FOLDERS_ADD_NEW_FOLDER' => 'Lagre',
@@ -1284,8 +1284,8 @@ $app_strings = array(
     'LBL_EMAIL_DOWNLOAD_STATUS' => 'Nedlasted [[count]] av [[total]] e-post',
     'LBL_EMAIL_FROM' => 'Fra',
     'LBL_EMAIL_GROUP' => 'Gruppe',
-    'LBL_EMAIL_UPPER_CASE_GROUP' => 'Gruppe',
-    'LBL_EMAIL_HOME_FOLDER' => 'Hjem',
+    'LBL_EMAIL_UPPER_CASE_GROUP' => 'Group',
+    'LBL_EMAIL_HOME_FOLDER' => 'Home',
     'LBL_EMAIL_IE_DELETE' => 'Slett e-postkonto',
     'LBL_EMAIL_IE_DELETE_SIGNATURE' => 'Sletter signatur',
     'LBL_EMAIL_IE_DELETE_CONFIRM' => 'Er du sikker på at du vil slette denne e-postkontoen?',
@@ -1294,7 +1294,7 @@ $app_strings = array(
     'LBL_EMAIL_IMPORTING_EMAIL' => 'Importerer e-post',
     'LBL_EMAIL_IMPORT_EMAIL' => 'Importer til SuiteCRM',
     'LBL_EMAIL_IMPORT_SETTINGS' => 'Importer innstillinger',
-    'LBL_EMAIL_INVALID' => 'Ugyldig',
+    'LBL_EMAIL_INVALID' => 'Invalid',
     'LBL_EMAIL_LOADING' => 'Laster',
     'LBL_EMAIL_MARK' => 'Markér',
     'LBL_EMAIL_MARK_FLAGGED' => 'Som merket',
@@ -1309,8 +1309,8 @@ $app_strings = array(
     'LBL_EMAIL_MENU_EMPTY_TRASH' => 'Tøm søppel',
     'LBL_EMAIL_MENU_SYNCHRONIZE' => 'Synkronisér',
     'LBL_EMAIL_MENU_CLEAR_CACHE' => 'Fjern cache- filer',
-    'LBL_EMAIL_MENU_REMOVE' => 'Fjern',
-    'LBL_EMAIL_MENU_RENAME_FOLDER' => 'Endre mappenavn',
+    'LBL_EMAIL_MENU_REMOVE' => 'Remove',
+    'LBL_EMAIL_MENU_RENAME_FOLDER' => 'Rename Folder',
     'LBL_EMAIL_MENU_RENAMING_FOLDER' => 'Endrer mappenavn',
     'LBL_EMAIL_MENU_MAKE_SELECTION' => 'Foreta et valg før du utfører operasjonen.',
 
@@ -1329,7 +1329,7 @@ $app_strings = array(
 
     'LBL_EMAIL_MULTISELECT' => '<b>Ctrl-Click</b> for å velge flere<br />(Mac-brukere bruker <b>CMD-Click</b>)',
 
-    'LBL_EMAIL_NO' => 'Nei',
+    'LBL_EMAIL_NO' => 'No',
     'LBL_EMAIL_NOT_SENT' => 'Systemet kan ikke behandle forespørselen. Vennligst kontakt systemadministrator.',
 
     'LBL_EMAIL_OK' => 'OK',
@@ -1337,25 +1337,25 @@ $app_strings = array(
     'LBL_EMAIL_OPEN_ALL' => 'Åpne flere meldinger',
     'LBL_EMAIL_OPTIONS' => 'Valg',
     'LBL_EMAIL_QUICK_COMPOSE' => 'Hurtig komponer',
-    'LBL_EMAIL_OPT_OUT' => 'Reserverte seg',
+    'LBL_EMAIL_OPT_OUT' => 'Opted Out',
     'LBL_EMAIL_OPT_OUT_AND_INVALID' => 'Opted Out og ugyldig',
     'LBL_EMAIL_PERFORMING_TASK' => 'Utfører oppgave',
     'LBL_EMAIL_PRIMARY' => 'Primær',
-    'LBL_EMAIL_PRINT' => 'Annonsering i avis/magasin',
+    'LBL_EMAIL_PRINT' => 'Print',
 
-    'LBL_EMAIL_QC_BUGS' => 'Feil',
-    'LBL_EMAIL_QC_CASES' => 'Kundestøtte',
-    'LBL_EMAIL_QC_LEADS' => 'Ledetråder',
-    'LBL_EMAIL_QC_CONTACTS' => 'Kontakt',
-    'LBL_EMAIL_QC_TASKS' => 'Oppgaver',
-    'LBL_EMAIL_QC_OPPORTUNITIES' => 'Salgsmuligheter',
+    'LBL_EMAIL_QC_BUGS' => 'Bug',
+    'LBL_EMAIL_QC_CASES' => 'Case',
+    'LBL_EMAIL_QC_LEADS' => 'Lead',
+    'LBL_EMAIL_QC_CONTACTS' => 'Contact',
+    'LBL_EMAIL_QC_TASKS' => 'Task',
+    'LBL_EMAIL_QC_OPPORTUNITIES' => 'Opportunity',
     'LBL_EMAIL_QUICK_CREATE' => 'Rask oppretting',
 
     'LBL_EMAIL_REBUILDING_FOLDERS' => 'Gjenoppbygger mapper',
     'LBL_EMAIL_RELATE_TO' => 'Relater',
     'LBL_EMAIL_VIEW_RELATIONSHIPS' => 'Vis forhold',
     'LBL_EMAIL_RECORD' => 'E-post registrering',
-    'LBL_EMAIL_REMOVE' => 'Fjern',
+    'LBL_EMAIL_REMOVE' => 'Remove',
     'LBL_EMAIL_REPLY' => 'Svar',
     'LBL_EMAIL_REPLY_ALL' => 'Besvar alle',
     'LBL_EMAIL_REPLY_TO' => 'Svar til',
@@ -1368,7 +1368,7 @@ $app_strings = array(
 
     'LBL_EMAIL_RULES_TITLE' => 'Regelbehandling',
 
-    'LBL_EMAIL_SAVE' => 'Lagre',
+    'LBL_EMAIL_SAVE' => 'Save',
     'LBL_EMAIL_SAVE_AND_REPLY' => 'Lagre & besvar',
     'LBL_EMAIL_SAVE_DRAFT' => 'Lagre utkast',
     'LBL_EMAIL_DRAFT_SAVED' => 'Utkastet er lagret',
@@ -1394,9 +1394,9 @@ $app_strings = array(
     'LBL_EMAIL_SEARCH_NO_RESULTS' => 'Dine søkekriterier ga ingen funn.',
     'LBL_EMAIL_SEARCH_RESULTS_TITLE' => 'Søkeresultat',
 
-    'LBL_EMAIL_SELECT' => 'Velg',
+    'LBL_EMAIL_SELECT' => 'Select',
 
-    'LBL_EMAIL_SEND' => 'Sende',
+    'LBL_EMAIL_SEND' => 'Send',
     'LBL_EMAIL_SENDING_EMAIL' => 'Sender e-post',
 
     'LBL_EMAIL_SETTINGS' => 'Innstillinger',
@@ -1435,7 +1435,7 @@ $app_strings = array(
     'LBL_SMTPTYPE_GMAIL' => 'Gmail',
     'LBL_SMTPTYPE_YAHOO' => 'Yahoo! Mail',
     'LBL_SMTPTYPE_EXCHANGE' => 'Microsoft Exchange',
-    'LBL_SMTPTYPE_OTHER' => 'Annen',
+    'LBL_SMTPTYPE_OTHER' => 'Other',
     'LBL_EMAIL_SPACER_MAIL_SERVER' => '[ Fjerntliggende mapper ]',
     'LBL_EMAIL_SPACER_LOCAL_FOLDER' => '[ SuiteCRM-mapper ]',
     'LBL_EMAIL_SUBJECT' => 'Emne',
@@ -1444,22 +1444,22 @@ $app_strings = array(
     'LBL_EMAIL_TEMPLATE_EDIT_PLAIN_TEXT' => 'E-postmal innholdet er tomt',
     'LBL_EMAIL_TEMPLATES' => 'Maler',
     'LBL_EMAIL_TO' => 'Til',
-    'LBL_EMAIL_VIEW' => 'Vis',
+    'LBL_EMAIL_VIEW' => 'View',
     'LBL_EMAIL_VIEW_HEADERS' => 'Vis overskrifter',
     'LBL_EMAIL_VIEW_RAW' => 'Vis utkast på e-post',
     'LBL_EMAIL_VIEW_UNSUPPORTED' => 'Funksjonen støttes ikke ved bruk av POP3.',
     'LBL_DEFAULT_LINK_TEXT' => 'Startverdi link tekst.',
-    'LBL_EMAIL_YES' => 'Ja',
+    'LBL_EMAIL_YES' => 'Yes',
     'LBL_EMAIL_TEST_OUTBOUND_SETTINGS' => 'Send test e-post',
     'LBL_EMAIL_TEST_OUTBOUND_SETTINGS_SENT' => 'Test e-post sendt',
     'LBL_EMAIL_MESSAGE_NO' => 'Melding nummer',
     'LBL_EMAIL_IMPORT_SUCCESS' => 'Import passert',
     'LBL_EMAIL_IMPORT_FAIL' => 'Importering mislykket på grunn av at meldingen enten er importert allerede, eller slettet fra server',
 
-    'LBL_LINK_NONE' => 'Ingen',
+    'LBL_LINK_NONE' => 'None',
     'LBL_LINK_ALL' => 'Alle',
     'LBL_LINK_RECORDS' => 'Poster',
-    'LBL_LINK_SELECT' => 'Velg',
+    'LBL_LINK_SELECT' => 'Select',
     'LBL_LINK_ACTIONS' => 'ACTIONS',
     'LBL_CLOSE_ACTIVITY_HEADER' => 'Bekreft:',
     'LBL_CLOSE_ACTIVITY_CONFIRM' => 'Ønsker du å lukke denne #module#?',
@@ -1494,13 +1494,13 @@ Hvis denne feilen vedvarer, må din administrator deaktivere Ajax for denne modu
     'ERR_DB_FAIL' => 'Databasefeil. Vennligst referer til SuiteCRM-loggfilen for detaljer.',
     'ERR_DB_VERSION' => 'SuiteCRM {0} filer kan bare bli brukt med en SuiteCRM {1} database.',
 
-    'LBL_ACCOUNT' => 'Kunde',
-    'LBL_ACCOUNTS' => 'Kunder',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktiviteter',
+    'LBL_ACCOUNT' => 'Account',
+    'LBL_ACCOUNTS' => 'Accounts',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_ACCUMULATED_HISTORY_BUTTON_KEY' => 'H',
     'LBL_ACCUMULATED_HISTORY_BUTTON_LABEL' => 'Vis oppsummering',
-    'LBL_ACCUMULATED_HISTORY_BUTTON_TITLE' => 'Vis oppsummering',
-    'LBL_ADD_BUTTON' => 'Legg til',
+    'LBL_ACCUMULATED_HISTORY_BUTTON_TITLE' => 'View Summary',
+    'LBL_ADD_BUTTON' => 'Add',
     'LBL_ADD_DOCUMENT' => 'Legg til dokument',
     'LBL_ADD_TO_PROSPECT_LIST_BUTTON_KEY' => 'L',
     'LBL_ADD_TO_PROSPECT_LIST_BUTTON_LABEL' => 'Legg til liste over mål',
@@ -1511,58 +1511,58 @@ Hvis denne feilen vedvarer, må din administrator deaktivere Ajax for denne modu
     'LBL_ALT_HOT_KEY' => '',
     'LBL_ARCHIVE' => 'Arkiv',
     'LBL_ASSIGNED_TO_USER' => 'Tildelt bruker',
-    'LBL_ASSIGNED_TO' => 'Tildelt brukers navn:',
-    'LBL_BACK' => 'Tilbake',
+    'LBL_ASSIGNED_TO' => 'Assigned to:',
+    'LBL_BACK' => 'Back',
     'LBL_BILLING_ADDRESS' => 'Faktureringsadresse',
     'LBL_QUICK_CREATE' => 'Opprett ',
     'LBL_BROWSER_TITLE' => 'SuiteCRM - CRM med åpen kildekode',
-    'LBL_BUGS' => 'Feil',
+    'LBL_BUGS' => 'Bugs',
     'LBL_BY' => 'av',
-    'LBL_CALLS' => 'Oppringninger',
+    'LBL_CALLS' => 'Calls',
     'LBL_CAMPAIGNS_SEND_QUEUED' => 'Send kampanje e-post som står i kø',
     'LBL_SUBMIT_BUTTON_LABEL' => 'Send inn',
-    'LBL_CASE' => 'Kundestøtte',
-    'LBL_CASES' => 'Kundestøtte',
+    'LBL_CASE' => 'Case',
+    'LBL_CASES' => 'Cases',
     'LBL_CHANGE_PASSWORD' => 'Endre passord',
     'LBL_CHARSET' => 'UTF-8',
     'LBL_CHECKALL' => 'Kryss av alle',
-    'LBL_CITY' => 'By:',
-    'LBL_CLEAR_BUTTON_LABEL' => 'Fjern innhold',
-    'LBL_CLEAR_BUTTON_TITLE' => 'Fjern innhold',
+    'LBL_CITY' => 'City',
+    'LBL_CLEAR_BUTTON_LABEL' => 'Clear',
+    'LBL_CLEAR_BUTTON_TITLE' => 'Clear',
     'LBL_CLEARALL' => 'Fjern alt',
-    'LBL_CLOSE_BUTTON_TITLE' => 'Avslutt',
+    'LBL_CLOSE_BUTTON_TITLE' => 'Close',
     'LBL_CLOSE_AND_CREATE_BUTTON_LABEL' => 'Lukk og opprett ny',
-    'LBL_CLOSE_AND_CREATE_BUTTON_TITLE' => 'Lukk og opprett ny',
+    'LBL_CLOSE_AND_CREATE_BUTTON_TITLE' => 'Close and Create New',
     'LBL_CLOSE_AND_CREATE_BUTTON_KEY' => 'C',
     'LBL_OPEN_ITEMS' => 'Open Items:',
     'LBL_COMPOSE_EMAIL_BUTTON_KEY' => 'L',
     'LBL_COMPOSE_EMAIL_BUTTON_LABEL' => 'Ny e-post',
-    'LBL_COMPOSE_EMAIL_BUTTON_TITLE' => 'Ny e-post',
-    'LBL_SEARCH_DROPDOWN_YES' => 'Ja',
-    'LBL_SEARCH_DROPDOWN_NO' => 'Nei',
+    'LBL_COMPOSE_EMAIL_BUTTON_TITLE' => 'Compose Email',
+    'LBL_SEARCH_DROPDOWN_YES' => 'Yes',
+    'LBL_SEARCH_DROPDOWN_NO' => 'No',
     'LBL_CONTACT_LIST' => 'Kontaktliste',
-    'LBL_CONTACT' => 'Kontakt',
-    'LBL_CONTACTS' => 'Kontakter',
-    'LBL_CONTRACT' => 'Kontrakt',
-    'LBL_CONTRACTS' => 'Kontrakter',
-    'LBL_COUNTRY' => 'Land:',
+    'LBL_CONTACT' => 'Contact',
+    'LBL_CONTACTS' => 'Contacts',
+    'LBL_CONTRACT' => 'Contract',
+    'LBL_CONTRACTS' => 'Contracts',
+    'LBL_COUNTRY' => 'Country:',
     'LBL_CREATE_BUTTON_LABEL' => 'Ny',
-    'LBL_CREATED_BY_USER' => 'Opprettet av bruker',
-    'LBL_CREATED_USER' => 'Opprettet av bruker',
+    'LBL_CREATED_BY_USER' => 'Created by User',
+    'LBL_CREATED_USER' => 'Created by User',
     'LBL_CREATED' => 'Opprettet av',
     'LBL_CURRENT_USER_FILTER' => 'My Items:',
-    'LBL_CURRENCY' => 'Valuta:',
-    'LBL_DOCUMENTS' => 'Dokumenter',
-    'LBL_DATE_ENTERED' => 'Dato opprettet:',
-    'LBL_DATE_MODIFIED' => 'Date endret:',
-    'LBL_EDIT_BUTTON' => 'Rediger',
-    'LBL_DUPLICATE_BUTTON' => 'Duplikat',
-    'LBL_DELETE_BUTTON' => 'Slett',
-    'LBL_DELETE' => 'Slett',
-    'LBL_DELETED' => 'Slettet',
+    'LBL_CURRENCY' => 'Currency:',
+    'LBL_DOCUMENTS' => 'Documents',
+    'LBL_DATE_ENTERED' => 'Date Created:',
+    'LBL_DATE_MODIFIED' => 'Date Modified:',
+    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_DUPLICATE_BUTTON' => 'Duplicate',
+    'LBL_DELETE_BUTTON' => 'Delete',
+    'LBL_DELETE' => 'Delete',
+    'LBL_DELETED' => 'Deleted',
     'LBL_DIRECT_REPORTS' => 'Direkterapporter',
-    'LBL_DONE_BUTTON_LABEL' => 'Ferdig',
-    'LBL_DONE_BUTTON_TITLE' => 'Ferdig',
+    'LBL_DONE_BUTTON_LABEL' => 'Done',
+    'LBL_DONE_BUTTON_TITLE' => 'Done',
     'LBL_FAVORITES' => 'Favoritter',
     'LBL_VCARD' => 'vCard',
     'LBL_EMPTY_VCARD' => 'Vennligst velg en vCard fil',
@@ -1571,12 +1571,12 @@ Hvis denne feilen vedvarer, må din administrator deaktivere Ajax for denne modu
     'LBL_VCARD_ERROR_DEFAULT' => 'Det oppsto en feil under opplastingen av vCard-filen. Referer til suitecrm.log for detaljer.',
     'LBL_IMPORT_VCARD' => 'Importer vCard',
     'LBL_IMPORT_VCARD_BUTTON_LABEL' => 'Importer vCard',
-    'LBL_IMPORT_VCARD_BUTTON_TITLE' => 'Importer vCard',
-    'LBL_VIEW_BUTTON' => 'Vis',
+    'LBL_IMPORT_VCARD_BUTTON_TITLE' => 'Import vCard',
+    'LBL_VIEW_BUTTON' => 'View',
     'LBL_EMAIL_PDF_BUTTON_LABEL' => 'E-post som PDF',
-    'LBL_EMAIL_PDF_BUTTON_TITLE' => 'E-post som PDF',
-    'LBL_EMAILS' => 'E-post',
-    'LBL_EMPLOYEES' => 'Ansatte',
+    'LBL_EMAIL_PDF_BUTTON_TITLE' => 'Email as PDF',
+    'LBL_EMAILS' => 'Emails',
+    'LBL_EMPLOYEES' => 'Employees',
     'LBL_ENTER_DATE' => 'Oppgi dato',
     'LBL_EXPORT' => 'Eksporter',
     'LBL_FAVORITES_FILTER' => 'My Favorites:',
@@ -1586,26 +1586,26 @@ Hvis denne feilen vedvarer, må din administrator deaktivere Ajax for denne modu
     'LBL_IMPORT' => 'Importer',
     'LBL_IMPORT_STARTED' => 'Importering ble startet:',
     'LBL_LAST_VIEWED' => 'Sist vist',
-    'LBL_LEADS' => 'Ledetråder',
+    'LBL_LEADS' => 'Leads',
     'LBL_LESS' => 'mindre',
-    'LBL_CAMPAIGN' => 'Kampanje:',
-    'LBL_CAMPAIGNS' => 'Kampanjer',
+    'LBL_CAMPAIGN' => 'Campaign:',
+    'LBL_CAMPAIGNS' => 'Campaigns',
     'LBL_CAMPAIGNLOG' => 'Kampanje logg',
-    'LBL_CAMPAIGN_CONTACT' => 'Kampanjer',
+    'LBL_CAMPAIGN_CONTACT' => 'Campaigns',
     'LBL_CAMPAIGN_ID' => 'campaign_id',
-    'LBL_CAMPAIGN_NONE' => 'Ingen',
+    'LBL_CAMPAIGN_NONE' => 'None',
     'LBL_THEME' => 'Tema:',
     'LBL_FOUND_IN_RELEASE' => 'Funnet ved utsendelse',
     'LBL_FIXED_IN_RELEASE' => 'Ordnet ved utsendelse',
-    'LBL_LIST_ACCOUNT_NAME' => 'Navn på Kunde',
-    'LBL_LIST_ASSIGNED_USER' => 'Bruker',
+    'LBL_LIST_ACCOUNT_NAME' => 'Account Name',
+    'LBL_LIST_ASSIGNED_USER' => 'User',
     'LBL_LIST_CONTACT_NAME' => 'Kontaktens navn',
     'LBL_LIST_CONTACT_ROLE' => 'Kontaktens rolle',
-    'LBL_LIST_DATE_ENTERED' => 'Dato opprettet',
-    'LBL_LIST_EMAIL' => 'E-post',
-    'LBL_LIST_NAME' => 'Navn',
+    'LBL_LIST_DATE_ENTERED' => 'Date Created',
+    'LBL_LIST_EMAIL' => 'Email',
+    'LBL_LIST_NAME' => 'Name',
     'LBL_LIST_OF' => 'av',
-    'LBL_LIST_PHONE' => 'Telefonnr:',
+    'LBL_LIST_PHONE' => 'Phone',
     'LBL_LIST_RELATED_TO' => 'Knyttet til',
     'LBL_LIST_USER_NAME' => 'Brukernavn',
     'LBL_LISTVIEW_NO_SELECTED' => 'Velg minst en oppføring for å fortsette.',
@@ -1617,91 +1617,91 @@ Hvis denne feilen vedvarer, må din administrator deaktivere Ajax for denne modu
     'LBL_LOCALE_NAME_EXAMPLE_LAST' => 'Doe',
     'LBL_LOCALE_NAME_EXAMPLE_SALUTATION' => 'Dr.',
     'LBL_LOCALE_NAME_EXAMPLE_TITLE' => 'Kode ape ekstraordinær',
-    'LBL_CANCEL' => 'Avbryt',
+    'LBL_CANCEL' => 'Cancel',
     'LBL_VERIFY' => 'Bekreft',
     'LBL_RESEND' => 'Send på nytt',
     'LBL_PROFILE' => 'Profil',
-    'LBL_MAILMERGE' => 'Postfletting',
+    'LBL_MAILMERGE' => 'Mail Merge',
     'LBL_MASS_UPDATE' => 'Masseoppdatering',
     'LBL_NO_MASS_UPDATE_FIELDS_AVAILABLE' => 'Det er ingen tilgjengelige felter for masseoppdateringsoperasjonen.',
     'LBL_OPT_OUT_FLAG_PRIMARY' => 'Velg bort primær e-post',
     'LBL_OPT_IN_FLAG_PRIMARY' => 'Velg primær e-post',
-    'LBL_MEETINGS' => 'Møter',
+    'LBL_MEETINGS' => 'Meetings',
     'LBL_MEETING_GO_BACK' => 'Gå tilbake til møtet',
     'LBL_MEMBERS' => 'Medlemmer',
     'LBL_MEMBER_OF' => 'Medlem av',
-    'LBL_MODIFIED_BY_USER' => 'Modifisert av bruker',
-    'LBL_MODIFIED_USER' => 'Modifisert av bruker',
+    'LBL_MODIFIED_BY_USER' => 'Modified by User',
+    'LBL_MODIFIED_USER' => 'Modified by User',
     'LBL_MODIFIED' => 'Endret av: ',
-    'LBL_MODIFIED_NAME' => 'Endret av navn',
+    'LBL_MODIFIED_NAME' => 'Modified By Name',
     'LBL_MORE' => 'Mer',
     'LBL_MY_ACCOUNT' => 'Min konto',
-    'LBL_NAME' => 'Navn',
+    'LBL_NAME' => 'Name',
     'LBL_NEW_BUTTON_KEY' => 'O',
     'LBL_NEW_BUTTON_LABEL' => 'Ny',
-    'LBL_NEW_BUTTON_TITLE' => 'Ny',
-    'LBL_NEXT_BUTTON_LABEL' => 'Neste',
-    'LBL_NONE' => '--Ingen--',
-    'LBL_NOTES' => 'Notater:',
-    'LBL_OPPORTUNITIES' => 'Salgsmuligheter',
+    'LBL_NEW_BUTTON_TITLE' => 'Create',
+    'LBL_NEXT_BUTTON_LABEL' => 'Next',
+    'LBL_NONE' => '--None--',
+    'LBL_NOTES' => 'Notes',
+    'LBL_OPPORTUNITIES' => 'Opportunities',
     'LBL_OPPORTUNITY_NAME' => 'Salgsmulighetens betegnelse',
-    'LBL_OPPORTUNITY' => 'Salgsmuligheter',
+    'LBL_OPPORTUNITY' => 'Opportunity',
     'LBL_OR' => 'ELLER',
     'LBL_PANEL_OVERVIEW' => 'Info om kunden',
     'LBL_PANEL_ASSIGNMENT' => 'ANDRE',
     'LBL_PANEL_ADVANCED' => 'MORE INFORMATION',
     'LBL_PARENT_TYPE' => 'Foreldertype',
     'LBL_PERCENTAGE_SYMBOL' => '%',
-    'LBL_POSTAL_CODE' => 'Postnr:',
+    'LBL_POSTAL_CODE' => 'Postal Code:',
     'LBL_PRIMARY_ADDRESS_CITY' => 'Primæradresse, sted:',
-    'LBL_PRIMARY_ADDRESS_COUNTRY' => 'Primæradresse, land:',
+    'LBL_PRIMARY_ADDRESS_COUNTRY' => 'Primary Address Country:',
     'LBL_PRIMARY_ADDRESS_POSTALCODE' => 'Primæradresse, postnr:',
     'LBL_PRIMARY_ADDRESS_STATE' => 'Primæradresse, stat:',
-    'LBL_PRIMARY_ADDRESS_STREET_2' => 'Primæradresse, gatenavn 2:',
-    'LBL_PRIMARY_ADDRESS_STREET_3' => 'Primæradresse, gatenavn 3:',
+    'LBL_PRIMARY_ADDRESS_STREET_2' => 'Primary Address Street 2:',
+    'LBL_PRIMARY_ADDRESS_STREET_3' => 'Primary Address Street 3:',
     'LBL_PRIMARY_ADDRESS_STREET' => 'Primæradresse, gatenavn:',
     'LBL_PRIMARY_ADDRESS' => 'Primæradresse:',
 
     'LBL_PROSPECTS' => 'Prospekter',
     'LBL_PRODUCTS' => 'Produkter',
-    'LBL_PROJECT_TASKS' => 'Prosjektoppgaver',
-    'LBL_PROJECTS' => 'Prosjekter',
-    'LBL_QUOTES' => 'Tilbud',
+    'LBL_PROJECT_TASKS' => 'Project Tasks',
+    'LBL_PROJECTS' => 'Projects',
+    'LBL_QUOTES' => 'Quotes',
 
     'LBL_RELATED' => 'Beslektet',
     'LBL_RELATED_RECORDS' => 'Relaterte oppføringer',
-    'LBL_REMOVE' => 'Fjern',
+    'LBL_REMOVE' => 'Remove',
     'LBL_REPORTS_TO' => 'Rapporterer til',
     'LBL_REQUIRED_SYMBOL' => '*',
     'LBL_REQUIRED_TITLE' => 'Indikerer påkrevd felt',
-    'LBL_EMAIL_DONE_BUTTON_LABEL' => 'Ferdig',
+    'LBL_EMAIL_DONE_BUTTON_LABEL' => 'Done',
     'LBL_FULL_FORM_BUTTON_KEY' => 'L',
     'LBL_FULL_FORM_BUTTON_LABEL' => 'Fullstendig skjema',
-    'LBL_FULL_FORM_BUTTON_TITLE' => 'Fullstendig skjema',
+    'LBL_FULL_FORM_BUTTON_TITLE' => 'Full Form',
     'LBL_SAVE_NEW_BUTTON_LABEL' => 'Lagre og opprett ny',
-    'LBL_SAVE_NEW_BUTTON_TITLE' => 'Lagre og opprett ny',
+    'LBL_SAVE_NEW_BUTTON_TITLE' => 'Save & Create New',
     'LBL_SAVE_OBJECT' => 'Lagre {0}',
     'LBL_SEARCH_BUTTON_KEY' => 'C',
     'LBL_SEARCH_BUTTON_LABEL' => 'Søk',
-    'LBL_SEARCH_BUTTON_TITLE' => 'Søk',
-    'LBL_FILTER' => 'Søk',
-    'LBL_SEARCH' => 'Søk',
+    'LBL_SEARCH_BUTTON_TITLE' => 'Search',
+    'LBL_FILTER' => 'Filter',
+    'LBL_SEARCH' => 'Search',
     'LBL_SEARCH_ALT' => '',
     'LBL_SEARCH_MORE' => 'mer',
     'LBL_UPLOAD_IMAGE_FILE_INVALID' => 'Ugyldig filformat, kun bilde-fil kan lastes opp.',
     'LBL_SELECT_BUTTON_KEY' => 'T',
-    'LBL_SELECT_BUTTON_LABEL' => 'Velg',
-    'LBL_SELECT_BUTTON_TITLE' => 'Velg',
+    'LBL_SELECT_BUTTON_LABEL' => 'Select',
+    'LBL_SELECT_BUTTON_TITLE' => 'Select',
     'LBL_BROWSE_DOCUMENTS_BUTTON_LABEL' => 'Bla i dokumenter',
-    'LBL_BROWSE_DOCUMENTS_BUTTON_TITLE' => 'Bla i dokumenter',
+    'LBL_BROWSE_DOCUMENTS_BUTTON_TITLE' => 'Browse Documents',
     'LBL_SELECT_CONTACT_BUTTON_KEY' => 'T',
     'LBL_SELECT_CONTACT_BUTTON_LABEL' => 'Velg kontakt',
-    'LBL_SELECT_CONTACT_BUTTON_TITLE' => 'Velg kontakt',
+    'LBL_SELECT_CONTACT_BUTTON_TITLE' => 'Select Contact',
     'LBL_SELECT_REPORTS_BUTTON_LABEL' => 'Velg fra rapporter',
     'LBL_SELECT_REPORTS_BUTTON_TITLE' => 'Velg rapporter',
     'LBL_SELECT_USER_BUTTON_KEY' => 'U',
     'LBL_SELECT_USER_BUTTON_LABEL' => 'Velg bruker',
-    'LBL_SELECT_USER_BUTTON_TITLE' => 'Velg bruker',
+    'LBL_SELECT_USER_BUTTON_TITLE' => 'Select User',
     // Clear buttons take up too many keys, lets default the relate and collection ones to be empty
     'LBL_ACCESSKEY_CLEAR_RELATE_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_RELATE_TITLE' => 'Fjern valg',
@@ -1711,20 +1711,20 @@ Hvis denne feilen vedvarer, må din administrator deaktivere Ajax for denne modu
     'LBL_ACCESSKEY_CLEAR_COLLECTION_LABEL' => 'Fjern valg',
     'LBL_ACCESSKEY_SELECT_FILE_KEY' => 'F',
     'LBL_ACCESSKEY_SELECT_FILE_TITLE' => 'Velg fil',
-    'LBL_ACCESSKEY_SELECT_FILE_LABEL' => 'Velg fil',
+    'LBL_ACCESSKEY_SELECT_FILE_LABEL' => 'Select File',
     'LBL_ACCESSKEY_CLEAR_FILE_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_FILE_TITLE' => 'Fjern fil innhold',
     'LBL_ACCESSKEY_CLEAR_FILE_LABEL' => 'Fjern fil innhold',
 
     'LBL_ACCESSKEY_SELECT_USERS_KEY' => 'U',
-    'LBL_ACCESSKEY_SELECT_USERS_TITLE' => 'Velg bruker',
-    'LBL_ACCESSKEY_SELECT_USERS_LABEL' => 'Velg bruker',
+    'LBL_ACCESSKEY_SELECT_USERS_TITLE' => 'Select User',
+    'LBL_ACCESSKEY_SELECT_USERS_LABEL' => 'Select User',
     'LBL_ACCESSKEY_CLEAR_USERS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_USERS_TITLE' => 'Tøm bruker',
-    'LBL_ACCESSKEY_CLEAR_USERS_LABEL' => 'Tøm bruker',
+    'LBL_ACCESSKEY_CLEAR_USERS_LABEL' => 'Clear User',
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_KEY' => 'A',
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_TITLE' => 'Velg Kunde',
-    'LBL_ACCESSKEY_SELECT_ACCOUNTS_LABEL' => 'Velg Kunde',
+    'LBL_ACCESSKEY_SELECT_ACCOUNTS_LABEL' => 'Select Account',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_TITLE' => 'Fjern kontakt oppføringen',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_LABEL' => 'Fjern kontakt oppføringen',
@@ -1735,8 +1735,8 @@ Hvis denne feilen vedvarer, må din administrator deaktivere Ajax for denne modu
     'LBL_ACCESSKEY_CLEAR_CAMPAIGNS_TITLE' => 'Nullstill kampanjen',
     'LBL_ACCESSKEY_CLEAR_CAMPAIGNS_LABEL' => 'Nullstill kampanjen',
     'LBL_ACCESSKEY_SELECT_CONTACTS_KEY' => 'C',
-    'LBL_ACCESSKEY_SELECT_CONTACTS_TITLE' => 'Velg kontakt',
-    'LBL_ACCESSKEY_SELECT_CONTACTS_LABEL' => 'Velg kontakt',
+    'LBL_ACCESSKEY_SELECT_CONTACTS_TITLE' => 'Select Contact',
+    'LBL_ACCESSKEY_SELECT_CONTACTS_LABEL' => 'Select Contact',
     'LBL_ACCESSKEY_CLEAR_CONTACTS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_CONTACTS_TITLE' => 'Fjern kontakt oppføringen',
     'LBL_ACCESSKEY_CLEAR_CONTACTS_LABEL' => 'Fjern kontakt oppføringen',
@@ -1745,7 +1745,7 @@ Hvis denne feilen vedvarer, må din administrator deaktivere Ajax for denne modu
     'LBL_ACCESSKEY_SELECT_TEAMSET_LABEL' => 'Velg gruppe',
     'LBL_ACCESSKEY_CLEAR_TEAMS_KEY' => ' ',
     'LBL_ACCESSKEY_CLEAR_TEAMS_TITLE' => 'Fjern gruppen',
-    'LBL_ACCESSKEY_CLEAR_TEAMS_LABEL' => 'Fjern gruppen',
+    'LBL_ACCESSKEY_CLEAR_TEAMS_LABEL' => 'Fjern team',
     'LBL_SERVER_RESPONSE_RESOURCES' => 'Ressurser benyttet for å lage denne siden (spørringer, filer)',
     'LBL_SERVER_RESPONSE_TIME_SECONDS' => 'sekunder.',
     'LBL_SERVER_RESPONSE_TIME' => 'Server responstid:',
@@ -1755,17 +1755,17 @@ Hvis denne feilen vedvarer, må din administrator deaktivere Ajax for denne modu
     'LBL_SERVER_PEAK_MEMORY_USAGE' => 'Tjener toppminnebruk: {0} ({1})',
     'LBL_SHIPPING_ADDRESS' => 'Leveringsadresse',
     'LBL_SHOW' => 'Vis',
-    'LBL_STATE' => 'Status:',
+    'LBL_STATE' => 'State:',
     'LBL_STATUS_UPDATED' => 'Din status for denne hendelsen ble  oppdatert.',
-    'LBL_STATUS' => 'Status',
+    'LBL_STATUS' => 'Status:',
     'LBL_STREET' => 'Gate',
-    'LBL_SUBJECT' => 'Emne',
+    'LBL_SUBJECT' => 'Subject',
 
     'LBL_INBOUNDEMAIL_ID' => 'Innkommende e-post ID',
 
-    'LBL_SCENARIO_SALES' => 'Salg',
-    'LBL_SCENARIO_MARKETING' => 'Markedsføring',
-    'LBL_SCENARIO_FINANCE' => 'Finans',
+    'LBL_SCENARIO_SALES' => 'Sales',
+    'LBL_SCENARIO_MARKETING' => 'Marketing',
+    'LBL_SCENARIO_FINANCE' => 'Finance',
     'LBL_SCENARIO_SERVICE' => 'Tjeneste',
     'LBL_SCENARIO_PROJECT' => 'Prosjekt styring',
 
@@ -1775,26 +1775,26 @@ Hvis denne feilen vedvarer, må din administrator deaktivere Ajax for denne modu
     'LBL_SCENARIO_SERVICE_DESCRIPTION' => 'Dette scenariet forenkler forvaltningen av service relaterte elementer',
     'LBL_SCENARIO_PROJECT_DESCRIPTION' => 'Dette scenariet forenkler styring av prosjekt relaterte elementer',
 
-    'LBL_SYNC' => 'Synk',
-    'LBL_TABGROUP_ALL' => 'Alle',
-    'LBL_TABGROUP_ACTIVITIES' => 'Aktiviteter',
+    'LBL_SYNC' => 'Sync',
+    'LBL_TABGROUP_ALL' => 'All',
+    'LBL_TABGROUP_ACTIVITIES' => 'Activities',
     'LBL_TABGROUP_COLLABORATION' => 'Samarbeid',
-    'LBL_TABGROUP_MARKETING' => 'Markedsføring',
-    'LBL_TABGROUP_OTHER' => 'Annen',
-    'LBL_TABGROUP_SALES' => 'Salg',
+    'LBL_TABGROUP_MARKETING' => 'Marketing',
+    'LBL_TABGROUP_OTHER' => 'Other',
+    'LBL_TABGROUP_SALES' => 'Sales',
     'LBL_TABGROUP_SUPPORT' => 'Markedsførings- & supportside',
-    'LBL_TASKS' => 'Oppgaver',
+    'LBL_TASKS' => 'Tasks',
     'LBL_THOUSANDS_SYMBOL' => 'K',
     'LBL_TRACK_EMAIL_BUTTON_LABEL' => 'Arkiver e-post',
-    'LBL_TRACK_EMAIL_BUTTON_TITLE' => 'Arkiver e-post',
+    'LBL_TRACK_EMAIL_BUTTON_TITLE' => 'Archive Email',
     'LBL_UNDELETE_BUTTON_LABEL' => 'Angre sletting',
-    'LBL_UNDELETE_BUTTON_TITLE' => 'Angre sletting',
-    'LBL_UNDELETE_BUTTON' => 'Angre sletting',
-    'LBL_UNDELETE' => 'Angre sletting',
+    'LBL_UNDELETE_BUTTON_TITLE' => 'Undelete',
+    'LBL_UNDELETE_BUTTON' => 'Undelete',
+    'LBL_UNDELETE' => 'Undelete',
     'LBL_UNSYNC' => 'Usynkroniser',
     'LBL_UPDATE' => 'Oppdater',
     'LBL_USER_LIST' => 'Liste over brukere',
-    'LBL_USERS' => 'Brukere',
+    'LBL_USERS' => 'Users',
     'LBL_VERIFY_EMAIL_ADDRESS' => 'Sjekker eksisterende e-post tilgang',
     'LBL_VERIFY_PORTAL_NAME' => 'Sjekker eksisterende portalnavn...',
     'LBL_VIEW_IMAGE' => 'vis',
@@ -1802,28 +1802,28 @@ Hvis denne feilen vedvarer, må din administrator deaktivere Ajax for denne modu
     'LNK_ABOUT' => 'Om',
     'LNK_ADVANCED_FILTER' => 'Avansert Filter',
     'LNK_BASIC_FILTER' => 'Hurtigfilter',
-    'LBL_ADVANCED_SEARCH' => 'Avansert Filter',
-    'LBL_QUICK_FILTER' => 'Hurtigfilter',
+    'LBL_ADVANCED_SEARCH' => 'Advanced Filter',
+    'LBL_QUICK_FILTER' => 'Quick Filter',
     'LNK_SEARCH_NONFTS_VIEW_ALL' => 'Vis alle',
-    'LNK_CLOSE' => 'Avslutt',
+    'LNK_CLOSE' => 'Close',
     'LBL_MODIFY_CURRENT_FILTER' => 'Endre gjeldende filter',
     'LNK_SAVED_VIEWS' => 'Layout alternativer',
-    'LNK_DELETE' => 'Slett',
-    'LNK_EDIT' => 'Rediger',
+    'LNK_DELETE' => 'Delete',
+    'LNK_EDIT' => 'Edit',
     'LNK_GET_LATEST' => 'Hent siste',
     'LNK_GET_LATEST_TOOLTIP' => 'Erstatt med siste versjon',
-    'LNK_HELP' => 'Hjelp',
-    'LNK_CREATE' => 'Ny',
+    'LNK_HELP' => 'Help',
+    'LNK_CREATE' => 'Create',
     'LNK_LIST_END' => 'Slutt',
-    'LNK_LIST_NEXT' => 'Neste',
+    'LNK_LIST_NEXT' => 'Next',
     'LNK_LIST_PREVIOUS' => 'Forrige',
     'LNK_LIST_RETURN' => 'Tilbake til liste',
     'LNK_LIST_START' => 'Start',
     'LNK_LOAD_SIGNED' => 'Signer',
     'LNK_LOAD_SIGNED_TOOLTIP' => 'Erstatt med signert dokument',
-    'LNK_PRINT' => 'Annonsering i avis/magasin',
+    'LNK_PRINT' => 'Print',
     'LNK_BACKTOTOP' => 'Tilbake til toppen',
-    'LNK_REMOVE' => 'Fjern',
+    'LNK_REMOVE' => 'Remove',
     'LNK_RESUME' => 'Gjenoppta',
     'LNK_VIEW_CHANGE_LOG' => 'Vis endringslogg',
 
@@ -1832,14 +1832,14 @@ Hvis denne feilen vedvarer, må din administrator deaktivere Ajax for denne modu
     'NTC_DELETE_CONFIRMATION_MULTIPLE' => 'Er du sikker på at du vil slette de utvalgte oppføring(er)?',
     'NTC_TEMPLATE_IS_USED' => 'Malen brukes i minst en e-post markedsføringspost. Er du sikker på at du vil slette den?',
     'NTC_TEMPLATES_IS_USED' => 'Følgende maler brukes i e-markedsførings poster. Er du sikker på at du vil slette dem?' . PHP_EOL,
-    'NTC_DELETE_CONFIRMATION' => 'Er du sikker på at du vil slette denne oppføringen?',
+    'NTC_DELETE_CONFIRMATION' => 'Are you sure you want to delete this record?',
     'NTC_DELETE_CONFIRMATION_NUM' => 'Vil du virkelig slette',
     'NTC_UPDATE_CONFIRMATION_NUM' => 'Vil du virkelig oppdatere',
     'NTC_DELETE_SELECTED_RECORDS' => 'valgte poster?',
     'NTC_LOGIN_MESSAGE' => 'Oppgi brukernavn og passor.',
-    'NTC_NO_ITEMS_DISPLAY' => 'ingen',
+    'NTC_NO_ITEMS_DISPLAY' => 'none',
     'NTC_REMOVE_CONFIRMATION' => 'Er du sikker på at du vil fjerne dette forholdet?',
-    'NTC_REQUIRED' => 'Indikerer påkrevd felt',
+    'NTC_REQUIRED' => 'Indicates required field',
     'NTC_TIME_FORMAT' => '(24:00)',
     'NTC_WELCOME' => 'Velkommen',
     'NTC_YEAR_FORMAT' => '(åååå)',
@@ -1853,7 +1853,7 @@ Hvis denne feilen vedvarer, må din administrator deaktivere Ajax for denne modu
     'LBL_MANAGE_SUBSCRIPTIONS' => 'Behandle abonnement',
     'LBL_MANAGE_SUBSCRIPTIONS_FOR' => 'Behandle abonnementer for',
     // Ajax status strings
-    'LBL_LOADING' => 'Laster',
+    'LBL_LOADING' => 'Loading...',
     'LBL_SEARCHING' => 'Søker...',
     'LBL_SAVING_LAYOUT' => 'Lagrer oppsett...',
     'LBL_SAVED_LAYOUT' => 'Oppsettet er lagret.',
@@ -1864,7 +1864,7 @@ Hvis denne feilen vedvarer, må din administrator deaktivere Ajax for denne modu
     'LBL_SEARCH_CRITERIA' => 'Søkekriterier',
     'LBL_SAVED_VIEWS' => 'Lagrede visninger',
     'LBL_PROCESSING_REQUEST' => 'Prosesserer...',
-    'LBL_REQUEST_PROCESSED' => 'Ferdig',
+    'LBL_REQUEST_PROCESSED' => 'Done',
     'LBL_AJAX_FAILURE' => 'Ajax feil',
     'LBL_MERGE_DUPLICATES' => 'Slå sammen',
     'LBL_SAVED_FILTER_SHORTCUT' => 'Mine filtre',
@@ -1873,17 +1873,17 @@ Hvis denne feilen vedvarer, må din administrator deaktivere Ajax for denne modu
     'LBL_LISTVIEW' => 'Listevisning',
     'LBL_EDITVIEW' => 'Redigering',
     'LBL_BILLING_STREET' => 'Gate:',
-    'LBL_SHIPPING_STREET' => 'Gate:',
+    'LBL_SHIPPING_STREET' => 'Street:',
     'LBL_SEARCHFORM' => 'Søkeskjema',
     'LBL_SAVED_SEARCH_ERROR' => 'Angi et navn for dette oppsettet.',
     'LBL_DISPLAY_LOG' => 'Lis logg',
-    'ERROR_JS_ALERT_SYSTEM_CLASS' => 'Systemadministrasjon',
+    'ERROR_JS_ALERT_SYSTEM_CLASS' => 'System',
     'ERROR_JS_ALERT_TIMEOUT_TITLE' => 'Tidsavbrudd',
     'ERROR_JS_ALERT_TIMEOUT_MSG_1' => 'Sesjonen tidsavbrytes om 2 minutter. Lagre endringene.',
     'ERROR_JS_ALERT_TIMEOUT_MSG_2' => 'Økten din er tidsavbrutt',
     'MSG_JS_ALERT_MTG_REMINDER_AGENDA' => "\nAgenda: ",
-    'MSG_JS_ALERT_MTG_REMINDER_MEETING' => 'Møter',
-    'MSG_JS_ALERT_MTG_REMINDER_CALL' => 'Oppringninger',
+    'MSG_JS_ALERT_MTG_REMINDER_MEETING' => 'Meeting',
+    'MSG_JS_ALERT_MTG_REMINDER_CALL' => 'Call',
     'MSG_JS_ALERT_MTG_REMINDER_TIME' => 'Klokkeslett:',
     'MSG_JS_ALERT_MTG_REMINDER_LOC' => 'Sted:',
     'MSG_JS_ALERT_MTG_REMINDER_DESC' => 'Beskrivelse: ',
@@ -1905,7 +1905,7 @@ Hvis denne feilen vedvarer, må din administrator deaktivere Ajax for denne modu
     // contextMenu strings
     'LBL_ADD_TO_FAVORITES' => 'Legg til mine favoritter',
     'LBL_CREATE_CONTACT' => 'Ny kontakt',
-    'LBL_CREATE_CASE' => 'Ny sak (kundestøtte)',
+    'LBL_CREATE_CASE' => 'Create Case',
     'LBL_CREATE_NOTE' => 'Opprettet nytt notat',
     'LBL_CREATE_OPPORTUNITY' => 'Ny salgsmulighet',
     'LBL_SCHEDULE_CALL' => 'Lagre telefon',
@@ -1925,7 +1925,7 @@ Hvis denne feilen vedvarer, må din administrator deaktivere Ajax for denne modu
     'LBL_ADD_ALL_LEAD_FIELDS' => 'Bruk alle feltene',
     'LBL_RESET_ALL_LEAD_FIELDS' => 'Tilbakestill alle felt',
     'LBL_REMOVE_ALL_LEAD_FIELDS' => 'Fjern alle feltene',
-    'LBL_NEXT_BTN' => 'Neste',
+    'LBL_NEXT_BTN' => 'Next',
     'LBL_ONLY_IMAGE_ATTACHMENT' => 'Bare bildevedlegg kan legges inn.',
     'LBL_TRAINING' => 'Support Forum',
     'ERR_MSSQL_DB_CONTEXT' => 'Endret databasekontekst til',
@@ -1941,7 +1941,7 @@ Hvis denne feilen vedvarer, må din administrator deaktivere Ajax for denne modu
     'LBL_DASHLET_CONFIGURE_GENERAL' => 'Generell',
     'LBL_DASHLET_CONFIGURE_FILTERS' => 'Filtre',
     'LBL_DASHLET_CONFIGURE_MY_ITEMS_ONLY' => 'Bare mine egne',
-    'LBL_DASHLET_CONFIGURE_TITLE' => 'Tittel:',
+    'LBL_DASHLET_CONFIGURE_TITLE' => 'Tittel',
     'LBL_DASHLET_CONFIGURE_DISPLAY_ROWS' => 'Vis rader',
 
     // MySugar status strings
@@ -1960,14 +1960,14 @@ Hvis denne feilen vedvarer, må din administrator deaktivere Ajax for denne modu
 
     'LBL_RELOAD_PAGE' => '<a href="javascript: window.location.reload()">Oppfrisk dette vinduet</a> for å bruke denne SuiteCRM-dashleten.',
     'LBL_ADD_DASHLETS' => 'Legg til dashlets',
-    'LBL_CLOSE_DASHLETS' => 'Avslutt',
-    'LBL_OPTIONS' => 'Valg',
+    'LBL_CLOSE_DASHLETS' => 'Close',
+    'LBL_OPTIONS' => 'Options',
     'LBL_1_COLUMN' => '1 kolonne',
     'LBL_2_COLUMN' => '2 kolonner',
     'LBL_3_COLUMN' => '3 kolonner',
     'LBL_PAGE_NAME' => 'Sidenavn',
 
-    'LBL_SEARCH_RESULTS' => 'Søkeresultat',
+    'LBL_SEARCH_RESULTS' => 'Search Results',
     'LBL_SEARCH_MODULES' => 'Moduler',
     'LBL_SEARCH_TOOLS' => 'Verktøy',
     'LBL_SEARCH_HELP_TITLE' => 'Jobber med flervalg og lagrede søk',
@@ -2025,7 +2025,7 @@ $app_strings[\'LBL_SEARCH_HELP_TEXT\']',
     'LBL_CHOOSE_START_AND_END_ENTRIES' => 'Velg både start- og stopp-punkter i intervalloppføringer',
 
     //jchi #  20776
-    'LBL_DROPDOWN_LIST_ALL' => 'Alle',
+    'LBL_DROPDOWN_LIST_ALL' => 'All',
 
     //Connector
     'ERR_CONNECTOR_FILL_BEANS_SIZE_MISMATCH' => 'Feil: Array antall av "bean" parametre stemmer ikke overens med Array sum av resultatene.',
@@ -2036,13 +2036,13 @@ $app_strings[\'LBL_SEARCH_HELP_TEXT\']',
     'LBL_FASTCGI_LOGGING' => 'Du kan få den optimale oplevelse med IIS/FastCGI sapi ved at angive fastcgi.logging til 0 i filen php.ini.',
 
     //Collection Field
-    'LBL_COLLECTION_NAME' => 'Navn',
-    'LBL_COLLECTION_PRIMARY' => 'Primær',
+    'LBL_COLLECTION_NAME' => 'Name',
+    'LBL_COLLECTION_PRIMARY' => 'Primary',
     'ERROR_MISSING_COLLECTION_SELECTION' => 'Obligatorisk felt er tomt',
 
     //MB -Fixed Bug #32812 -Max
-    'LBL_ASSIGNED_TO_NAME' => 'Tildelt til navn',
-    'LBL_DESCRIPTION' => 'Beskrivelse',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
+    'LBL_DESCRIPTION' => 'Description',
 
     'LBL_YESTERDAY' => 'I går',
     'LBL_TODAY' => 'i dag',
@@ -2058,8 +2058,8 @@ $app_strings[\'LBL_SEARCH_HELP_TEXT\']',
     'LBL_NEXT_YEAR' => 'Neste år',
 
     //Datetimecombo fields
-    'LBL_HOURS' => 'timer',
-    'LBL_MINUTES' => 'minutter',
+    'LBL_HOURS' => 'Hours',
+    'LBL_MINUTES' => 'Minutes',
     'LBL_MERIDIEM' => 'Middag',
     'LBL_DATE' => 'Dato',
     'LBL_DASHLET_CONFIGURE_AUTOREFRESH' => 'Automatisk oppdatering',
@@ -2109,7 +2109,7 @@ $app_strings[\'LBL_SEARCH_HELP_TEXT\']',
     'LBL_NOTIFICATIONS_NONE' => 'Ingen varsler',
     'LBL_ALT_SORT_DESC' => 'Sorter synkende',
     'LBL_ALT_SORT_ASC' => 'Sorter stigende',
-    'LBL_ALT_SORT' => 'Sorter',
+    'LBL_ALT_SORT' => 'Sort',
     'LBL_ALT_SHOW_OPTIONS' => 'Vis innstillinger',
     'LBL_ALT_HIDE_OPTIONS' => 'Gjem Innstilinger',
     'LBL_ALT_MOVE_COLUMN_LEFT' => 'Flytt de merkede elementene til listen til venstre',
@@ -2135,22 +2135,22 @@ $app_strings[\'LBL_SEARCH_HELP_TEXT\']',
 
     //508 used Access Keys
     'LBL_EDIT_BUTTON_KEY' => 'E',
-    'LBL_EDIT_BUTTON_LABEL' => 'Rediger',
-    'LBL_EDIT_BUTTON_TITLE' => 'Rediger',
+    'LBL_EDIT_BUTTON_LABEL' => 'Edit',
+    'LBL_EDIT_BUTTON_TITLE' => 'Edit',
     'LBL_DUPLICATE_BUTTON_KEY' => 'U',
-    'LBL_DUPLICATE_BUTTON_LABEL' => 'Duplikat',
-    'LBL_DUPLICATE_BUTTON_TITLE' => 'Duplikat',
+    'LBL_DUPLICATE_BUTTON_LABEL' => 'Duplicate',
+    'LBL_DUPLICATE_BUTTON_TITLE' => 'Duplicate',
     'LBL_DELETE_BUTTON_KEY' => 'D',
-    'LBL_DELETE_BUTTON_LABEL' => 'Slett',
-    'LBL_DELETE_BUTTON_TITLE' => 'Slett',
+    'LBL_DELETE_BUTTON_LABEL' => 'Delete',
+    'LBL_DELETE_BUTTON_TITLE' => 'Delete',
     'LBL_BULK_ACTION_BUTTON_LABEL' => 'BULK ACTION',
     'LBL_BULK_ACTION_BUTTON_LABEL_MOBILE' => 'Handling',
     'LBL_SAVE_BUTTON_KEY' => 'S',
-    'LBL_SAVE_BUTTON_LABEL' => 'Lagre',
-    'LBL_SAVE_BUTTON_TITLE' => 'Lagre',
+    'LBL_SAVE_BUTTON_LABEL' => 'Save',
+    'LBL_SAVE_BUTTON_TITLE' => 'Save',
     'LBL_CANCEL_BUTTON_KEY' => 'X',
-    'LBL_CANCEL_BUTTON_LABEL' => 'Avbryt',
-    'LBL_CANCEL_BUTTON_TITLE' => 'Avbryt',
+    'LBL_CANCEL_BUTTON_LABEL' => 'Cancel',
+    'LBL_CANCEL_BUTTON_TITLE' => 'Cancel',
     'LBL_FIRST_INPUT_EDIT_VIEW_KEY' => '7',
     'LBL_ADV_SEARCH_LNK_KEY' => '8',
     'LBL_FIRST_INPUT_SEARCH_KEY' => '9',
@@ -2158,11 +2158,11 @@ $app_strings[\'LBL_SEARCH_HELP_TEXT\']',
     'ERR_CONNECTOR_NOT_ARRAY' => 'koblingsarray i {0} har blitt definert feilaktig, eller så er det tomt og kunne ikke brukes.',
     'ERR_SUHOSIN' => 'Opplastningsstrøm er blookert av Suhosin. Legg til &quot;upload&quot; i suhosin.executor.include.whitelist (se suitecrm.log for mer informasjon)',
     'ERR_BAD_RESPONSE_FROM_SERVER' => 'Feilaktig svar fra tjeneren',
-    'LBL_ACCOUNT_PRODUCT_QUOTE_LINK' => 'Tilbud',
+    'LBL_ACCOUNT_PRODUCT_QUOTE_LINK' => 'Quote',
     'LBL_ACCOUNT_PRODUCT_SALE_PRICE' => 'Salgspris',
     'LBL_EMAIL_CHECK_INTERVAL_DOM' => array(
         '-1' => 'Manuellt',
-        '5' => 'Hvert 5 minutt',
+        '5' => 'Every 5 minutes',
         '15' => 'Hvert 15. minutt',
         '30' => 'Hvert 30. minutt',
         '60' => 'Hver time',
@@ -2182,10 +2182,10 @@ $app_strings[\'LBL_SEARCH_HELP_TEXT\']',
     'LBL_HIDDEN' => 'Skjult',
     'ERR_EMPTY_COLUMNS_LIST' => 'Minst ett element kreves',
 
-    'LBL_FILTER_HEADER_TITLE' => 'Søk',
+    'LBL_FILTER_HEADER_TITLE' => 'Filter',
 
-    'LBL_CATEGORY' => 'Kategori',
-    'LBL_LIST_CATEGORY' => 'Kategori',
+    'LBL_CATEGORY' => 'Category',
+    'LBL_LIST_CATEGORY' => 'Category',
     'ERR_FACTOR_TPL_INVALID' => 'Faktor autentisering melding er ugjyldig, kontakt din system administrator.',
     'LBL_SUBTHEMES' => 'Stil',
     'LBL_SUBTHEME_OPTIONS_DAWN' => 'Kveld',
@@ -2202,7 +2202,7 @@ $app_strings[\'LBL_SEARCH_HELP_TEXT\']',
     'LBL_CONFIRM_APPLY_EMAIL_TEMPLATE_BODY' => 'Denne operasjonen vil overstyre email-emne og -innhold, vil du fortsette?',
 
     'LBL_CONFIRM_OPT_IN_TITLE' => 'Bekreftet deltagelse',
-    'LBL_OPT_IN_TITLE' => 'Påmeldt',
+    'LBL_OPT_IN_TITLE' => 'Delta',
     'LBL_CONFIRM_OPT_IN_DATE' => 'Bekreftet deltagelse dato',
     'LBL_CONFIRM_OPT_IN_SENT_DATE' => 'Dato for sendt Bekreftet deltagelse',
     'LBL_CONFIRM_OPT_IN_FAIL_DATE' => 'Bekreftet deltagelse feilet dato',
@@ -2214,7 +2214,7 @@ $app_strings[\'LBL_SEARCH_HELP_TEXT\']',
     'LBL_PRIMARY_GROUP' => "Primærgruppe",
 
     // footer
-    'LBL_SUITE_TOP' => 'Tilbake til toppen',
+    'LBL_SUITE_TOP' => 'Back to top',
     'LBL_SUITE_SUPERCHARGED' => 'Supercharged av SuiteCRM',
     'LBL_SUITE_POWERED_BY' => 'Powered by SuiteCRM',
     'LBL_SUITE_DESC1' => 'SuiteCRM has been written and assembled by <a href="https://suitecrm.com/">SuiteCRM Ltd</a>. The Program is provided AS IS, without warranty. Licensed under AGPLv3.',
@@ -2230,19 +2230,19 @@ $app_strings[\'LBL_SEARCH_HELP_TEXT\']',
 );
 
 $app_list_strings['moduleList']['Library'] = 'Bibliotek';
-$app_list_strings['moduleList']['EmailAddresses'] = 'E-postadresse:';
-$app_list_strings['project_priority_default'] = 'Media';
+$app_list_strings['moduleList']['EmailAddresses'] = 'Email Address';
+$app_list_strings['project_priority_default'] = 'Medium';
 $app_list_strings['project_priority_options'] = array(
-    'High' => 'Høy',
-    'Medium' => 'Media',
-    'Low' => 'Lav',
+    'High' => 'High',
+    'Medium' => 'Medium',
+    'Low' => 'Low',
 );
 
 //GDPR lawful basis options
 $app_list_strings['lawful_basis_dom'] = array(
     '' => '',
     'consent' => 'Samtykke',
-    'contract' => 'Kontrakt',
+    'contract' => 'Contract',
     'legal_obligation' => 'Påkrevd etter loven',
     'protection_of_interest' => 'Interresse beskyttelse',
     'public_interest' => 'Almen interresse',
@@ -2255,14 +2255,14 @@ $app_list_strings['lawful_basis_dom'] = array(
 $app_list_strings['lawful_basis_source_dom'] = array(
     '' => '',
     'website' => 'Nettsted',
-    'phone' => 'Telefonnr:',
+    'phone' => 'Phone',
     'given_to_user' => 'Pålagt av bruker',
-    'email' => 'E-post',
+    'email' => 'Email',
     'third_party' => 'Tredje part',
 );
 //End GDPR lawful basis source options
 
-$app_list_strings['moduleList']['KBDocuments'] = 'Kunnskapsbase';
+$app_list_strings['moduleList']['KBDocuments'] = 'Knowledge Base';
 
 $app_list_strings['countries_dom'] = array(
     '' => '',
@@ -2426,7 +2426,7 @@ $app_list_strings['countries_dom'] = array(
     'NORFOLK ISLAND' => 'NORFOLKØYA',
     'NORWAY' => 'NORGE',
     'OMAN' => 'OMAN',
-    'OTHER' => 'ANDRE',
+    'OTHER' => 'OTHER',
     'PACIFIC ISLAND' => 'STILLEHAVSØYENE',
     'PAKISTAN' => 'PAKISTAN',
     'PANAMA' => 'PANAMA',
@@ -2930,35 +2930,35 @@ $app_list_strings['eapm_list_documents'] = array(
 $app_list_strings['token_status'] = array(
     1 => 'Forespørsel',
     2 => 'Tilgang',
-    3 => 'Ugyldig',
+    3 => 'Invalid',
 );
 
 $app_list_strings ['emailTemplates_type_list'] = array(
     '' => '',
-    'campaign' => 'Kampanje',
-    'email' => 'E-post',
-    'event' => 'Arrangement',
+    'campaign' => 'Campaign',
+    'email' => 'Email',
+    'event' => 'Event',
 );
 
 $app_list_strings ['emailTemplates_type_list_campaigns'] = array(
     '' => '',
-    'campaign' => 'Kampanje',
+    'campaign' => 'Campaign',
 );
 
 $app_list_strings ['emailTemplates_type_list_no_workflow'] = array(
     '' => '',
-    'campaign' => 'Kampanje',
-    'email' => 'E-post',
-    'event' => 'Arrangement',
-    'system' => 'Systemadministrasjon',
+    'campaign' => 'Campaign',
+    'email' => 'Email',
+    'event' => 'Event',
+    'system' => 'System',
 );
 
 // knowledge base
-$app_list_strings['moduleList']['AOK_KnowledgeBase'] = 'Kunnskapsbase';
+$app_list_strings['moduleList']['AOK_KnowledgeBase'] = 'Knowledge Base';
 $app_list_strings['moduleList']['AOK_Knowledge_Base_Categories'] = 'KB - kategorier';
-$app_list_strings['aok_status_list']['Draft'] = 'Utkast';
-$app_list_strings['aok_status_list']['Expired'] = 'Utløpt';
-$app_list_strings['aok_status_list']['In_Review'] = 'Til vurdering';
+$app_list_strings['aok_status_list']['Draft'] = 'Draft';
+$app_list_strings['aok_status_list']['Expired'] = 'Expired';
+$app_list_strings['aok_status_list']['In_Review'] = 'In Review';
 //$app_list_strings['aok_status_list']['Published'] = 'Published';
 $app_list_strings['aok_status_list']['published_private'] = 'Privat';
 $app_list_strings['aok_status_list']['published_public'] = 'Offentlig';
@@ -2971,8 +2971,8 @@ $app_list_strings['fp_event_invite_status_dom']['Invited'] = 'Invitert';
 $app_list_strings['fp_event_invite_status_dom']['Not Invited'] = 'Ikke invitert';
 $app_list_strings['fp_event_invite_status_dom']['Attended'] = 'Deltatt';
 $app_list_strings['fp_event_invite_status_dom']['Not Attended'] = 'Ikke deltatt';
-$app_list_strings['fp_event_status_dom']['Accepted'] = 'Godkjent';
-$app_list_strings['fp_event_status_dom']['Declined'] = 'Avslått';
+$app_list_strings['fp_event_status_dom']['Accepted'] = 'Accepted';
+$app_list_strings['fp_event_status_dom']['Declined'] = 'Declined';
 $app_list_strings['fp_event_status_dom']['No Response'] = 'Ubesvart';
 
 $app_strings['LBL_STATUS_EVENT'] = 'Status invitasjon';
@@ -2994,18 +2994,18 @@ $app_strings['LBL_AOP_EMAIL_REPLY_DELIMITER'] = '=== Vennligst svar over denne l
 $app_list_strings['case_state_default_key'] = 'Åpne';
 $app_list_strings['case_state_dom'] =
     array(
-        'Open' => 'Åpne',
-        'Closed' => 'Avsluttet',
+        'Open' => 'Open',
+        'Closed' => 'Closed',
     );
 $app_list_strings['case_status_default_key'] = 'Open_New';
 $app_list_strings['case_status_dom'] =
     array(
-        'Open_New' => 'Ny',
-        'Open_Assigned' => 'Tildelt',
-        'Closed_Closed' => 'Avsluttet',
-        'Open_Pending Input' => 'Venter på opplysninger',
-        'Closed_Rejected' => 'Avslått',
-        'Closed_Duplicate' => 'Duplikat',
+        'Open_New' => 'New',
+        'Open_Assigned' => 'Assigned',
+        'Closed_Closed' => 'Closed',
+        'Open_Pending Input' => 'Pending Input',
+        'Closed_Rejected' => 'Rejected',
+        'Closed_Duplicate' => 'Duplicate',
     );
 $app_list_strings['contact_portal_user_type_dom'] =
     array(
@@ -3015,8 +3015,8 @@ $app_list_strings['contact_portal_user_type_dom'] =
 $app_list_strings['dom_email_distribution_for_auto_create'] = array(
     'AOPDefault' => 'Forhåndsinnstillinger for system',
     'singleUser' => 'Enkel bruker',
-    'roundRobin' => 'Rundgang',
-    'leastBusy' => 'Minst opptatt',
+    'roundRobin' => 'Round-Robin',
+    'leastBusy' => 'Least-Busy',
     'random' => 'Tilfeldig',
 );
 
@@ -3028,12 +3028,12 @@ $app_list_strings['moduleList']['AOR_Fields'] = 'Rapport felt';
 $app_list_strings['moduleList']['AOR_Scheduled_Reports'] = 'Planlagte rapporter';
 $app_list_strings['aor_operator_list']['Equal_To'] = 'Lik';
 $app_list_strings['aor_operator_list']['Not_Equal_To'] = 'ikke lik';
-$app_list_strings['aor_operator_list']['Greater_Than'] = 'Større enn';
-$app_list_strings['aor_operator_list']['Less_Than'] = 'Mindre enn';
+$app_list_strings['aor_operator_list']['Greater_Than'] = 'Greater Than';
+$app_list_strings['aor_operator_list']['Less_Than'] = 'Less Than';
 $app_list_strings['aor_operator_list']['Greater_Than_or_Equal_To'] = 'Større eller lik';
 $app_list_strings['aor_operator_list']['Less_Than_or_Equal_To'] = 'Mindre enn eller lik';
-$app_list_strings['aor_operator_list']['Contains'] = 'Inneholder';
-$app_list_strings['aor_operator_list']['Starts_With'] = 'Begynner med';
+$app_list_strings['aor_operator_list']['Contains'] = 'Contains';
+$app_list_strings['aor_operator_list']['Starts_With'] = 'Starts With';
 $app_list_strings['aor_operator_list']['Ends_With'] = 'Slutter med';
 $app_list_strings['aor_format_options'][''] = '';
 $app_list_strings['aor_format_options']['Y-m-d'] = 'Y-m-d';
@@ -3048,18 +3048,18 @@ $app_list_strings['aor_format_options']['d.m.Y'] = 'd.m.Å';
 $app_list_strings['aor_format_options']['Ymd'] = 'Ymd';
 $app_list_strings['aor_format_options']['Y-m'] = 'Y-m';
 $app_list_strings['aor_format_options']['Y'] = 'Y';
-$app_list_strings['aor_condition_operator_list']['And'] = 'Og';
-$app_list_strings['aor_condition_operator_list']['OR'] = 'ELLER';
+$app_list_strings['aor_condition_operator_list']['And'] = 'And';
+$app_list_strings['aor_condition_operator_list']['OR'] = 'OR';
 $app_list_strings['aor_condition_type_list']['Value'] = 'verdi';
 $app_list_strings['aor_condition_type_list']['Field'] = 'Felt';
-$app_list_strings['aor_condition_type_list']['Date'] = 'Dato';
+$app_list_strings['aor_condition_type_list']['Date'] = 'Date';
 $app_list_strings['aor_condition_type_list']['Multi'] = 'En av';
 $app_list_strings['aor_condition_type_list']['Period'] = 'Periode';
 $app_list_strings['aor_condition_type_list']['CurrentUserID'] = 'Denne brukeren';
 $app_list_strings['aor_date_type_list'][''] = '';
-$app_list_strings['aor_date_type_list']['minute'] = 'minutter';
-$app_list_strings['aor_date_type_list']['hour'] = 'timer';
-$app_list_strings['aor_date_type_list']['day'] = 'dager';
+$app_list_strings['aor_date_type_list']['minute'] = 'Minutes';
+$app_list_strings['aor_date_type_list']['hour'] = 'Hours';
+$app_list_strings['aor_date_type_list']['day'] = 'Days';
 $app_list_strings['aor_date_type_list']['week'] = 'uker';
 $app_list_strings['aor_date_type_list']['month'] = 'måneder';
 $app_list_strings['aor_date_type_list']['business_hours'] = 'Åpningstid';
@@ -3069,8 +3069,8 @@ $app_list_strings['aor_date_operator']['now'] = '';
 $app_list_strings['aor_date_operator']['plus'] = '+';
 $app_list_strings['aor_date_operator']['minus'] = '-';
 $app_list_strings['aor_sort_operator'][''] = '';
-$app_list_strings['aor_sort_operator']['ASC'] = 'Stigende';
-$app_list_strings['aor_sort_operator']['DESC'] = 'Fallende';
+$app_list_strings['aor_sort_operator']['ASC'] = 'Ascending';
+$app_list_strings['aor_sort_operator']['DESC'] = 'Descending';
 $app_list_strings['aor_function_list'][''] = '';
 $app_list_strings['aor_function_list']['COUNT'] = 'Opptelling';
 $app_list_strings['aor_function_list']['MIN'] = 'Minimum';
@@ -3078,32 +3078,32 @@ $app_list_strings['aor_function_list']['MAX'] = 'Maksimum';
 $app_list_strings['aor_function_list']['SUM'] = 'Sum';
 $app_list_strings['aor_function_list']['AVG'] = 'Gjennomsnitt';
 $app_list_strings['aor_total_options'][''] = '';
-$app_list_strings['aor_total_options']['COUNT'] = 'Opptelling';
+$app_list_strings['aor_total_options']['COUNT'] = 'Count';
 $app_list_strings['aor_total_options']['SUM'] = 'Sum';
-$app_list_strings['aor_total_options']['AVG'] = 'Gjennomsnitt';
+$app_list_strings['aor_total_options']['AVG'] = 'Average';
 $app_list_strings['aor_chart_types']['bar'] = 'Søylediagram';
 $app_list_strings['aor_chart_types']['line'] = 'Linjediagram';
 $app_list_strings['aor_chart_types']['pie'] = 'Kakediagram';
 $app_list_strings['aor_chart_types']['radar'] = 'Radardiagram';
 $app_list_strings['aor_chart_types']['stacked_bar'] = 'Stablet liggende stolpediagram';
 $app_list_strings['aor_chart_types']['grouped_bar'] = 'Grupperte bar';
-$app_list_strings['aor_scheduled_report_schedule_types']['monthly'] = 'Månedlig';
-$app_list_strings['aor_scheduled_report_schedule_types']['weekly'] = 'Ukentlig';
-$app_list_strings['aor_scheduled_report_schedule_types']['daily'] = 'Daglig';
-$app_list_strings['aor_scheduled_reports_status_dom']['active'] = 'Aktiv';
-$app_list_strings['aor_scheduled_reports_status_dom']['inactive'] = 'Inaktiv';
-$app_list_strings['aor_email_type_list']['Email Address'] = 'E-post';
-$app_list_strings['aor_email_type_list']['Specify User'] = 'Bruker';
-$app_list_strings['aor_email_type_list']['Users'] = 'Brukere';
+$app_list_strings['aor_scheduled_report_schedule_types']['monthly'] = 'Monthly';
+$app_list_strings['aor_scheduled_report_schedule_types']['weekly'] = 'Weekly';
+$app_list_strings['aor_scheduled_report_schedule_types']['daily'] = 'Daily';
+$app_list_strings['aor_scheduled_reports_status_dom']['active'] = 'Active';
+$app_list_strings['aor_scheduled_reports_status_dom']['inactive'] = 'Inactive';
+$app_list_strings['aor_email_type_list']['Email Address'] = 'Email';
+$app_list_strings['aor_email_type_list']['Specify User'] = 'User';
+$app_list_strings['aor_email_type_list']['Users'] = 'Users';
 $app_list_strings['aor_assign_options']['all'] = 'Alle brukere';
 $app_list_strings['aor_assign_options']['role'] = 'Alle brukere med rolle';
 $app_list_strings['aor_assign_options']['security_group'] = 'Alle brukere i sikkerhetsgruppe';
-$app_list_strings['date_time_period_list']['today'] = 'I dag';
+$app_list_strings['date_time_period_list']['today'] = 'Today';
 $app_list_strings['date_time_period_list']['yesterday'] = 'I går';
 $app_list_strings['date_time_period_list']['this_week'] = 'Denne uken';
 $app_list_strings['date_time_period_list']['last_week'] = 'Siste uke';
-$app_list_strings['date_time_period_list']['last_month'] = 'Siste måned';
-$app_list_strings['date_time_period_list']['this_month'] = 'Denne måned';
+$app_list_strings['date_time_period_list']['last_month'] = 'Last Month';
+$app_list_strings['date_time_period_list']['this_month'] = 'This Month';
 $app_list_strings['date_time_period_list']['this_quarter'] = 'Neste kvartal';
 $app_list_strings['date_time_period_list']['last_quarter'] = 'Siste kvartal';
 $app_list_strings['date_time_period_list']['this_year'] = 'Dette året';
@@ -3114,41 +3114,41 @@ $app_strings['LBL_CRON_AT'] = 'ved';
 $app_strings['LBL_CRON_RAW'] = 'Avansert';
 $app_strings['LBL_CRON_MIN'] = 'Min';
 $app_strings['LBL_CRON_HOUR'] = 'Time';
-$app_strings['LBL_CRON_DAY'] = 'Dag';
+$app_strings['LBL_CRON_DAY'] = 'Day';
 $app_strings['LBL_CRON_MONTH'] = 'Måned';
 $app_strings['LBL_CRON_DOW'] = 'DOW';
-$app_strings['LBL_CRON_DAILY'] = 'Daglig';
-$app_strings['LBL_CRON_WEEKLY'] = 'Ukentlig';
-$app_strings['LBL_CRON_MONTHLY'] = 'Månedlig';
+$app_strings['LBL_CRON_DAILY'] = 'Daily';
+$app_strings['LBL_CRON_WEEKLY'] = 'Weekly';
+$app_strings['LBL_CRON_MONTHLY'] = 'Monthly';
 
 //aos
-$app_list_strings['moduleList']['AOS_Contracts'] = 'Kontrakter';
-$app_list_strings['moduleList']['AOS_Invoices'] = 'Fakturaer';
+$app_list_strings['moduleList']['AOS_Contracts'] = 'Contracts';
+$app_list_strings['moduleList']['AOS_Invoices'] = 'Invoices';
 $app_list_strings['moduleList']['AOS_PDF_Templates'] = 'PDF - maler';
 $app_list_strings['moduleList']['AOS_Product_Categories'] = 'Produkt - kategorier';
-$app_list_strings['moduleList']['AOS_Products'] = 'Produkter';
+$app_list_strings['moduleList']['AOS_Products'] = 'Products';
 $app_list_strings['moduleList']['AOS_Products_Quotes'] = 'Linjeenheter';
 $app_list_strings['moduleList']['AOS_Line_Item_Groups'] = 'Linjeenhetsgrupper';
-$app_list_strings['moduleList']['AOS_Quotes'] = 'Tilbud';
+$app_list_strings['moduleList']['AOS_Quotes'] = 'Quotes';
 $app_list_strings['aos_quotes_type_dom'][''] = '';
-$app_list_strings['aos_quotes_type_dom']['Analyst'] = 'Analytiker';
-$app_list_strings['aos_quotes_type_dom']['Competitor'] = 'Konkurrent';
-$app_list_strings['aos_quotes_type_dom']['Customer'] = 'Kunde';
+$app_list_strings['aos_quotes_type_dom']['Analyst'] = 'Analyst';
+$app_list_strings['aos_quotes_type_dom']['Competitor'] = 'Competitor';
+$app_list_strings['aos_quotes_type_dom']['Customer'] = 'Customer';
 $app_list_strings['aos_quotes_type_dom']['Integrator'] = 'Integrator';
 $app_list_strings['aos_quotes_type_dom']['Investor'] = 'Investor';
 $app_list_strings['aos_quotes_type_dom']['Partner'] = 'Partner';
-$app_list_strings['aos_quotes_type_dom']['Press'] = 'Presse';
-$app_list_strings['aos_quotes_type_dom']['Prospect'] = 'Prospekt';
-$app_list_strings['aos_quotes_type_dom']['Reseller'] = 'Distributør';
-$app_list_strings['aos_quotes_type_dom']['Other'] = 'Annen';
+$app_list_strings['aos_quotes_type_dom']['Press'] = 'Press';
+$app_list_strings['aos_quotes_type_dom']['Prospect'] = 'Prospect';
+$app_list_strings['aos_quotes_type_dom']['Reseller'] = 'Reseller';
+$app_list_strings['aos_quotes_type_dom']['Other'] = 'Other';
 $app_list_strings['template_ddown_c_list'][''] = '';
-$app_list_strings['quote_stage_dom']['Draft'] = 'Utkast';
+$app_list_strings['quote_stage_dom']['Draft'] = 'Draft';
 $app_list_strings['quote_stage_dom']['Negotiation'] = 'I Forhandling';
 $app_list_strings['quote_stage_dom']['Delivered'] = 'Levert';
-$app_list_strings['quote_stage_dom']['On Hold'] = 'På Vent';
+$app_list_strings['quote_stage_dom']['On Hold'] = 'On Hold';
 $app_list_strings['quote_stage_dom']['Confirmed'] = 'Bekreftet';
 $app_list_strings['quote_stage_dom']['Closed Accepted'] = 'Avsluttet og Godtatt';
-$app_list_strings['quote_stage_dom']['Closed Lost'] = 'Lukket og tapt';
+$app_list_strings['quote_stage_dom']['Closed Lost'] = 'Closed Lost';
 $app_list_strings['quote_stage_dom']['Closed Dead'] = 'Avsluttet og Død';
 $app_list_strings['quote_term_dom']['Net 15'] = 'Nett 15';
 $app_list_strings['quote_term_dom']['Net 30'] = 'Nett 30';
@@ -3164,16 +3164,16 @@ $app_list_strings['vat_list']['20.0'] = '20%';
 $app_list_strings['discount_list']['Percentage'] = 'Pct';
 $app_list_strings['discount_list']['Amount'] = 'Amt';
 $app_list_strings['aos_invoices_type_dom'][''] = '';
-$app_list_strings['aos_invoices_type_dom']['Analyst'] = 'Analytiker';
-$app_list_strings['aos_invoices_type_dom']['Competitor'] = 'Konkurrent';
-$app_list_strings['aos_invoices_type_dom']['Customer'] = 'Kunde';
+$app_list_strings['aos_invoices_type_dom']['Analyst'] = 'Analyst';
+$app_list_strings['aos_invoices_type_dom']['Competitor'] = 'Competitor';
+$app_list_strings['aos_invoices_type_dom']['Customer'] = 'Customer';
 $app_list_strings['aos_invoices_type_dom']['Integrator'] = 'Integrator';
 $app_list_strings['aos_invoices_type_dom']['Investor'] = 'Investor';
 $app_list_strings['aos_invoices_type_dom']['Partner'] = 'Partner';
-$app_list_strings['aos_invoices_type_dom']['Press'] = 'Presse';
-$app_list_strings['aos_invoices_type_dom']['Prospect'] = 'Prospekt';
-$app_list_strings['aos_invoices_type_dom']['Reseller'] = 'Distributør';
-$app_list_strings['aos_invoices_type_dom']['Other'] = 'Annen';
+$app_list_strings['aos_invoices_type_dom']['Press'] = 'Press';
+$app_list_strings['aos_invoices_type_dom']['Prospect'] = 'Prospect';
+$app_list_strings['aos_invoices_type_dom']['Reseller'] = 'Reseller';
+$app_list_strings['aos_invoices_type_dom']['Other'] = 'Other';
 $app_list_strings['invoice_status_dom']['Paid'] = 'Betalt';
 $app_list_strings['invoice_status_dom']['Unpaid'] = 'Ubetalt';
 $app_list_strings['invoice_status_dom']['Cancelled'] = 'Avbestillt';
@@ -3186,19 +3186,19 @@ $app_list_strings['product_category_dom']['Laptops'] = 'Bærbare PC\'er';
 $app_list_strings['product_category_dom']['Desktops'] = 'Stasjonære PC\'er';
 $app_list_strings['product_category_dom'][''] = '';
 $app_list_strings['product_type_dom']['Good'] = 'God';
-$app_list_strings['product_type_dom']['Service'] = 'Tjeneste';
-$app_list_strings['product_quote_parent_type_dom']['AOS_Quotes'] = 'Tilbud';
-$app_list_strings['product_quote_parent_type_dom']['AOS_Invoices'] = 'Fakturaer';
-$app_list_strings['product_quote_parent_type_dom']['AOS_Contracts'] = 'Kontrakter';
-$app_list_strings['pdf_template_type_dom']['AOS_Quotes'] = 'Tilbud';
-$app_list_strings['pdf_template_type_dom']['AOS_Invoices'] = 'Fakturaer';
-$app_list_strings['pdf_template_type_dom']['AOS_Contracts'] = 'Kontrakter';
-$app_list_strings['pdf_template_type_dom']['Accounts'] = 'Kunder';
-$app_list_strings['pdf_template_type_dom']['Contacts'] = 'Kontakter';
-$app_list_strings['pdf_template_type_dom']['Leads'] = 'Ledetråder';
+$app_list_strings['product_type_dom']['Service'] = 'Service';
+$app_list_strings['product_quote_parent_type_dom']['AOS_Quotes'] = 'Quotes';
+$app_list_strings['product_quote_parent_type_dom']['AOS_Invoices'] = 'Invoices';
+$app_list_strings['product_quote_parent_type_dom']['AOS_Contracts'] = 'Contracts';
+$app_list_strings['pdf_template_type_dom']['AOS_Quotes'] = 'Quotes';
+$app_list_strings['pdf_template_type_dom']['AOS_Invoices'] = 'Invoices';
+$app_list_strings['pdf_template_type_dom']['AOS_Contracts'] = 'Contracts';
+$app_list_strings['pdf_template_type_dom']['Accounts'] = 'Accounts';
+$app_list_strings['pdf_template_type_dom']['Contacts'] = 'Contacts';
+$app_list_strings['pdf_template_type_dom']['Leads'] = 'Leads';
 $app_list_strings['pdf_template_sample_dom'][''] = '';
-$app_list_strings['contract_status_list']['Not Started'] = 'Ikke påbegynt';
-$app_list_strings['contract_status_list']['In Progress'] = 'I progresjon';
+$app_list_strings['contract_status_list']['Not Started'] = 'Not Started';
+$app_list_strings['contract_status_list']['In Progress'] = 'In Progress';
 $app_list_strings['contract_status_list']['Signed'] = 'Signert';
 $app_list_strings['contract_type_list']['Type'] = 'Type';
 $app_strings['LBL_PRINT_AS_PDF'] = 'Skriv ut som PDF';
@@ -3210,61 +3210,61 @@ $app_list_strings['moduleList']['AOW_WorkFlow'] = 'Arbeidsflyt';
 $app_list_strings['moduleList']['AOW_Conditions'] = 'Arbeidsflyt betingelser';
 $app_list_strings['moduleList']['AOW_Processed'] = 'Prosessrevisjon';
 $app_list_strings['moduleList']['AOW_Actions'] = 'Arbeidsflyt aktiviteter';
-$app_list_strings['aow_status_list']['Active'] = 'Aktiv';
-$app_list_strings['aow_status_list']['Inactive'] = 'Inaktiv';
-$app_list_strings['aow_operator_list']['Equal_To'] = 'Lik';
-$app_list_strings['aow_operator_list']['Not_Equal_To'] = 'ikke lik';
-$app_list_strings['aow_operator_list']['Greater_Than'] = 'Større enn';
-$app_list_strings['aow_operator_list']['Less_Than'] = 'Mindre enn';
-$app_list_strings['aow_operator_list']['Greater_Than_or_Equal_To'] = 'Større eller lik';
-$app_list_strings['aow_operator_list']['Less_Than_or_Equal_To'] = 'Mindre enn eller lik';
-$app_list_strings['aow_operator_list']['Contains'] = 'Inneholder';
-$app_list_strings['aow_operator_list']['Starts_With'] = 'Begynner med';
-$app_list_strings['aow_operator_list']['Ends_With'] = 'Slutter med';
+$app_list_strings['aow_status_list']['Active'] = 'Active';
+$app_list_strings['aow_status_list']['Inactive'] = 'Inactive';
+$app_list_strings['aow_operator_list']['Equal_To'] = 'Equal To';
+$app_list_strings['aow_operator_list']['Not_Equal_To'] = 'Not Equal To';
+$app_list_strings['aow_operator_list']['Greater_Than'] = 'Greater Than';
+$app_list_strings['aow_operator_list']['Less_Than'] = 'Less Than';
+$app_list_strings['aow_operator_list']['Greater_Than_or_Equal_To'] = 'Greater Than or Equal To';
+$app_list_strings['aow_operator_list']['Less_Than_or_Equal_To'] = 'Less Than or Equal To';
+$app_list_strings['aow_operator_list']['Contains'] = 'Contains';
+$app_list_strings['aow_operator_list']['Starts_With'] = 'Starts With';
+$app_list_strings['aow_operator_list']['Ends_With'] = 'Ends With';
 $app_list_strings['aow_operator_list']['is_null'] = 'er null';
-$app_list_strings['aow_process_status_list']['Complete'] = 'Fullført';
+$app_list_strings['aow_process_status_list']['Complete'] = 'Complete';
 $app_list_strings['aow_process_status_list']['Running'] = 'Pågående';
-$app_list_strings['aow_process_status_list']['Pending'] = 'Avventes';
-$app_list_strings['aow_process_status_list']['Failed'] = 'Feilet';
-$app_list_strings['aow_condition_operator_list']['And'] = 'Og';
-$app_list_strings['aow_condition_operator_list']['OR'] = 'ELLER';
-$app_list_strings['aow_condition_type_list']['Value'] = 'verdi';
-$app_list_strings['aow_condition_type_list']['Field'] = 'Felt';
+$app_list_strings['aow_process_status_list']['Pending'] = 'Pending';
+$app_list_strings['aow_process_status_list']['Failed'] = 'Failed';
+$app_list_strings['aow_condition_operator_list']['And'] = 'And';
+$app_list_strings['aow_condition_operator_list']['OR'] = 'OR';
+$app_list_strings['aow_condition_type_list']['Value'] = 'Value';
+$app_list_strings['aow_condition_type_list']['Field'] = 'Field';
 $app_list_strings['aow_condition_type_list']['Any_Change'] = 'Endringer';
 $app_list_strings['aow_condition_type_list']['SecurityGroup'] = 'I sikkerhetsgruppe';
-$app_list_strings['aow_condition_type_list']['Date'] = 'Dato';
-$app_list_strings['aow_condition_type_list']['Multi'] = 'En av';
-$app_list_strings['aow_action_type_list']['Value'] = 'verdi';
-$app_list_strings['aow_action_type_list']['Field'] = 'Felt';
-$app_list_strings['aow_action_type_list']['Date'] = 'Dato';
+$app_list_strings['aow_condition_type_list']['Date'] = 'Date';
+$app_list_strings['aow_condition_type_list']['Multi'] = 'One of';
+$app_list_strings['aow_action_type_list']['Value'] = 'Value';
+$app_list_strings['aow_action_type_list']['Field'] = 'Field';
+$app_list_strings['aow_action_type_list']['Date'] = 'Date';
 $app_list_strings['aow_action_type_list']['Round_Robin'] = 'På rundgang';
 $app_list_strings['aow_action_type_list']['Least_Busy'] = 'Minst aktiv';
-$app_list_strings['aow_action_type_list']['Random'] = 'Tilfeldig';
-$app_list_strings['aow_rel_action_type_list']['Value'] = 'verdi';
-$app_list_strings['aow_rel_action_type_list']['Field'] = 'Felt';
+$app_list_strings['aow_action_type_list']['Random'] = 'Random';
+$app_list_strings['aow_rel_action_type_list']['Value'] = 'Value';
+$app_list_strings['aow_rel_action_type_list']['Field'] = 'Field';
 $app_list_strings['aow_date_type_list'][''] = '';
-$app_list_strings['aow_date_type_list']['minute'] = 'minutter';
-$app_list_strings['aow_date_type_list']['hour'] = 'timer';
-$app_list_strings['aow_date_type_list']['day'] = 'dager';
-$app_list_strings['aow_date_type_list']['week'] = 'uker';
-$app_list_strings['aow_date_type_list']['month'] = 'måneder';
+$app_list_strings['aow_date_type_list']['minute'] = 'Minutes';
+$app_list_strings['aow_date_type_list']['hour'] = 'Hours';
+$app_list_strings['aow_date_type_list']['day'] = 'Days';
+$app_list_strings['aow_date_type_list']['week'] = 'Weeks';
+$app_list_strings['aow_date_type_list']['month'] = 'Months';
 $app_list_strings['aow_date_type_list']['year'] = 'Years';
-$app_list_strings['aow_date_type_list']['business_hours'] = 'Åpningstid';
-$app_list_strings['aow_date_options']['now'] = 'Nå';
-$app_list_strings['aow_date_options']['today'] = 'I dag';
-$app_list_strings['aow_date_options']['field'] = 'dette feltet';
+$app_list_strings['aow_date_type_list']['business_hours'] = 'Business Hours';
+$app_list_strings['aow_date_options']['now'] = 'Now';
+$app_list_strings['aow_date_options']['today'] = 'Today';
+$app_list_strings['aow_date_options']['field'] = 'This Field';
 $app_list_strings['aow_date_operator']['now'] = '';
 $app_list_strings['aow_date_operator']['plus'] = '+';
 $app_list_strings['aow_date_operator']['minus'] = '-';
-$app_list_strings['aow_assign_options']['all'] = 'Alle brukere';
-$app_list_strings['aow_assign_options']['role'] = 'Alle brukere med rolle';
-$app_list_strings['aow_assign_options']['security_group'] = 'Alle brukere i sikkerhetsgruppe';
-$app_list_strings['aow_email_type_list']['Email Address'] = 'E-post';
+$app_list_strings['aow_assign_options']['all'] = 'ALL Users';
+$app_list_strings['aow_assign_options']['role'] = 'ALL Users in Role';
+$app_list_strings['aow_assign_options']['security_group'] = 'ALL Users in Security Group';
+$app_list_strings['aow_email_type_list']['Email Address'] = 'Email';
 $app_list_strings['aow_email_type_list']['Record Email'] = 'Lagre e-post';
 $app_list_strings['aow_email_type_list']['Related Field'] = 'Relaterte felt';
-$app_list_strings['aow_email_type_list']['Specify User'] = 'Bruker';
-$app_list_strings['aow_email_type_list']['Users'] = 'Brukere';
-$app_list_strings['aow_email_to_list']['to'] = 'Til';
+$app_list_strings['aow_email_type_list']['Specify User'] = 'User';
+$app_list_strings['aow_email_type_list']['Users'] = 'Users';
+$app_list_strings['aow_email_to_list']['to'] = 'To';
 $app_list_strings['aow_email_to_list']['cc'] = 'Kopi';
 $app_list_strings['aow_email_to_list']['bcc'] = 'Blindkopi';
 $app_list_strings['aow_run_on_list']['All_Records'] = 'Alle oppføringer';
@@ -3279,8 +3279,8 @@ $app_list_strings['moduleList']['AM_ProjectTemplates'] = 'Prosjekt - maler';
 $app_list_strings['moduleList']['AM_TaskTemplates'] = 'Prosjektoppgave maler';
 $app_list_strings['relationship_type_list']['FS'] = 'Slutt til start';
 $app_list_strings['relationship_type_list']['SS'] = 'Start til slutt';
-$app_list_strings['duration_unit_dom']['Days'] = 'dager';
-$app_list_strings['duration_unit_dom']['Hours'] = 'timer';
+$app_list_strings['duration_unit_dom']['Days'] = 'Days';
+$app_list_strings['duration_unit_dom']['Hours'] = 'Hours';
 $app_strings['LBL_GANTT_BUTTON_LABEL'] = 'Se på Gantt';
 $app_strings['LBL_DETAIL_BUTTON_LABEL'] = 'Vis detalj';
 $app_strings['LBL_CREATE_PROJECT'] = 'Nytt prosjekt';
@@ -3291,7 +3291,7 @@ $app_strings['LBL_MAP'] = 'Kart';
 $app_strings['LBL_JJWG_MAPS_LNG'] = 'Lengdegrad';
 $app_strings['LBL_JJWG_MAPS_LAT'] = 'Breddegrad';
 $app_strings['LBL_JJWG_MAPS_GEOCODE_STATUS'] = 'Geokode status';
-$app_strings['LBL_JJWG_MAPS_ADDRESS'] = 'Adresse:';
+$app_strings['LBL_JJWG_MAPS_ADDRESS'] = 'Address';
 
 $app_list_strings['moduleList']['jjwg_Maps'] = 'Kart';
 $app_list_strings['moduleList']['jjwg_Markers'] = 'Kart - markører';
@@ -3303,26 +3303,26 @@ $app_list_strings['moduleList']['jjwp_Partners'] = 'JJWP partnere';
 $app_list_strings['map_unit_type_list']['mi'] = 'Mil';
 $app_list_strings['map_unit_type_list']['km'] = 'Kilometer';
 
-$app_list_strings['map_module_type_list']['Accounts'] = 'Kunder';
-$app_list_strings['map_module_type_list']['Contacts'] = 'Kontakter';
-$app_list_strings['map_module_type_list']['Cases'] = 'Kundestøtte';
-$app_list_strings['map_module_type_list']['Leads'] = 'Ledetråder';
-$app_list_strings['map_module_type_list']['Meetings'] = 'Møter';
-$app_list_strings['map_module_type_list']['Opportunities'] = 'Salgsmuligheter';
-$app_list_strings['map_module_type_list']['Project'] = 'Prosjekter';
-$app_list_strings['map_module_type_list']['Prospects'] = 'Mål';
+$app_list_strings['map_module_type_list']['Accounts'] = 'Accounts';
+$app_list_strings['map_module_type_list']['Contacts'] = 'Contacts';
+$app_list_strings['map_module_type_list']['Cases'] = 'Cases';
+$app_list_strings['map_module_type_list']['Leads'] = 'Leads';
+$app_list_strings['map_module_type_list']['Meetings'] = 'Meetings';
+$app_list_strings['map_module_type_list']['Opportunities'] = 'Opportunities';
+$app_list_strings['map_module_type_list']['Project'] = 'Projects';
+$app_list_strings['map_module_type_list']['Prospects'] = 'Targets';
 
-$app_list_strings['map_relate_type_list']['Accounts'] = 'Kunde';
-$app_list_strings['map_relate_type_list']['Contacts'] = 'Kontakt';
-$app_list_strings['map_relate_type_list']['Cases'] = 'Kundestøtte';
-$app_list_strings['map_relate_type_list']['Leads'] = 'Ledetråder';
-$app_list_strings['map_relate_type_list']['Meetings'] = 'Møter';
-$app_list_strings['map_relate_type_list']['Opportunities'] = 'Salgsmuligheter';
-$app_list_strings['map_relate_type_list']['Project'] = 'Prosjekt';
-$app_list_strings['map_relate_type_list']['Prospects'] = 'Mål';
+$app_list_strings['map_relate_type_list']['Accounts'] = 'Account';
+$app_list_strings['map_relate_type_list']['Contacts'] = 'Contact';
+$app_list_strings['map_relate_type_list']['Cases'] = 'Case';
+$app_list_strings['map_relate_type_list']['Leads'] = 'Lead';
+$app_list_strings['map_relate_type_list']['Meetings'] = 'Meeting';
+$app_list_strings['map_relate_type_list']['Opportunities'] = 'Opportunity';
+$app_list_strings['map_relate_type_list']['Project'] = 'Project';
+$app_list_strings['map_relate_type_list']['Prospects'] = 'Target';
 
 $app_list_strings['marker_image_list']['accident'] = 'Ulykke';
-$app_list_strings['marker_image_list']['administration'] = 'Administrasjon';
+$app_list_strings['marker_image_list']['administration'] = 'Administration';
 $app_list_strings['marker_image_list']['agriculture'] = 'Jordbruk';
 $app_list_strings['marker_image_list']['aircraft_small'] = 'Litet fly';
 $app_list_strings['marker_image_list']['airplane_tourism'] = 'Fly turisme';
@@ -3361,8 +3361,8 @@ $app_list_strings['marker_image_list']['cluster_5'] = 'Klynge 5';
 $app_list_strings['marker_image_list']['coffee'] = 'Kaffe';
 $app_list_strings['marker_image_list']['community_centre'] = 'Kommunesenter';
 $app_list_strings['marker_image_list']['company'] = 'Firma';
-$app_list_strings['marker_image_list']['conference'] = 'Konferanse';
-$app_list_strings['marker_image_list']['construction'] = 'Konstruksjonsvirksomhet';
+$app_list_strings['marker_image_list']['conference'] = 'Conference';
+$app_list_strings['marker_image_list']['construction'] = 'Construction';
 $app_list_strings['marker_image_list']['convenience'] = 'Bekvemmelighet';
 $app_list_strings['marker_image_list']['court'] = 'Domstol';
 $app_list_strings['marker_image_list']['cruise'] = 'Cruise';
@@ -3392,7 +3392,7 @@ $app_list_strings['marker_image_list']['festival'] = 'Festivalen';
 $app_list_strings['marker_image_list']['fjord'] = 'Fjorden';
 $app_list_strings['marker_image_list']['forest'] = 'Skog';
 $app_list_strings['marker_image_list']['fountain'] = 'Fontene';
-$app_list_strings['marker_image_list']['friday'] = 'Fredag';
+$app_list_strings['marker_image_list']['friday'] = 'Friday';
 $app_list_strings['marker_image_list']['garden'] = 'Hage';
 $app_list_strings['marker_image_list']['gas_station'] = 'Bensinstasjon';
 $app_list_strings['marker_image_list']['geyser'] = 'Geisir';
@@ -3403,7 +3403,7 @@ $app_list_strings['marker_image_list']['hairsalon'] = 'Frisørsalong';
 $app_list_strings['marker_image_list']['helicopter'] = 'Helikopter';
 $app_list_strings['marker_image_list']['highway'] = 'Motorvei';
 $app_list_strings['marker_image_list']['historical_quarter'] = 'Historisk bydel';
-$app_list_strings['marker_image_list']['home'] = 'Hjem';
+$app_list_strings['marker_image_list']['home'] = 'Home';
 $app_list_strings['marker_image_list']['hospital'] = 'Sykehus';
 $app_list_strings['marker_image_list']['hostel'] = 'Hostell';
 $app_list_strings['marker_image_list']['hotel'] = 'Hotell';
@@ -3412,14 +3412,14 @@ $app_list_strings['marker_image_list']['hotel_2_stars'] = 'Hotell 2 stjerner';
 $app_list_strings['marker_image_list']['hotel_3_stars'] = 'Hotell 3 stjerner';
 $app_list_strings['marker_image_list']['hotel_4_stars'] = 'Hotell 4 stjerner';
 $app_list_strings['marker_image_list']['hotel_5_stars'] = 'Hotell 5 stjerner';
-$app_list_strings['marker_image_list']['info'] = 'Informasjon';
+$app_list_strings['marker_image_list']['info'] = 'Info';
 $app_list_strings['marker_image_list']['justice'] = 'Justis';
 $app_list_strings['marker_image_list']['lake'] = 'Innsjø';
 $app_list_strings['marker_image_list']['laundromat'] = 'Vaskeautomat';
 $app_list_strings['marker_image_list']['left'] = 'Venstre';
 $app_list_strings['marker_image_list']['left_then_down'] = 'Venstre deretter ned';
 $app_list_strings['marker_image_list']['left_then_up'] = 'Venstre deretter opp';
-$app_list_strings['marker_image_list']['library'] = 'Bibliotek';
+$app_list_strings['marker_image_list']['library'] = 'Library';
 $app_list_strings['marker_image_list']['lighthouse'] = 'Fyrtårn';
 $app_list_strings['marker_image_list']['liquor'] = 'Sprit';
 $app_list_strings['marker_image_list']['lock'] = 'Lås';
@@ -3428,7 +3428,7 @@ $app_list_strings['marker_image_list']['massage'] = 'Massasje';
 $app_list_strings['marker_image_list']['mobile_phone_tower'] = 'Mobilmast';
 $app_list_strings['marker_image_list']['modern_tower'] = 'Moderne tårn';
 $app_list_strings['marker_image_list']['monastery'] = 'Kloster';
-$app_list_strings['marker_image_list']['monday'] = 'Mandag';
+$app_list_strings['marker_image_list']['monday'] = 'Monday';
 $app_list_strings['marker_image_list']['monument'] = 'Monument';
 $app_list_strings['marker_image_list']['mosque'] = 'Moske';
 $app_list_strings['marker_image_list']['motorcycle'] = 'Motorsykkel';
@@ -3441,7 +3441,7 @@ $app_list_strings['marker_image_list']['panoramic'] = 'Panorama';
 $app_list_strings['marker_image_list']['park'] = 'Park';
 $app_list_strings['marker_image_list']['park_and_ride'] = 'Bussterminal';
 $app_list_strings['marker_image_list']['parking'] = 'Parkering';
-$app_list_strings['marker_image_list']['photo'] = 'Foto';
+$app_list_strings['marker_image_list']['photo'] = 'Photo';
 $app_list_strings['marker_image_list']['picnic'] = 'Piknikk';
 $app_list_strings['marker_image_list']['places_unvisited'] = 'Ubesøkte steder';
 $app_list_strings['marker_image_list']['places_visited'] = 'Besøkte steder';
@@ -3479,7 +3479,7 @@ $app_list_strings['marker_image_list']['restaurant_turkish'] = 'Tyrkisk restaura
 $app_list_strings['marker_image_list']['right'] = 'Høyre';
 $app_list_strings['marker_image_list']['right_then_down'] = 'Høyre deretter ned';
 $app_list_strings['marker_image_list']['right_then_up'] = 'Høyre deretter opp';
-$app_list_strings['marker_image_list']['saturday'] = 'Lørdag';
+$app_list_strings['marker_image_list']['saturday'] = 'Saturday';
 $app_list_strings['marker_image_list']['school'] = 'Skole';
 $app_list_strings['marker_image_list']['shopping_mall'] = 'Kjøpesenter';
 $app_list_strings['marker_image_list']['shore'] = 'Bredd';
@@ -3506,8 +3506,8 @@ $app_list_strings['marker_image_list']['steam_train'] = 'Damptog';
 $app_list_strings['marker_image_list']['stop'] = 'Stopp';
 $app_list_strings['marker_image_list']['stoplight'] = 'Stopplys';
 $app_list_strings['marker_image_list']['subway'] = 'Undergrunn';
-$app_list_strings['marker_image_list']['sun'] = 'Søn';
-$app_list_strings['marker_image_list']['sunday'] = 'Søndag';
+$app_list_strings['marker_image_list']['sun'] = 'Sun';
+$app_list_strings['marker_image_list']['sunday'] = 'Sunday';
 $app_list_strings['marker_image_list']['supermarket'] = 'Supermarked';
 $app_list_strings['marker_image_list']['synagogue'] = 'Synagoge';
 $app_list_strings['marker_image_list']['tapas'] = 'Tapas';
@@ -3520,7 +3520,7 @@ $app_list_strings['marker_image_list']['terrace'] = 'Terrasse';
 $app_list_strings['marker_image_list']['text'] = 'Tekst';
 $app_list_strings['marker_image_list']['theater'] = 'Teater';
 $app_list_strings['marker_image_list']['theme_park'] = 'Temapark';
-$app_list_strings['marker_image_list']['thursday'] = 'Torsdag';
+$app_list_strings['marker_image_list']['thursday'] = 'Thursday';
 $app_list_strings['marker_image_list']['toilets'] = 'Toaletter';
 $app_list_strings['marker_image_list']['toll_station'] = 'Bomstasjon';
 $app_list_strings['marker_image_list']['tower'] = 'Tårn';
@@ -3528,7 +3528,7 @@ $app_list_strings['marker_image_list']['traffic_enforcement_camera'] = 'Veikamer
 $app_list_strings['marker_image_list']['train'] = 'Tog';
 $app_list_strings['marker_image_list']['tram'] = 'Trikk';
 $app_list_strings['marker_image_list']['truck'] = 'Lastebil';
-$app_list_strings['marker_image_list']['tuesday'] = 'Tirsdag';
+$app_list_strings['marker_image_list']['tuesday'] = 'Tuesday';
 $app_list_strings['marker_image_list']['tunnel'] = 'Tunnell';
 $app_list_strings['marker_image_list']['turn_left'] = 'Sving til venstre';
 $app_list_strings['marker_image_list']['turn_right'] = 'Sving til høyre';
@@ -3546,7 +3546,7 @@ $app_list_strings['marker_image_list']['waterfall'] = 'Foss';
 $app_list_strings['marker_image_list']['watermill'] = 'Vannmølle';
 $app_list_strings['marker_image_list']['waterpark'] = 'Vannpark';
 $app_list_strings['marker_image_list']['watertower'] = 'Vanntårn';
-$app_list_strings['marker_image_list']['wednesday'] = 'Onsdag';
+$app_list_strings['marker_image_list']['wednesday'] = 'Wednesday';
 $app_list_strings['marker_image_list']['wifi'] = 'WiFi';
 $app_list_strings['marker_image_list']['wind_turbine'] = 'Vindturbin';
 $app_list_strings['marker_image_list']['windmill'] = 'Vindmølle';
@@ -3567,7 +3567,7 @@ $app_strings['LBL_RESCHEDULE_REASON'] = 'Begrunnelse:';
 $app_strings['LBL_RESCHEDULE_ERROR1'] = 'Vennligst velg en gyldig dato';
 $app_strings['LBL_RESCHEDULE_ERROR2'] = 'Vennligst velg en begrunnelse';
 
-$app_strings['LBL_RESCHEDULE_PANEL'] = 'Endre';
+$app_strings['LBL_RESCHEDULE_PANEL'] = 'Reschedule';
 $app_strings['LBL_RESCHEDULE_HISTORY'] = 'Telefon historikk';
 $app_strings['LBL_RESCHEDULE_COUNT'] = 'Antall telefonhenvendelser';
 
@@ -3585,7 +3585,7 @@ $app_strings['FACEBOOK_USER_C'] = 'Facebook';
 $app_strings['TWITTER_USER_C'] = 'Twitter';
 $app_strings['LBL_PANEL_SOCIAL_FEED'] = 'Sosiale medier feed detaljer';
 
-$app_strings['LBL_SUBPANEL_FILTER_LABEL'] = 'Søk';
+$app_strings['LBL_SUBPANEL_FILTER_LABEL'] = 'Filter';
 
 $app_strings['LBL_COLLECTION_TYPE'] = 'Type';
 
@@ -3602,11 +3602,11 @@ $app_strings['LBL_RENAME_DASHBOARD_PAGE'] = 'Gi siden et nytt navn';
 $app_strings['LBL_SUITE_DASHBOARD_ACTIONS'] = 'ACTIONS';
 
 $app_list_strings['collection_temp_list'] = array(
-    'Tasks' => 'Oppgaver',
-    'Meetings' => 'Møter',
-    'Calls' => 'Oppringninger',
-    'Notes' => 'Notater:',
-    'Emails' => 'E-post'
+    'Tasks' => 'Tasks',
+    'Meetings' => 'Meetings',
+    'Calls' => 'Calls',
+    'Notes' => 'Notes',
+    'Emails' => 'Emails'
 );
 
 $app_list_strings['moduleList']['TemplateEditor'] = 'Redigere Mal';
@@ -3615,19 +3615,19 @@ $app_strings['LBL_LOADING_ERROR_INLINE_EDITING'] = "En feil oppstod under innlas
 
 //SuiteSpots
 $app_list_strings['spots_areas'] = array(
-    'getSalesSpotsData' => 'Salg',
-    'getAccountsSpotsData' => 'Kunder',
-    'getLeadsSpotsData' => 'Ledetråder',
-    'getServiceSpotsData' => 'Tjeneste',
-    'getMarketingSpotsData' => 'Markedsføring',
+    'getSalesSpotsData' => 'Sales',
+    'getAccountsSpotsData' => 'Accounts',
+    'getLeadsSpotsData' => 'Leads',
+    'getServiceSpotsData' => 'Service',
+    'getMarketingSpotsData' => 'Marketing',
     'getMarketingActivitySpotsData' => 'Marketing Activity',
-    'getActivitiesSpotsData' => 'Aktiviteter',
-    'getQuotesSpotsData' => 'Tilbud'
+    'getActivitiesSpotsData' => 'Activities',
+    'getQuotesSpotsData' => 'Quotes'
 );
 
 $app_list_strings['moduleList']['Spots'] = 'Spots';
 
-$app_list_strings['moduleList']['AOBH_BusinessHours'] = 'Åpningstid';
+$app_list_strings['moduleList']['AOBH_BusinessHours'] = 'Business Hours';
 $app_list_strings['business_hours_list']['0'] = '24:00';
 $app_list_strings['business_hours_list']['1'] = '01:00';
 $app_list_strings['business_hours_list']['2'] = '02:00';
@@ -3652,13 +3652,13 @@ $app_list_strings['business_hours_list']['20'] = '20:00';
 $app_list_strings['business_hours_list']['21'] = '21:00';
 $app_list_strings['business_hours_list']['22'] = '22:00';
 $app_list_strings['business_hours_list']['23'] = '23:00';
-$app_list_strings['day_list']['Monday'] = 'Mandag';
-$app_list_strings['day_list']['Tuesday'] = 'Tirsdag';
-$app_list_strings['day_list']['Wednesday'] = 'Onsdag';
-$app_list_strings['day_list']['Thursday'] = 'Torsdag';
-$app_list_strings['day_list']['Friday'] = 'Fredag';
-$app_list_strings['day_list']['Saturday'] = 'Lørdag';
-$app_list_strings['day_list']['Sunday'] = 'Søndag';
+$app_list_strings['day_list']['Monday'] = 'Monday';
+$app_list_strings['day_list']['Tuesday'] = 'Tuesday';
+$app_list_strings['day_list']['Wednesday'] = 'Wednesday';
+$app_list_strings['day_list']['Thursday'] = 'Thursday';
+$app_list_strings['day_list']['Friday'] = 'Friday';
+$app_list_strings['day_list']['Saturday'] = 'Saturday';
+$app_list_strings['day_list']['Sunday'] = 'Sunday';
 $app_list_strings['pdf_page_size_dom']['A4'] = 'A4';
 $app_list_strings['pdf_page_size_dom']['Letter'] = 'Brev';
 $app_list_strings['pdf_page_size_dom']['Legal'] = 'Juridisk';
@@ -3671,10 +3671,10 @@ $app_list_strings['moduleList']['Surveys'] = 'Undersøkelse';
 $app_list_strings['moduleList']['SurveyQuestionResponses'] = 'Undersøkelse Spørsmål Svar';
 $app_list_strings['moduleList']['SurveyQuestions'] = 'Undersøkelse Spørsmål';
 $app_list_strings['moduleList']['SurveyQuestionOptions'] = 'Undersøkelse Spørsmål Alternativ';
-$app_list_strings['survey_status_list']['Draft'] = 'Utkast';
-$app_list_strings['survey_status_list']['Public'] = 'Offentlig';
-$app_list_strings['survey_status_list']['Closed'] = 'Avsluttet';
-$app_list_strings['surveys_question_type']['Text'] = 'Tekst';
+$app_list_strings['survey_status_list']['Draft'] = 'Draft';
+$app_list_strings['survey_status_list']['Public'] = 'Public';
+$app_list_strings['survey_status_list']['Closed'] = 'Closed';
+$app_list_strings['surveys_question_type']['Text'] = 'Text';
 $app_list_strings['surveys_question_type']['Textbox'] = 'Tekstboks';
 $app_list_strings['surveys_question_type']['Checkbox'] = 'Avkryssningsboks';
 $app_list_strings['surveys_question_type']['Radio'] = 'Radio';
@@ -3682,9 +3682,9 @@ $app_list_strings['surveys_question_type']['Dropdown'] = 'Nedtrekk';
 $app_list_strings['surveys_question_type']['Multiselect'] = 'Flervalg';
 $app_list_strings['surveys_question_type']['Matrix'] = 'Matrise';
 $app_list_strings['surveys_question_type']['DateTime'] = 'DatoTid';
-$app_list_strings['surveys_question_type']['Date'] = 'Dato';
+$app_list_strings['surveys_question_type']['Date'] = 'Date';
 $app_list_strings['surveys_question_type']['Scale'] = 'Skala';
-$app_list_strings['surveys_question_type']['Rating'] = 'Rangering';
+$app_list_strings['surveys_question_type']['Rating'] = 'Rating';
 $app_list_strings['surveys_matrix_options'][0] = 'Fornøyd';
 $app_list_strings['surveys_matrix_options'][1] = 'Hverken fornøyd eller misfornøyd';
 $app_list_strings['surveys_matrix_options'][2] = 'Misfornøyd';
@@ -3696,19 +3696,19 @@ $app_strings['LBL_OPT_IN_PENDING_EMAIL_FAILED'] = 'Bekrefte deltagelse e-post ut
 $app_strings['LBL_OPT_IN_PENDING_EMAIL_SENT'] = 'Venter bekreftelse på deltagelse, deltagelses bekreftelse er sendt';
 $app_strings['LBL_OPT_IN'] = 'Deltagelse ønsket';
 $app_strings['LBL_OPT_IN_CONFIRMED'] = 'Bekreftet valgt';
-$app_strings['LBL_OPT_IN_OPT_OUT'] = 'Reserverte seg';
-$app_strings['LBL_OPT_IN_INVALID'] = 'Ugyldig';
+$app_strings['LBL_OPT_IN_OPT_OUT'] = 'Opted Out';
+$app_strings['LBL_OPT_IN_INVALID'] = 'Invalid';
 
 /** @see SugarEmailAddress */
 $app_list_strings['email_settings_opt_in_dom'] = array(
-    'not-opt-in' => 'Inaktiv',
-    'opt-in' => 'Påmeldt',
+    'not-opt-in' => 'Disabled',
+    'opt-in' => 'Delta',
     'confirmed-opt-in' => 'Bekreftet deltagelse'
 );
 
 $app_list_strings['email_confirmed_opt_in_dom'] = array(
     'not-opt-in' => 'Deltagelse uønsket',
-    'opt-in' => 'Påmeldt',
+    'opt-in' => 'Delta',
     'confirmed-opt-in' => 'Bekreftet deltagelse'
 );
 
@@ -3735,7 +3735,7 @@ $app_list_strings['oauth2_grant_type_dom'] = array(
 $app_list_strings['oauth2_duration_units'] = [
     'minute' => 'minutter',
     'hour' => 'timer',
-    'day' => 'dager',
+    'day' => 'days',
     'week' => 'uker',
     'month' => 'måneder',
 ];
@@ -3747,23 +3747,23 @@ $app_list_strings['search_controllers'] = [
 
 // Calendar Account Types dropdown
 $app_list_strings['calendar_account_types'] = [
-    'personal' => 'Personlig',
+    'personal' => 'Personal',
     'shared' => 'Delt',
-    'group' => 'Gruppe',
+    'group' => 'Group',
 ];
 
 // Calendar Connection Status dropdown
 $app_list_strings['calendar_connection_status_list'] = [
     'never_tested' => 'Never Tested',
     'success' => 'Access validert',
-    'failed' => 'Feilet',
+    'failed' => 'Failed',
 ];
 
 // Calendar Sync Attempt Status dropdown
 $app_list_strings['sync_attempt_status_list'] = [
     '' => '',
-    'in_progress' => 'I progresjon',
-    'success' => 'Vellykket',
+    'in_progress' => 'In Progress',
+    'success' => 'Success',
     'warning' => 'Advarsel',
     'error' => 'Feil:',
 ];
@@ -3804,16 +3804,16 @@ $app_strings['IMAP_HANDLER_ERROR_NO_TEST_SET'] = 'Det finnes ingen test instilli
 $app_strings['IMAP_HANDLER_ERROR_NO_KEY'] = 'Nøkkelen ble ikke funnet.';
 $app_strings['IMAP_HANDLER_ERROR_KEY_SAVE'] = 'Lagring av nøkkel feilet.';
 $app_strings['IMAP_HANDLER_ERROR_UNKNOWN'] = 'Ukjent feil';
-$app_strings['LBL_SEARCH_TITLE']                   = 'Søk';
+$app_strings['LBL_SEARCH_TITLE']                   = 'Search';
 $app_strings['LBL_SEARCH_TEXT_FIELD_TITLE_ATTR']   = 'Skriv inn søke kriterier';
-$app_strings['LBL_SEARCH_SUBMIT_FIELD_TITLE_ATTR'] = 'Søk';
-$app_strings['LBL_SEARCH_SUBMIT_FIELD_VALUE']      = 'Søk';
+$app_strings['LBL_SEARCH_SUBMIT_FIELD_TITLE_ATTR'] = 'Search';
+$app_strings['LBL_SEARCH_SUBMIT_FIELD_VALUE']      = 'Search';
 $app_strings['LBL_SEARCH_QUERY']                   = 'Søke streng: ';
 $app_strings['LBL_SEARCH_RESULTS_PER_PAGE']        = 'Results per module: ';
 $app_strings['LBL_SEARCH_ENGINE']                  = 'Motor: ';
 $app_strings['LBL_SEARCH_TOTAL'] = 'Total resultat(er): ';
-$app_strings['LBL_SEARCH_PREV'] = 'Forrige';
-$app_strings['LBL_SEARCH_NEXT'] = 'Neste';
+$app_strings['LBL_SEARCH_PREV'] = 'Previous';
+$app_strings['LBL_SEARCH_NEXT'] = 'Next';
 $app_strings['LBL_SEARCH_PAGE'] = 'Side ';
 $app_strings['LBL_SEARCH_OF'] = ' av ';
 $app_strings['LBL_USE_ADVANCED_SEARCH'] = 'Use Advanced Search';
@@ -3837,7 +3837,7 @@ $app_strings['WARN_OAUTH_TOKEN_SESSION_EXPIRED'] = 'Your IMAP OAuth session has 
 $app_strings['ERR_OAUTH_CONNECTION_ERROR'] = 'Not able to connect using OAuth login. For connection: ';
 
 $app_strings['LBL_KEY'] = 'Nøkkel';
-$app_strings['LBL_VALUE'] = 'verdi';
+$app_strings['LBL_VALUE'] = 'Value';
 $app_strings['LBL_OPTIONAL'] = 'Optional';
 $app_strings['LBL_OPTIONAL_CONNECTION_STRING'] = 'Optional. Set to use a specific connection string';
 $app_strings['LBL_OUTBOUND_ACCOUNT'] = 'Outbound Account';
