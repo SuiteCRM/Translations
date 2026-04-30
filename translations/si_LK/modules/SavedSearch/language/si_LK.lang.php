@@ -50,14 +50,14 @@ $mod_strings = array(
     'LBL_DELETE_BUTTON_TITLE' => 'Delete this Saved Filter',
     'LBL_SAVE_BUTTON_TITLE' => 'Save the current filter',
     'LBL_LIST_NAME' => 'නම',
-    'LBL_LIST_MODULE' => 'මොඩියුලය',
+    'LBL_LIST_MODULE' => 'Module',
     'LBL_ORDER_BY_COLUMNS' => 'Order by column:',
-    'LBL_DIRECTION' => 'අධ්යක්ෂණය:',
+    'LBL_DIRECTION' => 'Direction:',
     'LBL_SAVE_SEARCH_AS' => 'Save filter as:',
-    'LBL_ASCENDING' => 'යද්දි',
-    'LBL_DESCENDING' => 'බැස',
+    'LBL_ASCENDING' => 'ආරෝහණ',
+    'LBL_DESCENDING' => 'අවරෝහණ',
     'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
-    'LBL_CREATED_BY' => 'සෑදුවේ',
+    'LBL_CREATED_BY' => 'නිර්මාණය කළේ',
 
 );
