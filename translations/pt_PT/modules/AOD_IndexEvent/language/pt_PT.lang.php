@@ -66,12 +66,12 @@ $mod_strings = array(
     'LNK_NEW_RECORD' => 'Create Index Event',
     'LNK_LIST' => 'View Index Event',
     'LBL_SEARCH_FORM_TITLE' => 'Search Index Event',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Ver histórico',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Atividades',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_NEW_FORM_TITLE' => 'New Index Event',
     'LBL_ERROR' => 'Erro',
-    'LBL_SUCCESS' => 'Sucesso',
-    'LBL_RECORD_MODULE' => 'Sucesso',
+    'LBL_SUCCESS' => 'Success',
+    'LBL_RECORD_MODULE' => 'Success',
 
     'LBL_RECORD_ID' => 'Record ID',
 );
