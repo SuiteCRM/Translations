@@ -63,7 +63,7 @@ $mod_strings = array(
     'LBL_DATE_MODIFIED' => 'Değiştirilme tarihi',
     'LBL_MODIFIED' => 'Değiştiren: ',
     'LBL_CREATED' => 'Ekleyen: ',
-    'LBL_MESSAGE_FOR' => 'Bu iletinin gönderileceği kişi:',
+    'LBL_MESSAGE_FOR' => 'Bu iletinin gönderileceği alıcı:',
 
     'LBL_FROM_NAME' => 'Kimden adı: ',
     'LBL_FROM_ADDR' => '"Kimden" e-posta adresi: ',
