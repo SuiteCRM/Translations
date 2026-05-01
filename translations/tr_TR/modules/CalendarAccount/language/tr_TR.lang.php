@@ -32,7 +32,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = [
     // System fields
     'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kimliği',
-    'LBL_ASSIGNED_TO_NAME' => 'Atanmış kişi',
+    'LBL_ASSIGNED_TO_NAME' => 'Atanmış ilgili',
     'LBL_DATE_ENTERED' => 'Eklenme tarihi',
     'LBL_DATE_MODIFIED' => 'Değiştirilme tarihi',
     'LBL_MODIFIED' => 'Değiştiren',
@@ -51,7 +51,7 @@ $mod_strings = [
     'LBL_LIST_NAME' => 'Paket Adı:',
     'LBL_LIST_DELETE' => 'Sil',
     'LBL_EDIT_BUTTON' => 'Değiştir',
-    'LBL_REMOVE' => 'Sil',
+    'LBL_REMOVE' => 'Kaldır',
     'LBL_ASCENDING' => 'Artan',
     'LBL_DESCENDING' => 'Azalan',
 
@@ -162,7 +162,7 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Lütfen önce bir takvim kaynağı seçin.',
 
     // Connection test messages
-    'LBL_CALENDAR' => 'Calendar',
+    'LBL_CALENDAR' => 'Takvim',
     'LBL_SUCCESSFUL' => 'Tamamlandı',
     'LBL_FAILED' => 'Tamamlanamadı',
     'LBL_CONNECTION_TEST' => 'Bağlantı sınaması',
@@ -182,12 +182,12 @@ $mod_strings = [
 
     // Dialog labels
     'LBL_NOTIFICATION' => 'Bildirim',
-    'LBL_CONFIRM' => 'Confirm',
+    'LBL_CONFIRM' => 'Onayla',
     'LBL_ARE_YOU_SURE' => 'Emin misiniz?',
 
     // Sync status enum translations
     'LBL_SYNC_STATUS_IN_PROGRESS' => 'Sürüyor',
-    'LBL_SYNC_STATUS_SUCCESS' => 'Success',
+    'LBL_SYNC_STATUS_SUCCESS' => 'Başarılı',
     'LBL_SYNC_STATUS_WARNING' => 'Uyarı',
     'LBL_SYNC_STATUS_ERROR' => 'Hata:',
 
