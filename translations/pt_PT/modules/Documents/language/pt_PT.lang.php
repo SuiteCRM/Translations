@@ -54,7 +54,7 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Pesquisar documentos',
     //vardef labels
     'LBL_NAME' => 'Nome do documento',
-    'LBL_DESCRIPTION' => 'Descrição:',
+    'LBL_DESCRIPTION' => 'Descrição',
     'LBL_CATEGORY' => 'Categoria',
     'LBL_SUBCATEGORY' => 'Subcategoria',
     'LBL_STATUS' => 'Situação',
