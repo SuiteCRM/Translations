@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kimliği',
-    'LBL_ASSIGNED_TO_NAME' => 'Atanmış kişi',
+    'LBL_ASSIGNED_TO_NAME' => 'Atanmış ilgili',
     'LBL_ID' => 'Kimlik',
     'LBL_DATE_ENTERED' => 'Eklenme tarihi',
     'LBL_DATE_MODIFIED' => 'Değiştirilme tarihi',
@@ -74,7 +74,7 @@ $mod_strings = array(
     'LBL_COST' => 'Maliyet',
     'LBL_PRICE' => 'Fiyat',
     'LBL_URL' => 'Adres',
-    'LBL_CONTACT' => 'İlgili kişi',
+    'LBL_CONTACT' => 'İlgili',
     'LBL_PRODUCT_IMAGE' => 'Ürün görseli',
     'LBL_IMAGE_UPLOAD_FAIL' => 'HATA: Yüklenen dosya izin verilen en büyük dosya boyutunu aşıyor: ',
     'LBL_AOS_PRODUCT_CATEGORYS_NAME' => 'Ürün kategorisi',
