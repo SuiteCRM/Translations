@@ -52,7 +52,7 @@ $mod_strings = array(
     'LBL_TS' => 'Zaman damgası',
     'LBL_LIST_DELETE' => 'Kodu sil',
     'LBL_CONSUMER' => 'Tüketci adı',
-    'LBL_OAUTH_DISABLED' => 'OAuth desteği etkinleştirilmemiş. PHP oauth eklentisi eksik olabilir. Lütfen yöneticinizle görüşün.',
+    'LBL_OAUTH_DISABLED' => 'OAuth desteği açılmamış. PHP oauth eklentisi eksik olabilir. Lütfen yöneticiniz ile görüşün.',
 
     'LBL_TOKEN_TS' => 'Kod TS',
     'LBL_CALLBACK_URL' => 'Geri dönüş adresi',
