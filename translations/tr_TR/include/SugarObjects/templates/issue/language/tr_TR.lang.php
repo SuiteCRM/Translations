@@ -51,7 +51,7 @@ $mod_strings = array(
     'LBL_DESCRIPTION' => 'Açıklama:',
     'LBL_RESOLUTION' => 'Çözüm',
     'LBL_LAST_MODIFIED' => 'Son değiştirilme',
-    'LBL_ASSIGNED_TO_ID' => 'Atanmış kişi:',
+    'LBL_ASSIGNED_TO_ID' => 'Atanmış ilgili:',
     'LBL_ASSIGNED_TO_NAME' => 'Kullanıcı:',
     'LBL_WORK_LOG' => 'İş günlüğü:',
     'LBL_CREATED_BY' => 'Ekleyen:',
@@ -63,6 +63,6 @@ $mod_strings = array(
     'LBL_SUBJECT' => 'Konu:',
 
     'LBL_EDIT_BUTTON' => 'Değiştir',
-    'LBL_REMOVE' => 'Sil',
+    'LBL_REMOVE' => 'Kaldır',
 
 );
