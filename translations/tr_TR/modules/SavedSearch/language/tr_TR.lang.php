@@ -56,7 +56,7 @@ $mod_strings = array(
     'LBL_SAVE_SEARCH_AS' => 'Süzgeci farklı kaydet:',
     'LBL_ASCENDING' => 'Artan',
     'LBL_DESCENDING' => 'Azalan',
-    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Geçerli süzgeci değiştir',
 
     'LBL_CREATED_BY' => 'Ekleyen',
     'LBL_QUICK_FILTER' => 'Hızlı süzgeç',
