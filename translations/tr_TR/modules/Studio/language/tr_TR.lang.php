@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EDIT_LAYOUT' => 'Görünümü düzenle',
+    'LBL_EDIT_LAYOUT' => 'Yerleşimi düzenle',
     'LBL_EDIT_FIELDS' => 'Özel alanları düzenle',
     'LBL_SELECT_FILE' => 'Dosya seçin',
     'LBL_MODULE_TITLE' => 'Studio',
