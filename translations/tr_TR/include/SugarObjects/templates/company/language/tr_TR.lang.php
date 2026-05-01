@@ -55,9 +55,9 @@ $mod_strings = array(
     'LBL_ANY_PHONE' => 'Herhangi bir telefon:',
     'LBL_ASSIGNED_TO_NAME' => 'Kullanıcı:',
     'LBL_RATING' => 'Değerlendirme',
-    'LBL_ASSIGNED_TO' => 'Atanmış kişi:',
-    'LBL_ASSIGNED_USER' => 'Atanmış kişi:',
-    'LBL_ASSIGNED_TO_ID' => 'Atanmış kişi:',
+    'LBL_ASSIGNED_TO' => 'Atanmış ilgili:',
+    'LBL_ASSIGNED_USER' => 'Atanmış ilgili:',
+    'LBL_ASSIGNED_TO_ID' => 'Atanmış ilgili:',
     'LBL_BILLING_ADDRESS_CITY' => 'Fatura ilçe:',
     'LBL_BILLING_ADDRESS_COUNTRY' => 'Fatura ülke:',
     'LBL_BILLING_ADDRESS_POSTALCODE' => 'Fatura posta kodu:',
@@ -69,7 +69,7 @@ $mod_strings = array(
     'LBL_BILLING_ADDRESS' => 'Fatura adresi:',
     'LBL_ACCOUNT_INFORMATION' => 'Kuruluş bilgileri',
     'LBL_CITY' => 'İlçe:',
-    'LBL_CONTACTS_SUBPANEL_TITLE' => 'Kişiler',
+    'LBL_CONTACTS_SUBPANEL_TITLE' => 'İlgililer',
     'LBL_COUNTRY' => 'Ülke:',
     'LBL_DATE_ENTERED' => 'Eklenme tarihi:',
     'LBL_DATE_MODIFIED' => 'Değiştirilme tarihi:',
@@ -125,6 +125,6 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => 'Bu kaydı silmek istediğinize emin misiniz?',
 
     'LBL_EDIT_BUTTON' => 'Düzenle  ',
-    'LBL_REMOVE' => 'Sil',
+    'LBL_REMOVE' => 'Kaldır',
 
 );
