@@ -68,7 +68,7 @@ $mod_strings = array(
     'LBL_RELATED_DOCUMENT_REVISION_ID' => 'İlişkili belge sürüm kimliği',
     'LBL_IS_TEMPLATE' => 'Kalıp',
     'LBL_TEMPLATE_TYPE' => 'Belge türü',
-    'LBL_ASSIGNED_TO_NAME' => 'Atanmış kişi:',
+    'LBL_ASSIGNED_TO_NAME' => 'Atanmış ilgili:',
     'LBL_REVISION_NAME' => 'Sürüm no',
     'LBL_MIME' => 'MIME türü',
     'LBL_REVISION' => 'Revizyon',
@@ -160,7 +160,7 @@ $mod_strings = array(
 
     // Links around the world
     'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Hesaplar',
-    'LBL_CONTACTS_SUBPANEL_TITLE' => 'Kişiler',
+    'LBL_CONTACTS_SUBPANEL_TITLE' => 'İlgililer',
     'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Fırsatlar',
     'LBL_CASES_SUBPANEL_TITLE' => 'Destek kayıtları',
     'LBL_BUGS_SUBPANEL_TITLE' => 'Hatalar',
