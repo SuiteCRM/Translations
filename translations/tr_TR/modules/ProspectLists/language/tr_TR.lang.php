@@ -61,7 +61,7 @@ $mod_strings = array(
     'LBL_DATE_MODIFIED' => 'Değiştirilme tarihi',
     'LBL_MODIFIED' => 'Düzenleyen',
     'LBL_CREATED' => 'Ekleyen',
-    'LBL_ASSIGNED_TO' => 'Atanmış kişi',
+    'LBL_ASSIGNED_TO' => 'Atanmış ilgili',
     'LBL_DESCRIPTION' => 'Açıklama',
     'LNK_NEW_CAMPAIGN' => 'Kampanya ekle',
     'LNK_CAMPAIGN_LIST' => 'Kampanyalar',
@@ -72,7 +72,7 @@ $mod_strings = array(
     'LNK_NEW_PROSPECT' => 'Hedef ekle',
     'LNK_PROSPECT_LIST' => 'Hedefler',
 
-    'LBL_CONTACTS_SUBPANEL_TITLE' => 'Kişiler',
+    'LBL_CONTACTS_SUBPANEL_TITLE' => 'İlgililer',
     'LBL_LEADS_SUBPANEL_TITLE' => 'Potansiyel',
     'LBL_PROSPECTS_SUBPANEL_TITLE' => 'Hedefler',
     'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Hesaplar',
