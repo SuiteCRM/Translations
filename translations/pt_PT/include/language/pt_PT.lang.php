@@ -784,7 +784,7 @@ $app_list_strings = array(
     'dom_email_distribution' => array(
         '' => '--None--',
         'direct' => 'Atribuição direta',
-        'roundRobin' => 'Atribuição rotativa',
+        'roundRobin' => 'Atribuição rotativa Robin',
         'leastBusy' => 'Menor ocupação',
     ),
     'dom_email_errors' => array(
@@ -3230,7 +3230,7 @@ $app_list_strings['aow_condition_type_list']['Multi'] = 'One of';
 $app_list_strings['aow_action_type_list']['Value'] = 'Value';
 $app_list_strings['aow_action_type_list']['Field'] = 'Field';
 $app_list_strings['aow_action_type_list']['Date'] = 'Date';
-$app_list_strings['aow_action_type_list']['Round_Robin'] = 'Round-robin';
+$app_list_strings['aow_action_type_list']['Round_Robin'] = 'Atribuição rotativa Robin';
 $app_list_strings['aow_action_type_list']['Least_Busy'] = 'Menor ocupação';
 $app_list_strings['aow_action_type_list']['Random'] = 'Random';
 $app_list_strings['aow_rel_action_type_list']['Value'] = 'Value';
