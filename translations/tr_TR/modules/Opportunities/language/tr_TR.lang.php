@@ -50,7 +50,7 @@ $mod_strings = array(
     'LBL_OPPORTUNITY_NAME' => 'Fırsat adı:',
     'LBL_OPPORTUNITY' => 'Fırsat:',
     'LBL_NAME' => 'Fırsat Adı',
-    'LBL_INVITEE' => 'Kişiler',
+    'LBL_INVITEE' => 'İlgililer',
     'LBL_CURRENCIES' => 'Para Birimleri',
     'LBL_LIST_OPPORTUNITY_NAME' => 'Ad',
     'LBL_LIST_ACCOUNT_NAME' => 'Hesap adı',
@@ -83,16 +83,16 @@ $mod_strings = array(
     'LNK_OPPORTUNITY_LIST' => 'Fırsatları görüntüle',
     'ERR_DELETE_RECORD' => 'Fırsatı silmek için bir kayıt numarası belirtilmelidir.',
     'LBL_TOP_OPPORTUNITIES' => 'En iyi açık fırsatlarım',
-    'OPPORTUNITY_REMOVE_PROJECT_CONFIRM' => 'Bu fırsatı projeden silmek istediğinize emin misiniz?',
+    'OPPORTUNITY_REMOVE_PROJECT_CONFIRM' => 'Bu fırsatı projeden kaldırmak istediğinize emin misiniz?',
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Fırsatlar',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Etkinlikler',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Tarihçe',
 
     'LBL_LEADS_SUBPANEL_TITLE' => 'Potansiyel',
-    'LBL_CONTACTS_SUBPANEL_TITLE' => 'Kişiler',
+    'LBL_CONTACTS_SUBPANEL_TITLE' => 'İlgililer',
     'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Dökümanlar',
     'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projeler',
-    'LBL_ASSIGNED_TO_NAME' => 'Atanmış kişi:',
+    'LBL_ASSIGNED_TO_NAME' => 'Atanmış ilgili:',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Atanmış kullanıcı',
     'LBL_MY_CLOSED_OPPORTUNITIES' => 'Kapanmış fırsatlarım',
     'LBL_TOTAL_OPPORTUNITIES' => 'Fırsatlar toplamı',
@@ -104,7 +104,7 @@ $mod_strings = array(
     'LBL_CAMPAIGN_OPPORTUNITY' => 'Kampanyalar',
     'LBL_PROJECT_SUBPANEL_TITLE' => 'Projeler',
     'LNK_IMPORT_OPPORTUNITIES' => 'Fırsatları içe aktar',
-    'LBL_EDITLAYOUT' => 'Görünümü düzenle'
+    'LBL_EDITLAYOUT' => 'Yerleşimi düzenle'
     /*for 508 compliance fix*/,
 
     // SNIP
