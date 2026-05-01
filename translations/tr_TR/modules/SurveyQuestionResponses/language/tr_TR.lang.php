@@ -40,7 +40,7 @@
 
 $mod_strings = array(
     'LBL_ASSIGNED_TO_ID'                                                                 => 'Atanmış kullanıcı kimliği',
-    'LBL_ASSIGNED_TO_NAME'                                                               => 'Atanmış kişi',
+    'LBL_ASSIGNED_TO_NAME'                                                               => 'Atanmış ilgili',
     'LBL_SECURITYGROUPS'                                                                 => 'Güvenlik grupları',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE'                                                  => 'Güvenlik grupları',
     'LBL_ID'                                                                             => 'Kimlik',
@@ -61,7 +61,7 @@ $mod_strings = array(
     'LBL_MODIFIED_USER'                                                                  => 'Değiştiren kullanıcı',
     'LBL_LIST_NAME'                                                                      => 'Paket Adı:',
     'LBL_EDIT_BUTTON'                                                                    => 'Değiştir',
-    'LBL_REMOVE'                                                                         => 'Sil',
+    'LBL_REMOVE'                                                                         => 'Kaldır',
     'LBL_LIST_FORM_TITLE'                                                                => 'Anket soru yanıtları listesi',
     'LBL_MODULE_NAME'                                                                    => 'Anket soru yanıtları',
     'LBL_MODULE_TITLE'                                                                   => 'Anket soru yanıtları',
