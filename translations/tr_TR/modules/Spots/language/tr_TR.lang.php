@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kimliği',
-    'LBL_ASSIGNED_TO_NAME' => 'Atanmış kişi',
+    'LBL_ASSIGNED_TO_NAME' => 'Atanmış ilgili',
     'LBL_SECURITYGROUPS' => 'Güvenlik grupları',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Güvenlik grupları',
     'LBL_ID' => 'Kimlik',
@@ -60,7 +60,7 @@ $mod_strings = array(
     'LBL_MODIFIED_USER' => 'Değiştiren kullanıcı',
     'LBL_LIST_NAME' => 'Paket Adı:',
     'LBL_EDIT_BUTTON' => 'Değiştir',
-    'LBL_REMOVE' => 'Sil',
+    'LBL_REMOVE' => 'Kaldır',
     'LBL_LIST_FORM_TITLE' => 'Özet listesi',
     'LBL_MODULE_NAME' => 'Özet',
     'LBL_MODULE_TITLE' => 'Özet',
@@ -95,7 +95,7 @@ $mod_strings = array(
     'LBL_AN_LEADS_YEAR' => 'Yıl',
     'LBL_AN_LEADS_QUARTER' => 'Çeyrek',
     'LBL_AN_LEADS_MONTH' => 'Ay',
-    'LBL_AN_LEADS_WEEK' => 'Week',
+    'LBL_AN_LEADS_WEEK' => 'Hafta',
     'LBL_AN_LEADS_DAY' => 'Gün',
 
     //Analytics labels for sales pivot
@@ -125,7 +125,7 @@ $mod_strings = array(
     'LBL_AN_SERVICE_CREATED_MONTH' => 'Eklendiği ay',
     'LBL_AN_SERVICE_CREATED_QUARTER' => 'Eklendiği çeyrek',
     'LBL_AN_SERVICE_CREATED_YEAR' => 'Eklendiği yıl',
-    'LBL_AN_SERVICE_CONTACT_NAME' => 'İlgili Kişi Adı',
+    'LBL_AN_SERVICE_CONTACT_NAME' => 'İlgili adı',
     'LBL_AN_SERVICE_ASSIGNED_TO' => 'Atanmış Kullanıcı',
 
     //Analytics labels for the activities pivot
@@ -143,7 +143,7 @@ $mod_strings = array(
     'LBL_AN_MARKETING_OPPORTUNITY_NAME' => 'Fırsat Adı',
     'LBL_AN_MARKETING_OPPORTUNITY_AMOUNT' => 'Fırsat Tutarı',
     'LBL_AN_MARKETING_OPPORTUNITY_SALES_STAGE' => 'Fırsatın satış aşaması',
-    'LBL_AN_MARKETING_OPPORTUNITY_ASSIGNED_TO' => 'Fırsatın atandığı kişi',
+    'LBL_AN_MARKETING_OPPORTUNITY_ASSIGNED_TO' => 'Fırsatın atandığı ilgili',
     'LBL_AN_MARKETING_ACCOUNT_NAME' => 'Hesap Adı',
 
     //Analytics labels for the marketing activities pivot
@@ -159,7 +159,7 @@ $mod_strings = array(
     'LBL_AN_QUOTES_OPPORTUNITY_LEAD_SOURCE' => 'Fırsat potansiyeli kaynağı',
     'LBL_AN_QUOTES_OPPORTUNITY_SALES_STAGE' => 'Fırsatın Satış Aşaması',
     'LBL_AN_QUOTES_ACCOUNT_NAME' => 'Hesap Adı',
-    'LBL_AN_QUOTES_CONTACT_NAME' => 'İlgili Kişi Adı',
+    'LBL_AN_QUOTES_CONTACT_NAME' => 'İlgili adı',
     'LBL_AN_QUOTES_ITEM_NAME' => 'Öge Adı',
     'LBL_AN_QUOTES_ITEM_TYPE' => 'Öge türü',
     'LBL_AN_QUOTES_ITEM_CATEGORY' => 'Öge kategorisi',
