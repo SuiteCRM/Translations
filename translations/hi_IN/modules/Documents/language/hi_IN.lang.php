@@ -49,8 +49,8 @@ $mod_strings = array(
     'LNK_NEW_DOCUMENT' => 'दस्तावेज़ बनाएँ',
     'LNK_DOCUMENT_LIST' => 'दस्तावेज़ देखें',
     'LBL_DOC_REV_HEADER' => 'दस्तावेज संशोधन ',
-    'LBL_NEW_REVISION' => 'Add Revision',
-    'LBL_FILENAME_REVISION_HINT' => 'Remove and replace this file to create a new revision.',
+    'LBL_NEW_REVISION' => 'संशोधन जोड़ें',
+    'LBL_FILENAME_REVISION_HINT' => 'इस फ़ाइल को हटाकर नई फ़ाइल बनाएं।',
     'LBL_SEARCH_FORM_TITLE' => 'दस्तावेज़ खोज',
     //vardef labels
     'LBL_NAME' => 'दस्तावेज़ का नाम',
