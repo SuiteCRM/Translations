@@ -36,34 +36,34 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = [
 
     // Module naming
-    'LBL_LIST_FORM_TITLE' => 'Migrations List',
-    'LBL_MODULE_NAME' => 'Migrations',
-    'LBL_MODULE_TITLE' => 'Migrations',
-    'LBL_HOMEPAGE_TITLE' => 'My Migrations',
-    'LNK_NEW_RECORD' => 'Create Migrations',
-    'LNK_LIST' => 'View Migrations',
-    'LBL_SEARCH_FORM_TITLE' => 'Search Migrations',
-    'LBL_NEW_FORM_TITLE' => 'New Migrations',
+    'LBL_LIST_FORM_TITLE' => 'प्रवासन सूची',
+    'LBL_MODULE_NAME' => 'स्थानांतरगमन',
+    'LBL_MODULE_TITLE' => 'स्थानांतरगमन',
+    'LBL_HOMEPAGE_TITLE' => 'मेरे स्थानांतरगमन',
+    'LNK_NEW_RECORD' => 'स्थानांतरगमन बनाएं',
+    'LNK_LIST' => 'स्थानांतरगमन देखना',
+    'LBL_SEARCH_FORM_TITLE' => 'स्थानांतरगमन खोज',
+    'LBL_NEW_FORM_TITLE' => 'स्थानांतरगमन नया',
 
     // Module-specific trigger action
-    'LBL_RUN_MIGRATION' => 'Run Migration',
-    'LBL_RUN_MIGRATION_CONFIRMATION' => 'Are you sure you want to run this migration?',
+    'LBL_RUN_MIGRATION' => 'स्थानांतरगमन चलाना',
+    'LBL_RUN_MIGRATION_CONFIRMATION' => 'क्या आप वाकई इस माइग्रेशन को चलाना चाहते हैं?',
 
     // Rerun/dismiss confirmation messages (reference this module by name)
-    'LBL_RERUN_CONFIRMATION' => 'Are you sure you want to re-run this migration from scratch? All existing items will be removed and the migration will restart.',
-    'LBL_RERUN_SUCCESS' => 'Migration has been re-queued and will restart from the beginning.',
-    'LBL_DISMISS_CONFIRMATION' => 'Are you sure you want to dismiss this migration task? This will remove it and all associated data.',
-    'LBL_DISMISS_SUCCESS' => 'Migration task dismissed successfully.',
+    'LBL_RERUN_CONFIRMATION' => 'क्या आप वाकई इस माइग्रेशन को शुरू से दोबारा चलाना चाहते हैं? सभी मौजूदा आइटम हटा दिए जाएंगे और माइग्रेशन फिर से शुरू हो जाएगा।',
+    'LBL_RERUN_SUCCESS' => 'माइग्रेशन को पुनः कतार में डाल दिया गया है और यह शुरू से फिर से शुरू होगा।',
+    'LBL_DISMISS_CONFIRMATION' => 'क्या आप वाकई इस माइग्रेशन कार्य को रद्द करना चाहते हैं? ऐसा करने से यह कार्य और इससे संबंधित सभी डेटा हटा दिया जाएगा।',
+    'LBL_DISMISS_SUCCESS' => 'माइग्रेशन कार्य सफलतापूर्वक समाप्त हो गया।',
 
     // Type footnotes
-    'LBL_TYPE_BACKGROUND_HELP' => 'This migration runs in the background via the message queue worker. It processes items in batches and does not block the UI.',
-    'LBL_TYPE_IMMEDIATE_HELP' => 'This migration runs immediately when triggered. It processes all items in a single request and may take longer for large datasets.',
+    'LBL_TYPE_BACKGROUND_HELP' => 'यह माइग्रेशन मैसेज क्यू वर्कर के माध्यम से बैकग्राउंड में चलता है। यह आइटम को बैचों में प्रोसेस करता है और यूआई को ब्लॉक नहीं करता है।',
+    'LBL_TYPE_IMMEDIATE_HELP' => 'यह माइग्रेशन ट्रिगर होते ही तुरंत शुरू हो जाता है। यह एक ही अनुरोध में सभी आइटमों को प्रोसेस करता है और बड़े डेटासेट के लिए इसमें अधिक समय लग सकता है।',
 
 
     // Messenger setup widget
-    'LBL_MESSENGER_SETUP' => 'Background Task Configuration',
-    'LBL_MESSENGER_SETUP_DESC1' => 'Migration tasks are processed in the background.',
-    'LBL_MESSENGER_SETUP_DESC2' => 'To ensure these tasks complete successfully, please ensure a Symfony Messenger worker is running.',
-    'LBL_MESSENGER_SETUP_DESC3' => 'Without an active worker, tasks will stay in a "Pending" state.',
-    'LBL_MESSENGER_SETUP_DOC_LINK' => 'View Setup Guide (Supervisor, systemd, Cron)',
+    'LBL_MESSENGER_SETUP' => 'पृष्ठभूमि कार्य विन्यास',
+    'LBL_MESSENGER_SETUP_DESC1' => 'माइग्रेशन संबंधी कार्य पृष्ठभूमि में संसाधित किए जाते हैं।',
+    'LBL_MESSENGER_SETUP_DESC2' => 'इन कार्यों को सफलतापूर्वक पूरा करने के लिए, कृपया सुनिश्चित करें कि Symfony Messenger वर्कर चल रहा हो।',
+    'LBL_MESSENGER_SETUP_DESC3' => 'किसी सक्रिय कार्यकर्ता के अभाव में, कार्य "लंबित" स्थिति में रहेंगे।',
+    'LBL_MESSENGER_SETUP_DOC_LINK' => 'सेटअप गाइड देखें (सुपरवाइजर, सिस्टमडी, क्रॉन)',
 ];
