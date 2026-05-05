@@ -61,48 +61,48 @@ $mod_strings = [
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activiteiten',
 
     // Async task field labels
-    'LBL_DATA' => 'Data',
+    'LBL_DATA' => 'Gegevens',
     'LBL_TYPE' => 'Type',
-    'LBL_ESTIMATED_RUN_TIME' => 'Run time estimate',
+    'LBL_ESTIMATED_RUN_TIME' => 'Tijdsraming uitvoeren',
     'LBL_STATUS' => 'Status',
-    'LBL_SERVICE_KEY' => 'Service Key',
-    'LBL_LAST_RUN_DATETIME' => 'Last Run',
+    'LBL_SERVICE_KEY' => 'Service Sleutel',
+    'LBL_LAST_RUN_DATETIME' => 'Laatst uitgevoerd',
     'LBL_ATTACHMENTS' => 'Bijlagen',
-    'LBL_PHASE' => 'Phase',
+    'LBL_PHASE' => 'Fase',
     'LBL_OWNER' => 'Eigenaar',
 
     // Progress field labels
-    'LBL_PROGRESS' => 'Progress',
-    'LBL_PROGRESS_PERCENT' => 'Percent',
+    'LBL_PROGRESS' => 'Voortgang',
+    'LBL_PROGRESS_PERCENT' => 'Procent',
     'LBL_PROGRESS_COMPLETED' => 'Voltooid',
     'LBL_PROGRESS_FAILED' => 'Mislukt',
-    'LBL_PROGRESS_PERCENT_TPL' => '{{fields.progress.attributes.percent|default:-}}% ({{fields.progress.attributes.completed|default:-}} successful, {{fields.progress.attributes.failed|default:-}} failed / {{fields.progress.attributes.total|default:-}} total)',
-    'LBL_PROGRESS_NOT_STARTED' => 'Not started',
-    'LBL_PROGRESS_QUEUING_TPL' => 'Queueing: {{fields.progress.attributes.total|default:0}} items enqueued',
+    'LBL_PROGRESS_PERCENT_TPL' => '{{fields.progress.attributes.percent|default:-}}% ({{fields.progress.attributes.completed|default:-}} succesvol, {{fields.progress.attributes.failed|default:-}} mislukt / {{fields.progress.attributes.total|default:-}} totaal)',
+    'LBL_PROGRESS_NOT_STARTED' => 'Niet gestart',
+    'LBL_PROGRESS_QUEUING_TPL' => 'Wachtend: {{fields.progress.attributes.total|default:0}} items in de wachtrij',
 
     // Action labels — button text (shared across modules)
-    'LBL_RETRY' => 'Retry',
-    'LBL_RERUN' => 'Re-run',
-    'LBL_DISMISS' => 'Uitschakelen',
+    'LBL_RETRY' => 'Opnieuw proberen',
+    'LBL_RERUN' => 'Herstarten',
+    'LBL_DISMISS' => 'Afwijzen',
     'LBL_DELETE' => 'Verwijder',
-    'LBL_DELETE_COMPLETED_CONFIRMATION' => 'Are you sure you want to delete this completed task?',
-    'LBL_DELETE_COMPLETED_WITH_FAILURES_CONFIRMATION' => 'This task completed with failures. Deleting it will remove all task data including failed item details. Are you sure you want to proceed?',
-    'LBL_DELETE_FAILED_CONFIRMATION' => 'This task has failed. Deleting it will remove all task data including error details. Are you sure you want to proceed?',
+    'LBL_DELETE_COMPLETED_CONFIRMATION' => 'Weet u zeker dat u deze voltooide taak wilt verwijderen?',
+    'LBL_DELETE_COMPLETED_WITH_FAILURES_CONFIRMATION' => 'Deze taak voltooid met mislukkingen. Als u deze verwijdert, worden alle taakgegevens verwijderd, inclusief mislukte itemgegevens. Weet u zeker dat u wilt doorgaan?',
+    'LBL_DELETE_FAILED_CONFIRMATION' => 'Deze taak is mislukt. Als u deze verwijdert, worden alle taakgegevens en foutgegevens verwijderd. Weet u zeker dat u wilt doorgaan?',
 
     // Retry action messages (shared — generic phrasing)
-    'LBL_RETRY_CONFIRMATION' => 'Are you sure you want to retry? This will re-queue all failed items for processing.',
-    'LBL_RETRY_SUCCESS' => 'Failed items have been re-queued for processing.',
+    'LBL_RETRY_CONFIRMATION' => 'Weet je zeker dat je opnieuw wilt proberen? Dit zal alle mislukte items opnieuw in de wachtrij plaatsen voor de verwerking.',
+    'LBL_RETRY_SUCCESS' => 'Mislukte items zijn opnieuw in de wachtrij voor verwerking.',
 
     // Retry-failed action messages (shared)
-    'LBL_RETRY_FAILED' => 'Retry Failed',
-    'LBL_RETRY_FAILED_CONFIRMATION' => 'Are you sure you want to retry? This will re-queue all failed items for processing.',
-    'LBL_RETRY_FAILED_SUCCESS' => 'Failed items have been re-queued for processing.',
+    'LBL_RETRY_FAILED' => 'Opnieuw proberen mislukt',
+    'LBL_RETRY_FAILED_CONFIRMATION' => 'Weet je zeker dat je opnieuw wilt proberen? Dit zal alle mislukte items opnieuw in de wachtrij plaatsen voor de verwerking.',
+    'LBL_RETRY_FAILED_SUCCESS' => 'Mislukte items zijn opnieuw in de wachtrij voor verwerking.',
 
     // Capability flag field labels
-    'LBL_ALLOW_FAILURE_RETRY_ACTION' => 'Allow Failure Retry Action',
-    'LBL_ALLOW_FAILURE_RERUN_ACTION' => 'Allow Failure Rerun Action',
+    'LBL_ALLOW_FAILURE_RETRY_ACTION' => 'Opnieuw proberen-actie toestaan',
+    'LBL_ALLOW_FAILURE_RERUN_ACTION' => 'Opnieuw proberen-actie toestaan',
 
     // Subpanel
-    'LBL_FAILED_ITEMS' => 'Failed Items',
-    'LBL_COMPLETED_ITEMS' => 'Completed Items',
+    'LBL_FAILED_ITEMS' => 'Mislukte items',
+    'LBL_COMPLETED_ITEMS' => 'Voltooide Items',
 ];
