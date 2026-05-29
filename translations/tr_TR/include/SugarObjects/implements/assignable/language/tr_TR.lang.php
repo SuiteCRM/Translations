@@ -44,5 +44,5 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kimliği',
-    'LBL_ASSIGNED_TO_NAME' => 'Atanmış kişi',
+    'LBL_ASSIGNED_TO_NAME' => 'Atanmış ilgili',
 );

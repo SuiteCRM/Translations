@@ -61,7 +61,7 @@ $mod_strings['LBL_MAP_LEGEND'] = 'İşaretler:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'Gruplar:';
 $mod_strings['LBL_MAP_GROUP'] = 'Grup';
 $mod_strings['LBL_MAP_TYPE'] = 'Tür';
-$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Atanmış kişi:';
+$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Atanmış ilgili:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'Yol tarifi alın';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'Google Haritalar görünümü';
 
@@ -85,7 +85,7 @@ $mod_strings['LBL_ZERO_RESULTS'] = 'Sonuç bulunamadı';
 $mod_strings['LBL_OK'] = 'Tamam';
 $mod_strings['LBL_INVALID_REQUEST'] = 'İstek geçersiz';
 $mod_strings['LBL_APPROXIMATE'] = 'Yaklaşık';
-$mod_strings['LBL_EMPTY'] = 'Empty';
+$mod_strings['LBL_EMPTY'] = 'Boş';
 
 $mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Toplam';
 $mod_strings['LBL_MODULE_RESET_HEADING'] = 'Sıfırla';
@@ -108,8 +108,8 @@ $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'Diğer adres';
 $mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Esnek ilişki';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Adres (basit, kullanıcılar)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'Özel (özel denetim mantığı)';
-$mod_strings['LBL_ENABLED'] = 'Etkin';
-$mod_strings['LBL_DISABLED'] = 'Devre dışı';
+$mod_strings['LBL_ENABLED'] = 'Açık';
+$mod_strings['LBL_DISABLED'] = 'Kapalı';
 $mod_strings['LBL_DEFAULT'] = 'Varsayılan:';
 $mod_strings['LBL_CONFIG_DEFAULT'] = 'Varsayılan:';
 
@@ -118,7 +118,7 @@ $mod_strings['LBL_CONFIG_VALID_GEOCODE_TABLES'] = 'Geçerli coğrafi kodlama tab
 $mod_strings['LBL_CONFIG_ADDRESS_TYPE_SETTINGS_TITLE'] = "Adres türü ayarları: Bu ayarlar, adreslerin coğrafi kodlanması sırasında kullanılacak modüllerin adres türlerini belirler. Şu değerler kullanılabilir: 'billing'; 'shipping'; 'primary'; 'alt'; 'flex_relate'";
 $mod_strings['LBL_CONFIG_ADDRESS_TYPE_FOR'] = 'Şunun için adres türü ';
 $mod_strings['LBL_CONFIG_ADDRESS_TYPE_FOR_ACCOUNTS'] = 'Hesapların adres türü:';
-$mod_strings['LBL_CONFIG_ADDRESS_TYPE_FOR_CONTACTS'] = 'Kişilerin adres türü:';
+$mod_strings['LBL_CONFIG_ADDRESS_TYPE_FOR_CONTACTS'] = 'İlgililerin adres türü:';
 $mod_strings['LBL_CONFIG_ADDRESS_TYPE_FOR_LEADS'] = 'Potansiyellerin adres türü:';
 $mod_strings['LBL_CONFIG_ADDRESS_TYPE_FOR_OPPORTUNITIES'] = 'Fırsatların adres türü:';
 $mod_strings['LBL_CONFIG_OF_RELATED_ACCOUNT'] = '(ilişkili hesabın)';
@@ -132,7 +132,7 @@ $mod_strings['LBL_CONFIG_RELATED_OBJECT_THRU_FLEX_RELATE'] = 'Esnek ilişki alan
 $mod_strings['LBL_CONFIG_MARKER_GROUP_FIELD_SETTINGS_TITLE'] = "İşaretleyici grubu alan ayarları: Bu seçenek, işaretleyicilerin haritada görüntülenmesi için grup parametresi olarak kullanılacak 'alanı' tanımlar. Örnekler: assigned_user_name, industry, status, sales_stage, priority";
 $mod_strings['LBL_CONFIG_GROUP_FIELD_FOR'] = 'Şunun grup alanı ';
 $mod_strings['LBL_CONFIG_GROUP_FIELD_FOR_ACCOUNTS'] = 'Hesapların grup alanı:';
-$mod_strings['LBL_CONFIG_GROUP_FIELD_FOR_CONTACTS'] = 'Kişilerin grup alanı:';
+$mod_strings['LBL_CONFIG_GROUP_FIELD_FOR_CONTACTS'] = 'İlgililerin grup alanı:';
 $mod_strings['LBL_CONFIG_GROUP_FIELD_FOR_LEADS'] = 'Potansiyellerin grup alanı:';
 $mod_strings['LBL_CONFIG_GROUP_FIELD_FOR_OPPORTUNITIES'] = 'Fırsatların grup alanı:';
 $mod_strings['LBL_CONFIG_GROUP_FIELD_FOR_CASES'] = 'Destek kayıtlarının grup alanı:';
@@ -161,8 +161,8 @@ $mod_strings['LBL_CONFIG_ADDRESS_CACHE_SAVE_ENABLED_TITLE'] = 'Adres ön belleğ
 $mod_strings['LBL_CONFIG_ADDRESS_CACHE_SAVE_ENABLED_DESC'] = "'address_cache_save_enabled' seçeneği, adres ön bellek modülünün ön bellek tablosuna veri kaydetmesini sağlar.";
 
 $mod_strings['LBL_CONFIG_LOGIC_HOOKS_SETTINGS_TITLE'] = 'Mantıksal bağlantı ayarı:';
-$mod_strings['LBL_CONFIG_LOGIC_HOOKS_ENABLED_TITLE'] = 'Tüm mantıksal bağlantılar etkinleştirilsin: ';
-$mod_strings['LBL_CONFIG_LOGIC_HOOKS_ENABLED_DESC'] = "'logic_hooks_enabled' seçeneği, ilişkili nesnelere dayalı otomatik güncellenen mantık bağlantıları yapılmasını sağlar. SuiteCRM kopyanızı güncellerken bu seçeneği devre dışı bırakmanız önerilir.";
+$mod_strings['LBL_CONFIG_LOGIC_HOOKS_ENABLED_TITLE'] = 'Tüm mantıksal bağlantılar açılsın: ';
+$mod_strings['LBL_CONFIG_LOGIC_HOOKS_ENABLED_DESC'] = "'logic_hooks_enabled' seçeneği, ilişkili nesnelere dayalı otomatik güncellenen mantık bağlantıları yapılmasını sağlar. SuiteCRM kopyanızı güncellerken bu seçeneği kapatmanız önerilir.";
 
 $mod_strings['LBL_CONFIG_MARKER_MAPPING_SETTINGS_TITLE'] = 'İşaretleyici/eşleştirme ayarları:';
 $mod_strings['LBL_CONFIG_MAP_MARKERS_LIMIT_TITLE'] = "Harita işaretleyicileri sayısı:";

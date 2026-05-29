@@ -79,7 +79,7 @@ $mod_strings = array(
     'LBL_STATE' => 'İl',
     'LBL_POSTAL_CODE' => 'Posta kodu',
     'LBL_COUNTRY' => 'Ülke',
-    'LBL_CONTACT_INFORMATION' => 'Kişi bilgileri',
+    'LBL_CONTACT_INFORMATION' => 'İlgili bilgileri',
     'LBL_ADDRESS_INFORMATION' => 'Adres(ler)',
     'LBL_ASSIGNED_TO_NAME' => 'Kullanıcı',
     'LBL_OTHER_EMAIL_ADDRESS' => 'Diğer e-posta:',
@@ -91,7 +91,7 @@ $mod_strings = array(
     'LBL_EMAIL_NON_PRIMARY' => 'İkincil e-posta adresleri',
     'LBL_PHOTO' => 'Görsel',
     'LBL_EDIT_BUTTON' => 'Değiştir',
-    'LBL_REMOVE' => 'Sil',
+    'LBL_REMOVE' => 'Kaldır',
 
     //Lawful Basis labels
     'LBL_LAWFUL_BASIS' => 'Yasal hükümler',

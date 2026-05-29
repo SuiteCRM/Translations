@@ -133,7 +133,7 @@ $mod_strings = array(
     'LBL_ADDRESS_CITY' => 'Cidade',
     'LBL_ADDRESS_COUNTRY' => 'País',
     'LBL_ADDRESS_INFORMATION' => 'Dados de endereço',
-    'LBL_ADDRESS_POSTALCODE' => 'Código postal da morada',
+    'LBL_ADDRESS_POSTALCODE' => 'Código postal do endereço',
     'LBL_ADDRESS_STATE' => 'Concelho',
     'LBL_ADDRESS_STREET' => 'Rua',
 

@@ -70,7 +70,7 @@ $mod_strings = [
 
     'LNK_NEW_OAUTH2_CLIENT' => 'Maak een OAuth2 Client',
     'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'Nieuwe wachtwoord voor client',
-    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'Nieuwe cliënt gegevens',
+    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'Nieuwe cliënt credentials',
     'LNK_NEW_OAUTH2_IMPLICIT_CLIENT' => 'Nieuwe impliciete Cliënt',
     'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'Nieuwe autorisatie cliënt',
 

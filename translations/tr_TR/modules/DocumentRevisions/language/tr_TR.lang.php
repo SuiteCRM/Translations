@@ -67,7 +67,7 @@ $mod_strings = array(
     //document revisions.
     'LBL_REV_LIST_REVISION' => 'Sürüm',
     'LBL_REV_LIST_ENTERED' => 'Eklenme tarihi',
-    'LBL_REV_LIST_CREATED' => 'Created by',
+    'LBL_REV_LIST_CREATED' => 'Ekleyen',
     'LBL_REV_LIST_LOG' => 'Değişiklik günlüğü',
     'LBL_REV_LIST_FILENAME' => 'Dosya',
 

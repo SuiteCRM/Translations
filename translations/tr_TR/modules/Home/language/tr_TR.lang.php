@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_MODULE_NAME' => 'Giriş',
-    'LBL_NEW_FORM_TITLE' => 'Yeni ilgili kişi',
+    'LBL_NEW_FORM_TITLE' => 'Yeni ilgili',
     'LBL_FIRST_NAME' => 'İsim:',
     'LBL_LAST_NAME' => 'Soyisim:',
     'LBL_LIST_LAST_NAME' => 'Soyisim',
@@ -53,7 +53,7 @@ $mod_strings = array(
     'LBL_MY_PIPELINE_FORM_TITLE' => 'Satış olasılığım',
     'LBL_PIPELINE_FORM_TITLE' => 'Satış aşamalarına göre satış olasılıkları',
     'LBL_RGraph_PIPELINE_FORM_TITLE' => 'Satış aşamalarına göre satış olasılıkları',
-    'LNK_NEW_CONTACT' => 'Kişi ekle',
+    'LNK_NEW_CONTACT' => 'İlgili ekle',
     'LNK_NEW_ACCOUNT' => 'Hesap ekle',
     'LNK_NEW_OPPORTUNITY' => 'Fırsat ekle',
     'LNK_NEW_LEAD' => 'Potansiyel ekle',
@@ -93,7 +93,7 @@ $mod_strings = array(
 
     'LBL_MODULES' => 'Modüller',
     'LBL_CHARTS' => 'Çizelgeler',
-    'LBL_TOOLS' => 'Tools',
+    'LBL_TOOLS' => 'Araçlar',
     'LBL_WEB' => 'Site',
     'LBL_SEARCH_RESULTS' => 'Arama sonuçları',
 
@@ -102,7 +102,7 @@ $mod_strings = array(
         'Module Views' => 'Modül görünümleri',
         'Portal' => 'Portal',
         'Charts' => 'Çizelgeler',
-        'Tools' => 'Tools',
+        'Tools' => 'Araçlar',
         'Miscellaneous' => 'Diğerleri'
     ),
     'LBL_ADDING_DASHLET' => 'SuiteCRM pano bileşeni ekleniyor...',
@@ -110,7 +110,7 @@ $mod_strings = array(
     'LBL_REMOVE_DASHLET_CONFIRM' => 'Bu SuiteCRM pano bileşenini kaldırmak istediğinize emin misiniz?',
     'LBL_REMOVING_DASHLET' => 'SuiteCRM pano bileşeni kaldırılıyor...',
     'LBL_REMOVED_DASHLET' => 'SuiteCRM pano bileşeni kaldırıldı',
-    'LBL_DASHLET_CONFIGURE_GENERAL' => 'General',
+    'LBL_DASHLET_CONFIGURE_GENERAL' => 'Genel',
     'LBL_DASHLET_CONFIGURE_FILTERS' => 'Süzgeçler',
     'LBL_DASHLET_CONFIGURE_MY_ITEMS_ONLY' => 'Yalnızca benim ögelerim',
     'LBL_DASHLET_CONFIGURE_TITLE' => 'Başlık',
@@ -156,7 +156,7 @@ $mod_strings = array(
     'LBL_TOUR_SEARCH_DESCRIPTION' => 'Arama çok daha iyi hale geldi.',
     'LBL_TOUR_NOTIFICATIONS' => 'Bildirimler',
     'LBL_TOUR_NOTIFICATIONS_DESCRIPTION' => 'SuiteCRM uygulama bildirimleri burada bulunur.',
-    'LBL_TOUR_PROFILE' => 'Profile',
+    'LBL_TOUR_PROFILE' => 'Profil',
     'LBL_TOUR_PROFILE_DESCRIPTION' => 'Profil erişimi, ayarlar ve oturum kapatma.',
     'LBL_TOUR_QUICKCREATE' => 'Hızlı ekle',
     'LBL_TOUR_QUICKCREATE_DESCRIPTION' => 'Bulunduğunuz yeri kaybetmeden hızlıca kayıtlar ekleyebilirsiniz.',
@@ -182,8 +182,8 @@ $mod_strings = array(
     'LBL_ABOUT_SUITE' => 'SuiteCRM hakkında',
     'LBL_PARTNERS' => 'İş ortakları',
     'LBL_EDIT_ALL_RECURRENCES' => 'Tüm yinelenmeleri düzenle',
-    'LBL_REMOVE_ALL_RECURRENCES' => 'Tüm yinelenmeleri sil',
-    'LBL_CONFIRM_REMOVE' => 'Bu kaydı silmek istediğinize emin misiniz?',
+    'LBL_REMOVE_ALL_RECURRENCES' => 'Tüm yinelenmeleri kaldır',
+    'LBL_CONFIRM_REMOVE' => 'Bu kaydı kaldırmak istediğinize emin misiniz?',
     
     'LBL_MAINTAINER_SUITECRM' => 'SuiteCRM, SuiteCRM Ltd tarafından oluşturulmuş ve geliştirilmektedir',
     'LBL_CONTRIBUTOR_SUITECRM' => 'SuiteCRM - Dünya için açık kaynak kodlu müşteri ilişkileri yönetimi',
@@ -205,7 +205,7 @@ $mod_strings = array(
 
     'LBL_SAVE_BUTTON' => 'Kaydet',
     'LBL_DELETE_BUTTON' => 'Sil',
-    'LBL_APPLY_BUTTON' => 'Apply',
+    'LBL_APPLY_BUTTON' => 'Uygula',
     'LBL_SEND_INVITES' => 'Kaydet ve çağrıları gönder',
     'LBL_CANCEL_BUTTON' => 'İptal',
     'LBL_CLOSE_BUTTON' => 'Kapat',
@@ -220,7 +220,7 @@ $mod_strings = array(
 
     'LBL_REPEAT_TYPE' => 'Yinele',
     'LBL_REPEAT_INTERVAL' => 'Her',
-    'LBL_REPEAT_END' => 'End',
+    'LBL_REPEAT_END' => 'Bitiş',
     'LBL_REPEAT_END_AFTER' => 'Şundan sonra olan',
     'LBL_REPEAT_OCCURRENCES' => 'yinelenme',
     'LBL_REPEAT_END_BY' => 'Sıklık',

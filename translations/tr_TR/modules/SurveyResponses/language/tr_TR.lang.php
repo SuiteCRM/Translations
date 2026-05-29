@@ -40,7 +40,7 @@
 
 $mod_strings = array(
     'LBL_ASSIGNED_TO_ID'                                                             => 'Atanmış kullanıcı kimliği',
-    'LBL_ASSIGNED_TO_NAME'                                                           => 'Atanmış kişi',
+    'LBL_ASSIGNED_TO_NAME'                                                           => 'Atanmış ilgili',
     'LBL_SECURITYGROUPS'                                                             => 'Güvenlik grupları',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE'                                              => 'Güvenlik grupları',
     'LBL_ID'                                                                         => 'Kimlik',
@@ -58,7 +58,7 @@ $mod_strings = array(
     'LBL_MODIFIED_USER'                                                              => 'Değiştiren kullanıcı',
     'LBL_LIST_NAME'                                                                  => 'Paket Adı:',
     'LBL_EDIT_BUTTON'                                                                => 'Değiştir',
-    'LBL_REMOVE'                                                                     => 'Sil',
+    'LBL_REMOVE'                                                                     => 'Kaldır',
     'LBL_LIST_FORM_TITLE'                                                            => 'Anket yanıtları listesi',
     'LBL_MODULE_NAME'                                                                => 'Anket yanıtları',
     'LBL_MODULE_TITLE'                                                               => 'Anket yanıtları',
@@ -74,7 +74,7 @@ $mod_strings = array(
     'LBL_HAPPINESS'                                                                  => 'Memnuniyet',
     'LBL_EMAIL_RESPONSE_SENT'                                                        => 'E-posta yanıtı gönderildi',
     'LBL_SURVEYRESPONSES_SURVEYQUESTIONRESPONSES_FROM_SURVEYQUESTIONRESPONSES_TITLE' => 'Anket soru yanıtları',
-    'LBL_SURVEYRESPONSES_CONTACTS_FROM_CONTACTS_TITLE'                               => 'İlgili kişi',
+    'LBL_SURVEYRESPONSES_CONTACTS_FROM_CONTACTS_TITLE'                               => 'İlgili',
     'LBL_SURVEYRESPONSES_ACCOUNTS_FROM_ACCOUNTS_TITLE'                               => 'Hesap',
     'LBL_SURVEYS_SURVEYRESPONSES_FROM_SURVEYS_TITLE'                                 => 'Anket',
     'LBL_QUESTION_RESPONSES_DISPLAY'                                                 => 'Soru yanıtları',

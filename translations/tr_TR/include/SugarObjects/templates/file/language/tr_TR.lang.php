@@ -52,7 +52,7 @@ $mod_strings = array(
     //vardef labels
     'LBL_NAME' => 'Belge adı',
     'LBL_DESCRIPTION' => 'Açıklama',
-    'LBL_ASSIGNED_TO' => 'Atanmış kişi:',
+    'LBL_ASSIGNED_TO' => 'Atanmış ilgili:',
     'LBL_CATEGORY' => 'Kategori',
     'LBL_SUBCATEGORY' => 'Alt kategori',
     'LBL_STATUS' => 'Durum',
@@ -112,6 +112,6 @@ $mod_strings = array(
     'LBL_LIST_DOCUMENT_NAME' => 'Belge adı',
 
     'LBL_EDIT_BUTTON' => 'Düzenle ',
-    'LBL_REMOVE' => 'Sil',
+    'LBL_REMOVE' => 'Kaldır',
 
 );

@@ -45,10 +45,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     //Column header mapping
     'action' => 'Actie',
-    'date_modified' => 'Date of Last Action',
+    'date_modified' => 'Datum laatste actie',
     'item_id' => 'ID',
     'item_summary' => 'Naam',
-    'module_name' => 'Module Name',
+    'module_name' => 'Modulenaam',
     'users' => 'Gebruikers',
 
     //Administration related labels

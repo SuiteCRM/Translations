@@ -65,5 +65,5 @@ $mod_strings = array(
             'Active' => 'Etkin',
             'Inactive' => 'Etkin değil',
         ),
-    'LBL_EDITLAYOUT' => 'Görünümü düzenle' /*for 508 compliance fix*/,
+    'LBL_EDITLAYOUT' => 'Yerleşimi düzenle' /*for 508 compliance fix*/,
 );

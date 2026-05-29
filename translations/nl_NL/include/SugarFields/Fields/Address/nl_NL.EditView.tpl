@@ -4,7 +4,7 @@
  * SugarCRM Community Edition is een relatiebeheer programma ontwikkeld door
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
- * SuiteCRM is an extension to SugarCRM Community Edition developed by SuiteCRM Ltd.
+ * SuiteCRM is een extensie voor SugarCRM Community Edition ontwikkeld door SalesAgility Ltd.
  * Copyright (C) 2011 - 2025 SuiteCRM Ltd.
  *
  * Dit programma is gratis software; u kunt het herdistribueren en/of aanpassen onder
@@ -39,7 +39,7 @@
  */
 *}
 <script src='{sugar_getjspath file="include/SugarFields/Fields/Address/SugarFieldAddress.js"}'></script>
-{{assign var="key" value=$displayParams.key|upper}}
+{{assign var="key" value=$displayParams.keyρupper}}
 {{assign var="street" value=$displayParams.key|cat:'_address_street'}}
 {{assign var="city" value=$displayParams.key|cat:'_address_city'}}
 {{assign var="state" value=$displayParams.key|cat:'_address_state'}}
