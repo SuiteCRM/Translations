@@ -49,8 +49,8 @@ $mod_strings = array(
     'LNK_NEW_DOCUMENT' => 'Nieuw document',
     'LNK_DOCUMENT_LIST' => 'Bekijk Documenten',
     'LBL_DOC_REV_HEADER' => 'Documentrevisies',
-    'LBL_NEW_REVISION' => 'Add Revision',
-    'LBL_FILENAME_REVISION_HINT' => 'Remove and replace this file to create a new revision.',
+    'LBL_NEW_REVISION' => 'Voeg revisie toe',
+    'LBL_FILENAME_REVISION_HINT' => 'Verwijder en vervang dit bestand om een nieuwe revisie te maken.',
     'LBL_SEARCH_FORM_TITLE' => 'Documenten zoeken',
     //vardef labels
     'LBL_NAME' => 'Documentnaam',

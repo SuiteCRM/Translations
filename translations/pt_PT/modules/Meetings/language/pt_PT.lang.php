@@ -92,7 +92,7 @@ $mod_strings = array(
     'LBL_REMINDER_TIME' => 'Reminder Time',
     'LBL_EMAIL_REMINDER_SENT' => 'Email reminder sent',
     'LBL_REMINDER' => 'Lembretes:',
-    'LBL_REMINDER_POPUP' => 'Popup',
+    'LBL_REMINDER_POPUP' => 'Janela flutuante',
     'LBL_REMINDER_EMAIL_ALL_INVITEES' => 'Email a todos os convidados',
     'LBL_EMAIL_REMINDER' => 'Email Reminder',
     'LBL_EMAIL_REMINDER_TIME' => 'Email Reminder Time',
@@ -158,7 +158,7 @@ $mod_strings = array(
     // for reminders
     'LBL_REMINDERS' => 'Lembretes',
     'LBL_REMINDERS_ACTIONS' => 'Ações:',
-    'LBL_REMINDERS_POPUP' => 'Popup',
+    'LBL_REMINDERS_POPUP' => 'Janela flutuante',
     'LBL_REMINDERS_EMAIL' => 'Email aos convidados',
     'LBL_REMINDERS_WHEN' => 'Quando:',
     'LBL_REMINDERS_REMOVE_REMINDER' => 'Remover lembrete',

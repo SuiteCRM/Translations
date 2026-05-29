@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_TOKEN_ID'=> 'Token-ID',
     'LBL_CLIENT'=> 'Client',
     'LBL_TOKEN_IS_REVOKED'=> 'Ingetrokken',
-    'LBL_ACCESS_TOKEN_TYPE'=> 'Tokens type',
+    'LBL_ACCESS_TOKEN_TYPE'=> 'Token type',
     'LBL_ACCESS_TOKEN_EXPIRES'=> 'Toegangstoken verloopt',
     'LBL_REFRESH_TOKEN_EXPIRES'=> 'Vernieuwen token verloopt',
     'LBL_GRANT_TYPE'=> 'Toekennen type',
@@ -66,12 +66,12 @@ $mod_strings = array(
     
     'LNK_NEW_OAUTH2_CLIENT' => 'Maak een OAuth2 Client',
     'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'Nieuwe wachtwoord voor client',
-    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'Nieuwe cliënt gegevens',
+    'LNK_NEW_OAUTH2_CREDENTIALS_CLIENT' => 'Nieuwe cliënt credentials',
     'LNK_NEW_OAUTH2_IMPLICIT_CLIENT' => 'Nieuwe impliciete Cliënt',
     'LNK_NEW_OAUTH2_AUTHORIZATION_CLIENT' => 'Nieuwe autorisatie cliënt',
 
     'LBL_ACCESS_TOKEN' => 'Toegangstoken',
     'LBL_REFRESH_TOKEN' => 'Vernieuwen token',
-    'LBL_DELETE_CONFIRMATION' => 'Weet u zeker dat u dit record wilt verwijderen? De klant krijgt geen autorisatie code meer.',
+    'LBL_DELETE_CONFIRMATION' => 'Weet u zeker dat u dit record wilt verwijderen? De client krijgt geen autorisatie codes meer.',
     'LBL_REVOKE_AND_DELETE_BUTTON_LABEL' => 'Intrekken en verwijderen',
 );

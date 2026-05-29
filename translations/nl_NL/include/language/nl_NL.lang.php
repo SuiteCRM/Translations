@@ -624,15 +624,15 @@ $app_list_strings = array(
     ),
 
     'file_field_storage_type_dom' => [
-        'private-documents' => 'Private Documents',
-        'public-documents' => 'Public Documents',
-        'archived-documents' => 'Archived Documents',
+        'private-documents' => 'Privé Documenten',
+        'public-documents' => 'Openbare documenten',
+        'archived-documents' => 'Gearchiveerde documenten',
     ],
 
 
     'image_field_storage_type_dom' => [
-        'private-images' => 'Private Images',
-        'public-images' => 'Public Images',
+        'private-images' => 'Privé afbeeldingen',
+        'public-images' => 'Openbare afbeeldingen',
     ],
 
     'product_category_default_key' => '',
@@ -787,38 +787,38 @@ $app_list_strings = array(
     ],
 
     'dom_manual_migration_tasks_types' => [
-        'background' => 'Background Process',
-        'immediate' => 'Immediate',
+        'background' => 'Achtergrond proces',
+        'immediate' => 'Onmiddelijk',
     ],
 
     'dom_manual_migration_tasks_statuses' => [
-        'initial' => 'Initial',
+        'initial' => 'Initieel',
         'pending' => 'In afwachting',
-        'running' => 'Running',
+        'running' => 'Actief',
         'failed' => 'Mislukt',
-        'completed_with_failures' => 'Completed With Failures',
+        'completed_with_failures' => 'Voltooid met mislukkingen',
         'completed' => 'Voltooid'
     ],
 
     'dom_processes_types' => [
-        'background' => 'Background Process',
-        'immediate' => 'Immediate',
+        'background' => 'Achtergrondproces',
+        'immediate' => 'Onmiddelijk',
     ],
 
     'dom_processes_statuses' => [
-        'initial' => 'Initial',
+        'initial' => 'Initieel',
         'pending' => 'In afwachting',
-        'running' => 'Running',
+        'running' => 'Actief',
         'failed' => 'Mislukt',
-        'completed_with_failures' => 'Completed With Failures',
+        'completed_with_failures' => 'Voltooid met mislukkingen',
         'completed' => 'Voltooid'
     ],
 
     'dom_async_task_phases' => [
         '' => '',
-        'queueing' => 'Queueing',
-        'processing' => 'Processing',
-        'finalizing' => 'Finalizing',
+        'queueing' => 'In de wachtrij plaatsen',
+        'processing' => 'Verwerken',
+        'finalizing' => 'Afronden',
         'completed' => 'Voltooid',
     ],
 
@@ -1040,7 +1040,7 @@ $app_list_strings = array(
         'aborted' => 'Afgebroken',
         'sending' => 'Bezig met verzenden',
         'sent' => 'Verstuurd',
-        'paused' => 'Paused',
+        'paused' => 'Gepauzeerd',
     ),
     'email_marketing_duplicate_dom' => [
         'email' => 'Voorkom verzenden naar dubbele records en e-mailadressen',
@@ -1474,7 +1474,7 @@ $app_strings = array(
     'LBL_EMAIL_SAVE' => 'Opslaan',
     'LBL_EMAIL_SAVE_AND_REPLY' => 'Opslaan & beantwoorden',
     'LBL_EMAIL_SAVE_DRAFT' => 'Concept opslaan',
-    'LBL_EMAIL_DRAFT_SAVED' => 'Draft has been saved.',
+    'LBL_EMAIL_DRAFT_SAVED' => 'Concept is opgeslagen.',
 
     'LBL_EMAIL_SEARCH' => SugarThemeRegistry::current()->getImage('Search', 'align=absmiddle border=0', null, null,    '.gif', ''),
     'LBL_EMAIL_SEARCH_SHORT' => SugarThemeRegistry::current()->getImage('Search', 'align=absmiddle border=0', null,        null, '.gif', ''),
@@ -1699,8 +1699,8 @@ $app_strings = array(
     'LBL_EMAIL_MARKETING_CHARTS' => 'E-mail marketing grafieken',
     'LBL_MESSAGE_QUEUE_TITLE' => 'Berichten wachtrij',
     'LBL_CAMPAIGN_SEND_STATUS' => 'Campagne verzend status',
-    'LBL_CAMPAIGN_SEND_ERROR_THRESHOLD_EXCEEDED' => 'Error threshold per batch (%d) reached: %s',
-    'LBL_CAMPAIGN_SEND_FAILURE_THRESHOLD_EXCEEDED' => 'Failure threshold per batch of %d exceeded',
+    'LBL_CAMPAIGN_SEND_ERROR_THRESHOLD_EXCEEDED' => 'Foutdrempelwaarde per batch (%d) bereikt: %s',
+    'LBL_CAMPAIGN_SEND_FAILURE_THRESHOLD_EXCEEDED' => 'Foutdrempelwaarde per batch %d overschreden',
     'LBL_EMAIL_MARKETING_SEND_STATUS' => 'E-mail Marketing Verzend Status',
     'LBL_CAMPAIGN_RESPONSE_BY_RECIPIENT_ACTIVITY' => 'Campagne Reactie per activiteit van ontvanger',
     'LBL_EMAIL_MARKETING_RESPONSE_BY_RECIPIENT_ACTIVITY' => 'E-mail Marketing Reactie per ontvanger',
@@ -1748,14 +1748,14 @@ $app_strings = array(
     'LBL_DISMISS' => 'Uitschakelen',
     'LBL_DISMISS_INLINE_CONFIRM' => 'Uitschakelen?',
     'LBL_DISMISS_ALL_INLINE_CONFIRM' => 'Alles uitschakelen?',
-    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Dismiss all drafts?',
+    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Alle concepten verwijderen?',
     'NTC_DISMISS_CONFIRMATION' => 'Weet je zeker dat je deze waarschuwing wilt uitschakelen?',
     'NTC_DISMISS_ALL_CONFIRMATION' => 'Weet je zeker dat je alle waarschuwingen wilt uitschakelen?',
     'LBL_ALERT_DISMISS_SUCCESS' => 'Waarschuwing succesvol uitgeschakeld',
     'LBL_ALERT_DISMISS_ERROR' => 'Fout tijdens het uitschakelen van een waarschuwing',
     'LBL_ALERT_DISMISS_ALL_SUCCESS' => 'Waarschuwingen succesvol uitgeschakeld',
     'LBL_DISMISS_ALL' => 'Schakel alles uit',
-    'LBL_DISMISS_SUCCESS' => 'Successfully Dismissed',
+    'LBL_DISMISS_SUCCESS' => 'Succesvol verwijderd',
     'LBL_VERIFY' => 'Verifieer',
     'LBL_RESEND' => 'Verstuur opnieuw',
     'LBL_RECORD_DOES_NOT_EXIST' => 'Fout bij ophalen van record. Deze record kan worden verwijderd of u kunt niet gemachtigd zijn om het te bekijken.',
@@ -2000,10 +2000,10 @@ $app_strings = array(
     'NTC_TEMPLATES_IS_USED' => 'De volgende sjablonen gebruiken in e-mailmarketing records. Weet u zeker dat u wilt verwijderen?' . PHP_EOL,
     'NTC_DELETE_CONFIRMATION' => 'Weet je zeker dat je dit item wilt verwijderen?',
     'NTC_ABORT_CONFIRMATION' => 'Weet u zeker dat u wilt annuleren?',
-    'LBL_EMAIL_MARKETING_NOT_SENT' => 'Email Marketing status is not Sent, cannot reschedule',
-    'NTC_RESUME_CONFIRMATION' => 'Resuming will re-queue failed recipients and continue sending.',
-    'LBL_EMAIL_MARKETING_NOT_PAUSED' => 'Email Marketing status is not Paused, cannot resume',
-    'LBL_CAMPAIGN_PAUSED_THRESHOLD' => 'This campaign has been paused —',
+    'LBL_EMAIL_MARKETING_NOT_SENT' => 'E-mail marketing status is niet verzonden, kan niet opnieuw worden gepland',
+    'NTC_RESUME_CONFIRMATION' => 'Hervatten zal mislukte ontvangers opnieuw in de wachtrij zetten en doorgaan met verzenden.',
+    'LBL_EMAIL_MARKETING_NOT_PAUSED' => 'E-mail marketing status is niet gepauzeerd, kan niet worden hervat',
+    'LBL_CAMPAIGN_PAUSED_THRESHOLD' => 'Deze campagne is gepauzeerd -',
     'LBL_CAMPAIGN_PAUSED_DYNAMIC_LABEL' => '{{ fields.email-marketing-pause-reason.value }}',
     'NTC_SCHEDULE_CONFIRMATION' => "Wanneer gepland, zal het verzendproces beginnen zodra de geplande uitvoerdatum is bereikt.",
     'NTC_DELETE_TEST_ENTRIES' => 'Plannen zal testberichten verwijderen.',
@@ -2284,7 +2284,7 @@ $app_strings = array(
     'LBL_NOTIFICATIONS_NONE' => 'Er zijn geen huidige notificaties',
     'ERR_NOTIFICATIONS_MARK_AS_READ' => 'Fout bij het markeren van meldingen als gelezen',
     'ERR_FIELD_LOGIC_BACKEND_CALCULATION' => 'Fout bij het ophalen van de waarde',
-    'LBL_FAILED_TO_UPDATE_TEMPLATE_VARIABLES' => 'Failed to update template variables',
+    'LBL_FAILED_TO_UPDATE_TEMPLATE_VARIABLES' => 'Bijwerken van sjabloonvariabelen mislukt',
     'LBL_ALT_SORT_DESC' => 'Sorteer aflopend',
     'LBL_ALT_SORT_ASC' => 'Sorteer oplopend',
     'LBL_ALT_SORT' => 'Sorteer',
@@ -3458,7 +3458,7 @@ $app_list_strings['contract_status_list']['Signed'] = 'Ondertekend';
 $app_list_strings['contract_type_list']['Type'] = 'Type';
 $app_strings['LBL_PRINT_AS_PDF'] = 'Printen als PDF';
 $app_strings['LBL_SELECT_TEMPLATE'] = 'Selecteer een Sjabloon a.u.b.';
-$app_string['LBL_PDF_GENERATION_FAILED'] = 'Unable to generate PDF document. See logs for more info.';
+$app_string['LBL_PDF_GENERATION_FAILED'] = 'Kan PDF-documenten niet genereren. Zie logs voor meer info.';
 $app_strings['LBL_NO_TEMPLATE'] = 'ERROR\nGeen templates gevonden.\nGa a.u.b. naar de PDF templates module en maak er een aan';
 
 //aow
@@ -3835,11 +3835,11 @@ $app_strings['LBL_ROLE'] = 'Rol';
 $app_list_strings['moduleList']['OutboundEmailAccounts'] = 'Uitgaande e-mailaccounts';
 $app_list_strings['moduleList']['ExternalOAuthConnection'] = 'Externe OAuth verbinding';
 $app_list_strings['moduleList']['ExternalOAuthProvider'] = 'Externe OAuth Provider';
-$app_list_strings['moduleList']['ManualMigrationTasks'] = 'Migrations';
-$app_list_strings['moduleList']['Processes'] = 'Processes';
-$app_list_strings['moduleList']['AsyncTaskItems'] = 'Async Task Item';
+$app_list_strings['moduleList']['ManualMigrationTasks'] = 'Migraties';
+$app_list_strings['moduleList']['Processes'] = 'Processen';
+$app_list_strings['moduleList']['AsyncTaskItems'] = 'Async Taak Item';
 
-$app_strings['LNK_USER_MENU_PROCESSES'] = 'Processes';
+$app_strings['LNK_USER_MENU_PROCESSES'] = 'Processen';
 
 //social
 $app_strings['FACEBOOK_USER_C'] = 'Facebook';
@@ -4096,7 +4096,7 @@ $app_strings['LBL_NUMBER_OF_CASES_PER_ACCOUNT'] = 'Aantal zaken per account';
 $app_strings['LBL_TOTAL_CASES_FOR_THIS_ACCOUNT'] = 'Aantal Bezoekverslagen voor deze Relatie';
 $app_strings['LBL_NONE_OUTSTANDING'] = 'Geen';
 $app_strings['LBL_VALIDATION_ERROR_REQUIRED'] = 'Verplicht veld ontbreekt: {{fields.field.label}}';
-$app_strings['LBL_VALIDATION_ERROR_ATTACHMENT'] = 'File attachment(s) not valid.';
+$app_strings['LBL_VALIDATION_ERROR_ATTACHMENT'] = 'Bestandbijlage(n) niet geldig.';
 $app_strings['LBL_VALIDATION_ERROR_CURRENCY_FORMAT'] = "Ongeldig valuta formaat. Verwacht: '{{context.expected}}'";
 $app_strings['LBL_VALIDATION_ERROR_INT_FORMAT'] = "Ongeldig int formaat. Verwacht: '{{context.expected}}'";
 $app_strings['LBL_VALIDATION_ERROR_FLOAT_FORMAT'] = "Ongeldig float formaat. Verwacht: '{{context.expected}}'";
@@ -4107,7 +4107,7 @@ $app_strings['LBL_VALIDATION_ERROR_REMOVE_UNSUBSCRIBE_LINK'] = "Transactionele e
 $app_strings['LBL_VALIDATION_ERROR_EMAIL_FORMAT'] = "Ongeldig e-mailformaat. Verwacht: '{{context.expected}}'";
 $app_strings['LBL_VALIDATION_ERROR_PHONE_FORMAT'] = "Ongeldig telefoonformaat.";
 $app_strings['LBL_VALIDATION_ERROR_MIN'] = "Ongeldige waarde. Waarde moet groter of gelijk zijn aan '{{context.min}}'";
-$app_strings['LBL_VALIDATION_ERROR_VERSIONING'] = "Invalid format. Expected: '{{context.expected}}'";
+$app_strings['LBL_VALIDATION_ERROR_VERSIONING'] = "Ongeldig formaat. Verwacht: '{{context.expected}}'";
 $app_strings['LBL_VALIDATION_ERROR_MAX'] = "Ongeldige waarde. Waarde moet kleiner of gelijk zijn aan '{{context.max}}'";
 $app_strings['LBL_MULTIPLE_PRIMARY_EMAIL_VALIDATION_ERROR'] = "Slechts één geldig e-mailadres moet worden gemarkeerd als primair";
 $app_strings['LBL_DUPLICATE_EMAIL_VALIDATION_ERROR'] = "Dubbele e-mailadressen zijn niet toegestaan";
@@ -4186,7 +4186,7 @@ $app_strings['LBL_LINK'] = 'Link';
 $app_strings['LBL_LINK_UNLINK'] = 'Koppeling / Ontkoppelen';
 $app_strings['LBL_SAVE'] = 'Opslaan';
 $app_strings['LBL_UNLINK_RECORD'] = 'Ontkoppel Record';
-$app_strings['LBL_DELETE_RECORD'] = 'Delete Record';
+$app_strings['LBL_DELETE_RECORD'] = 'Record verwijderen';
 $app_strings['LBL_EDIT_RECORD'] = 'Bewerken Record';
 $app_strings['LBL_UNLINK_RELATIONSHIP_CONFIRM'] = 'Weet u zeker dat u dit record wilt ontkoppelen? Alleen de relatie wordt ontkoppeld. Het record zal niet worden verwijderd.';
 $app_strings['LBL_UNLINK_RELATIONSHIP_SUCCESS'] = 'Record met succes ontkoppeld.';
@@ -4197,7 +4197,7 @@ $app_strings['LBL_LINK_RELATIONSHIP_SUCCESS'] = 'Relationship succesvol gekoppel
 $app_strings['LBL_LINK_RELATIONSHIP_FAILED'] = 'Er is een fout opgetreden bij het koppelen van deze Relatie.';
 $app_strings['LBL_MODULE_NOT_FOUND'] = 'Module niet gevonden.';
 $app_strings['LBL_RECORD_NOT_FOUND'] = 'Kan record niet laden';
-$app_strings['LBL_FILE_NOT_FOUND'] = 'Unable to load file';
+$app_strings['LBL_FILE_NOT_FOUND'] = 'Kan bestand niet laden';
 $app_strings['LBL_RELATIONSHIP_LOAD_ERROR'] = 'Kan relationship niet laden';
 $app_strings['LBL_NOT_LINKED'] = 'Niet mogelijk om te ontkoppelen. Records zijn niet gekoppeld';
 $app_strings['LBL_ACCESS_DENIED'] = 'Toegang geweigerd';
@@ -4243,7 +4243,7 @@ $app_strings['LBL_FROM_SYSTEM'] = 'Verzenden vanaf systeem';
 $app_strings['LBL_SIGNATURE'] = 'Handtekening';
 $app_strings['LBL_NEW_NOTIFICATION'] = "Je hebt {{context.unread}} nieuwe meldingen";
 $app_strings['LBL_ALERT_STATUS_COMPLETED'] = 'Voltooid';
-$app_strings['LBL_ALERT_STATUS_COMPLETED_WITH_FAILURES'] = 'Completed With Failures';
+$app_strings['LBL_ALERT_STATUS_COMPLETED_WITH_FAILURES'] = 'Voltooid met mislukkingen';
 $app_strings['LBL_ALERT_STATUS_FAILED'] = 'Mislukt';
 $app_strings['LBL_NOTIFICATION_ITEM_DATE'] = 'Vervaldatum: {{fields.date_start.value}}';
 $app_strings['LBL_NOTIFICATION_ITEM_DATE_ENTERED'] = 'Gemeld: {{fields.snooze.value}}';
@@ -4261,7 +4261,7 @@ $app_strings['LBL_WRONG_MODULE_PROVIDED'] = 'Verkeerde module opgegeven';
 $app_strings['LBL_NO_TEMPLATE_ID_PROVIDED'] = 'Geen template id opgegeven';
 $app_strings['LBL_TEMPLATE_NOT_FOUND'] = 'Template niet gevonden';
 $app_strings['LBL_EMAIL_MODAL_DYNAMIC_TITLE'] = 'Nieuwe E-mail{{fields.name.valueľprefix:\' - \'}}';
-$app_strings['LBL_EMAIL_MODAL_DRAFT_DYNAMIC_TITLE'] = 'Draft{{fields.name.value|prefix:\' - \'}}';
+$app_strings['LBL_EMAIL_MODAL_DRAFT_DYNAMIC_TITLE'] = 'Concept{{fields.name.value|prefix:\' - \'}}';
 $app_strings['LBL_CLOSE_EMAIL_MODAL'] = 'Weet u zeker dat u deze e-mail wilt verwijderen? (Wijzigingen zullen verloren gaan)';
 $app_strings['LBL_RELATED_TO_DYNAMIC'] = '{{fields.parent_type.value|uppercase}}';
 $app_strings['LBL_RELATED_TO'] = 'Gerelateerd aan';
@@ -4332,7 +4332,7 @@ $app_strings['LBL_UNORDERED_LIST'] = 'Ongeordende lijst';
 $app_strings['LBL_ORDERED_LIST'] = 'Geordende lijst';
 $app_strings['LBL_QUOTE'] = 'Offerte';
 $app_strings['LBL_UNQUOTE'] = 'Unquote';
-$app_strings['LBL_ALIGN'] = 'Align';
+$app_strings['LBL_ALIGN'] = 'Positioneer';
 $app_strings['LBL_ALIGN_LEFT'] = 'Links';
 $app_strings['LBL_ALIGN_CENTER'] = 'Gecentreerd';
 $app_strings['LBL_ALIGN_RIGHT'] = 'Rechts';
@@ -4376,7 +4376,7 @@ $app_strings['LBL_UNABLE_TO_GET_ID'] = 'Kan emailmarketing-ID niet ophalen';
 $app_strings['LBL_UNABLE_TO_DELETE_TEST_ENTRIES'] = 'Fout bij het verwijderen van test items. Zie logs voor meer info';
 $app_strings['LBL_SECTION_KEY_NOT_DEFINED'] = 'Sectieknop niet gedefinieerd';
 $app_strings['LBL_DOES_BOUNCE_EXIST'] = 'Bestaat een Bounce E-mail?';
-$app_strings['LBL_IS_OUTBOUND_CONNECTED'] = 'Is Outbound Email Connected?';
+$app_strings['LBL_IS_OUTBOUND_CONNECTED'] = 'Is uitgaande E-mail verbonden?';
 $app_strings['LBL_CAMPAIGN_SETTINGS'] = 'Instellingen';
 
 $app_strings['LBL_SEND_FROM_QUEUE_DYNAMIC_LABEL'] = '{{ fields.send-from-queue.value }}';
@@ -4411,9 +4411,9 @@ $app_strings['LBL_TRACKER_LINKS_ENABLED'] = 'Tracker Links Ingeschakeld';
 
 $app_strings['LBL_MARKETING_ITEMS_PER_RUN_DYNAMIC_LABEL'] = '{{ fields.campaign_marketing_items_per_run.value }}';
 $app_strings['LBL_EMAILS_PER_RUN_DYNAMIC_LABEL'] = '{{ fields.campaign_emails_per_run.value }}';
-$app_strings['LBL_EMAILS_MAX_RETRIES'] = 'Campaign Emails Max Retries';
+$app_strings['LBL_EMAILS_MAX_RETRIES'] = 'Campagne E-mails Max pogingen';
 $app_strings['LBL_EMAILS_MAX_RETRIES_DYNAMIC_LABEL'] = '{{ fields.campaign_emails_max_retries.value }}';
-$app_strings['LBL_EMAILS_THRESHOLD'] = 'Campaign Emails Error Threshold Per Batch';
+$app_strings['LBL_EMAILS_THRESHOLD'] = 'Campagne E-mailfout drempelwaarde per batch';
 $app_strings['LBL_EMAILS_THRESHOLD_DYNAMIC_LABEL'] = '{{ fields.campaign_emails_threshold.value }}';
 $app_strings['LBL_TRACKERS_ENABLED_DYNAMIC_LABEL'] = '{{ fields.trackers_enabled.value }}';
 $app_strings['LBL_UNSUBSCRIBE'] = 'Afmelden';
@@ -4425,25 +4425,25 @@ $app_strings['LBL_FIELD_STORAGE_INVALID_TYPE'] = 'Het bestandsopslag type is nie
 $app_strings['LBL_UPLOAD'] = 'Uploaden';
 $app_strings['LBL_UPLOAD_FAILED'] = 'Upload mislukt, probeer het later opnieuw';
 $app_strings['LBL_UPLOADING'] = 'Aan het uploaden';
-$app_strings['LBL_UPLOAD_FROM_FILES'] = 'Upload from files';
+$app_strings['LBL_UPLOAD_FROM_FILES'] = 'Uploaden uit bestanden';
 $app_strings['LBL_ATTACH_DOCUMENTS'] = 'Documenten bijvoegen';
 $app_strings['LBL_FILE_FIELD_UPLOAD_BUTTON_DESCRIPTION'] = 'Klik of sleep een bestand naar hier om te uploaden';
 $app_strings['LBL_ATTACHMENTS_FIELD_UPLOAD_BUTTON_DESCRIPTION'] = 'Sleep een bestand naar hier om te uploaden';
-$app_strings['LBL_SOME_ATTACHMENTS_FAILED'] = 'Some attachments failed to upload. See logs for more info.';
-$app_strings['LBL_UPLOAD_IMAGE'] = 'Upload Image';
-$app_strings['LBL_DOWNLOAD_IMAGE'] = 'Download Image';
-$app_strings['LBL_PREVIEW_IMAGE'] = 'Preview Image';
-$app_strings['LBL_UPLOAD_IMAGE_DESCRIPTION'] = 'Click or drag an image here to upload';
-$app_strings['LBL_INVALID_PROCESS_OPTIONS'] = 'Invalid process options. See logs for more info.';
+$app_strings['LBL_SOME_ATTACHMENTS_FAILED'] = 'Sommige bijlagen konden niet worden geüpload. Zie logs voor meer informatie.';
+$app_strings['LBL_UPLOAD_IMAGE'] = 'Afbeelding uploaden';
+$app_strings['LBL_DOWNLOAD_IMAGE'] = 'Afbeelding downloaden';
+$app_strings['LBL_PREVIEW_IMAGE'] = 'Afbeelding voorvertonen';
+$app_strings['LBL_UPLOAD_IMAGE_DESCRIPTION'] = 'Klik of sleep een afbeelding om te uploaden';
+$app_strings['LBL_INVALID_PROCESS_OPTIONS'] = 'Ongeldige procesopties. Zie logs voor meer informatie.';
 $app_strings['LBL_TEMPORARY'] = 'Tijdelijk';
 $app_strings['LBL_MAX_FILE_SIZE_EXCEEDED'] = 'Het bestand overschrijdt de maximaal toegestane grootte.';
 $app_strings['LBL_UNSUPPORTED_IMAGE_TYPE'] = 'Het image type wordt niet ondersteund.';
 $app_strings['LBL_UNSUPPORTED_FILE_TYPE'] = 'Het bestands type wordt niet ondersteund.';
-$app_strings['LBL_UNSUPPORTED_IMAGE_FILE_TYPE'] = 'This image type is not supported.';
-$app_strings['LBL_MALWARE_DETECTED'] = 'Malware detected in uploaded file. The upload has been rejected.';
+$app_strings['LBL_UNSUPPORTED_IMAGE_FILE_TYPE'] = 'Dit afbeeldingstype wordt niet ondersteund.';
+$app_strings['LBL_MALWARE_DETECTED'] = 'Malware gedetecteerd in geüploade bestand. De upload is afgewezen.';
 
 $app_strings['LBL_DEFAULT_OUTBOUND_NOT_SET'] = 'Kan standaard uitgaande e-mail niet ophalen';
-$app_strings['LBL_SMTP_UNABLE_TO_CONNECT']='Unable to connect to SMTP server with the current Outbound Email settings.';
+$app_strings['LBL_SMTP_UNABLE_TO_CONNECT']='Kan geen verbinding maken met SMTP-server met de huidige uitgaande e-mailinstellingen.';
 $app_strings['LBL_DEFAULT_OUTBOUND_NOT_CONFIGURED'] = 'Uitgaande e-mailaccount niet correct geconfigureerd.';
 
 $app_strings['LBL_CRON_UNRECOMMENDED_USER'] = 'U draait momenteel als root, dit wordt NIET aanbevolen, wilt u doorgaan (y,n)? ';
@@ -4451,46 +4451,46 @@ $app_strings['LBL_UNKNOWN_USER'] = 'Onbekende gebruiker';
 
 $app_strings['LBL_DRAFTS'] = 'Concepten';
 $app_strings['LBL_DRAFT_ITEM_LAST_MODIFIED'] = '{{fields.date_modified.value}}';
-$app_strings['LBL_DRAFT_ITEM_TO_EMPTY'] = 'No Recipient(s)';
+$app_strings['LBL_DRAFT_ITEM_TO_EMPTY'] = 'Geen geadresseerde(n)';
 $app_strings['LBL_DRAFT_ITEM_TO'] = '{{fields.to_addrs_names.valueList|filter:primary=true:attributeKey=name}}';
 $app_strings['LBL_DRAFT_ITEM_TO_ICON'] = '{{fields.to_icon_type.value}}';
 $app_strings['LBL_DRAFTS_TOTAL'] = '{{fields.count.value}}';
-$app_strings['LBL_DRAFTS_DELETED_SUCCESSFULLY'] = 'Drafts Deleted Successfully.';
-$app_strings['LBL_DRAFT_DELETED_SUCCESSFULLY'] = 'Draft Deleted Successfully.';
-$app_strings['LBL_DRAFTS_DELETED_UNSUCCESSFULLY'] = 'Drafts Not Deleted Successfully. See logs for more info.';
-$app_strings['LBL_DRAFT_DELETED_UNSUCCESSFULLY'] = 'Draft Not Deleted Successfully. See logs for more info.';
-$app_strings['LBL_OPEN_DRAFT'] = 'Open Draft';
-$app_strings['LBL_DELETE_DRAFT'] = 'Delete Draft';
-$app_strings['LBL_UNABLE_TO_GET_DRAFT_ID'] = 'Unable to retrieve Draft ID.';
-$app_strings['LBL_UNABLE_TO_DELETE_DRAFT'] = 'Unable to delete draft.';
-$app_strings['LBL_EMAIL_NOT_DRAFT'] = 'Email is no longer a draft.';
-$app_strings['LBL_DRAFT_DELETED_SUCCESSFULLY'] = 'Draft Deleted Successfully.';
+$app_strings['LBL_DRAFTS_DELETED_SUCCESSFULLY'] = 'Concepten succesvol verwijderd.';
+$app_strings['LBL_DRAFT_DELETED_SUCCESSFULLY'] = 'Concept succesvol verwijderd.';
+$app_strings['LBL_DRAFTS_DELETED_UNSUCCESSFULLY'] = 'Concepten niet succesvol verwijderd. Zie logs voor meer informatie.';
+$app_strings['LBL_DRAFT_DELETED_UNSUCCESSFULLY'] = 'Concept niet succesvol verwijderd. Zie logs voor meer informatie.';
+$app_strings['LBL_OPEN_DRAFT'] = 'Open concept';
+$app_strings['LBL_DELETE_DRAFT'] = 'Verwijder concept';
+$app_strings['LBL_UNABLE_TO_GET_DRAFT_ID'] = 'Kan concept-ID niet ophalen.';
+$app_strings['LBL_UNABLE_TO_DELETE_DRAFT'] = 'Kan concept niet verwijderen.';
+$app_strings['LBL_EMAIL_NOT_DRAFT'] = 'E-mail is niet langer een concept.';
+$app_strings['LBL_DRAFT_DELETED_SUCCESSFULLY'] = 'Concept succesvol verwijderd.';
 
-$app_strings['LBL_CANNOT_DELETE_LATEST_REVISION'] = 'You cannot delete the latest revision of a document.';
-$app_strings['LBL_NO_DOCUMENT_ID_PROVIDED'] = 'Cannot find document to delete revision, no document id provided.';
-$app_strings['LBL_NO_RECORD_ID_PROVIDED'] = 'Cannot find docuemnt revision to delete, no record id provided.';
-$app_strings['LBL_DELETE_REVISION_CONFIRM'] = 'Are you sure you want to delete this revision?';
-$app_strings['LBL_DOCUMENT_NOT_FOUND'] = 'Document not found.';
-$app_strings['LBL_EMAIL_ATTACHMENT_DOCUMENT_DELETED'] = 'One or more attached documents have been deleted and cannot be sent.';
+$app_strings['LBL_CANNOT_DELETE_LATEST_REVISION'] = 'U kunt de laatste revisie van een document niet verwijderen.';
+$app_strings['LBL_NO_DOCUMENT_ID_PROVIDED'] = 'Kan het te verwijderen document niet vinden, geen document-id beschikbaar.';
+$app_strings['LBL_NO_RECORD_ID_PROVIDED'] = 'Kan de te verwijderen documentrevisie niet vinden, geen record-id beschikbaar.';
+$app_strings['LBL_DELETE_REVISION_CONFIRM'] = 'Weet u zeker dat u deze revisie wil vewijderen?';
+$app_strings['LBL_DOCUMENT_NOT_FOUND'] = 'Document niet gevonden.';
+$app_strings['LBL_EMAIL_ATTACHMENT_DOCUMENT_DELETED'] = 'Een of meer bijgevoegde documenten zijn verwijderd en kunnen niet worden verzonden.';
 
-$app_strings['LBL_DISMISS_INVALID_STATUS'] = 'This record cannot be dismissed while it is still in progress.';
-$app_strings['LBL_DISMISS_FAILED'] = 'Failed to dismiss. Please try again.';
-$app_strings['LBL_RERUN_NOT_ELIGIBLE'] = 'This record is not eligible for re-run. It may not have completed with failures or re-run may not be supported.';
-$app_strings['LBL_RETRY_FAILED_NOT_ELIGIBLE'] = 'This record is not eligible for retry. It may not have completed with failures or retry may not be supported.';
-$app_strings['LBL_ASYNC_TASK_UNSUPPORTED_MODULE'] = 'This module does not support async task actions.';
-$app_strings['LBL_RERUN_SUCCESS'] = 'Task has been re-queued and will restart from the beginning.';
-$app_strings['LBL_RETRY_FAILED_SUCCESS'] = 'Failed items have been re-queued for processing.';
+$app_strings['LBL_DISMISS_INVALID_STATUS'] = 'Dit record kan niet worden afgewezen terwijl het nog bezig is.';
+$app_strings['LBL_DISMISS_FAILED'] = 'Afwijzen mislukt. Probeer het opnieuw.';
+$app_strings['LBL_RERUN_NOT_ELIGIBLE'] = 'Dit record komt niet in aanmerking voor opnieuw uitvoeren. Het is mogelijk niet voltooid met fouten of opnieuw uitvoeren wordt mogelijk niet ondersteund.';
+$app_strings['LBL_RETRY_FAILED_NOT_ELIGIBLE'] = 'Dit record komt niet in aanmerking voor opnieuw proberen. Het is mogelijk niet voltooid met fouten of opnieuw uitvoeren wordt mogelijk niet ondersteund.';
+$app_strings['LBL_ASYNC_TASK_UNSUPPORTED_MODULE'] = 'Deze module ondersteunt geen async taak acties.';
+$app_strings['LBL_RERUN_SUCCESS'] = 'Taak is opnieuw in de wachtrij geplaatst en zal vanaf het begin opnieuw starten.';
+$app_strings['LBL_RETRY_FAILED_SUCCESS'] = 'Mislukte items zijn opnieuw in de wachtrij geplaatst voor verwerking.';
 
-$app_strings['LBL_MIGRATE_GOOGLE_CALENDAR_SYNC_SIBLING_RUNNING'] = 'Cannot run this migration while "Migrate Google Calendar Users Sync" is currently pending / running.';
-$app_strings['LBL_MIGRATE_GOOGLE_CALENDAR_SYNC_USERS_SIBLING_RUNNING'] = 'Cannot run this migration while "Migrate Google Calendar Sync" is currently pending / running.';
+$app_strings['LBL_MIGRATE_GOOGLE_CALENDAR_SYNC_SIBLING_RUNNING'] = 'Kan deze migratie niet uitvoeren terwijl "Google Calendar Users Sync" momenteel in afwachting is / actief is.';
+$app_strings['LBL_MIGRATE_GOOGLE_CALENDAR_SYNC_USERS_SIBLING_RUNNING'] = 'Kan deze migratie niet uitvoeren terwijl "Google Calendar Sync" momenteel in afwachting is / actief is.';
 
-$app_strings['LBL_CANNOT_DELETE_LATEST_REVISION'] = 'You cannot delete the latest revision of a document.';
-$app_strings['LBL_NO_DOCUMENT_ID_PROVIDED'] = 'Cannot find document to delete revision, no document id provided.';
-$app_strings['LBL_NO_RECORD_ID_PROVIDED'] = 'Cannot find docuemnt revision to delete, no record id provided.';
+$app_strings['LBL_CANNOT_DELETE_LATEST_REVISION'] = 'U kunt de laatste revisie van een document niet verwijderen.';
+$app_strings['LBL_NO_DOCUMENT_ID_PROVIDED'] = 'Kan het te verwijderen document niet vinden, geen document-id beschikbaar.';
+$app_strings['LBL_NO_RECORD_ID_PROVIDED'] = 'Kan de te verwijderen documentrevisie niet vinden, geen record-id beschikbaar.';
 
-$app_strings['LBL_CANNOT_DELETE_LATEST_REVISION'] = 'You cannot delete the latest revision of a document.';
-$app_strings['LBL_NO_DOCUMENT_ID_PROVIDED'] = 'Cannot find document to delete revision, no document id provided.';
-$app_strings['LBL_NO_RECORD_ID_PROVIDED'] = 'Cannot find docuemnt revision to delete, no record id provided.';
+$app_strings['LBL_CANNOT_DELETE_LATEST_REVISION'] = 'U kunt de laatste revisie van een document niet verwijderen.';
+$app_strings['LBL_NO_DOCUMENT_ID_PROVIDED'] = 'Kan het te verwijderen document niet vinden, geen document-id beschikbaar.';
+$app_strings['LBL_NO_RECORD_ID_PROVIDED'] = 'Kan de te verwijderen documentrevisie niet vinden, geen record-id beschikbaar.';
 
 $app_list_strings['email_import_timeframe_start_dom'] = [
     '-1 year' => '1 jaar',
@@ -4503,4 +4503,4 @@ $app_list_strings['email_import_timeframe_start_dom'] = [
     '0 days' => '0 Dagen',
 ];
 
-$app_strings['LBL_NOT_AUTHORIZED'] = 'Not authorized';
+$app_strings['LBL_NOT_AUTHORIZED'] = 'Niet geautoriseerd';

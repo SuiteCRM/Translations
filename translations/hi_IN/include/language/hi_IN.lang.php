@@ -624,15 +624,15 @@ $app_list_strings = array(
     ),
 
     'file_field_storage_type_dom' => [
-        'private-documents' => 'Private Documents',
-        'public-documents' => 'Public Documents',
-        'archived-documents' => 'Archived Documents',
+        'private-documents' => 'निजी दस्तावेज़',
+        'public-documents' => 'सार्वजनिक दस्तावेज़',
+        'archived-documents' => 'संग्रहित दस्तावेज़',
     ],
 
 
     'image_field_storage_type_dom' => [
-        'private-images' => 'Private Images',
-        'public-images' => 'Public Images',
+        'private-images' => 'निजी छवियां',
+        'public-images' => 'सार्वजनिक छवियां',
     ],
 
     'product_category_default_key' => '',
@@ -787,38 +787,38 @@ $app_list_strings = array(
     ],
 
     'dom_manual_migration_tasks_types' => [
-        'background' => 'Background Process',
-        'immediate' => 'Immediate',
+        'background' => 'पृष्ठभूमि प्रक्रिया',
+        'immediate' => 'तत्काल',
     ],
 
     'dom_manual_migration_tasks_statuses' => [
-        'initial' => 'Initial',
+        'initial' => 'प्रारंभिक',
         'pending' => 'लंबित',
         'running' => 'दौड़ना',
         'failed' => 'असफल',
-        'completed_with_failures' => 'Completed With Failures',
+        'completed_with_failures' => 'असफलताओं के साथ पूरा हुआ',
         'completed' => 'पूरा हुआ'
     ],
 
     'dom_processes_types' => [
-        'background' => 'Background Process',
-        'immediate' => 'Immediate',
+        'background' => 'पृष्ठभूमि प्रक्रिया',
+        'immediate' => 'तत्काल',
     ],
 
     'dom_processes_statuses' => [
-        'initial' => 'Initial',
+        'initial' => 'प्रारंभिक',
         'pending' => 'लंबित',
         'running' => 'दौड़ना',
         'failed' => 'असफल',
-        'completed_with_failures' => 'Completed With Failures',
+        'completed_with_failures' => 'असफलताओं के साथ पूरा हुआ',
         'completed' => 'पूरा हुआ'
     ],
 
     'dom_async_task_phases' => [
         '' => '',
-        'queueing' => 'Queueing',
+        'queueing' => 'कतार',
         'processing' => 'प्रसंस्करण',
-        'finalizing' => 'Finalizing',
+        'finalizing' => 'अंतिम रूप दिया जा',
         'completed' => 'पूरा हुआ',
     ],
 
@@ -1040,7 +1040,7 @@ $app_list_strings = array(
         'aborted' => 'अवर्द्धित',
         'sending' => 'भेजना',
         'sent' => 'भेजे गए',
-        'paused' => 'Paused',
+        'paused' => 'रुका हुआ',
     ),
     'email_marketing_duplicate_dom' => [
         'email' => 'डुप्लिकेट रिकॉर्ड और ईमेल पतों पर संदेश भेजने से रोकें',
@@ -1474,7 +1474,7 @@ $app_strings = array(
     'LBL_EMAIL_SAVE' => 'रखना',
     'LBL_EMAIL_SAVE_AND_REPLY' => 'सहेजें और उत्तर दें',
     'LBL_EMAIL_SAVE_DRAFT' => 'मसौदा सेव करें',
-    'LBL_EMAIL_DRAFT_SAVED' => 'Draft has been saved.',
+    'LBL_EMAIL_DRAFT_SAVED' => 'ड्राफ्ट सहेज लिया गया है|।',
 
     'LBL_EMAIL_SEARCH' => SugarThemeRegistry::current()->getImage('Search', 'align=absmiddle border=0', null, null,    '.gif', ''),
     'LBL_EMAIL_SEARCH_SHORT' => SugarThemeRegistry::current()->getImage('Search', 'align=absmiddle border=0', null,        null, '.gif', ''),
@@ -1699,8 +1699,8 @@ $app_strings = array(
     'LBL_EMAIL_MARKETING_CHARTS' => 'ईमेल मार्केटिंग चार्ट',
     'LBL_MESSAGE_QUEUE_TITLE' => 'संदेश कतार',
     'LBL_CAMPAIGN_SEND_STATUS' => 'अभियान भेजने की स्थिति',
-    'LBL_CAMPAIGN_SEND_ERROR_THRESHOLD_EXCEEDED' => 'Error threshold per batch (%d) reached: %s',
-    'LBL_CAMPAIGN_SEND_FAILURE_THRESHOLD_EXCEEDED' => 'Failure threshold per batch of %d exceeded',
+    'LBL_CAMPAIGN_SEND_ERROR_THRESHOLD_EXCEEDED' => 'प्रति बैच त्रुटि सीमा (%d) तक पहुँच गया: %s',
+    'LBL_CAMPAIGN_SEND_FAILURE_THRESHOLD_EXCEEDED' => 'प्रति बैच विफलता सीमा %d से अधिक हो गई',
     'LBL_EMAIL_MARKETING_SEND_STATUS' => 'ईमेल मार्केटिंग भेजने की स्थिति',
     'LBL_CAMPAIGN_RESPONSE_BY_RECIPIENT_ACTIVITY' => 'अभियान प्रतिक्रिया प्राप्तकर्ता गतिविधि द्वारा',
     'LBL_EMAIL_MARKETING_RESPONSE_BY_RECIPIENT_ACTIVITY' => 'ईमेल मार्केटिंग के प्रति प्राप्तकर्ता की प्रतिक्रिया और उसकी गतिविधि',
@@ -1748,14 +1748,14 @@ $app_strings = array(
     'LBL_DISMISS' => 'बर्खास्त करें',
     'LBL_DISMISS_INLINE_CONFIRM' => 'बर्खास्त करें?',
     'LBL_DISMISS_ALL_INLINE_CONFIRM' => 'सभी को ख़ारिज करें?',
-    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Dismiss all drafts?',
+    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'क्या सभी ड्राफ्ट खारिज कर दिए जाएं?',
     'NTC_DISMISS_CONFIRMATION' => 'क्या आप वाकई इस अलर्ट को ख़ारिज करना चाहते हैं?',
     'NTC_DISMISS_ALL_CONFIRMATION' => 'क्या आप वाकई सभी अलर्ट ख़ारिज करना चाहते हैं?',
     'LBL_ALERT_DISMISS_SUCCESS' => 'अलर्ट सफलतापूर्वक खारिज किया गया',
     'LBL_ALERT_DISMISS_ERROR' => 'अलर्ट ख़ारिज करने का प्रयास करते समय त्रुटि हुई',
     'LBL_ALERT_DISMISS_ALL_SUCCESS' => 'अलर्ट सफलतापूर्वक खारिज कर दिए गए',
     'LBL_DISMISS_ALL' => 'सभी को ख़ारिज करें',
-    'LBL_DISMISS_SUCCESS' => 'Successfully Dismissed',
+    'LBL_DISMISS_SUCCESS' => 'सफलतापूर्वक बर्खास्त',
     'LBL_VERIFY' => 'सत्यापित करें',
     'LBL_RESEND' => 'दोबारा भेजें',
     'LBL_RECORD_DOES_NOT_EXIST' => 'रिकॉर्ड प्राप्त करने में त्रुटि। यह रिकॉर्ड हटाया जा सकता है या आपको इसे देखने की अनुमति नहीं है।',
@@ -2000,10 +2000,10 @@ $app_strings = array(
     'NTC_TEMPLATES_IS_USED' => 'ईमेल मार्केटिंग रिकॉर्ड में निम्नलिखित टेम्प्लेट का उपयोग किया जाता है। क्या आप वाकई उन्हें हटाना चाहते हैं?' . PHP_EOL,
     'NTC_DELETE_CONFIRMATION' => 'क्या आप वाकई इस रिकॉर्ड को हटाना चाहते हैं?',
     'NTC_ABORT_CONFIRMATION' => 'क्या आप वाकई गर्भपात कराना चाहती हैं?',
-    'LBL_EMAIL_MARKETING_NOT_SENT' => 'Email Marketing status is not Sent, cannot reschedule',
-    'NTC_RESUME_CONFIRMATION' => 'Resuming will re-queue failed recipients and continue sending.',
-    'LBL_EMAIL_MARKETING_NOT_PAUSED' => 'Email Marketing status is not Paused, cannot resume',
-    'LBL_CAMPAIGN_PAUSED_THRESHOLD' => 'This campaign has been paused —',
+    'LBL_EMAIL_MARKETING_NOT_SENT' => 'ईमेल मार्केटिंग की स्थिति \'भेजा नहीं गया\' है, इसलिए इसे पुनर्निर्धारित नहीं किया जा सकता',
+    'NTC_RESUME_CONFIRMATION' => 'पुनः शुरू करने पर असफल प्राप्तकर्ताओं को फिर से कतार में डाल दिया जाएगा और भेजना जारी रहेगा।',
+    'LBL_EMAIL_MARKETING_NOT_PAUSED' => 'ईमेल मार्केटिंग की स्थिति रुकी हुई नहीं है, इसलिए इसे दोबारा शुरू नहीं किया जा सकता',
+    'LBL_CAMPAIGN_PAUSED_THRESHOLD' => 'इस अभियान को रोक दिया गया है —',
     'LBL_CAMPAIGN_PAUSED_DYNAMIC_LABEL' => '{{ fields.email-marketing-pause-reason.value }}',
     'NTC_SCHEDULE_CONFIRMATION' => "निर्धारित होने पर, निर्धारित तिथि आने पर भेजने की प्रक्रिया शुरू हो जाएगी।",
     'NTC_DELETE_TEST_ENTRIES' => 'शेड्यूलिंग से टेस्ट प्रविष्टियाँ हटा दी जाएंगी।',
@@ -2271,7 +2271,7 @@ $app_strings = array(
     'LBL_NOTIFICATIONS_NONE' => 'कोई वर्तमान अधिसूचना नहीं',
     'ERR_NOTIFICATIONS_MARK_AS_READ' => 'अधिसूचनाओं को पढ़ा हुआ चिह्नित करने का प्रयास करते समय त्रुटि हुई',
     'ERR_FIELD_LOGIC_BACKEND_CALCULATION' => 'मान प्राप्त करने का प्रयास करते समय त्रुटि हुई',
-    'LBL_FAILED_TO_UPDATE_TEMPLATE_VARIABLES' => 'Failed to update template variables',
+    'LBL_FAILED_TO_UPDATE_TEMPLATE_VARIABLES' => 'टेम्प्लेट वैरिएबल को अपडेट करने में विफल',
     'LBL_ALT_SORT_DESC' => 'क्रमबद्ध अवरोही',
     'LBL_ALT_SORT_ASC' => 'क्रमबद्ध आरोही',
     'LBL_ALT_SORT' => 'छाँटें',
@@ -3445,7 +3445,7 @@ $app_list_strings['contract_status_list']['Signed'] = 'पर हस्ताक
 $app_list_strings['contract_type_list']['Type'] = 'प्रकार';
 $app_strings['LBL_PRINT_AS_PDF'] = 'पीडीएफ के रूप में प्रिंट करें';
 $app_strings['LBL_SELECT_TEMPLATE'] = 'कृपया एक टेम्पलेट चुनें';
-$app_string['LBL_PDF_GENERATION_FAILED'] = 'Unable to generate PDF document. See logs for more info.';
+$app_string['LBL_PDF_GENERATION_FAILED'] = 'पीडीएफ दस्तावेज़ जनरेट करने में असमर्थ। अधिक जानकारी के लिए लॉग देखें|।';
 $app_strings['LBL_NO_TEMPLATE'] = 'त्रुटि\nकोई टेम्पलेट नहीं मिला.\nकृपया PDF टेम्पलेट मॉड्यूल पर जाएं और एक बनाएं';
 
 //aow
@@ -3822,11 +3822,11 @@ $app_strings['LBL_ROLE'] = 'भूमिका';
 $app_list_strings['moduleList']['OutboundEmailAccounts'] = 'आउटबाउंड ईमेल खाते';
 $app_list_strings['moduleList']['ExternalOAuthConnection'] = 'बाहरी OAuth कनेक्शन';
 $app_list_strings['moduleList']['ExternalOAuthProvider'] = 'बाहरी OAuth प्रदाता';
-$app_list_strings['moduleList']['ManualMigrationTasks'] = 'Migrations';
-$app_list_strings['moduleList']['Processes'] = 'Processes';
-$app_list_strings['moduleList']['AsyncTaskItems'] = 'Async Task Item';
+$app_list_strings['moduleList']['ManualMigrationTasks'] = 'स्थानांतरगमन';
+$app_list_strings['moduleList']['Processes'] = 'प्रक्रियाओं';
+$app_list_strings['moduleList']['AsyncTaskItems'] = 'अतुल्यकालिक कार्य आइटम';
 
-$app_strings['LNK_USER_MENU_PROCESSES'] = 'Processes';
+$app_strings['LNK_USER_MENU_PROCESSES'] = 'प्रक्रियाओं';
 
 //social
 $app_strings['FACEBOOK_USER_C'] = 'फेसबुक';
@@ -4083,7 +4083,7 @@ $app_strings['LBL_NUMBER_OF_CASES_PER_ACCOUNT'] = 'प्रति खाता 
 $app_strings['LBL_TOTAL_CASES_FOR_THIS_ACCOUNT'] = 'इस खाते के लिए कुल मामले';
 $app_strings['LBL_NONE_OUTSTANDING'] = 'कोई नहीं';
 $app_strings['LBL_VALIDATION_ERROR_REQUIRED'] = 'आवश्यक फ़ील्ड गुम है: {{fields.field.label}}';
-$app_strings['LBL_VALIDATION_ERROR_ATTACHMENT'] = 'File attachment(s) not valid.';
+$app_strings['LBL_VALIDATION_ERROR_ATTACHMENT'] = 'संलग्न(नों) फाइल मान्य नहीं है।';
 $app_strings['LBL_VALIDATION_ERROR_CURRENCY_FORMAT'] = "अमान्य मुद्रा प्रारूप. अपेक्षित: '{{context.expected}}'";
 $app_strings['LBL_VALIDATION_ERROR_INT_FORMAT'] = "अमान्य int प्रारूप. अपेक्षित: '{{context.expected}}'";
 $app_strings['LBL_VALIDATION_ERROR_FLOAT_FORMAT'] = "अमान्य फ़्लोट प्रारूप. अपेक्षित: '{{context.expected}}'";
@@ -4094,7 +4094,7 @@ $app_strings['LBL_VALIDATION_ERROR_REMOVE_UNSUBSCRIBE_LINK'] = "लेनदे�
 $app_strings['LBL_VALIDATION_ERROR_EMAIL_FORMAT'] = "ईमेल प्रारूप अमान्य है। अपेक्षित: '{{context.expected}}'";
 $app_strings['LBL_VALIDATION_ERROR_PHONE_FORMAT'] = "फ़ोन प्रारूप अमान्य है.";
 $app_strings['LBL_VALIDATION_ERROR_MIN'] = "अमान्य मान. मान '{{context.min}}' से बड़ा या बराबर होना चाहिए";
-$app_strings['LBL_VALIDATION_ERROR_VERSIONING'] = "Invalid format. Expected: '{{context.expected}}'";
+$app_strings['LBL_VALIDATION_ERROR_VERSIONING'] = "अमान्य प्रारूप। अपेक्षित: '{{context.expected}}'";
 $app_strings['LBL_VALIDATION_ERROR_MAX'] = "अमान्य मान. मान '{{context.max}}' से छोटा या बराबर होना चाहिए";
 $app_strings['LBL_MULTIPLE_PRIMARY_EMAIL_VALIDATION_ERROR'] = "केवल एक वैध ईमेल पते को ही प्राथमिक के रूप में चिह्नित किया जाना चाहिए";
 $app_strings['LBL_DUPLICATE_EMAIL_VALIDATION_ERROR'] = "डुप्लिकेट ईमेल पते की अनुमति नहीं है";
@@ -4173,7 +4173,7 @@ $app_strings['LBL_LINK'] = 'लिंक';
 $app_strings['LBL_LINK_UNLINK'] = 'लिंक करें / लिंक हटाएं';
 $app_strings['LBL_SAVE'] = 'रखना';
 $app_strings['LBL_UNLINK_RECORD'] = 'रिकॉर्ड अनलिंक करें';
-$app_strings['LBL_DELETE_RECORD'] = 'Delete Record';
+$app_strings['LBL_DELETE_RECORD'] = 'रिकॉर्ड हटाएं';
 $app_strings['LBL_EDIT_RECORD'] = 'रिकॉर्ड संपादित करें';
 $app_strings['LBL_UNLINK_RELATIONSHIP_CONFIRM'] = 'क्या आप वाकई इस रिकॉर्ड को अनलिंक करना चाहते हैं? केवल संबंध ही अनलिंक किया जाएगा। रिकॉर्ड को हटाया नहीं जाएगा।';
 $app_strings['LBL_UNLINK_RELATIONSHIP_SUCCESS'] = 'रिकॉर्ड सफलतापूर्वक अनलिंक किया गया.';
@@ -4184,7 +4184,7 @@ $app_strings['LBL_LINK_RELATIONSHIP_SUCCESS'] = 'रिश्ता सफलत
 $app_strings['LBL_LINK_RELATIONSHIP_FAILED'] = 'इस संबंध को जोड़ने में त्रुटि हुई.';
 $app_strings['LBL_MODULE_NOT_FOUND'] = 'मॉड्यूल नहीं मिला.';
 $app_strings['LBL_RECORD_NOT_FOUND'] = 'रिकॉर्ड लोड करने में असमर्थ';
-$app_strings['LBL_FILE_NOT_FOUND'] = 'Unable to load file';
+$app_strings['LBL_FILE_NOT_FOUND'] = 'फ़ाइल लोड करने में असमर्थ';
 $app_strings['LBL_RELATIONSHIP_LOAD_ERROR'] = 'संबंध लोड करने में असमर्थ';
 $app_strings['LBL_NOT_LINKED'] = 'अनलिंक करने में असमर्थ. रिकॉर्ड लिंक नहीं हैं';
 $app_strings['LBL_ACCESS_DENIED'] = 'ऐक्सेस डिनाइड';
@@ -4230,7 +4230,7 @@ $app_strings['LBL_FROM_SYSTEM'] = 'सिस्टम से भेजें';
 $app_strings['LBL_SIGNATURE'] = 'हस्ताक्षर';
 $app_strings['LBL_NEW_NOTIFICATION'] = "आपके पास {{context.unread}} नई सूचनाएं हैं";
 $app_strings['LBL_ALERT_STATUS_COMPLETED'] = 'पूरा हुआ';
-$app_strings['LBL_ALERT_STATUS_COMPLETED_WITH_FAILURES'] = 'Completed With Failures';
+$app_strings['LBL_ALERT_STATUS_COMPLETED_WITH_FAILURES'] = 'असफलताओं के साथ पूरा हुआ';
 $app_strings['LBL_ALERT_STATUS_FAILED'] = 'असफल';
 $app_strings['LBL_NOTIFICATION_ITEM_DATE'] = 'देय तिथि: {{fields.date_start.value}}';
 $app_strings['LBL_NOTIFICATION_ITEM_DATE_ENTERED'] = 'अधिसूचित: {{fields.snooze.value}}';
@@ -4248,7 +4248,7 @@ $app_strings['LBL_WRONG_MODULE_PROVIDED'] = 'गलत मॉड्यूल प
 $app_strings['LBL_NO_TEMPLATE_ID_PROVIDED'] = 'कोई टेम्पलेट आईडी प्रदान नहीं की गई';
 $app_strings['LBL_TEMPLATE_NOT_FOUND'] = 'टेम्पलेट नहीं मिला';
 $app_strings['LBL_EMAIL_MODAL_DYNAMIC_TITLE'] = 'नया ईमेल{{fields.name.value|prefix:\' - \'}}';
-$app_strings['LBL_EMAIL_MODAL_DRAFT_DYNAMIC_TITLE'] = 'Draft{{fields.name.value|prefix:\' - \'}}';
+$app_strings['LBL_EMAIL_MODAL_DRAFT_DYNAMIC_TITLE'] = 'मसौदा{{fields.name.value|prefix:\' - \'}}';
 $app_strings['LBL_CLOSE_EMAIL_MODAL'] = 'क्या आप वाकई इस ईमेल को हटाना चाहते हैं? (बदलाव मिटा दिए जाएंगे)';
 $app_strings['LBL_RELATED_TO_DYNAMIC'] = '{{fields.parent_type.value|uppercase}}';
 $app_strings['LBL_RELATED_TO'] = 'संदर्भ के';
@@ -4319,7 +4319,7 @@ $app_strings['LBL_UNORDERED_LIST'] = 'अव्यवस्थित सूच�
 $app_strings['LBL_ORDERED_LIST'] = 'क्रमबद्ध सूची';
 $app_strings['LBL_QUOTE'] = 'उद्धरण';
 $app_strings['LBL_UNQUOTE'] = 'गंदें शब्द बोलना';
-$app_strings['LBL_ALIGN'] = 'Align';
+$app_strings['LBL_ALIGN'] = 'संरेखित';
 $app_strings['LBL_ALIGN_LEFT'] = 'बाएं';
 $app_strings['LBL_ALIGN_CENTER'] = 'केंद्र';
 $app_strings['LBL_ALIGN_RIGHT'] = 'दाएँ';
@@ -4363,7 +4363,7 @@ $app_strings['LBL_UNABLE_TO_GET_ID'] = 'ईमेल मार्केटिं
 $app_strings['LBL_UNABLE_TO_DELETE_TEST_ENTRIES'] = 'टेस्ट एंट्री हटाने में त्रुटि। अधिक जानकारी के लिए लॉग देखें';
 $app_strings['LBL_SECTION_KEY_NOT_DEFINED'] = 'अनुभाग कुंजी परिभाषित नहीं है';
 $app_strings['LBL_DOES_BOUNCE_EXIST'] = 'क्या बाउंस ईमेल जैसी कोई चीज़ होती है?';
-$app_strings['LBL_IS_OUTBOUND_CONNECTED'] = 'Is Outbound Email Connected?';
+$app_strings['LBL_IS_OUTBOUND_CONNECTED'] = 'क्या आउटबाउंड ईमेल कनेक्टेड है?';
 $app_strings['LBL_CAMPAIGN_SETTINGS'] = 'सेटिंग';
 
 $app_strings['LBL_SEND_FROM_QUEUE_DYNAMIC_LABEL'] = '{{ fields.send-from-queue.value }}';
@@ -4398,9 +4398,9 @@ $app_strings['LBL_TRACKER_LINKS_ENABLED'] = 'ट्रैकर लिंक स
 
 $app_strings['LBL_MARKETING_ITEMS_PER_RUN_DYNAMIC_LABEL'] = '{{ fields.campaign_marketing_items_per_run.value }}';
 $app_strings['LBL_EMAILS_PER_RUN_DYNAMIC_LABEL'] = '{{ fields.campaign_emails_per_run.value }}';
-$app_strings['LBL_EMAILS_MAX_RETRIES'] = 'Campaign Emails Max Retries';
+$app_strings['LBL_EMAILS_MAX_RETRIES'] = 'अभियान ईमेल के लिए अधिकतम पुनः प्रयास';
 $app_strings['LBL_EMAILS_MAX_RETRIES_DYNAMIC_LABEL'] = '{{ fields.campaign_emails_max_retries.value }}';
-$app_strings['LBL_EMAILS_THRESHOLD'] = 'Campaign Emails Error Threshold Per Batch';
+$app_strings['LBL_EMAILS_THRESHOLD'] = 'अभियान ईमेल त्रुटि सीमा प्रति बैच';
 $app_strings['LBL_EMAILS_THRESHOLD_DYNAMIC_LABEL'] = '{{ fields.campaign_emails_threshold.value }}';
 $app_strings['LBL_TRACKERS_ENABLED_DYNAMIC_LABEL'] = '{{ fields.trackers_enabled.value }}';
 $app_strings['LBL_UNSUBSCRIBE'] = 'सदस्यता रद्द';
@@ -4412,25 +4412,25 @@ $app_strings['LBL_FIELD_STORAGE_INVALID_TYPE'] = 'यह फ़ाइल सं�
 $app_strings['LBL_UPLOAD'] = 'अपलोड';
 $app_strings['LBL_UPLOAD_FAILED'] = 'अपलोड विफल रहा, कृपया बाद में पुनः प्रयास करें';
 $app_strings['LBL_UPLOADING'] = 'अपलोड हो रहा है';
-$app_strings['LBL_UPLOAD_FROM_FILES'] = 'Upload from files';
+$app_strings['LBL_UPLOAD_FROM_FILES'] = 'फ़ाइलों से अपलोड करें';
 $app_strings['LBL_ATTACH_DOCUMENTS'] = 'दस्तावेज़ लगाओ';
 $app_strings['LBL_FILE_FIELD_UPLOAD_BUTTON_DESCRIPTION'] = 'फ़ाइल अपलोड करने के लिए उसे यहाँ क्लिक करें या ड्रैग करें';
 $app_strings['LBL_ATTACHMENTS_FIELD_UPLOAD_BUTTON_DESCRIPTION'] = 'फ़ाइल अपलोड करने के लिए उसे यहाँ ड्रैग और ड्रॉप करें';
-$app_strings['LBL_SOME_ATTACHMENTS_FAILED'] = 'Some attachments failed to upload. See logs for more info.';
-$app_strings['LBL_UPLOAD_IMAGE'] = 'Upload Image';
-$app_strings['LBL_DOWNLOAD_IMAGE'] = 'Download Image';
-$app_strings['LBL_PREVIEW_IMAGE'] = 'Preview Image';
-$app_strings['LBL_UPLOAD_IMAGE_DESCRIPTION'] = 'Click or drag an image here to upload';
-$app_strings['LBL_INVALID_PROCESS_OPTIONS'] = 'Invalid process options. See logs for more info.';
+$app_strings['LBL_SOME_ATTACHMENTS_FAILED'] = 'कुछ अटैचमेंट अपलोड नहीं हो पाए। अधिक जानकारी के लिए लॉग देखें।';
+$app_strings['LBL_UPLOAD_IMAGE'] = 'तस्विर अपलोड करना';
+$app_strings['LBL_DOWNLOAD_IMAGE'] = 'छवि डाउनलोड करें';
+$app_strings['LBL_PREVIEW_IMAGE'] = 'पूर्वावलोकन छवि';
+$app_strings['LBL_UPLOAD_IMAGE_DESCRIPTION'] = 'इमेज अपलोड करने के लिए उसे यहां क्लिक करें या ड्रैग करें';
+$app_strings['LBL_INVALID_PROCESS_OPTIONS'] = 'प्रक्रिया के लिए अमान्य विकल्प। अधिक जानकारी के लिए लॉग देखें।';
 $app_strings['LBL_TEMPORARY'] = 'अस्थायी';
 $app_strings['LBL_MAX_FILE_SIZE_EXCEEDED'] = 'यह फ़ाइल अधिकतम अनुमत आकार से अधिक है।';
 $app_strings['LBL_UNSUPPORTED_IMAGE_TYPE'] = 'यह इमेज टाइप समर्थित नहीं है।';
 $app_strings['LBL_UNSUPPORTED_FILE_TYPE'] = 'यह फ़ाइल प्रकार समर्थित नहीं है।';
-$app_strings['LBL_UNSUPPORTED_IMAGE_FILE_TYPE'] = 'This image type is not supported.';
-$app_strings['LBL_MALWARE_DETECTED'] = 'Malware detected in uploaded file. The upload has been rejected.';
+$app_strings['LBL_UNSUPPORTED_IMAGE_FILE_TYPE'] = 'इस प्रकार की छवि समर्थित नहीं है।';
+$app_strings['LBL_MALWARE_DETECTED'] = 'अपलोड की गई फ़ाइल में मैलवेयर पाया गया है। अपलोड अस्वीकृत कर दिया गया है।';
 
 $app_strings['LBL_DEFAULT_OUTBOUND_NOT_SET'] = 'डिफ़ॉल्ट आउटबाउंड ईमेल प्राप्त करने में असमर्थ';
-$app_strings['LBL_SMTP_UNABLE_TO_CONNECT']='Unable to connect to SMTP server with the current Outbound Email settings.';
+$app_strings['LBL_SMTP_UNABLE_TO_CONNECT']='मौजूदा आउटबाउंड ईमेल सेटिंग्स के साथ SMTP सर्वर से कनेक्ट करना संभव नहीं है।';
 $app_strings['LBL_DEFAULT_OUTBOUND_NOT_CONFIGURED'] = 'आउटबाउंड ईमेल खाता सही ढंग से कॉन्फ़िगर नहीं किया गया है।';
 
 $app_strings['LBL_CRON_UNRECOMMENDED_USER'] = 'आप वर्तमान में रूट के रूप में चल रहे हैं, यह अनुशंसित नहीं है, क्या आप जारी रखना चाहेंगे (y,n)? ';
@@ -4438,46 +4438,46 @@ $app_strings['LBL_UNKNOWN_USER'] = 'अज्ञात उपयोगकर्�
 
 $app_strings['LBL_DRAFTS'] = 'ड्राफ्ट्स';
 $app_strings['LBL_DRAFT_ITEM_LAST_MODIFIED'] = '{{fields.date_modified.value}}';
-$app_strings['LBL_DRAFT_ITEM_TO_EMPTY'] = 'No Recipient(s)';
+$app_strings['LBL_DRAFT_ITEM_TO_EMPTY'] = 'कोई प्राप्तकर्ता(ओं) नहीं';
 $app_strings['LBL_DRAFT_ITEM_TO'] = '{{fields.to_addrs_names.valueList|filter:primary=true:attributeKey=name}}';
 $app_strings['LBL_DRAFT_ITEM_TO_ICON'] = '{{fields.to_icon_type.value}}';
 $app_strings['LBL_DRAFTS_TOTAL'] = '{{fields.count.value}}';
-$app_strings['LBL_DRAFTS_DELETED_SUCCESSFULLY'] = 'Drafts Deleted Successfully.';
-$app_strings['LBL_DRAFT_DELETED_SUCCESSFULLY'] = 'Draft Deleted Successfully.';
-$app_strings['LBL_DRAFTS_DELETED_UNSUCCESSFULLY'] = 'Drafts Not Deleted Successfully. See logs for more info.';
-$app_strings['LBL_DRAFT_DELETED_UNSUCCESSFULLY'] = 'Draft Not Deleted Successfully. See logs for more info.';
-$app_strings['LBL_OPEN_DRAFT'] = 'Open Draft';
-$app_strings['LBL_DELETE_DRAFT'] = 'Delete Draft';
-$app_strings['LBL_UNABLE_TO_GET_DRAFT_ID'] = 'Unable to retrieve Draft ID.';
-$app_strings['LBL_UNABLE_TO_DELETE_DRAFT'] = 'Unable to delete draft.';
-$app_strings['LBL_EMAIL_NOT_DRAFT'] = 'Email is no longer a draft.';
-$app_strings['LBL_DRAFT_DELETED_SUCCESSFULLY'] = 'Draft Deleted Successfully.';
+$app_strings['LBL_DRAFTS_DELETED_SUCCESSFULLY'] = 'ड्राफ्ट सफलतापूर्वक हटा दिए गए।';
+$app_strings['LBL_DRAFT_DELETED_SUCCESSFULLY'] = 'ड्राफ्ट सफलतापूर्वक हटा दिया गया।';
+$app_strings['LBL_DRAFTS_DELETED_UNSUCCESSFULLY'] = 'ड्राफ्ट सफलतापूर्वक डिलीट नहीं हुए। अधिक जानकारी के लिए लॉग देखें।';
+$app_strings['LBL_DRAFT_DELETED_UNSUCCESSFULLY'] = 'ड्राफ्ट सफलतापूर्वक डिलीट नहीं हुआ। अधिक जानकारी के लिए लॉग देखें।';
+$app_strings['LBL_OPEN_DRAFT'] = 'ओपन ड्राफ्ट';
+$app_strings['LBL_DELETE_DRAFT'] = 'प्रारूप हटाएँ';
+$app_strings['LBL_UNABLE_TO_GET_DRAFT_ID'] = 'ड्राफ्ट आईडी प्राप्त करने में असमर्थ।';
+$app_strings['LBL_UNABLE_TO_DELETE_DRAFT'] = 'प्रारूप डिलीट करने में असमर्थ।';
+$app_strings['LBL_EMAIL_NOT_DRAFT'] = 'ईमेल अब ड्राफ्ट नहीं है।';
+$app_strings['LBL_DRAFT_DELETED_SUCCESSFULLY'] = 'ड्राफ्ट सफलतापूर्वक हटा दिया गया।';
 
-$app_strings['LBL_CANNOT_DELETE_LATEST_REVISION'] = 'You cannot delete the latest revision of a document.';
-$app_strings['LBL_NO_DOCUMENT_ID_PROVIDED'] = 'Cannot find document to delete revision, no document id provided.';
-$app_strings['LBL_NO_RECORD_ID_PROVIDED'] = 'Cannot find docuemnt revision to delete, no record id provided.';
-$app_strings['LBL_DELETE_REVISION_CONFIRM'] = 'Are you sure you want to delete this revision?';
-$app_strings['LBL_DOCUMENT_NOT_FOUND'] = 'Document not found.';
-$app_strings['LBL_EMAIL_ATTACHMENT_DOCUMENT_DELETED'] = 'One or more attached documents have been deleted and cannot be sent.';
+$app_strings['LBL_CANNOT_DELETE_LATEST_REVISION'] = 'आप किसी दस्तावेज़ के नवीनतम संस्करण को हटा नहीं सकते।';
+$app_strings['LBL_NO_DOCUMENT_ID_PROVIDED'] = 'संशोधन को हटाने के लिए दस्तावेज़ नहीं मिल रहा है, कोई दस्तावेज़ आईडी प्रदान नहीं की गई है।';
+$app_strings['LBL_NO_RECORD_ID_PROVIDED'] = 'हटाने के लिए दस्तावेज़ संशोधन नहीं मिल पा रहा है, कोई रिकॉर्ड आईडी प्रदान नहीं की गई है।';
+$app_strings['LBL_DELETE_REVISION_CONFIRM'] = 'क्या आप वाकई इस संशोधन को हटाना चाहते हैं?';
+$app_strings['LBL_DOCUMENT_NOT_FOUND'] = 'दस्तावेज़ नहीं मिला।';
+$app_strings['LBL_EMAIL_ATTACHMENT_DOCUMENT_DELETED'] = 'एक या अधिक संलग्न दस्तावेज़ हटा दिए गए हैं और उन्हें भेजा नहीं जा सकता है।';
 
-$app_strings['LBL_DISMISS_INVALID_STATUS'] = 'This record cannot be dismissed while it is still in progress.';
-$app_strings['LBL_DISMISS_FAILED'] = 'Failed to dismiss. Please try again.';
-$app_strings['LBL_RERUN_NOT_ELIGIBLE'] = 'This record is not eligible for re-run. It may not have completed with failures or re-run may not be supported.';
-$app_strings['LBL_RETRY_FAILED_NOT_ELIGIBLE'] = 'This record is not eligible for retry. It may not have completed with failures or retry may not be supported.';
-$app_strings['LBL_ASYNC_TASK_UNSUPPORTED_MODULE'] = 'This module does not support async task actions.';
-$app_strings['LBL_RERUN_SUCCESS'] = 'Task has been re-queued and will restart from the beginning.';
-$app_strings['LBL_RETRY_FAILED_SUCCESS'] = 'Failed items have been re-queued for processing.';
+$app_strings['LBL_DISMISS_INVALID_STATUS'] = 'जब तक यह रिकॉर्ड प्रक्रियाधीन है, इसे खारिज नहीं किया जा सकता।';
+$app_strings['LBL_DISMISS_FAILED'] = 'बंद करने में विफल। कृपया पुनः प्रयास करें।';
+$app_strings['LBL_RERUN_NOT_ELIGIBLE'] = 'यह रिकॉर्ड पुनः चलाने के योग्य नहीं है। हो सकता है कि यह विफलताओं के कारण पूरा न हुआ हो या पुनः चलाने की सुविधा उपलब्ध न हो।';
+$app_strings['LBL_RETRY_FAILED_NOT_ELIGIBLE'] = 'यह रिकॉर्ड पुनः प्रयास के लिए योग्य नहीं है। हो सकता है कि यह विफलताओं के साथ पूरा न हुआ हो या पुनः प्रयास समर्थित न हो।';
+$app_strings['LBL_ASYNC_TASK_UNSUPPORTED_MODULE'] = 'यह मॉड्यूल एसिंक्रोनस टास्क एक्शन को सपोर्ट नहीं करता है।';
+$app_strings['LBL_RERUN_SUCCESS'] = 'कार्य को पुनः कतार में डाल दिया गया है और यह शुरू से फिर से शुरू होगा।';
+$app_strings['LBL_RETRY_FAILED_SUCCESS'] = 'असफल आइटमों को प्रोसेसिंग के लिए दोबारा कतार में डाल दिया गया है।';
 
-$app_strings['LBL_MIGRATE_GOOGLE_CALENDAR_SYNC_SIBLING_RUNNING'] = 'Cannot run this migration while "Migrate Google Calendar Users Sync" is currently pending / running.';
-$app_strings['LBL_MIGRATE_GOOGLE_CALENDAR_SYNC_USERS_SIBLING_RUNNING'] = 'Cannot run this migration while "Migrate Google Calendar Sync" is currently pending / running.';
+$app_strings['LBL_MIGRATE_GOOGLE_CALENDAR_SYNC_SIBLING_RUNNING'] = '"गूगल कैलेंडर उपयोगकर्ता सिंक माइग्रेट करें" प्रक्रिया लंबित/चल रही होने के कारण इस माइग्रेशन को नहीं चलाया जा सकता है।';
+$app_strings['LBL_MIGRATE_GOOGLE_CALENDAR_SYNC_USERS_SIBLING_RUNNING'] = 'जब तक "गूगल कैलेंडर सिंक माइग्रेट करें" प्रक्रिया लंबित/चल रही है, तब तक यह माइग्रेशन नहीं चलाया जा सकता है।';
 
-$app_strings['LBL_CANNOT_DELETE_LATEST_REVISION'] = 'You cannot delete the latest revision of a document.';
-$app_strings['LBL_NO_DOCUMENT_ID_PROVIDED'] = 'Cannot find document to delete revision, no document id provided.';
-$app_strings['LBL_NO_RECORD_ID_PROVIDED'] = 'Cannot find docuemnt revision to delete, no record id provided.';
+$app_strings['LBL_CANNOT_DELETE_LATEST_REVISION'] = 'आप किसी दस्तावेज़ के नवीनतम संस्करण को हटा नहीं सकते।';
+$app_strings['LBL_NO_DOCUMENT_ID_PROVIDED'] = 'संशोधन को हटाने के लिए दस्तावेज़ नहीं मिल रहा है, कोई दस्तावेज़ आईडी प्रदान नहीं की गई है।';
+$app_strings['LBL_NO_RECORD_ID_PROVIDED'] = 'हटाने के लिए दस्तावेज़ संशोधन नहीं मिल पा रहा है, कोई रिकॉर्ड आईडी प्रदान नहीं की गई है।';
 
-$app_strings['LBL_CANNOT_DELETE_LATEST_REVISION'] = 'You cannot delete the latest revision of a document.';
-$app_strings['LBL_NO_DOCUMENT_ID_PROVIDED'] = 'Cannot find document to delete revision, no document id provided.';
-$app_strings['LBL_NO_RECORD_ID_PROVIDED'] = 'Cannot find docuemnt revision to delete, no record id provided.';
+$app_strings['LBL_CANNOT_DELETE_LATEST_REVISION'] = 'आप किसी दस्तावेज़ के नवीनतम संस्करण को हटा नहीं सकते।';
+$app_strings['LBL_NO_DOCUMENT_ID_PROVIDED'] = 'संशोधन को हटाने के लिए दस्तावेज़ नहीं मिल रहा है, कोई दस्तावेज़ आईडी प्रदान नहीं की गई है।';
+$app_strings['LBL_NO_RECORD_ID_PROVIDED'] = 'हटाने के लिए दस्तावेज़ संशोधन नहीं मिल पा रहा है, कोई रिकॉर्ड आईडी प्रदान नहीं की गई है।';
 
 $app_list_strings['email_import_timeframe_start_dom'] = [
     '-1 year' => '1 साल',
@@ -4490,4 +4490,4 @@ $app_list_strings['email_import_timeframe_start_dom'] = [
     '0 days' => '0 दिन',
 ];
 
-$app_strings['LBL_NOT_AUTHORIZED'] = 'Not authorized';
+$app_strings['LBL_NOT_AUTHORIZED'] = 'अधिकृत नहीं हैं';

@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kimliği',
-    'LBL_ASSIGNED_TO_NAME' => 'Atanmış kişi',
+    'LBL_ASSIGNED_TO_NAME' => 'Atanmış ilgili',
     'LBL_ID' => 'Kimlik',
     'LBL_DATE_ENTERED' => 'Eklenme tarihi',
     'LBL_DATE_MODIFIED' => 'Değiştirilme tarihi',
@@ -60,7 +60,7 @@ $mod_strings = array(
     'LBL_MODIFIED_USER' => 'Değiştiren kullanıcı',
     'LBL_LIST_NAME' => 'Paket Adı:',
     'LBL_EDIT_BUTTON' => 'Değiştir',
-    'LBL_REMOVE' => 'Sil',
+    'LBL_REMOVE' => 'Kaldır',
     'LBL_LIST_FORM_TITLE' => 'Proje görev kalıpları listesi',
     'LBL_MODULE_NAME' => 'Proje görev kalıpları',
     'LBL_MODULE_TITLE' => 'Proje görev kalıpları',

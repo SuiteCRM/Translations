@@ -63,46 +63,46 @@ $mod_strings = [
     // Async task field labels
     'LBL_DATA' => 'डेटा',
     'LBL_TYPE' => 'प्रकार',
-    'LBL_ESTIMATED_RUN_TIME' => 'Run time estimate',
+    'LBL_ESTIMATED_RUN_TIME' => 'रन टाइम अनुमान',
     'LBL_STATUS' => 'स्थिति',
-    'LBL_SERVICE_KEY' => 'Service Key',
-    'LBL_LAST_RUN_DATETIME' => 'Last Run',
+    'LBL_SERVICE_KEY' => 'सेवा कुंजी',
+    'LBL_LAST_RUN_DATETIME' => 'आखरी बार',
     'LBL_ATTACHMENTS' => 'संलग्नक',
-    'LBL_PHASE' => 'Phase',
+    'LBL_PHASE' => 'चरण',
     'LBL_OWNER' => 'मालिक',
 
     // Progress field labels
-    'LBL_PROGRESS' => 'Progress',
-    'LBL_PROGRESS_PERCENT' => 'Percent',
+    'LBL_PROGRESS' => 'प्रगति',
+    'LBL_PROGRESS_PERCENT' => 'प्रतिशत',
     'LBL_PROGRESS_COMPLETED' => 'पूरा हुआ',
     'LBL_PROGRESS_FAILED' => 'असफल',
-    'LBL_PROGRESS_PERCENT_TPL' => '{{fields.progress.attributes.percent|default:-}}% ({{fields.progress.attributes.completed|default:-}} successful, {{fields.progress.attributes.failed|default:-}} failed / {{fields.progress.attributes.total|default:-}} total)',
-    'LBL_PROGRESS_NOT_STARTED' => 'Not started',
-    'LBL_PROGRESS_QUEUING_TPL' => 'Queueing: {{fields.progress.attributes.total|default:0}} items enqueued',
+    'LBL_PROGRESS_PERCENT_TPL' => '{{fields.progress.attributes.percent|default:-}}% ({{fields.progress.attributes.completed|default:-}} सफल, {{fields.progress.attributes.failed|default:-}} असफल / {{fields.progress.attributes.total|default:-}} कुल)',
+    'LBL_PROGRESS_NOT_STARTED' => 'शुरू नही हुआ',
+    'LBL_PROGRESS_QUEUING_TPL' => 'कतार: {{fields.progress.attributes.total|default:0}} आइटम कतार में डाले गए',
 
     // Action labels — button text (shared across modules)
-    'LBL_RETRY' => 'Retry',
-    'LBL_RERUN' => 'Re-run',
+    'LBL_RETRY' => 'पुन: प्रयास करें',
+    'LBL_RERUN' => 'पुन: चलाएँ',
     'LBL_DISMISS' => 'बर्खास्त करें',
     'LBL_DELETE' => 'हटाएं',
-    'LBL_DELETE_COMPLETED_CONFIRMATION' => 'Are you sure you want to delete this completed task?',
-    'LBL_DELETE_COMPLETED_WITH_FAILURES_CONFIRMATION' => 'This task completed with failures. Deleting it will remove all task data including failed item details. Are you sure you want to proceed?',
-    'LBL_DELETE_FAILED_CONFIRMATION' => 'This task has failed. Deleting it will remove all task data including error details. Are you sure you want to proceed?',
+    'LBL_DELETE_COMPLETED_CONFIRMATION' => 'क्या आप वाकई इस पूर्ण किए गए कार्य को हटाना चाहते हैं?',
+    'LBL_DELETE_COMPLETED_WITH_FAILURES_CONFIRMATION' => 'यह कार्य कुछ असफलताओं के साथ पूरा हुआ। इसे हटाने से असफल कार्यों की जानकारी सहित सभी कार्य डेटा हट जाएगा। क्या आप आगे बढ़ना चाहते हैं?',
+    'LBL_DELETE_FAILED_CONFIRMATION' => 'यह कार्य विफल हो गया है। इसे हटाने से त्रुटि विवरण सहित सभी कार्य डेटा हट जाएगा। क्या आप आगे बढ़ना चाहते हैं?',
 
     // Retry action messages (shared — generic phrasing)
-    'LBL_RETRY_CONFIRMATION' => 'Are you sure you want to retry? This will re-queue all failed items for processing.',
-    'LBL_RETRY_SUCCESS' => 'Failed items have been re-queued for processing.',
+    'LBL_RETRY_CONFIRMATION' => 'क्या आप वाकई दोबारा कोशिश करना चाहते हैं? इससे प्रोसेसिंग के लिए सभी असफल आइटम दोबारा कतार में लग जाएंगे।',
+    'LBL_RETRY_SUCCESS' => 'असफल आइटमों को प्रोसेसिंग के लिए दोबारा कतार में डाल दिया गया है।',
 
     // Retry-failed action messages (shared)
-    'LBL_RETRY_FAILED' => 'Retry Failed',
-    'LBL_RETRY_FAILED_CONFIRMATION' => 'Are you sure you want to retry? This will re-queue all failed items for processing.',
-    'LBL_RETRY_FAILED_SUCCESS' => 'Failed items have been re-queued for processing.',
+    'LBL_RETRY_FAILED' => 'पुनः प्रयास विफल',
+    'LBL_RETRY_FAILED_CONFIRMATION' => 'क्या आप वाकई दोबारा कोशिश करना चाहते हैं? इससे प्रोसेसिंग के लिए सभी असफल आइटम दोबारा कतार में लग जाएंगे।',
+    'LBL_RETRY_FAILED_SUCCESS' => 'असफल आइटमों को प्रोसेसिंग के लिए दोबारा कतार में डाल दिया गया है।',
 
     // Capability flag field labels
-    'LBL_ALLOW_FAILURE_RETRY_ACTION' => 'Allow Failure Retry Action',
-    'LBL_ALLOW_FAILURE_RERUN_ACTION' => 'Allow Failure Rerun Action',
+    'LBL_ALLOW_FAILURE_RETRY_ACTION' => 'विफलता पुनः प्रयास कार्रवाई की अनुमति दें',
+    'LBL_ALLOW_FAILURE_RERUN_ACTION' => 'विफलता की अनुमति दें और कार्रवाई को पुनः चलाएँ',
 
     // Subpanel
-    'LBL_FAILED_ITEMS' => 'Failed Items',
-    'LBL_COMPLETED_ITEMS' => 'Completed Items',
+    'LBL_FAILED_ITEMS' => 'असफल आइटम',
+    'LBL_COMPLETED_ITEMS' => 'पूर्ण किए गए आइटम',
 ];

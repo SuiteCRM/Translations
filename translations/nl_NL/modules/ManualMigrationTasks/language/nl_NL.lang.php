@@ -36,34 +36,34 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = [
 
     // Module naming
-    'LBL_LIST_FORM_TITLE' => 'Migrations List',
-    'LBL_MODULE_NAME' => 'Migrations',
-    'LBL_MODULE_TITLE' => 'Migrations',
-    'LBL_HOMEPAGE_TITLE' => 'My Migrations',
-    'LNK_NEW_RECORD' => 'Create Migrations',
-    'LNK_LIST' => 'View Migrations',
-    'LBL_SEARCH_FORM_TITLE' => 'Search Migrations',
-    'LBL_NEW_FORM_TITLE' => 'New Migrations',
+    'LBL_LIST_FORM_TITLE' => 'Migraties lijst',
+    'LBL_MODULE_NAME' => 'Migraties',
+    'LBL_MODULE_TITLE' => 'Migraties',
+    'LBL_HOMEPAGE_TITLE' => 'Mijn migraties',
+    'LNK_NEW_RECORD' => 'Nieuwe migratie',
+    'LNK_LIST' => 'Migraties bekijken',
+    'LBL_SEARCH_FORM_TITLE' => 'Migraties zoeken',
+    'LBL_NEW_FORM_TITLE' => 'Nieuwe migratie',
 
     // Module-specific trigger action
-    'LBL_RUN_MIGRATION' => 'Run Migration',
-    'LBL_RUN_MIGRATION_CONFIRMATION' => 'Are you sure you want to run this migration?',
+    'LBL_RUN_MIGRATION' => 'Migratie uitvoeren',
+    'LBL_RUN_MIGRATION_CONFIRMATION' => 'Weet u zeker dat u deze migratie wilt uitvoeren?',
 
     // Rerun/dismiss confirmation messages (reference this module by name)
-    'LBL_RERUN_CONFIRMATION' => 'Are you sure you want to re-run this migration from scratch? All existing items will be removed and the migration will restart.',
-    'LBL_RERUN_SUCCESS' => 'Migration has been re-queued and will restart from the beginning.',
-    'LBL_DISMISS_CONFIRMATION' => 'Are you sure you want to dismiss this migration task? This will remove it and all associated data.',
-    'LBL_DISMISS_SUCCESS' => 'Migration task dismissed successfully.',
+    'LBL_RERUN_CONFIRMATION' => 'Weet u zeker dat u deze migratie vanaf het begin wilt herstarten? Alle bestaande items worden verwijderd en de migratie zal opnieuw starten.',
+    'LBL_RERUN_SUCCESS' => 'Migratie staat opnieuw in de wachtrij en wordt vanaf het begin opnieuw opgestart.',
+    'LBL_DISMISS_CONFIRMATION' => 'Weet u zeker dat u deze migratie taak wilt verwijderen? Dit zal deze verwijderen en alle bijbehorende gegevens.',
+    'LBL_DISMISS_SUCCESS' => 'Migratietaak succesvol afgewezen.',
 
     // Type footnotes
-    'LBL_TYPE_BACKGROUND_HELP' => 'This migration runs in the background via the message queue worker. It processes items in batches and does not block the UI.',
-    'LBL_TYPE_IMMEDIATE_HELP' => 'This migration runs immediately when triggered. It processes all items in a single request and may take longer for large datasets.',
+    'LBL_TYPE_BACKGROUND_HELP' => 'Deze migratie wordt op de achtergrond uitgevoerd via de berichtwachtrij werknemer. Het verwerkt items in batches en blokkeert de gebruikersinterface niet.',
+    'LBL_TYPE_IMMEDIATE_HELP' => 'Deze migratie loopt onmiddellijk als het geactiveerd is. Het verwerkt alle items in één verzoek en kan langer duren voor grote datasets.',
 
 
     // Messenger setup widget
-    'LBL_MESSENGER_SETUP' => 'Background Task Configuration',
-    'LBL_MESSENGER_SETUP_DESC1' => 'Migration tasks are processed in the background.',
-    'LBL_MESSENGER_SETUP_DESC2' => 'To ensure these tasks complete successfully, please ensure a Symfony Messenger worker is running.',
-    'LBL_MESSENGER_SETUP_DESC3' => 'Without an active worker, tasks will stay in a "Pending" state.',
-    'LBL_MESSENGER_SETUP_DOC_LINK' => 'View Setup Guide (Supervisor, systemd, Cron)',
+    'LBL_MESSENGER_SETUP' => 'Achtergrondtaak-configuratie',
+    'LBL_MESSENGER_SETUP_DESC1' => 'Migratietaken worden op de achtergrond verwerkt.',
+    'LBL_MESSENGER_SETUP_DESC2' => 'Om ervoor te zorgen dat deze taken succesvol worden voltooid, moet u ervoor zorgen dat een Symfony Messenger worker actief is.',
+    'LBL_MESSENGER_SETUP_DESC3' => 'Zonder een actieve worker blijven taken in de "In behandeling" staat.',
+    'LBL_MESSENGER_SETUP_DOC_LINK' => 'Bekijk de installatiehandleiding (Supervisor, systeem, Cron)',
 ];

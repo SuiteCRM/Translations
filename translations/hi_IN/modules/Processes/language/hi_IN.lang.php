@@ -36,22 +36,22 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = [
 
     // Module naming
-    'LBL_LIST_FORM_TITLE' => 'Processes List',
-    'LBL_MODULE_NAME' => 'Processes',
-    'LBL_MODULE_TITLE' => 'Processes',
-    'LBL_HOMEPAGE_TITLE' => 'My Processes',
-    'LNK_NEW_RECORD' => 'Create Process',
-    'LNK_LIST' => 'View Processes',
-    'LBL_SEARCH_FORM_TITLE' => 'Search Processes',
-    'LBL_NEW_FORM_TITLE' => 'New Process',
+    'LBL_LIST_FORM_TITLE' => 'प्रक्रियाओं की सूची',
+    'LBL_MODULE_NAME' => 'प्रक्रियाओं',
+    'LBL_MODULE_TITLE' => 'प्रक्रियाओं',
+    'LBL_HOMEPAGE_TITLE' => 'मेरी प्रक्रियाएँ',
+    'LNK_NEW_RECORD' => 'प्रक्रिया बनाएं',
+    'LNK_LIST' => 'प्रक्रियाएँ देखें',
+    'LBL_SEARCH_FORM_TITLE' => 'खोज प्रक्रियाएँ',
+    'LBL_NEW_FORM_TITLE' => 'नई प्रक्रिया',
 
     // Rerun/dismiss confirmation messages (reference this module by name)
-    'LBL_RERUN_CONFIRMATION' => 'Are you sure you want to re-run this process from scratch? All existing items will be removed and the process will restart.',
-    'LBL_RERUN_SUCCESS' => 'Process has been re-queued and will restart from the beginning.',
-    'LBL_DISMISS_CONFIRMATION' => 'Are you sure you want to dismiss this process? This will remove it and all associated data.',
-    'LBL_DISMISS_SUCCESS' => 'Process dismissed successfully.',
+    'LBL_RERUN_CONFIRMATION' => 'क्या आप वाकई इस प्रक्रिया को शुरू से दोबारा चलाना चाहते हैं? सभी मौजूदा आइटम हटा दिए जाएंगे और प्रक्रिया फिर से शुरू हो जाएगी।',
+    'LBL_RERUN_SUCCESS' => 'प्रक्रिया को पुनः कतार में डाल दिया गया है और यह शुरू से पुनः शुरू होगी।',
+    'LBL_DISMISS_CONFIRMATION' => 'क्या आप वाकई इस प्रक्रिया को रद्द करना चाहते हैं? ऐसा करने से यह प्रक्रिया और इससे संबंधित सभी डेटा हट जाएगा।',
+    'LBL_DISMISS_SUCCESS' => 'प्रक्रिया सफलतापूर्वक समाप्त हो गई।',
 
     // Type footnotes
-    'LBL_TYPE_BACKGROUND_HELP' => 'This process runs in the background via the message queue worker. It processes items in batches and does not block the UI.',
-    'LBL_TYPE_IMMEDIATE_HELP' => 'This process runs immediately when triggered. It processes all items in a single request and may take longer for large datasets.',
+    'LBL_TYPE_BACKGROUND_HELP' => 'यह प्रक्रिया मैसेज क्यू वर्कर के माध्यम से बैकग्राउंड में चलती है। यह आइटम को बैचों में प्रोसेस करती है और यूआई को ब्लॉक नहीं करती है।',
+    'LBL_TYPE_IMMEDIATE_HELP' => 'यह प्रक्रिया शुरू होते ही तुरंत चलने लगती है। यह एक ही अनुरोध में सभी मदों को संसाधित करती है और बड़े डेटासेट के लिए इसमें अधिक समय लग सकता है।',
 ];

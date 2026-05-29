@@ -39,7 +39,7 @@ $mod_strings = [
     'LBL_USER' => 'Gebruiker autoriseren',
     'LBL_OAUTH_AUTHORIZE_AND_SAVE' => 'Autoriseren',
     'LBL_OAUTH_AUTHORIZE_ONCE' => 'Eenmaal machtigen',
-    'LBL_OAUTH_ABORT' => 'Decline',
+    'LBL_OAUTH_ABORT' => 'Weiger',
     'LBL_OAUTH_CLIENT' => 'Client:',
     'LBL_OAUTH_WHO_IS_REQUESTING' => 'Wie vraagt om (Client):',
     'LBL_AUTH_CODE_EXPIRES' => 'Authenticatie code verloopt',
@@ -73,7 +73,7 @@ $mod_strings = [
     'LBL_OAUTH2_GRANT_USER_DATA_ACCESS' => 'Persoonlijke gebruikers gegevens',
     'LBL_OAUTH2_GRANT_USER_DATA_ACCESS_DESC' => 'Geeft toegang tot persoonlijke gebruikers gegevens zoals naam en e-mailadres',
     'LBL_OAUTH_AUTHORIZING_WILL_REDIRECT' => 'Autorisatie wordt doorgestuurd naar:',
-    'LBL_OAUTH_NOTE' => 'Note:',
+    'LBL_OAUTH_NOTE' => 'Opmerking:',
     'LBL_OAUTH_CLIENT_INFO_DESCRIPTION' => 'wil toegang tot je account',
     'LBL_OAUTH_CLIENT_INFO' => 'Client informatie',
 ];

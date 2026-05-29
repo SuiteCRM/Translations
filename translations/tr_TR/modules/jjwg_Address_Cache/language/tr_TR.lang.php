@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings['LBL_ASSIGNED_TO_ID'] = 'Atanmış kullanıcı kimliği';
-$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Atanmış kişi';
+$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Atanmış ilgili';
 $mod_strings['LBL_ID'] = 'Kimlik';
 $mod_strings['LBL_DATE_ENTERED'] = 'Eklenme tarihi';
 $mod_strings['LBL_DATE_MODIFIED'] = 'Değiştirilme tarihi';

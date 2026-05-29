@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_DESCRIPTION' => 'Description',
+    'LBL_DESCRIPTION' => 'Omschrijving',
     'LBL_NAME' => 'Naam',
     'LBL_LIST_NAME' => 'Naam',
-    'LBL_EDIT_BUTTON' => 'Edit',
-    'LBL_REMOVE' => 'Remove',
-    'LBL_GRP' => 'Group',
-    'LBL_ORD' => 'Order',
+    'LBL_EDIT_BUTTON' => 'Bewerk',
+    'LBL_REMOVE' => 'Verwijder',
+    'LBL_GRP' => 'Groepeer',
+    'LBL_ORD' => 'Sorteer',
     'LBL_THUMBNAIL' => 'Miniatuurafbeelding',
 );

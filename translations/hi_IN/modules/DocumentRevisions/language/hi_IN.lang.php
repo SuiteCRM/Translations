@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     //module
     'LBL_MODULE_NAME' => 'दस्तावेज़ संशोधन',
-    'LBL_NEW_REVISION' => 'Add Revision',
+    'LBL_NEW_REVISION' => 'संशोधन जोड़ें',
 
     'LNK_NEW_DOCUMENT' => 'दस्तावेज़ बनाएँ',
     'LNK_DOCUMENT_LIST' => 'दस्तावेज़ देखें',
