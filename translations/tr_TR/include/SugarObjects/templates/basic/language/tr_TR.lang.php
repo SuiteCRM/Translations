@@ -56,7 +56,7 @@ $mod_strings = array(
     'LBL_MODIFIED_USER' => 'Değiştiren kullanıcı',
     'LBL_LIST_NAME' => 'Paket Adı:',
     'LBL_EDIT_BUTTON' => 'Düzenle',
-    'LBL_REMOVE' => 'Sil',
+    'LBL_REMOVE' => 'Kaldır',
 
     'LBL_ASCENDING' => 'Artan',
     'LBL_DESCENDING' => 'Azalan',

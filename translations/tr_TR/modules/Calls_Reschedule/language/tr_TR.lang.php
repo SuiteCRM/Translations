@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kimliği',
-    'LBL_ASSIGNED_TO_NAME' => 'Atanmış kişi',
+    'LBL_ASSIGNED_TO_NAME' => 'Atanmış ilgili',
     'LBL_ID' => 'Kimlik',
     'LBL_DATE_ENTERED' => 'Eklenme tarihi',
     'LBL_DATE_MODIFIED' => 'Değiştirilme tarihi',
@@ -58,7 +58,7 @@ $mod_strings = array(
     'LBL_MODIFIED_USER' => 'Değiştiren kullanıcı',
     'LBL_LIST_NAME' => 'Paket Adı:',
     'LBL_EDIT_BUTTON' => 'Değiştir',
-    'LBL_REMOVE' => 'Sil',
+    'LBL_REMOVE' => 'Kaldır',
     'LBL_LIST_FORM_TITLE' => 'Yeniden zamanlama listesi',
     'LBL_MODULE_NAME' => 'Yeniden zamanla',
     'LBL_MODULE_TITLE' => 'Yeniden zamanla',
@@ -66,7 +66,7 @@ $mod_strings = array(
     'LNK_NEW_RECORD' => 'Yeniden zamanlama ekle',
     'LNK_LIST' => 'Yeniden zamanlamayı görüntüle',
     'LBL_SEARCH_FORM_TITLE' => 'Yeniden zamanlama arama',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Geçmişi görüntüle',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Etkinlikler',
     'LBL_NEW_FORM_TITLE' => 'Yeniden zamanlama ekle',
     'LBL_REASON' => 'Neden',

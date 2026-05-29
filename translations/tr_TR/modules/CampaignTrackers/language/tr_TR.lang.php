@@ -63,10 +63,10 @@ $mod_strings = array(
 
     'LBL_SUBPANEL_TRACKER_NAME' => 'Ad',
     'LBL_SUBPANEL_TRACKER_URL' => 'Adres',
-    'LBL_SUBPANEL_TRACKER_KEY' => 'Key',
+    'LBL_SUBPANEL_TRACKER_KEY' => 'Anahtar',
     'LBL_EDIT_MESSAGE_URL' => 'Kampanya iletisinin adresi:',
     'LBL_EDIT_TRACKER_KEY' => 'İzleyici anahtarı:',
     'LBL_EDIT_OPT_OUT' => 'Abonelikten ayrılma bağlantısı?',
     'LNK_CAMPAIGN_LIST' => 'Kampanyalar',
-    'LBL_EDIT_LAYOUT' => 'Görünümü düzenle' /*for 508 compliance fix*/,
+    'LBL_EDIT_LAYOUT' => 'Yerleşimi düzenle' /*for 508 compliance fix*/,
 );

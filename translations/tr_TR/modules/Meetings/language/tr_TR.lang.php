@@ -46,8 +46,8 @@ $mod_strings = array(
     'LBL_ACCEPT_THIS' => 'Kabul ediyor musunuz?',
     'LBL_ADD_BUTTON' => 'Ekle',
     'LBL_ADD_INVITEE' => 'Katılımcı ekle',
-    'LBL_CONTACT_NAME' => 'İlgili kişi:',
-    'LBL_CONTACTS_SUBPANEL_TITLE' => 'Kişiler',
+    'LBL_CONTACT_NAME' => 'İlgili:',
+    'LBL_CONTACTS_SUBPANEL_TITLE' => 'İlgililer',
     'LBL_CREATED_BY' => 'Ekleyen',
     'LBL_DATE_END' => 'Bitiş tarihi',
     'LBL_DATE_TIME' => 'Başlangıç tarih ve saati:',
@@ -65,10 +65,10 @@ $mod_strings = array(
     'LBL_HOURS_MINS' => '(saat/dakika)',
     'LBL_INVITEE' => 'Katılımcılar',
     'LBL_LAST_NAME' => 'Soyadı',
-    'LBL_ASSIGNED_TO_NAME' => 'Atanmış kişi:',
+    'LBL_ASSIGNED_TO_NAME' => 'Atanmış ilgili:',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Atanmış kullanıcı',
     'LBL_LIST_CLOSE' => 'Kapat',
-    'LBL_LIST_CONTACT' => 'İlgili kişi',
+    'LBL_LIST_CONTACT' => 'İlgili',
     'LBL_LIST_DATE_MODIFIED' => 'Değiştirilme tarihi',
     'LBL_LIST_DATE' => 'Başlangıç tarihi',
     'LBL_LIST_DIRECTION' => 'Yön',
@@ -90,13 +90,13 @@ $mod_strings = array(
     'LBL_SEQUENCE' => 'Toplantı güncelleme sırası',
     'LBL_PHONE' => 'İş telefonu:',
     'LBL_REMINDER_TIME' => 'Anımsatıcı saati',
-    'LBL_EMAIL_REMINDER_SENT' => 'Hatırlatma mesajı gönderildi',
+    'LBL_EMAIL_REMINDER_SENT' => 'Anımsatma e-postası gönderildi',
     'LBL_REMINDER' => 'Anımsatıcılar:',
     'LBL_REMINDER_POPUP' => 'Açılan pencere',
     'LBL_REMINDER_EMAIL_ALL_INVITEES' => 'Tüm katılımcılara e-posta gönder',
     'LBL_EMAIL_REMINDER' => 'E-posta anımsatıcı',
     'LBL_EMAIL_REMINDER_TIME' => 'E-posta anımsatıcı saati',
-    'LBL_REMOVE' => 'Sil',
+    'LBL_REMOVE' => 'Kaldır',
     'LBL_SCHEDULING_FORM_TITLE' => 'Zamanlama',
     'LBL_SEARCH_BUTTON' => 'Ara',
     'LBL_SEARCH_FORM_TITLE' => 'Toplantı arama',
@@ -136,7 +136,7 @@ $mod_strings = array(
 
     // create invitee functionallity
     'LBL_CREATE_INVITEE' => 'Katılımcı ekle',
-    'LBL_CREATE_CONTACT' => 'İlgili kişi olarak',  // Create invitee functionallity
+    'LBL_CREATE_CONTACT' => 'İlgili olarak',  // Create invitee functionallity
     'LBL_CREATE_LEAD' => 'Potansiyel olarak',  // Create invitee functionallity
     'LBL_CREATE_AND_ADD' => 'Oluştur ve ekle',  // Create invitee functionallity
     'LBL_CANCEL_CREATE_INVITEE' => 'İptal',
@@ -155,14 +155,14 @@ $mod_strings = array(
     'LBL_RELATED_TO' => 'İlişkili öge:',
 
     // for reminders
-    'LBL_REMINDERS' => 'Hatırlatıcılar',
+    'LBL_REMINDERS' => 'Anımsatıcılar',
     'LBL_REMINDERS_ACTIONS' => 'İşlemler:',
     'LBL_REMINDERS_POPUP' => 'Açılan pencere',
     'LBL_REMINDERS_EMAIL' => 'Katılımcılara e-posta gönder',
     'LBL_REMINDERS_WHEN' => 'Ne zaman:',
-    'LBL_REMINDERS_REMOVE_REMINDER' => 'Hatırlatıcıyı kaldır',
+    'LBL_REMINDERS_REMOVE_REMINDER' => 'Anımsatıcıyı kaldır',
     'LBL_REMINDERS_ADD_ALL_INVITEES' => 'Tüm katılımcıları ekle',
-    'LBL_REMINDERS_ADD_REMINDER' => 'Hatırlatıcı ekle',
+    'LBL_REMINDERS_ADD_REMINDER' => 'Anımsatıcı ekle',
 
     // for google sync
     'LBL_GSYNC_ID' => 'Google etkinlik kimliği',

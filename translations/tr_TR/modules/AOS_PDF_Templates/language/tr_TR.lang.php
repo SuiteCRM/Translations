@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ASSIGNED_TO_ID' => 'Atanmış kullanıcı kimliği',
-    'LBL_ASSIGNED_TO_NAME' => 'Atanmış kişi',
+    'LBL_ASSIGNED_TO_NAME' => 'Atanmış ilgili',
     'LBL_ID' => 'Kimlik',
     'LBL_DATE_ENTERED' => 'Eklenme tarihi',
     'LBL_DATE_MODIFIED' => 'Değiştirilme tarihi',
@@ -81,7 +81,7 @@ $mod_strings = array(
     'LBL_QUOTE_SAMPLE' => 'Teklif örneği',
     'LBL_INVOICE_SAMPLE' => 'Fatura örneği',
     'LBL_ACCOUNT_SAMPLE' => 'Hesap örneği',
-    'LBL_CONTACT_SAMPLE' => 'İlgili kişi örneği',
+    'LBL_CONTACT_SAMPLE' => 'İlgili örneği',
     'LBL_LEAD_SAMPLE' => 'Potansiyel örneği',
     'LBL_ANY_STREET' => 'Diğer sokak',
     'LBL_ANY_TOWN' => 'Bir ilçe',
