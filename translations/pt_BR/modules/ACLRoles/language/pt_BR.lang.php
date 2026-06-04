@@ -43,16 +43,16 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Funções',
+    'LBL_MODULE_NAME' => 'Perfis',
     'LBL_MODULE_TITLE' => 'Perfis: Início',
-    'LBL_ROLE' => 'Função',
+    'LBL_ROLE' => 'Perfil',
     'LBL_NAME' => 'Name',
     'LBL_DESCRIPTION' => 'Description',
-    'LIST_ROLES' => 'Exibir Funções',
-    'LBL_USERS_SUBPANEL_TITLE' => 'usuários',
-    'LIST_ROLES_BY_USER' => 'Exibir Funções por Usuário',
-    'LBL_LIST_FORM_TITLE' => 'Funções',
-    'LBL_ROLES_SUBPANEL_TITLE' => 'Funções do Usuário',
+    'LIST_ROLES' => 'Exibir Perfis',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Usuários',
+    'LIST_ROLES_BY_USER' => 'Exibir Perfis por Usuário',
+    'LBL_LIST_FORM_TITLE' => 'Perfis',
+    'LBL_ROLES_SUBPANEL_TITLE' => 'Perfis do Usuário',
     'LBL_SEARCH_FORM_TITLE' => 'Search',
     'LBL_CREATE_ROLE' => 'Criar Perfil',
     'LBL_EDIT_VIEW_DIRECTIONS' => 'Duplo clique para alterar o valor da célula.',
