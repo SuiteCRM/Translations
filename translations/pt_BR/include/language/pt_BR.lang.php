@@ -300,7 +300,7 @@ $app_list_strings = array(
         'Meeting' => 'Reunião',
         'Task' => 'Tarefa',
         'Email' => 'Email',
-        'Note' => 'Nota',
+        'Note' => 'Anotação',
     ),
     'salutation_dom' => array(
         '' => '',
@@ -484,7 +484,7 @@ $app_list_strings = array(
         'Accounts' => 'Conta',
         'Opportunities' => 'Oportunidade',
         'Cases' => 'Ocorrência',
-        'Leads' => 'Cliente Potencial',
+        'Leads' => 'Potencial',
         'Contacts' => 'Contato', // cn (11/22/2005) added to support Emails
 
         'Bugs' => 'Bug',
@@ -647,7 +647,7 @@ $app_list_strings = array(
         'Cases' => 'Ocorrências',
         'Contacts' => 'Contatos',
         'Currencies' => 'Moedas',
-        'Dashboard' => 'Painel',
+        'Dashboard' => 'Dashboard',
         'Documents' => 'Documentos',
         'Emails' => 'Emails',
         'Feeds' => 'Feeds',
@@ -665,7 +665,7 @@ $app_list_strings = array(
         'RSS' => 'RSS',
         'Studio' => 'Studio',
         'Upgrade' => 'Atualização:',
-        'Users' => 'usuários',
+        'Users' => 'Usuários',
     ),
     /*Added entries 'Queued' and 'Sending' for 4.0 release..*/
     'campaign_status_dom' => array(
@@ -777,12 +777,12 @@ $app_list_strings = array(
     ],
 
     'dom_external_oauth_connection_types' => [
-        'personal' => 'pessoal',
+        'personal' => 'Pessoal',
         'group' => 'Group',
     ],
 
     'dom_external_oauth_provider_types' => [
-        'personal' => 'pessoal',
+        'personal' => 'Pessoal',
         'group' => 'Group',
     ],
 
@@ -823,7 +823,7 @@ $app_list_strings = array(
     ],
 
     'dom_outbound_email_account_types' => [
-        'user' => 'pessoal',
+        'user' => 'Pessoal',
         'group' => 'Group',
         'system' => 'Sistema',
         'system-override' => 'Substituição de Sistema',
@@ -946,8 +946,8 @@ $app_list_strings = array(
 
     'document_subcategory_dom' => array(
         '' => '',
-        'Marketing Collateral' => 'Garantia de Marketing',
-        'Product Brochures' => 'Lâminas do produto',
+        'Marketing Collateral' => 'Material de Marketing',
+        'Product Brochures' => 'Catálogos do Produto',
         'FAQ' => 'Perguntas Frequentes',
     ),
 
@@ -1721,10 +1721,10 @@ $app_strings = array(
     'LBL_FIXED_IN_RELEASE' => 'Corrigido na Versão',
     'LBL_IN_EVERYWHERE' => 'Em Todos',
     'LBL_LIST_ACCOUNT_NAME' => 'Nome da Conta',
-    'LBL_LIST_ASSIGNED_USER' => 'Atribuído a',
+    'LBL_LIST_ASSIGNED_USER' => 'Usuário',
     'LBL_LIST_CONTACT_NAME' => 'Nome do Contato',
     'LBL_LIST_CONTACT_ROLE' => 'Perfil do Contato',
-    'LBL_LIST_DATE_ENTERED' => 'Criado em',
+    'LBL_LIST_DATE_ENTERED' => 'Data de Criação',
     'LBL_LIST_EMAIL' => 'Email',
     'LBL_LIST_NAME' => 'Name',
     'LBL_LIST_OF' => 'de',
@@ -3351,8 +3351,8 @@ $app_list_strings['aor_scheduled_report_schedule_types']['daily'] = 'Daily';
 $app_list_strings['aor_scheduled_reports_status_dom']['active'] = 'Ativa';
 $app_list_strings['aor_scheduled_reports_status_dom']['inactive'] = 'Inativa';
 $app_list_strings['aor_email_type_list']['Email Address'] = 'Email';
-$app_list_strings['aor_email_type_list']['Specify User'] = 'Atribuído a';
-$app_list_strings['aor_email_type_list']['Users'] = 'usuários';
+$app_list_strings['aor_email_type_list']['Specify User'] = 'Usuário';
+$app_list_strings['aor_email_type_list']['Users'] = 'Usuários';
 $app_list_strings['aor_assign_options']['all'] = 'Todos Usuários';
 $app_list_strings['aor_assign_options']['role'] = 'Todos Usuários no Perfil';
 $app_list_strings['aor_assign_options']['security_group'] = 'TODOS os usuários no grupo de segurança';
@@ -3396,14 +3396,14 @@ $app_list_strings['aos_quotes_type_dom']['Integrator'] = 'Integrador';
 $app_list_strings['aos_quotes_type_dom']['Investor'] = 'Investidor';
 $app_list_strings['aos_quotes_type_dom']['Partner'] = 'Partner';
 $app_list_strings['aos_quotes_type_dom']['Press'] = 'Imprensa';
-$app_list_strings['aos_quotes_type_dom']['Prospect'] = 'Perspectiva';
+$app_list_strings['aos_quotes_type_dom']['Prospect'] = 'Prospecto';
 $app_list_strings['aos_quotes_type_dom']['Reseller'] = 'Revendedor';
 $app_list_strings['aos_quotes_type_dom']['Other'] = 'Outro';
 $app_list_strings['template_ddown_c_list'][''] = '';
 $app_list_strings['quote_stage_dom']['Draft'] = 'Draft';
 $app_list_strings['quote_stage_dom']['Negotiation'] = 'Negociação';
 $app_list_strings['quote_stage_dom']['Delivered'] = 'Entregue';
-$app_list_strings['quote_stage_dom']['On Hold'] = 'Suspenso';
+$app_list_strings['quote_stage_dom']['On Hold'] = 'Em Espera';
 $app_list_strings['quote_stage_dom']['Confirmed'] = 'Confirmada';
 $app_list_strings['quote_stage_dom']['Closed Accepted'] = 'Fechada Aceita';
 $app_list_strings['quote_stage_dom']['Closed Lost'] = 'Finalizada e Perdida';
@@ -3429,7 +3429,7 @@ $app_list_strings['aos_invoices_type_dom']['Integrator'] = 'Integrador';
 $app_list_strings['aos_invoices_type_dom']['Investor'] = 'Investidor';
 $app_list_strings['aos_invoices_type_dom']['Partner'] = 'Partner';
 $app_list_strings['aos_invoices_type_dom']['Press'] = 'Imprensa';
-$app_list_strings['aos_invoices_type_dom']['Prospect'] = 'Perspectiva';
+$app_list_strings['aos_invoices_type_dom']['Prospect'] = 'Prospecto';
 $app_list_strings['aos_invoices_type_dom']['Reseller'] = 'Revendedor';
 $app_list_strings['aos_invoices_type_dom']['Other'] = 'Outro';
 $app_list_strings['invoice_status_dom']['Paid'] = 'Pago';
