@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_FROM_ADDR' => 'Endereço De:',
+    'LBL_FROM_ADDR' => 'Endereço "De":',
     'LBL_REPLY_ADDR' => 'Endereço para resposta:',
     'LBL_REPLY_NAME' => 'Nome para resposta:',
 
