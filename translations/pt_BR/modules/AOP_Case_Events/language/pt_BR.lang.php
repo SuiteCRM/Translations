@@ -69,5 +69,5 @@ $mod_strings = array(
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Ver Histórico',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Atividades',
     'LBL_NEW_FORM_TITLE' => 'Novo Evento de Ocorrência',
-    'LBL_CASE_NAME' => 'Ocorrências',
+    'LBL_CASE_NAME' => 'Ocorrência',
 );
