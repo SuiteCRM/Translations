@@ -521,7 +521,7 @@ $contact_user_link_guid',
     'LBL_OLD_PHP_MSG' => 'A versão recomendada do PHP para instalar o SuiteCRM é %s <br />A versão mínima necessária do PHP é %s<br />Você está usando a versão %s do PHP, sendo EOL: <a href="http://php.net/eol.php">http://php.net/eol.php</a>.<br />Por favor, considere atualizar sua versão do PHP. ',
     'LBL_OLD_PHP_OK' => 'Estou ciente dos riscos e desejo continuar.',
 
-    'LBL_DBCONF_TITLE_USER_INFO_LABEL' => 'Atribuído a',
+    'LBL_DBCONF_TITLE_USER_INFO_LABEL' => 'Usuário',
     'LBL_DBCONFIG_MSG3_LABEL' => 'Database Name',
     'LBL_DBCONFIG_MSG3' => 'Nome da base de dados que irá conter os dados para a instância SuiteCRM que está prestes a instalar:',
     'LBL_DBCONFIG_MSG2_LABEL' => 'Host Name',
