@@ -156,9 +156,9 @@ $mod_strings = array(
 
     'LBL_RUNMASSEMAILCAMPAIGN' => 'Run Nightly Mass Email Campaigns',
     'LBL_POLLMONITOREDINBOXESFORBOUNCEDCAMPAIGNEMAILS' => 'Run Nightly Process Bounced Campaign Emails',
-    'LBL_PRUNEDATABASE' => 'Prune Database no dia 1º do Mês',
+    'LBL_PRUNEDATABASE' => 'Prune Database no 1º dia do Mês',
     'LBL_TRIMTRACKER' => 'Prune Tracker Tables',
-    'LBL_TRIMSUGARFEEDS' => 'Limpar Tabelas de Feed do SuiteCRM',
+    'LBL_TRIMSUGARFEEDS' => 'Prune das Tabelas de Feed do SuiteCRM',
     'LBL_SENDEMAILREMINDERS' => 'Executar o envio dos lembretes por email',
     'LBL_CLEANJOBQUEUE' => 'Limpar fila de trabahos',
     'LBL_REMOVEDOCUMENTSFROMFS' => 'Removal of documents from filesystem',
