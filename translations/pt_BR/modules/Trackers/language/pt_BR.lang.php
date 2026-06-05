@@ -49,7 +49,7 @@ $mod_strings = array(
     'item_id' => 'ID',
     'item_summary' => 'Name',
     'module_name' => 'Module Name',
-    'users' => 'usuários',
+    'users' => 'Usuários',
 
     //Administration related labels
     'LBL_MODULE_NAME' => 'Rastreadores',
