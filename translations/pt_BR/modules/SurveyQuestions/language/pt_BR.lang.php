@@ -74,8 +74,8 @@ $mod_strings = array(
     'LBL_SORT_ORDER'                                                                   => 'Order',
     'LBL_TYPE'                                                                         => 'Type',
     'LBL_HAPPINESS_QUESTION'                                                           => 'Questão de satisfação',
-    'LBL_SURVEYS_SURVEYQUESTIONS_FROM_SURVEYS_TITLE'                                   => 'Pesquisa',
-    'LBL_SURVEYQUESTIONS_SURVEYQUESTIONRESPONSES_FROM_SURVEYQUESTIONRESPONSES_TITLE'   => 'Respostas da pergunta de pesquisa',
-    'LBL_SURVEYQUESTIONS_SURVEYQUESTIONRESPONSES_1_FROM_SURVEYQUESTIONRESPONSES_TITLE' => 'Respostas da pergunta de pesquisa',
+    'LBL_SURVEYS_SURVEYQUESTIONS_FROM_SURVEYS_TITLE'                                   => 'Pesquisas',
+    'LBL_SURVEYQUESTIONS_SURVEYQUESTIONRESPONSES_FROM_SURVEYQUESTIONRESPONSES_TITLE'   => 'Respostas de perguntas de pesquisa',
+    'LBL_SURVEYQUESTIONS_SURVEYQUESTIONRESPONSES_1_FROM_SURVEYQUESTIONRESPONSES_TITLE' => 'Respostas de perguntas de pesquisa',
     'LBL_SURVEYQUESTIONS_SURVEYQUESTIONOPTIONS_FROM_SURVEYQUESTIONOPTIONS_TITLE'       => 'Opções de perguntas de pesquisa',
 );
