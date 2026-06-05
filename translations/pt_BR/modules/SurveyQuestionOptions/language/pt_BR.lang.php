@@ -72,5 +72,5 @@ $mod_strings = array(
     'LBL_ACTIVITIES_SUBPANEL_TITLE'                                                        => 'Atividades',
     'LBL_SURVEYQUESTIONOPTIONS_SUBPANEL_TITLE'                                             => 'Opções de perguntas de pesquisa',
     'LBL_NEW_FORM_TITLE'                                                                   => 'Novas opções de perguntas de pesquisa',
-    'LBL_SURVEYQUESTIONOPTIONS_SURVEYQUESTIONRESPONSES_FROM_SURVEYQUESTIONRESPONSES_TITLE' => 'Respostas da pergunta de pesquisa',
+    'LBL_SURVEYQUESTIONOPTIONS_SURVEYQUESTIONRESPONSES_FROM_SURVEYQUESTIONRESPONSES_TITLE' => 'Respostas de perguntas de pesquisa',
 );
