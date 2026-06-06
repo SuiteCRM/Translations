@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings['LBL_ASSIGNED_TO_ID'] = 'ID do usuário atribuído';
-$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Atribuído a';
+$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Usuário';
 $mod_strings['LBL_ID'] = 'ID';
 $mod_strings['LBL_DATE_ENTERED'] = 'Data de Criação';
 $mod_strings['LBL_DATE_MODIFIED'] = 'Data de Modificação';
@@ -70,7 +70,7 @@ $mod_strings['LBL_CITY'] = 'Cidade';
 $mod_strings['LBL_STATE'] = 'State';
 $mod_strings['LBL_COUNTRY'] = 'Country';
 $mod_strings['LBL_COORDINATES'] = 'Coordenadas';
-$mod_strings['LBL_LIST_ASSIGNED_USER'] = 'Atribuído a';
+$mod_strings['LBL_LIST_ASSIGNED_USER'] = 'Usuário';
 $mod_strings['LBL_AREA_MAP'] = 'Mapa da Área';
 
 $mod_strings['LBL_AREA_EDIT_TITLE'] = 'Instruções Criação de Área:';
