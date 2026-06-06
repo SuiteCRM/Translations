@@ -109,7 +109,7 @@ $mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex Relate';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Endereço (simples, usuários)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'Customizado (Lógica do Controlador Customizada)';
 $mod_strings['LBL_ENABLED'] = 'Habilitado';
-$mod_strings['LBL_DISABLED'] = 'Desativado';
+$mod_strings['LBL_DISABLED'] = 'Desabilitado';
 $mod_strings['LBL_DEFAULT'] = 'Padrão:';
 $mod_strings['LBL_CONFIG_DEFAULT'] = 'Default:';
 
@@ -185,7 +185,7 @@ $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = "Nota importante: Todas as c
 $mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Areas';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'Marcadores';
 $mod_strings['LBL_PARENT_ID'] = 'Parent ID';
-$mod_strings['LBL_JJWP_PARTNERS'] = 'JJWP Parceiros';
+$mod_strings['LBL_JJWP_PARTNERS'] = 'Parceiros JJWP';
 $mod_strings['LBL_GET_GOOGLE_API_KEY'] = 'Obtenha uma Chave';
 $mod_strings['LBL_GOOGLE_API_KEY'] = 'Chave Google Api';
 $mod_strings['LBL_ERROR_NO_GOOGLE_API_KEY'] = 'Por favor, defina a chave Api da Google no painel administrativo do Google Maps.';
