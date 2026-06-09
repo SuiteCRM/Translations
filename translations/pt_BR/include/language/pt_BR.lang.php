@@ -139,7 +139,7 @@ $app_list_strings = array(
         'Campaigns' => 'Campanha',
         'Documents' => 'Documento',
         'Sync' => 'Sincronizar',
-        'Users' => 'Atribuído a',
+        'Users' => 'Usuário',
         'SugarFavorites' => 'Favoritos',
 
     ),
@@ -160,7 +160,7 @@ $app_list_strings = array(
         'Investor' => 'Investidor',
         'Partner' => 'Partner',
         'Press' => 'Imprensa',
-        'Prospect' => 'Perspectiva',
+        'Prospect' => 'Potencial',
         'Reseller' => 'Revendedor',
         'Other' => 'Outro',
     ),
@@ -570,7 +570,7 @@ $app_list_strings = array(
     'case_type_dom' => array(
         'Administration' => 'Administração',
         'Product' => 'Produto',
-        'User' => 'Atribuído a',
+        'User' => 'Usuário',
     ),
 
     'source_default_key' => '',
@@ -962,7 +962,7 @@ $app_list_strings = array(
 
     'campainglog_target_type_dom' => array(
         'Contacts' => 'Contatos',
-        'Users' => 'usuários',
+        'Users' => 'Usuários',
         'Prospects' => 'Alvos',
         'Leads' => 'Potenciais',
         'Accounts' => 'Contas',
@@ -989,7 +989,7 @@ $app_list_strings = array(
 
     'projects_priority_options' => array(
         'high' => 'Alta',
-        'medium' => 'Média',
+        'medium' => 'Normal',
         'low' => 'Baixa',
     ),
 
@@ -1345,7 +1345,7 @@ $app_strings = array(
 
     'LBL_EMAIL_QC_BUGS' => 'Bug',
     'LBL_EMAIL_QC_CASES' => 'Ocorrência',
-    'LBL_EMAIL_QC_LEADS' => 'Cliente Potencial',
+    'LBL_EMAIL_QC_LEADS' => 'Potencial',
     'LBL_EMAIL_QC_CONTACTS' => 'Contato',
     'LBL_EMAIL_QC_TASKS' => 'Tarefa',
     'LBL_EMAIL_QC_OPPORTUNITIES' => 'Oportunidade',
@@ -1793,7 +1793,7 @@ $app_strings = array(
     'LBL_UNSYNC' => 'Dessincronizar',
     'LBL_UPDATE' => 'Atualizar',
     'LBL_USER_LIST' => 'Lista de Usuários',
-    'LBL_USERS' => 'usuários',
+    'LBL_USERS' => 'Usuários',
     'LBL_VERIFY_EMAIL_ADDRESS' => 'Verificando por registro de e-mail existente...',
     'LBL_VERIFY_PORTAL_NAME' => 'Verificando por nome de portal existente...',
     'LBL_VIEW_IMAGE' => 'visualizar',
@@ -2054,7 +2054,7 @@ $app_strings = array(
     'LBL_NEXT_YEAR' => 'próximo ano',
 
     //Datetimecombo fields
-    'LBL_HOURS' => 'Hora',
+    'LBL_HOURS' => 'Horas',
     'LBL_MINUTES' => 'Minutes',
     'LBL_MERIDIEM' => 'Meridiano',
     'LBL_DATE' => 'Data',
@@ -3259,8 +3259,8 @@ $app_list_strings['aow_assign_options']['security_group'] = 'ALL Users in Securi
 $app_list_strings['aow_email_type_list']['Email Address'] = 'Email';
 $app_list_strings['aow_email_type_list']['Record Email'] = 'Email do Registro';
 $app_list_strings['aow_email_type_list']['Related Field'] = 'Campo Relacionado';
-$app_list_strings['aow_email_type_list']['Specify User'] = 'Atribuído a';
-$app_list_strings['aow_email_type_list']['Users'] = 'usuários';
+$app_list_strings['aow_email_type_list']['Specify User'] = 'Usuário';
+$app_list_strings['aow_email_type_list']['Users'] = 'Usuários';
 $app_list_strings['aow_email_to_list']['to'] = 'To';
 $app_list_strings['aow_email_to_list']['cc'] = 'Cc';
 $app_list_strings['aow_email_to_list']['bcc'] = 'Cco';
@@ -3277,7 +3277,7 @@ $app_list_strings['moduleList']['AM_TaskTemplates'] = 'Modelos de Tarefas Projet
 $app_list_strings['relationship_type_list']['FS'] = 'Término a Início';
 $app_list_strings['relationship_type_list']['SS'] = 'Início a Início';
 $app_list_strings['duration_unit_dom']['Days'] = 'Days';
-$app_list_strings['duration_unit_dom']['Hours'] = 'Hora';
+$app_list_strings['duration_unit_dom']['Hours'] = 'Horas';
 $app_strings['LBL_GANTT_BUTTON_LABEL'] = 'Exibir Gantt';
 $app_strings['LBL_DETAIL_BUTTON_LABEL'] = 'Ver Detalhes';
 $app_strings['LBL_CREATE_PROJECT'] = 'Novo Projeto';
@@ -3312,7 +3312,7 @@ $app_list_strings['map_module_type_list']['Prospects'] = 'Alvos';
 $app_list_strings['map_relate_type_list']['Accounts'] = 'Conta';
 $app_list_strings['map_relate_type_list']['Contacts'] = 'Contato';
 $app_list_strings['map_relate_type_list']['Cases'] = 'Ocorrência';
-$app_list_strings['map_relate_type_list']['Leads'] = 'Cliente Potencial';
+$app_list_strings['map_relate_type_list']['Leads'] = 'Potencial';
 $app_list_strings['map_relate_type_list']['Meetings'] = 'Reunião';
 $app_list_strings['map_relate_type_list']['Opportunities'] = 'Oportunidade';
 $app_list_strings['map_relate_type_list']['Project'] = 'Projeto';
@@ -3744,7 +3744,7 @@ $app_list_strings['search_controllers'] = [
 
 // Calendar Account Types dropdown
 $app_list_strings['calendar_account_types'] = [
-    'personal' => 'pessoal',
+    'personal' => 'Pessoal',
     'shared' => 'Partilhado',
     'group' => 'Group',
 ];
