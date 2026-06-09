@@ -112,7 +112,7 @@ $mod_strings = array(
     'LBL_EXTERNALID' => 'ID Externo da App',
     'LBL_SUBJECT' => 'Assunto:',
     'LBL_TIME' => 'Start Time:',
-    'LBL_USERS_SUBPANEL_TITLE' => 'usuários',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Usuários',
     'LBL_CALENDAR_ACCOUNTS' => 'Calendar Accounts',
     'LBL_PARENT_TYPE' => 'Parent Type',
     'LBL_PARENT_ID' => 'Parent ID',
@@ -126,7 +126,7 @@ $mod_strings = array(
     'NOTICE_DURATION_TIME' => 'Duration time must be greater than 0',
     'LBL_MEETING_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_LIST_JOIN_MEETING' => 'Participar da Reunião',
-    'LBL_ACCEPT_STATUS' => 'Aceitar estado',
+    'LBL_ACCEPT_STATUS' => 'Aceitar Status',
     'LBL_ACCEPT_LINK' => 'Accept Link',
     // You are not invited to the meeting messages
     'LBL_EXTNOT_MAIN' => 'Não é possível participar desta reunião porque não é um Convidado.',
