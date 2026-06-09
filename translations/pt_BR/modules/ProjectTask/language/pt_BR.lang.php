@@ -114,7 +114,7 @@ $mod_strings = array(
     'LBL_SUBTASK' => 'Sub Tarefa',
     'LBL_LAG' => 'Lag',
     'LBL_DAYS' => 'Days',
-    'LBL_HOURS' => 'Hora',
+    'LBL_HOURS' => 'Horas',
     'LBL_RELATIONSHIP_TYPE' => 'Relationship Type',
 
     'LBL_ASCENDING' => 'Ascendente',
