@@ -104,7 +104,7 @@ $mod_strings = array(
     'LNK_NEW_OPPORTUNITY' => 'Nova Oportunidade',
     'LBL_LEADS_SUBPANEL_TITLE' => 'Potenciais',
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contatos',
-    'LBL_USERS_SUBPANEL_TITLE' => 'usuários',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Usuários',
     'LBL_OUTLOOK_ID' => 'ID do Outlook',
     'LBL_MEMBER_OF' => 'Member Of',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Anotações',
@@ -115,7 +115,7 @@ $mod_strings = array(
     'NOTICE_DURATION_TIME' => 'Duration time must be greater than 0',
     'LBL_CALL_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_REMOVE' => 'Remover',
-    'LBL_ACCEPT_STATUS' => 'Aceitar estado',
+    'LBL_ACCEPT_STATUS' => 'Aceitar Status',
     'LBL_ACCEPT_LINK' => 'Aceitar link',
 
     // create invitee functionality
