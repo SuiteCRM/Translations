@@ -647,7 +647,7 @@ Você pode reordenar os módulos arrastando suas linhas na tabela.<br/><br/>
         'currency' => 'Currency',
         'html' => 'HTML',
         'radioenum' => 'Radio',
-        'relate' => 'Vincular a',
+        'relate' => 'Relacionar',
         'address' => 'Address',
         'text' => 'Área de Texto',
         'url' => 'URL',
