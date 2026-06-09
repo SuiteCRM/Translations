@@ -813,7 +813,7 @@ $mod_strings = array(
     'Relationships' => 'Relacionamento',
     'Releases' => 'Lançamento',
     'ReportMaker' => 'ReportMaker',
-    'Roles' => 'Função',
+    'Roles' => 'Perfil',
     'Schedulers' => 'Scheduler',
     'SchedulersJobs' => 'SchedulersJob',
     'Shippers' => 'Fornecedor',
@@ -998,13 +998,13 @@ $mod_strings = array(
     'LBL_PWDSEC_MIN_LENGTH' => 'Tamanho Mínimo de Senha',
     'LBL_PWDSEC_MIN_LENGTH_DESC' => 'Tamanho Mínimo de Senha',
     'LBL_PWDSEC_UPPERCASE' => 'Senha deve conter alguns caracteres em maiúsculas',
-    'LBL_PWDSEC_UPPERCASE_DESC' => 'Senha deve conter alguns caracteres em maiúsculas',
+    'LBL_PWDSEC_UPPERCASE_DESC' => 'A Senha deve conter algum caractere maiúsculo',
     'LBL_PWDSEC_LOWERCASE' => 'Senha deve conter alguns caracteres em minúsculas',
-    'LBL_PWDSEC_LOWERCASE_DESC' => 'Senha deve conter alguns caracteres em minúsculas',
+    'LBL_PWDSEC_LOWERCASE_DESC' => 'A Senha deve conter algum caractere minúsculo',
     'LBL_PWDSEC_NUMBERS' => 'Senha deve conter alguns números',
-    'LBL_PWDSEC_NUMBERS_DESC' => 'Senha deve conter alguns números',
+    'LBL_PWDSEC_NUMBERS_DESC' => 'A senha deve conter algum número',
     'LBL_PWDSEC_SPECCHAR' => 'Senha deve conter alguns caracteres especiais',
-    'LBL_PWDSEC_SPECCHAR_DESC' => 'Senha deve conter alguns caracteres especiais',
+    'LBL_PWDSEC_SPECCHAR_DESC' => 'A Senha deve conter algum caractere especial',
     'LBL_PWDSEC_CHARS' => 'Caracteres',
 
     // SearchWrapper
@@ -1015,7 +1015,7 @@ $mod_strings = array(
 
     // Elasticsearch Settings
     'LBL_ELASTIC_SEARCH' => 'Pesquisa elástica',
-    'LBL_ELASTIC_SEARCH_SETTINGS' => 'Pesquisa elástica',
+    'LBL_ELASTIC_SEARCH_SETTINGS' => 'Elasticsearch',
     'LBL_ELASTIC_SEARCH_SETTINGS_DESC' => 'Configurar as preferências da Pesquisa elástica.',
     'LBL_ELASTIC_SEARCH_SETTINGS_HELP' => 'A pesquisa elástica requer um servidor externo configurado para trabalhar. Leia a <a href="https://docs.suitecrm.com/admin/administration-panel/search/elasticsearch/">documentação</a> para aprender como.',
     'LBL_ELASTIC_SEARCH_GENERAL' => 'Geral',
