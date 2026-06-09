@@ -118,7 +118,7 @@ $mod_strings = array(
     'LBL_AUTHENTICATE_ID' => 'ID Autenticação',
     'LBL_EXT_AUTHENTICATE' => 'Autenticação Externa',
     'LBL_GROUP_USER' => 'Group User',
-    'LBL_LIST_ACCEPT_STATUS' => 'Aceitar estado',
+    'LBL_LIST_ACCEPT_STATUS' => 'Aceitar Status',
     'LBL_MODIFIED_BY' => 'Modificado Por',
     'LBL_MODIFIED_BY_ID' => 'Modificado pelo ID',
     'LBL_CREATED_BY_NAME' => 'Created By', //bug48978
@@ -148,7 +148,7 @@ $mod_strings = array(
     'LBL_OAUTH_TOKENS' => 'Tokens OAuth',
     'LBL_PROJECT_USERS_1_FROM_PROJECT_TITLE' => 'Usuários do projeto a partir do título do projeto',
     'LBL_PROJECT_CONTACTS_1_FROM_CONTACTS_TITLE' => 'Contatos do projeto a partir do título dos contatos',
-    'LBL_ROLES' => 'Funções',
+    'LBL_ROLES' => 'Perfis',
     'LBL_SECURITYGROUPS' => 'Grupos de Segurança',
     'LBL_PROSPECT_LIST' => 'Lista de Alvos',
 
