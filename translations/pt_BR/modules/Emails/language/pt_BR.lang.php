@@ -379,12 +379,12 @@ $mod_strings = array(
     'LBL_MARK_UNFLAGGED' => 'Marcar como não assinalado',
     'LBL_CONFIRM_OPT_IN_SENT_DATE' => 'Email de adesão enviado',
     'LBL_CONFIRM_OPT_IN_FAIL_DATE' => 'Falha no e-mail de adesão',
-    'LBL_CONFIRM_OPT_IN_TOKEN' => 'Confirmar chave do consentimento',
+    'LBL_CONFIRM_OPT_IN_TOKEN' => 'Confirmar Token de Adesão',
 
     'ERR_NO_RETURN_ID' => 'Anexo não encontrado.',
 
     'LBL_LIST_DATE_MODIFIED' => 'Última Modificação',
-    'LNK_IMPORT_CAMPAIGNS' => 'Importar campanha',
+    'LNK_IMPORT_CAMPAIGNS' => 'Importar Campanha',
 
     // Email Validation Error messages. Typicaly for Email Validation:
     'ERR_FIELD_FROM_IS_NOT_SET' => 'O campo \'De\' não está definido.',
