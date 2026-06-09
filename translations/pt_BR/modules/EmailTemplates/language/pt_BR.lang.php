@@ -70,10 +70,10 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Pesquisar em Modelos de E-mail',
     'LBL_SHOW_ALT_TEXT' => 'Exibir Texto Alternativo',
     'LBL_SUBJECT' => 'Assunto:',
-    'LBL_SUITE_DOCUMENT' => 'Documentos',
+    'LBL_SUITE_DOCUMENT' => 'Documento',
     'LBL_UPLOAD_FILE' => 'Carregar Arquivo',
     'LBL_TEXT_BODY' => 'Corpo do Texto',
-    'LBL_USERS' => 'usuários',
+    'LBL_USERS' => 'Usuários',
 
     'LNK_EMAIL_TEMPLATE_LIST' => 'View Email Templates',
     'LNK_IMPORT_NOTES' => 'Importar Anotações',
