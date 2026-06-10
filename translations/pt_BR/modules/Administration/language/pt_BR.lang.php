@@ -1019,7 +1019,7 @@ $mod_strings = array(
     'LBL_ELASTIC_SEARCH_SETTINGS_DESC' => 'Configurar as preferências da Pesquisa elástica.',
     'LBL_ELASTIC_SEARCH_SETTINGS_HELP' => 'A pesquisa elástica requer um servidor externo configurado para trabalhar. Leia a <a href="https://docs.suitecrm.com/admin/administration-panel/search/elasticsearch/">documentação</a> para aprender como.',
     'LBL_ELASTIC_SEARCH_GENERAL' => 'Geral',
-    'LBL_ELASTIC_SEARCH_ENABLE' => 'Ativar Pesquisa Elástica:',
+    'LBL_ELASTIC_SEARCH_ENABLE' => 'Ativar Elasticsearch:',
     'LBL_ELASTIC_SEARCH_TEST_CONNECTION' => 'Testar conexão',
     'LBL_ELASTIC_SEARCH_TEST_CONNECTION_SUCCESS' => 'Conexão bem-sucedida.',
     'LBL_ELASTIC_SEARCH_TEST_CONNECTION_FAIL' => 'Falha na conexão.',
