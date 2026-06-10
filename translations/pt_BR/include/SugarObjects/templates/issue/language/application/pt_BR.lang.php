@@ -67,7 +67,7 @@ $app_list_strings = array(
         '' => '',
         'Accepted' => 'Aceito',
         'Duplicate' => 'Duplicado',
-        'Closed' => 'Closed',
+        'Closed' => 'Fechado',
         'Out of Date' => 'Desatualizada',
         'Invalid' => 'Inválido',
     ),
