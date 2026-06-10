@@ -109,11 +109,11 @@ $app_list_strings = array(
         'OAuthTokens' => 'Bảo mật',
         'OAuth2Clients' => 'OAuth Clients',
         'OAuth2Tokens' => 'Bảo mật',
-        'OAuth2AuthCodes' => 'OAuth Authorization Codes',
+        'OAuth2AuthCodes' => 'Mã ủy quyền OAuth',
     ),
 
     'moduleListSingular' => array(
-        'Home' => 'Home',
+        'Home' => 'Trang chủ',
         'Dashboard' => 'Tổng quan',
         'Contacts' => 'Liên hệ',
         'Accounts' => 'Tài khoản',
@@ -125,13 +125,13 @@ $app_list_strings = array(
         'EmailTemplates' => 'Email mẫu',
         'Meetings' => 'Hội họp',
         'Tasks' => 'Công việc',
-        'Calendar' => 'Calendar',
+        'Calendar' => 'Lịch',
         'Leads' => 'Đầu mối',
         'Activities' => 'Hoạt động',
         'Bugs' => 'Phát sinh',
         'KBDocuments' => 'Kiến thức cơ sở',
         'Feeds' => 'Tin',
-        'iFrames' => 'My Sites',
+        'iFrames' => 'Trang web của tôi',
         'TimePeriods' => 'Khoảng thời gian',
         'Project' => 'Dự án',
         'ProjectTask' => 'Công việc dự án',
@@ -140,7 +140,7 @@ $app_list_strings = array(
         'Documents' => 'Tài liệu',
         'Sync' => 'Đồng phòng ban',
         'Users' => 'Người dùng',
-        'SugarFavorites' => 'SuiteCRM Favorites',
+        'SugarFavorites' => 'Yêu thích SuiteCRM',
 
     ),
 
@@ -198,12 +198,12 @@ $app_list_strings = array(
         'Utilities' => 'Đa dụng',
         'Other' => 'Khác',
     ),
-    'lead_source_default_key' => 'Self Generated',
+    'lead_source_default_key' => 'Tự tạo',
     'lead_source_dom' => array(
         '' => '',
         'Cold Call' => 'Cuộc gọi hoàn hảo',
         'Existing Customer' => 'Khách hàng có sẵn',
-        'Self Generated' => 'Self Generated',
+        'Self Generated' => 'Tự tạo',
         'Employee' => 'Nhân viên',
         'Partner' => 'Đối tác',
         'Public Relations' => 'Quan hệ cộng đồng',
@@ -244,10 +244,10 @@ $app_list_strings = array(
     ),
     //Note:  do not translate case_relationship_type_default_key
 //       it is the key for the default case_relationship_type_dom value
-    'case_relationship_type_default_key' => 'Primary Contact',
+    'case_relationship_type_default_key' => 'liên hệ chính',
     'case_relationship_type_dom' => array(
         '' => '',
-        'Primary Contact' => 'Primary Contact',
+        'Primary Contact' => 'Liên hệ chính',
         'Alternate Contact' => 'Thông tin liên hệ phụ',
     ),
     'payment_terms' => array(
@@ -255,9 +255,9 @@ $app_list_strings = array(
         'Net 15' => 'Net 15',
         'Net 30' => 'Net 30',
     ),
-    'sales_stage_default_key' => 'Prospecting',
+    'sales_stage_default_key' => 'Tiềm năng',
     'sales_stage_dom' => array(
-        'Prospecting' => 'Prospecting',
+        'Prospecting' => 'Tiềm năng',
         'Qualification' => 'Trình độ chuyên môn',
         'Needs Analysis' => 'Cần phân tích',
         'Value Proposition' => 'Đề xuất giá trị',
@@ -284,7 +284,7 @@ $app_list_strings = array(
     'activity_dom' => array(
         'Call' => 'Cuộc gọi',
         'Meeting' => 'Hội họp',
-        'Task' => 'Task',
+        'Task' => 'Nhiệm vụ',
         'Email' => 'Email',
         'Note' => 'Ghi chú',
     ),
@@ -299,8 +299,8 @@ $app_list_strings = array(
     ),
 
     'redirect_uri_type_dom' => [
-        'pretty_url' => 'Pretty URL (/ep/)',
-        'query_string' => 'Query String (index.php?entryPoint=)'
+        'pretty_url' => 'Đường dẫn thân thiện',
+        'query_string' => 'Chuỗi truy vấn (index.php?entryPoint=)'
     ],
 
     //time is in seconds; the greater the time the longer it takes;
@@ -324,17 +324,17 @@ $app_list_strings = array(
         'Medium' => 'Đa phương tiện',
         'Low' => 'Thấp',
     ),
-    'task_status_default' => 'Not Started',
+    'task_status_default' => 'Chưa bắt đầu',
     'task_status_dom' => array(
-        'Not Started' => 'Not Started',
+        'Not Started' => 'Chưa bắt đầu',
         'In Progress' => 'Đang tiến hành',
         'Completed' => 'Hoàn thành',
         'Pending Input' => 'Đang chờ xử lý đầu vào',
         'Deferred' => 'Hoãn lại',
     ),
-    'meeting_status_default' => 'Planned',
+    'meeting_status_default' => 'Lên kế hoạch',
     'meeting_status_dom' => array(
-        'Planned' => 'Planned',
+        'Planned' => 'Lên kế hoạch',
         'Held' => 'Đã giữ lại',
         'Not Held' => 'Không giữ lại',
     ),
@@ -345,16 +345,16 @@ $app_list_strings = array(
         'Other' => 'Khác',
         'Sugar' => 'SuiteCRM',
     ),
-    'call_status_default' => 'Planned',
+    'call_status_default' => 'Lên kế hoạch',
     'call_status_dom' => array(
-        'Planned' => 'Planned',
-        'Held' => 'Held',
-        'Not Held' => 'Not Held',
+        'Planned' => 'Lên kế hoạch',
+        'Held' => 'Được tổ chức',
+        'Not Held' => 'Không được tổ chức',
     ),
-    'call_direction_default' => 'Outbound',
+    'call_direction_default' => 'Xuất cảnh',
     'call_direction_dom' => array(
         'Inbound' => 'Trong giới hạn',
-        'Outbound' => 'Outbound',
+        'Outbound' => 'Xuất cảnh',
     ),
     'lead_status_dom' => array(
         '' => '',
@@ -396,16 +396,16 @@ $app_list_strings = array(
     'project_task_priority_options' => array(
         'High' => 'Cao',
         'Medium' => 'Đa phương tiện',
-        'Low' => 'Low',
+        'Low' => 'Thấp',
     ),
     'project_task_priority_default' => 'Đa phương tiện',
 
     'project_task_status_options' => array(
-        'Not Started' => 'Not Started',
-        'In Progress' => 'In Progress',
-        'Completed' => 'Completed',
+        'Not Started' => 'Chưa bắt đầu',
+        'In Progress' => 'Đang tiến hành',
+        'Completed' => 'Hoàn thành',
         'Pending Input' => 'Đang chờ xử lý đầu vào',
-        'Deferred' => 'Deferred',
+        'Deferred' => 'Hoãn lại',
     ),
     'project_task_utilization_options' => array(
         '0' => 'không có',
@@ -420,7 +420,7 @@ $app_list_strings = array(
         'In Review' => 'Đang xem xét',
         'Underway' => 'Tiến hành',
         'On_Hold' => 'Chờ đợi',
-        'Completed' => 'Completed',
+        'Completed' => 'Hoàn thành',
     ),
     'project_status_default' => 'Dự thảo',
 
@@ -432,7 +432,7 @@ $app_list_strings = array(
     'activity_status_type_dom' => array(
         '' => '--Không--',
         'active' => 'Đang hoạt động',
-        'inactive' => 'Inactive',
+        'inactive' => 'Vô hiệu hóa',
     ),
 
     // Note:  do not translate record_type_default_key
@@ -441,18 +441,18 @@ $app_list_strings = array(
     'record_type_display' => array(
         '' => '',
         'Accounts' => 'Tài khoản',
-        'Opportunities' => 'Opportunity',
-        'Cases' => 'Case',
+        'Opportunities' => 'Cơ hội',
+        'Cases' => 'Trường hợp',
         'Leads' => 'Đối tác tiềm năng',
         'Contacts' => 'Liên hệ', // cn (11/22/2005) added to support Emails
 
-        'Bugs' => 'Bug',
-        'Project' => 'Project',
+        'Bugs' => 'Lỗi',
+        'Project' => 'Dự án',
 
-        'Prospects' => 'Target',
-        'ProjectTask' => 'Project Task',
+        'Prospects' => 'Mục tiêu',
+        'ProjectTask' => 'Nhiệm vụ dự án',
 
-        'Tasks' => 'Task',
+        'Tasks' => 'Nhiệm vụ',
 
         'AOS_Contracts' => 'Hợp đồng',
         'AOS_Invoices' => 'Hoá đơn',
@@ -464,16 +464,16 @@ $app_list_strings = array(
     'record_type_display_notes' => array(
         'Accounts' => 'Tài khoản',
         'Contacts' => 'Liên hệ',
-        'Opportunities' => 'Opportunity',
+        'Opportunities' => 'Cơ hội',
         'Campaigns' => 'Chiến dịch kinh doanh',
-        'Tasks' => 'Task',
+        'Tasks' => 'Nhiệm vụ',
         'Emails' => 'Email',
 
-        'Bugs' => 'Bug',
-        'Project' => 'Project',
-        'ProjectTask' => 'Project Task',
-        'Prospects' => 'Target',
-        'Cases' => 'Case',
+        'Bugs' => 'Lỗi',
+        'Project' => 'Dự án',
+        'ProjectTask' => 'Nhiệm vụ dự án',
+        'Prospects' => 'Mục tiêu',
+        'Cases' => 'Trường hợp',
         'Leads' => 'Đối tác tiềm năng',
 
         'Meetings' => 'Hội họp',
@@ -488,17 +488,17 @@ $app_list_strings = array(
     'parent_type_display' => array(
         'Accounts' => 'Tài khoản',
         'Contacts' => 'Liên hệ',
-        'Tasks' => 'Task',
-        'Opportunities' => 'Opportunity',
+        'Tasks' => 'Nhiệm vụ',
+        'Opportunities' => 'Cơ hội',
 
-        'Bugs' => 'Bug',
-        'Cases' => 'Case',
+        'Bugs' => 'Lỗi',
+        'Cases' => 'Trường hợp',
         'Leads' => 'Đối tác tiềm năng',
 
-        'Project' => 'Project',
-        'ProjectTask' => 'Project Task',
+        'Project' => 'Dự án',
+        'ProjectTask' => 'Nhiệm vụ dự án',
 
-        'Prospects' => 'Target',
+        'Prospects' => 'Mục tiêu',
 
         'AOS_Contracts' => 'Hợp đồng',
         'AOS_Invoices' => 'Hoá đơn',
@@ -539,7 +539,7 @@ $app_list_strings = array(
 
     'bug_priority_default_key' => 'Đa phương tiện',
     'bug_priority_dom' => array(
-        'Urgent' => 'Urgent',
+        'Urgent' => 'Khẩn cấp',
         'High' => 'Cao',
         'Medium' => 'Đa phương tiện',
         'Low' => 'Thấp',
@@ -562,7 +562,7 @@ $app_list_strings = array(
         'Pending' => 'Trì hoãn',
         'Rejected' => 'Đã từ chối',
     ),
-    'bug_type_default_key' => 'Bug',
+    'bug_type_default_key' => 'Lỗi',
     'bug_type_dom' => array(
         'Defect' => 'Khiếm khuyết',
         'Feature' => 'Tính năng',
@@ -588,9 +588,9 @@ $app_list_strings = array(
         'Accounts' => 'Tài khoản',
         'Activities' => 'Hoạt động',
         'Bugs' => 'Lỗi',
-        'Calendar' => 'Calendar',
+        'Calendar' => 'Lịch',
         'Calls' => 'Cuộc gọi',
-        'Campaigns' => 'Campaigns',
+        'Campaigns' => 'Chiến dịch',
         'Cases' => 'Các Vụ việc',
         'Contacts' => 'Liên hệ',
         'Currencies' => 'Currencies',
