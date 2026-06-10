@@ -55,7 +55,7 @@ $mod_strings = array(
     'LBL_LIST_SALE_STAGE' => 'Giai đoạn bán hàng',
     'LBL_ACCOUNT_ID' => 'ID Khách hàng',
     //DON'T CONVERT THESE THEY ARE MAPPINGS
-    'db_name' => 'LBL_NAME',
+    'db_name' => 'Tên_LBL',
     //END DON'T CONVERT
     'LBL_ACCOUNT_NAME' => 'Tên tài khoản:',
     'LBL_AMOUNT' => 'Giá trị:',
