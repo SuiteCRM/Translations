@@ -74,7 +74,7 @@ Descripción: {ACCOUNT_DESCRIPTION}
 Asunto: {CASE_SUBJECT}<br/>
 Prioridad: {CASE_PRIORITY}<br/>
 Estado: {CASE_STATUS}<br/>
-Descripción: {CASE_DESCRIPTION}
+Descripción:
 </p>
 <p>You may <a href={URL}>review this Case</a>.</p>
 <!-- END: Case -->
@@ -127,8 +127,7 @@ URL de la Reunión: {MEETING_URL}
 <!-- BEGIN: MeetingSpecial -->
 <p><b>{ASSIGNER}</b> has assigned a Meeting to <b>{ASSIGNED_USER}</b>.</p>
 <p>
-Asunto: {MEETING_SUBJECT}<br/>
-Ubicación: {MEETING_LOCATION}<br/>
+{MEETING_LOCATION}<br/>
 Estátus: {MEETING_STATUS}<br/>
 Fecha de inicio: {MEETING_STARTDATE}<br/>
 Fecha de fin: {MEETING_ENDDATE}<br/>
@@ -208,7 +207,7 @@ Descripción: {OPPORTUNITY_DESCRIPTION}
 <!-- BEGIN: Bug -->
 <p><b>{ASSIGNER}</b> has assigned a Bug to <b>{ASSIGNED_USER}</b>.</p>
 <p>
-Número de error: {BUG_BUG_NUMBER}<br/>
+{BUG_BUG_NUMBER}<br/>
 Asunto: {BUG_SUBJECT}<br/>
 Tipo: {BUG_TYPE}<br/>
 Prioridad: {BUG_PRIORITY}<br/>
@@ -216,7 +215,7 @@ Estátus: {BUG_STATUS}<br/>
 Solución: {BUG_RESOLUTION}<br/>
 Liberación: {BUG_RELEASE}<br/>
 Descripción: {BUG_DESCRIPTION}<br/>
-Registro de trabajo: {BUG_WORK_LOG}
+Registro de trabajo:
 </p>
 <p>You may <a href={URL}>review this Bug</a>.</p>
 <!-- END: Bug -->
