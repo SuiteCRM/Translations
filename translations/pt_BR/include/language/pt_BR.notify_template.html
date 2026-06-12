@@ -199,7 +199,7 @@ Previsão de Fechamento: {OPPORTUNITY_CLOSEDATE}<br/>
 Fase de Venda: {OPPORTUNITY_STAGE}<br/>
 Descrição: {OPPORTUNITY_DESCRIPTION}
 </p>
-<p>You may <a href={URL}>review this Opportunity</a>.</p>
+<p>Você pode <a href={URL}>acessar esta Oportunidade</a>.</p>
 <!-- END: Opportunity -->
 
 <!-- BEGIN: Bug_Subject -->
@@ -218,7 +218,7 @@ Lançamento: {BUG_RELEASE}<br/>
 Descrição: {BUG_DESCRIPTION}<br/>
 Registros de Trabalho: {BUG_WORK_LOG}
 </p>
-<p>You may <a href={URL}>review this Bug</a>.</p>
+<p>Você pode <a href={URL}>acessar este Bug</a>.</p>
 <!-- END: Bug -->
 
 <!-- BEGIN: Default_Subject -->
@@ -226,7 +226,7 @@ Registros de Trabalho: {BUG_WORK_LOG}
 <!-- END: Default_Subject -->
 <!-- BEGIN: Default -->
 <p><b>{ASSIGNER}</b> atribuiu um(a) {OBJECT} a <b>{ASSIGNED_USER}</b>.</p>
-<p>You may <a href={URL}>review this {OBJECT}</a>.</p>
+<p>Você pode <a href={URL}>acessar este(a) {OBJECT}</a>.</p>
 <!-- END: Default -->
 
 <!-- BEGIN: Call_Subject -->
@@ -244,9 +244,9 @@ Descrição: {CALL_DESCRIPTION}<br/>
 </p>
 <!-- BEGIN: Call_Links -->
 <p>---</p>
-<p><a href={ACCEPT_URL}&accept_status=accept>Accept this call</a>.</p>
-<p><a href={ACCEPT_URL}&accept_status=tentative>Tentatively Accept this call</a>.</p>
-<p><a href={ACCEPT_URL}&accept_status=decline>Decline this call</a>.</p>
+<p><a href={ACCEPT_URL}&accept_status=accept>Aceitar Convite</a>.</p>
+<p><a href={ACCEPT_URL}&accept_status=tentative>Tentar Participar</a>.</p>
+<p><a href={ACCEPT_URL}&accept_status=decline>Recusar Convite</a>.</p>
 <!-- END: Call_Links -->
 <!-- END: Call -->
 
@@ -254,7 +254,7 @@ Descrição: {CALL_DESCRIPTION}<br/>
 <p>Chamada de SuiteCRM - {CALL_SUBJECT}</p>
 <!-- END: CallSpecial_Subject -->
 <!-- BEGIN: CallSpecial -->
-<p><b>{ASSIGNER}</b> has assigned a Call to <b>{ASSIGNED_USER}</b>.</p>
+<p><b>{ASSIGNER}</b> atribuiu uma Ligação a <b>{ASSIGNED_USER}</b>.</p>
 <p>
 Assunto: {CALL_SUBJECT}<br/>
 Status: {CALL_STATUS}<br/>
@@ -262,7 +262,7 @@ Data de Início: {CALL_STARTDATE}<br/>
 Duração: {CALL_HOURS}h, {CALL_MINUTES}m<br/>
 Descrição: {CALL_DESCRIPTION}
 </p>
-<p>You may <a href={URL}>review this Call</a>.</p>
+<p>Você pode <a href={URL}>acessar esta Ligação</a>.</p>
 <!-- END: CallSpecial -->
 
 <!-- BEGIN: CallReminder_Subject -->
@@ -280,7 +280,7 @@ Criado Por: {CALL_CREATED_BY}
 <p>Campanha do SuiteCRM - {CAMPAIGN_NAME}</p>
 <!-- END: Campaign_Subject -->
 <!-- BEGIN: Campaign -->
-<p><b>{ASSIGNER}</b> has assigned a Campaign to <b>{ASSIGNED_USER}</b>.</p>
+<p><b>{ASSIGNER}</b> atribuiu uma Campanha a <b>{ASSIGNED_USER}</b>.</p>
 <p>
 Assunto: {CAMPAIGN_NAME}<br/>
 Valor: {CAMPAIGN_AMOUNT}<br/>
@@ -288,19 +288,19 @@ Data de Encerramento: {CAMPAIGN_CLOSEDATE}<br/>
 Status: {CAMPAIGN_STATUS}<br/>
 Descrição: {CAMPAIGN_DESCRIPTION}
 </p>
-<p>You may <a href={URL}>review this Campaign</a>.</p>
+<p>Você pode <a href={URL}>acessar esta Campanha</a>.</p>
 <!-- END: Campaign -->
 
 <!-- BEGIN: Quota_Subject -->
 <p>Metas do SuiteCRM - Sua Meta para {QUOTA_TIMEPERIOD}</p>
 <!-- END: Quota_Subject -->
 <!-- BEGIN: Quota -->
-<p><b>{ASSIGNER}</b> has assigned a Quota to <b>{ASSIGNED_USER}</b>.</p>
+<p><b>{ASSIGNER}</b> atribuiu uma Cota a <b>{ASSIGNED_USER}</b>.</p>
 <p>
     Valor: {QUOTA_AMOUNT}<br/>
     Período: {QUOTA_TIMEPERIOD}
 </p>
-<p>You may <a href={QUOTA_URL}>review this Quota assignment</a>.</p>
+<p>Você pode <a href={QUOTA_URL}>acessar esta Atribuição de Cota</a>.</p>
 <!-- END: Quota -->
 
 <!-- BEGIN: KBDocument_Subject -->
@@ -316,15 +316,15 @@ Criado por: {KBDOCUMENT_CREATED_BY}<br/>
 Status: {KBDOCUMENT_STATUS}<br/>
 Descrição: {KBDOCUMENT_DESCRIPTION}
 </p>
-<p>You may <a href={URL}>review this Document</a>.</p>
+<p>Você pode <a href={URL}>acessar este Documento</a>.</p>
 <!-- END: KBDocument -->
 
 <!-- BEGIN: Contract_Subject -->
 <p>Contrato do SuiteCRM - {CONTRACT_NAME}</p>
 <!-- END: Contract_Subject -->
 <!-- BEGIN: Contract-->
-<p><b>{ASSIGNER}</b> has assigned a Contract to <b>{ASSIGNED_USER}</b>.</p>
-<p>You may <a href={URL}>review this Contract</a>.</p>
+<p><b>{ASSIGNER}</b> atribuiu um Contato a <b>{ASSIGNED_USER}</b>.</p>
+<p>Você pode <a href={URL}>acessar este Contato</a>.</p>
 <!-- END:Contract-->
 
 <!-- BEGIN: ContractSpecial_Subject -->
@@ -332,5 +332,5 @@ Descrição: {KBDOCUMENT_DESCRIPTION}
 <!-- END: ContractSpecial_Subject -->
 <!-- BEGIN: ContractSpecial -->
 <p>Seu Contrato: a vigência do {CONTRACT_NAME} terminará em {CONTRACT_END_DATE}.</p>
-<p>You may <a href={URL}>review this Contract</a>.</p>
+<p>Você pode <a href={URL}>acessar este Contato</a>.</p>
 <!-- END:ContractSpecial-->
