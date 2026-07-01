@@ -145,7 +145,7 @@ $mod_strings = array(
     'LBL_EMAIL_IMPORT_CONFIGURATION' => 'Email Import Configuration',
     'LBL_EMAIL_IMPORT_PER_RUN_THRESHOLD' => 'Threshold for Number of Emails Imported Per Run (per Mailbox)',
     'LBL_EMAIL_IMPORT_PER_RUN_THRESHOLD_DESC' => 'Threshold of emails to import per run. Default is 25. Each run will go through each day in the mailbox within the set timeframe, from oldest to most recent. It will import all emails on each day until the total emails imported on this run exceeds the threshold. Once met, the job will stop and mark the last day imported, starting there on the next run.',
-    'LBL_EMAIL_IMPORT_TIMEFRAME_START' => 'Starting Point for New Mailbox Imports',
-    'LBL_EMAIL_IMPORT_TIMEFRAME_START_DESC' => 'Period of time from which emails will start being imported. For example, selecting 30 Days will start with emails from 30 days ago and move forward from there.',
-    'LBL_EMAIL_IMPORT_FETCH_UNREAD_ONLY' => 'Only fetch unread emails when importing',
+    'LBL_EMAIL_IMPORT_TIMEFRAME_START' => 'Ponto inicial para importação de novas caixas de e-mail',
+    'LBL_EMAIL_IMPORT_TIMEFRAME_START_DESC' => 'Período a partir do qual os emails começarão a ser importados. Por exemplo, selecionando os 30 Dias começará com os emails a partir de 30 dias atrás e avançará a partir daí.',
+    'LBL_EMAIL_IMPORT_FETCH_UNREAD_ONLY' => 'Buscar apenas emails não lidos durante a importação',
 );
