@@ -50,21 +50,21 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Listar Bugs',
     'LBL_NEW_FORM_TITLE' => 'Criar Bug',
     'LBL_SUBJECT' => 'Assunto:',
-    'LBL_NUMBER' => 'Number:',
+    'LBL_NUMBER' => 'Número:',
     'LBL_STATUS' => 'Status:',
-    'LBL_PRIORITY' => 'Priority:',
+    'LBL_PRIORITY' => 'Prioridade:',
     'LBL_DESCRIPTION' => 'Descrição:',
     'LBL_CONTACT_NAME' => 'Nome do Contato:',
     'LBL_CONTACT_ROLE' => 'Perfil:',
     'LBL_LIST_NUMBER' => 'Núm.',
-    'LBL_LIST_SUBJECT' => 'Subject',
+    'LBL_LIST_SUBJECT' => 'Assunto',
     'LBL_LIST_STATUS' => 'Status',
-    'LBL_LIST_PRIORITY' => 'Priority',
-    'LBL_LIST_RESOLUTION' => 'Resolution',
+    'LBL_LIST_PRIORITY' => 'Prioridade',
+    'LBL_LIST_RESOLUTION' => 'Resolução',
     'LBL_LIST_LAST_MODIFIED' => 'Última Modificação',
     'LBL_INVITEE' => 'Contatos',
     'LBL_TYPE' => 'Tipo:',
-    'LBL_LIST_TYPE' => 'Type',
+    'LBL_LIST_TYPE' => 'Tipo',
     'LBL_RESOLUTION' => 'Resolução:',
     'LBL_RELEASE' => 'Versão:',
     'LNK_NEW_BUG' => 'Reportar Bug',
@@ -77,15 +77,15 @@ $mod_strings = array(
     'LBL_LIST_FIXED_IN_RELEASE' => 'Corrigido na versão',
     'LBL_WORK_LOG' => 'Log de trabalho:',
     'LBL_SOURCE' => 'Origem:',
-    'LBL_PRODUCT_CATEGORY' => 'Category:',
+    'LBL_PRODUCT_CATEGORY' => 'Categoria:',
 
     'LBL_CREATED_BY' => 'Criado por:',
     'LBL_MODIFIED_BY' => 'Última Modificação por:',
 
     'LBL_LIST_EMAIL_ADDRESS' => 'Endereço de e-mail',
-    'LBL_LIST_CONTACT_NAME' => 'Contact Name',
+    'LBL_LIST_CONTACT_NAME' => 'Nome do Contato',
     'LBL_LIST_ACCOUNT_NAME' => 'Nome da Conta',
-    'LBL_LIST_PHONE' => 'Phone',
+    'LBL_LIST_PHONE' => 'Telefone',
     'NTC_DELETE_CONFIRMATION' => 'Tem a certeza de que pretende eliminar este Contato deste Bug?',
     'NTC_SNOOZE_CONFIRMATION' => 'Você tem certeza que deseja adiar?',
 
@@ -100,6 +100,6 @@ $mod_strings = array(
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Usuário atribuído',
     'LBL_ASSIGNED_TO_NAME' => 'Atribuído a',
 
-    'LBL_BUG_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_BUG_INFORMATION' => 'VISÂO GERAL', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
 );
