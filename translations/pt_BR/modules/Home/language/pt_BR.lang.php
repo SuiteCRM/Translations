@@ -114,7 +114,7 @@ $mod_strings = array(
     'LBL_DASHLET_CONFIGURE_FILTERS' => 'Filters',
     'LBL_DASHLET_CONFIGURE_MY_ITEMS_ONLY' => 'Only My Items',
     'LBL_DASHLET_CONFIGURE_TITLE' => 'Título',
-    'LBL_DASHLET_CONFIGURE_DISPLAY_ROWS' => 'Display Rows',
+    'LBL_DASHLET_CONFIGURE_DISPLAY_ROWS' => 'Exibir Linhas',
 
     'LBL_DASHLET_DELETE' => 'Excluir Dashlet do SuiteCRM',
     'LBL_DASHLET_REFRESH' => 'Atualizar Dashlet do SuiteCRM',
@@ -124,15 +124,15 @@ $mod_strings = array(
     'LBL_HOME_PAGE_1_NAME' => 'Meu CRM',
     'LBL_CLOSE_SITEMAP' => 'Fechar',
 
-    'LBL_SEARCH' => 'Search',
-    'LBL_CLEAR' => 'Clear',
+    'LBL_SEARCH' => 'Pesquisar',
+    'LBL_CLEAR' => 'Limpar',
 
     'LBL_BASIC_CHARTS' => 'Gráficos Básicos',
 
     'LBL_DASHLET_SEARCH' => 'Encontrar Dashlet do SuiteCRM',
 
 //ABOUT page
-    'LBL_VERSION' => 'Version',
+    'LBL_VERSION' => 'Versão',
     'LBL_BUILD' => 'Compilaçāo',
 
     'LBL_SOURCE_SUGAR' => 'SuiteCRM Inc - fornecedores do framework CE',
@@ -145,10 +145,10 @@ $mod_strings = array(
     'LBL_DASHLET_SUITE_NEWS' => 'Notícias do SuiteCRM',
     'LBL_DASHLET_DISCOVER_SUITE' => 'Descubra o SuiteCRM',
     'LBL_BASIC_SEARCH' => 'Filtro Rápido' /*for 508 compliance fix*/,
-    'LBL_ADVANCED_SEARCH' => 'Advanced Filter' /*for 508 compliance fix*/,
+    'LBL_ADVANCED_SEARCH' => 'Filtro Avançado' /*for 508 compliance fix*/,
     'LBL_TOUR_HOME' => 'Ícone de Início',
     'LBL_TOUR_HOME_DESCRIPTION' => 'Volte rapidamente para o painel de suavpágina inicial em um clique.',
-    'LBL_TOUR_MODULES' => 'Modules',
+    'LBL_TOUR_MODULES' => 'Módulos',
     'LBL_TOUR_MODULES_DESCRIPTION' => 'Todos os seus módulos importantes estão aqui.',
     'LBL_TOUR_MORE' => 'Mais Módulos',
     'LBL_TOUR_MORE_DESCRIPTION' => 'Os seus módulos restantes estão aqui.',
@@ -156,9 +156,9 @@ $mod_strings = array(
     'LBL_TOUR_SEARCH_DESCRIPTION' => 'Pesquisar ficou muito melhor.',
     'LBL_TOUR_NOTIFICATIONS' => 'Notificações',
     'LBL_TOUR_NOTIFICATIONS_DESCRIPTION' => 'Notificações do aplicativo SuiteCRM vão aqui.',
-    'LBL_TOUR_PROFILE' => 'Profile',
+    'LBL_TOUR_PROFILE' => 'Perfil',
     'LBL_TOUR_PROFILE_DESCRIPTION' => 'Acesse perfil, configurações e sair.',
-    'LBL_TOUR_QUICKCREATE' => 'Quick Create',
+    'LBL_TOUR_QUICKCREATE' => 'Criar Rapidamente',
     'LBL_TOUR_QUICKCREATE_DESCRIPTION' => 'Crie registros rapidamente sem sair do lugar.',
     'LBL_TOUR_FOOTER' => 'Rodapé Ocultável',
     'LBL_TOUR_FOOTER_DESCRIPTION' => 'Expanda e recolha o rodapé com facilidade.',
@@ -181,14 +181,14 @@ $mod_strings = array(
     'LBL_PARTNERS' => 'Parceiros',
     'LBL_EDIT_ALL_RECURRENCES' => 'Editar Todas as Recorrências',
     'LBL_REMOVE_ALL_RECURRENCES' => 'Excluir Todas as Recorrências',
-    'LBL_CONFIRM_REMOVE' => 'Are you sure you want to remove the record?',
+    'LBL_CONFIRM_REMOVE' => 'Tem certeza que deseja excluir este registro?',
     
-    'LBL_MAINTAINER_SUITECRM' => 'SuiteCRM is written and maintained by SuiteCRM Ltd',
+    'LBL_MAINTAINER_SUITECRM' => 'SuiteCRM é escrito e mantido pelo SuiteCRM Ltd',
     'LBL_CONTRIBUTOR_SUITECRM' => 'SuiteCRM - CRM de código aberto para o mundo',
     'LBL_CONTRIBUTOR_SECURITY_SUITE' => 'SecuritySuite por Jason Eggers',
     'LBL_CONTRIBUTOR_JJW_GMAPS' => 'JJWDesign Google maps por Jeffrey J. Walters',
-    'LBL_CONTRIBUTOR_CONSCIOUS' => 'SuiteCRM Logo Design contributed by Conscious Solutions',
-    'LBL_CONTRIBUTOR_RESPONSETAP' => 'Contribution to SuiteCRM by ResponseTap',
+    'LBL_CONTRIBUTOR_CONSCIOUS' => '\'Design\' de Logotipo SuiteCRM contribuído por Conscious Solutions',
+    'LBL_CONTRIBUTOR_RESPONSETAP' => 'Contribuição para SuiteCRM por ResponseTap',
     'LBL_CONTRIBUTOR_GMBH' => 'Campos calculados do Workflow disponibilizados por Diligent technology & business consulting GmbH',
 
     'LBL_LANGUAGE_ABOUT' => 'Sobre a tradução do SuiteCRM',
@@ -202,13 +202,13 @@ $mod_strings = array(
     'LBL_SUITE_PARTNERS' => 'Temos parceiros leais de SuiteCRM que são apaixonados sobre código aberto. Para visualizar nossa lista completa, consulte o nosso site.',
 
     'LBL_SAVE_BUTTON' => 'Salvar',
-    'LBL_DELETE_BUTTON' => 'Delete',
-    'LBL_APPLY_BUTTON' => 'Apply',
-    'LBL_SEND_INVITES' => 'Save & Send Invites',
-    'LBL_CANCEL_BUTTON' => 'Cancel',
+    'LBL_DELETE_BUTTON' => 'Deletar',
+    'LBL_APPLY_BUTTON' => 'Aplicar',
+    'LBL_SEND_INVITES' => 'Salvar e Enviar Convites',
+    'LBL_CANCEL_BUTTON' => 'Cancelar',
     'LBL_CLOSE_BUTTON' => 'Fechar',
 
-    'LBL_CREATE_NEW_RECORD' => 'Create Activity',
+    'LBL_CREATE_NEW_RECORD' => 'Criar Atividade',
     'LBL_CREATE_CALL' => 'Log Call',
     'LBL_CREATE_MEETING' => 'Schedule Meeting',
 
