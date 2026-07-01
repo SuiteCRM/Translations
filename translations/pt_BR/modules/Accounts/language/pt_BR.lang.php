@@ -44,9 +44,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     // DON'T CONVERT THESE THEY ARE MAPPINGS
-    'db_name' => 'LBL_LIST_ACCOUNT_NAME',
-    'db_website' => 'LBL_LIST_WEBSITE',
-    'db_billing_address_city' => 'LBL_LIST_CITY',
+    'db_name' => 'Nome da Conta',
+    'db_website' => 'Site',
+    'db_billing_address_city' => 'Cidade',
     // END DON'T CONVERT
     'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documentos',
     // Dashlet Categories
@@ -55,7 +55,7 @@ $mod_strings = array(
     // END Dashlet Categories
 
     'ERR_DELETE_RECORD' => 'Para excluir a conta, um número de registro deve ser informado.',
-    'LBL_ACCOUNT_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_ACCOUNT_INFORMATION' => 'Visão Geral', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_ACCOUNT_NAME' => 'Nome da Conta:',
     'LBL_ACCOUNT' => 'Conta:',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Atividades',
