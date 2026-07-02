@@ -45,13 +45,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     //module
     'LBL_MODULE_NAME' => 'Documentos',
-    'LBL_MODULE_TITLE' => 'Documents: Home',
-    'LNK_NEW_DOCUMENT' => 'Create Document',
-    'LNK_DOCUMENT_LIST' => 'View Documents',
+    'LBL_MODULE_TITLE' => 'Documentos: Início',
+    'LNK_NEW_DOCUMENT' => 'Criar Documento',
+    'LNK_DOCUMENT_LIST' => 'Visualizar Documentos',
     'LBL_DOC_REV_HEADER' => 'Revisões de Documento',
     'LBL_SEARCH_FORM_TITLE' => 'Pesquisar Documentos',
     //vardef labels
-    'LBL_NAME' => 'Document Name',
+    'LBL_NAME' => 'Nome do Documento',
     'LBL_DESCRIPTION' => 'Descrição',
     'LBL_CATEGORY' => 'Categoria',
     'LBL_SUBCATEGORY' => 'Subcategoria',
@@ -154,7 +154,7 @@ $mod_strings = array(
     'LBL_DOC_URL' => 'URL do Documento Fonte',
     'LBL_SEARCH_EXTERNAL_DOCUMENT' => 'Nome do Arquivo',
     'LBL_EXTERNAL_DOCUMENT_NOTE' => 'Os primeiros 20 arquivos recentemente modificados, são exibidos em ordem decrescente na lista abaixo. Utilize a pesquisa para encontrar outros arquivos.',
-    'LBL_LIST_EXT_DOCUMENT_NAME' => 'File Name',
+    'LBL_LIST_EXT_DOCUMENT_NAME' => 'Nome do Arquivo',
     'ERR_INVALID_EXTERNAL_API_ACCESS' => 'O usuário tentou acessar uma API externa inválida ({0})',
     'ERR_INVALID_EXTERNAL_API_LOGIN' => 'O Login marcou falha para API externo ({0})',
 
@@ -165,5 +165,5 @@ $mod_strings = array(
     'LBL_CASES_SUBPANEL_TITLE' => 'Ocorrências',
     'LBL_BUGS_SUBPANEL_TITLE' => 'Bugs',
 
-    'LBL_AOS_CONTRACTS' => 'Contracts',
+    'LBL_AOS_CONTRACTS' => 'Contratos',
 );
