@@ -73,13 +73,13 @@ $mod_strings = array(
     'LBL_CAMPAIGN' => 'Campaign:',
     'LBL_NEXT_STEP' => 'Next Step:',
     'LBL_LEAD_SOURCE' => 'Origem do Potencial:',
-    'LBL_SALES_STAGE' => 'Sales Stage:',
-    'LBL_PROBABILITY' => 'Probability (%):',
+    'LBL_SALES_STAGE' => 'Fase da Venda:',
+    'LBL_PROBABILITY' => 'Probabilidade (%):',
     'LBL_DESCRIPTION' => 'Descrição:',
     'LBL_DUPLICATE' => 'Possível Oportunidade Duplicada',
     'MSG_DUPLICATE' => 'Ao criar esta oportunidade pode duplicar uma oportunidade. Você pode selecionar uma oportunidade da lista abaixo ou clicar em Nova Oportunidade para continuar a criar com os dados entrados previamente.',
-    'LBL_NEW_FORM_TITLE' => 'Create Opportunity',
-    'LNK_NEW_OPPORTUNITY' => 'Create Opportunity',
+    'LBL_NEW_FORM_TITLE' => 'Criar Oportunidade',
+    'LNK_NEW_OPPORTUNITY' => 'Criar Oportunidade',
     'LNK_OPPORTUNITY_LIST' => 'Oportunidades',
     'ERR_DELETE_RECORD' => 'É necessário um número de registro para excluir a oportunidade.',
     'LBL_TOP_OPPORTUNITIES' => 'As Minhas Melhores Oportunidades',
@@ -100,16 +100,16 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_ID' => 'Usuário atribuído:',
     'LBL_MODIFIED_NAME' => 'Modificado pelo Nome do Usuário',
     'LBL_CREATED_USER' => 'Usuário Criado',
-    'LBL_MODIFIED_USER' => 'Modified User',
+    'LBL_MODIFIED_USER' => 'Usuário Modificado',
     'LBL_CAMPAIGN_OPPORTUNITY' => 'Campanhas',
     'LBL_PROJECT_SUBPANEL_TITLE' => 'Projetos',
     'LNK_IMPORT_OPPORTUNITIES' => 'Importar Oportunidades',
-    'LBL_EDITLAYOUT' => 'Edit Layout'
+    'LBL_EDITLAYOUT' => 'Editar Layout'
     /*for 508 compliance fix*/,
 
     // SNIP
 
-    'LBL_AOS_CONTRACTS' => 'Contracts',
+    'LBL_AOS_CONTRACTS' => 'Contratos',
     'LBL_AOS_QUOTES' => 'Cotações',
 
     'LBL_SIZE_ANALYSIS' => 'Análise de Tamanho',
