@@ -47,40 +47,40 @@ $mod_strings = array(
     'LBL_MODULE_NAME' => 'Revisão do Documento',
     'LBL_NEW_REVISION' => 'Add Revision',
 
-    'LNK_NEW_DOCUMENT' => 'Create Document',
+    'LNK_NEW_DOCUMENT' => 'Criar Documento',
     'LNK_DOCUMENT_LIST' => 'Exibir Documentos',
 
     'LBL_OVERVIEW' => 'Overview',
     'LBL_OTHER' => 'Outro',
 
     //vardef labels
-    'LBL_REVISION_NAME' => 'Revision Number',
-    'LBL_FILENAME' => 'File:',
+    'LBL_REVISION_NAME' => 'Número de Revisão',
+    'LBL_FILENAME' => 'Arquivo:',
     'LBL_MIME' => 'Tipo de Arquivo (Mime Type)',
-    'LBL_REVISION' => 'Revision',
-    'LBL_DOCUMENT' => 'Related Document',
-    'LBL_LATEST_REVISION' => 'Latest Revision',
+    'LBL_REVISION' => 'Revisão',
+    'LBL_DOCUMENT' => 'Documento Relacionado',
+    'LBL_LATEST_REVISION' => 'Última Revisão',
     'LBL_CHANGE_LOG' => 'Registro de Modificações',
-    'LBL_ACTIVE_DATE' => 'Publish Date',
-    'LBL_EXPIRATION_DATE' => 'Expiration Date',
-    'LBL_FILE_EXTENSION' => 'File Extension',
+    'LBL_ACTIVE_DATE' => 'Data de Publicação',
+    'LBL_EXPIRATION_DATE' => 'Data de Expiração',
+    'LBL_FILE_EXTENSION' => 'Extensão do Arquivo',
 
-    'LBL_DOC_NAME' => 'Document Name:',
-    'LBL_DOC_VERSION' => 'Revision:',
+    'LBL_DOC_NAME' => 'Nome do Documento:',
+    'LBL_DOC_VERSION' => 'Revisão:',
 
     //document revisions.
-    'LBL_REV_LIST_REVISION' => 'Revision',
+    'LBL_REV_LIST_REVISION' => 'Revisão',
     'LBL_REV_LIST_ENTERED' => 'Data de Criação',
-    'LBL_REV_LIST_CREATED' => 'Created by',
+    'LBL_REV_LIST_CREATED' => 'Criado por',
     'LBL_REV_LIST_LOG' => 'Registro de Modificações',
-    'LBL_REV_LIST_FILENAME' => 'File',
+    'LBL_REV_LIST_FILENAME' => 'Arquivo',
 
     'LBL_CURRENT_DOC_VERSION' => 'Última Revisão:',
     'LBL_SEARCH_FORM_TITLE' => 'Pesquisar Documentos',
     'LBL_REVISIONS' => 'Revisões',
 
     //error messages
-    'ERR_FILENAME' => 'File Name',
+    'ERR_FILENAME' => 'Nome do Arquivo',
     'ERR_DOC_VERSION' => 'Versão do documento',
     'ERR_DELETE_CONFIRM' => 'Deseja eliminar esta revisão do documento?',
     'ERR_DELETE_LATEST_VERSION' => 'Não tem permissão para eliminar a última revisão do documento.',
