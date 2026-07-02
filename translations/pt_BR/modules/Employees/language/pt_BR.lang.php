@@ -142,7 +142,7 @@ $mod_strings = array(
     'LBL_DELETED' => 'Deletado',
 
     'LBL_BUTTON_SELECT' => 'Selecionar',
-    'LBL_BUTTON_CLEAR' => 'Clear',
+    'LBL_BUTTON_CLEAR' => 'Limpar',
 
     'LBL_CONTACTS_SYNC' => 'Sincronizar contatos',
     'LBL_OAUTH_TOKENS' => 'Tokens OAuth',
