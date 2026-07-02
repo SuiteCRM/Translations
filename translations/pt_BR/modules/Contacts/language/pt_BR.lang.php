@@ -158,15 +158,15 @@ $mod_strings = array(
     'LNK_IMPORT_VCARD' => 'Criar Contato a partir de vCard',
     'LNK_NEW_ACCOUNT' => 'Criar Conta',
     'LNK_NEW_APPOINTMENT' => 'Criar Compromisso',
-    'LNK_NEW_CALL' => 'Log Call',
+    'LNK_NEW_CALL' => 'Registrar Ligação',
     'LNK_NEW_CASE' => 'Criar Nova Ocorrência',
-    'LNK_NEW_CONTACT' => 'Create Contact',
-    'LNK_NEW_EMAIL' => 'Archive Email',
-    'LNK_NEW_MEETING' => 'Schedule Meeting',
+    'LNK_NEW_CONTACT' => 'Criar Contato',
+    'LNK_NEW_EMAIL' => 'Arquivar Email',
+    'LNK_NEW_MEETING' => 'Agendar Reunião',
     'LNK_NEW_NOTE' => 'Nova Anotação',
-    'LNK_NEW_OPPORTUNITY' => 'Create Opportunity',
+    'LNK_NEW_OPPORTUNITY' => 'Criar Oportunidade',
     'LNK_NEW_TASK' => 'Nova Tarefa',
-    'LNK_SELECT_ACCOUNT' => "Select Account",
+    'LNK_SELECT_ACCOUNT' => "Selecionar Conta",
     'NTC_DELETE_CONFIRMATION' => 'Tem certeza que deseja excluir este registro?',
     'NTC_OPPORTUNITY_REQUIRES_ACCOUNT' => 'Criar uma Oportunidade requer uma Conta.\n Por favor, cria uma nova conta ou selecione uma existente.',
     'NTC_REMOVE_CONFIRMATION' => 'Tem a certeza que deseja remover este contato da ocorrência?',
@@ -184,7 +184,7 @@ $mod_strings = array(
     'LBL_CAMPAIGNS' => 'Campanhas',
     'LBL_CAMPAIGN_LIST_SUBPANEL_TITLE' => 'Campanhas',
     'LBL_LIST_CITY' => 'Cidade',
-    'LBL_LIST_STATE' => 'State',
+    'LBL_LIST_STATE' => 'Estado',
     'LBL_HOMEPAGE_TITLE' => 'Meus Contatos',
     'LBL_OPPORTUNITIES' => 'Oportunidades',
 
@@ -195,7 +195,7 @@ $mod_strings = array(
     // SNIP
     'LBL_USER_SYNC' => 'Sincronizar Usuário',
 
-    'LBL_FP_EVENTS_CONTACTS_FROM_FP_EVENTS_TITLE' => 'Events',
+    'LBL_FP_EVENTS_CONTACTS_FROM_FP_EVENTS_TITLE' => 'Eventos',
 
     'LBL_AOP_CASE_UPDATES' => 'Atualizações da Ocorrência',
     'LBL_CREATE_PORTAL_USER' => 'Criar Usuário do Portal',
@@ -212,10 +212,10 @@ $mod_strings = array(
     'LBL_PORTAL_ACCOUNT_DISABLED' => 'Conta Desativada',
     'LBL_JOOMLA_ACCOUNT_ID' => 'ID da Conta Joomla',
 
-    'LBL_AOS_CONTRACTS' => 'Contracts',
+    'LBL_AOS_CONTRACTS' => 'Contratos',
     'LBL_AOS_INVOICES' => 'Pedidos',
     'LBL_AOS_QUOTES' => 'Cotações',
     'LBL_PROJECT_CONTACTS_1_FROM_PROJECT_TITLE' => 'Contatos do projeto a partir do título do projeto',
 
-    'LBL_LIST_INVITE_STATUS' => 'Invite Status',
+    'LBL_LIST_INVITE_STATUS' => 'Status do Convite',
 );
