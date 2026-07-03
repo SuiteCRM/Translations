@@ -66,7 +66,7 @@ $mod_strings = [
 
     'LNK_OAUTH2_TOKEN_LIST'=> 'Listar chaves OAuth2',
     'LNK_OAUTH2_CLIENT_LIST' => 'Listar clientes OAuth2',
-    'LNK_OAUTH2_AUTHCODE_LIST' => 'List OAuth2 Authorization Codes',
+    'LNK_OAUTH2_AUTHCODE_LIST' => 'Listar os Códigos de Autorização OAuth2',
 
     'LNK_NEW_OAUTH2_CLIENT' => 'Criar cliente OAuth2',
     'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'Nova senha de cliente',
