@@ -42,10 +42,10 @@ if (!defined('sugarEntry') || !sugarEntry) {
     die('Not A Valid Entry Point');
 }
 
-$mod_strings['LBL_MAP'] = 'Map';
-$mod_strings['LBL_MODULE_NAME'] = 'Maps';
+$mod_strings['LBL_MAP'] = 'Mapa';
+$mod_strings['LBL_MODULE_NAME'] = 'Mapas';
 $mod_strings['LBL_MODULE_TITLE'] = 'Mapas: Tela Principal';
-$mod_strings['LBL_MODULE_ID'] = 'Maps';
+$mod_strings['LBL_MODULE_ID'] = 'Mapas';
 $mod_strings['LBL_LIST_FORM_TITLE'] = 'Lista de mapas';
 $mod_strings['LBL_MAP_CUSTOM_MARKER'] = 'Marcador Customizado';
 $mod_strings['LBL_MAP_CUSTOM_AREA'] = 'Área Customizada';
@@ -59,26 +59,26 @@ $mod_strings['LBL_UNIT_TYPE'] = 'Tipo de unidade:';
 $mod_strings['LBL_MAP_DISPLAY'] = 'Exibir mapa';
 $mod_strings['LBL_MAP_LEGEND'] = 'Legenda:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'Grupos:';
-$mod_strings['LBL_MAP_GROUP'] = 'Group';
-$mod_strings['LBL_MAP_TYPE'] = 'Type';
+$mod_strings['LBL_MAP_GROUP'] = 'Grupo';
+$mod_strings['LBL_MAP_TYPE'] = 'Tipo';
 $mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Atribuído a:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'Obter direcções';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'Visualização do Google Maps';
 
 $mod_strings['LNK_NEW_MAP'] = 'Adicionar novo mapa';
-$mod_strings['LNK_NEW_RECORD'] = 'Add New Map';
+$mod_strings['LNK_NEW_RECORD'] = 'Adicionar Novo Mapa';
 $mod_strings['LNK_MAP_LIST'] = 'Lista de mapas';
 
-$mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Geocoding Test';
+$mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Teste de Geocodificação';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'Mapa de raio rápido';
-$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'None';
-$mod_strings['LBL_MAP_ADDRESS'] = 'Address';
+$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'Nenhum';
+$mod_strings['LBL_MAP_ADDRESS'] = 'Endereço';
 $mod_strings['LBL_MAP_PROCESS'] = 'Processá-lo!';
 
 $mod_strings['LBL_MAP_LAST_STATUS'] = 'Último estado do geocódigo';
 $mod_strings['LBL_GEOCODED_COUNTS'] = 'Módulo Contagens Geocodificadas';
 $mod_strings['LBL_CRON_URL'] = 'URL do Cron:';
-$mod_strings['LBL_MODULE_HEADING'] = 'Module';
+$mod_strings['LBL_MODULE_HEADING'] = 'Módulo';
 
 $mod_strings['LBL_N/A'] = 'N/A';
 $mod_strings['LBL_ZERO_RESULTS'] = 'Sem resultados';
@@ -88,30 +88,30 @@ $mod_strings['LBL_APPROXIMATE'] = 'Aproximado';
 $mod_strings['LBL_EMPTY'] = 'Vazio';
 
 $mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Total';
-$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Reset';
+$mod_strings['LBL_MODULE_RESET_HEADING'] = 'Restaurar';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = 'A tabela abaixo mostra o número de objetos geo codificados do módulo, agrupados por resposta de geo codificação. Lembre-se que o limite padrão de uso do Google Maps é de 2500 solicitações por dia. Este módulo irá armazenar em cache as informações de geo codificação de endereços durante o processamento para reduzir o número total de solicitações necessárias.';
 
 $mod_strings['LBL_CRON_INSTRUCTIONS'] = 'Para processar as solicitações de geocodificação é recomendável configurar uma Tarefa Cron noturna. Um ponto de entrada personalizado foi criado para essa finalidade e pode ser acessado sem a autenticação. A URL mostrada abaixo destina-se a ser usada com uma Tarefa Administrativa Agendada. Por favor, consulte a documentação para obter mais informações.';
 $mod_strings['LBL_EXPORT_ADDRESS_URL'] = 'Exportar URLs';
 $mod_strings['LBL_EXPORT_INSTRUCTIONS'] = 'Use os links abaixo para exportar endereços completos na necessidade de informações de geocodificação. Em seguida, use uma ferramenta de geocodificação on-line ou off-line para geocodificar os endereços em massa. Quando tiver terminado a geocodificação, importe os endereços para o módulo de Cache de Endereços para serem usados com seus mapas. Note que o módulo de Cache de Endereços é opcional. Todas as informações de geocodificação são armazenadas no módulo representativo.';
-$mod_strings['LBL_ADDRESS_CACHE'] = 'Address Cache';
+$mod_strings['LBL_ADDRESS_CACHE'] = 'Cache de Endereço';
 $mod_strings['LBL_ADD_TO_TARGET_LIST'] = 'Adicionar à lista de alvos';
 $mod_strings['LBL_ADD_TO_TARGET_LIST_PROCESSING'] = 'Processando...';
 
 
 $mod_strings['LBL_CONFIG_TITLE'] = 'Definições de configuração';
 $mod_strings['LBL_CONFIG_SAVED'] = 'Configurações salvas com sucesso!';
-$mod_strings['LBL_BILLING_ADDRESS'] = 'Billing Address';
-$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Shipping Address';
-$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Primary Address';
+$mod_strings['LBL_BILLING_ADDRESS'] = 'Endereço de Cobrança';
+$mod_strings['LBL_SHIPPING_ADDRESS'] = 'Endereço de Entrega';
+$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Endereço Principal';
 $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'Endereço alternativo';
-$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex Relate';
+$mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flexível Relacionado';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Endereço (simples, usuários)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'Customizado (Lógica do Controlador Customizada)';
 $mod_strings['LBL_ENABLED'] = 'Habilitado';
 $mod_strings['LBL_DISABLED'] = 'Desabilitado';
 $mod_strings['LBL_DEFAULT'] = 'Padrão:';
-$mod_strings['LBL_CONFIG_DEFAULT'] = 'Default:';
+$mod_strings['LBL_CONFIG_DEFAULT'] = 'Padrão:';
 
 $mod_strings['LBL_CONFIG_VALID_GEOCODE_MODULES'] = 'Módulos de geocódigo válido:';
 $mod_strings['LBL_CONFIG_VALID_GEOCODE_TABLES'] = 'Tabelas de geocódigo válido:';
@@ -182,9 +182,9 @@ $mod_strings['LBL_CONFIG_MAP_CLUSTER_GRID_SIZE_DESC'] = "'map_clusterer_grid_siz
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_TITLE'] = "Zoom Máximo para Clusterer de Marcadores de Mapa:";
 $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_DESC'] = "'map_clusterer_max_zoom' é usado para definir o nível máximo de zoom em que não será aplicada clustering.";
 $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = "Nota importante: Todas as configurações salvas podem ser encontradas na tabela 'config' na categoria 'jjwg'. Note que um arquivo controller.php personalizado não deve ser usado para substituir as configurações.";
-$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Areas';
+$mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Áreas';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'Marcadores';
-$mod_strings['LBL_PARENT_ID'] = 'Parent ID';
+$mod_strings['LBL_PARENT_ID'] = 'Id do Registro Pai';
 $mod_strings['LBL_JJWP_PARTNERS'] = 'Parceiros JJWP';
 $mod_strings['LBL_GET_GOOGLE_API_KEY'] = 'Obtenha uma Chave';
 $mod_strings['LBL_GOOGLE_API_KEY'] = 'Chave Google Api';
