@@ -44,14 +44,14 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ROLE' => 'Perfil:',
-    'LBL_LANGUAGE' => 'Language:',
+    'LBL_LANGUAGE' => 'Idioma:',
     'LBL_MODULE_NAME' => 'Perfis',
     'LBL_MODULE_TITLE' => 'Perfis: Tela Principal',
     'LBL_SEARCH_FORM_TITLE' => 'Pesquisar Perfis',
     'LBL_LIST_FORM_TITLE' => 'Listar Perfis',
     'LNK_NEW_ROLE' => 'Criar Perfil',
     'LNK_ROLES' => 'Perfis',
-    'LBL_NAME' => 'Name:',
+    'LBL_NAME' => 'Nome:',
     'LBL_DESCRIPTION' => 'Descrição:',
     'LBL_ALLOWED_MODULES' => 'Módulos permitidos:',
     'LBL_DISALLOWED_MODULES' => 'Módulos proibidos:',
@@ -60,5 +60,5 @@ $mod_strings = array(
     'LBL_USERS' => 'Usuários',
 
     'LBL_USERS_SUBPANEL_TITLE' => 'Usuários',
-    'LBL_MODULES' => 'Modules',
+    'LBL_MODULES' => 'Módulos',
 );
