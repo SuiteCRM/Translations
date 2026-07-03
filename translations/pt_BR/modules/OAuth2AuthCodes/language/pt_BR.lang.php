@@ -72,8 +72,8 @@ $mod_strings = [
     'LBL_OAUTH2_GRANT_MODULE_ACCESS_DESC' => 'Concede acesso total aos dados de todos os módulos a que você tem acesso',
     'LBL_OAUTH2_GRANT_USER_DATA_ACCESS' => 'Dados pessoais do usuário',
     'LBL_OAUTH2_GRANT_USER_DATA_ACCESS_DESC' => 'Concede acesso a dados pessoais de usuário como nome e endereço de email',
-    'LBL_OAUTH_AUTHORIZING_WILL_REDIRECT' => 'Authorizing will redirect to:',
+    'LBL_OAUTH_AUTHORIZING_WILL_REDIRECT' => 'A autorização irá redirecionar para:',
     'LBL_OAUTH_NOTE' => 'Anotação:',
-    'LBL_OAUTH_CLIENT_INFO_DESCRIPTION' => 'wants to access your account',
-    'LBL_OAUTH_CLIENT_INFO' => 'Client Information',
+    'LBL_OAUTH_CLIENT_INFO_DESCRIPTION' => 'quer acessar sua conta',
+    'LBL_OAUTH_CLIENT_INFO' => 'Informação do Cliente',
 ];
