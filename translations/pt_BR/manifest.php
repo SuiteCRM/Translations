@@ -7,7 +7,7 @@
 
 $manifest = array(
     'name' => 'Portuguese (Brazil)',
-    'description' => 'Translation: crowdin.com/project/suitecrmtranslations',
+    'description' => 'Tradução: crowdin.com/project/suitecrmtranslations',
     'type' => 'langpack',
     'is_uninstallable' => 'Sim',
     'author' => 'Comunidade SuiteCRM',
@@ -18,8 +18,8 @@ $installdefs = array(
     'id' => 'pt_BR',
     'image_dir' => '<basepath>/images',
     'copy' => array(
-        array('from' => '<basepath>/include', 'to' => 'include'),
-        array('from' => '<basepath>/modules', 'to' => 'modules'),
+        array('from' => '<basepath>/include', 'to' => 'incluir'),
+        array('from' => '<basepath>/modules', 'to' => 'módulos'),
         array('from' => '<basepath>/install', 'to' => 'install'),
     )
 );
