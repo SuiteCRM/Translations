@@ -55,14 +55,14 @@ $mod_strings = array(
     'LBL_GRANT_TYPE'=> 'Tipo de autorização',
     'LBL_SCOPES'=> 'Escopos',
     'LBL_REVOKE_TOKEN'=> 'Revogar token',
-    'LBL_REVOKE_TOKENS'=> 'Revoke Tokens',
+    'LBL_REVOKE_TOKENS'=> 'Revogar Tokens',
     'LBL_CLIENT_NAME'=> 'Nome do cliente',
     'LBL_USER' => 'Usuário associado',
     'LBL_IS_ACTIVE' => 'Apenas chaves ativas',
 
     'LNK_OAUTH2_TOKEN_LIST'=> 'Listar chaves OAuth2',
     'LNK_OAUTH2_CLIENT_LIST' => 'Listar clientes OAuth2',
-    'LNK_OAUTH2_AUTHCODE_LIST' => 'List OAuth2 Authorization Codes',
+    'LNK_OAUTH2_AUTHCODE_LIST' => 'Listar os Códigos de Autorização OAuth2',
     
     'LNK_NEW_OAUTH2_CLIENT' => 'Criar cliente OAuth2',
     'LNK_NEW_OAUTH2_PASSWORD_CLIENT' => 'Nova senha de cliente',
@@ -72,6 +72,6 @@ $mod_strings = array(
 
     'LBL_ACCESS_TOKEN' => 'Token de Acesso',
     'LBL_REFRESH_TOKEN' => 'Atualizar Token',
-    'LBL_DELETE_CONFIRMATION' => 'Are you sure you want to delete this record? The client will not be granted an authorization code any more.',
-    'LBL_REVOKE_AND_DELETE_BUTTON_LABEL' => 'Revoke and Delete',
+    'LBL_DELETE_CONFIRMATION' => 'Tem certeza que deseja excluir este registro? O cliente não terá mais um código de autorização.',
+    'LBL_REVOKE_AND_DELETE_BUTTON_LABEL' => 'Revogar e Excluir',
 );
