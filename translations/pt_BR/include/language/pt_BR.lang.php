@@ -352,11 +352,11 @@ $app_list_strings = array(
         600 => '10 min',
         900 => '15 min',
         1800 => '30 min',
-        3600 => '1 hour',
-        7200 => '2 hours',
-        10800 => '3 hours',
+        3600 => '1 hora',
+        7200 => '2 horas',
+        10800 => '3 horas',
         18000 => '5 horas',
-        86400 => '1 day',
+        86400 => '1 dia',
     ),
 
     'task_priority_default' => 'Média',
@@ -624,15 +624,15 @@ $app_list_strings = array(
     ),
 
     'file_field_storage_type_dom' => [
-        'private-documents' => 'Private Documents',
-        'public-documents' => 'Public Documents',
-        'archived-documents' => 'Archived Documents',
+        'private-documents' => 'Documentos Privados',
+        'public-documents' => 'Documentos Públicos',
+        'archived-documents' => 'Documentos Arquivados',
     ],
 
 
     'image_field_storage_type_dom' => [
-        'private-images' => 'Private Images',
-        'public-images' => 'Public Images',
+        'private-images' => 'Imagens Privadas',
+        'public-images' => 'Imagens públicas',
     ],
 
     'product_category_default_key' => '',
@@ -787,21 +787,21 @@ $app_list_strings = array(
     ],
 
     'dom_manual_migration_tasks_types' => [
-        'background' => 'Background Process',
-        'immediate' => 'Immediate',
+        'background' => 'Processo de fundo',
+        'immediate' => 'Imediato',
     ],
 
     'dom_manual_migration_tasks_statuses' => [
-        'initial' => 'Initial',
-        'pending' => 'Pending',
+        'initial' => 'Inicial',
+        'pending' => 'Pendente',
         'running' => 'Running',
-        'failed' => 'Failed',
-        'completed_with_failures' => 'Completed With Failures',
+        'failed' => 'Falhou',
+        'completed_with_failures' => 'Concluído com Falhas',
         'completed' => 'Concluída'
     ],
 
     'dom_processes_types' => [
-        'background' => 'Background Process',
+        'background' => 'Processo de fundo',
         'immediate' => 'Immediate',
     ],
 
