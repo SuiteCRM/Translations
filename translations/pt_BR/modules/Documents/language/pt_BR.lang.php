@@ -49,8 +49,8 @@ $mod_strings = array(
     'LNK_NEW_DOCUMENT' => 'Criar Documento',
     'LNK_DOCUMENT_LIST' => 'Visualizar Documentos',
     'LBL_DOC_REV_HEADER' => 'Revisões de Documento',
-    'LBL_NEW_REVISION' => 'Add Revision',
-    'LBL_FILENAME_REVISION_HINT' => 'Remove and replace this file to create a new revision.',
+    'LBL_NEW_REVISION' => 'Adicionar Revisão',
+    'LBL_FILENAME_REVISION_HINT' => 'Remover e substituir este arquivo para criar uma nova revisão.',
     'LBL_SEARCH_FORM_TITLE' => 'Pesquisar Documentos',
     //vardef labels
     'LBL_NAME' => 'Nome do Documento',
@@ -87,7 +87,7 @@ $mod_strings = array(
     'LBL_NEW_FORM_TITLE' => 'Novo Documento',
     //document edit and detail view
     'LBL_DOC_NAME' => 'Nome do Documento:',
-    'LBL_FILENAME' => 'File:',
+    'LBL_FILENAME' => 'Arquivo:',
     'LBL_LIST_FILENAME' => 'Arquivo:',
     'LBL_DOC_VERSION' => 'Revisão:',
     'LBL_FILE_UPLOAD' => 'Arquivo:',
@@ -169,9 +169,9 @@ $mod_strings = array(
 
     'LBL_AOS_CONTRACTS' => 'Contratos',
 
-    'LBL_REV_LIST_REVISION' => 'Revision',
+    'LBL_REV_LIST_REVISION' => 'Revisão',
     'LBL_REV_LIST_ENTERED' => 'Data de Criação',
     'LBL_REV_LIST_CREATED' => 'Criado por',
     'LBL_REV_LIST_LOG' => 'Registro de Modificações',
-    'LBL_REV_LIST_FILENAME' => 'File',
+    'LBL_REV_LIST_FILENAME' => 'Arquivo',
 );
