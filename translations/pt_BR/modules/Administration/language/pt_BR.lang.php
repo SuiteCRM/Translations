@@ -170,10 +170,14 @@ $mod_strings = array(
     'LBL_CONFIG_TABS_DESC' => 'Arraste e solte os nomes dos módulos abaixo para configurá-los para serem exibidos ou ocultos na barra de navegação superior ou como subpainéis. Para controlar o acesso aos módulos, utilize o <a href="?module=ACLRoles&action=index">Gerenciamento de Perfis.</a>',
     'LBL_CONFIG_LANGS_DESC' => 'Arrastar e Largar os nome dos idiomas em baixo para os habilitar ou desabilitar.',
     'LBL_CONFIG_TABS_ALLOW_USERS_HIDE_TABS_HELP' => 'Selecione esta opção para permitir que os usuários escolham quais guias de módulo eles visualizarão. Quando selecionada, os usuários poderão escolher quais guias de módulo são visíveis através do gerenciamento de guias, em suas Configurações de Usuário.',
-    'LBL_GOOGLE_SYNC_MIGRATION_PENDING_TITLE' => 'Google Calendar Sync Migration Required',
-    'LBL_GOOGLE_SYNC_MIGRATION_PENDING_DESC' => 'Legacy Google Calendar sync data has been detected. Please navigate to Migrations via the Admin Menu to run the Google Calendar Sync migration before enabling calendar sync.',
-    'LBL_GOOGLE_SYNC_MIGRATION_FAILED_TITLE' => 'Google Calendar Sync Migration Failed',
-    'LBL_GOOGLE_SYNC_MIGRATION_FAILED_DESC' => 'The Google Calendar Sync migration encountered errors. Please navigate to Migrations via the Admin Menu to re-run or retry the migration.',
+    'LBL_GOOGLE_SYNC_MIGRATION_PENDING_TITLE' => 'Migração de Sincronização do Calendário Google Necessária',
+    'LBL_GOOGLE_SYNC_MIGRATION_PENDING_DESC' => 'Foram detectados dados da sincronização legada do Google Agenda.
+
+Antes de habilitar a sincronização do calendário, acesse Administração > Migrações e execute a migração da sincronização com o Google Agenda.',
+    'LBL_GOOGLE_SYNC_MIGRATION_FAILED_TITLE' => 'Falha na migração de sincronização de calendário Google',
+    'LBL_GOOGLE_SYNC_MIGRATION_FAILED_DESC' => 'Ocorreram erros durante a migração da sincronização com o Google Agenda.
+
+Acesse Administração > Migrações para executar novamente ou retomar a migração.',
     'LBL_CALENDAR_SYNC_SETTINGS' => 'Configurações de Sincronização de Calendário',
     'LBL_CALENDAR_SYNC_SETTINGS_DESC' => 'Configurar definições de sincronização automática de calendário e parâmetros de desempenho',
     'LBL_CALENDAR_SYNC_DESCRIPTION' => 'Gerenciar sincronização automática bidirecional entre sistemas de calendário SuiteCRM e externo (Google Calendário, Outlook, etc.).',
@@ -188,7 +192,7 @@ $mod_strings = array(
     'LBL_CALENDAR_SYNC_NEVER' => 'Nunca',
     'LBL_CALENDAR_SYNC_ACTIVE' => 'Habilitado',
     'LBL_CALENDAR_SYNC_INACTIVE' => 'Desabilitado',
-    'LBL_CALENDAR_SYNC_STATUS_RUNNING' => 'O agendador de sincronização de calendário está atualmente ativo e processando os trabalhos de sincronização.',
+    'LBL_CALENDAR_SYNC_STATUS_RUNNING' => '',
     'LBL_CALENDAR_SYNC_STATUS_STOPPED' => 'O agendador de sincronização de calendário está inativo. Nenhuma sincronização automática está ocorrendo.',
     'LBL_CALENDAR_SYNC_HOW_IT_WORKS' => 'Como o Calendário é Sincronizado:',
     'LBL_CALENDAR_SYNC_WHEN_ENABLED' => 'Agendamento Automático:',
@@ -221,7 +225,7 @@ $mod_strings = array(
     'LBL_CALENDAR_SYNC_CONFLICT_RESOLUTION' => 'Estratégia de Resolução de Conflitos:',
     'LBL_CALENDAR_SYNC_CONFLICT_RESOLUTION_DESC' => 'Como resolver conflitos quando o mesmo evento foi modificado em ambos os sistemas',
     'LBL_CALENDAR_SYNC_CONFLICT_TIMESTAMP' => 'A alteração mais recente prevalece (recomendado)',
-    'LBL_CALENDAR_SYNC_CONFLICT_EXTERNAL_BASED' => 'Prioridade do calendário externo (Calendário externo sempre vence)',
+    'LBL_CALENDAR_SYNC_CONFLICT_EXTERNAL_BASED' => 'Prioridade do Calendário Externo (Calendário externo sempre vence)',
     'LBL_CALENDAR_SYNC_CONFLICT_INTERNAL_BASED' => 'Prioridade do SuiteCRM (SuiteCRM sempre vence)',
     'LBL_CALENDAR_SYNC_CONFLICT_TIMESTAMP_TITLE_MATCH' => 'Mudança Recente + Correspondência de Título Necessária',
     'LBL_CALENDAR_SYNC_MATCHING_CONFIDENCE' => 'Sensibilidade da Combinação de Eventos:',
@@ -408,11 +412,11 @@ $mod_strings = array(
     'LBL_MANAGE_EXTERNAL_OAUTH_PROVIDERS' => 'Provedores OAuth Externos',
     'LBL_MANAGE_EXTERNAL_OAUTH_PROVIDERS_DESC' => 'Configurar provedores OAuth externos',
 
-    'LBL_MANAGE_MANUAL_MIGRATION_TASKS' => 'Migrations',
-    'LBL_MANAGE_MANUAL_MIGRATION_TASKS_DESC' => 'Run Post Upgrade Migration Processes',
+    'LBL_MANAGE_MANUAL_MIGRATION_TASKS' => 'Migrações',
+    'LBL_MANAGE_MANUAL_MIGRATION_TASKS_DESC' => 'Executar processos de migração de pós-atualização',
 
-    'LBL_MANAGE_PROCESSES' => 'Processes',
-    'LBL_MANAGE_PROCESSES_DESC' => 'View Running Processes',
+    'LBL_MANAGE_PROCESSES' => 'Processos',
+    'LBL_MANAGE_PROCESSES_DESC' => 'Visualizar processos em execução',
 
     'LBL_MANAGE_CURRENCIES' => 'Moedas',
     'LBL_MANAGE_LANGUAGES' => 'Idiomas',
@@ -789,7 +793,7 @@ $mod_strings = array(
     'Currencies' => 'Moeda',
     'CustomFields' => 'Campos Customizados',
     'CustomQueries' => 'Consulta Personalizada',
-    'DataSets' => 'DataSet',
+    'DataSets' => 'Data Set',
     'DocumentRevisions' => 'Revisão de Documento',
     'DynamicFields' => 'Campo Dinâmico',
     'EditCustomFields' => 'CamposMetaData',
