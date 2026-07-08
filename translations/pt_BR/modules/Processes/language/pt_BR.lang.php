@@ -36,22 +36,22 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = [
 
     // Module naming
-    'LBL_LIST_FORM_TITLE' => 'Processes List',
-    'LBL_MODULE_NAME' => 'Processes',
-    'LBL_MODULE_TITLE' => 'Processes',
-    'LBL_HOMEPAGE_TITLE' => 'My Processes',
-    'LNK_NEW_RECORD' => 'Create Process',
-    'LNK_LIST' => 'View Processes',
-    'LBL_SEARCH_FORM_TITLE' => 'Search Processes',
-    'LBL_NEW_FORM_TITLE' => 'New Process',
+    'LBL_LIST_FORM_TITLE' => 'Lista de processos',
+    'LBL_MODULE_NAME' => 'Processos',
+    'LBL_MODULE_TITLE' => 'Processos',
+    'LBL_HOMEPAGE_TITLE' => 'Meus Processos',
+    'LNK_NEW_RECORD' => 'Criar processo',
+    'LNK_LIST' => 'Visualizar Processos',
+    'LBL_SEARCH_FORM_TITLE' => 'Pesquisar Processos',
+    'LBL_NEW_FORM_TITLE' => 'Novo Processo',
 
     // Rerun/dismiss confirmation messages (reference this module by name)
-    'LBL_RERUN_CONFIRMATION' => 'Are you sure you want to re-run this process from scratch? All existing items will be removed and the process will restart.',
-    'LBL_RERUN_SUCCESS' => 'Process has been re-queued and will restart from the beginning.',
-    'LBL_DISMISS_CONFIRMATION' => 'Are you sure you want to dismiss this process? This will remove it and all associated data.',
-    'LBL_DISMISS_SUCCESS' => 'Process dismissed successfully.',
+    'LBL_RERUN_CONFIRMATION' => 'Tem certeza que deseja reiniciar a migração do zero? Todos os itens existentes serão removidos e a migração será reiniciada.',
+    'LBL_RERUN_SUCCESS' => 'A migração foi recolocada na fila e reiniciará desde o início.',
+    'LBL_DISMISS_CONFIRMATION' => 'Tem certeza de que deseja descartar este processo? Isso removerá o processo e todos os dados associados.',
+    'LBL_DISMISS_SUCCESS' => 'Processo Dispensado com sucesso.',
 
     // Type footnotes
-    'LBL_TYPE_BACKGROUND_HELP' => 'This process runs in the background via the message queue worker. It processes items in batches and does not block the UI.',
-    'LBL_TYPE_IMMEDIATE_HELP' => 'This process runs immediately when triggered. It processes all items in a single request and may take longer for large datasets.',
+    'LBL_TYPE_BACKGROUND_HELP' => 'Este processo é executado em segundo plano através da fila de mensagens. Ele processa itens em lotes e não bloqueia a interface do usuário.',
+    'LBL_TYPE_IMMEDIATE_HELP' => 'Este processo é executado imediatamente quando acionada. Ele processa todos os itens em uma única solicitação e pode levar mais tempo para grandes conjuntos de dados.',
 ];
