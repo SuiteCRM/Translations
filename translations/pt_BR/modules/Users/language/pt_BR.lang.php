@@ -698,12 +698,12 @@ $mod_strings = array(
     'LNK_LIST_CALENDAR_ACCOUNTS' => 'Ver Contas de Calendário',
 
     // 2FA
-    'LBL_FACTOR_AUTH' => 'Two Factor Authentication',
-    'LBL_FACTOR_AUTH_DISABLE' => 'Two Factor Authentication was Disabled for this User',
+    'LBL_FACTOR_AUTH' => 'Autenticação de Dois Fatores',
+    'LBL_FACTOR_AUTH_DISABLE' => 'A Autenticação em Dois Fatores foi desabilitada para este usuário',
     'LBL_DISABLED' => 'Desativado',
     'LBL_ENABLED' => 'Habilitado',
-    'LBL_ENABLE_2FA' => 'Enable 2FA',
-    'LBL_2FA_CONFIG' => 'Two Factor Configuration',
-    'LBL_DISABLE_2FA' => 'Disable 2FA',
+    'LBL_ENABLE_2FA' => 'Ativar 2FA',
+    'LBL_2FA_CONFIG' => 'Configuração de Dois Fatores',
+    'LBL_DISABLE_2FA' => 'Desativar 2FA',
 
 ); // END STRINGS DEFS
