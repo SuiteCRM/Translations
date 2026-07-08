@@ -45,12 +45,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     //module
     'LBL_MODULE_NAME' => 'Revisão do Documento',
-    'LBL_NEW_REVISION' => 'Add Revision',
+    'LBL_NEW_REVISION' => 'Adicionar Revisão',
 
     'LNK_NEW_DOCUMENT' => 'Criar Documento',
     'LNK_DOCUMENT_LIST' => 'Exibir Documentos',
 
-    'LBL_OVERVIEW' => 'Overview',
+    'LBL_OVERVIEW' => 'Visão geral',
     'LBL_OTHER' => 'Outro',
 
     //vardef labels
