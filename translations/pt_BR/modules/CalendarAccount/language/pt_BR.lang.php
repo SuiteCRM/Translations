@@ -71,7 +71,7 @@ $mod_strings = [
     'LNK_IMPORT_CALENDARACCOUNT' => 'Importar Contas de Calendário',
 
     // Additional menu links
-    'LNK_LIST_CREATE_NEW_GROUP' => 'Criar Novo Grupo',
+    'LNK_LIST_CREATE_NEW_GROUP' => 'Criar Grupo',
     'LNK_LIST_CREATE_NEW_PERSONAL' => 'Criar Conta de Calendário Pessoal',
     'LNK_LIST_INBOUND_EMAILS' => 'Emails de Entrada',
     'LNK_LIST_OUTBOUND_EMAILS' => 'Emails de Saída',
