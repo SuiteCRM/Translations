@@ -74,5 +74,5 @@ $mod_strings = array(
     'LBL_INTERNAL' => 'Atualização interna',
     'LBL_AOP_CASE_ATTACHMENTS' => 'Anexos: ',
     'LBL_AUTHOR' => 'Autor',
-    'LBL_SOURCE' => 'Source'
+    'LBL_SOURCE' => 'Fonte'
 );
