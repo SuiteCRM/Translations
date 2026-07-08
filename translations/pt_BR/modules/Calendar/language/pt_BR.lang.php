@@ -172,7 +172,7 @@ $mod_strings = array(
 $mod_list_strings = array(
     'dom_cal_weekdays' =>
         array(
-            '0' => "Sol",
+            '0' => "Dom",
             '1' => "Seg",
             '2' => "Ter",
             '3' => "Quarta",
@@ -217,7 +217,7 @@ $mod_list_strings = array(
             '6' => "Junho",
             '7' => "Julho",
             '8' => "Agosto",
-            '9' => "Setembro",
+            '9' => "SetembroOu",
             '10' => "Outubro",
             '11' => "Novembro",
             '12' => "Dezembro",
