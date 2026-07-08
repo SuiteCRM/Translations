@@ -118,7 +118,7 @@ $mod_strings = array(
     'LBL_OWNER' => 'Proprietário',
     'LBL_OWNER_NAME' => 'Proprietário',
     'LBL_IS_DEFAULT' => 'Padrão',
-    'LBL_IS_PERSONAL' => 'Is Personal',
+    'LBL_IS_PERSONAL' => 'É pessoal',
     'LBL_SET_AS_DEFAULT_BUTTON' => 'Definir como padrão',
 
     'LBL_AUTH_TYPE' => 'Tipo de Autenticação',
