@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_BASIC' => 'BASIC',
+    'LBL_BASIC' => 'BÁSICO',
     'LBL_BASIC_SEARCH' => 'Filtro Rápido',
     'LBL_ADVANCED_SEARCH' => 'Filtro Avançado',
     'LBL_BASIC_TYPE' => 'Básico',
@@ -67,12 +67,16 @@ $mod_strings = array(
     'ERR_CHECKSYS_NOT_WRITABLE' => 'Aviso: Não Editável',
     'ERR_CHECKSYS_PHP_INVALID_VER' => 'Sua versão de PHP não é suportada pelo SuiteCRM. É necessário instalar uma versão que seja compatível com o SuiteCRM. Por favor, consulte a Matriz de Compatibilidade nas Notas de Lançamento para obter as Versões de PHP suportadas. Sua versão é ',
     'ERR_CHECKSYS_IIS_INVALID_VER' => 'A sua versão de IIS não é suportada pelo SuiteCRM. É necessário instalar uma versão que seja compatível com a aplicação SuiteCRM. Por favor consulte a Matriz de Compatibilidade nas Notas de Lançamento para Versões IIS suportadas. A sua versão é ',
-    'ERR_CHECKSYS_FASTCGI' => 'We detect that you are not using a FastCGI handler mapping for PHP. You will need to install/configure a version that is compatible with the SuiteCRM application. Please consult the Compatibility Matrix in the Release Notes for supported Versions. Please see <a href="https://php.iis.net/" target="_blank">https://php.iis.net/</a> for details ',
+    'ERR_CHECKSYS_FASTCGI' => 'Detectamos que você não está utilizando um mapeamento de manipulador para o PHP. Será necessário instalar e configurar uma versão compatível com a aplicação SuiteCRM. Consulte a Matriz de Compatibilidade nas Notas de Versão para verificar quais versões são suportadas. Para mais detalhes, acesse: <a href="https://php.iis.net/" target="_blank">https://php.iis.net/</a> ',
     'ERR_CHECKSYS_FASTCGI_LOGGING' => 'Para uma melhor experiência usando IIS/FastCGI sapi, defina fastcgi.log para 0 no seu arquivo php.ini.',
     'LBL_DB_UNAVAILABLE' => 'Base de dados indisponível',
     'LBL_CHECKSYS_DB_SUPPORT_NOT_AVAILABLE' => 'Suporte da Base de Dados não foi encontrado. Por favor certifique-se que possui os drivers necessários para um dos seguintes Tipos de Base de Dados suportados: MySQL, MS SQLServer ou Oracle. Talvez seja necessário descomentar a extensão no arquivo php.ini ou recompilar com arquivo binário correto, dependendo da sua versão de PHP. Por favor consulte o Manual do PHP para mais informações sobre como ativar o Suporte da Base de Dados.',
     'LBL_CHECKSYS_XML_NOT_AVAILABLE' => 'Funções associadas às XML Parser Libraries que são necessárias à aplicação SuiteCRM não foram encontradas. Talvez seja necessário descomentar a extensão no arquivo php.ini ou recompilar com arquivo binário correto, dependendo da sua versão de PHP. Por favor consulte o Manual do PHP para mais informações sobre como ativar o Suporte da Base de Dados.',
-    'ERR_CHECKSYS_MBSTRING' => 'Functions associated with the Multibyte Strings PHP extension (mbstring) that are needed by the SuiteCRM application were not found. Generally, the mbstring module is not enabled by default in PHP and must be activated with --enable-mbstring when the PHP binary is built. Please refer to your PHP Manual for more information on how to enable mbstring support.',
+    'ERR_CHECKSYS_MBSTRING' => 'As funções da extensão Multibyte Strings (mbstring), necessárias para o funcionamento do SuiteCRM, não foram encontradas.
+
+Normalmente, a extensão mbstring não é habilitada por padrão no PHP e deve ser ativada durante a compilação do PHP utilizando a opção --enable-mbstring.
+
+Consulte a documentação do PHP para obter mais informações sobre como habilitar o suporte à extensão mbstring.',
     'ERR_CHECKSYS_CONFIG_NOT_WRITABLE' => 'O arquivo config.php existe, mas não é editável. Por favor, tome as medidas necessárias para tornar o arquivo editável.',
     'ERR_CHECKSYS_CONFIG_NOT_FOUND' => 'O arquivo config.php não existe. O mesmo será criado na instalação.',
     'ERR_CHECKSYS_CONFIG_OVERRIDE_NOT_WRITABLE' => 'O arquivo config_override.php existe, mas não é editável. Por favor, tome as medidas necessárias para tornar o arquivo editável. ',
@@ -81,7 +85,7 @@ $mod_strings = array(
     'ERR_CHECKSYS_LOGS_NOT_WRITABLE' => 'O Diretório Logs não tem permissão de edição',
     'ERR_CHECKSYS_CACHE_NOT_WRITABLE' => 'O Diretório Cache não tem permissão de edição',
     'ERR_CHECKSYS_EXTENSIONS_NOT_WRITABLE' => 'O Diretório Extensions não tem permissão de edição',
-    'ERR_CHECKSYS_ROOT_NOT_WRITABLE' => 'The Root Directory is currently not writable. You will not be able to proceed with install.',
+    'ERR_CHECKSYS_ROOT_NOT_WRITABLE' => 'O diretório raiz não possui permissão de escrita. Não será possível continuar com a instalação.',
     'ERR_CHECKSYS_SECRETS_NOT_WRITABLE' => 'O diretório config/secrets não tem permissão de edição',
     'ERR_CHECKSYS_ENV_NOT_WRITABLE' => 'O arquivo .env ou o diretório em que está não tem permissão de edição.',
     'ERR_CHECKSYS_JSON_NOT_AVAILABLE' => "Funções associadas às bibliotecas do Parser JSON, que são necessárias para o SuiteCRM, não foram encontradas. Talvez seja necessário descomentar a extensão no arquivo php.ini, ou recompilar com arquivo binário correto, dependendo da sua versão de PHP. Por favor consulte o Manual do PHP para mais informações.",
@@ -134,7 +138,7 @@ $mod_strings = array(
     'ERR_PERFORM_HTACCESS_2' => 'o arquivo.',
     'ERR_PERFORM_HTACCESS_3' => 'Se pretende impedir que o seu arquivo log seja acessível via browser, crie um arquivo .htaccess na sua Diretório log com a linha:',
     'ERR_PERFORM_NO_TCPIP' => '<b>Não foi detectada qualquer conexão à Internet.</b>Quando tiver uma conexão, por favor visite <a href="https://www.suitecrm.com/">https://www.suitecrm.com</a> para se registrar no SuiteCRM. Ao revelar-nos um pouco sobre como pretende utilizar o SuiteCRM, poderemos trabalhar na disponibilização das aplicações certas para as suas necessidades.',
-    'ERR_PERFORM_NO_TCPIP_SIMPLE' => 'We could not detect an Internet connection.',
+    'ERR_PERFORM_NO_TCPIP_SIMPLE' => 'Não foi possível detectar uma conexão com a internet.',
     'ERR_SESSION_DIRECTORY_NOT_EXISTS' => 'O Diretório de sessão fornecida não é uma Diretório válida.',
     'ERR_SESSION_DIRECTORY' => 'O Diretório de sessão fornecida não é uma Diretório editável.',
     'ERR_SESSION_PATH' => 'Path da sessão é obrigatória se pretende especificar a sua própria.',
@@ -157,7 +161,7 @@ $mod_strings = array(
     'LBL_CHECKSYS_EXTENSIONS' => 'Diretório Extensions Editável',
     'LBL_CHECKSYS_SECRETS' => 'Diretório Config/Secrets Editável',
     'LBL_CHECKSYS_LOGS' => 'Diretório de Log Editável',
-    'LBL_CHECKSYS_ROOT' => 'Writable Root Directory',
+    'LBL_CHECKSYS_ROOT' => 'Diretório raiz gravável',
     'LBL_DROP_DB_CONFIRM' => 'O Nome do usuário da Base de Dados fornecido já existe. Pode<br>1. Clicar no botão Cancelar e escolher um novo nome, ou <br>2. Clicar no botão Aceitar e continuar. Todas as tabelas existentes na base de dados serão descartadas.<strong>Isto significa que as suas tabelas e dados serão destruídos.</strong>',
     'LBL_CHECKSYS_COMPONENT' => 'Componente',
     'LBL_CHECKSYS_CONFIG' => 'arquivo de Configuração SuiteCRM (config.php) Editável',
@@ -213,13 +217,13 @@ $mod_strings = array(
     'ERR_CHECKSYS_PDO_MYSQL' => 'A extensão PDO MySQL não está habilitada, entre em contato com o administrador do sistema.',
     'ERR_CHECKSYS_MYSQLI' => 'A extensão MySQLi não está habilitada, entre em contato com o administrador do sistema.',
     'ERR_CHECKSYS_SOAP' => 'A extensão Soap não está habilitada, por favor contacte o administrador do sistema.',
-    'ERR_SUHOSIN' => 'Upload stream is blocked by Suhosin, please add "upload" to suhosin.executor.include.whitelist (See suitecrm.log for more information)',
+    'ERR_SUHOSIN' => 'O envio de arquivos está sendo bloqueado pelo Suhosin. Adicione "upload" à configuração suhosin.executor.include.whitelist. (Consulte o arquivo suitecrm.log para mais informações)',
     'LBL_UNWRITABLE_SUB_DIR' => 'Existem alguns subdiretórios que não são editáveis. Por favor, tome as medidas necessárias para tornar os diretórios editáveis ',
-    'LBL_REFER_TO_LOGS' => 'There has been an issue in one of your pre-installation checks, please refer to the logs/install.log',
+    'LBL_REFER_TO_LOGS' => 'Foi encontrado um problema durante uma das verificações de pré-instalação, consulte o arquivo logs/install.log para mais informações',
     'LBL_NOT_A_VALID_SUITECRM_PAGE' => 'O Título SuiteCRM não pôde ser encontrado. Esta não é uma página válida do SuiteCRM.',
-    'LBL_NOT_COOKIE_OR_TOKEN' => 'Cannot find cookies, no valid token found. Please refer to the logs/install.log for more information.',
+    'LBL_NOT_COOKIE_OR_TOKEN' => 'Não foi possível encontrar cookies, nenhum token válido encontrado. Por favor, consulte os logs/install.log para obter mais informações.',
     'LBL_CURL_JSON_ERROR' => 'O resultado da chamada cURL para a página GraphQL estava vazio.',
-    'LBL_UNABLE_TO_FIND_SYSTEM_CONFIGS' => 'Unable to retrieve System Configs on Graphql Page. Please refer to the logs/install.log for more information.',
+    'LBL_UNABLE_TO_FIND_SYSTEM_CONFIGS' => 'Não foi possível localizar os cookies ou um token válido. Consulte o arquivo logs/install.log para mais informações.',
     'LBL_CURL_REQUEST_MAIN_PAGE' => 'Requisição cURL na Página Principal',
     'LBL_CURL_REQUEST_API_PAGE' => 'Requisição cURL na API',
     'LBL_ERROR_DETAILS' => 'Detalhes do Erro',
@@ -392,12 +396,12 @@ $mod_strings = array(
     'LBL_STEP1' => 'Etapa 1 de 2 - Requisitos de Pré-Instalação',
     'LBL_STEP2' => 'Etapa 2 de 2 - Configuração',
     'LBL_STEP' => 'Passo',
-    'LBL_CHECKS_PASSED' => 'All Checks Passed!',
-    'LBL_WARNINGS_FOUND' => 'Warnings found: please check these before you proceed.',
-    'LBL_ERRORS_FOUND' => ' Errors found: it is recommended that you resolve these before you proceed.',
-    'LBL_ERRORS_AND_WARNINGS_FOUND' => 'Error(s) and Warning(s) found: It is recommended that you check and resolve these before you proceed.',
+    'LBL_CHECKS_PASSED' => 'Todas as Verificações Aprovadas!',
+    'LBL_WARNINGS_FOUND' => 'Avisos encontrados: por favor, verifique isso antes de prosseguir.',
+    'LBL_ERRORS_FOUND' => ' Erros encontrados: é recomendável que você resolva estes antes de prosseguir.',
+    'LBL_ERRORS_AND_WARNINGS_FOUND' => 'Erro(s) e Aviso(s) encontrados: É recomendável que você verifique e resolva antes de prosseguir.',
     'LBL_TITLE_WELCOME' => 'Bem-vindo ao SuiteCRM ',
-    'LBL_WELCOME' => 'Welcome to SuiteCRM',
+    'LBL_WELCOME' => 'Bem-vindo ao SuiteCRM',
     //welcome page variables
     'LBL_TITLE_ARE_YOU_READY' => 'Está pronto a instalar?',
     'REQUIRED_SYS_COMP' => 'Componentes de Sistema Necessários',
@@ -444,9 +448,11 @@ Depois de fazer as alterações necessárias, você pode submeter a verificaçã
     'LBL_PATCH_1' => 'Se pretende ignorar este passo, clique em Próximo.',
     'LBL_PATCH_TITLE' => 'Patch do Sistema',
     'LBL_PATCH_READY' => 'Os patches seguintes estão prontos a ser instalados:',
-    'LBL_SESSION_ERR_DESCRIPTION' => "SuiteCRM relies upon PHP sessions to store important information while connected to this web server. Your PHP installation does not have the Session information correctly configured.
-											<br><br>A common misconfiguration is that the <b>'session.save_path'</b> directive is not pointing to a valid directory. <br>
-											<br> Please correct your <a target=_new href='https://www.php.net/manual/en/ref.session.php'>PHP configuration</a> in the php.ini file located here below.",
+    'LBL_SESSION_ERR_DESCRIPTION' => "O SuiteCRM utiliza sessões do PHP para armazenar informações importantes durante a comunicação com o servidor. A configuração de sessões da sua instalação do PHP não está correta.
+
+<br><br>Um problema comum é a diretiva <b>'session.save_path'</b> estar apontando para um diretório inexistente ou sem as permissões adequadas.<br>
+
+<br> Corrija essa <a target=_new href='https://www.php.net/manual/en/ref.session.php'>configuração</a> no arquivo php.ini indicado abaixo.",
     'LBL_SESSION_ERR_TITLE' => 'Erro de Configuração das Sessões PHP',
     'LBL_SYSTEM_NAME' => 'Nome do Sistema',
     'LBL_COLLATION' => 'Configurações de Colação',
@@ -596,7 +602,8 @@ $contact_user_link_guid',
     'LBL_START' => '',
     'LBL_DB_CONN_ERR' => 'Erro no banco de dados',
     'LBL_OLD_PHP' => 'Versão antiga do PHP detectada!',
-    'LBL_OLD_PHP_MSG' => 'The recommended PHP version to install SuiteCRM is %s <br />The minimum PHP version required is %s<br />You are using PHP version %s, which is EOL: <a href="https://www.php.net/eol.php">https://www.php.net/eol.php</a>.<br />Please consider upgrading your PHP version. ',
+    'LBL_OLD_PHP_MSG' => 'A versão recomendada do PHP para instalar o SuiteCRM é %s. <br /> A versão mínima suportada é %s. <br /> Você está utilizando o PHP %s, que já atingiu o fim do ciclo de suporte (EOL). <a href="https://www.php.net/eol.php">
+ttps://www.php.net/eol.php</a>.<br />Recomendamos atualizar sua versão do PHP ',
     'LBL_OLD_PHP_OK' => 'Estou ciente dos riscos e desejo continuar.',
 
     'LBL_DBCONF_TITLE_USER_INFO_LABEL' => 'Usuário',
@@ -608,13 +615,13 @@ $contact_user_link_guid',
     'LBL_DBCONFIG_B_MSG1' => 'O nome do usuário e senha de um administrador da base de dados que possa criar usuários e tabelas de base de dados e que possa editar a base de dados é necessário para configurar a base de dados do SuiteCRM.',
     'LBL_SYS_CHECK_WARNING' => 'Ignorar Avisos de Verificação do Sistema',
     'LBL_PROCEED' => 'Continuar',
-    'LBL_PROCEED_WITH_WARNINGS' => 'IGNORE WARNINGS AND PROCEED',
-    'LBL_PROCEED_WITH_ERRORS' => 'IGNORE ERRORS AND PROCEED',
-    'LBL_PROCEED_WITH_ERRORS_AND_WARNINGS' => 'IGNORE ERRORS AND WARNINGS TO PROCEED',
+    'LBL_PROCEED_WITH_WARNINGS' => 'IGNORAR AVISOS E PROCEDER',
+    'LBL_PROCEED_WITH_ERRORS' => 'IGNORAR ERROS E PROCEDER',
+    'LBL_PROCEED_WITH_ERRORS_AND_WARNINGS' => 'IGNORE ERROS E AVISO PARA PROCEDER',
     'LBL_RECHECK' => 'Reverificar',
-    'LBL_VIEW_FULL_ERROR' => 'View Full Error',
-    'LBL_CLOSE_DESCRIPTION' => 'Close Description',
+    'LBL_VIEW_FULL_ERROR' => 'Ver erro completo',
+    'LBL_CLOSE_DESCRIPTION' => 'Fechar descrição',
     'LBL_CONFIG' => 'Configuração',
     'LBL_VALIDATION_ERRORS' => 'Existem erros de validação, incapaz de executar a ação.',
-    'LBL_CRON_UNRECOMMENDED_USER' => 'You are currently running as root, this is NOT recommended, would you like to continue (y,n)? '
+    'LBL_CRON_UNRECOMMENDED_USER' => 'Você está atualmente executando como root, isto NÃO é recomendado, você gostaria de continuar (y,n)? '
 );
