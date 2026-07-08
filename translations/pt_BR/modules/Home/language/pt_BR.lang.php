@@ -252,13 +252,13 @@ $mod_strings = array(
     'LBL_ELASTIC_SEARCH_DEFAULT' => 'Nenhum resultado correspondente a seu critério. Tente ampliar sua pesquisa.',
 
     // Portal Labels
-    'LBL_AOP_DISABLED' => 'AOP is disabled, please enable via settings',
-    'LBL_CREATE_PORTAL_USER_FAILED' => 'Failed to create portal user',
-    'LBL_ENABLE_PORTAL_USER_FAILED' => 'Failed to enable portal user',
-    'LBL_DISABLE_PORTAL_USER_FAILED' => 'Failed to disable portal user',
-    'LBL_CREATE_PORTAL_USER_SUCCESS' => 'Created portal user',
-    'LBL_ENABLE_PORTAL_USER_SUCCESS' => 'Enabled portal user',
-    'LBL_DISABLE_PORTAL_USER_SUCCESS' => 'Disabled portal user',
+    'LBL_AOP_DISABLED' => 'AOP está desativado, por favor habilite nas configurações',
+    'LBL_CREATE_PORTAL_USER_FAILED' => 'Falha ao criar usuário do portal',
+    'LBL_ENABLE_PORTAL_USER_FAILED' => 'Falha ao ativar usuário do portal',
+    'LBL_DISABLE_PORTAL_USER_FAILED' => 'Falha ao desativar usuário do portal',
+    'LBL_CREATE_PORTAL_USER_SUCCESS' => 'Usuário do portal criado',
+    'LBL_ENABLE_PORTAL_USER_SUCCESS' => 'Usuário do portal ativado',
+    'LBL_DISABLE_PORTAL_USER_SUCCESS' => 'Usuário do portal desativado',
 
     'LNK_TASK_VIEW' => 'Visualizar Tarefa',
 );
