@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
 
-    'LBL_NAME' => 'Name',
+    'LBL_NAME' => 'Nome',
     'LBL_NUMBER' => 'Número:',
     'LBL_STATUS' => 'Status:',
     'LBL_PRIORITY' => 'Prioridade:',
@@ -62,7 +62,7 @@ $mod_strings = array(
     'LBL_TYPE' => 'Tipo:',
     'LBL_SUBJECT' => 'Assunto:',
 
-    'LBL_EDIT_BUTTON' => 'Edit',
+    'LBL_EDIT_BUTTON' => 'Editar',
     'LBL_REMOVE' => 'Remover',
 
 );

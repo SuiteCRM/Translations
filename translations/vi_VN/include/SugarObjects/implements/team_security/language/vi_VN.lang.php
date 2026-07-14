@@ -44,5 +44,5 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_TEAM' => 'Nhóm',
-    'LBL_TEAMS' => 'Teams',
+    'LBL_TEAMS' => 'Nhóm',
 );

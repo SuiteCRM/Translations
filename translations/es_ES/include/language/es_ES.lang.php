@@ -247,7 +247,7 @@ $app_list_strings = array(
     'case_relationship_type_default_key' => 'Primary Contact',
     'case_relationship_type_dom' => array(
         '' => '',
-        'Primary Contact' => 'Primary Contact',
+        'Primary Contact' => 'Contacto principal',
         'Alternate Contact' => 'Contacto Alternativo',
     ),
     'payment_terms' => array(

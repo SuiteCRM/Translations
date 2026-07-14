@@ -47,7 +47,7 @@ $mod_strings = array(
 
     'LBL_ADMINISTRATION_MAIN' => 'Definições do Conector',
     'LBL_AVAILABLE' => 'Disponível',
-    'LBL_BACK' => '< Back',
+    'LBL_BACK' => '< Voltar',
     'LBL_CONFIRM_CONTINUE_SAVE' => 'Alguns campos obrigatórios foram deixados em branco. Prosseguir com a gravação das alterações?',
     'LBL_CONNECTOR_FIELDS' => 'Campos do Conector',
     'LBL_DATA' => 'Dados',
@@ -65,12 +65,12 @@ $mod_strings = array(
     'LBL_MODIFY_PROPERTIES_TITLE' => 'Definir Propriedades do Conector',
     'LBL_MODIFY_PROPERTIES_DESC' => 'Configurar as propriedades para cada conector, incluindo URLs e chaves API.',
     'LBL_MODIFY_SEARCH_TITLE' => 'Gerrenciar Conector de Pesquisa',
-    'LBL_MODIFY_SEARCH' => 'Search',
+    'LBL_MODIFY_SEARCH' => 'Pesquisar',
     'LBL_MODIFY_SEARCH_DESC' => 'Selecionar os campos do conector a utilizar na pesquisa por dados para cada módulo.',
     'LBL_MODULE_NAME' => 'Conectores',
     'LBL_NO_PROPERTIES' => 'Não há propriedades configuráveis para este conector.',
     'LBL_SAVE' => 'Salvar',
-    'LBL_SUMMARY' => 'Summary',
+    'LBL_SUMMARY' => 'Resumo',
     'LBL_STEP1' => 'Pesquisar e Visualizar Dados',
     'LBL_STEP2' => 'Mesclar registros com',
     'LBL_TEST_SOURCE' => 'Testar Conector',
@@ -83,7 +83,7 @@ $mod_strings = array(
     'ERROR_NO_SEARCHDEFS_MAPPED' => 'Erro: Nenhum conector ativo tem campos de pesquisa definidos.',
     'ERROR_NO_SEARCHDEFS_MAPPING' => 'Erro: Não existem campos de pesquisa definidos para o módulo e o conector. Por favor contate o administrador do sistema.',
     'ERROR_NO_DISPLAYABLE_MAPPED_FIELDS' => 'Erro: Não existem campos de módulo que tenham sido mapeados para exibição nos resultados. Por favor contate o administrador do sistema.',
-    'LBL_INFO_INLINE' => 'Info' /*for 508 compliance fix*/,
+    'LBL_INFO_INLINE' => 'Informações' /*for 508 compliance fix*/,
     'LBL_CLOSE' => 'Fechar' /*for 508 compliance fix*/,
 
 );

@@ -43,22 +43,22 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ROLE' => 'Função:',
-    'LBL_LANGUAGE' => 'Language:',
-    'LBL_MODULE_NAME' => 'Funções',
+    'LBL_ROLE' => 'Perfil:',
+    'LBL_LANGUAGE' => 'Idioma:',
+    'LBL_MODULE_NAME' => 'Perfis',
     'LBL_MODULE_TITLE' => 'Perfis: Tela Principal',
     'LBL_SEARCH_FORM_TITLE' => 'Pesquisar Perfis',
     'LBL_LIST_FORM_TITLE' => 'Listar Perfis',
-    'LNK_NEW_ROLE' => 'Criar Nova Função',
-    'LNK_ROLES' => 'Funções',
-    'LBL_NAME' => 'Name:',
+    'LNK_NEW_ROLE' => 'Criar Perfil',
+    'LNK_ROLES' => 'Perfis',
+    'LBL_NAME' => 'Nome:',
     'LBL_DESCRIPTION' => 'Descrição:',
     'LBL_ALLOWED_MODULES' => 'Módulos permitidos:',
     'LBL_DISALLOWED_MODULES' => 'Módulos proibidos:',
     'LBL_ASSIGN_MODULES' => 'Editar módulos:',
-    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Funções',
-    'LBL_USERS' => 'usuários',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Perfis',
+    'LBL_USERS' => 'Usuários',
 
-    'LBL_USERS_SUBPANEL_TITLE' => 'usuários',
-    'LBL_MODULES' => 'Modules',
+    'LBL_USERS_SUBPANEL_TITLE' => 'Usuários',
+    'LBL_MODULES' => 'Módulos',
 );
