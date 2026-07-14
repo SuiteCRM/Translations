@@ -49,16 +49,16 @@ $mod_strings = array(
     'LBL_DELETE_CONFIRM' => 'Tem a certeza que deseja eliminar os filtros selecionados?',
     'LBL_DELETE_BUTTON_TITLE' => 'Excluir este filtro salvo',
     'LBL_SAVE_BUTTON_TITLE' => 'Salvar o filtro atual',
-    'LBL_LIST_NAME' => 'Name',
-    'LBL_LIST_MODULE' => 'Module',
+    'LBL_LIST_NAME' => 'Nome',
+    'LBL_LIST_MODULE' => 'Módulo',
     'LBL_ORDER_BY_COLUMNS' => 'Ordenar por coluna',
     'LBL_DIRECTION' => 'Direção',
     'LBL_SAVE_SEARCH_AS' => 'Salvar filtro como:',
     'LBL_ASCENDING' => 'Ascendente',
     'LBL_DESCENDING' => 'Descendente',
-    'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
+    'LBL_MODIFY_CURRENT_FILTER' => 'Modificar filtro atual',
 
-    'LBL_CREATED_BY' => 'Created By',
+    'LBL_CREATED_BY' => 'Criado Por',
     'LBL_QUICK_FILTER' => 'Filtro Rápido',
 
 

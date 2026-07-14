@@ -89,27 +89,27 @@ $mod_strings = array(
     'LBL_LIST_DOCUMENT' => 'Tài liệu',
     'LBL_LIST_CATEGORY' => 'Chủng loại',
     'LBL_LIST_SUBCATEGORY' => 'Chủng loại phụ',
-    'LBL_LIST_REVISION' => 'Revision',
+    'LBL_LIST_REVISION' => 'Lần sửa đổi',
     'LBL_LIST_LAST_REV_CREATOR' => 'phát hành bởi',
     'LBL_LIST_LAST_REV_DATE' => 'Ngày Bản sửa',
     'LBL_LIST_VIEW_DOCUMENT' => 'Xem',
-    'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
-    'LBL_LIST_EXP_DATE' => 'Expiration Date',
+    'LBL_LIST_ACTIVE_DATE' => 'Ngày xuất bản',
+    'LBL_LIST_EXP_DATE' => 'Ngày hết hạn',
     'LBL_LIST_STATUS' => 'Tình trạng',
 
     //document search form.
-    'LBL_SF_CATEGORY' => 'Category:',
+    'LBL_SF_CATEGORY' => 'Nhóm:',
     'LBL_SF_SUBCATEGORY' => 'Chủng loại phụ:',
 
     'DEF_CREATE_LOG' => 'Tài liệu đã được tạo',
 
     //error messages
-    'ERR_DOC_NAME' => 'Document Name',
-    'ERR_DOC_ACTIVE_DATE' => 'Publish Date',
+    'ERR_DOC_NAME' => 'Tên tài liệu',
+    'ERR_DOC_ACTIVE_DATE' => 'Ngày xuất bản',
     'ERR_FILENAME' => 'Tên tập tin',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'Document Name',
+    'LBL_LIST_DOCUMENT_NAME' => 'Tên tài liệu',
 
     'LBL_EDIT_BUTTON' => 'Chỉnh sửa ',
     'LBL_REMOVE' => 'Xóa bỏ',

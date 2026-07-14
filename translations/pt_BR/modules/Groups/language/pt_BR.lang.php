@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Groups',
-    'LBL_GROUP_NAME' => 'Group Name:',
+    'LBL_MODULE_NAME' => 'Grupos',
+    'LBL_GROUP_NAME' => 'Nome do Grupo:',
     'LBL_DESCRIPTION' => 'Descrição:',
-    'LBL_TEAM' => 'Team:',
+    'LBL_TEAM' => 'Equipe:',
     // ListView
-    'LBL_LIST_TITLE' => 'Groups',
+    'LBL_LIST_TITLE' => 'Grupos',
     // Links
     'LNK_ALL_GROUPS' => 'Todos os Grupos',
     'LNK_NEW_GROUP' => 'Criar Novo Grupo',

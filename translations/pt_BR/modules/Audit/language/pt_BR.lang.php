@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_FIELD_NAME' => 'Field',
+    'LBL_FIELD_NAME' => 'Campo',
     'LBL_OLD_NAME' => 'Valor Anterior',
     'LBL_NEW_VALUE' => 'Novo Valor',
     'LBL_CREATED_BY' => 'Alterado Por',

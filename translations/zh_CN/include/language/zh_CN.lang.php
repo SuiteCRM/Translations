@@ -625,9 +625,9 @@ Inbound Email Settings',
     ),
 
     'file_field_storage_type_dom' => [
-        'private-documents' => 'Private Documents',
-        'public-documents' => 'Public Documents',
-        'archived-documents' => 'Archived Documents',
+        'private-documents' => '浏览文档',
+        'public-documents' => '公开文档',
+        'archived-documents' => '已存档文档',
     ],
 
 
@@ -789,7 +789,7 @@ Inbound Email Settings',
 
     'dom_manual_migration_tasks_types' => [
         'background' => 'Background Process',
-        'immediate' => 'Immediate',
+        'immediate' => '立即',
     ],
 
     'dom_manual_migration_tasks_statuses' => [

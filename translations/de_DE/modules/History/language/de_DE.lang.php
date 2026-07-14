@@ -92,7 +92,7 @@ $mod_strings = array(
     'LBL_LIST_DUE_DATE' => 'Due Date',
     'LBL_LIST_LAST_MODIFIED' => 'Last Modified',
     'LNK_IMPORT_NOTES' => 'Import Notes',
-    'LBL_ACCEPT_THIS' => 'Accept?',
+    'LBL_ACCEPT_THIS' => 'Akzeptieren?',
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Verlauf',
 
     'LBL_CATEGORY' => 'Kategorie',
