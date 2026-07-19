@@ -86,7 +86,7 @@ $app_list_strings = array(
         'Sync' => '동기화',
         'Users' => '사용자',
         'Employees' => '사원',
-        'Administration' => 'Administration',
+        'Administration' => '관리',
         'ACLRoles' => 'Roles',
         'InboundEmail' => '수신 이메일',
         'Releases' => '발표',
@@ -138,7 +138,7 @@ $app_list_strings = array(
         'Prospects' => '대상',
         'Campaigns' => '캠페인',
         'Documents' => '자료 리스트',
-        'Sync' => 'Sync',
+        'Sync' => '동기화',
         'Users' => '사용자',
         'SugarFavorites' => '즐겨찾기',
 
@@ -155,14 +155,14 @@ $app_list_strings = array(
         '' => '',
         'Analyst' => 'Analyst',
         'Competitor' => '경쟁자',
-        'Customer' => 'Customer',
+        'Customer' => '고객',
         'Integrator' => '완성자',
         'Investor' => '투자자',
-        'Partner' => 'Partner',
-        'Press' => 'Press',
+        'Partner' => '파트너',
+        'Press' => '출판사(언론사)',
         'Prospect' => 'Prospect',
-        'Reseller' => 'Reseller',
-        'Other' => 'Other',
+        'Reseller' => '리셀러',
+        'Other' => '기타',
     ),
     //e.g. en español 'Apparel'=>'Ropa',
     'industry_dom' => array(
@@ -196,7 +196,7 @@ $app_list_strings = array(
         'Telecommunications' => '전기통신',
         'Transportation' => '운송',
         'Utilities' => '공익사업',
-        'Other' => 'Other',
+        'Other' => '기타',
     ),
     'lead_source_default_key' => '자동생성',
     'lead_source_dom' => array(
@@ -205,7 +205,7 @@ $app_list_strings = array(
         'Existing Customer' => '기존 거래처',
         'Self Generated' => '자동생성',
         'Employee' => '사원',
-        'Partner' => 'Partner',
+        'Partner' => '파트너',
         'Public Relations' => '홍보',
         'Direct Mail' => 'DM',
         'Conference' => '컨퍼런스',
@@ -213,13 +213,13 @@ $app_list_strings = array(
         'Web Site' => '웹사이트',
         'Word of mouth' => '입소문',
         'Email' => '이메일',
-        'Campaign' => 'Campaign',
+        'Campaign' => '캠페인',
         'Other' => 'Other',
     ),
     'opportunity_type_dom' => array(
         '' => '',
-        'Existing Business' => 'Existing Business',
-        'New Business' => 'New Business',
+        'Existing Business' => '기존 비즈니스 ',
+        'New Business' => '신규사업 ',
     ),
     'roi_type_dom' => array(
         'Revenue' => '수익',
@@ -240,7 +240,7 @@ $app_list_strings = array(
         'Technical Evaluator' => '기술 평가자',
         'Executive Sponsor' => '주요 스폰서',
         'Influencer' => '영향력 행사자',
-        'Other' => 'Other',
+        'Other' => '기타',
     ),
     //Note:  do not translate case_relationship_type_default_key
 //       it is the key for the default case_relationship_type_dom value
@@ -447,7 +447,7 @@ $app_list_strings = array(
         'Contacts' => '연락처', // cn (11/22/2005) added to support Emails
 
         'Bugs' => '버그',
-        'Project' => 'Project',
+        'Project' => '프로젝트',
 
         'Prospects' => '대상',
         'ProjectTask' => '프로젝트 작업',
@@ -481,8 +481,8 @@ $app_list_strings = array(
 
         'AOS_Contracts' => '계약',
         'AOS_Invoices' => 'Invoice',
-        'AOS_Quotes' => 'Quote',
-        'AOS_Products' => 'Product',
+        'AOS_Quotes' => '견적',
+        'AOS_Products' => '제품',
     ),
 
     'parent_type_display' => array(
@@ -492,10 +492,10 @@ $app_list_strings = array(
         'Opportunities' => '영업기회',
 
         'Bugs' => '버그',
-        'Cases' => 'Case',
+        'Cases' => '케이스',
         'Leads' => '잠재고객',
 
-        'Project' => 'Project',
+        'Project' => '프로젝트',
         'ProjectTask' => '프로젝트 작업',
 
         'Prospects' => '대상',
@@ -725,25 +725,25 @@ $app_list_strings = array(
     ],
 
     'dom_external_oauth_connection_types' => [
-        'personal' => 'Personal',
-        'group' => 'Group',
+        'personal' => '개인',
+        'group' => '그룹',
     ],
 
     'dom_external_oauth_provider_types' => [
-        'personal' => 'Personal',
-        'group' => 'Group',
+        'personal' => '개인',
+        'group' => '그룹',
     ],
 
     'dom_outbound_email_account_types' => [
-        'user' => 'Personal',
-        'group' => 'Group',
+        'user' => '개인',
+        'group' => '그룹',
         'system' => '시스템',
         'system-override' => '시스템 오버라이드',
     ],
 
     'dom_inbound_email_account_status' => [
         'Active' => '활성',
-        'Inactive' => 'Inactive',
+        'Inactive' => '비활성화',
     ],
 
     'dom_email_body_filtering_option' => [
@@ -755,8 +755,8 @@ $app_list_strings = array(
         'out' => '보냄',
         'archived' => '저장',
         'draft' => '임시 보관',
-        'inbound' => 'Inbound',
-        'campaign' => 'Campaign',
+        'inbound' => '인바운드',
+        'campaign' => '캠페인',
     ),
     'dom_email_status' => array(
         'archived' => '기록됨',
@@ -773,16 +773,16 @@ $app_list_strings = array(
     ),
 
     'dom_email_server_type' => array(
-        '' => '--None--',
+        '' => '없음',
         'imap' => 'IMAP',
     ),
     'dom_mailbox_type' => array(/*''           => '--None Specified--',*/
-        'pick' => '--None--',
+        'pick' => '없음',
         'createcase' => '신규사례작성',
         'bounce' => '반송 처리',
     ),
     'dom_email_distribution' => array(
-        '' => '--None--',
+        '' => '',
         'direct' => '직접할당',
         'roundRobin' => '회람',
         'leastBusy' => '지연',
@@ -833,17 +833,17 @@ $app_list_strings = array(
 
     'scheduler_status_dom' => array(
         'Active' => '활성',
-        'Inactive' => 'Inactive',
+        'Inactive' => '비활성화',
     ),
 
     'scheduler_period_dom' => array(
         'min' => '분',
-        'hour' => 'Hours',
+        'hour' => '시간',
     ),
     'document_category_dom' => array(
         '' => '',
-        'Marketing' => 'Marketing',
-        'Knowledege Base' => 'Knowledge Base',
+        'Marketing' => '마케팅',
+        'Knowledege Base' => '기술 자료',
         'Sales' => 'Sales',
     ),
 
@@ -856,7 +856,7 @@ $app_list_strings = array(
     'document_subcategory_dom' => array(
         '' => '',
         'Marketing Collateral' => '마케팅 관리',
-        'Product Brochures' => 'Product Brochures',
+        'Product Brochures' => '제품 소개자료',
         'FAQ' => 'FAQ',
     ),
 
@@ -865,8 +865,8 @@ $app_list_strings = array(
         'Draft' => '임시 보관',
         'FAQ' => 'FAQ',
         'Expired' => '만료됨',
-        'Under Review' => 'Under Review',
-        'Pending' => 'Pending',
+        'Under Review' => '검토 중',
+        'Pending' => '보류 중',
     ),
     'document_template_type_dom' => array(
         '' => '',
@@ -881,7 +881,7 @@ $app_list_strings = array(
         'tentative' => '미정',
     ),
     'dom_meeting_accept_status' => array(
-        'accept' => 'Accepted',
+        'accept' => '승인됨',
         'decline' => '거절됨',
         'tentative' => 'Tentative',
         'none' => '미사용',
@@ -895,7 +895,7 @@ $app_list_strings = array(
     'repeat_type_dom' => array(
         '' => '없음',
         'Daily' => '매일',
-        'Weekly' => 'Weekly',
+        'Weekly' => '주간',
         'Monthly' => '월',
         'Yearly' => '매년',
     ),
@@ -943,7 +943,7 @@ $app_list_strings = array(
     'email_marketing_status_dom' => array(
         '' => '',
         'active' => '활성',
-        'inactive' => 'Inactive',
+        'inactive' => '비활성화',
     ),
 
     'campainglog_activity_type_dom' => array(
@@ -1016,7 +1016,7 @@ $app_list_strings = array(
     ),
     'release_status_dom' => array(
         'Active' => '활성',
-        'Inactive' => 'Inactive',
+        'Inactive' => '비활성화',
     ),
     'email_settings_for_ssl' => array(
         '0' => '',
@@ -1052,8 +1052,8 @@ $app_list_strings = array(
     ),
     'dashlet_auto_refresh_options_admin' => array(
         '-1' => '사용하지않음',
-        '30' => 'Every 30 seconds',
-        '60' => 'Every 1 minute',
+        '30' => '30초 마다',
+        '60' => '1분 마다',
         '180' => 'Every 3 minutes',
         '300' => 'Every 5 minutes',
         '600' => 'Every 10 minutes',
