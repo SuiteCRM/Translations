@@ -52,7 +52,7 @@ $app_list_strings = array(
         'Home' => 'Pagina iniziale',
         'ResourceCalendar' => 'Calendario delle risorse',
         'Contacts' => 'Contatti',
-        'Accounts' => 'Accounts',
+        'Accounts' => 'Aziende',
         'Alerts' => 'Avvisi',
         'Opportunities' => 'Opportunità',
         'Cases' => 'Reclami',
@@ -109,7 +109,7 @@ $app_list_strings = array(
         'OAuthTokens' => 'Token OAuth',
         'OAuth2Clients' => 'OAuth Clienti',
         'OAuth2Tokens' => 'Token OAuth',
-        'OAuth2AuthCodes' => 'OAuth Authorization Codes',
+        'OAuth2AuthCodes' => 'Codice di Autorizzazione OAuth',
     ),
 
     'moduleListSingular' => array(
@@ -300,7 +300,7 @@ $app_list_strings = array(
 
     'redirect_uri_type_dom' => [
         'pretty_url' => 'Pretty URL (/ep/)',
-        'query_string' => 'Query String (index.php?entryPoint=)'
+        'query_string' => 'Query Stringa (index.php?entryPoint=)'
     ],
 
     //time is in seconds; the greater the time the longer it takes;
@@ -396,7 +396,7 @@ $app_list_strings = array(
     'project_task_priority_options' => array(
         'High' => 'Alta',
         'Medium' => 'Media',
-        'Low' => 'Low',
+        'Low' => 'Bassa',
     ),
     'project_task_priority_default' => 'Media',
 
@@ -719,7 +719,7 @@ $app_list_strings = array(
     ],
 
     'dom_outbound_email_auth_types' => [
-        'no_auth' => 'No Auth',
+        'no_auth' => 'Nessun Autenticazione',
         'basic' => 'Autenticazione Base',
         'oauth' => 'OAuth',
     ],
@@ -1405,7 +1405,7 @@ $app_strings = array(
     'LBL_EMAIL_SETTINGS_CHECK_INTERVAL' => 'Controlla nuove E-mail',
     'LBL_EMAIL_SETTINGS_FROM_ADDR' => 'Indirizzo mittente',
     'LBL_EMAIL_SETTINGS_FROM_TO_EMAIL_ADDR' => 'Indirizzo Email per notifiche di Test:',
-    'LBL_EMAIL_SETTINGS_FROM_ADDR_NOT_SET' => 'From address and/or From name not set',
+    'LBL_EMAIL_SETTINGS_FROM_ADDR_NOT_SET' => 'Indirizzo mittente e/o Da (nome) non impostati',
     'LBL_EMAIL_SETTINGS_FROM_NAME' => 'Nome mittente',
     'LBL_EMAIL_SETTINGS_REPLY_TO_ADDR' => 'Rispondi all´indirizzo',
     'LBL_EMAIL_SETTINGS_FULL_SYNC' => 'Sincronizza tutte gli Account Email',
@@ -1591,7 +1591,7 @@ $app_strings = array(
     'LBL_CAMPAIGNS' => 'Campagne',
     'LBL_CAMPAIGNLOG' => 'Log Campagna',
     'LBL_CAMPAIGN_CONTACT' => 'Campagne',
-    'LBL_CAMPAIGN_ID' => 'campaign_id',
+    'LBL_CAMPAIGN_ID' => 'id campagna',
     'LBL_CAMPAIGN_NONE' => '--Nessuno--',
     'LBL_THEME' => 'Tema:',
     'LBL_FOUND_IN_RELEASE' => 'Trovato nella Release',
@@ -1888,8 +1888,8 @@ $app_strings = array(
     'MSG_JS_ALERT_MTG_REMINDER_DESC' => 'Descrizione:',
     'MSG_JS_ALERT_MTG_REMINDER_STATUS' => 'Stato:',
     'MSG_JS_ALERT_MTG_REMINDER_RELATED_TO' => 'Collegato a:',
-    'MSG_JS_ALERT_MTG_REMINDER_CALL_MSG' => "\nClick OK to view this call or click Cancel to dismiss this message.",
-    'MSG_JS_ALERT_MTG_REMINDER_MEETING_MSG' => "\nClick OK to view this meeting or click Cancel to dismiss this message.",
+    'MSG_JS_ALERT_MTG_REMINDER_CALL_MSG' => "\nClicca OK per visualizzare questa chiamata o Annulla per respingere questo messaggio.",
+    'MSG_JS_ALERT_MTG_REMINDER_MEETING_MSG' => "\nClicca OK per visualizzare quest´appuntamento o Annulla per respingere questo messaggio.",
     'MSG_JS_ALERT_MTG_REMINDER_NO_EVENT_NAME' => 'Evento',
     'MSG_JS_ALERT_MTG_REMINDER_NO_DESCRIPTION' => 'Evento non impostato.',
     'MSG_JS_ALERT_MTG_REMINDER_NO_LOCATION' => 'Luogo non impostato.',
@@ -1950,8 +1950,8 @@ $app_strings = array(
     'LBL_REMOVE_DASHLET_CONFIRM' => 'Sei sicuro di voler rimuovere la Dashlet di SuiteCRM?',
     'LBL_REMOVING_DASHLET' => 'Rimozione della Dashlet di SuiteCRM in corso...',
     'LBL_REMOVED_DASHLET' => 'Dashlet di SuiteCRM Rimossa',
-    'LBL_MAX_DASHLET_COLUMNS' => "Maximum of %s columns can be displayed.",
-    'LBL_RETRIEVING_XML_DATA' => "There was a problem retrieving the XML data:\n",
+    'LBL_MAX_DASHLET_COLUMNS' => "Possono essere visualizzate al massimo %s colonne.",
+    'LBL_RETRIEVING_XML_DATA' => "Si è verificato un problema durante il recupero dei dati XML:\n",
 
     // MySugar Menu Options
 
@@ -2139,7 +2139,7 @@ $app_strings = array(
     'LBL_DELETE_BUTTON_KEY' => 'D',
     'LBL_DELETE_BUTTON_LABEL' => 'Elimina',
     'LBL_DELETE_BUTTON_TITLE' => 'Elimina',
-    'LBL_BULK_ACTION_BUTTON_LABEL' => 'BULK ACTION',
+    'LBL_BULK_ACTION_BUTTON_LABEL' => 'Azione Massiva',
     'LBL_BULK_ACTION_BUTTON_LABEL_MOBILE' => 'Azione',
     'LBL_SAVE_BUTTON_KEY' => 'S',
     'LBL_SAVE_BUTTON_LABEL' => 'Salva',
@@ -2213,9 +2213,9 @@ $app_strings = array(
     'LBL_SUITE_TOP' => 'Torna all´inizio',
     'LBL_SUITE_SUPERCHARGED' => 'Potenziato da SuiteCRM',
     'LBL_SUITE_POWERED_BY' => 'Basato su SugarCRM',
-    'LBL_SUITE_DESC1' => 'SuiteCRM has been written and assembled by <a href="https://suitecrm.com/">SuiteCRM Ltd</a>. The Program is provided AS IS, without warranty. Licensed under AGPLv3.',
+    'LBL_SUITE_DESC1' => 'SuiteCRM è stato scritto e assemblato da <a href="https://salesagility.com">SalesAgility</a>. Il Programma è fornito COSI\' COM\'E\', senza garanzia alcuna. Distribuito con licenza AGPLv3.',
     'LBL_SUITE_DESC2' => 'Questo programma è software libero; potete ridistribuirlo e/o modificarlo secondo i termini della GNU Affero General Public License versione 3 così come pubblicata dalla Free Software Foundation, inclusa l\'autorizzazione aggiuntiva riportata nell\'intestazione del codice sorgente.',
-    'LBL_SUITE_DESC3' => 'SuiteCRM is a trademark of SuiteCRM Ltd<. All other company and product names may be trademarks of the respective companies with which they are associated.',
+    'LBL_SUITE_DESC3' => 'SuiteCRM è un marchio registrato di SalesAgility Ltd. Tutti gli altri nomi di società e di prodotto possono essere marchi registrati delle rispettive società a cui sono associati.',
     'LBL_GENERATE_PASSWORD_BUTTON_TITLE' => 'Azzera Password',
     'LBL_SEND_CONFIRM_OPT_IN_EMAIL' => 'Invia conferma Email Opt In',
     'LBL_CONFIRM_OPT_IN_ONLY_FOR_PERSON' => 'Email di conferma delle scelte (solo per conti/contatti/prospettive/opportunità)',
@@ -3685,7 +3685,7 @@ $app_list_strings['surveys_matrix_options'][0] = 'Soddisfatto';
 $app_list_strings['surveys_matrix_options'][1] = 'Né soddisfatto né insoddisfatto';
 $app_list_strings['surveys_matrix_options'][2] = 'Insoddisfatto';
 
-$app_list_strings['moduleList']['CalendarAccount'] = 'Calendar Accounts';
+$app_list_strings['moduleList']['CalendarAccount'] = 'Account Calendario';
 
 $app_strings['LBL_OPT_IN_PENDING_EMAIL_NOT_SENT'] = 'In attesa di Conferma dell\'iscrizione, Conferma iscrizione non inviata';
 $app_strings['LBL_OPT_IN_PENDING_EMAIL_FAILED'] = 'L\'invio della Email di conferma Opt In è fallito';
@@ -3750,7 +3750,7 @@ $app_list_strings['calendar_account_types'] = [
 
 // Calendar Connection Status dropdown
 $app_list_strings['calendar_connection_status_list'] = [
-    'never_tested' => 'Never Tested',
+    'never_tested' => 'Mai testato',
     'success' => 'Connesso',
     'failed' => 'Fallito',
 ];
@@ -3766,11 +3766,11 @@ $app_list_strings['sync_attempt_status_list'] = [
 
 $app_list_strings['sync_attempt_message_list'] = [
     '' => '',
-    'sync_complete' => 'All meetings synced.',
-    'up_to_date' => 'No new meetings to sync.',
-    'meetings_failed' => 'Some meetings failed to sync. Check logs.',
-    'sync_partial' => 'Some meetings synced. More pending due to limits.',
-    'sync_failed' => 'No meetings synced. Check logs.',
+    'sync_complete' => 'Tutte le riunioni sincronizzate.',
+    'up_to_date' => 'Nessuna nuova riunione da sincronizzare.',
+    'meetings_failed' => 'Alcune riunioni non sono state sincronizzate. Controlla i log.',
+    'sync_partial' => 'Alcune riunioni sono state sincronizzate. Alcune sono attesa a causa di limiti.',
+    'sync_failed' => 'Nessuna riunione sincronizzata. Controlla i log.',
 ];
 
 $app_strings['LBL_DEFAULT_API_ERROR_TITLE'] = 'Errore JSON API';
@@ -3805,7 +3805,7 @@ $app_strings['LBL_SEARCH_TEXT_FIELD_TITLE_ATTR']   = 'Inserisci Criteri di Ricer
 $app_strings['LBL_SEARCH_SUBMIT_FIELD_TITLE_ATTR'] = 'Ricerca';
 $app_strings['LBL_SEARCH_SUBMIT_FIELD_VALUE']      = 'Ricerca';
 $app_strings['LBL_SEARCH_QUERY']                   = 'Query di ricerca: ';
-$app_strings['LBL_SEARCH_RESULTS_PER_PAGE']        = 'Results per module: ';
+$app_strings['LBL_SEARCH_RESULTS_PER_PAGE']        = 'Risultati per pagina: ';
 $app_strings['LBL_SEARCH_ENGINE']                  = 'Motore: ';
 $app_strings['LBL_SEARCH_TOTAL'] = 'Risultato(i) totale(i): ';
 $app_strings['LBL_SEARCH_PREV'] = 'Indietro';
@@ -3830,7 +3830,7 @@ $app_strings['LBL_VALUE_SET_PLACEHOLDER'] = 'Valore impostato. Inserisci un nuov
 $app_strings['ERR_IMAP_OAUTH_CONNECTION_ERROR'] = 'Non è in grado di connettersi utilizzando l\'accesso OAuth con il server di posta in entrata. Per la connessione: ';
 $app_strings['WARN_OAUTH_TOKEN_SESSION_EXPIRED'] = 'La tua sessione IMAP OAuth è scaduta, accedi di nuovo alla connessione: ';
 
-$app_strings['ERR_OAUTH_CONNECTION_ERROR'] = 'Not able to connect using OAuth login. For connection: ';
+$app_strings['ERR_OAUTH_CONNECTION_ERROR'] = 'Impossibile connettersi usando l\'accesso OAuth. Per la connessione: ';
 
 $app_strings['LBL_KEY'] = 'Chiave';
 $app_strings['LBL_VALUE'] = 'Valore';
@@ -3843,12 +3843,12 @@ $app_strings['LBL_FROM_SYSTEM'] = 'Invia Dal Sistema';
 $app_strings['LBL_SIGNATURE'] = 'Firma';
 
 $app_list_strings['email_import_timeframe_start_dom'] = [
-    '-1 year' => '1 Year',
-    '-6 months' => '6 Months',
-    '-3 months' => '3 Months',
-    '-30 days' => '30 Days',
-    '-15 days' => '15 Days',
-    '-5 days' => '5 Days',
-    '-1 days' => '1 Day',
-    '0 days' => '0 Days',
+    '-1 year' => '1 anno',
+    '-6 months' => '6 Mesi',
+    '-3 months' => '3 Mesi',
+    '-30 days' => '30 giorni',
+    '-15 days' => '15 Giorni',
+    '-5 days' => '5 giorni',
+    '-1 days' => '1 giorno',
+    '0 days' => '0 giorni',
 ];
