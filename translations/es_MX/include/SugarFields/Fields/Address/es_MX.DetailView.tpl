@@ -5,7 +5,7 @@
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
  * SuiteCRM es una extensión de SugarCRM Community Edition desarrollada por SalesAgility Ltd.
- * Copyright (C) 2011 - 2019 SalesAgility Ltd.
+ 
  *
  * This program is free software; you can redistribute it and/or modify it under
  * the terms of the GNU Affero General Public License version 3 as published by the
