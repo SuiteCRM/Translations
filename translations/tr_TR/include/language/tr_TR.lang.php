@@ -792,15 +792,15 @@ $app_list_strings = array(
         2 => 'Ögeleri doğrudan atarken yalnızca denetlemiş ögeler atamalısınız.',
     ),
     'dom_email_bool' => array(
-        'bool_true' => 'Yes',
+        'bool_true' => 'Evet',
         'bool_false' => 'Hayır',
     ),
     'dom_int_bool' => array(
-        1 => 'Yes',
+        1 => 'Evet',
         0 => 'Hayır',
     ),
     'dom_switch_bool' => array(
-        'on' => 'Yes',
+        'on' => 'Evet',
         'off' => 'Hayır',
         '' => 'Hayır',
     ),
