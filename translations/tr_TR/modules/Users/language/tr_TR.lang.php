@@ -700,8 +700,8 @@ $mod_strings = array(
     // 2FA
     'LBL_FACTOR_AUTH' => 'İki adımlı doğrulama',
     'LBL_FACTOR_AUTH_DISABLE' => 'İki adımlı doğrulama bu kullanıcı için kapatılmış',
-    'LBL_DISABLED' => 'Devre dışı',
-    'LBL_ENABLED' => 'Etkin',
+    'LBL_DISABLED' => 'Kapalı',
+    'LBL_ENABLED' => 'Açık',
     'LBL_ENABLE_2FA' => 'İki adımlı doğrulamayı aç',
     'LBL_2FA_CONFIG' => 'İki adımlı doğrulama yapılandırması',
     'LBL_DISABLE_2FA' => 'İki adımlı doğrulamayı kapat',
