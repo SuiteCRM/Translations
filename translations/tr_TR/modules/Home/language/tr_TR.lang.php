@@ -256,11 +256,11 @@ $mod_strings = array(
     // Portal Labels
     'LBL_AOP_DISABLED' => 'AOP kapalı. Lütfen ayarlar bölümünden açın',
     'LBL_CREATE_PORTAL_USER_FAILED' => 'Portal kullanıcısı eklenemedi',
-    'LBL_ENABLE_PORTAL_USER_FAILED' => 'Portal kullanıcısı etkinleştirilemedi',
-    'LBL_DISABLE_PORTAL_USER_FAILED' => 'Portal kullanıcısı devre dışı bırakılamadı',
+    'LBL_ENABLE_PORTAL_USER_FAILED' => 'Portal kullanıcısı açılamadı',
+    'LBL_DISABLE_PORTAL_USER_FAILED' => 'Portal kullanıcısı kapatılamadı',
     'LBL_CREATE_PORTAL_USER_SUCCESS' => 'Portal kullanıcısı eklendi',
-    'LBL_ENABLE_PORTAL_USER_SUCCESS' => 'Portal kullanıcısı etkinleştirildi',
-    'LBL_DISABLE_PORTAL_USER_SUCCESS' => 'Portal kullanıcısı devre dışı bırakıldı',
+    'LBL_ENABLE_PORTAL_USER_SUCCESS' => 'Portal kullanıcısı açıldı',
+    'LBL_DISABLE_PORTAL_USER_SUCCESS' => 'Portal kullanıcısı kapatıldı',
 
     'LNK_TASK_VIEW' => 'Görevi görüntüle',
 );
