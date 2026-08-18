@@ -36,34 +36,34 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = [
 
     // Module naming
-    'LBL_LIST_FORM_TITLE' => 'Migrations List',
-    'LBL_MODULE_NAME' => 'Migrations',
-    'LBL_MODULE_TITLE' => 'Migrations',
-    'LBL_HOMEPAGE_TITLE' => 'My Migrations',
-    'LNK_NEW_RECORD' => 'Create Migrations',
-    'LNK_LIST' => 'View Migrations',
-    'LBL_SEARCH_FORM_TITLE' => 'Search Migrations',
-    'LBL_NEW_FORM_TITLE' => 'New Migrations',
+    'LBL_LIST_FORM_TITLE' => 'Aktarımlar listesi',
+    'LBL_MODULE_NAME' => 'Aktarımlar',
+    'LBL_MODULE_TITLE' => 'Aktarımlar',
+    'LBL_HOMEPAGE_TITLE' => 'Aktarımlarım',
+    'LNK_NEW_RECORD' => 'Aktarım ekle',
+    'LNK_LIST' => 'Aktarımları görüntüle',
+    'LBL_SEARCH_FORM_TITLE' => 'Aktarım ara',
+    'LBL_NEW_FORM_TITLE' => 'Yeni aktarımlar',
 
     // Module-specific trigger action
-    'LBL_RUN_MIGRATION' => 'Run Migration',
-    'LBL_RUN_MIGRATION_CONFIRMATION' => 'Are you sure you want to run this migration?',
+    'LBL_RUN_MIGRATION' => 'Aktarımı çalıştır',
+    'LBL_RUN_MIGRATION_CONFIRMATION' => 'Bu aktarımı yeniden çalıştırmak istediğinize emin misiniz?',
 
     // Rerun/dismiss confirmation messages (reference this module by name)
-    'LBL_RERUN_CONFIRMATION' => 'Are you sure you want to re-run this migration from scratch? All existing items will be removed and the migration will restart.',
-    'LBL_RERUN_SUCCESS' => 'Migration has been re-queued and will restart from the beginning.',
-    'LBL_DISMISS_CONFIRMATION' => 'Are you sure you want to dismiss this migration task? This will remove it and all associated data.',
-    'LBL_DISMISS_SUCCESS' => 'Migration task dismissed successfully.',
+    'LBL_RERUN_CONFIRMATION' => 'Bu aktarımı sıfırdan yeniden başlatmak istediğinize emin misiniz? Var olan tüm ögeler kaldırılacak ve aktarım yeniden başlatılacak.',
+    'LBL_RERUN_SUCCESS' => 'Aktarım yeniden sıraya alındı ve baştan başlayacak.',
+    'LBL_DISMISS_CONFIRMATION' => 'Bu aktarımı reddetmek istediğinize emin misiniz? Bu işlem, aktarımı ve ilişkili tüm verileri kaldıracak.',
+    'LBL_DISMISS_SUCCESS' => 'Aktarım yok sayıldı.',
 
     // Type footnotes
-    'LBL_TYPE_BACKGROUND_HELP' => 'This migration runs in the background via the message queue worker. It processes items in batches and does not block the UI.',
-    'LBL_TYPE_IMMEDIATE_HELP' => 'This migration runs immediately when triggered. It processes all items in a single request and may take longer for large datasets.',
+    'LBL_TYPE_BACKGROUND_HELP' => 'Bu aktarım arka planda ileti kuyruğu işlemi üzerinden çalışır. Ögeleri gruplar halinde işler ve kullanıcı arayüzünü engellemez.',
+    'LBL_TYPE_IMMEDIATE_HELP' => 'Bu aktarım tetiklendiğinde hemen çalışır. Tüm ögeleri tek bir istekte işler ve büyük veri kümeleri için daha uzun sürebilir.',
 
 
     // Messenger setup widget
-    'LBL_MESSENGER_SETUP' => 'Background Task Configuration',
-    'LBL_MESSENGER_SETUP_DESC1' => 'Migration tasks are processed in the background.',
-    'LBL_MESSENGER_SETUP_DESC2' => 'To ensure these tasks complete successfully, please ensure a Symfony Messenger worker is running.',
-    'LBL_MESSENGER_SETUP_DESC3' => 'Without an active worker, tasks will stay in a "Pending" state.',
-    'LBL_MESSENGER_SETUP_DOC_LINK' => 'View Setup Guide (Supervisor, systemd, Cron)',
+    'LBL_MESSENGER_SETUP' => 'Arka plan görevi yapılandırması',
+    'LBL_MESSENGER_SETUP_DESC1' => 'Aktarım görevleri arka planda işlenir.',
+    'LBL_MESSENGER_SETUP_DESC2' => 'Bu görevlerin başarılı bir şekilde tamamlanmasını sağlamak için bir Symfony Messenger işleminin çalıştığından emin olun.',
+    'LBL_MESSENGER_SETUP_DESC3' => 'Etkin bir işlem olmadan, görevler "Bekliyor" durumunda kalır.',
+    'LBL_MESSENGER_SETUP_DOC_LINK' => 'Kurulum rehberini görüntüle (Supervisor, systemd, Cron)',
 ];
