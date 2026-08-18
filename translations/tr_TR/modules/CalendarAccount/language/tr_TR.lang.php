@@ -48,9 +48,9 @@ $mod_strings = [
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Güvenlik grupları',
 
     // List view labels
-    'LBL_LIST_NAME' => 'Paket Adı:',
+    'LBL_LIST_NAME' => 'Ad',
     'LBL_LIST_DELETE' => 'Sil',
-    'LBL_EDIT_BUTTON' => 'Değiştir',
+    'LBL_EDIT_BUTTON' => 'Düzenle',
     'LBL_REMOVE' => 'Kaldır',
     'LBL_ASCENDING' => 'Artan',
     'LBL_DESCENDING' => 'Azalan',
@@ -91,7 +91,7 @@ $mod_strings = [
     'LNK_LIST' => 'Takvim hesaplarını görüntüle',
 
     // Standard fields
-    'LBL_NAME' => 'İsim',
+    'LBL_NAME' => 'Ad',
     'LBL_ID' => 'Kimlik',
     'LBL_TYPE' => 'Tür',
     'LBL_SOURCE' => 'Takvim kaynağı',
@@ -102,7 +102,7 @@ $mod_strings = [
 
     // Basic Auth Fields
     'LBL_USERNAME' => 'Kullanıcı adı',
-    'LBL_PASSWORD' => 'Şifre',
+    'LBL_PASSWORD' => 'Parola',
     'LBL_SERVER_URL' => 'Sunucu adresi',
     'LBL_TEST_CONNECTION' => 'Bağlantıyı sına',
 
@@ -189,7 +189,7 @@ $mod_strings = [
     'LBL_SYNC_STATUS_IN_PROGRESS' => 'Sürüyor',
     'LBL_SYNC_STATUS_SUCCESS' => 'Başarılı',
     'LBL_SYNC_STATUS_WARNING' => 'Uyarı',
-    'LBL_SYNC_STATUS_ERROR' => 'Hata:',
+    'LBL_SYNC_STATUS_ERROR' => 'Hata',
 
     // Sync message enum translations
     'LBL_SYNC_MSG_SYNC_COMPLETE' => 'Tüm toplantılar eşitlenmiş.',
