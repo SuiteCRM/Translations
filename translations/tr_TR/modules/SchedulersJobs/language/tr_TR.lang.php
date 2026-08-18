@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_NAME' => 'Görev adı',
-    'LBL_EXECUTE_TIME' => 'Çalıştırılma zamanı',
-    'LBL_SCHEDULER_ID' => 'Zamanlanmış görev',
+    'LBL_NAME' => 'İş adı',
+    'LBL_EXECUTE_TIME' => 'Yürütülme zamanı',
+    'LBL_SCHEDULER_ID' => 'Zamanlayıcı',
     'LBL_STATUS' => 'Görev durumu',
     'LBL_RESOLUTION' => 'Sonuç',
     'LBL_MESSAGE' => 'İletiler',
