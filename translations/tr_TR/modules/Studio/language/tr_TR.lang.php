@@ -58,7 +58,7 @@ $mod_strings = array(
     'LBL_DROP_HERE' => '[Buraya bırakın]',
 
 //CUSTOM FIELDS
-    'LBL_NAME' => 'İsim',
+    'LBL_NAME' => 'Ad',
     'LBL_LABEL' => 'Etiket',
     'LBL_MASS_UPDATE' => 'Toplu güncelleme',
     'LBL_DEFAULT_VALUE' => 'Varsayılan değer',
@@ -66,7 +66,7 @@ $mod_strings = array(
     'LBL_DATA_TYPE' => 'Tür',
 
 
-    'LBL_HISTORY' => 'Tarihçe',
+    'LBL_HISTORY' => 'Geçmiş',
 
 //WIZARDS
 
@@ -107,7 +107,7 @@ $mod_strings = array(
     'LBL_BTN_CANCEL' => 'İptal',
     'LBL_BTN_SAVEPUBLISH' => 'Kaydedip dağıt',
     'LBL_BTN_HISTORY' => 'Geçmiş',
-    'LBL_BTN_ADDROWS' => 'Satırlar ekle',
+    'LBL_BTN_ADDROWS' => 'Satır ekle',
     'LBL_BTN_UNDO' => 'Geri al',
     'LBL_BTN_REDO' => 'Yinele',
     'LBL_BTN_ADDCUSTOMFIELD' => 'Özel alan ekle',
@@ -138,9 +138,9 @@ $mod_strings = array(
     'LBL_MAXIMIZE' => 'Ekranı kapla' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Küçült' /*for 508 compliance fix*/,
     'LBL_PUBLISH' => 'Yayınla' /*for 508 compliance fix*/,
-    'LBL_ADDROWS' => 'Satırlar ekle' /*for 508 compliance fix*/,
+    'LBL_ADDROWS' => 'Satır ekle' /*for 508 compliance fix*/,
     'LBL_ADDFIELD' => 'Alan ekle' /*for 508 compliance fix*/,
-    'LBL_EDIT' => 'Değiştir' /*for 508 compliance fix*/,
+    'LBL_EDIT' => 'Düzenle' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Düzenlenecek dili seçin.',
     'LBL_SINGULAR' => 'Tekil etiket',
