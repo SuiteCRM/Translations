@@ -42,7 +42,7 @@ $mod_strings = [
     'LBL_HOMEPAGE_TITLE' => 'Süreçlerim',
     'LNK_NEW_RECORD' => 'Süreç ekle',
     'LNK_LIST' => 'Süreçleri görüntüle',
-    'LBL_SEARCH_FORM_TITLE' => 'Süreç arama',
+    'LBL_SEARCH_FORM_TITLE' => 'Süreç ara',
     'LBL_NEW_FORM_TITLE' => 'Yeni süreç',
 
     // Rerun/dismiss confirmation messages (reference this module by name)
