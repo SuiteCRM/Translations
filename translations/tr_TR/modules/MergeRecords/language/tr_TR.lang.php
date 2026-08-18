@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_MODULE_NAME' => 'Kayıtları birleştir',
     'LBL_MODULE_TITLE' => 'Kayıtları birleştir: Giriş',
-    'LBL_SEARCH_FORM_TITLE' => 'Birleştirme arama',
+    'LBL_SEARCH_FORM_TITLE' => 'Birleştirme ara',
     'LBL_LIST_FORM_TITLE' => 'Birleştirme listesi',
 
     'LBL_LBL_MERGE_RECORDS_STEP_1' => '1. Adım: Birleştirilecek kayıtları bulun',
