@@ -62,7 +62,7 @@ $mod_strings = array(
             'existing_module' => 'Özellikleri düzenlemek ve modül ile ilgili alanları, ilişkileri ve yerleşimi özelleştirmek için <b>Modül</b> simgesine tıklayın.',
             'new_module' => 'Bu paketin yeni bir modülünü oluşturmak için <b>Yeni modül</b> üzerine tıklayın.',
             'key' => '5 harfli, alfa-sayısal <b>Anahtar</b>, geçerli paketteki tüm modüller için tüm klasörlerin, sınıf adlarının ve veri tabanı tablolarının önüne eklenir. <br><br> Anahtar, tablo adlarını eşsiz kılmak için kullanılır.',
-            'readme' => 'Bu pakete bir <b>Beni oku</b> metni eklemek için tıklayın.<br><br> Beni oku metni kurulum sırasında görüntülenir.',
+            'readme' => 'Bu pakete bir <b>Beni oku</b> yazısı eklemek için tıklayın.<br><br> Beni oku yazısı kurulum sırasında görüntülenir.',
 
         ),
         'main' => array(),
@@ -153,7 +153,7 @@ $mod_strings = array(
         'fieldsEditor' => array(
             'default' => 'Modül için kullanılabilecek <b>Alanlar</b> burada adlarına göre sıralanmış olarak görüntülenir.<br><br>Modül için daha sonra eklenen özel alanlar varsayılan olarak kullanılabilecek alanların üzerinde görüntülenir.<br><br>Bir alanı düzenlemek için <b>Alan adına</b> tıklayın.<br/><br/>Yeni bir alan eklemek için <b>Alan ekle</b> üzerine tıklayın.',
             'mbDefault' => 'Modül için kullanılabilecek <b>Alanlar</b> burada adlarına göre sıralanmış olarak görüntülenir.<br><br>Bir alanın özelliklerini ayarlamak için Alan adı üzerine tıklayın.<br><br>Yeni bir alan eklemek için <b>Alan ekle</b> üzerine tıklayın. Yeni alanın etiketi, diğer özellikleri gibi alanın eklenmesinden sonra alan adına tıklanarak düzenlenebilir.<br><br>Modül dağıtıldıktan sonra modül oluşturucu içinde eklenmiş yeni alanlar Studio içinde eklenmiş standart alanlar olarak değerlendirilir.',
-            'addField' => 'Yeni alanın <b>Veri türünü</b> seçin. Seçtiğiniz veri türü bu alana yazılabilecek karakterlerin türünü belirler. Örneğin, tam sayı türündeki bir alana yalnızca tam sayı değerleri yazılabilir.<br><br>Alan için bir <b>Ad</b> yazın. Ad harf ve rakam karakterlerinden oluşmalı ve içinde boşluk karakteri bulunmamalıdır. Yalnızca alt çizgi karakteri kullanılabilir.<br><br><b>Görüntülenecek etiket</b>, alanın modül yerleşimlerinde görüntülenecek etiketidir.<b>Sistem etiketi</b> alanı yazılım kodu içinde belirtmek için kullanılır.<br><br>Alan için seçtiğiniz veri türüne bağlı olarak, alan için aşağıdaki özelliklerin bazıları ya da tümü ayarlanabilir:<br><br><b>Yardım metni</b>, kullanıcı fare ile alanın üzerine geldiğinde geçici olarak görüntülenir ve ilgili alana nasıl bir değer yazılacağı ile ilgili kullanıcıya bilgi verir.<br><br><b>Yorum metni</b> yalnızca Studio ya da modül oluşturucu araçlarında görüntülenir ve yöneticilere alan ile ilgili bilgi vermek için kullanılabilir.<br><br><b>Varsayılan değer</b>, veri yazılmadan önce alanda görüntülenir. Kullanıcılar bu varsayılan değeri kullanabilir ya da yeni bir değer yazabilir.<br><br><b>Toplu güncelleme</b> seçeneği alanın toplu güncelleme özelliğini kullanıp kullanmayacağını belirler.<br><br><b>En büyük boyut</b>, alana yazılabilecek en fazla karakter sayısını belirler.<br><br><b>Zorunlu alan</b> seçeneği açıldığında alana veri yazılması zorunlu olur. Alanın bulunduğu bir kaydın kaydedilebilmesi için zorunlu alanların doldurulması gerekir.<br><br><b>Raporlanabilir</b> seçeneği açıldığında, alan süzgeçlerde raporlarda görüntülenir.<br><br><b>Denetim</b> seçeneği açıldığında, alan üzerinde yapılan değişiklikler değişiklik günlüğüne kaydedilir.<br><br><b>İçe aktarılabilir</b> seçeneği, alanın içe aktarma yardımcısı ile içe aktarılıp aktarılmayacağını ya da zorunlu olup olacağını belirler.<br><br><b>Çift kayıtları birleştir</b> seçeneği çift kayıtları birleştirme ya da çift kayıtları bulma özelliklerinin kullanılıp kullanılmayacağını belirler.<br><br>Bazı veri türlerinde ayarlanabilecek başka özellikler bulunabilir.',
+            'addField' => 'Yeni alanın <b>Veri türünü</b> seçin. Seçtiğiniz veri türü bu alana yazılabilecek karakterlerin türünü belirler. Örneğin, tam sayı türündeki bir alana yalnızca tam sayı değerleri yazılabilir.<br><br>Alan için bir <b>Ad</b> yazın. Ad harf ve rakam karakterlerinden oluşmalı ve içinde boşluk karakteri bulunmamalıdır. Yalnızca alt çizgi karakteri kullanılabilir.<br><br><b>Görüntülenecek etiket</b>, alanın modül yerleşimlerinde görüntülenecek etiketidir.<b>Sistem etiketi</b> alanı yazılım kodu içinde belirtmek için kullanılır.<br><br>Alan için seçtiğiniz veri türüne bağlı olarak, alan için aşağıdaki özelliklerin bazıları ya da tümü ayarlanabilir:<br><br><b>Yardım yazısı</b>, kullanıcı fare ile alanın üzerine geldiğinde geçici olarak görüntülenir ve ilgili alana nasıl bir değer yazılacağı ile ilgili kullanıcıya bilgi verir.<br><br><b>Yorum yazısı</b> yalnızca Studio ya da modül oluşturucu araçlarında görüntülenir ve yöneticilere alan ile ilgili bilgi vermek için kullanılabilir.<br><br><b>Varsayılan değer</b>, veri yazılmadan önce alanda görüntülenir. Kullanıcılar bu varsayılan değeri kullanabilir ya da yeni bir değer yazabilir.<br><br><b>Toplu güncelleme</b> seçeneği alanın toplu güncelleme özelliğini kullanıp kullanmayacağını belirler.<br><br><b>En büyük boyut</b>, alana yazılabilecek en fazla karakter sayısını belirler.<br><br><b>Zorunlu alan</b> seçeneği açıldığında alana veri yazılması zorunlu olur. Alanın bulunduğu bir kaydın kaydedilebilmesi için zorunlu alanların doldurulması gerekir.<br><br><b>Raporlanabilir</b> seçeneği açıldığında, alan süzgeçlerde raporlarda görüntülenir.<br><br><b>Denetim</b> seçeneği açıldığında, alan üzerinde yapılan değişiklikler değişiklik günlüğüne kaydedilir.<br><br><b>İçe aktarılabilir</b> seçeneği, alanın içe aktarma yardımcısı ile içe aktarılıp aktarılmayacağını ya da zorunlu olup olacağını belirler.<br><br><b>Çift kayıtları birleştir</b> seçeneği çift kayıtları birleştirme ya da çift kayıtları bulma özelliklerinin kullanılıp kullanılmayacağını belirler.<br><br>Bazı veri türlerinde ayarlanabilecek başka özellikler bulunabilir.',
             'editField' => 'Bu alanın özellikleri özelleştirilebilir.<br><br>Aynı özelliklere sahip yeni bir alan eklemek için <b>Kopyala</b> üzerine tıklayın.',
             'mbeditField' => 'Bir kalıp alanının <b>Görüntülenecek etiketi</b> özelleştirilebilir. Alanın diğer özellikleri özelleştirilemez.<br><br>. Aynı özelliklerde yeni bir alan eklemek için <b>Kopyala</b> üzerine tıklayın.<br><br>Modülde görüntülenmemesi için bir alanı kaldırmak istiyorsanız, alanı ilgili <b>Yerleşimden</b> kaldırın.'
 
@@ -214,7 +214,7 @@ $mod_strings = array(
 
 
             'editDropDownBtn' => 'Bir Genel Açılan Listeyi Düzenle',
-            'addDropDownBtn' => 'Yeni Bir Genel Açılan Liste Ekle',
+            'addDropDownBtn' => 'Yeni Bir genel açılan liste ekle',
         ),
         'fieldsHelp' => array(
             'default' => 'Bu bölümde modüldeki <b>Alanlar</b> Alan Adına göre sıralanmış listesi bulunur.<br><br>Modül kalıbında önceden ayarlanmış alanlar bulunur.<br><br>Yeni bir alan eklemek için <b>Alan Ekle</b> üzerine tıklayın.<br><br>Var olan bir alanı düzenlemek için <b>Alan Adı</b> üzerine tıklayın.<br/><br/>Modül dağıtıldıktan sonra Modül Oluşturucu içinde eklenmiş yeni alanlar Studio içinde eklenmiş standart alanlar olarak değerlendirilir.',
@@ -345,10 +345,10 @@ $mod_strings = array(
     'LBL_DASHLETSEARCHVIEW' => 'SuiteCRM pano bileşeni arama',
     'LBL_DETAILVIEW' => 'Ayrıntı görünümü',
     'LBL_DROP_HERE' => '[Buraya bırakın]',
-    'LBL_EDIT' => 'Değiştir',
+    'LBL_EDIT' => 'Düzenle',
     'LBL_EDIT_LAYOUT' => 'Yerleşimi düzenle',
     'LBL_EDIT_FIELDS' => 'Alanları düzenle',
-    'LBL_EDITVIEW' => 'Düzenleme görünümü',
+    'LBL_EDITVIEW' => 'Görünümü düzenle',
     'LBL_FILLER' => '(doldurucu)',
     'LBL_FIELDS' => 'Alanlar',
     'LBL_FAILED_TO_SAVE' => 'Kaydedilemedi',
@@ -370,7 +370,7 @@ $mod_strings = array(
     'LBL_SUBPANEL' => 'Alt pano',
     'LBL_SUBPANEL_TITLE' => 'Başlık:',
     'LBL_SEARCH_FORMS' => 'Süzgeç',
-    'LBL_SEARCH' => 'Arama',
+    'LBL_SEARCH' => 'Ara',
     'LBL_SEARCH_BUTTON' => 'Ara',
     'LBL_FILTER' => 'Süzgeç',
     'LBL_TOOLBOX' => 'Araç kutusu',
@@ -434,7 +434,7 @@ $mod_strings = array(
     'LBL_QUESTION_DASHLET' => 'Düzenlenecek bir pano bileşeni yerleşimi seçin.',
     'LBL_QUESTION_POPUP' => 'Düzenlenecek bir açılan pencere yerleşimi seçin.',
 //CUSTOM FIELDS
-    'LBL_NAME' => 'İsim',
+    'LBL_NAME' => 'Ad',
     'LBL_LABELS' => 'Etiketler',
     'LBL_MASS_UPDATE' => 'Toplu güncelleme',
     'LBL_DEFAULT_VALUE' => 'Varsayılan değer',
@@ -442,7 +442,7 @@ $mod_strings = array(
     'LBL_DATA_TYPE' => 'Tür',
     'LBL_HCUSTOM' => 'ÖZEL',
     'LBL_HDEFAULT' => 'VARSAYILAN',
-    'LBL_LANGUAGE' => 'Dil',
+    'LBL_LANGUAGE' => 'Dil:',
     'LBL_CUSTOM_FIELDS' => '* Studio üzerinde oluşturulmuş alan',
 
 //SECTION
@@ -494,7 +494,7 @@ $mod_strings = array(
     'LBL_BTN_REDO' => 'Yinele',
     'LBL_BTN_ADDCUSTOMFIELD' => 'Özel alan ekle',
     'LBL_BTN_EXPORT' => 'Özelleştirmeleri dışa aktar',
-    'LBL_BTN_DUPLICATE' => 'Kopyala',
+    'LBL_BTN_DUPLICATE' => 'Çoğalt',
     'LBL_BTN_PUBLISH' => 'Yayınla',
     'LBL_BTN_DEPLOY' => 'Dağıt',
     'LBL_BTN_EXP' => 'Dışa aktar',
@@ -534,9 +534,9 @@ $mod_strings = array(
     'LBL_CREATE' => 'Ekle',
     'LBL_LIST' => 'Liste',
     'LBL_VIEW' => 'Görünüm',
-    'LBL_HISTORY' => 'Geçmişi Görüntüle',
+    'LBL_HISTORY' => 'Geçmişi görüntüle',
     'LBL_RESTORE_DEFAULT' => 'Varsayılanları geri yükle',
-    'LBL_ACTIVITIES' => 'İşlemler',
+    'LBL_ACTIVITIES' => 'Etkinlikler',
     'LBL_NEW' => 'Yeni',
     'LBL_TYPE_BASIC' => 'temel',
     'LBL_TYPE_COMPANY' => 'kuruluş',
@@ -582,7 +582,7 @@ $mod_strings = array(
 
     'LBL_AJAX_RESPONSE_TITLE' => 'Sonuç',
     'LBL_AJAX_RESPONSE_MESSAGE' => 'Bu işlem tamamlandı',
-    'LBL_AJAX_LOADING_TITLE' => 'İşlem sürüyor...',
+    'LBL_AJAX_LOADING_TITLE' => 'Sürüyor...',
     'LBL_AJAX_LOADING_MESSAGE' => 'Lütfen yüklenirken bekleyin...',
 
 //JS
