@@ -139,7 +139,7 @@ $mod_strings = array(
 
     'LBL_SCHEDULER_WIDGET' => 'E-posta pazarlama tanılaması',
     'LBL_OOTB_SEND_EMAIL_TO_QUEUE' => 'Kampanya e-postalarını kuyruğa ekle',
-    'LBL_OOTB_BOUNCE' => 'Gecelik geri dönen kampanya e-postası işleme görevini çalıştır',
+    'LBL_OOTB_BOUNCE' => 'Gecelik geri dönen kampanya e-postası işleme görevini yürütülsün',
     'LBL_OOTB_SEND_EMAIL_FROM_QUEUE' => 'Kampanya e-postalarını gönder',
     'LBL_SCHEDULERS' => 'Zamanlanmış görevler',
     'LBL_INBOUND_EMAIL' => 'Gelen e-posta',
