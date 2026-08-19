@@ -70,12 +70,12 @@ $mod_strings = array(
     'LBL_NEW_FORM_TITLE' => 'Yeni iş akışı',
     'LBL_FLOW_MODULE' => 'İş akışı modülü',
     'LBL_STATUS' => 'Durum',
-    'LBL_FLOW_RUN_ON' => 'Çalışma zamanı',
+    'LBL_FLOW_RUN_ON' => 'Yürütülme zamanı',
     'LBL_CONDITION_LINES' => 'Koşullar',
     'LBL_ADD_CONDITION' => 'Koşul ekle',
     'LBL_ACTION_LINES' => 'İşlemler',
     'LBL_ADD_ACTION' => 'İşlem ekle',
-    'LBL_MULTIPLE_RUNS' => 'Yinelenen çalışmalar',
-    'LBL_RUN_WHEN' => 'Çalıştır',
-    'LBL_RUN_ON_IMPORT' => 'İçe aktarılırken çalıştırılsın'
+    'LBL_MULTIPLE_RUNS' => 'Yinelenen yürütmeler',
+    'LBL_RUN_WHEN' => 'Yürüt',
+    'LBL_RUN_ON_IMPORT' => 'İçe aktarılırken yürütülsün'
 );
