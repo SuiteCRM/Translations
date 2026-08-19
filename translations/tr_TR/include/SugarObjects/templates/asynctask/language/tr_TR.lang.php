@@ -63,10 +63,10 @@ $mod_strings = [
     // Async task field labels
     'LBL_DATA' => 'Veri',
     'LBL_TYPE' => 'Tür',
-    'LBL_ESTIMATED_RUN_TIME' => 'Çalışma süresi öngörüsü',
+    'LBL_ESTIMATED_RUN_TIME' => 'Yürütülme süresi öngörüsü',
     'LBL_STATUS' => 'Durum',
     'LBL_SERVICE_KEY' => 'Hizmet anahtarı',
-    'LBL_LAST_RUN_DATETIME' => 'Son çalıştırılma',
+    'LBL_LAST_RUN_DATETIME' => 'Son yürütülme',
     'LBL_ATTACHMENTS' => 'Ek dosyalar',
     'LBL_PHASE' => 'Faz',
     'LBL_OWNER' => 'Sahibi',
@@ -82,7 +82,7 @@ $mod_strings = [
 
     // Action labels — button text (shared across modules)
     'LBL_RETRY' => 'Yeniden dene',
-    'LBL_RERUN' => 'Yeniden çalıştır',
+    'LBL_RERUN' => 'Yeniden yürüt',
     'LBL_DISMISS' => 'Yok say',
     'LBL_DELETE' => 'Sil',
     'LBL_DELETE_COMPLETED_CONFIRMATION' => 'Bu tamamlanmış görevi silmek istediğinize emin misiniz?',
@@ -100,7 +100,7 @@ $mod_strings = [
 
     // Capability flag field labels
     'LBL_ALLOW_FAILURE_RETRY_ACTION' => 'Tamamlanmamış ögeleri yeniden deneme işlemi',
-    'LBL_ALLOW_FAILURE_RERUN_ACTION' => 'Tamamlanmamış ögeleri yeniden çalıştırma işlemi',
+    'LBL_ALLOW_FAILURE_RERUN_ACTION' => 'Tamamlanmamış ögeleri yeniden yürütme işlemi',
 
     // Subpanel
     'LBL_FAILED_ITEMS' => 'Tamamlanmamış ögeler',
