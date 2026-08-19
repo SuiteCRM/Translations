@@ -78,6 +78,6 @@ $mod_strings = array(
     'LBL_SCHEDULE' => 'Zamanlama',
     'LBL_AOR_REPORT_NAME' => 'Raporlar',
     'LBL_SCHEDULED_REPORTS_INFORMATION' => 'Zamanlanmış raporlar',
-    'LBL_LAST_RUN' => 'Son çalıştırma',
+    'LBL_LAST_RUN' => 'Son yürütülme',
     'LBL_STATUS' => 'Durum',
 );
