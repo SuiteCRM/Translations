@@ -88,7 +88,7 @@ $mod_strings = array(
     'LBL_SEND_TEST_EMAIL' => 'Deneme e-postası gönder',
 
     // for outbound email dialog
-    'LBL_MISSING_DEFAULT_OUTBOUND_SMTP_SETTINGS' => 'Yönetici henüz bir varsayılan giden hesabı yapılandırmamış. Deneme e-postası gönderemezsiniz.',
+    'LBL_MISSING_DEFAULT_OUTBOUND_SMTP_SETTINGS' => 'Yönetici henüz bir varsayılan giden e-posta hesabı yapılandırmamış. Deneme e-postası gönderemezsiniz.',
     'LBL_MAIL_SMTPAUTH_REQ' => 'SMTP kimlik doğrulaması kullanılsın mı?',
     'LBL_MAIL_SMTPPASS' => 'Parola',
     'LBL_MAIL_SMTPPORT' => 'Bağlantı noktası',
