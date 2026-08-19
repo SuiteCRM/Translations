@@ -101,5 +101,5 @@ $mod_strings = array(
     'LBL_TOOLTIP_DRAG_DROP_ELEMS' => 'Bileşenleri sürükleyip alan ya da koşul bölgesine bırakın',
     'LBL_MAIN_GROUPS' => 'Ana grup:',
     'LBL_CHAR_UNNAMED_DEFAULT_TITLE' => 'Adsız çizelge',
-    'LBL_REPORT' => 'Rapor',
+    'LBL_REPORT' => 'Bildir',
 );
