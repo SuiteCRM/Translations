@@ -81,8 +81,8 @@ $mod_strings = array(
     'ERROR_NO_ADDITIONAL_DETAIL' => 'Hata: Kayıt için herhangi bir ek ayrıntı bulunamadı.',
     'ERROR_NO_SEARCHDEFS_DEFINED' => 'Bu bağlayıcı için herhangi bir modül açılmamış. Bağlayıcıları açma bölümünden bu bağlayıcı için modül seçin.',
     'ERROR_NO_SEARCHDEFS_MAPPED' => 'Hata: Arama alanlarının tanımlanabileceği herhangi bir açık bağlayıcı bulunamadı.',
-    'ERROR_NO_SEARCHDEFS_MAPPING' => 'Hata: Modül ve bağlayıcı için herhangi bir arama alanı tanımlanmamış. Lütfen sistem yöneticinizle görüşün.',
-    'ERROR_NO_DISPLAYABLE_MAPPED_FIELDS' => 'Hata: Sonuçlarda görüntülenmesi için eşleştirilmiş herhangi bir modül alanı yok. Lütfen sistem yöneticinizle görüşün.',
+    'ERROR_NO_SEARCHDEFS_MAPPING' => 'Hata: Modül ve bağlayıcı için herhangi bir arama alanı tanımlanmamış. Lütfen sistem yöneticiniz ile görüşün.',
+    'ERROR_NO_DISPLAYABLE_MAPPED_FIELDS' => 'Hata: Sonuçlarda görüntülenmesi için eşleştirilmiş herhangi bir modül alanı yok. Lütfen sistem yöneticiniz ile görüşün.',
     'LBL_INFO_INLINE' => 'Bilgiler' /*for 508 compliance fix*/,
     'LBL_CLOSE' => 'Kapat' /*for 508 compliance fix*/,
 
