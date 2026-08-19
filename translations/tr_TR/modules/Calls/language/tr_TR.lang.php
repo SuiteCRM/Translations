@@ -129,7 +129,7 @@ $mod_strings = array(
 
     'LBL_REPEAT_TYPE' => 'Yinelenme türü',
     'LBL_REPEAT_INTERVAL' => 'Yinelenme aralığı',
-    'LBL_REPEAT_DOW' => 'Haftanın günleri',
+    'LBL_REPEAT_DOW' => 'Yinelenme günleri',
     'LBL_REPEAT_UNTIL' => 'Son yinelenme tarihi',
     'LBL_REPEAT_COUNT' => 'Yinelenme sayısı',
     'LBL_REPEAT_PARENT_ID' => 'Yinelenme üst öge kimliği',
