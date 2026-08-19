@@ -794,7 +794,7 @@ $app_list_strings = array(
     'dom_manual_migration_tasks_statuses' => [
         'initial' => 'İlk',
         'pending' => 'Bekliyor',
-        'running' => 'Çalışıyor',
+        'running' => 'Yürütülüyor',
         'failed' => 'Tamamlanamadı',
         'completed_with_failures' => 'Sorunlar ile tamamlandı',
         'completed' => 'Tamamlandı'
@@ -808,7 +808,7 @@ $app_list_strings = array(
     'dom_processes_statuses' => [
         'initial' => 'İlk',
         'pending' => 'Bekliyor',
-        'running' => 'Çalışıyor',
+        'running' => 'Yürütülüyor',
         'failed' => 'Tamamlanamadı',
         'completed_with_failures' => 'Sorunlar ile tamamlandı',
         'completed' => 'Tamamlandı'
@@ -914,12 +914,12 @@ $app_list_strings = array(
     ),
 
     'schedulers_times_dom' => array(
-        'not run' => 'Önceki işlem zamanı, çalıştırılmadı',
+        'not run' => 'Önceki yürütülme zamanı, yürütülmemiş',
         'ready' => 'Hazır',
         'in progress' => 'Sürüyor',
         'failed' => 'Tamamlanamadı',
         'completed' => 'Tamanlanmış',
-        'no curl' => 'Çalışamadı: cURL bulunamadı',
+        'no curl' => 'Yürütülmemiş: cURL bulunamadı',
     ),
 
     'scheduler_status_dom' => array(
@@ -1433,7 +1433,7 @@ $app_strings = array(
     'LBL_EMAIL_MULTISELECT' => 'Birden fazla seçim yapmak için <b>Ctrl ile tıklayın</b><br />(Mac kullanıcıları <b>CMD ile tıklayın</b>)',
 
     'LBL_EMAIL_NO' => 'Hayır',
-    'LBL_EMAIL_NOT_SENT' => 'Sistem isteğinizi yerine getiremiyor. Lütfen sistem yöneticinizle görüşün.',
+    'LBL_EMAIL_NOT_SENT' => 'Sistem isteğinizi yerine getiremiyor. Lütfen sistem yöneticiniz ile görüşün.',
 
     'LBL_EMAIL_OK' => 'Tamam',
     'LBL_EMAIL_ONE_MOMENT' => 'Lütfen biraz bekleyin...',
@@ -1910,9 +1910,9 @@ $app_strings = array(
     'LBL_ALL_SCHEDULERS' => 'Tüm zamanlayıcılar',
     'LBL_LEGACY_SCHEDULERS' => 'Eski zamanlayıcılar',
     'LBL_SCHEDULERS' => 'Zamanlayıcılar',
-    'LBL_RUN_LEGACY_SCHEDULERS' => 'Eski zamanlayıcılar çalıştırılıyor',
-    'LBL_LEGACY_SCHEDULERS_RUN_SUCCESSFULLY' => 'Eski zamanlayıcılar çalıştırıldı!',
-    'LBL_RUN_SCHEDULERS' => 'Zamanlayıcılar çalıştırılıyor',
+    'LBL_RUN_LEGACY_SCHEDULERS' => 'Eski zamanlayıcılar yürütülüyor',
+    'LBL_LEGACY_SCHEDULERS_RUN_SUCCESSFULLY' => 'Eski zamanlayıcılar yürütüldü!',
+    'LBL_RUN_SCHEDULERS' => 'Zamanlayıcılar yürütülüyor',
     'LBL_LEGACY_SCHEDULER_FAILED' => 'Tüm zamanlayıcılar tamamlanamadı. Günlük kayıtlarına bakın.',
     'LBL_PASSED' => 'Geçti',
     'LBL_FAILED' => 'Tamamlanamadı',
@@ -3481,7 +3481,7 @@ $app_list_strings['aow_operator_list']['Starts_With'] = 'Şununla başlayan';
 $app_list_strings['aow_operator_list']['Ends_With'] = 'Şununla biten';
 $app_list_strings['aow_operator_list']['is_null'] = 'Boş olan';
 $app_list_strings['aow_process_status_list']['Complete'] = 'Tamamlandı';
-$app_list_strings['aow_process_status_list']['Running'] = 'Çalışıyor';
+$app_list_strings['aow_process_status_list']['Running'] = 'Yürütülüyor';
 $app_list_strings['aow_process_status_list']['Pending'] = 'Bekliyor';
 $app_list_strings['aow_process_status_list']['Failed'] = 'Tamamlanamadı';
 $app_list_strings['aow_condition_operator_list']['And'] = 'Ve';
@@ -4400,14 +4400,14 @@ $app_strings['LBL_CRON_WIN_DESC3_DYNAMIC'] = '{{ fields.desc3.value }}';
 $app_strings['LBL_CRON_WIN_DESC4_DYNAMIC'] = '{{ fields.desc4.value }}';
 $app_strings['LBL_CRON_WIN_DESC5_DYNAMIC'] = '{{ fields.desc5.value }}';
 
-$app_strings['LBL_CRON_LAST_RUN'] = 'Son başarılı çalışma';
-$app_strings['LBL_CRON_LAST_USER_TO_RUN'] = 'Zamanlayıcıları çalıştıran son kullanıcı';
+$app_strings['LBL_CRON_LAST_RUN'] = 'Son başarılı yürütülme';
+$app_strings['LBL_CRON_LAST_USER_TO_RUN'] = 'Zamanlayıcıları yürüten son kullanıcı';
 $app_strings['LBL_LAST_RUN_VALUE'] = '{{ fields.lastRun.value }}';
 $app_strings['LBL_LAST_USER_RUN_VALUE'] = '{{ fields.user.value }}';
 $app_strings['LBL_RUN_USER_INVALID'] = 'Bu kullanıcı `allowed_cron_users` yapılandırma ayarının bir parçası değil. Bu nedenle son çalışma başarılı olmadı';
 $app_strings['LBL_SCHEDULERS_NEVER_RUN'] = 'Zamanlayıcılar hiç yürütülmemiş.';
-$app_strings['LBL_MARKETING_ITEMS_PER_RUN'] = 'Bir çalışmadaki kampanya pazarlama ögesi sayısı';
-$app_strings['LBL_EMAILS_PER_RUN'] = 'Bir çalışmadaki kampanya e-postaları sayısı';
+$app_strings['LBL_MARKETING_ITEMS_PER_RUN'] = 'Bir yürütülmedeki kampanya pazarlama ögesi sayısı';
+$app_strings['LBL_EMAILS_PER_RUN'] = 'Bir yürütülmedeki kampanya e-postaları sayısı';
 $app_strings['LBL_TRACKERS_ENABLED'] = 'İzleyiciler etkin';
 $app_strings['LBL_TRACKER_LINKS_ENABLED'] = 'İzleyici bağlantıları açık';
 
@@ -4483,8 +4483,8 @@ $app_strings['LBL_ASYNC_TASK_UNSUPPORTED_MODULE'] = 'Bu modül eşitlenmemiş g�
 $app_strings['LBL_RERUN_SUCCESS'] = 'Görev yeniden sıraya alındı ve baştan başlayacak.';
 $app_strings['LBL_RETRY_FAILED_SUCCESS'] = 'Tamamlanmamış ögeler işlenmek üzere yeniden sıraya alındı.';
 
-$app_strings['LBL_MIGRATE_GOOGLE_CALENDAR_SYNC_SIBLING_RUNNING'] = '"Google Takvim kullanıcıları eşitlemesini aktar" işlemi şu anda bekliyorken / çalışıyorken bu aktarım çalıştırılamaz.';
-$app_strings['LBL_MIGRATE_GOOGLE_CALENDAR_SYNC_USERS_SIBLING_RUNNING'] = '"Google Takvim eşitlemesini aktar" işlemi şu anda bekliyorken / çalışıyorken bu aktarım çalıştırılamaz.';
+$app_strings['LBL_MIGRATE_GOOGLE_CALENDAR_SYNC_SIBLING_RUNNING'] = '"Google Takvim kullanıcıları eşitlemesini aktar" işlemi şu anda bekliyorken / yürütülüyorken bu aktarım başlatılamaz.';
+$app_strings['LBL_MIGRATE_GOOGLE_CALENDAR_SYNC_USERS_SIBLING_RUNNING'] = '"Google Takvim eşitlemesini aktar" işlemi şu anda bekliyorken / yürütülüyorken bu aktarım başlatılamaz.';
 
 $app_strings['LBL_CANNOT_DELETE_LATEST_REVISION'] = 'Bir belgenin son sürümünü silemezsiniz.';
 $app_strings['LBL_NO_DOCUMENT_ID_PROVIDED'] = 'Sürümü silinecek belge bulunamadı. Belge kimliği belirtilmemiş.';
