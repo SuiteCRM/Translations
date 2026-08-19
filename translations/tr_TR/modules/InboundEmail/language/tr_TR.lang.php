@@ -125,7 +125,7 @@ $mod_strings = array(
     'LBL_SERVER_TYPE' => 'E-posta sunucu iletişim kuralı',
     'LBL_SERVER_PORT' => 'E-posta sunucu bağlantı noktası',
     'LBL_SERVER_URL' => 'E-posta sunucu adresi',
-    'LBL_SSL_DESC' => 'Eğer E-Posta sunucunuz güvenli "socket" bağlantısını destekliyorsa, bu seçenek E-Postaların içeri alınması sırasında SSL bağlantısını zorunlu kılacak.',
+    'LBL_SSL_DESC' => 'E-posta sunucusu güvenli soket bağlantısını destekliyorsa, bu seçenek açıldığında, e-postaların içe aktarılması için bağlantıda SSL kullanılması gerekir.',
     'LBL_ASSIGN_TO_TEAM_DESC' => 'Seçilmiş takımın e-posta hesabına erişimi var.',
     'LBL_SSL' => 'SSL kullanılsın',
     'LBL_STATUS' => 'Durum',
@@ -221,9 +221,9 @@ $mod_strings = array(
     'LBL_SET_AS_DEFAULT_BUTTON' => 'Varsayılan olarak ayarla',
 
     'LBL_MOVE_MESSAGES_TO_TRASH_AFTER_IMPORT' => 'İçe aktarıldıktan sonra iletiler çöpe atılsın mı?',
-    'LBL_LAST_IMPORT_RUN_DATETIME' => 'Son içe aktarma yürütülmesi tarihi ve saati',
+    'LBL_LAST_IMPORT_RUN_DATETIME' => 'Son içe aktarma yürütmesinin tarihi ve saati',
     'LBL_MAILBOX_LAST_IMPORTED_DAYS' => 'Her e-posta kutusu için son içe aktarılma tarihi',
-    'LBL_EMAIL_IMPORT_PER_RUN_THRESHOLD' => 'Her yürütülmede içe aktarılacak e-posta sayısı',
+    'LBL_EMAIL_IMPORT_PER_RUN_THRESHOLD' => 'Bir yürütülmede içe aktarılacak e-posta sayısı',
     'LBL_EMAIL_IMPORT_TIMEFRAME_START' => 'İçe aktarma zaman aralığı başlangıcı',
     'LBL_EMAIL_IMPORT_UNREAD_ONLY' => 'Yalnızca okunmamış e-postalar içe aktarılsın'
 );
