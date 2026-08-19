@@ -58,7 +58,7 @@ $mod_strings = array(
 
     'ERR_CHECKSYS' => 'Uyumluluk denetimi sırasında hatalar bulundu. SuiteCRM kurulumunuzun düzgün çalışabilmesi için, lütfen aşağıda listede belirtilen adımları izleyin, Yeniden denetle üzerine tıklayabilir ya da kurulumu yeniden başlatabilirsiniz.',
     'ERR_CHECKSYS_CALL_TIME' => 'Allow Call Time Pass Reference değeri On (php.ini dosyasından Off yapılmalıdır)',
-    'ERR_CHECKSYS_CURL' => 'Bulunamadı: SuiteCRM zamanlanmış görevleri sınırlı özellikler ile çalışacak.',
+    'ERR_CHECKSYS_CURL' => 'Bulunamadı: SuiteCRM zamanlayıcıları sınırlı özellikler ile yürütülecek.',
     'ERR_CHECKSYS_IMAP' => 'Bulunamadı: Gelen e-posta ve kampanyaların (e-posta) kullanılabilmesi için IMAP kitaplıkları gereklidir.',
     'ERR_CHECKSYS_MEM_LIMIT_1' => ' (Bunu şuna ayarla ',
     'ERR_CHECKSYS_MEM_LIMIT_2' => 'Php.ini dosyanızda M ya da daha büyük bir değer)',
@@ -85,7 +85,7 @@ $mod_strings = array(
     'ERR_DB_ADMIN' => 'Belirtilen veri tabanı yöneticisi kullanıcı adı ya da parolası geçersiz olduğundan veri tabanı bağlantısı kurulamadı. Lütfen geçerli bir kullanıcı adı ve parola yazın. (Hata: ',
     'ERR_DB_ADMIN_MSSQL' => 'Belirtilen veri tabanı yöneticisi kullanıcı adı ya da parola geçersiz olduğundan veri tabanı ile bağlantı kurulamadı. Lütfen geçerli bir kullanıcı adı ve parola yazın.',
     'ERR_DB_EXISTS_NOT' => 'Belirtilen veri tabanı bulunamadı.',
-    'ERR_DB_EXISTS_WITH_CONFIG' => 'Yapılandırma verileri bulunan bir veri tabanı zaten var. Seçilmiş veri tabanı üzerine kurulum yapmak için kurulumu yeniden çalıştırın ve "Var olan SuiteCRM tabloları silinip yeniden oluşturulsun" seçeneğini etkinleştirin. Güncellemek için yönetim panosundaki güncelleme yardımcısını kullanın. Güncelleme ile ilgili ayrıntılı bilgi almak için <a href="https://docs.suitecrm.com/admin/installation-guide/upgrading/" target="_new">bu bölüme bakabilirsiniz</a>.',
+    'ERR_DB_EXISTS_WITH_CONFIG' => 'Yapılandırma verileri bulunan bir veri tabanı zaten var. Seçilmiş veri tabanı üzerine kurulum yapmak için kurulumu yeniden başlatın ve "Var olan SuiteCRM tabloları silinip yeniden oluşturulsun" seçeneğini etkinleştirin. Güncellemek için yönetim panosundaki güncelleme yardımcısını kullanın. Güncelleme ile ilgili ayrıntılı bilgi almak için <a href="https://docs.suitecrm.com/admin/installation-guide/upgrading/" target="_new">bu bölüme bakabilirsiniz</a>.',
     'ERR_DB_EXISTS' => 'Belirtilen veri tabanı adı zaten var. Aynı adlı yeni bir veri tabanı eklenemez.',
     'ERR_DB_EXISTS_PROCEED' => 'Belirtilen veri tabanı adı zaten var. Şunlardan birini yapmayı seçebilirsiniz: <br>1. Önceki üzerine tıklayarak yeni bir veri tabanı adı yazabilirsiniz<br>2. Sonraki üzerine tıklayarak var olan veri tabanındaki tabloları silebilirsiniz. <strong>Var olan verileriniz silinir.</strong>',
     'ERR_DB_HOSTNAME' => 'Sunucu adı boş olamaz.',
