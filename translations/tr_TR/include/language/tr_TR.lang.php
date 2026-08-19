@@ -823,12 +823,12 @@ $app_list_strings = array(
     ),
 
     'schedulers_times_dom' => array(
-        'not run' => 'Önceki işlem zamanı, çalıştırılmadı',
+        'not run' => 'Önceki yürütülme zamanı, yürütülmemiş',
         'ready' => 'Hazır',
         'in progress' => 'Sürüyor',
         'failed' => 'Tamamlanamadı',
         'completed' => 'Tamanlanmış',
-        'no curl' => 'Çalışamadı: cURL bulunamadı',
+        'no curl' => 'Yürütülmemiş: cURL bulunamadı',
     ),
 
     'scheduler_status_dom' => array(
@@ -1330,7 +1330,7 @@ $app_strings = array(
     'LBL_EMAIL_MULTISELECT' => 'Birden fazla seçim yapmak için <b>Ctrl ile tıklayın</b><br />(Mac kullanıcıları <b>CMD ile tıklayın</b>)',
 
     'LBL_EMAIL_NO' => 'Hayır',
-    'LBL_EMAIL_NOT_SENT' => 'Sistem isteğinizi yerine getiremiyor. Lütfen sistem yöneticinizle görüşün.',
+    'LBL_EMAIL_NOT_SENT' => 'Sistem isteğinizi yerine getiremiyor. Lütfen sistem yöneticiniz ile görüşün.',
 
     'LBL_EMAIL_OK' => 'Tamam',
     'LBL_EMAIL_ONE_MOMENT' => 'Lütfen biraz bekleyin...',
