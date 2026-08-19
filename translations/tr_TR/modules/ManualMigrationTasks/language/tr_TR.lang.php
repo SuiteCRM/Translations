@@ -46,8 +46,8 @@ $mod_strings = [
     'LBL_NEW_FORM_TITLE' => 'Yeni aktarımlar',
 
     // Module-specific trigger action
-    'LBL_RUN_MIGRATION' => 'Aktarımı çalıştır',
-    'LBL_RUN_MIGRATION_CONFIRMATION' => 'Bu aktarımı yeniden çalıştırmak istediğinize emin misiniz?',
+    'LBL_RUN_MIGRATION' => 'Aktarımı yürüt',
+    'LBL_RUN_MIGRATION_CONFIRMATION' => 'Bu aktarımı yeniden başlatmak istediğinize emin misiniz?',
 
     // Rerun/dismiss confirmation messages (reference this module by name)
     'LBL_RERUN_CONFIRMATION' => 'Bu aktarımı sıfırdan yeniden başlatmak istediğinize emin misiniz? Var olan tüm ögeler kaldırılacak ve aktarım yeniden başlatılacak.',
