@@ -58,12 +58,12 @@ $mod_strings = array(
     'LBL_PERCENT' => 'Tamamlanma yüzdesi',
 // Errors
     'ERR_CALL' => "Şu işlev çağrılamadı: %s",
-    'ERR_CURL' => "cURL bulunamadı - Adres işlemlerini yapamazsınız",
+    'ERR_CURL' => "cURL bulunamadı - Adres işlemleri yürütülemez",
     'ERR_FAILED' => "Beklenmeyen bir sorun çıktı. Lütfen PHP günlüklerini ve suitecrm.log dosyasını denetleyin",
     'ERR_PHP' => "%s [%d]: %s %s içinde %d satırında",
     'ERR_NOUSER' => "İş için bir kullanıcı kimliği belirtilmemiş",
     'ERR_NOSUCHUSER' => "%s kullanıcı kimliği bulunamadı",
     'ERR_JOBTYPE' => "Görev türü bilinmiyor: %s",
     'ERR_TIMEOUT' => "Zaman aşımından dolayı başarısız oldu",
-    'ERR_JOB_FAILED_VERBOSE' => 'Zamanlanmış görev çalıştırıldığında %1$s (%2$s) işi tamamlanamadı',
+    'ERR_JOB_FAILED_VERBOSE' => 'Zamanlanmış görev yürütüldüğünde %1$s (%2$s) işi tamamlanamadı',
 );
