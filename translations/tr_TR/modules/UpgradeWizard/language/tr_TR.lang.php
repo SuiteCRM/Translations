@@ -175,7 +175,7 @@ $mod_strings = array(
     'LBL_UW_SHOW' => 'Görüntüle',
 
     'LBL_UW_SKIPPED_FILES_TITLE' => 'Atlanan dosyalar',
-    'LBL_UW_SQL_RUN' => 'SQL el ile çalıştırıldığında denetle',
+    'LBL_UW_SQL_RUN' => 'SQL el ile yürütüldüğünde denetlensin',
     'LBL_UW_START_DESC' => 'Bu yardımcı SuiteCRM güncelleme işleminde size yol gösterir.',
     'LBL_UW_START_DESC2' => 'Not: Canlı yayın için kullandığınız SuitCRM uygulamasının bir kopyasını alarak yeni sürümü dağıtmadan önce güncelleme paketini denemeniz önemle önerilir. "composer.json" dosyasını değiştirdiyseniz, güncelleme işlemi tamamlandıktan sonra şu komutu yürütün:<br/><br/><pre>composer install --no-dev</pre>', // Keep the <pre>composer install --no-dev</pre> words at the end of the sentence and do not translate it
     'LBL_UW_START_DESC3' => 'Sistemin güncellenmeye hazır olduğundan emin olmak için Sonraki üzerine tıklayın. Bu işlem sırasında dosya izinleri, veri tabanı izinleri ve sunucu ayarları denetlenir.',
@@ -215,7 +215,7 @@ $mod_strings = array(
     'LBL_UW_DROP_SCHEMA_METHOD' => 'Eski şemayı silme yöntemi',
     'LBL_UW_SHOW_OLD_SCHEMA_TO_DROP' => 'Silinebilecek eski şema görüntülensin',
     'LBL_UW_SKIPPED_QUERIES_ALREADY_EXIST' => 'Atlanan sorgular',
-    'LBL_INCOMPATIBLE_PHP_VERSION' => 'Php versiyon 5 veya üstü gerekmekte.',
+    'LBL_INCOMPATIBLE_PHP_VERSION' => 'Php 5 veya üzerindeki bir sürüm gerekiyor.',
     'ERR_CHECKSYS_PHP_INVALID_VER' => 'PHP sürümünüz SuiteCRM tarafından desteklenmiyor. SuiteCRM uygulaması ile uyumlu bir PHP sürümü kurmalısınız. Lütfen yayın notlarındaki uyumluluk matrisinden desteklenen PHP sürümlerine bakın. Kullandığınız PHP sürümü ',
     'LBL_BACKWARD_COMPATIBILITY_ON' => 'PHP geriye dönük uyumluluk kipi etkinleştirilmiş. İlerlemek için zend.ze1_compatibility_mod seçeneğini Off olarak ayarlayın',
     //including some strings from moduleinstall that are used in Upgrade
@@ -246,7 +246,7 @@ $mod_strings = array(
     'LBL_UW_CONFIRM_LAYOUT_RESULTS' => 'Yerleşim sonuçlarını onayla',
     'LBL_UW_CONFIRM_LAYOUT_RESULTS_DESC' => 'Şu yerleşimler birleştirildi:',
     'LBL_SELECT_FILE' => 'Dosya seçin:',
-    'ERROR_VERSION_INCOMPATIBLE' => 'Yüklenen dosya, mevcut SuiteCRM sürümü ile uyumlu değil.',
+    'ERROR_VERSION_INCOMPATIBLE' => 'Yüklenen dosya bu SuiteCRM sürümü ile uyumlu değil: ',
     'ERROR_PHP_VERSION_INCOMPATIBLE' => 'Yüklenen dosya bu PHP sürümü ile uyumlu değil: ',
     'ERROR_SUITECRM_VERSION_INCOMPATIBLE' => 'Yüklenen dosya bu SuiteCRM sürümü ile uyumlu değil: ',
     'LBL_LANGPACKS' => 'Dil paketleri' /*for 508 compliance fix*/,
