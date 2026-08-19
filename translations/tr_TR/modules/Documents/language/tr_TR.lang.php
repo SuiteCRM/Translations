@@ -68,7 +68,7 @@ $mod_strings = array(
     'LBL_REVISIONS' => 'Sürümler',
     'LBL_RELATED_DOCUMENT_ID' => 'İlişkili belge kimliği',
     'LBL_RELATED_DOCUMENT_REVISION_ID' => 'İlişkili belge sürüm kimliği',
-    'LBL_IS_TEMPLATE' => 'Kalıp',
+    'LBL_IS_TEMPLATE' => 'Bir kalıp',
     'LBL_TEMPLATE_TYPE' => 'Belge türü',
     'LBL_ASSIGNED_TO_NAME' => 'Atanmış ilgili:',
     'LBL_REVISION_NAME' => 'Sürüm no',
@@ -140,7 +140,7 @@ $mod_strings = array(
     'ERR_DELETE_CONFIRM' => 'Bu belge sürümünü silmek istediğinize emin misiniz?',
     'ERR_DELETE_LATEST_VERSION' => 'Bir belgenin son sürümünü silme izniniz yok.',
     'LNK_NEW_MAIL_MERGE' => 'Mektup birleştirme',
-    'ERR_MISSING_FILE' => 'Belgenin bir dosyası yok. Büyük olasılıkla yükleme sırasında bir sorun çıktı. Dosyayı yeniden yüklemeyi deneyin ya da sistem yöneticinizle görüşün.',
+    'ERR_MISSING_FILE' => 'Belgenin bir dosyası yok. Büyük olasılıkla yükleme sırasında bir sorun çıktı. Dosyayı yeniden yüklemeyi deneyin ya da sistem yöneticiniz ile görüşün.',
 
     //sub-panel vardefs.
     'LBL_LIST_DOCUMENT_NAME' => 'Ad',
