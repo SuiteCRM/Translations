@@ -73,7 +73,7 @@ $app_list_strings = array(
         'iFrames' => 'Sitelerim',
         'TimePeriods' => 'Zaman aralıkları',
         'ContractTypes' => 'Sözleşme türleri',
-        'Schedulers' => 'Zamanlanmış görevler',
+        'Schedulers' => 'Zamanlayıcılar',
         'Project' => 'Projeler',
         'ProjectTask' => 'Proje görevleri',
         'Campaigns' => 'Kampanyalar',
@@ -3219,7 +3219,7 @@ $app_list_strings['aow_operator_list']['Starts_With'] = 'Şununla başlayan';
 $app_list_strings['aow_operator_list']['Ends_With'] = 'Şununla biten';
 $app_list_strings['aow_operator_list']['is_null'] = 'Boş olan';
 $app_list_strings['aow_process_status_list']['Complete'] = 'Tamamlandı';
-$app_list_strings['aow_process_status_list']['Running'] = 'Çalışıyor';
+$app_list_strings['aow_process_status_list']['Running'] = 'Yürütülüyor';
 $app_list_strings['aow_process_status_list']['Pending'] = 'Bekliyor';
 $app_list_strings['aow_process_status_list']['Failed'] = 'Tamamlanamadı';
 $app_list_strings['aow_condition_operator_list']['And'] = 'Ve';
@@ -3268,7 +3268,7 @@ $app_list_strings['aow_run_on_list']['New_Records'] = 'Yeni kayıtlar';
 $app_list_strings['aow_run_on_list']['Modified_Records'] = 'Değiştirilmiş kayıtlar';
 $app_list_strings['aow_run_when_list']['Always'] = 'Her zaman';
 $app_list_strings['aow_run_when_list']['On_Save'] = 'Yalnızca kaydedilirken';
-$app_list_strings['aow_run_when_list']['In_Scheduler'] = 'Yalnızca zamanlanmış görevde';
+$app_list_strings['aow_run_when_list']['In_Scheduler'] = 'Yalnızca zamanlayıcıda';
 
 //gant
 $app_list_strings['moduleList']['AM_ProjectTemplates'] = 'Projeler - Kalıplar';
