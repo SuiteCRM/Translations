@@ -56,14 +56,14 @@ $mod_strings = [
     'LBL_DISMISS_SUCCESS' => 'Aktarım yok sayıldı.',
 
     // Type footnotes
-    'LBL_TYPE_BACKGROUND_HELP' => 'Bu aktarım arka planda ileti kuyruğu işlemi üzerinden çalışır. Ögeleri gruplar halinde işler ve kullanıcı arayüzünü engellemez.',
-    'LBL_TYPE_IMMEDIATE_HELP' => 'Bu aktarım tetiklendiğinde hemen çalışır. Tüm ögeleri tek bir istekte işler ve büyük veri kümeleri için daha uzun sürebilir.',
+    'LBL_TYPE_BACKGROUND_HELP' => 'Bu aktarım arka planda ileti kuyruğu işlemi üzerinden yürütülüt. Ögeleri gruplar halinde işler ve kullanıcı arayüzünü engellemez.',
+    'LBL_TYPE_IMMEDIATE_HELP' => 'Bu aktarım tetiklendiğinde hemen yürütülür. Tüm ögeleri tek bir istekte işler ve büyük veri kümeleri için daha uzun sürebilir.',
 
 
     // Messenger setup widget
     'LBL_MESSENGER_SETUP' => 'Arka plan görevi yapılandırması',
     'LBL_MESSENGER_SETUP_DESC1' => 'Aktarım görevleri arka planda işlenir.',
-    'LBL_MESSENGER_SETUP_DESC2' => 'Bu görevlerin başarılı bir şekilde tamamlanmasını sağlamak için bir Symfony Messenger işleminin çalıştığından emin olun.',
+    'LBL_MESSENGER_SETUP_DESC2' => 'Bu görevlerin başarılı bir şekilde tamamlanmasını sağlamak için bir Symfony Messenger işleminin yürütüldüğünden emin olun.',
     'LBL_MESSENGER_SETUP_DESC3' => 'Etkin bir işlem olmadan, görevler "Bekliyor" durumunda kalır.',
     'LBL_MESSENGER_SETUP_DOC_LINK' => 'Kurulum rehberini görüntüle (Supervisor, systemd, Cron)',
 ];
