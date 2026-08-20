@@ -52,6 +52,6 @@ $mod_strings = [
     'LBL_DISMISS_SUCCESS' => 'Süreç yok sayıldı.',
 
     // Type footnotes
-    'LBL_TYPE_BACKGROUND_HELP' => 'Bu süreç arka planda ileti kuyruğu işlemi üzerinden çalışır. Ögeleri gruplar halinde işler ve kullanıcı arayüzünü engellemez.',
-    'LBL_TYPE_IMMEDIATE_HELP' => 'Bu süreç tetiklendiğinde hemen çalışır. Tüm ögeleri tek bir istekte işler ve büyük veri kümeleri için daha uzun sürebilir.',
+    'LBL_TYPE_BACKGROUND_HELP' => 'Bu süreç arka planda ileti kuyruğu işlemi üzerinden yürütülür. Ögeleri gruplar halinde işler ve kullanıcı arayüzünü engellemez.',
+    'LBL_TYPE_IMMEDIATE_HELP' => 'Bu süreç tetiklendiğinde hemen yürütülür. Tüm ögeleri tek bir istekte işler ve büyük veri kümeleri için daha uzun sürebilir.',
 ];
