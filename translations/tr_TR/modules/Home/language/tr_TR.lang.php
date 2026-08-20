@@ -249,7 +249,7 @@ $mod_strings = array(
     'LBL_ELASTIC_SEARCH_EXCEPTION_SEARCH' => 'Arama sırasında bir iç sorun çıktı.',
     'LBL_ELASTIC_SEARCH_EXCEPTION_DEFAULT' => 'Arama sırasında bilinmeyen bir sorun çıktı.',
     'LBL_ELASTIC_SEARCH_EXCEPTION_END_MESSAGE' => 'Sorun sürerse bir yönetici ile görüşün. Ayrıntılı bilgi almak için günlüklere bakabilirsiniz.',
-    'LBL_ELASTIC_SEARCH_EXCEPTION_MISSING_INDEX' => 'Bir ya da daha fazla modülün arama dizini bulunamadı. Lütfen zamanlanmış görevin yapılandırıldığından ve çalıştığından emin olun. Elasticsearch yapılandırmasını açın ve "Tam dizine eklemeyi zamanla" üzerine tıklayın ve yoksa bir "Elasticsearch dizine ekleyici" zamanlanmış görevi oluşturmayı değerlendirin.',
+    'LBL_ELASTIC_SEARCH_EXCEPTION_MISSING_INDEX' => 'Bir ya da daha fazla modülün arama dizini bulunamadı. Lütfen zamanlayıcının yapılandırıldığından ve çalıştığından emin olun. Elasticsearch yapılandırmasını açın ve "Tam dizine eklemeyi zamanla" üzerine tıklayın ve yoksa bir "Elasticsearch dizine ekleyici" zamanlayıcısı oluşturmayı değerlendirin.',
 
     'LBL_ELASTIC_SEARCH_DEFAULT' => 'Arama ölçütlerinize uyan bir sonuç yok. Arama ölçütlerinizi genişletmeyi deneyin.',
 
