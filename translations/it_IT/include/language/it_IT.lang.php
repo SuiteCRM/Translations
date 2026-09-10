@@ -1040,7 +1040,7 @@ $app_list_strings = array(
         'aborted' => 'Aborted',
         'sending' => 'Sending',
         'sent' => 'Inviato',
-        'paused' => 'Paused',
+        'paused' => 'In Pausa',
     ),
     'email_marketing_duplicate_dom' => [
         'email' => 'Prevent sending to duplicate records and email addresses',
