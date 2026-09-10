@@ -421,7 +421,7 @@ $mod_strings = array(
     'LBL_SHOWOPTIONS' => 'Show Options',
     'LBL_SUITE_PRINT' => "Seite drucken",
 
-    'LBL_QUICK_ACCOUNT' => 'Konto erstellen',
+    'LBL_QUICK_ACCOUNT' => 'Firma erstellen',
     'LBL_QUICK_CONTACT' => 'Create Contact',
     'LBL_QUICK_OPPORTUNITY' => 'Create Opportunity',
     'LBL_QUICK_LEAD' => 'Create Lead',

@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Hata arama',
     'LBL_LIST_FORM_TITLE' => 'Hata listesi',
     'LBL_NEW_FORM_TITLE' => 'Yeni hata',
-    'LBL_SUBJECT' => 'Konusu:',
+    'LBL_SUBJECT' => 'Konu:',
     'LBL_NUMBER' => 'Numara:',
     'LBL_STATUS' => 'Durum:',
     'LBL_PRIORITY' => 'Öncelik:',
@@ -58,7 +58,7 @@ $mod_strings = array(
     'LBL_CONTACT_ROLE' => 'Rol:',
     'LBL_LIST_NUMBER' => 'No.',
     'LBL_LIST_SUBJECT' => 'Konu',
-    'LBL_LIST_STATUS' => 'Durum:',
+    'LBL_LIST_STATUS' => 'Durum',
     'LBL_LIST_PRIORITY' => 'Öncelik',
     'LBL_LIST_RESOLUTION' => 'Çözüm',
     'LBL_LIST_LAST_MODIFIED' => 'Son değiştirilme',
@@ -75,11 +75,11 @@ $mod_strings = array(
     'LBL_FOUND_IN_RELEASE' => 'Bulunduğu yayın:',
     'LBL_FIXED_IN_RELEASE' => 'Düzeltildiği yayın:',
     'LBL_LIST_FIXED_IN_RELEASE' => 'Düzeltildiği yayın',
-    'LBL_WORK_LOG' => 'İş günlüğü:',
+    'LBL_WORK_LOG' => 'Çalışma günlüğü:',
     'LBL_SOURCE' => 'Kaynak:',
     'LBL_PRODUCT_CATEGORY' => 'Kategori:',
 
-    'LBL_CREATED_BY' => 'Oluşturan:',
+    'LBL_CREATED_BY' => 'Ekleyen:',
     'LBL_MODIFIED_BY' => 'Son değiştiren:',
 
     'LBL_LIST_EMAIL_ADDRESS' => 'E-posta adresi',
@@ -90,15 +90,15 @@ $mod_strings = array(
 
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Hata izleyici',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Etkinlikler',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'Tarihçe',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Geçmiş',
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'İlgililer',
     'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Hesaplar',
     'LBL_CASES_SUBPANEL_TITLE' => 'Destek kayıtları',
     'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projeler',
-    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Dökümanlar',
+    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Belgeler',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Atanmış kullanıcı',
     'LBL_ASSIGNED_TO_NAME' => 'Atanmış ilgili',
 
-    'LBL_BUG_INFORMATION' => 'Özet', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_BUG_INFORMATION' => 'ÖZET', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
 );

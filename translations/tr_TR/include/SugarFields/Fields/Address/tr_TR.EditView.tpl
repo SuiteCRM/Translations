@@ -4,14 +4,14 @@
  * SugarCRM Community Edition, bir müşteri ilişkileri yönetimi programıdır ve şu kuruluş tarafından geliştirilmektedir:
  * SugarCRM, Inc. Telif Hakkı (C) 2004-2013 SugarCRM Inc.
  *
- * SuiteCRM, SuiteCRM Ltd.
+ * SuiteCRM, SuiteCRM Ltd. tarafından geliştirilen bir SugarCRM Community Edition eklentisidir.
  * Telif Hakkı (C) 2011 - 2025 SuiteCRM Ltd.
  *
  * Bu program ücretsiz bir yazılımdır.
  * Özgür Yazılım Vakfı tarafından yayınlanmış GNU Affero Genel Kamu Lisansı
- * 3. sürüm koşulları altında değiştirebilirsiniz.
+ * 3. sürüm koşulları altında yeniden dağıtabilir ve değiştirebilirsiniz.
  * Ayrıca 15. bölüme, bölüm 7(a) içinde izin verildiği gibi şu izin eklenmiştir:
- * TELİF HAKKI SUGARCRM'E AİTTİR VE SUGARCRM, ÜÇÜNCÜ TARAF HAKLARININ İHLAL EDILMEDİĞİ
+ * TELİF HAKKI SUGARCRM kuruluşuna AİTTİR VE SUGARCRM, ÜÇÜNCÜ TARAF HAKLARININ İHLAL EDILMEDİĞİ
  * GARANTİSİ VERMEZ.
  *
  * Bu program yararlı olması umuduyla dağıtılır.
@@ -29,13 +29,13 @@
  *
  * Bu programın değiştirilmiş kaynak ve nesne kodu sürümlerindeki etkileşimli
  * kullanıcı arayüzlerinde, GNU Affero Genel Kamu Lisansı 3. sürümünün
- * GNU Affero Genel Kamu Lisansı 3.
+ * 5. bölümünde vurgulandığı gibi uygun yasal uyarılar görüntülenmelidir.
  *
- * kullanıcı arayüzlerinde, GNU Affero Genel Kamu Lisansı 3.
- sürümünün * 5. bölümünde vurgulandığı gibi uygun yasal uyarılar görüntülenmelidir.
- * bu uygun yasal uyarılar, "Powered by SugarCRM" logosu ve "Supercharged by SuiteCRM" Logolar makul teknik nedenlerle görüntülenemiyorsa,
+ * GNU Affero Genel Kamu Lisansı 3. sürümünün 7(b) bölümü uyarınca,
+ * bu uygun yasal uyarılar, "Powered by SugarCRM" logosu ve "Supercharged by SuiteCRM"
+ * logosunun görüntülenmesini sağlamalıdır. Logolar makul teknik nedenlerle görüntülenemiyorsa,
  * uygun yasal uyarılarda "Powered by SugarCRM" ve "Supercharged by SuiteCRM"
- * uygun yasal uyarılarda "Powered by SugarCRM" ve "Supercharged by SuiteCRM"
+ * sözcükleri görüntülenmelidir.
  */
 *}
 <script src='{sugar_getjspath file="include/SugarFields/Fields/Address/SugarFieldAddress.js"}'></script>

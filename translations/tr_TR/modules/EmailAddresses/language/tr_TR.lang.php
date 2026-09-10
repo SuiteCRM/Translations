@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EMAIL_ADDRESS_ID' => 'Kod',
+    'LBL_EMAIL_ADDRESS_ID' => 'Kimlik',
     'LBL_EMAIL_ADDRESS' => 'E-posta adresi',
     'LBL_EMAIL_ADDRESS_CAPS' => 'E-posta adresi kapakları',
     'LBL_INVALID_EMAIL' => 'E-posta geçersiz',

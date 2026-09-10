@@ -44,9 +44,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     //Column header mapping
-    'action' => 'Eylem',
+    'action' => 'İşlem',
     'date_modified' => 'Son işlem tarihi',
-    'item_id' => 'Kod',
+    'item_id' => 'Kimlik',
     'item_summary' => 'Ad',
     'module_name' => 'Modül adı',
     'users' => 'Kullanıcılar',
