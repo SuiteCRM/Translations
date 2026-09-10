@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_SALUTATION' => 'Hitap',
-    'LBL_NAME' => 'İsim',
+    'LBL_NAME' => 'Ad',
     'LBL_FIRST_NAME' => 'Ad',
     'LBL_LAST_NAME' => 'Soyad',
     'LBL_TITLE' => 'Başlık',
@@ -64,14 +64,14 @@ $mod_strings = array(
     'LBL_PRIMARY_ADDRESS_STATE' => 'Birincil il',
     'LBL_PRIMARY_ADDRESS_POSTALCODE' => 'Birincil posta kodu',
     'LBL_PRIMARY_ADDRESS_COUNTRY' => 'Birincil adres ülke:',
-    'LBL_ALT_ADDRESS' => 'Diğer adres',
-    'LBL_ALT_ADDRESS_STREET' => '1. diğer adres satırı',
-    'LBL_ALT_ADDRESS_STREET_2' => '2. diğer adres satırı:',
-    'LBL_ALT_ADDRESS_STREET_3' => '3. diğer adres satırı:',
-    'LBL_ALT_ADDRESS_CITY' => 'Diğer ilçe',
-    'LBL_ALT_ADDRESS_STATE' => 'Diğer il',
-    'LBL_ALT_ADDRESS_POSTALCODE' => 'Diğer posta kodu',
-    'LBL_ALT_ADDRESS_COUNTRY' => 'Diğer ülke',
+    'LBL_ALT_ADDRESS' => 'Alternatif adres',
+    'LBL_ALT_ADDRESS_STREET' => 'Alternatif adres',
+    'LBL_ALT_ADDRESS_STREET_2' => '2. alternatif adres satırı:',
+    'LBL_ALT_ADDRESS_STREET_3' => '3. alternatif adres satırı:',
+    'LBL_ALT_ADDRESS_CITY' => 'Alternatif ilçe',
+    'LBL_ALT_ADDRESS_STATE' => 'Alternatif il',
+    'LBL_ALT_ADDRESS_POSTALCODE' => 'Alternatif posta kodu',
+    'LBL_ALT_ADDRESS_COUNTRY' => 'Alternatif ülke',
     'LBL_PRIMARY_STREET' => 'Adres',
     'LBL_ALT_STREET' => 'Diğer adres',
     'LBL_STREET' => 'Diğer adres',
@@ -90,13 +90,13 @@ $mod_strings = array(
     'LBL_ANY_EMAIL' => 'Herhangi bir e-posta',
     'LBL_EMAIL_NON_PRIMARY' => 'İkincil e-posta adresleri',
     'LBL_PHOTO' => 'Görsel',
-    'LBL_EDIT_BUTTON' => 'Değiştir',
+    'LBL_EDIT_BUTTON' => 'Düzenle',
     'LBL_REMOVE' => 'Kaldır',
 
     //Lawful Basis labels
     'LBL_LAWFUL_BASIS' => 'Yasal hükümler',
     'LBL_DATE_REVIEWED' => 'Yasal hükümleri onaylama tarihi',
     'LBL_LAWFUL_BASIS_SOURCE' => 'Yasal hükümler kaynağı',
-    'LBL_CONSENT' => 'Kabul',
+    'LBL_CONSENT' => 'Rıza',
     //End Lawful Basis labels
 );

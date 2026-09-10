@@ -192,7 +192,7 @@ Acesse Administração > Migrações para executar novamente ou retomar a migra�
     'LBL_CALENDAR_SYNC_NEVER' => 'Nunca',
     'LBL_CALENDAR_SYNC_ACTIVE' => 'Habilitado',
     'LBL_CALENDAR_SYNC_INACTIVE' => 'Desabilitado',
-    'LBL_CALENDAR_SYNC_STATUS_RUNNING' => '',
+    'LBL_CALENDAR_SYNC_STATUS_RUNNING' => 'O agendador de sincronização de calendário está atualmente ativo e processando os trabalhos de sincronização.',
     'LBL_CALENDAR_SYNC_STATUS_STOPPED' => 'O agendador de sincronização de calendário está inativo. Nenhuma sincronização automática está ocorrendo.',
     'LBL_CALENDAR_SYNC_HOW_IT_WORKS' => 'Como o Calendário é Sincronizado:',
     'LBL_CALENDAR_SYNC_WHEN_ENABLED' => 'Agendamento Automático:',

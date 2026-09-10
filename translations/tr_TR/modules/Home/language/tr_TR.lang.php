@@ -45,9 +45,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_MODULE_NAME' => 'Giriş',
     'LBL_NEW_FORM_TITLE' => 'Yeni ilgili',
-    'LBL_FIRST_NAME' => 'İsim:',
-    'LBL_LAST_NAME' => 'Soyisim:',
-    'LBL_LIST_LAST_NAME' => 'Soyisim',
+    'LBL_FIRST_NAME' => 'Ad:',
+    'LBL_LAST_NAME' => 'Soyad:',
+    'LBL_LIST_LAST_NAME' => 'Soyad',
     'LBL_PHONE' => 'Telefon:',
     'LBL_EMAIL_ADDRESS' => 'E-posta adresi:',
     'LBL_MY_PIPELINE_FORM_TITLE' => 'Satış olasılığım',
@@ -72,7 +72,7 @@ $mod_strings = array(
 
     'LBL_ADD_DASHLETS' => 'SuiteCRM pano bileşenleri ekle',
     'LBL_WEBSITE_TITLE' => 'Site',
-    'LBL_RSS_TITLE' => 'Haber akışı',
+    'LBL_RSS_TITLE' => 'Duyuru akışı',
     'LBL_CLOSE_DASHLETS' => 'Kapat',
     'LBL_OPTIONS' => 'Ayarlar',
     // dashlet search fields
@@ -82,14 +82,14 @@ $mod_strings = array(
     'LBL_NEXT_WEEK' => 'Gelecek hafta',
     'LBL_LAST_7_DAYS' => 'Geçmiş 7 gün',
     'LBL_NEXT_7_DAYS' => 'Gelecek 7 gün',
-    'LBL_LAST_MONTH' => 'Geçen ay',
-    'LBL_NEXT_MONTH' => 'Gelecek ay',
-    'LBL_LAST_YEAR' => 'Geçen Yıl',
-    'LBL_NEXT_YEAR' => 'Gelecek yıl',
+    'LBL_LAST_MONTH' => 'Önceki ay',
+    'LBL_NEXT_MONTH' => 'Sonraki ay',
+    'LBL_LAST_YEAR' => 'Önceki yıl',
+    'LBL_NEXT_YEAR' => 'Sonraki yıl',
     'LBL_LAST_30_DAYS' => 'Son 30 gün',
     'LBL_NEXT_30_DAYS' => 'Gelecek 30 gün',
     'LBL_THIS_MONTH' => 'Bu ay',
-    'LBL_THIS_YEAR' => 'Bu Yıl',
+    'LBL_THIS_YEAR' => 'Bu yıl',
 
     'LBL_MODULES' => 'Modüller',
     'LBL_CHARTS' => 'Çizelgeler',
@@ -124,8 +124,8 @@ $mod_strings = array(
     'LBL_HOME_PAGE_1_NAME' => 'SuiteCRM panom',
     'LBL_CLOSE_SITEMAP' => 'Kapat',
 
-    'LBL_SEARCH' => 'Arama',
-    'LBL_CLEAR' => 'Sil',
+    'LBL_SEARCH' => 'Ara',
+    'LBL_CLEAR' => 'Temizle',
 
     'LBL_BASIC_CHARTS' => 'Temel çizelgeler',
 
@@ -142,7 +142,7 @@ $mod_strings = array(
     'LBL_DASHLET_INCORRECT_URL' => 'Belirtilen site konumu yanlış',
     'LBL_DASHLET_OPT_URL' => 'Site konumu',
     'LBL_DASHLET_OPT_HEIGHT' => 'Pano bileşeninin yüksekliği (piksel)',
-    'LBL_DASHLET_SUITE_NEWS' => 'SuiteCRM haberleri',
+    'LBL_DASHLET_SUITE_NEWS' => 'SuiteCRM duyuruları',
     'LBL_DASHLET_DISCOVER_SUITE' => 'SuiteCRM özelliklerini keşfedin',
     'LBL_BASIC_SEARCH' => 'Hızlı süzgeç' /*for 508 compliance fix*/,
     'LBL_ADVANCED_SEARCH' => 'Gelişmiş süzgeç' /*for 508 compliance fix*/,
@@ -152,7 +152,7 @@ $mod_strings = array(
     'LBL_TOUR_MODULES_DESCRIPTION' => 'Önemli tüm modülleriniz burada bulunur.',
     'LBL_TOUR_MORE' => 'Diğer modüller',
     'LBL_TOUR_MORE_DESCRIPTION' => 'Modüllerin geri kalanı burada bulunur.',
-    'LBL_TOUR_SEARCH' => 'Tam yazı arama',
+    'LBL_TOUR_SEARCH' => 'Tam yazı ara',
     'LBL_TOUR_SEARCH_DESCRIPTION' => 'Arama çok daha iyi hale geldi.',
     'LBL_TOUR_NOTIFICATIONS' => 'Bildirimler',
     'LBL_TOUR_NOTIFICATIONS_DESCRIPTION' => 'SuiteCRM uygulama bildirimleri burada bulunur.',
@@ -211,7 +211,7 @@ $mod_strings = array(
     'LBL_CLOSE_BUTTON' => 'Kapat',
 
     'LBL_CREATE_NEW_RECORD' => 'İşlem ekle',
-    'LBL_CREATE_CALL' => 'Telefon Aramasını Günlüğe Kaydet',
+    'LBL_CREATE_CALL' => 'Telefon aramasını günlüğe kaydet',
     'LBL_CREATE_MEETING' => 'Toplantı zamanla',
 
     'LBL_GENERAL_TAB' => 'Ayrıntılar',
@@ -238,29 +238,29 @@ $mod_strings = array(
     'LBL_HOUR_ABBREV' => 'saat',
     'LBL_HOURS_ABBREV' => 'saat',
     'LBL_MINSS_ABBREV' => 'dakika',
-    'LBL_LOCATION' => 'Yer:',
+    'LBL_LOCATION' => 'Konum:',
     'LBL_STATUS' => 'Durum:',
     'LBL_DESCRIPTION' => 'Açıklama: ',
     //End Events
 
-    'LBL_ELASTIC_SEARCH_EXCEPTION_SEARCH_INVALID_REQUEST' => 'Arama yapılırken bir sorun çıktı. Sorgu söz dizimi geçersiz olabilir.',
-    'LBL_ELASTIC_SEARCH_EXCEPTION_SEARCH_ENGINE_NOT_FOUND' => 'İstenilen arama motoru bulunamadı. Lütfen yeniden aramayı deneyin.',
+    'LBL_ELASTIC_SEARCH_EXCEPTION_SEARCH_INVALID_REQUEST' => 'Arama sırasında bir sorun çıktı. Sorgu söz dizimi geçersiz olabilir.',
+    'LBL_ELASTIC_SEARCH_EXCEPTION_SEARCH_ENGINE_NOT_FOUND' => 'İstenilen arama işleyici bulunamadı. Lütfen yeniden aramayı deneyin.',
     'LBL_ELASTIC_SEARCH_EXCEPTION_NO_NODES_AVAILABLE' => 'Elasticsearch sunucusu ile bağlantı kurulamadı.',
     'LBL_ELASTIC_SEARCH_EXCEPTION_SEARCH' => 'Arama sırasında bir iç sorun çıktı.',
     'LBL_ELASTIC_SEARCH_EXCEPTION_DEFAULT' => 'Arama sırasında bilinmeyen bir sorun çıktı.',
     'LBL_ELASTIC_SEARCH_EXCEPTION_END_MESSAGE' => 'Sorun sürerse bir yönetici ile görüşün. Ayrıntılı bilgi almak için günlüklere bakabilirsiniz.',
-    'LBL_ELASTIC_SEARCH_EXCEPTION_MISSING_INDEX' => 'Bir ya da daha fazla modülün arama dizini bulunamadı. Lütfen zamanlanmış görevin yapılandırıldığından ve çalıştığından emin olun. Elasticsearch yapılandırmasını açın ve "Tam dizine eklemeyi zamanla" üzerine tıklayın ve yoksa bir "Elasticsearch dizine ekleyici" zamanlanmış görevi oluşturmayı değerlendirin.',
+    'LBL_ELASTIC_SEARCH_EXCEPTION_MISSING_INDEX' => 'Bir ya da daha fazla modülün arama dizini bulunamadı. Lütfen zamanlayıcının yapılandırıldığından ve çalıştığından emin olun. Elasticsearch yapılandırmasını açın ve "Tam dizine eklemeyi zamanla" üzerine tıklayın ve yoksa bir "Elasticsearch dizine ekleyici" zamanlayıcısı oluşturmayı değerlendirin.',
 
     'LBL_ELASTIC_SEARCH_DEFAULT' => 'Arama ölçütlerinize uyan bir sonuç yok. Arama ölçütlerinizi genişletmeyi deneyin.',
 
     // Portal Labels
     'LBL_AOP_DISABLED' => 'AOP kapalı. Lütfen ayarlar bölümünden açın',
     'LBL_CREATE_PORTAL_USER_FAILED' => 'Portal kullanıcısı eklenemedi',
-    'LBL_ENABLE_PORTAL_USER_FAILED' => 'Portal kullanıcısı etkinleştirilemedi',
-    'LBL_DISABLE_PORTAL_USER_FAILED' => 'Portal kullanıcısı devre dışı bırakılamadı',
+    'LBL_ENABLE_PORTAL_USER_FAILED' => 'Portal kullanıcısı açılamadı',
+    'LBL_DISABLE_PORTAL_USER_FAILED' => 'Portal kullanıcısı kapatılamadı',
     'LBL_CREATE_PORTAL_USER_SUCCESS' => 'Portal kullanıcısı eklendi',
-    'LBL_ENABLE_PORTAL_USER_SUCCESS' => 'Portal kullanıcısı etkinleştirildi',
-    'LBL_DISABLE_PORTAL_USER_SUCCESS' => 'Portal kullanıcısı devre dışı bırakıldı',
+    'LBL_ENABLE_PORTAL_USER_SUCCESS' => 'Portal kullanıcısı açıldı',
+    'LBL_DISABLE_PORTAL_USER_SUCCESS' => 'Portal kullanıcısı kapatıldı',
 
     'LNK_TASK_VIEW' => 'Görevi görüntüle',
 );

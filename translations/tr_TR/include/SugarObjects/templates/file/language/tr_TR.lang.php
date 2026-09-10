@@ -48,7 +48,7 @@ $mod_strings = array(
     'LBL_MODULE_TITLE' => 'Belgeler: Giriş',
     'LNK_NEW_DOCUMENT' => 'Belge ekle',
     'LNK_DOCUMENT_LIST' => 'Belge listesi',
-    'LBL_SEARCH_FORM_TITLE' => 'Belge arama',
+    'LBL_SEARCH_FORM_TITLE' => 'Belge ara',
     //vardef labels
     'LBL_NAME' => 'Belge adı',
     'LBL_DESCRIPTION' => 'Açıklama',
@@ -70,7 +70,7 @@ $mod_strings = array(
 
     'LBL_CAT_OR_SUBCAT_UNSPEC' => 'Belirtilmemiş',
     //quick search
-    'LBL_NEW_FORM_TITLE' => 'Belge ekle',
+    'LBL_NEW_FORM_TITLE' => 'Yeni belge',
     //document edit and detail view
     'LBL_DOC_NAME' => 'Belge adı:',
     'LBL_FILENAME' => 'Dosya adı:',
@@ -95,7 +95,7 @@ $mod_strings = array(
     'LBL_LIST_VIEW_DOCUMENT' => 'Görünüm',
     'LBL_LIST_ACTIVE_DATE' => 'Yayınlanma tarihi',
     'LBL_LIST_EXP_DATE' => 'Son geçerlilik tarihi',
-    'LBL_LIST_STATUS' => 'Durum:',
+    'LBL_LIST_STATUS' => 'Durum',
 
     //document search form.
     'LBL_SF_CATEGORY' => 'Kategori:',

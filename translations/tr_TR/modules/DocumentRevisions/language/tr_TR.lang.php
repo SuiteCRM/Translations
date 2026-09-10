@@ -45,19 +45,19 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     //module
     'LBL_MODULE_NAME' => 'Belge sürümü',
-    'LBL_NEW_REVISION' => 'Add Revision',
+    'LBL_NEW_REVISION' => 'Sürüm ekle',
 
     'LNK_NEW_DOCUMENT' => 'Belge ekle',
     'LNK_DOCUMENT_LIST' => 'Belgeleri görüntüle',
 
-    'LBL_OVERVIEW' => 'İlgili Kişi Bilgisi',
+    'LBL_OVERVIEW' => 'Özet',
     'LBL_OTHER' => 'Diğer',
 
     //vardef labels
     'LBL_REVISION_NAME' => 'Sürüm no',
     'LBL_FILENAME' => 'Dosya:',
     'LBL_MIME' => 'MIME türü',
-    'LBL_REVISION' => 'Revizyon',
+    'LBL_REVISION' => 'Sürüm',
     'LBL_DOCUMENT' => 'İlişkili belge',
     'LBL_LATEST_REVISION' => 'Son sürüm',
     'LBL_CHANGE_LOG' => 'Değişiklik günlüğü',
@@ -66,7 +66,7 @@ $mod_strings = array(
     'LBL_FILE_EXTENSION' => 'Dosya uzantısı',
 
     'LBL_DOC_NAME' => 'Belge adı:',
-    'LBL_DOC_VERSION' => 'Revizyon:',
+    'LBL_DOC_VERSION' => 'Sürüm:',
 
     //document revisions.
     'LBL_REV_LIST_REVISION' => 'Sürüm',
@@ -76,7 +76,7 @@ $mod_strings = array(
     'LBL_REV_LIST_FILENAME' => 'Dosya',
 
     'LBL_CURRENT_DOC_VERSION' => 'Son sürüm:',
-    'LBL_SEARCH_FORM_TITLE' => 'Belge arama',
+    'LBL_SEARCH_FORM_TITLE' => 'Belge ara',
     'LBL_REVISIONS' => 'Sürümler',
 
     //error messages
@@ -84,7 +84,7 @@ $mod_strings = array(
     'ERR_DOC_VERSION' => 'Belge sürümü',
     'ERR_DELETE_CONFIRM' => 'Bu belge sürümünü silmek istediğinize emin misiniz?',
     'ERR_DELETE_LATEST_VERSION' => 'Bir belgenin son sürümünü silme izniniz yok.',
-    'LNK_NEW_MAIL_MERGE' => 'Posta Birleştirme',
+    'LNK_NEW_MAIL_MERGE' => 'Mektup birleştirme',
     'LBL_DOC_ID' => 'Belge kaynağı kimliği',
     'LBL_DOC_TYPE' => 'Kaynak',
     'LBL_DOC_URL' => 'Belge kaynağı adresi',

@@ -215,13 +215,13 @@ $app_list_strings = array(
         'Web Site' => 'Hemsida',
         'Word of mouth' => 'Muntligen',
         'Email' => 'Email',
-        'Campaign' => 'Campaign',
-        'Other' => 'Other',
+        'Campaign' => 'Kampanj',
+        'Other' => 'Övrigt',
     ),
     'opportunity_type_dom' => array(
         '' => '',
-        'Existing Business' => 'Existing Business',
-        'New Business' => 'New Business',
+        'Existing Business' => 'Befintlig affär',
+        'New Business' => 'Ny affär',
     ),
     'roi_type_dom' => array(
         'Revenue' => 'Intäkter',
@@ -231,37 +231,37 @@ $app_list_strings = array(
 
     ),
     'subpanel_pagination_type' => [
-        'pagination' => 'Pagination',
+        'pagination' => 'Sidindelning',
         'load-more' => 'Ladda mer'
     ],
     'listview_pagination_type' => [
-        'pagination' => 'Pagination',
+        'pagination' => 'Sidindelning',
         'load-more' => 'Ladda mer'
     ],
     'record_modal_pagination_type' => [
-        'pagination' => 'Pagination',
+        'pagination' => 'Sidindelning',
         'load-more' => 'Ladda mer'
     ],
     //Note:  do not translate opportunity_relationship_type_default_key
 //       it is the key for the default opportunity_relationship_type_dom value
-    'opportunity_relationship_type_default_key' => 'Primary Decision Maker',
+    'opportunity_relationship_type_default_key' => 'Primär beslutsfattare',
     'opportunity_relationship_type_dom' => array(
         '' => '',
-        'Primary Decision Maker' => 'Primary Decision Maker',
+        'Primary Decision Maker' => 'Primär beslutsfattare',
         'Business Decision Maker' => 'Affärsmässig beslutsfattare',
         'Business Evaluator' => 'Affärsmässig utvärderare',
         'Technical Decision Maker' => 'Teknisk beslutsfattare',
         'Technical Evaluator' => 'Teknisk utvärderare',
         'Executive Sponsor' => 'Ledningsfinansiär',
         'Influencer' => 'Person med inflytande',
-        'Other' => 'Other',
+        'Other' => 'Övrigt',
     ),
     //Note:  do not translate case_relationship_type_default_key
 //       it is the key for the default case_relationship_type_dom value
-    'case_relationship_type_default_key' => 'Primary Contact',
+    'case_relationship_type_default_key' => 'Primär kontakt',
     'case_relationship_type_dom' => array(
         '' => '',
-        'Primary Contact' => 'Primary Contact',
+        'Primary Contact' => 'Primär kontakt',
         'Alternate Contact' => 'Alternativ kontakt',
     ),
     'payment_terms' => array(
@@ -269,9 +269,9 @@ $app_list_strings = array(
         'Net 15' => '15 dagar netto',
         'Net 30' => '30 dagar netto',
     ),
-    'sales_stage_default_key' => 'Prospecting',
+    'sales_stage_default_key' => 'Prospektering',
     'sales_stage_dom' => array(
-        'Prospecting' => 'Prospecting',
+        'Prospecting' => 'Prospektering',
         'Qualification' => 'Kvalifikation',
         'Needs Analysis' => 'Kräver analys',
         'Value Proposition' => 'Föreslå värde',
@@ -296,11 +296,11 @@ $app_list_strings = array(
             'Closed Lost' => '0',
         ),
     'activity_dom' => array(
-        'Call' => 'Call',
-        'Meeting' => 'Meeting',
-        'Task' => 'Task',
-        'Email' => 'Email',
-        'Note' => 'Note',
+        'Call' => 'Samtal',
+        'Meeting' => 'Möte',
+        'Task' => 'Uppgift',
+        'Email' => 'E-post',
+        'Note' => 'Anteckning',
     ),
     'salutation_dom' => array(
         '' => '',
@@ -313,8 +313,8 @@ $app_list_strings = array(
     ),
 
     'redirect_uri_type_dom' => [
-        'pretty_url' => 'Pretty URL (/ep/)',
-        'query_string' => 'Query String (index.php?entryPoint=)'
+        'pretty_url' => 'Sökvägsbaserad URL (/ep/)',
+        'query_string' => 'Frågesträng (index.php?entryPoint=)'
     ],
 
     //time is in seconds; the greater the time the longer it takes;
@@ -363,19 +363,19 @@ $app_list_strings = array(
     'task_priority_dom' => array(
         'High' => 'High',
         'Medium' => 'Medium',
-        'Low' => 'Low',
+        'Low' => 'Låg',
     ),
     'task_status_default' => 'Ej Startad',
     'task_status_dom' => array(
-        'Not Started' => 'Not Started',
+        'Not Started' => 'Inte påbörjad',
         'In Progress' => 'Under Pågående',
         'Completed' => 'Avslutad',
-        'Pending Input' => 'Pending Input',
+        'Pending Input' => 'Inväntar information',
         'Deferred' => 'Uppskjuten',
     ),
-    'meeting_status_default' => 'Planned',
+    'meeting_status_default' => 'Planerad',
     'meeting_status_dom' => array(
-        'Planned' => 'Planned',
+        'Planned' => 'Planerad',
         'Held' => 'Genomfört',
         'Not Held' => 'Ej genomfört',
     ),
@@ -383,24 +383,24 @@ $app_list_strings = array(
         'WebEx' => 'WebEx',
     ),
     'meeting_type_dom' => array(
-        'Other' => 'Other',
+        'Other' => 'Övrigt',
         'Sugar' => 'SuiteCRM',
     ),
-    'call_status_default' => 'Planned',
+    'call_status_default' => 'Planerad',
     'call_status_dom' => array(
-        'Planned' => 'Planned',
-        'Held' => 'Held',
-        'Not Held' => 'Not Held',
+        'Planned' => 'Planerad',
+        'Held' => 'Genomfört',
+        'Not Held' => 'Ej genomfört',
     ),
-    'call_direction_default' => 'Outbound',
+    'call_direction_default' => 'Utgående',
     'call_direction_dom' => array(
         'Inbound' => 'Inkommande',
-        'Outbound' => 'Outbound',
+        'Outbound' => 'Utgående',
     ),
     'lead_status_dom' => array(
         '' => '',
-        'New' => 'New',
-        'Assigned' => 'Assigned',
+        'New' => 'Ny',
+        'Assigned' => 'Tilldelad',
         'In Process' => 'I Kö?',
         'Converted' => 'Konverterad',
         'Recycled' => 'Återanvänd',
@@ -408,23 +408,23 @@ $app_list_strings = array(
     ),
     'case_priority_default_key' => 'P2',
     'case_priority_dom' => array(
-        'P1' => 'High',
-        'P2' => 'Medium',
-        'P3' => 'Low',
+        'P1' => 'Hög',
+        'P2' => 'Medel',
+        'P3' => 'Låg',
     ),
     'user_type_dom' => array(
         'RegularUser' => 'Vanlig användare',
         'Administrator' => 'Administratör',
     ),
     'user_status_dom' => array(
-        'Active' => 'Active',
+        'Active' => 'Aktiv',
         'Inactive' => 'Inaktiv',
     ),
     'user_factor_auth_interface_dom' => array(
         'FactorAuthEmailCode' => 'E-postkod',
     ),
     'employee_status_dom' => array(
-        'Active' => 'Active',
+        'Active' => 'Aktiv',
         'Terminated' => 'Slutat',
         'Leave of Absence' => 'Tjänstledig',
     ),
@@ -435,18 +435,18 @@ $app_list_strings = array(
         'AOL' => 'AOL',
     ),
     'project_task_priority_options' => array(
-        'High' => 'High',
-        'Medium' => 'Medium',
-        'Low' => 'Low',
+        'High' => 'Hög',
+        'Medium' => 'Medel',
+        'Low' => 'Låg',
     ),
-    'project_task_priority_default' => 'Medium',
+    'project_task_priority_default' => 'Medel',
 
     'project_task_status_options' => array(
-        'Not Started' => 'Not Started',
+        'Not Started' => 'Inte påbörjad',
         'In Progress' => 'Pågående',
-        'Completed' => 'Completed',
-        'Pending Input' => 'Pending Input',
-        'Deferred' => 'Deferred',
+        'Completed' => 'Slutförd',
+        'Pending Input' => 'Inväntar information',
+        'Deferred' => 'Uppskjuten',
     ),
     'project_task_utilization_options' => array(
         '0' => 'ingen',
@@ -457,13 +457,13 @@ $app_list_strings = array(
     ),
 
     'project_status_dom' => array(
-        'Draft' => 'Draft',
+        'Draft' => 'Utkast',
         'In Review' => 'För Granskning',
         'Underway' => 'Pågående',
         'On_Hold' => 'Avvaktar',
-        'Completed' => 'Completed',
+        'Completed' => 'Slutförd',
     ),
-    'project_status_default' => 'Draft',
+    'project_status_default' => 'Utkast',
 
     'project_duration_units_dom' => array(
         'Days' => 'Dagar',
@@ -595,22 +595,22 @@ $app_list_strings = array(
         'Invalid' => 'Invalid',
         'Later' => 'Senare',
     ),
-    'bug_status_default_key' => 'New',
+    'bug_status_default_key' => 'Ny',
     'bug_status_dom' => array(
-        'New' => 'New',
-        'Assigned' => 'Assigned',
-        'Closed' => 'Closed',
-        'Pending' => 'Pending',
-        'Rejected' => 'Rejected',
+        'New' => 'Ny',
+        'Assigned' => 'Tilldelad',
+        'Closed' => 'Stängd',
+        'Pending' => 'Väntande',
+        'Rejected' => 'Avvisad',
     ),
-    'bug_type_default_key' => 'Bug',
+    'bug_type_default_key' => 'Fel',
     'bug_type_dom' => array(
         'Defect' => 'Defekt',
         'Feature' => 'Funktion',
     ),
     'case_type_dom' => array(
         'Administration' => 'Administration',
-        'Product' => 'Product',
+        'Product' => 'Produkt',
         'User' => 'Användare',
     ),
 
@@ -620,58 +620,58 @@ $app_list_strings = array(
         'Internal' => 'Intern',
         'Forum' => 'Forum',
         'Web' => 'Webb',
-        'InboundEmail' => 'Email',
+        'InboundEmail' => 'E-post',
     ),
 
     'file_field_storage_type_dom' => [
-        'private-documents' => 'Private Documents',
-        'public-documents' => 'Public Documents',
-        'archived-documents' => 'Archived Documents',
+        'private-documents' => 'Privata dokument',
+        'public-documents' => 'Offentliga dokument',
+        'archived-documents' => 'Arkiverade dokument',
     ],
 
 
     'image_field_storage_type_dom' => [
-        'private-images' => 'Private Images',
-        'public-images' => 'Public Images',
+        'private-images' => 'Privata bilder',
+        'public-images' => 'Offentliga bilder',
     ],
 
     'product_category_default_key' => '',
     'product_category_dom' => array(
         '' => '',
         'Accounts' => 'Konton',
-        'Activities' => 'Activities',
-        'Bugs' => 'Bugs',
-        'Calendar' => 'Calendar',
-        'Calls' => 'Calls',
-        'Campaigns' => 'Campaigns',
+        'Activities' => 'Aktiviteter',
+        'Bugs' => 'Fel',
+        'Calendar' => 'Kalender',
+        'Calls' => 'Samtal',
+        'Campaigns' => 'Kampanjer',
         'Cases' => 'Ärenden',
-        'Contacts' => 'Contacts',
-        'Currencies' => 'Currencies',
-        'Dashboard' => 'Dashboard',
+        'Contacts' => 'Kontakter',
+        'Currencies' => 'Valutor',
+        'Dashboard' => 'Instrumentpanel',
         'Documents' => 'Dokument',
-        'Emails' => 'Emails',
+        'Emails' => 'E-post',
         'Feeds' => 'Flöden',
         'Forecasts' => 'Prognoser',
         'Help' => 'Hjälp',
         'Home' => 'Hem',
         'Leads' => 'Kundämnen',
-        'Meetings' => 'Meetings',
+        'Meetings' => 'Möten',
         'Notes' => 'Anteckningar:',
-        'Opportunities' => 'Opportunities',
+        'Opportunities' => 'Affärsmöjligheter',
         'Outlook Plugin' => 'Outlook insticksmodul',
-        'Projects' => 'Projects',
-        'Quotes' => 'Quotes',
-        'Releases' => 'Releases',
+        'Projects' => 'Projekt',
+        'Quotes' => 'Offerter',
+        'Releases' => 'Utgåvor',
         'RSS' => 'RSS',
         'Studio' => 'Studio',
         'Upgrade' => 'Uppgradera',
-        'Users' => 'Users',
+        'Users' => 'Användare',
     ),
     /*Added entries 'Queued' and 'Sending' for 4.0 release..*/
     'campaign_status_dom' => array(
         'Planning' => 'Planerar',
-        'Active' => 'Active',
-        'Inactive' => 'Inactive',
+        'Active' => 'Aktiv',
+        'Inactive' => 'Inaktiv',
         'Complete' => 'Klart',
         //'In Queue' => 'In Queue',
         //'Sending' => 'Sending',
@@ -680,9 +680,9 @@ $app_list_strings = array(
         '' => '',
         'Telesales' => 'Telemarketing',
         'Mail' => 'Post',
-        'Email' => 'Email',
+        'Email' => 'E-post',
         'Print' => 'Skriv ut',
-        'Web' => 'Web',
+        'Web' => 'Webb',
         'Radio' => 'Radio',
         'Television' => 'Television',
         'NewsLetter' => 'Nyhetsbrev',
@@ -766,102 +766,102 @@ $app_list_strings = array(
     ],
 
     'dom_inbound_email_auth_types' => [
-        'basic' => 'Basic Auth',
+        'basic' => 'Grundläggande autentisering',
         'oauth' => 'OAuth',
     ],
 
     'dom_outbound_email_auth_types' => [
-        'no_auth' => 'No Auth',
-        'basic' => 'Basic Auth',
+        'no_auth' => 'Ingen autentisering',
+        'basic' => 'Grundläggande autentisering',
         'oauth' => 'OAuth',
     ],
 
     'dom_external_oauth_connection_types' => [
-        'personal' => 'Personal',
-        'group' => 'Group',
+        'personal' => 'Personlig',
+        'group' => 'Grupp',
     ],
 
     'dom_external_oauth_provider_types' => [
-        'personal' => 'Personal',
-        'group' => 'Group',
+        'personal' => 'Personlig',
+        'group' => 'Grupp',
     ],
 
     'dom_manual_migration_tasks_types' => [
-        'background' => 'Background Process',
-        'immediate' => 'Immediate',
+        'background' => 'Bakgrundsprocess',
+        'immediate' => 'Omedelbar',
     ],
 
     'dom_manual_migration_tasks_statuses' => [
         'initial' => 'Initial',
-        'pending' => 'Pending',
-        'running' => 'Running',
-        'failed' => 'Failed',
-        'completed_with_failures' => 'Completed With Failures',
-        'completed' => 'Completed'
+        'pending' => 'Väntande',
+        'running' => 'Körs',
+        'failed' => 'Misslyckades',
+        'completed_with_failures' => 'Slutförd med fel',
+        'completed' => 'Slutförd'
     ],
 
     'dom_processes_types' => [
-        'background' => 'Background Process',
-        'immediate' => 'Immediate',
+        'background' => 'Bakgrundsprocess',
+        'immediate' => 'Omedelbar',
     ],
 
     'dom_processes_statuses' => [
         'initial' => 'Initial',
-        'pending' => 'Pending',
-        'running' => 'Running',
-        'failed' => 'Failed',
-        'completed_with_failures' => 'Completed With Failures',
-        'completed' => 'Completed'
+        'pending' => 'Väntande',
+        'running' => 'Körs',
+        'failed' => 'Misslyckades',
+        'completed_with_failures' => 'Slutförd med fel',
+        'completed' => 'Slutförd'
     ],
 
     'dom_async_task_phases' => [
         '' => '',
-        'queueing' => 'Queueing',
-        'processing' => 'Processing',
-        'finalizing' => 'Finalizing',
-        'completed' => 'Completed',
+        'queueing' => 'Köar',
+        'processing' => 'Bearbetar',
+        'finalizing' => 'Slutför',
+        'completed' => 'Slutförd',
     ],
 
     'dom_outbound_email_account_types' => [
-        'user' => 'Personal',
-        'group' => 'Group',
+        'user' => 'Personligt',
+        'group' => 'Grupp',
         'system' => 'System',
-        'system-override' => 'System Override',
+        'system-override' => 'Åsidosättning av systeminställning',
     ],
 
     'dom_inbound_email_account_status' => [
-        'Active' => 'Active',
-        'Inactive' => 'Inactive',
+        'Active' => 'Aktiv',
+        'Inactive' => 'Inaktiv',
     ],
 
     'dom_email_body_filtering_option' => [
-      'multi' => 'Multi Word Search',
-      'single' => 'Single Word Search',
+      'multi' => 'Flerordssökning',
+      'single' => 'Enordssökning',
     ],
 
     'dom_email_types' => array(
         'out' => 'Skickad',
         'archived' => 'Arkiverad',
-        'draft' => 'Draft',
-        'inbound' => 'Inbound',
-        'campaign' => 'Campaign',
+        'draft' => 'Utkast',
+        'inbound' => 'Inkommande',
+        'campaign' => 'Kampanj',
     ),
     'dom_email_status' => array(
-        'archived' => 'Archived',
-        'closed' => 'Closed',
+        'archived' => 'Arkiverad',
+        'closed' => 'Stängd',
         'draft' => 'Utkast',
         'read' => 'Läst',
         'replied' => 'Svarade',
-        'sent' => 'Sent',
+        'sent' => 'Skickat',
         'send_error' => 'Fel vid skickning',
         'unread' => 'Oläst',
     ),
     'dom_email_archived_status' => array(
-        'archived' => 'Archived',
+        'archived' => 'Arkiverad',
     ),
 
     'dom_email_server_type' => array(
-        '' => '--None--',
+        '' => '--Ingen--',
         'imap' => 'IMAP',
     ),
     'dom_mailbox_type' => array(/*''           => '--None Specified--',*/
