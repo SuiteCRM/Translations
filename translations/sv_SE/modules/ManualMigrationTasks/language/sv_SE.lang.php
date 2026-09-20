@@ -36,34 +36,34 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = [
 
     // Module naming
-    'LBL_LIST_FORM_TITLE' => 'Migrations List',
-    'LBL_MODULE_NAME' => 'Migrations',
-    'LBL_MODULE_TITLE' => 'Migrations',
-    'LBL_HOMEPAGE_TITLE' => 'My Migrations',
-    'LNK_NEW_RECORD' => 'Create Migrations',
-    'LNK_LIST' => 'View Migrations',
-    'LBL_SEARCH_FORM_TITLE' => 'Search Migrations',
-    'LBL_NEW_FORM_TITLE' => 'New Migrations',
+    'LBL_LIST_FORM_TITLE' => 'Lista över migreringar',
+    'LBL_MODULE_NAME' => 'Migreringar',
+    'LBL_MODULE_TITLE' => 'Migreringar',
+    'LBL_HOMEPAGE_TITLE' => 'Mina migreringar',
+    'LNK_NEW_RECORD' => 'Skapa migreringar',
+    'LNK_LIST' => 'Visa migreringar',
+    'LBL_SEARCH_FORM_TITLE' => 'Sök migreringar',
+    'LBL_NEW_FORM_TITLE' => 'Nya migreringar',
 
     // Module-specific trigger action
-    'LBL_RUN_MIGRATION' => 'Run Migration',
-    'LBL_RUN_MIGRATION_CONFIRMATION' => 'Are you sure you want to run this migration?',
+    'LBL_RUN_MIGRATION' => 'Kör migrering',
+    'LBL_RUN_MIGRATION_CONFIRMATION' => 'Vill du köra denna migrering?',
 
     // Rerun/dismiss confirmation messages (reference this module by name)
-    'LBL_RERUN_CONFIRMATION' => 'Are you sure you want to re-run this migration from scratch? All existing items will be removed and the migration will restart.',
-    'LBL_RERUN_SUCCESS' => 'Migration has been re-queued and will restart from the beginning.',
-    'LBL_DISMISS_CONFIRMATION' => 'Are you sure you want to dismiss this migration task? This will remove it and all associated data.',
-    'LBL_DISMISS_SUCCESS' => 'Migration task dismissed successfully.',
+    'LBL_RERUN_CONFIRMATION' => 'Vill du köra om denna migrering från början? Alla befintliga poster tas bort och migreringen startar om.',
+    'LBL_RERUN_SUCCESS' => 'Migreringen har köats på nytt och startar om från början.',
+    'LBL_DISMISS_CONFIRMATION' => 'Vill du avfärda denna migreringsuppgift? Den tas bort tillsammans med alla associerade data.',
+    'LBL_DISMISS_SUCCESS' => 'Migreringsuppgiften avfärdades.',
 
     // Type footnotes
-    'LBL_TYPE_BACKGROUND_HELP' => 'This migration runs in the background via the message queue worker. It processes items in batches and does not block the UI.',
-    'LBL_TYPE_IMMEDIATE_HELP' => 'This migration runs immediately when triggered. It processes all items in a single request and may take longer for large datasets.',
+    'LBL_TYPE_BACKGROUND_HELP' => 'Denna migrering körs i bakgrunden via meddelandeköarbetaren. Den bearbetar poster i batcher och blockerar inte gränssnittet.',
+    'LBL_TYPE_IMMEDIATE_HELP' => 'Denna migrering körs omedelbart när den utlöses. Den bearbetar alla poster i en enda begäran och kan ta längre tid för stora datamängder.',
 
 
     // Messenger setup widget
-    'LBL_MESSENGER_SETUP' => 'Background Task Configuration',
-    'LBL_MESSENGER_SETUP_DESC1' => 'Migration tasks are processed in the background.',
-    'LBL_MESSENGER_SETUP_DESC2' => 'To ensure these tasks complete successfully, please ensure a Symfony Messenger worker is running.',
-    'LBL_MESSENGER_SETUP_DESC3' => 'Without an active worker, tasks will stay in a "Pending" state.',
-    'LBL_MESSENGER_SETUP_DOC_LINK' => 'View Setup Guide (Supervisor, systemd, Cron)',
+    'LBL_MESSENGER_SETUP' => 'Konfiguration av bakgrundsuppgift',
+    'LBL_MESSENGER_SETUP_DESC1' => 'Migreringsuppgifter bearbetas i bakgrunden.',
+    'LBL_MESSENGER_SETUP_DESC2' => 'För att uppgifterna ska slutföras måste en Symfony Messenger-arbetare köras.',
+    'LBL_MESSENGER_SETUP_DESC3' => 'Utan en aktiv arbetare blir uppgifterna kvar i tillståndet ”Väntande”.',
+    'LBL_MESSENGER_SETUP_DOC_LINK' => 'Visa installationsguide (Supervisor, systemd, Cron)',
 ];
