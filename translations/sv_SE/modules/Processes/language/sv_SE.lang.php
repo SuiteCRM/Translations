@@ -36,22 +36,22 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = [
 
     // Module naming
-    'LBL_LIST_FORM_TITLE' => 'Processes List',
-    'LBL_MODULE_NAME' => 'Processes',
-    'LBL_MODULE_TITLE' => 'Processes',
-    'LBL_HOMEPAGE_TITLE' => 'My Processes',
-    'LNK_NEW_RECORD' => 'Create Process',
-    'LNK_LIST' => 'View Processes',
-    'LBL_SEARCH_FORM_TITLE' => 'Search Processes',
-    'LBL_NEW_FORM_TITLE' => 'New Process',
+    'LBL_LIST_FORM_TITLE' => 'Processlista',
+    'LBL_MODULE_NAME' => 'Processer',
+    'LBL_MODULE_TITLE' => 'Processer',
+    'LBL_HOMEPAGE_TITLE' => 'Mina processer',
+    'LNK_NEW_RECORD' => 'Skapa process',
+    'LNK_LIST' => 'Visa processer',
+    'LBL_SEARCH_FORM_TITLE' => 'Sök processer',
+    'LBL_NEW_FORM_TITLE' => 'Ny process',
 
     // Rerun/dismiss confirmation messages (reference this module by name)
-    'LBL_RERUN_CONFIRMATION' => 'Are you sure you want to re-run this process from scratch? All existing items will be removed and the process will restart.',
-    'LBL_RERUN_SUCCESS' => 'Process has been re-queued and will restart from the beginning.',
-    'LBL_DISMISS_CONFIRMATION' => 'Are you sure you want to dismiss this process? This will remove it and all associated data.',
-    'LBL_DISMISS_SUCCESS' => 'Process dismissed successfully.',
+    'LBL_RERUN_CONFIRMATION' => 'Vill du köra om processen från början? Alla befintliga objekt tas bort och processen startar om.',
+    'LBL_RERUN_SUCCESS' => 'Processen har lagts i kö på nytt och startar om från början.',
+    'LBL_DISMISS_CONFIRMATION' => 'Vill du avfärda processen? Den och alla associerade data tas bort.',
+    'LBL_DISMISS_SUCCESS' => 'Processen avfärdades.',
 
     // Type footnotes
-    'LBL_TYPE_BACKGROUND_HELP' => 'This process runs in the background via the message queue worker. It processes items in batches and does not block the UI.',
-    'LBL_TYPE_IMMEDIATE_HELP' => 'This process runs immediately when triggered. It processes all items in a single request and may take longer for large datasets.',
+    'LBL_TYPE_BACKGROUND_HELP' => 'Processen körs i bakgrunden via meddelandeköarbetaren. Den behandlar objekt i omgångar och blockerar inte användargränssnittet.',
+    'LBL_TYPE_IMMEDIATE_HELP' => 'Processen körs direkt när den utlöses. Den behandlar alla objekt i en enda begäran och kan ta längre tid för stora datamängder.',
 ];
