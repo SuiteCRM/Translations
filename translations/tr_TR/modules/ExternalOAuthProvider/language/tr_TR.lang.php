@@ -54,11 +54,11 @@ $mod_strings = [
     'LBL_CREATED' => 'Ekleyen',
     'LBL_DESCRIPTION' => 'Açıklama',
     'LBL_DELETED' => 'Silindi',
-    'LBL_NAME' => 'İsim',
+    'LBL_NAME' => 'Ad',
     'LBL_CREATED_USER' => 'Ekleyen kullanıcı',
     'LBL_MODIFIED_USER' => 'Değiştiren kullanıcı',
-    'LBL_LIST_NAME' => 'Paket Adı:',
-    'LBL_EDIT_BUTTON' => 'Değiştir',
+    'LBL_LIST_NAME' => 'Ad',
+    'LBL_EDIT_BUTTON' => 'Düzenle',
     'LBL_REMOVE' => 'Kaldır',
     'LBL_LIST_FORM_TITLE' => 'Dış OAuth hizmet sağlayıcısı listesi',
     'LBL_MODULE_NAME' => 'Dış OAuth hizmeti sağlayıcıları',
@@ -67,10 +67,10 @@ $mod_strings = [
     'LNK_NEW_RECORD' => 'Dış OAuth hizmet sağlayıcısı ekle',
 
     'LNK_LIST' => 'Dış OAuth hizmeti sağlayıcıları',
-    'LBL_SEARCH_FORM_TITLE' => 'Dış OAuth hizmeti sağlayıcısı arama',
+    'LBL_SEARCH_FORM_TITLE' => 'Dış OAuth hizmeti sağlayıcısı ara',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Geçmişi görüntüle',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Etkinlikler',
-    'LBL_NEW_FORM_TITLE' => 'Dış OAuth hizmeti sağlayıcısı ekle',
+    'LBL_NEW_FORM_TITLE' => 'Yeni dış OAuth hizmeti sağlayıcısı',
 
     'LBL_LIST_DELETE' => 'Sil',
     'LBL_TYPE' => 'Tür',
@@ -100,8 +100,8 @@ $mod_strings = [
     'LBL_OTHER' => 'Diğer',
 
 
-    'LNK_LIST_CREATE_NEW_PERSONAL' => 'Kişisel OAuth hizmeti sağlayıcısı ekle',
-    'LNK_LIST_CREATE_NEW_GROUP' => 'Grup OAuth hizmeti sağlayıcısı ekle',
+    'LNK_LIST_CREATE_NEW_PERSONAL' => 'Yeni kişisel OAuth hizmeti sağlayıcısı ekle',
+    'LNK_LIST_CREATE_NEW_GROUP' => 'Yeni grup OAuth hizmeti sağlayıcısı ekle',
     'LNK_LIST_INBOUND_EMAILS' => 'Gelen e-posta hesapları',
     'LNK_LIST_OUTBOUND_EMAILS' => 'Giden e-posta hesapları',
     'LNK_LIST_EXTERNAL_OAUTH_CONNECTION' => 'Dış OAuth bağlantıları',
