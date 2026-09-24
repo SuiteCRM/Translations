@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_MODULE_NAME' => 'Satış',
     'LBL_MODULE_TITLE' => 'Satış: Giriş',
-    'LBL_SEARCH_FORM_TITLE' => 'Satış arama',
+    'LBL_SEARCH_FORM_TITLE' => 'Satış ara',
     'LBL_LIST_FORM_TITLE' => 'Satış listesi',
     'LBL_NAME' => 'Satış adı',
     'LBL_LIST_SALE_NAME' => 'Ad',
@@ -87,7 +87,7 @@ $mod_strings = array(
     'LBL_SALE_INFORMATION' => 'Satış bilgileri',
     'LBL_CURRENCY_NAME' => 'Para birimi adı',
     'LBL_CURRENCY_SYMBOL' => 'Para birimi simgesi',
-    'LBL_EDIT_BUTTON' => 'Değiştir',
+    'LBL_EDIT_BUTTON' => 'Düzenle',
     'LBL_REMOVE' => 'Kaldır',
 
 );

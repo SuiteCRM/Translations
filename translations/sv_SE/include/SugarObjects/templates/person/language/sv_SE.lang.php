@@ -91,7 +91,7 @@ $mod_strings = array(
     'LBL_EMAIL_NON_PRIMARY' => 'Inga primära mail',
     'LBL_PHOTO' => 'Foto',
     'LBL_EDIT_BUTTON' => 'Redigera',
-    'LBL_REMOVE' => 'Remove',
+    'LBL_REMOVE' => 'Ta bort',
 
     //Lawful Basis labels
     'LBL_LAWFUL_BASIS' => 'Laglig grund',

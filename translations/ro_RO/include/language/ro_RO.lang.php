@@ -110,7 +110,7 @@ $app_list_strings = array(
         'OAuthTokens' => 'Jetoane OAuth',
         'OAuth2Clients' => 'Clienți OAuth',
         'OAuth2Tokens' => 'Jetoane OAuth',
-        'OAuth2AuthCodes' => 'OAuth Authorization Codes',
+        'OAuth2AuthCodes' => 'Coduri de autorizare OAuth',
     ),
 
     'moduleListSingular' => array(
@@ -313,8 +313,8 @@ $app_list_strings = array(
     ),
 
     'redirect_uri_type_dom' => [
-        'pretty_url' => 'Pretty URL (/ep/)',
-        'query_string' => 'Query String (index.php?entryPoint=)'
+        'pretty_url' => 'URL prietenos (/ep/)',
+        'query_string' => 'Șir de interogare (index.php?entryPoint=)'
     ],
 
     //time is in seconds; the greater the time the longer it takes;
@@ -437,7 +437,7 @@ $app_list_strings = array(
     'project_task_priority_options' => array(
         'High' => 'Ridicat',
         'Medium' => 'Medie',
-        'Low' => 'Low',
+        'Low' => 'Scăzut',
     ),
     'project_task_priority_default' => 'Medie',
 
@@ -771,7 +771,7 @@ $app_list_strings = array(
     ],
 
     'dom_outbound_email_auth_types' => [
-        'no_auth' => 'No Auth',
+        'no_auth' => 'Fără autentificare',
         'basic' => 'Autorizare de bază',
         'oauth' => 'OAuth',
     ],
@@ -1495,7 +1495,7 @@ $app_strings = array(
     'LBL_EMAIL_SETTINGS_CHECK_INTERVAL' => 'Verificați pentru corespondență nouă',
     'LBL_EMAIL_SETTINGS_FROM_ADDR' => 'De la adresa',
     'LBL_EMAIL_SETTINGS_FROM_TO_EMAIL_ADDR' => 'Adresa de e-mail cu notificarea despre testare:',
-    'LBL_EMAIL_SETTINGS_FROM_ADDR_NOT_SET' => 'From address and/or From name not set',
+    'LBL_EMAIL_SETTINGS_FROM_ADDR_NOT_SET' => 'Adresa expeditorului și/sau numele expeditorului nu sunt configurate',
     'LBL_EMAIL_SETTINGS_FROM_NAME' => 'De la',
     'LBL_EMAIL_SETTINGS_REPLY_TO_ADDR' => 'Răspunde la adresă',
     'LBL_EMAIL_SETTINGS_FULL_SYNC' => 'Sincronizează toate conturile de mail',
@@ -1693,7 +1693,7 @@ $app_strings = array(
     'LBL_CAMPAIGNS' => 'Campanii',
     'LBL_CAMPAIGNLOG' => 'Jurnal campanii',
     'LBL_CAMPAIGN_CONTACT' => 'Campanii',
-    'LBL_CAMPAIGN_ID' => 'campaign_id',
+    'LBL_CAMPAIGN_ID' => 'id companie',
     'LBL_CAMPAIGN_NONE' => 'Nimic',
     'LBL_CAMPAIGN_CHARTS' => 'Campaign Charts',
     'LBL_EMAIL_MARKETING_CHARTS' => 'Email Marketing Charts',
@@ -2061,7 +2061,7 @@ $app_strings = array(
     'ERROR_JS_ALERT_TIMEOUT_TITLE' => 'Expirare sesiune',
     'ERROR_JS_ALERT_TIMEOUT_MSG_1' => 'Sesiunea ta este pe cale să expire în 2 minute. Vă rugăm să salvați munca ta.',
     'ERROR_JS_ALERT_TIMEOUT_MSG_2' => 'Sesiunea dvs. a expirat.',
-    'MSG_JS_ALERT_MTG_REMINDER_AGENDA' => "\nAgenda: ",
+    'MSG_JS_ALERT_MTG_REMINDER_AGENDA' => "\nAgendă: ",
     'MSG_JS_ALERT_MTG_REMINDER_MEETING' => 'Întâlnire',
     'MSG_JS_ALERT_MTG_REMINDER_CALL' => 'Apel',
     'MSG_JS_ALERT_MTG_REMINDER_TIME' => 'Timp: ',
@@ -2069,7 +2069,7 @@ $app_strings = array(
     'MSG_JS_ALERT_MTG_REMINDER_DESC' => 'Descriere: ',
     'MSG_JS_ALERT_MTG_REMINDER_STATUS' => 'Status: ',
     'MSG_JS_ALERT_MTG_REMINDER_RELATED_TO' => 'Asociat cu: ',
-    'MSG_JS_ALERT_MTG_REMINDER_CALL_MSG' => "\nClick OK to view this call or click Cancel to dismiss this message.",
+    'MSG_JS_ALERT_MTG_REMINDER_CALL_MSG' => "\nFaceți click pe OK pentru a vizualiza acest apel sau pe Anulare pentru a închide acest mesaj.",
     'MSG_JS_ALERT_MTG_REMINDER_MEETING_MSG' => "\nClick OK to view this meeting or click Cancel to dismiss this message.",
     'MSG_JS_ALERT_MTG_REMINDER_NO_EVENT_NAME' => 'Eveniment',
     'MSG_JS_ALERT_MTG_REMINDER_NO_DESCRIPTION' => 'Evenimentul nu este specificat.',
@@ -4495,14 +4495,14 @@ $app_strings['LBL_NO_DOCUMENT_ID_PROVIDED'] = 'Cannot find document to delete re
 $app_strings['LBL_NO_RECORD_ID_PROVIDED'] = 'Cannot find docuemnt revision to delete, no record id provided.';
 
 $app_list_strings['email_import_timeframe_start_dom'] = [
-    '-1 year' => '1 Year',
-    '-6 months' => '6 Months',
-    '-3 months' => '3 Months',
-    '-30 days' => '30 Days',
-    '-15 days' => '15 Days',
-    '-5 days' => '5 Days',
-    '-1 days' => '1 Day',
-    '0 days' => '0 Days',
+    '-1 year' => '1 An',
+    '-6 months' => '6 Luni',
+    '-3 months' => '3 Luni',
+    '-30 days' => '30 de Zile',
+    '-15 days' => '15 Zile',
+    '-5 days' => '5 Zile',
+    '-1 days' => '1 Zi',
+    '0 days' => '0 zile',
 ];
 
 $app_strings['LBL_NOT_AUTHORIZED'] = 'Not authorized';

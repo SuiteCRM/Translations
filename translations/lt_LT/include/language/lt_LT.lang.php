@@ -74,11 +74,11 @@ $app_list_strings = array(
         'TimePeriods' => 'Laiko periodai',
         'ContractTypes' => 'Sutarčių tipai',
         'Schedulers' => 'Planuotojai',
-        'Project' => 'Projects',
+        'Project' => 'Projektas',
         'ProjectTask' => 'Projekto užduotis',
         'Campaigns' => 'Kampanijos',
         'CampaignLog' => 'Kampanijų istorija',
-        'Documents' => 'Documents',
+        'Documents' => 'Dokumentai',
         'DocumentRevisions' => 'Dokumento revizijos',
         'Connectors' => 'Jungtys',
         'Roles' => 'Funkcijos',
@@ -101,7 +101,7 @@ $app_list_strings = array(
         'Trackers' => 'Auditas',
         'TrackerSessions' => 'Audito sesijos',
         'TrackerQueries' => 'Audito užklausos',
-        'FAQ' => 'FAQ',
+        'FAQ' => 'DUK',
         'Newsletters' => 'Naujienlaiškis',
         'SugarFeed' => 'SuiteCRM santraukos',
         'SugarFavorites' => 'SuiteCRM Mėgstamiausi',
@@ -109,8 +109,8 @@ $app_list_strings = array(
         'OAuthKeys' => 'OAuth naudotojų raktai',
         'OAuthTokens' => 'OAuth prieigos raktai',
         'OAuth2Clients' => 'OAuth klientas',
-        'OAuth2Tokens' => 'OAuth Tokens',
-        'OAuth2AuthCodes' => 'OAuth Authorization Codes',
+        'OAuth2Tokens' => 'OAuth raktai',
+        'OAuth2AuthCodes' => 'OAuth prisijungimo kodai',
     ),
 
     'moduleListSingular' => array(
@@ -126,7 +126,7 @@ $app_list_strings = array(
         'EmailTemplates' => 'El. pašto šablonas',
         'Meetings' => 'Susitikimas',
         'Tasks' => 'Užduotis',
-        'Calendar' => 'Calendar',
+        'Calendar' => 'Kalendorius',
         'Leads' => 'Galimybė',
         'Activities' => 'Priminimai',
         'History' => 'History',
@@ -142,7 +142,7 @@ $app_list_strings = array(
         'Documents' => 'Dokumentas',
         'Sync' => 'Sinchronizuoti',
         'Users' => 'Vartotojas',
-        'SugarFavorites' => 'SuiteCRM Favorites',
+        'SugarFavorites' => 'SuiteCRM mėgstamiausi',
 
     ),
 
@@ -155,15 +155,15 @@ $app_list_strings = array(
     //e.g. en français 'Analyst'=>'Analyste',
     'account_type_dom' => array(
         '' => '',
-        'Analyst' => 'Analyst',
-        'Competitor' => 'Competitor',
+        'Analyst' => 'Analitikas',
+        'Competitor' => 'Varžovas',
         'Customer' => 'Klientas',
         'Integrator' => 'Integruotojas',
-        'Investor' => 'Investor',
-        'Partner' => 'Partner',
+        'Investor' => 'Investuotojas',
+        'Partner' => 'Partneris',
         'Press' => 'Žiniasklaida',
         'Prospect' => 'Perspectyva',
-        'Reseller' => 'Reseller',
+        'Reseller' => 'Platintojas',
         'Other' => 'Kita',
     ),
     //e.g. en español 'Apparel'=>'Ropa',
@@ -200,14 +200,14 @@ $app_list_strings = array(
         'Utilities' => 'Komunalinės paslaugos',
         'Other' => 'Kita',
     ),
-    'lead_source_default_key' => 'Self Generated',
+    'lead_source_default_key' => 'Automatiškai sugeneruotas',
     'lead_source_dom' => array(
         '' => '',
         'Cold Call' => 'Aktyvūs pardavimai',
         'Existing Customer' => 'Esamas klientas',
-        'Self Generated' => 'Self Generated',
+        'Self Generated' => 'Automatiškai sugeneruotas',
         'Employee' => 'Darbuotojai',
-        'Partner' => 'Partner',
+        'Partner' => 'Partneris',
         'Public Relations' => 'Viešieji ryšiai',
         'Direct Mail' => 'Tiesioginis paštas',
         'Conference' => 'Konferencija',
@@ -220,8 +220,8 @@ $app_list_strings = array(
     ),
     'opportunity_type_dom' => array(
         '' => '',
-        'Existing Business' => 'Existing Business',
-        'New Business' => 'New Business',
+        'Existing Business' => 'Egzistuojantis verslas',
+        'New Business' => 'Naujas verslas',
     ),
     'roi_type_dom' => array(
         'Revenue' => 'Pajamos',
@@ -244,10 +244,10 @@ $app_list_strings = array(
     ],
     //Note:  do not translate opportunity_relationship_type_default_key
 //       it is the key for the default opportunity_relationship_type_dom value
-    'opportunity_relationship_type_default_key' => 'Primary Decision Maker',
+    'opportunity_relationship_type_default_key' => 'Pagrindinis sprendimų priėmėjas',
     'opportunity_relationship_type_dom' => array(
         '' => '',
-        'Primary Decision Maker' => 'Primary Decision Maker',
+        'Primary Decision Maker' => 'Pagrindinis sprendimų priėmėjas',
         'Business Decision Maker' => 'Verslo sprendimo priėmėjas',
         'Business Evaluator' => 'Verslo įvertintojas',
         'Technical Decision Maker' => 'Techninis sprendimo priėmėjas',
@@ -258,10 +258,10 @@ $app_list_strings = array(
     ),
     //Note:  do not translate case_relationship_type_default_key
 //       it is the key for the default case_relationship_type_dom value
-    'case_relationship_type_default_key' => 'Primary Contact',
+    'case_relationship_type_default_key' => 'Pagrindinis kontaktas',
     'case_relationship_type_dom' => array(
         '' => '',
-        'Primary Contact' => 'Primary Contact',
+        'Primary Contact' => 'Pagrindinis kontaktas',
         'Alternate Contact' => 'Alternatyvus kontaktas',
     ),
     'payment_terms' => array(
@@ -269,9 +269,9 @@ $app_list_strings = array(
         'Net 15' => '15 dienų',
         'Net 30' => '30 dienų',
     ),
-    'sales_stage_default_key' => 'Prospecting',
+    'sales_stage_default_key' => 'Rinkos tyrimas',
     'sales_stage_dom' => array(
-        'Prospecting' => 'Prospecting',
+        'Prospecting' => 'Rinkos tyrimas',
         'Qualification' => 'Kvalifikacija',
         'Needs Analysis' => 'Poreikių analizė',
         'Value Proposition' => 'Pasiūlymo vertė',
@@ -313,8 +313,8 @@ $app_list_strings = array(
     ),
 
     'redirect_uri_type_dom' => [
-        'pretty_url' => 'Pretty URL (/ep/)',
-        'query_string' => 'Query String (index.php?entryPoint=)'
+        'pretty_url' => 'Perskaitomas URL (/ep/)',
+        'query_string' => 'Užklausa (index.php?entryPoint=)'
     ],
 
     //time is in seconds; the greater the time the longer it takes;
@@ -370,7 +370,7 @@ $app_list_strings = array(
         'Not Started' => 'Nepradėta',
         'In Progress' => 'Progrese',
         'Completed' => 'Baigta',
-        'Pending Input' => 'Pending Input',
+        'Pending Input' => 'Laukiama informacijos',
         'Deferred' => 'Atidėtas',
     ),
     'meeting_status_default' => 'Planuotas',
@@ -389,17 +389,17 @@ $app_list_strings = array(
     'call_status_default' => 'Planuotas',
     'call_status_dom' => array(
         'Planned' => 'Planuotas',
-        'Held' => 'Held',
-        'Not Held' => 'Not Held',
+        'Held' => 'Sulaikytas',
+        'Not Held' => 'Nesulaikytas',
     ),
-    'call_direction_default' => 'Outbound',
+    'call_direction_default' => 'Išsiunčiamasis',
     'call_direction_dom' => array(
         'Inbound' => 'Ateinantis',
-        'Outbound' => 'Outbound',
+        'Outbound' => 'Išsiunčiamasis',
     ),
     'lead_status_dom' => array(
         '' => '',
-        'New' => 'New',
+        'New' => 'Naujas',
         'Assigned' => 'Priskirtas',
         'In Process' => 'Progrese',
         'Converted' => 'Konvertuotas',
@@ -437,7 +437,7 @@ $app_list_strings = array(
     'project_task_priority_options' => array(
         'High' => 'Aukštas',
         'Medium' => 'Vidutinis',
-        'Low' => 'Low',
+        'Low' => 'Žemas',
     ),
     'project_task_priority_default' => 'Vidutinis',
 
@@ -445,7 +445,7 @@ $app_list_strings = array(
         'Not Started' => 'Nepradėta',
         'In Progress' => 'Progrese',
         'Completed' => 'Baigta',
-        'Pending Input' => 'Pending Input',
+        'Pending Input' => 'Laukiama informacijos',
         'Deferred' => 'Deferred',
     ),
     'project_task_utilization_options' => array(

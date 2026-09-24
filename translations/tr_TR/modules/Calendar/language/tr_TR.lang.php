@@ -72,9 +72,9 @@ $mod_strings = array(
     'LBL_PREVIOUS_DAY' => 'Önceki gün',
     'LBL_PREVIOUS_YEAR' => 'Önceki yıl',
     'LBL_PREVIOUS_WEEK' => 'Önceki hafta',
-    'LBL_NEXT_MONTH' => 'Gelecek ay',
+    'LBL_NEXT_MONTH' => 'Sonraki ay',
     'LBL_NEXT_DAY' => 'Sonraki gün',
-    'LBL_NEXT_YEAR' => 'Gelecek yıl',
+    'LBL_NEXT_YEAR' => 'Sonraki yıl',
     'LBL_NEXT_WEEK' => 'Gelecek hafta',
     'LBL_AM' => 'ÖÖ (AM)',
     'LBL_PM' => 'ÖS (PM)',
@@ -94,7 +94,7 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Atanmış ilgili',
     'LBL_DATE' => 'Başlangıç tarihi ve saati',
     'LBL_CREATE_MEETING' => 'Toplantı zamanla',
-    'LBL_CREATE_CALL' => 'Telefon Aramasını Günlüğe Kaydet',
+    'LBL_CREATE_CALL' => 'Telefon aramasını günlüğe kaydet',
     'LBL_HOURS_ABBREV' => 's',
     'LBL_MINS_ABBREV' => 'd',
 
@@ -113,7 +113,7 @@ $mod_strings = array(
     'LBL_ERROR_LOADING' => 'Yükleme sırasında sorun çıktı',
     'LBL_GOTO_DATE' => 'Tarihe git',
     'NOTICE_DURATION_TIME' => 'Süre 0 değerinden büyük olmalıdır',
-    'LBL_STYLE_BASIC' => 'Temel', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_STYLE_BASIC' => 'TEMEL', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_STYLE_ADVANCED' => 'Gelişmiş', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
     'LBL_NO_USER' => 'Alan için eşleşme yok: Atanmış ilgili',
@@ -163,9 +163,9 @@ $mod_strings = array(
     'LBL_GENERAL_SETTINGS' => 'Genel ayarlar',
     'LBL_COLOR_SETTINGS' => 'Renk ayarları',
     'LBL_MODULE' => 'Modül',
-    'LBL_BODY' => 'İçerik metni',
+    'LBL_BODY' => 'İçerik yazısı',
     'LBL_BORDER' => 'Kenarlık',
-    'LBL_TEXT' => 'Metin',
+    'LBL_TEXT' => 'Yazı',
 );
 
 

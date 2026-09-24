@@ -66,8 +66,8 @@ $app_list_strings = array(
     $object_name . '_resolution_dom' => array(
         '' => '',
         'Accepted' => 'Accepterad',
-        'Duplicate' => 'Duplicate',
-        'Closed' => 'Closed',
+        'Duplicate' => 'Dubblett',
+        'Closed' => 'Stängd',
         'Out of Date' => 'Utgått',
         'Invalid' => 'Ogiltig',
     ),

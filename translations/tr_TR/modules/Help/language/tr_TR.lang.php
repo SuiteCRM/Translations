@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_MODULE_NAME' => 'Hesaplar',
     'LBL_MODULE_TITLE' => 'Hesaplar: Giriş',
-    'LBL_SEARCH_FORM_TITLE' => 'Hesap arama',
+    'LBL_SEARCH_FORM_TITLE' => 'Hesap ara',
     'LBL_LIST_FORM_TITLE' => 'Hesap listesi',
     'LBL_NEW_FORM_TITLE' => 'Hesap ekle',
     'LNK_NEW_CONTACT' => 'İlgili ekle',
@@ -57,5 +57,5 @@ $mod_strings = array(
     'LNK_NEW_EMAIL' => 'E-postayı arşivle',
     'LNK_NEW_MEETING' => 'Toplantı zamanla',
     'LNK_NEW_TASK' => 'Görev ekle',
-    'ERR_DELETE_RECORD' => 'Müşteriyi silmek için bir kayıt nosu belirtilmelidir.',
+    'ERR_DELETE_RECORD' => 'Müşteriyi silmek için bir kayıt numarası belirtilmelidir.',
 );

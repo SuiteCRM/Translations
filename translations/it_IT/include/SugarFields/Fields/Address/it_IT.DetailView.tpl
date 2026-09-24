@@ -31,9 +31,9 @@
  * di questo programma devono visualizzare Appropriate Note Legali, come richiesto nella
  * Sezione 5 della GNU Affero General Public License versione 3.
  *
- * In accordance with Section 7(b) of the GNU Affero General Public License version 3,
- * these Appropriate Legal Notices must retain the display of the "Powered by
- * SugarCRM" logo and "Supercharged by SuiteCRM" logo. If the display of the logos is not
+ * In accordo con la Sezione 7(b) della GNU Affero General Public License versione 3,
+ * queste Note Legali comprendono la visualizzazione del logo "Basato su
+ * SugarCRM" e dal logo "Potenziato da SuiteCRM". If the display of the logos is not
  * reasonably feasible for technical reasons, the Appropriate Legal Notices must
  * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
  */
