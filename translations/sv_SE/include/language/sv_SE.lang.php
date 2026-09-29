@@ -52,7 +52,7 @@ $app_list_strings = array(
         'Home' => 'Hem',
         'ResourceCalendar' => 'Resurskalendern',
         'Contacts' => 'Kontakter',
-        'Accounts' => 'Konton',
+        'Accounts' => 'Företag',
         'Alerts' => 'Varningar',
         'Opportunities' => 'Affärer',
         'Cases' => 'Ärenden',
@@ -437,10 +437,10 @@ $app_list_strings = array(
 
     // Note:  do not translate record_type_default_key
     //        it is the key for the default record_type_module value
-    'record_type_default_key' => 'Konton',
+    'record_type_default_key' => 'Företag',
     'record_type_display' => array(
         '' => '',
-        'Accounts' => 'Konto',
+        'Accounts' => 'Företag',
         'Opportunities' => 'Affär',
         'Cases' => 'Ärende',
         'Leads' => 'Kundämne',
@@ -462,7 +462,7 @@ $app_list_strings = array(
     ),
 
     'record_type_display_notes' => array(
-        'Accounts' => 'Konto',
+        'Accounts' => 'Företag',
         'Contacts' => 'Kontakt',
         'Opportunities' => 'Affär',
         'Campaigns' => 'Kampanj',
@@ -479,14 +479,14 @@ $app_list_strings = array(
         'Meetings' => 'Möte',
         'Calls' => 'Samtal',
 
-        'AOS_Contracts' => 'Kontrakt',
+        'AOS_Contracts' => 'Avtal',
         'AOS_Invoices' => 'Faktura',
         'AOS_Quotes' => 'Offert',
         'AOS_Products' => 'Produkt',
     ),
 
     'parent_type_display' => array(
-        'Accounts' => 'Konto',
+        'Accounts' => 'Företag',
         'Contacts' => 'Kontakt',
         'Tasks' => 'Uppgift',
         'Opportunities' => 'Affär',
@@ -500,7 +500,7 @@ $app_list_strings = array(
 
         'Prospects' => 'Mål',
 
-        'AOS_Contracts' => 'Kontrakt',
+        'AOS_Contracts' => 'Avtal',
         'AOS_Invoices' => 'Faktura',
         'AOS_Quotes' => 'Offert',
         'AOS_Products' => 'Produkt',
@@ -585,7 +585,7 @@ $app_list_strings = array(
     'product_category_default_key' => '',
     'product_category_dom' => array(
         '' => '',
-        'Accounts' => 'Konton',
+        'Accounts' => 'Företag',
         'Activities' => 'Aktiviteter',
         'Bugs' => 'Fel',
         'Calendar' => 'Kalender',
@@ -965,7 +965,7 @@ $app_list_strings = array(
         'Users' => 'Användare',
         'Prospects' => 'Mål',
         'Leads' => 'Kundämnen',
-        'Accounts' => 'Konton',
+        'Accounts' => 'Företag',
     ),
     'merge_operators_dom' => array(
         'like' => 'Innerhåller',
@@ -1881,8 +1881,8 @@ $app_strings = array(
     'ERROR_JS_ALERT_TIMEOUT_MSG_1' => 'Din session är på väg att gå ut om 2 minuter. Var god spara ditt arbete.',
     'ERROR_JS_ALERT_TIMEOUT_MSG_2' => 'Din session har blivit inaktiv.',
     'MSG_JS_ALERT_MTG_REMINDER_AGENDA' => "\nAgenda: ",
-    'MSG_JS_ALERT_MTG_REMINDER_MEETING' => 'Meeting',
-    'MSG_JS_ALERT_MTG_REMINDER_CALL' => 'Call',
+    'MSG_JS_ALERT_MTG_REMINDER_MEETING' => 'Möte',
+    'MSG_JS_ALERT_MTG_REMINDER_CALL' => 'Samtal',
     'MSG_JS_ALERT_MTG_REMINDER_TIME' => 'Tid',
     'MSG_JS_ALERT_MTG_REMINDER_LOC' => 'Plats',
     'MSG_JS_ALERT_MTG_REMINDER_DESC' => 'Beskrivning: ',
@@ -1904,7 +1904,7 @@ $app_strings = array(
     // contextMenu strings
     'LBL_ADD_TO_FAVORITES' => 'Lägg till i mina favoriter',
     'LBL_CREATE_CONTACT' => 'Skapa kontakt',
-    'LBL_CREATE_CASE' => 'Create Case',
+    'LBL_CREATE_CASE' => 'Skapa ärende',
     'LBL_CREATE_NOTE' => 'Skapa anteckning',
     'LBL_CREATE_OPPORTUNITY' => 'Skapa affär',
     'LBL_SCHEDULE_CALL' => 'Schemalägg samtal',
@@ -1924,7 +1924,7 @@ $app_strings = array(
     'LBL_ADD_ALL_LEAD_FIELDS' => 'Lägg till alla fält',
     'LBL_RESET_ALL_LEAD_FIELDS' => 'Återställ alla filter',
     'LBL_REMOVE_ALL_LEAD_FIELDS' => 'Ta bort alla fält',
-    'LBL_NEXT_BTN' => 'Next',
+    'LBL_NEXT_BTN' => 'Nästa',
     'LBL_ONLY_IMAGE_ATTACHMENT' => 'Endast bilagor i form av bilder kan infogas.',
     'LBL_TRAINING' => 'Support Forum',
     'ERR_MSSQL_DB_CONTEXT' => 'Ändrade databas till',
@@ -1937,7 +1937,7 @@ $app_strings = array(
     'ERR_SMARTY_UNEQUAL_RELATED_FIELD_PARAMETERS' => 'Fel: Det är ett ojämnt antal argument för \'key\' och \'copy\' elementen i displayParams array.',
 
     /* MySugar Framework (for Home and Dashboard) */
-    'LBL_DASHLET_CONFIGURE_GENERAL' => 'General',
+    'LBL_DASHLET_CONFIGURE_GENERAL' => 'Allmänt',
     'LBL_DASHLET_CONFIGURE_FILTERS' => 'Filter',
     'LBL_DASHLET_CONFIGURE_MY_ITEMS_ONLY' => 'Endast mina tilldelade objekt',
     'LBL_DASHLET_CONFIGURE_TITLE' => 'Rubrik',
@@ -1950,7 +1950,7 @@ $app_strings = array(
     'LBL_REMOVE_DASHLET_CONFIRM' => 'Är du säker på att du vill ta bort den här Dashleten?',
     'LBL_REMOVING_DASHLET' => 'Ta bort dashlet...',
     'LBL_REMOVED_DASHLET' => 'SuiteCRM Dashlet removed',
-    'LBL_MAX_DASHLET_COLUMNS' => "Maximum of %s columns can be displayed.",
+    'LBL_MAX_DASHLET_COLUMNS' => "Maximalt %s kolumner kan visas.",
     'LBL_RETRIEVING_XML_DATA' => "There was a problem retrieving the XML data:\n",
 
     // MySugar Menu Options
@@ -1959,14 +1959,14 @@ $app_strings = array(
 
     'LBL_RELOAD_PAGE' => 'Vänligen <a href="javascript: window.location.reload()"> Ladda om fönstret</a> om du vill använda denna SuiteCRM Dashlet.',
     'LBL_ADD_DASHLETS' => 'Lägg till dashlet',
-    'LBL_CLOSE_DASHLETS' => 'Close',
-    'LBL_OPTIONS' => 'Options',
+    'LBL_CLOSE_DASHLETS' => 'Stäng',
+    'LBL_OPTIONS' => 'Alternativ',
     'LBL_1_COLUMN' => '1 kolumn',
     'LBL_2_COLUMN' => '2 kolumner',
     'LBL_3_COLUMN' => '3 kolumner',
     'LBL_PAGE_NAME' => 'Sidnamn',
 
-    'LBL_SEARCH_RESULTS' => 'Search Results',
+    'LBL_SEARCH_RESULTS' => 'Sökresultat',
     'LBL_SEARCH_MODULES' => 'Moduler',
     'LBL_SEARCH_TOOLS' => 'Verktyg',
     'LBL_SEARCH_HELP_TITLE' => 'Söktips',
@@ -2021,7 +2021,7 @@ $app_strings = array(
     'LBL_CHOOSE_START_AND_END_ENTRIES' => 'Välj både en start- och slutdatum datumintervall',
 
     //jchi #  20776
-    'LBL_DROPDOWN_LIST_ALL' => 'All',
+    'LBL_DROPDOWN_LIST_ALL' => 'Alla',
 
     //Connector
     'ERR_CONNECTOR_FILL_BEANS_SIZE_MISMATCH' => 'Fel: List parametrarna stämmer inte överens med resultat listan.',
@@ -2033,12 +2033,12 @@ $app_strings = array(
 
     //Collection Field
     'LBL_COLLECTION_NAME' => 'Namn',
-    'LBL_COLLECTION_PRIMARY' => 'Primary',
+    'LBL_COLLECTION_PRIMARY' => 'Primär',
     'ERROR_MISSING_COLLECTION_SELECTION' => 'Tomt obligatoriskt fält',
 
     //MB -Fixed Bug #32812 -Max
-    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
-    'LBL_DESCRIPTION' => 'Description',
+    'LBL_ASSIGNED_TO_NAME' => 'Tilldelad till',
+    'LBL_DESCRIPTION' => 'Beskrivning',
 
     'LBL_YESTERDAY' => 'Igår',
     'LBL_TODAY' => 'idag',
@@ -2054,8 +2054,8 @@ $app_strings = array(
     'LBL_NEXT_YEAR' => 'nästa år',
 
     //Datetimecombo fields
-    'LBL_HOURS' => 'Hours',
-    'LBL_MINUTES' => 'Minutes',
+    'LBL_HOURS' => 'Timmar',
+    'LBL_MINUTES' => 'Minuter',
     'LBL_MERIDIEM' => 'Meridiem',
     'LBL_DATE' => 'Datum',
     'LBL_DASHLET_CONFIGURE_AUTOREFRESH' => 'Uppdatera automatiskt',
@@ -2104,7 +2104,7 @@ $app_strings = array(
     'LBL_NOTIFICATIONS_NONE' => 'Inga aktuella meddelanden',
     'LBL_ALT_SORT_DESC' => 'Sorterad fallande',
     'LBL_ALT_SORT_ASC' => 'Sorterad stigande',
-    'LBL_ALT_SORT' => 'Sort',
+    'LBL_ALT_SORT' => 'Sortera',
     'LBL_ALT_SHOW_OPTIONS' => 'Visa alternativ',
     'LBL_ALT_HIDE_OPTIONS' => 'Dölj Alternativ',
     'LBL_ALT_MOVE_COLUMN_LEFT' => 'Flytta markerade poster till listan till vänster',
@@ -2133,19 +2133,19 @@ $app_strings = array(
     'LBL_EDIT_BUTTON_LABEL' => 'Redigera',
     'LBL_EDIT_BUTTON_TITLE' => 'Redigera',
     'LBL_DUPLICATE_BUTTON_KEY' => 'u',
-    'LBL_DUPLICATE_BUTTON_LABEL' => 'Duplicate',
-    'LBL_DUPLICATE_BUTTON_TITLE' => 'Duplicate',
+    'LBL_DUPLICATE_BUTTON_LABEL' => 'Duplicera',
+    'LBL_DUPLICATE_BUTTON_TITLE' => 'Duplicera',
     'LBL_DELETE_BUTTON_KEY' => 'd',
-    'LBL_DELETE_BUTTON_LABEL' => 'Delete',
-    'LBL_DELETE_BUTTON_TITLE' => 'Delete',
-    'LBL_BULK_ACTION_BUTTON_LABEL' => 'BULK ACTION',
+    'LBL_DELETE_BUTTON_LABEL' => 'Ta bort',
+    'LBL_DELETE_BUTTON_TITLE' => 'Ta bort',
+    'LBL_BULK_ACTION_BUTTON_LABEL' => 'Massåtgärd',
     'LBL_BULK_ACTION_BUTTON_LABEL_MOBILE' => 'Handling',
     'LBL_SAVE_BUTTON_KEY' => 'a',
-    'LBL_SAVE_BUTTON_LABEL' => 'Save',
-    'LBL_SAVE_BUTTON_TITLE' => 'Save',
+    'LBL_SAVE_BUTTON_LABEL' => 'Spara',
+    'LBL_SAVE_BUTTON_TITLE' => 'Spara',
     'LBL_CANCEL_BUTTON_KEY' => 'l',
-    'LBL_CANCEL_BUTTON_LABEL' => 'Cancel',
-    'LBL_CANCEL_BUTTON_TITLE' => 'Cancel',
+    'LBL_CANCEL_BUTTON_LABEL' => 'Avbryt',
+    'LBL_CANCEL_BUTTON_TITLE' => 'Avbryt',
     'LBL_FIRST_INPUT_EDIT_VIEW_KEY' => '7',
     'LBL_ADV_SEARCH_LNK_KEY' => '8',
     'LBL_FIRST_INPUT_SEARCH_KEY' => '9',
@@ -2153,11 +2153,11 @@ $app_strings = array(
     'ERR_CONNECTOR_NOT_ARRAY' => 'array {0} är felaktigt definierad eller är tom och inte kunde användas.',
     'ERR_SUHOSIN' => 'Strömmning (streaming) blockeras av Suhosin, Lägg till &quot;ladda upp &quot; till suhosin.executor.include.whitelist (se suitecrm.log för mer information)',
     'ERR_BAD_RESPONSE_FROM_SERVER' => 'Ogiltigt svar från servern',
-    'LBL_ACCOUNT_PRODUCT_QUOTE_LINK' => 'Quote',
+    'LBL_ACCOUNT_PRODUCT_QUOTE_LINK' => 'Offert',
     'LBL_ACCOUNT_PRODUCT_SALE_PRICE' => 'Försäljningspriset',
     'LBL_EMAIL_CHECK_INTERVAL_DOM' => array(
         '-1' => 'Manuellt',
-        '5' => 'Every 5 minutes',
+        '5' => 'Var 5:e minut',
         '15' => 'Var 15:e minut',
         '30' => 'Var 30:e minut',
         '60' => 'Varje timme',
@@ -2179,8 +2179,8 @@ $app_strings = array(
 
     'LBL_FILTER_HEADER_TITLE' => 'Filter',
 
-    'LBL_CATEGORY' => 'Category',
-    'LBL_LIST_CATEGORY' => 'Category',
+    'LBL_CATEGORY' => 'Kategori',
+    'LBL_LIST_CATEGORY' => 'Kategori',
     'ERR_FACTOR_TPL_INVALID' => 'Autentiseringsmeddelandet är ogiltigt, kontakta din administratör.',
     'LBL_SUBTHEMES' => 'Stil',
     'LBL_SUBTHEME_OPTIONS_DAWN' => 'Gryning',
@@ -2209,7 +2209,7 @@ $app_strings = array(
     'LBL_PRIMARY_GROUP' => "Primär grupp",
 
     // footer
-    'LBL_SUITE_TOP' => 'Back to top',
+    'LBL_SUITE_TOP' => 'Tillbaka till toppen',
     'LBL_SUITE_SUPERCHARGED' => 'Med stöd av SuiteCRM',
     'LBL_SUITE_POWERED_BY' => 'Powered By SugarCRM',
     'LBL_SUITE_DESC1' => 'SuiteCRM has been written and assembled by <a href="https://suitecrm.com/">SuiteCRM Ltd</a>. The Program is provided AS IS, without warranty. Licensed under AGPLv3.',
@@ -3117,7 +3117,7 @@ $app_strings['LBL_CRON_WEEKLY'] = 'Weekly';
 $app_strings['LBL_CRON_MONTHLY'] = 'Monthly';
 
 //aos
-$app_list_strings['moduleList']['AOS_Contracts'] = 'Contracts';
+$app_list_strings['moduleList']['AOS_Contracts'] = 'Avtal';
 $app_list_strings['moduleList']['AOS_Invoices'] = 'Fakturor';
 $app_list_strings['moduleList']['AOS_PDF_Templates'] = 'PDF - mallar';
 $app_list_strings['moduleList']['AOS_Product_Categories'] = 'Produkter - Kategorier';
@@ -3184,12 +3184,12 @@ $app_list_strings['product_type_dom']['Good'] = 'Bra';
 $app_list_strings['product_type_dom']['Service'] = 'Tjänst';
 $app_list_strings['product_quote_parent_type_dom']['AOS_Quotes'] = 'Quotes';
 $app_list_strings['product_quote_parent_type_dom']['AOS_Invoices'] = 'Fakturor';
-$app_list_strings['product_quote_parent_type_dom']['AOS_Contracts'] = 'Contracts';
-$app_list_strings['pdf_template_type_dom']['AOS_Quotes'] = 'Quotes';
+$app_list_strings['product_quote_parent_type_dom']['AOS_Contracts'] = 'Avtal';
+$app_list_strings['pdf_template_type_dom']['AOS_Quotes'] = 'Offerter';
 $app_list_strings['pdf_template_type_dom']['AOS_Invoices'] = 'Fakturor';
-$app_list_strings['pdf_template_type_dom']['AOS_Contracts'] = 'Contracts';
-$app_list_strings['pdf_template_type_dom']['Accounts'] = 'Konton';
-$app_list_strings['pdf_template_type_dom']['Contacts'] = 'Contacts';
+$app_list_strings['pdf_template_type_dom']['AOS_Contracts'] = 'Avtal';
+$app_list_strings['pdf_template_type_dom']['Accounts'] = 'Företag';
+$app_list_strings['pdf_template_type_dom']['Contacts'] = 'Kontakter';
 $app_list_strings['pdf_template_type_dom']['Leads'] = 'Kundämnen';
 $app_list_strings['pdf_template_sample_dom'][''] = '';
 $app_list_strings['contract_status_list']['Not Started'] = 'Not Started';
@@ -3298,7 +3298,7 @@ $app_list_strings['moduleList']['jjwp_Partners'] = 'JJWP partners';
 $app_list_strings['map_unit_type_list']['mi'] = 'Engelska mil';
 $app_list_strings['map_unit_type_list']['km'] = 'Kilometer';
 
-$app_list_strings['map_module_type_list']['Accounts'] = 'Konton';
+$app_list_strings['map_module_type_list']['Accounts'] = 'Företag';
 $app_list_strings['map_module_type_list']['Contacts'] = 'Contacts';
 $app_list_strings['map_module_type_list']['Cases'] = 'Ärenden';
 $app_list_strings['map_module_type_list']['Leads'] = 'Kundämnen';
@@ -3684,7 +3684,7 @@ $app_list_strings['surveys_matrix_options'][0] = 'Nöjd';
 $app_list_strings['surveys_matrix_options'][1] = 'Varken Nöjd eller Missnöjd';
 $app_list_strings['surveys_matrix_options'][2] = 'Missnöjd';
 
-$app_list_strings['moduleList']['CalendarAccount'] = 'Calendar Accounts';
+$app_list_strings['moduleList']['CalendarAccount'] = 'Kalenderkonton';
 
 $app_strings['LBL_OPT_IN_PENDING_EMAIL_NOT_SENT'] = 'Väntar på bekräfta välja i, bekräfta välja i skickas inte';
 $app_strings['LBL_OPT_IN_PENDING_EMAIL_FAILED'] = 'Bekräfta opt in e-post sändning misslyckades';
