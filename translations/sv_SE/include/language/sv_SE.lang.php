@@ -52,7 +52,7 @@ $app_list_strings = array(
         'Home' => 'Hem',
         'ResourceCalendar' => 'Resurskalendern',
         'Contacts' => 'Kontakter',
-        'Accounts' => 'Konton',
+        'Accounts' => 'Företag',
         'Alerts' => 'Varningar',
         'Opportunities' => 'Affärer',
         'Cases' => 'Ärenden',
@@ -478,10 +478,10 @@ $app_list_strings = array(
 
     // Note:  do not translate record_type_default_key
     //        it is the key for the default record_type_module value
-    'record_type_default_key' => 'Konton',
+    'record_type_default_key' => 'Företag',
     'record_type_display' => array(
         '' => '',
-        'Accounts' => 'Konto',
+        'Accounts' => 'Företag',
         'Opportunities' => 'Affär',
         'Cases' => 'Ärende',
         'Leads' => 'Kundämne',
@@ -503,7 +503,7 @@ $app_list_strings = array(
     ),
 
     'record_type_display_notes' => array(
-        'Accounts' => 'Konto',
+        'Accounts' => 'Företag',
         'Contacts' => 'Kontakt',
         'Opportunities' => 'Affär',
         'Campaigns' => 'Kampanj',
@@ -520,14 +520,14 @@ $app_list_strings = array(
         'Meetings' => 'Möte',
         'Calls' => 'Samtal',
 
-        'AOS_Contracts' => 'Kontrakt',
+        'AOS_Contracts' => 'Avtal',
         'AOS_Invoices' => 'Faktura',
         'AOS_Quotes' => 'Offert',
         'AOS_Products' => 'Produkt',
     ),
 
     'parent_type_display' => array(
-        'Accounts' => 'Konto',
+        'Accounts' => 'Företag',
         'Contacts' => 'Kontakt',
         'Tasks' => 'Uppgift',
         'Opportunities' => 'Affär',
@@ -541,7 +541,7 @@ $app_list_strings = array(
 
         'Prospects' => 'Mål',
 
-        'AOS_Contracts' => 'Kontrakt',
+        'AOS_Contracts' => 'Avtal',
         'AOS_Invoices' => 'Faktura',
         'AOS_Quotes' => 'Offert',
         'AOS_Products' => 'Produkt',
@@ -638,7 +638,7 @@ $app_list_strings = array(
     'product_category_default_key' => '',
     'product_category_dom' => array(
         '' => '',
-        'Accounts' => 'Konton',
+        'Accounts' => 'Företag',
         'Activities' => 'Aktiviteter',
         'Bugs' => 'Fel',
         'Calendar' => 'Kalender',
@@ -1077,7 +1077,7 @@ $app_list_strings = array(
         'Users' => 'Användare',
         'Prospects' => 'Mål',
         'Leads' => 'Kundämnen',
-        'Accounts' => 'Konton',
+        'Accounts' => 'Företag',
     ),
     'merge_operators_dom' => array(
         'like' => 'Innerhåller',
@@ -3449,7 +3449,7 @@ $app_list_strings['product_quote_parent_type_dom']['AOS_Contracts'] = 'Avtal';
 $app_list_strings['pdf_template_type_dom']['AOS_Quotes'] = 'Offerter';
 $app_list_strings['pdf_template_type_dom']['AOS_Invoices'] = 'Fakturor';
 $app_list_strings['pdf_template_type_dom']['AOS_Contracts'] = 'Avtal';
-$app_list_strings['pdf_template_type_dom']['Accounts'] = 'Konton';
+$app_list_strings['pdf_template_type_dom']['Accounts'] = 'Företag';
 $app_list_strings['pdf_template_type_dom']['Contacts'] = 'Kontakter';
 $app_list_strings['pdf_template_type_dom']['Leads'] = 'Kundämnen';
 $app_list_strings['pdf_template_sample_dom'][''] = '';
@@ -3560,7 +3560,7 @@ $app_list_strings['moduleList']['jjwp_Partners'] = 'JJWP partners';
 $app_list_strings['map_unit_type_list']['mi'] = 'Engelska mil';
 $app_list_strings['map_unit_type_list']['km'] = 'Kilometer';
 
-$app_list_strings['map_module_type_list']['Accounts'] = 'Konton';
+$app_list_strings['map_module_type_list']['Accounts'] = 'Företag';
 $app_list_strings['map_module_type_list']['Contacts'] = 'Kontakter';
 $app_list_strings['map_module_type_list']['Cases'] = 'Ärenden';
 $app_list_strings['map_module_type_list']['Leads'] = 'Kundämnen';
