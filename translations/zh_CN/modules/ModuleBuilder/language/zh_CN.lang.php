@@ -562,6 +562,7 @@ $mod_strings = array(
     'LBL_TYPE_BASIC' => '基本',
     'LBL_TYPE_COMPANY' => '公司',
     'LBL_TYPE_PERSON' => '人员',
+    'LBL_TYPE_ASYNCTASK' => 'Async Task',
     'LBL_TYPE_ISSUE' => '问题',
     'LBL_TYPE_SALE' => '销售',
     'LBL_TYPE_FILE' => '文件',
