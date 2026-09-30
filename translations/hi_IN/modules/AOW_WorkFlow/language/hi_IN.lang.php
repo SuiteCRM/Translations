@@ -77,5 +77,6 @@ $mod_strings = array(
     'LBL_ADD_ACTION' => 'क्रिया जोड़ें',
     'LBL_MULTIPLE_RUNS' => 'बार-बार दौड़ना',
     'LBL_RUN_WHEN' => 'चलाएँ',
-    'LBL_RUN_ON_IMPORT' => 'आयात पर चलाएँ'
+    'LBL_RUN_ON_IMPORT' => 'आयात पर चलाएँ',
+    'LBL_ACTION_NAME_NOT_ALLOWED' => 'Action name not allowed.',
 );
