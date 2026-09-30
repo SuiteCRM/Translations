@@ -545,6 +545,7 @@ Sie können die Module durch ziehen ihre Zeilen in der Tabelle nachbestellen. <b
     'LBL_TYPE_BASIC' => 'Standard',
     'LBL_TYPE_COMPANY' => 'Unternehmen',
     'LBL_TYPE_PERSON' => 'Person',
+    'LBL_TYPE_ASYNCTASK' => 'Async Task',
     'LBL_TYPE_ISSUE' => 'Fall',
     'LBL_TYPE_SALE' => 'Verkauf',
     'LBL_TYPE_FILE' => 'Datei',
