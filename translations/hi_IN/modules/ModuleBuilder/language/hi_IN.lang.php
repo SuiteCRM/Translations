@@ -541,6 +541,7 @@ $mod_strings = array(
     'LBL_TYPE_BASIC' => 'बुनियादी',
     'LBL_TYPE_COMPANY' => 'कंपनी',
     'LBL_TYPE_PERSON' => 'व्यक्ति',
+    'LBL_TYPE_ASYNCTASK' => 'Async Task',
     'LBL_TYPE_ISSUE' => 'मुद्दा',
     'LBL_TYPE_SALE' => 'बिक्री',
     'LBL_TYPE_FILE' => 'फ़ाइल',
