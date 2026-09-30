@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'Ny mall för automatiskt ärendesvar',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => 'Välj ett automatiskt svar för att meddela e-postavsändare att ett ärende har skapats. E-postmeddelandet innehåller ärendenumret på ämnesraden enligt inställningen för ärendemakro. Svaret skickas endast när det första e-postmeddelandet tas emot från mottagaren.',
     'LBL_MAILBOX' => 'Övervakade mappar',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'Papperskorgsmapp',
     'LBL_SENT_FOLDER' => 'Skickat-mapp',
     'LBL_SELECT' => 'Välj',
