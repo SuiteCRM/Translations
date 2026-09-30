@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'Naujas auto-aptarnavimo šablonas',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => 'Pasirinkite laiško šabloną, kurį norėsite automatiškai išsiųsti, kiekvieną kartą kai naujas aptarnavimas bus sukurtas.',
     'LBL_MAILBOX' => 'Stebimi aplankai',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'Šiukšlių aplankas',
     'LBL_SENT_FOLDER' => 'Siuntimo aplankas',
     'LBL_SELECT' => 'Pasirinkite',
