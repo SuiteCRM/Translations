@@ -56,6 +56,7 @@ $mod_strings = array(
     'LBL_FILE_MIME_TYPE' => 'Uri ng Mime',
     'LBL_FILE_URL' => 'URL ng file',
     'LBL_FILENAME' => 'Paglalakip:',
+    'LBL_LEGACY_FILENAME' => 'Legacy Attachment:',
     'LBL_LEAD_ID' => 'ID ng lead:',
     'LBL_LIST_CONTACT_NAME' => 'Kontak',
     'LBL_LIST_DATE_MODIFIED' => 'Huling Binago',
