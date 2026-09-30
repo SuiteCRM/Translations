@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'Modèle de Réponse pour une création de cas',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => 'Sélectionnez une réponse automatique pour avertir les expéditeurs qu’un cas a été créé. L\'E-mail contient le numéro de dossier dans son sujet et respecte les paramètres généraux du cas. Cette réponse n’est envoyée qu\'après réception d\'un premier E-mail du demandeur.',
     'LBL_MAILBOX' => 'Dossier Contrôlé',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'Dossier Poubelle',
     'LBL_SENT_FOLDER' => 'Dossier Envoyé',
     'LBL_SELECT' => 'Select',
