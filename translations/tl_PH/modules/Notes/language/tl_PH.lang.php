@@ -56,6 +56,7 @@ $mod_strings = array(
     'LBL_FILE_MIME_TYPE' => 'Ang uri ng panggagaya',
     'LBL_FILE_URL' => 'Ang URL ng payl',
     'LBL_FILENAME' => 'Ang pagkakabit:',
+    'LBL_LEGACY_FILENAME' => 'Legacy Attachment:',
     'LBL_LEAD_ID' => 'Ang ID ay humantong:',
     'LBL_LIST_CONTACT_NAME' => 'Kontak',
     'LBL_LIST_DATE_MODIFIED' => 'Ang Huling Nabago',
