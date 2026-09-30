@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'Creare un modello di risposta al reclamo',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => 'Seleziona una risposta automatica per notificare i mittenti dell´email che è stato creato un reclamo. L´oggetto dell´email contiene il numero del reclamo così come impostato nel campo Macro. Questa risposta viene inviata solamente quando il destinatario ha ricevuto la prima email.',
     'LBL_MAILBOX' => 'Cartella controllata',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'Cestino',
     'LBL_SENT_FOLDER' => 'Cartelle Inviate',
     'LBL_SELECT' => 'Selezionare',
