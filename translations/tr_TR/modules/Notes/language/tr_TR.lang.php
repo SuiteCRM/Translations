@@ -56,6 +56,7 @@ $mod_strings = array(
     'LBL_FILE_MIME_TYPE' => 'MIME türü',
     'LBL_FILE_URL' => 'Dosya adresi',
     'LBL_FILENAME' => 'Ek dosya:',
+    'LBL_LEGACY_FILENAME' => 'Eski ek dosya:',
     'LBL_LEAD_ID' => 'Potansiyel kimliği:',
     'LBL_LIST_CONTACT_NAME' => 'İlgili',
     'LBL_LIST_DATE_MODIFIED' => 'Son değiştirilme',
