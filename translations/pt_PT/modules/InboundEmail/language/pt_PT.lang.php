@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'Criar modelo de resposta automática a ocorrência',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => 'Selecione uma resposta automática para notificar os remetentes do email de que foi criada uma ocorrência. O email contém o número do processo na linha de assunto, conforme a definição da macro das ocorrências. Esta resposta só é enviada quando o primeiro email for recebido pelo destinatário.',
     'LBL_MAILBOX' => 'Pasta monitorizada',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'Pasta de lixeira',
     'LBL_SENT_FOLDER' => 'Pasta de enviados',
     'LBL_SELECT' => 'Select',
