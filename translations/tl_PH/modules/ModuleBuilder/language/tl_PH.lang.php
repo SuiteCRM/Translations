@@ -549,6 +549,7 @@ sa custom list view.'
     'LBL_TYPE_BASIC' => 'panimula',
     'LBL_TYPE_COMPANY' => 'kompanya',
     'LBL_TYPE_PERSON' => 'tao',
+    'LBL_TYPE_ASYNCTASK' => 'Async Task',
     'LBL_TYPE_ISSUE' => 'isyu',
     'LBL_TYPE_SALE' => 'sale',
     'LBL_TYPE_FILE' => 'file',
