@@ -53,7 +53,7 @@ $mod_strings = array(
     'LBL_NUMBER' => 'Number:',
     'LBL_STATUS' => 'Status:',
     'LBL_PRIORITY' => 'Priority:',
-    'LBL_DESCRIPTION' => 'Description:',
+    'LBL_DESCRIPTION' => 'Beskrivning:',
     'LBL_CONTACT_NAME' => 'Kontaktnamn:',
     'LBL_CONTACT_ROLE' => 'Roll:',
     'LBL_LIST_NUMBER' => 'Num.',
@@ -79,13 +79,13 @@ $mod_strings = array(
     'LBL_SOURCE' => 'Källa:',
     'LBL_PRODUCT_CATEGORY' => 'Category:',
 
-    'LBL_CREATED_BY' => 'Created by:',
-    'LBL_MODIFIED_BY' => 'Last Modified by:',
+    'LBL_CREATED_BY' => 'Skapad av:',
+    'LBL_MODIFIED_BY' => 'Senast ändrad av:',
 
     'LBL_LIST_EMAIL_ADDRESS' => 'Email Address',
     'LBL_LIST_CONTACT_NAME' => 'Contact Name',
     'LBL_LIST_ACCOUNT_NAME' => 'Kontonamn',
-    'LBL_LIST_PHONE' => 'Phone',
+    'LBL_LIST_PHONE' => 'Telefon',
     'NTC_DELETE_CONFIRMATION' => 'Är du säker att du vill ta bort denna kontakt från denna bugg?',
 
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Bugghantering',
@@ -96,8 +96,8 @@ $mod_strings = array(
     'LBL_CASES_SUBPANEL_TITLE' => 'Ärenden',
     'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projects',
     'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Dokument',
-    'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigned User',
-    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
+    'LBL_LIST_ASSIGNED_TO_NAME' => 'Tilldelad användare',
+    'LBL_ASSIGNED_TO_NAME' => 'Tilldelad till',
 
     'LBL_BUG_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
