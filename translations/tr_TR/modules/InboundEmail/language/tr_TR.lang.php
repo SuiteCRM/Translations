@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'Yeni destek kaydı otomatik yanıt kalıbı',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => 'E-posta gönderenlere, bir destek kaydının eklendiğini bildirecek otomatik yanıtı seçin. E-postanın konu bölümünde destek kaydının makro ayarları ile ilişkili destek kaydı numarası bulunur. Bu yanıt yalnızca alıcıdan ilk e-posta geldiğinde gönderilir.',
     'LBL_MAILBOX' => 'İzlenen klasörler',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'Silinmişler klasörü',
     'LBL_SENT_FOLDER' => 'Gönderilmişler klasörü',
     'LBL_SELECT' => 'Seç',
