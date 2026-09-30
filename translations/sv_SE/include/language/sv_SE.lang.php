@@ -203,7 +203,7 @@ $app_list_strings = array(
     'lead_source_default_key' => 'Self Generated',
     'lead_source_dom' => array(
         '' => '',
-        'Cold Call' => 'Ointresserad',
+        'Cold Call' => 'Kallsamtal',
         'Existing Customer' => 'Befintlig kund',
         'Self Generated' => 'Självgenererad',
         'Employee' => 'Anställd',
@@ -365,7 +365,7 @@ $app_list_strings = array(
         'Medium' => 'Medel',
         'Low' => 'Låg',
     ),
-    'task_status_default' => 'Ej Startad',
+    'task_status_default' => 'Not Started',
     'task_status_dom' => array(
         'Not Started' => 'Inte påbörjad',
         'In Progress' => 'Under Pågående',
@@ -1748,7 +1748,7 @@ $app_strings = array(
     'LBL_DISMISS' => 'Avfärda',
     'LBL_DISMISS_INLINE_CONFIRM' => 'Avfärda?',
     'LBL_DISMISS_ALL_INLINE_CONFIRM' => 'Avfärda alla?',
-    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Avfärda alla utkast?',
+    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Dismiss all?',
     'NTC_DISMISS_CONFIRMATION' => 'Vill du avfärda den här aviseringen?',
     'NTC_DISMISS_ALL_CONFIRMATION' => 'Vill du avfärda alla aviseringar?',
     'LBL_ALERT_DISMISS_SUCCESS' => 'Aviseringen har avfärdats',
@@ -4505,3 +4505,7 @@ $app_list_strings['email_import_timeframe_start_dom'] = [
 ];
 
 $app_strings['LBL_NOT_AUTHORIZED'] = 'Obehörig';
+
+$app_strings['LBL_AUTOFILL_MISSING_RELATE_MODULE'] = 'Autofill failed: related module is not configured.';
+$app_strings['LBL_AUTOFILL_MISSING_RELATE_ID'] = 'Autofill failed: no related record selected.';
+$app_strings['LBL_AUTOFILL_MISSING_UPDATE_FIELDS'] = 'Autofill failed: no fields configured for update.';
