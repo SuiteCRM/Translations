@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'Nieuwe verzoek Auto-Reply sjabloon',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => 'Selecteer een automatisch antwoord voor e-mail afzenders om deze te informeren dat een case is aangemaakt. De e-mail bevat het nummer van de case in de onderwerpregel die overeenkomt met de case Macro. Deze reactie wordt alleen verzonden bij de eerste e-mail van de ontvanger.',
     'LBL_MAILBOX' => 'Gevolgde map',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'Prullenbak map',
     'LBL_SENT_FOLDER' => 'Verzonden items map',
     'LBL_SELECT' => 'Selecteer',
