@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'Uusi Palvelupyyntö Auto-Reply -malli',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => 'Select an automated response to notify email senders that a case has been created. The email contains the case number in the Subject line which adheres to the Case Macro setting. This response is only sent when the first email is received from the recipient.',
     'LBL_MAILBOX' => 'Tarkkaillut kansiot',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'Roskakori kansio',
     'LBL_SENT_FOLDER' => 'Lähetetyt kansio',
     'LBL_SELECT' => 'Select',
