@@ -1748,7 +1748,7 @@ $app_strings = array(
     'LBL_DISMISS' => 'Bezár',
     'LBL_DISMISS_INLINE_CONFIRM' => 'Bezárjam?',
     'LBL_DISMISS_ALL_INLINE_CONFIRM' => 'Bezárjam az összeset?',
-    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Dismiss all drafts?',
+    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Dismiss all?',
     'NTC_DISMISS_CONFIRMATION' => 'Biztos, be szeretné zárni ezt a figyelmeztetést?',
     'NTC_DISMISS_ALL_CONFIRMATION' => 'Biztos, be szeretne zárni minden figyelmeztetést?',
     'LBL_ALERT_DISMISS_SUCCESS' => 'Figyelmeztetést sikeresen bezártam',
@@ -4501,3 +4501,7 @@ $app_list_strings['email_import_timeframe_start_dom'] = [
 ];
 
 $app_strings['LBL_NOT_AUTHORIZED'] = 'Not authorized';
+
+$app_strings['LBL_AUTOFILL_MISSING_RELATE_MODULE'] = 'Autofill failed: related module is not configured.';
+$app_strings['LBL_AUTOFILL_MISSING_RELATE_ID'] = 'Autofill failed: no related record selected.';
+$app_strings['LBL_AUTOFILL_MISSING_UPDATE_FIELDS'] = 'Autofill failed: no fields configured for update.';
