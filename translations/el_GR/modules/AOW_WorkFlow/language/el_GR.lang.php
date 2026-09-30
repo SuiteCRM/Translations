@@ -77,5 +77,6 @@ $mod_strings = array(
     'LBL_ADD_ACTION' => 'Προσθήκη Ενέργειας',
     'LBL_MULTIPLE_RUNS' => 'Επαναλαμβανόμενες Εκτελέσεις',
     'LBL_RUN_WHEN' => 'Εκτέλεση',
-    'LBL_RUN_ON_IMPORT' => 'Εκτέλεση κατά την εισαγωγή'
+    'LBL_RUN_ON_IMPORT' => 'Εκτέλεση κατά την εισαγωγή',
+    'LBL_ACTION_NAME_NOT_ALLOWED' => 'Action name not allowed.',
 );
