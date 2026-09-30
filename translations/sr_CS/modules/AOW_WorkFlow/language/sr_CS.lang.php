@@ -77,5 +77,6 @@ $mod_strings = array(
     'LBL_ADD_ACTION' => 'Dodaj akciju',
     'LBL_MULTIPLE_RUNS' => 'Ponovljena izvršavanja',
     'LBL_RUN_WHEN' => 'Izvrši',
-    'LBL_RUN_ON_IMPORT' => 'Run on Import'
+    'LBL_RUN_ON_IMPORT' => 'Run on Import',
+    'LBL_ACTION_NAME_NOT_ALLOWED' => 'Action name not allowed.',
 );
