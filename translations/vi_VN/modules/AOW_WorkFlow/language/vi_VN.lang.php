@@ -77,5 +77,6 @@ $mod_strings = array(
     'LBL_ADD_ACTION' => 'Thêm hành động',
     'LBL_MULTIPLE_RUNS' => 'Chạy lặp lại',
     'LBL_RUN_WHEN' => 'Chạy',
-    'LBL_RUN_ON_IMPORT' => 'Chạy khi Nhập'
+    'LBL_RUN_ON_IMPORT' => 'Chạy khi Nhập',
+    'LBL_ACTION_NAME_NOT_ALLOWED' => 'Action name not allowed.',
 );
