@@ -1748,7 +1748,7 @@ $app_strings = array(
     'LBL_DISMISS' => 'Yok say',
     'LBL_DISMISS_INLINE_CONFIRM' => 'Yok sayılsın mı?',
     'LBL_DISMISS_ALL_INLINE_CONFIRM' => 'Tümü yok sayılsın mı?',
-    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Tüm taslaklar silinsin mi?',
+    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Tümü yok sayılsın mı?',
     'NTC_DISMISS_CONFIRMATION' => 'Bu uyarıyı yok saymak istediğinize emin misiniz?',
     'NTC_DISMISS_ALL_CONFIRMATION' => 'Tüm uyarıları yok saymak istediğinize emin misiniz?',
     'LBL_ALERT_DISMISS_SUCCESS' => 'Uyarı yok sayıldı',
@@ -4506,3 +4506,7 @@ $app_list_strings['email_import_timeframe_start_dom'] = [
 ];
 
 $app_strings['LBL_NOT_AUTHORIZED'] = 'Yetkili değil';
+
+$app_strings['LBL_AUTOFILL_MISSING_RELATE_MODULE'] = 'Otomatik doldurulamadı: İlgili modül yapılandırılmamış.';
+$app_strings['LBL_AUTOFILL_MISSING_RELATE_ID'] = 'Otomatik doldurulamadı: İlgili kayıt seçilmemiş.';
+$app_strings['LBL_AUTOFILL_MISSING_UPDATE_FIELDS'] = 'Otomatik doldurulamadı: Güncelleme için bir alan yapılandırılmamış.';
