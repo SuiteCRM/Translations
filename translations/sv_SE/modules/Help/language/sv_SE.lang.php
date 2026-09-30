@@ -43,19 +43,19 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Konton',
+    'LBL_MODULE_NAME' => 'Företag',
     'LBL_MODULE_TITLE' => 'Företag: Hem',
     'LBL_SEARCH_FORM_TITLE' => 'Sök företag',
-    'LBL_LIST_FORM_TITLE' => 'Account List',
-    'LBL_NEW_FORM_TITLE' => 'Skapa konto',
+    'LBL_LIST_FORM_TITLE' => 'Företagslista',
+    'LBL_NEW_FORM_TITLE' => 'Skapa företag',
     'LNK_NEW_CONTACT' => 'Skapa kontakt',
-    'LNK_NEW_ACCOUNT' => 'Skapa konto',
+    'LNK_NEW_ACCOUNT' => 'Skapa företag',
     'LNK_NEW_OPPORTUNITY' => 'Skapa affärsmöjlighet',
     'LNK_NEW_CASE' => 'Skapa ärende',
     'LNK_NEW_NOTE' => 'Skapa anteckning eller bilaga',
     'LNK_NEW_CALL' => 'Logga samtal',
-    'LNK_NEW_EMAIL' => 'Archive Email',
-    'LNK_NEW_MEETING' => 'Schedule Meeting',
+    'LNK_NEW_EMAIL' => 'Arkivera e-post',
+    'LNK_NEW_MEETING' => 'Schemalägg möte',
     'LNK_NEW_TASK' => 'Skapa uppgift',
     'ERR_DELETE_RECORD' => 'Ett post-ID måste anges för att ta bort kontot.',
 );
