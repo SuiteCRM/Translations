@@ -44,22 +44,22 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_MODULE_NAME' => 'Roller',
-    'LBL_MODULE_TITLE' => 'Roller: Start',
+    'LBL_MODULE_TITLE' => 'Roller: startsida',
     'LBL_ROLE' => 'Roll',
     'LBL_NAME' => 'Namn',
     'LBL_DESCRIPTION' => 'Beskrivning',
     'LIST_ROLES' => 'Lista roller',
     'LBL_USERS_SUBPANEL_TITLE' => 'Användare',
-    'LIST_ROLES_BY_USER' => 'Lista roller efter användare',
+    'LIST_ROLES_BY_USER' => 'Lista roller per användare',
     'LBL_LIST_FORM_TITLE' => 'Roller',
     'LBL_ROLES_SUBPANEL_TITLE' => 'Användarroller',
     'LBL_SEARCH_FORM_TITLE' => 'Sök',
     'LBL_CREATE_ROLE' => 'Skapa roll',
-    'LBL_EDIT_VIEW_DIRECTIONS' => 'Dubbelklicka på en cell för att ändra värde.',
-    'LBL_ACCESS_DEFAULT' => 'Ej angivet',
+    'LBL_EDIT_VIEW_DIRECTIONS' => 'Dubbelklicka på en cell för att ändra värdet.',
+    'LBL_ACCESS_DEFAULT' => 'Inte angivet',
     'LBL_ACTION_ADMIN' => 'Åtkomsttyp',
     'LBL_ALL' => 'Alla',
-    'LBL_DUPLICATE_OF' => 'Kopia Av ',
+    'LBL_DUPLICATE_OF' => 'Dubblett av ',
 
     'LBL_SECURITYGROUPS' => 'Säkerhetsgrupper',
 );
