@@ -76,7 +76,7 @@ $mod_strings = array(
     'LBL_URL' => 'URL:',
     'LBL_CONTACT' => 'Kontakt',
     'LBL_PRODUCT_IMAGE' => 'Produktbild',
-    'LBL_IMAGE_UPLOAD_FAIL' => 'ERROR: uploaded file exceeded the max filesize: max filesize: ',
+    'LBL_IMAGE_UPLOAD_FAIL' => 'FEL: uppladdad fil överskred max filstorlek: max filstorlek: ',
     'LBL_AOS_PRODUCT_CATEGORYS_NAME' => 'Produktkategori',
     'LBL_AOS_PRODUCT_CATEGORY' => 'Produktkategori-ID',
     'LBL_AOS_PRODUCT_CATEGORIES' => 'Produktkategorier',
@@ -85,6 +85,6 @@ $mod_strings = array(
     'LBL_FILE_URL' => 'Fil-URL',
     'LBL_CUSTOMERS_PURCHASED_PRODUCTS_SUBPANEL_TITLE' => 'Inköp',
     'LBL_PRODUCTS_PURCHASES' => 'Inköp',
-    'LBL_AOS_QUOTE_NAME' => 'Quote',
+    'LBL_AOS_QUOTE_NAME' => 'Offert',
     'LBL_ACCOUNT_NAME' => 'Företag',
 );
