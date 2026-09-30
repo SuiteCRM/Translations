@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => '新建案例回覆範本',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => 'Select an automated response to notify email senders that a case has been created. The email contains the case number in the Subject line which adheres to the Case Macro setting. This response is only sent when the first email is received from the recipient.',
     'LBL_MAILBOX' => '已監視的文件夾',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => '垃圾郵件',
     'LBL_SENT_FOLDER' => '已發送郵件',
     'LBL_SELECT' => 'Select',
