@@ -61,7 +61,7 @@ $mod_strings = array(
     'LBL_REMOVE' => 'Ta bort',
     'LBL_LIST_FORM_TITLE' => 'Produktkategorilista',
     'LBL_MODULE_NAME' => 'Produktkategorier',
-    'LBL_MODULE_TITLE' => 'Product Categories',
+    'LBL_MODULE_TITLE' => 'Produktkategorier',
     'LBL_HOMEPAGE_TITLE' => 'Mina produktkategorier',
     'LNK_NEW_RECORD' => 'Skapa produktkategorier',
     'LNK_LIST' => 'Visa produktkategorier',
@@ -70,10 +70,10 @@ $mod_strings = array(
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktiviteter',
     'LBL_NEW_FORM_TITLE' => 'Nya produktkategorier',
     'LBL_PARENT_CATEGORY' => 'Överordnad kategori',
-    'LBL_IS_PARENT' => "Is parent category",
+    'LBL_IS_PARENT' => "Är överordnad kategori",
     'LBL_SUB_CATEGORIES' => "Underkategorier",
     'LBL_PRODUCT_CATEGORYS_NAME' => "Överordnad kategori",
     'LBL_PARENT_CATEGORY_ID' => "Överordnad kategori-ID",
 
-    'LBL_AOS_PRODUCT_CATEGORIES_AOS_PRODUCTS_FROM_AOS_PRODUCTS_TITLE' => 'Product Categories: Product from Product Title',
+    'LBL_AOS_PRODUCT_CATEGORIES_AOS_PRODUCTS_FROM_AOS_PRODUCTS_TITLE' => 'Produktkategorier: Produkt från produkttitel',
 );
