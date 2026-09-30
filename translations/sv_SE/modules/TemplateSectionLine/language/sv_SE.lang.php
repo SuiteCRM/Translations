@@ -48,7 +48,7 @@ $mod_strings = array(
     'LBL_LIST_NAME' => 'Namn',
     'LBL_EDIT_BUTTON' => 'Redigera',
     'LBL_REMOVE' => 'Ta bort',
-    'LBL_GRP' => 'Group',
-    'LBL_ORD' => 'Order',
+    'LBL_GRP' => 'Grupp',
+    'LBL_ORD' => 'Ordning',
     'LBL_THUMBNAIL' => 'Miniatyrbild',
 );
