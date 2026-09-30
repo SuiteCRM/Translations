@@ -77,5 +77,6 @@ $mod_strings = array(
     'LBL_ADD_ACTION' => 'Adăugați Acțiune',
     'LBL_MULTIPLE_RUNS' => 'Rulări repetate',
     'LBL_RUN_WHEN' => 'Rulare',
-    'LBL_RUN_ON_IMPORT' => 'Rulează la import'
+    'LBL_RUN_ON_IMPORT' => 'Rulează la import',
+    'LBL_ACTION_NAME_NOT_ALLOWED' => 'Action name not allowed.',
 );
