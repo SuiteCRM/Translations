@@ -541,6 +541,7 @@ $mod_strings = array(
     'LBL_TYPE_BASIC' => '基本',
     'LBL_TYPE_COMPANY' => '会社',
     'LBL_TYPE_PERSON' => '人',
+    'LBL_TYPE_ASYNCTASK' => 'Async Task',
     'LBL_TYPE_ISSUE' => '問題',
     'LBL_TYPE_SALE' => 'セール',
     'LBL_TYPE_FILE' => 'ファイル',
