@@ -1749,7 +1749,7 @@ $app_strings = array(
     'LBL_DISMISS' => '关闭',
     'LBL_DISMISS_INLINE_CONFIRM' => '关闭？',
     'LBL_DISMISS_ALL_INLINE_CONFIRM' => '全部关闭？',
-    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Dismiss all drafts?',
+    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Dismiss all?',
     'NTC_DISMISS_CONFIRMATION' => '您确定要关闭此提醒吗？',
     'NTC_DISMISS_ALL_CONFIRMATION' => '您确定要关闭全部提醒吗？',
     'LBL_ALERT_DISMISS_SUCCESS' => '提醒已关闭',
@@ -4509,3 +4509,7 @@ $app_list_strings['email_import_timeframe_start_dom'] = [
 ];
 
 $app_strings['LBL_NOT_AUTHORIZED'] = 'Not authorized';
+
+$app_strings['LBL_AUTOFILL_MISSING_RELATE_MODULE'] = 'Autofill failed: related module is not configured.';
+$app_strings['LBL_AUTOFILL_MISSING_RELATE_ID'] = 'Autofill failed: no related record selected.';
+$app_strings['LBL_AUTOFILL_MISSING_UPDATE_FIELDS'] = 'Autofill failed: no fields configured for update.';
