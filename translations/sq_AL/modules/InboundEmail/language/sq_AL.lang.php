@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'Shablloni i rastit të ri të vetë-përgjigjes',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => 'Selektoni një përgjigje të automatizuar të njoftojë dërguesit e emailit se rasti ka qenë i krijuar.Emaili përmban numrin e lëndëve në rreshtin e subjektit i cili respekton vendosjen e Rastit Makro.Kjo përgjigje është dërguar vetëm kur email i parë është pranuar nga pranuesi.',
     'LBL_MAILBOX' => 'Folderët e vëshguar',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'Folderi i plehrave',
     'LBL_SENT_FOLDER' => 'Folderi i dërgimit',
     'LBL_SELECT' => 'Select',
