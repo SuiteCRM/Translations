@@ -548,6 +548,7 @@ $mod_strings = array(
     'LBL_TYPE_BASIC' => 'dasar',
     'LBL_TYPE_COMPANY' => 'perusahaan',
     'LBL_TYPE_PERSON' => 'orang',
+    'LBL_TYPE_ASYNCTASK' => 'Async Task',
     'LBL_TYPE_ISSUE' => 'isu',
     'LBL_TYPE_SALE' => 'jual',
     'LBL_TYPE_FILE' => 'berkas',
