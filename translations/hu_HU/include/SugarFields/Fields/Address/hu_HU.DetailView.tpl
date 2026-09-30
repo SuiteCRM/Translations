@@ -4,8 +4,8 @@
  A SugarCRM Community Edition ügyfélkapcsolat-kezelő szoftver fejlesztője a(z)
  SugarCRM, Inc. Szerzői jog © 2004-2013 SugarCRM Inc.
  *
- SuiteCRM: a SugarCRM Community Edition SuiteCRM Ltd. által fejlesztett kiterjesztése.
- Copyright © 2011–2025 SuiteCRM Ltd.
+ * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
+ * Copyright (C) 2011 - 2019 SalesAgility Ltd.
  *
  Ez a program szabad szoftver, amely a következő licenc alapján terjeszthető és/vagy módosítható:
  a Free Software Foundation által közzétett GNU Affero General Public License 3-as verziójának feltételei szerint.
