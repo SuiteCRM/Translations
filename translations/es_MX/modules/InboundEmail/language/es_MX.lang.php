@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'Nueva plantilla de respuesta automática para caso',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => 'Seleccione una respuesta automática para notificar a los remitentes de e-Mail que se ha creado un nuevo caso. El e-Mail contiene el número de casos en la línea de asunto acorde con la configuración de la macro de caso.  Esta respuesta sólo se enviará cuando se reciba el primer e-Mail de un remitente',
     'LBL_MAILBOX' => 'Carpetas en seguimiento',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'Papelera',
     'LBL_SENT_FOLDER' => 'Elementos enviados',
     'LBL_SELECT' => 'Select',
