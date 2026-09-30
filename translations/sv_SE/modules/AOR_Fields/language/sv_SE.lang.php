@@ -80,7 +80,7 @@ $mod_strings = array(
     'LBL_SORT_ORDER' => 'Sorteringsordning',
     'LBL_GROUP' => 'Grupp',
     'LBL_GROUP_ORDER' => 'Gruppordning',
-    'LBL_AUDIT_TABLE' => 'Audit table',
+    'LBL_AUDIT_TABLE' => 'Granskningstabell',
     'LBL_TOTAL' => 'Summa',
     'LBL_FORMAT' => 'Formateringsalternativ',
 );
