@@ -77,5 +77,6 @@ $mod_strings = array(
     'LBL_ADD_ACTION' => 'Művelet hozzáadása',
     'LBL_MULTIPLE_RUNS' => 'Ismétlődő futtatás',
     'LBL_RUN_WHEN' => 'Futtatás',
-    'LBL_RUN_ON_IMPORT' => 'Futtatás az importálton'
+    'LBL_RUN_ON_IMPORT' => 'Futtatás az importálton',
+    'LBL_ACTION_NAME_NOT_ALLOWED' => 'Action name not allowed.',
 );
