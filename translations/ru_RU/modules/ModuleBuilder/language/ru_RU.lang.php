@@ -548,6 +548,7 @@ $mod_strings = array(
     'LBL_TYPE_BASIC' => 'Базовый',
     'LBL_TYPE_COMPANY' => 'компания',
     'LBL_TYPE_PERSON' => 'Персона',
+    'LBL_TYPE_ASYNCTASK' => 'Async Task',
     'LBL_TYPE_ISSUE' => 'Описание',
     'LBL_TYPE_SALE' => 'продажа',
     'LBL_TYPE_FILE' => 'Документ',
