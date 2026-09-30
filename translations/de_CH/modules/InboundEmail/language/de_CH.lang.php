@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'Automatische Antwortvorlage für neuen Fall',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => 'Erstellen Sie eine automatische Antwort, um den Sender zu informieren, dass ein Fall erstellt wurde. Diese E-Mail enthält die Fallnummer in der Betreffzeile, wie sie oben im Makro definiert wurde. Diese Antwort wird allerdings nur einmal pro Fall versendet.',
     'LBL_MAILBOX' => 'Überwachter Ordner',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'Papierkorb Ordner',
     'LBL_SENT_FOLDER' => 'Gesendete Objekte',
     'LBL_SELECT' => 'Auswählen',
