@@ -77,5 +77,6 @@ $mod_strings = array(
     'LBL_ADD_ACTION' => '增加動作',
     'LBL_MULTIPLE_RUNS' => '重複運行',
     'LBL_RUN_WHEN' => '運行',
-    'LBL_RUN_ON_IMPORT' => '執行匯入'
+    'LBL_RUN_ON_IMPORT' => '執行匯入',
+    'LBL_ACTION_NAME_NOT_ALLOWED' => 'Action name not allowed.',
 );
