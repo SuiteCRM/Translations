@@ -44,12 +44,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_EMAIL_ADDRESS_ID' => 'ID',
-    'LBL_EMAIL_ADDRESS' => 'Email Address',
-    'LBL_EMAIL_ADDRESS_CAPS' => 'Epostadress förkortningar',
-    'LBL_INVALID_EMAIL' => 'Invalid Email',
-    'LBL_OPT_OUT' => 'Opted Out',
-    'LBL_CONFIRM_OPT_IN' => 'Confirm Opt In',
+    'LBL_EMAIL_ADDRESS' => 'E-postadress',
+    'LBL_EMAIL_ADDRESS_CAPS' => 'E-postadress med versaler',
+    'LBL_INVALID_EMAIL' => 'Ogiltig e-postadress',
+    'LBL_OPT_OUT' => 'Avregistrerad',
+    'LBL_CONFIRM_OPT_IN' => 'Bekräfta samtycke',
     'LBL_DATE_CREATE' => 'Skapat datum',
-    'LBL_DATE_MODIFIED' => 'Date Modified',
-    'LBL_DELETED' => 'Delete',
+    'LBL_DATE_MODIFIED' => 'Ändringsdatum',
+    'LBL_DELETED' => 'Ta bort',
 );
