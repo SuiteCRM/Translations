@@ -56,6 +56,7 @@ $mod_strings = array(
     'LBL_FILE_MIME_TYPE' => 'مائم کی قسم',
     'LBL_FILE_URL' => 'فائل یوآرایل',
     'LBL_FILENAME' => 'منسلک:',
+    'LBL_LEGACY_FILENAME' => 'Legacy Attachment:',
     'LBL_LEAD_ID' => 'قیادت کی شناخت:',
     'LBL_LIST_CONTACT_NAME' => 'Contact',
     'LBL_LIST_DATE_MODIFIED' => 'آخری ردوبدل',
