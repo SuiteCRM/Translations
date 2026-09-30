@@ -550,6 +550,7 @@ $mod_strings = array(
     'LBL_TYPE_BASIC' => 'พื้นฐาน',
     'LBL_TYPE_COMPANY' => 'บริษัท',
     'LBL_TYPE_PERSON' => 'คน',
+    'LBL_TYPE_ASYNCTASK' => 'Async Task',
     'LBL_TYPE_ISSUE' => 'ปัญหา',
     'LBL_TYPE_SALE' => 'ขาย',
     'LBL_TYPE_FILE' => 'ไฟล์',
