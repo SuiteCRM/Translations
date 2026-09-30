@@ -47,7 +47,7 @@ $mod_strings = array(
     'LBL_FW' => 'VB:',
     'LBL_RE' => 'SV:',
 
-    'LBL_BUTTON_CREATE' => 'Create',
+    'LBL_BUTTON_CREATE' => 'Skapa',
     'LBL_BUTTON_EDIT' => 'Redigera',
     'LBL_BUTTON_EDIT_EDIT_DRAFT' => 'Redigera utkast',
     'LBL_QS_DISABLED' => '(Snabbsökning är inte möjlig i denna modul. Var god använd välj knappen.)',
@@ -57,7 +57,7 @@ $mod_strings = array(
     'LBL_MARKING' => 'Marking',
     'LBL_DELETING' => 'Raderar',
 
-    'LBL_CONFIRM_DELETE_EMAIL' => 'Are you sure you want to delete this email?',
+    'LBL_CONFIRM_DELETE_EMAIL' => 'Är du säker på att du vill ta bort detta e-postmeddelande?',
     'LBL_ENTER_FOLDER_NAME' => 'Var god och ange ett katalognamn',
 
     'LBL_ERROR_SELECT_MODULE' => 'Var god välj en modul för Relaterat till fält',
@@ -80,11 +80,11 @@ $mod_strings = array(
     'LBL_COMPOSE_MODULE_NAME' => 'Compose Email',
     'LBL_CONTACT_NAME' => 'Contact:',
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
-    'LBL_CREATED_BY' => 'Created by',
+    'LBL_CREATED_BY' => 'Skapad av',
     'LBL_DATE_SENT_RECEIVED' => 'Date Sent/Received:',
     'LBL_DATE' => 'Skickat datum:',
     'LBL_DELETE_FROM_SERVER' => 'Radera meddelande från server',
-    'LBL_DESCRIPTION' => 'Description',
+    'LBL_DESCRIPTION' => 'Beskrivning',
     'LBL_EDIT_ALT_TEXT' => 'Edit Plain Text',
     'LBL_SEND_IN_PLAIN_TEXT' => 'Skicka som ren text',
     'LBL_SEND_CONFIRM_OPT_IN' => 'Send Opt In Email',
@@ -116,7 +116,7 @@ $mod_strings = array(
     'LBL_INVITEE' => 'Mottagare',
     'LBL_LEADS_SUBPANEL_TITLE' => 'Leads',
     'LBL_MESSAGE_SENT' => 'Meddelande skickat',
-    'LBL_MODIFIED_BY' => 'Modified By',
+    'LBL_MODIFIED_BY' => 'Ändrad av',
     'LBL_MODULE_NAME' => 'Alla epostmeddelanden',
     'LBL_MODULE_TITLE' => 'Epostmeddelanden:',
     'LBL_MY_EMAILS' => 'Emails',
@@ -128,7 +128,7 @@ $mod_strings = array(
     'LBL_PROJECT_SUBPANEL_TITLE' => 'Projects',
     'LBL_PROJECT_TASK_SUBPANEL_TITLE' => 'Project Tasks',
     'LBL_RAW' => 'Original epost',
-    'LBL_SAVE_AS_DRAFT_BUTTON_TITLE' => 'Save Draft',
+    'LBL_SAVE_AS_DRAFT_BUTTON_TITLE' => 'Spara utkast',
     'LBL_DISREGARD_DRAFT_BUTTON_TITLE' => 'Disregard Draft',
     'LBL_SEARCH_FORM_TITLE' => 'Sök epost',
     'LBL_SEND_ANYWAYS' => 'Epostmeddelandet saknar ämne. Skicka/spara ändå?',
@@ -149,13 +149,13 @@ $mod_strings = array(
     'LBL_EMAIL_RELATE' => 'Relatera till',
     'LNK_EMAIL_TEMPLATE_LIST' => 'View Email Templates',
     'LNK_MEETING_LIST' => 'Meetings',
-    'LNK_NEW_CALL' => 'Log Call',
-    'LNK_NEW_EMAIL_TEMPLATE' => 'Create Email Template',
+    'LNK_NEW_CALL' => 'Logga samtal',
+    'LNK_NEW_EMAIL_TEMPLATE' => 'Skapa e-postmall',
     'LNK_NEW_EMAIL' => 'Send Email',
     'LNK_NEW_MEETING' => 'Schedule Meeting',
-    'LNK_NEW_NOTE' => 'Create Note or Attachment',
+    'LNK_NEW_NOTE' => 'Skapa anteckning eller bilaga',
     'LNK_NEW_SEND_EMAIL' => 'Skapa epost',
-    'LNK_NEW_TASK' => 'Create Task',
+    'LNK_NEW_TASK' => 'Skapa uppgift',
     'LNK_NOTE_LIST' => 'Anteckningar:',
     'LNK_SENT_EMAIL_LIST' => 'Sent Emails',
     'LNK_TASK_LIST' => 'Tasks',
@@ -202,7 +202,7 @@ $mod_strings = array(
     'LBL_LIST_CONTACT' => 'Contacts',
     'LBL_LIST_LEAD' => 'Kundämnen',
     'LBL_LIST_TASK' => 'Tasks',
-    'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigned User',
+    'LBL_LIST_ASSIGNED_TO_NAME' => 'Tilldelad användare',
 
     // for Inbox
     'LBL_ALL' => 'All',
@@ -212,11 +212,11 @@ $mod_strings = array(
     'LBL_BUTTON_DISTRIBUTE' => 'Assign',
     'LBL_BUTTON_GRAB_TITLE' => 'Ta från grupp',
     'LBL_BUTTON_GRAB' => 'Take from Group',
-    'LBL_CREATE_BUG' => 'Create Bug',
-    'LBL_CREATE_CASE' => 'Create Case',
-    'LBL_CREATE_CONTACT' => 'Create Contact',
-    'LBL_CREATE_LEAD' => 'Create Lead',
-    'LBL_CREATE_TASK' => 'Create Task',
+    'LBL_CREATE_BUG' => 'Skapa fel',
+    'LBL_CREATE_CASE' => 'Skapa ärende',
+    'LBL_CREATE_CONTACT' => 'Skapa kontakt',
+    'LBL_CREATE_LEAD' => 'Skapa lead',
+    'LBL_CREATE_TASK' => 'Skapa uppgift',
     'LBL_DIST_TITLE' => 'Assignment',
     'LBL_LOCK_FAIL_DESC' => 'Den valda posten är ej tillgänglig för närvarande.',
     'LBL_LOCK_FAIL_USER' => 'har tagit ägandeskap.',
@@ -255,10 +255,10 @@ $mod_strings = array(
     'LBL_INSERT_ERROR_BLANK_EMAIL' => 'Ogiltig e-postadress',
 
     // advanced search
-    'LBL_ASSIGNED_TO' => 'Assigned To:',
+    'LBL_ASSIGNED_TO' => 'Tilldelad till:',
     'LBL_MEMBER_OF' => 'Förälder',
-    'LBL_QUICK_CREATE' => 'Quick Create',
-    'LBL_CREATE' => 'Create',
+    'LBL_QUICK_CREATE' => 'Snabbskapa',
+    'LBL_CREATE' => 'Skapa',
     'LBL_STATUS' => 'E-poststatus:',
     'LBL_EMAIL_FLAGGED' => 'Flaggad:',
     'LBL_EMAIL_REPLY_TO_STATUS' => 'Svara till status:',
@@ -330,7 +330,7 @@ $mod_strings = array(
 
     'LBL_EDIT_LAYOUT' => 'Redigera layout' /*for 508 compliance fix*/,
     'LBL_ATTACHMENT' => 'Bilaga' /*for 508 compliance fix*/,
-    'LBL_DELETE_INLINE' => 'Delete' /*for 508 compliance fix*/,
+    'LBL_DELETE_INLINE' => 'Ta bort' /*for 508 compliance fix*/,
     'LBL_CREATE_CASES' => 'Skapa ärenden' /*for 508 compliance fix*/,
     'LBL_CREATE_LEADS' => 'Skapa kundämnen' /*for 508 compliance fix*/,
     'LBL_CREATE_CONTACTS' => 'Skapa kontakter' /*for 508 compliance fix*/,
@@ -346,7 +346,7 @@ $mod_strings = array(
 
     // SNIP
     'LBL_EMAILS_MEETINGS_REL' => 'Emails:Meetings',
-    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_DATE_MODIFIED' => 'Ändringsdatum',
 
     'LBL_CATEGORY' => 'Category',
     'LBL_LIST_CATEGORY' => 'Category',
@@ -355,11 +355,11 @@ $mod_strings = array(
     'LBL_CONFIRM_DISREGARD_DRAFT_TITLE' => 'Ignorera utkast',
     'LBL_CONFIRM_DISREGARD_DRAFT_BODY' => 'Den här åtgärden kommer att ta bort detta e-postmeddelande, vill du fortsätta?',
     'LBL_EMAIL_DRAFT_DELETED' => 'Utkast har raderats',
-    'LBL_EMAIL_DRAFT_ERROR_DELETING' => 'An error has occurred while trying to delete draft.',
+    'LBL_EMAIL_DRAFT_ERROR_DELETING' => 'Ett fel inträffade när utkastet skulle tas bort.',
 
-    'LBL_QUICK_CREATE_SUCCESS1' => 'The record has been successfully created.',
-    'LBL_QUICK_CREATE_SUCCESS2' => 'Click OK to view the new record.',
-    'LBL_QUICK_CREATE_SUCCESS3' => 'Click Cancel to return to the Email.',
+    'LBL_QUICK_CREATE_SUCCESS1' => 'Posten har skapats.',
+    'LBL_QUICK_CREATE_SUCCESS2' => 'Klicka på OK för att se den nya posten.',
+    'LBL_QUICK_CREATE_SUCCESS3' => 'Klicka på Avbryt för att återvända till e-postmeddelandet.',
 
     'LBL_CONFIRM_APPLY_EMAIL_TEMPLATE_TITLE' => 'Använd e-postmall',
     'LBL_CONFIRM_APPLY_EMAIL_TEMPLATE_BODY' => 'Detta kommer att skriva över mejlets ämnesrad och text, vill du fortsätta?',
@@ -383,7 +383,7 @@ $mod_strings = array(
 
     'ERR_NO_RETURN_ID' => 'Attachment not found.',
 
-    'LBL_LIST_DATE_MODIFIED' => 'Last Modified',
+    'LBL_LIST_DATE_MODIFIED' => 'Senast ändrad',
     'LNK_IMPORT_CAMPAIGNS' => 'Importera kampanj',
 
     // Email Validation Error messages. Typicaly for Email Validation:
