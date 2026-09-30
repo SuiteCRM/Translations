@@ -61,7 +61,7 @@ $mod_strings['LBL_MAP_LEGEND'] = 'Förklaring:';
 $mod_strings['LBL_MAP_USER_GROUPS'] = 'Grupper:';
 $mod_strings['LBL_MAP_GROUP'] = 'Group';
 $mod_strings['LBL_MAP_TYPE'] = 'Type';
-$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Assigned to:';
+$mod_strings['LBL_MAP_ASSIGNED_TO'] = 'Tilldelad till:';
 $mod_strings['LBL_MAP_GET_DIRECTIONS'] = 'Vägbeskrivning';
 $mod_strings['LBL_MAP_GOOGLE_MAPS_VIEW'] = 'Google Maps-vy';
 
@@ -91,7 +91,7 @@ $mod_strings['LBL_MODULE_TOTAL_HEADING'] = 'Summa';
 $mod_strings['LBL_MODULE_RESET_HEADING'] = 'Återställ';
 $mod_strings['LBL_GEOCODED_COUNTS_DESCRIPTION'] = 'The table shown belown shows the number of module objects geocoded, grouped by geocoding response. Keep in mind that the standard Google Maps usage limit is 2500 requests per day . This module will cache the addresses geocoding information during processing to reduce the overall number of requests needed.';
 
-$mod_strings['LBL_CRON_INSTRUCTIONS'] = 'To process the geocoding requests it is recommended to setup a nightly Cron-Job. A custom entry point has been created for this purpose and can be accessed without authentication. The URL shown below is meant to be used with an Administrative Scheduled Task. Please see the documentation for more information.';
+$mod_strings['LBL_CRON_INSTRUCTIONS'] = 'För att bearbeta geokodningsbegärandena rekommenderas att ett nattligt cronjobb konfigureras. En anpassad ingångspunkt har skapats för detta och kan nås utan autentisering. URL:en nedan är avsedd att användas med en administrativ schemaläggning. Mer information finns i dokumentationen.';
 $mod_strings['LBL_EXPORT_ADDRESS_URL'] = 'Exportera URL:er';
 $mod_strings['LBL_EXPORT_INSTRUCTIONS'] = 'Use the links below to export full addresses in need of geocodeing information. Then use an online or offline batch geocoding tool to geocode the addresses. When you are finished geocoding, import the addresses into the Address Cache module to be used with your maps. Note, the Address Cache module is optional. All geocoding information is stored in the representative module.';
 $mod_strings['LBL_ADDRESS_CACHE'] = 'Adresscache';
@@ -103,7 +103,7 @@ $mod_strings['LBL_CONFIG_TITLE'] = 'Konfigurationsinställningar';
 $mod_strings['LBL_CONFIG_SAVED'] = 'Inställningarna har sparats!';
 $mod_strings['LBL_BILLING_ADDRESS'] = 'Billing Address';
 $mod_strings['LBL_SHIPPING_ADDRESS'] = 'Shipping Address';
-$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Primär Adress';
+$mod_strings['LBL_PRIMARY_ADDRESS'] = 'Primär adress';
 $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'Alternativ adress';
 $mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Flex Relate';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Address (Simple, Users)';
@@ -129,7 +129,7 @@ $mod_strings['LBL_CONFIG_ADDRESS_TYPE_FOR_MEETINGS'] = 'Adresstyp för möten:';
 $mod_strings['LBL_CONFIG_ADDRESS_TYPE_FOR_PROSPECTS'] = 'Address Type for Prospects/Targets:';
 $mod_strings['LBL_CONFIG_RELATED_OBJECT_THRU_FLEX_RELATE'] = 'Related Object thru Flex Relate Field';
 
-$mod_strings['LBL_CONFIG_MARKER_GROUP_FIELD_SETTINGS_TITLE'] = "Marker Group Field Settings: This defines the 'field' to be used as the group parameter when displaying markers on a map. Examples: assigned_user_name, industry, status, sales_stage, priority";
+$mod_strings['LBL_CONFIG_MARKER_GROUP_FIELD_SETTINGS_TITLE'] = "Inställningar för markörgruppsfält: Detta definierar det ”fält” som används som gruppparameter när markörer visas på en karta. Exempel: assigned_user_name, industry, status, sales_stage, priority";
 $mod_strings['LBL_CONFIG_GROUP_FIELD_FOR'] = 'Group Field for ';
 $mod_strings['LBL_CONFIG_GROUP_FIELD_FOR_ACCOUNTS'] = 'Group Field for Accounts:';
 $mod_strings['LBL_CONFIG_GROUP_FIELD_FOR_CONTACTS'] = 'Group Field for Contacts:';
