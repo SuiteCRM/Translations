@@ -544,6 +544,7 @@ Your browser sent an invalid request.
     'LBL_TYPE_BASIC' => 'базовий',
     'LBL_TYPE_COMPANY' => 'компанія',
     'LBL_TYPE_PERSON' => 'особа',
+    'LBL_TYPE_ASYNCTASK' => 'Async Task',
     'LBL_TYPE_ISSUE' => 'проблема',
     'LBL_TYPE_SALE' => 'продаж',
     'LBL_TYPE_FILE' => 'файл',
