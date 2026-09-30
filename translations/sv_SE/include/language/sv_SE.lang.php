@@ -116,7 +116,7 @@ $app_list_strings = array(
         'Home' => 'Hem',
         'Dashboard' => 'Kontrollpanel',
         'Contacts' => 'Kontakt',
-        'Accounts' => 'Konto',
+        'Accounts' => 'Företag',
         'Opportunities' => 'Affärer',
         'Cases' => 'Ärenden',
         'Notes' => 'Anteckning',
@@ -160,7 +160,7 @@ $app_list_strings = array(
         'Investor' => 'Investerare',
         'Partner' => 'Partner',
         'Press' => 'Press',
-        'Prospect' => 'Prospekt',
+        'Prospect' => 'Utsikt',
         'Reseller' => 'Återförsäljare',
         'Other' => 'Annat',
     ),
@@ -198,7 +198,7 @@ $app_list_strings = array(
         'Utilities' => 'Verktyg',
         'Other' => 'Annat',
     ),
-    'lead_source_default_key' => 'Självgenererad',
+    'lead_source_default_key' => 'Self Generated',
     'lead_source_dom' => array(
         '' => '',
         'Cold Call' => 'Ointresserad',
@@ -230,7 +230,7 @@ $app_list_strings = array(
     ),
     //Note:  do not translate opportunity_relationship_type_default_key
 //       it is the key for the default opportunity_relationship_type_dom value
-    'opportunity_relationship_type_default_key' => 'Huvudsaklig beslutsfattare',
+    'opportunity_relationship_type_default_key' => 'Primary Decision Maker',
     'opportunity_relationship_type_dom' => array(
         '' => '',
         'Primary Decision Maker' => 'Huvudsaklig beslutsfattare',
@@ -244,7 +244,7 @@ $app_list_strings = array(
     ),
     //Note:  do not translate case_relationship_type_default_key
 //       it is the key for the default case_relationship_type_dom value
-    'case_relationship_type_default_key' => 'Primär kontakt',
+    'case_relationship_type_default_key' => 'Primary Contact',
     'case_relationship_type_dom' => array(
         '' => '',
         'Primary Contact' => 'Primär kontakt',
@@ -255,7 +255,7 @@ $app_list_strings = array(
         'Net 15' => '15 dagar netto',
         'Net 30' => '30 dagar netto',
     ),
-    'sales_stage_default_key' => 'Prospektering',
+    'sales_stage_default_key' => 'Prospecting',
     'sales_stage_dom' => array(
         'Prospecting' => 'Prospektering',
         'Qualification' => 'Kvalifikation',
@@ -422,7 +422,7 @@ $app_list_strings = array(
         'On_Hold' => 'Avvaktar',
         'Completed' => 'Slutförd',
     ),
-    'project_status_default' => 'Utkast',
+    'project_status_default' => 'Draft',
 
     'project_duration_units_dom' => array(
         'Days' => 'Dagar',
@@ -437,7 +437,7 @@ $app_list_strings = array(
 
     // Note:  do not translate record_type_default_key
     //        it is the key for the default record_type_module value
-    'record_type_default_key' => 'Företag',
+    'record_type_default_key' => 'Accounts',
     'record_type_display' => array(
         '' => '',
         'Accounts' => 'Företag',
@@ -479,7 +479,7 @@ $app_list_strings = array(
         'Meetings' => 'Möte',
         'Calls' => 'Samtal',
 
-        'AOS_Contracts' => 'Avtal',
+        'AOS_Contracts' => 'Kontrakt',
         'AOS_Invoices' => 'Faktura',
         'AOS_Quotes' => 'Offert',
         'AOS_Products' => 'Produkt',
@@ -500,7 +500,7 @@ $app_list_strings = array(
 
         'Prospects' => 'Mål',
 
-        'AOS_Contracts' => 'Avtal',
+        'AOS_Contracts' => 'Kontrakt',
         'AOS_Invoices' => 'Faktura',
         'AOS_Quotes' => 'Offert',
         'AOS_Products' => 'Produkt',
@@ -511,7 +511,7 @@ $app_list_strings = array(
         'AOS_Invoices' => 'Fakturor',
         'AOS_Contracts' => 'Kontrakt',
     ),
-    'issue_priority_default_key' => 'Medel',
+    'issue_priority_default_key' => 'Medium',
     'issue_priority_dom' => array(
         'Urgent' => 'Akut',
         'High' => 'Hög',
@@ -528,7 +528,7 @@ $app_list_strings = array(
         'Invalid' => 'Ogiltig',
     ),
 
-    'issue_status_default_key' => 'Ny',
+    'issue_status_default_key' => 'New',
     'issue_status_dom' => array(
         'New' => 'Ny',
         'Assigned' => 'Tilldelad',
@@ -537,7 +537,7 @@ $app_list_strings = array(
         'Rejected' => 'Avvisad',
     ),
 
-    'bug_priority_default_key' => 'Medel',
+    'bug_priority_default_key' => 'Medium',
     'bug_priority_dom' => array(
         'Urgent' => 'Brådskande',
         'High' => 'Hög',
@@ -554,7 +554,7 @@ $app_list_strings = array(
         'Invalid' => 'Ogiltig',
         'Later' => 'Senare',
     ),
-    'bug_status_default_key' => 'Ny',
+    'bug_status_default_key' => 'New',
     'bug_status_dom' => array(
         'New' => 'Ny',
         'Assigned' => 'Tilldelad',
@@ -562,7 +562,7 @@ $app_list_strings = array(
         'Pending' => 'Väntande',
         'Rejected' => 'Avvisad',
     ),
-    'bug_type_default_key' => 'Fel',
+    'bug_type_default_key' => 'Bug',
     'bug_type_dom' => array(
         'Defect' => 'Defekt',
         'Feature' => 'Funktion',
@@ -1525,7 +1525,7 @@ $app_strings = array(
     'LBL_CHANGE_PASSWORD' => 'Ändra lösenord',
     'LBL_CHARSET' => 'UTF-8',
     'LBL_CHECKALL' => 'Kontrollera alla',
-    'LBL_CITY' => 'Stad',
+    'LBL_CITY' => 'Ort',
     'LBL_CLEAR_BUTTON_LABEL' => 'Rensa',
     'LBL_CLEAR_BUTTON_TITLE' => 'Rensa',
     'LBL_CLEARALL' => 'Rensa alla',
@@ -1653,11 +1653,11 @@ $app_strings = array(
     'LBL_PERCENTAGE_SYMBOL' => '%',
     'LBL_POSTAL_CODE' => 'Postnummer:',
     'LBL_PRIMARY_ADDRESS_CITY' => 'Primär adress Ort:',
-    'LBL_PRIMARY_ADDRESS_COUNTRY' => 'Primär Landsadress:',
+    'LBL_PRIMARY_ADDRESS_COUNTRY' => 'Primär adress, land:',
     'LBL_PRIMARY_ADDRESS_POSTALCODE' => 'Primär adress Postnummer:',
     'LBL_PRIMARY_ADDRESS_STATE' => 'Primär adress Landskap:',
-    'LBL_PRIMARY_ADDRESS_STREET_2' => 'Primär adress Gatuvägen 2:',
-    'LBL_PRIMARY_ADDRESS_STREET_3' => 'Primär adress Gatuvägen 3:',
+    'LBL_PRIMARY_ADDRESS_STREET_2' => 'Primär adress, gata 2:',
+    'LBL_PRIMARY_ADDRESS_STREET_3' => 'Primär adress, gata 3:',
     'LBL_PRIMARY_ADDRESS_STREET' => 'Primär adress Gata/Väg:',
     'LBL_PRIMARY_ADDRESS' => 'Primär Address:',
 
@@ -1888,8 +1888,8 @@ $app_strings = array(
     'MSG_JS_ALERT_MTG_REMINDER_DESC' => 'Beskrivning: ',
     'MSG_JS_ALERT_MTG_REMINDER_STATUS' => 'Status: ',
     'MSG_JS_ALERT_MTG_REMINDER_RELATED_TO' => 'Relaterad till: ',
-    'MSG_JS_ALERT_MTG_REMINDER_CALL_MSG' => "\nClick OK to view this call or click Cancel to dismiss this message.",
-    'MSG_JS_ALERT_MTG_REMINDER_MEETING_MSG' => "\nClick OK to view this meeting or click Cancel to dismiss this message.",
+    'MSG_JS_ALERT_MTG_REMINDER_CALL_MSG' => "\nKlicka på OK för att visa samtalet eller på Avbryt för att avfärda meddelandet.",
+    'MSG_JS_ALERT_MTG_REMINDER_MEETING_MSG' => "\nKlicka på OK för att visa mötet eller på Avbryt för att avfärda meddelandet.",
     'MSG_JS_ALERT_MTG_REMINDER_NO_EVENT_NAME' => 'Aktivitet',
     'MSG_JS_ALERT_MTG_REMINDER_NO_DESCRIPTION' => 'Händelsen har inte angetts.',
     'MSG_JS_ALERT_MTG_REMINDER_NO_LOCATION' => 'Platsen har inte angetts.',
@@ -1926,7 +1926,7 @@ $app_strings = array(
     'LBL_REMOVE_ALL_LEAD_FIELDS' => 'Ta bort alla fält',
     'LBL_NEXT_BTN' => 'Nästa',
     'LBL_ONLY_IMAGE_ATTACHMENT' => 'Endast bilagor i form av bilder kan infogas.',
-    'LBL_TRAINING' => 'Support Forum',
+    'LBL_TRAINING' => 'Supportforum',
     'ERR_MSSQL_DB_CONTEXT' => 'Ändrade databas till',
     'ERR_MSSQL_WARNING' => 'Varning',
 
@@ -1951,7 +1951,7 @@ $app_strings = array(
     'LBL_REMOVING_DASHLET' => 'Ta bort dashlet...',
     'LBL_REMOVED_DASHLET' => 'SuiteCRM Dashlet removed',
     'LBL_MAX_DASHLET_COLUMNS' => "Maximalt %s kolumner kan visas.",
-    'LBL_RETRIEVING_XML_DATA' => "There was a problem retrieving the XML data:\n",
+    'LBL_RETRIEVING_XML_DATA' => "Det uppstod ett problem när XML-data hämtades:\n",
 
     // MySugar Menu Options
 
@@ -2212,9 +2212,9 @@ $app_strings = array(
     'LBL_SUITE_TOP' => 'Tillbaka till toppen',
     'LBL_SUITE_SUPERCHARGED' => 'Med stöd av SuiteCRM',
     'LBL_SUITE_POWERED_BY' => 'Powered By SugarCRM',
-    'LBL_SUITE_DESC1' => 'SuiteCRM has been written and assembled by <a href="https://suitecrm.com/">SuiteCRM Ltd</a>. The Program is provided AS IS, without warranty. Licensed under AGPLv3.',
+    'LBL_SUITE_DESC1' => 'SuiteCRM har skapats av <a href="https://suitecrm.com/">SuiteCRM Ltd</a>. Programmet tillhandahålls i befintligt skick, utan garanti. Licensierat under AGPLv3.',
     'LBL_SUITE_DESC2' => 'Detta program är fri programvara; Du kan vidaredistribuera det och/eller modifiera det enligt villkoren i GNU Affero General Public License version 3 som publicerats av Free Software Foundation, inklusive ytterligare tillstånd som anges i rubriken källkod.',
-    'LBL_SUITE_DESC3' => 'SuiteCRM is a trademark of SuiteCRM Ltd<. All other company and product names may be trademarks of the respective companies with which they are associated.',
+    'LBL_SUITE_DESC3' => 'SuiteCRM är ett varumärke som tillhör SuiteCRM Ltd. Alla andra företags- och produktnamn kan vara varumärken som tillhör respektive företag.',
     'LBL_GENERATE_PASSWORD_BUTTON_TITLE' => 'Återställ lösenord',
     'LBL_SEND_CONFIRM_OPT_IN_EMAIL' => 'Skicka anmälningsbekräftelse',
     'LBL_CONFIRM_OPT_IN_ONLY_FOR_PERSON' => 'Bekräfta anmälan för konto/kontakt/lead/prospekt',
@@ -2225,12 +2225,12 @@ $app_strings = array(
 );
 
 $app_list_strings['moduleList']['Library'] = 'Bibliotek';
-$app_list_strings['moduleList']['EmailAddresses'] = 'Email Address';
+$app_list_strings['moduleList']['EmailAddresses'] = 'E-postadress';
 $app_list_strings['project_priority_default'] = 'Medium';
 $app_list_strings['project_priority_options'] = array(
-    'High' => 'High',
+    'High' => 'Hög',
     'Medium' => 'Medium',
-    'Low' => 'Low',
+    'Low' => 'Låg',
 );
 
 //GDPR lawful basis options
@@ -2250,14 +2250,14 @@ $app_list_strings['lawful_basis_dom'] = array(
 $app_list_strings['lawful_basis_source_dom'] = array(
     '' => '',
     'website' => 'Hemsida',
-    'phone' => 'Phone',
+    'phone' => 'Telefon',
     'given_to_user' => 'Givits till användaren',
-    'email' => 'Email',
+    'email' => 'E-post',
     'third_party' => 'Tredje Part',
 );
 //End GDPR lawful basis source options
 
-$app_list_strings['moduleList']['KBDocuments'] = 'Knowledge Base';
+$app_list_strings['moduleList']['KBDocuments'] = 'Kunskapsbas';
 
 $app_list_strings['countries_dom'] = array(
     '' => '',
@@ -2421,7 +2421,7 @@ $app_list_strings['countries_dom'] = array(
     'NORFOLK ISLAND' => 'NORFOLKÖN',
     'NORWAY' => 'NORGE',
     'OMAN' => 'OMAN',
-    'OTHER' => 'OTHER',
+    'OTHER' => 'ANNAT',
     'PACIFIC ISLAND' => 'STILLAHAVSÖARNA',
     'PAKISTAN' => 'PAKISTAN',
     'PANAMA' => 'PANAMA',
@@ -2925,35 +2925,35 @@ $app_list_strings['eapm_list_documents'] = array(
 $app_list_strings['token_status'] = array(
     1 => 'Begäran',
     2 => 'Tillträde',
-    3 => 'Invalid',
+    3 => 'Ogiltig',
 );
 
 $app_list_strings ['emailTemplates_type_list'] = array(
     '' => '',
-    'campaign' => 'Campaign',
-    'email' => 'Email',
-    'event' => 'Event',
+    'campaign' => 'Kampanj',
+    'email' => 'E-post',
+    'event' => 'Händelse',
 );
 
 $app_list_strings ['emailTemplates_type_list_campaigns'] = array(
     '' => '',
-    'campaign' => 'Campaign',
+    'campaign' => 'Kampanj',
 );
 
 $app_list_strings ['emailTemplates_type_list_no_workflow'] = array(
     '' => '',
-    'campaign' => 'Campaign',
-    'email' => 'Email',
-    'event' => 'Event',
+    'campaign' => 'Kampanj',
+    'email' => 'E-post',
+    'event' => 'Händelse',
     'system' => 'System',
 );
 
 // knowledge base
-$app_list_strings['moduleList']['AOK_KnowledgeBase'] = 'Knowledge Base';
+$app_list_strings['moduleList']['AOK_KnowledgeBase'] = 'Kunskapsbas';
 $app_list_strings['moduleList']['AOK_Knowledge_Base_Categories'] = 'KB - kategorier';
-$app_list_strings['aok_status_list']['Draft'] = 'Draft';
-$app_list_strings['aok_status_list']['Expired'] = 'Expired';
-$app_list_strings['aok_status_list']['In_Review'] = 'In Review';
+$app_list_strings['aok_status_list']['Draft'] = 'Utkast';
+$app_list_strings['aok_status_list']['Expired'] = 'Utgången';
+$app_list_strings['aok_status_list']['In_Review'] = 'För Granskning';
 //$app_list_strings['aok_status_list']['Published'] = 'Published';
 $app_list_strings['aok_status_list']['published_private'] = 'Hemligt';
 $app_list_strings['aok_status_list']['published_public'] = 'Publik';
@@ -2966,41 +2966,41 @@ $app_list_strings['fp_event_invite_status_dom']['Invited'] = 'Inbjuden';
 $app_list_strings['fp_event_invite_status_dom']['Not Invited'] = 'Inte inbjuden';
 $app_list_strings['fp_event_invite_status_dom']['Attended'] = 'Närvarade';
 $app_list_strings['fp_event_invite_status_dom']['Not Attended'] = 'Inte närvarande';
-$app_list_strings['fp_event_status_dom']['Accepted'] = 'Accepted';
-$app_list_strings['fp_event_status_dom']['Declined'] = 'Declined';
+$app_list_strings['fp_event_status_dom']['Accepted'] = 'Accepterad';
+$app_list_strings['fp_event_status_dom']['Declined'] = 'Nekad';
 $app_list_strings['fp_event_status_dom']['No Response'] = 'Inget svar';
 
-$app_strings['LBL_STATUS_EVENT'] = 'Bjuda in Status';
+$app_strings['LBL_STATUS_EVENT'] = 'Inbjudningsstatus';
 $app_strings['LBL_ACCEPT_STATUS'] = 'Acceptera status';
 $app_strings['LBL_LISTVIEW_OPTION_CURRENT'] = 'Den här sidan';
 $app_strings['LBL_LISTVIEW_OPTION_ENTIRE'] = 'Alla poster';
 $app_strings['LBL_LISTVIEW_NONE'] = 'Ingen';
 
 //aod
-$app_list_strings['moduleList']['AOD_IndexEvent'] = 'Index Event';
+$app_list_strings['moduleList']['AOD_IndexEvent'] = 'Registerhändelse';
 $app_list_strings['moduleList']['AOD_Index'] = 'Register';
 
-$app_list_strings['moduleList']['AOP_Case_Events'] = 'Händelse event';
+$app_list_strings['moduleList']['AOP_Case_Events'] = 'Ärendehändelser';
 $app_list_strings['moduleList']['AOP_Case_Updates'] = 'Händelse uppdatering';
 $app_strings['LBL_AOP_EMAIL_REPLY_DELIMITER'] = '=== Vänligen svara ovanför raden ===';
 
 
 //aop
-$app_list_strings['case_state_default_key'] = 'Öppet';
+$app_list_strings['case_state_default_key'] = 'Open';
 $app_list_strings['case_state_dom'] =
     array(
         'Open' => 'Öppna',
-        'Closed' => 'Closed',
+        'Closed' => 'Stängd',
     );
 $app_list_strings['case_status_default_key'] = 'Open_New';
 $app_list_strings['case_status_dom'] =
     array(
-        'Open_New' => 'New',
-        'Open_Assigned' => 'Assigned',
-        'Closed_Closed' => 'Closed',
-        'Open_Pending Input' => 'Pending Input',
-        'Closed_Rejected' => 'Rejected',
-        'Closed_Duplicate' => 'Duplicate',
+        'Open_New' => 'Ny',
+        'Open_Assigned' => 'Tilldelad',
+        'Closed_Closed' => 'Stängd',
+        'Open_Pending Input' => 'Inväntar uppgifter',
+        'Closed_Rejected' => 'Avvisad',
+        'Closed_Duplicate' => 'Dubblett',
     );
 $app_list_strings['contact_portal_user_type_dom'] =
     array(
@@ -3011,7 +3011,7 @@ $app_list_strings['dom_email_distribution_for_auto_create'] = array(
     'AOPDefault' => 'Systemdefault',
     'singleUser' => 'Enskild användare',
     'roundRobin' => 'Round-Robin',
-    'leastBusy' => 'Least-Busy',
+    'leastBusy' => 'Minst upptagen',
     'random' => 'Slumpmässig',
 );
 
@@ -3023,12 +3023,12 @@ $app_list_strings['moduleList']['AOR_Fields'] = 'Rapportfält';
 $app_list_strings['moduleList']['AOR_Scheduled_Reports'] = 'Schemalagda rapporter';
 $app_list_strings['aor_operator_list']['Equal_To'] = 'Lika med';
 $app_list_strings['aor_operator_list']['Not_Equal_To'] = 'Inte Lika med';
-$app_list_strings['aor_operator_list']['Greater_Than'] = 'Greater Than';
-$app_list_strings['aor_operator_list']['Less_Than'] = 'Less Than';
+$app_list_strings['aor_operator_list']['Greater_Than'] = 'Större än';
+$app_list_strings['aor_operator_list']['Less_Than'] = 'Mindre än';
 $app_list_strings['aor_operator_list']['Greater_Than_or_Equal_To'] = 'Större än eller lika med';
 $app_list_strings['aor_operator_list']['Less_Than_or_Equal_To'] = 'Mindre än eller lika med';
-$app_list_strings['aor_operator_list']['Contains'] = 'Contains';
-$app_list_strings['aor_operator_list']['Starts_With'] = 'Starts With';
+$app_list_strings['aor_operator_list']['Contains'] = 'Innehåller';
+$app_list_strings['aor_operator_list']['Starts_With'] = 'Börjar med';
 $app_list_strings['aor_operator_list']['Ends_With'] = 'Slutar med';
 $app_list_strings['aor_format_options'][''] = '';
 $app_list_strings['aor_format_options']['Y-m-d'] = 'Y-m-d';
@@ -3043,18 +3043,18 @@ $app_list_strings['aor_format_options']['d.m.Y'] = 'd.m.Y';
 $app_list_strings['aor_format_options']['Ymd'] = 'ÅMD';
 $app_list_strings['aor_format_options']['Y-m'] = 'Å-m';
 $app_list_strings['aor_format_options']['Y'] = 'Å';
-$app_list_strings['aor_condition_operator_list']['And'] = 'And';
-$app_list_strings['aor_condition_operator_list']['OR'] = 'OR';
+$app_list_strings['aor_condition_operator_list']['And'] = 'Och';
+$app_list_strings['aor_condition_operator_list']['OR'] = 'ELLER';
 $app_list_strings['aor_condition_type_list']['Value'] = 'Värde';
 $app_list_strings['aor_condition_type_list']['Field'] = 'Fält';
-$app_list_strings['aor_condition_type_list']['Date'] = 'Date';
+$app_list_strings['aor_condition_type_list']['Date'] = 'Datum';
 $app_list_strings['aor_condition_type_list']['Multi'] = 'En av';
 $app_list_strings['aor_condition_type_list']['Period'] = 'Period';
 $app_list_strings['aor_condition_type_list']['CurrentUserID'] = 'Aktuell användare';
 $app_list_strings['aor_date_type_list'][''] = '';
-$app_list_strings['aor_date_type_list']['minute'] = 'Minutes';
-$app_list_strings['aor_date_type_list']['hour'] = 'Hours';
-$app_list_strings['aor_date_type_list']['day'] = 'Days';
+$app_list_strings['aor_date_type_list']['minute'] = 'Minuter';
+$app_list_strings['aor_date_type_list']['hour'] = 'Timmar';
+$app_list_strings['aor_date_type_list']['day'] = 'Dagar';
 $app_list_strings['aor_date_type_list']['week'] = 'Veckor';
 $app_list_strings['aor_date_type_list']['month'] = 'Månader';
 $app_list_strings['aor_date_type_list']['business_hours'] = 'Öppettider';
@@ -3064,8 +3064,8 @@ $app_list_strings['aor_date_operator']['now'] = '';
 $app_list_strings['aor_date_operator']['plus'] = '+';
 $app_list_strings['aor_date_operator']['minus'] = '-';
 $app_list_strings['aor_sort_operator'][''] = '';
-$app_list_strings['aor_sort_operator']['ASC'] = 'Ascending';
-$app_list_strings['aor_sort_operator']['DESC'] = 'Descending';
+$app_list_strings['aor_sort_operator']['ASC'] = 'Stigande';
+$app_list_strings['aor_sort_operator']['DESC'] = 'Fallande';
 $app_list_strings['aor_function_list'][''] = '';
 $app_list_strings['aor_function_list']['COUNT'] = 'Räkna';
 $app_list_strings['aor_function_list']['MIN'] = 'Minimum';
@@ -3073,32 +3073,32 @@ $app_list_strings['aor_function_list']['MAX'] = 'Maximalt';
 $app_list_strings['aor_function_list']['SUM'] = 'Summa';
 $app_list_strings['aor_function_list']['AVG'] = 'Medelvärde';
 $app_list_strings['aor_total_options'][''] = '';
-$app_list_strings['aor_total_options']['COUNT'] = 'Count';
-$app_list_strings['aor_total_options']['SUM'] = 'Sum';
-$app_list_strings['aor_total_options']['AVG'] = 'Average';
+$app_list_strings['aor_total_options']['COUNT'] = 'Antal';
+$app_list_strings['aor_total_options']['SUM'] = 'Summera';
+$app_list_strings['aor_total_options']['AVG'] = 'Genomsnitt';
 $app_list_strings['aor_chart_types']['bar'] = 'Stapeldiagram';
 $app_list_strings['aor_chart_types']['line'] = 'Linje Diagram';
 $app_list_strings['aor_chart_types']['pie'] = 'Tårt Diagram';
 $app_list_strings['aor_chart_types']['radar'] = 'Polärdiagram';
 $app_list_strings['aor_chart_types']['stacked_bar'] = 'Staplad Diagram';
 $app_list_strings['aor_chart_types']['grouped_bar'] = 'Grupperade bar';
-$app_list_strings['aor_scheduled_report_schedule_types']['monthly'] = 'Monthly';
-$app_list_strings['aor_scheduled_report_schedule_types']['weekly'] = 'Weekly';
-$app_list_strings['aor_scheduled_report_schedule_types']['daily'] = 'Daily';
-$app_list_strings['aor_scheduled_reports_status_dom']['active'] = 'Active';
-$app_list_strings['aor_scheduled_reports_status_dom']['inactive'] = 'Inactive';
-$app_list_strings['aor_email_type_list']['Email Address'] = 'Email';
+$app_list_strings['aor_scheduled_report_schedule_types']['monthly'] = 'Månadsvis';
+$app_list_strings['aor_scheduled_report_schedule_types']['weekly'] = 'Veckovis';
+$app_list_strings['aor_scheduled_report_schedule_types']['daily'] = 'Dagligen';
+$app_list_strings['aor_scheduled_reports_status_dom']['active'] = 'Aktiv';
+$app_list_strings['aor_scheduled_reports_status_dom']['inactive'] = 'Inaktiv';
+$app_list_strings['aor_email_type_list']['Email Address'] = 'E-post';
 $app_list_strings['aor_email_type_list']['Specify User'] = 'Användare';
-$app_list_strings['aor_email_type_list']['Users'] = 'Users';
+$app_list_strings['aor_email_type_list']['Users'] = 'Användare';
 $app_list_strings['aor_assign_options']['all'] = 'ALLA användare';
 $app_list_strings['aor_assign_options']['role'] = 'ALLA anvndare i rollen';
 $app_list_strings['aor_assign_options']['security_group'] = 'ALLA användare i säkerhetsgruppen';
-$app_list_strings['date_time_period_list']['today'] = 'Today';
+$app_list_strings['date_time_period_list']['today'] = 'Idag';
 $app_list_strings['date_time_period_list']['yesterday'] = 'Igår';
 $app_list_strings['date_time_period_list']['this_week'] = 'Denna vecka';
 $app_list_strings['date_time_period_list']['last_week'] = 'Förra veckan';
-$app_list_strings['date_time_period_list']['last_month'] = 'Last Month';
-$app_list_strings['date_time_period_list']['this_month'] = 'This Month';
+$app_list_strings['date_time_period_list']['last_month'] = 'Förra månaden';
+$app_list_strings['date_time_period_list']['this_month'] = 'Denna månaden';
 $app_list_strings['date_time_period_list']['this_quarter'] = 'Det här kvartalet';
 $app_list_strings['date_time_period_list']['last_quarter'] = 'Senaste kvartalet';
 $app_list_strings['date_time_period_list']['this_year'] = 'Detta år';
@@ -3109,41 +3109,41 @@ $app_strings['LBL_CRON_AT'] = 'på';
 $app_strings['LBL_CRON_RAW'] = 'Avancerad';
 $app_strings['LBL_CRON_MIN'] = 'Min';
 $app_strings['LBL_CRON_HOUR'] = 'Timme';
-$app_strings['LBL_CRON_DAY'] = 'Day';
+$app_strings['LBL_CRON_DAY'] = 'Dag';
 $app_strings['LBL_CRON_MONTH'] = 'Månad';
 $app_strings['LBL_CRON_DOW'] = 'DOW';
-$app_strings['LBL_CRON_DAILY'] = 'Daily';
-$app_strings['LBL_CRON_WEEKLY'] = 'Weekly';
-$app_strings['LBL_CRON_MONTHLY'] = 'Monthly';
+$app_strings['LBL_CRON_DAILY'] = 'Dagligen';
+$app_strings['LBL_CRON_WEEKLY'] = 'Veckovis';
+$app_strings['LBL_CRON_MONTHLY'] = 'Månadsvis';
 
 //aos
-$app_list_strings['moduleList']['AOS_Contracts'] = 'Avtal';
+$app_list_strings['moduleList']['AOS_Contracts'] = 'Kontrakt';
 $app_list_strings['moduleList']['AOS_Invoices'] = 'Fakturor';
 $app_list_strings['moduleList']['AOS_PDF_Templates'] = 'PDF - mallar';
 $app_list_strings['moduleList']['AOS_Product_Categories'] = 'Produkter - Kategorier';
-$app_list_strings['moduleList']['AOS_Products'] = 'Products';
-$app_list_strings['moduleList']['AOS_Products_Quotes'] = 'Line Items';
+$app_list_strings['moduleList']['AOS_Products'] = 'Produkter';
+$app_list_strings['moduleList']['AOS_Products_Quotes'] = 'Radposter';
 $app_list_strings['moduleList']['AOS_Line_Item_Groups'] = 'Artikelgrupper';
-$app_list_strings['moduleList']['AOS_Quotes'] = 'Quotes';
+$app_list_strings['moduleList']['AOS_Quotes'] = 'Offerter';
 $app_list_strings['aos_quotes_type_dom'][''] = '';
-$app_list_strings['aos_quotes_type_dom']['Analyst'] = 'Analyst';
-$app_list_strings['aos_quotes_type_dom']['Competitor'] = 'Competitor';
-$app_list_strings['aos_quotes_type_dom']['Customer'] = 'Customer';
-$app_list_strings['aos_quotes_type_dom']['Integrator'] = 'Integrator';
-$app_list_strings['aos_quotes_type_dom']['Investor'] = 'Investor';
+$app_list_strings['aos_quotes_type_dom']['Analyst'] = 'Analytiker';
+$app_list_strings['aos_quotes_type_dom']['Competitor'] = 'Konkurrent';
+$app_list_strings['aos_quotes_type_dom']['Customer'] = 'Kund';
+$app_list_strings['aos_quotes_type_dom']['Integrator'] = 'Integratör';
+$app_list_strings['aos_quotes_type_dom']['Investor'] = 'Investerare';
 $app_list_strings['aos_quotes_type_dom']['Partner'] = 'Partner';
 $app_list_strings['aos_quotes_type_dom']['Press'] = 'Press';
-$app_list_strings['aos_quotes_type_dom']['Prospect'] = 'Prospect';
-$app_list_strings['aos_quotes_type_dom']['Reseller'] = 'Reseller';
-$app_list_strings['aos_quotes_type_dom']['Other'] = 'Other';
+$app_list_strings['aos_quotes_type_dom']['Prospect'] = 'Utsikt';
+$app_list_strings['aos_quotes_type_dom']['Reseller'] = 'Återförsäljare';
+$app_list_strings['aos_quotes_type_dom']['Other'] = 'Övrigt';
 $app_list_strings['template_ddown_c_list'][''] = '';
-$app_list_strings['quote_stage_dom']['Draft'] = 'Draft';
+$app_list_strings['quote_stage_dom']['Draft'] = 'Utkast';
 $app_list_strings['quote_stage_dom']['Negotiation'] = 'Förhandling';
 $app_list_strings['quote_stage_dom']['Delivered'] = 'Levererad';
-$app_list_strings['quote_stage_dom']['On Hold'] = 'On Hold';
+$app_list_strings['quote_stage_dom']['On Hold'] = 'Avvaktar';
 $app_list_strings['quote_stage_dom']['Confirmed'] = 'Bekräftad';
 $app_list_strings['quote_stage_dom']['Closed Accepted'] = 'Avslutad accepterad';
-$app_list_strings['quote_stage_dom']['Closed Lost'] = 'Closed Lost';
+$app_list_strings['quote_stage_dom']['Closed Lost'] = 'Avslutad tappad';
 $app_list_strings['quote_stage_dom']['Closed Dead'] = 'Avslutad död';
 $app_list_strings['quote_term_dom']['Net 15'] = 'Netto 15';
 $app_list_strings['quote_term_dom']['Net 30'] = 'Netto 30';
@@ -3159,16 +3159,16 @@ $app_list_strings['vat_list']['20.0'] = '20%';
 $app_list_strings['discount_list']['Percentage'] = 'Prc';
 $app_list_strings['discount_list']['Amount'] = 'Bel';
 $app_list_strings['aos_invoices_type_dom'][''] = '';
-$app_list_strings['aos_invoices_type_dom']['Analyst'] = 'Analyst';
-$app_list_strings['aos_invoices_type_dom']['Competitor'] = 'Competitor';
-$app_list_strings['aos_invoices_type_dom']['Customer'] = 'Customer';
-$app_list_strings['aos_invoices_type_dom']['Integrator'] = 'Integrator';
-$app_list_strings['aos_invoices_type_dom']['Investor'] = 'Investor';
+$app_list_strings['aos_invoices_type_dom']['Analyst'] = 'Analytiker';
+$app_list_strings['aos_invoices_type_dom']['Competitor'] = 'Konkurrent';
+$app_list_strings['aos_invoices_type_dom']['Customer'] = 'Kund';
+$app_list_strings['aos_invoices_type_dom']['Integrator'] = 'Integratör';
+$app_list_strings['aos_invoices_type_dom']['Investor'] = 'Investerare';
 $app_list_strings['aos_invoices_type_dom']['Partner'] = 'Partner';
 $app_list_strings['aos_invoices_type_dom']['Press'] = 'Press';
-$app_list_strings['aos_invoices_type_dom']['Prospect'] = 'Prospect';
-$app_list_strings['aos_invoices_type_dom']['Reseller'] = 'Reseller';
-$app_list_strings['aos_invoices_type_dom']['Other'] = 'Other';
+$app_list_strings['aos_invoices_type_dom']['Prospect'] = 'Utsikt';
+$app_list_strings['aos_invoices_type_dom']['Reseller'] = 'Återförsäljare';
+$app_list_strings['aos_invoices_type_dom']['Other'] = 'Övrigt';
 $app_list_strings['invoice_status_dom']['Paid'] = 'Betald';
 $app_list_strings['invoice_status_dom']['Unpaid'] = 'Obetald';
 $app_list_strings['invoice_status_dom']['Cancelled'] = 'Avbruten';
@@ -3182,17 +3182,17 @@ $app_list_strings['product_category_dom']['Desktops'] = 'Skrivbord';
 $app_list_strings['product_category_dom'][''] = '';
 $app_list_strings['product_type_dom']['Good'] = 'Bra';
 $app_list_strings['product_type_dom']['Service'] = 'Tjänst';
-$app_list_strings['product_quote_parent_type_dom']['AOS_Quotes'] = 'Quotes';
+$app_list_strings['product_quote_parent_type_dom']['AOS_Quotes'] = 'Offerter';
 $app_list_strings['product_quote_parent_type_dom']['AOS_Invoices'] = 'Fakturor';
-$app_list_strings['product_quote_parent_type_dom']['AOS_Contracts'] = 'Avtal';
+$app_list_strings['product_quote_parent_type_dom']['AOS_Contracts'] = 'Kontrakt';
 $app_list_strings['pdf_template_type_dom']['AOS_Quotes'] = 'Offerter';
 $app_list_strings['pdf_template_type_dom']['AOS_Invoices'] = 'Fakturor';
-$app_list_strings['pdf_template_type_dom']['AOS_Contracts'] = 'Avtal';
+$app_list_strings['pdf_template_type_dom']['AOS_Contracts'] = 'Kontrakt';
 $app_list_strings['pdf_template_type_dom']['Accounts'] = 'Företag';
 $app_list_strings['pdf_template_type_dom']['Contacts'] = 'Kontakter';
 $app_list_strings['pdf_template_type_dom']['Leads'] = 'Kundämnen';
 $app_list_strings['pdf_template_sample_dom'][''] = '';
-$app_list_strings['contract_status_list']['Not Started'] = 'Not Started';
+$app_list_strings['contract_status_list']['Not Started'] = 'Inte påbörjad';
 $app_list_strings['contract_status_list']['In Progress'] = 'Pågående';
 $app_list_strings['contract_status_list']['Signed'] = 'Signerat';
 $app_list_strings['contract_type_list']['Type'] = 'Typ';
@@ -3202,64 +3202,64 @@ $app_strings['LBL_NO_TEMPLATE'] = 'ERROR\nIngen mall funnen.\nVänligen gå till
 
 //aow
 $app_list_strings['moduleList']['AOW_WorkFlow'] = 'Workflow';
-$app_list_strings['moduleList']['AOW_Conditions'] = 'WorkFlow Conditions';
+$app_list_strings['moduleList']['AOW_Conditions'] = 'Arbetsflödesvillkor';
 $app_list_strings['moduleList']['AOW_Processed'] = 'Process-revision';
 $app_list_strings['moduleList']['AOW_Actions'] = 'Arbetsflödesåtgärder';
-$app_list_strings['aow_status_list']['Active'] = 'Active';
-$app_list_strings['aow_status_list']['Inactive'] = 'Inactive';
-$app_list_strings['aow_operator_list']['Equal_To'] = 'Equal To';
-$app_list_strings['aow_operator_list']['Not_Equal_To'] = 'Not Equal To';
-$app_list_strings['aow_operator_list']['Greater_Than'] = 'Greater Than';
-$app_list_strings['aow_operator_list']['Less_Than'] = 'Less Than';
-$app_list_strings['aow_operator_list']['Greater_Than_or_Equal_To'] = 'Greater Than or Equal To';
-$app_list_strings['aow_operator_list']['Less_Than_or_Equal_To'] = 'Less Than or Equal To';
-$app_list_strings['aow_operator_list']['Contains'] = 'Contains';
-$app_list_strings['aow_operator_list']['Starts_With'] = 'Starts With';
-$app_list_strings['aow_operator_list']['Ends_With'] = 'Ends With';
+$app_list_strings['aow_status_list']['Active'] = 'Aktiv';
+$app_list_strings['aow_status_list']['Inactive'] = 'Inaktiv';
+$app_list_strings['aow_operator_list']['Equal_To'] = 'Lika med';
+$app_list_strings['aow_operator_list']['Not_Equal_To'] = 'Inte lika med';
+$app_list_strings['aow_operator_list']['Greater_Than'] = 'Större än';
+$app_list_strings['aow_operator_list']['Less_Than'] = 'Mindre än';
+$app_list_strings['aow_operator_list']['Greater_Than_or_Equal_To'] = 'Större än eller lika med';
+$app_list_strings['aow_operator_list']['Less_Than_or_Equal_To'] = 'Mindre än eller lika med';
+$app_list_strings['aow_operator_list']['Contains'] = 'Innehåller';
+$app_list_strings['aow_operator_list']['Starts_With'] = 'Börjar med';
+$app_list_strings['aow_operator_list']['Ends_With'] = 'Slutar med';
 $app_list_strings['aow_operator_list']['is_null'] = 'Är Noll';
-$app_list_strings['aow_process_status_list']['Complete'] = 'Complete';
+$app_list_strings['aow_process_status_list']['Complete'] = 'Slutförd';
 $app_list_strings['aow_process_status_list']['Running'] = 'Kör';
-$app_list_strings['aow_process_status_list']['Pending'] = 'Pending';
-$app_list_strings['aow_process_status_list']['Failed'] = 'Failed';
-$app_list_strings['aow_condition_operator_list']['And'] = 'And';
-$app_list_strings['aow_condition_operator_list']['OR'] = 'OR';
-$app_list_strings['aow_condition_type_list']['Value'] = 'Value';
-$app_list_strings['aow_condition_type_list']['Field'] = 'Field';
+$app_list_strings['aow_process_status_list']['Pending'] = 'Väntande';
+$app_list_strings['aow_process_status_list']['Failed'] = 'Misslyckades';
+$app_list_strings['aow_condition_operator_list']['And'] = 'Och';
+$app_list_strings['aow_condition_operator_list']['OR'] = 'ELLER';
+$app_list_strings['aow_condition_type_list']['Value'] = 'Värde';
+$app_list_strings['aow_condition_type_list']['Field'] = 'Fält';
 $app_list_strings['aow_condition_type_list']['Any_Change'] = 'Någon förändring';
 $app_list_strings['aow_condition_type_list']['SecurityGroup'] = 'I säkerhetsgrupp';
-$app_list_strings['aow_condition_type_list']['Date'] = 'Date';
-$app_list_strings['aow_condition_type_list']['Multi'] = 'One of';
-$app_list_strings['aow_action_type_list']['Value'] = 'Value';
-$app_list_strings['aow_action_type_list']['Field'] = 'Field';
-$app_list_strings['aow_action_type_list']['Date'] = 'Date';
+$app_list_strings['aow_condition_type_list']['Date'] = 'Datum';
+$app_list_strings['aow_condition_type_list']['Multi'] = 'En av';
+$app_list_strings['aow_action_type_list']['Value'] = 'Värde';
+$app_list_strings['aow_action_type_list']['Field'] = 'Fält';
+$app_list_strings['aow_action_type_list']['Date'] = 'Datum';
 $app_list_strings['aow_action_type_list']['Round_Robin'] = 'Round Robin';
 $app_list_strings['aow_action_type_list']['Least_Busy'] = 'Minst upptagen';
-$app_list_strings['aow_action_type_list']['Random'] = 'Random';
-$app_list_strings['aow_rel_action_type_list']['Value'] = 'Value';
-$app_list_strings['aow_rel_action_type_list']['Field'] = 'Field';
+$app_list_strings['aow_action_type_list']['Random'] = 'Slumpmässig';
+$app_list_strings['aow_rel_action_type_list']['Value'] = 'Värde';
+$app_list_strings['aow_rel_action_type_list']['Field'] = 'Fält';
 $app_list_strings['aow_date_type_list'][''] = '';
-$app_list_strings['aow_date_type_list']['minute'] = 'Minutes';
-$app_list_strings['aow_date_type_list']['hour'] = 'Hours';
-$app_list_strings['aow_date_type_list']['day'] = 'Days';
-$app_list_strings['aow_date_type_list']['week'] = 'Weeks';
-$app_list_strings['aow_date_type_list']['month'] = 'Months';
+$app_list_strings['aow_date_type_list']['minute'] = 'Minuter';
+$app_list_strings['aow_date_type_list']['hour'] = 'Timmar';
+$app_list_strings['aow_date_type_list']['day'] = 'Dagar';
+$app_list_strings['aow_date_type_list']['week'] = 'Veckor';
+$app_list_strings['aow_date_type_list']['month'] = 'Månader';
 $app_list_strings['aow_date_type_list']['year'] = 'År';
-$app_list_strings['aow_date_type_list']['business_hours'] = 'Business Hours';
-$app_list_strings['aow_date_options']['now'] = 'Now';
-$app_list_strings['aow_date_options']['today'] = 'Today';
-$app_list_strings['aow_date_options']['field'] = 'This Field';
+$app_list_strings['aow_date_type_list']['business_hours'] = 'Öppettider';
+$app_list_strings['aow_date_options']['now'] = 'Nu';
+$app_list_strings['aow_date_options']['today'] = 'Idag';
+$app_list_strings['aow_date_options']['field'] = 'Det här fältet';
 $app_list_strings['aow_date_operator']['now'] = '';
 $app_list_strings['aow_date_operator']['plus'] = '+';
 $app_list_strings['aow_date_operator']['minus'] = '-';
 $app_list_strings['aow_assign_options']['all'] = 'ALLA användare';
 $app_list_strings['aow_assign_options']['role'] = 'ALLA anvndare i rollen';
 $app_list_strings['aow_assign_options']['security_group'] = 'ALLA användare i säkerhetsgruppen';
-$app_list_strings['aow_email_type_list']['Email Address'] = 'Email';
+$app_list_strings['aow_email_type_list']['Email Address'] = 'E-post';
 $app_list_strings['aow_email_type_list']['Record Email'] = 'Lagra Email';
 $app_list_strings['aow_email_type_list']['Related Field'] = 'Relaterade fält';
 $app_list_strings['aow_email_type_list']['Specify User'] = 'Användare';
-$app_list_strings['aow_email_type_list']['Users'] = 'Users';
-$app_list_strings['aow_email_to_list']['to'] = 'To';
+$app_list_strings['aow_email_type_list']['Users'] = 'Användare';
+$app_list_strings['aow_email_to_list']['to'] = 'Till';
 $app_list_strings['aow_email_to_list']['cc'] = 'Cc';
 $app_list_strings['aow_email_to_list']['bcc'] = 'Hemlig kopia';
 $app_list_strings['aow_run_on_list']['All_Records'] = 'Alla poster';
@@ -3274,8 +3274,8 @@ $app_list_strings['moduleList']['AM_ProjectTemplates'] = 'Projekt - Mallar';
 $app_list_strings['moduleList']['AM_TaskTemplates'] = 'Projektuppgiftsmallar';
 $app_list_strings['relationship_type_list']['FS'] = 'Fäst på Start';
 $app_list_strings['relationship_type_list']['SS'] = 'Starta för att starta';
-$app_list_strings['duration_unit_dom']['Days'] = 'Days';
-$app_list_strings['duration_unit_dom']['Hours'] = 'Hours';
+$app_list_strings['duration_unit_dom']['Days'] = 'Dagar';
+$app_list_strings['duration_unit_dom']['Hours'] = 'Timmar';
 $app_strings['LBL_GANTT_BUTTON_LABEL'] = 'Visa Gantt';
 $app_strings['LBL_DETAIL_BUTTON_LABEL'] = 'Visa detaljer';
 $app_strings['LBL_CREATE_PROJECT'] = 'Skapa projekt';
@@ -3299,25 +3299,25 @@ $app_list_strings['map_unit_type_list']['mi'] = 'Engelska mil';
 $app_list_strings['map_unit_type_list']['km'] = 'Kilometer';
 
 $app_list_strings['map_module_type_list']['Accounts'] = 'Företag';
-$app_list_strings['map_module_type_list']['Contacts'] = 'Contacts';
+$app_list_strings['map_module_type_list']['Contacts'] = 'Kontakter';
 $app_list_strings['map_module_type_list']['Cases'] = 'Ärenden';
 $app_list_strings['map_module_type_list']['Leads'] = 'Kundämnen';
-$app_list_strings['map_module_type_list']['Meetings'] = 'Meetings';
-$app_list_strings['map_module_type_list']['Opportunities'] = 'Opportunities';
-$app_list_strings['map_module_type_list']['Project'] = 'Projects';
-$app_list_strings['map_module_type_list']['Prospects'] = 'Targets';
+$app_list_strings['map_module_type_list']['Meetings'] = 'Möten';
+$app_list_strings['map_module_type_list']['Opportunities'] = 'Affärsmöjligheter';
+$app_list_strings['map_module_type_list']['Project'] = 'Projekt';
+$app_list_strings['map_module_type_list']['Prospects'] = 'Mål';
 
-$app_list_strings['map_relate_type_list']['Accounts'] = 'Account';
-$app_list_strings['map_relate_type_list']['Contacts'] = 'Contact';
-$app_list_strings['map_relate_type_list']['Cases'] = 'Case';
+$app_list_strings['map_relate_type_list']['Accounts'] = 'Företag';
+$app_list_strings['map_relate_type_list']['Contacts'] = 'Kontakt';
+$app_list_strings['map_relate_type_list']['Cases'] = 'Ärende';
 $app_list_strings['map_relate_type_list']['Leads'] = 'Lead';
-$app_list_strings['map_relate_type_list']['Meetings'] = 'Meeting';
-$app_list_strings['map_relate_type_list']['Opportunities'] = 'Opportunity';
-$app_list_strings['map_relate_type_list']['Project'] = 'Project';
-$app_list_strings['map_relate_type_list']['Prospects'] = 'Target';
+$app_list_strings['map_relate_type_list']['Meetings'] = 'Möte';
+$app_list_strings['map_relate_type_list']['Opportunities'] = 'Affärsmöjlighet';
+$app_list_strings['map_relate_type_list']['Project'] = 'Projekt';
+$app_list_strings['map_relate_type_list']['Prospects'] = 'Mål';
 
 $app_list_strings['marker_image_list']['accident'] = 'Olycka';
-$app_list_strings['marker_image_list']['administration'] = 'Administration';
+$app_list_strings['marker_image_list']['administration'] = 'Administrering';
 $app_list_strings['marker_image_list']['agriculture'] = 'Lantbruk';
 $app_list_strings['marker_image_list']['aircraft_small'] = 'Flygplan litet';
 $app_list_strings['marker_image_list']['airplane_tourism'] = 'Flygplansturism';
@@ -3356,8 +3356,8 @@ $app_list_strings['marker_image_list']['cluster_5'] = 'Kluster 5';
 $app_list_strings['marker_image_list']['coffee'] = 'Kaffe';
 $app_list_strings['marker_image_list']['community_centre'] = 'Föreningscenter';
 $app_list_strings['marker_image_list']['company'] = 'Företag';
-$app_list_strings['marker_image_list']['conference'] = 'Conference';
-$app_list_strings['marker_image_list']['construction'] = 'Construction';
+$app_list_strings['marker_image_list']['conference'] = 'Konferens';
+$app_list_strings['marker_image_list']['construction'] = 'Byggnation';
 $app_list_strings['marker_image_list']['convenience'] = 'Bekvämlighet';
 $app_list_strings['marker_image_list']['court'] = 'Domstol';
 $app_list_strings['marker_image_list']['cruise'] = 'Kryssning';
@@ -3387,7 +3387,7 @@ $app_list_strings['marker_image_list']['festival'] = 'Festival';
 $app_list_strings['marker_image_list']['fjord'] = 'Fjord';
 $app_list_strings['marker_image_list']['forest'] = 'Skogen';
 $app_list_strings['marker_image_list']['fountain'] = 'Fontän';
-$app_list_strings['marker_image_list']['friday'] = 'Friday';
+$app_list_strings['marker_image_list']['friday'] = 'Fredag';
 $app_list_strings['marker_image_list']['garden'] = 'Trädgård';
 $app_list_strings['marker_image_list']['gas_station'] = 'Bensinstation';
 $app_list_strings['marker_image_list']['geyser'] = 'Geyser';
@@ -3414,7 +3414,7 @@ $app_list_strings['marker_image_list']['laundromat'] = 'Tvättomat';
 $app_list_strings['marker_image_list']['left'] = 'Vänster';
 $app_list_strings['marker_image_list']['left_then_down'] = 'Vänster sedan ner';
 $app_list_strings['marker_image_list']['left_then_up'] = 'Vänster sedan upp';
-$app_list_strings['marker_image_list']['library'] = 'Library';
+$app_list_strings['marker_image_list']['library'] = 'Bibliotek';
 $app_list_strings['marker_image_list']['lighthouse'] = 'Fyr';
 $app_list_strings['marker_image_list']['liquor'] = 'Starksprit';
 $app_list_strings['marker_image_list']['lock'] = 'Lås';
@@ -3423,7 +3423,7 @@ $app_list_strings['marker_image_list']['massage'] = 'Massage';
 $app_list_strings['marker_image_list']['mobile_phone_tower'] = 'Mobilmast';
 $app_list_strings['marker_image_list']['modern_tower'] = 'Modernt Torn';
 $app_list_strings['marker_image_list']['monastery'] = 'Kloster';
-$app_list_strings['marker_image_list']['monday'] = 'Monday';
+$app_list_strings['marker_image_list']['monday'] = 'Måndag';
 $app_list_strings['marker_image_list']['monument'] = 'Monument';
 $app_list_strings['marker_image_list']['mosque'] = 'Moskén';
 $app_list_strings['marker_image_list']['motorcycle'] = 'Motorcykel';
@@ -3474,7 +3474,7 @@ $app_list_strings['marker_image_list']['restaurant_turkish'] = 'Restaurang turki
 $app_list_strings['marker_image_list']['right'] = 'Höger';
 $app_list_strings['marker_image_list']['right_then_down'] = 'Höger Sedan Ner';
 $app_list_strings['marker_image_list']['right_then_up'] = 'Höger Sedan Upp';
-$app_list_strings['marker_image_list']['saturday'] = 'Saturday';
+$app_list_strings['marker_image_list']['saturday'] = 'Lördag';
 $app_list_strings['marker_image_list']['school'] = 'Skola';
 $app_list_strings['marker_image_list']['shopping_mall'] = 'Köpcentrum';
 $app_list_strings['marker_image_list']['shore'] = 'Strand';
@@ -3501,8 +3501,8 @@ $app_list_strings['marker_image_list']['steam_train'] = 'Ångtåg';
 $app_list_strings['marker_image_list']['stop'] = 'Stopp';
 $app_list_strings['marker_image_list']['stoplight'] = 'Stoppljus';
 $app_list_strings['marker_image_list']['subway'] = 'Tunnelbana';
-$app_list_strings['marker_image_list']['sun'] = 'Sun';
-$app_list_strings['marker_image_list']['sunday'] = 'Sunday';
+$app_list_strings['marker_image_list']['sun'] = 'Sön';
+$app_list_strings['marker_image_list']['sunday'] = 'Söndag';
 $app_list_strings['marker_image_list']['supermarket'] = 'Stormarknad';
 $app_list_strings['marker_image_list']['synagogue'] = 'Synagoga';
 $app_list_strings['marker_image_list']['tapas'] = 'Tapas';
@@ -3515,7 +3515,7 @@ $app_list_strings['marker_image_list']['terrace'] = 'Terrass';
 $app_list_strings['marker_image_list']['text'] = 'Text';
 $app_list_strings['marker_image_list']['theater'] = 'Teater';
 $app_list_strings['marker_image_list']['theme_park'] = 'Nöjespark';
-$app_list_strings['marker_image_list']['thursday'] = 'Thursday';
+$app_list_strings['marker_image_list']['thursday'] = 'Torsdag';
 $app_list_strings['marker_image_list']['toilets'] = 'Toaletter';
 $app_list_strings['marker_image_list']['toll_station'] = 'Betalstation';
 $app_list_strings['marker_image_list']['tower'] = 'Torn';
@@ -3523,7 +3523,7 @@ $app_list_strings['marker_image_list']['traffic_enforcement_camera'] = 'Hastighe
 $app_list_strings['marker_image_list']['train'] = 'Tåg';
 $app_list_strings['marker_image_list']['tram'] = 'Spårvagn';
 $app_list_strings['marker_image_list']['truck'] = 'Lastbil';
-$app_list_strings['marker_image_list']['tuesday'] = 'Tuesday';
+$app_list_strings['marker_image_list']['tuesday'] = 'Tisdag';
 $app_list_strings['marker_image_list']['tunnel'] = 'Tunnel';
 $app_list_strings['marker_image_list']['turn_left'] = 'Sväng vänster';
 $app_list_strings['marker_image_list']['turn_right'] = 'Sväng höger';
@@ -3541,7 +3541,7 @@ $app_list_strings['marker_image_list']['waterfall'] = 'Vattenfall';
 $app_list_strings['marker_image_list']['watermill'] = 'Vattenkvarn';
 $app_list_strings['marker_image_list']['waterpark'] = 'Vattenpark';
 $app_list_strings['marker_image_list']['watertower'] = 'Vattentorn';
-$app_list_strings['marker_image_list']['wednesday'] = 'Wednesday';
+$app_list_strings['marker_image_list']['wednesday'] = 'Onsdag';
 $app_list_strings['marker_image_list']['wifi'] = 'Wifi';
 $app_list_strings['marker_image_list']['wind_turbine'] = 'Vindkraftverk';
 $app_list_strings['marker_image_list']['windmill'] = 'Väderkvarn';
@@ -3572,8 +3572,8 @@ $app_strings['LBL_SECURITYGROUP'] = 'Säkerhetsgrupp';
 $app_strings['LBL_ROLE'] = 'Roll';
 
 $app_list_strings['moduleList']['OutboundEmailAccounts'] = 'Utgående e-postkonton';
-$app_list_strings['moduleList']['ExternalOAuthConnection'] = 'External OAuth Connection';
-$app_list_strings['moduleList']['ExternalOAuthProvider'] = 'External OAuth Provider';
+$app_list_strings['moduleList']['ExternalOAuthConnection'] = 'Extern OAuth-anslutning';
+$app_list_strings['moduleList']['ExternalOAuthProvider'] = 'Extern OAuth-leverantör';
 
 //social
 $app_strings['FACEBOOK_USER_C'] = 'Facebook';
@@ -3582,7 +3582,7 @@ $app_strings['LBL_PANEL_SOCIAL_FEED'] = 'Sociala Flödes Detaljer';
 
 $app_strings['LBL_SUBPANEL_FILTER_LABEL'] = 'Filter';
 
-$app_strings['LBL_COLLECTION_TYPE'] = 'Type';
+$app_strings['LBL_COLLECTION_TYPE'] = 'Typ';
 
 $app_strings['LBL_ADD_TAB'] = 'Lägg till fliken';
 $app_strings['LBL_EDIT_TAB'] = 'Ändra flikar';
@@ -3597,11 +3597,11 @@ $app_strings['LBL_RENAME_DASHBOARD_PAGE'] = 'Döp Om Skrivbordssida';
 $app_strings['LBL_SUITE_DASHBOARD_ACTIONS'] = 'ÅTGÄRDER';
 
 $app_list_strings['collection_temp_list'] = array(
-    'Tasks' => 'Tasks',
-    'Meetings' => 'Meetings',
-    'Calls' => 'Calls',
+    'Tasks' => 'Uppgifter',
+    'Meetings' => 'Möten',
+    'Calls' => 'Samtal',
     'Notes' => 'Anteckningar:',
-    'Emails' => 'Emails'
+    'Emails' => 'E-postmeddelanden'
 );
 
 $app_list_strings['moduleList']['TemplateEditor'] = 'Mall-editor';
@@ -3610,19 +3610,19 @@ $app_strings['LBL_LOADING_ERROR_INLINE_EDITING'] = "Ett fel har inträffat vid l
 
 //SuiteSpots
 $app_list_strings['spots_areas'] = array(
-    'getSalesSpotsData' => 'Sales',
+    'getSalesSpotsData' => 'Försäljning',
     'getAccountsSpotsData' => 'Konton',
     'getLeadsSpotsData' => 'Kundämnen',
     'getServiceSpotsData' => 'Tjänst',
-    'getMarketingSpotsData' => 'Marketing',
+    'getMarketingSpotsData' => 'Marknadsföring',
     'getMarketingActivitySpotsData' => 'Marknadsaktivitet',
-    'getActivitiesSpotsData' => 'Activities',
-    'getQuotesSpotsData' => 'Quotes'
+    'getActivitiesSpotsData' => 'Aktiviteter',
+    'getQuotesSpotsData' => 'Offerter'
 );
 
 $app_list_strings['moduleList']['Spots'] = 'Spots';
 
-$app_list_strings['moduleList']['AOBH_BusinessHours'] = 'Business Hours';
+$app_list_strings['moduleList']['AOBH_BusinessHours'] = 'Öppettider';
 $app_list_strings['business_hours_list']['0'] = '12am';
 $app_list_strings['business_hours_list']['1'] = '1am';
 $app_list_strings['business_hours_list']['2'] = '2am';
@@ -3647,13 +3647,13 @@ $app_list_strings['business_hours_list']['20'] = '8pm';
 $app_list_strings['business_hours_list']['21'] = '9pm';
 $app_list_strings['business_hours_list']['22'] = '22:00';
 $app_list_strings['business_hours_list']['23'] = '23:00';
-$app_list_strings['day_list']['Monday'] = 'Monday';
-$app_list_strings['day_list']['Tuesday'] = 'Tuesday';
-$app_list_strings['day_list']['Wednesday'] = 'Wednesday';
-$app_list_strings['day_list']['Thursday'] = 'Thursday';
-$app_list_strings['day_list']['Friday'] = 'Friday';
-$app_list_strings['day_list']['Saturday'] = 'Saturday';
-$app_list_strings['day_list']['Sunday'] = 'Sunday';
+$app_list_strings['day_list']['Monday'] = 'Måndag';
+$app_list_strings['day_list']['Tuesday'] = 'Tisdag';
+$app_list_strings['day_list']['Wednesday'] = 'Onsdag';
+$app_list_strings['day_list']['Thursday'] = 'Torsdag';
+$app_list_strings['day_list']['Friday'] = 'Fredag';
+$app_list_strings['day_list']['Saturday'] = 'Lördag';
+$app_list_strings['day_list']['Sunday'] = 'Söndag';
 $app_list_strings['pdf_page_size_dom']['A4'] = 'A4';
 $app_list_strings['pdf_page_size_dom']['Letter'] = 'Brev';
 $app_list_strings['pdf_page_size_dom']['Legal'] = 'Juridisk';
@@ -3666,20 +3666,20 @@ $app_list_strings['moduleList']['Surveys'] = 'Enkäter';
 $app_list_strings['moduleList']['SurveyQuestionResponses'] = 'Svar På Undersökningsfrågor';
 $app_list_strings['moduleList']['SurveyQuestions'] = 'Undersökningsfrågor';
 $app_list_strings['moduleList']['SurveyQuestionOptions'] = 'Val Undersökningsfrågor';
-$app_list_strings['survey_status_list']['Draft'] = 'Draft';
-$app_list_strings['survey_status_list']['Public'] = 'Public';
-$app_list_strings['survey_status_list']['Closed'] = 'Closed';
+$app_list_strings['survey_status_list']['Draft'] = 'Utkast';
+$app_list_strings['survey_status_list']['Public'] = 'Publik';
+$app_list_strings['survey_status_list']['Closed'] = 'Stängd';
 $app_list_strings['surveys_question_type']['Text'] = 'Text';
 $app_list_strings['surveys_question_type']['Textbox'] = 'Textruta';
 $app_list_strings['surveys_question_type']['Checkbox'] = 'Checkruta';
-$app_list_strings['surveys_question_type']['Radio'] = 'Radio';
+$app_list_strings['surveys_question_type']['Radio'] = 'Alternativknappar';
 $app_list_strings['surveys_question_type']['Dropdown'] = 'Nedrullningslista';
 $app_list_strings['surveys_question_type']['Multiselect'] = 'Flerval';
 $app_list_strings['surveys_question_type']['Matrix'] = 'Matris';
 $app_list_strings['surveys_question_type']['DateTime'] = 'DateTime';
-$app_list_strings['surveys_question_type']['Date'] = 'Date';
+$app_list_strings['surveys_question_type']['Date'] = 'Datum';
 $app_list_strings['surveys_question_type']['Scale'] = 'Skala';
-$app_list_strings['surveys_question_type']['Rating'] = 'Rating';
+$app_list_strings['surveys_question_type']['Rating'] = 'Omdöme';
 $app_list_strings['surveys_matrix_options'][0] = 'Nöjd';
 $app_list_strings['surveys_matrix_options'][1] = 'Varken Nöjd eller Missnöjd';
 $app_list_strings['surveys_matrix_options'][2] = 'Missnöjd';
@@ -3691,12 +3691,12 @@ $app_strings['LBL_OPT_IN_PENDING_EMAIL_FAILED'] = 'Bekräfta opt in e-post sänd
 $app_strings['LBL_OPT_IN_PENDING_EMAIL_SENT'] = 'Väntande bekräfta välja i, bekräfta välja i skickat';
 $app_strings['LBL_OPT_IN'] = 'Acceptera';
 $app_strings['LBL_OPT_IN_CONFIRMED'] = 'Bekräftad registrering';
-$app_strings['LBL_OPT_IN_OPT_OUT'] = 'Opted Out';
-$app_strings['LBL_OPT_IN_INVALID'] = 'Invalid';
+$app_strings['LBL_OPT_IN_OPT_OUT'] = 'Avregistrerad';
+$app_strings['LBL_OPT_IN_INVALID'] = 'Ogiltig';
 
 /** @see SugarEmailAddress */
 $app_list_strings['email_settings_opt_in_dom'] = array(
-    'not-opt-in' => 'Disabled',
+    'not-opt-in' => 'Inaktiverad',
     'opt-in' => 'Anmäl dig',
     'confirmed-opt-in' => 'Bekräfta anmälan'
 );
@@ -3730,7 +3730,7 @@ $app_list_strings['oauth2_grant_type_dom'] = array(
 $app_list_strings['oauth2_duration_units'] = [
     'minute' => 'minuter',
     'hour' => 'timmar',
-    'day' => 'days',
+    'day' => 'dagar',
     'week' => 'veckor',
     'month' => 'månader',
 ];
@@ -3742,34 +3742,34 @@ $app_list_strings['search_controllers'] = [
 
 // Calendar Account Types dropdown
 $app_list_strings['calendar_account_types'] = [
-    'personal' => 'Personal',
+    'personal' => 'Personlig',
     'shared' => 'Delad',
-    'group' => 'Group',
+    'group' => 'Grupp',
 ];
 
 // Calendar Connection Status dropdown
 $app_list_strings['calendar_connection_status_list'] = [
-    'never_tested' => 'Never Tested',
+    'never_tested' => 'Aldrig testad',
     'success' => 'Ansluten',
-    'failed' => 'Failed',
+    'failed' => 'Misslyckades',
 ];
 
 // Calendar Sync Attempt Status dropdown
 $app_list_strings['sync_attempt_status_list'] = [
     '' => '',
     'in_progress' => 'Pågående',
-    'success' => 'Success',
+    'success' => 'Lyckades',
     'warning' => 'Varning',
     'error' => 'Fel',
 ];
 
 $app_list_strings['sync_attempt_message_list'] = [
     '' => '',
-    'sync_complete' => 'All meetings synced.',
-    'up_to_date' => 'No new meetings to sync.',
-    'meetings_failed' => 'Some meetings failed to sync. Check logs.',
-    'sync_partial' => 'Some meetings synced. More pending due to limits.',
-    'sync_failed' => 'No meetings synced. Check logs.',
+    'sync_complete' => 'Alla möten har synkroniserats.',
+    'up_to_date' => 'Inga nya möten att synkronisera.',
+    'meetings_failed' => 'Vissa möten kunde inte synkroniseras. Kontrollera loggarna.',
+    'sync_partial' => 'Vissa möten har synkroniserats. Fler väntar på grund av begränsningar.',
+    'sync_failed' => 'Inga möten har synkroniserats. Kontrollera loggarna.',
 ];
 
 $app_strings['LBL_DEFAULT_API_ERROR_TITLE'] = 'JSON API Error';
@@ -3799,16 +3799,16 @@ $app_strings['IMAP_HANDLER_ERROR_NO_TEST_SET'] = 'Testinställningarna finns int
 $app_strings['IMAP_HANDLER_ERROR_NO_KEY'] = 'Nyckeln hittades inte.';
 $app_strings['IMAP_HANDLER_ERROR_KEY_SAVE'] = 'Fel vid sparande av nyckel.';
 $app_strings['IMAP_HANDLER_ERROR_UNKNOWN'] = 'Okänt fel';
-$app_strings['LBL_SEARCH_TITLE']                   = 'Search';
+$app_strings['LBL_SEARCH_TITLE']                   = 'Sök';
 $app_strings['LBL_SEARCH_TEXT_FIELD_TITLE_ATTR']   = 'Ange sökkriterier';
-$app_strings['LBL_SEARCH_SUBMIT_FIELD_TITLE_ATTR'] = 'Search';
-$app_strings['LBL_SEARCH_SUBMIT_FIELD_VALUE']      = 'Search';
+$app_strings['LBL_SEARCH_SUBMIT_FIELD_TITLE_ATTR'] = 'Sök';
+$app_strings['LBL_SEARCH_SUBMIT_FIELD_VALUE']      = 'Sök';
 $app_strings['LBL_SEARCH_QUERY']                   = 'Sökfråga: ';
-$app_strings['LBL_SEARCH_RESULTS_PER_PAGE']        = 'Results per module: ';
+$app_strings['LBL_SEARCH_RESULTS_PER_PAGE']        = 'Resultat per modul: ';
 $app_strings['LBL_SEARCH_ENGINE']                  = 'Motor: ';
 $app_strings['LBL_SEARCH_TOTAL'] = 'Antal resultat: ';
-$app_strings['LBL_SEARCH_PREV'] = 'Previous';
-$app_strings['LBL_SEARCH_NEXT'] = 'Next';
+$app_strings['LBL_SEARCH_PREV'] = 'Föregående';
+$app_strings['LBL_SEARCH_NEXT'] = 'Nästa';
 $app_strings['LBL_SEARCH_PAGE'] = 'Sida ';
 $app_strings['LBL_SEARCH_OF'] = ' av ';
 $app_strings['LBL_USE_ADVANCED_SEARCH'] = 'Använd avancerad sök';
@@ -3823,31 +3823,31 @@ $app_strings['ERR_INVALID_FILE_NAME'] = 'Ogiltigt filnamn:';
 $app_strings['LBL_LOGGER_VALID_FILENAME_CHARACTERS'] = 'Detta kan bara vara alfanumeriska tecken, plus \'.\' , \'-\' och \'_\'';
 $app_strings['LBL_LOGGER_INVALID_FILENAME'] = 'Ogiltigt filnamn för import';
 
-$app_strings['LBL_PASSWORD_SET_NEW_VALUE_TO_RESET'] = 'Password set. Enter value to set new password.';
-$app_strings['LBL_VALUE_SET_PLACEHOLDER'] = 'Value set. Enter new value to override current one.';
+$app_strings['LBL_PASSWORD_SET_NEW_VALUE_TO_RESET'] = 'Lösenordet är angivet. Ange ett värde för att välja ett nytt lösenord.';
+$app_strings['LBL_VALUE_SET_PLACEHOLDER'] = 'Värdet är angivet. Ange ett nytt värde för att ersätta det nuvarande.';
 
-$app_strings['ERR_IMAP_OAUTH_CONNECTION_ERROR'] = 'Not able to connect using OAuth login with Inbound Email server. For connection: ';
-$app_strings['WARN_OAUTH_TOKEN_SESSION_EXPIRED'] = 'Your IMAP OAuth session has expired, please login again in the connection: ';
+$app_strings['ERR_IMAP_OAUTH_CONNECTION_ERROR'] = 'Det går inte att ansluta med OAuth-inloggning till servern för inkommande e-post. För anslutningen: ';
+$app_strings['WARN_OAUTH_TOKEN_SESSION_EXPIRED'] = 'Din IMAP OAuth-session har upphört. Logga in igen i anslutningen: ';
 
-$app_strings['ERR_OAUTH_CONNECTION_ERROR'] = 'Not able to connect using OAuth login. For connection: ';
+$app_strings['ERR_OAUTH_CONNECTION_ERROR'] = 'Det går inte att ansluta med OAuth-inloggning. För anslutningen: ';
 
 $app_strings['LBL_KEY'] = 'Nyckel';
-$app_strings['LBL_VALUE'] = 'Value';
+$app_strings['LBL_VALUE'] = 'Värde';
 $app_strings['LBL_OPTIONAL'] = 'Valfri';
-$app_strings['LBL_OPTIONAL_CONNECTION_STRING'] = 'Optional. Set to use a specific connection string';
-$app_strings['LBL_OUTBOUND_ACCOUNT'] = 'Outbound Account';
-$app_strings['LBL_INBOUND_ACCOUNT'] = 'Inbound Account';
+$app_strings['LBL_OPTIONAL_CONNECTION_STRING'] = 'Valfritt. Ange för att använda en specifik anslutningssträng';
+$app_strings['LBL_OUTBOUND_ACCOUNT'] = 'Utgående konto';
+$app_strings['LBL_INBOUND_ACCOUNT'] = 'Inkommande konto';
 $app_strings['LBL_SYSTEM_ACCOUNT'] = 'Systemkonto';
 $app_strings['LBL_FROM_SYSTEM'] = 'Skicka från system';
 $app_strings['LBL_SIGNATURE'] = 'Signatur';
 
 $app_list_strings['email_import_timeframe_start_dom'] = [
-    '-1 year' => '1 Year',
-    '-6 months' => '6 Months',
-    '-3 months' => '3 Months',
-    '-30 days' => '30 Days',
-    '-15 days' => '15 Days',
-    '-5 days' => '5 Days',
-    '-1 days' => '1 Day',
-    '0 days' => '0 Days',
+    '-1 year' => '1 år',
+    '-6 months' => '6 månader',
+    '-3 months' => '3 månader',
+    '-30 days' => '30 dagar',
+    '-15 days' => '15 dagar',
+    '-5 days' => '5 dagar',
+    '-1 days' => '1 dag',
+    '0 days' => '0 dagar',
 ];
