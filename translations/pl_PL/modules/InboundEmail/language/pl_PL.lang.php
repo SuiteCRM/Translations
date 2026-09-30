@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'Utwórz Szablon Odpowiedzi dla Spraw',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => 'Wybierz automatyczną odpowiedź w celu powiadomienia nadawcy, że sprawa została utworzona. E-mail w temacie zawiera numer sprawy, który przylega do ciągu z ustawienia makro dla spraw. Ta odpowiedź jest wysłana wyłącznie przy pierwszym e-mailu otrzymanym od odbiorcy.',
     'LBL_MAILBOX' => 'Monitorowane foldery',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'Folder kosza',
     'LBL_SENT_FOLDER' => 'Folder wysłane',
     'LBL_SELECT' => 'Wybierz',
