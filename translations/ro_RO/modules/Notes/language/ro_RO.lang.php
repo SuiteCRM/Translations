@@ -56,6 +56,7 @@ $mod_strings = array(
     'LBL_FILE_MIME_TYPE' => 'Tip Mime',
     'LBL_FILE_URL' => 'URL fișier',
     'LBL_FILENAME' => 'Atașament:',
+    'LBL_LEGACY_FILENAME' => 'Legacy Attachment:',
     'LBL_LEAD_ID' => 'ID oportunitate:',
     'LBL_LIST_CONTACT_NAME' => 'Contact',
     'LBL_LIST_DATE_MODIFIED' => 'Modificat ultima dată',
