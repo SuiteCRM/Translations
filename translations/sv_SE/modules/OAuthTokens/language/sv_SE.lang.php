@@ -43,18 +43,18 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_OAUTH_REQUEST' => "Request Token",
-    'LBL_OAUTH_AUTHORIZE' => "Authorize Token",
-    'LBL_OAUTH_CONSUMERREQ' => "Authorize token from consumer <b>%s</b>?",
+    'LBL_OAUTH_REQUEST' => "Begär token",
+    'LBL_OAUTH_AUTHORIZE' => "Auktorisera token",
+    'LBL_OAUTH_CONSUMERREQ' => "Auktorisera token från konsumenten <b>%s</b>?",
     'LBL_ASSIGNED_TO_NAME' => 'Användare',
     'LBL_ID' => 'ID',
     'LBL_STATUS' => 'Status',
     'LBL_TS' => 'Tidsstämpel',
     'LBL_LIST_DELETE' => 'Radera token',
     'LBL_CONSUMER' => 'Konsumentnamn',
-    'LBL_OAUTH_DISABLED' => 'OAuth support not enabled. PHP oauth extension may be missing. Please contact your administrator.',
+    'LBL_OAUTH_DISABLED' => 'OAuth-stöd är inte aktiverat. PHP:s OAuth-tillägg kan saknas. Kontakta administratören.',
 
-    'LBL_TOKEN_TS' => 'Token TS',
+    'LBL_TOKEN_TS' => 'Token-TS',
     'LBL_CALLBACK_URL' => 'Callback-URL',
     'LBL_SECRET' => 'Hemlig',
     'LBL_TSTATE' => 'TState',
