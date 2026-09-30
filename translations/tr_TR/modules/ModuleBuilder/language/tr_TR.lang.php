@@ -541,6 +541,7 @@ $mod_strings = array(
     'LBL_TYPE_BASIC' => 'temel',
     'LBL_TYPE_COMPANY' => 'kuruluş',
     'LBL_TYPE_PERSON' => 'kişi',
+    'LBL_TYPE_ASYNCTASK' => 'Eşitlenmemiş görev',
     'LBL_TYPE_ISSUE' => 'sorun',
     'LBL_TYPE_SALE' => 'satış',
     'LBL_TYPE_FILE' => 'dosya',
