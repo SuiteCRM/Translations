@@ -201,7 +201,7 @@ $app_list_strings = array(
     'lead_source_default_key' => 'Self Generated',
     'lead_source_dom' => array(
         '' => '',
-        'Cold Call' => 'Ointresserad',
+        'Cold Call' => 'Kallsamtal',
         'Existing Customer' => 'Befintlig kund',
         'Self Generated' => 'Självgenererad',
         'Employee' => 'Anställd',
@@ -324,7 +324,7 @@ $app_list_strings = array(
         'Medium' => 'Medel',
         'Low' => 'Låg',
     ),
-    'task_status_default' => 'Ej Startad',
+    'task_status_default' => 'Not Started',
     'task_status_dom' => array(
         'Not Started' => 'Inte påbörjad',
         'In Progress' => 'Under Pågående',
