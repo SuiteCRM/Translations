@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => '新建客户反馈回复模板',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => '选择客户反馈创建时的自动告知电子邮件的发件人。邮件中将包含客户反馈号。只有当第一次收到收件人的邮件时才会创建这个邮件。',
     'LBL_MAILBOX' => '已监控的文件夹',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => '垃圾箱',
     'LBL_SENT_FOLDER' => '已发送',
     'LBL_SELECT' => '选择',
