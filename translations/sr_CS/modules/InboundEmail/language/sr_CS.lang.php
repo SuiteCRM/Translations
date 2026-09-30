@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'Kreiraj šablon odgovora za slučaj',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => 'Izaberite automatski odgovor da obavesti po pošiljaoce elektonske pošte koji obaveštava da je slučaj kreiran. Tema elektonske poruke sadrži broj korisničkog slučaja u Temi koja se pridržava Case Macro podešavanja. Ovaj odgovor se šalje samo kada je primljena prva elektronska poruka od pošiljaoca.',
     'LBL_MAILBOX' => 'Nadgledane fascikle',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'Folder za otpatke',
     'LBL_SENT_FOLDER' => 'Fascikla za poslate',
     'LBL_SELECT' => 'Select',
