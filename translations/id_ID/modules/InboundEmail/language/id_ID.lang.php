@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'Buat Template Auto Reply untuk Kasus',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => 'Pilih respons otomatis memberitahukan pengirim email bahwa kasus telah dibuat. Email berisi jumlah kasus di baris subjek yang mematuhi Pengaturan makro kasus. Respon ini hanya akan dikirim ketika email pertama diterima dari penerima.',
     'LBL_MAILBOX' => 'Folder yang Dimonitor',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'Folder Trash',
     'LBL_SENT_FOLDER' => 'Folder terkirim',
     'LBL_SELECT' => 'Select',
