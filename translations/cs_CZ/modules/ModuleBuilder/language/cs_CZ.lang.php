@@ -549,6 +549,7 @@ Po nasazení modulu, nově vytvořená pole v modulu Builder spolu s políčky �
     'LBL_TYPE_BASIC' => 'základní',
     'LBL_TYPE_COMPANY' => 'společnost',
     'LBL_TYPE_PERSON' => 'osoba',
+    'LBL_TYPE_ASYNCTASK' => 'Async Task',
     'LBL_TYPE_ISSUE' => 'problém',
     'LBL_TYPE_SALE' => 'prodej',
     'LBL_TYPE_FILE' => 'soubor',
