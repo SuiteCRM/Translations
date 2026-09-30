@@ -49,10 +49,10 @@ $mod_strings = array(
     'LBL_TRACKER_NAME' => 'Trackernamn',
     'LBL_CAMPAIGN_ID' => 'Kampanj-ID',
     'LBL_DATE_ENTERED' => 'Date Entered',
-    'LBL_DATE_MODIFIED' => 'Date Modified',
+    'LBL_DATE_MODIFIED' => 'Ändringsdatum',
     'LBL_MODIFIED_USER_ID' => 'Ändrad av',
-    'LBL_CREATED_BY' => 'Created By',
-    'LBL_DELETED' => 'Deleted',
+    'LBL_CREATED_BY' => 'Skapad av',
+    'LBL_DELETED' => 'Borttagen',
     'LBL_CAMPAIGN' => 'Campaign',
     'LBL_OPTOUT' => 'Opt-out',
 
