@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'Șablon auto-răspuns pentru Caz Nou',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => 'Selectați un răspuns automat pentru a notifica expeditorii de e-mail că a fost creat un caz. E-mailul conține numărul de caz din linia Subiect care aderă la setarea macro-ului de caz. Acest răspuns este trimis numai atunci când primul e-mail este primit de la destinatar.',
     'LBL_MAILBOX' => 'Directoare Monitorizate',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'Director Gunoi',
     'LBL_SENT_FOLDER' => 'Director Expediate',
     'LBL_SELECT' => 'Selectare',
