@@ -541,6 +541,7 @@ $mod_strings = array(
     'LBL_TYPE_BASIC' => 'básico',
     'LBL_TYPE_COMPANY' => 'empresa',
     'LBL_TYPE_PERSON' => 'persona',
+    'LBL_TYPE_ASYNCTASK' => 'Async Task',
     'LBL_TYPE_ISSUE' => 'problema',
     'LBL_TYPE_SALE' => 'venta',
     'LBL_TYPE_FILE' => 'archivo',
