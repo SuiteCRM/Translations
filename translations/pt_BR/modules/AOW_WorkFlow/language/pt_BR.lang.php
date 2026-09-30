@@ -77,5 +77,6 @@ $mod_strings = array(
     'LBL_ADD_ACTION' => 'Adicionar Ação',
     'LBL_MULTIPLE_RUNS' => 'Execuções Recorrentes',
     'LBL_RUN_WHEN' => 'Executar',
-    'LBL_RUN_ON_IMPORT' => 'Executar na Importação'
+    'LBL_RUN_ON_IMPORT' => 'Executar na Importação',
+    'LBL_ACTION_NAME_NOT_ALLOWED' => 'Action name not allowed.',
 );
