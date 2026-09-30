@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'Opprett svar-mal til saker',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => 'Velg et automatisk svar for å varsle e-post avsendere at en sak har blitt opprettet. E-posten inneholder saksnummer i emnelinjen i henhold til Case Macro innstillingen. Dette svaret sendes bare når den første e-posten er mottatt.',
     'LBL_MAILBOX' => 'Overvåket mappe',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'Søppelkasse',
     'LBL_SENT_FOLDER' => 'Sendte mapper',
     'LBL_SELECT' => 'Select',
