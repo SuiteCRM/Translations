@@ -1748,7 +1748,7 @@ $app_strings = array(
     'LBL_DISMISS' => 'Renunță',
     'LBL_DISMISS_INLINE_CONFIRM' => 'Renunți?',
     'LBL_DISMISS_ALL_INLINE_CONFIRM' => 'Anulează tot?',
-    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Dismiss all drafts?',
+    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Dismiss all?',
     'NTC_DISMISS_CONFIRMATION' => 'Sunteți sigur ca vreți sa dezactivați aceasta alerta?',
     'NTC_DISMISS_ALL_CONFIRMATION' => 'Sunteți sigur ca vreți sa dezactivați toate alertele?',
     'LBL_ALERT_DISMISS_SUCCESS' => 'Alerta s-a dezactivat cu succes',
@@ -4506,3 +4506,7 @@ $app_list_strings['email_import_timeframe_start_dom'] = [
 ];
 
 $app_strings['LBL_NOT_AUTHORIZED'] = 'Not authorized';
+
+$app_strings['LBL_AUTOFILL_MISSING_RELATE_MODULE'] = 'Autofill failed: related module is not configured.';
+$app_strings['LBL_AUTOFILL_MISSING_RELATE_ID'] = 'Autofill failed: no related record selected.';
+$app_strings['LBL_AUTOFILL_MISSING_UPDATE_FIELDS'] = 'Autofill failed: no fields configured for update.';
