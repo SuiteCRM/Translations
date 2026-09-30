@@ -117,7 +117,7 @@ $app_list_strings = array(
         'Home' => 'Hem',
         'Dashboard' => 'Kontrollpanel',
         'Contacts' => 'Kontakt',
-        'Accounts' => 'Konto',
+        'Accounts' => 'Företag',
         'Opportunities' => 'Affärer',
         'Cases' => 'Ärenden',
         'Notes' => 'Anteckning',
@@ -162,7 +162,7 @@ $app_list_strings = array(
         'Investor' => 'Investerare',
         'Partner' => 'Partner',
         'Press' => 'Press',
-        'Prospect' => 'Prospekt',
+        'Prospect' => 'Utsikt',
         'Reseller' => 'Återförsäljare',
         'Other' => 'Annat',
     ),
@@ -200,7 +200,7 @@ $app_list_strings = array(
         'Utilities' => 'Verktyg',
         'Other' => 'Annat',
     ),
-    'lead_source_default_key' => 'Självgenererad',
+    'lead_source_default_key' => 'Self Generated',
     'lead_source_dom' => array(
         '' => '',
         'Cold Call' => 'Ointresserad',
@@ -478,7 +478,7 @@ $app_list_strings = array(
 
     // Note:  do not translate record_type_default_key
     //        it is the key for the default record_type_module value
-    'record_type_default_key' => 'Företag',
+    'record_type_default_key' => 'Accounts',
     'record_type_display' => array(
         '' => '',
         'Accounts' => 'Företag',
@@ -520,7 +520,7 @@ $app_list_strings = array(
         'Meetings' => 'Möte',
         'Calls' => 'Samtal',
 
-        'AOS_Contracts' => 'Avtal',
+        'AOS_Contracts' => 'Kontrakt',
         'AOS_Invoices' => 'Faktura',
         'AOS_Quotes' => 'Offert',
         'AOS_Products' => 'Produkt',
@@ -541,7 +541,7 @@ $app_list_strings = array(
 
         'Prospects' => 'Mål',
 
-        'AOS_Contracts' => 'Avtal',
+        'AOS_Contracts' => 'Kontrakt',
         'AOS_Invoices' => 'Faktura',
         'AOS_Quotes' => 'Offert',
         'AOS_Products' => 'Produkt',
@@ -552,7 +552,7 @@ $app_list_strings = array(
         'AOS_Invoices' => 'Fakturor',
         'AOS_Contracts' => 'Kontrakt',
     ),
-    'issue_priority_default_key' => 'Medel',
+    'issue_priority_default_key' => 'Medium',
     'issue_priority_dom' => array(
         'Urgent' => 'Akut',
         'High' => 'Hög',
@@ -569,7 +569,7 @@ $app_list_strings = array(
         'Invalid' => 'Ogiltig',
     ),
 
-    'issue_status_default_key' => 'Ny',
+    'issue_status_default_key' => 'New',
     'issue_status_dom' => array(
         'New' => 'Ny',
         'Assigned' => 'Tilldelad',
@@ -578,7 +578,7 @@ $app_list_strings = array(
         'Rejected' => 'Avvisad',
     ),
 
-    'bug_priority_default_key' => 'Medel',
+    'bug_priority_default_key' => 'Medium',
     'bug_priority_dom' => array(
         'Urgent' => 'Brådskande',
         'High' => 'Hög',
@@ -1622,7 +1622,7 @@ $app_strings = array(
     'LBL_QUICK_CHARTS' => 'Snabbdiagram',
     'LBL_QUICK_HISTORY' => 'Tidslinje',
     'LBL_CHECKALL' => 'Kontrollera alla',
-    'LBL_CITY' => 'Stad',
+    'LBL_CITY' => 'Ort',
     'LBL_CLEAR_BUTTON_LABEL' => 'Rensa',
     'LBL_CLEAR_BUTTON_TITLE' => 'Rensa',
     'LBL_CLEARALL' => 'Rensa alla',
@@ -1796,11 +1796,11 @@ $app_strings = array(
     'LBL_PERCENTAGE_SYMBOL' => '%',
     'LBL_POSTAL_CODE' => 'Postnummer:',
     'LBL_PRIMARY_ADDRESS_CITY' => 'Primär adress Ort:',
-    'LBL_PRIMARY_ADDRESS_COUNTRY' => 'Primär Landsadress:',
+    'LBL_PRIMARY_ADDRESS_COUNTRY' => 'Primär adress, land:',
     'LBL_PRIMARY_ADDRESS_POSTALCODE' => 'Primär adress Postnummer:',
     'LBL_PRIMARY_ADDRESS_STATE' => 'Primär adress Landskap:',
-    'LBL_PRIMARY_ADDRESS_STREET_2' => 'Primär adress Gatuvägen 2:',
-    'LBL_PRIMARY_ADDRESS_STREET_3' => 'Primär adress Gatuvägen 3:',
+    'LBL_PRIMARY_ADDRESS_STREET_2' => 'Primär adress, gata 2:',
+    'LBL_PRIMARY_ADDRESS_STREET_3' => 'Primär adress, gata 3:',
     'LBL_PRIMARY_ADDRESS_STREET' => 'Primär adress Gata/Väg:',
     'LBL_PRIMARY_ADDRESS' => 'Primär Address:',
 
@@ -3236,18 +3236,18 @@ $app_list_strings['fp_event_status_dom']['Accepted'] = 'Accepterad';
 $app_list_strings['fp_event_status_dom']['Declined'] = 'Avböjd';
 $app_list_strings['fp_event_status_dom']['No Response'] = 'Inget svar';
 
-$app_strings['LBL_STATUS_EVENT'] = 'Bjuda in Status';
+$app_strings['LBL_STATUS_EVENT'] = 'Inbjudningsstatus';
 $app_strings['LBL_ACCEPT_STATUS'] = 'Acceptera status';
 $app_strings['LBL_LISTVIEW_OPTION_CURRENT'] = 'Den här sidan';
 $app_strings['LBL_LISTVIEW_OPTION_ENTIRE'] = 'Alla poster';
 $app_strings['LBL_LISTVIEW_NONE'] = 'Ingen';
 
-$app_list_strings['moduleList']['AOP_Case_Events'] = 'Händelse event';
+$app_list_strings['moduleList']['AOP_Case_Events'] = 'Ärendehändelser';
 $app_list_strings['moduleList']['AOP_Case_Updates'] = 'Händelse uppdatering';
 $app_strings['LBL_AOP_EMAIL_REPLY_DELIMITER'] = '=== Vänligen svara ovanför raden ===';
 
 //aop
-$app_list_strings['case_state_default_key'] = 'Öppet';
+$app_list_strings['case_state_default_key'] = 'Open';
 $app_list_strings['case_state_dom'] =
     array(
         'Open' => 'Öppna',
@@ -3383,7 +3383,7 @@ $app_list_strings['moduleList']['AOS_Invoices'] = 'Fakturor';
 $app_list_strings['moduleList']['AOS_PDF_Templates'] = 'PDF - mallar';
 $app_list_strings['moduleList']['AOS_Product_Categories'] = 'Produkter - Kategorier';
 $app_list_strings['moduleList']['AOS_Products'] = 'Produkter';
-$app_list_strings['moduleList']['AOS_Products_Quotes'] = 'Line Items';
+$app_list_strings['moduleList']['AOS_Products_Quotes'] = 'Radposter';
 $app_list_strings['moduleList']['AOS_Line_Item_Groups'] = 'Artikelgrupper';
 $app_list_strings['moduleList']['AOS_Quotes'] = 'Offerter';
 $app_list_strings['aos_quotes_type_dom'][''] = '';
@@ -4147,7 +4147,7 @@ $app_strings['LBL_HISTORY_LAST_DATE'] = 'Senaste interaktion';
 $app_strings['LBL_OPPORTUNITIES_TOTAL_SUM'] = 'Totalt värde';
 $app_strings['LBL_QUOTES_EXPIRY'] = 'Nästa förfallodatum';
 $app_strings['LBL_DEFAULT_TOTAL'] = 'Summa';
-$app_strings['AOS_Contracts'] = 'Avtal';
+$app_strings['AOS_Contracts'] = 'Kontrakt';
 $app_strings['AOS_Quotes'] = 'Offerter';
 $app_strings['AOS_Invoices'] = 'Fakturor';
 $app_strings['LBL_PHOTO'] = 'Foto';
