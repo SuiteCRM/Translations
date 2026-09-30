@@ -132,10 +132,10 @@ $mod_strings = array(
     'NTC_LIST_ORDER' => 'Sätt ordningen för hur schemaläggningen ska visas i dropdownmenyn över schemaläggning',
     'LBL_CRON_INSTRUCTIONS_WINDOWS' => 'Sätta upp windows schemaläggare',
     'LBL_CRON_INSTRUCTIONS_LINUX' => 'Sätt upp crontab',
-    'LBL_CRON_LINUX_DESC1' => 'In order to run SuiteCRM Schedulers, edit your web server user\'s crontab file with this command:',
-    'LBL_CRON_LINUX_DESC2' => '... and add the following line to the crontab file:',
-    'LBL_CRON_LINUX_DESC3' => 'You should do this only after the installation is concluded.',
-    'LBL_CRON_WINDOWS_DESC' => 'In order to run the SuiteCRM schedulers, create a batch file to run using Windows Scheduled Tasks. The batch file should include the following commands:',
+    'LBL_CRON_LINUX_DESC1' => 'För att köra SuiteCRM-schemaläggarna redigerar du crontab-filen för webbserveranvändaren med följande kommando:',
+    'LBL_CRON_LINUX_DESC2' => 'och lägger till följande rad i crontab-filen:',
+    'LBL_CRON_LINUX_DESC3' => 'Detta bör endast göras när installationen är klar.',
+    'LBL_CRON_WINDOWS_DESC' => 'För att köra SuiteCRM schemaläggare, skapa en batch-fil att köra med Windows Schemaläggaren. Batch-filen bör innehålla följande kommandon:',
 // Subpanels
     'LBL_JOBS_SUBPANEL_TITLE' => 'Jobblogg',
     'LBL_EXECUTE_TIME' => 'Exekveringstid',
@@ -158,7 +158,7 @@ $mod_strings = array(
     'LBL_AODINDEXUNINDEXED' => 'Index unindexed documents',
     'LBL_POLLMONITOREDINBOXESAOP' => 'AOP Poll Monitored Inboxes',
     'LBL_AORRUNSCHEDULEDREPORTS' => 'Run scheduled reports',
-    'LBL_PROCESSAOW_WORKFLOW' => 'Process AOW Workflow',
+    'LBL_PROCESSAOW_WORKFLOW' => 'Bearbeta AOW-arbetsflöde',
 
     'LBL_RUNELASTICSEARCHINDEXERSCHEDULER' => 'Elasticsearch indexer',
     'LBL_CALENDARSYNCJOB' => 'Sync Calendar Accounts',
