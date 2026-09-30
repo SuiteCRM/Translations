@@ -67,7 +67,7 @@ $mod_strings = array(
     'LNK_LIST' => 'Visa platser',
     'LBL_SEARCH_FORM_TITLE' => 'Sök platser',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Visa historik',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Aktiviteter',
     'LBL_NEW_FORM_TITLE' => 'Nya platser',
     'LBL_ADDRESS' => 'Adress',
     'LBL_ADDRESS_CITY' => 'Stad',
@@ -76,5 +76,5 @@ $mod_strings = array(
     'LBL_ADDRESS_STATE' => 'Kommun',
     'LBL_CAPACITY' => 'Kapacitet',
     'LBL_EDITVIEW_PANEL1' => 'Adress',
-    'LBL_FP_EVENT_LOCATIONS_FP_EVENTS_1_FROM_FP_EVENTS_TITLE' => 'Events',
+    'LBL_FP_EVENT_LOCATIONS_FP_EVENTS_1_FROM_FP_EVENTS_TITLE' => 'Händelser',
 );
