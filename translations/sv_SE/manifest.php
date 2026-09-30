@@ -7,9 +7,9 @@
 
 $manifest = array(
     'name' => 'Swedish (Sweden)',
-    'description' => 'Translation: crowdin.com/project/suitecrmtranslations',
+    'description' => 'Översättning: crowdin.com/project/suitecrmtranslations',
     'type' => 'langpack',
-    'is_uninstallable' => 'Ja',
+    'is_uninstallable' => 'Yes',
     'author' => 'SuiteCRM Community',
     'version' => '8.9-1',
     'published_date' => '2026-01-16',
