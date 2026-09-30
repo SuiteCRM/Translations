@@ -548,6 +548,7 @@ Puoi riordinare i moduli trascinandone le righe nella tabella.<br/><br/>
     'LBL_TYPE_BASIC' => 'base',
     'LBL_TYPE_COMPANY' => 'azienda',
     'LBL_TYPE_PERSON' => 'persona',
+    'LBL_TYPE_ASYNCTASK' => 'Async Task',
     'LBL_TYPE_ISSUE' => 'problema',
     'LBL_TYPE_SALE' => 'vendita',
     'LBL_TYPE_FILE' => 'file',
