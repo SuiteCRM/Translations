@@ -1748,7 +1748,7 @@ $app_strings = array(
     'LBL_DISMISS' => 'बर्खास्त करें',
     'LBL_DISMISS_INLINE_CONFIRM' => 'बर्खास्त करें?',
     'LBL_DISMISS_ALL_INLINE_CONFIRM' => 'सभी को ख़ारिज करें?',
-    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'क्या सभी ड्राफ्ट खारिज कर दिए जाएं?',
+    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Dismiss all?',
     'NTC_DISMISS_CONFIRMATION' => 'क्या आप वाकई इस अलर्ट को ख़ारिज करना चाहते हैं?',
     'NTC_DISMISS_ALL_CONFIRMATION' => 'क्या आप वाकई सभी अलर्ट ख़ारिज करना चाहते हैं?',
     'LBL_ALERT_DISMISS_SUCCESS' => 'अलर्ट सफलतापूर्वक खारिज किया गया',
@@ -4491,3 +4491,7 @@ $app_list_strings['email_import_timeframe_start_dom'] = [
 ];
 
 $app_strings['LBL_NOT_AUTHORIZED'] = 'अधिकृत नहीं हैं';
+
+$app_strings['LBL_AUTOFILL_MISSING_RELATE_MODULE'] = 'Autofill failed: related module is not configured.';
+$app_strings['LBL_AUTOFILL_MISSING_RELATE_ID'] = 'Autofill failed: no related record selected.';
+$app_strings['LBL_AUTOFILL_MISSING_UPDATE_FIELDS'] = 'Autofill failed: no fields configured for update.';
