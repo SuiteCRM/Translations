@@ -77,5 +77,6 @@ $mod_strings = array(
     'LBL_ADD_ACTION' => 'Pridať akciu',
     'LBL_MULTIPLE_RUNS' => 'Opakované behy',
     'LBL_RUN_WHEN' => 'Spustiť',
-    'LBL_RUN_ON_IMPORT' => 'Run on Import'
+    'LBL_RUN_ON_IMPORT' => 'Run on Import',
+    'LBL_ACTION_NAME_NOT_ALLOWED' => 'Action name not allowed.',
 );
