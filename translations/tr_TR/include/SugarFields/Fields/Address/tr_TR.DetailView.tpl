@@ -4,8 +4,8 @@
  * SugarCRM Community Edition, bir müşteri ilişkileri yönetimi programıdır ve şu kuruluş tarafından geliştirilmektedir:
  * SugarCRM, Inc. Telif Hakkı (C) 2004-2013 SugarCRM Inc.
  *
- * SuiteCRM, SuiteCRM Ltd. tarafından geliştirilen bir SugarCRM Community Edition eklentisidir.
- * Telif Hakkı (C) 2011 - 2025 SuiteCRM Ltd.
+ * SuiteCRM, SalesAgility Ltd. tarafından geliştirilen bir SugarCRM Community Edition eklentisidir.
+ * Telif Hakkı (C) 2011 - 2019 SalesAgility Ltd.
  *
  * Bu program ücretsiz bir yazılımdır. Yeniden dağıtabilir ve/veya
  * Özgür Yazılım Vakfı tarafından yayınlanmış GNU Affero Genel Kamu Lisansı
