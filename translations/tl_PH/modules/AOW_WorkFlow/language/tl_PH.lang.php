@@ -77,5 +77,6 @@ $mod_strings = array(
     'LBL_ADD_ACTION' => 'Magdagdag ng aksyon',
     'LBL_MULTIPLE_RUNS' => 'Paulit ulit na mga takbo',
     'LBL_RUN_WHEN' => 'Patakbuhin',
-    'LBL_RUN_ON_IMPORT' => 'Run on Import'
+    'LBL_RUN_ON_IMPORT' => 'Run on Import',
+    'LBL_ACTION_NAME_NOT_ALLOWED' => 'Action name not allowed.',
 );
