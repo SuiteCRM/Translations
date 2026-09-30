@@ -77,5 +77,6 @@ $mod_strings = array(
     'LBL_ADD_ACTION' => 'İşlem ekle',
     'LBL_MULTIPLE_RUNS' => 'Yinelenen yürütmeler',
     'LBL_RUN_WHEN' => 'Yürüt',
-    'LBL_RUN_ON_IMPORT' => 'İçe aktarılırken yürütülsün'
+    'LBL_RUN_ON_IMPORT' => 'İçe aktarılırken yürütülsün',
+    'LBL_ACTION_NAME_NOT_ALLOWED' => 'Action name not allowed.',
 );
