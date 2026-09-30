@@ -44,9 +44,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_MODULE_TITLE' => 'Mina sparade filter',
-    'LBL_SEARCH_FORM_TITLE' => 'My Saved Filters : Filter',
+    'LBL_SEARCH_FORM_TITLE' => 'Mina sparade filter: Filter',
     'LBL_LIST_FORM_TITLE' => 'My Saved Filters List',
-    'LBL_DELETE_CONFIRM' => 'Are you sure you want to delete the selected Saved Filter?',
+    'LBL_DELETE_CONFIRM' => 'Vill du ta bort det markerade sparade filtret?',
     'LBL_DELETE_BUTTON_TITLE' => 'Ta bort detta sparade filter',
     'LBL_SAVE_BUTTON_TITLE' => 'Spara det aktuella filtret',
     'LBL_LIST_NAME' => 'Namn',
@@ -58,6 +58,6 @@ $mod_strings = array(
     'LBL_DESCENDING' => 'Descending',
     'LBL_MODIFY_CURRENT_FILTER' => 'Modify current filter',
 
-    'LBL_CREATED_BY' => 'Created By',
+    'LBL_CREATED_BY' => 'Skapad av',
 
 );
