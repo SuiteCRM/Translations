@@ -1748,7 +1748,7 @@ $app_strings = array(
     'LBL_DISMISS' => 'Verwerfen',
     'LBL_DISMISS_INLINE_CONFIRM' => 'Verwerfen?',
     'LBL_DISMISS_ALL_INLINE_CONFIRM' => 'Alles verwerfen?',
-    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Dismiss all drafts?',
+    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Dismiss all?',
     'NTC_DISMISS_CONFIRMATION' => 'Sind Sie sicher, dass Sie diese Benachrichtigung verwerfen möchten?',
     'NTC_DISMISS_ALL_CONFIRMATION' => 'Sind Sie sicher, dass Sie alle Benachrichtigungen verwerfen möchten?',
     'LBL_ALERT_DISMISS_SUCCESS' => 'Alarm erfolgreich verworfen',
@@ -4499,3 +4499,7 @@ $app_list_strings['email_import_timeframe_start_dom'] = [
 ];
 
 $app_strings['LBL_NOT_AUTHORIZED'] = 'Not authorized';
+
+$app_strings['LBL_AUTOFILL_MISSING_RELATE_MODULE'] = 'Autofill failed: related module is not configured.';
+$app_strings['LBL_AUTOFILL_MISSING_RELATE_ID'] = 'Autofill failed: no related record selected.';
+$app_strings['LBL_AUTOFILL_MISSING_UPDATE_FIELDS'] = 'Autofill failed: no fields configured for update.';
