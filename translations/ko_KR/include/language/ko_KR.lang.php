@@ -1748,7 +1748,7 @@ $app_strings = array(
     'LBL_DISMISS' => '알림 해제',
     'LBL_DISMISS_INLINE_CONFIRM' => '알림 해제?',
     'LBL_DISMISS_ALL_INLINE_CONFIRM' => '모든 알림 해제?',
-    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Dismiss all drafts?',
+    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Dismiss all?',
     'NTC_DISMISS_CONFIRMATION' => '이 알림을 해제하시겠습니까?',
     'NTC_DISMISS_ALL_CONFIRMATION' => '모든 알림을 해제하시겠습니까?',
     'LBL_ALERT_DISMISS_SUCCESS' => '알림이 성공적으로 해제되었습니다',
@@ -4510,3 +4510,7 @@ $app_list_strings['email_import_timeframe_start_dom'] = [
 ];
 
 $app_strings['LBL_NOT_AUTHORIZED'] = 'Not authorized';
+
+$app_strings['LBL_AUTOFILL_MISSING_RELATE_MODULE'] = 'Autofill failed: related module is not configured.';
+$app_strings['LBL_AUTOFILL_MISSING_RELATE_ID'] = 'Autofill failed: no related record selected.';
+$app_strings['LBL_AUTOFILL_MISSING_UPDATE_FIELDS'] = 'Autofill failed: no fields configured for update.';
