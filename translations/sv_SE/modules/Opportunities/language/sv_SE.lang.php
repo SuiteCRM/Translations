@@ -107,6 +107,6 @@ $mod_strings = array(
 
     // SNIP
 
-    'LBL_AOS_CONTRACTS' => 'Avtal',
+    'LBL_AOS_CONTRACTS' => 'Kontrakt',
     'LBL_AOS_QUOTES' => 'Offerter',
 );
