@@ -46,7 +46,7 @@ $mod_strings = array(
     //module
     'LBL_MODULE_NAME' => 'Dokumentrevision',
 
-    'LNK_NEW_DOCUMENT' => 'Create Document',
+    'LNK_NEW_DOCUMENT' => 'Skapa dokument',
     'LNK_DOCUMENT_LIST' => 'Dokumentlista',
 
     //vardef labels
@@ -67,12 +67,12 @@ $mod_strings = array(
     //document revisions.
     'LBL_REV_LIST_REVISION' => 'Revision',
     'LBL_REV_LIST_ENTERED' => 'Datum Skapat',
-    'LBL_REV_LIST_CREATED' => 'Created by',
+    'LBL_REV_LIST_CREATED' => 'Skapad av',
     'LBL_REV_LIST_LOG' => 'Change Log',
     'LBL_REV_LIST_FILENAME' => 'File',
 
     'LBL_CURRENT_DOC_VERSION' => 'Senaste revision:',
-    'LBL_SEARCH_FORM_TITLE' => 'Document Search',
+    'LBL_SEARCH_FORM_TITLE' => 'Dokumentsökning',
     'LBL_REVISIONS' => 'Versioner',
 
     //error messages
@@ -85,5 +85,5 @@ $mod_strings = array(
     'LBL_DOC_TYPE' => 'Källa',
     'LBL_DOC_URL' => 'Document Source URL',
 
-    'LBL_CREATED_BY_NAME' => 'Created by Name',
+    'LBL_CREATED_BY_NAME' => 'Skapad av namn',
 );
