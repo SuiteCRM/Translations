@@ -62,7 +62,7 @@ $mod_strings = array(
     'LBL_CASE_MACRO_DESC' => 'Set the macro which will be parsed and used to link imported email to a Case.',
     'LBL_CASE_MACRO_DESC2' => 'Set this to any value, but preserve the <b>"%1"</b>.',
     'LBL_CLOSE_POPUP' => 'Stäng fönster',
-    'LBL_CREATE_TEMPLATE' => 'Create',
+    'LBL_CREATE_TEMPLATE' => 'Skapa',
     'LBL_DELETE_SEEN' => 'Ta bort lästa Email efter import',
     'LBL_EDIT_TEMPLATE' => 'Redigera',
     'LBL_EMAIL_OPTIONS' => 'Val för E-posthantering',
@@ -101,7 +101,7 @@ $mod_strings = array(
     'LBL_MAX_AUTO_REPLIES_DESC' => 'Sätt maximalt antal av auto-respons för att sända till en unik e-post adress under en 24 timmars period.',
     'LBL_PERSONAL_MODULE_NAME' => 'Personligt Mail Konto',
     'LBL_CREATE_CASE' => 'Skapa ärende från epost',
-    'LBL_CREATE_CASE_HELP' => 'Select to automatically create case records in SuiteCRM from incoming emails.',
+    'LBL_CREATE_CASE_HELP' => 'Välj detta för att automatiskt skapa ärendeposter i SuiteCRM från inkommande e-postmeddelanden.',
     'LBL_MODULE_NAME' => 'Group Mail Account',
     'LBL_BOUNCE_MODULE_NAME' => 'Brevlåda för studsade epost meddelanden',
     'LBL_MODULE_TITLE' => 'Inbound Email',
@@ -140,8 +140,8 @@ $mod_strings = array(
     'LBL_WARN_IMAP' => 'Varningar:',
     'LBL_WARN_NO_IMAP' => 'Inkommande E-post <b>kan inte</b> fungera utan IMAPs c-client libraries aktiverade/kompilerade tillsammans med PHP-modulen. Kontakta din administratör för att lösa detta.',
 
-    'LNK_LIST_CREATE_NEW_PERSONAL' => 'New Personal Inbound Email Account',
-    'LNK_LIST_CREATE_NEW_GROUP' => 'New Group Inbound Email Account',
+    'LNK_LIST_CREATE_NEW_PERSONAL' => 'Nytt personligt konto för inkommande e-post',
+    'LNK_LIST_CREATE_NEW_GROUP' => 'Nytt gruppkoto för inkommande e-post',
     'LNK_LIST_CREATE_NEW_CASES_TYPE' => 'New Case Handling Email Account',
     'LNK_LIST_CREATE_NEW_BOUNCE' => 'New Bounce Handling Email Account',
     'LNK_LIST_MAILBOXES' => 'Inbound Email Accounts',
@@ -171,7 +171,7 @@ $mod_strings = array(
     'LBL_EDIT_LAYOUT' => 'Redigera layout' /*for 508 compliance fix*/,
     'LBL_TYPE_DIFFERENT' => 'External OAuth Connection type must be the SAME as the Inbound Email Account type',
 
-    'LBL_MODIFIED_BY' => 'Modified By',
+    'LBL_MODIFIED_BY' => 'Ändrad av',
     'LBL_SERVICE' => 'Tjänst',
     'LBL_STORED_OPTIONS' => 'Lagrade alternativ',
     'LBL_GROUP_ID' => 'Grupp-ID',
@@ -220,7 +220,7 @@ $mod_strings = array(
 
     'LBL_SET_AS_DEFAULT_BUTTON' => 'Set as default',
 
-    'LBL_MOVE_MESSAGES_TO_TRASH_AFTER_IMPORT' => 'Move Messages To Trash After Import?',
+    'LBL_MOVE_MESSAGES_TO_TRASH_AFTER_IMPORT' => 'Flytta meddelanden till papperskorgen efter import?',
     'LBL_LAST_IMPORT_RUN_DATETIME' => 'Last Import Run Date/Time',
     'LBL_MAILBOX_LAST_IMPORTED_DAYS' => 'Last Imported Date Per Mailbox',
     'LBL_EMAIL_IMPORT_PER_RUN_THRESHOLD' => 'Emails to Import Per Run',
