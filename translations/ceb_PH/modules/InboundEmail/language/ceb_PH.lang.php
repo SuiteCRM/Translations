@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'Bag-o nga Template sa Kaso sa Awto-Reply',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => 'Pagpili ug usa ka awtomatikong tubag aron sa pagpahibalo sa mga nagpadala sa email nga ang kaso nabuhat na. Ang email naglangkob ug numero sa kaso sa linya sa gihisgutan nga nagsunod sa Kaso sa Makro nga pagpahimutang. Kini nga tubag gipadala lamang kung ang unang email nadawat na gikan sa modawat.',
     'LBL_MAILBOX' => 'Ginabantayang mga Polder',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'Polder sa Basura',
     'LBL_SENT_FOLDER' => 'Polder sa Napadala',
     'LBL_SELECT' => 'Pili',
