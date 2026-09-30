@@ -543,6 +543,7 @@ Vostè pot construir els mòduls d'aquest paquet en etapes, i publicar o despleg
     'LBL_TYPE_BASIC' => 'bàsica',
     'LBL_TYPE_COMPANY' => 'Empresa',
     'LBL_TYPE_PERSON' => 'persona',
+    'LBL_TYPE_ASYNCTASK' => 'Async Task',
     'LBL_TYPE_ISSUE' => 'assumpte',
     'LBL_TYPE_SALE' => 'venda',
     'LBL_TYPE_FILE' => 'fitxer',
