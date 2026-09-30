@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_CONSKEY' => 'Consumer Key',
+    'LBL_CONSKEY' => 'Konsumentnyckel',
     'LBL_CONSSECRET' => 'Konsumenthemlighet',
     'LBL_ASSIGNED_TO_ID' => 'Tilldelat användar-id',
     'LBL_ASSIGNED_TO_NAME' => 'Användare',
@@ -57,7 +57,7 @@ $mod_strings = array(
     'LBL_CREATED_ID' => 'Skapad av ID',
     'LBL_DESCRIPTION' => 'Beskrivning',
     'LBL_DELETED' => 'Borttagen',
-    'LBL_NAME' => 'Consumer Key Name',
+    'LBL_NAME' => 'Namn på konsumentnyckel',
     'LBL_CREATED_USER' => 'Skapad av användare',
     'LBL_MODIFIED_USER' => 'Ändrad av användare',
     'LBL_LIST_NAME' => 'Nyckelnamn',
@@ -65,6 +65,6 @@ $mod_strings = array(
     'LBL_MODULE_NAME' => 'OAuth-nycklar',
     'LBL_MODULE_TITLE' => 'OAuth-nycklar',
     'LNK_NEW_RECORD' => 'Skapa OAuth-nyckel',
-    'LNK_LIST' => 'View OAuth Keys',
+    'LNK_LIST' => 'Visa OAuth-nycklar',
     'LBL_TOKENS' => 'Tokens',
 );
