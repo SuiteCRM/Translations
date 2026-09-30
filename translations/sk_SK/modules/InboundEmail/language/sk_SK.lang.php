@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'Nová šablóna automatických odpovedí',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => 'Vyberte automatickú odpoved pre oznámenie odosielateľom emailov, že bol vytvorený prípad. Email zahŕňa číslo prípade v Predmete, ktorý sa drží nastavnia Makra Prípadu.',
     'LBL_MAILBOX' => 'Monitorované zložky',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'Kôš',
     'LBL_SENT_FOLDER' => 'Odoslané',
     'LBL_SELECT' => 'Výber',
