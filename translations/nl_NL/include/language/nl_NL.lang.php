@@ -1748,7 +1748,7 @@ $app_strings = array(
     'LBL_DISMISS' => 'Uitschakelen',
     'LBL_DISMISS_INLINE_CONFIRM' => 'Uitschakelen?',
     'LBL_DISMISS_ALL_INLINE_CONFIRM' => 'Alles uitschakelen?',
-    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Alle concepten verwijderen?',
+    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Dismiss all?',
     'NTC_DISMISS_CONFIRMATION' => 'Weet je zeker dat je deze waarschuwing wilt uitschakelen?',
     'NTC_DISMISS_ALL_CONFIRMATION' => 'Weet je zeker dat je alle waarschuwingen wilt uitschakelen?',
     'LBL_ALERT_DISMISS_SUCCESS' => 'Waarschuwing succesvol uitgeschakeld',
@@ -4504,3 +4504,7 @@ $app_list_strings['email_import_timeframe_start_dom'] = [
 ];
 
 $app_strings['LBL_NOT_AUTHORIZED'] = 'Niet geautoriseerd';
+
+$app_strings['LBL_AUTOFILL_MISSING_RELATE_MODULE'] = 'Autofill failed: related module is not configured.';
+$app_strings['LBL_AUTOFILL_MISSING_RELATE_ID'] = 'Autofill failed: no related record selected.';
+$app_strings['LBL_AUTOFILL_MISSING_UPDATE_FIELDS'] = 'Autofill failed: no fields configured for update.';
