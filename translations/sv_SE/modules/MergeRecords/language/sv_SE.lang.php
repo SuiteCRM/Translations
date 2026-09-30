@@ -61,12 +61,12 @@ $mod_strings = array(
     'LBL_PERFORM_MERGE_BUTTON_LABEL' => 'Perform Merge',
 
     'LBL_SAVE_MERGED_RECORD_BUTTON_TITLE' => 'Spara ihopslagning',
-    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Save Merge',
+    'LBL_SAVE_MERGED_RECORD_BUTTON_LABEL' => 'Spara sammanslagning',
 
     'LBL_STEP2_FORM_TITLE' => 'Hittade uppgifter att slå ihop med:',
     'LBL_SELECT_ERROR' => 'Du måste göra en val innan du kan fortsätta.',
     'LBL_CHANGE_PARENT' => 'Sätt som första val',
-    'LBL_REMOVE_FROM_MERGE' => 'Remove',
+    'LBL_REMOVE_FROM_MERGE' => 'Ta bort',
     'LBL_DIFF_COL_VALUES' => 'Värdet i valda kolumnrader skiljer ifrån ihopslagna rader:',
     'LBL_SAME_COL_VALUES' => 'Kolumner vars värden är lika över alla rader:',
     'LBL_DELETE_MESSAGE' => 'Denna handling kommer att ta bort följande uppgift(er):',
