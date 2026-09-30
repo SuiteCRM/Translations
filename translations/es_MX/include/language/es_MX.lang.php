@@ -261,7 +261,7 @@ $app_list_strings = array(
     'case_relationship_type_default_key' => 'Primary Contact',
     'case_relationship_type_dom' => array(
         '' => '',
-        'Primary Contact' => 'Primary Contact',
+        'Primary Contact' => 'Contacto principal',
         'Alternate Contact' => 'Contacto secundario',
     ),
     'payment_terms' => array(
@@ -1748,7 +1748,7 @@ $app_strings = array(
     'LBL_DISMISS' => 'Descartar',
     'LBL_DISMISS_INLINE_CONFIRM' => '¿Descartar?',
     'LBL_DISMISS_ALL_INLINE_CONFIRM' => '¿Descartar todo?',
-    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Dismiss all drafts?',
+    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Dismiss all?',
     'NTC_DISMISS_CONFIRMATION' => '¿Estás seguro de que quieres descartar esta alerta?',
     'NTC_DISMISS_ALL_CONFIRMATION' => '¿Estás seguro de que quieres descartar todas las alertas?',
     'LBL_ALERT_DISMISS_SUCCESS' => 'Alerta descartada correctamente',
@@ -4490,3 +4490,7 @@ $app_list_strings['email_import_timeframe_start_dom'] = [
 ];
 
 $app_strings['LBL_NOT_AUTHORIZED'] = 'Not authorized';
+
+$app_strings['LBL_AUTOFILL_MISSING_RELATE_MODULE'] = 'Autofill failed: related module is not configured.';
+$app_strings['LBL_AUTOFILL_MISSING_RELATE_ID'] = 'Autofill failed: no related record selected.';
+$app_strings['LBL_AUTOFILL_MISSING_UPDATE_FIELDS'] = 'Autofill failed: no fields configured for update.';
