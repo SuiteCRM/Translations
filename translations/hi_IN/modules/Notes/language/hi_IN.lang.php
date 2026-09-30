@@ -56,6 +56,7 @@ $mod_strings = array(
     'LBL_FILE_MIME_TYPE' => 'माइम प्रकार',
     'LBL_FILE_URL' => 'फ़ाइल यूआरएल',
     'LBL_FILENAME' => 'लगाव:',
+    'LBL_LEGACY_FILENAME' => 'Legacy Attachment:',
     'LBL_LEAD_ID' => 'लीड आईडी:',
     'LBL_LIST_CONTACT_NAME' => 'संपर्क करें',
     'LBL_LIST_DATE_MODIFIED' => 'अंतिम रूपांतरित',
