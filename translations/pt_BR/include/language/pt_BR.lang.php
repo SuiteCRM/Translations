@@ -1748,7 +1748,7 @@ $app_strings = array(
     'LBL_DISMISS' => 'Descartar',
     'LBL_DISMISS_INLINE_CONFIRM' => 'Descartar?',
     'LBL_DISMISS_ALL_INLINE_CONFIRM' => 'Descartar tudo?',
-    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Descartar todos os rascunhos?',
+    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Dismiss all?',
     'NTC_DISMISS_CONFIRMATION' => 'Tem certeza de que deseja descartar este alerta?',
     'NTC_DISMISS_ALL_CONFIRMATION' => 'Tem certeza que deseja descartar todos os alertas?',
     'LBL_ALERT_DISMISS_SUCCESS' => 'Alerta descartado com sucesso',
@@ -4507,3 +4507,7 @@ $app_list_strings['email_import_timeframe_start_dom'] = [
 ];
 
 $app_strings['LBL_NOT_AUTHORIZED'] = 'Não Autorizado';
+
+$app_strings['LBL_AUTOFILL_MISSING_RELATE_MODULE'] = 'Autofill failed: related module is not configured.';
+$app_strings['LBL_AUTOFILL_MISSING_RELATE_ID'] = 'Autofill failed: no related record selected.';
+$app_strings['LBL_AUTOFILL_MISSING_UPDATE_FIELDS'] = 'Autofill failed: no fields configured for update.';
