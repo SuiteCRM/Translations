@@ -210,14 +210,14 @@ $mod_strings = array(
             'portalLayoutHelp' => 'The modules within the SuiteCRM Portal appear in this area.<br><br>Select a module to edit the <b>Layouts</b>.',
             'relationshipsHelp' => 'All of the <b>Relationships</b> that exist between the module and other deployed modules appear here.<br><br>The relationship <b>Name</b> is the system-generated name for the relationship.<br><br>The <b>Primary Module</b> is the module that owns the relationships. For example, all of the properties of the relationships for which the Accounts module is the primary module are stored in the Accounts database tables.<br><br>The <b>Type</b> is the type of relationship exists between the Primary module and the <b>Related Module</b>.<br><br>Click a column title to sort by the column.<br><br>Click a row in the relationship table to view the properties associated with the relationship.<br><br>Click <b>Add Relationship</b> to create a new relationship.<br><br>Relationships can be created between any two deployed modules.',
             'relationshipHelp' => '<b>Relationships</b> can be created between the module and another deployed module.<br><br> Relationships are visually expressed through subpanels and relate fields in the module records.<br><br>Select one of the following relationship <b>Types</b> for the module:<br><br> <b>One-to-One</b> - Both modules\' records will contain relate fields.<br><br> <b>One-to-Many</b> - The Primary Module\'s record will contain a subpanel, and the Related Module\'s record will contain a relate field.<br><br> <b>Many-to-Many</b> - Both modules\' records will display subpanels.<br><br> Select the <b>Related Module</b> for the relationship. <br><br>If the relationship type involves subpanels, select the subpanel view for the appropriate modules.<br><br> Click <b>Save</b> to create the relationship.',
-            'convertLeadHelp' => 'Here you can add modules to the convert layout screen and modify the layouts of existing ones.<br/>
-		You can re-order the modules by dragging their rows in the table.<br/><br/>
-		<b>Module:</b> The name of the module.<br/><br/>
-		<b>Required:</b> Required modules must be created or selected before the lead can be converted.<br/><br/>
-		<b>Copy Data:</b> If checked, fields from the lead will be copied to fields with the same name in the newly created records.<br/><br/>
-		<b>Allow Selection:</b> Modules with a relate field in Contacts can be selected rather than created during the convert lead process.<br/><br/>
-		<b>Edit:</b> Modify the convert layout for this module.<br/><br/>
-		<b>Delete:</b> Remove this module from the convert layout.<br/><br/>',
+            'convertLeadHelp' => 'Här kan du lägga till moduler på skärmen för konverteringslayouten och ändra layouterna för befintliga moduler.<br/>
+		Du kan ändra modulernas ordning genom att dra deras rader i tabellen.<br/><br/>
+		<b>Modul:</b> Modulens namn.<br/><br/>
+		<b>Obligatorisk:</b> Obligatoriska moduler måste skapas eller väljas innan prospektet kan konverteras.<br/><br/>
+		<b>Kopiera data:</b> Om alternativet är markerat kopieras fält från prospektet till fält med samma namn i de nya posterna.<br/><br/>
+		<b>Tillåt val:</b> Moduler med ett relationsfält i Kontakter kan väljas i stället för att skapas under konverteringen av prospektet.<br/><br/>
+		<b>Redigera:</b> Ändra konverteringslayouten för modulen.<br/><br/>
+		<b>Ta bort:</b> Ta bort modulen från konverteringslayouten.<br/><br/>',
 
 
             'editDropDownBtn' => 'Redigera en global dropdown',
@@ -258,10 +258,10 @@ $mod_strings = array(
         ),
         'module' => array(
             'somemodules' => "Since the current package contains at least one module, you can <b>Deploy</b> the modules in the package within your SuiteCRM instance or <b>Publish</b> the package to be installed in the current SuiteCRM instance or another instance using the <b>Module Loader</b>.<br/><br/>To install the package directly within your SuiteCRM instance, click <b>Deploy</b>.<br><br>To create a .zip file for the package that can be loaded and installed within the current SuiteCRM instance and other instances using the <b>Module Loader</b>, click <b>Publish</b>.<br/><br/> You can build the modules for this package in stages, and publish or deploy when you are ready to do so. <br/><br/>After publishing or deploying a package, you can make changes to the package properties and customize the modules further. Then re-publish or re-deploy the package to apply the changes.",
-            'editView' => 'Here you can edit the existing fields. You can remove any of the existing fields or add available fields in the left panel.',
+            'editView' => 'Här kan du redigera befintliga fält. Du kan ta bort befintliga fält eller lägga till tillgängliga fält i den vänstra panelen.',
             'create' => 'When choosing the type of <b>Type</b> of module that you wish to create, keep in mind the types of fields you would like to have within the module. <br/><br/>Each module template contains a set of fields pertaining to the type of module described by the title.<br/><br/><b>Basic</b> - Provides basic fields that appear in standard modules, such as the Name, Assigned to, Team, Date Created and Description fields.<br/><br/> <b>Company</b> - Provides organization-specific fields, such as Company Name, Industry and Billing Address. Use this template to create modules that are similar to the standard Accounts module.<br/><br/> <b>Person</b> - Provides individual-specific fields, such as Salutation, Title, Name, Address and Phone Number. Use this template to create modules that are similar to the standard Contacts and Leads modules.<br/><br/><b>Issue</b> - Provides case- and bug-specific fields, such as Number, Status, Priority and Description. Use this template to create modules that are similar to the standard Cases and Bugs modules.<br/><br/>Note: After you create the module, you can edit the labels of the fields provided by the template, as well as create custom fields to add to the module layouts.',
             'afterSave' => 'Customize the module to suit your needs by editing and creating fields, establishing relationships with other modules and arranging the fields within the layouts.<br/><br/>To view the template fields and manage custom fields within the module, click <b>View Fields</b>.<br/><br/>To create and manage relationships between the module and other modules, whether modules already in the application or other custom modules within the same package, click <b>View Relationships</b>.<br/><br/>To edit the module layouts, click <b>View Layouts</b>. You can change the Detail View, Edit View and List View layouts for the module just as you would for modules already in the application within Studio.<br/><br/> To create a module with the same properties as the current module, click <b>Duplicate</b>. You can further customize the new module.',
-            'viewfields' => 'The fields in the module can be customized to suit your needs.<br/><br/>You cannot delete standard fields, but you can remove them from the appropriate layouts within the Layouts pages. <br/><br/>You can quickly create new fields that have similar properties to existing fields by clicking <b>Clone</b> in the <b>Properties</b> form. Enter any new properties, and then click <b>Save</b>.<br/><br/>It is recommended that you set all of the properties for the standard fields and custom fields before you publish and install the package containing the custom module.',
+            'viewfields' => 'Fälten i modulen kan anpassas efter dina behov.<br/><br/>Du kan inte ta bort standardfält, men du kan ta bort dem från lämpliga layouter på layoutsidorna. <br/><br/>Du kan snabbt skapa nya fält med egenskaper som liknar befintliga fält genom att klicka på <b>Klona</b> i formuläret <b>Egenskaper</b>. Ange nya egenskaper och klicka sedan på <b>Spara</b>.<br/><br/>Vi rekommenderar att du anger alla egenskaper för standardfält och anpassade fält innan du publicerar och installerar paketet som innehåller den anpassade modulen.',
             'viewrelationships' => 'You can create many-to-many relationships between the current module and other modules in the package, and/or between the current module and modules already installed in the application.<br><br> To create one-to-many and one-to-one relationships, create <b>Relate</b> and <b>Flex Relate</b> fields for the modules.',
             'viewlayouts' => 'You can control what fields are available for capturing data within the <b>Edit View</b>. You can also control what data displays within the <b>Detail View</b>. The views do not have to match. <br/><br/>The Quick Create form is displayed when the <b>Create</b> is clicked in a module subpanel. By default, the <b>Quick Create</b> form layout is the same as the default <b>Edit View</b> layout. You can customize the Quick Create form so that it contains less and/or different fields than the Edit View layout. <br><br>You can determine the module security using Layout customization along with <b>Role Management</b>.<br><br>',
             'existingModule' => 'After creating and customizing this module, you can create additional modules or return to the package to <b>Publish</b> or <b>Deploy</b> the package.<br><br>To create additional modules, click <b>Duplicate</b> to create a module with the same properties as the current module, or navigate back to the package, and click <b>New Module</b>.<br><br> If you are ready to <b>Publish</b> or <b>Deploy</b> the package containing this module, navigate back to the package to perform these functions. You can publish and deploy packages containing at least one module.',
@@ -282,14 +282,14 @@ $mod_strings = array(
             'Default' => 'Default fields will be shown in the search view.'
         ),
         'layoutEditor' => array(
-            'default' => 'There are two columns displayed to the left. The right-hand column, labeled Current Layout or Layout Preview, is where you change the module layout. The left-hand column, entitled Toolbox, contains useful elements and tools for use when editing the layout. <br/><br/>If the layout area is titled Current Layout then you are working on a copy of the layout currently used by the module for display.<br/><br/>If it is titled Layout Preview then you are working on a copy created earlier by a click on the Save button, that might have already been changed from the version seen by users of this module.',
+            'default' => 'Två kolumner visas till vänster. I den högra kolumnen, med rubriken Aktuell layout eller Layoutförhandsvisning, ändrar du modulens layout. Den vänstra kolumnen, Verktygslåda, innehåller användbara element och verktyg för layoutredigering. <br/><br/>Om layoutområdet har rubriken Aktuell layout arbetar du med en kopia av den layout som modulen för närvarande använder för visning.<br/><br/>Om det har rubriken Layoutförhandsvisning arbetar du med en kopia som skapades tidigare när du klickade på knappen Spara. Den kan redan ha ändrats jämfört med den version som visas för användare av modulen.',
             'saveBtn' => 'Clicking this button saves the layout so that you can preserve your changes. When you return to this module you will start from this changed layout. Your layout however will not be seen by users of the module until you click the Save and Publish button.',
             'publishBtn' => 'Click this button to deploy the layout. This means that this layout will immediately be seen by users of this module.',
-            'toolbox' => 'The toolbox contains a variety of useful features for editing layouts, including a trash area, a set of additional elements and a set of available fields. Any of these can be dragged and dropped onto the layout.',
-            'panels' => 'This area shows how your layout will look to users of this module when it is depolyed.<br/><br/>You can reposition elements such as fields, rows and panels by dragging and dropping them; delete elements by dragging and dropping them on the trash area in the toolbox, or add new elements by dragging them from the toolbox and dropping them on to the layout in the desired position.'
+            'toolbox' => 'Verktygslådan innehåller flera användbara funktioner för att redigera layouter, bland annat en papperskorg, ytterligare element och tillgängliga fält. Alla kan dras och släppas i layouten.',
+            'panels' => 'Det här området visar hur layouten ser ut för användare av modulen när den har driftsatts.<br/><br/>Du kan flytta element som fält, rader och paneler genom att dra och släppa dem, ta bort element genom att dra dem till papperskorgen i verktygslådan eller lägga till nya element genom att dra dem från verktygslådan till önskad position i layouten.'
         ),
         'dropdownEditor' => array(
-            'default' => 'There are two columns displayed to the left. The right-hand column, labeled Current Layout or Layout Preview, is where you change the module layout. The left-hand column, entitled Toolbox, contains useful elements and tools for use when editing the layout. <br/><br/>If the layout area is titled Current Layout then you are working on a copy of the layout currently used by the module for display.<br/><br/>If it is titled Layout Preview then you are working on a copy created earlier by a click on the Save button, that might have already been changed from the version seen by users of this module.',
+            'default' => 'Två kolumner visas till vänster. I den högra kolumnen, med rubriken Aktuell layout eller Layoutförhandsvisning, ändrar du modulens layout. Den vänstra kolumnen, Verktygslåda, innehåller användbara element och verktyg för layoutredigering. <br/><br/>Om layoutområdet har rubriken Aktuell layout arbetar du med en kopia av den layout som modulen för närvarande använder för visning.<br/><br/>Om det har rubriken Layoutförhandsvisning arbetar du med en kopia som skapades tidigare när du klickade på knappen Spara. Den kan redan ha ändrats jämfört med den version som visas för användare av modulen.',
             'dropdownaddbtn' => 'Clicking this button adds a new item to the dropdown.',
 
         ),
@@ -303,20 +303,20 @@ $mod_strings = array(
         'studioWizard' => array(
             'mainHelp' => 'Welcome to the <b>Developer Tools</b> area. <br/><br/>Use the tools within this area to create and manage standard and custom modules and fields.',
             'studioBtn' => 'Use <b>Studio</b> to customize installed modules by changing the field arrangement, selecting what fields are available and creating custom data fields.',
-            'mbBtn' => 'Use <b>Module Builder</b> to create new modules.',
+            'mbBtn' => 'Använd <b>Modulbyggaren</b> för att skapa nya moduler.',
             'appBtn' => 'Use Application mode to customize various properties of the program, such as how many TPS reports are displayed on the homepage',
             'backBtn' => 'Återgå till föregående steg.',
             'studioHelp' => 'Use <b>Studio</b> to customize installed modules.',
             'moduleBtn' => 'Klicka för att redigera denna modul.',
             'moduleHelp' => 'Select the module component that you would like to edit',
-            'fieldsBtn' => 'Edit what information is stored in the module by controlling the <b>Fields</b> in the module.<br/><br/>You can edit and create custom fields here.',
+            'fieldsBtn' => 'Redigera vilken information som lagras i modulen genom att styra modulens <b>fält</b>.<br/><br/>Här kan du redigera och skapa anpassade fält.',
             'labelsBtn' => 'Klicka på <b>Spara</b> för att spara dina anpassade etiketter.',
             'layoutsBtn' => 'Customize the <b>Layouts</b> of the Edit, Detail, List and search views.',
             'subpanelBtn' => 'Edit what information is shown in this modules subpanels.',
             'layoutsHelp' => 'Select a <b>Layout to edit</b>.<br/><br/>To change the layout that contains data fields for entering data, click <b>Edit View</b>.<br/><br/>To change the layout that displays the data entered into the fields in the Edit View, click <b>Detail View</b>.<br/><br/>To change the columns which appear in the default list, click <b>List View</b>.<br/><br/>To change the Basic and Advanced search form layouts, click <b>Search</b>.',
             'subpanelHelp' => 'Select a <b>Subpanel</b> to edit.',
             'searchHelp' => 'Välj en <b>Sök</b>-layout att redigera.',
-            'newPackage' => 'Click <b>New Package</b> to create a new package.',
+            'newPackage' => 'Klicka på <b>Nytt paket</b> för att skapa ett nytt paket.',
             'mbHelp' => '<b>Welcome to Module Builder.</b><br/><br/>Use <b>Module Builder</b> to create packages containing custom modules based on standard or custom objects. <br/><br/>To begin, click <b>New Package</b> to create a new package, or select a package to edit.<br/><br/> A <b>package</b> acts as a container for custom modules, all of which are part of one project. The package can contain one or more custom modules that can be related to each other or to modules in the application. <br/><br/>Examples: You might want to create a package containing one custom module that is related to the standard Accounts module. Or, you might want to create a package containing several new modules that work together as a project and that are related to each other and to modules in the application.',
             'exportBtn' => 'Click <b>Export Customizations</b> to create a package containing customizations made in Studio for specific modules.',
         ),
@@ -378,10 +378,10 @@ $mod_strings = array(
     'LBL_SUBPANEL_TITLE' => 'Title:',
     'LBL_SEARCH_FORMS' => 'Filter',
     'LBL_SEARCH' => 'Search',
-    'LBL_SEARCH_BUTTON' => 'Search',
+    'LBL_SEARCH_BUTTON' => 'Sök',
     'LBL_FILTER' => 'Filter',
     'LBL_TOOLBOX' => 'Verktygsbox',
-    'LBL_QUICKCREATE' => 'Quick Create',
+    'LBL_QUICKCREATE' => 'Snabbskapa',
     'LBL_EDIT_DROPDOWNS' => 'Redigera en global dropdown',
     'LBL_ADD_DROPDOWN' => 'Add a new Global Dropdown',
     'LBL_BLANK' => '-blank-',
@@ -411,7 +411,7 @@ $mod_strings = array(
 //RELATIONSHIPS
     'LBL_MODULE' => 'Module',
     'LBL_LHS_MODULE' => 'Primär modul',
-    'LBL_CUSTOM_RELATIONSHIPS' => '* relationship created in Studio',
+    'LBL_CUSTOM_RELATIONSHIPS' => '* relation skapad i Studio',
     'LBL_RELATIONSHIPS' => 'Relationer',
     'LBL_RELATIONSHIP_EDIT' => 'Redigera Relation',
     'LBL_REL_NAME' => 'Namn',
@@ -423,7 +423,7 @@ $mod_strings = array(
     'LBL_RELATIONSHIP_ROLE_COLUMN' => 'Kolumn',
     'LBL_RELATIONSHIP_ROLE_VALUE' => 'Value',
     'LBL_SUBPANEL_FROM' => 'Subpanel från',
-    'LBL_RELATIONSHIP_ONLY' => 'No visible elements will be created for this relationship as there is a pre-existing visible relationship between these two modules.',
+    'LBL_RELATIONSHIP_ONLY' => 'Inga synliga element skapas för relationen eftersom det redan finns en synlig relation mellan de två modulerna.',
     'LBL_ONETOONE' => 'En till en',
     'LBL_ONETOMANY' => 'En till många',
     'LBL_MANYTOONE' => 'Många till En',
@@ -436,7 +436,7 @@ $mod_strings = array(
     'LBL_QUESTION_SUBPANEL' => 'Välj en subpanel att redigera.',
     'LBL_QUESTION_SEARCH' => 'Select a filter layout to edit.',
     'LBL_QUESTION_MODULE' => 'Välj en modulkomponent att redigera.',
-    'LBL_QUESTION_PACKAGE' => 'Select a package to edit, or create a new package.',
+    'LBL_QUESTION_PACKAGE' => 'Välj ett paket att redigera eller skapa ett nytt paket.',
     'LBL_QUESTION_EDITOR' => 'Välj ett verktyg.',
     'LBL_QUESTION_DASHLET' => 'Select a dashlet layout to edit.',
     'LBL_QUESTION_POPUP' => 'Välj en popup layout att redigera.',
@@ -477,7 +477,7 @@ $mod_strings = array(
 //Manager Backups History
     'LBL_MB_PREVIEW' => 'Förhandsvisa',
     'LBL_MB_RESTORE' => 'Restore',
-    'LBL_MB_DELETE' => 'Delete',
+    'LBL_MB_DELETE' => 'Ta bort',
     'LBL_MB_DEFAULT_LAYOUT' => 'Standardlayout',
 
 //END WIZARDS
@@ -505,7 +505,7 @@ $mod_strings = array(
     'LBL_BTN_PUBLISH' => 'Publish',
     'LBL_BTN_DEPLOY' => 'Deploy',
     'LBL_BTN_EXP' => 'Export',
-    'LBL_BTN_DELETE' => 'Delete',
+    'LBL_BTN_DELETE' => 'Ta bort',
     'LBL_BTN_VIEW_LAYOUTS' => 'Visa layouter',
     'LBL_BTN_VIEW_FIELDS' => 'Visa fält',
     'LBL_BTN_VIEW_RELATIONSHIPS' => 'View Relationships',
@@ -527,7 +527,7 @@ $mod_strings = array(
     'LBL_PACKAGE_NAME' => 'Paketnamn:',
     'LBL_MODULE_NAME' => 'Modulnamn:',
     'LBL_AUTHOR' => 'Författare:',
-    'LBL_DESCRIPTION' => 'Description:',
+    'LBL_DESCRIPTION' => 'Beskrivning:',
     'LBL_KEY' => 'Key:',
     'LBL_ADD_README' => ' Readme',
     'LBL_LAST_MODIFIED' => 'Senast ändrad:',
@@ -538,10 +538,10 @@ $mod_strings = array(
     'LBL_PACKAGE' => 'Paket:',
     'LBL_TYPE' => 'Type:',
     'LBL_NAV_TAB' => 'Navigation Tab',
-    'LBL_CREATE' => 'Create',
+    'LBL_CREATE' => 'Skapa',
     'LBL_LIST' => 'List',
     'LBL_VIEW' => 'View',
-    'LBL_HISTORY' => 'View History',
+    'LBL_HISTORY' => 'Visa historik',
     'LBL_RESTORE_DEFAULT' => 'Återskapa Standard',
     'LBL_ACTIVITIES' => 'Activities',
     'LBL_NEW' => 'New',
@@ -562,7 +562,7 @@ $mod_strings = array(
     'LBL_EC_TITLE' => 'Exportera anpassningar',
     'LBL_EC_NAME' => 'Paketnamn:',
     'LBL_EC_AUTHOR' => 'Författare:',
-    'LBL_EC_DESCRIPTION' => 'Description:',
+    'LBL_EC_DESCRIPTION' => 'Beskrivning:',
     'LBL_EC_CHECKERROR' => 'Välj en modul.',
     'LBL_EC_CUSTOMFIELD' => 'customized field(s)',
     'LBL_EC_CUSTOMLAYOUT' => 'anpassad(e) layout(er)',
@@ -593,7 +593,7 @@ $mod_strings = array(
     'LBL_AJAX_LOADING_MESSAGE' => 'Vänta, laddar..',
 
 //JS
-    'LBL_JS_REMOVE_PACKAGE' => 'Are you sure you wish to remove this package? This will permanently delete all files associated with this package.',
+    'LBL_JS_REMOVE_PACKAGE' => 'Är du säker på att du vill ta bort det här paketet? Alla filer som hör till paketet tas bort permanent.',
     'LBL_JS_REMOVE_MODULE' => 'Är du säker på att du vill ta bort den här modulen? Det kommer permanent radera alla filer tillhörande den här modulen.',
     'LBL_JS_DEPLOY_PACKAGE' => 'Alla anpassningar som du gjort i Studio kommer att skrivas över när denna modul omgrupperas. Är du säker på att du vill fortsätta?',
 
@@ -606,9 +606,9 @@ $mod_strings = array(
     'LBL_JS_VALIDATE_REL_LABEL' => 'Label - please add a label that will be displayed above the subpanel',
 
 //CONFIRM
-    'LBL_CONFIRM_FIELD_DELETE' => 'Deleting this custom field will delete both the custom field and all the data related to the custom field in the database. The field will be no longer appear in any module layouts. \\n\\nDo you wish to continue?',
+    'LBL_CONFIRM_FIELD_DELETE' => 'Om du tar bort detta anpassade fält tas både fältet och alla data som hör till fältet bort från databasen. Fältet visas inte längre i någon modullayout. \\n\\nVill du fortsätta?',
 
-    'LBL_CONFIRM_RELATIONSHIP_DELETE' => 'Are you sure you wish to delete this relationship?',
+    'LBL_CONFIRM_RELATIONSHIP_DELETE' => 'Är du säker på att du vill ta bort den här relationen?',
     'LBL_CONFIRM_DONT_SAVE' => 'Changes have been made since you last saved, would you like to save?',
     'LBL_CONFIRM_DONT_SAVE_TITLE' => 'Spara ändringar?',
     'LBL_CONFIRM_LOWER_LENGTH' => 'Data kan trunkeras och detta kan inte ångras, är du säker på att du vill fortsätta?',
@@ -641,7 +641,7 @@ $mod_strings = array(
         'dynamicenum' => 'Dynamisk DropDown',
         'multienum' => 'MultiSelect',
         'date' => 'Date',
-        'phone' => 'Phone',
+        'phone' => 'Telefon',
         'currency' => 'Currency',
         'html' => 'HTML',
         'radioenum' => 'Radio',
