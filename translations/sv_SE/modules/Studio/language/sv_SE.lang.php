@@ -45,28 +45,28 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_EDIT_LAYOUT' => 'Redigera layout',
     'LBL_EDIT_FIELDS' => 'Redigera anpassade fält',
-    'LBL_SELECT_FILE' => 'Select File',
+    'LBL_SELECT_FILE' => 'Välj fil',
     'LBL_MODULE_TITLE' => 'Studio',
     'LBL_TOOLBOX' => 'Verktygslåda',
-    'LBL_SUITE_FIELDS_STAGE' => 'SuiteCRM Fields (click items to add to staging area)',
+    'LBL_SUITE_FIELDS_STAGE' => 'SuiteCRM-fält (klicka på objekt för att lägga till dem i arbetsområdet)',
     'LBL_VIEW_SUITE_FIELDS' => 'Visa SuiteCRM-fält',
-    'LBL_FAILED_TO_SAVE' => 'Failed To Save',
+    'LBL_FAILED_TO_SAVE' => 'Det gick inte att spara',
     'LBL_CONFIRM_UNSAVE' => 'Förändringar kommer inte sparas. Är du säker på att du vill fortsätta?',
-    'LBL_PUBLISHING' => 'Publishing...',
-    'LBL_PUBLISHED' => 'Published',
-    'LBL_FAILED_PUBLISHED' => 'Failed to Publish',
-    'LBL_DROP_HERE' => '[Drop Here]',
+    'LBL_PUBLISHING' => 'Publicerar...',
+    'LBL_PUBLISHED' => 'Publicerad',
+    'LBL_FAILED_PUBLISHED' => 'Det gick inte att publicera',
+    'LBL_DROP_HERE' => '[Släpp här]',
 
 //CUSTOM FIELDS
     'LBL_NAME' => 'Namn',
-    'LBL_LABEL' => 'Label',
-    'LBL_MASS_UPDATE' => 'Mass Update',
-    'LBL_DEFAULT_VALUE' => 'Default Value',
-    'LBL_REQUIRED' => 'Required',
-    'LBL_DATA_TYPE' => 'Type',
+    'LBL_LABEL' => 'Etikett',
+    'LBL_MASS_UPDATE' => 'Massuppdatering',
+    'LBL_DEFAULT_VALUE' => 'Standardvärde',
+    'LBL_REQUIRED' => 'Obligatoriskt',
+    'LBL_DATA_TYPE' => 'Typ',
 
 
-    'LBL_HISTORY' => 'History',
+    'LBL_HISTORY' => 'Historik',
 
 //WIZARDS
 
@@ -79,11 +79,11 @@ $mod_strings = array(
     'LBL_SW_EDIT_GROUPTABS' => 'Konfigurera Flikgrupperingar',
     'LBL_SW_EDIT_PORTAL' => 'Ändra Portal',
     'LBL_SW_REPAIR_CUSTOMFIELDS' => 'Reparera Egna Fält',
-    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrate Custom Fields',
+    'LBL_SW_MIGRATE_CUSTOMFIELDS' => 'Migrera anpassade fält',
 
 // JS LABELS
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Rebuilds javascript versions of language files',
-    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Removing javascript versions of language files, will rebuild when needed.',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC_SHORT' => 'Återskapar JavaScript-versioner av språkfiler',
+    'LBL_REBUILD_JAVASCRIPT_LANG_DESC' => 'Tar bort JavaScript-versioner av språkfiler; de återskapas vid behov.',
 
 
 //Manager Backups History
@@ -93,58 +93,58 @@ $mod_strings = array(
     'LBL_ED_CREATE_DROPDOWN' => 'Skapa en Rullgardins meny',
     'LBL_DROPDOWN_NAME' => 'Rullgardins Namn:',
     'LBL_DROPDOWN_LANGUAGE' => 'Rullgardins Språk:',
-    'LBL_TABGROUP_LANGUAGE' => 'Language:',
+    'LBL_TABGROUP_LANGUAGE' => 'Språk:',
 
 //END WIZARDS
 
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => 'Visa Värden',
     'LBL_DD_DATABASEVALUE' => 'Database Värden',
-    'LBL_DD_ALL' => 'All',
+    'LBL_DD_ALL' => 'Alla',
 
 //BUTTONS
-    'LBL_BTN_SAVE' => 'Save',
-    'LBL_BTN_CANCEL' => 'Cancel',
-    'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
-    'LBL_BTN_HISTORY' => 'History',
-    'LBL_BTN_ADDROWS' => 'Add Rows',
-    'LBL_BTN_UNDO' => 'Undo',
-    'LBL_BTN_REDO' => 'Redo',
-    'LBL_BTN_ADDCUSTOMFIELD' => 'Add Custom Field',
+    'LBL_BTN_SAVE' => 'Spara',
+    'LBL_BTN_CANCEL' => 'Avbryt',
+    'LBL_BTN_SAVEPUBLISH' => 'Spara och distribuera',
+    'LBL_BTN_HISTORY' => 'Historik',
+    'LBL_BTN_ADDROWS' => 'Lägg till rader',
+    'LBL_BTN_UNDO' => 'Ångra',
+    'LBL_BTN_REDO' => 'Gör om',
+    'LBL_BTN_ADDCUSTOMFIELD' => 'Lägg till anpassat fält',
     'LBL_BTN_TABINDEX' => 'Ändra Flik Edit Tabbing Ordning',
 
 //TABS
     'LBL_MODULES' => 'Moduler',
     'LBL_MODULE_NAME' => 'Administration',
-    'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
+    'LBL_CONFIGURE_GROUP_TABS' => 'Konfigurera modulmenyfilter',
     'LBL_GROUP_TAB_WELCOME' => 'Gruppfliks layouten nedan kommer att användas när en användare väljer att använda gruppflikar istället för vanliga modulflikar i Mitt Konto>Layout Val.',
     'LBL_RENAME_TAB_WELCOME' => 'Klicka på en flik Visa Värde i tabellen nedan för att döpa om fliken.',
     'LBL_DELETE_MODULE' => 'Ta bort&nbsp;modul<br />från&nbsp;filter',
     'LBL_TAB_GROUP_LANGUAGE_HELP' => 'Välj ett tillgängligt språk, ändra grupp labels och klicka på "Spara & distribuera" för att lägga till labels i valt språk.',
     'LBL_ADD_GROUP' => 'Lägg till filter',
     'LBL_NEW_GROUP' => 'Ny Grupp',
-    'LBL_RENAME_TABS' => 'Rename Modules',
+    'LBL_RENAME_TABS' => 'Döp om moduler',
 
 //ERRORS
-    'ERROR_INVALID_KEY_VALUE' => "Error: Invalid Key Value: [']",
+    'ERROR_INVALID_KEY_VALUE' => "Fel: Ogiltigt nyckelvärde: [']",
 
 //SUGAR PORTAL
     'LBL_SAVE' => 'Spara' /*for 508 compliance fix*/,
-    'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
-    'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
+    'LBL_UNDO' => 'Ångra' /*for 508 compliance fix*/,
+    'LBL_REDO' => 'Gör om' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Inline' /*for 508 compliance fix*/,
     'LBL_DELETE' => 'Ta bort' /*for 508 compliance fix*/,
-    'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
+    'LBL_ADD_FIELD' => 'Lägg till fält' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Maximera' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Minimera' /*for 508 compliance fix*/,
-    'LBL_PUBLISH' => 'Publish' /*for 508 compliance fix*/,
-    'LBL_ADDROWS' => 'Add Rows' /*for 508 compliance fix*/,
-    'LBL_ADDFIELD' => 'Add Field' /*for 508 compliance fix*/,
+    'LBL_PUBLISH' => 'Publicera' /*for 508 compliance fix*/,
+    'LBL_ADDROWS' => 'Lägg till rader' /*for 508 compliance fix*/,
+    'LBL_ADDFIELD' => 'Lägg till fält' /*for 508 compliance fix*/,
     'LBL_EDIT' => 'Redigera' /*for 508 compliance fix*/,
 
     'LBL_LANGUAGE_TOOLTIP' => 'Välj språket du vill redigera.',
-    'LBL_SINGULAR' => 'Singular Label',
+    'LBL_SINGULAR' => 'Enskild etikett',
     'LBL_PLURAL' => 'Plural-etikett',
-    'LBL_RENAME_MOD_SAVE_HELP' => 'Click <b>Save</b> to apply the changes.'
+    'LBL_RENAME_MOD_SAVE_HELP' => 'Klicka på <b>Spara</b> för att tillämpa ändringarna.'
 
 );
