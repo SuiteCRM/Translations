@@ -78,5 +78,5 @@ $mod_strings = array(
     'LBL_MULTIPLE_RUNS' => 'Upprepade körningar',
     'LBL_RUN_WHEN' => 'Kör',
     'LBL_RUN_ON_IMPORT' => 'Kör vid import',
-    'LBL_ACTION_NAME_NOT_ALLOWED' => 'Action name not allowed.',
+    'LBL_ACTION_NAME_NOT_ALLOWED' => 'Åtgärdsnamnet är inte tillåtet.',
 );
