@@ -172,7 +172,7 @@ $mod_strings = array(
     'LBL_RESOURCE_CHART_MONTH' => 'Månad',
     'LBL_RESOURCE_CHART_QUARTER' => 'Kvartal',
 
-    'LBL_PROJECT_CONTACTS_1_FROM_CONTACTS_TITLE' => 'Projektkontakter från projektets titel',
+    'LBL_PROJECT_CONTACTS_1_FROM_CONTACTS_TITLE' => 'Projektkontakter från kontakttitel',
     'LBL_AM_PROJECTTEMPLATES_PROJECT_1_FROM_PROJECT_TITLE' => 'Projektmallar: Projekt från projekt titel',
     'LBL_AOS_QUOTES_PROJECT' => 'Offerter: Projekt',
     'LBL_TASKS_NOT_FOUND' => 'Det finns inga uppgifter att bygga Gantttabellen',
