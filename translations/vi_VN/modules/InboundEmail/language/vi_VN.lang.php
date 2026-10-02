@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'Mẫu Trả lời tự động của Vụ việc mới',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => 'Chọn phản hồi tự động để thông báo cho người gửi email rằng trường hợp đã được tạo. Email có chứa số trường hợp trong dòng Chủ đề tuân thủ cài đặt Trường hợp Macro. Phản hồi này chỉ được gửi khi nhận được email đầu tiên từ người nhận.',
     'LBL_MAILBOX' => 'Thư mục theo dõi',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'Thư mục rác',
     'LBL_SENT_FOLDER' => 'Thư mục đã gửi',
     'LBL_SELECT' => 'Chọn',

@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'เทมเพลตการตอบกลับอัตโนมัติของกรณีใหม่',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => 'เลือกการตอบกลับอัตโนมัติเพื่อแจ้งผู้ส่งอีเมลที่สร้างเคส อีเมลมีหมายเลขเคสในบรรทัดหัวเรื่องซึ่งเป็นไปตามการตั้งค่าเคสมาโครการตอบกลับนี้จะส่งเฉพาะเมื่อได้รับอีเมลฉบับแรกจากผู้รับเท่านั้น',
     'LBL_MAILBOX' => 'ตรวจสอบโฟลเดอร์',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'โฟลเดอร์ถังขยะ',
     'LBL_SENT_FOLDER' => 'ส่งโฟลเดอร์',
     'LBL_SELECT' => 'Select',

@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'ケース返信テンプレートの作成',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => '自動返信オプションを選択することによって、メールの送信者に対し、ケースが作成されたことを通知することができます。電子メールの件名欄には、ケースマクロに応じて生成されたケース番号が付加されます。この返信は、メールが最初に送信されたときにのみ送付されます。',
     'LBL_MAILBOX' => '監視フォルダ',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'ごみ箱',
     'LBL_SENT_FOLDER' => '送信済みフォルダ',
     'LBL_SELECT' => 'Select',

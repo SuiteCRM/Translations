@@ -56,6 +56,7 @@ $mod_strings = array(
     'LBL_FILE_MIME_TYPE' => 'Mime Type',
     'LBL_FILE_URL' => 'File URL',
     'LBL_FILENAME' => 'Melléklet:',
+    'LBL_LEGACY_FILENAME' => 'Legacy Attachment:',
     'LBL_LEAD_ID' => 'Érdeklődő Id:',
     'LBL_LIST_CONTACT_NAME' => 'Kapcsolattartó',
     'LBL_LIST_DATE_MODIFIED' => 'Last Modified',

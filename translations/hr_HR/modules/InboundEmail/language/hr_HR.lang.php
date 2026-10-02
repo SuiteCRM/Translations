@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'New Case Auto-Reply Template',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => 'Select an automated response to notify email senders that a case has been created. The email contains the case number in the Subject line which adheres to the Case Macro setting. This response is only sent when the first email is received from the recipient.',
     'LBL_MAILBOX' => 'Praćene mape',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'Mapa za smeće',
     'LBL_SENT_FOLDER' => 'Mapa slanja',
     'LBL_SELECT' => 'Select',

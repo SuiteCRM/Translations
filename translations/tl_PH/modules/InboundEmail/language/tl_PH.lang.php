@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'Bagong kaso na templet ng Auto-Reply',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => 'Pumili ng awtomatikong tugon na inaabisohan ang mga tagapagpadala ng email na ang case ay nagawa na. Ang email ay naglalaman ng numero ng case sa may linya ng paksa kung saan umayon ang setting ng Case Macro. Ang tugon na ito ay maipapadala lamang kapag ang unang email ay natanggap na ng tagapagtanggap.',
     'LBL_MAILBOX' => 'Pinagmamatiyagang mga Folder',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'Folder ng Basura',
     'LBL_SENT_FOLDER' => 'Folder ng Naipadala',
     'LBL_SELECT' => 'Pumili',

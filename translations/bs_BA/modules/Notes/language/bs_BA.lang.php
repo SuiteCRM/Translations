@@ -56,6 +56,7 @@ $mod_strings = array(
     'LBL_FILE_MIME_TYPE' => 'Mime tip',
     'LBL_FILE_URL' => 'URL datoteke',
     'LBL_FILENAME' => 'Privitak:',
+    'LBL_LEGACY_FILENAME' => 'Legacy Attachment:',
     'LBL_LEAD_ID' => 'ID potencijalnog klijenta:',
     'LBL_LIST_CONTACT_NAME' => 'Kontakt',
     'LBL_LIST_DATE_MODIFIED' => 'Zadnja izmjena',

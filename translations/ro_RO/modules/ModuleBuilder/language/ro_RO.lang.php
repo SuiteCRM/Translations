@@ -550,6 +550,7 @@ Personalizările făcute la <b>Layout-urile</b> Portalului SuiteCRM, împreună 
     'LBL_TYPE_BASIC' => 'de bază',
     'LBL_TYPE_COMPANY' => 'companie',
     'LBL_TYPE_PERSON' => 'persoana',
+    'LBL_TYPE_ASYNCTASK' => 'Async Task',
     'LBL_TYPE_ISSUE' => 'problema',
     'LBL_TYPE_SALE' => 'vânzare',
     'LBL_TYPE_FILE' => 'fisier',

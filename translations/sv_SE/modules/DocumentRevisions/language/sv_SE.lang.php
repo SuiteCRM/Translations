@@ -45,49 +45,49 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     //module
     'LBL_MODULE_NAME' => 'Dokumentrevision',
-    'LBL_NEW_REVISION' => 'Add Revision',
+    'LBL_NEW_REVISION' => 'Lägg till revision',
 
-    'LNK_NEW_DOCUMENT' => 'Create Document',
+    'LNK_NEW_DOCUMENT' => 'Skapa dokument',
     'LNK_DOCUMENT_LIST' => 'Dokumentlista',
 
     'LBL_OVERVIEW' => 'Översikt',
-    'LBL_OTHER' => 'Other',
+    'LBL_OTHER' => 'Övrigt',
 
     //vardef labels
-    'LBL_REVISION_NAME' => 'Revision Number',
-    'LBL_FILENAME' => 'File:',
-    'LBL_MIME' => 'Mime Type',
+    'LBL_REVISION_NAME' => 'Revisionsnummer',
+    'LBL_FILENAME' => 'Fil:',
+    'LBL_MIME' => 'MIME-typ',
     'LBL_REVISION' => 'Revision',
-    'LBL_DOCUMENT' => 'Related Document',
-    'LBL_LATEST_REVISION' => 'Latest Revision',
-    'LBL_CHANGE_LOG' => 'Change Log',
-    'LBL_ACTIVE_DATE' => 'Publish Date',
-    'LBL_EXPIRATION_DATE' => 'Expiration Date',
-    'LBL_FILE_EXTENSION' => 'File Extension',
+    'LBL_DOCUMENT' => 'Relaterat dokument',
+    'LBL_LATEST_REVISION' => 'Senaste revision',
+    'LBL_CHANGE_LOG' => 'Ändringslogg',
+    'LBL_ACTIVE_DATE' => 'Publiceringsdatum',
+    'LBL_EXPIRATION_DATE' => 'Utgångsdatum',
+    'LBL_FILE_EXTENSION' => 'Filtillägg',
 
-    'LBL_DOC_NAME' => 'Document Name:',
+    'LBL_DOC_NAME' => 'Dokumentnamn:',
     'LBL_DOC_VERSION' => 'Revision:',
 
     //document revisions.
     'LBL_REV_LIST_REVISION' => 'Revision',
     'LBL_REV_LIST_ENTERED' => 'Datum Skapat',
-    'LBL_REV_LIST_CREATED' => 'Created by',
-    'LBL_REV_LIST_LOG' => 'Change Log',
-    'LBL_REV_LIST_FILENAME' => 'File',
+    'LBL_REV_LIST_CREATED' => 'Skapad av',
+    'LBL_REV_LIST_LOG' => 'Ändringslogg',
+    'LBL_REV_LIST_FILENAME' => 'Fil',
 
     'LBL_CURRENT_DOC_VERSION' => 'Senaste revision:',
-    'LBL_SEARCH_FORM_TITLE' => 'Document Search',
+    'LBL_SEARCH_FORM_TITLE' => 'Sök efter dokument',
     'LBL_REVISIONS' => 'Versioner',
 
     //error messages
-    'ERR_FILENAME' => 'File Name',
+    'ERR_FILENAME' => 'Filnamn',
     'ERR_DOC_VERSION' => 'Dokumentversion',
     'ERR_DELETE_CONFIRM' => 'Vill du ta bort denna dokumentrevision?',
     'ERR_DELETE_LATEST_VERSION' => 'Det är inte tillåtet att ta bort den senaste revisionen av ett dokument.',
-    'LNK_NEW_MAIL_MERGE' => 'Mail Merge',
-    'LBL_DOC_ID' => 'Document Source ID',
+    'LNK_NEW_MAIL_MERGE' => 'Dokumentkoppling',
+    'LBL_DOC_ID' => 'ID för dokumentkälla',
     'LBL_DOC_TYPE' => 'Källa',
-    'LBL_DOC_URL' => 'Document Source URL',
+    'LBL_DOC_URL' => 'Webbadress för dokumentkälla',
 
-    'LBL_CREATED_BY_NAME' => 'Created by Name',
+    'LBL_CREATED_BY_NAME' => 'Namn på den som skapade',
 );

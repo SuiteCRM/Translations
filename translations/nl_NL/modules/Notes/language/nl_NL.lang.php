@@ -56,6 +56,7 @@ $mod_strings = array(
     'LBL_FILE_MIME_TYPE' => 'Mime type',
     'LBL_FILE_URL' => 'Bestand URL',
     'LBL_FILENAME' => 'Bijlage:',
+    'LBL_LEGACY_FILENAME' => 'Legacy Attachment:',
     'LBL_LEAD_ID' => 'Lead ID:',
     'LBL_LIST_CONTACT_NAME' => 'Contactpersoon',
     'LBL_LIST_DATE_MODIFIED' => 'Laatst gewijzigd',

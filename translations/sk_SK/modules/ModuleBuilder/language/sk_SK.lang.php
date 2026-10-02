@@ -541,6 +541,7 @@ $mod_strings = array(
     'LBL_TYPE_BASIC' => 'základní',
     'LBL_TYPE_COMPANY' => 'klient',
     'LBL_TYPE_PERSON' => 'osoba',
+    'LBL_TYPE_ASYNCTASK' => 'Async Task',
     'LBL_TYPE_ISSUE' => 'chyba',
     'LBL_TYPE_SALE' => 'predaj',
     'LBL_TYPE_FILE' => 'súbor',

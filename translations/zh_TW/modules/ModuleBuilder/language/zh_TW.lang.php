@@ -551,6 +551,7 @@ $mod_strings = array(
     'LBL_TYPE_BASIC' => '普通',
     'LBL_TYPE_COMPANY' => '公司',
     'LBL_TYPE_PERSON' => '人',
+    'LBL_TYPE_ASYNCTASK' => 'Async Task',
     'LBL_TYPE_ISSUE' => '問題',
     'LBL_TYPE_SALE' => '促銷',
     'LBL_TYPE_FILE' => '檔案',

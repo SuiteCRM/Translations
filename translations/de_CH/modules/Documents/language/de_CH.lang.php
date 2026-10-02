@@ -49,8 +49,8 @@ $mod_strings = array(
     'LNK_NEW_DOCUMENT' => 'Dokument erstellen',
     'LNK_DOCUMENT_LIST' => 'Dokumente anzeigen',
     'LBL_DOC_REV_HEADER' => 'Dokumentversionen',
-    'LBL_NEW_REVISION' => 'Add Revision',
-    'LBL_FILENAME_REVISION_HINT' => 'Remove and replace this file to create a new revision.',
+    'LBL_NEW_REVISION' => 'Revision hinzufügen',
+    'LBL_FILENAME_REVISION_HINT' => 'Entfernen und ersetzen Sie diese Datei, um eine neue Revision zu erstellen.',
     'LBL_SEARCH_FORM_TITLE' => 'Dokumente suchen',
     //vardef labels
     'LBL_NAME' => 'Dokument Name',
@@ -171,7 +171,7 @@ $mod_strings = array(
 
     'LBL_REV_LIST_REVISION' => 'Revision',
     'LBL_REV_LIST_ENTERED' => 'Erstellungsdatum:',
-    'LBL_REV_LIST_CREATED' => 'Created by',
+    'LBL_REV_LIST_CREATED' => 'Erstellt von',
     'LBL_REV_LIST_LOG' => 'Änderungsprotokoll',
     'LBL_REV_LIST_FILENAME' => 'Datei',
 );

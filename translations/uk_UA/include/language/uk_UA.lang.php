@@ -1748,7 +1748,7 @@ $app_strings = array(
     'LBL_DISMISS' => 'Відхилити',
     'LBL_DISMISS_INLINE_CONFIRM' => 'Чи бажаєте відхилити?',
     'LBL_DISMISS_ALL_INLINE_CONFIRM' => 'Чи бажаєте відхилити всі?',
-    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Dismiss all drafts?',
+    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Dismiss all?',
     'NTC_DISMISS_CONFIRMATION' => 'Чи бажаєте відхилити це тривожне сповіщення?',
     'NTC_DISMISS_ALL_CONFIRMATION' => 'Чи бажаєте відхилити всі сповіщення?',
     'LBL_ALERT_DISMISS_SUCCESS' => 'Тривожне сповіщення відхилене',
@@ -4507,3 +4507,7 @@ $app_list_strings['email_import_timeframe_start_dom'] = [
 ];
 
 $app_strings['LBL_NOT_AUTHORIZED'] = 'Not authorized';
+
+$app_strings['LBL_AUTOFILL_MISSING_RELATE_MODULE'] = 'Autofill failed: related module is not configured.';
+$app_strings['LBL_AUTOFILL_MISSING_RELATE_ID'] = 'Autofill failed: no related record selected.';
+$app_strings['LBL_AUTOFILL_MISSING_UPDATE_FIELDS'] = 'Autofill failed: no fields configured for update.';

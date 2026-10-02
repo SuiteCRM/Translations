@@ -548,6 +548,7 @@ Pode reordenar os módulos arrastando as linhas correspondentes na tabela.<br/><
     'LBL_TYPE_BASIC' => 'básico',
     'LBL_TYPE_COMPANY' => 'empresa',
     'LBL_TYPE_PERSON' => 'pessoa',
+    'LBL_TYPE_ASYNCTASK' => 'Async Task',
     'LBL_TYPE_ISSUE' => 'problema',
     'LBL_TYPE_SALE' => 'venda',
     'LBL_TYPE_FILE' => 'ficheiro',

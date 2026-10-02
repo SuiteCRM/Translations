@@ -550,6 +550,7 @@ $mod_strings = array(
     'LBL_TYPE_BASIC' => 'basic',
     'LBL_TYPE_COMPANY' => 'company',
     'LBL_TYPE_PERSON' => 'eyan',
+    'LBL_TYPE_ASYNCTASK' => 'Async Task',
     'LBL_TYPE_ISSUE' => 'issue',
     'LBL_TYPE_SALE' => 'tita',
     'LBL_TYPE_FILE' => 'faili',

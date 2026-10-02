@@ -56,6 +56,7 @@ $mod_strings = array(
     'LBL_FILE_MIME_TYPE' => 'MIME typ',
     'LBL_FILE_URL' => 'File URL',
     'LBL_FILENAME' => 'Příloha:',
+    'LBL_LEGACY_FILENAME' => 'Legacy Attachment:',
     'LBL_LEAD_ID' => 'ID iniciativy:',
     'LBL_LIST_CONTACT_NAME' => 'Kontakt',
     'LBL_LIST_DATE_MODIFIED' => 'Poslední změna',

@@ -549,6 +549,7 @@ $mod_strings = array(
     'LBL_TYPE_BASIC' => 'əsas',
     'LBL_TYPE_COMPANY' => 'şirkət',
     'LBL_TYPE_PERSON' => 'insan',
+    'LBL_TYPE_ASYNCTASK' => 'Async Task',
     'LBL_TYPE_ISSUE' => 'problem',
     'LBL_TYPE_SALE' => 'satış',
     'LBL_TYPE_FILE' => 'fayl',

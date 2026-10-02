@@ -36,22 +36,22 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = [
 
     // Module naming
-    'LBL_LIST_FORM_TITLE' => 'Processes List',
-    'LBL_MODULE_NAME' => 'Processes',
-    'LBL_MODULE_TITLE' => 'Processes',
-    'LBL_HOMEPAGE_TITLE' => 'My Processes',
-    'LNK_NEW_RECORD' => 'Create Process',
-    'LNK_LIST' => 'View Processes',
-    'LBL_SEARCH_FORM_TITLE' => 'Search Processes',
-    'LBL_NEW_FORM_TITLE' => 'New Process',
+    'LBL_LIST_FORM_TITLE' => 'Süreç listesi',
+    'LBL_MODULE_NAME' => 'Süreçler',
+    'LBL_MODULE_TITLE' => 'Süreçler',
+    'LBL_HOMEPAGE_TITLE' => 'Süreçlerim',
+    'LNK_NEW_RECORD' => 'Süreç ekle',
+    'LNK_LIST' => 'Süreçleri görüntüle',
+    'LBL_SEARCH_FORM_TITLE' => 'Süreç ara',
+    'LBL_NEW_FORM_TITLE' => 'Yeni süreç',
 
     // Rerun/dismiss confirmation messages (reference this module by name)
-    'LBL_RERUN_CONFIRMATION' => 'Are you sure you want to re-run this process from scratch? All existing items will be removed and the process will restart.',
-    'LBL_RERUN_SUCCESS' => 'Process has been re-queued and will restart from the beginning.',
-    'LBL_DISMISS_CONFIRMATION' => 'Are you sure you want to dismiss this process? This will remove it and all associated data.',
-    'LBL_DISMISS_SUCCESS' => 'Process dismissed successfully.',
+    'LBL_RERUN_CONFIRMATION' => 'Bu süreci sıfırdan yeniden başlatmak istediğinize emin misiniz? Var olan tüm ögeler kaldırılacak ve süreç yeniden başlatılacak.',
+    'LBL_RERUN_SUCCESS' => 'Süreç yeniden sıraya alındı ve baştan başlayacak.',
+    'LBL_DISMISS_CONFIRMATION' => 'Bu süreci reddetmek istediğinize emin misiniz? Bu işlem, süreci ve ilişkili tüm verileri kaldıracak.',
+    'LBL_DISMISS_SUCCESS' => 'Süreç yok sayıldı.',
 
     // Type footnotes
-    'LBL_TYPE_BACKGROUND_HELP' => 'This process runs in the background via the message queue worker. It processes items in batches and does not block the UI.',
-    'LBL_TYPE_IMMEDIATE_HELP' => 'This process runs immediately when triggered. It processes all items in a single request and may take longer for large datasets.',
+    'LBL_TYPE_BACKGROUND_HELP' => 'Bu süreç arka planda ileti kuyruğu işlemi üzerinden yürütülür. Ögeleri gruplar halinde işler ve kullanıcı arayüzünü engellemez.',
+    'LBL_TYPE_IMMEDIATE_HELP' => 'Bu süreç tetiklendiğinde hemen yürütülür. Tüm ögeleri tek bir istekte işler ve büyük veri kümeleri için daha uzun sürebilir.',
 ];

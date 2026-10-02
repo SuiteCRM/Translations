@@ -77,5 +77,6 @@ $mod_strings = array(
     'LBL_ADD_ACTION' => 'Přidat akci',
     'LBL_MULTIPLE_RUNS' => 'Opakované spuštění',
     'LBL_RUN_WHEN' => 'Spustit',
-    'LBL_RUN_ON_IMPORT' => 'Run on Import'
+    'LBL_RUN_ON_IMPORT' => 'Run on Import',
+    'LBL_ACTION_NAME_NOT_ALLOWED' => 'Action name not allowed.',
 );

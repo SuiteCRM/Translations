@@ -44,13 +44,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ROLE' => 'Rol',
-    'LBL_NAME' => 'İsim',
+    'LBL_NAME' => 'Ad',
     'LBL_DESCRIPTION' => 'Açıklama',
     'LIST_ROLES' => 'Roller listesi',
     'LBL_USERS_SUBPANEL_TITLE' => 'Kullanıcılar',
     'LIST_ROLES_BY_USER' => 'Kullanıcıya göre roller listesi',
     'LBL_ROLES_SUBPANEL_TITLE' => 'Kullanıcı rolleri',
-    'LBL_SEARCH_FORM_TITLE' => 'Arama',
+    'LBL_SEARCH_FORM_TITLE' => 'Ara',
     'LBL_NO_ACCESS' => 'Bu bölüme erişme izniniz yok. İzin almak için site yöneticiniz ile görüşün.',
     'LBL_REDIRECT_TO_HOME' => 'Girişe yönlendiriliyorsunuz',
     'LBL_SECONDS' => 'saniye',

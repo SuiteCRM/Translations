@@ -551,6 +551,7 @@ $mod_strings = array(
     'LBL_TYPE_BASIC' => 'بسيط',
     'LBL_TYPE_COMPANY' => 'شركة',
     'LBL_TYPE_PERSON' => 'شخص',
+    'LBL_TYPE_ASYNCTASK' => 'Async Task',
     'LBL_TYPE_ISSUE' => 'مشكلة',
     'LBL_TYPE_SALE' => 'بيع',
     'LBL_TYPE_FILE' => 'ملف',

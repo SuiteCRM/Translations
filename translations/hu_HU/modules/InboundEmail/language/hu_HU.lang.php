@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'Új Eseménykor automatikus - válasz sablon',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => 'Válasszon ki egy automatikus válasz Emailcímet, amelyről tájékoztatja a címzettet, hogy az Eseményt rögzítésre került a CRM rendszerben. Az Email Tárgy sora tartalmazza az Esemény számát. ',
     'LBL_MAILBOX' => 'Megfigyelt mappák',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'Kuka mappa',
     'LBL_SENT_FOLDER' => 'Elküldöttek mappája',
     'LBL_SELECT' => 'Válassza ki',

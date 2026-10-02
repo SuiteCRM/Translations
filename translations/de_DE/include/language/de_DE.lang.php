@@ -1748,7 +1748,7 @@ $app_strings = array(
     'LBL_DISMISS' => 'Verwerfen',
     'LBL_DISMISS_INLINE_CONFIRM' => 'Verwerfen?',
     'LBL_DISMISS_ALL_INLINE_CONFIRM' => 'Alles verwerfen?',
-    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Dismiss all drafts?',
+    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Dismiss all?',
     'NTC_DISMISS_CONFIRMATION' => 'Sind Sie sicher, dass Sie diese Benachrichtigung verwerfen möchten?',
     'NTC_DISMISS_ALL_CONFIRMATION' => 'Sind Sie sicher, dass Sie alle Benachrichtigungen verwerfen möchten?',
     'LBL_ALERT_DISMISS_SUCCESS' => 'Alarm erfolgreich verworfen',
@@ -1870,8 +1870,8 @@ $app_strings = array(
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_TITLE' => 'Firma auswählen',
     'LBL_ACCESSKEY_SELECT_ACCOUNTS_LABEL' => 'Firma auswählen',
     'LBL_ACCESSKEY_CLEAR_ACCOUNTS_KEY' => ' ',
-    'LBL_ACCESSKEY_CLEAR_ACCOUNTS_TITLE' => 'Konto löschen',
-    'LBL_ACCESSKEY_CLEAR_ACCOUNTS_LABEL' => 'Konto löschen',
+    'LBL_ACCESSKEY_CLEAR_ACCOUNTS_TITLE' => 'Firma löschen',
+    'LBL_ACCESSKEY_CLEAR_ACCOUNTS_LABEL' => 'Firma löschen',
     'LBL_ACCESSKEY_SELECT_CAMPAIGNS_KEY' => 'M',
     'LBL_ACCESSKEY_SELECT_CAMPAIGNS_TITLE' => 'Kampagne auswählen',
     'LBL_ACCESSKEY_SELECT_CAMPAIGNS_LABEL' => 'Kampagne auswählen',
@@ -2412,7 +2412,7 @@ $app_strings = array(
     'LBL_CONFIRM_OPT_IN_FAIL_DATE' => 'Opt-In Datumsbestätigung fehlgeschlagen',
     'LBL_CONFIRM_OPT_IN_TOKEN' => 'Opt-In Token bestätigen',
     'ERR_OPT_IN_TPL_NOT_SET' => 'Die E-Mail Vorlage für Opt-In ist nicht konfiguriert. Bitte in den E-Mail Einstellungen einrichten.',
-    'ERR_OPT_IN_RELATION_INCORRECT' => 'Für ein Opt-In muss die E-Mail mit einem Konto/Kontakt/Lead/Zielkontakt verknüpft sein',
+    'ERR_OPT_IN_RELATION_INCORRECT' => 'Für ein Opt-In muss die E-Mail mit einem Firma/Kontakt/Lead/Zielkontakt verknüpft sein',
 
     'LBL_SECURITYGROUP_NONINHERITABLE' => 'Nicht vererbbare Gruppe',
     'LBL_PRIMARY_GROUP' => "Primäre Gruppe",
@@ -2426,7 +2426,7 @@ $app_strings = array(
     'LBL_SUITE_DESC3' => 'SuiteCRM is a trademark of SuiteCRM Ltd<. All other company and product names may be trademarks of the respective companies with which they are associated.',
     'LBL_GENERATE_PASSWORD_BUTTON_TITLE' => 'Zurücksetzen von Passwörtern',
     'LBL_SEND_CONFIRM_OPT_IN_EMAIL' => 'Opt-in Bestätigungs-E-Mail senden',
-    'LBL_CONFIRM_OPT_IN_ONLY_FOR_PERSON' => 'Bestätigen Sie den Opt-In E-Mail Versand nur für Konten/Kontakte/Leads/Interessenten',
+    'LBL_CONFIRM_OPT_IN_ONLY_FOR_PERSON' => 'Bestätigen Sie den Opt-In E-Mail Versand nur für Firmen/Kontakte/Leads/Interessenten',
     'LBL_CONFIRM_OPT_IN_IS_DISABLED' => 'Das Bestätigen der Opt-In E-Mail ist deaktiviert, aktivieren Sie die Opt-In Option in den E-Mail-Einstellungen oder kontaktieren Sie Ihren Administrator.',
     'LBL_CONTACT_HAS_NO_PRIMARY_EMAIL' => 'Der Opt-In E-Mail Versand ist nicht möglich, weil der Kontakt keine primäre E-Mail Adresse hinterlegt hat',
     'LBL_CONFIRM_EMAIL_SENDING_FAILED' => 'Das Senden der Bestätigungsmail für das Opt-In ist fehlgeschlagen',
@@ -4491,3 +4491,7 @@ $app_list_strings['email_import_timeframe_start_dom'] = [
 ];
 
 $app_strings['LBL_NOT_AUTHORIZED'] = 'Not authorized';
+
+$app_strings['LBL_AUTOFILL_MISSING_RELATE_MODULE'] = 'Autofill failed: related module is not configured.';
+$app_strings['LBL_AUTOFILL_MISSING_RELATE_ID'] = 'Autofill failed: no related record selected.';
+$app_strings['LBL_AUTOFILL_MISSING_UPDATE_FIELDS'] = 'Autofill failed: no fields configured for update.';

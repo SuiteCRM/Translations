@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'Šablona automatické odpovědi na nový případ.',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => 'Vyberte automatickou odpověď oznamující e-mailem odesílateli, že byl vytvořen nový případ. E-mail obsahuje číslo případu v řádku Předmět, který dodržuje nastavení maker. Tato odpověď je odeslána pouze při příjmu prvního e-mailu od příjemce.',
     'LBL_MAILBOX' => 'Monitorovaná složka',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'Složka Koš',
     'LBL_SENT_FOLDER' => 'Složka Odeslané',
     'LBL_SELECT' => 'Vybrat',

@@ -77,5 +77,6 @@ $mod_strings = array(
     'LBL_ADD_ACTION' => 'Lisää Toiminto',
     'LBL_MULTIPLE_RUNS' => 'Toistuvat Suoritukset',
     'LBL_RUN_WHEN' => 'Suorita',
-    'LBL_RUN_ON_IMPORT' => 'Suorita Tuodessa'
+    'LBL_RUN_ON_IMPORT' => 'Suorita Tuodessa',
+    'LBL_ACTION_NAME_NOT_ALLOWED' => 'Action name not allowed.',
 );

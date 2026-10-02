@@ -548,6 +548,7 @@ Bạn có thể sắp xếp lại các mô-đun bằng cách kéo các hàng c�
     'LBL_TYPE_BASIC' => 'cơ bản',
     'LBL_TYPE_COMPANY' => 'công ty',
     'LBL_TYPE_PERSON' => 'người',
+    'LBL_TYPE_ASYNCTASK' => 'Async Task',
     'LBL_TYPE_ISSUE' => 'vấn đề',
     'LBL_TYPE_SALE' => 'bán hàng',
     'LBL_TYPE_FILE' => 'tập tin',

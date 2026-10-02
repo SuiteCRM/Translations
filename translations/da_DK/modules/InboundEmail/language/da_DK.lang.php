@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'Skabelon til automatiske svar på ny sag',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => 'Vælg et automatisk svar for at give e-mail-afsendere besked om, at en sag er oprettet. E-mailen indeholder sagsnummeret i emnelinjen, hvilket er i overensstemmelse med indstillingen Sagsmakro. Dette svar sendes først, når den første e-mail er modtaget fra modtageren.',
     'LBL_MAILBOX' => 'Overvågede mapper',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'Mappen Papirkurv',
     'LBL_SENT_FOLDER' => 'Mappen Sendt',
     'LBL_SELECT' => 'Vælg',

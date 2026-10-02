@@ -549,6 +549,7 @@ Maaari mong muling i-order ang mga module sa pamamagitan ng pag-drag sa kanilang
     'LBL_TYPE_BASIC' => 'pangunahin',
     'LBL_TYPE_COMPANY' => 'kompanya',
     'LBL_TYPE_PERSON' => 'tao',
+    'LBL_TYPE_ASYNCTASK' => 'Async Task',
     'LBL_TYPE_ISSUE' => 'isyu',
     'LBL_TYPE_SALE' => 'benta',
     'LBL_TYPE_FILE' => 'file',

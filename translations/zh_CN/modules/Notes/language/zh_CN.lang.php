@@ -56,6 +56,7 @@ $mod_strings = array(
     'LBL_FILE_MIME_TYPE' => 'Mime 类型',
     'LBL_FILE_URL' => '文件 URL',
     'LBL_FILENAME' => '附件',
+    'LBL_LEGACY_FILENAME' => 'Legacy Attachment:',
     'LBL_LEAD_ID' => '潜在客户ID',
     'LBL_LIST_CONTACT_NAME' => '联系人',
     'LBL_LIST_DATE_MODIFIED' => '最新修改',

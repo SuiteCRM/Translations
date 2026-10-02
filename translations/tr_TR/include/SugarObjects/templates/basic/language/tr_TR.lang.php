@@ -54,7 +54,7 @@ $mod_strings = array(
     'LBL_NAME' => 'Ad',
     'LBL_CREATED_USER' => 'Ekleyen kullanıcı',
     'LBL_MODIFIED_USER' => 'Değiştiren kullanıcı',
-    'LBL_LIST_NAME' => 'Paket Adı:',
+    'LBL_LIST_NAME' => 'Ad',
     'LBL_EDIT_BUTTON' => 'Düzenle',
     'LBL_REMOVE' => 'Kaldır',
 

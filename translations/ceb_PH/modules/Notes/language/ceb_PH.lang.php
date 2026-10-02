@@ -56,6 +56,7 @@ $mod_strings = array(
     'LBL_FILE_MIME_TYPE' => 'Matang sa Mime',
     'LBL_FILE_URL' => 'URL sa file',
     'LBL_FILENAME' => 'Pagsukip:',
+    'LBL_LEGACY_FILENAME' => 'Legacy Attachment:',
     'LBL_LEAD_ID' => 'ID nga nagpasi-una:',
     'LBL_LIST_CONTACT_NAME' => 'Kontak',
     'LBL_LIST_DATE_MODIFIED' => 'Katapusan ge modified',

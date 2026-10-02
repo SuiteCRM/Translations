@@ -1748,7 +1748,7 @@ $app_strings = array(
     'LBL_DISMISS' => 'Hylkää',
     'LBL_DISMISS_INLINE_CONFIRM' => 'Ohita?',
     'LBL_DISMISS_ALL_INLINE_CONFIRM' => 'Hylkää Kaikki?',
-    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Dismiss all drafts?',
+    'LBL_DISMISS_ALL_DRAFTS_CONFIRM' => 'Dismiss all?',
     'NTC_DISMISS_CONFIRMATION' => 'Oletko varma, että haluat hylätä tämän hälytyksen?',
     'NTC_DISMISS_ALL_CONFIRMATION' => 'Oletko varma, että haluat hylätä kaikki hälytykset?',
     'LBL_ALERT_DISMISS_SUCCESS' => 'Hälytys lopetettu onnistuneesti',
@@ -4507,3 +4507,7 @@ $app_list_strings['email_import_timeframe_start_dom'] = [
 ];
 
 $app_strings['LBL_NOT_AUTHORIZED'] = 'Not authorized';
+
+$app_strings['LBL_AUTOFILL_MISSING_RELATE_MODULE'] = 'Autofill failed: related module is not configured.';
+$app_strings['LBL_AUTOFILL_MISSING_RELATE_ID'] = 'Autofill failed: no related record selected.';
+$app_strings['LBL_AUTOFILL_MISSING_UPDATE_FIELDS'] = 'Autofill failed: no fields configured for update.';

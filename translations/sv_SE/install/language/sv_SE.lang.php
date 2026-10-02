@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_BASIC' => 'Grundläggande',
     'LBL_BASIC_SEARCH' => 'Snabbfilter',
-    'LBL_ADVANCED_SEARCH' => 'Advanced Filter',
+    'LBL_ADVANCED_SEARCH' => 'Avancerat filter',
     'LBL_BASIC_TYPE' => 'Grundläggande typ',
     'LBL_ADVANCED_TYPE' => 'Avancerad typ',
     'LBL_SYSOPTS_2' => 'Vilken typ av databas kommer att användas för SuiteCRM instansen du tänker installera?',
@@ -59,7 +59,7 @@ $mod_strings = array(
     'LBL_EMPTY' => 'Tom',
 
     'ERR_CHECKSYS' => 'Fel har upptäckts under kompatibilitetskontrollen. För att SuiteCRM ska fungera korrekt, vänligen vidta lämpliga åtgärder gällande de punkter som anges nedan, eller försök installera igen.',
-    'ERR_CHECKSYS_CALL_TIME' => 'Allow Call Time Pass Reference is On (this should be set to Off in php.ini)',
+    'ERR_CHECKSYS_CALL_TIME' => 'Inställningen `allow_call_time_pass_reference` är aktiverad (den ska vara avaktiverad i php.ini)',
     'ERR_CHECKSYS_CURL' => 'Hittades inte: SuiteCRM Schemaläggaren körs med begränsad funktionalitet.',
     'ERR_CHECKSYS_IMAP' => 'Hittades inte: IngåendeEpost och kampanjer (epost) kräver IMAP-biblioteket. Ingen av tidigare nämnda kommer att fungera.',
     'ERR_CHECKSYS_MEM_LIMIT_1' => ' (Ställ värdet till ',
@@ -67,24 +67,24 @@ $mod_strings = array(
     'ERR_CHECKSYS_NOT_WRITABLE' => 'Varning: Inte skrivbar',
     'ERR_CHECKSYS_PHP_INVALID_VER' => 'Din version av PHP stöds inte av SuiteCRM. Du måste installera en version som är kompatibel med SuiteCRM applikationen. Var god se kompatibilitets matrisen i "Release Notes" för att hitta de PHP versioner som stöds. Din version är',
     'ERR_CHECKSYS_IIS_INVALID_VER' => 'Din version av IIS stöds inte av SuiteCRM. Kontrollera kompatibilitets matrisen i "Release notes" för vilka versioner som stöds.',
-    'ERR_CHECKSYS_FASTCGI' => 'We detect that you are not using a FastCGI handler mapping for PHP. You will need to install/configure a version that is compatible with the SuiteCRM application. Please consult the Compatibility Matrix in the Release Notes for supported Versions. Please see <a href="https://php.iis.net/" target="_blank">https://php.iis.net/</a> for details ',
-    'ERR_CHECKSYS_FASTCGI_LOGGING' => 'For optimal experience using IIS/FastCGI sapi, set fastcgi.logging to 0 in your php.ini file.',
+    'ERR_CHECKSYS_FASTCGI' => 'Vi har upptäckt att du inte använder en FastCGI-hanterarmappning för PHP. Du måste installera eller konfigurera en version som är kompatibel med SuiteCRM. Information om versioner som stöds finns i kompatibilitetsmatrisen i versionsinformationen. Mer information finns på <a href="https://php.iis.net/" target="_blank">https://php.iis.net/</a> ',
+    'ERR_CHECKSYS_FASTCGI_LOGGING' => 'För bästa resultat med IIS/FastCGI SAPI anger du fastcgi.logging till 0 i php.ini-filen.',
     'LBL_DB_UNAVAILABLE' => 'Databasen ej tillgänglig',
     'LBL_CHECKSYS_DB_SUPPORT_NOT_AVAILABLE' => 'Databasen hittades inte.  Vänligen kontrollera att du har nödvändiga drivrutiner för en av följande databastyper: MySQL eller MS SQLServer.  Du kan behöva avkommentera tillägget i php.ini-filen, eller kompilera om med korrekta binär filen, beroende på PHP-version.  Se din PHP Manual för mer information om hur du aktiverar databas stöd.',
     'LBL_CHECKSYS_XML_NOT_AVAILABLE' => 'Funktioner som är associerade med XML Parser biblioteket som behövs av programmet SuiteCRM hittades inte.  Du kan behöva avkommentera tillägget i php.ini-filen, eller kompilera om med den korrekta binärfilen, beroende på PHP-version.  Se din PHP Manual för mer information.',
-    'ERR_CHECKSYS_MBSTRING' => 'Functions associated with the Multibyte Strings PHP extension (mbstring) that are needed by the SuiteCRM application were not found. Generally, the mbstring module is not enabled by default in PHP and must be activated with --enable-mbstring when the PHP binary is built. Please refer to your PHP Manual for more information on how to enable mbstring support.',
-    'ERR_CHECKSYS_CONFIG_NOT_WRITABLE' => 'The config file exists but is not writeable. Please take the necessary steps to make the file writeable.',
-    'ERR_CHECKSYS_CONFIG_NOT_FOUND' => 'Your config.php does not exist. This will be created on install.',
-    'ERR_CHECKSYS_CONFIG_OVERRIDE_NOT_WRITABLE' => 'The config override file exists but is not writeable. Please take the necessary steps to make the file writeable. ',
-    'ERR_CHECKSYS_CUSTOM_NOT_WRITABLE' => 'The Custom Directory exists but is not writeable. Please take the necessary steps to make the file writeable.',
-    'ERR_CHECKSYS_FILES_NOT_WRITABLE' => "The files or directories listed above are not writeable or are missing and cannot be created. Please take the necessary steps to make the directories writeable.",
-    'ERR_CHECKSYS_LOGS_NOT_WRITABLE' => 'The Logs Directory is currently not writable',
-    'ERR_CHECKSYS_CACHE_NOT_WRITABLE' => 'The Cache Directory is currently not writable',
-    'ERR_CHECKSYS_EXTENSIONS_NOT_WRITABLE' => 'The Extensions Directory is currently not writable',
-    'ERR_CHECKSYS_ROOT_NOT_WRITABLE' => 'The Root Directory is currently not writable. You will not be able to proceed with install.',
-    'ERR_CHECKSYS_SECRETS_NOT_WRITABLE' => 'The config/secrets directory is currently not writable',
-    'ERR_CHECKSYS_ENV_NOT_WRITABLE' => 'The .env file or the directory it is in is not writable.',
-    'ERR_CHECKSYS_JSON_NOT_AVAILABLE' => "Functions associated with JSON Parser Libraries that are needed by the SuiteCRM application were not found. You might need to uncomment the extension in the php.ini file, or recompile with the right binary file, depending on your version of PHP. Please refer to your PHP Manual for more information.",
+    'ERR_CHECKSYS_MBSTRING' => 'Funktioner för PHP-tillägget Multibyte Strings (mbstring), som SuiteCRM behöver, hittades inte. Modulen mbstring är normalt inte aktiverad som standard i PHP och måste aktiveras med --enable-mbstring när PHP-binären byggs. I PHP-handboken finns mer information om hur mbstring-stöd aktiveras.',
+    'ERR_CHECKSYS_CONFIG_NOT_WRITABLE' => 'Konfigurationsfilen finns men är inte skrivbar. Gör filen skrivbar.',
+    'ERR_CHECKSYS_CONFIG_NOT_FOUND' => 'Filen config.php finns inte. Den skapas vid installationen.',
+    'ERR_CHECKSYS_CONFIG_OVERRIDE_NOT_WRITABLE' => 'Filen för åsidosatt konfiguration finns men är inte skrivbar. Gör filen skrivbar. ',
+    'ERR_CHECKSYS_CUSTOM_NOT_WRITABLE' => 'Katalogen Custom finns men är inte skrivbar. Gör katalogen skrivbar.',
+    'ERR_CHECKSYS_FILES_NOT_WRITABLE' => "Filerna eller katalogerna ovan är inte skrivbara, saknas eller kan inte skapas. Gör katalogerna skrivbara.",
+    'ERR_CHECKSYS_LOGS_NOT_WRITABLE' => 'Katalogen Logs är inte skrivbar',
+    'ERR_CHECKSYS_CACHE_NOT_WRITABLE' => 'Katalogen Cache är inte skrivbar',
+    'ERR_CHECKSYS_EXTENSIONS_NOT_WRITABLE' => 'Katalogen Extensions är inte skrivbar',
+    'ERR_CHECKSYS_ROOT_NOT_WRITABLE' => 'Rotkatalogen är inte skrivbar. Du kan inte fortsätta installationen.',
+    'ERR_CHECKSYS_SECRETS_NOT_WRITABLE' => 'Katalogen config/secrets är inte skrivbar',
+    'ERR_CHECKSYS_ENV_NOT_WRITABLE' => 'Filen .env eller katalogen där den finns är inte skrivbar.',
+    'ERR_CHECKSYS_JSON_NOT_AVAILABLE' => "Funktioner för JSON-tolkbibliotek som SuiteCRM behöver hittades inte. Beroende på PHP-version kan du behöva avkommentera tillägget i php.ini-filen eller kompilera om med rätt binärfil. I PHP-handboken finns mer information.",
     'LBL_CHECKSYS_OVERRIDE_CONFIG' => 'Åsidosätta Config',
     'ERR_CHECKSYS_SAFE_MODE' => 'Felsäkert läge är på (On) (du kanske vill inaktivera det i php.ini)',
     'ERR_CHECKSYS_ZLIB' => 'ZLib stöd hittades inte: SuiteCRM har enorma prestandafördelar med zlib-komprimering.',
@@ -99,11 +99,11 @@ $mod_strings = array(
     'ERR_DB_EXISTS_PROCEED' => 'Det angivna databasnamnet finns redan. Du kan <br> 1. tryck på bakåtknappen och välj ett nytt databasnamn <br> 2. klicka på nästa och fortsätt men alla befintliga tabeller i den här databasen kommer att släppas. <strong> Det betyder att dina tabeller och data kommer att raderas. </strong>',
     'ERR_DB_HOSTNAME' => 'Värdnamnet kan inte vara tomt.',
     'ERR_DB_INVALID' => 'Ogiltig databastyp valt.',
-    'ERR_DB_LOGIN_FAILURE_SHORT' => 'Database Connection Error: The provided database hostname, port, username, and/or password is invalid.',
+    'ERR_DB_LOGIN_FAILURE_SHORT' => 'Databasanslutningsfel: det angivna databasvärdnamnet, porten, användarnamnet eller lösenordet är ogiltigt.',
     'ERR_DB_LOGIN_FAILURE' => 'Den angivna databasvärden, användarnamnet och / eller lösenordet är ogiltigt, och en anslutning till databasen kunde inte etableras. Ange en giltig värd, användarnamn och lösenord',
     'ERR_DB_LOGIN_FAILURE_MYSQL' => 'Den angivna databasvärden, användarnamnet och / eller lösenordet är ogiltigt, och en anslutning till databasen kunde inte etableras. Ange en giltig värd, användarnamn och lösenord',
     'ERR_DB_LOGIN_FAILURE_MSSQL' => 'Den angivna databasvärden, användarnamnet och / eller lösenordet är ogiltigt, och en anslutning till databasen kunde inte etableras. Ange en giltig värd, användarnamn och lösenord',
-    'ERR_DB_MYSQL_VERSION' => 'Your MySQL version (%s) is not supported by SuiteCRM. You will need to install a version that is compatible with the SuiteCRM application. Please consult the Compatibility Matrix in the Release Notes for supported MySQL versions.',
+    'ERR_DB_MYSQL_VERSION' => 'Din MySQL-version (%s) stöds inte av SuiteCRM. Du måste installera en version som är kompatibel med SuiteCRM. Information om MySQL-versioner som stöds finns i kompatibilitetsmatrisen i versionsinformationen.',
     'ERR_DB_NAME' => 'Databasnamnet får inte vara tomt.',
     'ERR_DB_MYSQL_DB_NAME_INVALID' => "Databasnamnet kan inte innehålla ' \\', '/', eller '.'",
     'ERR_DB_MSSQL_DB_NAME_INVALID' => "Databasnamnet kan inte innehålla  '\"', \"'\", '*', '/', '\\', '?', ':', '<', '>', eller '-'",
@@ -111,20 +111,20 @@ $mod_strings = array(
     'ERR_DB_PASSWORD' => 'Lösenorden för SuiteCRM databasadministratören matchar inte.  Ange samma lösenord i båda lösenords fälten.',
     'ERR_DB_PRIV_USER' => 'Ange ett administratör användarnamn till databasen, för att skapa anslutningen till databasen.',
     'ERR_DB_USER_EXISTS' => 'Användarnamnet ni försökte skapa finns redan. Vänligen ange ett nytt användarnamn till SuiteCRM databasen.',
-    'ERR_DB_USER' => 'Enter a user name for the SuiteCRM database administrator.',
-    'ERR_DBCONF_VALIDATION' => 'Please fix the following errors before proceeding:',
-    'ERR_DBCONF_PASSWORD_MISMATCH' => 'The passwords provided for the SuiteCRM database user do not match. Please re-enter the same passwords in the password fields.',
+    'ERR_DB_USER' => 'Ange ett användarnamn för SuiteCRM-databasadministratören.',
+    'ERR_DBCONF_VALIDATION' => 'Åtgärda följande fel innan du fortsätter:',
+    'ERR_DBCONF_PASSWORD_MISMATCH' => 'Lösenorden för SuiteCRM-databasanvändaren stämmer inte överens. Ange samma lösenord igen i lösenordsfälten.',
     'ERR_ERROR_GENERAL' => 'Följande fel påträffades:',
     'ERR_LANG_CANNOT_DELETE_FILE' => 'Kan inte ta bort fil: ',
     'ERR_LANG_MISSING_FILE' => 'Kan inte hitta fil: ',
-    'ERR_LANG_NO_LANG_FILE' => 'No language pack file found at include/language inside: ',
-    'ERR_LANG_UPLOAD_1' => 'There was a problem with your upload. Please try again.',
-    'ERR_LANG_UPLOAD_2' => 'Language Packs must be ZIP archives.',
-    'ERR_LANG_UPLOAD_3' => 'PHP could not move the temp file to the upgrade directory.',
+    'ERR_LANG_NO_LANG_FILE' => 'Ingen språkpaketfil hittades i include/language i: ',
+    'ERR_LANG_UPLOAD_1' => 'Ett fel uppstod vid uppladdningen. Försök igen.',
+    'ERR_LANG_UPLOAD_2' => 'Språkpaket måste vara ZIP-arkiv.',
+    'ERR_LANG_UPLOAD_3' => 'PHP kunde inte flytta den tillfälliga filen till uppgraderingskatalogen.',
     'ERR_LOG_DIRECTORY_NOT_EXISTS' => 'Loggkatalog som tillhandahålls är inte en giltig katalog.',
     'ERR_LOG_DIRECTORY_NOT_WRITABLE' => 'Loggkatalog som tillhandahålls är inte en skrivbar katalog.',
     'ERR_NO_DIRECT_SCRIPT' => 'Det gick inte att bearbeta skriptet direkt.',
-    'ERR_NO_SINGLE_QUOTE' => 'Cannot use the single quotation mark for ',
+    'ERR_NO_SINGLE_QUOTE' => 'Enkelt citattecken kan inte användas för ',
     'ERR_PASSWORD_MISMATCH' => 'Lösenorden som tillhandahålls för SuiteCRM admin-användare matchar inte. Ange samma lösenord igen i lösenordsfälten.',
     'ERR_PERFORM_CONFIG_PHP_1' => 'Kan inte skriva till <span class=stop>config.php</span> filen.',
     'ERR_PERFORM_CONFIG_PHP_2' => 'Du kan fortsätta installationen genom att manuellt skapa config.php filen och klistra in den konfiguration som anges nedan i config.php filen. Men du <strong>måste</strong> skapa config.php filen innan du fortsätter till nästa steg.',
@@ -133,15 +133,15 @@ $mod_strings = array(
     'ERR_PERFORM_HTACCESS_1' => 'Kan inte skriva till ',
     'ERR_PERFORM_HTACCESS_2' => ' filen.',
     'ERR_PERFORM_HTACCESS_3' => 'Om du vill säkra din loggfil från att vara tillgänglig via webbläsare, skapa en .htaccess fil i loggkatalogen med raden:',
-    'ERR_PERFORM_NO_TCPIP' => '<b>We could not detect an Internet connection.</b> When you do have a connection, please visit <a href="https://www.suitecrm.com/">https://www.suitecrm.com/</a> to register with SuiteCRM. By letting us know a little bit about how your company plans to use SuiteCRM, we can ensure we are always delivering the right application for your business needs.',
-    'ERR_PERFORM_NO_TCPIP_SIMPLE' => 'We could not detect an Internet connection.',
+    'ERR_PERFORM_NO_TCPIP' => '<b>Det gick inte att upptäcka någon internetanslutning.</b> När du har en anslutning kan du besöka <a href="https://www.suitecrm.com/">https://www.suitecrm.com/</a> för att registrera SuiteCRM. Genom att berätta lite om hur företaget planerar att använda SuiteCRM hjälper du oss att fortsätta leverera rätt program för era behov.',
+    'ERR_PERFORM_NO_TCPIP_SIMPLE' => 'Det gick inte att upptäcka någon internetanslutning.',
     'ERR_SESSION_DIRECTORY_NOT_EXISTS' => 'Sessionskatalogen som tillhandahålls är inte en giltig katalog.',
     'ERR_SESSION_DIRECTORY' => 'Sessionskatalogen som tillhandahålls är inte en skrivbar katalog.',
     'ERR_SESSION_PATH' => 'Sessionssökväg krävs om du vill ange din egen.',
     'ERR_SI_NO_CONFIG' => 'Du inkluderade inte config_si.php i dokumentroten eller du har inte definierat $sugar_config_si i config.php',
     'ERR_SITE_GUID' => 'Program-ID är obligatorisk om du vill ange din egen.',
     'ERROR_SPRITE_SUPPORT' => "För närvarande kan vi inte hitta GD-biblioteket, därför kan du inte använda CSS Sprite-funktionen.",
-    'ERR_UPLOAD_MAX_FILESIZE' => 'Your PHP configuration should be changed to allow files of at least 6MB to be uploaded.',
+    'ERR_UPLOAD_MAX_FILESIZE' => 'PHP-konfigurationen bör ändras så att filer på minst 6 MB kan laddas upp.',
     'LBL_UPLOAD_MAX_FILESIZE_TITLE' => 'Uppladdningsstorlek Filer',
     'ERR_URL_BLANK' => 'Ange bas-URL för SuiteCRM-instansen.',
     'ERR_UW_NO_UPDATE_RECORD' => 'Kunde inte hitta installationsposten för',
@@ -149,15 +149,15 @@ $mod_strings = array(
     'ERROR_PACKAGE_TYPE' => 'Manifestfilen anger en ej igenkänningsbar pakettyp.',
     'ERROR_VERSION_INCOMPATIBLE' => 'Den uppladdade filen är inte komptible med den här versionen av SuiteCRM Suite: ',
 
-    'LBL_BACK' => 'Back',
-    'LBL_CANCEL' => 'Cancel',
+    'LBL_BACK' => 'Tillbaka',
+    'LBL_CANCEL' => 'Avbryt',
     'LBL_ACCEPT' => 'Jag accepterar',
-    'LBL_CHECKSYS_LEGACY_CACHE' => 'Writable Legacy Cache Sub-Directories',
+    'LBL_CHECKSYS_LEGACY_CACHE' => 'Skrivbara underkataloger för äldre cache',
     'LBL_CHECKSYS_CACHE' => 'Skrivbara Cache-underkataloger',
-    'LBL_CHECKSYS_EXTENSIONS' => 'Writable Extensions Directory',
-    'LBL_CHECKSYS_SECRETS' => 'Writable Config/Secrets Directory',
-    'LBL_CHECKSYS_LOGS' => 'Writable Log Directory',
-    'LBL_CHECKSYS_ROOT' => 'Writable Root Directory',
+    'LBL_CHECKSYS_EXTENSIONS' => 'Skrivbar tilläggskatalog',
+    'LBL_CHECKSYS_SECRETS' => 'Skrivbar katalog för config/secrets',
+    'LBL_CHECKSYS_LOGS' => 'Skrivbar loggkatalog',
+    'LBL_CHECKSYS_ROOT' => 'Skrivbar rotkatalog',
     'LBL_DROP_DB_CONFIRM' => 'Det angivna databasnamnet finns redan.<br>Du kan antingen:<br>1. Klicka på Avbryt och välj ett nytt databasnamn, eller<br>2. Klicka på Acceptera-knappen och fortsätt. Alla befintliga tabeller i databasen kommer att släppas. <strong>Detta innebär att alla tabeller och befintliga data kommer att blåses bort.</strong>',
     'LBL_CHECKSYS_COMPONENT' => 'Komponent',
     'LBL_CHECKSYS_CONFIG' => 'Skrivbar SuiteCRM konfigurationsfil (config.php)',
@@ -173,11 +173,11 @@ $mod_strings = array(
     'LBL_CHECKSYS_MODULE' => 'Skrivbara underkataloger och filer för moduler',
     'LBL_CHECKSYS_NOT_AVAILABLE' => 'Inte Tillgänglig',
     'LBL_CHECKSYS_OK' => 'OK',
-    'LBL_CHECKSYS_PHP_INI' => 'Location of your PHP configuration file (php.ini)',
+    'LBL_CHECKSYS_PHP_INI' => 'Platsen för PHP-konfigurationsfilen (php.ini)',
     'LBL_CHECKSYS_PHP_OK' => 'OK (ver ',
     'LBL_CHECKSYS_PHPVER' => 'PHP-version',
     'LBL_CHECKSYS_IISVER' => 'IIS-version',
-    'LBL_CHECKSYS_JSON' => 'JSON Parsing',
+    'LBL_CHECKSYS_JSON' => 'JSON-tolkning',
     'LBL_CHECKSYS_RECHECK' => 'Kontrollera igen',
     'LBL_CHECKSYS_STATUS' => 'Status',
     'LBL_CHECKSYS_TITLE' => 'Bekräftelse av systemkontroll',
@@ -185,67 +185,67 @@ $mod_strings = array(
     'LBL_CHECKSYS_ZLIB' => 'ZLIB Komprimerings Modul',
     'LBL_CHECKSYS_ZIP' => 'ZIP-Hanteringsmodul',
     'LBL_CHECKSYS_PCRE' => 'PCRE-bibliotek',
-    'LBL_CHECKSYS_ENV' => 'Writable .env',
+    'LBL_CHECKSYS_ENV' => 'Skrivbar .env',
     'LBL_CHECKSYS_FIX_FILES' => 'Fixa följande filer eller kataloger innan du fortsätter:',
     'LBL_CHECKSYS_FIX_MODULE_FILES' => 'Fixa följande modulkataloger och filerna under dem inann du fortsätter:',
     'LBL_CHECKSYS_UPLOAD' => 'Skrivbar Uppladdningskatalog',
-    'LBL_CHECKSYS_INTL_EXTENSIONS' => 'Intl Exists in Extensions',
-    'LBL_CHECKSYS_JSON_EXTENSIONS' => 'Json Exists in Extensions',
-    'LBL_CHECKSYS_GD_EXTENSIONS' => 'GD Exists in Extensions',
-    'LBL_CHECKSYS_OPENSSL_EXTENSIONS' => 'OpenSSL Exists in Extensions',
-    'LBL_CHECKSYS_ZIP_EXTENSIONS' => 'Zip Exists in Extensions',
-    'LBL_CHECKSYS_PDO_MYSQL_EXTENSIONS' => 'PDO MySQL Exists in Extensions',
-    'LBL_CHECKSYS_CURL_EXTENSIONS' => 'cURL Exists in Extensions',
-    'LBL_CHECKSYS_MBSTRING_EXTENSIONS' => 'MB Strings Exists in Extensions',
-    'LBL_CHECKSYS_MYSQLI_EXTENSIONS' => 'MySQLi Exists in Extensions',
-    'LBL_CHECKSYS_SOAP_EXTENSIONS' => 'Soap Exists in Extensions',
-    'LBL_CHECKSYS_XML_EXTENSIONS' => 'XML Exists in Extensions',
-    'LBL_CHECKSYS_IMAP_EXTENSIONS' => 'IMAP Exists in Extensions (Optional)',
-    'LBL_CHECKSYS_LDAP_EXTENSIONS' => 'LDAP Exists in Extensions (Optional)',
-    'LBL_PHP_CHECKS' => 'PHP CHECKS',
-    'LBL_SERVER_CHECKS' => 'SERVER CHECKS',
-    'LBL_PERMISSION_CHECKS' => 'PERMISSION CHECKS',
-    'LBL_CHECK_FAILED' => 'Check Failed: ',
-    'ERR_CHECKSYS_INTL' => 'The extension Intl is not installed, please contact your system administrator',
-    'ERR_CHECKSYS_JSON' => 'The extension JSON is not enabled, please contact your system administrator.',
-    'ERR_CHECKSYS_GD' => 'The extension GD is not enabled, please contact your system administrator.',
-    'ERR_CHECKSYS_OPENSSL' => 'The extension OpenSSL is not enabled, please contact your system administrator.',
-    'ERR_CHECKSYS_PDO_MYSQL' => 'The extension PDO MySQL is not enabled, please contact your system administrator.',
-    'ERR_CHECKSYS_MYSQLI' => 'The extension MySQLi is not enabled, please contact your system administrator.',
-    'ERR_CHECKSYS_SOAP' => 'The extension Soap is not enabled, please contact your system administrator.',
-    'ERR_SUHOSIN' => 'Upload stream is blocked by Suhosin, please add "upload" to suhosin.executor.include.whitelist (See suitecrm.log for more information)',
-    'LBL_UNWRITABLE_SUB_DIR' => 'There are some sub directories that are unwritable. Please take the necessary steps to make the directories writeable ',
-    'LBL_REFER_TO_LOGS' => 'There has been an issue in one of your pre-installation checks, please refer to the logs/install.log',
-    'LBL_NOT_A_VALID_SUITECRM_PAGE' => 'The SuiteCRM Title cannot be found. This is not a valid SuiteCRM Page.',
-    'LBL_NOT_COOKIE_OR_TOKEN' => 'Cannot find cookies, no valid token found. Please refer to the logs/install.log for more information.',
-    'LBL_CURL_JSON_ERROR' => 'The result of the curl call to the graphql page was empty.',
-    'LBL_UNABLE_TO_FIND_SYSTEM_CONFIGS' => 'Unable to retrieve System Configs on Graphql Page. Please refer to the logs/install.log for more information.',
-    'LBL_CURL_REQUEST_MAIN_PAGE' => 'Curl Request on Main Page',
-    'LBL_CURL_REQUEST_API_PAGE' => 'Curl Request on Api',
-    'LBL_ERROR_DETAILS' => 'Error Details',
+    'LBL_CHECKSYS_INTL_EXTENSIONS' => 'Intl finns i tilläggen',
+    'LBL_CHECKSYS_JSON_EXTENSIONS' => 'Json finns i tilläggen',
+    'LBL_CHECKSYS_GD_EXTENSIONS' => 'GD finns i tilläggen',
+    'LBL_CHECKSYS_OPENSSL_EXTENSIONS' => 'OpenSSL finns i tilläggen',
+    'LBL_CHECKSYS_ZIP_EXTENSIONS' => 'Zip finns i tilläggen',
+    'LBL_CHECKSYS_PDO_MYSQL_EXTENSIONS' => 'PDO MySQL finns i tilläggen',
+    'LBL_CHECKSYS_CURL_EXTENSIONS' => 'cURL finns i tilläggen',
+    'LBL_CHECKSYS_MBSTRING_EXTENSIONS' => 'MB Strings finns i tilläggen',
+    'LBL_CHECKSYS_MYSQLI_EXTENSIONS' => 'MySQLi finns i tilläggen',
+    'LBL_CHECKSYS_SOAP_EXTENSIONS' => 'Soap finns i tilläggen',
+    'LBL_CHECKSYS_XML_EXTENSIONS' => 'XML finns i tilläggen',
+    'LBL_CHECKSYS_IMAP_EXTENSIONS' => 'IMAP finns i tilläggen (valfritt)',
+    'LBL_CHECKSYS_LDAP_EXTENSIONS' => 'LDAP finns i tilläggen (valfritt)',
+    'LBL_PHP_CHECKS' => 'PHP-KONTROLLER',
+    'LBL_SERVER_CHECKS' => 'SERVERKONTROLLER',
+    'LBL_PERMISSION_CHECKS' => 'BEHÖRIGHETSKONTROLLER',
+    'LBL_CHECK_FAILED' => 'Kontroll misslyckades: ',
+    'ERR_CHECKSYS_INTL' => 'Tillägget Intl är inte installerat. Kontakta systemadministratören',
+    'ERR_CHECKSYS_JSON' => 'Tillägget JSON är inte aktiverat. Kontakta systemadministratören.',
+    'ERR_CHECKSYS_GD' => 'Tillägget GD är inte aktiverat. Kontakta systemadministratören.',
+    'ERR_CHECKSYS_OPENSSL' => 'Tillägget OpenSSL är inte aktiverat. Kontakta systemadministratören.',
+    'ERR_CHECKSYS_PDO_MYSQL' => 'Tillägget PDO MySQL är inte aktiverat. Kontakta systemadministratören.',
+    'ERR_CHECKSYS_MYSQLI' => 'Tillägget MySQLi är inte aktiverat. Kontakta systemadministratören.',
+    'ERR_CHECKSYS_SOAP' => 'Tillägget Soap är inte aktiverat. Kontakta systemadministratören.',
+    'ERR_SUHOSIN' => 'Uppladdningsströmmen blockeras av Suhosin. Lägg till "upload" i suhosin.executor.include.whitelist (mer information finns i suitecrm.log)',
+    'LBL_UNWRITABLE_SUB_DIR' => 'Det finns underkataloger som inte är skrivbara. Gör katalogerna skrivbara ',
+    'LBL_REFER_TO_LOGS' => 'Ett problem uppstod i en av förinstallationskontrollerna. Se logs/install.log',
+    'LBL_NOT_A_VALID_SUITECRM_PAGE' => 'SuiteCRM-titeln kan inte hittas. Det här är inte en giltig SuiteCRM-sida.',
+    'LBL_NOT_COOKIE_OR_TOKEN' => 'Det går inte att hitta cookies och ingen giltig token hittades. Mer information finns i logs/install.log.',
+    'LBL_CURL_JSON_ERROR' => 'Resultatet av cURL-anropet till GraphQL-sidan var tomt.',
+    'LBL_UNABLE_TO_FIND_SYSTEM_CONFIGS' => 'Det gick inte att hämta systemkonfigurationer på GraphQL-sidan. Mer information finns i logs/install.log.',
+    'LBL_CURL_REQUEST_MAIN_PAGE' => 'Begäran med cURL på huvudsidan',
+    'LBL_CURL_REQUEST_API_PAGE' => 'Begäran med cURL till API:t',
+    'LBL_ERROR_DETAILS' => 'Felinformation',
     'LBL_ERROR' => 'Fel',
     'LBL_WARNING_DETAILS' => 'Varningsdetaljer',
     'LBL_WARNING' => 'Varning',
-    'LBL_SYSTEM_CHECKS' => 'SYSTEM CHECKS',
-    'LBL_CRON_INSTRUCTIONS_1' => 'In order to run SuiteCRM Schedulers, edit your web server users crontab file with this command:',
-    'LBL_CRON_INSTRUCTIONS_2' => 'and add the following line to the crontab file:',
-    'LBL_CRON_INSTRUCTIONS_3' => 'You should do this only after the installation is concluded.',
-    'LBL_CRON_CONFIGURATION' => 'CRON CONFIGURATION',
-    'LBL_SETUP_CRONTAB' => 'To Setup Crontab',
-    'LBL_ROUTE_ACCESS_CHECK' => 'ROUTE ACCESS CHECK',
-    'LBL_PHP_MEM_1' => 'Your PHP Memory Limit is ',
-    'LBL_PHP_MEM_2' => '. This has to be a minimum of ',
-    'LBL_PHP_MEM_3' => 'M to continue.',
-    'LBL_CLOSE' => 'Close',
+    'LBL_SYSTEM_CHECKS' => 'SYSTEMKONTROLLER',
+    'LBL_CRON_INSTRUCTIONS_1' => 'För att köra SuiteCRM-schemaläggarna redigerar du crontab-filen för webbserveranvändaren med följande kommando:',
+    'LBL_CRON_INSTRUCTIONS_2' => 'och lägger till följande rad i crontab-filen:',
+    'LBL_CRON_INSTRUCTIONS_3' => 'Detta bör endast göras när installationen är klar.',
+    'LBL_CRON_CONFIGURATION' => 'CRON-KONFIGURATION',
+    'LBL_SETUP_CRONTAB' => 'Konfigurera crontab',
+    'LBL_ROUTE_ACCESS_CHECK' => 'KONTROLL AV RUTTÅTKOMST',
+    'LBL_PHP_MEM_1' => 'Din PHP-minnesgräns är ',
+    'LBL_PHP_MEM_2' => '. Den måste vara minst ',
+    'LBL_PHP_MEM_3' => 'M för att fortsätta.',
+    'LBL_CLOSE' => 'Stäng',
     'LBL_THREE' => '3',
     'LBL_CONFIRM_BE_CREATED' => 'skapas',
-    'LBL_CONFIRM_DB_TYPE' => 'Database Type',
+    'LBL_CONFIRM_DB_TYPE' => 'Databastyp',
     'LBL_CONFIRM_NOT' => 'inte',
     'LBL_CONFIRM_TITLE' => 'Bekräfta inställningar',
     'LBL_CONFIRM_WILL' => 'kommer',
     'LBL_DBCONF_DB_DROP' => 'Droppa Tabeller',
     'LBL_DBCONF_DB_NAME' => 'Databasnamn',
-    'LBL_DBCONF_DB_PORT' => 'Database Port',
+    'LBL_DBCONF_DB_PORT' => 'Databasport',
     'LBL_DBCONF_DB_PASSWORD' => 'SuiteCRM-databasanvändarlösenord',
     'LBL_DBCONF_DB_PASSWORD2' => 'Skriv om SuiteCRM Databas Användarlösenord',
     'LBL_DBCONF_DB_USER' => 'SuiteCRM-databasanvändare',
@@ -253,7 +253,7 @@ $mod_strings = array(
     'LBL_DBCONF_DB_ADMIN_USER' => 'Databas Administratör Användarnamn',
     'LBL_DBCONF_DB_ADMIN_PASSWORD' => 'Databas Administratör Lösenord',
     'LBL_DBCONF_COLLATION' => 'Kollation',
-    'LBL_DBCONF_CHARSET' => 'Character Set',
+    'LBL_DBCONF_CHARSET' => 'Teckenuppsättning',
     'LBL_DBCONF_ADV_DB_CFG_TITLE' => 'Avancerad Databas Konfiguration',
     'LBL_DBCONF_DEMO_DATA' => 'Befolka databasen med demodata?',
     'LBL_DBCONF_DEMO_DATA_TITLE' => 'Välj demodata',
@@ -267,15 +267,15 @@ $mod_strings = array(
     'LBL_DBCONF_TITLE_NAME' => 'Ange databasnamn',
     'LBL_DBCONF_TITLE_USER_INFO' => 'Ange Databas Användare Information',
     'LBL_DBCONF_TITLE_PSWD_INFO_LABEL' => 'Lösenord',
-    'LBL_DISABLED_DESCRIPTION_2' => 'After this change has been made, you may click the "Start" button below to begin your installation. After the installation is complete, you will want to change the value for \'installer_locked\' to \'true\'',
-    'LBL_DISABLED_DESCRIPTION_3' => 'After this change has been made, please revisit / reload this page to continue.',
+    'LBL_DISABLED_DESCRIPTION_2' => 'När ändringen har gjorts kan du klicka på knappen "Start" nedan för att påbörja installationen. När installationen är klar bör du ändra värdet för \'installer_locked\' till \'true\'',
+    'LBL_DISABLED_DESCRIPTION_3' => 'När ändringen har gjorts går du tillbaka till eller läser in sidan igen för att fortsätta.',
     'LBL_DISABLED_DESCRIPTION' => 'Installeraren har redan körts en gång.  Som en säkerhetsåtgärd har den inaktiverats från att köra en andra gång.  Om du är helt säker på att du vill köra den igen, vänligen gå till din config.php-fil och leta upp (eller lägga till) en variabeln \'installer_locked\' och ange den till \'false\'.  Raden bör se ut så här:',
     'LBL_DISABLED_HELP_1' => 'För installationshjälp, vänligen besök SuiteCRM',
     'LBL_DISABLED_HELP_LNK' => 'https://community.suitecrm.com',
     'LBL_DISABLED_HELP_2' => 'Supportforum',
     'LBL_APP_NOT_INSTALLED' => 'SuiteCRM är inte installerat. Ingångspunkten behöver ett installerat system, installera först.',
     'LBL_DISABLED_TITLE_2' => 'SuiteCRM Installation har inaktiverats',
-    'LBL_HELP' => 'Help',
+    'LBL_HELP' => 'Hjälp',
     'LBL_INSTALL' => 'Installera',
     'LBL_INSTALL_TYPE_TITLE' => 'Installationsval',
     'LBL_INSTALL_TYPE_SUBTITLE' => 'Välj Installationstyp',
@@ -284,11 +284,11 @@ $mod_strings = array(
     'LBL_INSTALL_TYPE_MSG2' => 'Kräver minimiinformation för installationen. Rekommenderas för nya användare.',
     'LBL_INSTALL_TYPE_MSG3' => 'Ger ytterligare alternativ att ställa in under installationen. De flesta av dessa alternativ är också tillgängliga efter installation på admin-skärmarna. Rekommenderas för avancerade användare.',
     'LBL_LANG_1' => 'Om du vill använda ett annat språk i SuiteCRM än standardspråket (USA-engelska) kan du ladda upp och installera språkpaketet just nu. Du kommer också att kunna ladda upp och installera språkpaket från SuiteCRM-applikationen. Om du vill hoppa över det här steget klickar du på Nästa.',
-    'LBL_LANG_BUTTON_COMMIT' => 'Install',
-    'LBL_LANG_BUTTON_REMOVE' => 'Remove',
+    'LBL_LANG_BUTTON_COMMIT' => 'Installera',
+    'LBL_LANG_BUTTON_REMOVE' => 'Ta bort',
     'LBL_LANG_BUTTON_UNINSTALL' => 'Avinstallera',
     'LBL_LANG_BUTTON_UPLOAD' => 'Ladda upp',
-    'LBL_LANG_NO_PACKS' => 'none',
+    'LBL_LANG_NO_PACKS' => 'ingen',
     'LBL_LANG_PACK_INSTALLED' => 'Följande språkpaket har installerats: ',
     'LBL_LANG_PACK_READY' => 'Följande språkpaket är redo att installeras: ',
     'LBL_LANG_SUCCESS' => 'Språkpaketet laddades upp.',
@@ -314,12 +314,12 @@ $mod_strings = array(
     'LBL_LOCALE_NAME_LAST' => 'Livingstone',
     'LBL_LOCALE_NAME_SALUTATION' => 'Dr.',
 
-    'LBL_ML_ACTION' => 'Action',
-    'LBL_ML_DESCRIPTION' => 'Description',
+    'LBL_ML_ACTION' => 'Åtgärd',
+    'LBL_ML_DESCRIPTION' => 'Beskrivning',
     'LBL_ML_INSTALLED' => 'Installerad datum',
     'LBL_ML_NAME' => 'Namn',
     'LBL_ML_PUBLISHED' => 'Publicerad datum',
-    'LBL_ML_TYPE' => 'Type',
+    'LBL_ML_TYPE' => 'Typ',
     'LBL_ML_UNINSTALLABLE' => 'Ej avinstallationsbar',
     'LBL_ML_VERSION' => 'Version',
     'LBL_MSSQL' => 'SQL Server',
@@ -327,7 +327,7 @@ $mod_strings = array(
     'LBL_MSSQL_SQLSRV' => 'SQL Server (Microsoft SQL Server Driver for PHP)',
     'LBL_MYSQL' => 'MySQL',
     'LBL_MYSQLI' => 'MySQL (mysqli extension)',
-    'LBL_NEXT' => 'Next',
+    'LBL_NEXT' => 'Nästa',
     'LBL_NO' => 'Nej',
     'LBL_PERFORM_ADMIN_PASSWORD' => 'Ställer in webbplatsens administratörslösenord',
     'LBL_PERFORM_CONFIG_PHP' => 'Skapar SuiteCRM konfigurationsfil',
@@ -349,184 +349,184 @@ $mod_strings = array(
     'LBL_PERFORM_SUCCESS' => 'Lyckades!',
     'LBL_PERFORM_TABLES' => 'Skapar SuiteCRM-applikationstabeller, granskningstabeller och relations metadata',
     'LBL_PERFORM_TITLE' => 'Gör inställningar',
-    'LBL_PRINT' => 'Print',
+    'LBL_PRINT' => 'Skriv ut',
     'LBL_REG_CONF_1' => 'Fyll i det korta formuläret nedan för att få produktmeddelanden, träningsnyheter, specialerbjudanden och specialinbjudningar från SuiteCRM. Vi säljer, hyr inte, delar eller på annat sätt distribuerar den information som samlas in här till tredje part.',
     'LBL_REG_CONF_3' => 'Tack för din registrering. Klicka på knappen Slutför för att logga in på SuiteCRM. Du måste logga in för första gången med användarnamnet "admin" och lösenordet du angav i steg 2.',
     'LBL_REG_TITLE' => 'Registrering',
 
     'LBL_REQUIRED' => '* Obligatoriskt fält',
 
-    'LBL_SITECFG_ADMIN_Name' => 'SuiteCRM Application Admin Name',
-    'LBL_SITECFG_ADMIN_PASS_2' => 'Re-enter SuiteCRM Admin User Password',
-    'LBL_SITECFG_ADMIN_PASS' => 'SuiteCRM Admin User Password',
+    'LBL_SITECFG_ADMIN_Name' => 'Administratörsnamn för SuiteCRM',
+    'LBL_SITECFG_ADMIN_PASS_2' => 'Ange lösenordet för SuiteCRM-administratören igen',
+    'LBL_SITECFG_ADMIN_PASS' => 'Lösenord för SuiteCRM-administratören',
     'LBL_SITECFG_APP_ID' => 'Applikation-ID',
-    'LBL_SITECFG_CUSTOM_ID_DIRECTIONS' => 'If selected, you must provide an application ID to override the auto-generated ID. The ID ensures that sessions of one SuiteCRM instance are not used by other instances. If you have a cluster of SuiteCRM installations, they all must share the same application ID.',
+    'LBL_SITECFG_CUSTOM_ID_DIRECTIONS' => 'Om detta väljs måste du ange ett program-ID för att ersätta det automatiskt genererade ID:t. ID:t säkerställer att sessioner från en SuiteCRM-instans inte används av andra instanser. Om du har ett kluster med SuiteCRM-installationer måste de använda samma program-ID.',
     'LBL_SITECFG_CUSTOM_ID' => 'Ange ditt eget program-ID',
-    'LBL_SITECFG_CUSTOM_LOG_DIRECTIONS' => 'If selected, you must specify a log directory to override the default directory for the SuiteCRM log. Regardless of where the log file is located, access to it through a web browser will be restricted via an .htaccess redirect.',
+    'LBL_SITECFG_CUSTOM_LOG_DIRECTIONS' => 'Om detta väljs måste du ange en loggkatalog som ersätter standardkatalogen för SuiteCRM-loggen. Oavsett var loggfilen finns begränsas åtkomsten via en webbläsare med en .htaccess-omdirigering.',
     'LBL_SITECFG_CUSTOM_LOG' => 'Använd en anpassad logg-katalog',
-    'LBL_SITECFG_CUSTOM_SESSION_DIRECTIONS' => 'If selected, you must provide a secure folder for storing SuiteCRM session information. This can be done to prevent session data from being vulnerable on shared servers.',
+    'LBL_SITECFG_CUSTOM_SESSION_DIRECTIONS' => 'Om detta väljs måste du ange en säker katalog för lagring av SuiteCRM-sessionsinformation. Det kan förhindra att sessionsdata blir sårbara på delade servrar.',
     'LBL_SITECFG_CUSTOM_SESSION' => 'Använd en anpassad sessionsmapp för SuiteCRM',
-    'LBL_SITECFG_FIX_ERRORS' => '<b>Please fix the following errors before proceeding:</b>',
+    'LBL_SITECFG_FIX_ERRORS' => '<b>Åtgärda följande fel innan du fortsätter:</b>',
     'LBL_SITECFG_LOG_DIR' => 'Loggmapp',
     'LBL_SITECFG_SESSION_PATH' => 'Sökväg till sessionskatalog<br>(måste vara skrivbar)',
     'LBL_SITECFG_SITE_SECURITY' => 'Välj säkerhetsalternativ',
-    'LBL_SITECFG_SUITE_UP_DIRECTIONS' => 'If selected, the system will periodically check for updated versions of the application.',
-    'LBL_SITECFG_SUITE_UP' => 'Automatically Check For Updates?',
+    'LBL_SITECFG_SUITE_UP_DIRECTIONS' => 'Om detta väljs söker systemet regelbundet efter uppdaterade versioner av programmet.',
+    'LBL_SITECFG_SUITE_UP' => 'Sök automatiskt efter uppdateringar?',
     'LBL_SITECFG_TITLE' => 'Sajtkonfiguration',
-    'LBL_SITECFG_TITLE2' => 'Identify Administration User',
+    'LBL_SITECFG_TITLE2' => 'Identifiera administrationsanvändaren',
     'LBL_SITECFG_SECURITY_TITLE' => 'Webbplatssäkerhet',
     'LBL_SITECFG_URL' => 'URL för SuiteCRM-instans',
-    'LBL_SITECFG_ANONSTATS' => 'Send Anonymous Usage Statistics?',
-    'LBL_SITECFG_ANONSTATS_DIRECTIONS' => 'If selected, SuiteCRM will send <b>anonymous</b> statistics about your installation to SuiteCRM Inc. every time your system checks for new versions. This information will help us better understand how the application is used and guide improvements to the product.',
-    'LBL_SITECFG_URL_MSG' => 'Enter the URL that will be used to access the SuiteCRM instance after installation. The URL will also be used as a base for the URLs in the SuiteCRM application pages. The URL should include the web server or machine name or IP address.',
-    'LBL_SITECFG_SYS_NAME_MSG' => 'Enter a name for your system. This name will be displayed in the browser title bar when users visit the SuiteCRM application.',
-    'LBL_SITECFG_PASSWORD_MSG' => 'After installation, you will need to use the SuiteCRM admin user (default username = admin) to log in to the SuiteCRM instance. Enter a password for this administrator user. This password can be changed after the initial login. You may also enter another admin username to use besides the default value provided.',
-    'LBL_SITECFG_COLLATION_MSG' => 'Select collation (sorting) settings for your system. This settings will create the tables with the specific language you use. In case your language doesn\'t require special settings please use default value.',
+    'LBL_SITECFG_ANONSTATS' => 'Skicka anonym användningsstatistik?',
+    'LBL_SITECFG_ANONSTATS_DIRECTIONS' => 'Om detta väljs skickar SuiteCRM <b>anonym</b> statistik om installationen till SuiteCRM Inc. varje gång systemet söker efter nya versioner. Informationen hjälper oss att bättre förstå hur programmet används och att förbättra produkten.',
+    'LBL_SITECFG_URL_MSG' => 'Ange URL:en som ska användas för att komma åt SuiteCRM-instansen efter installationen. URL:en används även som bas för URL:erna på SuiteCRM-programsidorna. URL:en ska innehålla webbserverns eller datorns namn eller IP-adress.',
+    'LBL_SITECFG_SYS_NAME_MSG' => 'Ange ett namn för systemet. Namnet visas i webbläsarens namnlist när användare besöker SuiteCRM.',
+    'LBL_SITECFG_PASSWORD_MSG' => 'Efter installationen använder du SuiteCRM-administratören (standardanvändarnamn = admin) för att logga in på SuiteCRM-instansen. Ange ett lösenord för administratören. Lösenordet kan ändras efter den första inloggningen. Du kan också ange ett annat administratörsanvändarnamn än standardvärdet.',
+    'LBL_SITECFG_COLLATION_MSG' => 'Välj sorteringsinställningar för systemet. Inställningarna skapar tabellerna med språkspecifika regler. Använd standardvärdet om språket inte kräver särskilda inställningar.',
     'LBL_SPRITE_SUPPORT' => 'Sprite-stöd',
-    'LBL_SYSTEM_CREDS' => 'System Credentials',
-    'LBL_SYSTEM_ENV' => 'System Environment',
+    'LBL_SYSTEM_CREDS' => 'Systeminloggningsuppgifter',
+    'LBL_SYSTEM_ENV' => 'Systemmiljö',
     'LBL_SHOW_PASS' => 'Visa lösenord',
     'LBL_HIDE_PASS' => 'Dölj lösenord',
-    'LBL_PRE_INSTALL_REQ' => 'Pre-Installation requirements',
+    'LBL_PRE_INSTALL_REQ' => 'Krav före installation',
     'LBL_HIDDEN' => '<i>(dold)</i>',
     'LBL_STEP1' => 'Steg 1 av 2 - Förinstallationskrav',
     'LBL_STEP2' => 'Steg 2 av 2 - Konfiguration',
     'LBL_STEP' => 'Steg',
-    'LBL_CHECKS_PASSED' => 'All Checks Passed!',
-    'LBL_WARNINGS_FOUND' => 'Warnings found: please check these before you proceed.',
-    'LBL_ERRORS_FOUND' => ' Errors found: it is recommended that you resolve these before you proceed.',
-    'LBL_ERRORS_AND_WARNINGS_FOUND' => 'Error(s) and Warning(s) found: It is recommended that you check and resolve these before you proceed.',
+    'LBL_CHECKS_PASSED' => 'Alla kontroller godkändes!',
+    'LBL_WARNINGS_FOUND' => 'Varningar hittades: kontrollera dem innan du fortsätter.',
+    'LBL_ERRORS_FOUND' => ' Fel hittades: vi rekommenderar att du åtgärdar dem innan du fortsätter.',
+    'LBL_ERRORS_AND_WARNINGS_FOUND' => 'Fel och varningar hittades: vi rekommenderar att du kontrollerar och åtgärdar dem innan du fortsätter.',
     'LBL_TITLE_WELCOME' => 'Välkommen till SuiteCRM ',
     'LBL_WELCOME' => 'Välkommen till SuiteCRM',
     //welcome page variables
     'LBL_TITLE_ARE_YOU_READY' => 'Är du redo att installera?',
-    'REQUIRED_SYS_COMP' => 'Required System Components',
+    'REQUIRED_SYS_COMP' => 'Nödvändiga systemkomponenter',
     'REQUIRED_SYS_COMP_MSG' =>
-        'Before you begin, please be sure that you have the supported versions of the following system components:<br>
+        'Kontrollera innan du börjar att du har versioner som stöds av följande systemkomponenter:<br>
                       <ul>
-                      <li> Database/Database Management System (Examples: MariaDB, MySQL or SQL Server)</li>
-                      <li> Web Server (Apache, IIS)</li>
+                      <li>Databas/databashanteringssystem (exempelvis MariaDB, MySQL eller SQL Server)</li>
+                      <li>Webbserver (Apache, IIS)</li>
                       </ul>
-                      Consult the Compatibility Matrix in the Release Notes for
-                      compatible system components for the SuiteCRM version that you are installing.<br>',
-    'REQUIRED_SYS_CHK' => 'Initial System Check',
+                      Information om kompatibla systemkomponenter finns i kompatibilitetsmatrisen i versionsinformationen för
+                      den SuiteCRM-version du installerar.<br>',
+    'REQUIRED_SYS_CHK' => 'Inledande systemkontroll',
     'REQUIRED_SYS_CHK_MSG' =>
-        'When you begin the installation process, a system check will be performed on the web server on which the SuiteCRM files are located in order to
-                      make sure the system is configured properly and has all of the necessary components
-                      to successfully complete the installation. <br><br>
-                      The system checks all of the following:<br>
+        'När du påbörjar installationen utförs en systemkontroll på webbservern där SuiteCRM-filerna finns för att
+                      säkerställa att systemet är korrekt konfigurerat och har alla nödvändiga komponenter
+                      för att slutföra installationen. <br><br>
+                      Systemet kontrollerar följande:<br>
                       <ul>
-                      <li><b>PHP version</b> &#8211; must be compatible with the application</li>
-                      <li><b>Session Variables</b> &#8211; must be working properly</li>
-                      <li><b>MB Strings</b> &#8211; must be installed and enabled in php.ini</li>
-                      <li><b>Database Support</b> &#8211; must exist for MariaDB, MySQL or SQL Server</li>
-                      <li><b>Config.php</b> &#8211; must exist and must have the appropriate permissions to make it writeable</li>
-                      <li>The following SuiteCRM files must be writeable:<ul><li><b>/custom</li>
+                      <li><b>PHP-version</b> &#8211; måste vara kompatibel med programmet</li>
+                      <li><b>Sessionsvariabler</b> &#8211; måste fungera korrekt</li>
+                      <li><b>MB Strings</b> &#8211; måste vara installerat och aktiverat i php.ini</li>
+                      <li><b>Databasstöd</b> &#8211; måste finnas för MariaDB, MySQL eller SQL Server</li>
+                      <li><b>Config.php</b> &#8211; måste finnas och ha rätt behörigheter för att kunna skrivas till</li>
+                      <li>Följande SuiteCRM-filer måste vara skrivbara:<ul><li><b>/custom</li>
                       <li>/cache</li>
                       <li>/modules</li>
                       <li>/upload</b></li></ul></li></ul>
-                                  If the check fails, you will not be able to proceed with the installation.
-                                  An error message will be displayed, explaining why your system did not pass the check.
-                                  After making any necessary changes, you can undergo the system check again to continue the installation.<br>',
+                                  Om kontrollen misslyckas kan du inte fortsätta installationen.
+                                  Ett felmeddelande visas och förklarar varför systemet inte klarade kontrollen.
+                                  När du har gjort nödvändiga ändringar kan du köra systemkontrollen igen för att fortsätta installationen.<br>',
 
 
-    'REQUIRED_INSTALLTYPE' => 'Typical or Custom install',
+    'REQUIRED_INSTALLTYPE' => 'Typisk eller anpassad installation',
     'REQUIRED_INSTALLTYPE_MSG' =>
-        'After the system check is performed, you can choose either
-                      the Typical or the Custom installation.<br><br>
-                      For both <b>Typical</b> and <b>Custom</b> installations, you will need to know the following:<br>
+        'Efter systemkontrollen kan du välja antingen
+                      den typiska eller den anpassade installationen.<br><br>
+                      För både <b>Typisk</b> and <b>Anpassad</b> -installationer behöver du känna till följande:<br>
                       <ul>
-                      <li> <b>Type of database</b> that will house the SuiteCRM data <ul><li>Compatible database
-                      types: MariaDB, MySQL or SQL Server.<br><br></li></ul></li>
-                      <li> <b>Name of the web server</b> or machine (host) on which the database is located
-                      <ul><li>This may be <i>localhost</i> if the database is on your local computer or is on the same web server or machine as your SuiteCRM files.<br><br></li></ul></li>
-                      <li><b>Name of the database</b> that you would like to use to house the SuiteCRM data</li>
+                      <li> <b>Databastyp</b> som ska lagra SuiteCRM-data <ul><li>Kompatibla databastyper: MariaDB, MySQL or SQL Server.<br><br></li></ul></li>
+                      <li> <b>Namn på webbservern</b> eller datorn (värden) där databasen finns
+                      <ul><li>Det kan vara <i>localhost</i> om databasen finns på den lokala datorn eller samma webbserver eller dator som SuiteCRM-filerna.<br><br></li></ul></li>
+                      <li><b>Databasens namn</b> som du vill använda för att lagra SuiteCRM-data</li>
                         <ul>
-                          <li> You might already have an existing database that you would like to use. If
-                          you provide the name of an existing database, the tables in the database will
-                          be dropped during installation when the schema for the SuiteCRM database is defined.</li>
-                          <li> If you do not already have a database, the name you provide will be used for
-                          the new database that is created for the instance during installation.<br><br></li>
+                          <li> Du kanske redan har en befintlig databas som du vill använda. Om
+                          du anger namnet på en befintlig databas tas tabellerna i databasen bort under installationen när schemat för SuiteCRM-databasen definieras.</li>
+                          <li> Om du inte redan har en databas används namnet du anger för den nya databas som skapas för instansen under installationen.<br><br></li>
                         </ul>
-                      <li><b>Database administrator user name and password</b> <ul><li>The database administrator should be able to create tables and users and write to the database.</li><li>You might need to
-                      contact your database administrator for this information if the database is
-                      not located on your local computer and/or if you are not the database administrator.<br><br></ul></li></li>
-                      <li> <b>SuiteCRM database user name and password</b>
+                      <li><b>Databasadministratörens användarnamn och lösenord</b> <ul><li>Databasadministratören ska kunna skapa tabeller och användare samt skriva till databasen.</li><li>Du kan behöva kontakta databasadministratören för denna information om databasen inte finns på den lokala datorn eller om du inte är databasadministratör.<br><br></ul></li></li>
+                      <li> <b>SuiteCRM-databasanvändarens användarnamn och lösenord</b>
                       </li>
                         <ul>
-                          <li> The user may be the database administrator, or you may provide the name of
-                          another existing database user. </li>
-                          <li> If you would like to create a new database user for this purpose, you will
-                          be able to provide a new username and password during the installation process,
-                          and the user will be created during installation. </li>
+                          <li> Användaren kan vara databasadministratören eller en annan befintlig databasanvändare. </li>
+                          <li> Om du vill skapa en ny databasanvändare för detta kan du ange ett nytt användarnamn och lösenord under installationen, och användaren skapas då under installationen. </li>
                         </ul></ul><p>
 
-                      For the <b>Custom</b> setup, you might also need to know the following:<br>
+                      För den <b>Anpassad</b> -installationen kan du även behöva känna till följande:<br>
                       <ul>
-                      <li> <b>URL that will be used to access the SuiteCRM instance</b> after it is installed.
-                      This URL should include the web server or machine name or IP address.<br><br></li>
-                                  <li> [Optional] <b>Path to the session directory</b> if you wish to use a custom
-                                  session directory for SuiteCRM information in order to prevent session data from
-                                  being vulnerable on shared servers.<br><br></li>
-                                  <li> [Optional] <b>Path to a custom log directory</b> if you wish to override the default directory for the SuiteCRM log.<br><br></li>
-                                  <li> [Optional] <b>Application ID</b> if you wish to override the auto-generated
-                                  ID that ensures that sessions of one SuiteCRM instance are not used by other instances.<br><br></li>
-                                  <li><b>Character Set</b> most commonly used in your locale.<br><br></li></ul>
-                                  For more detailed information, please consult the Installation Guide.
-                                ',
-    'LBL_WELCOME_PLEASE_READ_BELOW' => 'Please read the following important information before proceeding with the installation. The information will help you determine whether or not you are ready to install the application at this time.',
+                      <li> <b>URL som ska användas för att komma åt SuiteCRM-instansen</b> efter installationen. URL:en ska innehålla webbserverns eller datorns namn eller IP-adress.<br><br></li>
+                                  <li> [Valfritt] <b>Sökväg till sessionskatalogen</b> om du vill använda en anpassad sessionskatalog för SuiteCRM-information för att skydda sessionsdata på delade servrar.<br><br></li>
+                                  <li> [Valfritt] <b>Sökväg till en anpassad loggkatalog</b> om du vill ersätta standardkatalogen för SuiteCRM-loggen.<br><br></li>
+                                  <li> [Valfritt] <b>Program-ID</b> om du vill ersätta det automatiskt genererade ID:t som säkerställer att sessioner från en SuiteCRM-instans inte används av andra instanser.<br><br></li>
+                                  <li><b>Teckenuppsättning</b> som används oftast i din språkregion.<br><br></li></ul>
+                                  Mer detaljerad information finns i installationshandboken.
+                                
+
+
+
+
+
+
+
+
+
+
+
+ ',
+    'LBL_WELCOME_PLEASE_READ_BELOW' => 'Läs följande viktiga information innan du fortsätter installationen. Informationen hjälper dig att avgöra om du är redo att installera programmet.',
 
     'LBL_WELCOME_CHOOSE_LANGUAGE' => '<b>Välj ditt språk</b>',
     'LBL_WELCOME_SETUP_WIZARD' => 'Installationsguide',
-    'LBL_WIZARD_TITLE' => 'SuiteCRM Setup Wizard: ',
+    'LBL_WIZARD_TITLE' => 'Installationsguide för SuiteCRM: ',
     'LBL_YES' => 'Ja',
 
-    'LBL_PATCHES_TITLE' => 'Install Latest Patches',
+    'LBL_PATCHES_TITLE' => 'Installera de senaste korrigeringarna',
     'LBL_MODULE_TITLE' => 'Installera språkpaket',
     'LBL_PATCH_1' => 'Om du vill hoppa över detta steg klickar du på Nästa.',
-    'LBL_PATCH_TITLE' => 'System Patch',
-    'LBL_PATCH_READY' => 'The following patch(es) are ready to be installed:',
-    'LBL_SESSION_ERR_DESCRIPTION' => "SuiteCRM relies upon PHP sessions to store important information while connected to this web server. Your PHP installation does not have the Session information correctly configured.
-											<br><br>A common misconfiguration is that the <b>'session.save_path'</b> directive is not pointing to a valid directory. <br>
-											<br> Please correct your <a target=_new href='https://www.php.net/manual/en/ref.session.php'>PHP configuration</a> in the php.ini file located here below.",
-    'LBL_SESSION_ERR_TITLE' => 'PHP Sessions Configuration Error',
+    'LBL_PATCH_TITLE' => 'Systemkorrigering',
+    'LBL_PATCH_READY' => 'Följande korrigeringar är redo att installeras:',
+    'LBL_SESSION_ERR_DESCRIPTION' => "SuiteCRM använder PHP-sessioner för att lagra viktig information under anslutningen till webbservern. PHP-installationen har inte konfigurerat sessionsinformationen korrekt.
+											<br><br>En vanlig felkonfiguration är att direktivet <b>'session.save_path'</b> inte pekar på en giltig katalog. <br>
+											<br> Rätta <a target=_new href='https://www.php.net/manual/en/ref.session.php'>PHP-konfigurationen</a> i php.ini-filen nedan.",
+    'LBL_SESSION_ERR_TITLE' => 'Konfigurationsfel för PHP-sessioner',
     'LBL_SYSTEM_NAME' => 'Systemnamn',
-    'LBL_COLLATION' => 'Collation Settings',
-    'LBL_REQUIRED_SYSTEM_NAME' => 'Provide a System Name for the SuiteCRM instance.',
-    'LBL_PATCH_UPLOAD' => 'Select a patch file from your local computer',
+    'LBL_COLLATION' => 'Sorteringsinställningar',
+    'LBL_REQUIRED_SYSTEM_NAME' => 'Ange ett systemnamn för SuiteCRM-instansen.',
+    'LBL_PATCH_UPLOAD' => 'Välj en korrigeringsfil från den lokala datorn',
     'LBL_INCOMPATIBLE_PHP_VERSION' => 'Php version 5 eller högre krävs.',
-    'LBL_MINIMUM_PHP_VERSION' => 'Minimum Php version required is 5.1.0. Recommended Php version is 5.2.x.',
+    'LBL_MINIMUM_PHP_VERSION' => 'Minsta PHP-version som krävs är 5.1.0. Rekommenderad PHP-version är 5.2.x.',
     'LBL_YOUR_PHP_VERSION' => '(Din nuvarande PHP version är',
-    'LBL_RECOMMENDED_PHP_VERSION' => ' Recommended php version is 5.2.x)',
+    'LBL_RECOMMENDED_PHP_VERSION' => ' Rekommenderad PHP-version är 5.2.x)',
     'LBL_BACKWARD_COMPATIBILITY_ON' => 'Php Bakåtskompabilitets läge är påslaget. Sät zend.ze1_compatibility_mode til Off för att fortsätta',
-    'LBL_STREAM' => 'PHP allows to use stream',
+    'LBL_STREAM' => 'PHP tillåter användning av ström',
 
     'advanced_password_new_account_email' => array(
         'subject' => 'Nya kontouppgifter',
         'type' => 'system',
-        'description' => 'This template is used when the System Administrator sends a new password to a user.',
-        'body' => '<div><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width="550" align=\"\&quot;\&quot;center\&quot;\&quot;\"><tbody><tr><td colspan=\"2\"><p>Here is your account username and temporary password:</p><p>Username : $contact_user_user_name </p><p>Password : $contact_user_user_hash </p><br><p>$config_site_url</p><br><p>After you log in using the above password, you may be required to reset the password to one of your own choice.</p>   </td>         </tr><tr><td colspan=\"2\"></td>         </tr> </tbody></table> </div>',
+        'description' => 'Den här mallen används när systemadministratören skickar ett nytt lösenord till en användare.',
+        'body' => '<div><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width="550" align=\"\&quot;\&quot;center\&quot;\&quot;\"><tbody><tr><td colspan=\"2\"><p>Här är användarnamnet för ditt konto och ditt tillfälliga lösenord:</p><p>Användarnamn: $contact_user_user_name </p><p>Lösenord: $contact_user_user_hash </p><br><p>$config_site_url</p><br><p>När du har loggat in med lösenordet ovan kan du behöva byta lösenordet till ett eget.</p>   </td>         </tr><tr><td colspan=\"2\"></td>         </tr> </tbody></table> </div>',
         'txt_body' =>
             '
-Here is your account username and temporary password:
-Username : $contact_user_user_name
-Password : $contact_user_user_hash
+Här är användarnamnet för ditt konto och ditt tillfälliga lösenord:
+Användarnamn: $contact_user_user_name
+Lösenord: $contact_user_user_hash
 
 $config_site_url
 
-After you log in using the above password, you may be required to reset the password to one of your own choice.',
-        'name' => 'System-generated password email',
+När du har loggat in med lösenordet ovan kan du behöva byta lösenordet till ett eget.',
+        'name' => 'Systemgenererat lösenordsmeddelande',
     ),
     'advanced_password_forgot_password_email' => array(
         'subject' => 'Återställ ditt kontolösenord',
         'type' => 'system',
-        'description' => "This template is used to send a user a link to click to reset the user's account password.",
-        'body' => '<div><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width="550" align=\"\&quot;\&quot;center\&quot;\&quot;\"><tbody><tr><td colspan=\"2\"><p>You recently requested on $contact_user_pwd_last_changed to be able to reset your account password. </p><p>Click on the link below to reset your password:</p><p> $contact_user_link_guid </p>  </td>         </tr><tr><td colspan=\"2\"></td>         </tr> </tbody></table> </div>',
+        'description' => "Den här mallen används för att skicka en länk som användaren kan klicka på för att återställa kontolösenordet.",
+        'body' => '<div><table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width="550" align=\"\&quot;\&quot;center\&quot;\&quot;\"><tbody><tr><td colspan=\"2\"><p>Du begärde den $contact_user_pwd_last_changed att få återställa lösenordet för ditt konto. </p><p>Klicka på länken nedan för att återställa lösenordet:</p><p> $contact_user_link_guid </p>  </td>         </tr><tr><td colspan=\"2\"></td>         </tr> </tbody></table> </div>',
         'txt_body' =>
             '
-You recently requested on $contact_user_pwd_last_changed to be able to reset your account password.
+Du begärde den $contact_user_pwd_last_changed att få återställa lösenordet för ditt konto.
 
-Click on the link below to reset your password:
+Klicka på länken nedan för att återställa lösenordet:
 
 $contact_user_link_guid',
         'name' => 'Email Glömt Lösenord',
@@ -554,12 +554,12 @@ $contact_user_link_guid',
     'LBL_SMTPTYPE_GMAIL' => 'Gmail',
     'LBL_SMTPTYPE_YAHOO' => 'Yahoo! Mail',
     'LBL_SMTPTYPE_EXCHANGE' => 'Microsoft Exchange',
-    'LBL_SMTPTYPE_OTHER' => 'Other',
+    'LBL_SMTPTYPE_OTHER' => 'Annat',
     'LBL_MAIL_SMTP_SETTINGS' => 'SMTP Server specifikation',
     'LBL_MAIL_SMTPSERVER' => 'SMTP-server:',
     'LBL_MAIL_SMTPPORT' => 'SMTP port:',
     'LBL_MAIL_SMTPAUTH_REQ' => 'Använd SMTP autentisering?',
-    'LBL_EMAIL_SMTP_SSL_OR_TLS' => 'Enable SMTP over SSL or TLS?',
+    'LBL_EMAIL_SMTP_SSL_OR_TLS' => 'Aktivera SMTP via SSL eller TLS?',
     'LBL_GMAIL_SMTPUSER' => 'Gmail Epost Adress',
     'LBL_GMAIL_SMTPPASS' => 'Gmail Lösenord',
     'LBL_ALLOW_DEFAULT_SELECTION' => 'Tillåt användare att använda detta konto för utgående epost:',
@@ -581,19 +581,19 @@ $contact_user_link_guid',
 
     'LBL_WIZARD_SYSTEM_TITLE' => 'Märkning',
     'LBL_WIZARD_SYSTEM_DESC' => 'Ange ditt företagsnamn och logga för att märka din SuiteCRM.',
-    'SYSTEM_NAME_WIZARD' => 'Name:',
+    'SYSTEM_NAME_WIZARD' => 'Namn:',
     'SYSTEM_NAME_HELP' => 'Detta namn visas som titel i din browser.',
     'NEW_LOGO' => 'Ladda upp ny logo (212x40)',
-    'NEW_LOGO_HELP' => 'The image file format can be either .png or .jpg. The maximum height is 170px, and the maximum width is 450px. Any image uploaded that is larger in any direction will be scaled to these max dimensions.',
-    'COMPANY_LOGO_UPLOAD_BTN' => 'Upload',
+    'NEW_LOGO_HELP' => 'Bildfilformatet kan vara .png eller .jpg. Den största höjden är 170 px och den största bredden är 450 px. Bilder som är större i någon riktning skalas ned till dessa mått.',
+    'COMPANY_LOGO_UPLOAD_BTN' => 'Ladda upp',
     'CURRENT_LOGO' => 'Aktuell logotyp som används',
-    'CURRENT_LOGO_HELP' => 'This logo is displayed in the centre of the login screen of the SuiteCRM application.',
+    'CURRENT_LOGO_HELP' => 'Den här logotypen visas mitt på inloggningsskärmen i SuiteCRM.',
 
 
     //Scenario selection of modules
-    'LBL_WIZARD_SCENARIO_TITLE' => 'Scenario Selection',
-    'LBL_WIZARD_SCENARIO_DESC' => 'This is to allow tailoring of the displayed modules based on your requirements. Each of the modules can be enabled after install using the administration page.',
-    'LBL_WIZARD_SCENARIO_EMPTY' => 'There are no scenarios currently set in the configuration file (config.php)',
+    'LBL_WIZARD_SCENARIO_TITLE' => 'Val av scenario',
+    'LBL_WIZARD_SCENARIO_DESC' => 'Detta används för att anpassa de visade modulerna efter dina behov. Varje modul kan aktiveras efter installationen från administrationssidan.',
+    'LBL_WIZARD_SCENARIO_EMPTY' => 'Inga scenarier är för närvarande angivna i konfigurationsfilen (config.php)',
 
 
     // System Local Settings
@@ -605,60 +605,60 @@ $contact_user_link_guid',
     'LBL_TIME_FORMAT' => 'Tidsformat:',
     'LBL_TIMEZONE' => 'Tidszon:',
     'LBL_LANGUAGE' => 'Språk:',
-    'LBL_CURRENCY' => 'Currency:',
+    'LBL_CURRENCY' => 'Valuta:',
     'LBL_CURRENCY_SYMBOL' => 'Valutasymbol:',
-    'LBL_CURRENCY_ISO4217' => 'ISO 4217 Currency Code:',
+    'LBL_CURRENCY_ISO4217' => 'ISO 4217-valutakod:',
     'LBL_NUMBER_GROUPING_SEP' => '1000-tals separator',
     'LBL_DECIMAL_SEP' => 'Decimalsymbol',
     'LBL_NAME_FORMAT' => 'Namnformat:',
     'UPLOAD_LOGO' => 'Vänta, logotyp laddas upp..',
-    'ERR_UPLOAD_FILETYPE' => 'File type not allowed, please upload a jpeg or png.',
-    'ERR_LANG_UPLOAD_UNKNOWN' => 'Unknown file upload error occurred.',
+    'ERR_UPLOAD_FILETYPE' => 'Filtypen är inte tillåten. Ladda upp en JPEG- eller PNG-fil.',
+    'ERR_LANG_UPLOAD_UNKNOWN' => 'Ett okänt fel uppstod vid filuppladdningen.',
     'ERR_UPLOAD_FILE_UPLOAD_ERR_INI_SIZE' => 'Den uppladdade filen överstiger max_uppladdnings_fil direktiven i php.ini.',
     'ERR_UPLOAD_FILE_UPLOAD_ERR_FORM_SIZE' => 'Den uppladdade filen överstiger MAXIMAL_FIL_STORLEK firektiven som specifiserades i HTML formuläret.',
     'ERR_UPLOAD_FILE_UPLOAD_ERR_PARTIAL' => 'Den uppladdade filen laddades upp ofullständing.',
     'ERR_UPLOAD_FILE_UPLOAD_ERR_NO_FILE' => 'Ingen fil laddades upp.',
     'ERR_UPLOAD_FILE_UPLOAD_ERR_NO_TMP_DIR' => 'Saknar en temporär katalog.',
-    'ERR_UPLOAD_FILE_UPLOAD_ERR_CANT_WRITE' => 'Failed to write file to disk.',
-    'ERR_UPLOAD_FILE_UPLOAD_ERR_EXTENSION' => 'A PHP extension stopped the file upload. PHP does not provide a way to ascertain which extension caused the file upload to stop.',
+    'ERR_UPLOAD_FILE_UPLOAD_ERR_CANT_WRITE' => 'Det gick inte att skriva filen till disken.',
+    'ERR_UPLOAD_FILE_UPLOAD_ERR_EXTENSION' => 'Ett PHP-tillägg stoppade filuppladdningen. PHP kan inte avgöra vilket tillägg som stoppade filuppladdningen.',
 
     'LBL_INSTALL_PROCESS' => 'Installera...',
 
-    'LBL_EMAIL_ADDRESS' => 'Email Address:',
-    'ERR_ADMIN_EMAIL' => 'Administrator Email Address is incorrect.',
+    'LBL_EMAIL_ADDRESS' => 'E-postadress:',
+    'ERR_ADMIN_EMAIL' => 'Administratörens e-postadress är felaktig.',
     'ERR_SITE_URL' => 'Webbplats-URL krävs.',
 
-    'STAT_CONFIGURATION' => 'Configuration relationships...',
+    'STAT_CONFIGURATION' => 'Konfigurerar relationer…',
     'STAT_CREATE_DB' => 'Skapa databas...',
 
     'STAT_CREATE_DEFAULT_SETTINGS' => 'Skapa standardinställningar...',
-    'STAT_INSTALL_FINISH' => 'Install finish...',
-    'STAT_INSTALL_FINISH_LOGIN' => 'Installation process finished, <a href="%s">please log in...</a>',
-    'LBL_LICENCE_TOOLTIP' => 'Please accept license first',
+    'STAT_INSTALL_FINISH' => 'Slutför installationen…',
+    'STAT_INSTALL_FINISH_LOGIN' => 'Installationen är klar. <a href="%s">Logga in…</a>',
+    'LBL_LICENCE_TOOLTIP' => 'Godkänn licensen först',
 
     'LBL_MORE_OPTIONS_TITLE' => 'Fler alternativ',
     'LBL_START' => '',
     'LBL_DB_CONN_ERR' => 'Databasfel',
     'LBL_OLD_PHP' => 'Gammal PHP-version upptäckt!',
-    'LBL_OLD_PHP_MSG' => 'The recommended PHP version to install SuiteCRM is %s <br />The minimum PHP version required is %s<br />You are using PHP version %s, which is EOL: <a href="https://www.php.net/eol.php">https://www.php.net/eol.php</a>.<br />Please consider upgrading your PHP version. ',
-    'LBL_OLD_PHP_OK' => 'I\'m aware of the risks and wish to continue.',
+    'LBL_OLD_PHP_MSG' => 'Den rekommenderade PHP-versionen för att installera SuiteCRM är %s <br />Den lägsta PHP-version som krävs är %s<br />Du använder PHP-version %s, som har nått slutet av sin livscykel: <a href="https://www.php.net/eol.php">https://www.php.net/eol.php</a>.<br />Överväg att uppgradera PHP-versionen. ',
+    'LBL_OLD_PHP_OK' => 'Jag är medveten om riskerna och vill fortsätta.',
 
     'LBL_DBCONF_TITLE_USER_INFO_LABEL' => 'Användare',
     'LBL_DBCONFIG_MSG3_LABEL' => 'Databasnamn',
-    'LBL_DBCONFIG_MSG3' => 'Name of the database that will contain the data for the SuiteCRM instance you are about to install.',
+    'LBL_DBCONFIG_MSG3' => 'Namnet på databasen som ska innehålla data för SuiteCRM-instansen du ska installera.',
     'LBL_DBCONFIG_MSG2_LABEL' => 'Värdnamn',
-    'LBL_DBCONFIG_MSG2' => 'Name of web server or machine (host) on which the database is located (such as www.mydomain.com). If installing locally, it\'s better to use \'localhost\' than \'127.0.0.1\', for performance reasons.',
+    'LBL_DBCONFIG_MSG2' => 'Namnet på webbservern eller datorn (värden) där databasen finns, till exempel www.mydomain.com. Vid lokal installation är det bättre att använda \'localhost\' än \'127.0.0.1\' av prestandaskäl.',
     'LBL_DBCONFIG_B_MSG1_LABEL' => '', // this label dynamically needed in install/installConfig.php:293
-    'LBL_DBCONFIG_B_MSG1' => 'The username and password of a database administrator who can create database tables and users and who can write to the database is necessary in order to set up the SuiteCRM database.',
+    'LBL_DBCONFIG_B_MSG1' => 'Användarnamnet och lösenordet för en databasadministratör som kan skapa databastabeller och användare samt skriva till databasen krävs för att konfigurera SuiteCRM-databasen.',
     'LBL_SYS_CHECK_WARNING' => 'Ignorera systemkontrollvarningar',
     'LBL_PROCEED' => 'FORTSÄTT',
-    'LBL_PROCEED_WITH_WARNINGS' => 'IGNORE WARNINGS AND PROCEED',
-    'LBL_PROCEED_WITH_ERRORS' => 'IGNORE ERRORS AND PROCEED',
-    'LBL_PROCEED_WITH_ERRORS_AND_WARNINGS' => 'IGNORE ERRORS AND WARNINGS TO PROCEED',
-    'LBL_RECHECK' => 'RECHECK',
-    'LBL_VIEW_FULL_ERROR' => 'View Full Error',
-    'LBL_CLOSE_DESCRIPTION' => 'Close Description',
+    'LBL_PROCEED_WITH_WARNINGS' => 'IGNORERA VARNINGAR OCH FORTSÄTT',
+    'LBL_PROCEED_WITH_ERRORS' => 'IGNORERA FEL OCH FORTSÄTT',
+    'LBL_PROCEED_WITH_ERRORS_AND_WARNINGS' => 'IGNORERA FEL OCH VARNINGAR FÖR ATT FORTSÄTTA',
+    'LBL_RECHECK' => 'KONTROLLERA IGEN',
+    'LBL_VIEW_FULL_ERROR' => 'Visa hela felet',
+    'LBL_CLOSE_DESCRIPTION' => 'Stäng beskrivningen',
     'LBL_CONFIG' => 'KONFIGURATION',
     'LBL_VALIDATION_ERRORS' => 'Det finns valideringsfel, kan inte utföra åtgärden.',
-    'LBL_CRON_UNRECOMMENDED_USER' => 'You are currently running as root, this is NOT recommended, would you like to continue (y,n)? '
+    'LBL_CRON_UNRECOMMENDED_USER' => 'Du kör för närvarande som root. Det rekommenderas inte. Vill du fortsätta (y,n)? '
 );
