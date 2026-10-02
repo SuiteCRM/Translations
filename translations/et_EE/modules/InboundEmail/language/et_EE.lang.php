@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'Uue juhtumi automaatvastuse mall',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => 'Vali automaatne vastus e-kirja saatja teavitamiseks, et juhtum on loodud. E-kiri sisaldab juhtumi numbrit Teema väljal, mis liitub Juhtumi makro sätetega. See vastus saadetakse vaid juhul, kui esimene e-kiri on saajalt saadud.',
     'LBL_MAILBOX' => 'Monitooritud kaustad',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'Prügikasti kaust',
     'LBL_SENT_FOLDER' => 'Saadetud kaust',
     'LBL_SELECT' => 'Select',

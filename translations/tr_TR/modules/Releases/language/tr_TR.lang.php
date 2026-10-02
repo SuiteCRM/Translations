@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_MODULE_NAME' => 'Yayınlar',
     'LBL_MODULE_TITLE' => 'Yayınlar: Giriş',
-    'LBL_SEARCH_FORM_TITLE' => 'Yayın arama',
+    'LBL_SEARCH_FORM_TITLE' => 'Yayın ara',
     'LBL_LIST_FORM_TITLE' => 'Yayın listesi',
     'LBL_NEW_FORM_TITLE' => 'Yeni yayın',
     'LBL_RELEASE' => 'Yayın:',
@@ -53,7 +53,7 @@ $mod_strings = array(
     'LBL_NAME' => 'Yayın sürümü:',
     'LBL_LIST_LIST_ORDER' => 'Sıra',
     'LBL_LIST_ORDER' => 'Sıra:',
-    'LBL_LIST_STATUS' => 'Durum:',
+    'LBL_LIST_STATUS' => 'Durum',
     'LBL_STATUS' => 'Durum:',
     'LNK_NEW_RELEASE' => 'Yayın listesi',
     'NTC_DELETE_CONFIRMATION' => 'Bu kaydı silmek istediğinize emin misiniz?',

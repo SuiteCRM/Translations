@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'Jauna pieteikuma automātiskās atbildes veidne',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => 'Izvēlies automātisko atbildi, lai paziņotu e-pasta sūtītājam, ka pieteikums ir izveidots. E-pasts satur pieteikuma numuru Tēmas sadaļā, kurš atbilst Pieteikumu Makro iestatījumiem. Šis atbildes ziņojums tiek nosūtīts tikai, kad pirmais e-pasts tiek saņemts.',
     'LBL_MAILBOX' => 'Kontrolētas mapes',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'Atkritnes mape',
     'LBL_SENT_FOLDER' => 'Nosūtīto ziņu mape',
     'LBL_SELECT' => 'Select',

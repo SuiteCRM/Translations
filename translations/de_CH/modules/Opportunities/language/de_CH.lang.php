@@ -97,13 +97,13 @@ $mod_strings = array(
     'LBL_TOTAL_OPPORTUNITIES' => 'Summe der Verkaufschancen',
     'LBL_CLOSED_WON_OPPORTUNITIES' => 'Gewonnene Verkaufschancen',
     'LBL_ASSIGNED_TO_ID' => 'Zugewiesener Benutzer:',
-    'LBL_MODIFIED_NAME' => 'Modified by User Name',
+    'LBL_MODIFIED_NAME' => 'Geändert von Benutzer',
     'LBL_CREATED_USER' => 'Created User',
     'LBL_MODIFIED_USER' => 'Modified User',
     'LBL_CAMPAIGN_OPPORTUNITY' => 'Kampagnen',
     'LBL_PROJECT_SUBPANEL_TITLE' => 'Projekte',
     'LNK_IMPORT_OPPORTUNITIES' => 'Verkaufschancen importieren',
-    'LBL_EDITLAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
+    'LBL_EDITLAYOUT' => 'Layout bearbeiten' /*for 508 compliance fix*/,
 
     // SNIP
 

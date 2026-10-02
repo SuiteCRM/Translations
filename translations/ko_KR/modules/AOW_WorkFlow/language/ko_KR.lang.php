@@ -77,5 +77,6 @@ $mod_strings = array(
     'LBL_ADD_ACTION' => '작업 추가',
     'LBL_MULTIPLE_RUNS' => '반복적인 실행',
     'LBL_RUN_WHEN' => '실행',
-    'LBL_RUN_ON_IMPORT' => 'Run on Import'
+    'LBL_RUN_ON_IMPORT' => 'Run on Import',
+    'LBL_ACTION_NAME_NOT_ALLOWED' => 'Action name not allowed.',
 );

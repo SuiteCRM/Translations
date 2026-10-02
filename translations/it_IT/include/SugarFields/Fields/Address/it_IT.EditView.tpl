@@ -4,8 +4,8 @@
  * SugarCRM Community Edition è un programma di gestione del rapporto con il cliente sviluppato da
  * SugarCRM, Inc. Copyright (C) 2004-2013 SugarCRM Inc.
  *
- * SuiteCRM è un'estensione di SugarCRM Community Edition sviluppata da SuiteCRM Ltd.
- * Copyright (C) 2011 - 2025 SuiteCRM Ltd.
+ * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
+ * Copyright (C) 2011 - 2019 SalesAgility Ltd.
  *
  * Questo programma è software libero; è possibile ridistribuirlo e/o modificarlo sotto
  * i termini della GNU Affero General Public License versione 3 come pubblicato dalla

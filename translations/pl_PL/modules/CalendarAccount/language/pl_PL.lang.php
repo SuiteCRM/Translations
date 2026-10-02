@@ -31,7 +31,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = [
     // System fields
-    'LBL_ASSIGNED_TO_ID' => 'ID przydzielonego użytkownika',
+    'LBL_ASSIGNED_TO_ID' => 'Identyfikator przydzielonego użytkownika',
     'LBL_ASSIGNED_TO_NAME' => 'Przypisany Do',
     'LBL_DATE_ENTERED' => 'Data utworzenia',
     'LBL_DATE_MODIFIED' => 'Data Modyfikacji',

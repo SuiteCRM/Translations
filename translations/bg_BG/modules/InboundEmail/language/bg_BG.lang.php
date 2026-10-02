@@ -91,6 +91,7 @@ $mod_strings = array(
     'LBL_CREATE_CASE_REPLY_TEMPLATE' => 'Шаблон за автоматичен отговор при създаване на казус',
     'LBL_CREATE_CASE_REPLY_TEMPLATE_HELP' => 'Изберете шаблон, който да бъде изпращан в отговор на създаден казус. Отговорът съдържа номера на казуса от полето Относно, който кореспондира с Case Macro настройките. This response is only sent when the first email is received from the recipient.',
     'LBL_MAILBOX' => 'Папка с получени съобщения',
+    'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'Папка за изтрити съобщения',
     'LBL_SENT_FOLDER' => 'Папка за изпратени съобщения',
     'LBL_SELECT' => 'Select',

@@ -75,7 +75,7 @@ $mod_strings = array(
     'LBL_PRIMARY_STREET' => 'Adress:',
     'LBL_ALT_STREET' => 'Annan Adress',
     'LBL_STREET' => 'Annan Adress',
-    'LBL_CITY' => 'Stad',
+    'LBL_CITY' => 'Ort',
     'LBL_STATE' => 'Landskap',
     'LBL_POSTAL_CODE' => 'Postnummer:',
     'LBL_COUNTRY' => 'Land:',
@@ -91,7 +91,7 @@ $mod_strings = array(
     'LBL_EMAIL_NON_PRIMARY' => 'Inga primära mail',
     'LBL_PHOTO' => 'Foto',
     'LBL_EDIT_BUTTON' => 'Redigera',
-    'LBL_REMOVE' => 'Remove',
+    'LBL_REMOVE' => 'Ta bort',
 
     //Lawful Basis labels
     'LBL_LAWFUL_BASIS' => 'Laglig grund',
