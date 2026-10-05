@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ASSIGNED_TO_ID' => 'Identifiant de l\'utilisateur assigné',
-    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date de création',
     'LBL_DATE_MODIFIED' => 'Date de modification',
@@ -69,7 +69,7 @@ $mod_strings = array(
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Afficher l\'historique',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activités',
     'LBL_NEW_FORM_TITLE' => 'Nouvel évènement',
-    'LBL_LOCATION' => 'Location',
+    'LBL_LOCATION' => 'Lieu',
     'LBL_START_DATE' => 'Date de début',
     'LBL_END_DATE' => 'Date/Heure de fin',
     'LBL_BUDGET' => 'Budget',
