@@ -76,5 +76,5 @@ $mod_strings = array(
     'LBL_INVITE_PDF' => 'Envoyer les invitations',
     'LBL_EMAIL_TEMPLATE' => 'Modèle de l\'E-mail d\'invitation',
     'LBL_EDITVIEW_PANEL1' => 'Nouveau panneau 1',
-    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Délègue',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Participants',
 );
