@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = [
 
     'LBL_ASSIGNED_TO_ID' => 'Id atribuit utilizatorului',
-    'LBL_ASSIGNED_TO_NAME' => 'Atrbuit lui',
+    'LBL_ASSIGNED_TO_NAME' => 'Atribuit lui',
     'LBL_ID' => 'ID-ul',
     'LBL_DATE_ENTERED' => 'Data intrare',
     'LBL_DATE_MODIFIED' => 'Data modificare',
