@@ -7,35 +7,35 @@
  * SuiteCRM is an extension to SugarCRM Community Edition developed by SalesAgility Ltd.
  * Copyright (C) 2011 - 2019 SalesAgility Ltd.
  *
- * This program is free software; you can redistribute it and/or modify it under
- * the terms of the GNU Affero General Public License version 3 as published by the
- * Free Software Foundation with the addition of the following permission added
- * to Section 15 as permitted in Section 7(a): FOR ANY PART OF THE COVERED WORK
- * IN WHICH THE COPYRIGHT IS OWNED BY SUGARCRM, SUGARCRM DISCLAIMS THE WARRANTY
- * OF NON INFRINGEMENT OF THIRD PARTY RIGHTS.
+ * Este programa é livre; pode redistribuí-lo e/ou modificá-lo sob
+ * os termos da GNU (Licença Pública Geral) Affero, versão 3, conforme publicado pela
+ * "Free Software Foundation" com a adição da seguinte permissão
+ *da Secção 15, conforme permitido na Secção 7(a): POR QUALQUER PARTE DO TRABALHO COBERTO
+ * EM QUE OS DIREITOS DE CÓPIA SÃO DETIDOS POR SUGARCRM, A SUGARCRM EXIBE OS DETALHES DA GARANTIA
+ *COM RESPEITO PELOS DIREITOS DE TERCEIROS.
  *
- * This program is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
- * FOR A PARTICULAR PURPOSE. See the GNU Affero General Public License for more
- * details.
+ * Este programa é distribuído na esperança de ser útil, mas SEM
+ * QUALQUER GARANTIA; sem mesmo a garantia implícita de COMERCIABILIDADE ou ADEQUAÇÃO
+ *PARA UM USO ESPECÍFICO. Veja a Licença Pública Geral GNU Affero para mais
+ * detalhes.
  *
- * You should have received a copy of the GNU Affero General Public License along with
- * this program; if not, see http://www.gnu.org/licenses or write to the Free
+ * Deve ter recebido uma cópia da GNU (Licença Pública Geral) Affero, juntamente com
+ * esse programa; se não, veja http://www.gnu.org/licenses ou escreva para Free
  * Software Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA
  * 02110-1301 USA.
  *
- * You can contact SugarCRM, Inc. headquarters at 10050 North Wolfe Road,
- * SW2-130, Cupertino, CA 95014, USA. or at email address contact@sugarcrm.com.
+ * Pode entrar em contacto com SugarCRM, Inc. sede em 10050 North Wolfe Road,
+ * SW2-130, Cupertino, CA 95014, USA. ou para o endereço de correio eletrónico contact@sugarcrm.com.
  *
- * The interactive user interfaces in modified source and object code versions
- * of this program must display Appropriate Legal Notices, as required under
+ * Os paineis de utilizador interativos em versões de código-fonte modificado ou programação orientada ao objecto
+ * deste programa devem exibir as Disposições Legais Adequadas, conforme necessário pela
  * Section 5 of the GNU Affero General Public License version 3.
  *
- * In accordance with Section 7(b) of the GNU Affero General Public License version 3,
- * these Appropriate Legal Notices must retain the display of the "Powered by
- * SugarCRM" logo and "Supercharged by SuiteCRM" logo. Se a exibição dos logótipos não é
- * reasonably feasible for technical reasons, the Appropriate Legal Notices must
- * display the words "Powered by SugarCRM" and "Supercharged by SuiteCRM".
+ * De acordo com a Secção 7(b) da GNU (Licença Pública Geral) Affero, versão 3,
+ * estes Avisos Legais Apropriados devem manter a exibição do "Powered by"
+ * O logótipo do "SugarCRM" e o logótipo "Supercharged by SuiteCRM". Se a exibição dos logótipos não é
+ * razoavelmente exequível por razões técnicas, as Avisos Legais Apropriados devem
+ * exibir as palavras "Powered by SugarCRM" e "Supercharged by SuiteCRM".
  */
 *}
 <script src='{sugar_getjspath file="include/SugarFields/Fields/Address/SugarFieldAddress.js"}'></script>
