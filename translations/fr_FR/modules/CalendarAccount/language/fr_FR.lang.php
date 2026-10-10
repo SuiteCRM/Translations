@@ -130,7 +130,7 @@ $mod_strings = [
     'LBL_LAST_SYNC_ATTEMPT_MESSAGE' => 'Sync Message',
     'LBL_LAST_SYNC_DATE' => 'Last Sync Date',
     'LBL_EXTERNAL_CALENDAR_ID' => 'External Calendar ID',
-    'LBL_DUPLICATE_EXTERNAL_CALENDAR' => 'This external calendar is already connected to account',
+    'LBL_DUPLICATE_EXTERNAL_CALENDAR' => 'Ce calendrier externe est déjà connecté au compte',
 
     // Sync Actions
     'LBL_SYNC_NOW' => 'Sync Now',
@@ -173,7 +173,7 @@ $mod_strings = [
     'LBL_CONNECTION_TEST_HTTP_ERROR' => 'Connection test failed with HTTP status',
     'LBL_CONNECTION_NETWORK_ERROR' => 'Network error occurred while testing the calendar connection. Please try again.',
     'LBL_CONNECTION_TEST_SUCCESS_MESSAGE' => 'Connection test completed successfully.<br>Your credentials are valid and the calendar is accessible.',
-    'LBL_DUPLICATE_CALENDAR_ERROR' => 'This calendar is already connected to account',
+    'LBL_DUPLICATE_CALENDAR_ERROR' => 'Ce calendrier externe est déjà connecté au compte',
 
     // Authentication method error messages
     'LBL_AUTH_METHOD_ERROR' => 'Error determining authentication method',
