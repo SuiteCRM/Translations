@@ -43,12 +43,12 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_YOURS' => 'Dina',
+    'LBL_YOURS' => 'Din',
     'LBL_IN_DATABASE' => 'I databasen',
-    'LBL_CONFLICT_EXISTS' => 'Det finns en konflikt för – ',
-    'LBL_ACCEPT_DATABASE' => 'Acceptera databasens version',
-    'LBL_ACCEPT_YOURS' => 'Acceptera din version',
-    'LBL_RECORDS_MATCH' => 'Posterna stämmer överens',
+    'LBL_CONFLICT_EXISTS' => 'Det finns en konflikt för: ',
+    'LBL_ACCEPT_DATABASE' => 'Acceptera databasen',
+    'LBL_ACCEPT_YOURS' => 'Acceptera din',
+    'LBL_RECORDS_MATCH' => 'Poster matchar',
     'LBL_NO_LOCKED_OBJECTS' => 'Inga låsta objekt',
 
 );
