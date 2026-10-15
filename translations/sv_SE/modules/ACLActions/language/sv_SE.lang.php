@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ACCESS_ALL' => 'Alla',
-    'LBL_ACCESS_NONE' => 'Inga',
+    'LBL_ACCESS_NONE' => 'Ingen',
     'LBL_ACCESS_OWNER' => 'Ägare',
     'LBL_ACCESS_GROUP' => 'Grupp',
     'LBL_ACCESS_NORMAL' => 'Normal',
@@ -57,7 +57,7 @@ $mod_strings = array(
     'LBL_DESCRIPTION' => 'Beskrivning',
     'LIST_ROLES' => 'Lista roller',
     'LBL_USERS_SUBPANEL_TITLE' => 'Användare',
-    'LIST_ROLES_BY_USER' => 'Lista roller per användare',
+    'LIST_ROLES_BY_USER' => 'Lista roller efter användare',
     'LBL_ROLES_SUBPANEL_TITLE' => 'Användarroller',
     'LBL_SEARCH_FORM_TITLE' => 'Sök',
     'LBL_ACTION_VIEW' => 'Visa',
@@ -66,8 +66,8 @@ $mod_strings = array(
     'LBL_ACTION_IMPORT' => 'Importera',
     'LBL_ACTION_EXPORT' => 'Exportera',
     'LBL_ACTION_LIST' => 'Lista',
-    'LBL_ACTION_MASSUPDATE' => 'Massuppdatering',
+    'LBL_ACTION_MASSUPDATE' => 'Massuppdatera',
     'LBL_ACTION_ACCESS' => 'Åtkomst',
     'LBL_ACTION_ADMIN' => 'Åtkomsttyp',
-    'LBL_ACCESS_DEFAULT' => 'Inte angivet',
+    'LBL_ACCESS_DEFAULT' => 'Inte angiven',
 );
