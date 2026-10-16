@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Quản lý hợp đồng',
     'LBL_CONTRACT_ACCOUNT' => 'Tài khoản',
-    'LBL_OPPORTUNITY' => 'Opportunity',
+    'LBL_OPPORTUNITY' => 'Cơ hội',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Ngày tạo',
     'LBL_DATE_MODIFIED' => 'Ngày chỉnh sửa',
