@@ -55,7 +55,7 @@ $mod_strings = array(
     //vardef labels
     'LBL_NAME' => '문서명',
     'LBL_DESCRIPTION' => '설명',
-    'LBL_CATEGORY' => 'Category',
+    'LBL_CATEGORY' => '카테고리',
     'LBL_SUBCATEGORY' => 'Sub Category',
     'LBL_STATUS' => '상태',
     'LBL_CREATED_BY' => '작성자',
@@ -93,9 +93,9 @@ $mod_strings = array(
     'LBL_FILE_UPLOAD' => 'File:',
 
     'LBL_CATEGORY_VALUE' => 'Category:',
-    'LBL_LIST_CATEGORY' => 'Category',
+    'LBL_LIST_CATEGORY' => '카테고리',
     'LBL_SUBCATEGORY_VALUE' => 'Sub Category:',
-    'LBL_DOC_STATUS' => 'Status:',
+    'LBL_DOC_STATUS' => '상태:',
     'LBL_LAST_REV_CREATOR' => '개정판작성자:',
     'LBL_LASTEST_REVISION_NAME' => '최신 수정 제목:',
     'LBL_SELECTED_REVISION_NAME' => '선택된 수정 제목:',
@@ -139,11 +139,11 @@ $mod_strings = array(
     'ERR_DOC_VERSION' => '문서 버전',
     'ERR_DELETE_CONFIRM' => '이 문서 수정본을 삭제하시겠습니까?',
     'ERR_DELETE_LATEST_VERSION' => '문서의 최신 수정본을 삭제할 수 없습니다.',
-    'LNK_NEW_MAIL_MERGE' => 'Mail Merge',
+    'LNK_NEW_MAIL_MERGE' => '메일 병합',
     'ERR_MISSING_FILE' => '이 문서에는 파일이 누락되어 있으며, 이는 업로드 중 오류로 인해 발생한 것일 가능성이 높습니다. 파일을 다시 업로드하거나 관리자에게 문의하십시오.',
 
     //sub-panel vardefs.
-    'LBL_LIST_DOCUMENT_NAME' => 'Name',
+    'LBL_LIST_DOCUMENT_NAME' => '제품명',
     'LBL_LIST_IS_TEMPLATE' => '템플렛?',
     'LBL_LIST_TEMPLATE_TYPE' => '문서 유형',
     'LBL_LAST_REV_CREATE_DATE' => '최종 수정 생성 날짜',
