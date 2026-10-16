@@ -44,12 +44,12 @@ $mod_strings = [
     'LBL_DELETED' => 'Eliminado',
 
     // Security groups
-    'LBL_SECURITYGROUPS' => 'Security Groups',
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
+    'LBL_SECURITYGROUPS' => 'Grupos de segurança',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Grupos de segurança',
 
     // List view labels
     'LBL_LIST_NAME' => 'Nome',
-    'LBL_LIST_DELETE' => 'Delete',
+    'LBL_LIST_DELETE' => 'Eliminar',
     'LBL_EDIT_BUTTON' => 'Editar',
     'LBL_REMOVE' => 'Remover',
     'LBL_ASCENDING' => 'Ascendente',
@@ -62,9 +62,9 @@ $mod_strings = [
     'LBL_OPT_IN_CONFIRMED' => 'Consentiu',
 
     // Subpanel titles
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
-    'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Ver histórico',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Atividades',
+    'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Contas de calendário',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
 
     // Import links
@@ -79,8 +79,8 @@ $mod_strings = [
     'LNK_LIST_EXTERNAL_OAUTH_CONNECTIONS' => 'Ligações OAuth externas',
 
     // Basic module labels
-    'LBL_MODULE_NAME' => 'Calendar Accounts',
-    'LBL_MODULE_TITLE' => 'Calendar Accounts',
+    'LBL_MODULE_NAME' => 'Contas de calendário',
+    'LBL_MODULE_TITLE' => 'Contas de calendário',
     'LBL_LIST_FORM_TITLE' => 'Calendar Accounts List',
     'LBL_SEARCH_FORM_TITLE' => 'Search Calendar Accounts',
     'LBL_NEW_FORM_TITLE' => 'New Calendar Account',
@@ -166,8 +166,8 @@ $mod_strings = [
     'LBL_SUCCESSFUL' => 'Successful',
     'LBL_FAILED' => 'Failed',
     'LBL_CONNECTION_TEST' => 'Connection Test',
-    'LBL_YES' => 'Yes',
-    'LBL_NO' => 'No',
+    'LBL_YES' => 'Sim',
+    'LBL_NO' => 'Não',
     'LBL_FOUND_CALENDARS' => 'Found {count} calendars.',
     'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'An error occurred while processing the connection test response. Please check the logs for details.',
     'LBL_CONNECTION_TEST_HTTP_ERROR' => 'Connection test failed with HTTP status',
@@ -202,5 +202,5 @@ $mod_strings = [
     'LBL_SYNC_MSG_CALENDAR_NOT_FOUND' => 'Calendar not found.',
 
     // Relationship labels
-    'LBL_MEETINGS' => 'Meetings',
+    'LBL_MEETINGS' => 'Reuniões',
 ];
