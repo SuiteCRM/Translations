@@ -74,7 +74,7 @@ $mod_strings = [
     // Progress field labels
     'LBL_PROGRESS' => 'Progress',
     'LBL_PROGRESS_PERCENT' => 'Percent',
-    'LBL_PROGRESS_COMPLETED' => 'Completed',
+    'LBL_PROGRESS_COMPLETED' => 'Hoàn thành',
     'LBL_PROGRESS_FAILED' => 'Thất bại',
     'LBL_PROGRESS_PERCENT_TPL' => '{{fields.progress.attributes.percent|default:-}}% ({{fields.progress.attributes.completed|default:-}} successful, {{fields.progress.attributes.failed|default:-}} failed / {{fields.progress.attributes.total|default:-}} total)',
     'LBL_PROGRESS_NOT_STARTED' => 'Not started',
