@@ -56,9 +56,9 @@ $mod_strings = [
     'LBL_LIST_NAME' => 'Nome',
     'LBL_EDIT_BUTTON' => 'Editar',
     'LBL_REMOVE' => 'Remover',
-    'LBL_LIST_DELETE' => 'Delete',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
+    'LBL_LIST_DELETE' => 'Eliminar',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Ver histórico',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Atividades',
 
     // Async task field labels
     'LBL_DATA' => 'Data',
@@ -84,7 +84,7 @@ $mod_strings = [
     'LBL_RETRY' => 'Retry',
     'LBL_RERUN' => 'Re-run',
     'LBL_DISMISS' => 'Rejeitar',
-    'LBL_DELETE' => 'Delete',
+    'LBL_DELETE' => 'Eliminar',
     'LBL_DELETE_COMPLETED_CONFIRMATION' => 'Are you sure you want to delete this completed task?',
     'LBL_DELETE_COMPLETED_WITH_FAILURES_CONFIRMATION' => 'This task completed with failures. Deleting it will remove all task data including failed item details. Are you sure you want to proceed?',
     'LBL_DELETE_FAILED_CONFIRMATION' => 'This task has failed. Deleting it will remove all task data including error details. Are you sure you want to proceed?',
