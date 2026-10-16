@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_EDIT_LAYOUT' => 'Editar esquema',
     'LBL_EDIT_FIELDS' => 'Editar campos personalizados',
-    'LBL_SELECT_FILE' => 'Select File',
+    'LBL_SELECT_FILE' => 'Selecionar ficheiro',
     'LBL_MODULE_TITLE' => 'Studio',
     'LBL_TOOLBOX' => 'Caixa de ferramentas',
     'LBL_SUITE_FIELDS_STAGE' => 'Campos SuiteCRM (clique nos itens a adicionar à área de ensaio)',
@@ -87,7 +87,7 @@ $mod_strings = array(
 
 
 //Manager Backups History
-    'LBL_MB_DELETE' => 'Delete',
+    'LBL_MB_DELETE' => 'Eliminar',
 
 //EDIT DROP DOWNS
     'LBL_ED_CREATE_DROPDOWN' => 'Criar uma Lista de seleção',
@@ -100,10 +100,10 @@ $mod_strings = array(
 //DROP DOWN EDITOR
     'LBL_DD_DISPALYVALUE' => 'Exibir valor',
     'LBL_DD_DATABASEVALUE' => 'Valor da base de dados',
-    'LBL_DD_ALL' => 'All',
+    'LBL_DD_ALL' => 'Tudo',
 
 //BUTTONS
-    'LBL_BTN_SAVE' => 'Save',
+    'LBL_BTN_SAVE' => 'Guardar',
     'LBL_BTN_CANCEL' => 'Cancelar',
     'LBL_BTN_SAVEPUBLISH' => 'Guardar e implementar',
     'LBL_BTN_HISTORY' => 'History',
@@ -115,7 +115,7 @@ $mod_strings = array(
 
 //TABS
     'LBL_MODULES' => 'Modules',
-    'LBL_MODULE_NAME' => 'Administration',
+    'LBL_MODULE_NAME' => 'Administração',
     'LBL_CONFIGURE_GROUP_TABS' => 'Módulos em menus — Configurar filtros',
     'LBL_GROUP_TAB_WELCOME' => 'Os filtros abaixo serão exibidos na lista do módulo de menu para os utilizadores poderem escolher ver grupos de módulos no menu. Arraste e solte os módulos para os grupos pretendidos. Nota: os grupos vazios não serão exibidos no menu.',
     'LBL_RENAME_TAB_WELCOME' => 'Clique em qualquer aba de valor de visualização na tabela abaixo para renomear a aba.',
@@ -129,11 +129,11 @@ $mod_strings = array(
     'ERROR_INVALID_KEY_VALUE' => "Error: Invalid Key Value: [']",
 
 //SUGAR PORTAL
-    'LBL_SAVE' => 'Save' /*for 508 compliance fix*/,
+    'LBL_SAVE' => 'Guardar' /*for 508 compliance fix*/,
     'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
     'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Diretamente' /*for 508 compliance fix*/,
-    'LBL_DELETE' => 'Delete' /*for 508 compliance fix*/,
+    'LBL_DELETE' => 'Eliminar' /*for 508 compliance fix*/,
     'LBL_ADD_FIELD' => 'Add Field' /*for 508 compliance fix*/,
     'LBL_MAXIMIZE' => 'Maximizar' /*for 508 compliance fix*/,
     'LBL_MINIMIZE' => 'Minimizar' /*for 508 compliance fix*/,
