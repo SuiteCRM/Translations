@@ -61,10 +61,10 @@ $mod_strings = array(
     'LBL_HITS' => 'Hits',
 
     'LBL_CAMPAIGN_NAME' => '이름:',
-    'LBL_CAMPAIGN' => 'Campaign:',
+    'LBL_CAMPAIGN' => '캠페인:',
     'LBL_NAME' => '이름: ',
     'LBL_INVITEE' => '연락처',
-    'LBL_LIST_CAMPAIGN_NAME' => 'Campaign',
+    'LBL_LIST_CAMPAIGN_NAME' => '캠페인',
     'LBL_LIST_STATUS' => '상태',
     'LBL_LIST_TYPE' => '유형',
     'LBL_LIST_END_DATE' => 'End Date',
