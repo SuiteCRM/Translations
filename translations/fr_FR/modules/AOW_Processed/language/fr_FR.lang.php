@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ASSIGNED_TO_ID' => 'Identifiant de l\'utilisateur assigné',
-    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date de création',
     'LBL_DATE_MODIFIED' => 'Date de modification',
@@ -69,7 +69,7 @@ $mod_strings = array(
     'LBL_NEW_FORM_TITLE' => 'Nouveaux audits de processus',
     'LBL_MODULE' => 'Module',
     'LBL_BEAN' => 'Enregistrement',
-    'LBL_STATUS' => 'Status',
+    'LBL_STATUS' => 'Etat',
     'LBL_AOW_WORKFLOW' => 'WorkFlow',
     'LNK_NEW_WORKFLOW' => 'Créer un WorkFlow',
     'LNK_WORKFLOW_LIST' => 'Voir les WorkFlow',
