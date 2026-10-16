@@ -53,7 +53,7 @@ $mod_strings = array(
     'LBL_MODIFIED_USER_ID' => '수정된 유저 Id',
     'LBL_CREATED_BY' => '작성자',
     'LBL_DELETED' => '삭제됨',
-    'LBL_CAMPAIGN' => 'Campaign',
+    'LBL_CAMPAIGN' => '캠페인',
     'LBL_OPTOUT' => '수신거부',
 
     'LBL_MODULE_NAME' => '캠페인 트래커',
@@ -61,7 +61,7 @@ $mod_strings = array(
     'LBL_EDIT_TRACKER_NAME' => '트래커 이름:',
     'LBL_EDIT_TRACKER_URL' => '트래커 URL:',
 
-    'LBL_SUBPANEL_TRACKER_NAME' => 'Name',
+    'LBL_SUBPANEL_TRACKER_NAME' => '제품명',
     'LBL_SUBPANEL_TRACKER_URL' => 'URL',
     'LBL_SUBPANEL_TRACKER_KEY' => 'Key',
     'LBL_EDIT_MESSAGE_URL' => '캠페인 메세지용 URL:',
