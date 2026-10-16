@@ -73,5 +73,5 @@ $mod_strings = array(
     'LBL_DATE_START' => 'Date de début',
 
     'LBL_TYPE' => 'Type',
-    'LBL_STATUS' => 'Status',
+    'LBL_STATUS' => 'Etat',
 );

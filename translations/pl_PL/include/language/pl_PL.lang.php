@@ -126,7 +126,7 @@ $app_list_strings = array(
         'EmailTemplates' => 'Szablon e-mail',
         'Meetings' => 'Spotkanie',
         'Tasks' => 'Zadania',
-        'Calendar' => 'Calendar',
+        'Calendar' => 'Kalendarz',
         'Leads' => 'Potencjalny klient',
         'Activities' => 'Działania',
         'History' => 'Historia',
@@ -641,7 +641,7 @@ $app_list_strings = array(
         'Accounts' => 'Kontrahenci',
         'Activities' => 'Działania',
         'Bugs' => 'Śledzenie błędów',
-        'Calendar' => 'Calendar',
+        'Calendar' => 'Kalendarz',
         'Calls' => 'Połączenia telefoniczne',
         'Campaigns' => 'Campaigns',
         'Cases' => 'Sprawy',
@@ -3837,11 +3837,11 @@ $app_strings['LBL_ROLE'] = 'Profil uprawnień';
 $app_list_strings['moduleList']['OutboundEmailAccounts'] = 'Konta poczty wychodzącej';
 $app_list_strings['moduleList']['ExternalOAuthConnection'] = 'Połączenie zewnętrzne OAuth';
 $app_list_strings['moduleList']['ExternalOAuthProvider'] = 'Zewnętrzny dostawca OAuth';
-$app_list_strings['moduleList']['ManualMigrationTasks'] = 'Migrations';
-$app_list_strings['moduleList']['Processes'] = 'Processes';
+$app_list_strings['moduleList']['ManualMigrationTasks'] = 'Migracje';
+$app_list_strings['moduleList']['Processes'] = 'Procesy';
 $app_list_strings['moduleList']['AsyncTaskItems'] = 'Async Task Item';
 
-$app_strings['LNK_USER_MENU_PROCESSES'] = 'Processes';
+$app_strings['LNK_USER_MENU_PROCESSES'] = 'Procesy';
 
 //social
 $app_strings['FACEBOOK_USER_C'] = 'Facebook';

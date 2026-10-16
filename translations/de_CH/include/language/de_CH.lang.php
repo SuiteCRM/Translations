@@ -205,7 +205,7 @@ $app_list_strings = array(
         '' => '',
         'Cold Call' => 'Kalt Akquise',
         'Existing Customer' => 'Bestehender Kunde',
-        'Self Generated' => 'Self Generated',
+        'Self Generated' => 'Selbst generierter Kunde',
         'Employee' => 'Mitarbeiter',
         'Partner' => 'Partner',
         'Public Relations' => 'Öffentlichkeitsarbeit',
@@ -395,7 +395,7 @@ $app_list_strings = array(
     'call_direction_default' => 'Ausgehend',
     'call_direction_dom' => array(
         'Inbound' => 'Eingehend',
-        'Outbound' => 'Outbound',
+        'Outbound' => 'Ausgehend',
     ),
     'lead_status_dom' => array(
         '' => '',
@@ -2118,7 +2118,7 @@ $app_strings = array(
     'ERR_SMARTY_UNEQUAL_RELATED_FIELD_PARAMETERS' => 'Fehler: Es gibt eine ungleiche Anzahl von \'key\' and \'copy\' Elementen im displayParams Array.',
 
     /* MySugar Framework (for Home and Dashboard) */
-    'LBL_DASHLET_CONFIGURE_GENERAL' => 'General',
+    'LBL_DASHLET_CONFIGURE_GENERAL' => 'Allgemein',
     'LBL_DASHLET_CONFIGURE_FILTERS' => 'Filter',
     'LBL_DASHLET_CONFIGURE_MY_ITEMS_ONLY' => 'Nur meine Einträge',
     'LBL_DASHLET_CONFIGURE_TITLE' => 'Titel',
@@ -2142,7 +2142,7 @@ $app_strings = array(
     'LBL_RELOAD_PAGE' => 'Bitte <a href="javascript: window.location.reload()">das Fenster neu laden</a> um dieses Dashlet zu verwenden.',
     'LBL_ADD_DASHLETS' => 'Dashlets hinzufügen',
     'LBL_CLOSE_DASHLETS' => 'Schliessen',
-    'LBL_OPTIONS' => 'Options',
+    'LBL_OPTIONS' => 'Optionen',
     'LBL_1_COLUMN' => '1 Spalte',
     'LBL_2_COLUMN' => '2 Spalten',
     'LBL_3_COLUMN' => '3 Spalten',
@@ -3376,7 +3376,7 @@ $app_list_strings['moduleList']['AOS_Contracts'] = 'Verträge';
 $app_list_strings['moduleList']['AOS_Invoices'] = 'Rechnungen';
 $app_list_strings['moduleList']['AOS_PDF_Templates'] = 'PDF - Vorlagen';
 $app_list_strings['moduleList']['AOS_Product_Categories'] = 'Produkt - Kategorien';
-$app_list_strings['moduleList']['AOS_Products'] = 'Products';
+$app_list_strings['moduleList']['AOS_Products'] = 'Produkte';
 $app_list_strings['moduleList']['AOS_Products_Quotes'] = 'Zeilenelemente';
 $app_list_strings['moduleList']['AOS_Line_Item_Groups'] = 'Einzelposten-Gruppen';
 $app_list_strings['moduleList']['AOS_Quotes'] = 'Angebote';

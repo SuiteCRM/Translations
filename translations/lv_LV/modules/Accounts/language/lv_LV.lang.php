@@ -56,7 +56,7 @@ $mod_strings = array(
 
     'ERR_DELETE_RECORD' => 'Lai dzēstu uzņēmumu, jānorāda ieraksta numurs.',
     'LBL_ACCOUNT_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
-    'LBL_ACCOUNT_NAME' => 'Account Name:',
+    'LBL_ACCOUNT_NAME' => 'Uzņēmuma nosaukums:',
     'LBL_ACCOUNT' => 'Uzņēmums:',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_ADDRESS_INFORMATION' => 'Address Information',

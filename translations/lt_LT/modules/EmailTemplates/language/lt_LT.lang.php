@@ -83,7 +83,7 @@ $mod_strings = array(
     'LNK_SENT_EMAIL_LIST' => 'Išsiųsti laiškai',
     'LNK_VIEW_CALENDAR' => 'Today',
     // for Inbox
-    'LBL_NEW' => 'New',
+    'LBL_NEW' => 'Naujas',
     'LNK_MY_DRAFTS' => 'Mano juodraščiai',
     'LNK_MY_INBOX' => 'Mano laiškai',
     'LBL_TEXT_ONLY' => 'Tik tekstas',

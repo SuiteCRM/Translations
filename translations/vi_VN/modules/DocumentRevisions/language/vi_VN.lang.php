@@ -57,19 +57,19 @@ $mod_strings = array(
     'LBL_REVISION_NAME' => 'Revision Number',
     'LBL_FILENAME' => 'File:',
     'LBL_MIME' => 'Mime Type',
-    'LBL_REVISION' => 'Revision',
+    'LBL_REVISION' => 'Lần sửa đổi',
     'LBL_DOCUMENT' => 'Related Document',
     'LBL_LATEST_REVISION' => 'Latest Revision',
     'LBL_CHANGE_LOG' => 'Change Log',
-    'LBL_ACTIVE_DATE' => 'Publish Date',
-    'LBL_EXPIRATION_DATE' => 'Expiration Date',
+    'LBL_ACTIVE_DATE' => 'Ngày xuất bản',
+    'LBL_EXPIRATION_DATE' => 'Ngày hết hạn',
     'LBL_FILE_EXTENSION' => 'File Extension',
 
     'LBL_DOC_NAME' => 'Document Name:',
     'LBL_DOC_VERSION' => 'Revision:',
 
     //document revisions.
-    'LBL_REV_LIST_REVISION' => 'Revision',
+    'LBL_REV_LIST_REVISION' => 'Lần sửa đổi',
     'LBL_REV_LIST_ENTERED' => 'Ngày tạo',
     'LBL_REV_LIST_CREATED' => 'Created by',
     'LBL_REV_LIST_LOG' => 'Change Log',

@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ASSIGNED_TO_ID' => 'Identifiant de l\'utilisateur assigné',
-    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date de création',
     'LBL_DATE_MODIFIED' => 'Date de modification',
@@ -85,7 +85,7 @@ $mod_strings = array(
     'LBL_OUTBOUND_CONFIGURATION' => 'Configuration sortante',
     'LBL_CONNECTION_CONFIGURATION' => 'Configuration du Serveur',
     'LBL_CHANGE_PASSWORD' => 'Change password',
-    'LBL_SEND_TEST_EMAIL' => 'Send Test Email',
+    'LBL_SEND_TEST_EMAIL' => 'Envoyer Des E-Mails De Test',
 
     // for outbound email dialog
     'LBL_MISSING_DEFAULT_OUTBOUND_SMTP_SETTINGS' => 'The administrator has not yet configured the default outbound account. Unable to send test email.',

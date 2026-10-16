@@ -179,7 +179,7 @@ $mod_strings = array(
     'LBL_CHECKSYS_IISVER' => 'Version d\'IIS',
     'LBL_CHECKSYS_JSON' => 'JSON Parsing',
     'LBL_CHECKSYS_RECHECK' => 'Re-vérifier',
-    'LBL_CHECKSYS_STATUS' => 'Status',
+    'LBL_CHECKSYS_STATUS' => 'Etat',
     'LBL_CHECKSYS_TITLE' => 'Vérification système acceptation',
     'LBL_CHECKSYS_XML' => 'Parseur XML',
     'LBL_CHECKSYS_ZLIB' => 'Module de compression ZLib',
@@ -445,7 +445,7 @@ $mod_strings = array(
     'LBL_WELCOME_CHOOSE_LANGUAGE' => '<b>Choisissez votre langue</b>',
     'LBL_WELCOME_SETUP_WIZARD' => 'Assistant d\'installation',
     'LBL_WIZARD_TITLE' => 'Assistant d\'installation SuiteCRM :',
-    'LBL_YES' => 'Yes',
+    'LBL_YES' => 'Oui',
 
     'LBL_PATCHES_TITLE' => 'Installer les derniers correctifs',
     'LBL_MODULE_TITLE' => 'installer les packs de langues',

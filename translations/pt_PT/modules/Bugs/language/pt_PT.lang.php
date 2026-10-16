@@ -43,9 +43,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Bugs',
+    'LBL_MODULE_NAME' => 'Anomalias',
     'LBL_MODULE_TITLE' => 'Monitorização de anomalias: entrada',
-    'LBL_MODULE_ID' => 'Bugs',
+    'LBL_MODULE_ID' => 'Anomalias',
     'LBL_SEARCH_FORM_TITLE' => 'Pesquisar anomalias',
     'LBL_LIST_FORM_TITLE' => 'Lista de anomalias',
     'LBL_NEW_FORM_TITLE' => 'Nova anomalia',
@@ -57,12 +57,12 @@ $mod_strings = array(
     'LBL_CONTACT_NAME' => 'Nome do contacto:',
     'LBL_CONTACT_ROLE' => 'Função:',
     'LBL_LIST_NUMBER' => 'Núm.',
-    'LBL_LIST_SUBJECT' => 'Subject',
+    'LBL_LIST_SUBJECT' => 'Assunto',
     'LBL_LIST_STATUS' => 'Situação',
     'LBL_LIST_PRIORITY' => 'Priority',
     'LBL_LIST_RESOLUTION' => 'Resolution',
     'LBL_LIST_LAST_MODIFIED' => 'Última alteração',
-    'LBL_INVITEE' => 'Contacts',
+    'LBL_INVITEE' => 'Contactos',
     'LBL_TYPE' => 'Tipo:',
     'LBL_LIST_TYPE' => 'Tipo',
     'LBL_RESOLUTION' => 'Resolução:',
@@ -90,16 +90,16 @@ $mod_strings = array(
     'NTC_SNOOZE_CONFIRMATION' => 'Tem a certeza de que deseja suspender?',
 
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Monitorização de anomalias',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Atividades',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'History',
-    'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
+    'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contactos',
     'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Contas',
-    'LBL_CASES_SUBPANEL_TITLE' => 'Cases',
-    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projects',
-    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documents',
+    'LBL_CASES_SUBPANEL_TITLE' => 'Ocorrências',
+    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projetos',
+    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documentos',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigned User',
     'LBL_ASSIGNED_TO_NAME' => 'Atribuído a',
 
-    'LBL_BUG_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_BUG_INFORMATION' => 'Visão geral', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
 );

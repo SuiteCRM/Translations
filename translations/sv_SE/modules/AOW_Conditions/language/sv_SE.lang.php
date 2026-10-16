@@ -44,9 +44,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 
 $mod_strings = array(
-    'LBL_ID' => 'ID',
-    'LBL_DATE_ENTERED' => 'Datum Skapad',
-    'LBL_DATE_MODIFIED' => 'Ändringsdatum',
+    'LBL_ID' => 'Id',
+    'LBL_DATE_ENTERED' => 'Skapat datum',
+    'LBL_DATE_MODIFIED' => 'Ändrat datum',
     'LBL_MODIFIED' => 'Ändrad av',
     'LBL_MODIFIED_NAME' => 'Ändrad av namn',
     'LBL_CREATED_USER' => 'Skapad av användare',
@@ -55,13 +55,13 @@ $mod_strings = array(
     'LBL_DESCRIPTION' => 'Beskrivning',
     'LBL_DELETED' => 'Borttagen',
     'LBL_NAME' => 'Namn',
-    'LBL_MODULE_NAME' => 'Villkor för arbetsflöde',
-    'LBL_MODULE_TITLE' => 'Villkor för arbetsflöde',
+    'LBL_MODULE_NAME' => 'Arbetsflödesvillkor',
+    'LBL_MODULE_TITLE' => 'Arbetsflödesvillkor',
     'LBL_MODULE_PATH' => 'Modul',
     'LBL_FIELD' => 'Fält',
-    'LBL_OPERATOR' => 'Operatör',
+    'LBL_OPERATOR' => 'Operator',
     'LBL_VALUE_TYPE' => 'Typ',
     'LBL_VALUE' => 'Värde',
     'LBL_ORDER' => 'Ordning',
-    'LBL_AOW_WORKFLOW_ID' => 'Arbetsflödes-ID',
+    'LBL_AOW_WORKFLOW_ID' => 'Arbetsflödesidentitet',
 );

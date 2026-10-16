@@ -91,7 +91,7 @@ $mod_strings = array(
     'LBL_EDIT_USERLIST' => 'User List',
     'LBL_SELECT_USERS' => 'Sélectionner les utilisateurs à afficher sur le calendrier',
     'LBL_FILTER_BY_TEAM' => 'Filtrer la liste des utilisateurs par équipe :',
-    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
     'LBL_DATE' => 'Date et Heure de début',
     'LBL_CREATE_MEETING' => 'Organiser une réunion',
     'LBL_CREATE_CALL' => 'Enregistrer un appel',
@@ -99,7 +99,7 @@ $mod_strings = array(
     'LBL_MINS_ABBREV' => 'm',
 
 
-    'LBL_YES' => 'Yes',
+    'LBL_YES' => 'Oui',
     'LBL_NO' => 'Non',
     'LBL_SETTINGS' => 'Settings',
     'LBL_CREATE_NEW_RECORD' => 'Créer une activité',
@@ -119,7 +119,7 @@ $mod_strings = array(
     'LBL_NO_USER' => 'Aucune correspondance pour le champ : attribué à',
     'LBL_SUBJECT' => 'Sujet',
     'LBL_DURATION' => 'Duration',
-    'LBL_STATUS' => 'Status',
+    'LBL_STATUS' => 'Etat',
     'LBL_PRIORITY' => 'Priority',
 
     'LBL_SETTINGS_TITLE' => 'Settings',

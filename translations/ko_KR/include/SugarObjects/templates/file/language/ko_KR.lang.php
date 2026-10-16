@@ -87,7 +87,7 @@ $mod_strings = array(
     //document list view.
     'LBL_LIST_FORM_TITLE' => '자료리스트',
     'LBL_LIST_DOCUMENT' => '자료 리스트',
-    'LBL_LIST_CATEGORY' => 'Category',
+    'LBL_LIST_CATEGORY' => '카테고리',
     'LBL_LIST_SUBCATEGORY' => 'Sub Category',
     'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => '발행자',

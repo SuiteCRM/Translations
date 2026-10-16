@@ -55,11 +55,11 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Utilisateur :',
     'LBL_WORK_LOG' => 'Historique de travail :',
     'LBL_CREATED_BY' => 'Créé par :',
-    'LBL_DATE_ENTERED' => 'Date Created:',
+    'LBL_DATE_ENTERED' => 'Date de Création :',
     'LBL_DATE_MODIFIED' => 'Date de modification :',
     'LBL_MODIFIED_BY' => 'Modifié par :',
     'LBL_ASSIGNED_USER' => 'Utilisateur attribué :',
-    'LBL_TYPE' => 'Type:',
+    'LBL_TYPE' => 'Type :',
     'LBL_SUBJECT' => 'Sujet :',
 
     'LBL_EDIT_BUTTON' => 'Modifier',

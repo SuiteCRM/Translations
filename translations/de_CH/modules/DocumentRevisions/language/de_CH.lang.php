@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     //module
     'LBL_MODULE_NAME' => 'Dokumentversion',
-    'LBL_NEW_REVISION' => 'Add Revision',
+    'LBL_NEW_REVISION' => 'Revision hinzufügen',
 
     'LNK_NEW_DOCUMENT' => 'Dokument erstellen',
     'LNK_DOCUMENT_LIST' => 'Dokumente anzeigen',

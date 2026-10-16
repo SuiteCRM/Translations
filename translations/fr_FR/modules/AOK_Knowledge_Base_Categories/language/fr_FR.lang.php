@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ASSIGNED_TO_ID' => 'Identifiant de l\'utilisateur assigné',
-    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date de création',
     'LBL_DATE_MODIFIED' => 'Date de modification',
@@ -63,7 +63,7 @@ $mod_strings = array(
     'LBL_REMOVE' => 'Supprimer',
     'LBL_LIST_FORM_TITLE' => 'Liste des catégories Base de connaissances',
     'LBL_MODULE_NAME' => 'Catégories Base de connaissances',
-    'LBL_MODULE_TITLE' => 'KB Categories',
+    'LBL_MODULE_TITLE' => 'Catégories Base de connaissances',
     'LBL_HOMEPAGE_TITLE' => 'Mes catégories Base de connaissances',
     'LNK_NEW_RECORD' => 'Créer un catégorie Base de connaissances',
     'LNK_LIST' => 'Voir la catégorie Base de connaissances',
@@ -71,7 +71,7 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => 'Recherche de catégories Base de connaissances',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Afficher l\'historique',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activités',
-    'LBL_AOK_KB_CATEGORIES_SUBPANEL_TITLE' => 'KB Categories',
+    'LBL_AOK_KB_CATEGORIES_SUBPANEL_TITLE' => 'Catégories Base de connaissances',
     'LBL_NEW_FORM_TITLE' => 'Nouvelles catégories Base de connaissances',
 );
 

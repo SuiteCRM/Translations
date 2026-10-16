@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Home',
+    'LBL_MODULE_NAME' => 'Trang chủ',
     'LBL_NEW_FORM_TITLE' => 'New Contact',
     'LBL_FIRST_NAME' => 'Tên:',
     'LBL_LAST_NAME' => 'Họ:',
@@ -137,7 +137,7 @@ $mod_strings = array(
 
     'LBL_SOURCE_SUGAR' => 'SugarCRM Inc - nhà cung cấp CE framework',
 
-    'LBL_DASHLET_TITLE' => 'My Sites',
+    'LBL_DASHLET_TITLE' => 'Trang web của tôi',
     'LBL_DASHLET_OPT_TITLE' => 'Title',
     'LBL_DASHLET_INCORRECT_URL' => 'Trang web không đúng vị trí được chỉ định',
     'LBL_DASHLET_OPT_URL' => 'Vị trí trang web',

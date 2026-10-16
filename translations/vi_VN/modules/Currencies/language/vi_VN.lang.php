@@ -73,7 +73,7 @@ $mod_strings = array(
     'currency_status_dom' =>
         array(
             'Active' => 'Đang hoạt động',
-            'Inactive' => 'Inactive',
+            'Inactive' => 'Vô hiệu hóa',
         ),
     'LBL_CREATED_BY' => 'Được tạo bởi',
     'LBL_EDIT_LAYOUT' => 'Sửa khung' /*for 508 compliance fix*/,

@@ -803,7 +803,7 @@ Inbound Email Settings',
 
     'dom_processes_types' => [
         'background' => 'Background Process',
-        'immediate' => 'Immediate',
+        'immediate' => '立即',
     ],
 
     'dom_processes_statuses' => [

@@ -67,6 +67,6 @@ $mod_strings = array(
     'LBL_EDIT_MESSAGE_URL' => 'URL cho thông báo chiến dịch:',
     'LBL_EDIT_TRACKER_KEY' => 'Tracker Key:',
     'LBL_EDIT_OPT_OUT' => 'Liên kết chọn không tham gia?',
-    'LNK_CAMPAIGN_LIST' => 'Campaigns',
+    'LNK_CAMPAIGN_LIST' => 'Chiến dịch',
     'LBL_EDIT_LAYOUT' => 'Sửa khung' /*for 508 compliance fix*/,
 );

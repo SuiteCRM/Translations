@@ -149,7 +149,7 @@ $mod_strings = array(
     'ERROR_PACKAGE_TYPE' => 'Ficheiro de manifesto especifica um tipo de pacote não reconhecido.',
     'ERROR_VERSION_INCOMPATIBLE' => 'O ficheiro carregado não é compatível com esta versão do CRM:',
 
-    'LBL_BACK' => 'Back',
+    'LBL_BACK' => 'Voltar',
     'LBL_CANCEL' => 'Cancelar',
     'LBL_ACCEPT' => 'Aceito',
     'LBL_CHECKSYS_LEGACY_CACHE' => 'Writable Legacy Cache Sub-Directories',

@@ -64,7 +64,7 @@ $mod_strings = [
     // Subpanel titles
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Vedi log cambiamenti',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Attività',
-    'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
+    'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Account Calendario',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
 
     // Import links
@@ -79,8 +79,8 @@ $mod_strings = [
     'LNK_LIST_EXTERNAL_OAUTH_CONNECTIONS' => 'Connessioni OAuth Esterne',
 
     // Basic module labels
-    'LBL_MODULE_NAME' => 'Calendar Accounts',
-    'LBL_MODULE_TITLE' => 'Calendar Accounts',
+    'LBL_MODULE_NAME' => 'Account Calendario',
+    'LBL_MODULE_TITLE' => 'Account Calendario',
     'LBL_LIST_FORM_TITLE' => 'Calendar Accounts List',
     'LBL_SEARCH_FORM_TITLE' => 'Search Calendar Accounts',
     'LBL_NEW_FORM_TITLE' => 'New Calendar Account',
@@ -192,10 +192,10 @@ $mod_strings = [
     'LBL_SYNC_STATUS_ERROR' => 'Errore:',
 
     // Sync message enum translations
-    'LBL_SYNC_MSG_SYNC_COMPLETE' => 'All meetings synced.',
-    'LBL_SYNC_MSG_UP_TO_DATE' => 'No new meetings to sync.',
-    'LBL_SYNC_MSG_MEETINGS_FAILED' => 'Some meetings failed to sync. Check logs.',
-    'LBL_SYNC_MSG_SYNC_PARTIAL' => 'Some meetings synced. More pending due to limits.',
+    'LBL_SYNC_MSG_SYNC_COMPLETE' => 'Tutte le riunioni sincronizzate.',
+    'LBL_SYNC_MSG_UP_TO_DATE' => 'Nessuna nuova riunione da sincronizzare.',
+    'LBL_SYNC_MSG_MEETINGS_FAILED' => 'Alcune riunioni non sono state sincronizzate. Controlla i log.',
+    'LBL_SYNC_MSG_SYNC_PARTIAL' => 'Alcune riunioni sono state sincronizzate. Alcune sono attesa a causa di limiti.',
     'LBL_SYNC_MSG_SYNC_ERROR' => 'Sync error. Check logs.',
     'LBL_SYNC_MSG_TOKEN_EXPIRED' => 'Authentication token expired.',
     'LBL_SYNC_MSG_CONNECTION_ERROR' => 'Connection error.',

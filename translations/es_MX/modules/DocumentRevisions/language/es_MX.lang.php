@@ -51,7 +51,7 @@ $mod_strings = array(
     'LNK_DOCUMENT_LIST' => 'Lista de documentos',
 
     'LBL_OVERVIEW' => 'Visión Global',
-    'LBL_OTHER' => 'Other',
+    'LBL_OTHER' => 'Otro',
 
     //vardef labels
     'LBL_REVISION_NAME' => 'Revision Number',

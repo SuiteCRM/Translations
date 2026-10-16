@@ -37,8 +37,8 @@ $mod_strings = [
 
     // Module naming
     'LBL_LIST_FORM_TITLE' => 'Processes List',
-    'LBL_MODULE_NAME' => 'Processes',
-    'LBL_MODULE_TITLE' => 'Processes',
+    'LBL_MODULE_NAME' => 'Procesy',
+    'LBL_MODULE_TITLE' => 'Procesy',
     'LBL_HOMEPAGE_TITLE' => 'My Processes',
     'LNK_NEW_RECORD' => 'Create Process',
     'LNK_LIST' => 'View Processes',

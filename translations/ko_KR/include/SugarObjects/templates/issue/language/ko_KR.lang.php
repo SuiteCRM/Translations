@@ -44,9 +44,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
 
-    'LBL_NAME' => 'Name',
+    'LBL_NAME' => '제품명',
     'LBL_NUMBER' => '번호:',
-    'LBL_STATUS' => 'Status:',
+    'LBL_STATUS' => '상태:',
     'LBL_PRIORITY' => '우선순위:',
     'LBL_DESCRIPTION' => '상세설명:',
     'LBL_RESOLUTION' => '해결',

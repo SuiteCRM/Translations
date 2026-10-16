@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Project Tasks',
+    'LBL_MODULE_NAME' => 'Tarefas do projeto',
     'LBL_MODULE_TITLE' => 'Projetos — tarefas: entrada',
 
     'LBL_ID' => 'Id:',
@@ -51,10 +51,10 @@ $mod_strings = array(
     'LBL_PROJECT_ID' => 'Id do Projeto:',
     'LBL_DATE_ENTERED' => 'Data de criação:',
     'LBL_DATE_MODIFIED' => 'Data de alteração:',
-    'LBL_ASSIGNED_USER_ID' => 'Assigned To:',
+    'LBL_ASSIGNED_USER_ID' => 'Atribuído a:',
     'LBL_MODIFIED_USER_ID' => 'Alterado por (ID de utilizador):',
     'LBL_CREATED_BY' => 'Created By:',
-    'LBL_NAME' => 'Name:',
+    'LBL_NAME' => 'Nome:',
     'LBL_STATUS' => 'Situação:',
     'LBL_DATE_DUE' => 'Data-limite:',
     'LBL_TIME_DUE' => 'Hora limite:',
@@ -82,7 +82,7 @@ $mod_strings = array(
     'LBL_IMPORT_PROJECT_TASKS' => 'Importar tarefas de projeto',
 
     'LBL_LIST_NAME' => 'Nome',
-    'LBL_LIST_PARENT_NAME' => 'Project',
+    'LBL_LIST_PARENT_NAME' => 'Projecto',
     'LBL_SEARCH_FORM_TITLE' => 'Project Task Search',
     'LBL_LIST_PERCENT_COMPLETE' => 'Execução (%)',
     'LBL_LIST_STATUS' => 'Situação',
@@ -96,14 +96,14 @@ $mod_strings = array(
     'LNK_NEW_PROJECT' => 'Criar projeto',
     'LNK_PROJECT_LIST' => 'Project List',
     'LNK_NEW_PROJECT_TASK' => 'Criar tarefa de projeto',
-    'LNK_PROJECT_TASK_LIST' => 'Project Tasks',
+    'LNK_PROJECT_TASK_LIST' => 'Tarefas do projeto',
 
     'LBL_LIST_MY_PROJECT_TASKS' => 'Minhas tarefas de projeto',
-    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Project Tasks',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Tarefas do projeto',
     'LBL_NEW_FORM_TITLE' => 'Nova tarefa de projeto',
 
     'LBL_HISTORY_TITLE' => 'History',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Atividades',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'History',
 
     'LBL_ASSIGNED_USER_NAME' => 'Assigned To',
@@ -113,8 +113,8 @@ $mod_strings = array(
 
     'LBL_SUBTASK' => 'Subtarefa',
     'LBL_LAG' => 'Desfasamento',
-    'LBL_DAYS' => 'Days',
-    'LBL_HOURS' => 'Hours',
+    'LBL_DAYS' => 'Dias',
+    'LBL_HOURS' => 'Horas',
     'LBL_RELATIONSHIP_TYPE' => 'Tipo de relacionamento',
 
     'LBL_ASCENDING' => 'Ascendente',

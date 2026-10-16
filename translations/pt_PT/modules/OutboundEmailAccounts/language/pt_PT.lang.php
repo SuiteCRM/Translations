@@ -72,8 +72,8 @@ $mod_strings = array(
     'LNK_LIST' => 'Outbound Email Accounts',
     'LNK_LIST_INBOUND_EMAIL_ACCOUNTS' => 'Contas de entrada de correio',
     'LBL_SEARCH_FORM_TITLE' => 'Pesquisar contas de saída de correio',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Ver histórico',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Atividades',
     'LBL_NEW_FORM_TITLE' => 'Novas contas de saída de correio',
     'LBL_USERNAME' => 'Username',
     'LBL_PASSWORD' => 'Senha',
@@ -113,7 +113,7 @@ $mod_strings = array(
     'LBL_REPLY_TO_NAME' => 'Nome de "Responder a"',
     'LBL_REPLY_TO_ADDR' => 'Endereço de "Responder a"',
 
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Grupos de segurança',
 
     'LBL_OWNER' => 'Owner',
     'LBL_OWNER_NAME' => 'Owner',

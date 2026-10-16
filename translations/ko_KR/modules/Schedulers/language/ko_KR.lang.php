@@ -67,7 +67,7 @@ $mod_strings = array(
     'LBL_LIST_LIST_ORDER' => '일정:',
     'LBL_LIST_NAME' => '스케줄러',
     'LBL_LIST_RANGE' => '범위:',
-    'LBL_LIST_STATUS' => 'Status:',
+    'LBL_LIST_STATUS' => '상태:',
     'LBL_LIST_TITLE' => '일정 목록:',
 // human readable:
     'LBL_SUN' => 'Sunday',

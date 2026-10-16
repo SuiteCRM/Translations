@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_ADD_DOCUMENT' => 'Ajouter un document',
     'LBL_ADD_FILE' => 'Ajouter Fichier',
-    'LBL_ATTACHMENTS' => 'Attachments',
+    'LBL_ATTACHMENTS' => 'Pièces jointes',
     'LBL_BODY' => 'Corps :',
     'LBL_CLOSE' => 'Clos :',
     'LBL_DESCRIPTION' => 'Description :',
@@ -83,7 +83,7 @@ $mod_strings = array(
     'LNK_SENT_EMAIL_LIST' => 'Messages envoyés',
     'LNK_VIEW_CALENDAR' => 'Aujourd’hui',
     // for Inbox
-    'LBL_NEW' => 'New',
+    'LBL_NEW' => 'Nouveau',
     'LNK_MY_DRAFTS' => 'Mes Brouillons',
     'LNK_MY_INBOX' => 'Mes E-mails',
     'LBL_TEXT_ONLY' => 'Texte brut',

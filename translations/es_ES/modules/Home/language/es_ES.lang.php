@@ -137,7 +137,7 @@ $mod_strings = array(
 
     'LBL_SOURCE_SUGAR' => 'SugarCRM Inc - proveedores de framework CE',
 
-    'LBL_DASHLET_TITLE' => 'My Sites',
+    'LBL_DASHLET_TITLE' => 'Mis Sitios',
     'LBL_DASHLET_OPT_TITLE' => 'Titulo',
     'LBL_DASHLET_INCORRECT_URL' => 'Ubicación de sitio web incorrecto',
     'LBL_DASHLET_OPT_URL' => 'Dirección de Sitio Web',

@@ -36,7 +36,7 @@ $mod_strings = [
     'LBL_DATE_ENTERED' => 'Fecha de Creación',
     'LBL_DATE_MODIFIED' => 'Fecha de Modificación',
     'LBL_MODIFIED' => 'Modificado Por',
-    'LBL_MODIFIED_NAME' => 'Modified By Name',
+    'LBL_MODIFIED_NAME' => 'Modificado por Name',
     'LBL_CREATED' => 'Creado Por',
     'LBL_CREATED_USER' => 'Creado por el Usuario',
     'LBL_MODIFIED_USER' => 'Modificado por el Usuario',
@@ -63,7 +63,7 @@ $mod_strings = [
 
     // Subpanel titles
     'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Actividades',
     'LBL_CALENDARACCOUNT_SUBPANEL_TITLE' => 'Calendar Accounts',
     'LBL_MEETINGS_SUBPANEL_TITLE' => 'Synced Meetings',
 
@@ -162,7 +162,7 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Please select a calendar source first.',
 
     // Connection test messages
-    'LBL_CALENDAR' => 'Calendar',
+    'LBL_CALENDAR' => 'Calendario',
     'LBL_SUCCESSFUL' => 'Successful',
     'LBL_FAILED' => 'Failed',
     'LBL_CONNECTION_TEST' => 'Connection Test',

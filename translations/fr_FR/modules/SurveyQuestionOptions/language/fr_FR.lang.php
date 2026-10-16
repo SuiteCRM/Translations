@@ -40,7 +40,7 @@
 
 $mod_strings = array(
     'LBL_ASSIGNED_TO_ID'                                                                   => 'Identifiant de l\'utilisateur assigné',
-    'LBL_ASSIGNED_TO_NAME'                                                                 => 'Assigned to',
+    'LBL_ASSIGNED_TO_NAME'                                                                 => 'Assigné à',
     'LBL_SECURITYGROUPS'                                                                   => 'Groupes de sécurité',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE'                                                    => 'Groupes de sécurité',
     'LBL_ID'                                                                               => 'ID',

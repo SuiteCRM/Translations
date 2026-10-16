@@ -699,12 +699,12 @@ $mod_strings = array(
     'LNK_LIST_CALENDAR_ACCOUNTS' => 'View Calendar Accounts',
 
     // 2FA
-    'LBL_FACTOR_AUTH' => 'Two Factor Authentication',
-    'LBL_FACTOR_AUTH_DISABLE' => 'Two Factor Authentication was Disabled for this User',
+    'LBL_FACTOR_AUTH' => 'Autentificare în doi pași',
+    'LBL_FACTOR_AUTH_DISABLE' => 'Autentificarea în doi pași a fost dezactivată pentru acest Utilizator',
     'LBL_DISABLED' => 'Dezactivat',
     'LBL_ENABLED' => 'Activat',
-    'LBL_ENABLE_2FA' => 'Enable 2FA',
-    'LBL_2FA_CONFIG' => 'Two Factor Configuration',
-    'LBL_DISABLE_2FA' => 'Disable 2FA',
+    'LBL_ENABLE_2FA' => 'Activează 2FA',
+    'LBL_2FA_CONFIG' => 'Configurare în doi pași',
+    'LBL_DISABLE_2FA' => 'Dezactivează 2FA',
 
 ); // END STRINGS DEFS
