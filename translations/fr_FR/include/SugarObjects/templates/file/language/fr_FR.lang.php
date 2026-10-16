@@ -95,7 +95,7 @@ $mod_strings = array(
     'LBL_LIST_VIEW_DOCUMENT' => 'Voir',
     'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
     'LBL_LIST_EXP_DATE' => 'Expiration Date',
-    'LBL_LIST_STATUS' => 'Status',
+    'LBL_LIST_STATUS' => 'Etat',
 
     //document search form.
     'LBL_SF_CATEGORY' => 'Category:',
