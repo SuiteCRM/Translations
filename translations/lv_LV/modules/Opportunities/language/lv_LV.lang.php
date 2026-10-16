@@ -63,7 +63,7 @@ $mod_strings = array(
     'LBL_CURRENCY_SYMBOL' => 'Currency Symbol',
 
     'UPDATE' => 'Iespēja - Atjaunināt valūtu',
-    'LBL_ACCOUNT_NAME' => 'Account Name:',
+    'LBL_ACCOUNT_NAME' => 'Uzņēmuma nosaukums:',
     'LBL_AMOUNT' => 'Opportunity Amount:',
     'LBL_AMOUNT_USDOLLAR' => 'Amount:',
     'LBL_CURRENCY' => 'Currency:',
