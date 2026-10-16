@@ -169,7 +169,7 @@ $mod_strings = array(
     'LNK_VIEW_MY_INBOX' => 'E-Mail ansehen',
     'LNK_QUICK_REPLY' => 'Reply',
     'LNK_SENT_EMAIL_LIST' => 'Sent Emails',
-    'LBL_EDIT_LAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
+    'LBL_EDIT_LAYOUT' => 'Layout bearbeiten' /*for 508 compliance fix*/,
     'LBL_TYPE_DIFFERENT' => 'External OAuth Connection type must be the SAME as the Inbound Email Account type',
 
     'LBL_MODIFIED_BY' => 'Geändert von',
