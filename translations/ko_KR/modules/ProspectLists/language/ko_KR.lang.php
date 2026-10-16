@@ -49,7 +49,7 @@ $mod_strings = array(
     'LBL_SEARCH_FORM_TITLE' => '타겟 리스트 검색',
     'LBL_LIST_FORM_TITLE' => 'Target Lists',
     'LBL_PROSPECT_LIST_NAME' => '이름',
-    'LBL_NAME' => 'Name',
+    'LBL_NAME' => '제품명',
     'LBL_ENTRIES' => '총 항목',
     'LBL_LIST_PROSPECT_LIST_NAME' => 'Target List',
     'LBL_LIST_ENTRIES' => 'Targets in List',
@@ -85,7 +85,7 @@ $mod_strings = array(
     'LBL_MARKETING_NAME' => 'Marketing Name',
     'LBL_DOMAIN_NAME' => 'Domain Name',
     'LBL_DOMAIN' => 'No emails to Domain',
-    'LBL_LIST_PROSPECTLIST_NAME' => 'Name',
+    'LBL_LIST_PROSPECTLIST_NAME' => '제품명',
 
     'LBL_EMAIL_MARKETING' => 'Email Marketing',
 
