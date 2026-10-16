@@ -94,7 +94,7 @@ $mod_strings = array(
     'LBL_MODULES' => '모듈',
     'LBL_CHARTS' => '도표 목록',
     'LBL_TOOLS' => '도구목록',
-    'LBL_WEB' => 'Web',
+    'LBL_WEB' => '웹',
     'LBL_SEARCH_RESULTS' => '검색된 결과',
 
     // Dashlet Categories
@@ -124,8 +124,8 @@ $mod_strings = array(
     'LBL_HOME_PAGE_1_NAME' => 'My SuiteCRM',
     'LBL_CLOSE_SITEMAP' => '닫기',
 
-    'LBL_SEARCH' => 'Search',
-    'LBL_CLEAR' => 'Clear',
+    'LBL_SEARCH' => '검색',
+    'LBL_CLEAR' => '지우기',
 
     'LBL_BASIC_CHARTS' => '기본 도표목록',
 
@@ -205,7 +205,7 @@ $mod_strings = array(
     'LBL_DELETE_BUTTON' => '삭제',
     'LBL_APPLY_BUTTON' => 'Apply',
     'LBL_SEND_INVITES' => 'Save & Send Invites',
-    'LBL_CANCEL_BUTTON' => 'Cancel',
+    'LBL_CANCEL_BUTTON' => '취소',
     'LBL_CLOSE_BUTTON' => '닫기',
 
     'LBL_CREATE_NEW_RECORD' => 'Create Activity',
@@ -237,7 +237,7 @@ $mod_strings = array(
     'LBL_HOURS_ABBREV' => '시간',
     'LBL_MINSS_ABBREV' => '분',
     'LBL_LOCATION' => 'Location:',
-    'LBL_STATUS' => 'Status:',
+    'LBL_STATUS' => '상태:',
     'LBL_DESCRIPTION' => 'Description: ',
     //End Events
 
