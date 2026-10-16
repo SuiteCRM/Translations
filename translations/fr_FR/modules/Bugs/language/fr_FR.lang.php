@@ -58,12 +58,12 @@ $mod_strings = array(
     'LBL_CONTACT_ROLE' => 'Rôle :',
     'LBL_LIST_NUMBER' => 'Num.',
     'LBL_LIST_SUBJECT' => 'Sujet',
-    'LBL_LIST_STATUS' => 'Status',
+    'LBL_LIST_STATUS' => 'Etat',
     'LBL_LIST_PRIORITY' => 'Priority',
     'LBL_LIST_RESOLUTION' => 'Resolution',
     'LBL_LIST_LAST_MODIFIED' => 'Last Modified',
     'LBL_INVITEE' => 'Contacts',
-    'LBL_TYPE' => 'Type:',
+    'LBL_TYPE' => 'Type :',
     'LBL_LIST_TYPE' => 'Type',
     'LBL_RESOLUTION' => 'Résolution :',
     'LBL_RELEASE' => 'Version :',
@@ -98,7 +98,7 @@ $mod_strings = array(
     'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projets',
     'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documents',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Utilisateur attribué',
-    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
 
     'LBL_BUG_INFORMATION' => 'Aperçu', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
