@@ -45,9 +45,9 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LNK_NEW_CALL' => 'Anruf protokollieren',
     'LNK_NEW_MEETING' => 'Besprechung planen',
-    'LNK_NEW_TASK' => 'Create Task',
-    'LNK_NEW_NOTE' => 'Create Note or Attachment',
-    'LNK_NEW_EMAIL' => 'Archive Email',
+    'LNK_NEW_TASK' => 'Aufgabe erstellen',
+    'LNK_NEW_NOTE' => 'Notiz oder Anhang erstellen',
+    'LNK_NEW_EMAIL' => 'E-Mail archivieren',
     'LNK_CALL_LIST' => 'Anrufe',
     'LNK_MEETING_LIST' => 'Besprechungen',
     'LNK_TASK_LIST' => 'Aufgaben',
