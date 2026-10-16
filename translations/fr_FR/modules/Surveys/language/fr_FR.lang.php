@@ -41,7 +41,7 @@
 $mod_strings = array(
     'LBL_ASSIGNED_TO_ID'                                     => 'Identifiant de l\'utilisateur assigné',
     'LBL_ADD_OPTION'                                         => 'Ajouter une nouvelle option',
-    'LBL_ASSIGNED_TO_NAME'                                   => 'Assigned to',
+    'LBL_ASSIGNED_TO_NAME'                                   => 'Assigné à',
     'LBL_SECURITYGROUPS'                                     => 'Groupes de sécurité',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE'                      => 'Groupes de sécurité',
     'LBL_ID'                                                 => 'ID',
@@ -72,7 +72,7 @@ $mod_strings = array(
     'LBL_ACTIVITIES_SUBPANEL_TITLE'                          => 'Activités',
     'LBL_SURVEYS_SUBPANEL_TITLE'                             => 'Sondages',
     'LBL_NEW_FORM_TITLE'                                     => 'Nouveau sondage',
-    'LBL_STATUS'                                             => 'Status',
+    'LBL_STATUS'                                             => 'Etat',
     'LBL_SURVEY_QUESTIONS_DISPLAY'                           => 'Questions',
     'LBL_SURVEY_URL_DISPLAY'                                 => 'URL',
     'LBL_HAPPINESS_QUESTION'                                 => 'Question de satisfaction',
