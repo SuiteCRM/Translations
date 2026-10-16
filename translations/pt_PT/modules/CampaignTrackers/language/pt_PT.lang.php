@@ -67,6 +67,6 @@ $mod_strings = array(
     'LBL_EDIT_MESSAGE_URL' => 'URL da mensagem da campanha:',
     'LBL_EDIT_TRACKER_KEY' => 'Chave do rastreador:',
     'LBL_EDIT_OPT_OUT' => 'Hiperligação para exclusão?',
-    'LNK_CAMPAIGN_LIST' => 'Campaigns',
+    'LNK_CAMPAIGN_LIST' => 'Campanhas',
     'LBL_EDIT_LAYOUT' => 'Editar esquema' /*for 508 compliance fix*/,
 );
