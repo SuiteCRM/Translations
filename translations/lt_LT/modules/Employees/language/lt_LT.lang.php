@@ -145,7 +145,7 @@ $mod_strings = array(
     'LBL_BUTTON_CLEAR' => 'Išvalyti',
 
     'LBL_CONTACTS_SYNC' => 'Kontaktų sinchronizavimas',
-    'LBL_OAUTH_TOKENS' => 'OAuth Tokens',
+    'LBL_OAUTH_TOKENS' => 'OAuth raktai',
     'LBL_PROJECT_USERS_1_FROM_PROJECT_TITLE' => 'Project Users from Project Title',
     'LBL_PROJECT_CONTACTS_1_FROM_CONTACTS_TITLE' => 'Project Contacts from Contacts Title',
     'LBL_ROLES' => 'Rolė',
