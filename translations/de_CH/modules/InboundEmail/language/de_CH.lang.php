@@ -169,7 +169,7 @@ $mod_strings = array(
     'LNK_VIEW_MY_INBOX' => 'E-Mail ansehen',
     'LNK_QUICK_REPLY' => 'Antwort',
     'LNK_SENT_EMAIL_LIST' => 'Gesendete E-Mails',
-    'LBL_EDIT_LAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
+    'LBL_EDIT_LAYOUT' => 'Layout bearbeiten' /*for 508 compliance fix*/,
     'LBL_TYPE_DIFFERENT' => 'External OAuth Connection type must be the SAME as the Inbound Email Account type',
 
     'LBL_MODIFIED_BY' => 'Geändert von',
@@ -205,7 +205,7 @@ $mod_strings = array(
 
     'LBL_DISTRIBUTION_USER' => 'Distributor',
     'LBL_DISTRIBUTION_USER_ID' => 'Distributor ID',
-    'LBL_DISTRIBUTION_USER_NAME' => 'Distribution User',
+    'LBL_DISTRIBUTION_USER_NAME' => 'Distributor',
 
     'LBL_EXTERNAL_OAUTH_CONNECTION' => 'Externe OAuth-Verbindung',
     'LBL_EXTERNAL_OAUTH_CONNECTION_ID' => 'Externe OAuth-Verbindungs ID',
