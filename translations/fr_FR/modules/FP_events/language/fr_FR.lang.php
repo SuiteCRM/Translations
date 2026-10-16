@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
                 
 $mod_strings = array(
     'LBL_ASSIGNED_TO_ID' => 'Identifiant de l\'utilisateur assigné',
-    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date de création',
     'LBL_DATE_MODIFIED' => 'Date de modification',
@@ -69,7 +69,7 @@ $mod_strings = array(
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Afficher l\'historique',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activités',
     'LBL_NEW_FORM_TITLE' => 'New Event',
-    'LBL_LOCATION' => 'Location',
+    'LBL_LOCATION' => 'Lieu',
     'LBL_START_DATE' => 'start date',
     'LBL_END_DATE' => 'End Date/Time',
     'LBL_BUDGET' => 'Budget',
@@ -79,7 +79,7 @@ $mod_strings = array(
     'LBL_INVITE_TEMPLATES' => 'Modèle d\'E-mail d\'invitation',
     'LBL_INVITE_PDF' => 'Send Invites',
     'LBL_EDITVIEW_PANEL1' => 'Détails de l\'évènement',
-    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Delegates',
+    'LBL_DEFAULT_SUBPANEL_TITLE' => 'Participants',
     'LBL_ACCEPT_REDIRECT' => 'Accepter la redirection URL',
     'LBL_DECLINE_REDIRECT' => 'Refuser la redirection d\'URL',
     'LBL_SELECT_DELEGATES' => 'Sélectionner les délégués',
@@ -114,7 +114,7 @@ $mod_strings = array(
 
     'LBL_HOURS_ABBREV' => 'h',
     'LBL_MINSS_ABBREV' => 'm',
-    'LBL_FP_EVENTS_FP_EVENT_DELEGATES_1_FROM_FP_EVENT_DELEGATES_TITLE' => 'Delegates',
+    'LBL_FP_EVENTS_FP_EVENT_DELEGATES_1_FROM_FP_EVENT_DELEGATES_TITLE' => 'Participants',
 
     // Attendance report
     'LBL_CONTACT_NAME' => 'Nom',
@@ -122,7 +122,7 @@ $mod_strings = array(
     'LBL_SIGNATURE' => 'Signature',
     // contacts/leads/targets subpanels
     'LBL_LIST_INVITE_STATUS_EVENT' => 'Invited',
-    'LBL_LIST_ACCEPT_STATUS_EVENT' => 'Status',
+    'LBL_LIST_ACCEPT_STATUS_EVENT' => 'Etat',
 
     'LBL_ACTIVITY_STATUS' => 'Statut ',
     'LBL_FP_EVENT_LOCATIONS_FP_EVENTS_1_FROM_FP_EVENTS_TITLE' => 'Lieux des évènements à partir du nom de l\'évènement',
