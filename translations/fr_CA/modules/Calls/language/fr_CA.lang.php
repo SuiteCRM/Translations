@@ -159,7 +159,7 @@ $mod_strings = array(
     'LBL_SAVE' => 'Sauvegarder',
 
     'LBL_CALLS_RESCHEDULE' => 'Replanifier Appels',
-    'LBL_LIST_STATUS'=>'Status',
+    'LBL_LIST_STATUS'=>'Etat',
     'LBL_LIST_DATE_MODIFIED'=>'Date Modification',
     'LBL_LIST_DUE_DATE'=>'Date prévue',
     'LBL_RESCHEDULED_BY'=>'by',
