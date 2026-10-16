@@ -58,7 +58,7 @@ $mod_strings = [
     'LBL_REMOVE' => 'Quitar',
     'LBL_LIST_DELETE' => 'Delete',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Actividades',
 
     // Async task field labels
     'LBL_DATA' => 'Data',
