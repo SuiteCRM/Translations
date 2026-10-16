@@ -68,11 +68,11 @@ $mod_strings = [
 
     'LNK_LIST' => 'Fornecedores externos OAuth',
     'LBL_SEARCH_FORM_TITLE' => 'Pesquisar fornecedores externos OAuth',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Ver histórico',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Atividades',
     'LBL_NEW_FORM_TITLE' => 'Novo fornecedor externo OAuth',
 
-    'LBL_LIST_DELETE' => 'Delete',
+    'LBL_LIST_DELETE' => 'Eliminar',
     'LBL_TYPE' => 'Tipo',
     'LBL_CONNECTOR' => 'Conector',
     'LBL_REDIRECT_URI' => 'URI de redirecionamento',
@@ -97,7 +97,7 @@ $mod_strings = [
 
     'LBL_EXTRA' => 'Configurações adicionais',
     'LBL_MAPPING' => 'Configurações do mapeamento',
-    'LBL_OTHER' => 'Other',
+    'LBL_OTHER' => 'Outro',
 
 
     'LNK_LIST_CREATE_NEW_PERSONAL' => 'Novo fornecedor pessoal',
