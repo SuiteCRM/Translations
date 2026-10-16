@@ -162,7 +162,7 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Please select a calendar source first.',
 
     // Connection test messages
-    'LBL_CALENDAR' => 'Calendar',
+    'LBL_CALENDAR' => 'Kalendarz',
     'LBL_SUCCESSFUL' => 'Successful',
     'LBL_FAILED' => 'Nieudany',
     'LBL_CONNECTION_TEST' => 'Connection Test',
