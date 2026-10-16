@@ -173,13 +173,13 @@ $mod_strings = array(
 
     'LBL_LEADS_SUBPANEL_TITLE' => 'Galimybės',
     'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Pardavimai',
-    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documents',
+    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Dokumentai',
     'LBL_COPY_ADDRESS_CHECKED_PRIMARY' => 'Kopijuoti į pagrindinį adresą',
     'LBL_COPY_ADDRESS_CHECKED_ALT' => 'Kopijuoti į kitą adresą',
 
     'LBL_CASES_SUBPANEL_TITLE' => 'Aptarnavimai',
     'LBL_BUGS_SUBPANEL_TITLE' => 'Klaidų fiksavimas',
-    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projects',
+    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projektas',
     'LBL_PROJECTS_RESOURCES' => 'Projekto ištekliai',
     'LBL_CAMPAIGNS' => 'Campaigns',
     'LBL_CAMPAIGN_LIST_SUBPANEL_TITLE' => 'Campaigns',
@@ -189,7 +189,7 @@ $mod_strings = array(
     'LBL_OPPORTUNITIES' => 'Pardavimai',
 
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Kliento kontaktai',
-    'LBL_PROJECT_SUBPANEL_TITLE' => 'Projects',
+    'LBL_PROJECT_SUBPANEL_TITLE' => 'Projektas',
     'LNK_IMPORT_CONTACTS' => 'Importuoti kontaktus',
 
     // SNIP
