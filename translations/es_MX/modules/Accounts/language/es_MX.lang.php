@@ -58,7 +58,7 @@ $mod_strings = array(
     'LBL_ACCOUNT_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_ACCOUNT_NAME' => 'Account Name:',
     'LBL_ACCOUNT' => 'Cuenta:',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Actividades',
     'LBL_ADDRESS_INFORMATION' => 'Información de dirección',
     'LBL_ANNUAL_REVENUE' => 'Annual Revenue:',
     'LBL_ANY_ADDRESS' => 'Any Address:',
@@ -123,7 +123,7 @@ $mod_strings = array(
     'LBL_PHONE' => 'Phone:',
     'LBL_POSTAL_CODE' => 'Postal Code:',
     'LBL_PRODUCTS_TITLE' => 'Products',
-    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projects',
+    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Proyectos',
     'LBL_PUSH_CONTACTS_BUTTON_LABEL' => 'Copiar a contactos',
     'LBL_PUSH_CONTACTS_BUTTON_TITLE' => 'Copiar...',
     'LBL_RATING' => 'Calificación:',
@@ -152,7 +152,7 @@ $mod_strings = array(
     'LBL_ASSIGNED_USER_NAME' => 'Asignado a:',
     'LBL_PROSPECT_LIST' => 'Lista de público objetivo',
     'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Cuentas',
-    'LBL_PROJECT_SUBPANEL_TITLE' => 'Projects',
+    'LBL_PROJECT_SUBPANEL_TITLE' => 'Proyectos',
     //For export labels
     'LBL_PARENT_ID' => 'Parent ID',
     // SNIP
