@@ -81,7 +81,7 @@ $mod_strings = array(
     'LBL_RESOLUTION' => 'Resolution:',
     'LBL_SEARCH_FORM_TITLE' => 'Fälle suchen',
     'LBL_STATUS' => 'Status:',
-    'LBL_SUBJECT' => 'Subject:',
+    'LBL_SUBJECT' => 'Betreff:',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Zugewiesener Benutzer',
     'LBL_LIST_ACCOUNT_NAME' => 'Firmenname',
     'LBL_LIST_ASSIGNED' => 'Zugewiesen an',
@@ -125,7 +125,7 @@ $mod_strings = array(
     'LBL_SELECT_INTERNAL_CASE_DOCUMENT' => 'Internes CRM-Dokument',
     'LBL_SELECT_EXTERNAL_CASE_DOCUMENT' => 'Externe Datei',
     'LBL_CONTACT_CREATED_BY_NAME' => 'Erstellt von Kontakt',
-    'LBL_CONTACT_CREATED_BY' => 'Created by',
+    'LBL_CONTACT_CREATED_BY' => 'Erstellt von',
     'LBL_CASE_UPDATE_FORM' => 'Anhang-Formular aktualisieren', //Form for attachments on case updates
     'LBL_UNKNOWN_CONTACT' => 'Unbekannter Kontakt',
 );
