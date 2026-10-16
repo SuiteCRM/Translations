@@ -100,7 +100,7 @@ $mod_strings = array(
 
     //Analytics labels for sales pivot
     'LBL_AN_SALES_ACCOUNT_NAME' => 'Firmenname',
-    'LBL_AN_SALES_OPPORTUNITY_NAME' => 'Opportunity Name',
+    'LBL_AN_SALES_OPPORTUNITY_NAME' => 'Verkaufschancen Name',
     'LBL_AN_SALES_ASSIGNED_USER' => 'Zugewiesener Benutzer',
     'LBL_AN_SALES_OPPORTUNITY_TYPE' => 'OpportunityType',
     'LBL_AN_SALES_LEAD_SOURCE' => 'Lead Source',
@@ -125,7 +125,7 @@ $mod_strings = array(
     'LBL_AN_SERVICE_CREATED_MONTH' => 'Created Month',
     'LBL_AN_SERVICE_CREATED_QUARTER' => 'Created Quarter',
     'LBL_AN_SERVICE_CREATED_YEAR' => 'Created Year',
-    'LBL_AN_SERVICE_CONTACT_NAME' => 'Contact Name',
+    'LBL_AN_SERVICE_CONTACT_NAME' => 'Kontakt',
     'LBL_AN_SERVICE_ASSIGNED_TO' => 'Zugewiesener Benutzer',
 
     //Analytics labels for the activities pivot
@@ -138,9 +138,9 @@ $mod_strings = array(
     'LBL_AN_MARKETING_STATUS' => 'Status',
     'LBL_AN_MARKETING_TYPE' => 'Typ',
     'LBL_AN_MARKETING_BUDGET' => 'Budget',
-    'LBL_AN_MARKETING_EXPECTED_COST' => 'Expected Cost',
-    'LBL_AN_MARKETING_EXPECTED_REVENUE' => 'Expected Revenue',
-    'LBL_AN_MARKETING_OPPORTUNITY_NAME' => 'Opportunity Name',
+    'LBL_AN_MARKETING_EXPECTED_COST' => 'Erwartete Kosten',
+    'LBL_AN_MARKETING_EXPECTED_REVENUE' => 'Erwartete Einnahmen',
+    'LBL_AN_MARKETING_OPPORTUNITY_NAME' => 'Verkaufschancen Name',
     'LBL_AN_MARKETING_OPPORTUNITY_AMOUNT' => 'Opportunity Amount',
     'LBL_AN_MARKETING_OPPORTUNITY_SALES_STAGE' => 'Opportunity Sales Stage',
     'LBL_AN_MARKETING_OPPORTUNITY_ASSIGNED_TO' => 'Verkaufschance zugew. Benutzer',
@@ -154,12 +154,12 @@ $mod_strings = array(
     'LBL_AN_MARKETINGACTIVITY_RELATED_ID' => 'Related ID',
 
     //Analytics labels for the quotes pivot
-    'LBL_AN_QUOTES_OPPORTUNITY_NAME' => 'Opportunity Name',
+    'LBL_AN_QUOTES_OPPORTUNITY_NAME' => 'Verkaufschancen Name',
     'LBL_AN_QUOTES_OPPORTUNITY_TYPE' => 'Opportunity Type',
     'LBL_AN_QUOTES_OPPORTUNITY_LEAD_SOURCE' => 'Opportunity Lead Source',
     'LBL_AN_QUOTES_OPPORTUNITY_SALES_STAGE' => 'Opportunity Sales Stage',
     'LBL_AN_QUOTES_ACCOUNT_NAME' => 'Firmenname',
-    'LBL_AN_QUOTES_CONTACT_NAME' => 'Contact Name',
+    'LBL_AN_QUOTES_CONTACT_NAME' => 'Kontakt',
     'LBL_AN_QUOTES_ITEM_NAME' => 'Item Name',
     'LBL_AN_QUOTES_ITEM_TYPE' => 'Item Type',
     'LBL_AN_QUOTES_ITEM_CATEGORY' => 'Item Category',
