@@ -43,8 +43,8 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Currencies',
-    'LBL_LIST_FORM_TITLE' => 'Currencies',
+    'LBL_MODULE_NAME' => '통화',
+    'LBL_LIST_FORM_TITLE' => '통화',
     'LBL_CURRENCY' => 'Currency',
     'LBL_ADD' => '추가',
     'LBL_MERGE' => '복제',
@@ -73,7 +73,7 @@ $mod_strings = array(
     'currency_status_dom' =>
         array(
             'Active' => '활성',
-            'Inactive' => 'Inactive',
+            'Inactive' => '비활성',
         ),
     'LBL_CREATED_BY' => '작성자',
     'LBL_EDIT_LAYOUT' => '지면 배치 편집하기' /*for 508 compliance fix*/,
