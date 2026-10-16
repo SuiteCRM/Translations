@@ -53,7 +53,7 @@ $mod_strings = array(
     'LBL_FILENAME_REVISION_HINT' => 'Remove and replace this file to create a new revision.',
     'LBL_SEARCH_FORM_TITLE' => 'Document Search',
     //vardef labels
-    'LBL_NAME' => 'Document Name',
+    'LBL_NAME' => 'Tên tài liệu',
     'LBL_DESCRIPTION' => 'Mô tả',
     'LBL_CATEGORY' => 'Chủng loại',
     'LBL_SUBCATEGORY' => 'Chủng loại phụ',
@@ -73,12 +73,12 @@ $mod_strings = array(
     'LBL_ASSIGNED_TO_NAME' => 'Giao cho:',
     'LBL_REVISION_NAME' => 'Revision Number',
     'LBL_MIME' => 'Mime Type',
-    'LBL_REVISION' => 'Revision',
+    'LBL_REVISION' => 'Lần sửa đổi',
     'LBL_DOCUMENT' => 'Related Document',
     'LBL_LATEST_REVISION' => 'Latest Revision',
     'LBL_CHANGE_LOG' => 'Change Log',
-    'LBL_ACTIVE_DATE' => 'Publish Date',
-    'LBL_EXPIRATION_DATE' => 'Expiration Date',
+    'LBL_ACTIVE_DATE' => 'Ngày xuất bản',
+    'LBL_EXPIRATION_DATE' => 'Ngày hết hạn',
     'LBL_FILE_EXTENSION' => 'File Extension',
     'LBL_LAST_REV_MIME_TYPE' => 'Phiên bản cuối cùng kiểu MIME',
     'LBL_CAT_OR_SUBCAT_UNSPEC' => 'Unspecified',
@@ -92,7 +92,7 @@ $mod_strings = array(
     'LBL_DOC_VERSION' => 'Revision:',
     'LBL_FILE_UPLOAD' => 'File:',
 
-    'LBL_CATEGORY_VALUE' => 'Category:',
+    'LBL_CATEGORY_VALUE' => 'Nhóm:',
     'LBL_LIST_CATEGORY' => 'Chủng loại',
     'LBL_SUBCATEGORY_VALUE' => 'Chủng loại phụ:',
     'LBL_DOC_STATUS' => 'Tình trạng:',
@@ -113,12 +113,12 @@ $mod_strings = array(
     'LBL_LIST_FORM_TITLE' => 'Danh sách Tài liệu',
     'LBL_LIST_DOCUMENT' => 'Tài liệu',
     'LBL_LIST_SUBCATEGORY' => 'Chủng loại phụ',
-    'LBL_LIST_REVISION' => 'Revision',
+    'LBL_LIST_REVISION' => 'Lần sửa đổi',
     'LBL_LIST_LAST_REV_CREATOR' => 'Published By',
     'LBL_LIST_LAST_REV_DATE' => 'Revision Date',
-    'LBL_LIST_VIEW_DOCUMENT' => 'View',
-    'LBL_LIST_ACTIVE_DATE' => 'Publish Date',
-    'LBL_LIST_EXP_DATE' => 'Expiration Date',
+    'LBL_LIST_VIEW_DOCUMENT' => 'Xem',
+    'LBL_LIST_ACTIVE_DATE' => 'Ngày xuất bản',
+    'LBL_LIST_EXP_DATE' => 'Ngày hết hạn',
     'LBL_LIST_STATUS' => 'Tình trạng',
     'LBL_LINKED_ID' => 'Linked id',
     'LBL_SELECTED_REVISION_ID' => 'ID Bản sửa được chọn',
@@ -127,14 +127,14 @@ $mod_strings = array(
     'LBL_FILE_URL' => 'Tập tin url',
 
     //document search form.
-    'LBL_SF_CATEGORY' => 'Category:',
+    'LBL_SF_CATEGORY' => 'Nhóm:',
     'LBL_SF_SUBCATEGORY' => 'Chủng loại phụ:',
 
     'DEF_CREATE_LOG' => 'Document Created',
 
     //error messages
-    'ERR_DOC_NAME' => 'Document Name',
-    'ERR_DOC_ACTIVE_DATE' => 'Publish Date',
+    'ERR_DOC_NAME' => 'Tên tài liệu',
+    'ERR_DOC_ACTIVE_DATE' => 'Ngày xuất bản',
     'ERR_FILENAME' => 'Tên tập tin',
     'ERR_DOC_VERSION' => 'Document Version',
     'ERR_DELETE_CONFIRM' => 'Do you want to delete this document revision?',
@@ -169,7 +169,7 @@ $mod_strings = array(
 
     'LBL_AOS_CONTRACTS' => 'Hợp đồng',
 
-    'LBL_REV_LIST_REVISION' => 'Revision',
+    'LBL_REV_LIST_REVISION' => 'Lần sửa đổi',
     'LBL_REV_LIST_ENTERED' => 'Ngày tạo',
     'LBL_REV_LIST_CREATED' => 'Được tạo bởi',
     'LBL_REV_LIST_LOG' => 'Change Log',
