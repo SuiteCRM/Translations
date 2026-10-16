@@ -90,8 +90,8 @@ $mod_strings = array(
 
     'LBL_LEADS_SUBPANEL_TITLE' => 'Galimybės',
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Kliento kontaktai',
-    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documents',
-    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projects',
+    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Dokumentai',
+    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projektas',
     'LBL_ASSIGNED_TO_NAME' => 'Priskirtas:',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Atsakingas',
     'LBL_MY_CLOSED_OPPORTUNITIES' => 'Mano baigti pardavimai',
@@ -102,7 +102,7 @@ $mod_strings = array(
     'LBL_CREATED_USER' => 'Created User',
     'LBL_MODIFIED_USER' => 'Redagavo',
     'LBL_CAMPAIGN_OPPORTUNITY' => 'Campaigns',
-    'LBL_PROJECT_SUBPANEL_TITLE' => 'Projects',
+    'LBL_PROJECT_SUBPANEL_TITLE' => 'Projektas',
     'LNK_IMPORT_OPPORTUNITIES' => 'Importuoti Pardavimus',
     'LBL_EDITLAYOUT' => 'Redaguoti išdėstymą'
     /*for 508 compliance fix*/,
