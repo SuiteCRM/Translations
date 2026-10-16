@@ -48,7 +48,7 @@ $mod_strings = array(
     'db_website' => 'LBL_LIST_WEBSITE',
     'db_billing_address_city' => 'LBL_LIST_CITY',
     // END DON'T CONVERT
-    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documents',
+    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Dokumentai',
     // Dashlet Categories
     'LBL_CHARTS' => 'Diagramos',
     'LBL_DEFAULT' => 'Peržiūros',
@@ -123,7 +123,7 @@ $mod_strings = array(
     'LBL_PHONE' => 'Telefonas',
     'LBL_POSTAL_CODE' => 'Postal Code:',
     'LBL_PRODUCTS_TITLE' => 'Prekės',
-    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projects',
+    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projektas',
     'LBL_PUSH_CONTACTS_BUTTON_LABEL' => 'Kopijuoti į kontaktus',
     'LBL_PUSH_CONTACTS_BUTTON_TITLE' => 'Kopijuoti...',
     'LBL_RATING' => 'Bankas:',
@@ -152,7 +152,7 @@ $mod_strings = array(
     'LBL_ASSIGNED_USER_NAME' => 'Priskirtas:',
     'LBL_PROSPECT_LIST' => 'Kandidatų sąrašas',
     'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Naudotojai',
-    'LBL_PROJECT_SUBPANEL_TITLE' => 'Projects',
+    'LBL_PROJECT_SUBPANEL_TITLE' => 'Projektas',
     //For export labels
     'LBL_PARENT_ID' => 'Parent ID',
     // SNIP
