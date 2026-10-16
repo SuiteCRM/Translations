@@ -72,7 +72,7 @@ $mod_strings = array(
     'LBL_BUTTON_BACK' => '< Back',
     'LBL_BUTTON_CANCEL' => 'Cancelar',
     'LBL_BUTTON_DELETE' => 'Delete Package',
-    'LBL_BUTTON_DONE' => 'Done',
+    'LBL_BUTTON_DONE' => 'Concluído',
     'LBL_BUTTON_EXIT' => 'Exit',
     'LBL_BUTTON_NEXT' => 'Seguinte >',
     'LBL_BUTTON_RECHECK' => 'Verificar novamente',
@@ -148,7 +148,7 @@ $mod_strings = array(
     'LBL_UW_MANUAL_MERGE' => 'Fundir ficheiros',
     'LBL_UW_MODULE_READY' => 'O módulo está pronto para ser instalado. Clique em "Aplicar" para proceder à instalação.',
     'LBL_UW_NO_INSTALLED_UPGRADES' => 'Não foi detetada qualquer atualização guardada.',
-    'LBL_UW_NONE' => 'None',
+    'LBL_UW_NONE' => 'Nenhum',
     'LBL_UW_OVERWRITE_DESC' => 'Todos os ficheiros alterados serão sobrescritos - incluindo personalizações do código ou alterações de temas e modelos. Tem a certeza de que deseja continuar?',
 
     'LBL_UW_PREFLIGHT_ADD_TASK' => 'Criar um item de tarefa para fusão manual?',
@@ -219,7 +219,7 @@ $mod_strings = array(
     'ERR_CHECKSYS_PHP_INVALID_VER' => 'Your version of PHP is not supported by SuiteCRM. You will need to install a version that is compatible with the SuiteCRM application. Please consult the Compatibility Matrix in the Release Notes for supported PHP Versions. Your version is ',
     'LBL_BACKWARD_COMPATIBILITY_ON' => 'Php Backward Compatibility mode is turned on. Set zend.ze1_compatibility_mode to Off for proceeding further',
     //including some strings from moduleinstall that are used in Upgrade
-    'LBL_ML_ACTION' => 'Action',
+    'LBL_ML_ACTION' => 'Ação',
     'LBL_ML_CANCEL' => 'Cancelar',
     'LBL_ML_COMMIT' => 'Commit',
     'LBL_ML_DESCRIPTION' => 'Descrição',
