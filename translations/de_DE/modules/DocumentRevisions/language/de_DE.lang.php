@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     //module
     'LBL_MODULE_NAME' => 'Dokumentversion',
-    'LBL_NEW_REVISION' => 'Add Revision',
+    'LBL_NEW_REVISION' => 'Revision hinzufügen',
 
     'LNK_NEW_DOCUMENT' => 'Create Document',
     'LNK_DOCUMENT_LIST' => 'Dokumente anzeigen',
@@ -55,7 +55,7 @@ $mod_strings = array(
 
     //vardef labels
     'LBL_REVISION_NAME' => 'Revision Number',
-    'LBL_FILENAME' => 'File:',
+    'LBL_FILENAME' => 'Datei:',
     'LBL_MIME' => 'Mime Type',
     'LBL_REVISION' => 'Revision',
     'LBL_DOCUMENT' => 'Related Document',
@@ -73,7 +73,7 @@ $mod_strings = array(
     'LBL_REV_LIST_ENTERED' => 'Erstellt am',
     'LBL_REV_LIST_CREATED' => 'Created by',
     'LBL_REV_LIST_LOG' => 'Änderungs-Log:',
-    'LBL_REV_LIST_FILENAME' => 'File',
+    'LBL_REV_LIST_FILENAME' => 'Datei',
 
     'LBL_CURRENT_DOC_VERSION' => 'Letzte Version:',
     'LBL_SEARCH_FORM_TITLE' => 'Document Search',
