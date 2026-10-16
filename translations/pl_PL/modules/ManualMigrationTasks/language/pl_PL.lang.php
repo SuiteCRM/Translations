@@ -37,8 +37,8 @@ $mod_strings = [
 
     // Module naming
     'LBL_LIST_FORM_TITLE' => 'Migrations List',
-    'LBL_MODULE_NAME' => 'Migrations',
-    'LBL_MODULE_TITLE' => 'Migrations',
+    'LBL_MODULE_NAME' => 'Migracje',
+    'LBL_MODULE_TITLE' => 'Migracje',
     'LBL_HOMEPAGE_TITLE' => 'My Migrations',
     'LNK_NEW_RECORD' => 'Create Migrations',
     'LNK_LIST' => 'View Migrations',
