@@ -59,11 +59,11 @@ $mod_strings = array(
     'LBL_DATE_DUE' => 'Fällig am:',
     'LBL_TIME_DUE' => 'Fällig um:',
     'LBL_PREDECESSORS' => 'Vorgänger:',
-    'LBL_DATE_START' => 'Start Date:',
+    'LBL_DATE_START' => 'Startdatum:',
     'LBL_DATE_FINISH' => 'Enddatum:',
-    'LBL_TIME_START' => 'Start Time:',
+    'LBL_TIME_START' => 'Startzeit:',
     'LBL_TIME_FINISH' => 'Endzeit:',
-    'LBL_DURATION' => 'Duration:',
+    'LBL_DURATION' => 'Dauer:',
     'LBL_DURATION_UNIT' => 'Dauer-Einheit:',
     'LBL_ACTUAL_DURATION' => 'Aktuelle Dauer:',
     'LBL_PARENT_ID' => 'Projekt:',
@@ -108,7 +108,7 @@ $mod_strings = array(
 
     'LBL_ASSIGNED_USER_NAME' => 'Assigned To',
     'LBL_PARENT_NAME' => 'Project Name',
-    'LBL_EDITLAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
+    'LBL_EDITLAYOUT' => 'Layout bearbeiten' /*for 508 compliance fix*/,
     'LBL_PANEL_TIMELINE' => 'Zeitstrahl',
 
     'LBL_SUBTASK' => 'Unter-Aufgabe',
