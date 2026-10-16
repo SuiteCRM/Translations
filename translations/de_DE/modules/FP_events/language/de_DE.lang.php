@@ -127,7 +127,7 @@ $mod_strings = array(
     'LBL_ACTIVITY_STATUS' => 'Aktivitätsstatus',
     'LBL_FP_EVENT_LOCATIONS_FP_EVENTS_1_FROM_FP_EVENTS_TITLE' => 'Veranstaltungsorte aus dem Veranstaltungstitel',
     // Email links
-    'LBL_ACCEPT_LINK' => 'Accept',
+    'LBL_ACCEPT_LINK' => 'Annehmen',
     'LBL_DECLINE_LINK' => 'Decline',
     
 );
