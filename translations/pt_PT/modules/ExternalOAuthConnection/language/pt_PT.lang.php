@@ -68,11 +68,11 @@ $mod_strings = [
 
     'LNK_LIST' => 'Ligações OAuth externas',
     'LBL_SEARCH_FORM_TITLE' => 'Pesquisar ligações OAuth externas',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Ver histórico',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Atividades',
     'LBL_NEW_FORM_TITLE' => 'Nova ligação OAuth externa',
 
-    'LBL_LIST_DELETE' => 'Delete',
+    'LBL_LIST_DELETE' => 'Eliminar',
     'LBL_TYPE' => 'Tipo',
 
     'LBL_CLIENT_ID' => 'ID de cliente',
