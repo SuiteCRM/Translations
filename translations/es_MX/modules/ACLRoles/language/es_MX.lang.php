@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Roles',
+    'LBL_MODULE_NAME' => 'Funciones',
     'LBL_MODULE_TITLE' => 'Roles : Inicio',
     'LBL_ROLE' => 'Role',
     'LBL_NAME' => 'Nombre',
@@ -51,7 +51,7 @@ $mod_strings = array(
     'LIST_ROLES' => 'List Roles',
     'LBL_USERS_SUBPANEL_TITLE' => 'Usuarios',
     'LIST_ROLES_BY_USER' => 'List Roles By User',
-    'LBL_LIST_FORM_TITLE' => 'Roles',
+    'LBL_LIST_FORM_TITLE' => 'Funciones',
     'LBL_ROLES_SUBPANEL_TITLE' => 'User Roles',
     'LBL_SEARCH_FORM_TITLE' => 'Búsqueda',
     'LBL_CREATE_ROLE' => 'Nuevo rol',
