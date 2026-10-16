@@ -352,11 +352,11 @@ $app_list_strings = array(
         600 => '10 mins',
         900 => '15 mins',
         1800 => '30 mins',
-        3600 => '1 hour',
-        7200 => '2 hours',
-        10800 => '3 hours',
+        3600 => '1 heure',
+        7200 => '2 heures',
+        10800 => '3 heures',
         18000 => '5 heures',
-        86400 => '1 day',
+        86400 => '1 jour',
     ),
 
     'task_priority_default' => 'Medium',
@@ -399,7 +399,7 @@ $app_list_strings = array(
     ),
     'lead_status_dom' => array(
         '' => '',
-        'New' => 'New',
+        'New' => 'Nouveau',
         'Assigned' => 'Attribué',
         'In Process' => 'En cours',
         'Converted' => 'Converti',
@@ -566,15 +566,15 @@ $app_list_strings = array(
         'Duplicate' => 'Dupliquer',
         'Closed' => 'Closed',
         'Out of Date' => 'Expiré',
-        'Invalid' => 'Invalid',
+        'Invalid' => 'Invalide',
     ),
 
-    'issue_status_default_key' => 'New',
+    'issue_status_default_key' => 'Nouveau',
     'issue_status_dom' => array(
-        'New' => 'New',
+        'New' => 'Nouveau',
         'Assigned' => 'Attribué',
         'Closed' => 'Closed',
-        'Pending' => 'Pending',
+        'Pending' => 'En attente',
         'Rejected' => 'Rejected',
     ),
 
@@ -592,15 +592,15 @@ $app_list_strings = array(
         'Duplicate' => 'Dupliquer',
         'Fixed' => 'Fixé',
         'Out of Date' => 'Expiré',
-        'Invalid' => 'Invalid',
+        'Invalid' => 'Invalide',
         'Later' => 'plus tard',
     ),
-    'bug_status_default_key' => 'New',
+    'bug_status_default_key' => 'Nouveau',
     'bug_status_dom' => array(
-        'New' => 'New',
+        'New' => 'Nouveau',
         'Assigned' => 'Attribué',
         'Closed' => 'Closed',
-        'Pending' => 'Pending',
+        'Pending' => 'En attente',
         'Rejected' => 'Rejected',
     ),
     'bug_type_default_key' => 'Bogue',
@@ -624,15 +624,15 @@ $app_list_strings = array(
     ),
 
     'file_field_storage_type_dom' => [
-        'private-documents' => 'Private Documents',
-        'public-documents' => 'Public Documents',
-        'archived-documents' => 'Archived Documents',
+        'private-documents' => 'Documents privés',
+        'public-documents' => 'Documents publics',
+        'archived-documents' => 'Documents archivés',
     ],
 
 
     'image_field_storage_type_dom' => [
-        'private-images' => 'Private Images',
-        'public-images' => 'Public Images',
+        'private-images' => 'Images privées',
+        'public-images' => 'Images pubiques',
     ],
 
     'product_category_default_key' => '',
@@ -787,38 +787,38 @@ $app_list_strings = array(
     ],
 
     'dom_manual_migration_tasks_types' => [
-        'background' => 'Background Process',
-        'immediate' => 'Immediate',
+        'background' => 'Processus d\'arrière-plan',
+        'immediate' => 'Immédiatement',
     ],
 
     'dom_manual_migration_tasks_statuses' => [
         'initial' => 'Initial',
-        'pending' => 'Pending',
+        'pending' => 'En attente',
         'running' => 'Exécution En cours',
         'failed' => 'Échec',
-        'completed_with_failures' => 'Completed With Failures',
+        'completed_with_failures' => 'Terminé avec des échecs',
         'completed' => 'Terminé'
     ],
 
     'dom_processes_types' => [
-        'background' => 'Background Process',
-        'immediate' => 'Immediate',
+        'background' => 'Processus d\'arrière-plan',
+        'immediate' => 'Immédiat',
     ],
 
     'dom_processes_statuses' => [
-        'initial' => 'Initial',
-        'pending' => 'Pending',
+        'initial' => 'Initiale',
+        'pending' => 'En attente',
         'running' => 'Exécution En cours',
         'failed' => 'Échec',
-        'completed_with_failures' => 'Completed With Failures',
+        'completed_with_failures' => 'Terminé avec des échecs',
         'completed' => 'Terminé'
     ],
 
     'dom_async_task_phases' => [
         '' => '',
-        'queueing' => 'Queueing',
+        'queueing' => 'Dans la file d\'attente',
         'processing' => 'En traitement',
-        'finalizing' => 'Finalizing',
+        'finalizing' => 'Finalisation',
         'completed' => 'Terminé',
     ],
 
@@ -852,7 +852,7 @@ $app_list_strings = array(
         'draft' => 'Brouillon',
         'read' => 'Lu',
         'replied' => 'Répondu',
-        'sent' => 'Sent',
+        'sent' => 'Envoyé',
         'send_error' => 'Erreurs Envoi',
         'unread' => 'Non Lu',
     ),
@@ -880,19 +880,19 @@ $app_list_strings = array(
         2 => 'Vous devez attribuer uniquement les éléments cochés lors de l\'attribution directe d\'éléments.',
     ),
     'dom_email_bool' => array(
-        'bool_true' => 'Yes',
+        'bool_true' => 'Oui',
         'bool_false' => 'Non',
     ),
     'dom_int_bool' => array(
-        1 => 'Yes',
+        1 => 'Oui',
         0 => 'Non',
     ),
     'dom_int_bool_string' => array(
-        '1' => 'Yes',
+        '1' => 'Oui',
         '0' => 'Non',
     ),
     'dom_switch_bool' => array(
-        'on' => 'Yes',
+        'on' => 'Oui',
         'off' => 'Non',
         '' => 'Non',
     ),
@@ -957,7 +957,7 @@ $app_list_strings = array(
         'FAQ' => 'FAQ',
         'Expired' => 'Expired',
         'Under Review' => 'Under Review',
-        'Pending' => 'Pending',
+        'Pending' => 'En attente',
     ),
     'document_template_type_dom' => array(
         '' => '',
@@ -1035,16 +1035,16 @@ $app_list_strings = array(
         '' => '',
         'active' => 'Actif',
         'draft' => 'Brouillon',
-        'scheduled' => 'Scheduled',
-        'pending_send' => 'Pending Send',
-        'aborted' => 'Aborted',
-        'sending' => 'Sending',
-        'sent' => 'Sent',
-        'paused' => 'Paused',
+        'scheduled' => 'Planifié',
+        'pending_send' => 'Envoi en attente',
+        'aborted' => 'Interrompu',
+        'sending' => 'Envoi en cours',
+        'sent' => 'Envoyé',
+        'paused' => 'En pause',
     ),
     'email_marketing_duplicate_dom' => [
-        'email' => 'Prevent sending to duplicate records and email addresses',
-        'record' => 'Prevent sending to duplicate records',
+        'email' => 'Empêcher l\'envoi aux enregistrements en double et aux adresses e-mail',
+        'record' => 'Empêcher l\'envoi aux enregistrements en double',
     ],
     'email_marketing_queueing_status_dom' => array(
         'not_started' => 'Pas commencé',
@@ -1052,15 +1052,15 @@ $app_list_strings = array(
         'finished' => 'Terminé',
     ),
     'email_marketing_type_dom' => array(
-        'legacy' => 'Legacy',
+        'legacy' => 'Classique',
         'marketing' => 'Marketing',
         'survey' => 'Sondage',
-        'transactional' => 'Transactional',
+        'transactional' => 'Transactionnel',
     ),
 
     'campainglog_activity_type_dom' => array(
         '' => '',
-        'targeted' => 'Sent/Attempted',
+        'targeted' => 'Envoyé/Tenté',
         'send error' => 'Message Rejeté, Autre',
         'invalid email' => 'Message Rejeté, Email Invalide',
         'link' => 'Liens Cliqués',
@@ -1086,7 +1086,7 @@ $app_list_strings = array(
     ),
 
     'custom_fields_importable_dom' => array(
-        'true' => 'Yes',
+        'true' => 'Oui',
         'false' => 'Non',
         'required' => 'Requis',
     ),
@@ -1210,7 +1210,7 @@ $app_strings = array(
     'LBL_SEARCH_PERFORMED_IN' => 'Recherche effectuée en',
     'LBL_EMAIL_CODE' => 'Code Email:',
     'LBL_SEND' => 'Envoyer',
-    'LBL_SEND_BUTTON_TITLE' => 'Send',
+    'LBL_SEND_BUTTON_TITLE' => 'Envoyer',
     'LBL_LOGOUT' => 'Déconnexion',
     'LBL_LOGOUT_SUCCESS' => 'Déconnexion réussie',
     'LBL_LOGGED_OUT_MESSAGE' => 'Vous avez été déconnecté',
@@ -1271,7 +1271,7 @@ $app_strings = array(
     'LBL_EMAIL_WARNING_MISSING_CREDS' => 'Avertissement: Identifiants manquants',
     'LBL_EMAIL_ACCOUNTS_SUBTITLE' => 'Définissez les paramètres des comptes emails que vous souhaitez visualiser dans votre CRM.',
     'LBL_EMAIL_ACCOUNTS_OUTBOUND_SUBTITLE' => 'Définissez les paramètres des serveurs SMTP disponibles pour les envois Email depuis votre CRM.',
-    'ERR_TIMEOUT' => "Forced failure on timeout",
+    'ERR_TIMEOUT' => "Échec forcé en cas de délai d'attente",
     'LBL_EMAIL_ADDRESS_BOOK_ADD' => 'Terminé',
     'LBL_EMAIL_ADDRESS_BOOK_CLEAR' => 'Effacer',
     'LBL_EMAIL_ADDRESS_BOOK_ADD_TO' => 'À:',
@@ -1397,7 +1397,7 @@ $app_strings = array(
     'LBL_EMAIL_IMPORTING_EMAIL' => 'Importer Email',
     'LBL_EMAIL_IMPORT_EMAIL' => 'Importer dans CRM',
     'LBL_EMAIL_IMPORT_SETTINGS' => 'Import',
-    'LBL_EMAIL_INVALID' => 'Invalid',
+    'LBL_EMAIL_INVALID' => 'Invalide',
     'LBL_EMAIL_LOADING' => 'Chargement...',
     'LBL_EMAIL_MARK' => 'Marquer',
     'LBL_EMAIL_MARK_FLAGGED' => '"avec Drapeau"',
@@ -1474,7 +1474,7 @@ $app_strings = array(
     'LBL_EMAIL_SAVE' => 'Sauvegarder',
     'LBL_EMAIL_SAVE_AND_REPLY' => 'Sauvegarder et Répondre',
     'LBL_EMAIL_SAVE_DRAFT' => 'Sauvegarder Brouillon',
-    'LBL_EMAIL_DRAFT_SAVED' => 'Draft has been saved.',
+    'LBL_EMAIL_DRAFT_SAVED' => 'Le brouillon a été enregistré.',
 
     'LBL_EMAIL_SEARCH' => SugarThemeRegistry::current()->getImage('Search', 'align=absmiddle border=0', null, null,    '.gif', ''),
     'LBL_EMAIL_SEARCH_SHORT' => SugarThemeRegistry::current()->getImage('Search', 'align=absmiddle border=0', null,        null, '.gif', ''),
@@ -1485,7 +1485,7 @@ $app_strings = array(
 
     'LBL_EMAIL_SELECT' => 'Select',
 
-    'LBL_EMAIL_SEND' => 'Send',
+    'LBL_EMAIL_SEND' => 'Envoyer',
     'LBL_EMAIL_SENDING_EMAIL' => 'Envoi en cours...',
 
     'LBL_EMAIL_SETTINGS' => 'Paramètres',
@@ -1539,7 +1539,7 @@ $app_strings = array(
     'LBL_EMAIL_VIEW_RAW' => 'Afficher Email Brut',
     'LBL_EMAIL_VIEW_UNSUPPORTED' => 'Cette fonctionnalité n\'est pas supportée quand vous utilisez le protocole POP3.',
     'LBL_DEFAULT_LINK_TEXT' => 'Lien texte par défaut.',
-    'LBL_EMAIL_YES' => 'Yes',
+    'LBL_EMAIL_YES' => 'Oui',
     'LBL_EMAIL_TEST_OUTBOUND_SETTINGS' => 'Envoyer Email Test',
     'LBL_EMAIL_TEST_OUTBOUND_SETTINGS_SENT' => 'Email Test Envoyé',
     'LBL_EMAIL_MESSAGE_NO' => 'Message no.',
@@ -1611,8 +1611,8 @@ $app_strings = array(
     'LBL_BY' => 'par',
     'LBL_CALLS' => 'Appels',
     'LBL_CAMPAIGNS_SEND_QUEUED' => 'Envoyer les Courriels en attente',
-    'LBL_CAMPAIGNS_SEND_NEXT_BATCH' => 'Send Next Batch of Queued Emails',
-    'LBL_SENT_NEXT_BATCH' => 'Batch sent successfully',
+    'LBL_CAMPAIGNS_SEND_NEXT_BATCH' => 'Envoyer le prochain lot d\'e-mails en file d\'attente',
+    'LBL_SENT_NEXT_BATCH' => 'Lot envoyé avec succès',
     'LBL_SUBMIT_BUTTON_LABEL' => 'Soumettre',
     'LBL_CASE' => 'Ticket',
     'LBL_CASES' => 'Tickets',
@@ -1634,7 +1634,7 @@ $app_strings = array(
     'LBL_COMPOSE_EMAIL_BUTTON_KEY' => 'L',
     'LBL_COMPOSE_EMAIL_BUTTON_LABEL' => 'Rédiger Email',
     'LBL_COMPOSE_EMAIL_BUTTON_TITLE' => 'Écrire Email',
-    'LBL_SEARCH_DROPDOWN_YES' => 'Yes',
+    'LBL_SEARCH_DROPDOWN_YES' => 'Oui',
     'LBL_SEARCH_DROPDOWN_NO' => 'Non',
     'LBL_CONTACT_LIST' => 'Liste Contact',
     'LBL_CONTACT' => 'Contact',
@@ -1657,7 +1657,7 @@ $app_strings = array(
     'LBL_DELETE_BUTTON' => 'Supprimer',
     'LBL_DELETE' => 'Supprimer',
     'LBL_DELETED' => 'Supprimé',
-    'LBL_LIMIT' => 'Limit: ',
+    'LBL_LIMIT' => 'Limite : ',
     'LBL_DIRECT_REPORTS' => 'Supérieur Immédiat',
     'LBL_DONE_BUTTON_LABEL' => 'Done',
     'LBL_DONE_BUTTON_TITLE' => 'Done',
@@ -1681,12 +1681,12 @@ $app_strings = array(
     'LBL_GO_BUTTON_LABEL' => 'Aller',
     'LBL_HIDE' => 'Masquer',
     'LBL_HISTORY' => 'Historique',
-    'LBL_NEW' => 'New',
+    'LBL_NEW' => 'Nouveau',
     'LBL_ID' => 'ID',
     'LBL_IMPORT' => 'Importer',
     'LBL_IMPORT_STARTED' => 'Import Démarré: ',
     'LBL_LAST_VIEWED' => 'Dernières Consultations',
-    'LBL_LAST_VIEWED_NO_RESULT' => 'No Recently Viewed Items',
+    'LBL_LAST_VIEWED_NO_RESULT' => 'Aucun élément récemment consulté',
     'LBL_LEADS' => 'Prospects',
     'LBL_LESS' => 'Moins',
     'LBL_CAMPAIGN' => 'Campagne:',
@@ -1695,8 +1695,8 @@ $app_strings = array(
     'LBL_CAMPAIGN_CONTACT' => 'Campagnes',
     'LBL_CAMPAIGN_ID' => 'campaign_id',
     'LBL_CAMPAIGN_NONE' => 'Aucun',
-    'LBL_CAMPAIGN_CHARTS' => 'Campaign Charts',
-    'LBL_EMAIL_MARKETING_CHARTS' => 'Email Marketing Charts',
+    'LBL_CAMPAIGN_CHARTS' => 'Graphiques de campagne',
+    'LBL_EMAIL_MARKETING_CHARTS' => 'Campagnes de Marketing par E-mail',
     'LBL_MESSAGE_QUEUE_TITLE' => 'File d\'attente Message',
     'LBL_CAMPAIGN_SEND_STATUS' => 'Campaign Send Status',
     'LBL_CAMPAIGN_SEND_ERROR_THRESHOLD_EXCEEDED' => 'Error threshold per batch (%d) reached: %s',
@@ -2010,7 +2010,7 @@ $app_strings = array(
     'NTC_DELETE_TEST_ENTRIES_CONFIRMATION' => 'Are you sure you want to delete test entries?',
     'NTC_PROCEED' => 'Would you like to proceed?',
     'NTC_UNSCHEDULE_CONFIRMATION' => 'Unscheduling will set the Status to "Draft".',
-    'NTC_UNSCHEDULE_CONFIRMATION_OTHER' => 'The Sending Process will no longer begin, unless Re-Scheduled.',
+    'NTC_UNSCHEDULE_CONFIRMATION_OTHER' => 'Le processus d\'envoi ne commencera pas, à moins qu\'il ne soit re-planifié.',
     'NTC_DELETE_CONFIRMATION_NUM' => 'Êtes-vous sûr de vouloir supprimer les ',
     'NTC_UPDATE_CONFIRMATION_NUM' => 'Voulez-vous vraiment mettre à jour les ',
     'NTC_DELETE_SELECTED_RECORDS' => ' enregistrements sélectionnés?',
@@ -2214,7 +2214,7 @@ $app_strings = array(
 
     //Collection Field
     'LBL_COLLECTION_NAME' => 'Nom',
-    'LBL_COLLECTION_PRIMARY' => 'Primary',
+    'LBL_COLLECTION_PRIMARY' => 'Principal',
     'ERROR_MISSING_COLLECTION_SELECTION' => 'Champ obligatoire vide',
 
     //MB -Fixed Bug #32812 -Max
@@ -2271,7 +2271,7 @@ $app_strings = array(
     'LBL_NOTIFICATIONS_NONE' => 'Aucune Notification',
     'ERR_NOTIFICATIONS_MARK_AS_READ' => 'Erreur lors de la tentative de marquer les notifications comme lues',
     'ERR_FIELD_LOGIC_BACKEND_CALCULATION' => 'Erreur en tentant de récupérer la valeur',
-    'LBL_FAILED_TO_UPDATE_TEMPLATE_VARIABLES' => 'Failed to update template variables',
+    'LBL_FAILED_TO_UPDATE_TEMPLATE_VARIABLES' => 'Impossible de mettre à jour les variables de modèle',
     'LBL_ALT_SORT_DESC' => 'Trié Descendant',
     'LBL_ALT_SORT_ASC' => 'Trié Ascendant',
     'LBL_ALT_SORT' => 'Sort',
@@ -2305,7 +2305,7 @@ $app_strings = array(
     'LBL_DUPLICATE_BUTTON_KEY' => 'U',
     'LBL_DUPLICATE_BUTTON_LABEL' => 'Dupliquer',
     'LBL_DUPLICATE_BUTTON_TITLE' => 'Dupliquer',
-    'LBL_DISABLE_USER_2FA' => 'Disable 2FA',
+    'LBL_DISABLE_USER_2FA' => 'Désactiver l\'A2F',
     'LBL_DELETE_BUTTON_KEY' => 'D',
     'LBL_DELETE_BUTTON_LABEL' => 'Supprimer',
     'LBL_DELETE_BUTTON_TITLE' => 'Supprimer',
@@ -2333,18 +2333,18 @@ $app_strings = array(
     'LBL_ERROR_SAVING' => 'Une erreur s\'est produite lors de l\'enregistrement des données.',
     'LBL_SAVE_BUTTON_KEY' => 'a',
     'LBL_SAVE_BUTTON_LABEL' => 'Sauvegarder',
-    'LBL_NEW_EM_SURVEY' => 'New Survey Email',
-    'LBL_NEW_EM_TRANSACTIONAL' => 'New Transactional Email',
-    'LBL_NEW_EM_MARKETING' => 'New Marketing Email',
-    'LBL_NEW_SURVEY' => 'New Survey',
-    'LBL_WEB_TO_LEAD' => 'New Web to Person Form',
+    'LBL_NEW_EM_SURVEY' => 'Nouvel e-mail de sondage',
+    'LBL_NEW_EM_TRANSACTIONAL' => 'Nouvel e-mail transactionnel',
+    'LBL_NEW_EM_MARKETING' => 'Nouvel e-mail de marketing',
+    'LBL_NEW_SURVEY' => 'Nouveau sondage',
+    'LBL_WEB_TO_LEAD' => 'Nouveau formulaire Web ',
     'LBL_TYPE' => 'Type',
     'LBL_DATE_START' => 'Date de début',
     'LBL_SEND_DATE' => 'Date Envoi',
     'LBL_SCHEDULE_BUTTON_LABEL' => 'Plan Exécution',
-    'LBL_UNABLE_TO_UNSCHEDULE' => 'Unable to unschedule as not scheduled',
+    'LBL_UNABLE_TO_UNSCHEDULE' => 'Impossible de déplanifié',
     'LBL_SAVE_BUTTON_TITLE' => 'Sauvegarder',
-    'LBL_SAVE_CONTINUE_LABEL' => 'Save And Continue',
+    'LBL_SAVE_CONTINUE_LABEL' => 'Enregistrer et continuer',
     'LBL_CANCEL_BUTTON_KEY' => 'X',
     'LBL_CANCEL_BUTTON_LABEL' => 'Annuler',
     'LBL_CANCEL_BUTTON_TITLE' => 'Annuler',
@@ -2433,8 +2433,8 @@ $app_strings = array(
     'LBL_CONFIRM_EMAIL_SENT' => 'Email Confirmation Inscription envoyé avec succès',
 
     'LBL_SEND_TEST_EMAIL' => 'Envoyer Email Test',
-    'LBL_SEND_TEST_EMAIL_DESC' => 'Please select the Email Addresses / User(s) and/or Target List(s) to send to.',
-    'LBL_EMAIL_SENT_SUCCESSFULLY' => 'Email sent successfully',
+    'LBL_SEND_TEST_EMAIL_DESC' => 'Veuillez sélectionner les adresses E-mail/utilisateur(s) et/ou les listes de cibles à envoyer.',
+    'LBL_EMAIL_SENT_SUCCESSFULLY' => 'E-mail envoyé avec succès',
     'LBL_PROSPECT_LIST_NAME' => 'Listes des Suspects',
 
     //List View Column Selector Modal
@@ -2445,13 +2445,13 @@ $app_strings = array(
     'LBL_COLUMN_SELECTOR_MODAL_TITLE' => 'Choisir les colonnes',
 
     // Two-Factor Authentication
-    'LBL_ENTER_AUTH_APP_2FA_CODE' => 'Please enter the verification code from your authenticator app',
-    'LBL_ENABLE_2FA_LABEL' => 'Enable Two-Factor Authentication',
-    'LBL_BACKUP_CODES' => 'Recovery/Backup Codes',
-    'LBL_BACKUP_CODES_INFO' => 'Backup codes are one time passcodes to use when you are unable to verify via your Authenticator app.',
-    'LBL_BACKUP_CODES_WARN' => ' WARNING: These codes are only generated once. Please copy BEFORE verifying as these will not be displayed again.',
-    'LBL_PROBLEMS_GENERATING_CODE' => 'Problems generating the code?',
-    'LBL_BACKUP_CODES_FALLBACK_INSTRUCTIONS' => 'Use one of the backup codes (it expires after being used)',
+    'LBL_ENTER_AUTH_APP_2FA_CODE' => 'Veuillez entrer le code de vérification de votre application d\'authentification',
+    'LBL_ENABLE_2FA_LABEL' => 'Activer l\'authentification à deux facteurs',
+    'LBL_BACKUP_CODES' => 'Codes de récupération/sauvegarde',
+    'LBL_BACKUP_CODES_INFO' => 'Les codes de sauvegarde sont des codes d\'accès uniques à utiliser lorsque vous ne pouvez pas vérifier via votre application Authenticator.',
+    'LBL_BACKUP_CODES_WARN' => ' AVERTISSEMENT : Ces codes ne sont générés qu\'une seule fois. Veuillez copier AVANT de vérifier qu\'ils ne seront plus affichés.',
+    'LBL_PROBLEMS_GENERATING_CODE' => 'Problèmes lors de la génération du code ?',
+    'LBL_BACKUP_CODES_FALLBACK_INSTRUCTIONS' => 'Utilisez l\'un des codes de sauvegarde (il expire après avoir été utilisé)',
     'LBL_OTP_SETUP' => 'Use a OTP (one time password) authenticator on your mobile or computer to enable 2FA (Two-Factor Authentication)',
     'LBL_QR_CODE_HELP' => "If you haven't already, please download an Authenticator Application (such as FreeOTP or Google Authenticator). Use that app to scan the QR code.",
     'LBL_USE_SECRET' => "Unable to scan the QR Code?",
@@ -2467,12 +2467,12 @@ $app_strings = array(
     'LBL_TWO_FACTOR_AUTH' => 'Two Factor Authentication',
     'LBL_TWO_FACTOR_AUTH_APP_METHOD' => 'Authenticator app',
     'LBL_TWO_FACTOR_AUTH_APP_METHOD_DESCRIPTION' => 'Use an authentication app to generate 2-factor authentication codes when prompted',
-    'LBL_ENABLE' => 'Enable',
-    'LBL_ENABLED' => 'Enabled',
-    'LBL_DISABLE' => 'Disable',
-    'LBL_GENERATED' => 'Generated',
-    'LBL_REGENERATE_CODES' => 'Regenerate',
-    'LBL_REGENERATED_BACKUP_CODES' => 'Backup Codes Regenerated'
+    'LBL_ENABLE' => 'Activer',
+    'LBL_ENABLED' => 'Activé',
+    'LBL_DISABLE' => 'Désactiver',
+    'LBL_GENERATED' => 'Généré',
+    'LBL_REGENERATE_CODES' => 'Régénérer',
+    'LBL_REGENERATED_BACKUP_CODES' => 'Codes de sauvegarde regénérés'
 
 );
 
@@ -3177,7 +3177,7 @@ $app_list_strings['eapm_list_documents'] = array(
 $app_list_strings['token_status'] = array(
     1 => 'Demande',
     2 => 'Accès',
-    3 => 'Invalid',
+    3 => 'Invalide',
 );
 
 $app_list_strings ['emailTemplates_type_list'] = array(
@@ -3242,7 +3242,7 @@ $app_list_strings['case_state_dom'] =
 $app_list_strings['case_status_default_key'] = 'Ouvrir_Nouveau';
 $app_list_strings['case_status_dom'] =
     array(
-        'Open_New' => 'New',
+        'Open_New' => 'Nouveau',
         'Open_Assigned' => 'Assigné',
         'Closed_Closed' => 'Closed',
         'Open_Pending Input' => 'Entrée en attente',
@@ -3445,7 +3445,7 @@ $app_list_strings['contract_status_list']['Signed'] = 'Signé';
 $app_list_strings['contract_type_list']['Type'] = 'Type';
 $app_strings['LBL_PRINT_AS_PDF'] = 'Imprimer PDF';
 $app_strings['LBL_SELECT_TEMPLATE'] = 'Sélectionner Modèle';
-$app_string['LBL_PDF_GENERATION_FAILED'] = 'Unable to generate PDF document. See logs for more info.';
+$app_string['LBL_PDF_GENERATION_FAILED'] = 'Impossible de générer le document PDF. Voir les logs pour plus d\'informations.';
 $app_strings['LBL_NO_TEMPLATE'] = 'ERREUR\nAucun Modèle trouvé\nVeuillez aller à la section Modèles PDF et créez en un';
 
 //aow
@@ -3467,7 +3467,7 @@ $app_list_strings['aow_operator_list']['Ends_With'] = 'Ends With';
 $app_list_strings['aow_operator_list']['is_null'] = 'Est Null';
 $app_list_strings['aow_process_status_list']['Complete'] = 'Terminée';
 $app_list_strings['aow_process_status_list']['Running'] = 'Exécution En cours';
-$app_list_strings['aow_process_status_list']['Pending'] = 'Pending';
+$app_list_strings['aow_process_status_list']['Pending'] = 'En attente';
 $app_list_strings['aow_process_status_list']['Failed'] = 'Échec';
 $app_list_strings['aow_condition_operator_list']['And'] = 'And';
 $app_list_strings['aow_condition_operator_list']['OR'] = 'OR';
@@ -3823,10 +3823,10 @@ $app_list_strings['moduleList']['OutboundEmailAccounts'] = 'Comptes Email Sortan
 $app_list_strings['moduleList']['ExternalOAuthConnection'] = 'Connexion OAuth Externe';
 $app_list_strings['moduleList']['ExternalOAuthProvider'] = 'Fournisseur OAuth externe';
 $app_list_strings['moduleList']['ManualMigrationTasks'] = 'Migrations';
-$app_list_strings['moduleList']['Processes'] = 'Processes';
-$app_list_strings['moduleList']['AsyncTaskItems'] = 'Async Task Item';
+$app_list_strings['moduleList']['Processes'] = 'Processus';
+$app_list_strings['moduleList']['AsyncTaskItems'] = 'Éléments de Tâche Asynchrone';
 
-$app_strings['LNK_USER_MENU_PROCESSES'] = 'Processes';
+$app_strings['LNK_USER_MENU_PROCESSES'] = 'Processus';
 
 //social
 $app_strings['FACEBOOK_USER_C'] = 'Facebook';
@@ -3929,7 +3929,7 @@ $app_strings['LBL_OPT_IN_PENDING_EMAIL_SENT'] = 'En attente de Confirmation Insc
 $app_strings['LBL_OPT_IN'] = 'Inscrit';
 $app_strings['LBL_OPT_IN_CONFIRMED'] = 'Inscription Confirmée';
 $app_strings['LBL_OPT_IN_OPT_OUT'] = 'Désinscrit';
-$app_strings['LBL_OPT_IN_INVALID'] = 'Invalid';
+$app_strings['LBL_OPT_IN_INVALID'] = 'Invalide';
 
 /** @see SugarEmailAddress */
 $app_list_strings['email_settings_opt_in_dom'] = array(
@@ -4028,8 +4028,8 @@ $app_strings['LBL_THERE_WAS_AN_ERR'] = 'Une erreur s\'est produite : ';
 $app_strings['LBL_CLICK_HERE'] = 'Cliquer ici';
 $app_strings['LBL_TO_CONTINUE'] = ' pour continuer.';
 $app_strings['LBL_OPT_OUT'] = 'Désinscription';
-$app_strings['LBL_INVALID_EMAIL'] = 'Invalid';
-$app_strings['LBL_PRIMARY'] = 'Primary';
+$app_strings['LBL_INVALID_EMAIL'] = 'Invalide';
+$app_strings['LBL_PRIMARY'] = 'Principal';
 $app_strings['LBL_EMAIL_ADDRESS'] = 'Adresse Email';
 
 $app_strings['IMAP_HANDLER_ERROR'] = 'ERREUR : {error}; la clé était: "{key}".';
@@ -4230,7 +4230,7 @@ $app_strings['LBL_FROM_SYSTEM'] = 'Envoyer Depuis le Système';
 $app_strings['LBL_SIGNATURE'] = 'Signature';
 $app_strings['LBL_NEW_NOTIFICATION'] = "Vous avez {{context.unread}} nouvelles notifications";
 $app_strings['LBL_ALERT_STATUS_COMPLETED'] = 'Terminé';
-$app_strings['LBL_ALERT_STATUS_COMPLETED_WITH_FAILURES'] = 'Completed With Failures';
+$app_strings['LBL_ALERT_STATUS_COMPLETED_WITH_FAILURES'] = 'Terminé avec des échecs';
 $app_strings['LBL_ALERT_STATUS_FAILED'] = 'Échec';
 $app_strings['LBL_NOTIFICATION_ITEM_DATE'] = 'Échéance : {{fields.date_start.value}}';
 $app_strings['LBL_NOTIFICATION_ITEM_DATE_ENTERED'] = 'Notifié : {{fields.snooze.value}}';
