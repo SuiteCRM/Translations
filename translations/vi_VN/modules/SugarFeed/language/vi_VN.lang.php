@@ -118,7 +118,7 @@ $mod_strings = array(
     'LBL_ADVANCED_SEARCH' => 'Bộ lọc nâng cao' /*for 508 compliance fix*/,
     'LBL_SHOW_MORE_OPTIONS' => 'Xem nhiều tùy chọn hơn',
     'LBL_HIDE_OPTIONS' => 'Hide Options',
-    'LBL_VIEW' => 'View',
+    'LBL_VIEW' => 'Xem',
     'LBL_POST_TITLE' => 'Đăng trạng thái của bạn ',
     'LBL_URL_LINK_TITLE' => 'Liên kết URL để sử dụng',
 );
