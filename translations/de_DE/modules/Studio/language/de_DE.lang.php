@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EDIT_LAYOUT' => 'Edit Layout',
+    'LBL_EDIT_LAYOUT' => 'Layout bearbeiten',
     'LBL_EDIT_FIELDS' => 'Benutzerdefinierte Felder bearbeiten',
     'LBL_SELECT_FILE' => 'Datei auswählen',
     'LBL_MODULE_TITLE' => 'Studio',
@@ -103,7 +103,7 @@ $mod_strings = array(
     'LBL_DD_ALL' => 'All',
 
 //BUTTONS
-    'LBL_BTN_SAVE' => 'Save',
+    'LBL_BTN_SAVE' => 'Speichern',
     'LBL_BTN_CANCEL' => 'Abbrechen',
     'LBL_BTN_SAVEPUBLISH' => 'Speichern & Veröffentlichen',
     'LBL_BTN_HISTORY' => 'Verlauf',
@@ -114,7 +114,7 @@ $mod_strings = array(
     'LBL_BTN_TABINDEX' => 'Reihenfolge der Reiter bearbeiten',
 
 //TABS
-    'LBL_MODULES' => 'Modules',
+    'LBL_MODULES' => 'Module',
     'LBL_MODULE_NAME' => 'Administration',
     'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
     'LBL_GROUP_TAB_WELCOME' => 'Die Filter unten werden in derWeitere" Liste im Modulmenü angezeigt. Ändern Sie diese über die Drag-and-Drop Funktion. Leere Filter werden nicht im Menü angezeigt."',
@@ -129,7 +129,7 @@ $mod_strings = array(
     'ERROR_INVALID_KEY_VALUE' => "Error: Invalid Key Value: [']",
 
 //SUGAR PORTAL
-    'LBL_SAVE' => 'Save' /*for 508 compliance fix*/,
+    'LBL_SAVE' => 'Speichern' /*for 508 compliance fix*/,
     'LBL_UNDO' => 'Undo' /*for 508 compliance fix*/,
     'LBL_REDO' => 'Redo' /*for 508 compliance fix*/,
     'LBL_INLINE' => 'Inline' /*for 508 compliance fix*/,
