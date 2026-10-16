@@ -84,7 +84,7 @@ $mod_strings = array(
     'LBL_USER_CALENDARS' => '유저일정',
     'LBL_SHARED' => 'Shared',
     'LBL_PREVIOUS_SHARED' => 'Previous',
-    'LBL_NEXT_SHARED' => 'Next',
+    'LBL_NEXT_SHARED' => '다음',
     'LBL_SHARED_CAL_TITLE' => '공유일정',
     'LBL_USERS' => '사용자',
     'LBL_REFRESH' => '갱긴',
@@ -117,10 +117,10 @@ $mod_strings = array(
     'LBL_STYLE_ADVANCED' => 'ADVANCED', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
     'LBL_NO_USER' => '필드에 연관되는게 없습니다:',
-    'LBL_SUBJECT' => 'Subject',
+    'LBL_SUBJECT' => '제목',
     'LBL_DURATION' => 'Duration',
     'LBL_STATUS' => '상태',
-    'LBL_PRIORITY' => 'Priority',
+    'LBL_PRIORITY' => '우선 순위 ',
 
     'LBL_SETTINGS_TITLE' => 'Settings',
     'LBL_SETTINGS_DISPLAY_TIMESLOTS' => '일 및 주 보기에서 시간 슬롯을 표시:',
@@ -135,7 +135,7 @@ $mod_strings = array(
     'LBL_DELETE_BUTTON' => '삭제',
     'LBL_APPLY_BUTTON' => '적용',
     'LBL_SEND_INVITES' => '초대메일송신',
-    'LBL_CANCEL_BUTTON' => 'Cancel',
+    'LBL_CANCEL_BUTTON' => '취소',
     'LBL_CLOSE_BUTTON' => '닫기',
 
     'LBL_GENERAL_TAB' => 'Details',
