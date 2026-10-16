@@ -59,7 +59,7 @@ $mod_strings = array(
     'LBL_ACCOUNT_ID' => 'Account ID',
     'LBL_ACCOUNT_NAME' => 'Account Name:',
     'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Cuentas',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Actividades',
     'LBL_BUGS_SUBPANEL_TITLE' => 'Bugs',
     'LBL_CASE_NUMBER' => 'Número:',
     'LBL_CASE' => 'Caso:',
@@ -76,8 +76,8 @@ $mod_strings = array(
     'LBL_NEW_FORM_TITLE' => 'Nuevo Caso',
     'LBL_NUMBER' => 'Number:',
     'LBL_PRIORITY' => 'Priority:',
-    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projects',
-    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documents',
+    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Proyectos',
+    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documentos',
     'LBL_RESOLUTION' => 'Resolution:',
     'LBL_SEARCH_FORM_TITLE' => 'Búsqueda de Casos',
     'LBL_STATUS' => 'Status:',
@@ -104,7 +104,7 @@ $mod_strings = array(
 
     'LBL_CREATED_USER' => 'Created User',
     'LBL_MODIFIED_USER' => 'Modified User',
-    'LBL_PROJECT_SUBPANEL_TITLE' => 'Projects',
+    'LBL_PROJECT_SUBPANEL_TITLE' => 'Proyectos',
     'LBL_CASE_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
     // SNIP

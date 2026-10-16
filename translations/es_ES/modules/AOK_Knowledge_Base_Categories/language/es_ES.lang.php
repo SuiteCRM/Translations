@@ -50,7 +50,7 @@ $mod_strings = array(
     'LBL_DATE_MODIFIED' => 'Fecha de Modificación',
     'LBL_MODIFIED' => 'Modificado Por',
     'LBL_MODIFIED_ID' => 'Modificado por Id',
-    'LBL_MODIFIED_NAME' => 'Modified By Name',
+    'LBL_MODIFIED_NAME' => 'Modificado por Name',
     'LBL_CREATED' => 'Creado Por',
     'LBL_CREATED_ID' => 'Creado Por Id',
     'LBL_DESCRIPTION' => 'Descripción',
@@ -70,7 +70,7 @@ $mod_strings = array(
     'LNK_IMPORT_AOK_KB_CATEGORIES' => 'Importar categorías de Base de Conocimiento',
     'LBL_SEARCH_FORM_TITLE' => 'Buscar KB Categories',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Actividades',
     'LBL_AOK_KB_CATEGORIES_SUBPANEL_TITLE' => 'KB Categories',
     'LBL_NEW_FORM_TITLE' => 'Nuevo KB Categories',
 );

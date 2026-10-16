@@ -52,19 +52,19 @@ $mod_strings = array(
     'LNK_NEW_CALL' => 'Agendar telefonema',
     'LNK_NEW_MEETING' => 'Schedule Meeting',
     'LNK_NEW_TASK' => 'Create Task',
-    'LNK_CALL_LIST' => 'Calls',
-    'LNK_MEETING_LIST' => 'Meetings',
-    'LNK_TASK_LIST' => 'Tasks',
-    'LNK_TASK' => 'Task',
+    'LNK_CALL_LIST' => 'Chamadas',
+    'LNK_MEETING_LIST' => 'Reuniões',
+    'LNK_TASK_LIST' => 'Tarefas',
+    'LNK_TASK' => 'Tarefa',
     'LNK_TASK_VIEW' => 'Ver tarefa',
     'LNK_EVENT' => 'Event',
     'LNK_EVENT_VIEW' => 'Ver evento',
-    'LNK_VIEW_CALENDAR' => 'Today',
+    'LNK_VIEW_CALENDAR' => 'Hoje',
     'LNK_IMPORT_CALLS' => 'Import Calls',
     'LNK_IMPORT_MEETINGS' => 'Import Meetings',
     'LNK_IMPORT_TASKS' => 'Import Tasks',
     'LBL_MONTH' => 'Month',
-    'LBL_AGENDADAY' => 'Day',
+    'LBL_AGENDADAY' => 'Dia',
     'LBL_YEAR' => 'Ano',
 
     'LBL_AGENDAWEEK' => 'Semana',
@@ -84,7 +84,7 @@ $mod_strings = array(
     'LBL_USER_CALENDARS' => 'Calendários de utilizador',
     'LBL_SHARED' => 'Shared',
     'LBL_PREVIOUS_SHARED' => 'Previous',
-    'LBL_NEXT_SHARED' => 'Next',
+    'LBL_NEXT_SHARED' => 'Seguinte',
     'LBL_SHARED_CAL_TITLE' => 'Calendário partilhado',
     'LBL_USERS' => 'Utilizadores',
     'LBL_REFRESH' => 'Atualizar',
@@ -99,8 +99,8 @@ $mod_strings = array(
     'LBL_MINS_ABBREV' => 'm',
 
 
-    'LBL_YES' => 'Yes',
-    'LBL_NO' => 'No',
+    'LBL_YES' => 'Sim',
+    'LBL_NO' => 'Não',
     'LBL_SETTINGS' => 'Settings',
     'LBL_CREATE_NEW_RECORD' => 'Criar atividade',
     'LBL_LOADING' => 'A carregar...',
@@ -117,8 +117,8 @@ $mod_strings = array(
     'LBL_STYLE_ADVANCED' => 'Avançada', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
     'LBL_NO_USER' => 'Não existe correspondência para o campo: atribuído a',
-    'LBL_SUBJECT' => 'Subject',
-    'LBL_DURATION' => 'Duration',
+    'LBL_SUBJECT' => 'Assunto',
+    'LBL_DURATION' => 'Duração',
     'LBL_STATUS' => 'Situação',
     'LBL_PRIORITY' => 'Priority',
 
@@ -131,8 +131,8 @@ $mod_strings = array(
     'LBL_SETTINGS_COMPLETED_SHOW' => 'Mostrar reuniões, telefonemas e tarefas concluídas:',
     'LBL_SETTINGS_DISPLAY_SHARED_CALENDAR_SEPARATE' => 'Calendário partilhado - separação:',
 
-    'LBL_SAVE_BUTTON' => 'Save',
-    'LBL_DELETE_BUTTON' => 'Delete',
+    'LBL_SAVE_BUTTON' => 'Guardar',
+    'LBL_DELETE_BUTTON' => 'Eliminar',
     'LBL_APPLY_BUTTON' => 'Aplicar',
     'LBL_SEND_INVITES' => 'Guardar e enviar convites',
     'LBL_CANCEL_BUTTON' => 'Cancelar',
@@ -162,10 +162,10 @@ $mod_strings = array(
     'LBL_NO_ITEMS_MOBILE' => 'O seu calendário está vazio para esta semana.',
     'LBL_GENERAL_SETTINGS' => 'Configurações gerais',
     'LBL_COLOR_SETTINGS' => 'Configuração de cores',
-    'LBL_MODULE' => 'Module',
-    'LBL_BODY' => 'Body',
+    'LBL_MODULE' => 'Módulo',
+    'LBL_BODY' => 'Corpo',
     'LBL_BORDER' => 'Contornos',
-    'LBL_TEXT' => 'Text',
+    'LBL_TEXT' => 'Texto',
 );
 
 

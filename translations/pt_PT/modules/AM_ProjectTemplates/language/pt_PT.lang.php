@@ -124,11 +124,11 @@ $mod_strings = array(
 
     'LBL_EMAIL' => 'Email',
     'LBL_PHONE' => 'Telefone de trabalho:',
-    'LBL_ADD_BUTTON' => 'Add',
+    'LBL_ADD_BUTTON' => 'Adicionar',
     'LBL_ADD_INVITEE' => 'Adicionar recurso',
     'LBL_FIRST_NAME' => 'Nome próprio',
     'LBL_LAST_NAME' => 'Apelido',
-    'LBL_SEARCH_BUTTON' => 'Search',
+    'LBL_SEARCH_BUTTON' => 'Pesquisar',
     'LBL_EMPTY_SEARCH_RESULT' => 'Desculpe, não foram encontrados resultados. Por favor, crie um convidado abaixo.',
     'LBL_CREATE_INVITEE' => 'Criar recurso',
     'LBL_CREATE_CONTACT' => 'Como contacto',
@@ -136,7 +136,7 @@ $mod_strings = array(
     'LBL_CANCEL_CREATE_INVITEE' => 'Cancelar',
     'LBL_NO_ACCESS' => 'Não tem permissões para criar $module',
     'LBL_SCHEDULING_FORM_TITLE' => 'Lista de recursos humanos',
-    'LBL_NONE' => 'None',
+    'LBL_NONE' => 'Nenhum',
     'LBL_TASKS_NOT_FOUND' => 'There are no Tasks to build the Gantt Table',
 
     'LBL_AM_PROJECTTEMPLATES_PROJECT_1_FROM_PROJECT_TITLE' => 'Modelos de projeto: Projeto a partir do título de projeto',

@@ -76,8 +76,8 @@ $mod_strings = array(
     'LBL_NEW_FORM_TITLE' => 'Naujas aptarnavimas',
     'LBL_NUMBER' => 'Number:',
     'LBL_PRIORITY' => 'Priority:',
-    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projects',
-    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documents',
+    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projektas',
+    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Dokumentai',
     'LBL_RESOLUTION' => 'Resolution:',
     'LBL_SEARCH_FORM_TITLE' => 'Aptarnavimų paieška',
     'LBL_STATUS' => 'Būsena:',
@@ -104,7 +104,7 @@ $mod_strings = array(
 
     'LBL_CREATED_USER' => 'Created User',
     'LBL_MODIFIED_USER' => 'Redagavo',
-    'LBL_PROJECT_SUBPANEL_TITLE' => 'Projects',
+    'LBL_PROJECT_SUBPANEL_TITLE' => 'Projektas',
     'LBL_CASE_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
 
     // SNIP

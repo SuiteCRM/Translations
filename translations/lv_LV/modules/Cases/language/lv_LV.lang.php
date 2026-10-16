@@ -57,7 +57,7 @@ $mod_strings = array(
     'LBL_SUGGESTION_BOX_REL' => 'Relevance',
 
     'LBL_ACCOUNT_ID' => 'Account ID',
-    'LBL_ACCOUNT_NAME' => 'Account Name:',
+    'LBL_ACCOUNT_NAME' => 'Uzņēmuma nosaukums:',
     'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Uzņēmumi',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
     'LBL_BUGS_SUBPANEL_TITLE' => 'Bugs',

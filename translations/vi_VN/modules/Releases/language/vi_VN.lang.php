@@ -63,7 +63,7 @@ $mod_strings = array(
     'release_status_dom' =>
         array(
             'Active' => 'Đang hoạt động',
-            'Inactive' => 'Inactive',
+            'Inactive' => 'Vô hiệu hóa',
         ),
     'LBL_EDITLAYOUT' => 'Sửa khung' /*for 508 compliance fix*/,
 );

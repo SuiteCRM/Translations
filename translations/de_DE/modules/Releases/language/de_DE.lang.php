@@ -65,5 +65,5 @@ $mod_strings = array(
             'Active' => 'Aktiv',
             'Inactive' => 'Inaktiv',
         ),
-    'LBL_EDITLAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
+    'LBL_EDITLAYOUT' => 'Layout bearbeiten' /*for 508 compliance fix*/,
 );

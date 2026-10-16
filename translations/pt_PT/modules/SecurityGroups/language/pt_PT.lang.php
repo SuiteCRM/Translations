@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_ALL_MODULES' => 'All',//rost fix
+    'LBL_ALL_MODULES' => 'Tudo',//rost fix
     'LBL_ASSIGNED_TO_ID' => 'ID do utilizador atribuído',
     'LBL_ASSIGNED_TO_NAME' => 'Atribuído a',
     'LBL_ID' => 'ID',
@@ -59,14 +59,14 @@ $mod_strings = array(
     'LBL_NAME' => 'Nome',
     'LBL_CREATED_USER' => 'Criado pelo utilizador',
     'LBL_MODIFIED_USER' => 'Alterado pelo utilizador',
-    'LBL_LIST_FORM_TITLE' => 'Security Groups',
+    'LBL_LIST_FORM_TITLE' => 'Grupos de segurança',
     'LBL_MODULE_NAME' => 'SecuritySuite — Gestão',
     'LBL_MODULE_TITLE' => 'SecuritySuite — Gestão',
     'LNK_NEW_RECORD' => 'Novo grupo de segurança',
     'LNK_LIST' => 'Vista em lista',
     'LBL_SEARCH_FORM_TITLE' => 'Gestão de grupos de segurança — Pesquisa',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'History',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Atividades',
     'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Grupos de segurança — Gestão',
     'LBL_USERS' => 'Utilizadores',
     'LBL_USERS_SUBPANEL_TITLE' => 'Utilizadores',
@@ -95,7 +95,7 @@ $mod_strings = array(
     'LBL_FILTER_USER_LIST_DESC' => "Os utilizadores não administradores apenas podem fazer atribuições a utilizadores nos mesmos grupos",
 
     'LBL_DEFAULT_GROUP_TITLE' => 'Grupo predefinido para novos registos',
-    'LBL_ADD_BUTTON_LABEL' => 'Add',
+    'LBL_ADD_BUTTON_LABEL' => 'Adicionar',
     'LBL_REMOVE_BUTTON_LABEL' => 'Remover',
     'LBL_GROUP' => 'Grupo:',
     'LBL_MODULE' => 'Módulo:',
@@ -111,7 +111,7 @@ $mod_strings = array(
     'LBL_USER_NAME' => 'Nome de utilizador',
     'LBL_SECURITYGROUP_NAME' => 'Nome do grupo de segurança',
     'LBL_HOMEPAGE_TITLE' => 'Mensagens do grupo',
-    'LBL_TITLE' => 'Title',
+    'LBL_TITLE' => 'Título',
     'LBL_ROWS' => 'Rows',
     'LBL_POST' => 'Publicar',
     'LBL_SELECT_GROUP_ERROR' => 'Por favor, selecione um grupo e tente novamente.',

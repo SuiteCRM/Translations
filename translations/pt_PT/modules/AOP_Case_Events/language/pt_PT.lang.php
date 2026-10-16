@@ -66,8 +66,8 @@ $mod_strings = array(
     'LNK_NEW_RECORD' => 'Criar eventos de ocorrências',
     'LNK_LIST' => 'Ver eventos de ocorrências',
     'LBL_SEARCH_FORM_TITLE' => 'Procurar eventos de ocorrências',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Ver histórico',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Atividades',
     'LBL_NEW_FORM_TITLE' => 'Novo evento de ocorrências',
-    'LBL_CASE_NAME' => 'Case',
+    'LBL_CASE_NAME' => 'Ocorrência',
 );

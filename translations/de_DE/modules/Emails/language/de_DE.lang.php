@@ -77,10 +77,10 @@ $mod_strings = array(
     'LBL_BODY' => 'Text: ',
     'LBL_BUGS_SUBPANEL_TITLE' => 'Fehler',
     'LBL_CC' => 'Cc:',
-    'LBL_COMPOSE_MODULE_NAME' => 'Compose Email',
+    'LBL_COMPOSE_MODULE_NAME' => 'E-Mail verfassen',
     'LBL_CONTACT_NAME' => 'Contact:',
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Kontakte',
-    'LBL_CREATED_BY' => 'Created by',
+    'LBL_CREATED_BY' => 'Erstellt von',
     'LBL_DATE_SENT_RECEIVED' => 'Sende-/Empfangsdatum:',
     'LBL_DATE' => 'Sendetag:',
     'LBL_DELETE_FROM_SERVER' => 'Nachricht vom Server löschen',
@@ -120,7 +120,7 @@ $mod_strings = array(
     'LBL_MODULE_NAME' => 'Alle E-Mails',
     'LBL_MODULE_TITLE' => 'E-Mails: ',
     'LBL_MY_EMAILS' => 'E-Mails',
-    'LBL_NEW_FORM_TITLE' => 'Archive Email',
+    'LBL_NEW_FORM_TITLE' => 'E-Mail archivieren',
     'LBL_NONE' => 'Kein(e)',
     'LBL_NOT_SENT' => 'Send Error',
     'LBL_NOTES_SUBPANEL_TITLE' => 'Attachments',
@@ -138,7 +138,7 @@ $mod_strings = array(
     'LBL_SENT_MODULE_NAME' => 'Sent Emails',
     'LBL_SHOW_ALT_TEXT' => 'Show Plain Text',
     'LBL_SIGNATURE' => 'Signature',
-    'LBL_SUBJECT' => 'Subject:',
+    'LBL_SUBJECT' => 'Betreff:',
     'LBL_TEXT_BODY' => 'Text Body',
     'LBL_TIME' => 'Sendezeit:',
     'LBL_TO_ADDRS' => 'To',
@@ -153,16 +153,16 @@ $mod_strings = array(
     'LNK_NEW_EMAIL_TEMPLATE' => 'Create Email Template',
     'LNK_NEW_EMAIL' => 'Send Email',
     'LNK_NEW_MEETING' => 'Besprechung planen',
-    'LNK_NEW_NOTE' => 'Create Note or Attachment',
+    'LNK_NEW_NOTE' => 'Notiz oder Anhang erstellen',
     'LNK_NEW_SEND_EMAIL' => 'Erstellen',
-    'LNK_NEW_TASK' => 'Create Task',
+    'LNK_NEW_TASK' => 'Aufgabe erstellen',
     'LNK_NOTE_LIST' => 'Notizen',
     'LNK_SENT_EMAIL_LIST' => 'Sent Emails',
     'LNK_TASK_LIST' => 'Aufgaben',
     'LNK_VIEW_CALENDAR' => 'Heute',
 
     'LBL_LIST_ASSIGNED' => 'Zugewiesen',
-    'LBL_LIST_CONTACT_NAME' => 'Contact Name',
+    'LBL_LIST_CONTACT_NAME' => 'Kontakt',
     'LBL_LIST_DATE' => 'Sendungsdatum',
     'LBL_LIST_DATE_SENT_RECEIVED' => 'Sende-/Empfangsdatum',
     'LBL_LIST_FORM_DRAFTS_TITLE' => 'Entwurf',
@@ -171,7 +171,7 @@ $mod_strings = array(
     'LBL_LIST_FROM_ADDR' => 'From',
     //'LBL_LIST_RELATED_TO' => 'Recipient Type' (previous value)
     'LBL_LIST_RELATED_TO' => 'Related To',
-    'LBL_LIST_SUBJECT' => 'Subject',
+    'LBL_LIST_SUBJECT' => 'Betreff',
     'LBL_LIST_TO_ADDR' => 'To',
     'LBL_LIST_TYPE' => 'Typ',
 
@@ -214,9 +214,9 @@ $mod_strings = array(
     'LBL_BUTTON_GRAB' => 'Take from Group',
     'LBL_CREATE_BUG' => 'Create Bug',
     'LBL_CREATE_CASE' => 'Fall erstellen',
-    'LBL_CREATE_CONTACT' => 'Create Contact',
-    'LBL_CREATE_LEAD' => 'Create Lead',
-    'LBL_CREATE_TASK' => 'Create Task',
+    'LBL_CREATE_CONTACT' => 'Kontakt erstellen',
+    'LBL_CREATE_LEAD' => 'Lead erstellen',
+    'LBL_CREATE_TASK' => 'Aufgabe erstellen',
     'LBL_DIST_TITLE' => 'Assignment',
     'LBL_LOCK_FAIL_DESC' => 'Das gewählte Element ist momentan nicht verfügbar.',
     'LBL_LOCK_FAIL_USER' => 'hat es sich zugewiesen.',
@@ -257,12 +257,12 @@ $mod_strings = array(
     // advanced search
     'LBL_ASSIGNED_TO' => 'Zugewiesen an:',
     'LBL_MEMBER_OF' => 'Vorläufer',
-    'LBL_QUICK_CREATE' => 'Quick Create',
+    'LBL_QUICK_CREATE' => 'Schnellmenü',
     'LBL_CREATE' => 'Erstellen',
     'LBL_STATUS' => 'E-Mail-Status:',
     'LBL_EMAIL_FLAGGED' => 'Markiert:',
     'LBL_EMAIL_REPLY_TO_STATUS' => 'Antwort an Status:',
-    'LBL_TYPE' => 'Type:',
+    'LBL_TYPE' => 'Typ:',
     //#20680 EmialTemplate Ext.Message.show;
     'LBL_EMAILTEMPLATE_MESSAGE_SHOW_TITLE' => 'Bitte überprüfen Sie!',
     'LBL_EMAILTEMPLATE_MESSAGE_SHOW_MSG' => 'Wenn Sie diese Vorlage auswählen, werden alle bereits eingegebenen Daten in der E-Mail überschrieben. Wollen Sie fortfahren?',
@@ -328,7 +328,7 @@ $mod_strings = array(
     'LBL_EXCHANGE_SMTPPORT' => 'Exchange Server Port:',
     'LBL_EXCHANGE_SMTPSERVER' => 'Exchange Server:',
 
-    'LBL_EDIT_LAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
+    'LBL_EDIT_LAYOUT' => 'Layout bearbeiten' /*for 508 compliance fix*/,
     'LBL_ATTACHMENT' => 'Anlage' /*for 508 compliance fix*/,
     'LBL_DELETE_INLINE' => 'Löschen' /*for 508 compliance fix*/,
     'LBL_CREATE_CASES' => 'Fälle erstellen' /*for 508 compliance fix*/,
@@ -341,7 +341,7 @@ $mod_strings = array(
     'LBL_HELP' => 'Help' /*for 508 compliance fix*/,
     'LBL_WAIT' => 'Warte' /*for 508 compliance fix*/,
     'LBL_CHECKEMAIL' => 'E-Mail überprüfen' /*for 508 compliance fix*/,
-    'LBL_COMPOSEEMAIL' => 'Compose Email' /*for 508 compliance fix*/,
+    'LBL_COMPOSEEMAIL' => 'E-Mail verfassen' /*for 508 compliance fix*/,
     'LBL_EMAILSETTINGS' => 'Email Settings' /*for 508 compliance fix*/,
 
     // SNIP
@@ -365,7 +365,7 @@ $mod_strings = array(
     'LBL_CONFIRM_APPLY_EMAIL_TEMPLATE_BODY' => 'Dieser Vorgang überschreibt den Nachrichtentext und den Betrefftext, möchten Sie fortfahren?',
 
     'LBL_MAILBOX_ID' => 'Postfach-ID',
-    'LBL_PARENT_ID' => 'Parent ID',
+    'LBL_PARENT_ID' => 'Eltern-ID',
     'LBL_LAST_SYNCED' => 'Zuletzt synchronisiert',
     'LBL_ORPHANED' => 'Verwaist',
     'LBL_IMAP_KEYWORDS' => 'IMAP-Schlüsselwörter',
@@ -383,7 +383,7 @@ $mod_strings = array(
 
     'ERR_NO_RETURN_ID' => 'Anhang nicht gefunden.',
 
-    'LBL_LIST_DATE_MODIFIED' => 'Last Modified',
+    'LBL_LIST_DATE_MODIFIED' => 'Zuletzt geändert am',
     'LNK_IMPORT_CAMPAIGNS' => 'Kampagne importieren',
 
     // Email Validation Error messages. Typicaly for Email Validation:

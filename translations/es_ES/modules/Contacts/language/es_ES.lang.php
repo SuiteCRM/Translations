@@ -47,7 +47,7 @@ $mod_strings = array(
     'LBL_ACCOUNT_ID' => 'ID de Cuenta:',
     'LBL_ACCOUNT_NAME' => 'Account Name:',
     'LBL_CAMPAIGN' => 'Campaign:',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Actividades',
     'LBL_ADDRESS_INFORMATION' => 'Información de Dirección',
     'LBL_ALT_ADDRESS_CITY' => 'Ciudad de dirección alternativa:',
     'LBL_ALT_ADDRESS_COUNTRY' => 'País de dirección alternativa:',
@@ -173,13 +173,13 @@ $mod_strings = array(
 
     'LBL_LEADS_SUBPANEL_TITLE' => 'Leads',
     'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Opportunities',
-    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documents',
+    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documentos',
     'LBL_COPY_ADDRESS_CHECKED_PRIMARY' => 'Copiar dirección principal',
     'LBL_COPY_ADDRESS_CHECKED_ALT' => 'Copiar otra dirección',
 
     'LBL_CASES_SUBPANEL_TITLE' => 'Casos',
     'LBL_BUGS_SUBPANEL_TITLE' => 'Bugs',
-    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projects',
+    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Proyectos',
     'LBL_PROJECTS_RESOURCES' => 'Proyectos de recursos',
     'LBL_CAMPAIGNS' => 'Campaigns',
     'LBL_CAMPAIGN_LIST_SUBPANEL_TITLE' => 'Campaigns',
@@ -189,7 +189,7 @@ $mod_strings = array(
     'LBL_OPPORTUNITIES' => 'Opportunities',
 
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contactos',
-    'LBL_PROJECT_SUBPANEL_TITLE' => 'Projects',
+    'LBL_PROJECT_SUBPANEL_TITLE' => 'Proyectos',
     'LNK_IMPORT_CONTACTS' => 'Importar Contactos',
 
     // SNIP

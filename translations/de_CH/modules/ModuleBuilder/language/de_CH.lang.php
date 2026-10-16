@@ -111,7 +111,7 @@ $mod_strings = array(
         'listViewEditor' => array(
             'modify' => 'Auf der linken Seite werden drei Spalten angezeigt. Die SpalteStandard" enthält Standardfelder der Listenansicht, die SpalteVerfügbar" enthält Felder, mit denen Benutzer eine personalisierte Listenansicht erstellen können, die SpalteVersteckt" enthält Felder, die für Sie als Administrator verfügbar sind, um sie entweder zur SpalteStandard"oderVerfügbar" hinzuzufügen.".'
         ,
-            'savebtn' => 'Click <b>Save & Deploy</b> to save changes you made and to make them active within the module.',
+            'savebtn' => 'Klicken Sie auf <b>Speichern & Einspielen</b>, um Ihre Änderungen zu speichern und sie innerhalb des Moduls zu aktivieren.',
             'historyBtn' => 'Klicken Sie auf <b>Verlauf ansehen</b>, um ein zuvor gespeichertes Layout anzusehen und gegebenenfalls rückzusichern.<br><br><b>Wiederherstellen</b> in <b>Verlauf ansehen</b> stellt die Platzierung der Felder wie in einem früher gesicherten Layout wieder her. Um die Feldbezeichnungen zu ändern, klicken Sie auf das Bearbeiten Symbol neben jedem Feld.',
             'historyDefault' => 'Klicken Sie <b>Standard wiederherstellen</b>, um das ursprüngliche Layout wiederherzustellen.<br><br><b>Standard wiederherstellen</b> stellt die Situation wie VOR Ihrem ersten Eingriff wieder her. Um die Feldbezeichnungen zu ändern, klicken Sie auf das Bearbeiten Symbol neben jedem Feld.',
             'Hidden' => '<b>Versteckte</b> Felder, für Benutzer nicht Sichtbar',
@@ -121,9 +121,9 @@ $mod_strings = array(
         'popupListViewEditor' => array(
             'modify' => 'Alle Felder, die in der <b>Listenansicht</b> angezeigt werden können, erscheinen hier.<br><br>Die <b>Standard</b> Spalte enthält die Felder, die als Standard in der Listenansicht angezeigt werden<br/><br/>Die <b>Verborgen</b> Spalte enthält jene Felder, die zu den Standard oder Verfügbar Spalten hinzugefügt werden können.'
         ,
-            'savebtn' => 'Click <b>Save & Deploy</b> to save changes you made and to make them active within the module.',
-            'historyBtn' => 'Click <b>View History</b> to view and restore a previously saved layout from the history.<br><br><b>Restore</b> within <b>View History</b> restores the field placement within previously saved layouts. To change field labels, click the Edit icon next to each field.',
-            'historyDefault' => 'Click <b>Restore Default</b> to restore a view to its original layout.<br><br><b>Restore Default</b> only restores the field placement within the original layout. To change field labels, click the Edit icon next to each field.',
+            'savebtn' => 'Klicken Sie auf <b>Speichern & Einspielen</b>, um Ihre Änderungen zu speichern und sie innerhalb des Moduls zu aktivieren.',
+            'historyBtn' => 'Klicken Sie auf <b>Verlauf ansehen</b>, um ein zuvor gespeichertes Layout anzusehen und gegebenenfalls rückzusichern.<br><br><b>Wiederherstellen</b> in <b>Verlauf ansehen</b> stellt die Platzierung der Felder wie in einem früher gesicherten Layout wieder her. Um die Feldbezeichnungen zu ändern, klicken Sie auf das Bearbeiten Symbol neben jedem Feld.',
+            'historyDefault' => 'Klicken Sie <b>Standard wiederherstellen</b>, um das ursprüngliche Layout wiederherzustellen.<br><br><b>Standard wiederherstellen</b> stellt die Situation wie VOR Ihrem ersten Eingriff wieder her. Um die Feldbezeichnungen zu ändern, klicken Sie auf das Bearbeiten Symbol neben jedem Feld.',
             'Hidden' => '<b>Hidden</b> fields not currently available for users to see in ListViews.',
             'Default' => '<b>Default</b> fields appear in ListViews that are not customized by users.'
         ),
@@ -132,8 +132,8 @@ $mod_strings = array(
         ,
             'savebtn' => 'Klicken auf <b>Speichern & Einspielen</b> speichert alle Änderungen und aktiviert sie',
             'Hidden' => '<b>Verborgene</b> Felder erscheinen nicht in der Suche.',
-            'historyBtn' => 'Click <b>View History</b> to view and restore a previously saved layout from the history.<br><br><b>Restore</b> within <b>View History</b> restores the field placement within previously saved layouts. To change field labels, click the Edit icon next to each field.',
-            'historyDefault' => 'Click <b>Restore Default</b> to restore a view to its original layout.<br><br><b>Restore Default</b> only restores the field placement within the original layout. To change field labels, click the Edit icon next to each field.',
+            'historyBtn' => 'Klicken Sie auf <b>Verlauf ansehen</b>, um ein zuvor gespeichertes Layout anzusehen und gegebenenfalls rückzusichern.<br><br><b>Wiederherstellen</b> in <b>Verlauf ansehen</b> stellt die Platzierung der Felder wie in einem früher gesicherten Layout wieder her. Um die Feldbezeichnungen zu ändern, klicken Sie auf das Bearbeiten Symbol neben jedem Feld.',
+            'historyDefault' => 'Klicken Sie <b>Standard wiederherstellen</b>, um das ursprüngliche Layout wiederherzustellen.<br><br><b>Standard wiederherstellen</b> stellt die Situation wie VOR Ihrem ersten Eingriff wieder her. Um die Feldbezeichnungen zu ändern, klicken Sie auf das Bearbeiten Symbol neben jedem Feld.',
             'Default' => '<b>Standardfelder</b> werden in der Suche angezeigt.'
         ),
         'layoutEditor' => array(
@@ -142,8 +142,8 @@ $mod_strings = array(
             //this default will be used for edit view
             'default' => 'Auf der linken Seite werden zwei Spalten angezeigt. In der rechten Spalte, Layout bzw. Layoutvorschau genannt, ändern Sie das Layout des Moduls. Die linke Spalte, Toolbox genannt, enthält nützliche Elemente und Werkzeuge für das Bearbeiten des Moduls.<br/><br/>Wenn die Arbeitsfläche Aktuelles Layout anzeigt, dann arbeiten Sie mit einer vom Model erstellten Kopie des Layouts.<br/><br/>Wird Layout Vorschau angezeigt, arbeiten Sie mit einer durch Klick auf Speichern erstellten Kopie, die unter Umständen nicht mehr der aktuell von Benutzern verwendeten Version entspricht.',
             'saveBtn' => 'Wenn Sie auf diese Schaltfläche drücken, wird das Layout gespeichert und Ihre Änderungen gesichert. Wenn Sie später weiterarbeiten, beginnen Sie an dieser Stelle. Allerdings wird Ihr Layout nicht von anderen gesehen, bevor Sie auf “Speichern und Veröffentlichen“ drücken.',
-            'historyBtn' => 'Click <b>View History</b> to view and restore a previously saved layout from the history.<br><br><b>Restore</b> within <b>View History</b> restores the field placement within previously saved layouts. To change field labels, click the Edit icon next to each field.',
-            'historyDefault' => 'Click <b>Restore Default</b> to restore a view to its original layout.<br><br><b>Restore Default</b> only restores the field placement within the original layout. To change field labels, click the Edit icon next to each field.',
+            'historyBtn' => 'Klicken Sie auf <b>Verlauf ansehen</b>, um ein zuvor gespeichertes Layout anzusehen und gegebenenfalls rückzusichern.<br><br><b>Wiederherstellen</b> in <b>Verlauf ansehen</b> stellt die Platzierung der Felder wie in einem früher gesicherten Layout wieder her. Um die Feldbezeichnungen zu ändern, klicken Sie auf das Bearbeiten Symbol neben jedem Feld.',
+            'historyDefault' => 'Klicken Sie <b>Standard wiederherstellen</b>, um das ursprüngliche Layout wiederherzustellen.<br><br><b>Standard wiederherstellen</b> stellt die Situation wie VOR Ihrem ersten Eingriff wieder her. Um die Feldbezeichnungen zu ändern, klicken Sie auf das Bearbeiten Symbol neben jedem Feld.',
             'publishBtn' => 'Klicken Sie auf diese Schaltfläche, um das Layout einzuspielen. Das Layout wird sofort für andere Benutzer verfügbar.',
             'toolbox' => 'Die Toolbox enthält viele nützliche Funktionen zur Bearbeitung von Layouts – einen Papierkorb, zusätzliche Elemente sowie alle verfügbaren Felder. Alle können mit der Drag-and-Drop-Funktion bearbeitet werden.',
             'panels' => 'Diese Ansicht zeigt, wie Ihr Layout nach der Anwendung für den Benutzer angezeigt wird.<br/><br/>Sie können Elemente wie z.B. Felder oder Zeilen per Drag-and-Drop Funktion positionieren"',
@@ -286,7 +286,7 @@ Sie können die Module durch ziehen ihre Zeilen in der Tabelle nachbestellen. <b
             'panels' => 'Diese Ansicht zeigt, wie Ihr Layout nach der Anwendung für den Benutzer angezeigt wird.<br/><br/>Sie können Elemente wie z.B. Felder oder Zeilen per Drag-and-Drop Funktion positionieren.'
         ),
         'dropdownEditor' => array(
-            'default' => 'There are two columns displayed to the left. The right-hand column, labeled Current Layout or Layout Preview, is where you change the module layout. The left-hand column, entitled Toolbox, contains useful elements and tools for use when editing the layout. <br/><br/>If the layout area is titled Current Layout then you are working on a copy of the layout currently used by the module for display.<br/><br/>If it is titled Layout Preview then you are working on a copy created earlier by a click on the Save button, that might have already been changed from the version seen by users of this module.',
+            'default' => 'Auf der linken Seite werden zwei Spalten angezeigt. In der rechten Spalte, Layout bzw. Layoutvorschau genannt, ändern Sie das Layout des Moduls. Die linke Spalte, Toolbox genannt, enthält nützliche Elemente und Werkzeuge für das Bearbeiten des Moduls. <br/><br/>Wenn die Arbeitsfläche “Aktuelles Layout“ anzeigt, dann arbeiten Sie mit einer vom Model erstellten Kopie des Layouts.<br/><br/>Wird “Layout Vorschau“ angezeigt, arbeiten Sie mit einer durch Klick auf “”Speichern”” erstellten Kopie, die unter Umständen nicht mehr der aktuell von Benutzern verwendeten Version entspricht.',
             'dropdownaddbtn' => 'Das Klicken auf diese Schaltfläche fügt einen neuen Eintrag zum Auswahlmenü hinzu.',
 
         ),
@@ -350,7 +350,7 @@ Sie können die Module durch ziehen ihre Zeilen in der Tabelle nachbestellen. <b
     'LBL_DETAILVIEW' => 'Detail View',
     'LBL_DROP_HERE' => '[Hierher ziehen]',
     'LBL_EDIT' => 'Bearbeiten',
-    'LBL_EDIT_LAYOUT' => 'Edit Layout',
+    'LBL_EDIT_LAYOUT' => 'Layout bearbeiten',
     'LBL_EDIT_FIELDS' => 'Felder bearbeiten',
     'LBL_EDITVIEW' => 'Bearbeite Ansicht?',
     'LBL_FILLER' => '(filler)',
@@ -533,7 +533,7 @@ Sie können die Module durch ziehen ihre Zeilen in der Tabelle nachbestellen. <b
     'LBL_LABEL_TITLE' => 'Label',
     'LBL_WIDTH' => 'Width',
     'LBL_PACKAGE' => 'Paket:',
-    'LBL_TYPE' => 'Type:',
+    'LBL_TYPE' => 'Typ:',
     'LBL_NAV_TAB' => 'Navigations Tab',
     'LBL_CREATE' => 'Erstellen',
     'LBL_LIST' => 'List',

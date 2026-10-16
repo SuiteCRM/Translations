@@ -89,13 +89,13 @@ $mod_strings = array(
     'NTC_DELETE_CONFIRMATION' => '¿Está seguro de que desea quitar este contacto de esta incidencia?',
 
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Seguimiento de Incidencias',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Actividades',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Historial',
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contactos',
     'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Cuentas',
     'LBL_CASES_SUBPANEL_TITLE' => 'Casos',
-    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projects',
-    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documents',
+    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Proyectos',
+    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documentos',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Assigned User',
     'LBL_ASSIGNED_TO_NAME' => 'Asignado a',
 

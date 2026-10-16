@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     //module
-    'LBL_MODULE_NAME' => 'Documents',
+    'LBL_MODULE_NAME' => 'Documentos',
     'LBL_MODULE_TITLE' => 'Documents: Home',
     'LNK_NEW_DOCUMENT' => 'Create Document',
     'LNK_DOCUMENT_LIST' => 'Ver documentos',
@@ -145,9 +145,9 @@ $mod_strings = array(
     'LBL_LIST_IS_TEMPLATE' => 'Modelo?',
     'LBL_LIST_TEMPLATE_TYPE' => 'Tipo de documento',
     'LBL_LAST_REV_CREATE_DATE' => 'Data de criação da última revisão',
-    'LBL_CONTRACTS' => 'Contracts',
+    'LBL_CONTRACTS' => 'Contratos',
     'LBL_CREATED_USER' => 'Created User',
-    'LBL_DOCUMENT_INFORMATION' => 'OVERVIEW', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
+    'LBL_DOCUMENT_INFORMATION' => 'Visão geral', //No need to be translated in all caps. Translation used just in menu action items when using the SuiteP template
     'LBL_DOC_ID' => 'Document Source ID',
     'LBL_DOC_TYPE' => 'Source',
     'LBL_DOC_TYPE_POPUP' => 'Selecione um destino para onde este documento será enviado <br> e no qual ficará disponível.',
@@ -160,10 +160,10 @@ $mod_strings = array(
 
     // Links around the world
     'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Contas',
-    'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contacts',
-    'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Opportunities',
-    'LBL_CASES_SUBPANEL_TITLE' => 'Cases',
-    'LBL_BUGS_SUBPANEL_TITLE' => 'Bugs',
+    'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contactos',
+    'LBL_OPPORTUNITIES_SUBPANEL_TITLE' => 'Oportunidades',
+    'LBL_CASES_SUBPANEL_TITLE' => 'Ocorrências',
+    'LBL_BUGS_SUBPANEL_TITLE' => 'Anomalias',
 
-    'LBL_AOS_CONTRACTS' => 'Contracts',
+    'LBL_AOS_CONTRACTS' => 'Contratos',
 );

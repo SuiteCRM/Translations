@@ -115,7 +115,7 @@ $mod_strings = array(
 
 //TABS
     'LBL_MODULES' => 'Modules',
-    'LBL_MODULE_NAME' => 'Administration',
+    'LBL_MODULE_NAME' => 'Administración',
     'LBL_CONFIGURE_GROUP_TABS' => 'Configurar el módulo del menú filtros',
     'LBL_GROUP_TAB_WELCOME' => 'Las siguientes pestañas y grupos de subpestañas serán mostradas a los usuarios que elijan ver módulos agrupados en la barra de navegación. Arrastre y suelte módulos a las cajas con pestañas para configurar qué subpestañas deben aparecer bajo qué pestañas. Los grupos de pestañas vacíos no serán mostrados en la barra de navegación',
     'LBL_RENAME_TAB_WELCOME' => 'Haga click en el valor de visualización de cualquier pestaña de la siguiente tabla para renombrar la pestaña',

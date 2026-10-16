@@ -43,11 +43,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Target Lists',
-    'LBL_MODULE_ID' => 'Target Lists',
+    'LBL_MODULE_NAME' => 'Liste des cibles',
+    'LBL_MODULE_ID' => 'Liste des cibles',
     'LBL_MODULE_TITLE' => 'Liste de Cibles : Accueil',
     'LBL_SEARCH_FORM_TITLE' => 'Rechercher une Liste de Cibles',
-    'LBL_LIST_FORM_TITLE' => 'Target Lists',
+    'LBL_LIST_FORM_TITLE' => 'Liste des cibles',
     'LBL_PROSPECT_LIST_NAME' => 'Liste des cibles :',
     'LBL_NAME' => 'Nom',
     'LBL_ENTRIES' => 'Nb d&#39;inscriptions',
@@ -61,7 +61,7 @@ $mod_strings = array(
     'LBL_DATE_MODIFIED' => 'Date de modification',
     'LBL_MODIFIED' => 'Modified by',
     'LBL_CREATED' => 'Created by',
-    'LBL_ASSIGNED_TO' => 'Assigned to',
+    'LBL_ASSIGNED_TO' => 'Assigné à',
     'LBL_DESCRIPTION' => 'Description',
     'LNK_NEW_CAMPAIGN' => 'Create Campaign',
     'LNK_CAMPAIGN_LIST' => 'Campagnes',

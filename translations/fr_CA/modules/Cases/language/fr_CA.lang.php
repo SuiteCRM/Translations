@@ -52,7 +52,7 @@ $mod_strings = array(
     'LBL_SUGGESTION_BOX' => 'Suggestions',
     'LBL_NO_SUGGESTIONS' => 'Aucune Suggestion',
     'LBL_RESOLUTION_BUTTON' => 'Solution',
-    'LBL_SUGGESTION_BOX_STATUS' => 'Status',
+    'LBL_SUGGESTION_BOX_STATUS' => 'Etat',
     'LBL_SUGGESTION_BOX_TITLE' => 'Titre',
     'LBL_SUGGESTION_BOX_REL' => 'Pertinence',
 
@@ -91,7 +91,7 @@ $mod_strings = array(
     'LBL_LIST_MY_CASES' => 'Mes Tickets Ouverts',
     'LBL_LIST_NUMBER' => 'Num.',
     'LBL_LIST_PRIORITY' => 'Priority',
-    'LBL_LIST_STATUS' => 'Status',
+    'LBL_LIST_STATUS' => 'Etat',
     'LBL_LIST_SUBJECT' => 'Sujet',
 
     'LNK_CASE_LIST' => 'Voir Tickets',

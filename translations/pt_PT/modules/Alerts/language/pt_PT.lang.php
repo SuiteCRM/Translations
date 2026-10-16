@@ -66,8 +66,8 @@ $mod_strings = array(
     'LNK_NEW_RECORD' => 'Criar aviso',
     'LNK_LIST' => 'Ver alerta',
     'LBL_SEARCH_FORM_TITLE' => 'Pesquisar alertas',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Ver histórico',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Atividades',
     'LBL_NEW_FORM_TITLE' => 'Novo alerta',
     'LBL_IS_READ' => 'Foi lido',
 

@@ -93,7 +93,7 @@ $mod_strings = array(
     'LBL_RELATED' => 'Liên quan',
     'LBL_MORE_INFO' => 'Thông tin thêm',
 
-    'LBL_CAMPAIGNS' => 'Campaigns',
+    'LBL_CAMPAIGNS' => 'Chiến dịch',
     'LBL_LIST_MARKETING_NAME' => 'Marketing Id',
 
     'LBL_MARKETING_ID' => 'Marketing Id',

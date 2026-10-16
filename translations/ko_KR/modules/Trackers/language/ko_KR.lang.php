@@ -47,7 +47,7 @@ $mod_strings = array(
     'action' => 'Action',
     'date_modified' => 'Date of Last Action',
     'item_id' => 'ID',
-    'item_summary' => 'Name',
+    'item_summary' => '제품명',
     'module_name' => 'Module Name',
     'users' => '사용자',
 

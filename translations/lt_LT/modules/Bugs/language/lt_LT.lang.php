@@ -94,8 +94,8 @@ $mod_strings = array(
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Kliento kontaktai',
     'LBL_ACCOUNTS_SUBPANEL_TITLE' => 'Naudotojai',
     'LBL_CASES_SUBPANEL_TITLE' => 'Aptarnavimai',
-    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projects',
-    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Documents',
+    'LBL_PROJECTS_SUBPANEL_TITLE' => 'Projektas',
+    'LBL_DOCUMENTS_SUBPANEL_TITLE' => 'Dokumentai',
     'LBL_LIST_ASSIGNED_TO_NAME' => 'Atsakingas',
     'LBL_ASSIGNED_TO_NAME' => 'Priskirtas',
 

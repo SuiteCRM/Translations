@@ -83,7 +83,7 @@ $mod_strings = array(
     'LNK_SENT_EMAIL_LIST' => 'Emails Envoyés',
     'LNK_VIEW_CALENDAR' => 'Aujourd’hui',
     // for Inbox
-    'LBL_NEW' => 'New',
+    'LBL_NEW' => 'Nouveau',
     'LNK_MY_DRAFTS' => 'Mes Brouillons',
     'LNK_MY_INBOX' => 'Mes Emails',
     'LBL_TEXT_ONLY' => 'Texte seulement',

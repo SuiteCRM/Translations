@@ -119,7 +119,7 @@ $mod_strings = array(
     'LNK_MEETING_LIST' => 'Spotkania',
     'LNK_NEW_APPOINTMENT' => 'Create Appointment',
     'LNK_NEW_MEETING' => 'Zaplanuj spotkanie',
-    'LNK_IMPORT_MEETINGS' => 'Import Meetings',
+    'LNK_IMPORT_MEETINGS' => 'Importuj spotkania',
 
     'LBL_CREATED_USER' => 'Created User',
     'LBL_MODIFIED_USER' => 'Modified User',

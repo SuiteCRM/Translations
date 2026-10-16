@@ -342,7 +342,7 @@ $app_list_strings = array(
         'WebEx' => 'WebEx',
     ),
     'meeting_type_dom' => array(
-        'Other' => 'Other',
+        'Other' => '기타',
         'Sugar' => 'SuiteCRM',
     ),
     'call_status_default' => 'Planned',
@@ -432,7 +432,7 @@ $app_list_strings = array(
     'activity_status_type_dom' => array(
         '' => '-없음-',
         'active' => '활성',
-        'inactive' => 'Inactive',
+        'inactive' => '비활성',
     ),
 
     // Note:  do not translate record_type_default_key
@@ -442,7 +442,7 @@ $app_list_strings = array(
         '' => '',
         'Accounts' => '거래처',
         'Opportunities' => '영업기회',
-        'Cases' => 'Case',
+        'Cases' => '케이스',
         'Leads' => '잠재고객',
         'Contacts' => '연락처', // cn (11/22/2005) added to support Emails
 
@@ -568,7 +568,7 @@ $app_list_strings = array(
         'Feature' => '기능',
     ),
     'case_type_dom' => array(
-        'Administration' => 'Administration',
+        'Administration' => '관리',
         'Product' => '제품',
         'User' => '사용자',
     ),
@@ -1164,7 +1164,7 @@ $app_strings = array(
     'LBL_EMAIL_ADDRESS_BOOK_ADRRESS_TYPE' => '받는 사람/참조/숨은 참조',
     'LBL_EMAIL_ADDRESS_BOOK_EMAIL_ADDR' => '이메일 주소',
     'LBL_EMAIL_ADDRESS_BOOK_FILTER' => '필터',
-    'LBL_EMAIL_ADDRESS_BOOK_NAME' => 'Name',
+    'LBL_EMAIL_ADDRESS_BOOK_NAME' => '제품명',
     'LBL_EMAIL_ADDRESS_BOOK_NOT_FOUND' => '주소 없음',
     'LBL_EMAIL_ADDRESS_BOOK_SAVE_AND_ADD' => '주소록에 저장/추가',
     'LBL_EMAIL_ADDRESS_BOOK_SELECT_TITLE' => '메일 받는 사람 선택',
@@ -1284,7 +1284,7 @@ $app_strings = array(
     'LBL_EMAIL_DOWNLOAD_STATUS' => '[[total]] 개의 이메일 중 [[count]] 개 다운로드',
     'LBL_EMAIL_FROM' => '발신자',
     'LBL_EMAIL_GROUP' => '그룹',
-    'LBL_EMAIL_UPPER_CASE_GROUP' => 'Group',
+    'LBL_EMAIL_UPPER_CASE_GROUP' => '그룹명',
     'LBL_EMAIL_HOME_FOLDER' => '홈',
     'LBL_EMAIL_IE_DELETE' => '메일 계정 삭제',
     'LBL_EMAIL_IE_DELETE_SIGNATURE' => '서명 삭제',
@@ -1344,7 +1344,7 @@ $app_strings = array(
     'LBL_EMAIL_PRINT' => '인쇄',
 
     'LBL_EMAIL_QC_BUGS' => '버그',
-    'LBL_EMAIL_QC_CASES' => 'Case',
+    'LBL_EMAIL_QC_CASES' => '케이스',
     'LBL_EMAIL_QC_LEADS' => '잠재고객',
     'LBL_EMAIL_QC_CONTACTS' => '연락처',
     'LBL_EMAIL_QC_TASKS' => '작업',
@@ -1394,7 +1394,7 @@ $app_strings = array(
     'LBL_EMAIL_SEARCH_NO_RESULTS' => '검색조건과 일치하는 자료가 없습니다.',
     'LBL_EMAIL_SEARCH_RESULTS_TITLE' => '검색결과',
 
-    'LBL_EMAIL_SELECT' => 'Select',
+    'LBL_EMAIL_SELECT' => '선택',
 
     'LBL_EMAIL_SEND' => '보내기',
     'LBL_EMAIL_SENDING_EMAIL' => '이메일 보내기',
@@ -1435,7 +1435,7 @@ $app_strings = array(
     'LBL_SMTPTYPE_GMAIL' => 'Gmail',
     'LBL_SMTPTYPE_YAHOO' => 'Yahoo! Mail',
     'LBL_SMTPTYPE_EXCHANGE' => 'Microsoft Exchange',
-    'LBL_SMTPTYPE_OTHER' => 'Other',
+    'LBL_SMTPTYPE_OTHER' => '기타',
     'LBL_EMAIL_SPACER_MAIL_SERVER' => '[원격 폴더]',
     'LBL_EMAIL_SPACER_LOCAL_FOLDER' => '[SuiteCRM 폴더]',
     'LBL_EMAIL_SUBJECT' => '제목',
@@ -1602,7 +1602,7 @@ $app_strings = array(
     'LBL_LIST_CONTACT_ROLE' => '거래처 담당자 역할',
     'LBL_LIST_DATE_ENTERED' => '작성일',
     'LBL_LIST_EMAIL' => '이메일',
-    'LBL_LIST_NAME' => 'Name',
+    'LBL_LIST_NAME' => '제품명',
     'LBL_LIST_OF' => '의',
     'LBL_LIST_PHONE' => '전화',
     'LBL_LIST_RELATED_TO' => '관련처',
@@ -1763,7 +1763,7 @@ $app_strings = array(
     'LBL_INBOUNDEMAIL_ID' => '받는 메일 ID',
 
     'LBL_SCENARIO_SALES' => 'Sales',
-    'LBL_SCENARIO_MARKETING' => 'Marketing',
+    'LBL_SCENARIO_MARKETING' => '마케팅',
     'LBL_SCENARIO_FINANCE' => 'Finance',
     'LBL_SCENARIO_SERVICE' => '서비스',
     'LBL_SCENARIO_PROJECT' => '프로젝트 관리',
@@ -1774,12 +1774,12 @@ $app_strings = array(
     'LBL_SCENARIO_SERVICE_DESCRIPTION' => '이 시나리오는 서비스 관련 항목의 관리를 용이하게 합니다',
     'LBL_SCENARIO_PROJECT_DESCRIPTION' => '이 시나리오에는 프로젝트 관련 항목의 관리를 용이하게 합니다',
 
-    'LBL_SYNC' => 'Sync',
+    'LBL_SYNC' => '동기화',
     'LBL_TABGROUP_ALL' => '전체',
     'LBL_TABGROUP_ACTIVITIES' => '활동내역',
     'LBL_TABGROUP_COLLABORATION' => '협업관리',
-    'LBL_TABGROUP_MARKETING' => 'Marketing',
-    'LBL_TABGROUP_OTHER' => 'Other',
+    'LBL_TABGROUP_MARKETING' => '마케팅',
+    'LBL_TABGROUP_OTHER' => '기타',
     'LBL_TABGROUP_SALES' => 'Sales',
     'LBL_TABGROUP_SUPPORT' => '지원관리',
     'LBL_TASKS' => '업무',
@@ -1814,7 +1814,7 @@ $app_strings = array(
     'LNK_HELP' => '도움말',
     'LNK_CREATE' => '생성',
     'LNK_LIST_END' => '최후',
-    'LNK_LIST_NEXT' => 'Next',
+    'LNK_LIST_NEXT' => '다음',
     'LNK_LIST_PREVIOUS' => '이전',
     'LNK_LIST_RETURN' => '리스트표시',
     'LNK_LIST_START' => '최초',
@@ -1865,7 +1865,7 @@ IE의 호환성 보기 지원 되지 않는 브라우저입니다.',
     'LBL_SEARCH_CRITERIA' => '검색 조건',
     'LBL_SAVED_VIEWS' => '저장 된 조회',
     'LBL_PROCESSING_REQUEST' => '처리 중…',
-    'LBL_REQUEST_PROCESSED' => 'Done',
+    'LBL_REQUEST_PROCESSED' => '완료',
     'LBL_AJAX_FAILURE' => 'Ajax 실패',
     'LBL_MERGE_DUPLICATES' => '합병',
     'LBL_SAVED_FILTER_SHORTCUT' => '내 필터',
@@ -1926,7 +1926,7 @@ IE의 호환성 보기 지원 되지 않는 브라우저입니다.',
     'LBL_ADD_ALL_LEAD_FIELDS' => '모든 필드 추가',
     'LBL_RESET_ALL_LEAD_FIELDS' => '모든 필드를 재설정',
     'LBL_REMOVE_ALL_LEAD_FIELDS' => '모든 필드 제거',
-    'LBL_NEXT_BTN' => 'Next',
+    'LBL_NEXT_BTN' => '다음',
     'LBL_ONLY_IMAGE_ATTACHMENT' => '다음 이미지 형식 지원의 첨부 파일만 포함 시킬 수 있습니다: JPG, PNG.',
     'LBL_TRAINING' => 'Support Forum',
     'ERR_MSSQL_DB_CONTEXT' => '변경 된 데이터베이스 컨텍스트',
@@ -2034,7 +2034,7 @@ IE의 호환성 보기 지원 되지 않는 브라우저입니다.',
     'LBL_FASTCGI_LOGGING' => 'IIS/FastCGI sapi을 최적으로 사용하기 위해서, php.ini file 안에 fastcgi.logging 값을 0으로 설정하세요.',
 
     //Collection Field
-    'LBL_COLLECTION_NAME' => 'Name',
+    'LBL_COLLECTION_NAME' => '제품명',
     'LBL_COLLECTION_PRIMARY' => 'Primary',
     'ERROR_MISSING_COLLECTION_SELECTION' => '필수 입력난 비우기',
 
@@ -2056,7 +2056,7 @@ IE의 호환성 보기 지원 되지 않는 브라우저입니다.',
     'LBL_NEXT_YEAR' => '다음해',
 
     //Datetimecombo fields
-    'LBL_HOURS' => 'Hours',
+    'LBL_HOURS' => '시간',
     'LBL_MINUTES' => 'Minutes',
     'LBL_MERIDIEM' => 'Meridiem',
     'LBL_DATE' => '날짜',
@@ -2184,7 +2184,7 @@ IE의 호환성 보기 지원 되지 않는 브라우저입니다.',
 
     'LBL_FILTER_HEADER_TITLE' => '필터',
 
-    'LBL_CATEGORY' => 'Category',
+    'LBL_CATEGORY' => '카테고리',
     'LBL_LIST_CATEGORY' => '카테고리',
     'ERR_FACTOR_TPL_INVALID' => '인증 메시지가 유효하지 않습니다. 관리자에게 연락 바랍니다.',
     'LBL_SUBTHEMES' => '스타일',
@@ -2262,7 +2262,7 @@ $app_list_strings['lawful_basis_source_dom'] = array(
 );
 //End GDPR lawful basis source options
 
-$app_list_strings['moduleList']['KBDocuments'] = 'Knowledge Base';
+$app_list_strings['moduleList']['KBDocuments'] = '기술 자료';
 
 $app_list_strings['countries_dom'] = array(
     '' => '',
@@ -2935,26 +2935,26 @@ $app_list_strings['token_status'] = array(
 
 $app_list_strings ['emailTemplates_type_list'] = array(
     '' => '',
-    'campaign' => 'Campaign',
+    'campaign' => '캠페인',
     'email' => '이메일',
     'event' => 'Event',
 );
 
 $app_list_strings ['emailTemplates_type_list_campaigns'] = array(
     '' => '',
-    'campaign' => 'Campaign',
+    'campaign' => '캠페인',
 );
 
 $app_list_strings ['emailTemplates_type_list_no_workflow'] = array(
     '' => '',
-    'campaign' => 'Campaign',
+    'campaign' => '캠페인',
     'email' => '이메일',
     'event' => 'Event',
     'system' => 'System',
 );
 
 // knowledge base
-$app_list_strings['moduleList']['AOK_KnowledgeBase'] = 'Knowledge Base';
+$app_list_strings['moduleList']['AOK_KnowledgeBase'] = '기술 자료';
 $app_list_strings['moduleList']['AOK_Knowledge_Base_Categories'] = '지식자료 - 카테고리';
 $app_list_strings['aok_status_list']['Draft'] = '임시 보관';
 $app_list_strings['aok_status_list']['Expired'] = '만료됨';
@@ -2971,7 +2971,7 @@ $app_list_strings['fp_event_invite_status_dom']['Invited'] = 'Invited';
 $app_list_strings['fp_event_invite_status_dom']['Not Invited'] = 'Not Invited';
 $app_list_strings['fp_event_invite_status_dom']['Attended'] = 'Attended';
 $app_list_strings['fp_event_invite_status_dom']['Not Attended'] = 'Not Attended';
-$app_list_strings['fp_event_status_dom']['Accepted'] = 'Accepted';
+$app_list_strings['fp_event_status_dom']['Accepted'] = '승인됨';
 $app_list_strings['fp_event_status_dom']['Declined'] = 'Declined';
 $app_list_strings['fp_event_status_dom']['No Response'] = '응답 없음';
 
@@ -3058,7 +3058,7 @@ $app_list_strings['aor_condition_type_list']['Period'] = '기간';
 $app_list_strings['aor_condition_type_list']['CurrentUserID'] = '현재 사용자';
 $app_list_strings['aor_date_type_list'][''] = '';
 $app_list_strings['aor_date_type_list']['minute'] = 'Minutes';
-$app_list_strings['aor_date_type_list']['hour'] = 'Hours';
+$app_list_strings['aor_date_type_list']['hour'] = '시간';
 $app_list_strings['aor_date_type_list']['day'] = 'Days';
 $app_list_strings['aor_date_type_list']['week'] = '주별';
 $app_list_strings['aor_date_type_list']['month'] = '월별';
@@ -3088,10 +3088,10 @@ $app_list_strings['aor_chart_types']['radar'] = '방사형 차트';
 $app_list_strings['aor_chart_types']['stacked_bar'] = '누적된 바';
 $app_list_strings['aor_chart_types']['grouped_bar'] = '그룹화 된 바';
 $app_list_strings['aor_scheduled_report_schedule_types']['monthly'] = '월';
-$app_list_strings['aor_scheduled_report_schedule_types']['weekly'] = 'Weekly';
+$app_list_strings['aor_scheduled_report_schedule_types']['weekly'] = '주간';
 $app_list_strings['aor_scheduled_report_schedule_types']['daily'] = '매일';
 $app_list_strings['aor_scheduled_reports_status_dom']['active'] = '활성';
-$app_list_strings['aor_scheduled_reports_status_dom']['inactive'] = 'Inactive';
+$app_list_strings['aor_scheduled_reports_status_dom']['inactive'] = '비활성';
 $app_list_strings['aor_email_type_list']['Email Address'] = '메일';
 $app_list_strings['aor_email_type_list']['Specify User'] = '사용자';
 $app_list_strings['aor_email_type_list']['Users'] = '사용자';
@@ -3118,29 +3118,29 @@ $app_strings['LBL_CRON_DAY'] = '일';
 $app_strings['LBL_CRON_MONTH'] = '월';
 $app_strings['LBL_CRON_DOW'] = 'DOW';
 $app_strings['LBL_CRON_DAILY'] = '일';
-$app_strings['LBL_CRON_WEEKLY'] = 'Weekly';
+$app_strings['LBL_CRON_WEEKLY'] = '주간';
 $app_strings['LBL_CRON_MONTHLY'] = '월';
 
 //aos
 $app_list_strings['moduleList']['AOS_Contracts'] = '계약';
-$app_list_strings['moduleList']['AOS_Invoices'] = 'Invoices';
+$app_list_strings['moduleList']['AOS_Invoices'] = '인보이스';
 $app_list_strings['moduleList']['AOS_PDF_Templates'] = 'PDF - 템플릿';
 $app_list_strings['moduleList']['AOS_Product_Categories'] = '제품 - 카테고리';
-$app_list_strings['moduleList']['AOS_Products'] = 'Products';
+$app_list_strings['moduleList']['AOS_Products'] = '제품명';
 $app_list_strings['moduleList']['AOS_Products_Quotes'] = '행 항목';
 $app_list_strings['moduleList']['AOS_Line_Item_Groups'] = '개별 항목 그룹';
-$app_list_strings['moduleList']['AOS_Quotes'] = 'Quotes';
+$app_list_strings['moduleList']['AOS_Quotes'] = '견적';
 $app_list_strings['aos_quotes_type_dom'][''] = '';
 $app_list_strings['aos_quotes_type_dom']['Analyst'] = 'Analyst';
 $app_list_strings['aos_quotes_type_dom']['Competitor'] = '경쟁자';
-$app_list_strings['aos_quotes_type_dom']['Customer'] = 'Customer';
+$app_list_strings['aos_quotes_type_dom']['Customer'] = '고객';
 $app_list_strings['aos_quotes_type_dom']['Integrator'] = '완성자';
 $app_list_strings['aos_quotes_type_dom']['Investor'] = '투자자';
-$app_list_strings['aos_quotes_type_dom']['Partner'] = 'Partner';
-$app_list_strings['aos_quotes_type_dom']['Press'] = 'Press';
+$app_list_strings['aos_quotes_type_dom']['Partner'] = '파트너';
+$app_list_strings['aos_quotes_type_dom']['Press'] = '출판사(언론사)';
 $app_list_strings['aos_quotes_type_dom']['Prospect'] = 'Prospect';
-$app_list_strings['aos_quotes_type_dom']['Reseller'] = 'Reseller';
-$app_list_strings['aos_quotes_type_dom']['Other'] = 'Other';
+$app_list_strings['aos_quotes_type_dom']['Reseller'] = '리셀러';
+$app_list_strings['aos_quotes_type_dom']['Other'] = '기타';
 $app_list_strings['template_ddown_c_list'][''] = '';
 $app_list_strings['quote_stage_dom']['Draft'] = '임시 보관';
 $app_list_strings['quote_stage_dom']['Negotiation'] = '협상';
@@ -3166,14 +3166,14 @@ $app_list_strings['discount_list']['Amount'] = 'Amt';
 $app_list_strings['aos_invoices_type_dom'][''] = '';
 $app_list_strings['aos_invoices_type_dom']['Analyst'] = 'Analyst';
 $app_list_strings['aos_invoices_type_dom']['Competitor'] = '경쟁자';
-$app_list_strings['aos_invoices_type_dom']['Customer'] = 'Customer';
+$app_list_strings['aos_invoices_type_dom']['Customer'] = '고객';
 $app_list_strings['aos_invoices_type_dom']['Integrator'] = '완성자';
 $app_list_strings['aos_invoices_type_dom']['Investor'] = '투자자';
-$app_list_strings['aos_invoices_type_dom']['Partner'] = 'Partner';
-$app_list_strings['aos_invoices_type_dom']['Press'] = 'Press';
+$app_list_strings['aos_invoices_type_dom']['Partner'] = '파트너';
+$app_list_strings['aos_invoices_type_dom']['Press'] = '출판사(언론사)';
 $app_list_strings['aos_invoices_type_dom']['Prospect'] = 'Prospect';
-$app_list_strings['aos_invoices_type_dom']['Reseller'] = 'Reseller';
-$app_list_strings['aos_invoices_type_dom']['Other'] = 'Other';
+$app_list_strings['aos_invoices_type_dom']['Reseller'] = '리셀러';
+$app_list_strings['aos_invoices_type_dom']['Other'] = '기타';
 $app_list_strings['invoice_status_dom']['Paid'] = '지불';
 $app_list_strings['invoice_status_dom']['Unpaid'] = '미납';
 $app_list_strings['invoice_status_dom']['Cancelled'] = '취소';
@@ -3187,11 +3187,11 @@ $app_list_strings['product_category_dom']['Desktops'] = '데스크탑';
 $app_list_strings['product_category_dom'][''] = '';
 $app_list_strings['product_type_dom']['Good'] = '좋음';
 $app_list_strings['product_type_dom']['Service'] = 'Service';
-$app_list_strings['product_quote_parent_type_dom']['AOS_Quotes'] = 'Quotes';
-$app_list_strings['product_quote_parent_type_dom']['AOS_Invoices'] = 'Invoices';
+$app_list_strings['product_quote_parent_type_dom']['AOS_Quotes'] = '견적';
+$app_list_strings['product_quote_parent_type_dom']['AOS_Invoices'] = '인보이스';
 $app_list_strings['product_quote_parent_type_dom']['AOS_Contracts'] = '계약';
-$app_list_strings['pdf_template_type_dom']['AOS_Quotes'] = 'Quotes';
-$app_list_strings['pdf_template_type_dom']['AOS_Invoices'] = 'Invoices';
+$app_list_strings['pdf_template_type_dom']['AOS_Quotes'] = '견적';
+$app_list_strings['pdf_template_type_dom']['AOS_Invoices'] = '인보이스';
 $app_list_strings['pdf_template_type_dom']['AOS_Contracts'] = '계약';
 $app_list_strings['pdf_template_type_dom']['Accounts'] = '거래처';
 $app_list_strings['pdf_template_type_dom']['Contacts'] = '연락처';
@@ -3211,7 +3211,7 @@ $app_list_strings['moduleList']['AOW_Conditions'] = '워크플로 조건';
 $app_list_strings['moduleList']['AOW_Processed'] = '프로세스 감사';
 $app_list_strings['moduleList']['AOW_Actions'] = '워크플로 작업';
 $app_list_strings['aow_status_list']['Active'] = '활성';
-$app_list_strings['aow_status_list']['Inactive'] = 'Inactive';
+$app_list_strings['aow_status_list']['Inactive'] = '비활성';
 $app_list_strings['aow_operator_list']['Equal_To'] = 'Equal To';
 $app_list_strings['aow_operator_list']['Not_Equal_To'] = 'Not Equal To';
 $app_list_strings['aow_operator_list']['Greater_Than'] = '큼';
@@ -3224,7 +3224,7 @@ $app_list_strings['aow_operator_list']['Ends_With'] = 'Ends With';
 $app_list_strings['aow_operator_list']['is_null'] = 'Is Null';
 $app_list_strings['aow_process_status_list']['Complete'] = 'Complete';
 $app_list_strings['aow_process_status_list']['Running'] = '실행 중';
-$app_list_strings['aow_process_status_list']['Pending'] = 'Pending';
+$app_list_strings['aow_process_status_list']['Pending'] = '보류 중';
 $app_list_strings['aow_process_status_list']['Failed'] = '실패함';
 $app_list_strings['aow_condition_operator_list']['And'] = 'And';
 $app_list_strings['aow_condition_operator_list']['OR'] = 'OR';
@@ -3244,7 +3244,7 @@ $app_list_strings['aow_rel_action_type_list']['Value'] = 'Value';
 $app_list_strings['aow_rel_action_type_list']['Field'] = 'Field';
 $app_list_strings['aow_date_type_list'][''] = '';
 $app_list_strings['aow_date_type_list']['minute'] = 'Minutes';
-$app_list_strings['aow_date_type_list']['hour'] = 'Hours';
+$app_list_strings['aow_date_type_list']['hour'] = '시간';
 $app_list_strings['aow_date_type_list']['day'] = 'Days';
 $app_list_strings['aow_date_type_list']['week'] = '주';
 $app_list_strings['aow_date_type_list']['month'] = '월';
@@ -3280,7 +3280,7 @@ $app_list_strings['moduleList']['AM_TaskTemplates'] = '프로젝트 업무 서�
 $app_list_strings['relationship_type_list']['FS'] = '시작 준비 완료';
 $app_list_strings['relationship_type_list']['SS'] = '시작 준비 시작';
 $app_list_strings['duration_unit_dom']['Days'] = 'Days';
-$app_list_strings['duration_unit_dom']['Hours'] = 'Hours';
+$app_list_strings['duration_unit_dom']['Hours'] = '시간';
 $app_strings['LBL_GANTT_BUTTON_LABEL'] = '간트차트 보기';
 $app_strings['LBL_DETAIL_BUTTON_LABEL'] = '상세 보기';
 $app_strings['LBL_CREATE_PROJECT'] = '프로젝트 작성';
@@ -3314,15 +3314,15 @@ $app_list_strings['map_module_type_list']['Prospects'] = '대상';
 
 $app_list_strings['map_relate_type_list']['Accounts'] = '거래처';
 $app_list_strings['map_relate_type_list']['Contacts'] = '거래처고객';
-$app_list_strings['map_relate_type_list']['Cases'] = 'Case';
+$app_list_strings['map_relate_type_list']['Cases'] = '케이스';
 $app_list_strings['map_relate_type_list']['Leads'] = '잠재고객';
 $app_list_strings['map_relate_type_list']['Meetings'] = '미팅';
 $app_list_strings['map_relate_type_list']['Opportunities'] = '상담';
-$app_list_strings['map_relate_type_list']['Project'] = 'Project';
+$app_list_strings['map_relate_type_list']['Project'] = '프로젝트';
 $app_list_strings['map_relate_type_list']['Prospects'] = '대상';
 
 $app_list_strings['marker_image_list']['accident'] = '사고';
-$app_list_strings['marker_image_list']['administration'] = 'Administration';
+$app_list_strings['marker_image_list']['administration'] = '관리';
 $app_list_strings['marker_image_list']['agriculture'] = '농업';
 $app_list_strings['marker_image_list']['aircraft_small'] = '작은 항공기';
 $app_list_strings['marker_image_list']['airplane_tourism'] = '비행기 관광';
@@ -3585,7 +3585,7 @@ $app_strings['FACEBOOK_USER_C'] = 'Facebook';
 $app_strings['TWITTER_USER_C'] = 'Twitter';
 $app_strings['LBL_PANEL_SOCIAL_FEED'] = '소셜 피드 상세';
 
-$app_strings['LBL_SUBPANEL_FILTER_LABEL'] = 'Filter';
+$app_strings['LBL_SUBPANEL_FILTER_LABEL'] = '필터';
 
 $app_strings['LBL_COLLECTION_TYPE'] = '유형';
 
@@ -3619,10 +3619,10 @@ $app_list_strings['spots_areas'] = array(
     'getAccountsSpotsData' => '거래처',
     'getLeadsSpotsData' => '잠재고객',
     'getServiceSpotsData' => 'Service',
-    'getMarketingSpotsData' => 'Marketing',
+    'getMarketingSpotsData' => '마케팅',
     'getMarketingActivitySpotsData' => 'Marketing Activity',
     'getActivitiesSpotsData' => '활동내역',
-    'getQuotesSpotsData' => 'Quotes'
+    'getQuotesSpotsData' => '견적'
 );
 
 $app_list_strings['moduleList']['Spots'] = '장소';
@@ -3684,7 +3684,7 @@ $app_list_strings['surveys_question_type']['Matrix'] = '매트릭스';
 $app_list_strings['surveys_question_type']['DateTime'] = '날짜일시';
 $app_list_strings['surveys_question_type']['Date'] = 'Date';
 $app_list_strings['surveys_question_type']['Scale'] = '스케일';
-$app_list_strings['surveys_question_type']['Rating'] = 'Rating';
+$app_list_strings['surveys_question_type']['Rating'] = '평가';
 $app_list_strings['surveys_matrix_options'][0] = '만족';
 $app_list_strings['surveys_matrix_options'][1] = '만족하지도 불만족하지도 않음';
 $app_list_strings['surveys_matrix_options'][2] = '불만족';
@@ -3747,9 +3747,9 @@ $app_list_strings['search_controllers'] = [
 
 // Calendar Account Types dropdown
 $app_list_strings['calendar_account_types'] = [
-    'personal' => 'Personal',
+    'personal' => '개인',
     'shared' => '공유',
-    'group' => 'Group',
+    'group' => '그룹명',
 ];
 
 // Calendar Connection Status dropdown
@@ -3804,16 +3804,16 @@ $app_strings['IMAP_HANDLER_ERROR_NO_TEST_SET'] = '테스트 설정이 존재하�
 $app_strings['IMAP_HANDLER_ERROR_NO_KEY'] = '키를 찾을 수 없습니다.';
 $app_strings['IMAP_HANDLER_ERROR_KEY_SAVE'] = '키 저장 오류';
 $app_strings['IMAP_HANDLER_ERROR_UNKNOWN'] = '알 수 없는 오류';
-$app_strings['LBL_SEARCH_TITLE']                   = 'Search';
+$app_strings['LBL_SEARCH_TITLE']                   = '검색';
 $app_strings['LBL_SEARCH_TEXT_FIELD_TITLE_ATTR']   = '검색 조건을 입력하세요';
-$app_strings['LBL_SEARCH_SUBMIT_FIELD_TITLE_ATTR'] = 'Search';
-$app_strings['LBL_SEARCH_SUBMIT_FIELD_VALUE']      = 'Search';
+$app_strings['LBL_SEARCH_SUBMIT_FIELD_TITLE_ATTR'] = '검색';
+$app_strings['LBL_SEARCH_SUBMIT_FIELD_VALUE']      = '검색';
 $app_strings['LBL_SEARCH_QUERY']                   = '검색어: ';
 $app_strings['LBL_SEARCH_RESULTS_PER_PAGE']        = 'Results per module: ';
 $app_strings['LBL_SEARCH_ENGINE']                  = '검색엔진: ';
 $app_strings['LBL_SEARCH_TOTAL'] = '총 결과 수: ';
 $app_strings['LBL_SEARCH_PREV'] = 'Previous';
-$app_strings['LBL_SEARCH_NEXT'] = 'Next';
+$app_strings['LBL_SEARCH_NEXT'] = '다음';
 $app_strings['LBL_SEARCH_PAGE'] = '페이지 ';
 $app_strings['LBL_SEARCH_OF'] = ' of ';
 $app_strings['LBL_USE_ADVANCED_SEARCH'] = '고급 검색 사용';

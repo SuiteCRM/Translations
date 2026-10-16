@@ -82,7 +82,7 @@ $mod_strings = array(
     'LBL_NEW_PROJECT' => 'Create Project',
     'LBL_CANCEL_PROJECT' => 'Hủy',
 
-    'LBL_SUBTASK' => 'Task',
+    'LBL_SUBTASK' => 'Nhiệm vụ',
     'LBL_MILESTONE_FLAG' => 'Sự kiện quan trọng',
     'LBL_RELATIONSHIP_TYPE' => 'Kiểu quan hệ',
     'LBL_LAG' => 'Tụt hậu',

@@ -59,10 +59,10 @@ $mod_strings = array(
     'LBL_ARCHIVED' => 'Archived',
     'LBL_HITS' => 'Acessos',
 
-    'LBL_CAMPAIGN_NAME' => 'Name:',
-    'LBL_CAMPAIGN' => 'Campaign:',
+    'LBL_CAMPAIGN_NAME' => 'Nome:',
+    'LBL_CAMPAIGN' => 'Campanha:',
     'LBL_NAME' => 'Nome: ',
-    'LBL_INVITEE' => 'Contacts',
+    'LBL_INVITEE' => 'Contactos',
     'LBL_LIST_CAMPAIGN_NAME' => 'Campaign',
     'LBL_LIST_STATUS' => 'Situação',
     'LBL_LIST_TYPE' => 'Tipo',
@@ -93,7 +93,7 @@ $mod_strings = array(
     'LBL_RELATED' => 'Related',
     'LBL_MORE_INFO' => 'Mais Informações',
 
-    'LBL_CAMPAIGNS' => 'Campaigns',
+    'LBL_CAMPAIGNS' => 'Campanhas',
     'LBL_LIST_MARKETING_NAME' => 'ID de marketing',
 
     'LBL_MARKETING_ID' => 'ID de marketing',

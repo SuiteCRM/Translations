@@ -109,7 +109,7 @@ $mod_strings = array(
 
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'Document List',
-    'LBL_LIST_DOCUMENT' => 'Document',
+    'LBL_LIST_DOCUMENT' => 'Documento',
     'LBL_LIST_SUBCATEGORY' => 'Subcategoría',
     'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => 'Published By',

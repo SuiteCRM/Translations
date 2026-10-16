@@ -75,7 +75,7 @@ $mod_strings = array(
     'LBL_CREATED_BY' => 'Created by: ',
 
     'LNK_NEW_CAMPAIGN' => 'Create Campaign',
-    'LNK_CAMPAIGN_LIST' => 'Campaigns',
+    'LNK_CAMPAIGN_LIST' => 'Chiến dịch',
     'LNK_NEW_PROSPECT_LIST' => 'Create Target List',
     'LNK_PROSPECT_LIST_LIST' => 'Target Lists',
     'LNK_NEW_PROSPECT' => 'Create Target',

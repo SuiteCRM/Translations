@@ -89,8 +89,8 @@ $mod_strings = array(
     'LBL_SEND_IN_PLAIN_TEXT' => '일반 텍스트로 보내기',
     'LBL_SEND_CONFIRM_OPT_IN' => '수신동의 메일 보내기',
     'LBL_EMAIL_ATTACHMENT' => '이메일 첨부',
-    'LBL_EMAIL_SELECTOR_SELECT' => 'Select',
-    'LBL_EMAIL_SELECTOR_CLEAR' => 'Clear',
+    'LBL_EMAIL_SELECTOR_SELECT' => '선택',
+    'LBL_EMAIL_SELECTOR_CLEAR' => '지우기',
     'LBL_EMAIL' => 'Email Address:',
     'LBL_EMAILS_ACCOUNTS_REL' => '이메일: 계정',
     'LBL_EMAILS_BUGS_REL' => '이메일:결함',
@@ -138,7 +138,7 @@ $mod_strings = array(
     'LBL_SENT_MODULE_NAME' => '보낸 이메일',
     'LBL_SHOW_ALT_TEXT' => 'Show Plain Text',
     'LBL_SIGNATURE' => 'Signature',
-    'LBL_SUBJECT' => 'Subject:',
+    'LBL_SUBJECT' => '제목: ',
     'LBL_TEXT_BODY' => '텍스트 본문',
     'LBL_TIME' => '송신시간:',
     'LBL_TO_ADDRS' => '받는 사람',
@@ -171,7 +171,7 @@ $mod_strings = array(
     'LBL_LIST_FROM_ADDR' => '발신자',
     //'LBL_LIST_RELATED_TO' => 'Recipient Type' (previous value)
     'LBL_LIST_RELATED_TO' => 'Related To',
-    'LBL_LIST_SUBJECT' => 'Subject',
+    'LBL_LIST_SUBJECT' => '제목',
     'LBL_LIST_TO_ADDR' => '받는 사람',
     'LBL_LIST_TYPE' => '유형',
 
@@ -293,8 +293,8 @@ $mod_strings = array(
     'LBL_EMAIL_DETAIL_VIEW_MORE' => '더 보기',
     'LBL_MORE_OPTIONS' => 'More',
     'LBL_LESS_OPTIONS' => 'Less',
-    'LBL_MAILBOX_TYPE_PERSONAL' => 'Personal',
-    'LBL_MAILBOX_TYPE_GROUP' => 'Group',
+    'LBL_MAILBOX_TYPE_PERSONAL' => '개인',
+    'LBL_MAILBOX_TYPE_GROUP' => '그룹명',
     'LBL_MAILBOX_TYPE_GROUP_FOLDER' => '그룹-자동 가져오기',
     'LBL_EMAIL_INBOUND_TYPE_HELP' => '<b>개인</b>: 당신이 접근 가능한 이메일 계정입니다. 귀하만이 이 계정에서 관리와 이메일 송신을 할 수 있습니다.<br /><b>그룹</b>: 특정 팀의 구성원이 접근 가능한 이메일 계정입니다. 팀 구성원은 이 계정에서 관리와 이메일 송신을 할 수 있습니다.<br /><b>그룹 자동 가져오기</b>: 특정 팀의 구성원이 접근 가능한 이메일 계정입니다. 이메일은 기록과 같이 자동으로 가져오기 됩니다.',
     'LBL_TEST_SETTINGS' => '테스트 설정',
@@ -348,8 +348,8 @@ $mod_strings = array(
     'LBL_EMAILS_MEETINGS_REL' => '이메일:회의',
     'LBL_DATE_MODIFIED' => '수정일',
 
-    'LBL_CATEGORY' => 'Category',
-    'LBL_LIST_CATEGORY' => 'Category',
+    'LBL_CATEGORY' => '카테고리',
+    'LBL_LIST_CATEGORY' => '카테고리',
     'LBL_EMAIL_TEMPLATE' => '이메일 서식',
 
     'LBL_CONFIRM_DISREGARD_DRAFT_TITLE' => '초안을 무시 하기',
@@ -383,7 +383,7 @@ $mod_strings = array(
 
     'ERR_NO_RETURN_ID' => '첨부 파일을 찾을 수 없습니다.',
 
-    'LBL_LIST_DATE_MODIFIED' => 'Last Modified',
+    'LBL_LIST_DATE_MODIFIED' => '마지막 수정일',
     'LNK_IMPORT_CAMPAIGNS' => '캠페인 가져오기',
 
     // Email Validation Error messages. Typicaly for Email Validation:

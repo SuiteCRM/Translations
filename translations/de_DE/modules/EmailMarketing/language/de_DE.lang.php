@@ -74,7 +74,7 @@ $mod_strings = array(
     'LBL_MODIFIED_BY' => 'Modified by: ',
     'LBL_CREATED_BY' => 'Created by: ',
 
-    'LNK_NEW_CAMPAIGN' => 'Create Campaign',
+    'LNK_NEW_CAMPAIGN' => 'Kampagne erstellen',
     'LNK_CAMPAIGN_LIST' => 'Kampagnen',
     'LNK_NEW_PROSPECT_LIST' => 'Zielkontaktliste erstellen',
     'LNK_PROSPECT_LIST_LIST' => 'Zielkontaktlisten',

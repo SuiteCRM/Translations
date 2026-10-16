@@ -44,13 +44,13 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ROLE' => 'Role',
-    'LBL_NAME' => 'Name',
+    'LBL_NAME' => '제품명',
     'LBL_DESCRIPTION' => '설명',
     'LIST_ROLES' => '역할 리스트',
     'LBL_USERS_SUBPANEL_TITLE' => '사용자',
     'LIST_ROLES_BY_USER' => '유저별 역할 리스트',
     'LBL_ROLES_SUBPANEL_TITLE' => '유저 역할',
-    'LBL_SEARCH_FORM_TITLE' => 'Search',
+    'LBL_SEARCH_FORM_TITLE' => '검색',
     'LBL_NO_ACCESS' => 'You do not have access to this area. Contact your site administrator to obtain access.',
     'LBL_REDIRECT_TO_HOME' => '홈화면으로 전환',
     'LBL_SECONDS' => '초',

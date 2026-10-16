@@ -162,7 +162,7 @@ $mod_strings = [
     'LBL_SELECT_CALENDAR_SOURCE_FIRST' => 'Please select a calendar source first.',
 
     // Connection test messages
-    'LBL_CALENDAR' => 'Calendar',
+    'LBL_CALENDAR' => 'Lịch',
     'LBL_SUCCESSFUL' => 'Thành công',
     'LBL_FAILED' => 'Thất bại',
     'LBL_CONNECTION_TEST' => 'Connection Test',
@@ -186,7 +186,7 @@ $mod_strings = [
     'LBL_ARE_YOU_SURE' => 'Are you sure?',
 
     // Sync status enum translations
-    'LBL_SYNC_STATUS_IN_PROGRESS' => 'In Progress',
+    'LBL_SYNC_STATUS_IN_PROGRESS' => 'Đang tiến hành',
     'LBL_SYNC_STATUS_SUCCESS' => 'Thành công',
     'LBL_SYNC_STATUS_WARNING' => 'Cảnh báo',
     'LBL_SYNC_STATUS_ERROR' => 'Lỗi',

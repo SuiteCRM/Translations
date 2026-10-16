@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_EDIT_LAYOUT' => 'Edit Layout',
+    'LBL_EDIT_LAYOUT' => 'Layout bearbeiten',
     'LBL_EDIT_FIELDS' => 'Benutzerdefinierte Felder bearbeiten',
     'LBL_SELECT_FILE' => 'Datei auswählen',
     'LBL_MODULE_TITLE' => 'Studio',

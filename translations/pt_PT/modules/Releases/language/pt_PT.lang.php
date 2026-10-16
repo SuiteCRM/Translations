@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Releases',
+    'LBL_MODULE_NAME' => 'Lançamentos',
     'LBL_MODULE_TITLE' => 'Lançamentos: Entrada',
     'LBL_SEARCH_FORM_TITLE' => 'Pesquisar lançamentos',
     'LBL_LIST_FORM_TITLE' => 'Lista de lançamentos',
@@ -51,19 +51,19 @@ $mod_strings = array(
     'LBL_RELEASE' => 'Release:',
     'LBL_LIST_NAME' => 'Release',
     'LBL_NAME' => 'Versão do lançamento:',
-    'LBL_LIST_LIST_ORDER' => 'Order',
+    'LBL_LIST_LIST_ORDER' => 'Ordem',
     'LBL_LIST_ORDER' => 'Order:',
     'LBL_LIST_STATUS' => 'Situação',
     'LBL_STATUS' => 'Situação:',
     'LNK_NEW_RELEASE' => 'Release List',
-    'NTC_DELETE_CONFIRMATION' => 'Are you sure you want to delete this record?',
+    'NTC_DELETE_CONFIRMATION' => 'Tem a certeza que pretende eliminar este registo?',
     'ERR_DELETE_RECORD' => 'Tem de especificar um número de registo para poder eliminar o lançamento.',
     'NTC_STATUS' => 'Define a situação como inativa para remover este lançamento do menu da lista de lançamentos',
     'NTC_LIST_ORDER' => 'Definir a ordem que este lançamento aparecerá nas listas suspensas de lançamentos',
     'release_status_dom' =>
         array(
-            'Active' => 'Active',
-            'Inactive' => 'Inactive',
+            'Active' => 'Ativo',
+            'Inactive' => 'Inactivo',
         ),
     'LBL_EDITLAYOUT' => 'Editar disposição' /*for 508 compliance fix*/,
 );

@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     //module
-    'LBL_MODULE_NAME' => 'Documents',
+    'LBL_MODULE_NAME' => 'Documentos',
     'LBL_MODULE_TITLE' => 'Documents: Home',
     'LNK_NEW_DOCUMENT' => 'Create Document',
     'LNK_DOCUMENT_LIST' => 'View Documents',
@@ -109,7 +109,7 @@ $mod_strings = array(
 
     //document list view.
     'LBL_LIST_FORM_TITLE' => 'Document List',
-    'LBL_LIST_DOCUMENT' => 'Document',
+    'LBL_LIST_DOCUMENT' => 'Documento',
     'LBL_LIST_SUBCATEGORY' => 'Sub Category',
     'LBL_LIST_REVISION' => 'Revision',
     'LBL_LIST_LAST_REV_CREATOR' => 'Published By',

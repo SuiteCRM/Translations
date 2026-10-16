@@ -76,7 +76,7 @@ $mod_strings = array(
     'LBL_NEW_FORM_TITLE' => 'Nueva venta',
     'ERR_DELETE_RECORD' => 'Debe de especificar un número de registro para eliminar la venta',
     'LBL_DEFAULT_SUBPANEL_TITLE' => 'Sale',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Actividades',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Historial',
 
     'LBL_CONTACTS_SUBPANEL_TITLE' => 'Contactos',

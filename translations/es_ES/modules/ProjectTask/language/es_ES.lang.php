@@ -103,7 +103,7 @@ $mod_strings = array(
     'LBL_NEW_FORM_TITLE' => 'Nueva Tarea de Proyecto',
 
     'LBL_HISTORY_TITLE' => 'Historial',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Actividades',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Historial',
 
     'LBL_ASSIGNED_USER_NAME' => 'Assigned To',

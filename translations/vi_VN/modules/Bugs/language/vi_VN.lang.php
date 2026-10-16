@@ -77,7 +77,7 @@ $mod_strings = array(
     'LBL_LIST_FIXED_IN_RELEASE' => 'Sửa chữa',
     'LBL_WORK_LOG' => 'Work Log:',
     'LBL_SOURCE' => 'Nguồn:',
-    'LBL_PRODUCT_CATEGORY' => 'Category:',
+    'LBL_PRODUCT_CATEGORY' => 'Nhóm:',
 
     'LBL_CREATED_BY' => 'Tạo bởi:',
     'LBL_MODIFIED_BY' => 'Sửa lần cuối bởi:',

@@ -44,11 +44,11 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_DESCRIPTION' => '설명',
-    'LBL_NAME' => 'Name',
-    'LBL_LIST_NAME' => 'Name',
+    'LBL_NAME' => '제품명',
+    'LBL_LIST_NAME' => '제품명',
     'LBL_EDIT_BUTTON' => '수정',
     'LBL_REMOVE' => 'Remove',
-    'LBL_GRP' => 'Group',
+    'LBL_GRP' => '그룹명',
     'LBL_ORD' => 'Order',
     'LBL_THUMBNAIL' => '썸네일',
 );

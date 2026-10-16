@@ -77,7 +77,7 @@ $mod_strings = array(
     'LBL_GROUP_QUEUE' => 'Atribuir ao grupo',
     'LBL_HOME' => 'Entrada',
     'LBL_LIST_MAILBOX_TYPE' => 'Utilização da conta de correio',
-    'LBL_LIST_NAME' => 'Name:',
+    'LBL_LIST_NAME' => 'Nome:',
     'LBL_LIST_GLOBAL_PERSONAL' => 'Tipo',
     'LBL_LIST_SERVER_URL' => 'Servidor de Correio:',
     'LBL_SERVER_ADDRESS' => 'Endereço do servidor',
@@ -94,7 +94,7 @@ $mod_strings = array(
     'LBL_PRIMARY_FOLDER' => 'Primary Folder',
     'LBL_TRASH_FOLDER' => 'Pasta de lixeira',
     'LBL_SENT_FOLDER' => 'Pasta de enviados',
-    'LBL_SELECT' => 'Select',
+    'LBL_SELECT' => 'Selecionar',
     'LBL_MARK_READ_NO' => 'Email marcado para eliminação após importação',
     'LBL_MARK_READ_YES' => 'Email deixado no servidor após importação',
     'LBL_MARK_READ' => 'Deixar Mensagens no Servidor',
@@ -107,7 +107,7 @@ $mod_strings = array(
     'LBL_BOUNCE_MODULE_NAME' => 'Caixa de Correio de tratamento de devoluções',
     'LBL_MODULE_TITLE' => 'Inbound Email',
     'LBL_NAME' => 'Nome',
-    'LBL_NONE' => 'None',
+    'LBL_NONE' => 'Nenhum',
     'LBL_ONLY_SINCE_NO' => 'Não. Verificar todos os emails no servidor de mail.',
     'LBL_ONLY_SINCE_YES' => 'Sim.',
     'LBL_PASSWORD' => 'Senha',
@@ -153,8 +153,8 @@ $mod_strings = array(
 
     'LBL_ALLOW_OUTBOUND_GROUP_USAGE' => 'Permitir aos utilizadores enviar emails usando o nome e endereço do remetente como endereço para resposta',
     'LBL_ALLOW_OUTBOUND_GROUP_USAGE_DESC' => 'Quando esta opção estiver selecionada, o nome e endereço de email de origem associados a esta conta de correio do grupo vão aparecer como uma opção para o campo do nome de remetente quando enviar mensagens para utilizadores que têm acesso à conta de correio do grupo.',
-    'LBL_STATUS_ACTIVE' => 'Active',
-    'LBL_STATUS_INACTIVE' => 'Inactive',
+    'LBL_STATUS_ACTIVE' => 'Ativo',
+    'LBL_STATUS_INACTIVE' => 'Inactivo',
     'LBL_IS_PERSONAL' => 'Personal',
     'LBL_IS_GROUP' => 'group',
     'LBL_ENABLE_AUTO_IMPORT' => 'Importar emails automaticamente',
@@ -173,7 +173,7 @@ $mod_strings = array(
     'LBL_TYPE_DIFFERENT' => 'External OAuth Connection type must be the SAME as the Inbound Email Account type',
 
     'LBL_MODIFIED_BY' => 'Alterado por',
-    'LBL_SERVICE' => 'Service',
+    'LBL_SERVICE' => 'Serviço',
     'LBL_STORED_OPTIONS' => 'Opções armeazenadas',
     'LBL_GROUP_ID' => 'ID de grupo',
 
@@ -183,7 +183,7 @@ $mod_strings = array(
     'LBL_CASE_CONFIGURATION' => 'Configuração de ocorrências',
     'LBL_GROUP_CONFIGURATION' => 'Configuração do grupo',
 
-    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Security Groups',
+    'LBL_SECURITYGROUPS_SUBPANEL_TITLE' => 'Grupos de segurança',
 
 
     'LBL_OUTBOUND_EMAIL_ACCOUNT' => 'Conta de saída de correio',

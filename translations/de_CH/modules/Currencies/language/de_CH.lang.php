@@ -59,7 +59,7 @@ $mod_strings = array(
     'LBL_LIST_RATE' => 'Wechselkurs',
     'LBL_LIST_RATE_HELP' => 'Ein Wechselkurs von 0,5 für Euro bedeutet, dass 10 USD = 5 Euro entsprechen.',
     'LBL_LIST_STATUS' => 'Status',
-    'LNK_NEW_CONTACT' => 'New Contact',
+    'LNK_NEW_CONTACT' => 'Neuer Kontakt',
     'LNK_NEW_ACCOUNT' => 'Neue Firma',
     'LNK_NEW_OPPORTUNITY' => 'New Opportunity',
     'LNK_NEW_CASE' => 'Neue Anfrage',
@@ -76,5 +76,5 @@ $mod_strings = array(
             'Inactive' => 'Inaktiv',
         ),
     'LBL_CREATED_BY' => 'Erstellt von:',
-    'LBL_EDIT_LAYOUT' => 'Edit Layout' /*for 508 compliance fix*/,
+    'LBL_EDIT_LAYOUT' => 'Layout bearbeiten' /*for 508 compliance fix*/,
 );
