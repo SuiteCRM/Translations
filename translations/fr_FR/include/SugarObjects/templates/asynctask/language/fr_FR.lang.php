@@ -41,7 +41,7 @@ $mod_strings = [
 
     // Standard record field labels
     'LBL_ASSIGNED_TO_ID' => 'Identifiant de l\'utilisateur assigné',
-    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date de création',
     'LBL_DATE_MODIFIED' => 'Date de modification',
@@ -61,13 +61,13 @@ $mod_strings = [
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activités',
 
     // Async task field labels
-    'LBL_DATA' => 'Data',
+    'LBL_DATA' => 'Données',
     'LBL_TYPE' => 'Type',
     'LBL_ESTIMATED_RUN_TIME' => 'Run time estimate',
-    'LBL_STATUS' => 'Status',
+    'LBL_STATUS' => 'Etat',
     'LBL_SERVICE_KEY' => 'Service Key',
     'LBL_LAST_RUN_DATETIME' => 'Last Run',
-    'LBL_ATTACHMENTS' => 'Attachments',
+    'LBL_ATTACHMENTS' => 'Pièces jointes',
     'LBL_PHASE' => 'Phase',
     'LBL_OWNER' => 'Owner',
 
@@ -75,7 +75,7 @@ $mod_strings = [
     'LBL_PROGRESS' => 'Progress',
     'LBL_PROGRESS_PERCENT' => 'Percent',
     'LBL_PROGRESS_COMPLETED' => 'Réalisée',
-    'LBL_PROGRESS_FAILED' => 'Failed',
+    'LBL_PROGRESS_FAILED' => 'Échec',
     'LBL_PROGRESS_PERCENT_TPL' => '{{fields.progress.attributes.percent|default:-}}% ({{fields.progress.attributes.completed|default:-}} successful, {{fields.progress.attributes.failed|default:-}} failed / {{fields.progress.attributes.total|default:-}} total)',
     'LBL_PROGRESS_NOT_STARTED' => 'Not started',
     'LBL_PROGRESS_QUEUING_TPL' => 'Queueing: {{fields.progress.attributes.total|default:0}} items enqueued',
