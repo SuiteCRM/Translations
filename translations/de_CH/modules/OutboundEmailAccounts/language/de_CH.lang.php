@@ -118,10 +118,10 @@ $mod_strings = array(
     'LBL_OWNER' => 'Besitzer',
     'LBL_OWNER_NAME' => 'Besitzer',
 
-    'LBL_AUTH_TYPE' => 'Auth Type',
+    'LBL_AUTH_TYPE' => 'Auth Typ',
 
     'LBL_EXTERNAL_OAUTH_CONNECTION' => 'Externe OAuth-Verbindung',
-    'LBL_EXTERNAL_OAUTH_CONNECTION_ID' => 'External OAuth Connection id',
+    'LBL_EXTERNAL_OAUTH_CONNECTION_ID' => 'Externe OAuth-Verbindungs ID',
     'LBL_EXTERNAL_OAUTH_CONNECTION_NAME' => 'Externe OAuth-Verbindung',
     'LNK_EXTERNAL_OAUTH_CONNECTIONS' => 'Externe OAuth-Verbindungen',
 
