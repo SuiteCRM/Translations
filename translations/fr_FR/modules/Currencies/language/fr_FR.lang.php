@@ -58,7 +58,7 @@ $mod_strings = array(
     'LBL_UPDATE' => 'Update',
     'LBL_LIST_RATE' => 'Taux de conversion',
     'LBL_LIST_RATE_HELP' => 'Un taux de conversion de 0.5 par Euro signifie que 10 Dollars = 5 Euro.',
-    'LBL_LIST_STATUS' => 'Status',
+    'LBL_LIST_STATUS' => 'Etat',
     'LNK_NEW_CONTACT' => 'New Contact',
     'LNK_NEW_ACCOUNT' => 'Nouveau Compte',
     'LNK_NEW_OPPORTUNITY' => 'New Opportunity',
