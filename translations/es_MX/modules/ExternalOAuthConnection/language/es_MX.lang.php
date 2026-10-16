@@ -50,7 +50,7 @@ $mod_strings = [
     'LBL_DATE_ENTERED' => 'Fecha de Creación',
     'LBL_DATE_MODIFIED' => 'Fecha de Modificación',
     'LBL_MODIFIED' => 'Modificado Por',
-    'LBL_MODIFIED_NAME' => 'Modified By Name',
+    'LBL_MODIFIED_NAME' => 'Modificado por Name',
     'LBL_CREATED' => 'Creado Por',
     'LBL_DESCRIPTION' => 'Descripción',
     'LBL_DELETED' => 'Eliminado',
@@ -69,7 +69,7 @@ $mod_strings = [
     'LNK_LIST' => 'Conexiones OAuth Externos',
     'LBL_SEARCH_FORM_TITLE' => 'Buscar conexiones externas OAuth',
     'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Actividades',
     'LBL_NEW_FORM_TITLE' => 'Nueva conexión externa OAuth',
 
     'LBL_LIST_DELETE' => 'Delete',
