@@ -51,9 +51,9 @@ $mod_strings = array(
     'LBL_OPPORTUNITY' => '영업기회:',
     'LBL_NAME' => 'Opportunity Name',
     'LBL_INVITEE' => '연락처',
-    'LBL_CURRENCIES' => 'Currencies',
-    'LBL_LIST_OPPORTUNITY_NAME' => 'Name',
-    'LBL_LIST_ACCOUNT_NAME' => 'Account Name',
+    'LBL_CURRENCIES' => '통화',
+    'LBL_LIST_OPPORTUNITY_NAME' => '제품명',
+    'LBL_LIST_ACCOUNT_NAME' => '담당자 이름',
     'LBL_LIST_AMOUNT' => '금액',
     'LBL_LIST_AMOUNT_USDOLLAR' => 'Amount',
     'LBL_LIST_DATE_CLOSED' => '닫기',
@@ -70,7 +70,7 @@ $mod_strings = array(
     'LBL_CURRENCY' => '화폐:',
     'LBL_DATE_CLOSED' => 'Expected Close Date:',
     'LBL_TYPE' => '유형:',
-    'LBL_CAMPAIGN' => 'Campaign:',
+    'LBL_CAMPAIGN' => '캠페인:',
     'LBL_NEXT_STEP' => 'Next Step:',
     'LBL_LEAD_SOURCE' => 'Lead Source:',
     'LBL_SALES_STAGE' => 'Sales Stage:',
@@ -110,7 +110,7 @@ $mod_strings = array(
     // SNIP
 
     'LBL_AOS_CONTRACTS' => '계약',
-    'LBL_AOS_QUOTES' => 'Quotes',
+    'LBL_AOS_QUOTES' => '견적',
 
     'LBL_SIZE_ANALYSIS' => 'Size Analysis',
     'LBL_POSITION' => 'Position',
