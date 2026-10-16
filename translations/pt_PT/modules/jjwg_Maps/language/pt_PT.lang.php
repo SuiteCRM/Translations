@@ -71,14 +71,14 @@ $mod_strings['LNK_MAP_LIST'] = 'Listar mapas';
 
 $mod_strings['LBL_MAP_ADDRESS_TEST'] = 'Geocoding Test';
 $mod_strings['LBL_MAP_QUICK_RADIUS'] = 'Mapa rápido de raio';
-$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'None';
-$mod_strings['LBL_MAP_ADDRESS'] = 'Address';
+$mod_strings['LBL_MAP_NULL_GROUP_NAME'] = 'Nenhum';
+$mod_strings['LBL_MAP_ADDRESS'] = 'Endereço';
 $mod_strings['LBL_MAP_PROCESS'] = 'Processar!';
 
 $mod_strings['LBL_MAP_LAST_STATUS'] = 'Última situação do geocódigo';
 $mod_strings['LBL_GEOCODED_COUNTS'] = 'Total de módulos geocodifcados';
 $mod_strings['LBL_CRON_URL'] = 'URL do Cron:';
-$mod_strings['LBL_MODULE_HEADING'] = 'Module';
+$mod_strings['LBL_MODULE_HEADING'] = 'Módulo';
 
 $mod_strings['LBL_N/A'] = 'n/a';
 $mod_strings['LBL_ZERO_RESULTS'] = 'Sem resultados';
@@ -108,8 +108,8 @@ $mod_strings['LBL_ALTERNATIVE_ADDRESS'] = 'Endereço alternativo';
 $mod_strings['LBL_ADDRESS_FLEX_RELATE'] = 'Relação flexível';
 $mod_strings['LBL_ADDRESS_ADDRESS'] = 'Endereço (simples, utilizadores)';
 $mod_strings['LBL_ADDRESS_CUSTOM'] = 'Personalizado (Lógica de controlador personalizado)';
-$mod_strings['LBL_ENABLED'] = 'Enabled';
-$mod_strings['LBL_DISABLED'] = 'Disabled';
+$mod_strings['LBL_ENABLED'] = 'Ativado';
+$mod_strings['LBL_DISABLED'] = 'Desativado';
 $mod_strings['LBL_DEFAULT'] = 'Predefinido:';
 $mod_strings['LBL_CONFIG_DEFAULT'] = 'Predefinido:';
 
@@ -184,7 +184,7 @@ $mod_strings['LBL_CONFIG_MAP_MARKERS_CLUSTERER_MAX_ZOOM_DESC'] = "'map_clusterer
 $mod_strings['LBL_CONFIG_CUSTOM_CONTROLLER_DESC'] = "Nota Importante: Todas as configurações guardadas podem ser encontrados na tabela 'config' dentro da categoria 'jjwg'. Não deverá utilizar um ficheiro personalizado controller.php para substituir as configurações.";
 $mod_strings['LBL_JJWG_MAPS_JJWG_AREAS_FROM_JJWG_AREAS_TITLE'] = 'Areas';
 $mod_strings['LBL_JJWG_MAPS_JJWG_MARKERS_FROM_JJWG_MARKERS_TITLE'] = 'Marcadores';
-$mod_strings['LBL_PARENT_ID'] = 'Parent ID';
+$mod_strings['LBL_PARENT_ID'] = 'ID hospedeiro';
 $mod_strings['LBL_JJWP_PARTNERS'] = 'Parceiros JJWP';
 $mod_strings['LBL_GET_GOOGLE_API_KEY'] = 'Obter uma chave';
 $mod_strings['LBL_GOOGLE_API_KEY'] = 'Chave de API do Google';
