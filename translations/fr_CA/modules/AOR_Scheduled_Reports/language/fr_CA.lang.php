@@ -78,5 +78,5 @@ $mod_strings = array(
     'LBL_AOR_REPORT_NAME' => 'Rapports',
     'LBL_SCHEDULED_REPORTS_INFORMATION' => 'Rapports Planifiés',
     'LBL_LAST_RUN' => 'Dernière exécution',
-    'LBL_STATUS' => 'Status',
+    'LBL_STATUS' => 'Etat',
 );
