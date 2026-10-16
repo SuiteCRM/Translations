@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_EMAIL_ADDRESS_ID' => 'ID',
-    'LBL_EMAIL_ADDRESS' => 'Email Address',
+    'LBL_EMAIL_ADDRESS' => '이메일 주소',
     'LBL_EMAIL_ADDRESS_CAPS' => '이메일 주소 (대문자)',
     'LBL_INVALID_EMAIL' => 'Invalid Email',
     'LBL_OPT_OUT' => '수신거부',
