@@ -32,7 +32,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = [
     // System fields
     'LBL_ASSIGNED_TO_ID' => 'Identifiant de l\'utilisateur assigné',
-    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
     'LBL_DATE_ENTERED' => 'Date de création',
     'LBL_DATE_MODIFIED' => 'Date de modification',
     'LBL_MODIFIED' => 'Modifié par',
@@ -164,9 +164,9 @@ $mod_strings = [
     // Connection test messages
     'LBL_CALENDAR' => 'Calendrier',
     'LBL_SUCCESSFUL' => 'Successful',
-    'LBL_FAILED' => 'Failed',
+    'LBL_FAILED' => 'Échec',
     'LBL_CONNECTION_TEST' => 'Connection Test',
-    'LBL_YES' => 'Yes',
+    'LBL_YES' => 'Oui',
     'LBL_NO' => 'Non',
     'LBL_FOUND_CALENDARS' => 'Found {count} calendars.',
     'LBL_CONNECTION_TEST_RESPONSE_ERROR' => 'An error occurred while processing the connection test response. Please check the logs for details.',
