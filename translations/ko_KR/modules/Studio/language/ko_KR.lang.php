@@ -45,7 +45,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 $mod_strings = array(
     'LBL_EDIT_LAYOUT' => '지면 배치 편집하기',
     'LBL_EDIT_FIELDS' => '사용자 정의 필드 편집',
-    'LBL_SELECT_FILE' => 'Select File',
+    'LBL_SELECT_FILE' => '파일 선택',
     'LBL_MODULE_TITLE' => '작업실',
     'LBL_TOOLBOX' => 'Toolbox',
     'LBL_SUITE_FIELDS_STAGE' => 'SuiteCRM 필드 (준비 영역에 추가할 항목을 클릭)',
@@ -58,7 +58,7 @@ $mod_strings = array(
     'LBL_DROP_HERE' => '[Drop Here]',
 
 //CUSTOM FIELDS
-    'LBL_NAME' => 'Name',
+    'LBL_NAME' => '제품명',
     'LBL_LABEL' => '라벨',
     'LBL_MASS_UPDATE' => '대용량 업데이트',
     'LBL_DEFAULT_VALUE' => '기본값',
@@ -104,7 +104,7 @@ $mod_strings = array(
 
 //BUTTONS
     'LBL_BTN_SAVE' => '저장',
-    'LBL_BTN_CANCEL' => 'Cancel',
+    'LBL_BTN_CANCEL' => '취소',
     'LBL_BTN_SAVEPUBLISH' => 'Save & Deploy',
     'LBL_BTN_HISTORY' => '연혁',
     'LBL_BTN_ADDROWS' => 'Add Rows',
@@ -115,7 +115,7 @@ $mod_strings = array(
 
 //TABS
     'LBL_MODULES' => '모듈',
-    'LBL_MODULE_NAME' => 'Administration',
+    'LBL_MODULE_NAME' => '관리',
     'LBL_CONFIGURE_GROUP_TABS' => 'Configure Module Menu Filters',
     'LBL_GROUP_TAB_WELCOME' => '아래의 필터는 메뉴내의 그룹 모듈 보기의 사용자를 위해, 모듈 메뉴의 더보기 목록에 표시됩니다. 모듈을 드래그앤드롭하여 필터 적용을 하십시오. 노트: 빈 필터는 메뉴에 표시되지 않습니다.',
     'LBL_RENAME_TAB_WELCOME' => '탭 이름을 바꾸려면 아래 테이블의 전시 가치 탭을 클릭하십시오,',
