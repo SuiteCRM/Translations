@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_ASSIGNED_TO_ID' => 'Identifiant de l\'utilisateur assigné',
-    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
     'LBL_ID' => 'ID',
     'LBL_DATE_ENTERED' => 'Date de création',
     'LBL_DATE_MODIFIED' => 'Date de modification',
@@ -78,5 +78,5 @@ $mod_strings = array(
     'LBL_AOR_REPORT_NAME' => 'Rapports',
     'LBL_SCHEDULED_REPORTS_INFORMATION' => 'Scheduled Reports',
     'LBL_LAST_RUN' => 'Dernière exécution ',
-    'LBL_STATUS' => 'Status',
+    'LBL_STATUS' => 'Etat',
 );
