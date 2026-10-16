@@ -86,7 +86,7 @@ $mod_strings = array(
 
     'LBL_SERVICE_MODULE_NAME' => 'Dienstleistungen',
     'LBL_LIST_NUM' => 'Number',
-    'LBL_PARENT_ID' => 'Parent ID',
+    'LBL_PARENT_ID' => 'Eltern-ID',
     'LBL_GROUP_NAME' => 'Group',
     'LBL_PRODUCT_COST_PRICE_USDOLLAR' => 'Einstandspreis (Währung)',
     'LBL_PRODUCT_LIST_PRICE_USDOLLAR' => 'Preis (Währung)',
@@ -100,6 +100,6 @@ $mod_strings = array(
 
     'LBL_AOS_CONTRACTS' => 'Verträge',
     'LBL_AOS_INVOICES' => 'Rechnungen',
-    'LBL_AOS_PRODUCTS' => 'Products',
+    'LBL_AOS_PRODUCTS' => 'Produkte',
     'LBL_AOS_QUOTES' => 'Angebote',
 );
