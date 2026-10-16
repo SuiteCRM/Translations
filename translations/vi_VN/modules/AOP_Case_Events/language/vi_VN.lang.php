@@ -69,5 +69,5 @@ $mod_strings = array(
     'LBL_HISTORY_SUBPANEL_TITLE' => 'Xem lịch sử',
     'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Hoạt động',
     'LBL_NEW_FORM_TITLE' => 'Tình huống sự kiện mới',
-    'LBL_CASE_NAME' => 'Case',
+    'LBL_CASE_NAME' => 'Trường hợp',
 );
