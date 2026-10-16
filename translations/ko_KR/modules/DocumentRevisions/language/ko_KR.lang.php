@@ -51,7 +51,7 @@ $mod_strings = array(
     'LNK_DOCUMENT_LIST' => '자료 리스트',
 
     'LBL_OVERVIEW' => '개요',
-    'LBL_OTHER' => 'Other',
+    'LBL_OTHER' => '기타',
 
     //vardef labels
     'LBL_REVISION_NAME' => 'Revision Number',
@@ -84,7 +84,7 @@ $mod_strings = array(
     'ERR_DOC_VERSION' => '자료버젼',
     'ERR_DELETE_CONFIRM' => '이 문서 수정본을 삭제하시겠습니까?',
     'ERR_DELETE_LATEST_VERSION' => '문서의 최신 수정본을 삭제할 수 없습니다.',
-    'LNK_NEW_MAIL_MERGE' => 'Mail Merge',
+    'LNK_NEW_MAIL_MERGE' => '메일 병합',
     'LBL_DOC_ID' => '문서 소스 ID',
     'LBL_DOC_TYPE' => '소스',
     'LBL_DOC_URL' => '문서 소스 URL',
