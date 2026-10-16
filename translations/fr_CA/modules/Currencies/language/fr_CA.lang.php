@@ -58,7 +58,7 @@ $mod_strings = array(
     'LBL_UPDATE' => 'Mettre à jour',
     'LBL_LIST_RATE' => 'Taux Conversion',
     'LBL_LIST_RATE_HELP' => 'Un taux de conversion de 0.5 USD par CAD signifie que 10 USD = 5 CAD.',
-    'LBL_LIST_STATUS' => 'Status',
+    'LBL_LIST_STATUS' => 'Etat',
     'LNK_NEW_CONTACT' => 'New Contact',
     'LNK_NEW_ACCOUNT' => 'Nouveau Compte',
     'LNK_NEW_OPPORTUNITY' => 'Nouvelle Opportunité',
