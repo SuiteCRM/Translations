@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings['LBL_ASSIGNED_TO_ID'] = 'Identifiant de l\'utilisateur assigné';
-$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Assigned to';
+$mod_strings['LBL_ASSIGNED_TO_NAME'] = 'Assigné à';
 $mod_strings['LBL_ID'] = 'ID';
 $mod_strings['LBL_DATE_ENTERED'] = 'Date de création';
 $mod_strings['LBL_DATE_MODIFIED'] = 'Date de modification';
