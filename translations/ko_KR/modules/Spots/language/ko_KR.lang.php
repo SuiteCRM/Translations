@@ -51,14 +51,14 @@ $mod_strings = array(
     'LBL_DATE_ENTERED' => '작성일',
     'LBL_DATE_MODIFIED' => '수정일',
     'LBL_MODIFIED' => '수정자',
-    'LBL_MODIFIED_NAME' => 'Modified By Name',
+    'LBL_MODIFIED_NAME' => '수정자',
     'LBL_CREATED' => '생성됨',
     'LBL_DESCRIPTION' => '설명',
     'LBL_DELETED' => '삭제됨',
-    'LBL_NAME' => 'Name',
+    'LBL_NAME' => '제품명',
     'LBL_CREATED_USER' => '사용자로 생성됨',
     'LBL_MODIFIED_USER' => '사용자로 수정됨',
-    'LBL_LIST_NAME' => 'Name',
+    'LBL_LIST_NAME' => '제품명',
     'LBL_EDIT_BUTTON' => '수정',
     'LBL_REMOVE' => '제거',
     'LBL_LIST_FORM_TITLE' => '피벗 목록',
@@ -82,7 +82,7 @@ $mod_strings = array(
     'LBL_AN_UNSUPPORTED_DB' => 'Suite 스팟은 MySQL, MS SQL만 구성됩니다.',
 
     //Analytics labels for accounts pivot
-    'LBL_AN_ACCOUNTS_ACCOUNT_NAME' => 'Name',
+    'LBL_AN_ACCOUNTS_ACCOUNT_NAME' => '제품명',
     'LBL_AN_ACCOUNTS_ACCOUNT_TYPE' => 'Account Type',
     'LBL_AN_ACCOUNTS_ACCOUNT_INDUSTRY' => '산업',
     'LBL_AN_ACCOUNTS_ACCOUNT_BILLING_COUNTRY' => '청구지 국가:',
@@ -99,7 +99,7 @@ $mod_strings = array(
     'LBL_AN_LEADS_DAY' => '일',
 
     //Analytics labels for sales pivot
-    'LBL_AN_SALES_ACCOUNT_NAME' => 'Account Name',
+    'LBL_AN_SALES_ACCOUNT_NAME' => '담당자 이름',
     'LBL_AN_SALES_OPPORTUNITY_NAME' => 'Opportunity Name',
     'LBL_AN_SALES_ASSIGNED_USER' => '담당자',
     'LBL_AN_SALES_OPPORTUNITY_TYPE' => '기회유형',
@@ -113,13 +113,13 @@ $mod_strings = array(
     'LBL_AN_SALES_WEEK' => '판매 주',
     'LBL_AN_SALES_DAY' => '판매 일',
     'LBL_AN_SALES_YEAR' => '판매 년',
-    'LBL_AN_SALES_CAMPAIGN' => 'Campaign',
+    'LBL_AN_SALES_CAMPAIGN' => '캠페인',
 
     //Analytics labels for service pivot
-    'LBL_AN_SERVICE_ACCOUNT_NAME' => 'Account Name',
+    'LBL_AN_SERVICE_ACCOUNT_NAME' => '담당자 이름',
     'LBL_AN_SERVICE_STATE' => '주',
     'LBL_AN_SERVICE_STATUS' => '상태',
-    'LBL_AN_SERVICE_PRIORITY' => 'Priority',
+    'LBL_AN_SERVICE_PRIORITY' => '우선 순위 ',
     'LBL_AN_SERVICE_CREATED_DAY' => '생성된 일',
     'LBL_AN_SERVICE_CREATED_WEEK' => '생성된 주',
     'LBL_AN_SERVICE_CREATED_MONTH' => '생성된 월',
@@ -130,7 +130,7 @@ $mod_strings = array(
 
     //Analytics labels for the activities pivot
     'LBL_AN_ACTIVITIES_TYPE' => '유형',
-    'LBL_AN_ACTIVITIES_NAME' => 'Name',
+    'LBL_AN_ACTIVITIES_NAME' => '제품명',
     'LBL_AN_ACTIVITIES_STATUS' => '상태',
     'LBL_AN_ACTIVITIES_ASSIGNED_TO' => '담당자',
 
@@ -144,7 +144,7 @@ $mod_strings = array(
     'LBL_AN_MARKETING_OPPORTUNITY_AMOUNT' => 'Opportunity Amount',
     'LBL_AN_MARKETING_OPPORTUNITY_SALES_STAGE' => '기회 판매 단계',
     'LBL_AN_MARKETING_OPPORTUNITY_ASSIGNED_TO' => '기회 할당',
-    'LBL_AN_MARKETING_ACCOUNT_NAME' => 'Account Name',
+    'LBL_AN_MARKETING_ACCOUNT_NAME' => '담당자 이름',
 
     //Analytics labels for the marketing activities pivot
     'LBL_AN_MARKETINGACTIVITY_CAMPAIGN_NAME' => 'Campaign Name',
@@ -158,7 +158,7 @@ $mod_strings = array(
     'LBL_AN_QUOTES_OPPORTUNITY_TYPE' => 'Opportunity Type',
     'LBL_AN_QUOTES_OPPORTUNITY_LEAD_SOURCE' => '기회 가망고객 소스',
     'LBL_AN_QUOTES_OPPORTUNITY_SALES_STAGE' => '기회 판매 단계',
-    'LBL_AN_QUOTES_ACCOUNT_NAME' => 'Account Name',
+    'LBL_AN_QUOTES_ACCOUNT_NAME' => '담당자 이름',
     'LBL_AN_QUOTES_CONTACT_NAME' => '거래처 담당자 이름',
     'LBL_AN_QUOTES_ITEM_NAME' => 'Item Name',
     'LBL_AN_QUOTES_ITEM_TYPE' => '항목 유형',
