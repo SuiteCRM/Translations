@@ -122,7 +122,7 @@ $mod_strings = array(
     'LBL_SIGNATURE' => 'Signature',
     // contacts/leads/targets subpanels
     'LBL_LIST_INVITE_STATUS_EVENT' => 'Invited',
-    'LBL_LIST_ACCEPT_STATUS_EVENT' => 'Status',
+    'LBL_LIST_ACCEPT_STATUS_EVENT' => 'Etat',
 
     'LBL_ACTIVITY_STATUS' => 'Statut Activité',
     'LBL_FP_EVENT_LOCATIONS_FP_EVENTS_1_FROM_FP_EVENTS_TITLE' => 'Événements',
