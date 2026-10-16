@@ -47,8 +47,8 @@ $mod_strings = array(
     'LBL_SHAREDWEEK' => 'Shared Week',
     'LBL_SHAREDMONTH' => 'Shared Month',
 
-    'LBL_MODULE_NAME' => 'Calendar',
-    'LBL_MODULE_TITLE' => 'Calendar',
+    'LBL_MODULE_NAME' => 'Kalendorius',
+    'LBL_MODULE_TITLE' => 'Kalendorius',
     'LNK_NEW_CALL' => 'Suplanuoti skambutį',
     'LNK_NEW_MEETING' => 'Schedule Meeting',
     'LNK_NEW_TASK' => 'Create Task',
