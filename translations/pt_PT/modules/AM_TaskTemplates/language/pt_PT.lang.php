@@ -69,8 +69,8 @@ $mod_strings = array(
     'LNK_LIST' => 'Ver modelos de tarefas de projeto',
     'LNK_IMPORT_AM_TASKTEMPLATES' => 'Importar modelos de tarefas de projeto',
     'LBL_SEARCH_FORM_TITLE' => 'Procurar modelos de tarefas de projeto',
-    'LBL_HISTORY_SUBPANEL_TITLE' => 'View History',
-    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Activities',
+    'LBL_HISTORY_SUBPANEL_TITLE' => 'Ver histórico',
+    'LBL_ACTIVITIES_SUBPANEL_TITLE' => 'Atividades',
     'LBL_AM_TASKTEMPLATES_SUBPANEL_TITLE' => 'Project Task Templates',
     'LBL_NEW_FORM_TITLE' => 'Novo modelo de tarefas de projeto',
     'LBL_STATUS' => 'Situação',
@@ -84,7 +84,7 @@ $mod_strings = array(
     'LBL_ESTIMATED_EFFORT' => 'Esforço estimado (hrs)',
     'LBL_UTILIZATION' => 'Utilização (%)',
     'LBL_DURATION' => 'Duração (dias)',
-    'LBL_AM_TASKTEMPLATES_AM_PROJECTTEMPLATES_FROM_AM_PROJECTTEMPLATES_TITLE' => 'Project Templates',
+    'LBL_AM_TASKTEMPLATES_AM_PROJECTTEMPLATES_FROM_AM_PROJECTTEMPLATES_TITLE' => 'Projetos — Modelos',
 
     'LBL_AM_TASKTEMPLATES_AM_PROJECTTEMPLATES_FROM_AM_TASKTEMPLATES_TITLE' => 'Modelos de tarefas: Modelos de projeto a partir do título de modelos da tarefa',
 );
