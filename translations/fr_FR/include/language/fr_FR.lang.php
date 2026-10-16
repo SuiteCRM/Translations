@@ -399,7 +399,7 @@ $app_list_strings = array(
     ),
     'lead_status_dom' => array(
         '' => '',
-        'New' => 'New',
+        'New' => 'Nouveau',
         'Assigned' => 'Attribué',
         'In Process' => 'En cours',
         'Converted' => 'Converti',
@@ -566,15 +566,15 @@ $app_list_strings = array(
         'Duplicate' => 'Dupliquer',
         'Closed' => 'Closed',
         'Out of Date' => 'Périmé',
-        'Invalid' => 'Invalid',
+        'Invalid' => 'Invalide',
     ),
 
-    'issue_status_default_key' => 'New',
+    'issue_status_default_key' => 'Nouveau',
     'issue_status_dom' => array(
-        'New' => 'New',
+        'New' => 'Nouveau',
         'Assigned' => 'Attribué',
         'Closed' => 'Closed',
-        'Pending' => 'Pending',
+        'Pending' => 'En attente',
         'Rejected' => 'Rejected',
     ),
 
@@ -592,15 +592,15 @@ $app_list_strings = array(
         'Duplicate' => 'Doublon',
         'Fixed' => 'Fixé',
         'Out of Date' => 'Périmé',
-        'Invalid' => 'Invalid',
+        'Invalid' => 'Invalide',
         'Later' => 'Reporté',
     ),
-    'bug_status_default_key' => 'New',
+    'bug_status_default_key' => 'Nouveau',
     'bug_status_dom' => array(
-        'New' => 'New',
+        'New' => 'Nouveau',
         'Assigned' => 'Attribué',
         'Closed' => 'Closed',
-        'Pending' => 'Pending',
+        'Pending' => 'En attente',
         'Rejected' => 'Rejected',
     ),
     'bug_type_default_key' => 'Suivi bugs',
@@ -852,7 +852,7 @@ $app_list_strings = array(
         'draft' => 'Brouillon',
         'read' => 'Lu',
         'replied' => 'Répondu',
-        'sent' => 'Sent',
+        'sent' => 'Envoyé',
         'send_error' => 'Erreurs d&#39;envoi',
         'unread' => 'Non Lu',
     ),
@@ -880,11 +880,11 @@ $app_list_strings = array(
         2 => 'Vous devez affecter uniquement des éléments contrôlés lors de l’affectation directe des éléments.',
     ),
     'dom_email_bool' => array(
-        'bool_true' => 'Yes',
+        'bool_true' => 'Oui',
         'bool_false' => 'Non',
     ),
     'dom_int_bool' => array(
-        1 => 'Yes',
+        1 => 'Oui',
         0 => 'Non',
     ),
     'dom_int_bool_string' => array(
@@ -892,7 +892,7 @@ $app_list_strings = array(
         '0' => 'Non',
     ),
     'dom_switch_bool' => array(
-        'on' => 'Yes',
+        'on' => 'Oui',
         'off' => 'Non',
         '' => 'Non',
     ),
@@ -957,7 +957,7 @@ $app_list_strings = array(
         'FAQ' => 'FAQ',
         'Expired' => 'Expired',
         'Under Review' => 'Under Review',
-        'Pending' => 'Pending',
+        'Pending' => 'En attente',
     ),
     'document_template_type_dom' => array(
         '' => '',
@@ -1086,7 +1086,7 @@ $app_list_strings = array(
     ),
 
     'custom_fields_importable_dom' => array(
-        'true' => 'Yes',
+        'true' => 'Oui',
         'false' => 'Non',
         'required' => 'Requis',
     ),
@@ -1397,7 +1397,7 @@ $app_strings = array(
     'LBL_EMAIL_IMPORTING_EMAIL' => 'Importer l\'E-mail',
     'LBL_EMAIL_IMPORT_EMAIL' => 'Importer dans SuiteCRM',
     'LBL_EMAIL_IMPORT_SETTINGS' => 'Import',
-    'LBL_EMAIL_INVALID' => 'Invalid',
+    'LBL_EMAIL_INVALID' => 'Invalide',
     'LBL_EMAIL_LOADING' => 'Chargement...',
     'LBL_EMAIL_MARK' => 'Marquer',
     'LBL_EMAIL_MARK_FLAGGED' => 'Avec Marquage',
@@ -1485,7 +1485,7 @@ $app_strings = array(
 
     'LBL_EMAIL_SELECT' => 'Select',
 
-    'LBL_EMAIL_SEND' => 'Send',
+    'LBL_EMAIL_SEND' => 'Envoyer',
     'LBL_EMAIL_SENDING_EMAIL' => 'Envoi du Message',
 
     'LBL_EMAIL_SETTINGS' => 'Paramètres',
@@ -1539,7 +1539,7 @@ $app_strings = array(
     'LBL_EMAIL_VIEW_RAW' => 'Voir format brut',
     'LBL_EMAIL_VIEW_UNSUPPORTED' => 'Cette fonctionnalité n\'est pas supportée quand vous utilisez le protocole POP3.',
     'LBL_DEFAULT_LINK_TEXT' => 'Lien texte par défaut.',
-    'LBL_EMAIL_YES' => 'Yes',
+    'LBL_EMAIL_YES' => 'Oui',
     'LBL_EMAIL_TEST_OUTBOUND_SETTINGS' => 'Envoyer un E-mail de test',
     'LBL_EMAIL_TEST_OUTBOUND_SETTINGS_SENT' => 'E-mail de test envoyé !',
     'LBL_EMAIL_MESSAGE_NO' => 'Message N°',
@@ -1622,7 +1622,7 @@ $app_strings = array(
     'LBL_QUICK_CHARTS' => 'Graphiques rapides',
     'LBL_QUICK_HISTORY' => 'Echéancier',
     'LBL_CHECKALL' => 'Tout cocher',
-    'LBL_CITY' => 'City',
+    'LBL_CITY' => 'Ville',
     'LBL_CLEAR_BUTTON_LABEL' => 'Clear',
     'LBL_CLEAR_BUTTON_TITLE' => 'Clear',
     'LBL_CLEARALL' => 'Tout effacer',
@@ -1634,14 +1634,14 @@ $app_strings = array(
     'LBL_COMPOSE_EMAIL_BUTTON_KEY' => 'L',
     'LBL_COMPOSE_EMAIL_BUTTON_LABEL' => 'Rédiger E-mail',
     'LBL_COMPOSE_EMAIL_BUTTON_TITLE' => 'Envoyer E-mail',
-    'LBL_SEARCH_DROPDOWN_YES' => 'Yes',
+    'LBL_SEARCH_DROPDOWN_YES' => 'Oui',
     'LBL_SEARCH_DROPDOWN_NO' => 'Non',
     'LBL_CONTACT_LIST' => 'Liste des Contacts',
     'LBL_CONTACT' => 'Contact',
     'LBL_CONTACTS' => 'Contacts',
     'LBL_CONTRACT' => 'Contract',
     'LBL_CONTRACTS' => 'Contrats',
-    'LBL_COUNTRY' => 'Country:',
+    'LBL_COUNTRY' => 'Pays:',
     'LBL_CREATE_BUTTON_LABEL' => 'Créer',
     'LBL_CREATED_BY_USER' => 'Créé par l\'utilisateur',
     'LBL_CREATED_BY' => 'Créé par',
@@ -1650,7 +1650,7 @@ $app_strings = array(
     'LBL_CURRENT_USER_FILTER' => 'Mes éléments',
     'LBL_CURRENCY' => 'Currency:',
     'LBL_DOCUMENTS' => 'Documents',
-    'LBL_DATE_ENTERED' => 'Date Created:',
+    'LBL_DATE_ENTERED' => 'Date de Création :',
     'LBL_DATE_MODIFIED' => 'Date de modification :',
     'LBL_EDIT_BUTTON' => 'Modifier',
     'LBL_DUPLICATE_BUTTON' => 'Doublon',
@@ -2214,11 +2214,11 @@ $app_strings = array(
 
     //Collection Field
     'LBL_COLLECTION_NAME' => 'Nom',
-    'LBL_COLLECTION_PRIMARY' => 'Primary',
+    'LBL_COLLECTION_PRIMARY' => 'Principal',
     'ERROR_MISSING_COLLECTION_SELECTION' => 'Champ obligatoire vide',
 
     //MB -Fixed Bug #32812 -Max
-    'LBL_ASSIGNED_TO_NAME' => 'Assigned to',
+    'LBL_ASSIGNED_TO_NAME' => 'Assigné à',
     'LBL_DESCRIPTION' => 'Description',
 
     'LBL_YESTERDAY' => 'hier',
@@ -3176,7 +3176,7 @@ $app_list_strings['eapm_list_documents'] = array(
 $app_list_strings['token_status'] = array(
     1 => 'Demande',
     2 => 'Accès',
-    3 => 'Invalid',
+    3 => 'Invalide',
 );
 
 $app_list_strings ['emailTemplates_type_list'] = array(
@@ -3241,7 +3241,7 @@ $app_list_strings['case_state_dom'] =
 $app_list_strings['case_status_default_key'] = 'Ouvrir_Nouveau';
 $app_list_strings['case_status_dom'] =
     array(
-        'Open_New' => 'New',
+        'Open_New' => 'Nouveau',
         'Open_Assigned' => 'Assigné',
         'Closed_Closed' => 'Closed',
         'Open_Pending Input' => 'Pending Input',
@@ -3466,8 +3466,8 @@ $app_list_strings['aow_operator_list']['Ends_With'] = 'Ends With';
 $app_list_strings['aow_operator_list']['is_null'] = 'Est nul';
 $app_list_strings['aow_process_status_list']['Complete'] = 'Terminée';
 $app_list_strings['aow_process_status_list']['Running'] = 'En cours d\'exécution';
-$app_list_strings['aow_process_status_list']['Pending'] = 'Pending';
-$app_list_strings['aow_process_status_list']['Failed'] = 'Failed';
+$app_list_strings['aow_process_status_list']['Pending'] = 'En attente';
+$app_list_strings['aow_process_status_list']['Failed'] = 'Échec';
 $app_list_strings['aow_condition_operator_list']['And'] = 'And';
 $app_list_strings['aow_condition_operator_list']['OR'] = 'OR';
 $app_list_strings['aow_condition_type_list']['Value'] = 'Valeur';
@@ -3928,7 +3928,7 @@ $app_strings['LBL_OPT_IN_PENDING_EMAIL_SENT'] = 'Dans l\'attente de la confirmat
 $app_strings['LBL_OPT_IN'] = 'Activé';
 $app_strings['LBL_OPT_IN_CONFIRMED'] = 'Confirmer l\'abonnement';
 $app_strings['LBL_OPT_IN_OPT_OUT'] = 'Désinscrit';
-$app_strings['LBL_OPT_IN_INVALID'] = 'Invalid';
+$app_strings['LBL_OPT_IN_INVALID'] = 'Invalide';
 
 /** @see SugarEmailAddress */
 $app_list_strings['email_settings_opt_in_dom'] = array(
@@ -3987,7 +3987,7 @@ $app_list_strings['calendar_account_types'] = [
 $app_list_strings['calendar_connection_status_list'] = [
     'never_tested' => 'Never Tested',
     'success' => 'Accès validé',
-    'failed' => 'Failed',
+    'failed' => 'Échec',
 ];
 
 // Calendar Sync Attempt Status dropdown
@@ -4229,8 +4229,8 @@ $app_strings['LBL_FROM_SYSTEM'] = 'Envoyer Depuis le Système';
 $app_strings['LBL_SIGNATURE'] = 'Signature';
 $app_strings['LBL_NEW_NOTIFICATION'] = "Vous avez {{context.unread}} nouvelles notifications";
 $app_strings['LBL_ALERT_STATUS_COMPLETED'] = 'Réalisée';
-$app_strings['LBL_ALERT_STATUS_COMPLETED_WITH_FAILURES'] = 'Completed With Failures';
-$app_strings['LBL_ALERT_STATUS_FAILED'] = 'Failed';
+$app_strings['LBL_ALERT_STATUS_COMPLETED_WITH_FAILURES'] = 'Terminé avec des échecs';
+$app_strings['LBL_ALERT_STATUS_FAILED'] = 'Échec';
 $app_strings['LBL_NOTIFICATION_ITEM_DATE'] = 'Échéance : {{fields.date_start.value}}';
 $app_strings['LBL_NOTIFICATION_ITEM_DATE_ENTERED'] = 'Notifié : {{fields.snooze.value}}';
 $app_strings['LBL_QUICK_ACTIONS'] = 'Actions rapides';
