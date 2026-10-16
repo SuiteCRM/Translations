@@ -44,7 +44,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 
 $mod_strings = array(
     'LBL_SALUTATION' => '인사',
-    'LBL_NAME' => 'Name',
+    'LBL_NAME' => '제품명',
     'LBL_FIRST_NAME' => '이름',
     'LBL_LAST_NAME' => '성',
     'LBL_TITLE' => '제목',
