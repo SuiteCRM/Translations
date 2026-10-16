@@ -89,7 +89,7 @@ $mod_strings = array(
 
     //Analytics labels for leads pivot
     'LBL_AN_LEADS_ASSIGNED_USER' => 'Utilisateur Assigné',
-    'LBL_AN_LEADS_STATUS' => 'Status',
+    'LBL_AN_LEADS_STATUS' => 'Etat',
     'LBL_AN_LEADS_LEAD_SOURCE' => 'Lead Source',
     'LBL_AN_LEADS_CAMPAIGN_NAME' => 'Nom Campagne',
     'LBL_AN_LEADS_YEAR' => 'Year',
@@ -118,7 +118,7 @@ $mod_strings = array(
     //Analytics labels for service pivot
     'LBL_AN_SERVICE_ACCOUNT_NAME' => 'Nom Compte',
     'LBL_AN_SERVICE_STATE' => 'Région',
-    'LBL_AN_SERVICE_STATUS' => 'Status',
+    'LBL_AN_SERVICE_STATUS' => 'Etat',
     'LBL_AN_SERVICE_PRIORITY' => 'Priority',
     'LBL_AN_SERVICE_CREATED_DAY' => 'Jour Création',
     'LBL_AN_SERVICE_CREATED_WEEK' => 'Semaine Création',
@@ -131,11 +131,11 @@ $mod_strings = array(
     //Analytics labels for the activities pivot
     'LBL_AN_ACTIVITIES_TYPE' => 'Type',
     'LBL_AN_ACTIVITIES_NAME' => 'Nom',
-    'LBL_AN_ACTIVITIES_STATUS' => 'Status',
+    'LBL_AN_ACTIVITIES_STATUS' => 'Etat',
     'LBL_AN_ACTIVITIES_ASSIGNED_TO' => 'Utilisateur Assigné',
 
     //Analytics labels for the marketing pivot
-    'LBL_AN_MARKETING_STATUS' => 'Status',
+    'LBL_AN_MARKETING_STATUS' => 'Etat',
     'LBL_AN_MARKETING_TYPE' => 'Type',
     'LBL_AN_MARKETING_BUDGET' => 'Budget',
     'LBL_AN_MARKETING_EXPECTED_COST' => 'Coût Prévu',
