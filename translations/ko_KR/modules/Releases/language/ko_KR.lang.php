@@ -54,7 +54,7 @@ $mod_strings = array(
     'LBL_LIST_LIST_ORDER' => 'Order',
     'LBL_LIST_ORDER' => 'Order:',
     'LBL_LIST_STATUS' => '상태',
-    'LBL_STATUS' => 'Status:',
+    'LBL_STATUS' => '상태:',
     'LNK_NEW_RELEASE' => 'Release List',
     'NTC_DELETE_CONFIRMATION' => 'Are you sure you want to delete this record?',
     'NTC_SNOOZE_CONFIRMATION' => '정말로 나중에 알림을 받으시겠습니까?',
@@ -64,7 +64,7 @@ $mod_strings = array(
     'release_status_dom' =>
         array(
             'Active' => '활성',
-            'Inactive' => 'Inactive',
+            'Inactive' => '비활성',
         ),
     'LBL_EDITLAYOUT' => '레이아웃 수정' /*for 508 compliance fix*/,
 );
