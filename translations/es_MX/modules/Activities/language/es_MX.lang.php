@@ -43,7 +43,7 @@ if (!defined('sugarEntry') || !sugarEntry) {
 }
 
 $mod_strings = array(
-    'LBL_MODULE_NAME' => 'Activities',
+    'LBL_MODULE_NAME' => 'Actividades',
     'LBL_MODULE_TITLE' => 'Actividades : Inici',
     'LBL_SEARCH_FORM_TITLE' => 'Búsqueda de actividades',
     'LBL_LIST_FORM_TITLE' => 'Lista de actividades',
