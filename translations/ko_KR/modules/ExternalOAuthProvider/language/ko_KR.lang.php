@@ -50,14 +50,14 @@ $mod_strings = [
     'LBL_DATE_ENTERED' => '작성일',
     'LBL_DATE_MODIFIED' => '수정일',
     'LBL_MODIFIED' => '수정자',
-    'LBL_MODIFIED_NAME' => 'Modified By Name',
+    'LBL_MODIFIED_NAME' => '수정자',
     'LBL_CREATED' => '생성됨',
     'LBL_DESCRIPTION' => '설명',
     'LBL_DELETED' => '삭제됨',
-    'LBL_NAME' => 'Name',
+    'LBL_NAME' => '제품명',
     'LBL_CREATED_USER' => '사용자로 생성됨',
     'LBL_MODIFIED_USER' => '사용자로 수정됨',
-    'LBL_LIST_NAME' => 'Name',
+    'LBL_LIST_NAME' => '제품명',
     'LBL_EDIT_BUTTON' => '수정',
     'LBL_REMOVE' => '제거',
     'LBL_LIST_FORM_TITLE' => 'External OAuth Provider List',
@@ -97,7 +97,7 @@ $mod_strings = [
 
     'LBL_EXTRA' => 'Extra configurations',
     'LBL_MAPPING' => 'Mapping configurations',
-    'LBL_OTHER' => 'Other',
+    'LBL_OTHER' => '기타',
 
 
     'LNK_LIST_CREATE_NEW_PERSONAL' => 'New Personal Provider',
